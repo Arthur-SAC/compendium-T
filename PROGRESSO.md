@@ -11,11 +11,11 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Tarefa 8 da Fase 0 — Carregador de dados + página de ficha.**
-Disparar implementador **Opus** (tarefa de integração) com o texto da Tarefa 8 do plano
-`docs/superpowers/plans/2026-05-28-fase-0-fundacao.md`. Depois revisão de qualidade Opus.
-Em seguida: Tarefa 9 (busca + home, Sonnet) e Tarefa 10 (extração, Sonnet).
-Ao fim da Fase 0: revisão final + escrever o **plano da Fase 1**.
+➡️ **Tarefa 10 da Fase 0 — Ferramenta de extração** (`extracao/` — poppler + proveniência + CLI),
+validada em páginas reais do Livro Básico.
+Disparar implementador **Sonnet** com o texto da Tarefa 10 do plano
+`docs/superpowers/plans/2026-05-28-fase-0-fundacao.md`.
+Ao fim da Fase 0: revisão final + `npm run build` ok + escrever o **plano da Fase 1**.
 
 Lembrar: Node não está no PATH do Bash (`export PATH="$PATH:/c/Program Files/nodejs"`);
 commitar caminhos específicos; **não dar push** até o usuário pedir.
@@ -32,19 +32,19 @@ commitar caminhos específicos; **não dar push** até o usuário pedir.
 - [x] _(extra)_ Ignorar PDFs/settings.local + reescrever histórico (commit `092e8b9`, force-push)
 - [x] **T6** Motor de auto-link/tooltip + fix de revisão (bordas com dígitos, Map) (commits `c8d67b7`, `155fbce`) — 9 testes
 - [x] **T7** Componentes `Tooltip`, `LinkEntidade`, `TextoRico` (commit `e5a472b`) — suíte com 19 testes
-- [ ] **T8** Carregador de dados (`lib/dados.ts`) + página de ficha (`app/ficha/[tipo]/[id]`) — **PRÓXIMA**
-- [ ] **T9** Busca (`lib/busca.ts`) + componente `Busca` + home
+- [x] **T8** Carregador de dados (`lib/dados.ts`) + página de ficha (`app/ficha/[tipo]/[id]`) (commit `ef6d49d`) — 21 testes
+- [x] **T9** Busca (`lib/busca.ts`) + componente `Busca` + home (commit `3842e0f`) — 25 testes
 - [ ] **T10** Ferramenta de extração (`extracao/` — poppler + provtência + CLI), validada em páginas reais
 - [ ] Revisão final da Fase 0 + `npm run build` ok
 - [ ] Escrever plano da **Fase 1**
 
 ## Estado dos testes
-- Suíte verde: **19 testes** (smoke, divisor, schema, seed, autolink ×9, textorico ×2). Rodar: `cd site && npm test`.
+- Suíte verde: **25 testes** (smoke, divisor, schema, seed, autolink ×9, textorico ×2, dados ×2, busca ×4). Rodar: `cd site && npm test`.
 
 ## Estado do git
 - Remote `origin` (GitHub `Arthur-SAC/compendium-T`) main = `092e8b9`.
-- Local `main` HEAD = `e5a472b`.
-- **Commits locais não enviados:** `c8d67b7`, `155fbce`, `e5a472b` (Tarefas 6–7). Push pendente do "sobe" do usuário.
+- Local `main` HEAD = `3842e0f`.
+- **Commits locais não enviados:** `c8d67b7`, `155fbce`, `e5a472b`, `e47365f`, `ef6d49d`, `3842e0f` (Tarefas 6–9 + docs). Push pendente do "sobe" do usuário.
 
 ---
 
