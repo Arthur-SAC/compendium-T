@@ -6,6 +6,11 @@ site/out/
 # cache de extração (páginas renderizadas / imagens)
 extracao/cache/
 data/**/imagens/
+# PDFs dos livros (NUNCA versionar — tamanho + direitos autorais)
+pdfs/
+*.pdf
+# config local do Claude Code (permissões pessoais)
+.claude/settings.local.json
 # companion de brainstorm
 .superpowers/
 # SO
