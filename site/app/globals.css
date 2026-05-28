@@ -1,6 +1,30 @@
 @import "tailwindcss";
 
 :root {
+  --fundo: #120318;
+  --fundo-card: #1b0820;
+  --borda: #7a1f63;
+  --borda-clara: #c0306e;
+  --texto: #f3d9f0;
+  --texto-suave: #d98fc4;
+  --destaque: #ff6ab0;
+  --destaque-forte: #ff2e88;
+  --serifa: Georgia, "Times New Roman", serif;
+}
+body {
+  background:
+    radial-gradient(120% 80% at 50% -10%, #3a0c3e 0%, transparent 60%),
+    linear-gradient(180deg, #1b0820, #120318);
+  color: var(--texto);
+  min-height: 100vh;
+}
+.titulo-grimorio {
+  font-family: var(--serifa);
+  color: #fff;
+  text-shadow: 0 0 22px rgba(255, 40, 140, 0.55);
+}
+
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
