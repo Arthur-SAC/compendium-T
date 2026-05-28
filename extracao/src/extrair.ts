@@ -14,6 +14,6 @@ for (let p = Number(ini); p <= Number(fim); p++) {
   const caminhos = buildPagePaths(cache, livro, p);
   mkdirSync(caminhos.dir, { recursive: true });
   writeFileSync(caminhos.texto, extrairTexto(pdf, p), "utf8");
-  renderizarPagina(pdf, p, caminhos.imagem.replace(/\.png$/, ""));
+  renderizarPagina(pdf, p, caminhos.prefixoImagem);
   console.log(`pág ${p}: texto + imagem em ${caminhos.dir}`);
 }

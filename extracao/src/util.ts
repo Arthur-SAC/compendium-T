@@ -23,5 +23,12 @@ export function parsePdfimagesList(saida: string): ImagemInfo[] {
 export function buildPagePaths(cacheDir: string, livro: string, pagina: number) {
   const pad = String(pagina).padStart(4, "0");
   const base = posix.join(cacheDir, livro);
-  return { dir: base, texto: posix.join(base, `p${pad}.txt`), imagem: posix.join(base, `p${pad}.png`) };
+  // NOTA: pdftoppm anexa "-<pagina>" ao prefixo de saída (ex.: p0041-41.png).
+  // `imagem` é o caminho base nominal/previsível; `prefixoImagem` é o prefixo a passar ao pdftoppm.
+  return {
+    dir: base,
+    texto: posix.join(base, `p${pad}.txt`),
+    imagem: posix.join(base, `p${pad}.png`),
+    prefixoImagem: posix.join(base, `p${pad}`),
+  };
 }
