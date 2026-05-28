@@ -1,0 +1,13 @@
+# dependências
+node_modules/
+# build do site
+site/.next/
+site/out/
+# cache de extração (páginas renderizadas / imagens)
+extracao/cache/
+data/**/imagens/
+# companion de brainstorm
+.superpowers/
+# SO
+Thumbs.db
+.DS_Store
