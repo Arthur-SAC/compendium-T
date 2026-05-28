@@ -11,11 +11,9 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Tarefa 10 da Fase 0 — Ferramenta de extração** (`extracao/` — poppler + proveniência + CLI),
-validada em páginas reais do Livro Básico.
-Disparar implementador **Sonnet** com o texto da Tarefa 10 do plano
-`docs/superpowers/plans/2026-05-28-fase-0-fundacao.md`.
-Ao fim da Fase 0: revisão final + `npm run build` ok + escrever o **plano da Fase 1**.
+➡️ **Revisão final da Fase 0** + `npm run build` ok + escrever o **plano da Fase 1**.
+- Confirmar que `cd site && npm run build` passa sem erros.
+- Se ok: escrever `docs/superpowers/plans/2026-05-29-fase-1-livro-basico.md`.
 
 Lembrar: Node não está no PATH do Bash (`export PATH="$PATH:/c/Program Files/nodejs"`);
 commitar caminhos específicos; **não dar push** até o usuário pedir.
@@ -34,17 +32,18 @@ commitar caminhos específicos; **não dar push** até o usuário pedir.
 - [x] **T7** Componentes `Tooltip`, `LinkEntidade`, `TextoRico` (commit `e5a472b`) — suíte com 19 testes
 - [x] **T8** Carregador de dados (`lib/dados.ts`) + página de ficha (`app/ficha/[tipo]/[id]`) (commit `ef6d49d`) — 21 testes
 - [x] **T9** Busca (`lib/busca.ts`) + componente `Busca` + home (commit `3842e0f`) — 25 testes
-- [ ] **T10** Ferramenta de extração (`extracao/` — poppler + provtência + CLI), validada em páginas reais
+- [x] **T10** Ferramenta de extração (`extracao/` — poppler + proveniência + CLI), validada em páginas reais (commit `3f7db76`) — 3 testes helpers + CLI validado pgs 41–42 do Livro Básico
 - [ ] Revisão final da Fase 0 + `npm run build` ok
 - [ ] Escrever plano da **Fase 1**
 
 ## Estado dos testes
-- Suíte verde: **25 testes** (smoke, divisor, schema, seed, autolink ×9, textorico ×2, dados ×2, busca ×4). Rodar: `cd site && npm test`.
+- **site/:** suíte verde: **25 testes** (smoke, divisor, schema, seed, autolink ×9, textorico ×2, dados ×2, busca ×4). Rodar: `cd site && npm test`.
+- **extracao/:** **3 testes** (slugify, parsePdfimagesList, buildPagePaths). Rodar: `cd extracao && npm test`.
 
 ## Estado do git
 - Remote `origin` (GitHub `Arthur-SAC/compendium-T`) main = `092e8b9`.
-- Local `main` HEAD = `3842e0f`.
-- **Commits locais não enviados:** `c8d67b7`, `155fbce`, `e5a472b`, `e47365f`, `ef6d49d`, `3842e0f` (Tarefas 6–9 + docs). Push pendente do "sobe" do usuário.
+- Local `main` HEAD = `3f7db76`.
+- **Commits locais não enviados:** `c8d67b7`, `155fbce`, `e5a472b`, `e47365f`, `ef6d49d`, `3842e0f`, `221ec2e`, `3f7db76` (Tarefas 6–10 + docs). Push pendente do "sobe" do usuário.
 
 ---
 
