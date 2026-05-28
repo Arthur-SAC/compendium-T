@@ -1,0 +1,4 @@
+[
+  { "id": "medo", "nome": "Medo", "descricao": "O personagem sofre −2 em testes de perícia, ataques e Defesa enquanto puder ver a fonte do medo. Não acumula com outras fontes de medo.", "fonte": { "livro": "livro-basico", "pagina": 318 } },
+  { "id": "atordoado", "nome": "Atordoado", "descricao": "O personagem não pode fazer ações e fica desprevenido.", "fonte": { "livro": "livro-basico", "pagina": 318 } }
+]

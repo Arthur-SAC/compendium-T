@@ -1,0 +1,4 @@
+[
+  { "id": "nd", "nome": "ND", "descricao": "Nível de Desafio — mede o poder de uma criatura ou encontro." },
+  { "id": "pm", "nome": "PM", "descricao": "Pontos de Mana — recurso gasto para conjurar magias e usar habilidades." }
+]

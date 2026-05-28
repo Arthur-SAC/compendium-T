@@ -1,0 +1,6 @@
+{
+  "fontes": [
+    { "slug": "livro-basico", "titulo": "Livro Básico", "arquivo": "T20 - Livro Básico.pdf", "ordem": 1 },
+    { "slug": "ameacas-de-arton", "titulo": "Ameaças de Arton", "arquivo": "Ameacas-de-Arton-v1.0-17-11-2023.pdf", "ordem": 2 }
+  ]
+}
