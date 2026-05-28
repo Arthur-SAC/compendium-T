@@ -50,3 +50,21 @@ test("prioriza o termo mais longo quando há sobreposição", () => {
   const t = tokenizar("sofre ataque de oportunidade hoje", reg2);
   expect(t).toContainEqual({ tipo: "tooltip", termoId: "ataque-de-oportunidade", valor: "ataque de oportunidade" });
 });
+
+test("não casa um termo colado a dígitos (ND em ND5)", () => {
+  const reg = construirRegistro({ termos: [{ id: "nd", nome: "ND", descricao: "..." }], entidades: [] });
+  const t = tokenizar("a criatura ND5 aparece", reg);
+  expect(t).toEqual([{ tipo: "texto", valor: "a criatura ND5 aparece" }]);
+});
+
+test("não casa Medo colado a dígito (Medo2)", () => {
+  const reg = construirRegistro({ termos: [{ id: "medo", nome: "Medo", descricao: "..." }], entidades: [] });
+  const t = tokenizar("efeito Medo2 aqui", reg);
+  expect(t).toEqual([{ tipo: "texto", valor: "efeito Medo2 aqui" }]);
+});
+
+test("ainda casa ND como palavra isolada", () => {
+  const reg = construirRegistro({ termos: [{ id: "nd", nome: "ND", descricao: "..." }], entidades: [] });
+  const t = tokenizar("o ND da criatura", reg);
+  expect(t).toContainEqual({ tipo: "tooltip", termoId: "nd", valor: "ND" });
+});

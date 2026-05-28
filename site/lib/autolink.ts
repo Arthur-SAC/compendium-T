@@ -8,11 +8,13 @@ export type Token =
 type TermoEntrada = { id: string; nome: string; descricao: string };
 type EntidadeEntrada = { id: string; nome: string; tipo: TipoEntidade };
 
+type Entrada =
+  | { kind: "tooltip"; termoId: string; nome: string }
+  | { kind: "link"; alvoId: string; alvoTipo: TipoEntidade; nome: string };
+
 export type Registro = {
-  entradas: Array<
-    | { kind: "tooltip"; termoId: string; nome: string }
-    | { kind: "link"; alvoId: string; alvoTipo: TipoEntidade; nome: string }
-  >;
+  entradas: Entrada[];
+  porNome: Map<string, Entrada>;
 };
 
 export function construirRegistro(dados: {
@@ -24,7 +26,12 @@ export function construirRegistro(dados: {
     ...dados.entidades.map((e) => ({ kind: "link" as const, alvoId: e.id, alvoTipo: e.tipo, nome: e.nome })),
   ];
   entradas.sort((a, b) => b.nome.length - a.nome.length);
-  return { entradas };
+  const porNome = new Map<string, Entrada>();
+  for (const entrada of entradas) {
+    const chave = entrada.nome.toLowerCase();
+    if (!porNome.has(chave)) porNome.set(chave, entrada);
+  }
+  return { entradas, porNome };
 }
 
 function escaparRegex(s: string): string {
@@ -34,7 +41,7 @@ function escaparRegex(s: string): string {
 export function tokenizar(texto: string, registro: Registro): Token[] {
   if (registro.entradas.length === 0) return [{ tipo: "texto", valor: texto }];
   const alternativas = registro.entradas.map((e) => escaparRegex(e.nome)).join("|");
-  const re = new RegExp(`(?<![\\p{L}])(${alternativas})(?![\\p{L}])`, "giu");
+  const re = new RegExp(`(?<![\\p{L}\\p{N}])(${alternativas})(?![\\p{L}\\p{N}])`, "giu");
 
   const tokens: Token[] = [];
   let ultimo = 0;
@@ -42,7 +49,7 @@ export function tokenizar(texto: string, registro: Registro): Token[] {
     const inicio = m.index!;
     const casado = m[0];
     if (inicio > ultimo) tokens.push({ tipo: "texto", valor: texto.slice(ultimo, inicio) });
-    const entrada = registro.entradas.find((e) => e.nome.toLowerCase() === casado.toLowerCase());
+    const entrada = registro.porNome.get(casado.toLowerCase());
     if (!entrada) {
       tokens.push({ tipo: "texto", valor: casado });
     } else if (entrada.kind === "tooltip") {
