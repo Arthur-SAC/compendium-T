@@ -1,0 +1,79 @@
+# Compêndio Tormenta 20 — Contexto do Projeto (ler ao iniciar)
+
+> **AO INICIAR QUALQUER SESSÃO:**
+> 1. Leia este arquivo inteiro.
+> 2. Leia `PROGRESSO.md` para o estado atual e a próxima tarefa.
+> 3. Se o usuário disser apenas **"continua"** (ou similar), retome do ponto indicado em
+>    `PROGRESSO.md` usando execução por subagentes (Subagent-Driven Development),
+>    sem refazer o que já está feito e sem pedir confirmações desnecessárias.
+> 4. Antes de o contexto ser compactado, **atualize `PROGRESSO.md`**.
+
+---
+
+## O que é
+
+Wiki digital completa do RPG **Tormenta 20**, extraída dos livros em PDF, para o usuário
+(Arthur) consultar e usar ao criar mesas e personagens. Objetivos centrais:
+
+- Wiki navegável, busca livre, **tooltips** (condições/termos/armas) e **links** entre
+  entidades (criaturas, regiões, itens, divindades, classes, raças, magias, poderes…).
+- **Todas as regras do jogo** dentro do site (combate, magia, exploração, mestrar) —
+  meta: não precisar mais dos livros para jogar.
+- **Trilhas de aprendizado** separadas por papel (Jogador / Mestre).
+- **Geradores criativos balanceados** (fase futura): criatura, item, poder, origem,
+  raça, classe, NPC, encontro — recombinando componentes oficiais dentro dos
+  orçamentos de balanceamento. Gerador de classe cria habilidades por TEMA (ex.: "Samurai").
+- Visual **"Grimório nas cores da Tormenta"** (tomo ornamentado, serifa de fantasia,
+  paleta roxo/magenta + carmesim, brilho neon, **ícones SVG, nunca emojis**).
+- Extensível: cada livro é uma "fonte"; adicionar livro novo = rodar pipeline + soltar JSON.
+
+## Documentos de referência
+
+- **Spec (visão completa):** `docs/superpowers/specs/2026-05-28-wiki-tormenta-20-design.md`
+- **Plano da Fase 0:** `docs/superpowers/plans/2026-05-28-fase-0-fundacao.md`
+- **Estado atual / próximos passos:** `PROGRESSO.md`
+
+## Decisões do usuário (não mudar)
+
+1. Visual aprovado: Grimório + paleta Tormenta + ícones SVG, sem emojis.
+2. Construção em **fatia vertical**: Livro Básico ponta a ponta primeiro, depois os outros 7 livros.
+3. Roda **local** agora; preparado para publicar (Vercel) depois.
+4. Wiki primeiro; geradores são fase futura (mas o modelo de dados já os suporta).
+5. **Rigor máximo na extração** — pode demorar; qualidade antes de velocidade.
+6. **Nunca inventar dados** — tudo vem dos PDFs.
+7. **Capturar conteúdo escondido** (quadros/sidebars coloridos, tabelas) — falha do projeto anterior.
+8. Conteúdo de expansões **nunca sobrescreve** o Livro Básico (camada separada, marcada por fonte).
+9. **Geradores recombinam de forma balanceada** (não sorteiam pronto). Classe gera habilidades por tema.
+
+## Stack e estrutura
+
+- **Site:** `site/` — Next.js 16 (App Router, React 19), TypeScript, Tailwind CSS v4,
+  framer-motion v12, Zod v4. Testes: Vitest + Testing Library (jsdom). Alias `@/*` → raiz de `site/`.
+- **Extração:** `extracao/` — scripts Node/TS sobre o poppler (`pdftotext`/`pdftoppm`/`pdfimages`).
+- **Dados (fonte da verdade):** `data/` — uma pasta por fonte; `data/referencia/` para tooltips;
+  `data/sources.json` = manifesto. Cada registro tem `id`, campos mecânicos e `fonte {livro, pagina}`.
+- **PDFs:** `pdfs/` (8 livros) — **gitignored, NUNCA commitar** (tamanho + direitos autorais).
+
+## Ambiente (Windows) — quirks importantes
+
+- Caminho do projeto tem espaços: `C:\Users\ASCalderon\Desktop\compendium tormenta 20` → sempre citar entre aspas.
+- **No Bash, o Node NÃO está no PATH** → prefixar `export PATH="$PATH:/c/Program Files/nodejs"`.
+  No PowerShell, `node`/`npm` funcionam direto.
+- **poppler** em `C:/Users/ASCalderon/Desktop/Projeto-Tormenta/poppler-bin/poppler-24.08.0/Library/bin`
+  (env `POPPLER_BIN`). O pipeline usa esse caminho como padrão.
+- Texto dos PDFs sai em **UTF-8 correto** com `pdftotext -layout` (acentos OK).
+- Existe um projeto antigo em `C:\Users\ASCalderon\Desktop\Projeto-Tormenta` — **descartado**
+  (extração incompleta, ignorava blocos coloridos). Pode servir só de referência pontual.
+
+## Convenções de trabalho
+
+- **Execução por subagentes** (Subagent-Driven Development): 1 subagente por tarefa, com testes (TDD),
+  e revisão de qualidade em Opus nas tarefas delicadas. Modelos: **Misto** — Sonnet no mecânico
+  (setup, schema, dados, busca, extração), **Opus** no delicado (auto-link, componentes, integração)
+  e nas revisões.
+- **Commits frequentes** com mensagens descritivas (pt-br). Commitar caminhos específicos
+  (`git add site/`, `git add data/`…), **NUNCA `git add -A`** (já vazou os PDFs uma vez).
+- **Push pro GitHub** (`https://github.com/Arthur-SAC/compendium-T.git`, remote `origin`):
+  só quando o usuário pedir ("sobe"/"pode subir"). Caso contrário, deixar commitado local.
+- Permissões deste projeto: `.claude/settings.local.json` com bypass + allow amplo (gitignored).
+- Idioma: responder sempre em **pt-br**.
