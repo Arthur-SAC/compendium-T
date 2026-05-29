@@ -4,45 +4,52 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-05-29
-**Fase atual:** Fase 0 ✅ CONCLUÍDA → **Fase 1 iniciada** (decomposta; 1ª fatia = Raças)
+**Fase atual:** Fase 0 ✅ → **Fase 1** (decomposta). Fatia 1 = **Raças** ✅ CONCLUÍDA.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Escrever o plano de implementação da fatia de Raças** (via skill `writing-plans`):
-`docs/superpowers/plans/2026-05-29-racas-ponta-a-ponta-plano.md`, a partir da spec aprovada
-`docs/superpowers/specs/2026-05-29-racas-ponta-a-ponta-design.md`. Depois executar por subagentes.
+➡️ **Revamp visual (pedido do usuário)** — deixar o site **mais parecido com os livros de Tormenta 20**,
+MAS **otimizado para leitura** (o usuário vai ler/reler bastante). Usar a fonte
+**`Tormenta20x.ttf`** (está solta na raiz do projeto; mover para `site/` e registrar via
+`next/font/local`, substituindo a Georgia genérica do tema). É uma tarefa de design → começar com
+**brainstorming** (referências visuais dos livros, hierarquia tipográfica, legibilidade) antes de mexer.
 
-**Estado do brainstorm da Fase 1 (concluído):**
-- Fase 1 decomposta; 1ª fatia = **Raças ponta a ponta** (spec aprovada e commitada `61f9009`).
-- Decisões: categoria Raças; mecânica estruturada completa; extração **visão em 2 passadas**;
-  entregável = índice `/racas` + ficha dedicada + imagens + tooltips/auto-link; **imagens versionadas**;
-  **export estático** (`output: "export"`) agora.
-- **Spike aprovado e commitado como base** (`de361b4`): `FichaRaca`, `/racas`, Humano extraído
-  (pág. PDF 25 / impressa 19) + ilustração da Drikka composta com `sharp` em `site/public/racas/humano.png`.
-  Fix de CSS legítimo do tema commitado à parte (`d1abc34`).
-- O plano deve FORMALIZAR o spike: schema Zod de Raça + testes; extrair TODAS as raças (2 passadas);
-  tooltips de glossário **extraídos com proveniência** (no spike foram revertidos por serem inventados);
-  pipeline de imagens p/ `data/.../imagens/`; export estático; endurecimento da fundação (memoização,
-  regex pré-compilada).
+Depois do visual: **próxima fatia de categoria da Fase 1** — sugestão **Classes** ou **Origens**
+(mesmo pipeline: spec curta → plano → subagentes; reusar `FichaRaca` como modelo de ficha dedicada).
 
-**Riscos de escala a embutir no plano da Fase 1** (do revisor final de integração):
-1. **(Alto)** Memoizar carregamento de dados — hoje `carregarEntidades`/`carregarTermos` e
-   `construirRegistro` rodam do zero em cada página/`generateStaticParams`. Cache em módulo.
-2. **(Alto)** Pré-compilar a regex do auto-link dentro do `Registro` (hoje `tokenizar`
-   remonta a alternância gigante a cada texto; cresce com nº de entidades).
-3. **(Médio)** Escopo do auto-link: com centenas de entidades, nomes curtos/ambíguos
-   ("Fúria", "Ataque") gerarão links indesejados — prever stop-words / termos linkáveis explícitos.
-4. **(Médio)** Modelo de exibição da `mecanica` por tipo — hoje `String(v)` quebra em valores
-   não-escalares (`[object Object]`); fichas ricas precisam de renderização estruturada.
-5. **(Baixo)** Decidir `output: "export"` (estático 100%) vs. build híbrido atual — afeta 404 e Vercel.
-6. **(Baixo)** Consumir `data/sources.json` como fonte da verdade (hoje `dirs=["livro-basico"]` hardcoded).
+### Dívidas/notas abertas (tratar nas próximas fatias)
+- **Suraggel**: schema não tem "variante" de raça → modificadores das heranças (aggelus/sulfure) ficaram
+  na `mecanica.nota` com `modificadores:[]`. Futuro: estruturar heranças/variantes no schema + exibição.
+- **Condições seed** `medo`/`atordoado` usam pág. 318 (provisória); o apêndice real de condições é
+  **impressas 394–395**. Re-confirmar e alinhar as páginas desses dois.
+- **Auto-link (risco médio)**: com mais categorias, nomes curtos/ambíguos gerarão links indesejados →
+  prever stop-words / termos linkáveis explícitos.
+- **`data/sources.json`** ainda não é a fonte da verdade (carregador usa `dirs=["livro-basico"]`).
+- Riscos de escala JÁ resolvidos nesta fatia: memoização do carregamento (T2), regex pré-compilada (T3),
+  export estático (T4), exibição estruturada da mecânica via `FichaRaca` (T5).
 
 Lembrar: Node não está no PATH do Bash (`export PATH="$PATH:/c/Program Files/nodejs"`)
 nem no PowerShell desta máquina (`$env:Path += ";C:\Program Files\nodejs"`);
 commitar caminhos específicos; **não dar push** até o usuário pedir.
+
+---
+
+## Fatia 1 da Fase 1 — Raças ✅ (executada por Subagent-Driven, plano `2026-05-29-racas-ponta-a-ponta-plano.md`)
+
+- **T1–T7** (código, TDD + revisão): schema Zod de Raça (`RacaMecanicaSchema` + superRefine), memoização
+  do carregamento, regex pré-compilada no auto-link, export estático (`output:"export"`, `dynamicParams=false`),
+  testes de `FichaRaca` + dedup de tipos, teste do índice `/racas`, pipeline de imagens (`sharp`,
+  `comporComMascara`). Commits `461481f`, `f328d74`, `7c4cacb`, `bccfc68`, `e7240a2`, `568a4f4`, `6c1ffb0`.
+- **T8** mapa raça→página: `docs/superpowers/plans/racas-paginas.md` (17 raças, offset PDF=impressa+6). Commit `531d3d0`.
+- **T9** extração das **17 raças** por visão em 2 passadas, em blocos, **cada bloco validado por agente independente**:
+  Humano (spike) + Anão/Dahllan/Elfo/Goblin (`ab13bb7`) + Lefou/Minotauro/Qareen (Bloco B) + Golem/Hynne/Kliren (`7baa3a4`)
+  + Medusa/Osteon/Sereia-Tritão (`1e268fb`) + Sílfide/Suraggel/Trog (`dc96bef`). Correções: "Crisma"→"Carisma" (Lefou, `afba901`),
+  "afeito"→"efeito" (Golem, `f5f2154`). Achados notáveis: Goblin = Pequeno; Sílfide = **Minúsculo**; Suraggel = 2 heranças.
+- **T10** tooltips: glossário + condições citados nas raças, com proveniência (`24cc353`).
+- **T11** integração: site **35 testes** + extração **4 testes** verdes; **build estático gera as 17 fichas de raça** + `/racas`.
 
 ---
 
