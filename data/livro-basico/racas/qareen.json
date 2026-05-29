@@ -1,0 +1,57 @@
+{
+  "id": "qareen",
+  "tipo": "raca",
+  "nome": "Qareen",
+  "resumo": "Descendentes de poderosos gênios, os qareen são seres mágicos otimistas, generosos e prestativos. Filhos de Wynna, a Deusa da Magia, carregam no corpo a \"marca de Wynna\" que brilha ao usarem seus poderes. Para eles, fazer mágica é tão natural quanto respirar e atender a desejos é um instinto primordial.",
+  "fonte": { "livro": "livro-basico", "pagina": 26 },
+  "imagens": ["/racas/qareen.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Embora lembrem humanos de aparência magnífica, qareen são seres mágicos. Não só no sentido de sua curiosidade e modo alegre de ver a vida, mas por serem uma mistura de mortais com gênios. Cada um deles carrega no corpo elaboradas tatuagens que são o símbolo de seu poder. Uma \"marca de Wynna\", como eles mesmos chamam, que brilha sempre que uma de suas habilidades mágicas é utilizada."
+    },
+    {
+      "titulo": "Filhos de Wynna",
+      "texto": "Os qareen são filhos de Wynna, a Deusa da Magia. Para eles, fazer mágica é tão natural quanto respirar e atender a desejos é um instinto primordial. Assim como sua deusa mãe, este povo é generoso, curioso e encantador. Os qareen têm o espírito desbravador inerente aos aventureiros, seja para satisfazer as próprias vontades, seja para auxiliar grupos de heróis mundanos. Carismáticos, atraem para si novos amigos assim como o calor de uma fogueira atrai um viajante perdido e enregelado. Concedem pequenos desejos, mágicos ou não, àqueles que abrem o coração e fazem um pedido."
+    },
+    {
+      "titulo": "O custo de um desejo",
+      "texto": "E, se você não acredita em receber um desejo sem dar algo em troca, é porque ainda não teve a felicidade de conhecer um qareen. — Nagard Wyrmslayer, humano guardião da realidade"
+    },
+    {
+      "titulo": "Resumo",
+      "texto": "Descendentes de poderosos gênios, os qareen são otimistas, generosos e prestativos, sempre ansiosos por ajudar. Consideram-se abençoados pela Deusa da Magia, exibindo como evidência a marca de Wynna em seus corpos. Sua magia é mais poderosa quando usada para realizar desejos de outros."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devotoDe", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "filhos de Wynna, a Deusa da Magia" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Carisma", "valor": 2 },
+      { "atributo": "Inteligência", "valor": 1 },
+      { "atributo": "Sabedoria", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Tamanho Médio e deslocamento 9m (regra geral); o qareen não declara tamanho ou deslocamento próprios.",
+    "habilidades": [
+      {
+        "nome": "Desejos",
+        "descricao": "Se lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM. Fazer um desejo ao qareen é uma ação livre.",
+        "efeito": "Magia pedida desde o último turno custa –1 PM; fazer um desejo ao qareen é ação livre"
+      },
+      {
+        "nome": "Resistência Elemental",
+        "descricao": "Conforme sua ascendência, você recebe redução 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas).",
+        "efeito": "Redução 10 a um tipo de dano conforme a ascendência: frio, eletricidade, fogo, ácido, luz ou trevas"
+      },
+      {
+        "nome": "Tatuagem Mística",
+        "descricao": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+        "efeito": "Lança uma magia de 1º círculo à escolha (atributo-chave Carisma); se reaprendida, custa –1 PM"
+      }
+    ]
+  }
+}

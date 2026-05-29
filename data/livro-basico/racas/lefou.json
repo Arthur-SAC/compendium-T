@@ -1,0 +1,52 @@
+{
+  "id": "lefou",
+  "tipo": "raca",
+  "nome": "Lefou",
+  "resumo": "Tocados pela Tormenta, os lefou são meios-demônios de aparência grotesca, nascidos em famílias de outras raças. Cada um carrega uma mácula da tempestade rubra — uma deformidade que, apesar de desagradável, traz poder. Ser meio-demônio da Tormenta não significa ser maligno.",
+  "fonte": { "livro": "livro-basico", "pagina": 24 },
+  "imagens": ["/racas/lefou.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "De forma bem pouco lisonjeira, parcelas da sociedade os definem como pouco mais que filhos rejeitados da Tormenta. São considerados meios-demônios, como se a tempestade aberrante pudesse atacar um corpo e deixar suas marcas como faz com a própria Arton. Corrompendo de forma irreversível o que antes era puro. Pensando assim, até faz sentido. Um lefou pode surgir simplesmente porque os pais são aventureiros que tiveram contato com a Tormenta. Ou enfrentaram a tempestade rubra. Como uma doença, uma insidiosa vingança contra aqueles que a tentaram destruir, talvez?"
+    },
+    {
+      "titulo": "A mácula da Tormenta",
+      "texto": "Em suas características, entretanto, um lefou não é distante de seus pais. Um filho de pais humanos parecerá humano. O mesmo é verdade para os lefou filhos de outras raças. Mas a cria carregará consigo sempre uma mácula. Algo diferente, uma deformidade ou característica que pode causar incômodo, embora lhe possa trazer alguma vantagem. Um par de antenas. Uma crosta sobre a pele. Garras. A marca indelével de que a Tormenta esteve ali e sempre estará."
+    },
+    {
+      "titulo": "Entre o preconceito e a redenção",
+      "texto": "Claro, esta é uma versão preconceituosa. É verdade que, com a ascensão de Aharadak, os cultos se espalharam, e lefou têm sido procurados para assumir altas posições nas ordens de adoradores, mas muitos deles fazem exatamente o contrário. Aproveitam sua familiaridade com a maior ameaça de Arton para lutar contra ela. Estudam, treinam, dominam seus poderes para usá-los quando a tempestade rubra atacar. E o que é melhor do que ter ao seu lado alguém que conhece tão intimamente o inimigo? — Sir Porti, moreau do cão paladino de Thyatis"
+    },
+    {
+      "titulo": "Resumo",
+      "texto": "Com a influência macabra da Tormenta permeando cada vez mais o mundo, surgiram os lefou. Estes meios-demônios de aparência grotesca passaram a nascer em famílias de outras raças, sendo logo sacrificados ou expulsos. Entre os que escapam, por sua facilidade em manifestar poderes aberrantes, muitos escolhem abraçar o mal, enquanto outros decidem combatê-lo."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "associadaA", "alvoId": "tormenta", "alvoTipo": "termo", "rotulo": "tocados pela Tormenta" },
+    { "tipo": "citaA", "alvoId": "aharadak", "alvoTipo": "divindade", "rotulo": "ascensão de Aharadak" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "valor": 1, "escolha": true, "quantidade": 3, "observacao": "em três atributos diferentes (exceto Carisma)" },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Tamanho Médio e deslocamento 9m (regra geral); o lefou não declara tamanho ou deslocamento próprios.",
+    "habilidades": [
+      {
+        "nome": "Cria da Tormenta",
+        "descricao": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta.",
+        "efeito": "Tipo monstro; +5 em testes de resistência contra efeitos de lefeu e da Tormenta"
+      },
+      {
+        "nome": "Deformidade",
+        "descricao": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta (exceto para perda de Crisma). Você pode trocar um desses bônus por um poder da Tormenta a sua escolha (ele também não conta para perda de Carisma).",
+        "efeito": "+2 em duas perícias à escolha; cada bônus conta como poder da Tormenta (exceto para perda de Carisma); pode trocar um por um poder da Tormenta à escolha"
+      }
+    ]
+  }
+}
