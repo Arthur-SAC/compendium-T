@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { Entidade, ClasseMecanica } from "@/lib/schema";
+import type { Entidade, ClasseMecanica, ProgressaoNivel, EfeitoPoder } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
 import { LinkEntidade } from "./LinkEntidade";
@@ -7,6 +7,7 @@ import { Divisor } from "./Divisor";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
 const thBase = { textAlign: "left" as const, padding: "5px 8px", color: "var(--carmesim)", borderBottom: "2px solid var(--borda)" };
+const tdBase = { padding: "5px 8px", borderBottom: "1px solid var(--borda)", verticalAlign: "top" as const };
 
 function StatBox({ valor, rotulo }: { valor: ReactNode; rotulo: string }) {
   return (
@@ -17,7 +18,7 @@ function StatBox({ valor, rotulo }: { valor: ReactNode; rotulo: string }) {
   );
 }
 
-// Renderiza "Força ou Destreza" empilhado (um sobre o outro), deixando a caixa estreita.
+// "Força ou Destreza" empilhado (um sobre o outro), deixando a caixa estreita.
 function AtributoChave({ texto }: { texto: string }) {
   const partes = texto.split(/\s+ou\s+/i);
   if (partes.length === 1) return <>{texto}</>;
@@ -51,9 +52,61 @@ function PreRequisito({ texto }: { texto: string }) {
   );
 }
 
+function TabelaProgressao({ linhas }: { linhas: ProgressaoNivel[] }) {
+  return (
+    <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 13 }}>
+      <thead>
+        <tr>
+          <th style={{ ...thBase, width: 56 }}>Nível</th>
+          <th style={thBase}>Habilidades</th>
+        </tr>
+      </thead>
+      <tbody>
+        {linhas.map((p) => (
+          <tr key={p.nivel}>
+            <td style={{ ...tdBase, fontWeight: 700, color: "var(--carmesim)" }}>{p.nivel}º</td>
+            <td style={tdBase}>{p.habilidades.join(", ") || "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
+function TabelaEfeitos({ titulo, efeitos, registro, descricoes }: { titulo: string; efeitos: EfeitoPoder[]; registro: Registro; descricoes: Record<string, string> }) {
+  if (efeitos.length === 0) return null;
+  return (
+    <div style={{ marginTop: 10 }}>
+      <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: 1.5, color: "var(--vermelho)", fontWeight: 700, marginBottom: 4 }}>{titulo}</div>
+      <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 12.5 }}>
+        <thead>
+          <tr>
+            <th style={{ ...thBase, whiteSpace: "nowrap" }}>Efeito</th>
+            <th style={{ ...thBase, whiteSpace: "nowrap" }}>Custo</th>
+            <th style={thBase}>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          {efeitos.map((ef, j) => (
+            <tr key={j}>
+              <td style={{ ...tdBase, fontWeight: 700, whiteSpace: "nowrap" }}>{ef.nome}</td>
+              <td style={{ ...tdBase, color: "var(--carmesim)", fontWeight: 700, whiteSpace: "nowrap" }}>{ef.custo}</td>
+              <td style={tdBase}><TextoRico texto={ef.descricao} registro={registro} descricoes={descricoes} /></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export function FichaClasse({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
   const m = entidade.mecanica as unknown as ClasseMecanica;
   const imagem = entidade.imagens[0];
+  const metade = Math.ceil(m.progressao.length / 2);
+  const progPrimeira = m.progressao.slice(0, metade);
+  const progSegunda = m.progressao.slice(metade);
+
   return (
     <article style={{ maxWidth: 820, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
       <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "20px 24px 14px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
@@ -67,15 +120,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
           <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto", padding: "16px 24px 0", lineHeight: 1.55, textAlign: "center" }}>{entidade.resumo}</p>
         )}
 
-        {/* Stats no topo: atributo-chave (empilhado), PV inicial, PV/nível e PM/nível na mesma linha */}
-        <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center", padding: "16px 22px 4px" }}>
-          <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
-          <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
-          <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
-          <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
-        </div>
-
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "10px 22px 8px" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "16px 22px 8px" }}>
           {imagem && (
             <div style={{ flex: "1 1 240px", minWidth: 220, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -89,11 +134,18 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
               {m.pericias.fixas.length > 0 && <Chips itens={m.pericias.fixas} />}
             </section>
             {m.proficiencias.length > 0 && (
-              <section>
+              <section style={{ marginBottom: 16 }}>
                 <h2 style={h2}>Proficiências</h2>
                 <Chips itens={m.proficiencias} />
               </section>
             )}
+            {/* PV/PM ocupam o espaço logo abaixo de Proficiências */}
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+              <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
+              <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
+              <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
+              <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
+            </div>
           </div>
         </div>
 
@@ -101,74 +153,49 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
           {m.progressao.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Progressão (1º–20º nível)</h2>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 13 }}>
-                <thead>
-                  <tr>
-                    <th style={{ ...thBase, width: 64 }}>Nível</th>
-                    <th style={thBase}>Habilidades</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {m.progressao.map((p) => (
-                    <tr key={p.nivel}>
-                      <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", fontWeight: 700, color: "var(--carmesim)" }}>{p.nivel}º</td>
-                      <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)" }}>{p.habilidades.join(", ") || "—"}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "flex-start" }}>
+                <div style={{ flex: "1 1 280px", minWidth: 260 }}><TabelaProgressao linhas={progPrimeira} /></div>
+                {progSegunda.length > 0 && <div style={{ flex: "1 1 280px", minWidth: 260 }}><TabelaProgressao linhas={progSegunda} /></div>}
+              </div>
             </section>
           )}
+
           {m.habilidades.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Habilidades de Classe</h2>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              <div style={{ display: "flex", flexDirection: "column" }}>
                 {m.habilidades.map((h, i) => (
-                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
-                    <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
-                    <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
+                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "8px 0", borderBottom: i < m.habilidades.length - 1 ? "1px solid var(--borda)" : "none" }}>
+                    <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 15 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}</div>
+                    <div style={{ marginTop: 2 }}><TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} /></div>
                     {h.prerequisito && <PreRequisito texto={h.prerequisito} />}
                   </div>
                 ))}
               </div>
             </section>
           )}
+
           {m.poderes.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Poderes de Classe</h2>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              <div style={{ display: "flex", flexDirection: "column" }}>
                 {m.poderes.map((p, i) => (
-                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
-                    <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{p.nome}{p.custo ? ` — ${p.custo}` : ""}.</span>{" "}
-                    <TextoRico texto={p.descricao} registro={registro} descricoes={descricoes} />
+                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "10px 0", borderBottom: i < m.poderes.length - 1 ? "1px solid var(--borda)" : "none" }}>
+                    <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 15 }}>{p.nome}{p.custo ? ` — ${p.custo}` : ""}</div>
+                    <div style={{ marginTop: 2 }}><TextoRico texto={p.descricao} registro={registro} descricoes={descricoes} /></div>
                     {p.prerequisito && <PreRequisito texto={p.prerequisito} />}
                     {p.efeitos && p.efeitos.length > 0 && (
-                      <div style={{ marginTop: 8, overflowX: "auto" }}>
-                        <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 12.5 }}>
-                          <thead>
-                            <tr>
-                              <th style={{ ...thBase, whiteSpace: "nowrap" }}>Efeito</th>
-                              <th style={{ ...thBase, whiteSpace: "nowrap" }}>Custo</th>
-                              <th style={thBase}>Descrição</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {p.efeitos.map((ef, j) => (
-                              <tr key={j}>
-                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", fontWeight: 700, whiteSpace: "nowrap", verticalAlign: "top" }}>{ef.nome}</td>
-                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", color: "var(--carmesim)", fontWeight: 700, whiteSpace: "nowrap", verticalAlign: "top" }}>{ef.custo}</td>
-                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", verticalAlign: "top" }}><TextoRico texto={ef.descricao} registro={registro} descricoes={descricoes} /></td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
+                      <>
+                        <TabelaEfeitos titulo="Efeitos que aumentam o custo" efeitos={p.efeitos.filter((e) => !e.custo.trim().startsWith("–") && !e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
+                        <TabelaEfeitos titulo="Efeitos que reduzem o custo" efeitos={p.efeitos.filter((e) => e.custo.trim().startsWith("–") || e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
+                      </>
                     )}
                   </div>
                 ))}
               </div>
             </section>
           )}
+
           {entidade.secoes.map((s, i) => (
             <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
               <h2 style={h2}>{s.titulo}</h2>
