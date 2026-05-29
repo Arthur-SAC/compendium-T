@@ -69,11 +69,19 @@ export const HabilidadeClasseSchema = z.object({
 });
 export type HabilidadeClasse = z.infer<typeof HabilidadeClasseSchema>;
 
+export const EfeitoPoderSchema = z.object({
+  nome: z.string(),
+  custo: z.string(),
+  descricao: z.string(),
+});
+export type EfeitoPoder = z.infer<typeof EfeitoPoderSchema>;
+
 export const PoderClasseSchema = z.object({
   nome: z.string(),
   descricao: z.string(),
   prerequisito: z.string().optional(),
   custo: z.string().optional(),
+  efeitos: z.array(EfeitoPoderSchema).optional(), // ex.: efeitos do Golpe Pessoal (renderizados como tabela)
 });
 export type PoderClasse = z.infer<typeof PoderClasseSchema>;
 

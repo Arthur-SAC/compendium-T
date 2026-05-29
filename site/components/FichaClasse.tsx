@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { Entidade, ClasseMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
@@ -5,12 +6,29 @@ import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
+const thBase = { textAlign: "left" as const, padding: "5px 8px", color: "var(--carmesim)", borderBottom: "2px solid var(--borda)" };
 
-function StatBox({ valor, rotulo }: { valor: string; rotulo: string }) {
+function StatBox({ valor, rotulo }: { valor: ReactNode; rotulo: string }) {
   return (
-    <span style={{ textAlign: "center", background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 10, padding: "8px 14px" }}>
+    <span style={{ textAlign: "center", background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 10, padding: "8px 14px", minWidth: 86 }}>
       <span style={{ display: "block", fontFamily: "var(--serifa)", fontSize: 18, color: "var(--carmesim)", fontWeight: 800 }}>{valor}</span>
       <span style={{ fontSize: 9, letterSpacing: 1.5, textTransform: "uppercase", color: "var(--tinta-suave)" }}>{rotulo}</span>
+    </span>
+  );
+}
+
+// Renderiza "Força ou Destreza" empilhado (um sobre o outro), deixando a caixa estreita.
+function AtributoChave({ texto }: { texto: string }) {
+  const partes = texto.split(/\s+ou\s+/i);
+  if (partes.length === 1) return <>{texto}</>;
+  return (
+    <span style={{ fontSize: 15, lineHeight: 1.12 }}>
+      {partes.map((p, i) => (
+        <span key={i} style={{ display: "block" }}>
+          {i > 0 && <span style={{ display: "block", fontSize: 9, fontWeight: 400, color: "var(--tinta-suave)" }}>ou</span>}
+          {p}
+        </span>
+      ))}
     </span>
   );
 }
@@ -22,6 +40,14 @@ function Chips({ itens }: { itens: string[] }) {
         <span key={i} style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" }}>{t}</span>
       ))}
     </div>
+  );
+}
+
+function PreRequisito({ texto }: { texto: string }) {
+  return (
+    <span style={{ display: "block", marginTop: 4, fontSize: 11.5, fontWeight: 700, fontStyle: "italic", color: "var(--carmesim)" }}>
+      Pré-requisito: {texto}
+    </span>
   );
 }
 
@@ -40,7 +66,16 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
         {entidade.resumo && (
           <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto", padding: "16px 24px 0", lineHeight: 1.55, textAlign: "center" }}>{entidade.resumo}</p>
         )}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "18px 22px 8px" }}>
+
+        {/* Stats no topo: atributo-chave (empilhado), PV inicial, PV/nível e PM/nível na mesma linha */}
+        <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center", padding: "16px 22px 4px" }}>
+          <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
+          <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
+          <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
+          <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
+        </div>
+
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "10px 22px 8px" }}>
           {imagem && (
             <div style={{ flex: "1 1 240px", minWidth: 220, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -48,12 +83,6 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </div>
           )}
           <div style={{ flex: "2 1 360px", minWidth: 300 }}>
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 14 }}>
-              <StatBox valor={m.atributoChave} rotulo="Atributo-chave" />
-              <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
-              <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
-              <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
-            </div>
             <section style={{ marginBottom: 12 }}>
               <h2 style={h2}>Perícias</h2>
               <p style={{ fontFamily: "var(--serifa)", lineHeight: 1.55, margin: "0 0 4px" }}>{m.pericias.texto}</p>
@@ -75,8 +104,8 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
               <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 13 }}>
                 <thead>
                   <tr>
-                    <th style={{ textAlign: "left", padding: "6px 8px", color: "var(--carmesim)", borderBottom: "2px solid var(--borda)", width: 64 }}>Nível</th>
-                    <th style={{ textAlign: "left", padding: "6px 8px", color: "var(--carmesim)", borderBottom: "2px solid var(--borda)" }}>Habilidades</th>
+                    <th style={{ ...thBase, width: 64 }}>Nível</th>
+                    <th style={thBase}>Habilidades</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -98,6 +127,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                   <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
                     <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
                     <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
+                    {h.prerequisito && <PreRequisito texto={h.prerequisito} />}
                   </div>
                 ))}
               </div>
@@ -109,8 +139,31 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {m.poderes.map((p, i) => (
                   <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
-                    <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{p.nome}{p.prerequisito ? ` (${p.prerequisito})` : ""}.</span>{" "}
+                    <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{p.nome}{p.custo ? ` — ${p.custo}` : ""}.</span>{" "}
                     <TextoRico texto={p.descricao} registro={registro} descricoes={descricoes} />
+                    {p.prerequisito && <PreRequisito texto={p.prerequisito} />}
+                    {p.efeitos && p.efeitos.length > 0 && (
+                      <div style={{ marginTop: 8, overflowX: "auto" }}>
+                        <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 12.5 }}>
+                          <thead>
+                            <tr>
+                              <th style={{ ...thBase, whiteSpace: "nowrap" }}>Efeito</th>
+                              <th style={{ ...thBase, whiteSpace: "nowrap" }}>Custo</th>
+                              <th style={thBase}>Descrição</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {p.efeitos.map((ef, j) => (
+                              <tr key={j}>
+                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", fontWeight: 700, whiteSpace: "nowrap", verticalAlign: "top" }}>{ef.nome}</td>
+                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", color: "var(--carmesim)", fontWeight: 700, whiteSpace: "nowrap", verticalAlign: "top" }}>{ef.custo}</td>
+                                <td style={{ padding: "5px 8px", borderBottom: "1px solid var(--borda)", verticalAlign: "top" }}><TextoRico texto={ef.descricao} registro={registro} descricoes={descricoes} /></td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
