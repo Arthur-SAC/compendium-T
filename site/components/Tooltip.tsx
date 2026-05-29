@@ -12,7 +12,7 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
       onMouseLeave={() => setAberto(false)}
       onFocus={() => setAberto(true)}
       onBlur={() => setAberto(false)}
-      style={{ position: "relative", borderBottom: "2px dotted var(--destaque)", color: "#ff8fc4", fontWeight: 700, cursor: "help" }}
+      style={{ position: "relative", borderBottom: "2px dotted var(--tooltip-linha)", color: "var(--tooltip)", fontWeight: 700, cursor: "help" }}
     >
       {rotulo}
       <AnimatePresence>
@@ -25,12 +25,12 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
             transition={{ duration: 0.18 }}
             style={{
               position: "absolute", left: "50%", bottom: "135%", transform: "translateX(-50%)",
-              width: 240, background: "var(--fundo-card)", color: "var(--texto)",
-              border: "1px solid var(--borda-clara)", borderRadius: 10, padding: "11px 13px",
-              font: "400 11.5px/1.5 system-ui", boxShadow: "0 12px 40px rgba(0,0,0,.7)", zIndex: 50,
+              width: 240, background: "linear-gradient(180deg,#fbf3df,#f1e3c4)", color: "var(--tinta)",
+              border: "1px solid var(--borda)", borderRadius: 10, padding: "11px 13px",
+              font: "400 12px/1.5 var(--serifa)", boxShadow: "0 14px 40px rgba(0,0,0,.55)", zIndex: 50,
             }}
           >
-            <b style={{ color: "#ff8fc4" }}>{rotulo}</b>
+            <b style={{ color: "var(--carmesim)" }}>{rotulo}</b>
             <br />
             {descricao}
           </motion.span>
