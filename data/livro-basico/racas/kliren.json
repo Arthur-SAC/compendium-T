@@ -1,0 +1,50 @@
+{
+  "id": "kliren",
+  "tipo": "raca",
+  "nome": "Kliren",
+  "resumo": "Meios-gnomos visitantes de outro mundo, os kliren combinam a alta inteligência gnômica e a curiosidade humana, resultando em seres de extrema engenhosidade, criatividade e talento com aparatos mecânicos — embora a impulsividade e a imprudência por vezes abreviem suas vidas.",
+  "fonte": { "livro": "livro-basico", "pagina": 28 },
+  "imagens": ["/racas/kliren.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Estes visitantes de outro mundo seriam uma combinação entre humanos e gnomos — mas, afinal, o que são gnomos? São uma raça que talvez existisse em Arton, não fosse o envolvimento criminoso de seu deus Tilliann na criação da própria Tormenta. Seja como for, os kliren somam a alta inteligência gnômica e a curiosidade humana, resultando em seres de extrema engenhosidade, criatividade e talento com aparatos mecânicos. Seriam capazes de grandes feitos, talvez até dominar Arton, não fossem a impulsividade e imprudência que por vezes abreviam suas vidas..."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citaA", "alvoId": "tilliann", "alvoTipo": "divindade", "rotulo": "seu deus Tilliann" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Inteligência", "valor": 2 },
+      { "atributo": "Carisma", "valor": 1 },
+      { "atributo": "Força", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O kliren não declara tamanho ou deslocamento próprios; usa o padrão (Médio, deslocamento 9m).",
+    "habilidades": [
+      {
+        "nome": "Híbrido",
+        "descricao": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe).",
+        "efeito": "Treinado em 1 perícia à escolha (não precisa ser da sua classe)"
+      },
+      {
+        "nome": "Engenhosidade",
+        "descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM.",
+        "efeito": "Gaste 2 PM para somar Inteligência a um teste de perícia (não vale para ataques); se receber novamente, custo reduzido em –1 PM"
+      },
+      {
+        "nome": "Ossos Frágeis",
+        "descricao": "Você sofre 1 ponto de dano adicional por dado de dano de impacto. Por exemplo, se for atingido por uma clava (dano 1d6), sofre 1d6+1 pontos de dano. Se cair de 3m de altura (dano 2d6), sofre 2d6+2 pontos de dano.",
+        "efeito": "+1 ponto de dano por dado de dano de impacto sofrido"
+      },
+      {
+        "nome": "Vanguardista",
+        "descricao": "Você recebe proficiência em armas de fogo e +2 em Ofício (um qualquer, a sua escolha).",
+        "efeito": "Proficiência em armas de fogo; +2 em Ofício (um à escolha)"
+      }
+    ]
+  }
+}
