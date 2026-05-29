@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const LARGURA = 240;
@@ -8,19 +8,31 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
   const [aberto, setAberto] = useState(false);
   const [pos, setPos] = useState<{ left: number; top: number } | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  function abrir() {
+  function cancelar() {
+    if (timer.current) {
+      clearTimeout(timer.current);
+      timer.current = null;
+    }
+  }
+  function agendarFechar() {
+    cancelar();
+    timer.current = setTimeout(() => setAberto(false), 180);
+  }
+  useEffect(() => cancelar, []);
+
+  function abrir(e: React.MouseEvent | React.FocusEvent) {
+    cancelar();
     const el = ref.current;
     if (el) {
       const r = el.getBoundingClientRect();
       const vw = window.innerWidth;
-      // ancora no termo: abre para a DIREITA (alinhado à esquerda do termo);
-      // se não couber, abre para a ESQUERDA (alinhado à direita do termo)
-      let left = r.left;
-      if (left + LARGURA > vw - 8) left = r.right - LARGURA;
-      left = Math.max(8, Math.min(left, vw - LARGURA - 8));
-      // sempre acima do gatilho (pode vazar por cima)
-      setPos({ left, top: r.top - 8 });
+      // âncora horizontal no CURSOR (centrado nele); no foco por teclado, usa o centro do termo
+      const cx = "clientX" in e ? e.clientX : r.left + r.width / 2;
+      const left = Math.max(8, Math.min(cx - LARGURA / 2, vw - LARGURA - 8));
+      // logo acima do termo (pode vazar por cima); vão pequeno para alcançar o popup
+      setPos({ left, top: r.top - 2 });
     }
     setAberto(true);
   }
@@ -31,9 +43,9 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
       data-tooltip={termoId}
       tabIndex={0}
       onMouseEnter={abrir}
-      onMouseLeave={() => setAberto(false)}
+      onMouseLeave={agendarFechar}
       onFocus={abrir}
-      onBlur={() => setAberto(false)}
+      onBlur={agendarFechar}
       style={{ borderBottom: "2px dotted var(--tooltip-linha)", color: "var(--tooltip)", fontWeight: 700, cursor: "help" }}
     >
       {rotulo}
@@ -41,6 +53,8 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
         {aberto && descricao && pos && (
           <motion.span
             role="tooltip"
+            onMouseEnter={cancelar}
+            onMouseLeave={agendarFechar}
             initial={{ opacity: 0, y: 6 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 6 }}
@@ -59,7 +73,6 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
               font: "400 12px/1.5 var(--serifa)",
               boxShadow: "0 14px 40px rgba(0,0,0,.55)",
               zIndex: 100,
-              pointerEvents: "none",
             }}
           >
             <b style={{ color: "var(--carmesim)" }}>{rotulo}</b>
