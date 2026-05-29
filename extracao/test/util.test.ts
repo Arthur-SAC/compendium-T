@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { slugify, parsePdfimagesList, buildPagePaths } from "../src/util";
+import { slugify, parsePdfimagesList, buildPagePaths, caminhoImagemRaca } from "../src/util";
 
 test("slugify normaliza acentos e espaços", () => {
   expect(slugify("Súcubo da Tormenta")).toBe("sucubo-da-tormenta");
@@ -22,4 +22,8 @@ test("buildPagePaths gera caminhos previsíveis por livro e página", () => {
   const p = buildPagePaths("/cache", "livro-basico", 41);
   expect(p.texto).toBe("/cache/livro-basico/p0041.txt");
   expect(p.imagem).toBe("/cache/livro-basico/p0041.png");
+});
+
+test("caminhoImagemRaca aponta para site/public/racas/<slug>.png", () => {
+  expect(caminhoImagemRaca("/proj", "anao")).toBe("/proj/site/public/racas/anao.png");
 });

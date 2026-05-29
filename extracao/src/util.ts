@@ -20,6 +20,10 @@ export function parsePdfimagesList(saida: string): ImagemInfo[] {
   return out;
 }
 
+export function caminhoImagemRaca(raizProjeto: string, slug: string): string {
+  return posix.join(raizProjeto, "site", "public", "racas", `${slug}.png`);
+}
+
 export function buildPagePaths(cacheDir: string, livro: string, pagina: number) {
   const pad = String(pagina).padStart(4, "0");
   const base = posix.join(cacheDir, livro);
