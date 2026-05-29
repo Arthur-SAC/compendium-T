@@ -21,17 +21,17 @@ export default function IndiceRacas() {
             <Link
               key={r.id}
               href={`/ficha/raca/${r.id}`}
-              style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--texto-casca)", background: "linear-gradient(180deg,#321019,#1c0a0e)", border: "1px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
+              style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
             >
-              <div style={{ height: 200, display: "flex", alignItems: "flex-end", justifyContent: "center", background: "radial-gradient(120% 90% at 50% 10%, rgba(106,20,33,.35), transparent 70%)" }}>
+              <div style={{ height: 200, display: "flex", alignItems: "flex-end", justifyContent: "center", background: "radial-gradient(120% 90% at 50% 10%, rgba(155,28,46,.10), transparent 70%)" }}>
                 {imagem && (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={imagem} alt={r.nome} style={{ maxHeight: 196, maxWidth: "90%", filter: "drop-shadow(0 8px 18px rgba(0,0,0,.6))" }} />
+                  <img src={imagem} alt={r.nome} style={{ maxHeight: 196, maxWidth: "90%", filter: "drop-shadow(0 8px 16px rgba(60,30,10,.45))" }} />
                 )}
               </div>
               <div style={{ padding: "12px 14px", borderTop: "1px solid var(--borda)" }}>
-                <strong className="titulo-grimorio" style={{ fontSize: 22 }}>{r.nome}</strong>
-                <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--texto-casca-suave)", lineHeight: 1.45, margin: "4px 0 0" }}>{r.resumo}</p>
+                <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 22, letterSpacing: ".5px" }}>{r.nome}</strong>
+                <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", lineHeight: 1.45, margin: "4px 0 0" }}>{r.resumo}</p>
               </div>
             </Link>
           );
