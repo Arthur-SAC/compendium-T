@@ -4,6 +4,8 @@ import { construirRegistro } from "@/lib/autolink";
 import { Ficha } from "@/components/Ficha";
 import { FichaRaca } from "@/components/FichaRaca";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return carregarEntidades().map((e) => ({ tipo: e.tipo, id: e.id }));
 }
