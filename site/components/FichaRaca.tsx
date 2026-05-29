@@ -9,13 +9,11 @@ function rotuloModificador(m: ModificadorAtributo): string {
   return `${m.valor > 0 ? "+" : ""}${m.valor} ${m.atributo ?? ""}`.trim();
 }
 
-const SEPIA = "#ffaad4";
-
 function StatBox({ valor, rotulo }: { valor: string; rotulo: string }) {
   return (
-    <span style={{ textAlign: "center", background: "rgba(220,40,120,.12)", border: "1px solid var(--borda-clara)", borderRadius: 10, padding: "8px 14px" }}>
-      <span style={{ display: "block", fontFamily: "var(--serifa)", fontSize: 18, color: SEPIA, fontWeight: 800 }}>{valor}</span>
-      <span style={{ fontSize: 9, letterSpacing: 1.5, textTransform: "uppercase", color: "var(--texto-suave)" }}>{rotulo}</span>
+    <span style={{ textAlign: "center", background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 10, padding: "8px 14px" }}>
+      <span style={{ display: "block", fontFamily: "var(--serifa)", fontSize: 18, color: "var(--carmesim)", fontWeight: 800 }}>{valor}</span>
+      <span style={{ fontSize: 9, letterSpacing: 1.5, textTransform: "uppercase", color: "var(--tinta-suave)" }}>{rotulo}</span>
     </span>
   );
 }
@@ -24,97 +22,82 @@ export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entida
   const m = entidade.mecanica as unknown as RacaMecanica;
   const imagem = entidade.imagens[0];
   const deslocamento = m.deslocamento != null ? `${m.deslocamento}${m.deslocamentoUnidade ?? ""}` : null;
+  const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
 
   return (
-    <article style={{ maxWidth: 760, margin: "0 auto", background: "var(--fundo-card)", border: "2px solid var(--borda)", borderRadius: 18, overflow: "hidden", boxShadow: "0 14px 50px rgba(160,20,90,.35)" }}>
-      <header style={{ padding: "18px 24px 10px", textAlign: "center", borderBottom: "1px solid var(--borda-clara)" }}>
-        <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "var(--texto-suave)" }}>Raça</div>
-        <h1 className="titulo-grimorio" style={{ fontSize: 36, margin: "2px 0 0" }}>{entidade.nome}</h1>
+    <article style={{ maxWidth: 760, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
+      <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "20px 24px 14px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
+        <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>Raça</div>
+        <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
         <Divisor />
+      </header>
+
+      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)" }}>
         {entidade.resumo && (
-          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--texto-suave)", maxWidth: 560, margin: "6px auto 0", lineHeight: 1.5 }}>
+          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 560, margin: "0 auto", padding: "16px 24px 0", lineHeight: 1.55, textAlign: "center" }}>
             {entidade.resumo}
           </p>
         )}
-      </header>
-
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, padding: 20 }}>
-        {/* Coluna da ilustração */}
-        {imagem && (
-          <div style={{ flex: "1 1 240px", minWidth: 220, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={imagem}
-              alt={`Ilustração de ${entidade.nome}`}
-              style={{ width: "100%", maxWidth: 300, height: "auto", filter: "drop-shadow(0 10px 24px rgba(0,0,0,.6))" }}
-            />
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "18px 22px 22px" }}>
+          {imagem && (
+            <div style={{ flex: "1 1 240px", minWidth: 220, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 290, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
+            </div>
+          )}
+          <div style={{ flex: "2 1 320px", minWidth: 280 }}>
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 14 }}>
+              {m.tamanho && <StatBox valor={m.tamanho} rotulo="Tamanho" />}
+              {deslocamento && <StatBox valor={deslocamento} rotulo="Deslocamento" />}
+            </div>
+            {m.modificadores && m.modificadores.length > 0 && (
+              <section style={{ marginBottom: 16 }}>
+                <h2 style={h2}>Modificadores de Atributo</h2>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 8 }}>
+                  {m.modificadores.map((mod, i) => (
+                    <span key={i} style={{ fontFamily: "var(--serifa)", fontWeight: 700, fontSize: 14, color: "var(--carmesim)", padding: "4px 11px", borderRadius: 8, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" }}>
+                      {rotuloModificador(mod)}
+                    </span>
+                  ))}
+                </div>
+              </section>
+            )}
+            {m.habilidades && m.habilidades.length > 0 && (
+              <section>
+                <h2 style={h2}>Habilidades de Raça</h2>
+                <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 10 }}>
+                  {m.habilidades.map((h, i) => (
+                    <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
+                      <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}.</span>{" "}
+                      <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
-        )}
-
-        {/* Coluna mecânica */}
-        <div style={{ flex: "2 1 320px", minWidth: 280 }}>
-          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 14 }}>
-            {m.tamanho && <StatBox valor={m.tamanho} rotulo="Tamanho" />}
-            {deslocamento && <StatBox valor={deslocamento} rotulo="Deslocamento" />}
-          </div>
-
-          {m.modificadores && m.modificadores.length > 0 && (
-            <section style={{ marginBottom: 16 }}>
-              <h2 style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: 2, color: "var(--destaque)", borderBottom: "1px solid var(--borda)", paddingBottom: 4 }}>
-                Modificadores de Atributo
-              </h2>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 8 }}>
-                {m.modificadores.map((mod, i) => (
-                  <span key={i} style={{ fontFamily: "var(--serifa)", fontWeight: 700, fontSize: 14, color: SEPIA, padding: "4px 11px", borderRadius: 8, background: "rgba(220,40,120,.14)", border: "1px solid var(--borda-clara)" }}>
-                    {rotuloModificador(mod)}
+        </div>
+        <div style={{ padding: "0 24px 22px" }}>
+          {entidade.secoes.map((s, i) => (
+            <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+              <h2 style={h2}>{s.titulo}</h2>
+              <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+            </section>
+          ))}
+          {entidade.relacoes.length > 0 && (
+            <section>
+              <h2 style={h2}>Relações</h2>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
+                {entidade.relacoes.map((r, i) => (
+                  <span key={i} style={{ fontSize: 11, padding: "4px 11px", borderRadius: 20, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" }}>
+                    <LinkEntidade alvoId={r.alvoId} alvoTipo={r.alvoTipo} rotulo={r.rotulo} />
                   </span>
                 ))}
               </div>
             </section>
           )}
-
-          {m.habilidades && m.habilidades.length > 0 && (
-            <section>
-              <h2 style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: 2, color: "var(--destaque)", borderBottom: "1px solid var(--borda)", paddingBottom: 4 }}>
-                Habilidades de Raça
-              </h2>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 10 }}>
-                {m.habilidades.map((h, i) => (
-                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.55 }}>
-                    <span style={{ color: SEPIA, fontWeight: 800 }}>{h.nome}.</span>{" "}
-                    <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
+          {m.nota && <p style={{ marginTop: 16, fontSize: 11, color: "var(--tinta-suave)", fontStyle: "italic" }}>{m.nota}</p>}
         </div>
-      </div>
-
-      {/* Descrição e relações em largura total */}
-      <div style={{ padding: "0 24px 22px" }}>
-        {entidade.secoes.map((s, i) => (
-          <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.65, marginBottom: 12 }}>
-            <h2 style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: 2, color: "var(--destaque)", borderBottom: "1px solid var(--borda)", paddingBottom: 4 }}>{s.titulo}</h2>
-            <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
-          </section>
-        ))}
-        {entidade.relacoes.length > 0 && (
-          <section>
-            <h2 style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: 2, color: "var(--destaque)" }}>Relações</h2>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
-              {entidade.relacoes.map((r, i) => (
-                <span key={i} style={{ fontSize: 11, padding: "4px 11px", borderRadius: 20, background: "rgba(220,40,120,.14)", border: "1px solid var(--borda-clara)" }}>
-                  <LinkEntidade alvoId={r.alvoId} alvoTipo={r.alvoTipo} rotulo={r.rotulo} />
-                </span>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {m.nota && (
-          <p style={{ marginTop: 16, fontSize: 11, color: "var(--texto-suave)", fontStyle: "italic" }}>{m.nota}</p>
-        )}
       </div>
     </article>
   );
