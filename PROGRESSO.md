@@ -4,19 +4,28 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-05-29
-**Fase atual:** Fase 0 ✅ → **Fase 1** (decomposta). Fatia 1 = **Raças** ✅. Revamp visual ✅.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes: spike Guerreiro ✅**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Próxima fatia de categoria da Fase 1** — sugestão **Classes** ou **Origens**.
-Mesmo pipeline da fatia de Raças: spec curta (brainstorming) → plano → execução por subagentes;
-reusar `FichaRaca`/`Ficha` como modelo de ficha dedicada e a abordagem de **extração por visão em 2
-passadas** (descoberta de páginas → blocos → validação independente). Para Classes, lembrar que o
-schema de mecânica provavelmente precisa de um tipo próprio (PV/PM por nível, proficiências,
-habilidades por nível 1–20), análogo ao `RacaMecanicaSchema`.
+➡️ **Planejar as DEMAIS classes do Livro Básico** (o spike do Guerreiro validou o `ClasseMecanicaSchema`
+e a `FichaClasse`). Decisões a tomar no brainstorm da próxima fatia:
+- Quais classes e em quantos blocos (são ~14 no Básico: Arcanista, Bárbaro, Bardo, Bucaneiro, Caçador,
+  Cavaleiro, Clérigo, Druida, Guerreiro✅, Inventor, Ladino, Lutador, Nobre, Paladino — confirmar a lista).
+- **Estender o `ClasseMecanicaSchema` para conjuradores** (Arcanista/Clérigo/Druida/Bardo): magias por
+  círculo, caminhos/escolas, atributo de conjuração. Os campos atuais são aditivos/opcionais.
+- Índice `/classes` (cards no tema, como `/racas`).
+Mesmo pipeline: descoberta de páginas → extração por visão em 2 passadas → validação independente por bloco.
+
+**Spike do Guerreiro concluído** (plano `2026-05-29-guerreiro-classe-spike-plano.md`):
+`ClasseMecanicaSchema` (atributo-chave, PV/PM, perícias, proficiências, **progressão 1–20**, habilidades,
+poderes) + validação por tipo; `FichaClasse` dedicada (tema Tomo, com tabela de progressão); Guerreiro
+extraído (PDF 70–72 / impressas 64–66) e **aprovado em validação independente** (20 níveis, 5 habilidades,
+19 poderes incl. os 17 efeitos do Golpe Pessoal, ilustração da Val); termos de combate no glossário com
+proveniência. 41 testes verdes + build estático gera `/ficha/classe/guerreiro`.
 
 **Revamp visual concluído** (plano `2026-05-29-revamp-visual-plano.md`): tema "Tomo de Arton" — casca
 escura carmesim + cards de pergaminho legíveis, fonte **Tormenta20x** (`site/app/fonts/`, via
