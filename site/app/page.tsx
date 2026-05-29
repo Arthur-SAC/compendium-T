@@ -13,9 +13,12 @@ export default function Home() {
       <Divisor />
       <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>Tormenta 20 — wiki de mesa</p>
       <Busca indice={indice} />
-      <div style={{ textAlign: "center", marginTop: 28 }}>
+      <div style={{ textAlign: "center", marginTop: 28, display: "flex", gap: 18, justifyContent: "center", flexWrap: "wrap" }}>
         <Link href="/racas" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver todas as raças →
+        </Link>
+        <Link href="/classes" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Ver todas as classes →
         </Link>
       </div>
     </main>
