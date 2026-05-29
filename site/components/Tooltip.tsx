@@ -13,9 +13,13 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
     const el = ref.current;
     if (el) {
       const r = el.getBoundingClientRect();
-      // centraliza no gatilho, mas mantém dentro da viewport nas laterais (margem de 8px)
-      const left = Math.max(8, Math.min(r.left + r.width / 2 - LARGURA / 2, window.innerWidth - LARGURA - 8));
-      // sempre acima do gatilho (pode vazar por cima); evita o "pula pra baixo"
+      const vw = window.innerWidth;
+      // ancora no termo: abre para a DIREITA (alinhado à esquerda do termo);
+      // se não couber, abre para a ESQUERDA (alinhado à direita do termo)
+      let left = r.left;
+      if (left + LARGURA > vw - 8) left = r.right - LARGURA;
+      left = Math.max(8, Math.min(left, vw - LARGURA - 8));
+      // sempre acima do gatilho (pode vazar por cima)
       setPos({ left, top: r.top - 8 });
     }
     setAberto(true);
