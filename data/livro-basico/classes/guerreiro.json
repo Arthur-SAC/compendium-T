@@ -2,7 +2,7 @@
   "id": "guerreiro",
   "tipo": "classe",
   "nome": "Guerreiro",
-  "resumo": "O mais simples, direto e comum dos aventureiros — e, em muitos aspectos, o mais importante. Mestre versátil das armas e armaduras, treina continuamente para vencer qualquer inimigo no bom e velho aço. PV inicial 20 + Constituição (e 5 + Con por nível); 3 PM por nível.",
+  "resumo": "O mais simples, direto e comum dos aventureiros — e, em muitos aspectos, o mais importante. Mestre versátil das armas e armaduras, treina continuamente para vencer qualquer inimigo no bom e velho aço.",
   "fonte": { "livro": "livro-basico", "pagina": 64 },
   "imagens": ["/classes/guerreiro.png"],
   "secoes": [

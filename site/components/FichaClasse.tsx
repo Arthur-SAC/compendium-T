@@ -106,6 +106,9 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
   const metade = Math.ceil(m.progressao.length / 2);
   const progPrimeira = m.progressao.slice(0, metade);
   const progSegunda = m.progressao.slice(metade);
+  // "Pontos de Vida e Mana" sai do bloco de seções e vai para a coluna direita (abaixo de Proficiências)
+  const secaoPVMana = entidade.secoes.find((s) => /pontos de vida e mana/i.test(s.titulo));
+  const outrasSecoes = entidade.secoes.filter((s) => s !== secaoPVMana);
 
   return (
     <article style={{ maxWidth: 820, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
@@ -128,24 +131,29 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </div>
           )}
           <div style={{ flex: "2 1 360px", minWidth: 300 }}>
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 14 }}>
+              <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
+              <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
+              <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
+              <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
+            </div>
             <section style={{ marginBottom: 12 }}>
               <h2 style={h2}>Perícias</h2>
               <p style={{ fontFamily: "var(--serifa)", lineHeight: 1.55, margin: "0 0 4px" }}>{m.pericias.texto}</p>
               {m.pericias.fixas.length > 0 && <Chips itens={m.pericias.fixas} />}
             </section>
             {m.proficiencias.length > 0 && (
-              <section style={{ marginBottom: 16 }}>
+              <section style={{ marginBottom: 12 }}>
                 <h2 style={h2}>Proficiências</h2>
                 <Chips itens={m.proficiencias} />
               </section>
             )}
-            {/* PV/PM ocupam o espaço logo abaixo de Proficiências */}
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
-              <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
-              <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
-              <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
-            </div>
+            {secaoPVMana && (
+              <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
+                <h2 style={h2}>{secaoPVMana.titulo}</h2>
+                <p style={{ margin: 0 }}><TextoRico texto={secaoPVMana.texto} registro={registro} descricoes={descricoes} /></p>
+              </section>
+            )}
           </div>
         </div>
 
@@ -196,7 +204,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
-          {entidade.secoes.map((s, i) => (
+          {outrasSecoes.map((s, i) => (
             <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
               <h2 style={h2}>{s.titulo}</h2>
               <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
