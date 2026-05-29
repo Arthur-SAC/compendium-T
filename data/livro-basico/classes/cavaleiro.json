@@ -1,0 +1,207 @@
+{
+  "id": "cavaleiro",
+  "tipo": "classe",
+  "nome": "Cavaleiro",
+  "resumo": "Herdeiro da nobre tradição da cavalaria — combatente leal e honrado, atado a um código de conduta, que protege os indefesos com armadura pesada, escudo e a espada de seu senhor ou de sua ordem.",
+  "fonte": { "livro": "livro-basico", "pagina": 52 },
+  "imagens": ["/classes/cavaleiro.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Desde que a civilização se estabeleceu em Arton, sempre houve a necessidade de combater ameaças e defender os inocentes. Antes que grandes escolas de magia formassem arcanos poderosos, antes que exércitos permanentes guardassem as fronteiras, antes mesmo que grupos de aventureiros fossem comuns, havia um tipo de herói que tomou para si a missão de travar essa luta incessante. Eles usavam as mais avançadas ferramentas disponíveis: cavalos, espadas, armaduras. Para se manter leais, faziam juramentos e se organizavam em ordens. Assim se formou a nobre tradição da cavalaria.\n\nO cavaleiro é parte de uma longa história de heroísmo. Às vezes considerados antiquados ou até anacrônicos, estes combatentes têm os mesmos ideais e usam as mesmas táticas que seus predecessores desenvolveram séculos atrás. Muitas vezes são formais e grandiosos, até mesmo arrogantes, pois carregam a responsabilidade de honrar muitas gerações de cavalaria.\n\nCavaleiros costumam estar ligados à nobreza. Em sua forma mais básica, são pequenos nobres que fazem juramentos para proteger a ordem social existente. Portam o título sir e têm um posto acima do povo comum. Isto não significa opressão ou tirania — nos lugares mais tradicionais de Arton, os nobres têm o dever de ir à guerra e defender os plebeus, fazendo por merecer seus privilégios. Existem cavaleiros ligados apenas a um reino ou feudo, mas outros fazem parte de ordens específicas. Seja como for, cavaleiros não escondem suas lealdades: ostentam o brasão de seu senhor ou o símbolo de sua ordem com orgulho em seu escudo ou estandarte.\n\nNinguém pode simplesmente decidir ser um cavaleiro. O processo de treinamento em geral envolve ser escudeiro de um cavaleiro mais experiente. O candidato então é sagrado por um nobre ou um cavaleiro mais antigo, através de uma cerimônia rápida que envolve algum tipo de promessa de fazer o bem e permanecer honrado. Contudo, muitos cavaleiros não dão grande importância a estes juramentos e usam seu título e suas armas para roubar, matar e dominar com mais facilidade. Algumas ordens de cavalaria estão infestadas de nobres que só desejam o título, sem nunca merecê-lo. Mesmo assim, todo cavaleiro espera ser tratado como um igual por outro cavaleiro, ainda que sejam inimigos. Uma luta entre dois cavaleiros é um duelo com regras e certa pompa, não uma simples briga entre brutamontes de armadura.\n\nCavaleiros podem se achar superiores, mas o verdadeiro ideal da cavalaria envolve humildade e serviço. O cavaleiro deve estar sempre disponível para cumprir as ordens de seu senhor ou aceitar pedidos de ajuda dos indefesos. Alguns dos melhores cavaleiros do mundo têm origem pobre ou são naturais de reinos sem grande tradição de cavalaria.\n\nA Ordem da Luz, em Bielefeld, é a mais notória ordem de cavalaria do mundo conhecido, mas qualquer reino possui pelo menos uma ordem obscura ou uma família de cavaleiros. O ímpeto de trajar armadura pesada, empunhar a espada e cavalgar em direção à aventura sempre existirá em toda parte."
+    },
+    {
+      "titulo": "Cavaleiros Famosos",
+      "texto": "Alenn Toren Greenfeld, Bernard Branalon, Brigandine, Orion Drake, Pelvas."
+    },
+    {
+      "titulo": "Pontos de Vida e Mana",
+      "texto": "Um cavaleiro começa com 20 pontos de vida + Constituição e ganha 5 PV + Constituição por nível. Pontos de Mana: 3 PM por nível. (Os campos numéricos da ficha guardam apenas a parte base inteira: PV inicial 20, +5 PV por nível, +3 PM por nível; o \"+ Constituição\" do PV vem do bônus do atributo.)"
+    },
+    {
+      "titulo": "Posturas de Combate",
+      "texto": "Alguns poderes do cavaleiro são Posturas de Combate. Esses poderes compartilham as seguintes regras.\n\n• Assumir uma postura gasta uma ação de movimento e 2 PM.\n\n• Os efeitos de uma postura duram até o final da cena, a menos que sua descrição diga o contrário.\n\n• Você só pode manter uma postura por vez."
+    },
+    {
+      "titulo": "As Ordens de Cavalaria de Arton",
+      "texto": "Ordens de cavalaria são organizações hierárquicas, criadas para unir indivíduos dispostos a viver e morrer em nome de sua retidão. Sob os ideais da honra, tornam seus integrantes mais fortes. Pétreos, eu diria. Cavaleiros e suas ordens são parte integral de Arton. É difícil imaginar como seria a história do mundo sem considerar o papel exercido por essas instituições.\n\nA primeira dessas organizações que vem à mente é a Ordem da Luz, com suas linhagens ancestrais e seus enormes castelos em Bielefeld. Liderados por Sir Alenn Toren Greenfeld, os Cavaleiros da Luz carregam seus estandartes em nome da honra, da justiça e da tradição. As normas de conduta da instituição servem de modelo a cidadãos do Reinado que buscam se comportar de forma correta não só por sua história, mas também por seu papel em conflitos como a batalha contra a Tormenta e a Guerra Artoniana.\n\nA Ordem da Luz é irmã da Ordem de Khalmyr, e ambas foram fundadas por dois amigos e companheiros de batalhas. Porém, as semelhanças param por aí. Escondida nos confins das Montanhas Lannestull, a Ordem de Khalmyr possui tradição monástica — seus membros não se importam com títulos ou honrarias, apenas em seguir os mandamentos do Deus da Justiça. Os irmãos da ordem são os cavaleiros mais puros de Arton... Ou tolos congelados num tempo em que a vida era mais simples.\n\nEntre essas duas, há uma miríade de ordens menores espalhadas pelo Reinado e além. Algumas preocupam-se com a segurança de um feudo ou reino específico; outras, em manter sua estirpe. É bom lembrar que nem tudo é pureza: ordem traz poder, poder traz glória, e a glória leva à corrupção. Alguns veem os Cavaleiros do Corvo como um exemplo dessa degradação. Apesar de terem tido papel fundamental na derrota da Tormenta em Tamu-ra, esses renegados da Ordem da Luz usam métodos questionáveis e são vistos com profunda desconfiança pelos tradicionalistas.\n\nOrdens de cavalaria são irmandades baseadas em honra e ideais. Cada uma é como uma família estendida, um reino próprio. Mas pertencer a uma delas não depende de nascimento — é uma recompensa que só os merecedores conquistam.\n\n— Sete Notas, moreau do gato, bardo"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "exemplo", "alvoId": "orion-drake", "alvoTipo": "npc", "rotulo": "Orion Drake (o cavaleiro da Luz)" }
+  ],
+  "mecanica": {
+    "atributoChave": "Força (Carisma secundário em vários poderes)",
+    "pvInicial": 20,
+    "pvPorNivel": 5,
+    "pmPorNivel": 3,
+    "pericias": {
+      "quantidade": 2,
+      "fixas": ["Fortitude (Con)", "Luta (For)"],
+      "lista": ["Adestramento (Car)", "Atletismo (For)", "Cavalgar (Des)", "Diplomacia (Car)", "Guerra (Int)", "Iniciativa (Des)", "Intimidação (Car)", "Nobreza (Int)", "Percepção (Sab)", "Vontade (Sab)"],
+      "texto": "Fortitude (Con) e Luta (For), mais 2 a sua escolha entre Adestramento (Car), Atletismo (For), Cavalgar (Des), Diplomacia (Car), Guerra (Int), Iniciativa (Des), Intimidação (Car), Nobreza (Int), Percepção (Sab) e Vontade (Sab)."
+    },
+    "proficiencias": ["armas marciais", "armaduras pesadas", "escudos"],
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Baluarte +2", "Código de honra"] },
+      { "nivel": 2, "habilidades": ["Duelo +2", "Poder de cavaleiro"] },
+      { "nivel": 3, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 4, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 5, "habilidades": ["Caminho do cavaleiro", "Baluarte +4", "Poder de cavaleiro"] },
+      { "nivel": 6, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 7, "habilidades": ["Baluarte (aliados adjacentes)", "Duelo +3", "Poder de cavaleiro"] },
+      { "nivel": 8, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 9, "habilidades": ["Baluarte +6", "Poder de cavaleiro"] },
+      { "nivel": 10, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 11, "habilidades": ["Poder de cavaleiro", "Resoluto"] },
+      { "nivel": 12, "habilidades": ["Duelo +4", "Poder de cavaleiro"] },
+      { "nivel": 13, "habilidades": ["Baluarte +8", "Poder de cavaleiro"] },
+      { "nivel": 14, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 15, "habilidades": ["Baluarte (aliados em alcance curto)", "Poder de cavaleiro"] },
+      { "nivel": 16, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 17, "habilidades": ["Baluarte +10", "Duelo +5", "Poder de cavaleiro"] },
+      { "nivel": 18, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 19, "habilidades": ["Poder de cavaleiro"] },
+      { "nivel": 20, "habilidades": ["Bravura final", "Poder de cavaleiro"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Código de Honra",
+        "nivel": 1,
+        "descricao": "Cavaleiros distinguem-se de meros combatentes por seguir um código de conduta. Fazem isto para mostrar que estão acima dos mercenários e bandoleiros que infestam os campos de batalha. Você não pode atacar um oponente pelas costas (em termos de jogo, não pode se beneficiar do bônus de flanquear), caído, desprevenido ou incapaz de lutar. Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia. Rebaixar-se ao nível dos covardes e desesperados abala a autoconfiança que eleva o cavaleiro."
+      },
+      {
+        "nome": "Baluarte",
+        "nivel": 1,
+        "descricao": "Quando sofre um ataque ou faz um teste de resistência, você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2. A partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.",
+        "custo": "1 PM (+1 PM a cada quatro níveis; +2 PM aliados adjacentes no 7º; +5 PM aliados em alcance curto no 15º)"
+      },
+      {
+        "nome": "Duelo",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1.",
+        "custo": "2 PM (+1 PM a cada cinco níveis)"
+      },
+      {
+        "nome": "Poder de Cavaleiro",
+        "nivel": 2,
+        "descricao": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes de cavaleiro (veja a lista de poderes)."
+      },
+      {
+        "nome": "Caminho do Cavaleiro",
+        "nivel": 5,
+        "descricao": "No 5º nível, escolha entre Bastião ou Montaria.\n\n• Bastião. Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Especialização em Armadura).\n\n• Montaria. Você recebe um cavalo de guerra com o qual possui +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um parceiro veterano de seu tipo. No 11º nível, passa a fornecer os benefícios de um parceiro mestre. De acordo com o mestre, você pode receber outro tipo de montaria. Veja a lista de montarias na página 261. Caso a montaria morra, você pode comprar outra pelo preço normal e treiná-la para receber os benefícios desta habilidade com uma semana de trabalho."
+      },
+      {
+        "nome": "Resoluto",
+        "nivel": 11,
+        "descricao": "A partir do 11º nível, você pode gastar 1 PM para refazer um teste de resistência contra uma condição (como abalado, paralisado etc.) que esteja o afetando. O segundo teste recebe um bônus de +5 e, se você passar, cancela o efeito. Você só pode usar esta habilidade uma vez por efeito.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Bravura Final",
+        "nivel": 20,
+        "descricao": "No 20º nível, sua virtude vence a morte. Se for reduzido a 0 ou menos PV, pode gastar 3 PM para continuar consciente e de pé. Esta habilidade tem duração sustentada. Quando se encerra, você sofre os efeitos de seus PV atuais, podendo cair inconsciente ou mesmo morrer.",
+        "custo": "3 PM"
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Armadura da Honra",
+        "descricao": "No início de cada cena, você recebe uma quantidade de pontos de vida temporários igual a seu nível + seu Carisma. Os PV temporários duram até o final da cena."
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Autoridade Feudal",
+        "descricao": "Você pode gastar uma hora e 2 PM para conclamar o povo a ajudá-lo (qualquer pessoa sem um título de nobreza ou uma posição numa igreja reconhecida pelo seu reino). Em termos de jogo, essas pessoas contam como um parceiro iniciante de um tipo a sua escolha (aprovado pelo mestre) que lhe acompanha até o fim da aventura. Esta habilidade só pode ser usada em locais onde sua posição carregue alguma influência (a critério do mestre).",
+        "prerequisito": "6º nível de cavaleiro",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Desprezar os Covardes",
+        "descricao": "Você recebe redução de dano 5 se estiver caído, desprevenido ou flanqueado."
+      },
+      {
+        "nome": "Escudeiro",
+        "descricao": "Você recebe os serviços de um escudeiro, um parceiro especial que cuida de seu equipamento. Suas armas fornecem +1 em rolagens de dano e sua armadura concede +1 na Defesa. Além disso, você pode pagar 1 PM para receber ajuda do escudeiro em combate. Você recebe uma ação de movimento que pode usar para se levantar, sacar um item ou trazer sua montaria. O escudeiro não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com um mês de trabalho.",
+        "custo": "1 PM (opcional)"
+      },
+      {
+        "nome": "Especialização em Armadura",
+        "descricao": "Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Bastião).",
+        "prerequisito": "12º nível de cavaleiro"
+      },
+      {
+        "nome": "Estandarte",
+        "descricao": "Sua flâmula torna-se um símbolo de inspiração. No início de cada cena, você e todos os aliados que possam ver seu estandarte recebem um número de PM temporários igual ao seu Carisma (mínimo 1). Esses pontos temporários desaparecem no final da cena.",
+        "prerequisito": "Título, 14º nível de cavaleiro"
+      },
+      {
+        "nome": "Etiqueta",
+        "descricao": "Você recebe +2 em Diplomacia ou Nobreza e pode gastar 1 PM para rolar novamente um teste recém realizado de uma dessas perícias.",
+        "custo": "1 PM (opcional)"
+      },
+      {
+        "nome": "Investida Destruidora",
+        "descricao": "Quando faz a ação investida, você pode gastar 2 PM. Se fizer isso, causa +2d8 pontos de dano. Você deve usar esta habilidade antes de rolar o ataque.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Montaria Corajosa",
+        "descricao": "Sua montaria concede +1d6 em rolagens de dano corpo a corpo (cumulativo com qualquer bônus que ela já forneça como parceiro).",
+        "prerequisito": "Montaria"
+      },
+      {
+        "nome": "Pajem",
+        "descricao": "Você recebe os serviços de um pajem, um parceiro que o auxilia em pequenos afazeres. Você recebe +2 em Diplomacia, por estar sempre aprumado, e sua condição de descanso é uma categoria acima do padrão pela situação (veja a página 106). O pajem pode executar pequenas tarefas, como entregar mensagens e comprar itens, e não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com uma semana de trabalho."
+      },
+      {
+        "nome": "Postura de Combate: Aríete Implacável",
+        "descricao": "Ao assumir esta postura, você aumenta o bônus de ataque em investidas em +2. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta o bônus de ataque em +1. Além disso, se fizer uma investida contra um construto ou objeto, causa +2d8 de dano. Você precisa se deslocar todos os turnos para manter esta postura ativa.",
+        "custo": "2 PM (postura; +2 PM por +1 de ataque)"
+      },
+      {
+        "nome": "Postura de Combate: Castigo de Ferro",
+        "descricao": "Sempre que um aliado adjacente sofrer um ataque corpo a corpo, você pode gastar 1 PM para fazer um ataque na criatura que o atacou.",
+        "custo": "2 PM (postura); 1 PM por ataque"
+      },
+      {
+        "nome": "Postura de Combate: Foco de Batalha",
+        "descricao": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Postura de Combate: Muralha Intransponível",
+        "descricao": "Para assumir esta postura você precisa estar empunhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumente esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.",
+        "custo": "2 PM (postura; +2 PM por +1 de bônus)"
+      },
+      {
+        "nome": "Postura de Combate: Provocação Petulante",
+        "descricao": "Enquanto esta postura estiver ativa, todos os inimigos que iniciarem seus turnos em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, qualquer ação hostil que realizarem deve ter você como alvo (mas suas outras ações não têm esta restrição). Ações hostis incluem ataques e outras ações que causem dano e/ou condições negativas. Mental.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Postura de Combate: Torre Inabalável",
+        "descricao": "Você assume uma postura defensiva que o torna imune a qualquer tentativa de tirá-lo do lugar, de forma mundana ou mágica. Enquanto mantiver a postura, você não pode se deslocar, mas soma sua Constituição na Defesa e pode substituir testes de Reflexos e Vontade por testes de Fortitude.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Solidez",
+        "descricao": "Se estiver usando um escudo, você soma o bônus na Defesa recebido pelo escudo em testes de resistência."
+      },
+      {
+        "nome": "Título",
+        "descricao": "Você adquire um título de nobreza. Converse com o mestre para definir os benefícios exatos de seu título. Como regra geral, no início de cada aventura você recebe 20 TO por nível de cavaleiro (rendimentos dos impostos) ou a ajuda de um parceiro veterano (um membro de sua corte).",
+        "prerequisito": "Autoridade Feudal, 10º nível de cavaleiro, ter conquistado terras ou realizado um serviço para um nobre que possa se tornar seu suserano"
+      },
+      {
+        "nome": "Torre Armada",
+        "descricao": "Quando um inimigo erra um ataque contra você, você pode gastar 1 PM. Se fizer isso, recebe +5 em rolagens de dano contra esse inimigo até o fim de seu próximo turno.",
+        "custo": "1 PM"
+      }
+    ]
+  }
+}
