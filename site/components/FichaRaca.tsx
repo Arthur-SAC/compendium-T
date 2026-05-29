@@ -1,26 +1,8 @@
-import type { Entidade } from "@/lib/schema";
+import type { Entidade, RacaMecanica, ModificadorAtributo } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
-
-// Forma estruturada da mecânica de uma Raça (spike — espelha o RacaMecanicaSchema do design).
-type ModificadorAtributo = {
-  atributo?: string;
-  valor: number;
-  escolha?: boolean;
-  quantidade?: number;
-  observacao?: string;
-};
-type HabilidadeRacial = { nome: string; descricao: string; efeito?: string };
-type RacaMecanica = {
-  modificadores?: ModificadorAtributo[];
-  tamanho?: string;
-  deslocamento?: number;
-  deslocamentoUnidade?: string;
-  nota?: string;
-  habilidades?: HabilidadeRacial[];
-};
 
 function rotuloModificador(m: ModificadorAtributo): string {
   if (m.escolha) return `${m.valor > 0 ? "+" : ""}${m.valor} em ${m.quantidade ?? ""} atributos`;
@@ -39,7 +21,7 @@ function StatBox({ valor, rotulo }: { valor: string; rotulo: string }) {
 }
 
 export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
-  const m = entidade.mecanica as RacaMecanica;
+  const m = entidade.mecanica as unknown as RacaMecanica;
   const imagem = entidade.imagens[0];
   const deslocamento = m.deslocamento != null ? `${m.deslocamento}${m.deslocamentoUnidade ?? ""}` : null;
 
