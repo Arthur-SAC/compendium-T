@@ -4,28 +4,47 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-05-29
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes: spike Guerreiro ✅**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes em andamento** (10/14).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
-## PRÓXIMA AÇÃO (retomar aqui)
+## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **Planejar as DEMAIS classes do Livro Básico** (o spike do Guerreiro validou o `ClasseMecanicaSchema`
-e a `FichaClasse`). Decisões a tomar no brainstorm da próxima fatia:
-- Quais classes e em quantos blocos (são ~14 no Básico: Arcanista, Bárbaro, Bardo, Bucaneiro, Caçador,
-  Cavaleiro, Clérigo, Druida, Guerreiro✅, Inventor, Ladino, Lutador, Nobre, Paladino — confirmar a lista).
-- **Estender o `ClasseMecanicaSchema` para conjuradores** (Arcanista/Clérigo/Druida/Bardo): magias por
-  círculo, caminhos/escolas, atributo de conjuração. Os campos atuais são aditivos/opcionais.
-- Índice `/classes` (cards no tema, como `/racas`).
-Mesmo pipeline: descoberta de páginas → extração por visão em 2 passadas → validação independente por bloco.
+➡️ **Executar a Tarefa 6 do plano `docs/superpowers/plans/2026-05-29-demais-classes-plano.md`:
+extrair as 4 classes CONJURADORAS** (visão em 2 passadas + validação independente), depois Tarefa 7
+(tooltips) e Tarefa 8 (integração). Executar por **Subagent-Driven** (mesmo padrão dos blocos marciais).
 
-**Spike do Guerreiro concluído** (plano `2026-05-29-guerreiro-classe-spike-plano.md`):
-`ClasseMecanicaSchema` (atributo-chave, PV/PM, perícias, proficiências, **progressão 1–20**, habilidades,
-poderes) + validação por tipo; `FichaClasse` dedicada (tema Tomo, com tabela de progressão); Guerreiro
-extraído (PDF 70–72 / impressas 64–66) e **aprovado em validação independente** (20 níveis, 5 habilidades,
-19 poderes incl. os 17 efeitos do Golpe Pessoal, ilustração da Val); termos de combate no glossário com
-proveniência. 41 testes verdes + build estático gera `/ficha/classe/guerreiro`.
+**Conjuradoras a extrair** (mapa `docs/superpowers/plans/classes-paginas.md`; offset PDF = impressa + 6):
+- **Arcanista** — PDF 42–45 (impressas 36–39). Conjuração **Arcana**, atributo **Inteligência ou Carisma**.
+  **Caminhos nomeados: Bruxo / Mago / Feiticeiro** (Feiticeiro tem sub-Linhagens: Dracônica, Feérica, Rubra) — preencher `mecanica.caminhos`.
+- **Bardo** — PDF 49–51 (impressas 43–45). Conjuração **Arcana**, atributo **Carisma**. Sem caminhos nomeados
+  (escolha de 3 escolas + habilidades próprias) → `caminhos` pode ficar `[]`; capturar as escolhas em `habilidades`.
+- **Clérigo** — PDF 62–64 (impressas 56–58). Conjuração **Divina**, atributo **Sabedoria**. Devoção a deus +
+  Poderes Concedidos (modelar a devoção/concedidos como `caminhos` ou em `habilidades`, fiel ao livro). PDF 65 é arte de página inteira (panteão) — pular.
+- **Druida** — PDF 66–69 (impressas 60–63). Conjuração **Divina**, atributo **Sabedoria**. Sem caminhos nomeados.
+
+Preencher `mecanica.conjuracao { tipo, atributoChave, descricao }` e `mecanica.caminhos[]` (quando houver).
+As **magias em si** NÃO entram (categoria *Magias*, futura) — só a habilidade "Magias" da classe em `habilidades`.
+
+**Dicas operacionais (aprendidas nos blocos marciais):**
+- poppler em `$env:POPPLER_BIN` (default no código); render `pdftoppm -r 150`; texto `pdftotext -layout -enc UTF-8`.
+- Ilustração: compor cor+smask com `comporComMascara` de `extracao/src/imagens.ts` via um script **`.mts`**
+  temporário em `extracao/cache/...` (o `npx tsx -e` com top-level await falha em CJS). Saída em `site/public/classes/<slug>.png`.
+- O `pdftotext` às vezes **embaralha as linhas 7/12/13 (e 14/15) da tabela** — confirmar a ordem pela IMAGEM.
+- PV/PM com "+atributo": guardar o inteiro base + registrar o "+atributo" na seção "Pontos de Vida e Mana"/resumo.
+- **Editou JSON em `data/`? reiniciar o dev server** (carregador memoizado) para ver no navegador.
+
+**Fatia Classes — progresso** (spec `2026-05-29-demais-classes-design.md`, plano `2026-05-29-demais-classes-plano.md`):
+- **C1–C3 (código) ✅**: schema com `conjuracao`+`caminhos` (opcionais); `FichaClasse` renderiza Conjuração/Caminhos;
+  índice `/classes` + atalhos na home. 46 testes verdes, build gera `/classes`.
+- **C4 (descoberta) ✅**: `docs/superpowers/plans/classes-paginas.md` (14 classes, offset +6). Conjuradoras = Arcanista, Bardo, Clérigo, Druida; **Caçador e Paladino NÃO conjuram**.
+- **C5 (marciais) ✅ — 10/14 classes extraídas e validadas (visão 2 passadas, aprovadas):**
+  Guerreiro (spike) + **Bárbaro, Bucaneiro, Caçador** (`bfb57f6`) + **Cavaleiro, Inventor, Ladino** (`017c3a5`) + **Lutador, Nobre, Paladino** (`ad67c8d`).
+  Cada uma: progressão 1–20, habilidades, poderes, quadros (Totêmicos/Bravatas/Armadilhas/Posturas/Ordens/Engenhocas/Julgamentos/Virtudes…), ilustração. Suíte verde.
+- **FALTAM (próxima ação): C6** as 4 conjuradoras, **C7** tooltips, **C8** integração final (build + `/classes` com todas + PROGRESSO).
+
+> Spike do Guerreiro (plano `2026-05-29-guerreiro-classe-spike-plano.md`) validou schema, `FichaClasse` e pipeline.
 
 **Revamp visual concluído** (plano `2026-05-29-revamp-visual-plano.md`): tema "Tomo de Arton" — casca
 escura carmesim + cards de pergaminho legíveis, fonte **Tormenta20x** (`site/app/fonts/`, via
