@@ -68,3 +68,14 @@ test("ainda casa ND como palavra isolada", () => {
   const t = tokenizar("o ND da criatura", reg);
   expect(t).toContainEqual({ tipo: "tooltip", termoId: "nd", valor: "ND" });
 });
+
+test("construirRegistro pré-compila a regex e tokeniza igual em chamadas repetidas", () => {
+  const reg = construirRegistro({
+    termos: [{ id: "medo", nome: "Medo", descricao: "x" }],
+    entidades: [],
+  });
+  expect(reg.re).toBeInstanceOf(RegExp);
+  const a = tokenizar("fica com Medo agora", reg);
+  const b = tokenizar("fica com Medo agora", reg);
+  expect(b).toEqual(a);
+});

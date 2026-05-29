@@ -15,7 +15,12 @@ type Entrada =
 export type Registro = {
   entradas: Entrada[];
   porNome: Map<string, Entrada>;
+  re: RegExp | null;
 };
+
+function escaparRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
 export function construirRegistro(dados: {
   termos: TermoEntrada[];
@@ -31,21 +36,22 @@ export function construirRegistro(dados: {
     const chave = entrada.nome.toLowerCase();
     if (!porNome.has(chave)) porNome.set(chave, entrada);
   }
-  return { entradas, porNome };
-}
-
-function escaparRegex(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re =
+    entradas.length === 0
+      ? null
+      : new RegExp(
+          `(?<![\\p{L}\\p{N}])(${entradas.map((e) => escaparRegex(e.nome)).join("|")})(?![\\p{L}\\p{N}])`,
+          "giu"
+        );
+  return { entradas, porNome, re };
 }
 
 export function tokenizar(texto: string, registro: Registro): Token[] {
-  if (registro.entradas.length === 0) return [{ tipo: "texto", valor: texto }];
-  const alternativas = registro.entradas.map((e) => escaparRegex(e.nome)).join("|");
-  const re = new RegExp(`(?<![\\p{L}\\p{N}])(${alternativas})(?![\\p{L}\\p{N}])`, "giu");
+  if (!registro.re) return [{ tipo: "texto", valor: texto }];
 
   const tokens: Token[] = [];
   let ultimo = 0;
-  for (const m of texto.matchAll(re)) {
+  for (const m of texto.matchAll(registro.re)) {
     const inicio = m.index!;
     const casado = m[0];
     if (inicio > ultimo) tokens.push({ tipo: "texto", valor: texto.slice(ultimo, inicio) });
