@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { carregarEntidades, carregarTermos } from "@/lib/dados";
 import { construirRegistro } from "@/lib/autolink";
 import { Ficha } from "@/components/Ficha";
+import { FichaRaca } from "@/components/FichaRaca";
 
 export function generateStaticParams() {
   return carregarEntidades().map((e) => ({ tipo: e.tipo, id: e.id }));
@@ -22,7 +23,11 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
 
   return (
     <main style={{ padding: 40 }}>
-      <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
+      {entidade.tipo === "raca" ? (
+        <FichaRaca entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : (
+        <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
+      )}
     </main>
   );
 }

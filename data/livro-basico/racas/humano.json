@@ -1,0 +1,38 @@
+{
+  "id": "humano",
+  "tipo": "raca",
+  "nome": "Humano",
+  "resumo": "O povo mais numeroso e versátil de Arton. Filhos de Valkaria, capazes de se destacar em qualquer caminho que escolherem.",
+  "fonte": { "livro": "livro-basico", "pagina": 19 },
+  "imagens": ["/racas/humano.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O povo mais numeroso em Arton, humanos são considerados os escolhidos dos deuses, aqueles que governam o mundo. Em sua variedade e adaptabilidade, são encontrados em quase todos os pontos do continente — dos vales férteis do Reinado às vastidões áridas do Deserto da Perdição. São exploradores e desbravadores ambiciosos, sempre buscando algo além."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devotoDe", "alvoId": "valkaria", "alvoTipo": "divindade", "rotulo": "filhos de Valkaria" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "valor": 1, "escolha": true, "quantidade": 3, "observacao": "+1 em três atributos diferentes" }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O Humano não altera tamanho nem deslocamento; usa o padrão de personagem (Médio, deslocamento 9m).",
+    "habilidades": [
+      {
+        "nome": "+1 em Três Atributos Diferentes",
+        "descricao": "Filhos de Valkaria, a Deusa da Ambição, humanos podem se destacar em qualquer caminho que escolherem.",
+        "efeito": "+1 em três atributos diferentes à escolha"
+      },
+      {
+        "nome": "Versátil",
+        "descricao": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha.",
+        "efeito": "Treinado em 2 perícias à escolha; pode trocar 1 perícia por um poder geral"
+      }
+    ]
+  }
+}
