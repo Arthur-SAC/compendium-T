@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { EntidadeSchema, RelacaoSchema } from "@/lib/schema";
+import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema } from "@/lib/schema";
 
 const baseValida = {
   id: "sucubo",
@@ -28,4 +28,39 @@ test("rejeita tipo desconhecido", () => {
 
 test("relação exige alvoId e tipo", () => {
   expect(() => RelacaoSchema.parse({ tipo: "serve" })).toThrow();
+});
+
+const racaValida = {
+  id: "humano", tipo: "raca", nome: "Humano", resumo: "O povo mais versátil.",
+  fonte: { livro: "livro-basico", pagina: 19 },
+  imagens: [], secoes: [], relacoes: [],
+  mecanica: {
+    modificadores: [{ valor: 1, escolha: true, quantidade: 3 }],
+    tamanho: "Médio", deslocamento: 9,
+    habilidades: [{ nome: "Versátil", descricao: "Você se torna treinado em duas perícias." }],
+  },
+};
+
+test("RacaMecanicaSchema aceita modificador fixo e de escolha", () => {
+  expect(() =>
+    RacaMecanicaSchema.parse({
+      modificadores: [{ atributo: "Força", valor: 2 }, { valor: 1, escolha: true, quantidade: 3 }],
+      tamanho: "Médio", deslocamento: 9, habilidades: [],
+    })
+  ).not.toThrow();
+});
+
+test("RacaMecanicaSchema rejeita atributo fora do enum", () => {
+  expect(() =>
+    RacaMecanicaSchema.parse({ modificadores: [{ atributo: "Sorte", valor: 1 }], tamanho: "Médio", deslocamento: 9, habilidades: [] })
+  ).toThrow();
+});
+
+test("entidade tipo raca aceita mecânica de raça válida", () => {
+  expect(() => EntidadeSchema.parse(racaValida)).not.toThrow();
+});
+
+test("entidade tipo raca rejeita mecânica sem tamanho", () => {
+  const ruim = { ...racaValida, mecanica: { modificadores: [], deslocamento: 9, habilidades: [] } };
+  expect(() => EntidadeSchema.parse(ruim)).toThrow();
 });
