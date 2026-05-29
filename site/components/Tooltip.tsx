@@ -6,19 +6,17 @@ const LARGURA = 240;
 
 export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descricao?: string; termoId: string }) {
   const [aberto, setAberto] = useState(false);
-  const [pos, setPos] = useState<{ left: number; top: number; acima: boolean } | null>(null);
+  const [pos, setPos] = useState<{ left: number; top: number } | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
 
   function abrir() {
     const el = ref.current;
     if (el) {
       const r = el.getBoundingClientRect();
-      // centraliza no gatilho, mas mantém dentro da viewport (margem de 8px)
+      // centraliza no gatilho, mas mantém dentro da viewport nas laterais (margem de 8px)
       const left = Math.max(8, Math.min(r.left + r.width / 2 - LARGURA / 2, window.innerWidth - LARGURA - 8));
-      // acima do gatilho por padrão; se houver pouco espaço no topo, mostra abaixo
-      const acima = r.top > 160;
-      const top = acima ? r.top - 8 : r.bottom + 8;
-      setPos({ left, top, acima });
+      // sempre acima do gatilho (pode vazar por cima); evita o "pula pra baixo"
+      setPos({ left, top: r.top - 8 });
     }
     setAberto(true);
   }
@@ -39,15 +37,15 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
         {aberto && descricao && pos && (
           <motion.span
             role="tooltip"
-            initial={{ opacity: 0, y: pos.acima ? 6 : -6 }}
+            initial={{ opacity: 0, y: 6 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: pos.acima ? 6 : -6 }}
+            exit={{ opacity: 0, y: 6 }}
             transition={{ duration: 0.18 }}
             style={{
               position: "fixed",
               left: pos.left,
               top: pos.top,
-              transform: pos.acima ? "translateY(-100%)" : "none",
+              transform: "translateY(-100%)",
               width: LARGURA,
               background: "linear-gradient(180deg,#fbf3df,#f1e3c4)",
               color: "var(--tinta)",
