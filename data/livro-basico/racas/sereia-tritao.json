@@ -1,0 +1,41 @@
+{
+  "id": "sereia-tritao",
+  "tipo": "raca",
+  "nome": "Sereia/Tritão",
+  "resumo": "Raça de torso humanoide e corpo de peixe — chamados sereias quando femininos e tritões quando masculinos — que pode adotar forma bípede para caminhar em terras emersas, algo que tem feito com frequência cada vez maior. Alguns temem ou desprezam os humanos; outros enxergam Arton como um mundo misterioso, exótico e cheio de oportunidades e aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 29 },
+  "imagens": ["/racas/sereia-tritao.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sendo chamadas sereias quando femininas e tritões quando masculinos, os membros desta raça de torso humanoide e corpo de peixe podem adotar forma bípede para caminhar em terras emersas — algo que têm feito com cada vez mais frequência. Enquanto algumas sereias temem ou desprezam os humanos, outras enxergam Arton como um mundo misterioso, exótico, cheio de oportunidades e aventuras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "valor": 1, "escolha": true, "quantidade": 3, "observacao": "em três atributos diferentes" }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Tamanho Médio. Em forma bípede (fora d'água) o deslocamento é 9m; dentro d'água a cauda fornece deslocamento de natação 12m (ver Transformação Anfíbia).",
+    "habilidades": [
+      {
+        "nome": "Canção dos Mares",
+        "descricao": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.",
+        "efeito": "Lança duas entre Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma); ao reaprender uma dessas magias, custo −1 PM"
+      },
+      {
+        "nome": "Mestre do Tridente",
+        "descricao": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes.",
+        "efeito": "Tridente é arma simples para você; +2 em rolagens de dano com azagaias, lanças e tridentes"
+      },
+      {
+        "nome": "Transformação Anfíbia",
+        "descricao": "Você pode respirar debaixo d’água e possui uma cauda que fornece deslocamento de natação 12m. Quando fora d’água, sua cauda desaparece e dá lugar a pernas (deslocamento 9m). Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!).",
+        "efeito": "Respira debaixo d'água; cauda com deslocamento de natação 12m; fora d'água a cauda vira pernas (deslocamento 9m); mais de 1 dia sem contato com água impede recuperar PM com descanso até voltar à água"
+      }
+    ]
+  }
+}

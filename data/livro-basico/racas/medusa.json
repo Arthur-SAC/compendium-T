@@ -1,0 +1,49 @@
+{
+  "id": "medusa",
+  "tipo": "raca",
+  "nome": "Medusa",
+  "resumo": "Criaturas reclusas famosas por transformar suas vítimas em pedra com o olhar — embora apenas as mais antigas e poderosas o façam. Jovens medusas por vezes rejeitam a solidão e a crueldade racial, aventurando-se no Reinado e até integrando equipes de heróis, fazendo-se passar por mulheres humanas quando escondem o cabelo feito de serpentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 28 },
+  "imagens": ["/racas/medusa.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ainda que estas criaturas reclusas sejam famosas por transformar suas vítimas em pedra com um simples olhar, apenas as mais antigas e poderosas o fazem. Jovens medusas por vezes rejeitam a solidão e crueldade racial, aventurando-se no Reinado, até mesmo fazendo amigos ou integrando equipes de heróis. Conseguem se fazer passar por mulheres humanas, quando escondem o cabelo feito de serpentes. O único povo que não teme medusas são os anões, que as consideram belas musas."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "criada-por",
+      "alvoId": "megalokk",
+      "alvoTipo": "divindade",
+      "rotulo": "Megalokk"
+    }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Carisma", "valor": 1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Tamanho Médio e deslocamento 9m (regra geral); a medusa não declara tamanho ou deslocamento próprios. Possui apenas dois modificadores de atributo (Destreza +2, Carisma +1), sem penalidade.",
+    "habilidades": [
+      {
+        "nome": "Cria de Megalokk",
+        "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro.",
+        "efeito": "Tipo monstro; visão no escuro"
+      },
+      {
+        "nome": "Natureza Venenosa",
+        "descricao": "Você recebe resistência a veneno +5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 pontos de vida. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro). Veneno.",
+        "efeito": "Resistência a veneno +5; ação de movimento + 1 PM para envenenar uma arma (perda de 1d12 PV; dura até acertar um ataque ou o fim da cena). Veneno."
+      },
+      {
+        "nome": "Olhar Atordoante",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por uma rodada (apenas uma vez por cena).",
+        "efeito": "Ação de movimento + 1 PM: criatura em alcance curto faz Fortitude (CD Car) ou fica atordoada por 1 rodada (1×/cena)"
+      }
+    ]
+  }
+}
