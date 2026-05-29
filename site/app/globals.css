@@ -25,16 +25,20 @@
 }
 
 body {
+  background-color: var(--fundo-2);
+  color: var(--texto-casca);
+  min-height: 100vh;
+}
+/* fundo numa camada fixa de viewport: nunca repete nem emenda, qualquer altura de página */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
   background:
     radial-gradient(120% 60% at 50% 0%, #5a0f1a 0%, transparent 60%),
     radial-gradient(90% 50% at 90% 100%, #3a0a12 0%, transparent 60%),
     linear-gradient(180deg, var(--fundo-1), var(--fundo-2));
-  background-color: var(--fundo-2);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--texto-casca);
-  min-height: 100vh;
 }
 
 .titulo-grimorio {
