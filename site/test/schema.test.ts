@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema } from "@/lib/schema";
+import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema } from "@/lib/schema";
 
 const baseValida = {
   id: "sucubo",
@@ -63,4 +63,36 @@ test("entidade tipo raca aceita mecânica de raça válida", () => {
 test("entidade tipo raca rejeita mecânica sem tamanho", () => {
   const ruim = { ...racaValida, mecanica: { modificadores: [], deslocamento: 9, habilidades: [] } };
   expect(() => EntidadeSchema.parse(ruim)).toThrow();
+});
+
+const classeValida = {
+  id: "guerreiro", tipo: "classe", nome: "Guerreiro", resumo: "Mestre das armas.",
+  fonte: { livro: "livro-basico", pagina: 33 },
+  imagens: [], secoes: [], relacoes: [],
+  mecanica: {
+    atributoChave: "Força", pvInicial: 20, pvPorNivel: 5, pmPorNivel: 3,
+    pericias: { quantidade: 2, fixas: ["Luta"], lista: [], texto: "Duas perícias a sua escolha." },
+    proficiencias: ["armas marciais", "escudos", "armaduras pesadas"],
+    progressao: [{ nivel: 1, habilidades: ["Aptidão de Combate"] }],
+    habilidades: [{ nome: "Aptidão de Combate", nivel: 1, descricao: "Você recebe um poder de combate." }],
+    poderes: [{ nome: "Ataque Especial", descricao: "Gaste PM para ampliar um ataque." }],
+  },
+};
+
+test("ClasseMecanicaSchema aceita uma classe válida", () => {
+  expect(() => ClasseMecanicaSchema.parse(classeValida.mecanica)).not.toThrow();
+});
+
+test("entidade tipo classe aceita mecânica de classe válida", () => {
+  expect(() => EntidadeSchema.parse(classeValida)).not.toThrow();
+});
+
+test("entidade tipo classe rejeita mecânica sem atributoChave", () => {
+  const { atributoChave, ...semChave } = classeValida.mecanica;
+  expect(() => EntidadeSchema.parse({ ...classeValida, mecanica: semChave })).toThrow();
+});
+
+test("ClasseMecanicaSchema rejeita nível de progressão fora de 1–20", () => {
+  const ruim = { ...classeValida.mecanica, progressao: [{ nivel: 21, habilidades: [] }] };
+  expect(() => ClasseMecanicaSchema.parse(ruim)).toThrow();
 });
