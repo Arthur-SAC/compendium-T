@@ -1,0 +1,54 @@
+{
+  "id": "dahllan",
+  "tipo": "raca",
+  "nome": "Dahllan",
+  "resumo": "Parte humanas, parte fadas, as dahllan são uma raça de mulheres com a seiva de árvores correndo nas veias. Falam com os animais, controlam as plantas e retorcem a madeira para formar armaduras, ligadas à Deusa da Natureza, Allihanna.",
+  "fonte": { "livro": "livro-basico", "pagina": 21 },
+  "imagens": ["/racas/dahllan.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Houve época em que meias-dríades eram muito, muito raras. Nascidas da união improvável entre uma dríade — uma fada das florestas — e um humano, eram consideradas meras lendas. Mesmo assim, bastou uma delas para tornar a raça conhecida em todos os reinos: Lisandra de Galrasia. Após uma campanha dramática para tentar ressuscitar o Paladino de Arton, não apenas se tornaria a maior druida guerreira no mundo, mas também a sumo-sacerdotisa de Allihanna, e uma das mortais mais poderosas a existir."
+    },
+    {
+      "titulo": "Um povo recém-surgido",
+      "texto": "Por algum motivo, algo mudou. Recentemente, jovens meias-dríades começaram a surgir no Reinado. A maior parte emergiu de matas profundas, tendo sido criadas por animais ou fadas. Outras, misteriosamente, nasceram de famílias humanas. Todas femininas; há rumores sobre meios-dríades masculinos, nunca confirmados. De qualquer forma, por não serem necessariamente filhas de dríades, receberam outro nome. Dahllan. Até hoje ninguém tem resposta para o mistério de sua origem. A própria Allihanna deve ser responsável, mas com que propósito? Embora tenham forte ligação com a Deusa da Natureza, nem todas as dahllan se tornam druidas. Têm sido vistas abraçando as mais variadas carreiras, desde arcanistas e bucaneiras até inventoras e cavaleiras."
+    },
+    {
+      "titulo": "Aparência",
+      "texto": "Dahllan são ágeis e sábias, mas também um tanto rústicas. Assim como as árvores antigas onde as almas das dríades habitam, as dahllan têm tipos físicos variados. Algumas são musculosas, outras esguias, outras ainda têm curvas acentuadas. O cabelo, como as folhas, pode ser verde, vermelho ou dourado — em algumas, a cor muda conforme as estações —, mas os olhos são invariavelmente verdes e brilhantes. Não raro, trazem a cabeça ornamentada com caules ou filamentos delicados, como antenas feéricas. Também é normal ver flores brotando em seu cabelo, além de uma ocasional borboleta ou joaninha vinda sabe-se lá de onde. Por serem recém-chegadas a Arton, o tempo de vida dahllan é desconhecido. Talvez sejam tão longevas quanto os mais antigos carvalhos, ou mais."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "reverencia", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Allihanna, a Deusa da Natureza" },
+    { "tipo": "citaA", "alvoId": "lisandra-de-galrasia", "alvoTipo": "npc", "rotulo": "Lisandra de Galrasia" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Sabedoria", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "A dahllan não altera tamanho nem deslocamento; usa o padrão de personagem (Médio, deslocamento 9m).",
+    "habilidades": [
+      {
+        "nome": "Amiga das Plantas",
+        "descricao": "Você pode lançar a magia Controlar Plantas (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+        "efeito": "Lança Controlar Plantas (atributo-chave Sabedoria); aprender de novo reduz custo em 1 PM"
+      },
+      {
+        "nome": "Armadura de Allihanna",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para transformar sua pele em casca de árvore, recebendo +2 na Defesa até o fim da cena.",
+        "efeito": "Ação de movimento + 1 PM: +2 na Defesa até o fim da cena"
+      },
+      {
+        "nome": "Empatia Selvagem",
+        "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e persuasão com animais (veja Diplomacia, na página 118). Caso receba esta habilidade novamente, recebe +2 em Adestramento.",
+        "efeito": "Comunica-se com animais; usa Adestramento para mudar atitude/persuasão com animais; receber de novo dá +2 em Adestramento"
+      }
+    ]
+  }
+}

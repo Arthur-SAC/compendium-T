@@ -1,0 +1,58 @@
+{
+  "id": "goblin",
+  "tipo": "raca",
+  "nome": "Goblin",
+  "resumo": "Pequenos seres feiosos de pele rugosa, orelhas longas e nariz pontudo, os goblins vivem nas frestas do mundo civilizado. Perseverantes e inventivos, criam engenhocas insanas e conseguiram um lugar entre os povos do Reinado.",
+  "fonte": { "livro": "livro-basico", "pagina": 23 },
+  "imagens": ["/racas/goblin.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Não importa se você gosta ou não de goblins. Se você se importa com eles ou se os odeia. Se os tem como amigos ou se acredita que são meras pestes. Goblins sempre existirão. Sabemos que eles se reproduzem em grande quantidade e de forma vertiginosa, mas sua origem divina é complicada, com explicações que dão voltas e se contradizem, assim como a tradição oral da raça. A mais popular é que Graolak, o Deus dos Goblins, foi o responsável direto, aproveitando para criar a raça à sua imagem e semelhança, usando os restos de um banquete do Panteão, enquanto os vinte deuses maiores dormiam. Mas academicamente existem dúvidas até se Graolak realmente existiu."
+    },
+    {
+      "titulo": "Aparência e modo de vida",
+      "texto": "Pequenos, de pele rugosa verde, marrom ou amarela, orelhas longas e nariz pontudo, os goblins vivem nas frestas do mundo civilizado. No Reinado, habitam zonas de grande pobreza. Nos ermos, ficam entocados em cavernas. Erroneamente são vistos como inferiores — ou, na pior das hipóteses, como monstros. Mas essa é uma visão simplista. O que define os goblins é perseverança e inventividade. Eles criam engenhocas que desafiam a lógica — máquinas cheias de peças, sempre expelindo fumaça e ameaçando explodir. Também são aeronautas pioneiros: um piloto ou baloeiro goblin pode levá-lo a qualquer lugar de Arton por um preço módico, desde que você não se importe com uma eventual queda desastrosa."
+    },
+    {
+      "titulo": "Sobrevivência e engenhosidade",
+      "texto": "O instinto de sobrevivência e a agilidade tornam os goblins aventureiros furtivos e malandros. A necessidade de se virar com o que têm faz com que possam improvisar melhor do que o mais criativo humano. Para quem nasceu sem nada, qualquer coisa é uma ferramenta, uma arma, um tesouro. Estes pequenos seres feiosos conseguiram um lugar entre os povos do Reinado. Podem ser encontrados em todas as grandes cidades, muitos vivendo na imundície, outros prosperando em carreiras que quase ninguém tentaria: espiões, aeronautas, engenhoqueiros. Onde o anão teimoso e o elfo empolado falham, o goblin pode dar um jeito. Porque ele não tem vergonha. Nem orgulho. Nem bom senso."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citaA", "alvoId": "graolak", "alvoTipo": "divindade", "rotulo": "Graolak, o Deus dos Goblins" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Inteligência", "valor": 1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Pequeno",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O goblin tem tamanho Pequeno (veja a página 106), mas seu deslocamento se mantém 9m, conforme a habilidade Peste Esguia.",
+    "habilidades": [
+      {
+        "nome": "Engenhoso",
+        "descricao": "Você não sofre penalidades em testes de perícia por não usar ferramentas. Se usar a ferramenta necessária, recebe +2 no teste de perícia.",
+        "efeito": "Sem penalidade por falta de ferramentas; +2 no teste de perícia quando usa a ferramenta necessária"
+      },
+      {
+        "nome": "Espelunqueiro",
+        "descricao": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre.",
+        "efeito": "Visão no escuro; deslocamento de escalada igual ao terrestre"
+      },
+      {
+        "nome": "Peste Esguia",
+        "descricao": "Seu tamanho é Pequeno (veja a página 106), mas seu deslocamento se mantém 9m. Apesar de pequenos, goblins são rápidos.",
+        "efeito": "Tamanho Pequeno; deslocamento 9m"
+      },
+      {
+        "nome": "Rato das Ruas",
+        "descricao": "Você recebe +2 em Fortitude e sua recuperação de PV e PM nunca é inferior ao seu nível.",
+        "efeito": "+2 em Fortitude; recuperação de PV e PM nunca inferior ao seu nível"
+      }
+    ]
+  }
+}
