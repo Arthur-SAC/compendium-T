@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { carregarEntidades } from "@/lib/dados";
 import { construirIndice } from "@/lib/busca";
 import { Busca } from "@/components/Busca";
@@ -8,10 +9,15 @@ export default function Home() {
   const indice = construirIndice(ents.map((e) => ({ id: e.id, tipo: e.tipo, nome: e.nome, resumo: e.resumo })));
   return (
     <main style={{ padding: 48 }}>
-      <h1 className="titulo-grimorio" style={{ fontSize: 40, textAlign: "center" }}>Compêndio de Arton</h1>
+      <h1 className="titulo-grimorio" style={{ fontSize: 52, textAlign: "center" }}>Compêndio de Arton</h1>
       <Divisor />
-      <p style={{ textAlign: "center", color: "var(--texto-suave)", margin: "12px 0 28px" }}>Tormenta 20 — wiki de mesa</p>
+      <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>Tormenta 20 — wiki de mesa</p>
       <Busca indice={indice} />
+      <div style={{ textAlign: "center", marginTop: 28 }}>
+        <Link href="/racas" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Ver todas as raças →
+        </Link>
+      </div>
     </main>
   );
 }
