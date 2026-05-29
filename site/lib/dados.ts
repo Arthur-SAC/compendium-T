@@ -14,7 +14,11 @@ function listarJson(dir: string): string[] {
   return out;
 }
 
+let _entidades: Entidade[] | null = null;
+let _termos: Termo[] | null = null;
+
 export function carregarEntidades(): Entidade[] {
+  if (_entidades) return _entidades;
   const dirs = ["livro-basico"]; // Fase 1+ adiciona outras fontes aqui (ou lê de sources.json)
   const ents: Entidade[] = [];
   for (const d of dirs) {
@@ -23,15 +27,18 @@ export function carregarEntidades(): Entidade[] {
       ents.push(EntidadeSchema.parse(JSON.parse(readFileSync(arq, "utf8"))));
     }
   }
+  _entidades = ents;
   return ents;
 }
 
 export function carregarTermos(): Termo[] {
+  if (_termos) return _termos;
   const arquivos = ["referencia/condicoes.json", "referencia/glossario.json"];
   const termos: Termo[] = [];
   for (const a of arquivos) {
     const arr = JSON.parse(readFileSync(join(RAIZ_DADOS, a), "utf8"));
     for (const t of arr) termos.push(TermoSchema.parse(t));
   }
+  _termos = termos;
   return termos;
 }

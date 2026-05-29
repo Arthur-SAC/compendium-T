@@ -12,3 +12,11 @@ test("carrega os termos (condições + glossário)", () => {
   expect(termos.some((t) => t.id === "medo")).toBe(true);
   expect(termos.some((t) => t.id === "nd")).toBe(true);
 });
+
+test("carregarEntidades memoiza (mesma referência entre chamadas)", () => {
+  expect(carregarEntidades()).toBe(carregarEntidades());
+});
+
+test("carregarTermos memoiza (mesma referência entre chamadas)", () => {
+  expect(carregarTermos()).toBe(carregarTermos());
+});
