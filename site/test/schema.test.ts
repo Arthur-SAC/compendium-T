@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema } from "@/lib/schema";
+import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema, CaminhoClasseSchema } from "@/lib/schema";
 
 const baseValida = {
   id: "sucubo",
@@ -95,4 +95,32 @@ test("entidade tipo classe rejeita mecânica sem atributoChave", () => {
 test("ClasseMecanicaSchema rejeita nível de progressão fora de 1–20", () => {
   const ruim = { ...classeValida.mecanica, progressao: [{ nivel: 21, habilidades: [] }] };
   expect(() => ClasseMecanicaSchema.parse(ruim)).toThrow();
+});
+
+const conjuradoraMec = {
+  atributoChave: "Inteligência", pvInicial: 12, pvPorNivel: 3, pmPorNivel: 6,
+  pericias: { quantidade: 4, fixas: [], lista: [], texto: "Quatro perícias a sua escolha." },
+  proficiencias: ["armas simples"],
+  progressao: [{ nivel: 1, habilidades: ["Caminho", "Magias"] }],
+  habilidades: [{ nome: "Magias", descricao: "Você aprende e lança magias arcanas." }],
+  poderes: [],
+  conjuracao: { tipo: "Arcana", atributoChave: "Inteligência", descricao: "Conjura magias arcanas." },
+  caminhos: [{ nome: "Mago", descricao: "Estudioso da magia.", habilidades: [{ nome: "Magia Especialista", descricao: "..." }] }],
+};
+
+test("ClasseMecanicaSchema aceita classe conjuradora (conjuracao + caminhos)", () => {
+  expect(() => ClasseMecanicaSchema.parse(conjuradoraMec)).not.toThrow();
+});
+
+test("ClasseMecanicaSchema: marcial continua válida sem conjuracao/caminhos", () => {
+  const marcial = {
+    atributoChave: "Força", pvInicial: 20, pvPorNivel: 5, pmPorNivel: 3,
+    pericias: { quantidade: 2, fixas: [], lista: [], texto: "x" },
+    proficiencias: [], progressao: [], habilidades: [], poderes: [],
+  };
+  expect(() => ClasseMecanicaSchema.parse(marcial)).not.toThrow();
+});
+
+test("CaminhoClasseSchema exige nome e descricao", () => {
+  expect(() => CaminhoClasseSchema.parse({ nome: "Bruxo" })).toThrow();
 });

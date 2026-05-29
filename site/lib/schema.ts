@@ -93,6 +93,20 @@ export const PericiasClasseSchema = z.object({
 });
 export type PericiasClasse = z.infer<typeof PericiasClasseSchema>;
 
+export const ConjuracaoSchema = z.object({
+  tipo: z.string(),
+  atributoChave: z.string(),
+  descricao: z.string().optional(),
+});
+export type Conjuracao = z.infer<typeof ConjuracaoSchema>;
+
+export const CaminhoClasseSchema = z.object({
+  nome: z.string(),
+  descricao: z.string(),
+  habilidades: z.array(HabilidadeClasseSchema).default([]),
+});
+export type CaminhoClasse = z.infer<typeof CaminhoClasseSchema>;
+
 export const ClasseMecanicaSchema = z.object({
   atributoChave: z.string(),
   pvInicial: z.number().int().positive(),
@@ -103,6 +117,8 @@ export const ClasseMecanicaSchema = z.object({
   progressao: z.array(ProgressaoNivelSchema).default([]),
   habilidades: z.array(HabilidadeClasseSchema).default([]),
   poderes: z.array(PoderClasseSchema).default([]),
+  conjuracao: ConjuracaoSchema.optional(),
+  caminhos: z.array(CaminhoClasseSchema).default([]),
 });
 export type ClasseMecanica = z.infer<typeof ClasseMecanicaSchema>;
 
