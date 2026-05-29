@@ -3,19 +3,30 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-05-28
-**Fase atual:** Fase 0 — Fundação ✅ **CONCLUÍDA** → próxima: Fase 1
+**Última atualização:** 2026-05-29
+**Fase atual:** Fase 0 ✅ CONCLUÍDA → **Fase 1 iniciada** (decomposta; 1ª fatia = Raças)
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Escrever o plano da Fase 1** (`docs/superpowers/plans/2026-05-29-fase-1-livro-basico.md`).
-A Fase 0 está fechada: build estático passa, 25 testes (site) + 3 (extração) verdes,
-revisão final de integração aprovada. Antes de escrever o plano, **brainstorm com o usuário**
-sobre sequência/prioridades da Fase 1 (quais categorias primeiro, profundidade, design das
-Trilhas) — é decisão dele.
+➡️ **Escrever o plano de implementação da fatia de Raças** (via skill `writing-plans`):
+`docs/superpowers/plans/2026-05-29-racas-ponta-a-ponta-plano.md`, a partir da spec aprovada
+`docs/superpowers/specs/2026-05-29-racas-ponta-a-ponta-design.md`. Depois executar por subagentes.
+
+**Estado do brainstorm da Fase 1 (concluído):**
+- Fase 1 decomposta; 1ª fatia = **Raças ponta a ponta** (spec aprovada e commitada `61f9009`).
+- Decisões: categoria Raças; mecânica estruturada completa; extração **visão em 2 passadas**;
+  entregável = índice `/racas` + ficha dedicada + imagens + tooltips/auto-link; **imagens versionadas**;
+  **export estático** (`output: "export"`) agora.
+- **Spike aprovado e commitado como base** (`de361b4`): `FichaRaca`, `/racas`, Humano extraído
+  (pág. PDF 25 / impressa 19) + ilustração da Drikka composta com `sharp` em `site/public/racas/humano.png`.
+  Fix de CSS legítimo do tema commitado à parte (`d1abc34`).
+- O plano deve FORMALIZAR o spike: schema Zod de Raça + testes; extrair TODAS as raças (2 passadas);
+  tooltips de glossário **extraídos com proveniência** (no spike foram revertidos por serem inventados);
+  pipeline de imagens p/ `data/.../imagens/`; export estático; endurecimento da fundação (memoização,
+  regex pré-compilada).
 
 **Riscos de escala a embutir no plano da Fase 1** (do revisor final de integração):
 1. **(Alto)** Memoizar carregamento de dados — hoje `carregarEntidades`/`carregarTermos` e
