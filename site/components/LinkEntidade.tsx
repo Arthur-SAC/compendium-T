@@ -5,7 +5,7 @@ export function LinkEntidade({ alvoId, alvoTipo, rotulo }: { alvoId: string; alv
   return (
     <Link
       href={`/ficha/${alvoTipo}/${alvoId}`}
-      style={{ color: "var(--destaque)", textDecoration: "none", borderBottom: "1px solid transparent" }}
+      style={{ color: "var(--carmesim)", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid rgba(155,28,46,.4)" }}
     >
       {rotulo}
     </Link>
