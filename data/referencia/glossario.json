@@ -1,4 +1,46 @@
 [
   { "id": "nd", "nome": "ND", "descricao": "Nível de Desafio — mede o poder de uma criatura ou encontro." },
-  { "id": "pm", "nome": "PM", "descricao": "Pontos de Mana — recurso gasto para conjurar magias e usar habilidades." }
+  { "id": "pm", "nome": "PM", "descricao": "Pontos de Mana — recurso gasto para conjurar magias e usar habilidades." },
+
+  { "id": "pericia", "nome": "perícia", "descricao": "Perícias medem suas capacidades mundanas, usadas para realizar todo tipo de façanha física, mental ou social. O valor de perícia é igual à metade do nível (arredondado para baixo) + o atributo-chave da perícia; em perícias treinadas, você ainda recebe o bônus de treinamento.", "fonte": { "livro": "livro-basico", "pagina": 112 } },
+  { "id": "pericias", "nome": "perícias", "descricao": "Perícias medem suas capacidades mundanas, usadas para realizar todo tipo de façanha física, mental ou social. O valor de perícia é igual à metade do nível (arredondado para baixo) + o atributo-chave da perícia; em perícias treinadas, você ainda recebe o bônus de treinamento.", "fonte": { "livro": "livro-basico", "pagina": 112 } },
+
+  { "id": "treinado", "nome": "treinado", "descricao": "Estar treinado em uma perícia significa ser mais competente nela: você recebe o bônus de treinamento (+2 do 1º ao 6º nível, +4 do 7º ao 14º, +6 do 15º em diante) no valor de perícia. Algumas perícias e usos específicos só podem ser empregados quando você é treinado nelas.", "fonte": { "livro": "livro-basico", "pagina": 114 } },
+
+  { "id": "atributo-chave", "nome": "atributo-chave", "descricao": "O atributo usado com uma perícia ou magia, somado ao seu valor de perícia ou ao cálculo da magia. Por exemplo, o atributo-chave de Diplomacia é Carisma e o de Conhecimento é Inteligência.", "fonte": { "livro": "livro-basico", "pagina": 114 } },
+
+  { "id": "poder-geral", "nome": "poder geral", "descricao": "Poderes gerais podem ser escolhidos por qualquer personagem, independentemente de sua classe, e seguem todas as regras de habilidades. Fornecem mais opções ao custo de um pouco de complexidade. Sempre que recebe um poder de classe, você pode trocá-lo por um poder geral.", "fonte": { "livro": "livro-basico", "pagina": 124 } },
+  { "id": "poderes-gerais", "nome": "poderes gerais", "descricao": "Poderes gerais podem ser escolhidos por qualquer personagem, independentemente de sua classe, e seguem todas as regras de habilidades. Fornecem mais opções ao custo de um pouco de complexidade. Sempre que recebe um poder de classe, você pode trocá-lo por um poder geral.", "fonte": { "livro": "livro-basico", "pagina": 124 } },
+
+  { "id": "poder-da-tormenta", "nome": "poder da Tormenta", "descricao": "Poderes ligados à tempestade rubra. Quando escolhe um poder da Tormenta, você perde 1 de Carisma; para cada dois outros poderes da Tormenta, perde mais 1 de Carisma. Essa perda representa deformidades físicas e o desaparecimento gradual de sua identidade. Um personagem reduzido a menos que Carisma −5 torna-se um NPC sob controle do mestre.", "fonte": { "livro": "livro-basico", "pagina": 136 } },
+  { "id": "poderes-da-tormenta", "nome": "poderes da Tormenta", "descricao": "Poderes ligados à tempestade rubra. Quando escolhe um poder da Tormenta, você perde 1 de Carisma; para cada dois outros poderes da Tormenta, perde mais 1 de Carisma. Essa perda representa deformidades físicas e o desaparecimento gradual de sua identidade. Um personagem reduzido a menos que Carisma −5 torna-se um NPC sob controle do mestre.", "fonte": { "livro": "livro-basico", "pagina": 136 } },
+
+  { "id": "visao-no-escuro", "nome": "visão no escuro", "descricao": "A criatura enxerga em escuridão total em alcance curto (exceto mágica). Ela ignora camuflagem total causada por esse tipo de escuridão.", "fonte": { "livro": "livro-basico", "pagina": 229 } },
+  { "id": "visao-na-penumbra", "nome": "visão na penumbra", "descricao": "A criatura enxerga em escuridão leve em alcance curto (exceto mágica). Ela ignora camuflagem leve causada por esse tipo de escuridão.", "fonte": { "livro": "livro-basico", "pagina": 229 } },
+
+  { "id": "reducao-de-dano", "nome": "redução de dano", "descricao": "A criatura ignora parte do dano que sofre. Por exemplo, uma criatura com redução de dano 5 que sofra um ataque de 8 pontos perde apenas 3 PV. A redução pode ser contra um ou mais tipos de dano específicos (ex.: redução de fogo 10).", "fonte": { "livro": "livro-basico", "pagina": 228 } },
+  { "id": "reducao", "nome": "redução", "descricao": "A criatura ignora parte do dano que sofre. Por exemplo, uma criatura com redução 5 que sofra um ataque de 8 pontos perde apenas 3 PV. A redução pode ser contra um ou mais tipos de dano específicos (ex.: redução de fogo 10).", "fonte": { "livro": "livro-basico", "pagina": 228 } },
+
+  { "id": "deslocamento", "nome": "deslocamento", "descricao": "A medida de quantos metros você pode percorrer com uma ação de movimento. O deslocamento padrão é 9m, mas algumas habilidades de raça e classe podem mudá-lo.", "fonte": { "livro": "livro-basico", "pagina": 237 } },
+
+  { "id": "acao-padrao", "nome": "ação padrão", "descricao": "Permite executar a coisa mais importante que você vai fazer no turno; fazer um ataque ou lançar uma magia são as ações padrão mais comuns. No seu turno você pode fazer uma ação padrão e uma ação de movimento.", "fonte": { "livro": "livro-basico", "pagina": 233 } },
+  { "id": "acao-de-movimento", "nome": "ação de movimento", "descricao": "Representa algum tipo de movimento físico. Seu uso mais comum é percorrer uma distância igual ao seu deslocamento, mas levantar-se, sacar uma arma, pegar um item, abrir uma porta e subir numa montaria também são ações de movimento.", "fonte": { "livro": "livro-basico", "pagina": 233 } },
+  { "id": "acao-livre", "nome": "ação livre", "descricao": "Uma ação que não exige quase nenhum tempo e esforço, mas ainda só pode ser feita em seu turno. Você pode realizar qualquer quantidade de ações livres; ex.: jogar-se no chão ou gritar uma ordem curta.", "fonte": { "livro": "livro-basico", "pagina": 233 } },
+
+  { "id": "alcance-curto", "nome": "alcance curto", "descricao": "A habilidade ou efeito alcança alvos a até 9m (6 quadrados em um mapa).", "fonte": { "livro": "livro-basico", "pagina": 224 } },
+
+  { "id": "teste-de-resistencia", "nome": "teste de resistência", "descricao": "Fortitude, Reflexos e Vontade são as perícias usadas para resistir a efeitos negativos (uma explosão, um controle mental etc.); por isso são chamadas perícias de resistência. Efeitos que mencionem seus \"testes de resistência\" afetam todas essas três perícias.", "fonte": { "livro": "livro-basico", "pagina": 118 } },
+  { "id": "testes-de-resistencia", "nome": "testes de resistência", "descricao": "Fortitude, Reflexos e Vontade são as perícias usadas para resistir a efeitos negativos (uma explosão, um controle mental etc.); por isso são chamadas perícias de resistência. Efeitos que mencionem seus \"testes de resistência\" afetam todas essas três perícias.", "fonte": { "livro": "livro-basico", "pagina": 118 } },
+
+  { "id": "proficiencia", "nome": "proficiência", "descricao": "Treinamento necessário para usar uma arma ou equipamento sem penalidade. As armas são classificadas por proficiência em simples, marciais, exóticas ou de fogo. Atacar com uma arma sem ser proficiente impõe −5 nos testes de ataque.", "fonte": { "livro": "livro-basico", "pagina": 142 } },
+
+  { "id": "arma-simples", "nome": "arma simples", "descricao": "Armas de manejo fácil, como adagas, clavas e lanças. Todos os personagens sabem usar armas simples.", "fonte": { "livro": "livro-basico", "pagina": 142 } },
+  { "id": "armas-simples", "nome": "armas simples", "descricao": "Armas de manejo fácil, como adagas, clavas e lanças. Todos os personagens sabem usar armas simples.", "fonte": { "livro": "livro-basico", "pagina": 142 } },
+
+  { "id": "arma-natural", "nome": "arma natural", "descricao": "Partes específicas do corpo de uma criatura usadas para desferir ataques, como chifres, garras ou uma mordida. Armas naturais são consideradas armas leves corpo a corpo e, como ataques desarmados, não são afetadas por efeitos que atinjam especificamente objetos (não podem ser desarmadas, por exemplo).", "fonte": { "livro": "livro-basico", "pagina": 142 } },
+
+  { "id": "camuflagem", "nome": "camuflagem", "descricao": "Você recebe camuflagem (leve) quando um efeito dificulta a visão dos inimigos — escuridão leve, neblina, folhagens ou similar. Ataques contra você têm 20% de chance de falha.", "fonte": { "livro": "livro-basico", "pagina": 238 } },
+  { "id": "camuflagem-total", "nome": "camuflagem total", "descricao": "Você recebe camuflagem total quando um efeito impede totalmente a visão dos inimigos — por exemplo, escuridão total. A chance de falha em camuflagem total é 50%.", "fonte": { "livro": "livro-basico", "pagina": 238 } },
+
+  { "id": "faro", "nome": "Faro", "descricao": "A criatura tem olfato apurado. Contra inimigos em alcance curto que não possa ver, ela não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha.", "fonte": { "livro": "livro-basico", "pagina": 229 } }
 ]
