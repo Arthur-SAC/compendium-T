@@ -3,6 +3,7 @@ import { carregarEntidades, carregarTermos } from "@/lib/dados";
 import { construirRegistro } from "@/lib/autolink";
 import { Ficha } from "@/components/Ficha";
 import { FichaRaca } from "@/components/FichaRaca";
+import { FichaClasse } from "@/components/FichaClasse";
 
 export const dynamicParams = false;
 
@@ -27,6 +28,8 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
     <main style={{ padding: 40 }}>
       {entidade.tipo === "raca" ? (
         <FichaRaca entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : entidade.tipo === "classe" ? (
+        <FichaClasse entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : (
         <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
       )}
