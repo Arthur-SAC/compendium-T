@@ -4,21 +4,25 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-05-29
-**Fase atual:** Fase 0 ✅ → **Fase 1** (decomposta). Fatia 1 = **Raças** ✅ CONCLUÍDA.
+**Fase atual:** Fase 0 ✅ → **Fase 1** (decomposta). Fatia 1 = **Raças** ✅. Revamp visual ✅.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui)
 
-➡️ **Revamp visual (pedido do usuário)** — deixar o site **mais parecido com os livros de Tormenta 20**,
-MAS **otimizado para leitura** (o usuário vai ler/reler bastante). Usar a fonte
-**`Tormenta20x.ttf`** (está solta na raiz do projeto; mover para `site/` e registrar via
-`next/font/local`, substituindo a Georgia genérica do tema). É uma tarefa de design → começar com
-**brainstorming** (referências visuais dos livros, hierarquia tipográfica, legibilidade) antes de mexer.
+➡️ **Próxima fatia de categoria da Fase 1** — sugestão **Classes** ou **Origens**.
+Mesmo pipeline da fatia de Raças: spec curta (brainstorming) → plano → execução por subagentes;
+reusar `FichaRaca`/`Ficha` como modelo de ficha dedicada e a abordagem de **extração por visão em 2
+passadas** (descoberta de páginas → blocos → validação independente). Para Classes, lembrar que o
+schema de mecânica provavelmente precisa de um tipo próprio (PV/PM por nível, proficiências,
+habilidades por nível 1–20), análogo ao `RacaMecanicaSchema`.
 
-Depois do visual: **próxima fatia de categoria da Fase 1** — sugestão **Classes** ou **Origens**
-(mesmo pipeline: spec curta → plano → subagentes; reusar `FichaRaca` como modelo de ficha dedicada).
+**Revamp visual concluído** (plano `2026-05-29-revamp-visual-plano.md`): tema "Tomo de Arton" — casca
+escura carmesim + cards de pergaminho legíveis, fonte **Tormenta20x** (`site/app/fonts/`, via
+`next/font/local`) nos títulos com degradê dourado→carmesim, acentos carmesim/vermelho/ouro, tooltips
+terracota. Aplicado a globals.css, layout, Divisor, Tooltip, LinkEntidade, FichaRaca, Ficha, Busca,
+home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups de decisão removidos.
 
 ### Dívidas/notas abertas (tratar nas próximas fatias)
 - **Suraggel**: schema não tem "variante" de raça → modificadores das heranças (aggelus/sulfure) ficaram
