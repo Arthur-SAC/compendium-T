@@ -26,9 +26,13 @@
 
 body {
   background:
-    radial-gradient(130% 80% at 50% -8%, #5a0f1a 0%, transparent 55%),
-    radial-gradient(90% 60% at 90% 100%, #3a0a12 0%, transparent 60%),
+    radial-gradient(120% 60% at 50% 0%, #5a0f1a 0%, transparent 60%),
+    radial-gradient(90% 50% at 90% 100%, #3a0a12 0%, transparent 60%),
     linear-gradient(180deg, var(--fundo-1), var(--fundo-2));
+  background-color: var(--fundo-2);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--texto-casca);
   min-height: 100vh;
 }

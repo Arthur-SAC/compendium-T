@@ -21,7 +21,7 @@ export default function IndiceRacas() {
             <Link
               key={r.id}
               href={`/ficha/raca/${r.id}`}
-              style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--texto-casca)", background: "linear-gradient(180deg,#241334,#1b0f25)", border: "1px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
+              style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--texto-casca)", background: "linear-gradient(180deg,#321019,#1c0a0e)", border: "1px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
             >
               <div style={{ height: 200, display: "flex", alignItems: "flex-end", justifyContent: "center", background: "radial-gradient(120% 90% at 50% 10%, rgba(106,20,33,.35), transparent 70%)" }}>
                 {imagem && (
