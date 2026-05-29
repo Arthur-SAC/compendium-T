@@ -148,6 +148,17 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                 <Chips itens={m.proficiencias} />
               </section>
             )}
+            {m.conjuracao && (
+              <section style={{ marginBottom: 12 }}>
+                <h2 style={h2}>Conjuração</h2>
+                <p style={{ fontFamily: "var(--serifa)", lineHeight: 1.55, margin: 0 }}>
+                  <strong style={{ color: "var(--carmesim)" }}>{m.conjuracao.tipo}</strong>
+                  {" · atributo-chave "}
+                  <strong style={{ color: "var(--carmesim)" }}>{m.conjuracao.atributoChave}</strong>
+                  {m.conjuracao.descricao ? <>. <TextoRico texto={m.conjuracao.descricao} registro={registro} descricoes={descricoes} /></> : null}
+                </p>
+              </section>
+            )}
             {secaoPVMana && (
               <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
                 <h2 style={h2}>{secaoPVMana.titulo}</h2>
@@ -197,6 +208,31 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                         <TabelaEfeitos titulo="Efeitos que aumentam o custo" efeitos={p.efeitos.filter((e) => !e.custo.trim().startsWith("–") && !e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
                         <TabelaEfeitos titulo="Efeitos que reduzem o custo" efeitos={p.efeitos.filter((e) => e.custo.trim().startsWith("–") || e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
                       </>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {m.caminhos && m.caminhos.length > 0 && (
+            <section style={{ marginBottom: 16 }}>
+              <h2 style={h2}>Caminhos</h2>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                {m.caminhos.map((c, i) => (
+                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "10px 0", borderBottom: i < m.caminhos!.length - 1 ? "1px solid var(--borda)" : "none" }}>
+                    <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 16 }}>{c.nome}</div>
+                    <div style={{ marginTop: 2 }}><TextoRico texto={c.descricao} registro={registro} descricoes={descricoes} /></div>
+                    {c.habilidades.length > 0 && (
+                      <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 8 }}>
+                        {c.habilidades.map((h, j) => (
+                          <div key={j}>
+                            <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
+                            <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
+                            {h.prerequisito && <PreRequisito texto={h.prerequisito} />}
+                          </div>
+                        ))}
+                      </div>
                     )}
                   </div>
                 ))}
