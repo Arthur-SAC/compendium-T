@@ -4,11 +4,15 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const LARGURA = 240;
 
+// Garante apenas UM tooltip aberto por vez (evita "rastro" ao varrer várias palavras rápido).
+let ativo: { fechar: () => void } | null = null;
+
 export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descricao?: string; termoId: string }) {
   const [aberto, setAberto] = useState(false);
   const [pos, setPos] = useState<{ left: number; top: number } | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const self = useRef<{ fechar: () => void }>({ fechar: () => {} });
 
   function cancelar() {
     if (timer.current) {
@@ -16,13 +20,21 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
       timer.current = null;
     }
   }
+  // identidade estável; mantém a referência ao último setAberto/cancelar
+  self.current.fechar = () => {
+    cancelar();
+    setAberto(false);
+    if (ativo === self.current) ativo = null;
+  };
   function agendarFechar() {
     cancelar();
-    timer.current = setTimeout(() => setAberto(false), 180);
+    timer.current = setTimeout(() => self.current.fechar(), 160);
   }
   useEffect(() => cancelar, []);
 
   function abrir(e: React.MouseEvent | React.FocusEvent) {
+    if (ativo && ativo !== self.current) ativo.fechar(); // fecha o anterior na hora
+    ativo = self.current;
     cancelar();
     const el = ref.current;
     if (el) {
@@ -31,7 +43,6 @@ export function Tooltip({ rotulo, descricao, termoId }: { rotulo: string; descri
       // âncora horizontal no CURSOR (centrado nele); no foco por teclado, usa o centro do termo
       const cx = "clientX" in e ? e.clientX : r.left + r.width / 2;
       const left = Math.max(8, Math.min(cx - LARGURA / 2, vw - LARGURA - 8));
-      // logo acima do termo (pode vazar por cima); vão pequeno para alcançar o popup
       setPos({ left, top: r.top - 2 });
     }
     setAberto(true);
