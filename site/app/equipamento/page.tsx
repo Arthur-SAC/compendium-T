@@ -1,12 +1,31 @@
 import Link from "next/link";
 import { carregarEntidades } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
-import type { ItemMecanica } from "@/lib/schema";
+import type { Entidade, ItemMecanica } from "@/lib/schema";
 
-// Ordem e rótulos dos grupos de itens
-const ORDEM_CATEGORIAS: { chaves: string[]; rotulo: string }[] = [
-  { chaves: ["arma"], rotulo: "Armas" },
-  { chaves: ["armadura", "escudo"], rotulo: "Armaduras & Escudos" },
+// Subgrupo opcional dentro de um grupo (ex.: armas por proficiência).
+type Subgrupo = { rotulo: string; filtro: (m: ItemMecanica) => boolean };
+
+const ORDEM_CATEGORIAS: { chaves: string[]; rotulo: string; subgrupos?: Subgrupo[] }[] = [
+  {
+    chaves: ["arma"],
+    rotulo: "Armas",
+    subgrupos: [
+      { rotulo: "Simples", filtro: (m) => m.arma?.proficiencia === "simples" },
+      { rotulo: "Marciais", filtro: (m) => m.arma?.proficiencia === "marcial" },
+      { rotulo: "Exóticas", filtro: (m) => m.arma?.proficiencia === "exótica" },
+      { rotulo: "De Fogo", filtro: (m) => m.arma?.proficiencia === "fogo" },
+    ],
+  },
+  {
+    chaves: ["armadura", "escudo"],
+    rotulo: "Armaduras & Escudos",
+    subgrupos: [
+      { rotulo: "Armaduras Leves", filtro: (m) => m.categoria === "armadura" && m.protecao?.subcategoria === "leve" },
+      { rotulo: "Armaduras Pesadas", filtro: (m) => m.categoria === "armadura" && m.protecao?.subcategoria === "pesada" },
+      { rotulo: "Escudos", filtro: (m) => m.categoria === "escudo" },
+    ],
+  },
   { chaves: ["municao"], rotulo: "Munições" },
   { chaves: ["item-aventura"], rotulo: "Equipamento de Aventura" },
   { chaves: ["ferramenta"], rotulo: "Ferramentas" },
@@ -19,24 +38,52 @@ const ORDEM_CATEGORIAS: { chaves: string[]; rotulo: string }[] = [
   { chaves: ["servico"], rotulo: "Serviços" },
 ];
 
+function mec(it: Entidade): ItemMecanica {
+  return it.mecanica as unknown as ItemMecanica;
+}
+
+function subtitulo(m: ItemMecanica): string {
+  if (m.arma) return `Dano ${m.arma.dano} · Crít. ${m.arma.critico}`;
+  if (m.protecao) return `Defesa +${m.protecao.bonusDefesa} · Pen. ${m.protecao.penalidadeArmadura}`;
+  return m.preco ?? "";
+}
+
+function CardItem({ it }: { it: Entidade }) {
+  const m = mec(it);
+  return (
+    <Link
+      href={`/ficha/item/${it.id}`}
+      style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
+    >
+      <div style={{ padding: "13px 14px 11px", background: "radial-gradient(120% 90% at 50% 0%, rgba(155,28,46,.08), transparent 70%)", borderBottom: "1px solid var(--borda)" }}>
+        <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 20, letterSpacing: ".5px" }}>{it.nome}</strong>
+        <p style={{ fontFamily: "var(--serifa)", fontSize: 12, color: "var(--tinta-suave)", lineHeight: 1.4, margin: "3px 0 0" }}>{subtitulo(m)}</p>
+      </div>
+    </Link>
+  );
+}
+
+function Grade({ itens }: { itens: Entidade[] }) {
+  return (
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 14 }}>
+      {itens.map((it) => (
+        <CardItem key={it.id} it={it} />
+      ))}
+    </div>
+  );
+}
+
 export default function IndiceEquipamento() {
   const entidades = carregarEntidades();
   const itens = entidades.filter((e) => e.tipo === "item");
   const regra = entidades.find((e) => e.id === "riqueza-e-equipamento");
 
-  // Agrupar por categoria
-  const grupos: Record<string, typeof itens> = {};
+  const grupos: Record<string, Entidade[]> = {};
   for (const it of itens) {
-    const m = it.mecanica as unknown as ItemMecanica;
-    const cat = m.categoria ?? "outros";
-    if (!grupos[cat]) grupos[cat] = [];
-    grupos[cat].push(it);
+    const cat = mec(it).categoria ?? "outros";
+    (grupos[cat] ??= []).push(it);
   }
-
-  // Ordenar cada grupo por nome
-  for (const cat of Object.keys(grupos)) {
-    grupos[cat].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  }
+  const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
 
   return (
     <main style={{ padding: 48, maxWidth: 1060, margin: "0 auto" }}>
@@ -60,39 +107,28 @@ export default function IndiceEquipamento() {
         </section>
       )}
 
-      {ORDEM_CATEGORIAS.map(({ chaves, rotulo }) => {
-        // Coleta todos os itens das categorias deste grupo
-        const lista: typeof itens = [];
-        for (const chave of chaves) {
-          if (grupos[chave]) lista.push(...grupos[chave]);
-        }
+      {ORDEM_CATEGORIAS.map(({ chaves, rotulo, subgrupos }) => {
+        const lista = chaves.flatMap((c) => grupos[c] ?? []).sort(ordenar);
         if (lista.length === 0) return null;
-        // Re-ordenar lista combinada por nome
-        lista.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
         return (
           <section key={rotulo} style={{ marginBottom: 32 }}>
             <h2 className="titulo-grimorio" style={{ fontSize: 28, margin: "0 0 14px", color: "var(--ouro)" }}>{rotulo}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 14 }}>
-              {lista.map((it) => {
-                const m = it.mecanica as unknown as ItemMecanica;
-                // Subtítulo: dano para armas, preço para os demais
-                const subtitulo = m.arma ? `Dano: ${m.arma.dano}` : m.preco ?? "";
+            {subgrupos ? (
+              subgrupos.map((sg) => {
+                const sublista = lista.filter((it) => sg.filtro(mec(it)));
+                if (sublista.length === 0) return null;
                 return (
-                  <Link
-                    key={it.id}
-                    href={`/ficha/item/${it.id}`}
-                    style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
-                  >
-                    <div style={{ padding: "13px 14px 11px", background: "radial-gradient(120% 90% at 50% 0%, rgba(155,28,46,.08), transparent 70%)", borderBottom: "1px solid var(--borda)" }}>
-                      <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 20, letterSpacing: ".5px" }}>{it.nome}</strong>
-                      {subtitulo && (
-                        <p style={{ fontFamily: "var(--serifa)", fontSize: 12, color: "var(--tinta-suave)", lineHeight: 1.4, margin: "3px 0 0" }}>{subtitulo}</p>
-                      )}
-                    </div>
-                  </Link>
+                  <div key={sg.rotulo} style={{ marginBottom: 18 }}>
+                    <h3 style={{ fontFamily: "var(--serifa)", fontSize: 13, textTransform: "uppercase", letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 12px" }}>
+                      {sg.rotulo} <span style={{ color: "var(--tinta-suave)", fontWeight: 400 }}>({sublista.length})</span>
+                    </h3>
+                    <Grade itens={sublista} />
+                  </div>
                 );
-              })}
-            </div>
+              })
+            ) : (
+              <Grade itens={lista} />
+            )}
           </section>
         );
       })}
