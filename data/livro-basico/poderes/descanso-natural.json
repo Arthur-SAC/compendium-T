@@ -1,0 +1,15 @@
+{
+  "id": "descanso-natural",
+  "tipo": "poder",
+  "nome": "Descanso Natural",
+  "resumo": "Dormir ao relento conta como condição de descanso confortável.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Allihanna",
+    "descricao": "Para você, dormir ao relento conta como condição de descanso confortável."
+  }
+}

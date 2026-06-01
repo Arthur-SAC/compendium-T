@@ -1,0 +1,15 @@
+{
+  "id": "afinidade-com-a-tormenta",
+  "tipo": "poder",
+  "nome": "Afinidade com a Tormenta",
+  "resumo": "Receba resistência a efeitos da Tormenta e não perca Carisma pelo seu primeiro poder da Tormenta.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Aharadak",
+    "descricao": "Você recebe +10 em testes de resistência contra efeitos da Tormenta, de suas criaturas e de devotos de Aharadak. Além disso, seu primeiro poder da Tormenta não conta para perda de Carisma."
+  }
+}

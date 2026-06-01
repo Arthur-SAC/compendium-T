@@ -1,0 +1,15 @@
+{
+  "id": "arsenal-das-profundezas",
+  "tipo": "poder",
+  "nome": "Arsenal das Profundezas",
+  "resumo": "Receba +2 nas rolagens de dano e multiplicador de crítico aumentado com azagaias, lanças e tridentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto do Oceano",
+    "descricao": "Você recebe +2 nas rolagens de dano com azagaias, lanças e tridentes e seu multiplicador de crítico com essas armas aumenta em +1."
+  }
+}

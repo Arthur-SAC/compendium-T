@@ -1,0 +1,15 @@
+{
+  "id": "habitante-do-deserto",
+  "tipo": "poder",
+  "nome": "Habitante do Deserto",
+  "resumo": "Redução de fogo 10; gaste 1 PM para criar água pura e potável suficiente para um odre.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Azgher",
+    "descricao": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno)."
+  }
+}

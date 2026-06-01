@@ -1,0 +1,15 @@
+{
+  "id": "liberdade-divina",
+  "tipo": "poder",
+  "nome": "Liberdade Divina",
+  "resumo": "Gaste 2 PM para receber imunidade a efeitos de movimento por uma rodada.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Valkaria",
+    "descricao": "Você pode gastar 2 PM para receber imunidade a efeitos de movimento por uma rodada."
+  }
+}

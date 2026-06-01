@@ -1,0 +1,15 @@
+{
+  "id": "escamas-draconicas",
+  "tipo": "poder",
+  "nome": "Escamas Dracônicas",
+  "resumo": "Receba +2 na Defesa e em Fortitude.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Kallyadranoch",
+    "descricao": "Você recebe +2 na Defesa e em Fortitude."
+  }
+}

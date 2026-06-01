@@ -1,0 +1,14 @@
+{
+  "id": "articulacoes-flexiveis",
+  "tipo": "poder",
+  "nome": "Articulações Flexíveis",
+  "resumo": "Bônus em Acrobacia, Furtividade e Reflexos, escalonando com poderes da Tormenta.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você recebe +1 em Acrobacia, Furtividade e Reflexos. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

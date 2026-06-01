@@ -1,0 +1,15 @@
+{
+  "id": "sangue-ofidico",
+  "tipo": "poder",
+  "nome": "Sangue Ofídico",
+  "resumo": "Receba resistência a veneno +5 e aumente em +2 a CD para resistir aos seus venenos.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Sszzaas",
+    "descricao": "Você recebe resistência a veneno +5 e a CD para resistir aos seus venenos aumenta em +2."
+  }
+}

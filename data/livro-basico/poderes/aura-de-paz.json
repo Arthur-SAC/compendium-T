@@ -1,0 +1,15 @@
+{
+  "id": "aura-de-paz",
+  "tipo": "poder",
+  "nome": "Aura de Paz",
+  "resumo": "Gaste 2 PM para criar uma aura de paz de alcance curto que força inimigos hostis a fazerem teste de Vontade ou perderem a ação.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Marah",
+    "descricao": "Você pode gastar 2 PM para gerar uma aura de paz com alcance curto e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia."
+  }
+}

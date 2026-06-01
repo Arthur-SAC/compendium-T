@@ -1,0 +1,15 @@
+{
+  "id": "inimigo-de-tenebra",
+  "tipo": "poder",
+  "nome": "Inimigo de Tenebra",
+  "resumo": "Ataques e habilidades causam +1d6 de dano contra mortos-vivos; efeitos de luz têm alcance de iluminação dobrado.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Azgher",
+    "descricao": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos. Quando você usa um efeito que gera luz, o alcance da iluminação dobra."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "anatomia-insana",
+  "tipo": "poder",
+  "nome": "Anatomia Insana",
+  "resumo": "Chance de ignorar dano adicional de acerto crítico ou ataque furtivo.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você tem 25% de chance (resultado \"1\" em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que você possui."
+  }
+}

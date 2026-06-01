@@ -1,0 +1,14 @@
+{
+  "id": "maos-membranosas",
+  "tipo": "poder",
+  "nome": "Mãos Membranosas",
+  "resumo": "Ganhe bônus em Atletismo, Fortitude e agarrar.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você recebe +1 em Atletismo, Fortitude e testes de agarrar. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

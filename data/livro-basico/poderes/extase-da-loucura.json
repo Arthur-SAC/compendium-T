@@ -1,0 +1,15 @@
+{
+  "id": "extase-da-loucura",
+  "tipo": "poder",
+  "nome": "Êxtase da Loucura",
+  "resumo": "Toda vez que criaturas falham em teste de Vontade contra suas habilidades mágicas, receba 1 PM temporário cumulativo (máximo igual à Sabedoria).",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Aharadak ou Nimb",
+    "descricao": "Toda vez que uma ou mais criaturas falham em um teste de Vontade contra uma de suas habilidades mágicas, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual a sua Sabedoria."
+  }
+}

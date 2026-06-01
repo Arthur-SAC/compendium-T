@@ -1,0 +1,14 @@
+{
+  "id": "olhos-vermelhos",
+  "tipo": "poder",
+  "nome": "Olhos Vermelhos",
+  "resumo": "Ganhe visão no escuro e bônus em Intimidação.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você recebe visão no escuro e +1 em Intimidação. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

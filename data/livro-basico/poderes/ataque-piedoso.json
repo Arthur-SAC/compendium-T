@@ -1,0 +1,15 @@
+{
+  "id": "ataque-piedoso",
+  "tipo": "poder",
+  "nome": "Ataque Piedoso",
+  "resumo": "Use armas corpo a corpo para causar dano não letal sem a penalidade de –5 no teste de ataque.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lena ou Thyatis",
+    "descricao": "Você pode usar armas corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque."
+  }
+}

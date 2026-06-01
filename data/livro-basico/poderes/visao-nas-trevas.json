@@ -1,0 +1,15 @@
+{
+  "id": "visao-nas-trevas",
+  "tipo": "poder",
+  "nome": "Visão nas Trevas",
+  "resumo": "Enxergue perfeitamente no escuro, inclusive em magias de escuridão.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tenebra",
+    "descricao": "Você enxerga perfeitamente no escuro, incluindo em magias de escuridão."
+  }
+}

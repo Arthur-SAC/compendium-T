@@ -1,0 +1,15 @@
+{
+  "id": "caricia-sombria",
+  "tipo": "poder",
+  "nome": "Carícia Sombria",
+  "resumo": "Gaste 1 PM para tocar uma criatura causando 2d6 de dano de trevas e recuperar PV iguais à metade do dano causado; pode aprender Toque Vampírico com –1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tenebra",
+    "descricao": "Você pode gastar 1 PM e uma ação padrão para cobrir sua mão com energia negativa e tocar uma criatura em alcance corpo a corpo. A criatura sofre 2d6 pontos de dano de trevas (Fortitude CD Sab reduz à metade) e você recupera PV iguais à metade do dano causado. Você pode aprender Toque Vampírico como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+  }
+}

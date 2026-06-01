@@ -1,0 +1,15 @@
+{
+  "id": "forma-de-macaco",
+  "tipo": "poder",
+  "nome": "Forma de Macaco",
+  "resumo": "Gaste ação completa e 2 PM para se transformar em macaco (tamanho Minúsculo, +5 Furtividade, –5 manobra, escalar 9m); dura indefinidamente, termina se atacar, lançar magia ou sofrer dano.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Hyninn",
+    "descricao": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "olhar-amedrontador",
+  "tipo": "poder",
+  "nome": "Olhar Amedrontador",
+  "resumo": "Aprenda e lance Amedrontar com desconto de –1 PM se reaprendida.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Megalokk ou Thwor",
+    "descricao": "Você aprende e pode lançar Amedrontar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

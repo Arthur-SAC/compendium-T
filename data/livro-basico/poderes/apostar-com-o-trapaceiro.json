@@ -1,0 +1,15 @@
+{
+  "id": "apostar-com-o-trapaceiro",
+  "tipo": "poder",
+  "nome": "Apostar com o Trapaceiro",
+  "resumo": "Gaste 1 PM para apostar com Hyninn em um teste de perícia, escolhendo entre seu resultado e o resultado oculto do mestre.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Hyninn",
+    "descricao": "Quando faz um teste de perícia, você pode gastar 1 PM para apostar com Hyninn. Você e o mestre rolam 1d20, mas o mestre mantém o resultado dele em segredo. Você então escolhe entre usar seu próprio resultado ou o resultado oculto do mestre (neste caso, ele revela o resultado)."
+  }
+}

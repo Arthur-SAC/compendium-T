@@ -1,0 +1,14 @@
+{
+  "id": "sangue-acido",
+  "tipo": "poder",
+  "nome": "Sangue Ácido",
+  "resumo": "Cause dano de ácido a quem o atacar em corpo a corpo.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Quando você sofre dano por um ataque corpo a corpo, o atacante sofre 1 ponto de dano de ácido por poder da Tormenta que você possui."
+  }
+}

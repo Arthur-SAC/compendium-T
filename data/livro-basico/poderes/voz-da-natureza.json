@@ -1,0 +1,15 @@
+{
+  "id": "voz-da-natureza",
+  "tipo": "poder",
+  "nome": "Voz da Natureza",
+  "resumo": "Fale com animais e aprenda Acalmar Animal (só contra animais); se aprendida novamente, custo –1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Allihanna",
+    "descricao": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

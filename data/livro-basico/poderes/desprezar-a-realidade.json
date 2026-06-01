@@ -1,0 +1,15 @@
+{
+  "id": "desprezar-a-realidade",
+  "tipo": "poder",
+  "nome": "Desprezar a Realidade",
+  "resumo": "Gasta 2 PM para ficar no limiar da realidade: ignora terreno difícil e impõe chance de falha a efeitos contra você.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Quatro outros poderes da Tormenta",
+    "descricao": "Você pode gastar 2 PM para ficar no limiar da realidade até o início de seu próximo turno. Nesse estado, você ignora terreno difícil e causa 20% de chance de falha em efeitos usados contra você (não apenas ataques). Para cada dois outros poderes de Tormenta que você possuir, essa chance aumenta em 5% (máximo de 50%)."
+  }
+}

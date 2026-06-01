@@ -1,0 +1,15 @@
+{
+  "id": "centelha-magica",
+  "tipo": "poder",
+  "nome": "Centelha Mágica",
+  "resumo": "Aprenda e passe a lançar uma magia arcana ou divina de 1º círculo à sua escolha.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Wynna",
+    "descricao": "Escolha uma magia arcana ou divina de 1º círculo. Você aprende e pode lançar essa magia."
+  }
+}

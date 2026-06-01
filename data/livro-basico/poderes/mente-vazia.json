@@ -1,0 +1,15 @@
+{
+  "id": "mente-vazia",
+  "tipo": "poder",
+  "nome": "Mente Vazia",
+  "resumo": "Receba +2 em Iniciativa, Percepção e Vontade.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lin-Wu",
+    "descricao": "Você recebe +2 em Iniciativa, Percepção e Vontade."
+  }
+}

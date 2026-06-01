@@ -1,0 +1,15 @@
+{
+  "id": "familiar-ofidico",
+  "tipo": "poder",
+  "nome": "Familiar Ofídico",
+  "resumo": "Você recebe um familiar cobra que não conta em seu limite de parceiros.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Sszzaas",
+    "descricao": "Você recebe um familiar cobra (veja a página 38) que não conta em seu limite de parceiros."
+  }
+}

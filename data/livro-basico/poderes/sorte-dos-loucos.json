@@ -1,0 +1,15 @@
+{
+  "id": "sorte-dos-loucos",
+  "tipo": "poder",
+  "nome": "Sorte dos Loucos",
+  "resumo": "Pague 1 PM para rolar novamente um teste; se falhar novamente, perde 1d6 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Nimb",
+    "descricao": "Você pode pagar 1 PM para rolar novamente um teste recém realizado. Se ainda assim falhar no teste, você perde 1d6 PM."
+  }
+}

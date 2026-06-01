@@ -1,0 +1,15 @@
+{
+  "id": "corpo-aberrante",
+  "tipo": "poder",
+  "nome": "Corpo Aberrante",
+  "resumo": "Crostas vermelhas tornam ataques mais perigosos; dano desarmado aumenta em passos.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Um poder da Tormenta",
+    "descricao": "Crostas vermelhas em várias partes de seu corpo tornam seus ataques mais perigosos. Seu dano desarmado aumenta em um passo, mais um passo para cada quatro outros poderes da Tormenta que você possui."
+  }
+}

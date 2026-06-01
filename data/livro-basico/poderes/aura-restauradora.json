@@ -1,0 +1,15 @@
+{
+  "id": "aura-restauradora",
+  "tipo": "poder",
+  "nome": "Aura Restauradora",
+  "resumo": "Efeitos de cura usados por você e aliados em alcance curto recuperam +1 PV por dado.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lena",
+    "descricao": "Efeitos de cura usados por você e seus aliados em alcance curto recuperam +1 PV por dado."
+  }
+}

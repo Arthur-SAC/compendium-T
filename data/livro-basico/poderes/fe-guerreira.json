@@ -1,0 +1,15 @@
+{
+  "id": "fe-guerreira",
+  "tipo": "poder",
+  "nome": "Fé Guerreira",
+  "resumo": "Use Sabedoria para Guerra; em combate, gaste 2 PM para substituir teste de perícia por teste de Guerra.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Arsenal",
+    "descricao": "Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, pode gastar 2 PM para substituir um teste de perícia (exceto testes de ataque) por um teste de Guerra."
+  }
+}

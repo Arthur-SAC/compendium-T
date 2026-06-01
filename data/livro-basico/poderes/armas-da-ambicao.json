@@ -1,0 +1,15 @@
+{
+  "id": "armas-da-ambicao",
+  "tipo": "poder",
+  "nome": "Armas da Ambição",
+  "resumo": "Receba +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Valkaria",
+    "descricao": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente."
+  }
+}

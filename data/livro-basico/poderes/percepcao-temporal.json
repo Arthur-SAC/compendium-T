@@ -1,0 +1,15 @@
+{
+  "id": "percepcao-temporal",
+  "tipo": "poder",
+  "nome": "Percepção Temporal",
+  "resumo": "Gaste 3 PM para somar Sabedoria a ataques, Defesa e testes de Reflexos até o fim da cena.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Aharadak",
+    "descricao": "Você pode gastar 3 PM para somar sua Sabedoria (limitado por seu nível e não cumulativo com efeitos que somam este atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena."
+  }
+}

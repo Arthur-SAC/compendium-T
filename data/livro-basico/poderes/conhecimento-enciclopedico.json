@@ -1,0 +1,15 @@
+{
+  "id": "conhecimento-enciclopedico",
+  "tipo": "poder",
+  "nome": "Conhecimento Enciclopédico",
+  "resumo": "Torne-se treinado em duas perícias baseadas em Inteligência.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tanna-Toh",
+    "descricao": "Você se torna treinado em duas perícias baseadas em Inteligência a sua escolha."
+  }
+}

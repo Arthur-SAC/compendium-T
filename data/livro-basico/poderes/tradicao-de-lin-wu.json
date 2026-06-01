@@ -1,0 +1,15 @@
+{
+  "id": "tradicao-de-lin-wu",
+  "tipo": "poder",
+  "nome": "Tradição de Lin-Wu",
+  "resumo": "Considere a katana uma arma simples e receba +1 na margem de ameaça com ela (se proficiente em marciais).",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lin-Wu",
+    "descricao": "Você considera a katana uma arma simples e, se for proficiente em armas marciais, recebe +1 na margem de ameaça com ela."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-esperanca",
+  "tipo": "poder",
+  "nome": "Dom da Esperança",
+  "resumo": "Some Sabedoria aos PV (em vez de Constituição) e fique imune a alquebrado, esmorecido e frustrado.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Marah",
+    "descricao": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado."
+  }
+}

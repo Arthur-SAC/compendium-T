@@ -1,0 +1,15 @@
+{
+  "id": "compreender-os-ermos",
+  "tipo": "poder",
+  "nome": "Compreender os Ermos",
+  "resumo": "Receba +2 em Sobrevivência e use Sabedoria no lugar de Carisma para Adestramento.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Allihanna",
+    "descricao": "Você recebe +2 em Sobrevivência e pode usar Sabedoria para Adestramento (em vez de Carisma)."
+  }
+}

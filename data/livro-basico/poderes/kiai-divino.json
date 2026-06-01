@@ -1,0 +1,15 @@
+{
+  "id": "kiai-divino",
+  "tipo": "poder",
+  "nome": "Kiai Divino",
+  "resumo": "Uma vez por rodada, ao fazer ataque corpo a corpo, gaste 3 PM; se acertar, causa dano máximo sem rolar dados.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lin-Wu",
+    "descricao": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados."
+  }
+}

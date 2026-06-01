@@ -1,0 +1,15 @@
+{
+  "id": "coragem-total",
+  "tipo": "poder",
+  "nome": "Coragem Total",
+  "resumo": "Seja imune a efeitos de medo, mágicos ou não.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Arsenal, Khalmyr, Lin-Wu ou Valkaria",
+    "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."
+  }
+}

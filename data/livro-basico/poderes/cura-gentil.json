@@ -1,0 +1,15 @@
+{
+  "id": "cura-gentil",
+  "tipo": "poder",
+  "nome": "Cura Gentil",
+  "resumo": "Some seu Carisma aos PV restaurados pelos seus efeitos mágicos de cura.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lena",
+    "descricao": "Você soma seu Carisma aos PV restaurados por seus efeitos mágicos de cura."
+  }
+}

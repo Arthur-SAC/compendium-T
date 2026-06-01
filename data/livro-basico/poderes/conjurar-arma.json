@@ -1,0 +1,15 @@
+{
+  "id": "conjurar-arma",
+  "tipo": "poder",
+  "nome": "Conjurar Arma",
+  "resumo": "Invoque uma arma corpo a corpo ou de arremesso mágica por 1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Arsenal",
+    "descricao": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições."
+  }
+}

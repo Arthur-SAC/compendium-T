@@ -1,0 +1,15 @@
+{
+  "id": "asas-insetoides",
+  "tipo": "poder",
+  "nome": "Asas Insetoides",
+  "resumo": "Gasta 1 PM para obter deslocamento de voo 9m até o fim do turno.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Quatro outros poderes da Tormenta",
+    "descricao": "Você pode gastar 1 PM para receber deslocamento de voo 9m até o fim do seu turno. O deslocamento aumenta em +1,5m para cada outro poder da Tormenta que você possui."
+  }
+}

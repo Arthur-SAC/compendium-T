@@ -1,0 +1,14 @@
+{
+  "id": "pele-corrompida",
+  "tipo": "poder",
+  "nome": "Pele Corrompida",
+  "resumo": "Reduza dano de múltiplos tipos de energia.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Sua carne foi mesclada à matéria vermelha. Você recebe redução de ácido, eletricidade, fogo, frio, luz e trevas 2. Esta RD aumenta em +2 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pesquisa-abencoada",
+  "tipo": "poder",
+  "nome": "Pesquisa Abençoada",
+  "resumo": "Após uma hora pesquisando, role novamente um teste de perícia baseada em Inteligência ou Sabedoria feito desde a última cena.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tanna-Toh",
+    "descricao": "Se passar uma hora pesquisando seus livros e anotações, você pode rolar novamente um teste de perícia baseada em Inteligência ou Sabedoria que tenha feito desde a última cena. Se tiver acesso a mais livros, você recebe um bônus no teste: +2 para uma coleção particular ou biblioteca pequena e +5 para a biblioteca de um templo ou universidade."
+  }
+}

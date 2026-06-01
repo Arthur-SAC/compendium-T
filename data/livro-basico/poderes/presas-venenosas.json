@@ -1,0 +1,15 @@
+{
+  "id": "presas-venenosas",
+  "tipo": "poder",
+  "nome": "Presas Venenosas",
+  "resumo": "Gaste uma ação de movimento e 1 PM para envenenar uma arma corpo a corpo; em caso de acerto causa perda de 1d12 PV.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Sszzaas",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma corpo a corpo que esteja empunhando. Em caso de acerto, a arma causa perda de 1d12 pontos de vida. A arma permanece envenenada até atingir uma criatura ou até o fim da cena, o que acontecer primeiro."
+  }
+}

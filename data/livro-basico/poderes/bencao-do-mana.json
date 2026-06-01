@@ -1,0 +1,15 @@
+{
+  "id": "bencao-do-mana",
+  "tipo": "poder",
+  "nome": "Bênção do Mana",
+  "resumo": "Receba +1 PM a cada nível ímpar.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Wynna",
+    "descricao": "Você recebe +1 PM a cada nível ímpar."
+  }
+}

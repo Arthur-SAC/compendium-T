@@ -1,0 +1,14 @@
+{
+  "id": "carapaca",
+  "tipo": "poder",
+  "nome": "Carapaça",
+  "resumo": "Pele recoberta por placas quitinosas concede bônus na Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Sua pele é recoberta por placas quitinosas. Você recebe +1 na Defesa. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

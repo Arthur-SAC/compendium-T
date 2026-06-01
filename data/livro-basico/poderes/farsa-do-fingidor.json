@@ -1,0 +1,15 @@
+{
+  "id": "farsa-do-fingidor",
+  "tipo": "poder",
+  "nome": "Farsa do Fingidor",
+  "resumo": "Aprende e pode lançar Criar Ilusão; se aprender novamente, custo –1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Hyninn",
+    "descricao": "Você aprende e pode lançar Criar Ilusão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

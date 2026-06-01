@@ -1,0 +1,15 @@
+{
+  "id": "curandeira-perfeita",
+  "tipo": "poder",
+  "nome": "Curandeira Perfeita",
+  "resumo": "Escolha sempre 10 em testes de Cura e use a perícia sem maleta de medicamentos.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Lena",
+    "descricao": "Você sempre pode escolher 10 em testes de Cura. Além disso, não sofre penalidade por usar essa perícia sem uma maleta de medicamentos. Se possuir o item, recebe +2 no teste de Cura (ou +5, se ele for aprimorado)."
+  }
+}

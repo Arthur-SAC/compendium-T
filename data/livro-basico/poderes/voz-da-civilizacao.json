@@ -1,0 +1,15 @@
+{
+  "id": "voz-da-civilizacao",
+  "tipo": "poder",
+  "nome": "Voz da Civilização",
+  "resumo": "Você está sempre sob efeito de Compreensão.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tanna-Toh",
+    "descricao": "Você está sempre sob efeito de Compreensão."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "almejar-o-impossivel",
+  "tipo": "poder",
+  "nome": "Almejar o Impossível",
+  "resumo": "Resultados de 19 ou mais no dado em testes de perícia sempre são um sucesso, independente da dificuldade.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Thwor ou Valkaria",
+    "descricao": "Quando faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado."
+  }
+}

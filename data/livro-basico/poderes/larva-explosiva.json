@@ -1,0 +1,15 @@
+{
+  "id": "larva-explosiva",
+  "tipo": "poder",
+  "nome": "Larva Explosiva",
+  "resumo": "Criaturas mordidas explodem em chuva ácida ao morrer.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Dentes Afiados",
+    "descricao": "Se uma criatura que tenha sofrido dano de sua mordida nesta cena for reduzida a 0 ou menos PV, ela explode em chuva cáustica, morrendo e causando 4d4 pontos de dano de ácido em criaturas adjacentes. Para cada dois outros poderes da Tormenta que você possui, o dano aumenta em +2d4. Você é imune a esse dano."
+  }
+}

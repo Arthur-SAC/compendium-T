@@ -1,0 +1,14 @@
+{
+  "id": "membros-estendidos",
+  "tipo": "poder",
+  "nome": "Membros Estendidos",
+  "resumo": "Aumente o alcance natural de seus ataques corpo a corpo.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Seus braços e armas naturais são grotescamente mais longos que o normal, o que aumenta seu alcance natural para ataques corpo a corpo em +1,5m. Para cada quatro outros poderes da Tormenta que você possui, esse alcance aumenta em +1,5m."
+  }
+}

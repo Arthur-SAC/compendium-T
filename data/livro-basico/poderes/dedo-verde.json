@@ -1,0 +1,15 @@
+{
+  "id": "dedo-verde",
+  "tipo": "poder",
+  "nome": "Dedo Verde",
+  "resumo": "Aprenda e lance Controlar Plantas com desconto de –1 PM se reaprendida.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Allihanna",
+    "descricao": "Você aprende e pode lançar Controlar Plantas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

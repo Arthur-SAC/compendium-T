@@ -1,0 +1,15 @@
+{
+  "id": "golpista-divino",
+  "tipo": "poder",
+  "nome": "Golpista Divino",
+  "resumo": "+2 em Enganação, Jogatina e Ladinagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Hyninn",
+    "descricao": "Você recebe +2 em Enganação, Jogatina e Ladinagem."
+  }
+}

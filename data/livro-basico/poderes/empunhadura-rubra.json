@@ -1,0 +1,14 @@
+{
+  "id": "empunhadura-rubra",
+  "tipo": "poder",
+  "nome": "Empunhadura Rubra",
+  "resumo": "Gasta 1 PM para cobrir as mãos com carapaça rubra, recebendo bônus em Luta pela cena.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você pode gastar 1 PM para cobrir suas mãos com uma carapaça rubra. Até o final da cena, você recebe +1 em Luta. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

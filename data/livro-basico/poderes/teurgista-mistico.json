@@ -1,0 +1,15 @@
+{
+  "id": "teurgista-mistico",
+  "tipo": "poder",
+  "nome": "Teurgista Místico",
+  "resumo": "Aprenda magias do tipo oposto ao seu (arcanas/divinas) em até uma por círculo.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Wynna, habilidade de classe Magias",
+    "descricao": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino)."
+  }
+}

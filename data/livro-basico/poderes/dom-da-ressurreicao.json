@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-ressurreicao",
+  "tipo": "poder",
+  "nome": "Dom da Ressurreição",
+  "resumo": "Ressuscite uma criatura morta gastando uma ação completa e todos os seus PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Thyatis, somente clérigo",
+    "descricao": "Você pode gastar uma ação completa e todos os PM que possui (mínimo 1 PM) para tocar o corpo de uma criatura morta há menos de um ano e ressuscitá-la. A criatura volta à vida com 1 PV e 0 PM, e perde 1 ponto de Constituição permanentemente. Este poder só pode ser usado uma vez em cada criatura. Apenas clérigos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos."
+  }
+}

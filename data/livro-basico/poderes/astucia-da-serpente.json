@@ -1,0 +1,15 @@
+{
+  "id": "astucia-da-serpente",
+  "tipo": "poder",
+  "nome": "Astúcia da Serpente",
+  "resumo": "Receba +2 em Enganação, Furtividade e Intuição.",
+  "fonte": { "livro": "livro-basico", "pagina": 132 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Sszzaas",
+    "descricao": "Você recebe +2 em Enganação, Furtividade e Intuição."
+  }
+}

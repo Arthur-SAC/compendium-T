@@ -1,0 +1,15 @@
+{
+  "id": "sangue-de-ferro",
+  "tipo": "poder",
+  "nome": "Sangue de Ferro",
+  "resumo": "Gaste 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Arsenal",
+    "descricao": "Você pode pagar 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena."
+  }
+}

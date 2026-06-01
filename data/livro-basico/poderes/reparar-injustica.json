@@ -1,0 +1,15 @@
+{
+  "id": "reparar-injustica",
+  "tipo": "poder",
+  "nome": "Reparar Injustiça",
+  "resumo": "Uma vez por rodada, gaste 2 PM para forçar um oponente que acabou de acertar você ou um aliado a repetir o ataque, ficando com o pior resultado.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Khalmyr",
+    "descricao": "Uma vez por rodada, quando um oponente em alcance curto acerta um ataque em você ou em um de seus aliados, você pode gastar 2 PM para fazer este oponente repetir o ataque, escolhendo o pior entre os dois resultados."
+  }
+}

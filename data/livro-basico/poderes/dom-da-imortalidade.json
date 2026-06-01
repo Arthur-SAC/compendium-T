@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-imortalidade",
+  "tipo": "poder",
+  "nome": "Dom da Imortalidade",
+  "resumo": "Seja imortal: volte à vida após 3d6 dias sempre que morrer.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Thyatis, somente paladino",
+    "descricao": "Você é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias. Apenas paladinos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos."
+  }
+}

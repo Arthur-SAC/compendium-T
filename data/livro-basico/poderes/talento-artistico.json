@@ -1,0 +1,15 @@
+{
+  "id": "talento-artistico",
+  "tipo": "poder",
+  "nome": "Talento Artístico",
+  "resumo": "Receba +2 em Acrobacia, Atuação e Diplomacia.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Marah",
+    "descricao": "Você recebe +2 em Acrobacia, Atuação e Diplomacia."
+  }
+}

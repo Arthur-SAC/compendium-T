@@ -1,0 +1,15 @@
+{
+  "id": "escudo-magico",
+  "tipo": "poder",
+  "nome": "Escudo Mágico",
+  "resumo": "Ao lançar uma magia, receba bônus na Defesa igual ao círculo da magia até o próximo turno.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Wynna",
+    "descricao": "Quando lança uma magia, você recebe um bônus na Defesa igual ao círculo da magia lançada até o início do seu próximo turno."
+  }
+}

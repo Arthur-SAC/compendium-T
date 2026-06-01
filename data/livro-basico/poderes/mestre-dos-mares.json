@@ -1,0 +1,15 @@
+{
+  "id": "mestre-dos-mares",
+  "tipo": "poder",
+  "nome": "Mestre dos Mares",
+  "resumo": "Fale com animais aquáticos e aprenda Acalmar Animal (somente contra criaturas aquáticas).",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto do Oceano",
+    "descricao": "Você pode falar com animais aquáticos (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra criaturas aquáticas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

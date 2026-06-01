@@ -1,0 +1,15 @@
+{
+  "id": "zumbificar",
+  "tipo": "poder",
+  "nome": "Zumbificar",
+  "resumo": "Gaste ação completa e 3 PM para reanimar cadáver Pequeno ou Médio adjacente por um dia.",
+  "fonte": { "livro": "livro-basico", "pagina": 136 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tenebra",
+    "descricao": "Você pode gastar uma ação completa e 3 PM para reanimar o cadáver de uma criatura Pequena ou Média adjacente por um dia. O cadáver funciona como um parceiro iniciante de um tipo a sua escolha entre combatente, fortão ou guardião. Além disso, quando sofre dano, você pode sacrificar esse parceiro; se fizer isso, você sofre apenas metade do dano, mas o cadáver é destruído."
+  }
+}

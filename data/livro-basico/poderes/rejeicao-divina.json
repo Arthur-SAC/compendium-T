@@ -1,0 +1,15 @@
+{
+  "id": "rejeicao-divina",
+  "tipo": "poder",
+  "nome": "Rejeição Divina",
+  "resumo": "Receba resistência a magia divina +5.",
+  "fonte": { "livro": "livro-basico", "pagina": 135 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Aharadak",
+    "descricao": "Você recebe resistência a magia divina +5."
+  }
+}

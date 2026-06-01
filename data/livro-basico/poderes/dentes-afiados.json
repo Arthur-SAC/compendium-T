@@ -1,0 +1,14 @@
+{
+  "id": "dentes-afiados",
+  "tipo": "poder",
+  "nome": "Dentes Afiados",
+  "resumo": "Arma natural de mordida; uma vez por rodada pode gastar 1 PM para fazer ataque extra com ela.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+  }
+}

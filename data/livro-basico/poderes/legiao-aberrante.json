@@ -1,0 +1,15 @@
+{
+  "id": "legiao-aberrante",
+  "tipo": "poder",
+  "nome": "Legião Aberrante",
+  "resumo": "Transforme-se em uma massa de insetos rubros.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Anatomia Insana, três outros poderes da Tormenta",
+    "descricao": "Seu corpo se transforma em uma massa de insetos rubros. Você pode atravessar qualquer espaço por onde seja possível passar uma moeda (mas considera esses espaços como terreno difícil) e recebe +1 em testes contra manobras de combate e de resistência contra efeitos que tenham você como alvo (mas não efeitos de área). Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui."
+  }
+}

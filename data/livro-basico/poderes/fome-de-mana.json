@@ -1,0 +1,14 @@
+{
+  "id": "fome-de-mana",
+  "tipo": "poder",
+  "nome": "Fome de Mana",
+  "resumo": "Absorva PM quando resistir a habilidades mágicas.",
+  "fonte": { "livro": "livro-basico", "pagina": 137 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Quando passa em um teste de resistência para resistir a uma habilidade mágica, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual ao número de poderes da Tormenta que possui."
+  }
+}

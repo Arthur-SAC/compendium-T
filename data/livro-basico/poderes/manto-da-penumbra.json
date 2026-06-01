@@ -1,0 +1,15 @@
+{
+  "id": "manto-da-penumbra",
+  "tipo": "poder",
+  "nome": "Manto da Penumbra",
+  "resumo": "Aprende e pode lançar Escuridão; se aprender novamente, custo –1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 134 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Tenebra",
+    "descricao": "Você aprende e pode lançar Escuridão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

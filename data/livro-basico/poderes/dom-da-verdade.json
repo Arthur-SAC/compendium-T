@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-verdade",
+  "tipo": "poder",
+  "nome": "Dom da Verdade",
+  "resumo": "Gaste 2 PM para receber +5 em Intuição e em testes de Percepção contra Enganação e Furtividade.",
+  "fonte": { "livro": "livro-basico", "pagina": 133 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "concedido",
+    "prerequisito": "Devoto de Khalmyr",
+    "descricao": "Você pode pagar 2 PM para receber +5 em testes de Intuição, e em testes de Percepção contra Enganação e Furtividade, até o fim da cena."
+  }
+}
