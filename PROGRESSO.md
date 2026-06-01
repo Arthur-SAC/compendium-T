@@ -4,19 +4,27 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-01
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)**. Próxima: **Perícias & Poderes** (Cap. 2).
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Perícias ✅ (29/29)**. Próxima: **Poderes Gerais** (Cap. 2, Onda 2).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **Classes e Origens CONCLUÍDAS.** Próxima fatia escolhida pelo usuário: **Capítulo 2 — Perícias & Poderes**.
-**Plano pronto:** `docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md` (descoberta já feita).
-Executar por **Subagent-Driven** em duas ondas: **ONDA 1 = Perícias** (P1 schema+regra → P2 FichaPericia →
-P3 índice `/pericias` → P4 extrair as **29 perícias** da Tabela 2-1, impressas 114–123, 2 passadas → P5 integração),
-depois **ONDA 2 = Poderes Gerais** (5 grupos: Combate/Destino/Magia/Concedidos/Tormenta, impressas 124–136).
-Efeito-chave: acende os **links** que Origens e Classes já citam. Ao continuar, começar por **P1**.
+➡️ **ONDA 1 (Perícias) CONCLUÍDA ✅ (29/29).** Próxima: **ONDA 2 = Poderes Gerais** do plano
+`docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md` (tasks PP1–PP5). Render impressas **124–136**
+(PDF 130–142); descobrir e listar todos os poderes por grupo (**Combate** 124, **Destino** 129, **Magia** 131,
+**Concedidos** 132, **Tormenta** 136); schema `poder` (`PoderMecanicaSchema {grupo, prerequisito?, descricao}`)
++ ramo no `superRefine`; `FichaPoder` + índice `/poderes` agrupado por grupo + regra "Poderes: como funcionam"
+(impressa 124); extração por grupo (2 passadas); integração. Executar por **Subagent-Driven**.
+
+**Onda 1 — Perícias ✅** (commits da fundação + extração): schema `pericia` (`PericiaMecanicaSchema` com `usos[]`),
+`FichaPericia`, índice `/pericias` + painel de regra, regra `pericias-como-funcionam` (p.114), e **29 perícias**
+(Tabela 2-1, impressas 114–123) com atributo-chave/flags/usos, visão 2 passadas. **Chips de benefício em
+`FichaOrigem` viram links** quando o nome casa uma entidade (perícias citadas em Origens já estão clicáveis).
+
+> **Polimento pendente (links):** estender o mesmo "chip vira link" para as perícias listadas em **`FichaClasse`**
+> (e, na Onda 2, para os poderes citados em Origens/Classes). Pequeno, alto valor.
 
 > **Regras conectivas (decisão do usuário, 2026-06-01):** o objetivo "jogável sem o livro" exige as regras de
 > "como funciona X" no site, não só os catálogos. Já feito para **Origens** (`regra-de-criacao` + painel em `/origens`,
