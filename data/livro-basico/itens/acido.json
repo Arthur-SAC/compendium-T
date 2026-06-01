@@ -1,0 +1,16 @@
+{
+  "id": "acido",
+  "tipo": "item",
+  "nome": "Ácido",
+  "resumo": "Frasco de vidro contendo um ácido alquímico altamente corrosivo.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 10",
+    "espacos": "0,5",
+    "especial": "Para usar o ácido, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de ácido (Reflexos CD Des reduz à metade)."
+  }
+}

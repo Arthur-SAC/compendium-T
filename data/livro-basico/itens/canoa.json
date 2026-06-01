@@ -1,0 +1,15 @@
+{
+  "id": "canoa",
+  "tipo": "item",
+  "nome": "Canoa",
+  "resumo": "A mais simples das embarcações, construída a partir de um único tronco de árvore.",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "veiculo",
+    "preco": "T$ 70",
+    "especial": "Tamanho Grande. Deslocamento: natação 9m. Defesa: 8 (+ Des do condutor). PV: 50. Capacidade: até 4 criaturas Médias ou 80 espaços (mesmas estatísticas de uma carroça, mas com deslocamento de natação)."
+  }
+}

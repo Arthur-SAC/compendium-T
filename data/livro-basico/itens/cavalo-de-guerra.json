@@ -1,0 +1,15 @@
+{
+  "id": "cavalo-de-guerra",
+  "tipo": "item",
+  "nome": "Cavalo de Guerra",
+  "resumo": "Cavalo treinado para combate, dispensa o teste de Cavalgar para permanecer montado durante uma batalha.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 400",
+    "especial": "Parceiro iniciante. Pode ser usado como parceiro montaria (veja a página 262). Cavalos de guerra dispensam o teste de Cavalgar (CD 20) para permanecer montado durante um combate."
+  }
+}

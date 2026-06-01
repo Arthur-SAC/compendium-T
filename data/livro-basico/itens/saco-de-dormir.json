@@ -1,0 +1,16 @@
+{
+  "id": "saco-de-dormir",
+  "tipo": "item",
+  "nome": "Saco de Dormir",
+  "resumo": "Colchão com coberta fina enrolável, essencial para aventureiros que nunca sabem onde passarão a noite.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "especial": "Dormir ao relento sem um acampamento e um saco de dormir diminui sua recuperação de PV e PM (veja a página 106)."
+  }
+}

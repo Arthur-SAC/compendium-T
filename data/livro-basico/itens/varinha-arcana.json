@@ -1,0 +1,16 @@
+{
+  "id": "varinha-arcana",
+  "tipo": "item",
+  "nome": "Varinha Arcana",
+  "resumo": "Uma varinha típica, feita de madeira de boa qualidade e entalhada com runas.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "A CD para resistir a suas magias arcanas aumenta em +1."
+  }
+}

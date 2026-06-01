@@ -1,0 +1,16 @@
+{
+  "id": "algemas",
+  "tipo": "item",
+  "nome": "Algemas",
+  "resumo": "Par de algemas para criaturas Médias, usadas para prender alvos capturados.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo (veja Manobras de Combate) e vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige uma ação completa e um teste de Acrobacia contra CD 30 ou de Força contra CD 25 — ou ter as chaves."
+  }
+}

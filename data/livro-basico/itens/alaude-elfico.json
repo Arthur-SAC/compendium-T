@@ -1,0 +1,16 @@
+{
+  "id": "alaude-elfico",
+  "tipo": "item",
+  "nome": "Alaúde Élfico",
+  "resumo": "Instrumento de alta manufatura élfica que permite usar Inspiração como ação de movimento. Conta como instrumento musical.",
+  "fonte": { "livro": "livro-basico", "pagina": 157 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical."
+  }
+}

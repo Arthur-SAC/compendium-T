@@ -1,0 +1,16 @@
+{
+  "id": "luva-de-ferro",
+  "tipo": "item",
+  "nome": "Luva de Ferro",
+  "resumo": "Um conjunto de dedais interligados por correntes.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 150",
+    "espacos": "1",
+    "especial": "Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+  }
+}

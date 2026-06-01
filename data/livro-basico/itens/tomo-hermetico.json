@@ -1,0 +1,16 @@
+{
+  "id": "tomo-hermetico",
+  "tipo": "item",
+  "nome": "Tomo Hermético",
+  "resumo": "Um livro de tratados que aumentam a sua compreensão sobre uma escola de magia específica.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 1.500",
+    "espacos": "1",
+    "especial": "A CD para resistir a suas magias arcanas de uma escola de magia específica aumenta em +2."
+  }
+}

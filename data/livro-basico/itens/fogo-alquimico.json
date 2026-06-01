@@ -1,0 +1,16 @@
+{
+  "id": "fogo-alquimico",
+  "tipo": "item",
+  "nome": "Fogo Alquímico",
+  "resumo": "Frasco de cerâmica contendo substância que entra em combustão ao contato com o ar.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 10",
+    "espacos": "0,5",
+    "especial": "Para usar o fogo alquímico, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 1d6 pontos de dano de fogo e fica em chamas. Um teste de Reflexos (CD Des) reduz o dano à metade e evita as chamas."
+  }
+}

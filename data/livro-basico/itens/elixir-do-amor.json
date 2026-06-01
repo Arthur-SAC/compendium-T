@@ -1,0 +1,16 @@
+{
+  "id": "elixir-do-amor",
+  "tipo": "item",
+  "nome": "Elixir do Amor",
+  "resumo": "Líquido adocicado que faz um humanoide se apaixonar pela primeira criatura que enxergar.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 100",
+    "espacos": "0,5",
+    "especial": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+  }
+}

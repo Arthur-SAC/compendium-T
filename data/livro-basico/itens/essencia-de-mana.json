@@ -1,0 +1,16 @@
+{
+  "id": "essencia-de-mana",
+  "tipo": "item",
+  "nome": "Essência de Mana",
+  "resumo": "Poção feita de ervas raras e compostos alquímicos que recupera pontos de mana.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 50",
+    "espacos": "0,5",
+    "especial": "Beber a essência de mana é uma ação padrão e recupera 1d4 pontos de mana."
+  }
+}

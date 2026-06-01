@@ -1,0 +1,16 @@
+{
+  "id": "lampiao",
+  "tipo": "item",
+  "nome": "Lampião",
+  "resumo": "Cilindro com alça e portinholas que abriga uma chama de óleo, iluminando um raio de 15 metros.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 7",
+    "espacos": "1",
+    "especial": "Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena."
+  }
+}

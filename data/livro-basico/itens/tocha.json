@@ -1,0 +1,19 @@
+{
+  "id": "tocha",
+  "tipo": "item",
+  "nome": "Tocha",
+  "resumo": "Bastão de madeira com combustível na ponta que ilumina um raio de 9m e pode ser usada como arma.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 156
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 0,1",
+    "espacos": "1",
+    "especial": "Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2)."
+  }
+}

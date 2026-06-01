@@ -1,0 +1,16 @@
+{
+  "id": "po-de-cristal",
+  "tipo": "item",
+  "nome": "Pó de Cristal",
+  "resumo": "Pitada de pó de mineral cristalino puro, como quartzo ou topázio; reduz o custo de magias de encantamento.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, diminui o custo de magias de encantamento em –1 PM."
+  }
+}

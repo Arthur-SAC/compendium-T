@@ -1,0 +1,16 @@
+{
+  "id": "mochila",
+  "tipo": "item",
+  "nome": "Mochila",
+  "resumo": "Bolsa de lona com tiras para ser carregada nas costas; não conta como item vestido.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 2",
+    "espacos": "—",
+    "especial": "Não conta como item vestido."
+  }
+}

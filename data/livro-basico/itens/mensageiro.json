@@ -1,0 +1,15 @@
+{
+  "id": "mensageiro",
+  "tipo": "item",
+  "nome": "Mensageiro",
+  "resumo": "Serviço de entrega de mensagens a pé, por cavaleiros ou navios, cobrado por quilômetro.",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "servico",
+    "preco": "T$ 0,5 por km",
+    "especial": "Inclui mensagens entregues a pé, por cavaleiros ou navios. Preço cobrado por quilômetro."
+  }
+}

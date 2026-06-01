@@ -1,0 +1,16 @@
+{
+  "id": "bolsa-de-po",
+  "tipo": "item",
+  "nome": "Bolsa de Pó",
+  "resumo": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
+  }
+}

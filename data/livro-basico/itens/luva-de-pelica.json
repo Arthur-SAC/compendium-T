@@ -1,0 +1,19 @@
+{
+  "id": "luva-de-pelica",
+  "tipo": "item",
+  "nome": "Luva de Pelica",
+  "resumo": "Luvas delicadas que preservam o tato e impedem que o suor deixe os dedos escorregadios.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Fornecem +1 em Ladinagem."
+  }
+}

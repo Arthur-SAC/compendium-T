@@ -1,0 +1,19 @@
+{
+  "id": "instrumentos-de-oficio",
+  "tipo": "item",
+  "nome": "Instrumentos de Ofício",
+  "resumo": "Ferramentas específicas para qualquer Ofício (martelo e prego para carpinteiro, pergaminhos e tinta para escriba etc.). Sem eles, –5 na perícia de Ofício.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Existe uma versão para cada Ofício (qualquer). Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia."
+  }
+}

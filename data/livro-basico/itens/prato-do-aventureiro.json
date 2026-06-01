@@ -1,0 +1,16 @@
+{
+  "id": "prato-do-aventureiro",
+  "tipo": "item",
+  "nome": "Prato do Aventureiro",
+  "resumo": "Cozido de galinha com legumes, refeição simples mas nutritiva que melhora a recuperação de PV na próxima noite de sono.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 1",
+    "espacos": "0,5",
+    "especial": "Prato especial. Bônus dura 1 dia (apenas 1 bônus de alimentação por dia). Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível."
+  }
+}

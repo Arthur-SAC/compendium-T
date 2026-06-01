@@ -1,0 +1,16 @@
+{
+  "id": "dente-de-dragao",
+  "tipo": "item",
+  "nome": "Dente-de-Dragão",
+  "resumo": "Flor comum em regiões montanhosas com formato parecido com uma presa de monstro; aumenta o dano de magias.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, aumenta o dano de magias em um dado do mesmo tipo."
+  }
+}

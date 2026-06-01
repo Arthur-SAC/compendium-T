@@ -1,0 +1,16 @@
+{
+  "id": "orbe-cristalino",
+  "tipo": "item",
+  "nome": "Orbe Cristalino",
+  "resumo": "Esta esfera perfeita concentra seu poder mágico.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 750",
+    "espacos": "1",
+    "especial": "O limite de PM que você pode gastar em magias arcanas aumenta em +1."
+  }
+}

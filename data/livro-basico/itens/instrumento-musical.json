@@ -1,0 +1,19 @@
+{
+  "id": "instrumento-musical",
+  "tipo": "item",
+  "nome": "Instrumento Musical",
+  "resumo": "Um instrumento típico como bandolim, flauta ou lira. Necessário para Músicas de Bardo e habilidades de Atuação.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 35",
+    "espacos": "1",
+    "especial": "Deve ser empunhado com as duas mãos para receber seus benefícios. Bardos podem usá-lo como esotérico (lançam magias com a mão que empunha). Pode receber melhorias de ferramentas (ligadas a Atuação) e de esotéricos (afetam apenas magias lançadas por bardos)."
+  }
+}

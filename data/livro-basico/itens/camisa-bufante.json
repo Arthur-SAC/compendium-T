@@ -1,0 +1,19 @@
+{
+  "id": "camisa-bufante",
+  "tipo": "item",
+  "nome": "Camisa Bufante",
+  "resumo": "Blusa colorida, com mangas e golas longas e encrespadas.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 158
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Fornece +1 em Atuação."
+  }
+}

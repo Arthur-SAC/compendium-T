@@ -1,0 +1,16 @@
+{
+  "id": "po-do-desaparecimento",
+  "tipo": "item",
+  "nome": "Pó do Desaparecimento",
+  "resumo": "Pó que torna invisível uma criatura ou objeto por tempo variável.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 100",
+    "espacos": "0,5",
+    "especial": "Uma criatura ou objeto coberto por este pó torna-se invisível (como em Invisibilidade) por 2d6 rodadas. O usuário não sabe quando a invisibilidade vai terminar."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "riso-de-nimb",
+  "tipo": "item",
+  "nome": "Riso de Nimb",
+  "resumo": "Gás púrpura que faz a vítima rir descontroladamente e agir de forma caótica.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Inoculação: Inalação. CD de Fortitude: 20. Ao falhar: vítima fica confusa. Ao passar: vítima fica lenta por 1 rodada."
+  }
+}

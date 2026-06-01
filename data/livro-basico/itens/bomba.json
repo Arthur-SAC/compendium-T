@@ -1,0 +1,16 @@
+{
+  "id": "bomba",
+  "tipo": "item",
+  "nome": "Bomba",
+  "resumo": "Uma granada rudimentar que explode em área causando dano de impacto.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 50",
+    "espacos": "0,5",
+    "especial": "Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+  }
+}

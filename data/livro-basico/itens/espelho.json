@@ -1,0 +1,15 @@
+{
+  "id": "espelho",
+  "tipo": "item",
+  "nome": "Espelho",
+  "resumo": "Pequeno espelho com diversas utilidades: observar cantos, fazer sinais de luz e verificar a aparência.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 10",
+    "espacos": "1"
+  }
+}

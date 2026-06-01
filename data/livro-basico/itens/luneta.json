@@ -1,0 +1,19 @@
+{
+  "id": "luneta",
+  "tipo": "item",
+  "nome": "Luneta",
+  "resumo": "Cilindro metálico com duas lentes para observar objetos distantes. Fornece +5 em Percepção para alcance longo ou além.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Fornece +5 em testes de Percepção para observar coisas em alcance longo ou além."
+  }
+}

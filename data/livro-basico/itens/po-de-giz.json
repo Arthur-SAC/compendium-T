@@ -1,0 +1,16 @@
+{
+  "id": "po-de-giz",
+  "tipo": "item",
+  "nome": "Pó de Giz",
+  "resumo": "Calcário esmagado em pó; usado como catalisador reduz o custo de magias de convocação.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, diminui o custo de magias de convocação em –1 PM."
+  }
+}

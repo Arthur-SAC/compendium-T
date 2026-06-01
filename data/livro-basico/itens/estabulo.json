@@ -1,0 +1,15 @@
+{
+  "id": "estabulo",
+  "tipo": "item",
+  "nome": "Estábulo",
+  "resumo": "Serviço de estabulagem que inclui alimentação para o animal, cobrado por dia.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 0,1",
+    "especial": "Preço por dia. Inclui alimentação para o animal."
+  }
+}

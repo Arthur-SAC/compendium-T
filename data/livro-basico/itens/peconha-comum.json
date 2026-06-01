@@ -1,0 +1,16 @@
+{
+  "id": "peconha-comum",
+  "tipo": "item",
+  "nome": "Peçonha Comum",
+  "resumo": "Veneno típico extraído de animais ou plantas tóxicas.",
+  "fonte": { "livro": "livro-basico", "pagina": 161 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 15",
+    "espacos": "0,5",
+    "especial": "Inoculação: Contato. CD de Fortitude: 20. Ao falhar: perde 1d12 PV."
+  }
+}

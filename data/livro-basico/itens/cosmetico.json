@@ -1,0 +1,16 @@
+{
+  "id": "cosmetico",
+  "tipo": "item",
+  "nome": "Cosmético",
+  "resumo": "Perfume ou maquiagem alquímica que melhora a presença do usuário.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena."
+  }
+}

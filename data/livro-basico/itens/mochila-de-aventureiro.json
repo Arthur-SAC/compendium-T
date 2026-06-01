@@ -1,0 +1,16 @@
+{
+  "id": "mochila-de-aventureiro",
+  "tipo": "item",
+  "nome": "Mochila de Aventureiro",
+  "resumo": "Mochila de couro resistente repleta de bolsos que aumenta em 2 espaços a capacidade de carga do usuário.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 50",
+    "espacos": "—",
+    "especial": "Feita de couro resistente, esta mochila é repleta de bolsos para prender equipamento. Vestir uma mochila de aventureiro aumenta sua capacidade de carga em 2 espaços (ela própria não gasta um espaço)."
+  }
+}

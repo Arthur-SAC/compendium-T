@@ -1,0 +1,16 @@
+{
+  "id": "cicuta",
+  "tipo": "item",
+  "nome": "Cicuta",
+  "resumo": "Planta cuja ingestão pode causar náusea, dores e até morte.",
+  "fonte": { "livro": "livro-basico", "pagina": 161 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Inoculação: Ingestão. CD de Fortitude: 20. Ao falhar: perde 1d12 PV por rodada durante 3 rodadas. Ao passar: perde 1d12 PV."
+  }
+}

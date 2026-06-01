@@ -1,0 +1,16 @@
+{
+  "id": "musgo-purpura",
+  "tipo": "item",
+  "nome": "Musgo Púrpura",
+  "resumo": "Fungo cintilante encontrado em florestas fechadas; aumenta a CD de magias de ilusão.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, fornece +2 na CD de magias de ilusão."
+  }
+}

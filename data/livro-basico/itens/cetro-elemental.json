@@ -1,0 +1,16 @@
+{
+  "id": "cetro-elemental",
+  "tipo": "item",
+  "nome": "Cetro Elemental",
+  "resumo": "Este cetro possui uma pedra preciosa em sua ponta, em uma de quatro variantes elementais.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 750",
+    "espacos": "1",
+    "especial": "Possui quatro variantes — esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo."
+  }
+}

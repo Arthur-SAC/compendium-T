@@ -1,0 +1,16 @@
+{
+  "id": "barraca",
+  "tipo": "item",
+  "nome": "Barraca",
+  "resumo": "Barraca de lona que serve como saco de dormir para duas pessoas e auxilia em acampamentos.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Esta barraca de lona conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar."
+  }
+}

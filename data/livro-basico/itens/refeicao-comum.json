@@ -1,0 +1,16 @@
+{
+  "id": "refeicao-comum",
+  "tipo": "item",
+  "nome": "Refeição Comum",
+  "resumo": "Refeição típica que inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida (cidra, vinho ou cerveja).",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 0,3",
+    "espacos": "0,5",
+    "especial": "Refeição corriqueira, sem bônus mecânico. Não é um prato especial."
+  }
+}

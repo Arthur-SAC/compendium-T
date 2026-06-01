@@ -1,0 +1,19 @@
+{
+  "id": "sapatos-de-camurca",
+  "tipo": "item",
+  "nome": "Sapatos de Camurça",
+  "resumo": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 8",
+    "espacos": "1",
+    "especial": "Fornecem +1 em Acrobacia."
+  }
+}

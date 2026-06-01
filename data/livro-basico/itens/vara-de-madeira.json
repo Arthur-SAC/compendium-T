@@ -1,0 +1,18 @@
+{
+  "id": "vara-de-madeira",
+  "tipo": "item",
+  "nome": "Vara de Madeira (3m)",
+  "resumo": "Haste com 3 metros de comprimento, útil para alcançar pontos distantes, mas frágil demais para servir como arma.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 156
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 0,2",
+    "espacos": "1"
+  }
+}

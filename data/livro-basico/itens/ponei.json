@@ -1,0 +1,15 @@
+{
+  "id": "ponei",
+  "tipo": "item",
+  "nome": "Pônei",
+  "resumo": "A montaria mais comum entre raças Pequenas, usada como parceiro montaria.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 5",
+    "especial": "Parceiro iniciante. A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262). Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "andrajos-de-aldeao",
+  "tipo": "item",
+  "nome": "Andrajos de Aldeão",
+  "resumo": "Roupas típicas de camponês: camisa larga e calças soltas ou blusa e saia, sem botas.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 158
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "especial": "Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
+  }
+}

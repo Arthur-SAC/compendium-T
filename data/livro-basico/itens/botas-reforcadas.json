@@ -1,0 +1,19 @@
+{
+  "id": "botas-reforcadas",
+  "tipo": "item",
+  "nome": "Botas Reforçadas",
+  "resumo": "Grossas e resistentes botas de cano alto que protegem contra perigos do terreno.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 158
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Aumentam seu deslocamento em +1,5m se ele for reduzido por terreno difícil (após a redução)."
+  }
+}

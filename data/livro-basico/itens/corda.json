@@ -1,0 +1,16 @@
+{
+  "id": "corda",
+  "tipo": "item",
+  "nome": "Corda",
+  "resumo": "Rolo com 10 metros de corda de cânhamo, do mesmo tipo usado em navios, com diversas utilidades.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "especial": "Pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc. Dar um nó firme ou especial (por exemplo, capaz de deslizar, se desfazer com um puxão etc.) exige um teste de Destreza (CD 15). Arrebentar a corda exige 2 pontos de dano de corte ou uma ação padrão e um teste de Força (CD 20)."
+  }
+}

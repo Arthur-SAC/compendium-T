@@ -1,0 +1,19 @@
+{
+  "id": "farrapos-de-ermitao",
+  "tipo": "item",
+  "nome": "Farrapos de Ermitão",
+  "resumo": "Trapos adornados com plantas e raízes. Quem os veste não parece muito civilizado.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "especial": "Sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "peconha-concentrada",
+  "tipo": "item",
+  "nome": "Peçonha Concentrada",
+  "resumo": "Dose concentrada da peçonha comum, com dano contínuo por 3 rodadas.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 90",
+    "espacos": "0,5",
+    "especial": "Inoculação: Contato. CD de Fortitude: 20. Ao falhar: perde 1d12 PV por rodada durante 3 rodadas. Ao passar: perde 1d12 PV."
+  }
+}

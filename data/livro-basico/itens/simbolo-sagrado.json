@@ -1,0 +1,19 @@
+{
+  "id": "simbolo-sagrado",
+  "tipo": "item",
+  "nome": "Símbolo Sagrado",
+  "resumo": "Medalhão de madeira ou metal com o símbolo de uma divindade, concede +1 em testes de resistência ao devoto.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 156
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Se você estiver vestindo (normalmente com uma corrente ao redor do pescoço) ou empunhando o símbolo sagrado de um deus do qual é devoto, recebe +1 em testes de resistência."
+  }
+}

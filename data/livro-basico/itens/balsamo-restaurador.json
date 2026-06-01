@@ -1,0 +1,16 @@
+{
+  "id": "balsamo-restaurador",
+  "tipo": "item",
+  "nome": "Bálsamo Restaurador",
+  "resumo": "Uma pasta verde e fedorenta, feita de ervas medicinais, que recupera pontos de vida.",
+  "fonte": { "livro": "livro-basico", "pagina": 159 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 10",
+    "espacos": "0,5",
+    "especial": "Usá-lo é uma ação completa e recupera 2d4 pontos de vida."
+  }
+}

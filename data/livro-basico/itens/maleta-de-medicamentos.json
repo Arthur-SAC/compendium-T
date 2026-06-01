@@ -1,0 +1,19 @@
+{
+  "id": "maleta-de-medicamentos",
+  "tipo": "item",
+  "nome": "Maleta de Medicamentos",
+  "resumo": "Caixa de madeira com ervas, unguentos, bandagens e materiais úteis para tratamento. Sem ela, –5 em Cura.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Um personagem sem este item sofre –5 em testes de Cura."
+  }
+}

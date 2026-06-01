@@ -1,0 +1,16 @@
+{
+  "id": "ossos-de-monstro",
+  "tipo": "item",
+  "nome": "Ossos de Monstro",
+  "resumo": "Pequenas falanges de criaturas monstruosas tratadas com óleos alquímicos; aumenta a CD de magias de necromancia.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, fornece +2 na CD de magias de necromancia."
+  }
+}

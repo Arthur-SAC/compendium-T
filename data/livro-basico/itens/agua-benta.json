@@ -1,0 +1,16 @@
+{
+  "id": "agua-benta",
+  "tipo": "item",
+  "nome": "Água Benta",
+  "resumo": "Água sagrada produzida com a magia Abençoar Alimentos, poderosa contra mortos-vivos, demônios e diabos.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 10",
+    "espacos": "0,5",
+    "especial": "Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo, demônio ou diabo em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
+  }
+}

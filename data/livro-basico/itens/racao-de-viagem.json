@@ -1,0 +1,16 @@
+{
+  "id": "racao-de-viagem",
+  "tipo": "item",
+  "nome": "Ração de Viagem",
+  "resumo": "Porção de alimentos conservados (carne defumada, frutas secas, pão, queijo e biscoitos) que alimenta uma pessoa por um dia.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 0,5",
+    "espacos": "0,5",
+    "especial": "Alimenta uma pessoa por um dia. Se mantida seca dura bastante, mas quando molhada se estraga em 24 horas. Não é um prato especial (não concede bônus de alimentação)."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "traje-de-viajante",
+  "tipo": "item",
+  "nome": "Traje de Viajante",
+  "resumo": "Inclui botas, calças ou saias, cinto, camisa de linho e capa com capuz. A roupa padrão de aventureiros.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 10",
+    "espacos": "—"
+  }
+}

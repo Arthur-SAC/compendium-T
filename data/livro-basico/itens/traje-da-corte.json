@@ -1,0 +1,19 @@
+{
+  "id": "traje-da-corte",
+  "tipo": "item",
+  "nome": "Traje da Corte",
+  "resumo": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como anéis e colares.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma."
+  }
+}

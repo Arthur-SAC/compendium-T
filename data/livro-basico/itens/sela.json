@@ -1,0 +1,19 @@
+{
+  "id": "sela",
+  "tipo": "item",
+  "nome": "Sela",
+  "resumo": "Peça de couro e pelego colocada sobre a montaria para que o cavaleiro se sente com conforto e controle. Sem ela, –5 em Cavalgar.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Inclui arreios para conduzir o animal. Um personagem montado sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem."
+  }
+}

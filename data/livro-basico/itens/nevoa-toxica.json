@@ -1,0 +1,16 @@
+{
+  "id": "nevoa-toxica",
+  "tipo": "item",
+  "nome": "Névoa Tóxica",
+  "resumo": "Gás verde que queima e corrói a pele e os pulmões, causando dano contínuo por inalação.",
+  "fonte": { "livro": "livro-basico", "pagina": 161 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Inoculação: Inalação. CD de Fortitude: 20. Ao falhar: perde 1d12 PV por rodada durante 3 rodadas. Ao passar: perde 1d12 PV."
+  }
+}

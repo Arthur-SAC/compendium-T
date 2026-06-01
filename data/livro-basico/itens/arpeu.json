@@ -1,0 +1,16 @@
+{
+  "id": "arpeu",
+  "tipo": "item",
+  "nome": "Arpéu",
+  "resumo": "Gancho de aço amarrado na ponta de uma corda para fixar-se em muros, janelas e parapeitos.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo."
+  }
+}

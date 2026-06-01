@@ -1,0 +1,15 @@
+{
+  "id": "magia-servico",
+  "tipo": "item",
+  "nome": "Magia",
+  "resumo": "Preço para contratar um conjurador para lançar uma magia em situação comum (sem risco para o conjurador).",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "servico",
+    "preco": "T$ 10 / T$ 90 / T$ 360",
+    "especial": "Preço para lançar uma magia em uma situação comum (o cliente vai até o conjurador e lançar a magia não oferece risco para ele). Tiers: 1º círculo (T$ 10). 2º círculo (T$ 90). 3º círculo (T$ 360). Se pedir ao conjurador para acompanhá-lo em uma aventura, a resposta padrão será 'não, obrigado'."
+  }
+}

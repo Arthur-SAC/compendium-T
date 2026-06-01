@@ -1,0 +1,19 @@
+{
+  "id": "veste-de-seda",
+  "tipo": "item",
+  "nome": "Veste de Seda",
+  "resumo": "Roupa leve e elegante que deixa os movimentos os mais livres possíveis.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Fornece +1 em Reflexos."
+  }
+}

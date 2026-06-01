@@ -1,0 +1,16 @@
+{
+  "id": "equipamento-de-viagem",
+  "tipo": "item",
+  "nome": "Equipamento de Viagem",
+  "resumo": "Saco de lona com instrumentos úteis para sobreviver nos ermos, como pederneira e ferramentas para acampar.",
+  "fonte": { "livro": "livro-basico", "pagina": 157 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Um personagem sem este item sofre –5 em testes de Sobrevivência para acampar. Não inclui saco de dormir ou barraca."
+  }
+}

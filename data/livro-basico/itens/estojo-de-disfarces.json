@@ -1,0 +1,19 @@
+{
+  "id": "estojo-de-disfarces",
+  "tipo": "item",
+  "nome": "Estojo de Disfarces",
+  "resumo": "Conjunto de cosméticos, tintas para cabelo e próteses simples para criar disfarces. Sem ele, –5 em Enganação para disfarce.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Um personagem sem este item sofre –5 em testes de Enganação para disfarce."
+  }
+}

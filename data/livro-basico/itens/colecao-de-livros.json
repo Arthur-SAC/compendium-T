@@ -1,0 +1,16 @@
+{
+  "id": "colecao-de-livros",
+  "tipo": "item",
+  "nome": "Coleção de Livros",
+  "resumo": "Pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em uma perícia de conhecimento à escolha.",
+  "fonte": { "livro": "livro-basico", "pagina": 157 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 75",
+    "espacos": "1",
+    "especial": "Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado)."
+  }
+}

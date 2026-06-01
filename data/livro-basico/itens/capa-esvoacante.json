@@ -1,0 +1,16 @@
+{
+  "id": "capa-esvoacante",
+  "tipo": "item",
+  "nome": "Capa Esvoaçante",
+  "resumo": "Favorita entre heróis ousados, esta capa de seda produz movimentos amplos e chamativos.",
+  "fonte": { "livro": "livro-basico", "pagina": 158 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Fornece +1 em Enganação."
+  }
+}

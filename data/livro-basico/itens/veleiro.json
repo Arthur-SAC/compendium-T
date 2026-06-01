@@ -1,0 +1,15 @@
+{
+  "id": "veleiro",
+  "tipo": "item",
+  "nome": "Veleiro",
+  "resumo": "Navio de três mastros, o típico navio de viagem e muito popular entre mercadores.",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "veiculo",
+    "preco": "T$ 10.000",
+    "especial": "Com três mastros, é o típico navio de viagem, muito popular entre mercadores."
+  }
+}

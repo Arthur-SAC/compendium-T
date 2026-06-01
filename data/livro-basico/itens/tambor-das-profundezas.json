@@ -1,0 +1,19 @@
+{
+  "id": "tambor-das-profundezas",
+  "tipo": "item",
+  "nome": "Tambor das Profundezas",
+  "resumo": "Instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Dobra o alcance da habilidade Inspiração e de Músicas de Bardo enquanto empunhado.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 80",
+    "espacos": "1",
+    "especial": "Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+  }
+}

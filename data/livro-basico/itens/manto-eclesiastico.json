@@ -1,0 +1,19 @@
+{
+  "id": "manto-eclesiastico",
+  "tipo": "item",
+  "nome": "Manto Eclesiástico",
+  "resumo": "Um manto típico de igrejas e templos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Fornece +1 em Religião."
+  }
+}

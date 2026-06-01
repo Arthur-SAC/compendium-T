@@ -1,0 +1,16 @@
+{
+  "id": "saco-de-sal",
+  "tipo": "item",
+  "nome": "Saco de Sal",
+  "resumo": "Pequeno saco de couro com sal marinho; aumenta a CD de magias de abjuração.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, fornece +2 na CD de magias de abjuração."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "liquen-lilas",
+  "tipo": "item",
+  "nome": "Líquen Lilás",
+  "resumo": "Estranha planta de aspecto cristalino que cresce na região das Uivantes; adiciona dano de frio a magias.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Usado como catalisador, adiciona +1d6 de dano de frio a magias."
+  }
+}

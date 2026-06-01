@@ -1,0 +1,15 @@
+{
+  "id": "carroca",
+  "tipo": "item",
+  "nome": "Carroça",
+  "resumo": "Veículo de duas ou quatro rodas, aberto, usado para transportar cargas pesadas, puxado por dois cavalos ou um trobo.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "veiculo",
+    "preco": "T$ 150",
+    "especial": "Tamanho Grande. Deslocamento: 9m. Defesa: 8 (+ Des do condutor). PV: 50. Capacidade: até 4 criaturas Médias ou 80 espaços. Puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais."
+  }
+}

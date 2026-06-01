@@ -1,0 +1,16 @@
+{
+  "id": "peconha-potente",
+  "tipo": "item",
+  "nome": "Peçonha Potente",
+  "resumo": "Veneno poderoso extraído de animais ou plantas perigosos, com dano pesado contínuo.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 600",
+    "espacos": "0,5",
+    "especial": "Inoculação: Contato. CD de Fortitude: 20. Ao falhar: perde 2d12 PV por rodada durante 3 rodadas. Ao passar: perde 2d12 PV."
+  }
+}

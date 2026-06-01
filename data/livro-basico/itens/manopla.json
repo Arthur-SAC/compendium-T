@@ -1,0 +1,19 @@
+{
+  "id": "manopla",
+  "tipo": "item",
+  "nome": "Manopla",
+  "resumo": "Luva metálica que permite socos mais perigosos, tornando o dano desarmado letal.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 159
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "O dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados."
+  }
+}

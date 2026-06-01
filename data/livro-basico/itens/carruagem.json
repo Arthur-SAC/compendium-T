@@ -1,0 +1,15 @@
+{
+  "id": "carruagem",
+  "tipo": "item",
+  "nome": "Carruagem",
+  "resumo": "Veículo de quatro rodas com cabine fechada para quatro passageiros e dois condutores externos, puxada por dois cavalos ou um trobo.",
+  "fonte": { "livro": "livro-basico", "pagina": 162 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "veiculo",
+    "preco": "T$ 500",
+    "especial": "Tamanho Grande. Deslocamento: 9m. Defesa: 8 (+ Des do condutor). PV: 50. Capacidade: até 4 criaturas Médias ou 80 espaços (mesmas estatísticas de uma carroça). Transporta até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. Fornece cobertura leve a seus passageiros. Puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais."
+  }
+}

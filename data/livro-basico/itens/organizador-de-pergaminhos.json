@@ -1,0 +1,16 @@
+{
+  "id": "organizador-de-pergaminhos",
+  "tipo": "item",
+  "nome": "Organizador de Pergaminhos",
+  "resumo": "Estojo de madeira ou couro rígido que permite sacar pergaminhos como ação livre quando vestido.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "beladona",
+  "tipo": "item",
+  "nome": "Beladona",
+  "resumo": "Planta extremamente tóxica que afeta o sistema nervoso da vítima, causando paralisia.",
+  "fonte": { "livro": "livro-basico", "pagina": 161 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 1.500",
+    "espacos": "0,5",
+    "especial": "Inoculação: Ingestão. CD de Fortitude: 25 (aumenta em +5). Ao falhar: vítima fica paralisada por 3 rodadas. Ao passar: vítima fica lenta por 3 rodadas."
+  }
+}

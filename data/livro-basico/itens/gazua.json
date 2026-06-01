@@ -1,0 +1,19 @@
+{
+  "id": "gazua",
+  "tipo": "item",
+  "nome": "Gazua",
+  "resumo": "Barra fina de ferro com ponta torta ou em gancho para abrir fechaduras. Sem ela, –5 em Ladinagem para abrir fechaduras.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 157
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "ferramenta",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+  }
+}

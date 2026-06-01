@@ -1,0 +1,16 @@
+{
+  "id": "bandoleira-de-pocoes",
+  "tipo": "item",
+  "nome": "Bandoleira de Poções",
+  "resumo": "Cinto de couro com bolsos para frascos pequenos que permite sacar poções e itens alquímicos como ação livre.",
+  "fonte": { "livro": "livro-basico", "pagina": 154 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Se você estiver vestindo uma bandoleira, pode sacar itens alquímicos e poções como uma ação livre."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "curandeiro",
+  "tipo": "item",
+  "nome": "Curandeiro",
+  "resumo": "Serviço de cuidados prolongados ou tratamento contra doença ou veneno, prestado na clínica do curandeiro.",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "servico",
+    "preco": "T$ 5",
+    "especial": "O preço para receber cuidados prolongados ou tratamento contra uma doença ou veneno (veja a página 117). Considera que o paciente vai até a casa do curandeiro ou onde quer que ele receba seus pacientes. Curandeiros não aceitam acompanhar aventureiros em suas jornadas."
+  }
+}
