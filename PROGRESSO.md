@@ -91,6 +91,7 @@ home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups 
 - [ ] **Revisão visual unificada** das fichas/índices (densidade, espaçamentos, navegação entre categorias, breadcrumb, busca com filtros por tipo).
 - [ ] **Auto-link com stop-words/termos explícitos** (risco que cresce com mais categorias — nomes curtos/ambíguos gerando links indesejados).
 - [ ] **Trilhas de aprendizado** (Jogador/Mestre) e navegação global — quando o conteúdo permitir.
+- [ ] **Artes das armas (Cap. 3, impressas 146–149):** o livro tem **pranchas ilustradas agrupadas** (várias armas por imagem, rotuladas por tipo: "Espadas longas", "Cimitarras", "Adagas", "Alfanges", "Espadas bastardas", "Katana"…), **não** arte limpa por arma (sem smask, sobrepostas). Opções: usar as pranchas como ilustração decorativa de seção em `/equipamento`, ou recortar manualmente. Decidir no passe de design. (Equipamento já tem subgrupos no índice: armas por proficiência; armaduras leve/pesada/escudos.)
 
 ### Dívidas/notas abertas (tratar nas próximas fatias)
 - **Suraggel**: schema não tem "variante" de raça → modificadores das heranças (aggelus/sulfure) ficaram
