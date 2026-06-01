@@ -3,46 +3,40 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-05-29
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes em andamento** (10/14).
+**Última atualização:** 2026-06-01
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)**. Próxima: escolher a próxima categoria.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **Executar a Tarefa 6 do plano `docs/superpowers/plans/2026-05-29-demais-classes-plano.md`:
-extrair as 4 classes CONJURADORAS** (visão em 2 passadas + validação independente), depois Tarefa 7
-(tooltips) e Tarefa 8 (integração). Executar por **Subagent-Driven** (mesmo padrão dos blocos marciais).
+➡️ **Categoria Classes CONCLUÍDA.** Definir e escrever o plano da **próxima categoria do Livro Básico**.
+Opções (ver Roadmap da Fase 1): **Magias** (destrava o conteúdo de conjuração que as classes referenciam),
+**Origens** (próximo capítulo sequencial — impressa 85+ = PDF 91+), **Perícias** ou **Poderes Gerais**.
+Recomendação: confirmar com o usuário qual categoria priorizar, então `superpowers:brainstorming` →
+`superpowers:writing-plans` para o plano da fatia, e executar por **Subagent-Driven** (mesmo padrão das Classes).
 
-**Conjuradoras a extrair** (mapa `docs/superpowers/plans/classes-paginas.md`; offset PDF = impressa + 6):
-- **Arcanista** — PDF 42–45 (impressas 36–39). Conjuração **Arcana**, atributo **Inteligência ou Carisma**.
-  **Caminhos nomeados: Bruxo / Mago / Feiticeiro** (Feiticeiro tem sub-Linhagens: Dracônica, Feérica, Rubra) — preencher `mecanica.caminhos`.
-- **Bardo** — PDF 49–51 (impressas 43–45). Conjuração **Arcana**, atributo **Carisma**. Sem caminhos nomeados
-  (escolha de 3 escolas + habilidades próprias) → `caminhos` pode ficar `[]`; capturar as escolhas em `habilidades`.
-- **Clérigo** — PDF 62–64 (impressas 56–58). Conjuração **Divina**, atributo **Sabedoria**. Devoção a deus +
-  Poderes Concedidos (modelar a devoção/concedidos como `caminhos` ou em `habilidades`, fiel ao livro). PDF 65 é arte de página inteira (panteão) — pular.
-- **Druida** — PDF 66–69 (impressas 60–63). Conjuração **Divina**, atributo **Sabedoria**. Sem caminhos nomeados.
-
-Preencher `mecanica.conjuracao { tipo, atributoChave, descricao }` e `mecanica.caminhos[]` (quando houver).
-As **magias em si** NÃO entram (categoria *Magias*, futura) — só a habilidade "Magias" da classe em `habilidades`.
-
-**Dicas operacionais (aprendidas nos blocos marciais):**
-- poppler em `$env:POPPLER_BIN` (default no código); render `pdftoppm -r 150`; texto `pdftotext -layout -enc UTF-8`.
+**Dicas operacionais (reutilizáveis em qualquer extração):**
+- poppler: a env `POPPLER_BIN` **não fica setada** na sessão — usar o caminho literal
+  `C:/Users/ASCalderon/Desktop/Projeto-Tormenta/poppler-bin/poppler-24.08.0/Library/bin`. Render `pdftoppm -r 150`; texto `pdftotext -layout -enc UTF-8`.
+- Offset do Livro Básico: **PDF = impressa + 6**.
 - Ilustração: compor cor+smask com `comporComMascara` de `extracao/src/imagens.ts` via um script **`.mts`**
-  temporário em `extracao/cache/...` (o `npx tsx -e` com top-level await falha em CJS). Saída em `site/public/classes/<slug>.png`.
+  em `extracao/cache/...` rodado de `extracao/` (`npx tsx cache/<dir>/compor.mts`); o `pdfimages -png` extrai cor+smask (índices consecutivos). Saída em `site/public/<categoria>/<slug>.png`.
 - O `pdftotext` às vezes **embaralha as linhas 7/12/13 (e 14/15) da tabela** — confirmar a ordem pela IMAGEM.
 - PV/PM com "+atributo": guardar o inteiro base + registrar o "+atributo" na seção "Pontos de Vida e Mana"/resumo.
 - **Editou JSON em `data/`? reiniciar o dev server** (carregador memoizado) para ver no navegador.
+- Validação de extração funciona bem por **2 passadas** (extrator + revisor independente, ambos com visão).
 
-**Fatia Classes — progresso** (spec `2026-05-29-demais-classes-design.md`, plano `2026-05-29-demais-classes-plano.md`):
+**Fatia Classes — CONCLUÍDA ✅** (spec `2026-05-29-demais-classes-design.md`, plano `2026-05-29-demais-classes-plano.md`):
 - **C1–C3 (código) ✅**: schema com `conjuracao`+`caminhos` (opcionais); `FichaClasse` renderiza Conjuração/Caminhos;
-  índice `/classes` + atalhos na home. 46 testes verdes, build gera `/classes`.
-- **C4 (descoberta) ✅**: `docs/superpowers/plans/classes-paginas.md` (14 classes, offset +6). Conjuradoras = Arcanista, Bardo, Clérigo, Druida; **Caçador e Paladino NÃO conjuram**.
-- **C5 (marciais) ✅ — 10/14 classes extraídas e validadas (visão 2 passadas, aprovadas):**
-  Guerreiro (spike) + **Bárbaro, Bucaneiro, Caçador** (`bfb57f6`) + **Cavaleiro, Inventor, Ladino** (`017c3a5`) + **Lutador, Nobre, Paladino** (`ad67c8d`).
-  Cada uma: progressão 1–20, habilidades, poderes, quadros (Totêmicos/Bravatas/Armadilhas/Posturas/Ordens/Engenhocas/Julgamentos/Virtudes…), ilustração. Suíte verde.
-- **FALTAM (próxima ação): C6** as 4 conjuradoras, **C7** tooltips, **C8** integração final (build + `/classes` com todas + PROGRESSO).
+  índice `/classes` + atalhos na home.
+- **C4 (descoberta) ✅**: `docs/superpowers/plans/classes-paginas.md` (14 classes, offset +6).
+- **C5 (marciais) ✅ — 10 classes:** Guerreiro (spike) + Bárbaro/Bucaneiro/Caçador (`bfb57f6`) + Cavaleiro/Inventor/Ladino (`017c3a5`) + Lutador/Nobre/Paladino (`ad67c8d`).
+- **C6 (conjuradoras) ✅ — 4 classes (`058c69a`):** **Arcanista** (Arcana; caminhos Bruxo/Mago/Feiticeiro + Linhagens),
+  **Bardo** (Arcana; Músicas de Bardo), **Clérigo** (Divina; Devoção/Poderes Concedidos + Missas), **Druida** (Divina; Companheiro Animal + Forma Selvagem). Visão 2 passadas, validadas.
+- **C7 (tooltips) ✅ (`fd9c789`):** extraído o **apêndice de Condições (35, impressas 394–395)** com descritores; "Medo" reclassificado como tipo de efeito (glossário, p.228); tipos de dano (essência/luz/trevas, p.230) e duração sustentada (p.226).
+- **C8 (integração) ✅:** suíte **46 verde**; `npm run build` prerenderiza **as 14 fichas de classe** + `/classes`; HTML confere Conjuração/Caminhos das conjuradoras.
 
 > Spike do Guerreiro (plano `2026-05-29-guerreiro-classe-spike-plano.md`) validou schema, `FichaClasse` e pipeline.
 
@@ -55,8 +49,8 @@ home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups 
 ### Dívidas/notas abertas (tratar nas próximas fatias)
 - **Suraggel**: schema não tem "variante" de raça → modificadores das heranças (aggelus/sulfure) ficaram
   na `mecanica.nota` com `modificadores:[]`. Futuro: estruturar heranças/variantes no schema + exibição.
-- **Condições seed** `medo`/`atordoado` usam pág. 318 (provisória); o apêndice real de condições é
-  **impressas 394–395**. Re-confirmar e alinhar as páginas desses dois.
+- ~~**Condições seed** `medo`/`atordoado` usam pág. 318 (provisória)~~ **RESOLVIDO (`fd9c789`):** apêndice
+  de Condições (35) extraído das impressas 394–395; `medo` virou tipo de efeito no glossário (p.228); `atordoado` realinhado.
 - **Auto-link (risco médio)**: com mais categorias, nomes curtos/ambíguos gerarão links indesejados →
   prever stop-words / termos linkáveis explícitos.
 - **`data/sources.json`** ainda não é a fonte da verdade (carregador usa `dirs=["livro-basico"]`).
