@@ -1,0 +1,28 @@
+{
+  "id": "acolito",
+  "tipo": "origem",
+  "nome": "Acólito",
+  "resumo": "Criado em uma ordem religiosa, você carrega lembranças de orações, evangelhos e ensinamentos sagrados.",
+  "fonte": { "livro": "livro-basico", "pagina": 85 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Neste mundo agraciado com tantos deuses e igrejas, muitos ingressam cedo em alguma ordem religiosa — o que, dependendo de quem é seu deus padroeiro, pode ser motivo de admiração ou repulsa. Talvez você tenha ouvido o chamado da fé, seguiu a tradição espiritual de sua família, ou apenas foi abandonado quando pequeno às portas de um templo ou mosteiro. Tenha ou não se tornado um devoto, suas lembranças são carregadas de orações, evangelhos e outros ensinamentos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Símbolo sagrado", "Traje de sacerdote"],
+    "beneficios": {
+      "pericias": ["Cura", "Religião", "Vontade"],
+      "poderes": ["Medicina", "Membro da Igreja", "Vontade de Ferro"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Membro da Igreja",
+        "descricao": "Você consegue hospedagem confortável e informação em qualquer templo de sua divindade, para você e seus aliados."
+      }
+    ]
+  }
+}

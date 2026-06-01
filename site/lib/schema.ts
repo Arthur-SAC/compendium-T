@@ -122,6 +122,24 @@ export const ClasseMecanicaSchema = z.object({
 });
 export type ClasseMecanica = z.infer<typeof ClasseMecanicaSchema>;
 
+export const PoderOrigemSchema = z.object({ nome: z.string(), descricao: z.string() });
+export type PoderOrigem = z.infer<typeof PoderOrigemSchema>;
+
+export const BeneficiosOrigemSchema = z.object({
+  pericias: z.array(z.string()).default([]),
+  poderes: z.array(z.string()).default([]),
+  texto: z.string().optional(),
+});
+export type BeneficiosOrigem = z.infer<typeof BeneficiosOrigemSchema>;
+
+export const OrigemMecanicaSchema = z.object({
+  itens: z.array(z.string()).default([]),
+  itensTexto: z.string().optional(),
+  beneficios: BeneficiosOrigemSchema,
+  poderesUnicos: z.array(PoderOrigemSchema).default([]),
+});
+export type OrigemMecanica = z.infer<typeof OrigemMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -151,6 +169,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de classe inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "origem") {
+      const r = OrigemMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de origem inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }

@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema, CaminhoClasseSchema } from "@/lib/schema";
+import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema, CaminhoClasseSchema, OrigemMecanicaSchema } from "@/lib/schema";
 
 const baseValida = {
   id: "sucubo",
@@ -123,4 +123,40 @@ test("ClasseMecanicaSchema: marcial continua válida sem conjuracao/caminhos", (
 
 test("CaminhoClasseSchema exige nome e descricao", () => {
   expect(() => CaminhoClasseSchema.parse({ nome: "Bruxo" })).toThrow();
+});
+
+// --- Origem ---
+
+const origemMecValida = {
+  itens: ["Símbolo sagrado", "Traje de sacerdote"],
+  beneficios: {
+    pericias: ["Cura", "Religião", "Vontade"],
+    poderes: ["Medicina", "Membro da Igreja", "Vontade de Ferro"],
+  },
+  poderesUnicos: [{ nome: "Membro da Igreja", descricao: "Você consegue hospedagem confortável e informação em qualquer templo de sua divindade, para você e seus aliados." }],
+};
+
+test("OrigemMecanicaSchema aceita mecânica de origem válida", () => {
+  expect(() => OrigemMecanicaSchema.parse(origemMecValida)).not.toThrow();
+});
+
+const origemEntValida = {
+  id: "acolito",
+  tipo: "origem",
+  nome: "Acólito",
+  resumo: "Cresceu em uma ordem religiosa.",
+  fonte: { livro: "livro-basico", pagina: 85 },
+  imagens: [],
+  secoes: [],
+  relacoes: [],
+  mecanica: origemMecValida,
+};
+
+test("entidade tipo origem aceita mecânica de origem válida", () => {
+  expect(() => EntidadeSchema.parse(origemEntValida)).not.toThrow();
+});
+
+test("entidade tipo origem rejeita mecânica sem beneficios", () => {
+  const ruim = { ...origemEntValida, mecanica: { itens: ["Símbolo sagrado"], poderesUnicos: [] } };
+  expect(() => EntidadeSchema.parse(ruim)).toThrow();
 });

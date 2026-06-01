@@ -20,6 +20,9 @@ export default function Home() {
         <Link href="/classes" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver todas as classes →
         </Link>
+        <Link href="/origens" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Ver todas as origens →
+        </Link>
       </div>
     </main>
   );

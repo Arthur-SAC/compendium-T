@@ -4,6 +4,7 @@ import { construirRegistro } from "@/lib/autolink";
 import { Ficha } from "@/components/Ficha";
 import { FichaRaca } from "@/components/FichaRaca";
 import { FichaClasse } from "@/components/FichaClasse";
+import { FichaOrigem } from "@/components/FichaOrigem";
 
 export const dynamicParams = false;
 
@@ -30,6 +31,8 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
         <FichaRaca entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "classe" ? (
         <FichaClasse entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : entidade.tipo === "origem" ? (
+        <FichaOrigem entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : (
         <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
       )}
