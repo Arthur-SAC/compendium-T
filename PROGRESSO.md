@@ -23,8 +23,10 @@
 (Tabela 2-1, impressas 114–123) com atributo-chave/flags/usos, visão 2 passadas. **Chips de benefício em
 `FichaOrigem` viram links** quando o nome casa uma entidade (perícias citadas em Origens já estão clicáveis).
 
-> **Polimento pendente (links):** estender o mesmo "chip vira link" para as perícias listadas em **`FichaClasse`**
-> (e, na Onda 2, para os poderes citados em Origens/Classes). Pequeno, alto valor.
+> **Polimento de UI/UX → ver "Backlog de UX/polimento" abaixo.** Decisão (2026-06-01): foco no CONTEÚDO agora;
+> um **passe de design dedicado no fim do Livro Básico** aplica o polimento visual de forma uniforme. Inline só
+> o que for (a) estrutural/mecanismo (schema, regras "como funciona", auto-link/chip-link, proveniência) ou
+> (b) pedido pelo usuário para revisar o conteúdo. O resto entra no backlog.
 
 > **Regras conectivas (decisão do usuário, 2026-06-01):** o objetivo "jogável sem o livro" exige as regras de
 > "como funciona X" no site, não só os catálogos. Já feito para **Origens** (`regra-de-criacao` + painel em `/origens`,
@@ -71,6 +73,19 @@ escura carmesim + cards de pergaminho legíveis, fonte **Tormenta20x** (`site/ap
 `next/font/local`) nos títulos com degradê dourado→carmesim, acentos carmesim/vermelho/ouro, tooltips
 terracota. Aplicado a globals.css, layout, Divisor, Tooltip, LinkEntidade, FichaRaca, Ficha, Busca,
 home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups de decisão removidos.
+
+## Backlog de UX/polimento (passe dedicado no fim do Livro Básico — Fase 1)
+
+> **Política (decisão do usuário, 2026-06-01):** conteúdo primeiro; polimento visual em lote, uma vez, com
+> decisões consistentes em todas as categorias. Não enfeitar página por página conforme chega. Inline só o
+> estrutural/mecanismo ou o que o usuário pedir para revisar.
+
+- [ ] **Chips → links em `FichaClasse`**: perícias (fixas/lista) e, quando existirem, poderes citados viram links (igual feito em `FichaOrigem`).
+- [ ] **Poderes citados viram links** em Origens e Classes (depois da Onda 2 — Poderes existirem como entidades).
+- [ ] **Selos SVG na ficha individual de Perícia** (`FichaPericia`): hoje "Somente Treinada"/"Penalidade de armadura" são texto; usar os mesmos ícones do índice `/pericias`.
+- [ ] **Revisão visual unificada** das fichas/índices (densidade, espaçamentos, navegação entre categorias, breadcrumb, busca com filtros por tipo).
+- [ ] **Auto-link com stop-words/termos explícitos** (risco que cresce com mais categorias — nomes curtos/ambíguos gerando links indesejados).
+- [ ] **Trilhas de aprendizado** (Jogador/Mestre) e navegação global — quando o conteúdo permitir.
 
 ### Dívidas/notas abertas (tratar nas próximas fatias)
 - **Suraggel**: schema não tem "variante" de raça → modificadores das heranças (aggelus/sulfure) ficaram
