@@ -1,0 +1,28 @@
+{
+  "id": "artista",
+  "tipo": "origem",
+  "nome": "Artista",
+  "resumo": "Com talento ou treinamento dedicado em alguma forma de arte — canto, atuação, dança —, você produz entretenimento e alimento para o coração e a alma.",
+  "fonte": { "livro": "livro-basico", "pagina": 86 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você possui talento, nasceu com um \"dom\" — pelo menos é o que outras pessoas gostam de pensar. Será verdade? Ou será que você apenas sentiu atração por certa forma de arte e treinou muito, muito mesmo? Enquanto o artesão fabrica itens \"mundanos\", o artista produz entretenimento, alimento para o coração e a alma. Talvez você apenas saiba entoar belas canções, aprendidas na infância com pais amorosos, ou ouvindo fadas na floresta. Ou talvez seja um ator ou dançarino formado em alguma escola de artes prestigiada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Estojo de disfarces ou um instrumento musical a sua escolha.",
+    "beneficios": {
+      "pericias": ["Atuação", "Enganação"],
+      "poderes": ["Atraente", "Dom Artístico", "Sortudo", "Torcida"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Dom Artístico",
+        "descricao": "Você recebe +2 em testes de Atuação, e recebe o dobro de tibares em apresentações."
+      }
+    ]
+  }
+}

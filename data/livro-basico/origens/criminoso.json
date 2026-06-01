@@ -1,0 +1,28 @@
+{
+  "id": "criminoso",
+  "tipo": "origem",
+  "nome": "Criminoso",
+  "resumo": "Por necessidade, ambição ou apenas sem conhecer outra vida, você foi um bandido durante boa parte da juventude.",
+  "fonte": { "livro": "livro-basico", "pagina": 89 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Fazer o bem é bonito, mas não enche barriga — pelo menos, assim você foi ensinado. Por necessidade, ambição ou apenas sem conhecer outra vida, você foi um bandido durante boa parte da juventude. Furtava bolsas, trapaceava em jogos de taverna, emboscava viajantes nas estradas ou até aceitava contratos para matar. Agia sozinho, com seu próprio bando, pertencia a uma guilda de ladrões. Tornar-se aventureiro talvez seja uma forma de expiar por seus crimes, ou apenas o passo seguinte; em vez de mercadores, roubar tesouros de dragões!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Estojo de disfarces ou gazua.",
+    "beneficios": {
+      "pericias": ["Enganação", "Furtividade", "Ladinagem"],
+      "poderes": ["Punguista", "Venefício"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Punguista",
+        "descricao": "Você pode fazer testes de Ladinagem para sustento (como a perícia Ofício), mas em apenas um dia. Se passar, recebe o dobro do dinheiro, mas, se falhar, pode ter problemas com a lei (a critério do mestre)."
+      }
+    ]
+  }
+}

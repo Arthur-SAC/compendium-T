@@ -1,0 +1,28 @@
+{
+  "id": "trabalhador",
+  "tipo": "origem",
+  "nome": "Trabalhador",
+  "resumo": "De origem humilde, você trabalhou duro desde muito jovem — transportando pedras, carregando sacas de grãos, empilhando cargas em portos — até descobrir que a carreira como aventureiro parecia muito mais perigosa, mas também muito mais interessante.",
+  "fonte": { "livro": "livro-basico", "pagina": 95 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nenhum glamour aqui, apenas trabalho braçal pesado. De origem humilde, são grandes as chances de você trabalhou duro desde muito jovem. Transportou pedras à construção de templos e castelos, carregou sacas de grãos em fazendas, empilhou cargas em portos, puxou arado feito um animal de tração. Talvez sua vida tenha sido um pouco melhor, como servo em um palácio. Ou muito pior, arrastando ou queimando corpos em campos de batalha. Não é surpresa que a carreira como aventureiro, mesmo perigosa, tenha parecido muito mais atraente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Uma ferramenta pesada (mesmas estatísticas de uma maça ou lança, a sua escolha).",
+    "beneficios": {
+      "pericias": ["Atletismo", "Fortitude"],
+      "poderes": ["Atlético", "Esforçado"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Esforçado",
+        "descricao": "Você está acostumado a trabalho duro, nem prazos apertados. Você recebe um bônus de +2 em todos os testes de perícias estendidos (incluindo perigos complexos)."
+      }
+    ]
+  }
+}

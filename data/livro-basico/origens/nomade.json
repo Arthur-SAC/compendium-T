@@ -1,0 +1,28 @@
+{
+  "id": "nomade",
+  "tipo": "origem",
+  "nome": "Nômade",
+  "resumo": "Até onde se lembra, você nunca pertenceu a um só lugar — sua família viajava constantemente em caravanas, peregrinações ou como povo primitivo sem agricultura, tornando-o habituado às estradas e sem laços com nenhuma terra.",
+  "fonte": { "livro": "livro-basico", "pagina": 93 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Até onde se lembra, você nunca pertenceu a um só lugar. Sua família viajava constantemente, como parte de alguma grande caravana comercial, peregrinação religiosa ou algum povo primitivo que nunca praticou agricultura. Ou talvez suas razões para viajar sejam bastante diferentes e pessoais — após a quase extinção de seu povo, muitos elfos temem criar raízes, enquanto a deusa Valkaria exige que seus devotos se mantenham sempre em viagem. Para você, habituado às estradas e sem laços com nenhuma terra, bastou um pequeno passo para se tornar aventureiro."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Bordão", "Equipamento de viagem"],
+    "beneficios": {
+      "pericias": ["Cavalgar", "Pilotagem", "Sobrevivência"],
+      "poderes": ["Lobo Solitário", "Mochileiro", "Sentidos Aguçados"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Mochileiro",
+        "descricao": "Seu limite de carga aumenta em 5 espaços."
+      }
+    ]
+  }
+}

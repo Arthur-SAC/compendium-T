@@ -1,0 +1,28 @@
+{
+  "id": "artesao",
+  "tipo": "origem",
+  "nome": "Artesão",
+  "resumo": "Treinado por parente, mestre ou guilda para fabricar itens, você domina um ofício cujas habilidades se revelaram surpreendentemente úteis nas aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 86 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Do alfaiate habilidoso em costurar as vestes da nobreza ao armeiro que forja armas letais, você foi treinado por um parente, mestre ou guilda para fabricar itens importantes no mundo civilizado. Suas habilidades podem ter sido aprendidas para o trabalho, mas se mostraram úteis durante as aventuras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Instrumentos de ofício (qualquer), um item que você possa fabricar de até T$ 50.",
+    "beneficios": {
+      "pericias": ["Ofício", "Vontade"],
+      "poderes": ["Frutos do Trabalho", "Sortudo"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Frutos do Trabalho",
+        "descricao": "No início de cada aventura, você recebe até 5 itens gerais que possa fabricar num valor total de até T$ 50. Esse valor aumenta para T$ 100 no patamar veterano, T$ 300 no heroico e T$ 500 no lenda."
+      }
+    ]
+  }
+}

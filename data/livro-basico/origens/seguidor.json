@@ -1,0 +1,28 @@
+{
+  "id": "seguidor",
+  "tipo": "origem",
+  "nome": "Seguidor",
+  "resumo": "Você não nasceu herói, mas viveu algum tempo na companhia de um — como escudeiro de um cavaleiro, garoto de recados para um ladino ou criado de um nobre —, adquirindo aprendizado valioso até decidir trilhar seu próprio caminho.",
+  "fonte": { "livro": "livro-basico", "pagina": 94 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você não nasceu herói, mas viveu algum tempo na companhia de um. Pode ter sido escudeiro de um cavaleiro de Khalmyr, garoto de recados para um ladino, criado de um nobre... enfim, um ajudante para um aventureiro de verdade. Durante esse tempo adquiriu aprendizado valioso, testemunhou eventos incríveis, mas você não seria um seguidor para sempre. Como ocorreu a separação? Você apenas disse adeus e trilhou seu próprio caminho? Seu mestre desapareceu de forma misteriosa ou foi assassinado diante de seus olhos? Você ficou com parte de seus itens, como presente ou lembrança?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Um item recebido de seu mestre de até T$ 100"],
+    "beneficios": {
+      "pericias": ["Adestramento", "Ofício"],
+      "poderes": ["Antigo Mestre", "Proficiência", "Surto Heroico"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Antigo Mestre",
+        "descricao": "Você ainda mantém contato com o herói que costumava servir. Uma vez por aventura, ele surge para ajudá-lo por uma cena. Ele é um parceiro mestre de um tipo a sua escolha (definido ao obter este poder) que não conta em seu limite de aliados."
+      }
+    ]
+  }
+}

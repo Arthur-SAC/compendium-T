@@ -1,0 +1,28 @@
+{
+  "id": "fazendeiro",
+  "tipo": "origem",
+  "nome": "Fazendeiro",
+  "resumo": "Você trabalhou duro em campos e fazendas, cultivando a terra e criando animais, até que a aventura ou o infortúnio mudaram sua vida.",
+  "fonte": { "livro": "livro-basico", "pagina": 90 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Boa parte da população de Arton jamais conheceu outro modo de viver. Em algum lugar na perigosa transição entre os ermos e as cidades, você trabalhou duro em campos e fazendas. Cultivando a terra ou criando animais, viveu longos anos em contato com a natureza, orando e trabalhando por boas colheitas ou gado saudável, só ocasionalmente visitando povoados para negociar sua produção. Por que essa vida tranquila acabou? Sua família foi assassinada por goblins? Sua fazenda foi devastada por um dragão? Ou você apenas foi atraído pelo chamado da aventura?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Carroça, uma ferramenta agrícola (mesmas estatísticas de uma lança), 10 rações de viagem, um animal não combativo (como uma galinha, porco ou ovelha).",
+    "beneficios": {
+      "pericias": ["Adestramento", "Cavalgar", "Ofício (fazendeiro)", "Sobrevivência"],
+      "poderes": ["Água no Feijão", "Ginete"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Água no Feijão",
+        "descricao": "Você não sofre a penalidade de –5 e não gasta matéria prima adicional para fabricar pratos para cinco pessoas."
+      }
+    ]
+  }
+}

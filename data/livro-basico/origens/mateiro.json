@@ -1,0 +1,28 @@
+{
+  "id": "mateiro",
+  "tipo": "origem",
+  "nome": "Mateiro",
+  "resumo": "Você aprendeu cedo a caçar animais selvagens para colocar comida na mesa, tornando o combate contra criaturas perigosas apenas o passo seguinte.",
+  "fonte": { "livro": "livro-basico", "pagina": 92 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nem todos em Arton vivem em cidades confortavelmente abastecidas por fazendeiros, mineiros ou pescadores — muitas comunidades ainda obtêm sustento através da caça. Você aprendeu cedo a abater animais selvagens para colocar comida na mesa, ou como esporte de gosto duvidoso. Se você caça com reverência a Allihanna ou apenas coleciona troféus com orgulho, a escolha é sua. De qualquer forma, para alguém habituado a flechar cervos e colocar armadilhas para coelhos, combater ogros, demônios e dragões seria apenas o passo seguinte."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Arco curto", "Barraca", "Equipamento de viagem", "20 flechas"],
+    "beneficios": {
+      "pericias": ["Atletismo", "Furtividade", "Sobrevivência"],
+      "poderes": ["Lobo Solitário", "Sentidos Aguçados", "Vendedor de Carcaças"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Vendedor de Carcaças",
+        "descricao": "Você pode extrair recursos de criaturas em um minuto, em vez de uma hora, e recebe +5 no teste."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "forasteiro",
+  "tipo": "origem",
+  "nome": "Forasteiro",
+  "resumo": "Você veio de longe, de uma cultura quase ou totalmente desconhecida no Reinado, tornando-o uma figura exótica de hábitos estranhos.",
+  "fonte": { "livro": "livro-basico", "pagina": 90 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você veio de longe. Sua cultura nativa é quase ou totalmente desconhecida no Reinado, tornando-o uma figura exótica, de hábitos estranhos. Você pertence a uma tribo perdida nas Montanhas Sanguinárias? Nasceu em uma bela cidade de cúpulas douradas no Deserto da Perdição? Navegou em navios audazes desde os Reinos de Moreania? Talvez você até tenha chegado de outro mundo, através de algum portal mágico. Será que conseguiu ajustar-se a este Reinado, agora chamando-o de lar? Ou procura até hoje o caminho de volta para casa?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Equipamento de viagem, instrumento musical exótico (+1 em uma perícia de Carisma aprovada pelo mestre), traje estrangeiro.",
+    "beneficios": {
+      "pericias": ["Cavalgar", "Pilotagem", "Sobrevivência"],
+      "poderes": ["Cultura Exótica", "Lobo Solitário"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Cultura Exótica",
+        "descricao": "Por sua diferente visão de mundo, você encontra soluções inesperadas. Você pode gastar 1 PM para fazer um teste de perícia somente treinada, mesmo sem ser treinado na perícia."
+      }
+    ]
+  }
+}

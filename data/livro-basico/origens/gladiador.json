@@ -1,0 +1,29 @@
+{
+  "id": "gladiador",
+  "tipo": "origem",
+  "nome": "Gladiador",
+  "resumo": "Você se envolveu no mundo glamoroso dos combates de arena e agora usa essa experiência em torneios para viver aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 90 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Combates de arena são um entretenimento popular em Arton — a ponto de atrair muitos jovens praticantes. Podem ser combates até a morte ou apenas encenações elaboradas ou ainda corridas de cavalo, arquearia e outros esportes menos sangrentos. Você se envolveu nesse mundo glamoroso por ser tradição em sua família, por admirar algum gladiador renomado ou apenas por sede de fama e fortuna. Um evento traumático, uma desilusão ou o puro tédio levou você a abandonar as arenas e aplausos, usando sua experiência em torneios para viver aventuras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Uma arma marcial ou exótica, um item sem valor recebido de um admirador.",
+    "beneficios": {
+      "pericias": ["Atuação", "Luta"],
+      "poderes": ["Atraente", "Pão e Circo", "Torcida"],
+      "texto": "Você também pode escolher um poder de combate a sua escolha como um de seus benefícios de origem."
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Pão e Circo",
+        "descricao": "Por seu treino em combates de exibição, você sabe \"bater sem machucar\". Pode escolher causar dano não letal sem sofrer a penalidade de –5."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "minerador",
+  "tipo": "origem",
+  "nome": "Minerador",
+  "resumo": "Você mergulhou nas profundezas da terra atrás de metais ou riquezas em gemas preciosas, enfrentando a escuridão e o sufocamento dos subterrâneos, acumulando bens materiais e conhecimento profundo sobre túneis e masmorras.",
+  "fonte": { "livro": "livro-basico", "pagina": 93 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ser aventureiro é a profissão mais perigosa de todas; ser mineiro, talvez a segunda mais perigosa. Você mergulhou nas profundezas da terra atrás de metais necessários à civilização ou riquezas em gemas preciosas. Enquanto humanos e outras raças consideram essa vida um pesadelo, quase todos os anões acreditam ser a mais feliz das carreiras. A escuridão e o sufocamento dos subterrâneos talvez tenham sido assustadores, mas trouxeram a você bens materiais valiosos, bem como informação profunda (sem trocadilhos) sobre túneis e masmorras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Gemas preciosas no valor de T$ 100", "Picareta"],
+    "beneficios": {
+      "pericias": ["Atletismo", "Fortitude", "Ofício (minerador)"],
+      "poderes": ["Ataque Poderoso", "Escavador", "Sentidos Aguçados"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Escavador",
+        "descricao": "Você se torna proficiente em picaretas, causa +1 de dano com elas e não é afetado por terreno difícil em masmorras e subterrâneos."
+      }
+    ]
+  }
+}

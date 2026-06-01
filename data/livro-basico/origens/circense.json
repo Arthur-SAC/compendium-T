@@ -1,0 +1,28 @@
+{
+  "id": "circense",
+  "tipo": "origem",
+  "nome": "Circense",
+  "resumo": "Você treinou acrobacia, malabarismo, mágica ou outra forma de arte circense, aptidões que podem ser úteis em suas aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 89 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você treinou acrobacia, malabarismo, mágica ou outra forma de arte circense. Talvez tenha aprendido sozinho, durante as brincadeiras de infância. Talvez tenha sido ensinado por um ente querido, tornando essa arte uma forte ligação com seu passado. Ou ainda, é possível que tenha sido forçado a aprender seus truques para sobreviver nas ruas. De qualquer forma, são aptidões que podem ser úteis em suas aventuras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Três bolas coloridas para malabarismo (+1 em Atuação)"],
+    "beneficios": {
+      "pericias": ["Acrobacia", "Atuação", "Reflexos"],
+      "poderes": ["Acrobático", "Torcida", "Truque de Mágica"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Truque de Mágica",
+        "descricao": "Você pode lançar Explosão de Chamas, Hipnotismo e Queda Suave, mas apenas com o aprimoramento Truque. Esta não é uma habilidade mágica — os efeitos provêm de prestidigitação."
+      }
+    ]
+  }
+}

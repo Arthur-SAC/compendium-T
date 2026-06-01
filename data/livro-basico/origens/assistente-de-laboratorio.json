@@ -1,0 +1,29 @@
+{
+  "id": "assistente-de-laboratorio",
+  "tipo": "origem",
+  "nome": "Assistente de Laboratório",
+  "resumo": "Você ajudou um alquimista, inventor ou mago em seu laboratório, sendo exposto a substâncias e experimentos perigosos que talvez tenham despertado suas habilidades.",
+  "fonte": { "livro": "livro-basico", "pagina": 87 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você atuou como ajudante para um alquimista, inventor ou mago. Costumava tomar notas, limpar o laboratório, arrumar as ferramentas, vasculhar mercados em busca de ingredientes exóticos, recapturar a aberração antinatural que fugiu da jaula... enfim, não era o trabalho mais fácil, limpo ou seguro do mundo. Exposição prolongada a substâncias e experimentos perigosos talvez tenham prejudicado sua saúde (ou despertado suas habilidades de classe...)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Instrumentos de Ofício (alquimista)"],
+    "beneficios": {
+      "pericias": ["Ofício (alquimista)", "Misticismo"],
+      "poderes": ["Esse Cheiro...", "Venefício"],
+      "texto": "Um poder da Tormenta a sua escolha (poder adicional)."
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Esse Cheiro...",
+        "descricao": "Você recebe +2 em Fortitude e detecta automaticamente a presença (mas não a localização ou natureza) de itens alquímicos em alcance curto."
+      }
+    ]
+  }
+}

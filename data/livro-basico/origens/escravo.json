@@ -1,0 +1,28 @@
+{
+  "id": "escravo",
+  "tipo": "origem",
+  "nome": "Escravo",
+  "resumo": "Você viveu sob o jugo da escravidão e agora carrega a marca dessa vida dura — e o desejo ardente de nunca mais perder a liberdade.",
+  "fonte": { "livro": "livro-basico", "pagina": 89 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "De minotauros odiosos no Império de Tauron aos cruéis mestres subterrâneos de Trollkyrka, várias culturas praticam a escravidão. Você já nasceu escravo, fez parte de um povo derrotado na guerra ou foi capturado em alguma rua escura para depois despertar na jaula, em algum mercado clandestino? Encontrou uma chance de escapar, tornando-se agora um escravo foragido? Recebeu a liberdade como recompensa por realizar um grande favor a seu algoz? Foi resgatado por aventureiros que agora se tornaram sua nova família?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Algemas, uma ferramenta pesada (mesmas estatísticas de uma maça).",
+    "beneficios": {
+      "pericias": ["Atletismo", "Fortitude", "Furtividade"],
+      "poderes": ["Desejo de Liberdade", "Vitalidade"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Desejo de Liberdade",
+        "descricao": "Ninguém voltará a torná-lo um escravo! Você recebe +5 em testes contra a manobra agarrar e efeitos de movimento."
+      }
+    ]
+  }
+}

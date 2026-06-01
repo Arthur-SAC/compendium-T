@@ -1,0 +1,28 @@
+{
+  "id": "heroi-campones",
+  "tipo": "origem",
+  "nome": "Herói Camponês",
+  "resumo": "Você era o campeão local de seu povoado, amado pelo povo e destinado a feitos maiores antes de partir para a vida de aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 91 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando o povoado foi atacado por goblins, você empunhou o forcado para expulsá-los. Quando o estábulo pegou fogo, você se arriscou para salvar todos os animais. Quando todos temiam a mansão assombrada na colina, você encontrou a carta de amor perdida que trouxe descanso à alma torturada. Você era o campeão local, amado pelo povo, mas também destinado a feitos maiores. Houve comoção quando você partiu para uma vida de aventuras, mas ninguém deixou de orar por seu sucesso. Talvez você até tenha sido presenteado com alguma arma ou item há tempos guardado no povoado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Instrumentos de ofício ou uma arma simples", "Traje de plebeu"],
+    "beneficios": {
+      "pericias": ["Adestramento", "Ofício"],
+      "poderes": ["Coração Heroico", "Sortudo", "Surto Heroico", "Torcida"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Coração Heroico",
+        "descricao": "Você recebe +3 pontos de mana. Quando atinge um novo patamar (no 5º, 11º e 17º níveis), recebe +3 PM."
+      }
+    ]
+  }
+}

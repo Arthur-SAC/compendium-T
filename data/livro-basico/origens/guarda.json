@@ -1,0 +1,29 @@
+{
+  "id": "guarda",
+  "tipo": "origem",
+  "nome": "Guarda",
+  "resumo": "Você atuou como agente da lei em uma vila ou cidade, recebendo treino em investigação e combate.",
+  "fonte": { "livro": "livro-basico", "pagina": 91 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você atuou como agente da lei em uma vila ou cidade. Nem de longe uma profissão tão glamorosa ou emocionante quanto parece; boa parte de seu trabalho resumia-se a guardar um portão, fazer rondas tediosas ou recolher bêbados em tavernas. Pelo menos você recebeu algum treino em investigação e combate. Também tem consigo alguma boa arma, que \"esqueceu\" de devolver quando abandonou a milícia para se tornar aventureiro."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Apito", "Insígnia da milícia", "Uma arma marcial"],
+    "beneficios": {
+      "pericias": ["Investigação", "Luta", "Percepção"],
+      "poderes": ["Detetive", "Investigador"],
+      "texto": "Um poder de combate a sua escolha."
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Detetive",
+        "descricao": "Você pode gastar 1 PM para substituir testes de Percepção e Intuição por testes de Investigação até o fim da cena."
+      }
+    ]
+  }
+}

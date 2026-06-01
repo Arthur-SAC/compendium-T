@@ -1,0 +1,28 @@
+{
+  "id": "taverneiro",
+  "tipo": "origem",
+  "nome": "Taverneiro",
+  "resumo": "Dono, filho do dono ou empregado em uma taverna frequentada por aventureiros, você aprendeu a cozinhar, negociar e sobreviver atrás do balcão.",
+  "fonte": { "livro": "livro-basico", "pagina": 94 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Não é incomum que heróis aposentados se tornem donos de tavernas ou estalagens, mas o contrário também pode ocorrer. Você foi dono, filho do dono ou empregado em algum lugar frequentado por aventureiros — esses tipos sempre cheios de ouro e bravatas, atiçando sua ambição. Claro, eles nem sempre mencionam os horrores, amputações e mortes! Ainda assim, parece bem melhor que a vida atrás do balcão, limpando canecas sujas. Você ouviu todas as grandes histórias, trocou socos em algumas brigas e até ganhou uma lembrança ou outra de algum herói bêbado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Rolo de macarrão ou martelo de carne (mesmas estatísticas de uma clava), uma panela, um avental, uma caneca e um pano sujo.",
+    "beneficios": {
+      "pericias": ["Diplomacia", "Jogatina", "Ofício (cozinheiro)"],
+      "poderes": ["Gororoba", "Proficiência", "Vitalidade"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Gororoba",
+        "descricao": "Você não sofre a penalidade de –5 para fabricar um prato especial adicional."
+      }
+    ]
+  }
+}

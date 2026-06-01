@@ -1,0 +1,29 @@
+{
+  "id": "amnesico",
+  "tipo": "origem",
+  "nome": "Amnésico",
+  "resumo": "Você perdeu a maior parte da memória e não sabe como recebeu seu treinamento, tendo seus companheiros atuais como única família conhecida.",
+  "fonte": { "livro": "livro-basico", "pagina": 86 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você perdeu a maior parte da memória. Sabe apenas o próprio nome ou nem isso. Talvez tenha alguns itens pessoais, mas nenhuma ideia de como os conseguiu — podem ser relíquias de família, presentes de um ente querido ou apenas coisas que pegou de viajantes mortos lá atrás. Você não sabe como recebeu seu treinamento; apenas tem uma intuição sobre aquilo que consegue fazer. Seus atuais companheiros são a única família que conhece. Talvez viajando com eles você descubra algo sobre seu passado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Um ou mais itens (somando até T$ 500), aprovados pelo mestre, que podem ser uma pista misteriosa do seu passado.",
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Em vez de dois benefícios de uma lista, você recebe uma perícia e um poder escolhidos pelo mestre e o poder Lembranças Graduais."
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Lembranças Graduais",
+        "descricao": "Durante suas aventuras, em determinados momentos a critério do mestre, você pode fazer um teste de Sabedoria (CD 10) para reconhecer pessoas, criaturas ou lugares que tenha encontrado antes de perder a memória."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "refugiado",
+  "tipo": "origem",
+  "nome": "Refugiado",
+  "resumo": "Neste mundo assolado por guerras e tragédias, você sobreviveu a alguma delas — a queda de Lenórienn, a destruição de Tamu-ra, as forças puristas ou a Flecha de Fogo —, tornando-se um sobrevivente tenaz acostumado a uma vida perigosa.",
+  "fonte": { "livro": "livro-basico", "pagina": 93 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Neste mundo assolado por tantas guerras e tragédias, você acabou sobrevivendo a alguma delas. Sendo elfo, estava presente durante a sofrida queda de Lenórienn. Escapou à destruição de Tamu-ra. Teve sorte em sair do caminho de Mestre Arsenal, conseguiu esconder-se das forças puristas ou testemunhou a chegada da Flecha de Fogo e viveu para contar a história. Trauma e privações talvez tenham tornado você amargo, sombrio, embrutecido... mas também um sobrevivente tenaz, acostumado a uma vida perigosa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Um item estrangeiro de até T$ 100"],
+    "beneficios": {
+      "pericias": ["Fortitude", "Reflexos", "Vontade"],
+      "poderes": ["Estoico", "Vontade de Ferro"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Estoico",
+        "descricao": "Sua condição de descanso é uma categoria acima do padrão pela situação (normal em condições ruins, confortável em condições normais e luxuosa em condições confortáveis ou melhores). Veja as regras de recuperação na página 106."
+      }
+    ]
+  }
+}

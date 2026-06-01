@@ -1,0 +1,28 @@
+{
+  "id": "pivete",
+  "tipo": "origem",
+  "nome": "Pivete",
+  "resumo": "Você era uma criança de rua — sem pais ou abandonado, aprendeu cedo a sobreviver em grandes cidades pedindo esmolas, roubando bolsas ou cumprindo pequenas tarefas para bandidos, tornando-se aventureiro como única chance de uma vida melhor.",
+  "fonte": { "livro": "livro-basico", "pagina": 93 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você era uma criança de rua. Não conheceu seus pais, foi abandonado por eles ou fugiu para evitar maus tratos. Sem muitas escolhas na vida, aprendeu cedo a sobreviver em grandes cidades, pedindo esmolas, roubando bolsas ou cumprindo pequenas tarefas para bandidos. Tornar-se aventureiro não parecia apenas um jeito de ficar rico e famoso, mas também a única chance de uma vida melhor. Talvez você não tenha as armaduras e mantos chiques de seus companheiros, mas sabe se virar nas ruas melhor que ninguém."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Gazua", "Traje de plebeu", "Um animal urbano (como um cão, gato, rato ou pombo)"],
+    "beneficios": {
+      "pericias": ["Furtividade", "Iniciativa", "Ladinagem"],
+      "poderes": ["Acrobático", "Aparência Inofensiva", "Quebra-Galho"]
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Quebra-Galho",
+        "descricao": "Em cidades ou metrópoles, você pode comprar qualquer item mundano não superior por metade do preço normal. Esses itens não podem ser matérias-primas e não podem ser revendidos (são velhos, sujos, furtados...)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "soldado",
+  "tipo": "origem",
+  "nome": "Soldado",
+  "resumo": "Alistado (ou convocado) em um grande exército, você recebeu treinamento em combate e equipamento decente antes de partir para a vida de aventuras.",
+  "fonte": { "livro": "livro-basico", "pagina": 94 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Deheon. Bielefeld. A Supremacia Purista. Em Arton existem vastas forças militares. Ainda jovem, você se alistou (ou foi convocado) como soldado em um grande exército. Independentemente de sua função exata dentro da máquina de guerra — infantaria, cavalaria, arqueiro, cozinheiro... —, você recebeu treinamento em combate e equipamento decente. Mas em alguma ocasião você abandonou a vida militar para se tornar aventureiro. Foi dispensado com honras, após uma grande façanha? Sobreviveu a um conflito sangrento? Desertou antes de um massacre?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itens": ["Uma arma marcial", "Um uniforme militar", "Uma insígnia de seu exército"],
+    "beneficios": {
+      "pericias": ["Fortitude", "Guerra", "Luta", "Pontaria"],
+      "poderes": ["Influência Militar"],
+      "texto": "Um poder de combate a sua escolha."
+    },
+    "poderesUnicos": [
+      {
+        "nome": "Influência Militar",
+        "descricao": "Você fez amigos nas forças armadas. Onde houver acampamentos ou bases militares, você pode conseguir hospedagem e informações para você e seus aliados."
+      }
+    ]
+  }
+}
