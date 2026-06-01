@@ -1,0 +1,28 @@
+{
+  "id": "poderes-como-funcionam",
+  "tipo": "regra-de-criacao",
+  "nome": "Poderes gerais: como funcionam",
+  "resumo": "Regras gerais dos poderes gerais: como escolher, grupos disponíveis e pré-requisitos.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O que são Poderes Gerais",
+      "texto": "Poderes gerais podem ser escolhidos por qualquer personagem, independentemente de sua classe. Eles seguem todas as regras de habilidades. Poderes gerais fornecem mais opções, ao custo de um pouco de complexidade. Usá-los ou não é uma decisão de cada jogador."
+    },
+    {
+      "titulo": "Escolhendo Poderes Gerais",
+      "texto": "Algumas raças e origens fornecem poderes gerais. Além disso, sempre que você recebe um poder de classe, pode trocá-lo por um poder geral."
+    },
+    {
+      "titulo": "Grupos de Poderes",
+      "texto": "Combate: poderes que melhoram características relacionadas a combate.\nDestino: poderes que melhoram características não relacionadas a combate.\nMagia: poderes ligados a magias e itens mágicos.\nConcedidos: poderes recebidos por devotos.\nTormenta: poderes ligados à tempestade rubra."
+    },
+    {
+      "titulo": "Usar ou Não?",
+      "texto": "Poderes gerais permitem diferenciar ainda mais seu personagem, trazendo novas opções e estratégias. No entanto, seu uso deixa o jogo mais pesado — construir o personagem e subir de nível será mais trabalhoso.\n\nSe você está experimentando suas primeiras aventuras, pode ser melhor evitar poderes gerais. Suas escolhas de raça, classe e origem já oferecem um enorme número de combinações.\n\nNo entanto, se você é um veterano de várias campanhas, talvez queira mais capacidade de personalização. Nesse caso, fique à vontade para ler esta seção e escolher os poderes que preferir — seja para melhor representar o conceito de seu herói, seja para conseguir combinações mais efetivas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

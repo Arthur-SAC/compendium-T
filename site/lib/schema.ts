@@ -157,6 +157,14 @@ export const PericiaMecanicaSchema = z.object({
 });
 export type PericiaMecanica = z.infer<typeof PericiaMecanicaSchema>;
 
+export const PoderMecanicaSchema = z.object({
+  grupo: z.string(),            // "combate" | "destino" | "magia" | "concedido" | "tormenta"
+  prerequisito: z.string().optional(),
+  custo: z.string().optional(),
+  descricao: z.string(),
+});
+export type PoderMecanica = z.infer<typeof PoderMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -204,6 +212,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de perícia inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "poder") {
+      const r = PoderMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de poder inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }
