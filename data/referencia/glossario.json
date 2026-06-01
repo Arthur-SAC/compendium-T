@@ -86,5 +86,16 @@
   { "id": "flanqueado", "nome": "flanqueado", "descricao": "Alvo que está sendo flanqueado: dois inimigos o atacam corpo a corpo de lados opostos, e ambos recebem +2 nos testes de ataque contra ele.", "fonte": { "livro": "livro-basico", "pagina": 239 } },
 
   { "id": "alcance-medio", "nome": "alcance médio", "descricao": "Categoria de alcance de 30m (20 quadrados em um mapa). Você pode atacar dentro do alcance sem penalidade, ou até o dobro dele sofrendo −5 no teste de ataque.", "fonte": { "livro": "livro-basico", "pagina": 143 } },
-  { "id": "alcance-longo", "nome": "alcance longo", "descricao": "Categoria de alcance de 90m (60 quadrados em um mapa). Você pode atacar dentro do alcance sem penalidade, ou até o dobro dele sofrendo −5 no teste de ataque.", "fonte": { "livro": "livro-basico", "pagina": 143 } }
+  { "id": "alcance-longo", "nome": "alcance longo", "descricao": "Categoria de alcance de 90m (60 quadrados em um mapa). Você pode atacar dentro do alcance sem penalidade, ou até o dobro dele sofrendo −5 no teste de ataque.", "fonte": { "livro": "livro-basico", "pagina": 143 } },
+
+  { "id": "medo", "nome": "medo", "descricao": "Tipo de efeito: medo capaz de prejudicar o alvo. Criaturas com Inteligência nula são imunes a efeitos de medo.", "fonte": { "livro": "livro-basico", "pagina": 228 } },
+
+  { "id": "essencia", "nome": "essência", "descricao": "Tipo de dano: energia mágica pura, canalizada por magias como Seta Infalível de Talude.", "fonte": { "livro": "livro-basico", "pagina": 230 } },
+  { "id": "dano-de-essencia", "nome": "dano de essência", "descricao": "Tipo de dano: energia mágica pura, canalizada por magias como Seta Infalível de Talude.", "fonte": { "livro": "livro-basico", "pagina": 230 } },
+
+  { "id": "dano-de-luz", "nome": "dano de luz", "descricao": "Tipo de dano relacionado a efeitos de luz, iluminação e energia positiva. Causado por magias e outros efeitos provenientes de divindades bondosas.", "fonte": { "livro": "livro-basico", "pagina": 230 } },
+  { "id": "dano-de-trevas", "nome": "dano de trevas", "descricao": "Tipo de dano relacionado a efeitos de necromancia, escuridão e energia negativa. Causado por efeitos ligados a divindades malignas.", "fonte": { "livro": "livro-basico", "pagina": 230 } },
+
+  { "id": "duracao-sustentada", "nome": "duração sustentada", "descricao": "A habilidade precisa de um fluxo constante de mana. O personagem deve gastar 1 PM como uma ação livre no início de cada turno seu para manter o efeito ativo. Se não o fizer, a habilidade termina. Você pode manter diversas habilidades sustentadas, pagando o custo de cada uma, mas apenas uma magia sustentada por vez.", "fonte": { "livro": "livro-basico", "pagina": 226 } },
+  { "id": "sustentada", "nome": "sustentada", "descricao": "Duração de habilidade que requer 1 PM como ação livre no início de cada turno para ser mantida ativa. Se o custo não for pago, a habilidade termina. Apenas uma magia pode ser sustentada por vez.", "fonte": { "livro": "livro-basico", "pagina": 226 } }
 ]

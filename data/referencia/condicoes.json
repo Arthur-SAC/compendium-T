@@ -1,14 +1,278 @@
 [
-  { "id": "medo", "nome": "Medo", "descricao": "O personagem sofre −2 em testes de perícia, ataques e Defesa enquanto puder ver a fonte do medo. Não acumula com outras fontes de medo.", "fonte": { "livro": "livro-basico", "pagina": 318 } },
-  { "id": "atordoado", "nome": "Atordoado", "descricao": "O personagem não pode fazer ações e fica desprevenido.", "fonte": { "livro": "livro-basico", "pagina": 318 } },
-  { "id": "atordoada", "nome": "Atordoada", "descricao": "O personagem fica desprevenido e não pode fazer ações. Mental.", "fonte": { "livro": "livro-basico", "pagina": 395 } },
-  { "id": "abalado", "nome": "Abalado", "descricao": "O personagem sofre −2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado. Medo.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "desprevenido", "nome": "Desprevenido", "descricao": "O personagem sofre −5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "enjoado", "nome": "Enjoado", "descricao": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "enjoadas", "nome": "Enjoadas", "descricao": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "caido", "nome": "Caído", "descricao": "O personagem sofre −5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições). Além disso, sofre −5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "caidos", "nome": "Caídos", "descricao": "O personagem sofre −5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições). Além disso, sofre −5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m.", "fonte": { "livro": "livro-basico", "pagina": 394 } },
-  { "id": "indefeso", "nome": "Indefeso", "descricao": "O personagem fica desprevenido, mas sofre −10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia.", "fonte": { "livro": "livro-basico", "pagina": 395 } },
-  { "id": "indefesos", "nome": "Indefesos", "descricao": "O personagem fica desprevenido, mas sofre −10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia.", "fonte": { "livro": "livro-basico", "pagina": 395 } },
-  { "id": "desprevenidos", "nome": "Desprevenidos", "descricao": "O personagem sofre −5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber.", "fonte": { "livro": "livro-basico", "pagina": 394 } }
+  {
+    "id": "abalado",
+    "nome": "Abalado",
+    "descricao": "O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado. Medo.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "agarrado",
+    "nome": "Agarrado",
+    "descricao": "O personagem fica desprevenido e imóvel, sofre –2 em testes de ataque e só pode atacar com armas leves. Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "alquebrado",
+    "nome": "Alquebrado",
+    "descricao": "O custo em pontos de mana das habilidades do personagem aumenta em +1. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "apavorado",
+    "nome": "Apavorado",
+    "descricao": "O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo. Medo.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "atordoado",
+    "nome": "Atordoado",
+    "descricao": "O personagem fica desprevenido e não pode fazer ações. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "atordoada",
+    "nome": "Atordoada",
+    "descricao": "O personagem fica desprevenido e não pode fazer ações. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "caido",
+    "nome": "Caído",
+    "descricao": "O personagem sofre –5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições). Além disso, sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "caidos",
+    "nome": "Caídos",
+    "descricao": "O personagem sofre –5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições). Além disso, sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "cego",
+    "nome": "Cego",
+    "descricao": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "cegos",
+    "nome": "Cegos",
+    "descricao": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "confuso",
+    "nome": "Confuso",
+    "descricao": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações, e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "debilitado",
+    "nome": "Debilitado",
+    "descricao": "O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se o personagem ficar debilitado novamente, em vez disso fica inconsciente.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "desprevenido",
+    "nome": "Desprevenido",
+    "descricao": "O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "desprevenidos",
+    "nome": "Desprevenidos",
+    "descricao": "O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "doente",
+    "nome": "Doente",
+    "descricao": "Sob efeito de uma doença. Metabolismo.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "em-chamas",
+    "nome": "Em Chamas",
+    "descricao": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "enfeiticado",
+    "nome": "Enfeitiçado",
+    "descricao": "O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "enfeiticada",
+    "nome": "Enfeitiçada",
+    "descricao": "O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "enjoado",
+    "nome": "Enjoado",
+    "descricao": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "enjoadas",
+    "nome": "Enjoadas",
+    "descricao": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "enredado",
+    "nome": "Enredado",
+    "descricao": "O personagem fica lento, vulnerável e sofre –2 em testes de ataque. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "envenenado",
+    "nome": "Envenenado",
+    "descricao": "O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como fraco ou enjoado). Perda de vida recorrente por venenos é cumulativa. Veneno.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "esmorecido",
+    "nome": "Esmorecido",
+    "descricao": "O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "exausto",
+    "nome": "Exausto",
+    "descricao": "O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Cansaço.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "fascinado",
+    "nome": "Fascinado",
+    "descricao": "Com a atenção presa em alguma coisa. O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "fascinada",
+    "nome": "Fascinada",
+    "descricao": "Com a atenção presa em alguma coisa. O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "fascinados",
+    "nome": "Fascinados",
+    "descricao": "Com a atenção presa em alguma coisa. O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 394 }
+  },
+  {
+    "id": "fatigado",
+    "nome": "Fatigado",
+    "descricao": "O personagem fica fraco e vulnerável. Se ficar fatigado novamente, em vez disso fica exausto. Cansaço.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "fraco",
+    "nome": "Fraco",
+    "descricao": "O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se ficar fraco novamente, em vez disso fica debilitado.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "frustrado",
+    "nome": "Frustrado",
+    "descricao": "O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "imovel",
+    "nome": "Imóvel",
+    "descricao": "Todas as formas de deslocamento do personagem são reduzidas a 0m. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "inconsciente",
+    "nome": "Inconsciente",
+    "descricao": "O personagem fica indefeso e não pode fazer ações, incluindo reações (mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento). Balançar uma criatura para acordá-la gasta uma ação padrão.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "indefeso",
+    "nome": "Indefeso",
+    "descricao": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "indefesos",
+    "nome": "Indefesos",
+    "descricao": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "lento",
+    "nome": "Lento",
+    "descricao": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "ofuscado",
+    "nome": "Ofuscado",
+    "descricao": "O personagem sofre –2 em testes de ataque e de Percepção. Sentidos.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "ofuscados",
+    "nome": "Ofuscados",
+    "descricao": "O personagem sofre –2 em testes de ataque e de Percepção. Sentidos.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "paralisado",
+    "nome": "Paralisado",
+    "descricao": "Fica imóvel e indefeso e só pode realizar ações puramente mentais. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "pasmo",
+    "nome": "Pasmo",
+    "descricao": "Não pode fazer ações. Mental.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "petrificado",
+    "nome": "Petrificado",
+    "descricao": "O personagem fica inconsciente e recebe redução de dano 8. Metamorfose.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "sangrando",
+    "nome": "Sangrando",
+    "descricao": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição. Metabolismo.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "sobrecarregado",
+    "nome": "Sobrecarregado",
+    "descricao": "O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m. Movimento.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "surdo",
+    "nome": "Surdo",
+    "descricao": "O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias. Sentidos.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "surpreendido",
+    "nome": "Surpreendido",
+    "descricao": "O personagem fica desprevenido e não pode fazer ações.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "vulneravel",
+    "nome": "Vulnerável",
+    "descricao": "O personagem sofre –2 na Defesa.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  },
+  {
+    "id": "vulneraveis",
+    "nome": "Vulneráveis",
+    "descricao": "O personagem sofre –2 na Defesa.",
+    "fonte": { "livro": "livro-basico", "pagina": 395 }
+  }
 ]
