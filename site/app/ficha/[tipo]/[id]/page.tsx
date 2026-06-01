@@ -8,6 +8,7 @@ import { FichaOrigem } from "@/components/FichaOrigem";
 import { FichaPericia } from "@/components/FichaPericia";
 import { FichaPoder } from "@/components/FichaPoder";
 import { FichaItem } from "@/components/FichaItem";
+import { FichaMagia } from "@/components/FichaMagia";
 
 export const dynamicParams = false;
 
@@ -42,6 +43,8 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
         <FichaPoder entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "item" ? (
         <FichaItem entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : entidade.tipo === "magia" ? (
+        <FichaMagia entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : (
         <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
       )}

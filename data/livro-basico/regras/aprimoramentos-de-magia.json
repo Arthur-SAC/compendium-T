@@ -1,0 +1,34 @@
+{
+  "id": "aprimoramentos-de-magia",
+  "tipo": "regra-de-criacao",
+  "nome": "Aprimoramentos de Magia",
+  "resumo": "Regras para aprimoramentos de magia: custo variável em PM, acumulação, aprimoramentos que mudam magias, truque e pré-requisitos.",
+  "fonte": { "livro": "livro-basico", "pagina": 170 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Aprimoramentos",
+      "texto": "Algumas magias permitem gastar mais pontos de mana ao serem lançadas para aumentar seu efeito. Estas opções são chamadas de aprimoramentos.\n\nLimite de PM. Como qualquer habilidade com custo variável, o máximo de PM que você pode gastar ao lançar uma magia obedece às regras para gasto de PM vistas na página 224."
+    },
+    {
+      "titulo": "Aprimoramentos Cumulativos",
+      "texto": "Para aprimoramentos que aumentam um valor (o texto começa com a palavra \"aumenta\"), você pode gastar aquela quantidade de PM várias vezes para acumular o aumento. A magia Bola de Fogo causa 6d6 pontos de dano e tem um aprimoramento que aumenta esse dano em +2d6 por +2 PM. Um arcanista de 11º nível pode gastar até 11 PM ao lançar essa magia, causando 14d6 pontos de dano."
+    },
+    {
+      "titulo": "Aprimoramentos que Mudam Magias",
+      "texto": "Alguns aprimoramentos alteram a descrição da magia (o texto começa com a palavra \"muda\"). Nesse caso, a magia continua igual em tudo, exceto a parte mudada pelo aprimoramento. Mudanças na mesma característica da magia nunca se acumulam."
+    },
+    {
+      "titulo": "Truque",
+      "texto": "Este aprimoramento transforma a magia em uma versão mais simples e reduz seu custo em PM para zero. Truques não podem ser usados em conjunto com outros aprimoramentos."
+    },
+    {
+      "titulo": "Pré-requisitos de Aprimoramentos",
+      "texto": "Alguns aprimoramentos exigem que você seja capaz de lançar magias de determinado círculo. Para magias de classe, você deve cumprir o requisito com a classe com a qual aprendeu a magia. Para magias aprendidas de outra forma, você não tem como cumprir esses pré-requisitos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nota": "O máximo de PM que pode ser gasto ao lançar uma magia segue as regras gerais de custo variável (página 224). Aprimoramentos cumulativos (palavra-chave 'aumenta') podem ser aplicados várias vezes. Aprimoramentos que mudam (palavra-chave 'muda') nunca se acumulam na mesma característica. Truque zera o custo em PM e não pode ser combinado com outros aprimoramentos."
+  }
+}

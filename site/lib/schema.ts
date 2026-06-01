@@ -194,6 +194,32 @@ export const ItemMecanicaSchema = z.object({
 });
 export type ItemMecanica = z.infer<typeof ItemMecanicaSchema>;
 
+export const AprimoramentoMagiaSchema = z.object({
+  custo: z.string(),
+  efeito: z.string(),
+  requisitoCirculo: z.number().int().optional(),
+});
+export type AprimoramentoMagia = z.infer<typeof AprimoramentoMagiaSchema>;
+
+export const MagiaMecanicaSchema = z.object({
+  tipo: z.string(),               // "arcana" | "divina" | "universal"
+  circulo: z.number().int().min(1).max(5),
+  escola: z.string(),
+  execucao: z.string(),
+  alcance: z.string(),
+  alvo: z.string().optional(),
+  area: z.string().optional(),
+  efeito: z.string().optional(),
+  duracao: z.string(),
+  resistencia: z.string().optional(),
+  custoPM: z.number().int(),
+  custoEspecial: z.string().optional(),
+  truque: z.string().optional(),
+  descricao: z.string(),
+  aprimoramentos: z.array(AprimoramentoMagiaSchema).default([]),
+});
+export type MagiaMecanica = z.infer<typeof MagiaMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -259,6 +285,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de item inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "magia") {
+      const r = MagiaMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de magia inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }

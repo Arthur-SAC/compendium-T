@@ -1,0 +1,59 @@
+{
+  "id": "magia-como-funciona",
+  "tipo": "regra-de-criacao",
+  "nome": "Magia — Como Funciona",
+  "resumo": "Regras gerais para lançar magias: classificação arcana/divina, círculos, atributo-chave, custo em PM, gestos e palavras, concentração, armaduras e anulação de magias.",
+  "fonte": { "livro": "livro-basico", "pagina": 169 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Magia Arcana e Divina",
+      "texto": "Todas as magias são classificadas em tipos (arcana ou divina) e círculos (do 1º ao 5º).\n\nMagia Arcana. Manipula diretamente as energias do mundo, permitindo ao conjurador violar as leis naturais e alterar a realidade. Este tipo de mágica pode ser dominado por estudo ou aptidão natural. Seus efeitos costumam ser impressionantes, destruidores e fantásticos — como produzir relâmpagos, metamorfosear criaturas, transportar por longas distâncias e criar imagens ilusórias.\n\nMagia Divina. Provém de uma causa ou entidade poderosa — normalmente um deus maior. Através da devoção a essa causa ou entidade, o conjurador recebe poder mágico. A magia divina geralmente envolve proteção, fortalecimento e cura."
+    },
+    {
+      "titulo": "Círculos e Atributo-chave",
+      "texto": "Círculos. Magias são divididas em círculos, do 1º ao 5º. Quanto mais alto o círculo da magia, mais poderosa ela é. Magias de 1º círculo são pouco mais que truques, mal excedendo capacidades mundanas. Já magias de 5º círculo podem invocar chuvas de meteoros, parar o tempo e até mesmo realizar desejos!\n\nA magia é intensa em Arton e pode ser dominada de várias formas.\n\n• Inteligência. Atributo-chave dos bruxos e magos. Eles seguem métodos e fórmulas antigas, herméticas, registradas em livros e pergaminhos. Para eles, magia é ciência.\n\n• Sabedoria. Atributo-chave dos clérigos e druidas. É a magia espiritual, baseada no contato com os deuses e a percepção da natureza. Para eles, magia é fé.\n\n• Carisma. Atributo-chave dos bardos e feiticeiros. Eles invocam seu próprio poder interior, alimentando magias com autoconfiança e força de personalidade. Para eles, magia é arte.\n\nO atributo-chave afeta seus pontos de mana e a CD dos testes de resistência para resistir a suas magias."
+    },
+    {
+      "titulo": "Aprendendo Magias",
+      "texto": "Sua classe diz que tipo de magia você pode lançar: arcanistas e bardos lançam magias arcanas; clérigos e druidas lançam magias divinas. Sua classe também diz com quantas magias você começa e quantas ganha por nível.\n\nAlgumas habilidades permitem que você aprenda magias novas. Caso a habilidade não diga qual magia você aprende, você pode escolher qualquer magia de um tipo e círculo que possa lançar."
+    },
+    {
+      "titulo": "Lançando Magias e Custo em Pontos de Mana",
+      "texto": "Magias são habilidades mágicas e seguem todas as regras vistas a partir da página 224.\n\nCusto em PM. Lançar uma magia exige gastar uma ação (varia de magia para magia) e pontos de mana (de acordo com o círculo da magia).\n\nTabela 4-1: Custo de Magias\nCírculo | Custo\n1º      | 1 PM\n2º      | 3 PM\n3º      | 6 PM\n4º      | 10 PM\n5º      | 15 PM"
+    },
+    {
+      "titulo": "Gestos e Palavras",
+      "texto": "Lançar uma magia envolve pronunciar palavras mágicas e gesticular com pelo menos uma mão livre. É um ato chamativo, perceptível por aqueles ao redor. Um conjurador amordaçado ou incapaz de usar as mãos não pode lançar magias."
+    },
+    {
+      "titulo": "Concentração",
+      "texto": "Lançar uma magia também exige calma e concentração. Por isso, um conjurador em situação difícil deve passar em um teste de Vontade. Se falhar no teste a magia é perdida, mas os PM são gastos mesmo assim.\n\n• Ser ferido durante a execução da magia: CD igual ao dano. Para magias que exigem uma ação padrão ou menos, o conjurador só pode ser ferido durante a execução se for atacado como uma reação ou se estiver sofrendo dano contínuo (por chamas ou veneno, por exemplo).\n\n• Condição ruim: CD 15 + custo em PM da magia. Exemplos incluem movimento vigoroso, como montado a galope, caído ou em uma tempestade.\n\n• Condição terrível: CD 20 + custo em PM da magia. Exemplos incluem movimento violento, como uma carroça desgovernada, agarrado ou em um terremoto."
+    },
+    {
+      "titulo": "Armaduras e Magia Arcana",
+      "texto": "O uso de armaduras atrapalha os gestos necessários para lançar magias arcanas. Lançar uma magia arcana usando armadura exige um teste de Misticismo (CD 20 + o custo em PM da magia). O teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta PM. Magias lançadas por habilidades de raça, poderes ou itens mágicos não sofrem esta limitação."
+    },
+    {
+      "titulo": "Anulando Magias",
+      "texto": "Você pode anular uma magia conjurada por outra pessoa, fazendo uma contramágica. Para isso, use a ação preparar (veja a página 234) para agir quando uma criatura lançar uma magia. Nesse instante, você deve lançar uma magia que possa anular a magia original.\n\nNormalmente, uma magia só pode ser anulada por outra igual — se um inimigo lança Bola de Fogo, você deve lançar outra Bola de Fogo para anulá-la. Mas algumas magias podem anular outras: por exemplo, Luz anula Escuridão (e vice-versa). Em caso de dúvida, cabe ao mestre julgar se uma magia anula outra. Como regra geral, uma magia nunca pode anular outra de círculo maior.\n\nDissipar Magia é uma exceção — pode ser usada para anular qualquer magia (mesmo de círculos maiores), mas você deve fazer um teste de Misticismo oposto por Misticismo ou Vontade de quem está lançando a magia (o que for maior). Se você vencer, seu Dissipar Magia funciona como contramágica.\n\nTanto a magia anulada quanto a usada como contramágica desfazem-se instantaneamente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_custo_pm": [
+      { "circulo": "1º", "custo_pm": 1 },
+      { "circulo": "2º", "custo_pm": 3 },
+      { "circulo": "3º", "custo_pm": 6 },
+      { "circulo": "4º", "custo_pm": 10 },
+      { "circulo": "5º", "custo_pm": 15 }
+    ],
+    "tipos": ["arcana", "divina"],
+    "circulos": [1, 2, 3, 4, 5],
+    "atributos_chave": {
+      "inteligencia": ["bruxo", "mago"],
+      "sabedoria": ["clerigo", "druida"],
+      "carisma": ["bardo", "feiticeiro"]
+    }
+  }
+}
