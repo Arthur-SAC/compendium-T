@@ -1,0 +1,40 @@
+{
+  "id": "oficio",
+  "tipo": "pericia",
+  "nome": "Ofício",
+  "resumo": "Na verdade são várias perícias diferentes, cada uma permitindo fabricar itens de certas categorias e ganhar sustento com trabalho especializado.",
+  "fonte": { "livro": "livro-basico", "pagina": 121 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Inteligência",
+    "treinada": true,
+    "penalidadeArmadura": false,
+    "descricao": "Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de certas categorias: Armeiro (Armas e Armaduras & Escudos), Artesão (Equipamento de Aventura, Ferramentas, Esotéricos e Veículos), Alquimista (Alquímicos), Cozinheiro (Alimentação), Alfaiate (Vestuário). Você pode inventar outros tipos de Ofício: carpinteiro, pedreiro, ourives, fazendeiro, pescador, estalajadeiro, escriba, escultor, pintor... Nesses casos, converse com o mestre para determinar que usos a perícia terá.",
+    "usos": [
+      {
+        "nome": "Consertar",
+        "apenasTreinado": false,
+        "descricao": "Reparar um item destruído tem a mesma CD para fabricá-lo. Cada tentativa consome uma hora de trabalho e um décimo do preço original do item. Em caso de falha, o tempo e o dinheiro são perdidos (mas você pode tentar novamente)."
+      },
+      {
+        "nome": "Fabricar",
+        "apenasTreinado": false,
+        "descricao": "Você produz um item gastando matéria-prima e tempo de trabalho. A matéria-prima custa um terço do preço do item. O tempo de trabalho depende do tipo de item: um dia para consumíveis (itens alquímicos, pergaminhos, poções, munições...); uma semana para não consumíveis comuns (armas, ferramentas...) e um mês para não consumíveis superiores e/ou mágicos. Para consumíveis, você pode sofrer –5 no teste para fabricar duas unidades do item no mesmo tempo (pagando o custo de ambas). A critério do mestre, itens muito simples e sem efeito mecânico podem levar menos tempo. Da mesma forma, itens muito grandes ou complexos, como uma casa ou ponte, podem demorar vários meses. A CD do teste é 15 para itens simples (equipamentos de aventura, armas simples, munições, armaduras leves, escudos, preparados, catalisadores e outros a critério do mestre) e 20 para itens complexos (armas marciais, exóticas ou de fogo, armaduras pesadas, ferramentas, vestuários, esotéricos, venenos...)."
+      },
+      {
+        "nome": "Identificar",
+        "cd": "20",
+        "apenasTreinado": false,
+        "descricao": "Você pode identificar itens raros e exóticos ligados ao seu Ofício. Se passar, descobre as propriedades do item e seu preço. Este uso gasta uma ação completa."
+      },
+      {
+        "nome": "Sustento",
+        "cd": "15",
+        "apenasTreinado": false,
+        "descricao": "Com uma semana de trabalho e um teste de Ofício, você ganha T$ 1, mais T$ 1 por ponto que seu teste exceder a CD. Por exemplo, com um resultado 20, ganha T$ 6 pela semana de trabalho. Trabalhadores sem treinamento usam testes de atributo para sustento. De acordo com o mestre, outras perícias podem ser usadas para sustento, como Adestramento, Cura ou Sobrevivência. Cada Ofício exige instrumentos de ofício específicos. Sem eles, você sofre –5 no teste."
+      }
+    ]
+  }
+}

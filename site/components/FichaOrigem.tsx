@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Entidade, OrigemMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
@@ -5,13 +6,22 @@ import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
+const chipBase = { fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" } as const;
 
-function Chips({ itens }: { itens: string[] }) {
+// Chips simples; se `registro` for passado e o nome casar uma entidade (ex.: perícia, poder),
+// o chip vira link para a ficha correspondente.
+function Chips({ itens, registro }: { itens: string[]; registro?: Registro }) {
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
-      {itens.map((t, i) => (
-        <span key={i} style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" }}>{t}</span>
-      ))}
+      {itens.map((t, i) => {
+        const entrada = registro?.porNome.get(t.toLowerCase());
+        if (entrada && entrada.kind === "link") {
+          return (
+            <Link key={i} href={`/ficha/${entrada.alvoTipo}/${entrada.alvoId}`} style={{ ...chipBase, textDecoration: "none", borderColor: "var(--ouro)" }}>{t}</Link>
+          );
+        }
+        return <span key={i} style={chipBase}>{t}</span>;
+      })}
     </div>
   );
 }
@@ -64,13 +74,13 @@ export function FichaOrigem({ entidade, registro, descricoes }: { entidade: Enti
               {m.beneficios.pericias && m.beneficios.pericias.length > 0 && (
                 <div style={{ marginBottom: 8 }}>
                   <div style={{ fontSize: 11, textTransform: "uppercase" as const, letterSpacing: 1.5, color: "var(--tinta-suave)", fontWeight: 700, marginBottom: 2 }}>Perícias</div>
-                  <Chips itens={m.beneficios.pericias} />
+                  <Chips itens={m.beneficios.pericias} registro={registro} />
                 </div>
               )}
               {m.beneficios.poderes && m.beneficios.poderes.length > 0 && (
                 <div style={{ marginBottom: 8 }}>
                   <div style={{ fontSize: 11, textTransform: "uppercase" as const, letterSpacing: 1.5, color: "var(--tinta-suave)", fontWeight: 700, marginBottom: 2 }}>Poderes</div>
-                  <Chips itens={m.beneficios.poderes} />
+                  <Chips itens={m.beneficios.poderes} registro={registro} />
                 </div>
               )}
               {m.beneficios.texto && (

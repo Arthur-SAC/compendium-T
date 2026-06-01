@@ -1,0 +1,39 @@
+{
+  "id": "religiao",
+  "tipo": "pericia",
+  "nome": "Religião",
+  "resumo": "Fornece conhecimento sobre os deuses e religiões de Arton, permitindo identificar criaturas divinas, itens mágicos de origem divina e realizar ritos religiosos.",
+  "fonte": { "livro": "livro-basico", "pagina": 122 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Sabedoria",
+    "treinada": true,
+    "penalidadeArmadura": false,
+    "descricao": "Você possui conhecimento sobre os deuses e as religiões de Arton.",
+    "usos": [
+      {
+        "nome": "Identificar Criatura",
+        "apenasTreinado": false,
+        "descricao": "Você analisa uma criatura com origem divina (anjos, demônios, alguns mortos-vivos e construtos etc.). Veja a perícia Misticismo. A CD é 15 + ND da Criatura."
+      },
+      {
+        "nome": "Identificar Item Mágico",
+        "apenasTreinado": false,
+        "descricao": "Você pode identificar um item mágico de origem divina. Veja a perícia Misticismo."
+      },
+      {
+        "nome": "Informação",
+        "apenasTreinado": false,
+        "descricao": "Você responde dúvidas relativas a deuses, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+      },
+      {
+        "nome": "Rito",
+        "cd": "20",
+        "apenasTreinado": false,
+        "descricao": "Você realiza uma cerimônia religiosa, como um batizado, casamento ou funeral. Isso inclui a cerimônia de penitência para redimir um devoto que tenha descumprido as Obrigações & Restrições de sua divindade. Uma cerimônia de penitência exige um sacrifício de T$ 100 por nível de personagem do devoto ou a realização de uma missão sagrada, de acordo com o mestre."
+      }
+    ]
+  }
+}

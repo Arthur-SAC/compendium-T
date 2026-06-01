@@ -1,0 +1,31 @@
+{
+  "id": "diplomacia",
+  "tipo": "pericia",
+  "nome": "Diplomacia",
+  "resumo": "Permite convencer pessoas com lábia e argumentação, barganhando preços, mudando atitudes e persuadindo favores.",
+  "fonte": { "livro": "livro-basico", "pagina": 118 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Carisma",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você convence pessoas com lábia e argumentação. Usos de Diplomacia são efeitos mentais.",
+    "usos": [
+      {
+        "nome": "Barganha",
+        "descricao": "Comprando ou vendendo algo, você pode barganhar. Seu teste de Diplomacia é oposto pelo teste de Vontade do negociante. Se passar, você muda o preço em 10% a seu favor. Se passar por 10 ou mais, muda em 20%. Se falhar por 5 ou mais, você ofende o negociante — ele não voltará a tratar com você durante pelo menos uma semana. Alguns comerciantes ou estabelecimentos podem não ter permissão de baixar seus preços."
+      },
+      {
+        "nome": "Mudar Atitude",
+        "descricao": "Você muda a categoria de atitude de um NPC em relação a você ou a outra pessoa (veja a página 259). Faça um teste de Diplomacia oposto pelo teste de Vontade do alvo. Se você passar, muda a atitude dele em uma categoria para cima ou para baixo, à sua escolha (ou, se passar por 10 ou mais, em duas categorias). Se falhar por 5 ou mais, a atitude do alvo muda uma categoria na direção oposta. Este uso gasta um minuto. Você pode sofrer –10 no teste para fazê-lo como uma ação completa (para evitar uma briga, por exemplo). Você só pode mudar a atitude de um mesmo alvo uma vez por dia."
+      },
+      {
+        "nome": "Persuasão",
+        "cd": "20",
+        "descricao": "Você convence uma pessoa a fazer algo, como responder uma pergunta ou prestar um favor. Se essa coisa for custosa (como fornecer uma carona de navio) você sofre –5 em seu teste. Se for perigosa (como ajudar numa luta) você sofre –10 ou falha automaticamente (veja também a página 259 para modificadores por categorias de atitude). De acordo com o mestre, seu teste pode ser oposto ao teste de Vontade da pessoa. Este uso gasta um minuto ou mais, de acordo com o mestre."
+      }
+    ]
+  }
+}

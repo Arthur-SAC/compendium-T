@@ -1,0 +1,29 @@
+{
+  "id": "intuicao",
+  "tipo": "pericia",
+  "nome": "Intuição",
+  "resumo": "Mede a empatia e o sexto sentido do personagem, permitindo detectar mentiras e pressentir anomalias.",
+  "fonte": { "livro": "livro-basico", "pagina": 120 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Sabedoria",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Esta perícia mede sua empatia e \"sexto sentido\".",
+    "usos": [
+      {
+        "nome": "Perceber Mentira",
+        "apenasTreinado": false,
+        "descricao": "Você descobre se alguém está mentindo (veja a perícia Enganação)."
+      },
+      {
+        "nome": "Pressentimento",
+        "cd": "20",
+        "apenasTreinado": true,
+        "descricao": "Você analisa uma pessoa, para ter uma noção de sua índole ou caráter, ou uma situação, para saber se há algo anormal (por exemplo, se os habitantes de uma vila estão agindo de forma estranha). Este uso apenas indica se há algo anormal, mas não revela a causa."
+      }
+    ]
+  }
+}

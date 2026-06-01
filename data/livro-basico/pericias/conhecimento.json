@@ -1,0 +1,27 @@
+{
+  "id": "conhecimento",
+  "tipo": "pericia",
+  "nome": "Conhecimento",
+  "resumo": "Permite responder dúvidas sobre campos do saber como aritmética, astronomia, dialética, geografia e história, além de entender idiomas desconhecidos.",
+  "fonte": { "livro": "livro-basico", "pagina": 117 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Inteligência",
+    "treinada": true,
+    "penalidadeArmadura": false,
+    "descricao": "Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história...",
+    "usos": [
+      {
+        "nome": "Idiomas",
+        "cd": "20",
+        "descricao": "Você pode entender idiomas desconhecidos. Se falhar por 5 ou mais, você tira uma conclusão falsa. Idiomas exóticos ou muito antigos têm CD 30."
+      },
+      {
+        "nome": "Informação",
+        "descricao": "Você responde dúvidas gerais. Questões simples, como o ano de fundação de um reino, não exigem testes. Questões complexas, como saber o antídoto de um veneno, tem CD 20. Por fim, mistérios e enigmas, como a origem de uma antiga maldição, tem CD 30."
+      }
+    ]
+  }
+}

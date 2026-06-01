@@ -1,0 +1,40 @@
+{
+  "id": "cura",
+  "tipo": "pericia",
+  "nome": "Cura",
+  "resumo": "Permite tratar ferimentos, doenças e venenos, estabilizando aliados e acelerando a recuperação.",
+  "fonte": { "livro": "livro-basico", "pagina": 117 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Sabedoria",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você sabe tratar ferimentos, doenças e venenos.",
+    "usos": [
+      {
+        "nome": "Cuidados Prolongados",
+        "cd": "15",
+        "apenasTreinado": true,
+        "descricao": "Você trata uma pessoa para que ela se recupere mais rapidamente. Se passar, ela aumenta sua recuperação de PV em +1 por nível nesse dia. Este uso leva uma hora e o número máximo de pessoas que você pode cuidar é igual ao seu nível."
+      },
+      {
+        "nome": "Necropsia",
+        "cd": "20",
+        "apenasTreinado": true,
+        "descricao": "Você examina um cadáver para determinar a causa e o momento aproximado da morte. Causas raras ou extraordinárias, como um veneno ou maldição, possuem CD 30. Este uso leva dez minutos."
+      },
+      {
+        "nome": "Primeiros Socorros",
+        "cd": "15",
+        "descricao": "Você estabiliza um personagem adjacente que esteja sangrando. Este uso gasta uma ação padrão."
+      },
+      {
+        "nome": "Tratamento",
+        "apenasTreinado": true,
+        "descricao": "Você ajuda a vítima de uma doença ou veneno com efeito contínuo. Gaste uma ação completa e faça um teste de Cura contra a CD da doença ou veneno. Se você passar, o paciente recebe +5 em seu próximo teste de Fortitude contra esse efeito. Esta perícia exige uma maleta de medicamentos. Sem ela, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste."
+      }
+    ]
+  }
+}

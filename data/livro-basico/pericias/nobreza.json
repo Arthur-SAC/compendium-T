@@ -1,0 +1,29 @@
+{
+  "id": "nobreza",
+  "tipo": "pericia",
+  "nome": "Nobreza",
+  "resumo": "Representa a educação de um nobre, com conhecimento de etiqueta, leis, tradições, linhagens e heráldica.",
+  "fonte": { "livro": "livro-basico", "pagina": 121 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Inteligência",
+    "treinada": true,
+    "penalidadeArmadura": false,
+    "descricao": "Você recebeu a educação de um nobre.",
+    "usos": [
+      {
+        "nome": "Etiqueta",
+        "cd": "15",
+        "apenasTreinado": false,
+        "descricao": "Você sabe se portar em ambientes aristocráticos, como bailes e audiências."
+      },
+      {
+        "nome": "Informação",
+        "apenasTreinado": false,
+        "descricao": "Você responde dúvidas relativas a leis, tradições, linhagens e heráldica. Questões simples não exigem teste. Questões complexas têm CD 20. Por fim, mistérios e enigmas têm CD 30."
+      }
+    ]
+  }
+}

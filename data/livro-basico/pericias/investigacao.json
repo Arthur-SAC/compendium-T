@@ -1,0 +1,28 @@
+{
+  "id": "investigacao",
+  "tipo": "pericia",
+  "nome": "Investigação",
+  "resumo": "Permite encontrar pistas e informações interrogando pessoas ou examinando locais.",
+  "fonte": { "livro": "livro-basico", "pagina": 120 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Inteligência",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você sabe encontrar pistas e informações.",
+    "usos": [
+      {
+        "nome": "Interrogar",
+        "apenasTreinado": false,
+        "descricao": "Você descobre informações perguntando ou indo para um lugar movimentado e mantendo os ouvidos atentos. Informações gerais ('Quem é o guerreiro mais forte da aldeia?') não exigem teste. Informações restritas, que poucas pessoas conhecem ('Quem é o ancião que está sempre ao lado do rei?'), têm CD 20. Informações confidenciais ou que podem colocar em risco quem falar sobre elas ('Quem é o líder da guilda dos ladrões?'), têm CD 30. Este uso gasta uma hora e T$ 3d6 (para comprar bebidas, subornar oficiais etc.), mas esses valores podem variar de acordo com o mestre."
+      },
+      {
+        "nome": "Procurar",
+        "apenasTreinado": false,
+        "descricao": "Você examina um local em busca de algo. A CD varia: 15 para um item ou no meio de uma bagunça, mas não necessariamente escondido; 20 para um item escondido (cofre atrás de um quadro, documento no fundo falso de uma gaveta); 30 para um item muito bem escondido (passagem secreta ativada por um botão, documento escrito com tinta invisível). Este uso gasta desde uma ação completa (examinar uma escrivaninha) até um dia (pesquisar uma biblioteca). Você também pode encontrar armadilhas (CD de acordo com a armadilha) e rastros (mas para segui-los deve usar Sobrevivência)."
+      }
+    ]
+  }
+}

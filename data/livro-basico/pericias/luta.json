@@ -1,0 +1,23 @@
+{
+  "id": "luta",
+  "tipo": "pericia",
+  "nome": "Luta",
+  "resumo": "Permite fazer ataques corpo a corpo, usando a Defesa do alvo como CD.",
+  "fonte": { "livro": "livro-basico", "pagina": 121 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Força",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Veja o Capítulo 5: Jogando para as regras completas de combate.",
+    "usos": [
+      {
+        "nome": "Ataque Corpo a Corpo",
+        "apenasTreinado": false,
+        "descricao": "Faça um teste de Luta contra a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Veja o Capítulo 5: Jogando para as regras completas de combate."
+      }
+    ]
+  }
+}

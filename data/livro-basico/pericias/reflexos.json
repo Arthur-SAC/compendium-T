@@ -1,0 +1,23 @@
+{
+  "id": "reflexos",
+  "tipo": "pericia",
+  "nome": "Reflexos",
+  "resumo": "Perícia de resistência usada para resistir a efeitos que exigem reação rápida, como armadilhas e explosões, e para evitar fintas.",
+  "fonte": { "livro": "livro-basico", "pagina": 122 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Destreza",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você usa esta perícia para resistir a efeitos que exigem reação rápida, como armadilhas e explosões. A CD é determinada pelo efeito. Você também usa Reflexos para evitar fintas.",
+    "usos": [
+      {
+        "nome": "Resistir a Efeitos",
+        "apenasTreinado": false,
+        "descricao": "Você usa esta perícia para resistir a efeitos que exigem reação rápida, como armadilhas e explosões. A CD é determinada pelo efeito."
+      }
+    ]
+  }
+}

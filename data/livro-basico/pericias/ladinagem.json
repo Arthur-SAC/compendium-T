@@ -1,0 +1,38 @@
+{
+  "id": "ladinagem",
+  "tipo": "pericia",
+  "nome": "Ladinagem",
+  "resumo": "Permite exercer atividades ilícitas como abrir fechaduras, ocultar objetos, punguear e sabotar mecanismos.",
+  "fonte": { "livro": "livro-basico", "pagina": 120 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Destreza",
+    "treinada": true,
+    "penalidadeArmadura": true,
+    "descricao": "Você sabe exercer atividades ilícitas.",
+    "usos": [
+      {
+        "nome": "Abrir Fechadura",
+        "apenasTreinado": false,
+        "descricao": "Você abre uma fechadura trancada. A CD é 20 para fechaduras simples (porta de loja), 25 para fechaduras médias (prisão, baú) e 30 para fechaduras superiores (cofre, câmara do tesouro). Este uso exige uma ação completa e uma gazua. Sem ela, você sofre –5 em seu teste."
+      },
+      {
+        "nome": "Ocultar",
+        "apenasTreinado": false,
+        "descricao": "Você esconde um objeto em você mesmo. Gaste uma ação padrão e faça um teste de Ladinagem oposto pelo teste de Percepção de qualquer um que possa vê-lo. Objetos discretos ou pequenos fornecem +5 no teste; objetos desajeitados ou grandes impõem –5. Se uma pessoa revistar você, recebe +10 no teste de Percepção."
+      },
+      {
+        "nome": "Punga",
+        "apenasTreinado": false,
+        "descricao": "Você pega um objeto de outra pessoa (ou planta um objeto nas posses dela). Gaste uma ação padrão e faça um teste de Ladinagem. Se passar, você pega (ou coloca) o que queria. A vítima tem direito a um teste de Percepção (CD igual ao resultado de seu teste de Ladinagem). Se passar, ela percebe sua tentativa, tenha você conseguido ou não."
+      },
+      {
+        "nome": "Sabotar",
+        "apenasTreinado": false,
+        "descricao": "Você desabilita um dispositivo mecânico. Uma ação simples (emperrar uma fechadura, desativar uma armadilha básica, sabotar uma roda de carroça para que quebre 1d4 rodadas após o uso) tem CD 20. Uma ação complexa (desativar uma armadilha avançada, sabotar um canhão para explodir quando utilizado) tem CD 30. Se você falhar por 5 ou mais, alguma coisa sai errada — a armadilha se ativa, você acha que o mecanismo está desabilitado, mas na verdade ele ainda funciona... Usar esta perícia leva 1d4 rodadas. Você pode sofrer –5 em seu teste para fazê-lo como uma ação completa."
+      }
+    ]
+  }
+}

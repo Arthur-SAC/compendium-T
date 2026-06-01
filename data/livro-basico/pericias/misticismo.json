@@ -1,0 +1,49 @@
+{
+  "id": "misticismo",
+  "tipo": "pericia",
+  "nome": "Misticismo",
+  "resumo": "Envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais.",
+  "fonte": { "livro": "livro-basico", "pagina": 121 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Inteligência",
+    "treinada": true,
+    "penalidadeArmadura": false,
+    "descricao": "Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais.",
+    "usos": [
+      {
+        "nome": "Detectar Magia",
+        "cd": "15",
+        "apenasTreinado": false,
+        "descricao": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas em alcance curto (mas não suas localizações exatas). A intensidade de uma aura depende do círculo da magia ou categoria do item mágico que a gerou. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura esteja atrás de uma barreira, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
+      },
+      {
+        "nome": "Identificar Criatura",
+        "apenasTreinado": false,
+        "descricao": "Você analisa uma criatura mágica (construto, dragão, fada, morto-vivo etc.) que possa ver. A CD é 15 + ND da Criatura. Se passar, lembra uma característica da criatura, como um poder ou vulnerabilidade. Para cada 5 pontos pelos quais o resultado do teste superar a CD, você lembra outra característica. Se falhar por 5 ou mais, tira uma conclusão errada (por exemplo, acredita que a criatura é vulnerável a fogo, quando na verdade é vulnerável a frio). Este uso gasta uma ação padrão."
+      },
+      {
+        "nome": "Identificar Item Mágico",
+        "apenasTreinado": false,
+        "descricao": "Você estuda um item mágico para identificar seus poderes. A CD é 20 para itens mágicos menores, 25 para médios e 30 para itens mágicos maiores. Este uso gasta uma hora. Você pode sofrer uma penalidade de –10 no teste para diminuir o tempo para uma ação completa."
+      },
+      {
+        "nome": "Identificar Magia",
+        "apenasTreinado": false,
+        "descricao": "Quando alguém lança uma magia, você pode adivinhar qual é através de seus gestos e palavras. A CD é 15 + Custo em PM da Magia. Este uso é uma reação."
+      },
+      {
+        "nome": "Informação",
+        "apenasTreinado": false,
+        "descricao": "Você responde dúvidas relativas a magias, itens mágicos, fenômenos sobrenaturais, runas, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas têm CD 20. Por fim, mistérios e enigmas têm CD 30."
+      },
+      {
+        "nome": "Lançar Magia de Armadura",
+        "apenasTreinado": false,
+        "descricao": "Lançar uma magia arcana usando armadura exige um teste. A CD é 20 + Custo em PM da Magia. Esse teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim."
+      }
+    ]
+  }
+}

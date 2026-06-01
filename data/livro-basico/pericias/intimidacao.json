@@ -1,0 +1,28 @@
+{
+  "id": "intimidacao",
+  "tipo": "pericia",
+  "nome": "Intimidação",
+  "resumo": "Permite assustar ou coagir outras pessoas através de ameaças e pressão psicológica. Usos são efeitos de medo.",
+  "fonte": { "livro": "livro-basico", "pagina": 120 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Carisma",
+    "treinada": false,
+    "penalidadeArmadura": false,
+    "descricao": "Você pode assustar ou coagir outras pessoas. Usos de Intimidação são efeitos de medo.",
+    "usos": [
+      {
+        "nome": "Assustar",
+        "apenasTreinado": false,
+        "descricao": "Gaste uma ação padrão e faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura em alcance curto. Se você passar, ela fica abalada pelo resto da cena. Se você passar por 10 ou mais, ela fica apavorada por uma rodada e então abalada pelo resto da cena."
+      },
+      {
+        "nome": "Coagir",
+        "apenasTreinado": false,
+        "descricao": "Faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) adjacente. Se você passar, ela obedece uma ordem sua (como fazer uma pequena tarefa, deixar que você passe por um lugar que ela estava protegendo...). Se você mandá-la fazer algo perigoso ou que vá contra a natureza dela, ela recebe +5 no teste ou passa automaticamente. Este uso gasta um minuto ou mais, de acordo com o mestre, e deixa o alvo hostil contra você."
+      }
+    ]
+  }
+}
