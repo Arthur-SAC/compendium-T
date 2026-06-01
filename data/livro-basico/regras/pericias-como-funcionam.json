@@ -1,0 +1,32 @@
+{
+  "id": "pericias-como-funcionam",
+  "tipo": "regra-de-criacao",
+  "nome": "Perícias: como funcionam",
+  "resumo": "Regras gerais das perícias: valor de perícia, atributo-chave, treinamento e penalidade de armadura.",
+  "fonte": { "livro": "livro-basico", "pagina": 114 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Usando Perícias",
+      "texto": "A descrição de cada perícia explica o que você pode fazer com ela, junto com exemplos de usos e suas respectivas regras. Testes de perícia seguem a mecânica básica do jogo, apresentada na Introdução e detalhada no Capítulo 5: Jogando."
+    },
+    {
+      "titulo": "Valor de Perícia",
+      "texto": "Quando faz um teste de perícia, você soma seu valor de perícia ao resultado do d20. Esse número é uma medida de sua competência com a perícia em questão. Ele é igual à metade do seu nível (arredondado para baixo) + o atributo-chave da perícia. Nas perícias treinadas, você recebe um bônus de +2. No 7º nível, esse bônus aumenta para +4. No 15º nível, aumenta para +6.\n\nValor de Perícia = Metade do Nível + Atributo-chave + Bônus de Treinamento (se for treinado)\n\nO bônus de treinamento é +2 do 1º ao 6º níveis, +4 do 7º ao 14º níveis e +6 do 15º nível em diante."
+    },
+    {
+      "titulo": "Atributo-Chave",
+      "texto": "O atributo usado com a perícia. Por exemplo, Diplomacia envolve lábia e capacidade de argumentação, por isso seu atributo-chave é Carisma. Já Conhecimento envolve estudo e memória, por isso seu atributo-chave é Inteligência. O atributo-chave afeta seu valor de perícia."
+    },
+    {
+      "titulo": "Treinamento e Testes",
+      "texto": "Algumas perícias só podem ser usadas quando você é treinado nelas. Por exemplo, se você não é treinado em Ladinagem, não tem o conhecimento necessário para desarmar uma armadilha, independentemente de seu nível ou Destreza. Quando a palavra \"treinada\" aparece após o nome da perícia, você só poderá usá-la se for treinado nela. Além disso, algumas perícias possuem usos específicos que exigem treinamento."
+    },
+    {
+      "titulo": "Penalidade de Armadura",
+      "texto": "Algumas perícias exigem liberdade de movimento. Quando a palavra \"armadura\" aparece após o nome da perícia, você sofrerá uma penalidade nos testes dela se estiver usando armadura ou escudo. Veja o Capítulo 3: Equipamento para detalhes."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

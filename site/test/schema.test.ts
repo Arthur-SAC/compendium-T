@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema, CaminhoClasseSchema, OrigemMecanicaSchema } from "@/lib/schema";
+import { EntidadeSchema, RelacaoSchema, RacaMecanicaSchema, ClasseMecanicaSchema, CaminhoClasseSchema, OrigemMecanicaSchema, PericiaMecanicaSchema } from "@/lib/schema";
 
 const baseValida = {
   id: "sucubo",
@@ -159,4 +159,47 @@ test("entidade tipo origem aceita mecânica de origem válida", () => {
 test("entidade tipo origem rejeita mecânica sem beneficios", () => {
   const ruim = { ...origemEntValida, mecanica: { itens: ["Símbolo sagrado"], poderesUnicos: [] } };
   expect(() => EntidadeSchema.parse(ruim)).toThrow();
+});
+
+// --- Perícia ---
+
+const periciaMecValida = {
+  atributoChave: "Destreza",
+  treinada: false,
+  penalidadeArmadura: true,
+  descricao: "Você consegue fazer proezas acrobáticas.",
+  usos: [
+    { nome: "Equilíbrio", descricao: "Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair." },
+    { nome: "Amortecer Queda", cd: "15", apenasTreinado: true, descricao: "Quando cai, você pode gastar uma reação e fazer um teste de Acrobacia para reduzir o dano." },
+  ],
+};
+
+test("PericiaMecanicaSchema aceita mecânica de perícia válida", () => {
+  expect(() => PericiaMecanicaSchema.parse(periciaMecValida)).not.toThrow();
+});
+
+test("PericiaMecanicaSchema rejeita mecânica sem atributoChave", () => {
+  const { atributoChave, ...semChave } = periciaMecValida;
+  expect(() => PericiaMecanicaSchema.parse(semChave)).toThrow();
+});
+
+const periciaEntValida = {
+  id: "acrobacia",
+  tipo: "pericia",
+  nome: "Acrobacia",
+  resumo: "Permite realizar proezas acrobáticas.",
+  fonte: { livro: "livro-basico", pagina: 115 },
+  imagens: [],
+  secoes: [],
+  relacoes: [],
+  mecanica: periciaMecValida,
+};
+
+test("entidade tipo pericia aceita mecânica de perícia válida", () => {
+  expect(() => EntidadeSchema.parse(periciaEntValida)).not.toThrow();
+});
+
+test("entidade tipo pericia rejeita mecânica sem atributoChave", () => {
+  const { atributoChave, ...semChave } = periciaMecValida;
+  expect(() => EntidadeSchema.parse({ ...periciaEntValida, mecanica: semChave })).toThrow();
 });

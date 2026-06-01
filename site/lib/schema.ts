@@ -140,6 +140,23 @@ export const OrigemMecanicaSchema = z.object({
 });
 export type OrigemMecanica = z.infer<typeof OrigemMecanicaSchema>;
 
+export const UsoPericiaSchema = z.object({
+  nome: z.string(),
+  cd: z.string().optional(),
+  apenasTreinado: z.boolean().default(false),
+  descricao: z.string(),
+});
+export type UsoPericia = z.infer<typeof UsoPericiaSchema>;
+
+export const PericiaMecanicaSchema = z.object({
+  atributoChave: z.string(),
+  treinada: z.boolean().default(false),
+  penalidadeArmadura: z.boolean().default(false),
+  descricao: z.string().optional(),
+  usos: z.array(UsoPericiaSchema).default([]),
+});
+export type PericiaMecanica = z.infer<typeof PericiaMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -178,6 +195,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de origem inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "pericia") {
+      const r = PericiaMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de perícia inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }

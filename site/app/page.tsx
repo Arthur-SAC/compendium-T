@@ -23,6 +23,9 @@ export default function Home() {
         <Link href="/origens" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver todas as origens →
         </Link>
+        <Link href="/pericias" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Ver todas as perícias →
+        </Link>
       </div>
     </main>
   );
