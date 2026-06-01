@@ -1,0 +1,58 @@
+{
+  "id": "regras-de-armas",
+  "tipo": "regra-de-criacao",
+  "nome": "Regras de Armas",
+  "resumo": "Regras de proficiência, propósito, empunhadura, características e habilidades de armas do Capítulo 3.",
+  "fonte": { "livro": "livro-basico", "pagina": 141 },
+  "imagens": [
+    "extracao/cache/discEq/p-147.png",
+    "extracao/cache/discEq/p-148.png",
+    "extracao/cache/discEq/p-149.png",
+    "extracao/cache/discEq/p-153.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "Proficiência",
+      "texto": "Armas são classificadas de acordo com a proficiência necessária para usá-la (simples, marciais, exóticas ou de fogo), propósito (ataque corpo a corpo ou à distância) e empunhadura (leve, uma mão ou duas mãos).\n\nArmas Simples. Armas de manejo fácil, como adagas, clavas e lanças. Todos os personagens sabem usar armas simples.\n\nArmas Marciais. Espadas, machados e outras armas de uso específico de combatentes. Bárbaros, bardos, bucaneiros, caçadores, cavaleiros, guerreiros, nobres e paladinos sabem usar armas marciais.\n\nArmas Exóticas. Armas difíceis de dominar, como a corrente de espinhos e a espada bastarda. Exigem treinamento específico.\n\nArmas de Fogo. Armas de pólvora são raras em Arton, por isso exigem treinamento específico.\n\nPenalidade por Não Proficiência. Se você atacar com uma arma com a qual não seja proficiente, sofre –5 nos testes de ataque.\n\nTodas as criaturas são proficientes em ataques desarmados e em suas armas naturais."
+    },
+    {
+      "titulo": "Propósito",
+      "texto": "Corpo a Corpo. Podem ser usadas para atacar alvos adjacentes. Para atacar com uma arma de combate corpo a corpo, faça um teste de Luta. Quando você ataca com uma arma corpo a corpo, soma sua Força às rolagens de dano.\n\nAtaque à Distância. Podem ser usadas para atacar alvos adjacentes ou à distância. Para atacar com uma arma de combate à distância, faça um teste de Pontaria. São subdivididas em de arremesso e de disparo.\n\nArremesso. A própria arma é atirada, como uma adaga ou azagaia. Sacar uma arma de arremesso é uma ação de movimento. Quando você ataca com uma arma de arremesso, soma sua Força às rolagens de dano.\n\nDisparo. A arma dispara um projétil, como um arco atira flechas. Sacar a munição de uma arma de disparo é uma ação livre. Recarregar uma arma de disparo exige as duas mãos. Quando ataca com uma arma de disparo, não soma nenhum valor de atributo às rolagens de dano."
+    },
+    {
+      "titulo": "Empunhadura",
+      "texto": "Leve. Esta arma é usada com uma mão e se beneficia do poder Acuidade com Arma.\n\nUma mão. Esta arma é usada com uma mão, deixando a outra mão livre para outros fins.\n\nDuas mãos. Esta arma é usada com as duas mãos. Livrar uma mão é uma ação livre. Reempunhá-la é uma ação de movimento (ou livre, se você puder sacá-la dessa forma)."
+    },
+    {
+      "titulo": "Características das Armas",
+      "texto": "Preço. Inclui acessórios básicos, como bainhas para lâminas e aljavas para flechas.\n\nDano. Quando você acerta um ataque, rola o dano indicado (acrescente modificadores, se houver). O resultado é subtraído dos pontos de vida do alvo. O dano na tabela se refere a armas normais, para criaturas Pequenas e Médias. Veja a Tabela 3-2: Dano de Armas para armas menores ou maiores.\n\nCrítico. Quando você acerta um ataque rolando um 20 natural (ou seja, o dado mostra um 20), faz um acerto crítico. Neste caso, multiplique os dados de dano por 2. Bônus numéricos e dados extras (como pela habilidade Ataque Furtivo) não são multiplicados. Por exemplo, um dano de 1d8+3 torna-se 2d8+3 com um acerto crítico.\n\nCertas armas fazem críticos em margem maior que 20 ou multiplicam o dano por um valor maior que 2. Em geral, armas mais precisas (bestas, espadas...) têm margem maior, enquanto armas mais penetrantes (arcos, machados...) têm multiplicador maior.\n\nEfeitos que aumentam a margem de ameaça diminuem o número necessário para conseguir um crítico. Já efeitos que aumentam o multiplicador de crítico são acrescentados ao número do multiplicador.\n\n19. A arma tem margem de ameaça 19 ou 20.\n18. A arma tem margem de ameaça 18, 19 ou 20.\nx2, x3, x4. A arma causa dano dobrado, triplicado ou quadruplicado em caso de acerto crítico.\n19/x3. A arma tem margem de ameaça 19 ou 20 e causa dano triplicado em caso de acerto crítico.\n\nAlcance. Armas com alcance podem ser usadas para ataques à distância. As categorias de alcance são curto (9m, ou 6 quadrados em um mapa), médio (30m ou 20 quadrados) e longo (90m ou 60 quadrados). Você pode atacar dentro do alcance sem sofrer penalidades. Você pode atacar até o dobro do alcance, mas sofre –5 no teste de ataque. Armas sem alcance podem ser arremessadas em alcance curto com –5 no teste de ataque.\n\nTipo. Armas tipicamente causam dano por corte (C), impacto (I) ou perfuração (P). Certas criaturas são resistentes ou imunes a certos tipos de dano.\n\nEspaço. Quantos espaços a arma ocupa, importante para a capacidade de carga do personagem."
+    },
+    {
+      "titulo": "Habilidades de Armas",
+      "texto": "Algumas armas possuem uma ou mais das habilidades a seguir. Habilidades de armas aparecem em itálico no texto, para facilitar sua identificação.\n\nAdaptável. Uma arma de uma mão com esta habilidade pode ser usada com as duas mãos para aumentar seu dano em um passo.\n\nÁgil. Pode ser usada com Acuidade com Arma, mesmo não sendo uma arma leve.\n\nAlongada. Dobra o alcance natural do atacante, mas não permite atacar um adversário adjacente.\n\nDesbalanceada. Impõe uma penalidade de –2 em testes de ataque.\n\nDupla. Pode ser usada com Estilo de Duas Armas (e poderes similares) para fazer ataques adicionais, como se fosse uma arma de uma mão e uma arma leve. Cada \"ponta\" conta como uma arma separada para efeitos de melhorias e encantos.\n\nVersátil. Fornece bônus em uma ou mais manobras (cumulativo com outros bônus de itens), conforme a arma."
+    },
+    {
+      "titulo": "Passos de Dano",
+      "texto": "Alguns efeitos podem aumentar ou diminuir o dano da arma em um ou mais \"passos\". Por exemplo, armas aumentadas, usadas por criaturas Grandes (veja a página 106), causam um passo a mais de dano. Sempre que precisar aumentar ou diminuir o dano de uma arma em um ou mais passos, consulte a Tabela 3-2: Dano de Armas.\n\nTabela 3-2: Dano de Armas\n–2 Passos | –1 Passo | Normal       | +1 Passo | +2 Passos | +3 Passos\n1         | 1d2      | 1d3          | 1d4      | 1d6       | 1d8\n1d2       | 1d3      | 1d4          | 1d6      | 1d8       | 1d10\n1d3       | 1d4      | 1d6          | 1d8      | 1d10      | 1d12\n1d4       | 1d6      | 1d8 ou 2d4   | 1d10     | 1d12      | 3d6\n1d6       | 1d8      | 1d10         | 1d12     | 3d6       | 4d6\n1d8       | 1d10     | 1d12, 2d6 ou 3d4 | 3d6  | 4d6       | 4d8\n1d10      | 2d6      | 2d8          | 3d8      | 4d8       | 4d10\n2d6       | 2d8      | 2d10         | 3d10     | 4d10      | 4d12 (máximo)"
+    },
+    {
+      "titulo": "Ataques Desarmados e Armas Naturais",
+      "texto": "Um ataque desarmado é um soco, chute ou qualquer outro golpe que use seu próprio corpo. Um ataque desarmado é considerado uma arma leve corpo a corpo que causa dano de impacto não letal (1d3 pontos de dano para criaturas Pequenas e Médias) e não é afetado por efeitos que mencionem especificamente objetos ou armas empunhadas. Uma criatura só possui um único ataque desarmado (mas pode escolher qual parte do corpo utiliza cada vez que o desfere).\n\nArmas naturais representam partes específicas do corpo de uma criatura que podem ser usadas para desferir ataques, como chifres, garras ou uma poderosa mordida. Armas naturais são consideradas armas leves corpo a corpo e, assim como ataques desarmados, não são afetadas por efeitos que afetem especificamente objetos (uma arma natural não pode ser desarmada ou quebrada, por exemplo) ou que afetem armas que precisam ser empunhadas. A quantidade e tipo de dano de cada arma natural é apresentada em sua descrição."
+    },
+    {
+      "titulo": "Armas Improvisadas",
+      "texto": "Atacar com um objeto que não tenha sido feito para lutar (cadeiras, garrafas quebradas...) provoca penalidade de –2 no teste de ataque. Via de regra, armas improvisadas causam 1d6 pontos de dano, com crítico x2, mas esses valores podem mudar de acordo com o mestre. O tipo de dano é determinado pelo mestre (impacto para cadeira, corte para garrafa quebrada...)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categorias_proficiencia": ["simples", "marciais", "exóticas", "de fogo"],
+    "penalidade_sem_proficiencia": -5,
+    "propositos": ["corpo a corpo", "arremesso", "disparo"],
+    "empunhaduras": ["leve", "uma mão", "duas mãos"],
+    "habilidades": ["adaptável", "ágil", "alongada", "desbalanceada", "dupla", "versátil"],
+    "tipos_dano": ["corte", "impacto", "perfuração"],
+    "arma_improvisada": { "penalidade_ataque": -2, "dano": "1d6", "critico": "x2" },
+    "ataque_desarmado": { "categoria": "leve corpo a corpo", "dano": "1d3", "tipo": "impacto não letal" }
+  }
+}

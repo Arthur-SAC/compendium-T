@@ -4,24 +4,25 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-01
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento em andamento (Ondas A+B: 56 itens — armas/armaduras/escudos/munições)**. Próxima: Onda C (itens gerais).
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)**. Próxima: **Magia** (Cap. 4).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 3 — EQUIPAMENTO em andamento** (plano `docs/superpowers/plans/2026-06-01-equipamento-plano.md`;
-mapa `docs/superpowers/plans/equipamento-lista.md`). **Ondas A+B ✅.** Próximo: **Onda C — Itens Gerais (~110)**
-(Tabela 3-6, impressas 154–163): Equipamento de Aventura (17), Ferramentas (12), Vestuário (21), Esotéricos (10),
-Alquímicos preparados (8)/catalisadores (12)/venenos (10), Alimentação (7), Animais (8), Veículos (5), Serviços (~10).
-Depois **Onda D** (regras consolidadas + Melhorias/Materiais Especiais — Tabelas 3-7/3-8/3-9) e **Onda E** (integração
-+ build + PROGRESSO). Imagens já em `extracao/cache/discEq/`; schema `item` pragmático já pronto. Subagent-Driven.
+➡️ **CAPÍTULO 3 — EQUIPAMENTO CONCLUÍDO ✅.** Próxima categoria: **Magia** (Cap. 4, impressa 168+) — destrava
+a conjuração das 4 classes conjuradoras; **é a maior** (magias por círculo). Sequência: `superpowers:writing-plans`
+para o plano da fatia (provável: schema `magia` com círculo/escola/execução/alcance/duração/resistência/PM + aprimoramentos;
+`FichaMagia`; índice `/magias` agrupado por círculo/escola; regras "como funciona a magia") e executar por **Subagent-Driven**.
+Imagens da Magia ainda NÃO renderizadas (Cap. 4 = PDF 174+).
 
-**Cap. 3 — Equipamento (progresso):**
-- **Onda A (código) ✅**: `ItemMecanicaSchema` (categoria, preco, espacos, blocos opcionais `arma`/`protecao`, `especial`) + ramo no `superRefine`; `FichaItem`; índice `/equipamento` agrupado por categoria + painel; regra `riqueza-e-equipamento` (p.138). Spikes Espada Longa + Cota de Malha.
-- **Onda B (armas+proteção) ✅ (56 itens)**: 40 armas (Tabela 3-3, simples/marciais/exóticas/fogo), 4 munições (3-4), 10 armaduras + 2 escudos (3-5). Stats exatos (dano/crítico/alcance/tipo), habilidades e `especial`. Dano duplo (`/`) e crítico composto (`19/x3`) preservados. Visão 2 passadas.
-- **FALTAM:** Onda C (itens gerais), Onda D (regras + melhorias/materiais), Onda E (integração).
+**Cap. 3 — Equipamento ✅** (plano `docs/superpowers/plans/2026-06-01-equipamento-plano.md`; mapa `equipamento-lista.md`):
+- **Onda A (código) ✅**: `ItemMecanicaSchema` (categoria, preco, espacos, blocos opcionais `arma`/`protecao`, `especial`); `FichaItem`; índice `/equipamento` (armas por proficiência; armaduras leve/pesada/escudos) + painel com links pras 5 regras.
+- **Onda B ✅ (56)**: 40 armas + 4 munições + 10 armaduras + 2 escudos. Habilidades de armas viram **tooltip** (glossário p.143) e os chips de habilidade linkam.
+- **Onda C ✅ (115)**: itens gerais (aventura, ferramentas, vestuário, esotéricos, alquímicos prep/catalisadores/venenos, alimentação, animais, veículos, serviços). **Total: 171 itens.**
+- **Onda D ✅ (regras)**: `regras-de-armas`, `regras-de-armaduras`, `itens-superiores` (31 melhorias + 6 materiais especiais, Tabelas 3-7/3-8/3-9), `regras-de-itens-especiais` (venenos/pratos/instrumentos). + `riqueza-e-equipamento` (Onda A).
+- **Onda E ✅**: suíte 89 verde; build **448 páginas** (171 fichas de item + 5 regras + `/equipamento`). Visão 2 passadas em todas as ondas.
 
 **Cap. 2 — Perícias & Poderes ✅** (plano `docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md`):
 - **Perícias (29) ✅**: schema `pericia` (`PericiaMecanicaSchema` com `usos[]`), `FichaPericia` (+ selos SVG treinada/armadura no índice), `/pericias` + painel de regra, regra `pericias-como-funcionam` (p.114). Tabela 2-1, impressas 114–123.

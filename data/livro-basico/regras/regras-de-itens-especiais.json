@@ -1,0 +1,55 @@
+{
+  "id": "regras-de-itens-especiais",
+  "tipo": "regra-de-criacao",
+  "nome": "Regras de Itens Especiais",
+  "resumo": "Regras dos quadros de Venenos, Pratos Especiais e Instrumentos Musicais do Capítulo 3.",
+  "fonte": { "livro": "livro-basico", "pagina": 160 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Venenos",
+      "texto": "Substâncias naturais ou preparadas perigosas para seres vivos. Exceto se indicado o contrário, a CD para fabricar qualquer veneno é 20.\n\nVenenos são classificados de acordo com o método de inoculação:\n\n• Contato: Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado). Aplicar um veneno em uma arma exige uma ação de movimento e uma rolagem de 1d6. Se você rolar 1, se envenena acidentalmente (mas veja o poder Venefício). O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n\n• Inalação: Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação, pois o veneno pode entrar por canais lacrimais, membranas nasais e outras partes do corpo.\n\n• Ingestão: Inoculados através da ingestão de comida ou bebida.\n\nUma criatura exposta a um veneno deve fazer um teste de Fortitude (CD definida pelo aplicador do veneno, atributo-chave Int). Se falhar, sofre o efeito do veneno (efeitos em parênteses afetam vítimas que passem no teste de resistência). Efeitos que não sejam instantâneos, como perda de PV recorrente ou condições, deixam a vítima com a condição envenenada, e curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos).\n\nVENENOS (descrições):\n\n• Beladona (T$ 1.500): Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão — vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5.\n\n• Bruma Sonolenta (T$ 150): Um gás sonífero. Inalação — vítima fica inconsciente (enjoada por 1 rodada).\n\n• Cicuta (T$ 60): Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão — perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV).\n\n• Essência de Sombra (T$ 100): Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato — vítima fica debilitada (fraca).\n\n• Névoa Tóxica (T$ 30): Este gás verde queima e corrói a pele e os pulmões. Inalação — perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV).\n\n• Peçonha Comum (T$ 15): Veneno típico, extraído de animais ou plantas tóxicas. Contato — perde 1d12 PV.\n\n• Peçonha Concentrada (T$ 90): Dose concentrada da peçonha comum. Contato — perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV).\n\n• Peçonha Potente (T$ 600): Veneno poderoso, extraído de animais ou plantas perigosos. Contato — perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV).\n\n• Pó de Lich (T$ 3.000): Veneno letal, usado para assassinar alvos poderosos. Ingestão — perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5.\n\n• Riso de Nimb (T$ 150): Este gás púrpura faz a vítima rir descontroladamente e agir de forma caótica. Inalação — vítima fica confusa (lenta por 1 rodada)."
+    },
+    {
+      "titulo": "Pratos Especiais",
+      "texto": "A seção Alimentação traz pratos especiais, refeições feitas com ingredientes selecionados e que fornecem um benefício. Um prato especial deve ser consumido ao ser comprado ou fabricado. Seu bônus dura um dia e você só pode receber um bônus de alimentação por dia.\n\nNote que, se estiver usando a regra de custo de vida (veja a página 277), você não precisa se preocupar com a alimentação de seu personagem — refeições corriqueiras são apenas pano de fundo. Assim, use pratos especiais apenas quando quiser um benefício — e estiver disposto a pagar por ele!\n\nFabricar um prato especial leva 1 hora e exige um teste de Ofício (cozinheiro) contra CD 15. Você pode sofrer –5 no teste para fabricar até cinco pratos (pagando o custo de todos).\n\nPRATOS ESPECIAIS (descrições):\n\n• Batata Valkariana (T$ 2): Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Gostosas e animadoras. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia.\n\n• Gorad Quente (T$ 18): Gorad e leite, servidos quentes. O gorad ativa o cérebro, fornecendo +2 PM temporários.\n\n• Macarrão de Yuvalin (T$ 6): Prato reforçado (macarrão, bacon e creme de leite) originário de Yuvalin, cidade mineradora de Zakharov. Você recebe +5 PV temporários.\n\n• Prato do Aventureiro (T$ 1): Um cozido de galinha com legumes. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível.\n\n• Ração de Viagem (T$ 0,5): Própria para viagens, alimenta uma pessoa por um dia. Feita de alimentos conservados (carne defumada, frutas secas, pão, queijo e biscoitos). Se mantida seca dura bastante, mas quando molhada se estraga em 24 horas.\n\n• Refeição Comum (T$ 1): Uma refeição típica que inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida, geralmente cidra, vinho ou cerveja.\n\n• Sopa de Peixe (T$ 1): Um cozido de peixe com verduras. Prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível."
+    },
+    {
+      "titulo": "Instrumentos Musicais",
+      "texto": "Alguns itens da categoria ferramentas são instrumentos musicais. Tais itens são de grande importância para bardos e possuem as regras a seguir:\n\n• Você precisa empunhar um instrumento musical com as duas mãos para receber seus benefícios e para usar Músicas de Bardo (veja a página 45).\n\n• Instrumentos musicais podem ser usados como esotéricos por bardos (permitindo que lance magias usando a mão que empunha o instrumento).\n\n• Instrumentos musicais podem receber melhorias de ferramentas (contam como itens ligados a Atuação) e de esotéricos (mas afetam apenas magias lançadas por bardos).\n\nINSTRUMENTOS MUSICAIS (exemplos do capítulo):\n\n• Instrumento Musical (T$ 30): Um instrumento típico, como um bandolim, flauta ou lira. Segue todas as regras acima.\n\n• Alaúde Élfico (T$ 400): Feito com madeira de alta qualidade e manufatura delicada. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical.\n\n• Flauta Mística (T$ 400 — preço estimado, veja tabela): Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical.\n\n• Tambor das Profundezas (T$ 400 — preço estimado, veja tabela): Instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "venenos": {
+      "cd_fabricar_base": 20,
+      "atributo_chave_aplicador": "Int",
+      "tipos_inoculacao": ["Contato", "Inalação", "Ingestão"],
+      "lista": [
+        { "nome": "Beladona",           "tipo": "Ingestão",  "efeito": "Paralisada (lenta por 3 rodadas)", "efeito_resistencia": null,              "preco": "T$ 1.500", "cd_mod": "+5"  },
+        { "nome": "Bruma Sonolenta",    "tipo": "Inalação",  "efeito": "Inconsciente",                    "efeito_resistencia": "Enjoada por 1 rodada","preco": "T$ 150", "cd_mod": null },
+        { "nome": "Cicuta",             "tipo": "Ingestão",  "efeito": "Perde 1d12 PV/rodada por 3 rodadas","efeito_resistencia": "Perde 1d12 PV", "preco": "T$ 60",  "cd_mod": null  },
+        { "nome": "Essência de Sombra", "tipo": "Contato",  "efeito": "Debilitada (fraca)",               "efeito_resistencia": null,              "preco": "T$ 100", "cd_mod": null  },
+        { "nome": "Névoa Tóxica",       "tipo": "Inalação",  "efeito": "Perde 1d12 PV/rodada por 3 rodadas","efeito_resistencia": "Perde 1d12 PV", "preco": "T$ 30",  "cd_mod": null  },
+        { "nome": "Peçonha Comum",      "tipo": "Contato",  "efeito": "Perde 1d12 PV",                   "efeito_resistencia": null,              "preco": "T$ 15",  "cd_mod": null  },
+        { "nome": "Peçonha Concentrada","tipo": "Contato",  "efeito": "Perde 1d12 PV/rodada por 3 rodadas","efeito_resistencia": "Perde 1d12 PV", "preco": "T$ 90",  "cd_mod": null  },
+        { "nome": "Peçonha Potente",    "tipo": "Contato",  "efeito": "Perde 2d12 PV/rodada por 3 rodadas","efeito_resistencia": "Perde 2d12 PV", "preco": "T$ 600", "cd_mod": null  },
+        { "nome": "Pó de Lich",         "tipo": "Ingestão",  "efeito": "Perde 4d12 PV/rodada por 5 rodadas","efeito_resistencia": "Perde 4d12 PV", "preco": "T$ 3.000","cd_mod": "+5" },
+        { "nome": "Riso de Nimb",       "tipo": "Inalação",  "efeito": "Confusa",                         "efeito_resistencia": "Lenta por 1 rodada","preco": "T$ 150","cd_mod": null  }
+      ]
+    },
+    "pratos_especiais": {
+      "duracao_bonus": "1 dia",
+      "limite_por_dia": 1,
+      "cd_fabricar": 15,
+      "pericia_fabricar": "Ofício (cozinheiro)",
+      "tempo_fabricar": "1 hora",
+      "regra_multiplos": "Sofrer –5 no teste permite fabricar até 5 pratos ao mesmo tempo"
+    },
+    "instrumentos_musicais": {
+      "empunhadura": "Duas mãos (obrigatório para benefícios e Músicas de Bardo)",
+      "uso_como_esoterico": "Bardos podem lançar magias usando a mão que empunha o instrumento",
+      "melhorias_elegiveis": ["ferramentas (ligadas a Atuação)", "esotéricos (apenas magias de bardos)"]
+    }
+  }
+}

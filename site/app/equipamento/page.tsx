@@ -73,10 +73,19 @@ function Grade({ itens }: { itens: Entidade[] }) {
   );
 }
 
+const REGRAS_EQUIPAMENTO: { id: string; rotulo: string }[] = [
+  { id: "riqueza-e-equipamento", rotulo: "Riqueza & Moedas" },
+  { id: "regras-de-armas", rotulo: "Regras de Armas" },
+  { id: "regras-de-armaduras", rotulo: "Armaduras & Escudos" },
+  { id: "regras-de-itens-especiais", rotulo: "Venenos, Pratos & Instrumentos" },
+  { id: "itens-superiores", rotulo: "Itens Superiores & Materiais" },
+];
+
 export default function IndiceEquipamento() {
   const entidades = carregarEntidades();
   const itens = entidades.filter((e) => e.tipo === "item");
   const regra = entidades.find((e) => e.id === "riqueza-e-equipamento");
+  const regras = REGRAS_EQUIPAMENTO.map((r) => ({ ...r, ent: entidades.find((e) => e.id === r.id) })).filter((r) => r.ent);
 
   const grupos: Record<string, Entidade[]> = {};
   for (const it of itens) {
@@ -101,9 +110,15 @@ export default function IndiceEquipamento() {
             <li>Você pode <strong style={{ color: "var(--carmesim)" }}>carregar 10 + 2×Força espaços</strong>; ultrapassar o limite deixa você sobrecarregado.</li>
             <li>Você pode <strong style={{ color: "var(--carmesim)" }}>empunhar até 2 itens</strong> ao mesmo tempo e receber benefícios de no máximo <strong style={{ color: "var(--carmesim)" }}>4 itens vestidos</strong>.</li>
           </ul>
-          <Link href={`/ficha/${regra.tipo}/${regra.id}`} style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 13, borderBottom: "1px solid rgba(232,192,106,.4)" }}>
-            Ver as regras completas de Equipamento →
-          </Link>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px", marginTop: 4 }}>
+            <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)" }}>Regras completas:</span>
+            {regras.map((r, i) => (
+              <span key={r.id} style={{ fontFamily: "var(--serifa)", fontSize: 13 }}>
+                <Link href={`/ficha/${r.ent!.tipo}/${r.ent!.id}`} style={{ color: "var(--ouro)", textDecoration: "none", borderBottom: "1px solid rgba(232,192,106,.4)" }}>{r.rotulo}</Link>
+                {i < regras.length - 1 ? <span style={{ color: "var(--tinta-suave)" }}> · </span> : null}
+              </span>
+            ))}
+          </div>
         </section>
       )}
 

@@ -1,0 +1,91 @@
+{
+  "id": "itens-superiores",
+  "tipo": "regra-de-criacao",
+  "nome": "Itens Superiores",
+  "resumo": "Equipamentos de alta qualidade com 1 a 4 melhorias, materiais especiais e regras de fabricação do Capítulo 3.",
+  "fonte": { "livro": "livro-basico", "pagina": 163 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Itens Superiores",
+      "texto": "Itens superiores são equipamentos de alta qualidade, fabricados com as melhores técnicas e matérias-primas. Em termos de jogo, itens superiores possuem de uma a quatro melhorias. Cada melhoria fornece um benefício, mas aumenta o preço do item. Por exemplo, uma espada longa normal custa T$ 15. Uma espada longa superior com uma melhoria custa T$ 315. Já uma espada longa com quatro melhorias custa incríveis T$ 18.015!\n\nItens com uma melhoria são caros, mas ainda relativamente comuns. Por exemplo, um castelo poderoso e próspero pode equipar seus guardas com armas com uma melhoria. Itens com duas melhorias são muito valiosos, e nunca são produzidos em grande quantidade. O capitão da guarda do mesmo castelo pode ter um item com duas melhorias. Já itens com três ou quatro melhorias são obras-primas, tão ou mais famosos quanto seus portadores. O senhor ou a senhora do castelo do exemplo talvez tenha um item assim, e ele provavelmente terá sido uma herança passada de geração em geração.\n\nTabela 3-7: Preço de Melhorias\nNúmero de Melhorias | Aumento no Preço | Aumento na CD\n1                   | + T$ 300          | +5\n2                   | + T$ 3.000        | +10\n3                   | + T$ 9.000        | +15\n4                   | + T$ 18.000       | +20"
+    },
+    {
+      "titulo": "Melhorias",
+      "texto": "Apenas itens das categorias armas, armaduras e escudos, ferramentas, vestuário e esotéricos podem receber melhorias. As melhorias para cada categoria de item estão listadas na Tabela 3-8. Cada melhoria só pode ser aplicada uma vez a um mesmo item.\n\nItens superiores só podem ser fabricados por personagens com a habilidade Fabricar Item Superior (veja a página 68). A fabricação deles segue a mesma regra de itens normais, porém, de acordo com o número de melhorias, o preço e a CD do teste de Ofício aumentam (veja a Tabela 3-7).\n\nÉ possível adicionar melhorias a um item. Você paga a diferença de acordo com o novo número de melhorias. Por exemplo, para adicionar a terceira melhoria a um item que já possui duas, você precisa pagar mais T$ 2.000 (um terço da diferença de três para duas melhorias). Além disso, deve fazer um teste de Ofício contra a CD do número de melhorias que o item passará a ter e, se falhar por 5 ou mais, estraga o item."
+    },
+    {
+      "titulo": "Lista de Melhorias",
+      "texto": "Tabela 3-8: Melhorias\n\nMELHORIAS PARA ARMAS\n• Certeira: +1 nos testes de ataque. Fabricada para ser mais precisa e balanceada.\n• Pungente: +2 nos testes de ataque. Temperada diversas vezes para adquirir o fio ou o equilíbrio perfeito. Pré-requisito: Certeira.\n• Cruel: +1 nas rolagens de dano. Rebarbas, espinhos e até mesmo lâminas adicionais compõem uma arma cruel.\n• Atroz: +2 nas rolagens de dano. A arma é um amontoado de pontas, ganchos e protuberâncias. É difícil empunhá-la sem se machucar. Pré-requisito: Cruel.\n• Equilibrada: +2 em testes de manobras (desarmar, quebrar etc.). Uma arma equilibrada é forjada com o balanço perfeito, facilitando movimentos complexos.\n• Harmonizada (Arma): Custo de habilidades de ataque diminui em –1 PM. A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque ou usar a ação agredir e que custe pontos de mana — seu custo é reduzido em –1 PM. Pré-requisito: outra melhoria qualquer.\n• Injeção Alquímica: Gera efeito de preparado. Um minúsculo frasco de cerâmica ou vidro é inserido ao longo da arma, junto com um mecanismo injetor ativado por impacto. Um ataque que acerte causa dano normal e libera uma carga de um preparado (como ácido ou fogo alquímico) ou água benta, que atinge o alvo automaticamente. A melhoria tem espaço para 2 doses. Carregá-la exige uma ação completa e o gasto dos itens.\n• Maciça: +1 no multiplicador de crítico. A arma é feita com material denso, fazendo com que seus golpes tenham impacto terrível. Uma arma não pode ser maciça e precisa.\n• Material especial: Conforme o material. Veja a seção Materiais Especiais.\n• Mira telescópica: Aumenta alcance da arma. Aumenta o alcance em uma categoria (de curto para médio, de médio para longo) e o alcance da habilidade Ataque Furtivo para médio. Só pode ser aplicada em armas de disparo (exceto fundas).\n• Precisa: +1 na margem de ameaça. Cuidado especial foi tomado ao temperar o aço desta arma. Uma arma não pode ser precisa e maciça.\n\nMELHORIAS PARA ARMADURAS E ESCUDOS\n• Ajustada: –1 na penalidade de armadura. Feito com peças medidas com precisão.\n• Sob medida: –2 na penalidade de armadura. Passou por um período extenso de ajustes e refinamento, adequando-se com perfeição ao usuário específico (para outros, comporta-se como ajustada). Pré-requisito: Ajustada.\n• Delicada: Aplica 1 ponto de Des na Defesa. Apenas os materiais mais leves foram usados nesta armadura pesada. Permite que o personagem aplique 1 ponto de sua Destreza na Defesa. Uma armadura não pode ser delicada e reforçada.\n• Espinhosa (armadura): Causa dano com agarrar. Armadura coberta de espinhos; se o usuário agarrar ou for agarrado por uma criatura, causa dano de perfuração igual a sua Força. O dano é causado quando a manobra é feita e no início de cada turno, enquanto ela for mantida.\n• Espinhoso (escudo): Aumenta dano do escudo em um passo.\n• Material especial: Conforme o material. Veja a seção Materiais Especiais.\n• Polida: +5 na Defesa na primeira rodada. A armadura ou escudo foi feito com metais reluzentes. Em ambientes iluminados, o bônus de Defesa do item aumenta em +5, mas apenas na primeira rodada de combate.\n• Reforçada: +1 na Defesa, +1 na penalidade de armadura. O item possui camada adicional de tecido, malha mais densa ou placas mais grossas. Um item não pode ser reforçado e delicado.\n• Selada: +1 nos testes de resistência. A armadura foi forjada sem deixar espaço algum. Só pode ser aplicada em armaduras pesadas.\n\nMELHORIAS PARA ESOTÉRICOS\n• Canalizador: +1 no limite de PM. O esotérico possui uma gema mística que permite que você canalize mais mana do que normalmente seria capaz — o máximo de PM que você pode gastar em magias aumenta em +1.\n• Energético: +1d6 no dano de magias. Catalisadores alquímicos inseridos no item fazem com que ele potencialize energias mágicas. Suas magias que causam dano causam +1d6 pontos de dano do mesmo tipo.\n• Harmonizado (Esotérico): Custo de uma magia diminui em –1 PM. Escolha uma magia — seu custo diminui em –1 PM. Você pode mudar a magia afetada com um ritual que exige um dia e T$ 100 em ingredientes.\n• Material especial: Conforme o material. Veja a seção Materiais Especiais.\n• Poderoso: +1 na CD de suas magias. A CD para resistir a suas magias aumenta em +1.\n• Vigilante: +2 na Defesa. O item usa parte de sua mana pessoal para gerar um campo que desvia ataques.\n\nMELHORIAS PARA FERRAMENTAS E VESTUÁRIO\n• Aprimorado: +1 em testes de perícia. O item é construído de forma cuidadosa e com os melhores materiais. Só pode ser aplicada a uma ferramenta ou vestuário que modifique uma perícia (reduza uma penalidade ou forneça um bônus) e fornece um bônus de +1 nessa perícia.\n\nMELHORIAS PARA QUALQUER DAS CATEGORIAS ACIMA\n• Banhado a ouro: +2 em Diplomacia. Melhoria favorita de nobres pomposos ou de aventureiros que acabaram de enriquecer. O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação; pode atrair a cobiça de ladrões.\n• Cravejado de gemas: +2 em Enganação. É fácil ser persuadido por alguém opulento. Assim como banhado a ouro, pode atrair ladrões.\n• Discreto: –1 espaço, +5 para ocultar. O item é disfarçado como outro item inócuo ou modificado para ser telescópico. O item ocupa –1 espaço (mínimo 1) e fornece +5 em testes de Ladinagem para ser ocultado.\n• Macabro: +2 em Intimidação, –2 em Diplomacia. O macabro é pintado com sangue seco, esculpido na forma de uma caveira ou decorado com pedaços de orelhas, dedos e olhos."
+    },
+    {
+      "titulo": "Materiais Especiais",
+      "texto": "Armas, armaduras, escudos e esotéricos podem ser feitos ou banhados de um material especial. Para isso, o item precisa ter a melhoria material especial e você precisa pagar o preço extra do material escolhido, conforme a Tabela 3-9. Fabricar um item de material especial é tratado como uma melhoria porque materiais especiais exigem um trabalho mais complexo do que materiais comuns.\n\nAÇO-RUBI\nEste metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantêm a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta.\n• Arma: A arma ignora 10 pontos de redução de dano, além de ignorar a imunidade a crítico de lefeu.\n• Armadura e Escudo: Fornece uma chance de ignorar o dano extra de acertos críticos e ataques furtivos — armaduras leves e escudos, 25% (1 em 1d4); armaduras pesadas, 50% (qualquer valor par em qualquer dado), cumulativas entre si.\n• Esotérico: Quando lança uma magia que causa dano, ela ignora 10 pontos de redução de dano, além de ignorar as imunidades a dano de lefeu.\n\nADAMANTE\nEncontrado apenas em meteoritos (e por isso também chamado de \"ferro-meteórico\"), o adamante é um metal escuro, fosco e mais denso que o aço.\n• Arma: Aumenta o dano em um passo.\n• Armadura e Escudo: Fornece redução de dano — armaduras leves e escudos, RD 2; armaduras pesadas, RD 5.\n• Esotérico: Quando lança uma magia que causa dano, você pode pagar +1 PM para rolar novamente qualquer resultado 1 na rolagem de dano dela.\n\nGELO ETERNO\nAs gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico.\n• Arma: Causa +2 pontos de dano por frio.\n• Armadura e Escudo: Fornece redução de fogo — armaduras leves e escudos, redução 5; armaduras pesadas, redução 10.\n• Esotérico: Quando lança uma magia de frio que causa dano, você pode rolar novamente qualquer resultado 1 na rolagem de dano dela.\n\nMADEIRA TOLLON\nA Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon.\n• Arma: Conta como mágica para vencer redução de dano. Além disso, habilidades ativadas ao se fazer um ataque ou usar a ação agredir têm seu custo em PM reduzido em –1.\n• Escudo e Esotérico: Fornece resistência a magia +2.\n\nMATÉRIA VERMELHA\nQualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como \"matéria vermelha\". Estes itens assustadores impõem ao usuário penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação).\n• Arma: Causa +1d6 de dano extra. Porém, sempre que você acerta um ataque com a arma, perde 1 ponto de vida. Lefou e lefeu são imunes tanto ao dano extra de matéria vermelha quanto à perda de vida por usar armas desse material.\n• Armadura e Escudo: Por sua aparência \"borrada\", fornecem chance de falha para cada ataque — 10% para escudos e armaduras leves, 25% para armaduras pesadas (cumulativas entre si). Lefeu ignoram este efeito.\n• Esotérico: Você e todos os seus inimigos em alcance curto sofrem –2 em testes de resistência contra efeitos mágicos.\n\nMITRAL\nMetal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1).\n• Arma: Aumenta sua margem de ameaça em 1.\n• Armadura e Escudo: Tem sua penalidade de armadura diminuída em 2. Armaduras pesadas de mitral permitem que você aplique até dois pontos de sua Destreza na Defesa.\n• Esotérico: Permite que você pague +2 PM ao lançar uma magia para aumentar a CD dela em +2."
+    },
+    {
+      "titulo": "Preço dos Materiais Especiais",
+      "texto": "Tabela 3-9: Preço Adicional de Materiais Especiais\n\nItem             | Aço-Rubi    | Adamante     | Gelo Eterno  | Madeira Tollon | Matéria Vermelha | Mitral\nArma             | + T$ 6.000  | + T$ 3.000   | + T$ 600     | + T$ 1.500     | + T$ 1.500       | + T$ 1.500\nArmadura leve    | + T$ 3.000  | + T$ 6.000   | + T$ 1.500   | —              | + T$ 6.000       | + T$ 1.500\nArmadura pesada  | + T$ 6.000  | + T$ 18.000  | + T$ 3.000   | —              | + T$ 18.000      | + T$ 12.000\nEscudo           | + T$ 3.000  | + T$ 6.000   | + T$ 1.500   | + T$ 1.500     | + T$ 6.000       | + T$ 1.500\nEsotéricos       | + T$ 6.000  | + T$ 3.000   | + T$ 3.000   | + T$ 1.500     | + T$ 3.000       | + T$ 3.000\n\nObservação: Madeira Tollon não pode ser usada para fabricar armaduras (leves ou pesadas)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_preco_melhorias": [
+      { "num_melhorias": 1, "aumento_preco": "T$ 300",    "aumento_cd": 5  },
+      { "num_melhorias": 2, "aumento_preco": "T$ 3.000",  "aumento_cd": 10 },
+      { "num_melhorias": 3, "aumento_preco": "T$ 9.000",  "aumento_cd": 15 },
+      { "num_melhorias": 4, "aumento_preco": "T$ 18.000", "aumento_cd": 20 }
+    ],
+    "melhorias": {
+      "armas": [
+        { "nome": "Certeira",           "efeito": "+1 nos testes de ataque" },
+        { "nome": "Pungente",           "efeito": "+2 nos testes de ataque", "prerequisito": "Certeira" },
+        { "nome": "Cruel",              "efeito": "+1 nas rolagens de dano" },
+        { "nome": "Atroz",              "efeito": "+2 nas rolagens de dano", "prerequisito": "Cruel" },
+        { "nome": "Equilibrada",        "efeito": "+2 em testes de manobras" },
+        { "nome": "Harmonizada",        "efeito": "Custo de habilidades de ataque diminui em –1 PM", "prerequisito": "outra melhoria qualquer" },
+        { "nome": "Injeção Alquímica",  "efeito": "Gera efeito de preparado ao acertar" },
+        { "nome": "Maciça",             "efeito": "+1 no multiplicador de crítico" },
+        { "nome": "Material especial",  "efeito": "Conforme o material" },
+        { "nome": "Mira telescópica",   "efeito": "Aumenta alcance da arma em uma categoria" },
+        { "nome": "Precisa",            "efeito": "+1 na margem de ameaça" }
+      ],
+      "armaduras_escudos": [
+        { "nome": "Ajustada",           "efeito": "–1 na penalidade de armadura" },
+        { "nome": "Sob medida",         "efeito": "–2 na penalidade de armadura (usuário específico)", "prerequisito": "Ajustada" },
+        { "nome": "Delicada",           "efeito": "Aplica 1 ponto de Des na Defesa (apenas armaduras pesadas)" },
+        { "nome": "Espinhosa",          "efeito": "Causa dano de perfuração igual à Força ao agarrar/ser agarrado" },
+        { "nome": "Espinhoso (escudo)", "efeito": "Aumenta dano do escudo em um passo" },
+        { "nome": "Material especial",  "efeito": "Conforme o material" },
+        { "nome": "Polida",             "efeito": "+5 na Defesa na primeira rodada de combate (ambientes iluminados)" },
+        { "nome": "Reforçada",          "efeito": "+1 na Defesa e +1 na penalidade de armadura" },
+        { "nome": "Selada",             "efeito": "+1 nos testes de resistência (apenas armaduras pesadas)" }
+      ],
+      "esotericos": [
+        { "nome": "Canalizador",        "efeito": "+1 no limite de PM" },
+        { "nome": "Energético",         "efeito": "+1d6 no dano de magias" },
+        { "nome": "Harmonizado",        "efeito": "Custo de uma magia diminui em –1 PM" },
+        { "nome": "Material especial",  "efeito": "Conforme o material" },
+        { "nome": "Poderoso",           "efeito": "+1 na CD de suas magias" },
+        { "nome": "Vigilante",          "efeito": "+2 na Defesa" }
+      ],
+      "ferramentas_vestuario": [
+        { "nome": "Aprimorado",         "efeito": "+1 em testes de perícia" }
+      ],
+      "qualquer_categoria": [
+        { "nome": "Banhado a ouro",     "efeito": "+2 em Diplomacia" },
+        { "nome": "Cravejado de gemas", "efeito": "+2 em Enganação" },
+        { "nome": "Discreto",           "efeito": "–1 espaço (mínimo 1), +5 em Ladinagem para ocultar" },
+        { "nome": "Macabro",            "efeito": "+2 em Intimidação, –2 em Diplomacia" }
+      ]
+    },
+    "materiais_especiais": {
+      "tabela_precos": [
+        { "item": "Arma",           "aco_rubi": "T$ 6.000", "adamante": "T$ 3.000", "gelo_eterno": "T$ 600",   "madeira_tollon": "T$ 1.500", "materia_vermelha": "T$ 1.500", "mitral": "T$ 1.500"  },
+        { "item": "Armadura leve",  "aco_rubi": "T$ 3.000", "adamante": "T$ 6.000", "gelo_eterno": "T$ 1.500", "madeira_tollon": null,        "materia_vermelha": "T$ 6.000", "mitral": "T$ 1.500"  },
+        { "item": "Armadura pesada","aco_rubi": "T$ 6.000", "adamante": "T$ 18.000","gelo_eterno": "T$ 3.000", "madeira_tollon": null,        "materia_vermelha": "T$ 18.000","mitral": "T$ 12.000" },
+        { "item": "Escudo",         "aco_rubi": "T$ 3.000", "adamante": "T$ 6.000", "gelo_eterno": "T$ 1.500", "madeira_tollon": "T$ 1.500", "materia_vermelha": "T$ 6.000", "mitral": "T$ 1.500"  },
+        { "item": "Esotéricos",     "aco_rubi": "T$ 6.000", "adamante": "T$ 3.000", "gelo_eterno": "T$ 3.000", "madeira_tollon": "T$ 1.500", "materia_vermelha": "T$ 3.000", "mitral": "T$ 3.000"  }
+      ]
+    }
+  }
+}
