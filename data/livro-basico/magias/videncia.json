@@ -1,0 +1,23 @@
+{
+  "id": "videncia",
+  "tipo": "magia",
+  "nome": "Vidência",
+  "resumo": "Pode ver e ouvir os arredores de uma criatura.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 3,
+    "escola": "Adivinhação",
+    "execucao": "completa",
+    "alcance": "ilimitado",
+    "alvo": "1 criatura",
+    "duracao": "sustentada",
+    "resistencia": "Vontade anula",
+    "custoPM": 6,
+    "descricao": "Através de uma superfície reflexiva (bacia de água benta para clérigos, lago para druidas, bola de cristal para magos, espelho para feiticeiros etc.) você pode ver e ouvir uma criatura escolhida e seus arredores (cerca de 6m em qualquer direção), mesmo que ela se mova. O alvo pode estar a qualquer distância, mas se passar em um teste de Vontade, a magia falha. A vítima recebe bônus ou penalidades em seu teste de resistência, dependendo do conhecimento que você tiver dela.\n\n• Não conhece o alvo: +10.\n• Ouviu falar do alvo: +5.\n• O alvo está em outro plano ou mundo: +5.\n• Já encontrou o alvo pessoalmente: +0.\n• Tem uma pintura, escultura ou outra representação do alvo: –2.\n• Conhece bem o alvo: –5.\n• Tem um pertence pessoal ou peça de roupa do alvo: –5.\n• Tem uma parte do corpo do alvo (unhas, cabelos...): –10.",
+    "aprimoramentos": []
+  }
+}

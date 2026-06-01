@@ -1,0 +1,31 @@
+{
+  "id": "sonho",
+  "tipo": "magia",
+  "nome": "Sonho",
+  "resumo": "Você entra nos sonhos de uma criatura e pode interagir com ela lá.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Adivinhação",
+    "execucao": "10 minutos",
+    "alcance": "ilimitado",
+    "alvo": "1 criatura viva",
+    "duracao": "veja texto",
+    "custoPM": 10,
+    "descricao": "Você entra nos sonhos de uma criatura. Uma vez lá, pode conversar com ela até que ela acorde. Se o alvo não estiver dormindo quando você lançar a magia, você pode permanecer em transe até que ele adormeça. Durante o transe, você fica indefeso e sem consciência dos arredores. Você pode sair do transe quando quiser, mas a magia termina.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Transforma o sonho do alvo em um pesadelo. A vítima deve fazer um teste de Vontade. Se falhar, não recupera PV ou PM pela noite, sofre 1d10 pontos de dano de trevas e acorda fatigada. A vítima recebe bônus ou penalidades em seu teste de resistência, dependendo do conhecimento que você tiver dela. Use os mesmos modificadores da magia Vidência."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o número de alvos em +1. Todos os alvos compartilham um mesmo sonho (ou pesadelo) entre si e com você."
+      }
+    ]
+  }
+}

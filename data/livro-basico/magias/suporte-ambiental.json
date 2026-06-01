@@ -1,0 +1,27 @@
+{
+  "id": "suporte-ambiental",
+  "tipo": "magia",
+  "nome": "Suporte Ambiental",
+  "resumo": "Ignora efeitos de calor e frio e pode respirar na água.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "1 dia",
+    "custoPM": 1,
+    "descricao": "Esta magia facilita a sobrevivência em ambientes hostis. O alvo fica imune aos efeitos de calor e frio extremos, pode respirar na água se respirar ar (ou vice-versa) e não sufoca em fumaça densa.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas."
+      }
+    ]
+  }
+}

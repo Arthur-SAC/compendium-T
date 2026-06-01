@@ -1,0 +1,33 @@
+{
+  "id": "miragem",
+  "tipo": "magia",
+  "nome": "Miragem",
+  "resumo": "Altera uma área de forma ilusória.",
+  "fonte": { "livro": "livro-basico", "pagina": 199 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "longo",
+    "area": "cubo de até 90m de lado",
+    "duracao": "1 dia",
+    "resistencia": "Vontade desacredita",
+    "custoPM": 6,
+    "descricao": "Você faz um terreno parecer outro, incluindo sons e cheiros. Uma planície pode parecer um pântano, uma floresta pode parecer uma montanha etc. Esta magia pode ser usada para criar armadilhas: areia movediça pode parecer terra firme ou um precipício pode parecer um lago. Você pode alterar, incluir e esconder estruturas dentro da área, mas não criaturas (embora elas possam se esconder nas estruturas ilusórias).",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Além do normal, pode alterar a aparência de criaturas escolhidas na área, como se usando Disfarce Ilusório."
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda a duração para permanente e adiciona componente material (pó de diamante no valor de T$ 1.000). Requer 4º círculo.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

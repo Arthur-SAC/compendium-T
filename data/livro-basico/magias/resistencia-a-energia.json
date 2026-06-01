@@ -1,0 +1,47 @@
+{
+  "id": "resistencia-a-energia",
+  "tipo": "magia",
+  "nome": "Resistência a Energia",
+  "resumo": "Fornece resistência contra um tipo de dano a sua escolha.",
+  "fonte": { "livro": "livro-basico", "pagina": 203 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Ao lançar esta magia, escolha entre ácido, eletricidade, fogo, frio, luz ou trevas. O alvo recebe redução de dano 10 contra o tipo de dano escolhido.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a redução de dano em +5."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para um dia.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o efeito para redução de dano contra todos os tipos listados na magia.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o efeito para imunidade a um tipo listado na magia.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "voz-divina",
+  "tipo": "magia",
+  "nome": "Voz Divina",
+  "resumo": "Converse com criaturas variadas, plantas, rochas e cadáveres.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Você pode conversar com criaturas de qualquer raça e tipo: animal, construto, espírito, humanoide, monstro ou morto-vivo. Pode fazer perguntas e entende suas respostas, mesmo sem um idioma em comum ou se a criatura não for capaz de falar, mas respeitando os limites da Inteligência dela. A atitude dessas criaturas não é alterada, mas você pode usar a perícia Diplomacia para tentar mudar sua atitude.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Você concede um pouco de vida a um cadáver, suficiente para que ele responda a suas perguntas. O conhecimento do corpo é limitado ao que ele tinha enquanto vivo e suas respostas são curtas e enigmáticas. Um corpo só pode ser alvo desta magia uma vez. Ela também não funciona em um corpo cuja cabeça tenha sido destruída."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Você pode falar com plantas (normais ou monstruosas) e rochas. Plantas e rochas têm percepção limitada de seus arredores e normalmente fornecem respostas simplórias."
+      }
+    ]
+  }
+}

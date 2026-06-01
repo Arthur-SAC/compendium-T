@@ -1,0 +1,27 @@
+{
+  "id": "projetar-consciencia",
+  "tipo": "magia",
+  "nome": "Projetar Consciência",
+  "resumo": "Pode observar qualquer local ou criatura",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 5,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "ilimitado (veja texto)",
+    "alvo": "local ou criatura conhecidos",
+    "duracao": "sustentada",
+    "custoPM": 15,
+    "descricao": "Esta magia faz com que sua consciência deixe seu corpo e se transporte instantaneamente para um local ou para perto de uma criatura. Se escolher um local, ele precisa ser conhecido por você. Se escolher uma criatura, você transporta sua consciência até onde ela estiver, desde que esteja no mesmo plano. Você adquire uma forma fantasmagórica invisível, mas pode se mostrar usando uma ação de movimento. Pode se mover em qualquer direção com deslocamento de voo 18m e, por ser incorpóreo, é capaz de atravessar objetos sólidos, mas fica limitado a se mover dentro dos limites do local, ou dentro de alcance curto da criatura alvo. Você pode ver e ouvir como se estivesse presente no local e pode falar mentalmente com qualquer criatura que possa ver, contanto que tenham um idioma em comum.",
+    "aprimoramentos": [
+      {
+        "custo": "+10 PM",
+        "efeito": "Além do normal, sua projeção é capaz de lançar magias que não precisem de componentes materiais e tenham duração diferente de sustentada. Sua forma fantasmagórica funciona como na magia Forma Etérea, sendo afetada por magias de abjuração e essência, mas as magias que ela lança podem afetar criaturas corpóreas."
+      }
+    ]
+  }
+}

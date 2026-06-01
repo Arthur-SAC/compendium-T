@@ -1,0 +1,31 @@
+{
+  "id": "potencia-divina",
+  "tipo": "magia",
+  "nome": "Potência Divina",
+  "resumo": "Você aumenta de tamanho e recebe bônus de Força e redução de dano, mas perde habilidade de lançar magias.",
+  "fonte": { "livro": "livro-basico", "pagina": 201 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "sustentada",
+    "custoPM": 6,
+    "descricao": "Você canaliza o poder de sua divindade. Você aumenta uma categoria de tamanho (seu equipamento muda de acordo) e recebe Força +4 e RD 10. Você não pode lançar magias enquanto estiver sob efeito de Potência Divina.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus de Força em +1."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Aumenta a RD em +5."
+      }
+    ]
+  }
+}

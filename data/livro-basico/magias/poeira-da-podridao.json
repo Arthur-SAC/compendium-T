@@ -1,0 +1,28 @@
+{
+  "id": "poeira-da-podridao",
+  "tipo": "magia",
+  "nome": "Poeira da Podridão",
+  "resumo": "Nuvem causa dano de trevas e impede magia de cura.",
+  "fonte": { "livro": "livro-basico", "pagina": 201 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "area": "nuvem com 6m de raio",
+    "duracao": "cena",
+    "resistencia": "Fortitude (veja texto)",
+    "custoPM": 6,
+    "descricao": "Você manifesta uma nuvem de poeira carregada de energia negativa, que apodrece lentamente as criaturas na área. Ao lançar a magia, e no início de seus turnos, criaturas na área sofrem 2d8+8 pontos de dano de trevas (Fortitude reduz à metade). Alvos que falharem no teste não podem recuperar PV por uma rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d8+4."
+      }
+    ]
+  }
+}

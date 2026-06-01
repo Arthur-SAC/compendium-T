@@ -1,0 +1,42 @@
+{
+  "id": "oracao",
+  "tipo": "magia",
+  "nome": "Oração",
+  "resumo": "Aliados recebem bônus e inimigos sofrem penalidades em testes e rolagens.",
+  "fonte": { "livro": "livro-basico", "pagina": 200 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "todas as criaturas (veja texto)",
+    "duracao": "sustentada",
+    "custoPM": 3,
+    "custoEspecial": "T$ 20 por PM gasto em incensos ou outras oferendas",
+    "descricao": "Você e os seus aliados no alcance recebem +2 em testes de perícia e rolagens de dano, e todos os seus inimigos no alcance sofrem –2 em testes de perícia e rolagens de dano. Esse efeito é cumulativo com outras magias. Componente material: T$ 20 por PM gasto em incensos ou outras oferendas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta os bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta as penalidades em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o alcance para médio. Requer 3º círculo.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+12 PM",
+        "efeito": "Muda a duração para cena. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

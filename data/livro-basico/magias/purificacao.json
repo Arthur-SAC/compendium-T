@@ -1,0 +1,35 @@
+{
+  "id": "purificacao",
+  "tipo": "magia",
+  "nome": "Purificação",
+  "resumo": "Toque remove condições prejudiciais",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "custoPM": 3,
+    "descricao": "Você purifica a criatura tocada, removendo uma condição dela entre abalado, apavorado, alquebrado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo ou surdo.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Também recupera todos os PV perdidos por veneno."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Em vez de uma, remove todas as condições listadas."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Também permite que o alvo solte qualquer item amaldiçoado que esteja segurando (mas não remove a maldição do item em si)."
+      }
+    ]
+  }
+}

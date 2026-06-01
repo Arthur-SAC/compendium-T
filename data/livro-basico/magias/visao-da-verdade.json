@@ -1,0 +1,39 @@
+{
+  "id": "visao-da-verdade",
+  "tipo": "magia",
+  "nome": "Visão da Verdade",
+  "resumo": "Você enxerga através de camuflagem, escuridão, ilusão e transmutação.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 4,
+    "escola": "Adivinhação",
+    "execucao": "movimento",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 10,
+    "descricao": "Você enxerga a forma real das coisas. Você pode ver através de camuflagem e escuridão (normais e mágicas), assim como efeitos de ilusão e transmutação (enxergando a verdade como formas translúcidas ou sobrepostas).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, o alvo fica com sentidos apurados; ele recebe +10 em todos os testes de Percepção."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, o alvo escuta falsidades; ele recebe +10 em todos os testes de Intuição."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Além do normal, o alvo enxerga através de paredes e barreiras com 30cm de espessura ou menos (as paredes e barreiras parecem translúcidas)."
+      }
+    ]
+  }
+}

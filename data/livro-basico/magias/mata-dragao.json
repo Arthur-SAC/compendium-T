@@ -1,0 +1,28 @@
+{
+  "id": "mata-dragao",
+  "tipo": "magia",
+  "nome": "Mata-Dragão",
+  "resumo": "Dispara uma rajada de energia destruidora.",
+  "fonte": { "livro": "livro-basico", "pagina": 198 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 5,
+    "escola": "Evocação",
+    "execucao": "duas rodadas",
+    "alcance": "pessoal",
+    "area": "cone de 30m",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 15,
+    "descricao": "Esta é uma das mais poderosas magias de destruição existentes. Após entoar longos cânticos, o conjurador dispara uma carga de energia que varre uma enorme área à sua frente, causando 20d12 pontos de dano de essência em todas as criaturas, construções e objetos livres atingidos. Sempre que rola um resultado 12 em um dado de dano, a magia causa +1d12 pontos de dano. Apesar de seu poder destrutivo, esta magia é lenta, tornando seu uso difícil em combate.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano em +1d12."
+      }
+    ]
+  }
+}

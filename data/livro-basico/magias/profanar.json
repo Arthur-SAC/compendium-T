@@ -1,0 +1,36 @@
+{
+  "id": "profanar",
+  "tipo": "magia",
+  "nome": "Profanar",
+  "resumo": "Conspurca a área, maximizando dano de trevas",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "longo",
+    "area": "esfera com 9m de raio",
+    "duracao": "1 dia",
+    "custoPM": 1,
+    "descricao": "Você enche a área com energia negativa. Dano de trevas é maximizado dentro da área. Isso também afeta PV curados em mortos-vivos por esses efeitos. Esta magia não pode ser lançada em uma área contendo um símbolo visível dedicado a uma divindade que não a sua. Profanar anula Consagrar.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, mortos-vivos na área recebem +2 na Defesa e +2 em todos os testes."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta os bônus para mortos-vivos em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda a execução para 1 hora, a duração para permanente e adiciona componente material (incenso e óleos no valor de T$ 1.000).",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

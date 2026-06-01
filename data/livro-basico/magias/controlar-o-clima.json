@@ -1,0 +1,27 @@
+{
+  "id": "controlar-o-clima",
+  "tipo": "magia",
+  "nome": "Controlar o Clima",
+  "resumo": "Muda o clima de uma área.",
+  "fonte": { "livro": "livro-basico", "pagina": 187 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 4,
+    "escola": "Transmutação",
+    "execucao": "completa",
+    "alcance": "2km",
+    "area": "esfera com 2km de raio",
+    "duracao": "4d12 horas",
+    "custoPM": 10,
+    "descricao": "Você muda o clima da área onde se encontra, podendo criar qualquer condição climática: chuva, neve, ventos, névoas... Veja o Capítulo 6: O Mestre para os efeitos do clima.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "(Apenas Druidas) Muda o raio da área para 3km e duração para 1d4 dias."
+      }
+    ]
+  }
+}

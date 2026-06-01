@@ -1,0 +1,41 @@
+{
+  "id": "protecao-divina",
+  "tipo": "magia",
+  "nome": "Proteção Divina",
+  "resumo": "Alvo recebe bônus em testes de resistência",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Esta magia cria uma barreira mística invisível que fornece ao alvo +2 em testes de resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus concedido em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a execução para reação, o alcance para curto e a duração para 1 rodada. Em vez do normal, o alvo recebe +5 no próximo teste de resistência que fizer (cumulativo com o efeito básico desta magia)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para área de esfera com 3m de raio. Todos os aliados dentro do círculo recebem o bônus da magia.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Torna o alvo imune a efeitos mentais e de medo.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

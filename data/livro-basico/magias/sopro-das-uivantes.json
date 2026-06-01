@@ -1,0 +1,33 @@
+{
+  "id": "sopro-das-uivantes",
+  "tipo": "magia",
+  "nome": "Sopro das Uivantes",
+  "resumo": "Explosão em cone causa dano de frio e empurra alvos.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 9m",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 3,
+    "descricao": "Você sopra ar gélido que causa 4d6 pontos de dano de frio (Fortitude reduz à metade). Criaturas de tamanho Médio ou menor que falhem na resistência ficam caídas e são empurradas 6m na direção oposta. Se houver uma parede ou outro objeto sólido (mas não uma criatura) no caminho, a criatura para de se mover, mas sofre +2d6 pontos de dano de impacto.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano de frio em +2d6."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o tamanho máximo das criaturas afetadas em uma categoria.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

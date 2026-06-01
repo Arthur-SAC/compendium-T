@@ -1,0 +1,27 @@
+{
+  "id": "vitalidade-fantasma",
+  "tipo": "magia",
+  "nome": "Vitalidade Fantasma",
+  "resumo": "Você recebe pontos de vida temporários.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Você suga energia vital da terra, recebendo 2d10 pontos de vida temporários. Os PV temporários desaparecem ao final da cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta os PV temporários recebidos em +1d10. Caso a magia cause dano, em vez disso aumenta o dano causado em +1d10."
+      }
+    ]
+  }
+}

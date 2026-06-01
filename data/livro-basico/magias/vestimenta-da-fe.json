@@ -1,0 +1,37 @@
+{
+  "id": "vestimenta-da-fe",
+  "tipo": "magia",
+  "nome": "Vestimenta da Fé",
+  "resumo": "Traje, armadura ou escudo recebe bônus na Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 210 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 armadura, escudo ou vestuário",
+    "duracao": "1 dia",
+    "custoPM": 3,
+    "descricao": "Você fortalece um item, aumentando o bônus de Defesa de uma armadura ou escudo em +2. No caso de um vestuário, ele passa a oferecer +2 na Defesa (não cumulativo com armadura). Os efeitos desta magia contam como um bônus de encanto.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "O objeto oferece o mesmo bônus em testes de resistência.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Aumenta o bônus em +1."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "O objeto também oferece redução de dano 5.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

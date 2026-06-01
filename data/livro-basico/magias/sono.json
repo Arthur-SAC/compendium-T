@@ -1,0 +1,36 @@
+{
+  "id": "sono",
+  "tipo": "magia",
+  "nome": "Sono",
+  "resumo": "Alvo cai em um sono profundo ou fica exausto.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 humanoide",
+    "duracao": "cena",
+    "resistencia": "Vontade parcial",
+    "custoPM": 1,
+    "descricao": "Um cansaço místico recai sobre o alvo. Se falhar na resistência, ele fica inconsciente e caído ou, se estiver envolvido em combate ou outra situação perigosa, fica exausto por 1 rodada, depois fatigado. Em ambos os casos, se passar, o alvo fica fatigado por 1d4 rodadas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Alvos que falhem na resistência ficam exaustos por 1d4+1 rodadas, em vez de apenas 1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para criatura."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Afeta todos os alvos válidos a sua escolha dentro do alcance."
+      }
+    ]
+  }
+}

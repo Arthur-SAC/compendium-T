@@ -1,0 +1,31 @@
+{
+  "id": "dificultar-deteccao",
+  "tipo": "magia",
+  "nome": "Dificultar Detecção",
+  "resumo": "Protege uma criatura ou objeto contra detecção e vidência.",
+  "fonte": { "livro": "livro-basico", "pagina": 190 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura ou objeto",
+    "duracao": "1 dia",
+    "custoPM": 6,
+    "descricao": "Esta magia oculta a presença do alvo contra qualquer meio mágico de detecção, inclusive detectar magia. Um conjurador que lance uma magia de adivinhação para detectar a presença ou localização do alvo deve fazer um teste de Vontade. Se falhar, a magia não funciona, mas os PM são gastos mesmo assim. Se for lançada sobre uma criatura, Dificultar Detecção protege tanto a criatura quanto seu equipamento.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alvo para área de cubo de 9m. Qualquer criatura ou objeto na área recebe o efeito da magia enquanto estiver dentro dela."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a duração para 1 semana."
+      }
+    ]
+  }
+}

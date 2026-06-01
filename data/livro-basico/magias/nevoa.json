@@ -1,0 +1,48 @@
+{
+  "id": "nevoa",
+  "tipo": "magia",
+  "nome": "Névoa",
+  "resumo": "Cria uma névoa que oferece camuflagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 200 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "efeito": "nuvem com 6m de raio e 6m de altura",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Uma névoa espessa eleva-se de um ponto a sua escolha, obscurecendo toda a visão — criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total. Um vento forte dispersa a névoa em 4 rodadas e um vendaval a dispersa em 1 rodada. Esta magia não funciona sob a água.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "A magia também funciona sob a água, criando uma nuvem de tinta."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Você pode escolher criaturas no alcance ao lançar a magia; elas enxergam através do efeito. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "A nuvem tem um cheiro horrível. No início de seus turnos, qualquer criatura dentro dela, ou qualquer criatura com faro em alcance curto da nuvem, deve fazer um teste de Fortitude. Se falhar, fica enjoada por uma rodada."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "A nuvem tem um tom esverdeado e se torna cáustica. No início de seus turnos, criaturas dentro dela sofrem 2d4 pontos de dano de ácido."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o dano de ácido em +2d4."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Além do normal, a nuvem fica espessa, quase sólida. Qualquer criatura dentro dela tem seu deslocamento reduzido para 3m (independentemente de seu deslocamento normal) e sofre –2 em testes de ataque e rolagens de dano."
+      }
+    ]
+  }
+}

@@ -1,9 +1,12 @@
 {
-  "id": "furia-do-panteo",
+  "id": "furia-do-panteao",
   "tipo": "magia",
   "nome": "Fúria do Panteão",
   "resumo": "Nuvem gera efeitos destrutivos.",
-  "fonte": { "livro": "livro-basico", "pagina": 194 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 194
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

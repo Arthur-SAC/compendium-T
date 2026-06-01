@@ -1,0 +1,36 @@
+{
+  "id": "toque-chocante",
+  "tipo": "magia",
+  "nome": "Toque Chocante",
+  "resumo": "Toque causa dano de eletricidade.",
+  "fonte": { "livro": "livro-basico", "pagina": 209 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "custoPM": 1,
+    "descricao": "Arcos elétricos envolvem sua mão, causando 2d8+2 pontos de dano de eletricidade. Se o alvo usa armadura de metal (ou carrega muito metal, a critério do mestre), sofre uma penalidade de –5 no teste de resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a resistência para nenhuma. Como parte da execução da magia, você faz um ataque corpo a corpo contra o alvo. Se acertar, causa o dano do ataque e da magia."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para área: esfera com 6m de raio. Você dispara raios pelas pontas dos dedos que afetam todas as criaturas na área."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mao-poderosa-de-talude",
+  "tipo": "magia",
+  "nome": "Mão Poderosa de Talude",
+  "resumo": "Mão gigante feita de energia pode realizar várias ações.",
+  "fonte": { "livro": "livro-basico", "pagina": 197 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "efeito": "mão gigante de energia",
+    "duracao": "sustentada",
+    "custoPM": 10,
+    "descricao": "Esta magia cria uma mão flutuante Grande que sempre se posiciona entre você e um oponente a sua escolha. A mão fornece cobertura leve (+5 na Defesa) contra esse oponente. Nada é capaz de enganar a mão — coisas como escuridão, invisibilidade, metamorfose e disfarces mundanos não a impedem de protegê-lo. A mão tem Defesa 20 e PV e resistências iguais aos seus. Com uma ação de movimento, você pode comandar a mão para que o proteja de outro oponente ou para que realize uma das ações a seguir.\n\nAgarrar: a mão usa uma manobra agarrar contra o oponente, usando o seu Misticismo com um bônus adicional de +10. A mão mantém o oponente agarrado, mas não causa dano.\n\nEsmarar: a mão esmaga um oponente agarrado, causando 2d6+10 pontos de dano de impacto.\n\nEmpurrar: a mão afasta o oponente (manobra empurrar usando o seu Misticismo com um bônus adicional de +10). A mão acompanha o oponente para empurrá-lo o máximo que conseguir, dentro do alcance da magia.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d6+5."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o bônus adicional em Misticismo para +20.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

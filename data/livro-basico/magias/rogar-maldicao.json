@@ -1,0 +1,34 @@
+{
+  "id": "rogar-maldicao",
+  "tipo": "magia",
+  "nome": "Rogar Maldição",
+  "resumo": "O alvo sofre efeitos prejudiciais variados.",
+  "fonte": { "livro": "livro-basico", "pagina": 203 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "sustentada",
+    "resistencia": "Fortitude anula",
+    "custoPM": 3,
+    "descricao": "Você entoa cânticos maléficos que amaldiçoam uma vítima, criando efeitos variados. Ao lançar a magia, escolha entre os seguintes.\n\n**Debilidade:** o alvo fica esmorecido e não pode se comunicar ou lançar magias. Ainda reconhece seus aliados e pode segui-los e ajudá-los, mas sempre de maneira simplória.\n\n**Doença:** muda a duração para instantânea. O alvo contrai uma doença a sua escolha, que o afeta imediatamente (sem período de incubação).\n\n**Fraqueza:** o alvo fica debilitado e lento.\n\n**Isolamento:** o alvo perde o uso de um de seus cinco sentidos a sua escolha. Se perder a visão, fica cego. Se perder a audição, fica surdo. Se perder o olfato ou paladar, não pode usar a habilidade faro. Se perder o tato, fica caído e não pode se levantar.\n\nVocê também pode inventar sua própria maldição, usando esses exemplos como sugestões, mas o mestre tem a palavra final sobre o efeito.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o número de efeitos que você pode escolher em +1.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda a duração para permanente e resistência para Fortitude parcial. Se passar, a criatura ainda sofre os efeitos da maldição, mas por 1 rodada.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

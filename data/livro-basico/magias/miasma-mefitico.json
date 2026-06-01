@@ -1,0 +1,33 @@
+{
+  "id": "miasma-mefitico",
+  "tipo": "magia",
+  "nome": "Miasma Mefítico",
+  "resumo": "Nuvem causa dano de ácido e enjoo.",
+  "fonte": { "livro": "livro-basico", "pagina": 199 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "area": "nuvem com 6m de raio",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude (veja texto)",
+    "custoPM": 3,
+    "descricao": "A área é coberta por emanações letais. Criaturas na área sofrem 5d6 pontos de dano de ácido e ficam enjoadas por 1 rodada. Se passarem na resistência, sofrem metade do dano e não ficam enjoadas.",
+    "truque": "Muda o alcance para toque, a área para alvo (1 criatura com 0 PV ou menos), a duração para instantânea, a resistência para Fortitude anula e adiciona componente material (pó de ônix no valor de T$ 10). Em vez do normal, você canaliza o Miasma contra uma vítima. Se falhar na resistência, ela morre e você recebe +2 na CD de suas magias por um dia. Se passar, fica imune a este truque por um dia.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d6."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o tipo do dano para trevas."
+      }
+    ]
+  }
+}

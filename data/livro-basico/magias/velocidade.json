@@ -1,0 +1,37 @@
+{
+  "id": "velocidade",
+  "tipo": "magia",
+  "nome": "Velocidade",
+  "resumo": "Alvo pode fazer ações adicionais.",
+  "fonte": { "livro": "livro-basico", "pagina": 210 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "sustentada",
+    "custoPM": 3,
+    "descricao": "O alvo pode realizar uma ação padrão ou de movimento adicional por turno. Esta ação não pode ser usada para lançar magias e ativar engenhocas.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "efeito": "Muda a duração para cena. A ação adicional que você pode fazer é apenas de movimento. Uma criatura só pode receber uma ação adicional por turno como efeito de Velocidade."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o alvo para criaturas escolhidas no alcance.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para você. Você acelera sua mente, além de seu corpo. A ação adicional pode ser usada para lançar magias e ativar engenhocas.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

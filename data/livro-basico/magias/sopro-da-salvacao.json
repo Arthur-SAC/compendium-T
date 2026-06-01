@@ -1,0 +1,35 @@
+{
+  "id": "sopro-da-salvacao",
+  "tipo": "magia",
+  "nome": "Sopro da Salvação",
+  "resumo": "Cone cura aliados e remove condições prejudiciais.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 9m",
+    "duracao": "instantânea",
+    "custoPM": 6,
+    "descricao": "Você enche seus pulmões de luz e energia positiva e sopra um cone de poeira reluzente. O sopro afeta apenas seus aliados na área, curando 2d8+4 pontos de vida e removendo uma das seguintes condições de todos os alvos: abalado, atordoado, apavorado, alquebrado, cego, confuso, debilitado, enfeitiçado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, paralisado, pasmo e surdo.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a cura em +1d8+2."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Além do normal, se um aliado estiver com PV negativos, seus PV são levados a 0 e então a cura é aplicada."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Remove todas as condições listadas, em vez de apenas uma."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "voo",
+  "tipo": "magia",
+  "nome": "Voo",
+  "resumo": "Você recebe deslocamento voo 12m.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 6,
+    "descricao": "Você recebe deslocamento de voo 12m. Voar por meio desta magia é simples como andar — você pode atacar e lançar magias normalmente enquanto voa. Quando a magia termina, você desce lentamente até o chão, como se estivesse sob efeito de Queda Suave.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a duração para um dia.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alcance para curto e o alvo para até 10 criaturas.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

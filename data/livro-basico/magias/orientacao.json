@@ -1,0 +1,38 @@
+{
+  "id": "orientacao",
+  "tipo": "magia",
+  "nome": "Orientação",
+  "resumo": "Alvo recebe bônus nos testes de perícia.",
+  "fonte": { "livro": "livro-basico", "pagina": 200 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "1 rodada",
+    "custoPM": 1,
+    "descricao": "Em seu próximo teste de perícia, o alvo pode rolar dois dados e ficar com o melhor resultado.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para cena. Em vez do normal, escolha um atributo. Sempre que o alvo fizer um teste de perícia baseado no atributo escolhido, pode rolar dois dados e ficar com o melhor resultado. Não se aplica a testes de ataque ou resistência. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Como acima, mas, em vez de um atributo, escolha entre atributos físicos (Força, Destreza e Constituição) ou mentais (Inteligência, Sabedoria e Carisma). Requer 3º círculo.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alvo para criaturas escolhidas. Requer 3º círculo.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

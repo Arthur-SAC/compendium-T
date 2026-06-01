@@ -1,0 +1,35 @@
+{
+  "id": "visao-mistica",
+  "tipo": "magia",
+  "nome": "Visão Mística",
+  "resumo": "Você pode ver auras mágicas.",
+  "fonte": { "livro": "livro-basico", "pagina": 211 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Seus olhos brilham com uma luz azul e passam a enxergar auras mágicas. Este efeito é similar ao uso de Misticismo para detectar magia, mas você detecta todas as auras mágicas em alcance médio e recebe todas as informações sobre elas sem gastar ações. Além disso, você pode gastar uma ação de movimento para descobrir se uma criatura que possa perceber em alcance médio é capaz de lançar magias e qual a aura gerada pelas magias de círculo mais alto que ela pode lançar.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Recebe visão no escuro."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para um dia."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Também pode enxergar objetos e criaturas invisíveis. Eles aparecem como formas translúcidas."
+      }
+    ]
+  }
+}

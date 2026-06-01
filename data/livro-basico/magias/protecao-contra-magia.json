@@ -1,0 +1,43 @@
+{
+  "id": "protecao-contra-magia",
+  "tipo": "magia",
+  "nome": "Proteção contra Magia",
+  "resumo": "Concede bônus em testes de resistência contra magias",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 6,
+    "descricao": "Você protege o alvo contra efeitos mágicos nocivos. O alvo recebe +5 em testes de resistência contra magias.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o bônus para +10.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Em vez do normal, o alvo fica imune a uma escola de magia a sua escolha.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Também dissipa magias e efeitos prejudiciais de encantamento, necromancia e transmutação afetando o alvo.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Em vez do normal, o alvo fica imune a duas escolas de magia a sua escolha.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

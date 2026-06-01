@@ -1,0 +1,31 @@
+{
+  "id": "silencio",
+  "tipo": "magia",
+  "nome": "Silêncio",
+  "resumo": "Cria uma área em que é impossível ouvir sons ou lançar magias.",
+  "fonte": { "livro": "livro-basico", "pagina": 205 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "area": "esfera com 6m de raio",
+    "duracao": "sustentada",
+    "custoPM": 3,
+    "descricao": "Um silêncio sepulcral recai sobre a área e nenhum som é produzido nela. Enquanto estiverem na área, todas as criaturas ficam surdas. Além disso, como lançar magias exige palavras mágicas, normalmente nenhuma magia pode ser lançada dentro da área.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a área para alvo de 1 objeto. Em vez do normal, o alvo emana uma área de silêncio com 3m de raio. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para cena. Em vez do normal, nenhum som pode deixar a área, mas criaturas dentro da área podem falar, ouvir e lançar magias com palavras mágicas normalmente."
+      }
+    ]
+  }
+}

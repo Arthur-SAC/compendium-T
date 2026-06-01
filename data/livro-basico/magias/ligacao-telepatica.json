@@ -1,0 +1,32 @@
+{
+  "id": "ligacao-telepatica",
+  "tipo": "magia",
+  "nome": "Ligação Telepática",
+  "resumo": "Estabelece um vínculo telepático entre duas ou mais criaturas.",
+  "fonte": { "livro": "livro-basico", "pagina": 196 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "2 criaturas voluntárias",
+    "duracao": "1 dia",
+    "custoPM": 3,
+    "descricao": "Você cria um elo mental entre duas criaturas com Inteligência –4 ou maior (você pode ser uma delas). As criaturas podem se comunicar independente de idioma ou distância, mas não em mundos diferentes.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alvo para 1 criatura. Em vez do normal, você cria um elo mental que permite que você veja e ouça pelos sentidos da criatura, se gastar uma ação de movimento. Uma criatura involuntária pode fazer um teste de Vontade para suprimir a magia por uma hora.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

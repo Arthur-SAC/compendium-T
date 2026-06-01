@@ -1,0 +1,28 @@
+{
+  "id": "sombra-assassina",
+  "tipo": "magia",
+  "nome": "Sombra Assassina",
+  "resumo": "Manifesta uma cópia ilusória do alvo, que luta contra ele.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 5,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "resistencia": "Vontade parcial",
+    "custoPM": 15,
+    "descricao": "Esta magia cria uma duplicata ilusória do alvo na forma de uma silhueta, ligada a ele como se fosse uma manifestação sólida de sua própria sombra. A duplicata de sombras segue automaticamente o alvo. Sempre que o alvo faz uma ação hostil — fazer um ataque, usar uma habilidade, lançar uma magia — a sombra imediatamente realiza a mesma ação contra o alvo, usando as mesmas estatísticas e rolagens. A sombra pode ser atacada, tem as mesmas estatísticas do alvo e é destruída quando chega a 0 PV. Se o alvo passar no teste de resistência, a sombra desaparece no final do turno do alvo, depois de copiar sua ação dessa rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+10 PM",
+        "efeito": "Muda o alvo para criaturas escolhidas na área."
+      }
+    ]
+  }
+}

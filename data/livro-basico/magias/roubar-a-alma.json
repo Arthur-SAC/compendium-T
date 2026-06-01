@@ -1,0 +1,33 @@
+{
+  "id": "roubar-a-alma",
+  "tipo": "magia",
+  "nome": "Roubar a Alma",
+  "resumo": "Arranca a alma do alvo e a prende em um objeto.",
+  "fonte": { "livro": "livro-basico", "pagina": 203 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 5,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "permanente",
+    "resistencia": "Vontade parcial",
+    "custoPM": 15,
+    "custoEspecial": "Sacrifício de 1 PM. O objeto escolhido deve custar T$ 1.000 por nível ou ND da criatura e não possuir uma alma presa.",
+    "descricao": "Você rouba a alma da vítima, armazenando-a em um objeto. Se o alvo passar no teste de resistência, sente o impacto de sua alma ser puxada para fora do corpo e fica abalado por 1 rodada. Se falhar, seu corpo fica caído, inconsciente e inerte, enquanto sua alma é transportada para dentro do objeto. O corpo não envelhece nem se decompõe, permanecendo em estase. Ele pode ser atacado e destruído normalmente. O objeto escolhido deve custar T$ 1.000 por nível ou ND da criatura e não possuir uma alma presa ou se quebrará quando a magia for lançada (embora personagens não conheçam o conceito de nivel dentro do mundo de jogo, podem ter noção do poder geral de uma criatura, estimando assim o valor do objeto). Se o objeto for destruído, a magia se esvai. Se o corpo ainda estiver disponível, a alma retorna para ele. Caso contrário, escapa para os Mundos dos Deuses.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "efeito": "O objeto que abriga a alma detém os mesmos PM totais que o alvo. Se estiver empunhando o objeto, você pode usar esses PM para lançar magias no lugar dos seus. O objeto recupera PM por dia como se o personagem estivesse em descanso normal."
+      },
+      {
+        "custo": "+10 PM",
+        "efeito": "Como uma reação ao lançar esta magia, você possui o corpo sem alma do alvo, como na magia Possessão (mesmo que não conheça a magia)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "servo-morto-vivo",
+  "tipo": "magia",
+  "nome": "Servo Morto-Vivo",
+  "resumo": "Cria um parceiro morto-vivo sob seu comando.",
+  "fonte": { "livro": "livro-basico", "pagina": 205 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 3,
+    "escola": "Necromancia",
+    "execucao": "completa",
+    "alcance": "toque",
+    "alvo": "1 cadáver",
+    "duracao": "instantânea",
+    "custoPM": 6,
+    "custoEspecial": "ônix negro (T$ 100), inserido na boca ou olho do cadáver",
+    "descricao": "Esta magia transforma o cadáver de um humanoide, animal ou monstro em um esqueleto ou zumbi (conforme o estado de conservação do corpo). O morto-vivo então obedece a todos os seus comandos, mesmo suicidas. Se quiser que o morto-vivo o acompanhe, ele funciona como um parceiro iniciante, de um tipo a sua escolha entre ajudante, atirador, combatente, fortão, guardião ou montaria.\n\nUma vez por rodada, quando sofre dano, você pode sacrificar um servo morto-vivo e evitar esse dano. O servo é destruído no processo e não pode ser reanimado.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o componente material para pó de ônix negro (T$ 500). Em vez de um zumbi ou esqueleto, cria um carniçal. Ele pode funcionar como um parceiro veterano, escolhido entre ajudante, atirador, combatente, fortão ou guardião. O resto segue normal."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o componente material para pó de ônix negro (T$ 500). Em vez de um zumbi ou esqueleto, cria uma sombra. Ela pode funcionar como um parceiro veterano, escolhido entre assassino, combatente ou perseguidor. O restante da magia segue normal."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o componente material para ferramentas de embalsamar (T$ 1.000). Em vez de um zumbi ou esqueleto, cria uma múmia. Ela pode funcionar como um parceiro mestre, escolhido entre ajudante, destruidor, guardião ou médico. O restante da magia segue normal.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "selo-de-mana",
+  "tipo": "magia",
+  "nome": "Selo de Mana",
+  "resumo": "Você sela a energia de uma criatura, impedindo que use pontos de mana.",
+  "fonte": { "livro": "livro-basico", "pagina": 204 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 3,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "resistencia": "Vontade parcial",
+    "custoPM": 6,
+    "descricao": "Seu toque manifesta um selo mágico na pele do alvo, que atrapalha o fluxo de mana. Pela duração da magia, sempre que o alvo realizar qualquer ação que gaste PM, deve fazer um teste de Vontade; se passar, faz a ação normalmente. Se falhar, a ação não tem efeito (mas os PM são gastos mesmo assim).",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas dentro do alcance.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

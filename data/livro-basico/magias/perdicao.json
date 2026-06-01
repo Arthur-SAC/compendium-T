@@ -1,0 +1,27 @@
+{
+  "id": "perdicao",
+  "tipo": "magia",
+  "nome": "Perdição",
+  "resumo": "Inimigos sofrem penalidade nos ataques e danos.",
+  "fonte": { "livro": "livro-basico", "pagina": 201 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "criaturas escolhidas",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Amaldiçoa os alvos, que recebem –1 em testes de ataque e rolagens de dano. Perdição anula Bênção.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta as penalidades em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar)."
+      }
+    ]
+  }
+}

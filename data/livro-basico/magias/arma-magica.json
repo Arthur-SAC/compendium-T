@@ -1,0 +1,35 @@
+{
+  "id": "arma-magica",
+  "tipo": "magia",
+  "nome": "Arma Mágica",
+  "resumo": "Arma recebe bônus ou poderes mágicos.",
+  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 arma empunhada",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "A arma é considerada mágica e fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto). Caso você esteja empunhando a arma, pode usar seu atributo-chave de magias em vez do atributo original nos testes de ataque (não cumulativo com efeitos que somam este atributo).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "A arma causa +1d6 de dano de ácido, eletricidade, fogo ou frio, escolhido quando a magia é lançada. Este aprimoramento só pode ser usado uma vez."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o bônus de dano do aprimoramento acima para +2d6."
+      }
+    ]
+  }
+}

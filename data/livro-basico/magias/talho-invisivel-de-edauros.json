@@ -1,0 +1,32 @@
+{
+  "id": "talho-invisivel-de-edauros",
+  "tipo": "magia",
+  "nome": "Talho Invisível de Edauros",
+  "resumo": "Lâmina de ar em alta velocidade corta os alvos.",
+  "fonte": { "livro": "livro-basico", "pagina": 206 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 9m",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 10,
+    "descricao": "Esta magia cruel foi desenvolvida pelo mago de combate Edauros, quando ainda era um bípede. Você faz um gesto rápido e dispara uma lâmina de ar em alta velocidade. Criaturas na área sofrem 10d8 pontos de dano de corte e ficam sangrando. Alvos que passem no teste de resistência sofrem metade do dano e não ficam sangrando.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +2d8."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para você, a duração para sustentada e o efeito para uma vez por rodada, como uma ação de movimento, você pode disparar uma lâmina de ar contra um alvo em alcance médio, causando 6d8 pontos de dano de corte (Fortitude reduz à metade)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "premonicao",
+  "tipo": "magia",
+  "nome": "Premonição",
+  "resumo": "Você vislumbra o futuro e pode refazer testes.",
+  "fonte": { "livro": "livro-basico", "pagina": 201 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 4,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 10,
+    "descricao": "Vislumbres do futuro permitem que você reavalie suas ações. Uma vez por rodada, você pode rolar novamente um teste recém realizado, mas deve aceitar o resultado da nova rolagem.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura. A magia falha se você e o alvo não forem devotos da mesma divindade."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a execução para reação, o alcance para curto, o alvo para 1 criatura e a duração para instantânea. Esta magia só pode ser usada em uma criatura que tenha acabado de fazer um teste. Obriga a criatura a fazer uma nova rolagem de dados e aceitar o novo resultado, seja ele um sucesso ou falha. Criaturas involuntárias têm direito a um teste de Vontade para negar o efeito."
+      },
+      {
+        "custo": "+10 PM",
+        "efeito": "Muda a duração para um dia."
+      }
+    ]
+  }
+}

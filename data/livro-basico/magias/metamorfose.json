@@ -1,0 +1,56 @@
+{
+  "id": "metamorfose",
+  "tipo": "magia",
+  "nome": "Metamorfose",
+  "resumo": "Transforma o corpo do alvo.",
+  "fonte": { "livro": "livro-basico", "pagina": 198 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Você muda sua aparência e forma — incluindo seu equipamento — para qualquer outra criatura, existente ou imaginada. Independentemente da forma escolhida, você recebe +20 em testes de Enganação para disfarce. Características não mencionadas não mudam.\n\nSe mudar para uma forma humanoide, pode mudar o tipo de dano (entre corte, impacto e perfuração) de suas armas (se usa uma maça e transformá-la em espada longa, ela pode causar dano de corte, por exemplo). Se quiser, pode assumir uma forma humanoide com uma categoria de tamanho acima ou abaixo da sua; nesse caso aplique os modificadores em Furtividade e testes de manobra.\n\nSe mudar para outras formas, você pode escolher uma Forma Selvagem do druida (veja no Capítulo 1). Nesse caso você não pode atacar com suas armas, falar ou lançar magias até voltar ao normal, mas recebe uma ou mais armas naturais e os bônus da forma selvagem escolhida.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "A forma escolhida recebe uma habilidade de sentidos entre faro, visão na penumbra e visão no escuro."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "A forma escolhida recebe percepção às cegas.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para toque, o alvo para 1 criatura e adiciona resistência (Vontade anula)."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para médio, o alvo para 1 criatura e a resistência para Vontade anula. Em vez do normal, transforma o alvo em uma criatura ou objeto inofensivo (ovelha, sapo, galinha, pudim de ameixa etc.). A criatura não pode atacar, falar e lançar magias; seu deslocamento vira 3m e sua Defesa vira 10. Suas outras características não mudam. No início de seus turnos, o alvo pode fazer um teste de Vontade; se passar, retorna à sua forma normal e a magia termina.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Se mudar para formas não humanoides, pode escolher uma Forma Selvagem Aprimorada.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Se mudar para formas não humanoides, pode escolher uma Forma Selvagem Superior.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+12 PM",
+        "efeito": "Além do normal, no início de seus turnos o alvo pode mudar de forma novamente, como uma ação livre, fazendo novas escolhas.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

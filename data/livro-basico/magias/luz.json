@@ -1,0 +1,56 @@
+{
+  "id": "luz",
+  "tipo": "magia",
+  "nome": "Luz",
+  "resumo": "Objeto ilumina como uma tocha.",
+  "fonte": { "livro": "livro-basico", "pagina": 196 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 objeto",
+    "duracao": "cena",
+    "resistencia": "Vontade anula (veja texto)",
+    "custoPM": 1,
+    "descricao": "O alvo emite luz (mas não produz calor) em uma área com 6m de raio. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a luz, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la. Luz anula Escuridão.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta a área iluminada em +3m de raio."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para um dia."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para permanente e adiciona componente material (pó de rubi no valor de T$ 50). Não pode ser usado em conjunto com outros aprimoramentos.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+0 PM",
+        "efeito": "(Apenas Arcanos) Muda o alvo para 1 criatura. Você lança a magia nos olhos do alvo, que fica ofuscado pela cena. Não afeta criaturas cegas."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "(Apenas Arcanos) Muda o alcance para longo e o efeito para criar 4 pequenos globos flutuantes de pura luz. Você pode posicionar os globos onde quiser dentro do alcance. Você pode enviar um à frente, outra para trás, outra para cima e manter um perto de você, por exemplo. Uma vez por rodada, você pode mover os globos com uma ação livre. Cada um ilumina como uma tocha, mas não produz calor. Se um globo ocupar o espaço de uma criatura, ela fica ofuscada e sua silhueta pode ser vista claramente (ela não recebe camuflagem por escuridão ou invisibilidade).",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "(Apenas Divinos) A luz é cálida como a do sol. Criaturas que sofrem penalidades e dano pela luz solar sofrem seus efeitos como se estivessem expostos à luz solar real. Seus aliados na área estabilizam automaticamente e ficam imunes à condição sangrando, e seus inimigos ficam ofuscados.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "(Apenas Divinos) Muda o alcance para toque e o alvo para 1 criatura. Em vez do normal, o alvo é envolto por um halo de luz, recebendo +10 em testes de Diplomacia e redução de trevas 10.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

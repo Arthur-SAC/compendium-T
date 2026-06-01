@@ -1,0 +1,42 @@
+{
+  "id": "mente-divina",
+  "tipo": "magia",
+  "nome": "Mente Divina",
+  "resumo": "Fornece bônus em um ou mais atributos mentais.",
+  "fonte": { "livro": "livro-basico", "pagina": 198 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Você fortalece a mente do alvo. Ele recebe +2 em Inteligência, Sabedoria ou Carisma, a sua escolha. Esse aumento não oferece PV, PM ou perícias adicionais.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Em vez do normal, o alvo recebe +2 nos três atributos mentais.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Em vez do normal, o alvo recebe +4 no atributo escolhido.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+12 PM",
+        "efeito": "Em vez do normal, o alvo recebe +4 nos três atributos mentais.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

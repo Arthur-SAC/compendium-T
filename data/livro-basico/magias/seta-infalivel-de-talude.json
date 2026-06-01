@@ -1,0 +1,42 @@
+{
+  "id": "seta-infalivel-de-talude",
+  "tipo": "magia",
+  "nome": "Seta Infalível de Talude",
+  "resumo": "Dispara setas de energia que acertam automaticamente.",
+  "fonte": { "livro": "livro-basico", "pagina": 205 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "alvo": "criaturas escolhidas",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Favorita entre arcanistas iniciantes, esta magia lança duas setas de energia que causam 1d4+1 pontos de dano de essência cada. Você pode lançar as setas em alvos diferentes ou concentrá-las num mesmo alvo. Caso você possua um bônus no dano de magias, como pelo poder Arcano de Batalha, ele é aplicado em apenas uma seta (o bônus vale para a magia, não cada alvo).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda as setas para lanças de energia que surgem e caem do céu. Cada lança causa 1d8+1 pontos de dano de essência.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o número de setas/lanças para três."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o número de setas/lanças para cinco.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o número de setas/lanças para dez.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

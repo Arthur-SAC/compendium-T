@@ -1,0 +1,33 @@
+{
+  "id": "relampago",
+  "tipo": "magia",
+  "nome": "Relâmpago",
+  "resumo": "Causa dano de eletricidade em criaturas numa linha.",
+  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "linha de 30m",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 3,
+    "descricao": "Você dispara um poderoso raio que causa 6d6 pontos de dano de eletricidade em todas as criaturas e objetos livres na área.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +2d6."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a área para alvo (criaturas escolhidas). Em vez do normal, você dispara vários relâmpagos, um para cada alvo escolhido, causando 6d6 pontos de dano de eletricidade.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}
