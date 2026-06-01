@@ -4,24 +4,23 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-01
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Perícias ✅ (29/29)**. Próxima: **Poderes Gerais** (Cap. 2, Onda 2).
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)**. Próxima: **Magia** (Cap. 4) ou **Equipamento** (Cap. 3).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **ONDA 1 (Perícias) CONCLUÍDA ✅ (29/29).** Próxima: **ONDA 2 = Poderes Gerais** do plano
-`docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md` (tasks PP1–PP5). Render impressas **124–136**
-(PDF 130–142); descobrir e listar todos os poderes por grupo (**Combate** 124, **Destino** 129, **Magia** 131,
-**Concedidos** 132, **Tormenta** 136); schema `poder` (`PoderMecanicaSchema {grupo, prerequisito?, descricao}`)
-+ ramo no `superRefine`; `FichaPoder` + índice `/poderes` agrupado por grupo + regra "Poderes: como funcionam"
-(impressa 124); extração por grupo (2 passadas); integração. Executar por **Subagent-Driven**.
+➡️ **CAPÍTULO 2 (Perícias & Poderes) CONCLUÍDO ✅.** Próxima categoria: **Magia** (Cap. 4 — destrava a
+conjuração das 4 classes conjuradoras; categoria grande, centenas de magias por círculo) **ou** **Equipamento**
+(Cap. 3, impressas 138+ — armas, armaduras, itens, T$). Recomendação: confirmar com o usuário; então
+`superpowers:writing-plans` para o plano da fatia e executar por **Subagent-Driven** (mesmo padrão).
+Lembrar de capturar a **regra "como funciona"** de cada categoria nova (decisão das regras conectivas).
 
-**Onda 1 — Perícias ✅** (commits da fundação + extração): schema `pericia` (`PericiaMecanicaSchema` com `usos[]`),
-`FichaPericia`, índice `/pericias` + painel de regra, regra `pericias-como-funcionam` (p.114), e **29 perícias**
-(Tabela 2-1, impressas 114–123) com atributo-chave/flags/usos, visão 2 passadas. **Chips de benefício em
-`FichaOrigem` viram links** quando o nome casa uma entidade (perícias citadas em Origens já estão clicáveis).
+**Cap. 2 — Perícias & Poderes ✅** (plano `docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md`):
+- **Perícias (29) ✅**: schema `pericia` (`PericiaMecanicaSchema` com `usos[]`), `FichaPericia` (+ selos SVG treinada/armadura no índice), `/pericias` + painel de regra, regra `pericias-como-funcionam` (p.114). Tabela 2-1, impressas 114–123.
+- **Poderes (162) ✅**: schema `poder` (`PoderMecanicaSchema {grupo, prerequisito?, custo?, descricao}`), `FichaPoder`, `/poderes` agrupado nos 5 grupos + regra `poderes-como-funcionam` (p.124). Mapa em `docs/superpowers/plans/poderes-lista.md`. Grupos: **Combate 40, Destino 20, Magia 8, Concedidos 72, Tormenta 22** (impressas 124–137). Concedidos com devoção no pré-requisito; Tormenta com escalonamento. Visão 2 passadas.
+- **Links acendendo:** chips de benefício em `FichaOrigem` (perícias/poderes) viram links quando casam uma entidade. (Estender a `FichaClasse` está no backlog.)
 
 > **Polimento de UI/UX → ver "Backlog de UX/polimento" abaixo.** Decisão (2026-06-01): foco no CONTEÚDO agora;
 > um **passe de design dedicado no fim do Livro Básico** aplica o polimento visual de forma uniforme. Inline só
