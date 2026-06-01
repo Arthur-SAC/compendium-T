@@ -1,0 +1,25 @@
+{
+  "id": "arco-longo",
+  "tipo": "item",
+  "nome": "Arco Longo",
+  "resumo": "Arco reforçado com a altura de uma pessoa, primariamente uma arma de guerra. Por ter puxada pesada, permite aplicar Força às rolagens de dano. Não pode ser usado montado.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 100",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d8",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": [],
+      "especial": "Aplica Força às rolagens de dano (ao contrário de outras armas de disparo). Não pode ser usado se você estiver montado."
+    }
+  }
+}

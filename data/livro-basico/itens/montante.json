@@ -1,0 +1,23 @@
+{
+  "id": "montante",
+  "tipo": "item",
+  "nome": "Montante",
+  "resumo": "Enorme e pesada espada de 1,5m de comprimento. Uma arma poderosa.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "2d6",
+      "critico": "19",
+      "tipoDano": "Corte",
+      "habilidades": []
+    }
+  }
+}

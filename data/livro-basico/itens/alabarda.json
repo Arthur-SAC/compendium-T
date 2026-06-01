@@ -1,0 +1,23 @@
+{
+  "id": "alabarda",
+  "tipo": "item",
+  "nome": "Alabarda",
+  "resumo": "Haste de madeira com 2m de comprimento e lâmina de machado na ponta. Arma alongada.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 10",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "1d10",
+      "critico": "x3",
+      "tipoDano": "Corte/Perfuração",
+      "habilidades": ["alongada"]
+    }
+  }
+}

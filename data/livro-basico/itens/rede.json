@@ -1,0 +1,25 @@
+{
+  "id": "rede",
+  "tipo": "item",
+  "nome": "Rede",
+  "resumo": "Arma exótica de distância que não causa dano; enreda o alvo, reduzindo seu deslocamento e capacidade de combate.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "—",
+      "critico": "—",
+      "tipoDano": "—",
+      "habilidades": []
+    },
+    "especial": "Não causa dano. Ao acertar um ataque, a vítima fica enredada: deslocamento reduzido à metade, não pode correr nem fazer investidas, sofre –2 na Defesa e em testes de ataque. Enquanto o atacante segura a corda, pode fazer um teste de Força oposto como reação sempre que a vítima se mover — se vencer, a vítima só pode se mover até o alcance curto da corda. A vítima pode se soltar com uma ação completa e teste de Força ou Acrobacia (CD 20). A rede tem 5 pontos de vida; se rasgada, qualquer criatura enredada se solta automaticamente. Só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que o usuário."
+  }
+}

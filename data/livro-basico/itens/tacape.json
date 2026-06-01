@@ -1,0 +1,23 @@
+{
+  "id": "tacape",
+  "tipo": "item",
+  "nome": "Tacape",
+  "resumo": "Versão maior e/ou com pregos de uma clava, usado por bárbaros e humanoides bestiais; preço é zero.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "—",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "duas mãos",
+      "dano": "1d10",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": []
+    }
+  }
+}

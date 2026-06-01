@@ -1,0 +1,24 @@
+{
+  "id": "corrente-de-espinhos",
+  "tipo": "item",
+  "nome": "Corrente de Espinhos",
+  "resumo": "Arma exótica de duas mãos com alcance 4,5m; ágil, dupla e versátil. Pode se enroscar em mãos, pernas ou armas dos adversários.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 25",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "dano": "2d4/2d4",
+      "critico": "19",
+      "tipoDano": "Corte",
+      "habilidades": ["ágil", "dupla", "versátil"]
+    },
+    "especial": "Alcance 4,5m (pode atacar inimigos a até 4,5m e se enroscar em mãos, pernas ou armas dos adversários). Ágil (pode usar Acuidade com Arma). Dupla (pode ser usada com Estilo de Duas Armas). Versátil (+2 em testes para derrubar ou desarmar). Dano 2d4/2d4: ambos os valores são iguais (a barra indica que cada 'ponta' conta como arma separada para efeitos de Dupla)."
+  }
+}

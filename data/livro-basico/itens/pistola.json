@@ -1,0 +1,25 @@
+{
+  "id": "pistola",
+  "tipo": "item",
+  "nome": "Pistola",
+  "resumo": "A arma de fogo mais comum de Arton. Leve, poderosa e de recarga demorada.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 250",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "fogo",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "2d6",
+      "critico": "19/x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Crítico 19/x3: margem de ameaça 19-20 e multiplicador x3. Recarregar = ação padrão. Usa munição: Balas (20) por T$ 20."
+  }
+}

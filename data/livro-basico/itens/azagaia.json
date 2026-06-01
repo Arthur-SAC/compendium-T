@@ -1,0 +1,25 @@
+{
+  "id": "azagaia",
+  "tipo": "item",
+  "nome": "Azagaia",
+  "resumo": "Lança leve e flexível, própria para arremesso; pode ser usada como arma corpo a corpo, mas com penalidade.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "uma mão",
+      "alcance": "médio",
+      "dano": "1d6",
+      "critico": "x2",
+      "tipoDano": "Perfuração",
+      "habilidades": ["Arremesso"]
+    },
+    "especial": "Pode ser usada como arma corpo a corpo, mas sofre penalidade de –5 no teste de ataque."
+  }
+}

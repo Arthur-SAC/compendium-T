@@ -1,0 +1,20 @@
+{
+  "id": "couraca",
+  "tipo": "item",
+  "nome": "Couraça",
+  "resumo": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 500",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 5,
+      "penalidadeArmadura": -4
+    }
+  }
+}

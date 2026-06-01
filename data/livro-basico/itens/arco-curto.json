@@ -1,0 +1,25 @@
+{
+  "id": "arco-curto",
+  "tipo": "item",
+  "nome": "Arco Curto",
+  "resumo": "Arma antiga e comum, usada primariamente para caça; pode ser usado montado.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 30",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d6",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Pode ser usado montado."
+  }
+}

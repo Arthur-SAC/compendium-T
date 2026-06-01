@@ -1,0 +1,20 @@
+{
+  "id": "gibao-de-peles",
+  "tipo": "item",
+  "nome": "Gibão de Peles",
+  "resumo": "Armadura usada principalmente por bárbaros e selvagens, formada por várias camadas de peles e couro de animais.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 25",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 4,
+      "penalidadeArmadura": -3
+    }
+  }
+}

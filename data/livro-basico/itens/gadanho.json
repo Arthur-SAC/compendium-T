@@ -1,0 +1,23 @@
+{
+  "id": "gadanho",
+  "tipo": "item",
+  "nome": "Gadanho",
+  "resumo": "Ferramenta agrícola de lâmina levemente curva e apenas um gume, versão maior da foice para uso com as duas mãos. Criada para ceifar cereais, mas também pode ceifar vidas.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 18",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "2d4",
+      "critico": "x4",
+      "tipoDano": "Corte",
+      "habilidades": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bordao",
+  "tipo": "item",
+  "nome": "Bordão",
+  "resumo": "Cajado apreciado por viajantes e camponeses por sua praticidade e fácil acesso; é uma arma dupla.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "—",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "duas mãos",
+      "dano": "1d6/1d6",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": ["Dupla"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "adaga",
+  "tipo": "item",
+  "nome": "Adaga",
+  "resumo": "Faca afiada e facilmente ocultável, favorita de ladrões e assassinos, que pode ser arremessada.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 2",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "1d4",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": ["Ágil", "Arremesso"]
+    },
+    "especial": "+5 em testes de Ladinagem para ocultá-la; quando ataca com uma adaga, você pode usar sua Destreza em vez de Força nos testes de ataque; pode ser arremessada."
+  }
+}

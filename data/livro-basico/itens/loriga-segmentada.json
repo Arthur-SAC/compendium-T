@@ -1,0 +1,20 @@
+{
+  "id": "loriga-segmentada",
+  "tipo": "item",
+  "nome": "Loriga Segmentada",
+  "resumo": "Armadura pesada composta por segmentos de metal articulados que cobrem o corpo, oferecendo boa proteção com mobilidade relativamente melhor que as armaduras completas.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 250",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 7,
+      "penalidadeArmadura": -3
+    }
+  }
+}

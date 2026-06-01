@@ -1,0 +1,23 @@
+{
+  "id": "pique",
+  "tipo": "item",
+  "nome": "Pique",
+  "resumo": "Lança muito longa de duas mãos; é uma arma alongada que impede ataque a alvos adjacentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 2",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "duas mãos",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Perfuração",
+      "habilidades": ["Alongada"]
+    }
+  }
+}

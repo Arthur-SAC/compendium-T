@@ -1,0 +1,23 @@
+{
+  "id": "espada-curta",
+  "tipo": "item",
+  "nome": "Espada Curta",
+  "resumo": "Tipo mais comum de espada, usada por guardas ou como arma secundária de guerreiros, com lâmina de 40 a 50cm.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "leve",
+      "dano": "1d6",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    }
+  }
+}

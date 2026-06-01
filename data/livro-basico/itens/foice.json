@@ -1,0 +1,23 @@
+{
+  "id": "foice",
+  "tipo": "item",
+  "nome": "Foice",
+  "resumo": "Instrumento agrícola com lâmina curva presa a um cabo de madeira, arma tradicional de druidas.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 4",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "leve",
+      "dano": "1d6",
+      "critico": "x3",
+      "tipoDano": "Corte",
+      "habilidades": []
+    }
+  }
+}

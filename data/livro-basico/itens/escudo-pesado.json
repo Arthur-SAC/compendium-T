@@ -1,0 +1,22 @@
+{
+  "id": "escudo-pesado",
+  "tipo": "item",
+  "nome": "Escudo Pesado",
+  "resumo": "Normalmente feito de aço, preso ao antebraço e empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "escudo",
+    "preco": "T$ 15",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "pesado",
+      "bonusDefesa": 2,
+      "penalidadeArmadura": -2,
+      "danoAtaque": "1d6 impacto"
+    },
+    "especial": "Pode ser usado para atacar (requer proficiência em armas marciais), causando 1d6 de dano de impacto (crítico x2), mas o bônus na Defesa é perdido até o próximo turno."
+  }
+}

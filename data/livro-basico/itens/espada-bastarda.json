@@ -1,0 +1,24 @@
+{
+  "id": "espada-bastarda",
+  "tipo": "item",
+  "nome": "Espada Bastarda",
+  "resumo": "Arma exótica maior e mais pesada que a espada longa, usada pelos cavaleiros de Bielefeld. Adaptável: pode ser usada como arma marcial de duas mãos.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 35",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d10/1d12",
+      "critico": "19",
+      "tipoDano": "Corte",
+      "habilidades": ["adaptável"]
+    },
+    "especial": "Dano duplo: 1d10 (uma mão, proficiência exótica) / 1d12 (duas mãos, contando como marcial). Adaptável: pode ser usada como arma marcial de duas mãos para aumentar o dano em um passo."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "couro-batido",
+  "tipo": "item",
+  "nome": "Couro Batido",
+  "resumo": "Versão mais pesada da armadura de couro, reforçada com rebites de metal.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 35",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 3,
+      "penalidadeArmadura": -1
+    }
+  }
+}

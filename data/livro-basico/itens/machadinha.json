@@ -1,0 +1,24 @@
+{
+  "id": "machadinha",
+  "tipo": "item",
+  "nome": "Machadinha",
+  "resumo": "Arma marcial leve de corte, útil para cortar madeira e também inimigos. Pode ser arremessada.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 6",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "1d6",
+      "critico": "x3",
+      "tipoDano": "Corte",
+      "habilidades": ["arremessável"]
+    }
+  }
+}

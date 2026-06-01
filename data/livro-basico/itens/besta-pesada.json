@@ -1,0 +1,25 @@
+{
+  "id": "besta-pesada",
+  "tipo": "item",
+  "nome": "Besta Pesada",
+  "resumo": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d12",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": [],
+      "especial": "Recarregar é uma ação padrão."
+    }
+  }
+}

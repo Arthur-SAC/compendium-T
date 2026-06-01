@@ -1,0 +1,24 @@
+{
+  "id": "machado-taurico",
+  "tipo": "item",
+  "nome": "Machado Táurico",
+  "resumo": "Arma exótica de duas mãos com lâmina extremamente grossa; arma ancestral dos minotauros. Desbalanceada.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "dano": "2d8",
+      "critico": "x3",
+      "tipoDano": "Corte",
+      "habilidades": ["desbalanceada"]
+    },
+    "especial": "Desbalanceada: impõe –2 em testes de ataque."
+  }
+}

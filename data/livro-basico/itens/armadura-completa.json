@@ -1,0 +1,21 @@
+{
+  "id": "armadura-completa",
+  "tipo": "item",
+  "nome": "Armadura Completa",
+  "resumo": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas para cobrir o corpo inteiro. Inclui túnica acolchoada interna. Precisa ser feita sob medida.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 3.000",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 10,
+      "penalidadeArmadura": -5
+    },
+    "especial": "Precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar a armadura a um novo usuário."
+  }
+}

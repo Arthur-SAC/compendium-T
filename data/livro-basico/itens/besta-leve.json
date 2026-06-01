@@ -1,0 +1,25 @@
+{
+  "id": "besta-leve",
+  "tipo": "item",
+  "nome": "Besta Leve",
+  "resumo": "Arco montado sobre uma coronha de madeira com gatilho, dispara virotes com grande potência.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 35",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "uma mão",
+      "alcance": "médio",
+      "dano": "1d8",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Recarregar uma besta leve é uma ação de movimento."
+  }
+}

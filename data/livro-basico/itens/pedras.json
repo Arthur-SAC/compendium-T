@@ -1,0 +1,16 @@
+{
+  "id": "pedras",
+  "tipo": "item",
+  "nome": "Pedras",
+  "resumo": "Munição para funda — saco de couro com 20 pedras polidas.",
+  "fonte": { "livro": "livro-basico", "pagina": 150 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 0,5",
+    "espacos": "1",
+    "especial": "Pacote com 20 pedras polidas. Usadas pela funda. Recarregar uma funda com uma pedra de qualquer tipo é uma ação de movimento. Na falta de munição adequada, pedras comuns podem ser usadas, mas o dano é reduzido em um passo."
+  }
+}

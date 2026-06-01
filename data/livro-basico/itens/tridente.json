@@ -1,0 +1,25 @@
+{
+  "id": "tridente",
+  "tipo": "item",
+  "nome": "Tridente",
+  "resumo": "Lança com três pontas, favorita de povos marinhos e gladiadores, própria para prender as pernas do oponente. Arma versátil (+2 derrubar) e arremessável.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Perfuração",
+      "habilidades": ["versátil", "arremessável"],
+      "especial": "Versátil: +2 em testes para derrubar. Pode ser arremessado."
+    }
+  }
+}

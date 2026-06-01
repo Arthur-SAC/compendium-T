@@ -1,0 +1,24 @@
+{
+  "id": "chicote",
+  "tipo": "item",
+  "nome": "Chicote",
+  "resumo": "Arma exótica leve de alcance 4,5m; ágil e versátil, ideal para derrubar ou desarmar adversários.",
+  "fonte": { "livro": "livro-basico", "pagina": 144 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 2",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d3",
+      "critico": "x2",
+      "tipoDano": "Corte",
+      "habilidades": ["ágil", "versátil"]
+    },
+    "especial": "Alcance 4,5m (pode atacar inimigos a até 4,5m e se enroscar em mãos, pernas ou armas dos adversários). Ágil (pode usar Acuidade com Arma). Versátil (+2 em testes para derrubar ou desarmar)."
+  }
+}

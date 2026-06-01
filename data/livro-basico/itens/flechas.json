@@ -1,0 +1,16 @@
+{
+  "id": "flechas",
+  "tipo": "item",
+  "nome": "Flechas",
+  "resumo": "Munição para arcos — aljava com 20 flechas de hastes de madeira com ponta metálica e penas estabilizadoras.",
+  "fonte": { "livro": "livro-basico", "pagina": 150 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 1",
+    "espacos": "1",
+    "especial": "Pacote com 20 flechas. Usadas por arco curto e arco longo. Recarregar um arco com uma flecha é uma ação livre."
+  }
+}

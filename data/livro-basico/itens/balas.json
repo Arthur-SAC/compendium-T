@@ -1,0 +1,16 @@
+{
+  "id": "balas",
+  "tipo": "item",
+  "nome": "Balas",
+  "resumo": "Munição para armas de fogo — bolsa com 20 esferas de chumbo e pólvora, para pistola ou mosquete.",
+  "fonte": { "livro": "livro-basico", "pagina": 150 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Pacote com 20 balas. Usadas por pistola e mosquete. Recarregar pistola ou mosquete é uma ação padrão."
+  }
+}

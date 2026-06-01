@@ -1,0 +1,24 @@
+{
+  "id": "mangual",
+  "tipo": "item",
+  "nome": "Mangual",
+  "resumo": "Haste metálica ligada a uma corrente com esfera de aço na ponta, que pode se enroscar na arma do adversário. Arma versátil, fornece +2 em testes para desarmar.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 8",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": ["versátil"],
+      "especial": "Versátil: +2 em testes para desarmar."
+    }
+  }
+}

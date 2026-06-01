@@ -1,0 +1,16 @@
+{
+  "id": "virotes",
+  "tipo": "item",
+  "nome": "Virotes",
+  "resumo": "Munição para bestas — aljava com 20 setas de madeira para besta leve ou pesada.",
+  "fonte": { "livro": "livro-basico", "pagina": 150 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 2",
+    "espacos": "1",
+    "especial": "Pacote com 20 virotes. Usados por besta leve e besta pesada. Recarregar uma besta leve é uma ação de movimento; recarregar uma besta pesada é uma ação padrão."
+  }
+}

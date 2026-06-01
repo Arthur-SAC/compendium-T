@@ -1,0 +1,22 @@
+{
+  "id": "escudo-leve",
+  "tipo": "item",
+  "nome": "Escudo Leve",
+  "resumo": "Tipicamente feito de madeira, amarrado no antebraço e deixando a mão livre para carregar um objeto (mas não manusear uma arma).",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "escudo",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 1,
+      "penalidadeArmadura": -1,
+      "danoAtaque": "1d4 impacto"
+    },
+    "especial": "Pode ser usado para atacar (requer proficiência em armas marciais), causando 1d4 de dano de impacto (crítico x2), mas o bônus na Defesa é perdido até o próximo turno."
+  }
+}

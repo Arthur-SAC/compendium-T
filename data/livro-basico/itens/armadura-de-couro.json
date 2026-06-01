@@ -1,0 +1,20 @@
+{
+  "id": "armadura-de-couro",
+  "tipo": "item",
+  "nome": "Armadura de Couro",
+  "resumo": "Armadura leve cujo peitoral é feito de couro curtido em óleo fervente para ficar mais rígido, com as demais partes em couro flexível.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 20",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 2,
+      "penalidadeArmadura": 0
+    }
+  }
+}
