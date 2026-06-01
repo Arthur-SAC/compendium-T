@@ -165,6 +165,35 @@ export const PoderMecanicaSchema = z.object({
 });
 export type PoderMecanica = z.infer<typeof PoderMecanicaSchema>;
 
+export const ArmaStatsSchema = z.object({
+  proficiencia: z.string(),
+  empunhadura: z.string(),
+  alcance: z.string().optional(),
+  dano: z.string(),
+  critico: z.string(),
+  tipoDano: z.string(),
+  habilidades: z.array(z.string()).default([]),
+});
+export type ArmaStats = z.infer<typeof ArmaStatsSchema>;
+
+export const ProtecaoStatsSchema = z.object({
+  subcategoria: z.string(),
+  bonusDefesa: z.number().int(),
+  penalidadeArmadura: z.number().int(),
+  danoAtaque: z.string().optional(),
+});
+export type ProtecaoStats = z.infer<typeof ProtecaoStatsSchema>;
+
+export const ItemMecanicaSchema = z.object({
+  categoria: z.string(),
+  preco: z.string().optional(),
+  espacos: z.string().optional(),
+  arma: ArmaStatsSchema.optional(),
+  protecao: ProtecaoStatsSchema.optional(),
+  especial: z.string().optional(),
+});
+export type ItemMecanica = z.infer<typeof ItemMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -221,6 +250,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de poder inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "item") {
+      const r = ItemMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de item inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }

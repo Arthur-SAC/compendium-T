@@ -1,0 +1,23 @@
+{
+  "id": "espada-longa",
+  "tipo": "item",
+  "nome": "Espada Longa",
+  "resumo": "Arma marcial de uma mão, lâmina larga de corte — a preferida de guerreiros e cavaleiros.",
+  "fonte": { "livro": "livro-basico", "pagina": 143 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "19",
+      "tipoDano": "Corte",
+      "habilidades": []
+    }
+  }
+}

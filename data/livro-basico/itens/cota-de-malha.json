@@ -1,0 +1,20 @@
+{
+  "id": "cota-de-malha",
+  "tipo": "item",
+  "nome": "Cota de Malha",
+  "resumo": "Armadura pesada feita de anéis metálicos entrelaçados. Oferece boa proteção ao custo de mobilidade reduzida.",
+  "fonte": { "livro": "livro-basico", "pagina": 152 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 150",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 6,
+      "penalidadeArmadura": -2
+    }
+  }
+}

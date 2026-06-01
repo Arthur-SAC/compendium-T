@@ -1,0 +1,28 @@
+{
+  "id": "riqueza-e-equipamento",
+  "tipo": "regra-de-criacao",
+  "nome": "Riqueza & Equipamento",
+  "resumo": "Regras de moeda, equipamento inicial, limites de uso e de carga do Capítulo 3.",
+  "fonte": { "livro": "livro-basico", "pagina": 138 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Riqueza & Moedas",
+      "texto": "O Tibar (T$) é a moeda padrão do Reinado. Trata-se de uma peça redonda de prata com 1,5 cm de diâmetro. Por padrão, todos os preços de itens e serviços são exibidos em T$. Entretanto, existem duas variações da moeda: o Tibar de Cobre (TC), que vale um décimo do T$, utilizado por camponeses e plebeus; e o Tibar de Ouro (TO), que vale T$ 10, utilizado por aristocratas, grandes mercadores e aventureiros poderosos.\n\nEm Arton, ao jogar \"cara ou coroa\", o costume é escolher \"coroa ou não coroa\".\n\nNo geral, personagens podem comprar itens pelos preços listados nas tabelas e vendê-los pela metade desses preços. Comprando ou vendendo, os valores podem ser melhorados através de barganha (veja a perícia Diplomacia)."
+    },
+    {
+      "titulo": "Equipamento Inicial",
+      "texto": "Personagens de 1º nível começam com os itens fornecidos pela sua origem e os itens a seguir:\n• Uma mochila, um saco de dormir e um traje de viajante.\n• Uma arma simples a sua escolha. Se você tiver proficiência com armas marciais, também começa com uma arma marcial a sua escolha.\n• Uma armadura de couro, couro batido ou gibão de peles, a sua escolha. Se você tiver proficiência com armaduras pesadas, em vez disso pode começar com uma brunea. Se tiver proficiência com escudos, começa também com um escudo leve. Exceção: arcanistas começam sem armadura.\n• T$ 4d6, que você pode usar para comprar itens ou guardar para usar na aventura."
+    },
+    {
+      "titulo": "Limites de Uso",
+      "texto": "Alguns itens precisam ser empunhados para serem usados. Isso inclui armas, escudos, itens alquímicos e outros, como tochas e varinhas. Você pode empunhar apenas um item em cada mão, ou seja, pode empunhar no máximo dois itens ao mesmo tempo (supondo que você tenha duas mãos). Você pode guardar um item empunhado com uma ação de movimento ou largá-lo no chão com uma ação livre.\n\nItens que não são empunhados precisam ser vestidos. Você pode receber os benefícios de no máximo quatro itens vestidos simultaneamente. Se você vestir um quinto item, ele não fornecerá seu benefício até que você remova outro. Vestir ou despir um item é uma ação de movimento. Note que esse limite se aplica apenas a itens com benefícios mecânicos — você pode vestir seu traje de viajante, ou outra roupa que não forneça bônus, sem que isso afete seu limite."
+    },
+    {
+      "titulo": "Limites de Carga",
+      "texto": "A quantidade de equipamento que você pode carregar é medida em espaços de itens. Por padrão, um item ocupa 1 espaço. Porém, há exceções:\n• Itens alquímicos, poções, pergaminhos e outros itens muito leves ou pequenos ocupam meio espaço. Ou seja, dois desses itens ocupam 1 espaço.\n• Armas de duas mãos, armaduras leves, escudos pesados, criaturas Minúsculas e outros itens pesados ou volumosos ocupam 2 espaços.\n• Armaduras pesadas, criaturas Pequenas e outros itens muito pesados ou volumosos, como um barril ou baú, ocupam 5 espaços.\n• Itens extremamente pesados ou volumosos, como uma criatura Média, ocupam 10 espaços. Itens ainda maiores podem ocupar mais espaços ou serem impossíveis de carregar, a critério do mestre.\n• Cada mil moedas, independentemente do tipo, ocupam 1 espaço.\n\nVocê pode carregar 10 espaços +2 por ponto de Força (ou –1 por ponto de Força negativo). Se ultrapassar esse limite, fica sobrecarregado — sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m. Você não pode carregar mais do que o dobro do seu limite."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}
