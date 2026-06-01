@@ -11,12 +11,18 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **Classes e Origens CONCLUÍDAS.** Próxima categoria recomendada: **Capítulo 2 — Perícias & Poderes**
-(impressa 112+ = PDF 118+). Destrava os **links** que as Origens e Classes já referenciam (perícias e
-poderes citados viram links quando essas categorias existirem). Sequência: `superpowers:writing-plans`
-para o plano da fatia (provável split: **Perícias** primeiro — conjunto fechado, foundational — depois
-**Poderes Gerais**), e executar por **Subagent-Driven** (mesmo padrão de Classes/Origens). Alternativas:
-**Magias** (destrava a conjuração das classes) ou **Equipamentos**.
+➡️ **Classes e Origens CONCLUÍDAS.** Próxima fatia escolhida pelo usuário: **Capítulo 2 — Perícias & Poderes**.
+**Plano pronto:** `docs/superpowers/plans/2026-06-01-pericias-poderes-plano.md` (descoberta já feita).
+Executar por **Subagent-Driven** em duas ondas: **ONDA 1 = Perícias** (P1 schema+regra → P2 FichaPericia →
+P3 índice `/pericias` → P4 extrair as **29 perícias** da Tabela 2-1, impressas 114–123, 2 passadas → P5 integração),
+depois **ONDA 2 = Poderes Gerais** (5 grupos: Combate/Destino/Magia/Concedidos/Tormenta, impressas 124–136).
+Efeito-chave: acende os **links** que Origens e Classes já citam. Ao continuar, começar por **P1**.
+
+> **Regras conectivas (decisão do usuário, 2026-06-01):** o objetivo "jogável sem o livro" exige as regras de
+> "como funciona X" no site, não só os catálogos. Já feito para **Origens** (`regra-de-criacao` + painel em `/origens`,
+> commit das regras). **Backfill pendente:** intros de regra de **Raças** e **Classes** (como funcionam, atributo-chave/PV/PM).
+> Cada nova fatia (Perícias, Poderes…) já inclui sua regra "como funcionam". Capítulos de regra inteiros
+> (Construção de Personagem, Combate, Magia, Exploração, Mestrar) = fatias dedicadas futuras.
 
 > **Dívida leve (O4 de Origens):** termos citados nas origens (perícias/poderes — futuras categorias; e
 > "parceiro"/"patamar veterano-heroico-lenda"/"T$/tibar") ainda não têm tooltip/link próprio. Tratar quando
