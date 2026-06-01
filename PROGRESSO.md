@@ -11,11 +11,17 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 3 — EQUIPAMENTO CONCLUÍDO ✅.** Próxima categoria: **Magia** (Cap. 4, impressa 168+) — destrava
-a conjuração das 4 classes conjuradoras; **é a maior** (magias por círculo). Sequência: `superpowers:writing-plans`
-para o plano da fatia (provável: schema `magia` com círculo/escola/execução/alcance/duração/resistência/PM + aprimoramentos;
-`FichaMagia`; índice `/magias` agrupado por círculo/escola; regras "como funciona a magia") e executar por **Subagent-Driven**.
-Imagens da Magia ainda NÃO renderizadas (Cap. 4 = PDF 174+).
+➡️ **CAPÍTULO 3 — EQUIPAMENTO CONCLUÍDO ✅. Em andamento: Magia (Cap. 4).** Imagens já renderizadas em
+`extracao/cache/discMag/` (PDF 174–217 = impressas 168–211). Sequência: descoberta → `writing-plans` (schema `magia`
+com círculo/escola/execução/alcance/alvo/duração/resistência/PM + aprimoramentos; `FichaMagia`; índice `/magias`
+agrupado por círculo e arcana/divina; regra "como funciona a magia") → extração por círculo, 2 passadas → integração.
+
+> **FATIAS PENDENTES DO LIVRO BÁSICO (não esquecer — confirmado com o usuário 2026-06-01):** além de **Magia**,
+> faltam **Deuses** (panteão, ~20 divindades — domínios, energia, Obrigações & Restrições, Poderes Concedidos, devotos;
+> impressas 96–111; referenciado por Clérigo/Paladino/Poderes Concedidos), **Construção de Personagem** (6 passos,
+> **Atributos** e o que cada um faz, rolagem/compra de pontos, multiclasse, evolução de nível/XP/patamares — Cap. 1),
+> **Combate & Jogando** (Cap. 5), **Mundo de Arton** e **Mestrar**. Ordem combinada: seguir como organizado (catálogos
+> primeiro), e fazer estas em seguida. Decisão do usuário: continuar a sequência atual, voltar nelas depois.
 
 **Cap. 3 — Equipamento ✅** (plano `docs/superpowers/plans/2026-06-01-equipamento-plano.md`; mapa `equipamento-lista.md`):
 - **Onda A (código) ✅**: `ItemMecanicaSchema` (categoria, preco, espacos, blocos opcionais `arma`/`protecao`, `especial`); `FichaItem`; índice `/equipamento` (armas por proficiência; armaduras leve/pesada/escudos) + painel com links pras 5 regras.
