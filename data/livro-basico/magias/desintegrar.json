@@ -1,0 +1,28 @@
+{
+  "id": "desintegrar",
+  "tipo": "magia",
+  "nome": "Desintegrar",
+  "resumo": "Raio transforma um alvo em pó.",
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "alvo": "1 criatura ou objeto",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 10,
+    "descricao": "Você dispara um raio fino e esverdeado que causa 10d12 pontos de dano de essência. Se o alvo passar no teste de resistência, em vez disso sofre 2d12 pontos de dano.\n\nIndependentemente do resultado do teste de Fortitude, se os PV do alvo forem reduzidos a 0 ou menos, ele será completamente desintegrado, restando apenas pó.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Aumenta o dano total em +2d12 e o dano mínimo em +1d12."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "disfarce-ilusorio",
+  "tipo": "magia",
+  "nome": "Disfarce Ilusório",
+  "resumo": "Muda a aparência de uma ou mais criaturas.",
+  "fonte": { "livro": "livro-basico", "pagina": 190 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "resistencia": "Vontade desacredita",
+    "custoPM": 1,
+    "descricao": "Você muda a aparência do alvo, incluindo seu equipamento. Isso inclui altura, peso, tom de pele, cor de cabelo, timbre de voz etc. O alvo recebe +10 em testes de Enganação para disfarce. O alvo não recebe novas habilidades (você pode ficar parecido com outra raça, mas não ganhará as habilidades dela), nem modifica o equipamento (uma espada longa disfarçada de bordão continua funcionando e causando dano como uma espada).",
+    "truque": "Muda o alcance para toque, o alvo para 1 criatura e a duração para 1 semana. Em vez do normal, você faz uma pequena alteração na aparência do alvo, como deixar o nariz vermelho ou fazer brotar um gerânio no alto da cabeça. A mudança é inofensiva, mas persistente — se a flor for arrancada, por exemplo, outra nascerá no local.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 objeto. Você pode, por exemplo, transformar pedaços de ferro em moedas de ouro. Você recebe +10 em testes de Enganação para falsificação."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura. Uma criatura involuntária pode anular o efeito com um teste de Vontade."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "A ilusão inclui odores e sensações. Isso muda o bônus em testes de Enganação para disfarce para +20."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas. Cada criatura pode ter uma aparência diferente. Criaturas involuntárias podem anular o efeito com um teste de Vontade. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

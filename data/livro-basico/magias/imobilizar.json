@@ -1,0 +1,37 @@
+{
+  "id": "imobilizar",
+  "tipo": "magia",
+  "nome": "Imobilizar",
+  "resumo": "Alvo fica lento ou paralisado.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 3,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 humanoide ou animal",
+    "duracao": "cena",
+    "resistencia": "Vontade parcial",
+    "custoPM": 6,
+    "descricao": "O alvo fica paralisado; se passar na resistência, em vez disso fica lento. A cada rodada, pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, se liberta do efeito.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 espírito."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alvo para 1 criatura. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

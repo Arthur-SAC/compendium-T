@@ -1,0 +1,36 @@
+{
+  "id": "globo-de-invulnerabilidade",
+  "tipo": "magia",
+  "nome": "Globo de Invulnerabilidade",
+  "resumo": "Esfera protege contra magias de 1º e 2º círculos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 194
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "sustentada",
+    "custoPM": 6,
+    "descricao": "Você é envolto por uma esfera mágica brilhante com 3m de raio, que detém qualquer magia de 2º círculo ou menor. Nenhuma magia pode ser lançada contra um alvo dentro do globo e magias de área não o penetram. No entanto, magias ainda podem ser lançadas de dentro para fora. Uma magia que dissipe outras magias só dissipa o globo se for usada diretamente sobre você, não o afetando se usada em área. Efeitos mágicos não são dissipados quando entram na esfera, apenas suprimidos (voltam a funcionar fora do globo, caso sua duração não tenha acabado). O globo é imóvel e não tem efeito sobre criaturas ou objetos. Após lançá-lo, você pode entrar ou sair livremente.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o efeito para afetar magias de até 3º círculo. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o efeito para afetar magias de até 4º círculo. Requer 5º círculo.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

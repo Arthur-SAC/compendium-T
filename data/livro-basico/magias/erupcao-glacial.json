@@ -1,0 +1,33 @@
+{
+  "id": "erupcao-glacial",
+  "tipo": "magia",
+  "nome": "Erupção Glacial",
+  "resumo": "Estacas de gelo explodem do chão, ferindo e derrubando os alvos.",
+  "fonte": { "livro": "livro-basico", "pagina": 191 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "area": "quadrado de 6m de lado",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos parcial",
+    "custoPM": 6,
+    "descricao": "Estacas de gelo irrompem do chão. Criaturas na área sofrem 4d6 de dano de corte, 4d6 de dano de frio e ficam caídas. Passar no teste de Reflexos evita o dano de corte e a queda. As estacas duram pela cena, o que torna a área afetada terreno difícil, e concedem cobertura leve para criaturas dentro da área ou atrás dela. As estacas são destruídas caso sofram qualquer quantidade de dano por fogo mágico.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o dano de frio em +2d6 e o dano de corte em +2d6."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a área para cilindro com 6m de raio e 6m de altura e a duração para sustentada. Em vez do normal, a magia cria uma tempestade de granizo que causa 3d6 pontos de dano de impacto e 3d6 pontos de dano de frio em todas as criaturas na área (sem teste de resistência). A tempestade fornece camuflagem leve às criaturas dentro dela e deixa o piso escorregadio. Piso escorregadio conta como terreno difícil e obriga criaturas na área a fazer testes de Acrobacia para equilíbrio (veja o Capítulo 2). Requer 4º círculo.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

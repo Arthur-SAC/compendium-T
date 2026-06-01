@@ -1,0 +1,52 @@
+{
+  "id": "despedacar",
+  "tipo": "magia",
+  "nome": "Despedaçar",
+  "resumo": "Som alto e agudo causa atordoamento e dano de impacto.",
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura ou objeto mundano Pequeno",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 1,
+    "descricao": "Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica atordoado por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano à metade e evita o atordoamento.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d8+2."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para objeto mundano Médio.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alvo para objeto mundano Grande.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o alvo para objeto mundano Enorme.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+14 PM",
+        "efeito": "Muda o alvo para objeto mundano Colossal.",
+        "requisitoCirculo": 5
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para pessoal e a área para esfera com 6m de raio. Todas as criaturas e objetos mundanos na área são afetados."
+      }
+    ]
+  }
+}

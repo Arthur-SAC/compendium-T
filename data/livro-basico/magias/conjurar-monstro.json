@@ -1,0 +1,74 @@
+{
+  "id": "conjurar-monstro",
+  "tipo": "magia",
+  "nome": "Conjurar Monstro",
+  "resumo": "Convoca um monstro sob seu comando.",
+  "fonte": { "livro": "livro-basico", "pagina": 185 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "completa",
+    "alcance": "curto",
+    "efeito": "1 criatura conjurada",
+    "duracao": "sustentada",
+    "custoPM": 1,
+    "descricao": "Você conjura um monstro Pequeno que ataca seus inimigos. Você escolhe a aparência do monstro e o tipo de dano que ele pode causar, entre corte, impacto e perfuração. No entanto, ele não é uma criatura real, e sim um construto feito de energia. Se for destruído, ou quando a magia acaba, desaparece com um brilho, sem deixar nada para trás. Você só pode ter um monstro conjurado por esta magia por vez.\n\nO monstro surge em um espaço desocupado a sua escolha dentro do alcance e age no início de cada um de seus turnos, a partir da próxima rodada. O monstro tem deslocamento 9m e pode fazer uma ação de movimento por rodada. Você pode gastar uma ação padrão para dar uma das seguintes ordens a ele.\n\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\n\nAtacar: o monstro causa 2d4+2 pontos de dano a uma criatura adjacente.\n\nLançar Magia: o monstro pode servir como ponto de origem para uma magia lançada por você com execução de uma ação padrão ou menor. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo \"cuspir\" uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\n\nOutros usos criativos para monstros conjurados ficam a critério do mestre. O monstro não age sem receber uma ordem.\n\nPara efeitos de jogo, o monstro conjurado tem For 2, Des 3 e todos os outros atributos nulos. Ele tem Defesa igual a sua, 20 pontos de vida e usa o seu valor para teste de Reflexos. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "O monstro ganha deslocamento de escalada ou natação igual ao seu deslocamento terrestre."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o deslocamento do monstro em +3m."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o tipo de dano do ataque do monstro para ácido, fogo, frio ou eletricidade."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta os PV do monstro em +10 para cada categoria de tamanho a partir de Pequeno (+10 PV para Pequeno, +20 PV para Médio etc.)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o tamanho do monstro para Médio. Ele tem For 4, Des 3, 45 PV, deslocamento 12m e seu ataque causa 2d6+6 pontos de dano."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "O monstro ganha resistência 5 contra dois tipos de dano (por exemplo, corte e frio)."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "O monstro ganha uma nova ordem: Arma de Sopro. Para dar essa ordem você gasta 1 PM, e faz o monstro causar o dobro de seu dano de ataque em um cone de 6m a partir de si (Reflexos reduz à metade)."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Aumenta o tamanho do monstro para Grande. Ele tem For 7, Des 2, 75 PV, deslocamento 12m e seu ataque causa 4d6+10 pontos de dano com 3m de alcance.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "O monstro ganha deslocamento de voo igual ao dobro do deslocamento."
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "O monstro ganha imunidade contra dois tipos de dano."
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Aumenta o tamanho do monstro para Enorme. Ele tem For 11, Des 1, 110 PV, deslocamento 15m e seu ataque causa 4d8+15 pontos de dano com 4,5m de alcance.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+14 PM",
+        "efeito": "Aumenta o tamanho do monstro para Colossal. Ele tem For 15, Des 0, 180 PV, deslocamento 15m e seu ataque causa 4d12+20 pontos de dano com 9m de alcance.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

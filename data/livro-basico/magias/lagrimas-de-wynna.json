@@ -1,0 +1,33 @@
+{
+  "id": "lagrimas-de-wynna",
+  "tipo": "magia",
+  "nome": "Lágrimas de Wynna",
+  "resumo": "Alvo perde a capacidade de lançar magias arcanas.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 5,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 15,
+    "descricao": "Se falhar no teste de resistência, o alvo perde a habilidade de lançar magias arcanas até o fim da cena. Se passar, perde a habilidade por uma rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a área para esfera com 6m de raio e o alvo para criaturas escolhidas."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda a execução para um dia e adiciona custo adicional (sacrifício de 1 PM). O alvo da magia precisa ser mantido em alcance curto do conjurador durante toda a execução. Ao término, faz um teste de Vontade. Se falhar, perde a habilidade de lançar magias arcanas permanentemente. Se passar, resiste, mas ainda pode ser alvo da magia no dia seguinte. Nenhum poder mortal é capaz de reverter essa perda. Os clérigos de Wynna dizem que a deusa chora cada vez que este ritual é realizado.",
+        "custoEspecial": "sacrifício de 1 PM adicional"
+      }
+    ]
+  }
+}

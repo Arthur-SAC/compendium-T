@@ -1,0 +1,46 @@
+{
+  "id": "libertacao",
+  "tipo": "magia",
+  "nome": "Libertação",
+  "resumo": "O alvo fica imune a efeitos que impeçam ou restrinjam movimentação.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 195
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 4,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 10,
+    "descricao": "O alvo fica imune a efeitos de movimento e ignora qualquer efeito que impeça ou restrinja seu deslocamento. Por fim, pode usar habilidades que exigem liberdade de movimentos mesmo se estiver usando armadura ou escudo.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, o alvo pode caminhar sobre a água ou outros líquidos com seu deslocamento normal. Entretanto, isso não protege contra qualquer efeito que o líquido possa causar (o alvo pode andar sobre lava, mas ainda vai sofrer dano)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, o alvo pode escolher 20 em todos os testes de Atletismo."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, o alvo pode escolher 20 em todos os testes de Acrobacia e pode fazer todas as manobras desta perícia mesmo sem treinamento."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para até 5 criaturas."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Pode dissipar Aprisionamento."
+      }
+    ]
+  }
+}

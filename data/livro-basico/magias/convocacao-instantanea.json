@@ -1,0 +1,40 @@
+{
+  "id": "convocacao-instantanea",
+  "tipo": "magia",
+  "nome": "Convocação Instantânea",
+  "resumo": "Teletransporta um objeto marcado para suas mãos.",
+  "fonte": { "livro": "livro-basico", "pagina": 187 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "ilimitado",
+    "alvo": "1 objeto de até 2 espaços",
+    "duracao": "instantânea",
+    "custoPM": 6,
+    "descricao": "Você invoca um objeto de qualquer lugar para sua mão. O item deve ter sido previamente preparado com uma runa pessoal sua (ao custo de T$ 5). A magia não funciona se o objeto estiver com outra criatura, mas você saberá onde ele está e quem o está carregando (ou sua descrição física, caso não conheça a criatura).",
+    "custoEspecial": "T$ 5 por objeto (runa pessoal gravada no objeto previamente).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, até 1 hora após ter lançado a magia, você pode gastar uma ação de movimento para enviar o objeto de volta para o local em que ele estava antes."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para um baú Médio, a duração para permanente e adiciona sacrifício de 1 PM. Em vez do normal, você esconde o baú no Éter Entre Mundos, com até 20 espaços de equipamento. A magia faz com que qualquer objeto caiba no baú, independentemente do seu tamanho. Uma vez escondido, você pode convocar o baú para um espaço livre adjacente, ou de volta para o Éter, com uma ação padrão. Componente material: baú construído com matéria-prima da melhor qualidade (T$ 1.000). Você deve ter em mãos uma miniatura do baú, no valor de T$ 100, para invocar o baú verdadeiro."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para 1 objeto de até 10 espaços. Um objeto muito grande ou pesado para aparecer em suas mãos surge em um espaço adjacente a sua escolha."
+      }
+    ]
+  }
+}

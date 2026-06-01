@@ -1,0 +1,44 @@
+{
+  "id": "dispersar-as-trevas",
+  "tipo": "magia",
+  "nome": "Dispersar as Trevas",
+  "resumo": "Dispersão anula magias, protege aliados e cega inimigos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 190
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "esfera com 6m de raio",
+    "duracao": "veja texto",
+    "custoPM": 6,
+    "descricao": "Esta magia cria um forte brilho (multicolorido ou de uma cor que remeta a sua divindade) que causa diversos efeitos. Todas as magias de 3º círculo ou menor ativas na área são dissipadas se você passar num teste de Religião contra a CD de cada magia. Seus aliados na área recebem +4 em testes de resistência e redução de trevas 10 até o fim da cena, protegidos por uma aura sutil da mesma cor. Inimigos na área ficam cegos por 1d4 rodadas (apenas uma vez por cena). Dispersar as Trevas anula Anular a Luz (este efeito tem duração instantânea).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus nas resistências em +1."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alcance para curto, a área para alvo 1 criatura e a duração para cena. O alvo fica imune a efeitos de trevas."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o círculo máximo de magias dissipadas para 4º. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o círculo máximo de magias dissipadas para 5º. Requer 5º círculo.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

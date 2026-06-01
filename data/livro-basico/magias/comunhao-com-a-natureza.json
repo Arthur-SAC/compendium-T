@@ -1,0 +1,39 @@
+{
+  "id": "comunhao-com-a-natureza",
+  "tipo": "magia",
+  "nome": "Comunhão com a Natureza",
+  "resumo": "Você recebe dados para usar como bônus em testes de perícias.",
+  "fonte": { "livro": "livro-basico", "pagina": 184 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Adivinhação",
+    "execucao": "completa",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "1 dia",
+    "custoPM": 6,
+    "descricao": "Após uma breve união com a natureza local, você obtém informações e intuições sobre a região em que está, numa distância equivalente a um dia de viagem. Você recebe 6d4 dados de auxílio. Enquanto a magia durar, sempre que for realizar um teste de perícia em áreas naturais, você pode gastar 2d4 (mais 2d4 para cada círculo de magias acima do 3º que puder lançar) e adicionar o resultado rolado como bônus no teste. A magia termina se você ficar sem dados.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a execução para 1 minuto e a duração para instantânea. Em vez do normal, você descobre 1d4+1 informações sobre os seguintes temas: terreno, animais, vegetais, minerais, cursos d'água e presença de criaturas antinaturais numa região natural em que você esteja. Você pode, por exemplo, descobrir a quantidade de cavernas (terreno), se uma planta rara existe (vegetais) e se há mortos-vivos (criaturas antinaturais) na região."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o número de dados de auxílio em +2."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o tipo dos dados de auxílio para d6."
+      },
+      {
+        "custo": "+8 PM",
+        "efeito": "Muda o tipo dos dados de auxílio para d8."
+      }
+    ]
+  }
+}

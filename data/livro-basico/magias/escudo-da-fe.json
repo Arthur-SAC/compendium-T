@@ -1,0 +1,48 @@
+{
+  "id": "escudo-da-fe",
+  "tipo": "magia",
+  "nome": "Escudo da Fé",
+  "resumo": "Protege uma criatura.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 191
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "reação",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "1 turno",
+    "custoPM": 1,
+    "descricao": "Um escudo místico se manifesta momentaneamente para bloquear um golpe. O alvo recebe +2 na Defesa.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a execução para ação padrão, o alcance para toque e a duração para cena."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Também fornece ao alvo camuflagem leve contra ataques à distância."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus na Defesa em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a execução para ação padrão, o alcance para toque e a duração para cena. A magia cria uma conexão mística entre você e o alvo. Além do efeito normal, o alvo sofre metade do dano por ataques e efeitos; a outra metade do dano é transferida a você. Se o alvo sair de alcance curto de você, a magia é dissipada. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a duração para um dia. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ilusao-lacerante",
+  "tipo": "magia",
+  "nome": "Ilusão Lacerante",
+  "resumo": "Cria uma ilusão perigosa que pode causar dano real.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 3,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "area": "cubo de 9m",
+    "duracao": "sustentada",
+    "resistencia": "Vontade anula",
+    "custoPM": 6,
+    "descricao": "Você cria uma ilusão de algum perigo mortal. Quando a magia é lançada, criaturas na área devem fazer um teste de Vontade; uma falha significa que a criatura acredita que a ilusão é real e sofre 3d6 pontos de dano psíquico não letal. Sempre que uma criatura iniciar seu turno dentro da área, deve repetir o teste de Vontade. Se falhar, sofre o dano novamente. Somente criaturas que falham veem a ilusão, e racionalizam o efeito sempre que falham no teste (por exemplo, acredita que o mesmo teto pode cair sobre ela várias vezes).",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o dano em +2d6."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a área para um cubo de 90m. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

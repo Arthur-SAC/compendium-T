@@ -1,0 +1,35 @@
+{
+  "id": "imagem-espelhada",
+  "tipo": "magia",
+  "nome": "Imagem Espelhada",
+  "resumo": "Cria duplicatas para confundir os inimigos, oferecendo bônus na Defesa.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 195
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Três cópias ilusórias suas aparecem. As duplicatas ficam ao seu redor e imitam suas ações, tornando difícil para um inimigo saber quem atacar. Você recebe +6 na Defesa. Cada vez que um ataque contra você erra, uma das imagens desaparece e o bônus na Defesa diminui em 2. Um oponente deve ver as cópias para ser confundido. Se você estiver invisível, ou o atacante fechar os olhos, você não recebe o bônus (mas o atacante ainda sofre penalidades normais por não enxergar).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de cópias em +1 (e o bônus na Defesa em +2)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, toda vez que uma cópia é destruída, emite um clarão de luz. A criatura que destruiu a cópia fica ofuscada por uma rodada. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

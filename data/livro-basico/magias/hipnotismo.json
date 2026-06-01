@@ -1,0 +1,47 @@
+{
+  "id": "hipnotismo",
+  "tipo": "magia",
+  "nome": "Hipnotismo",
+  "resumo": "Alvos ficam fascinados.",
+  "fonte": { "livro": "livro-basico", "pagina": 194 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 animal ou humanoide",
+    "duracao": "1d4 rodadas",
+    "resistencia": "Vontade anula",
+    "custoPM": 1,
+    "descricao": "Suas palavras e movimentos ritmados deixam o alvo fascinado. Esta magia só afeta criaturas que possam perceber você. Se usar esta magia em combate, o alvo recebe +5 em seu teste de resistência. Se a criatura passar, fica imune a este efeito por um dia.",
+    "truque": "Muda a duração para 1 rodada. Em vez de fascinado, o alvo fica pasmo (apenas uma vez por cena).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Como o normal, mas alvos que passem na resistência não sabem que foram vítimas de uma magia."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para animais ou humanoides escolhidos."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para sustentada."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Também afeta espíritos e monstros na área. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Também afeta construtos, espíritos, monstros e mortos-vivos na área. Requer 3º círculo.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

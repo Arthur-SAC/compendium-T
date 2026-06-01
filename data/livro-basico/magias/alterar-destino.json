@@ -1,0 +1,22 @@
+{
+  "id": "alterar-destino",
+  "tipo": "magia",
+  "nome": "Alterar Destino",
+  "resumo": "Enxerga o futuro, podendo alterar o resultado de um teste.",
+  "fonte": { "livro": "livro-basico", "pagina": 179 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 5,
+    "escola": "Adivinhação",
+    "execucao": "reação",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "instantânea",
+    "custoPM": 15,
+    "descricao": "Sua mente visualiza todas as possibilidades de um evento, permitindo a você escolher o melhor curso de ação. Você pode rolar novamente um teste de resistência com um bônus de +10 ou um inimigo deve rolar novamente um ataque contra você com uma penalidade de –10.",
+    "aprimoramentos": []
+  }
+}

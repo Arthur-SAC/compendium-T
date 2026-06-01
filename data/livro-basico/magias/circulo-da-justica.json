@@ -1,0 +1,37 @@
+{
+  "id": "circulo-da-justica",
+  "tipo": "magia",
+  "nome": "Círculo da Justiça",
+  "resumo": "Causa penalidades em Enganação, Furtividade e Ladinagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 182 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Abjuração",
+    "execucao": "completa",
+    "alcance": "curto",
+    "area": "esfera com 9m de raio",
+    "duracao": "1 dia",
+    "resistencia": "Vontade parcial",
+    "custoPM": 3,
+    "descricao": "Também conhecida como Lágrimas de Hyninn, esta magia é usada em tribunais e para proteger áreas sensíveis. Criaturas na área sofrem –10 em testes de Acrobacia, Enganação, Furtividade e Ladinagem e não podem mentir deliberadamente — mas podem tentar evitar perguntas que normalmente responderiam com uma mentira (sendo evasivas ou cometendo omissões, por exemplo). Uma criatura que passe na resistência tem as penalidades reduzidas para –5 e pode mentir.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a execução para ação padrão, o alcance para pessoal, o alvo para você, a duração para cena e a resistência para nenhuma. Em vez do normal, qualquer criatura ou objeto invisível em alcance curto se torna visível. Isso não dissipa o efeito mágico; se sair do seu alcance, a criatura ou objeto voltam a ficar invisíveis."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a penalidade nas perícias para –10 (se passar na resistência) e –20 (se falhar).",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda a duração para permanente e adiciona componente material (balança de prata no valor de T$ 5.000)."
+      }
+    ]
+  }
+}

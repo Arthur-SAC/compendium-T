@@ -1,0 +1,32 @@
+{
+  "id": "coluna-de-chamas",
+  "tipo": "magia",
+  "nome": "Coluna de Chamas",
+  "resumo": "Os céus despejam luz e fogo sobre seus inimigos.",
+  "fonte": { "livro": "livro-basico", "pagina": 184 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "longo",
+    "area": "cilindro com 3m de raio e 30m de altura",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 6,
+    "descricao": "Um pilar de fogo sagrado desce dos céus, causando 6d6 pontos de dano de fogo mais 6d6 pontos de dano de luz nas criaturas e objetos livres na área.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano de fogo em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano de luz em +1d6."
+      }
+    ]
+  }
+}

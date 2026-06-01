@@ -1,0 +1,40 @@
+{
+  "id": "curar-ferimentos",
+  "tipo": "magia",
+  "nome": "Curar Ferimentos",
+  "resumo": "Seu toque recupera pontos de vida.",
+  "fonte": { "livro": "livro-basico", "pagina": 188 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Você canaliza luz que recupera 2d8+2 pontos de vida na criatura tocada.",
+    "truque": "Muda o alvo para 1 morto-vivo. Em vez do normal, causa 1d8 pontos de dano de luz (Vontade reduz à metade).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta a cura em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Também remove uma condição de fadiga do alvo."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas."
+      }
+    ]
+  }
+}

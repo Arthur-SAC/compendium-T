@@ -1,0 +1,37 @@
+{
+  "id": "amarras-etereas",
+  "tipo": "magia",
+  "nome": "Amarras Etéreas",
+  "resumo": "Laços de energia prendem o alvo.",
+  "fonte": { "livro": "livro-basico", "pagina": 179 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "resistencia": "Reflexos anula",
+    "custoPM": 3,
+    "descricao": "Três laços de energia surgem e se enroscam no alvo, deixando-o agarrado. A vítima pode tentar se livrar, gastando uma ação padrão para fazer um teste de Atletismo. Se passar, destrói um laço, mais um laço adicional para cada 5 pontos pelos quais superou a CD. Os laços também podem ser atacados e destruídos: cada um tem Defesa 10, 10 PV, RD 5 e imunidade a dano mágico. Se todos os laços forem destruídos, a magia é dissipada. Por serem feitos de energia, os laços afetam criaturas incorpóreas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de laços em um alvo a sua escolha em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Em vez do normal, cada laço é destruído automaticamente com um único ataque bem-sucedido; porém, cada laço destruído libera um choque de energia que causa 1d8+1 pontos de dano de essência na criatura amarrada.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

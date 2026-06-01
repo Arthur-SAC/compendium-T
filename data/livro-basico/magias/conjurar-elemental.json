@@ -1,0 +1,32 @@
+{
+  "id": "conjurar-elemental",
+  "tipo": "magia",
+  "nome": "Conjurar Elemental",
+  "resumo": "Convoca um elemental como parceiro.",
+  "fonte": { "livro": "livro-basico", "pagina": 185 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Convocação",
+    "execucao": "completa",
+    "alcance": "médio",
+    "efeito": "parceiro elemental",
+    "duracao": "sustentada",
+    "custoPM": 10,
+    "descricao": "Esta magia transforma uma porção de um elemento inerte em uma criatura elemental Grande do tipo do elemento alvo. Por exemplo, lançar esta magia numa fogueira ou tocha cria um elemental do fogo. Você pode criar elementais do ar, água, fogo e terra com essa magia. O elemental obedece a todos os seus comandos e pode funcionar como um parceiro do tipo destruidor (cuja habilidade custa apenas 2 PM para ser usada) e mais um tipo entre os indicados na lista abaixo, ambos mestres. O elemental auxilia apenas você e não conta em seu limite de parceiros.\n\nAr: assassino, perseguidor ou vigilante. Dano de eletricidade.\n\nÁgua: ajudante, guardião ou médico. Dano de frio.\n\nFogo: atirador, combatente ou fortão. Dano de fogo.\n\nTerra: combatente, guardião ou montaria. Dano de impacto.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "efeito": "O elemental muda para Enorme e recebe dois tipos de parceiro indicados no seu elemento."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Você convoca um elemental de cada tipo. Quando lança a magia, você pode escolher se cada elemental vai auxiliar você ou um aliado no alcance.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

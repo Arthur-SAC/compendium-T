@@ -1,0 +1,46 @@
+{
+  "id": "escuridao",
+  "tipo": "magia",
+  "nome": "Escuridão",
+  "resumo": "Objeto emana uma área de escuridão.",
+  "fonte": { "livro": "livro-basico", "pagina": 193 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 objeto",
+    "duracao": "cena",
+    "resistencia": "Vontade anula (veja texto)",
+    "custoPM": 1,
+    "descricao": "O alvo emana sombras em uma área com 6m de raio. Criaturas dentro da área recebem camuflagem leve por escuridão leve. As sombras não podem ser iluminadas por nenhuma fonte de luz natural. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a escuridão, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la. Escuridão anula Luz.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta a área da escuridão em +1,5m de raio."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o efeito para fornecer camuflagem total por escuridão total. As sombras bloqueiam a visão na área e através dela."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para 1 criatura e a resistência para Fortitude parcial. Você lança a magia nos olhos do alvo, que fica cego pela cena. Se passar na resistência, fica cego por 1 rodada. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a duração para um dia."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para você. Em vez do normal, você é coberto por sombras, recebendo +10 em testes de Furtividade e camuflagem leve. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

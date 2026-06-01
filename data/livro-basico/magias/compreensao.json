@@ -1,0 +1,42 @@
+{
+  "id": "compreensao",
+  "tipo": "magia",
+  "nome": "Compreensão",
+  "resumo": "Você entende qualquer coisa escrita ou falada e pode ouvir pensamentos.",
+  "fonte": { "livro": "livro-basico", "pagina": 184 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura ou texto",
+    "duracao": "cena",
+    "resistencia": "Vontade anula (veja descrição)",
+    "custoPM": 1,
+    "descricao": "Essa magia lhe confere compreensão sobrenatural. Você pode tocar um texto e entender as palavras mesmo que não conheça o idioma. Se tocar numa criatura inteligente, pode se comunicar com ela mesmo que não tenham um idioma em comum. Se tocar uma criatura não inteligente, como um animal, pode perceber seus sentimentos.\n\nVocê também pode gastar uma ação de movimento para ouvir os pensamentos de uma criatura tocada (você \"ouve\" o que o alvo está pensando), mas um alvo involuntário tem direito a um teste de Vontade para proteger seus pensamentos e evitar este efeito.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para curto."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas. Você pode entender todas as criaturas afetadas, mas só pode ouvir os pensamentos de uma por vez."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para 1 criatura. Em vez do normal, pode vasculhar os pensamentos do alvo para extrair informações. O alvo tem direito a um teste de Vontade para anular este efeito. O mestre decide se a criatura sabe ou não a informação que você procura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para você. Em vez do normal, você pode falar, entender e escrever qualquer idioma.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

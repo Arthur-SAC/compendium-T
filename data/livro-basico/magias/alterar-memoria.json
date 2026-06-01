@@ -1,0 +1,32 @@
+{
+  "id": "alterar-memoria",
+  "tipo": "magia",
+  "nome": "Alterar Memória",
+  "resumo": "Pode apagar ou modificar a memória recente do alvo.",
+  "fonte": { "livro": "livro-basico", "pagina": 179 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 4,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Vontade anula",
+    "custoPM": 10,
+    "descricao": "Você invade a mente do alvo e altera ou apaga suas memórias da última hora.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para área cone de 4,5m."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Você pode alterar ou apagar as memórias das últimas 24 horas."
+      }
+    ]
+  }
+}

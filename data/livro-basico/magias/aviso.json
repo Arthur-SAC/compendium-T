@@ -1,0 +1,39 @@
+{
+  "id": "aviso",
+  "tipo": "magia",
+  "nome": "Aviso",
+  "resumo": "Envia um alerta telepático para uma criatura.",
+  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "movimento",
+    "alcance": "longo",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito. Escolha um:\n\n**Alerta:** o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção dentro da cena.\n\n**Mensagem:** o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo.\n\n**Localização:** o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o alcance em um fator de 10 (90m para 900m, 900m para 9km e assim por diante)."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Se escolher mensagem, o alvo pode enviar uma resposta de até 25 palavras para você até o fim de seu próximo turno."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Se escolher localização, muda a duração para cena. O alvo sabe onde você está mesmo que você mude de posição."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      }
+    ]
+  }
+}

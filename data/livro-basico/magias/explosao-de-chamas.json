@@ -1,0 +1,33 @@
+{
+  "id": "explosao-de-chamas",
+  "tipo": "magia",
+  "nome": "Explosão de Chamas",
+  "resumo": "Cone causa dano de fogo.",
+  "fonte": { "livro": "livro-basico", "pagina": 193 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 6m",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 1,
+    "descricao": "Um leque de chamas irrompe de suas mãos, causando 2d6 pontos de dano de fogo às criaturas na área.",
+    "truque": "Muda o alcance para curto, a área para alvo de 1 objeto e a resistência para Reflexos anula. Você gera uma pequena explosão que não causa dano mas pode acender uma vela, tocha ou fogueira. Também pode fazer um objeto inflamável com RD 0 (como uma corda ou pergaminho) ficar em chamas. Uma criatura em posse de um objeto pode evitar esse efeito se passar no teste de resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a resistência para Reflexos parcial. Se passar, a criatura reduz o dano à metade; se falhar, fica em chamas (veja Condições, na página 394)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dissipar-magia",
+  "tipo": "magia",
+  "nome": "Dissipar Magia",
+  "resumo": "Encerra os efeitos de magias ativas em um alvo ou área.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 190
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 2,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "alvo": "1 criatura ou 1 objeto mágico ou esfera com 3m de raio",
+    "duracao": "instantânea",
+    "custoPM": 3,
+    "descricao": "Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade anula).",
+    "aprimoramentos": [
+      {
+        "custo": "+12 PM",
+        "efeito": "Muda a área para esfera com 9m de raio. Em vez do normal, cria um efeito de disjunção. Todas as magias na área são automaticamente dissipadas e todos os itens mágicos na área, exceto aqueles que você estiver carregando, viram itens mundanos por uma cena (com direito a um teste de Vontade para evitar esse efeito). Requer 5º círculo.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

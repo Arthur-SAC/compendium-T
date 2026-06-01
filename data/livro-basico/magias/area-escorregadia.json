@@ -1,0 +1,36 @@
+{
+  "id": "area-escorregadia",
+  "tipo": "magia",
+  "nome": "Área Escorregadia",
+  "resumo": "Criaturas na área podem cair ou objeto afetado pode ser derrubado.",
+  "fonte": { "livro": "livro-basico", "pagina": 180 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "quadrado de 3m ou 1 objeto",
+    "duracao": "cena",
+    "resistencia": "Reflexos (veja texto)",
+    "custoPM": 1,
+    "descricao": "Esta magia recobre uma superfície com uma substância gordurosa e escorregadia. Criaturas na área devem passar na resistência para não cair. Nas rodadas seguintes, criaturas que tentem movimentar-se pela área devem fazer testes de Acrobacia para equilíbrio (CD 10).\n\nÁrea Escorregadia pode tornar um item escorregadio. Uma criatura segurando um objeto afetado deve passar na resistência para não deixar o item cair cada vez que usá-lo.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta a área em +1 quadrado de 1,5m."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a CD dos testes de Acrobacia para 15."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda a CD dos testes de Acrobacia para 20."
+      }
+    ]
+  }
+}

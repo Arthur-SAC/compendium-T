@@ -1,0 +1,34 @@
+{
+  "id": "engenho-de-mana",
+  "tipo": "magia",
+  "nome": "Engenho de Mana",
+  "resumo": "Disco de energia flutuante é capaz de absorver magias e gerar PM.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 191
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 5,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "efeito": "disco de energia com 1,5m de diâmetro",
+    "duracao": "sustentada",
+    "custoPM": 15,
+    "descricao": "Você cria um disco de energia que lembra uma roda de engenho e flutua no ponto em que foi conjurado. O disco é imune a dano, não pode ser movido e faz uma contramágica automática contra qualquer magia lançada em alcance médio dele (exceto as suas), usando seu teste de Misticismo. Caso vença o teste, o engenho não só anula a magia como absorve os PM usados para lançá-la, acumulando PM temporários. No seu turno, se estiver ao alcance do disco, você pode gastar PM nele para lançar magias.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Em vez de flutuar no ponto em que foi conjurado, o disco flutua atrás de você, mantendo-se sempre adjacente."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a duração para um dia."
+      }
+    ]
+  }
+}

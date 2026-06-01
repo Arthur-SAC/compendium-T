@@ -1,0 +1,42 @@
+{
+  "id": "globo-da-verdade-de-gwen",
+  "tipo": "magia",
+  "nome": "Globo da Verdade de Gwen",
+  "resumo": "Globo revela cena vista pelo conjurador.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 194
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "efeito": "1 globo",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Cria um globo flutuante e intangível, com 50cm de diâmetro. O globo mostra uma cena vista até uma semana atrás por você ou por uma criatura que você toque ao lançar a magia (mediante uma pergunta; a criatura pode fazer um teste de Vontade para anular o efeito), permitindo que outras pessoas a vejam.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "O globo mostra uma cena vista até um mês atrás."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Como acima, até um ano atrás."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Ao lançar a magia, você pode tocar um cadáver. O globo mostra a última cena vista por essa criatura."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alcance para longo e o efeito para 10 globos. Todos mostram a mesma cena."
+      }
+    ]
+  }
+}

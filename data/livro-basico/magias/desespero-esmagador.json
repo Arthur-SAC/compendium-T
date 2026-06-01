@@ -1,0 +1,37 @@
+{
+  "id": "desespero-esmagador",
+  "tipo": "magia",
+  "nome": "Desespero Esmagador",
+  "resumo": "Criaturas na área perdem a vontade de lutar.",
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 6m",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 3,
+    "descricao": "Humanoides na área são acometidos de grande tristeza, ficando fracos e frustrados até o fim da cena (ou por uma rodada, se passarem no teste de resistência).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Em vez do normal, as condições adquiridas são debilitado e esmorecido."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Em vez do normal, afeta qualquer tipo de criatura."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Além do normal, criaturas que falhem na resistência ficam aos prantos (pasmos) por 1 rodada (apenas uma vez por cena).",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

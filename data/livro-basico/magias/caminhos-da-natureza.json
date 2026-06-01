@@ -1,0 +1,32 @@
+{
+  "id": "caminhos-da-natureza",
+  "tipo": "magia",
+  "nome": "Caminhos da Natureza",
+  "resumo": "Convoca um espírito que guia você e seus aliados em terreno selvagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 182 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "criaturas escolhidas",
+    "duracao": "1 dia",
+    "custoPM": 1,
+    "descricao": "Você invoca espíritos da natureza, pedindo que eles abram seu caminho. As criaturas afetadas recebem deslocamento +3m e ignoram penalidades por terreno difícil em terrenos naturais.",
+    "truque": "Muda o alcance para pessoal e o alvo para você. Em vez do normal, você recebe +5 em testes de Sobrevivência para se orientar.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, a CD para rastrear os alvos em terreno natural aumenta em +10."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus de deslocamento em +3m."
+      }
+    ]
+  }
+}

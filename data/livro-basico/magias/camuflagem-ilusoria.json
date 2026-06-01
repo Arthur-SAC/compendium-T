@@ -1,0 +1,32 @@
+{
+  "id": "camuflagem-ilusoria",
+  "tipo": "magia",
+  "nome": "Camuflagem Ilusória",
+  "resumo": "A imagem do alvo fica distorcida, concedendo camuflagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 182 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "O alvo fica com sua imagem nublada, como se vista através de um líquido, recebendo os efeitos de camuflagem leve.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a duração para sustentada. A imagem do alvo fica mais distorcida, aumentando a chance de falha da camuflagem leve para 50%."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

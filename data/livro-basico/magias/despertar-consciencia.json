@@ -1,0 +1,31 @@
+{
+  "id": "despertar-consciencia",
+  "tipo": "magia",
+  "nome": "Despertar Consciência",
+  "resumo": "Plantas e animais ganham consciência e se tornam parceiros.",
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Encantamento",
+    "execucao": "completa",
+    "alcance": "toque",
+    "alvo": "1 animal ou planta",
+    "duracao": "1 dia",
+    "custoPM": 6,
+    "descricao": "Você desperta a consciência de um animal ou planta. O alvo se torna um parceiro veterano de um tipo a sua escolha entre ajudante, combatente, fortão, guardião, médico, perseguidor ou vigilante. Se usar esta magia em outro parceiro que já possua, o nível de poder de um de seus tipos aumenta em um passo (apenas uma vez por parceiro). Se já for um parceiro mestre, recebe o bônus de outro tipo de parceiro iniciante (entre as escolhas acima). O alvo se torna uma criatura racional, com Inteligência –1, e pode falar.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o alvo para 1 escultura mundana inanimada. Além do normal, o alvo tem as mesmas características de um construto."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a duração para permanente e adiciona penalidade de –3 PM."
+      }
+    ]
+  }
+}

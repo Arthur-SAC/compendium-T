@@ -1,0 +1,32 @@
+{
+  "id": "detectar-ameacas",
+  "tipo": "magia",
+  "nome": "Detectar Ameaças",
+  "resumo": "Detecta perigos ao seu redor.",
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "esfera com 18m de raio",
+    "duracao": "cena, até ser descarregada",
+    "custoPM": 1,
+    "descricao": "Você recebe uma intuição aguçada sobre perigos ao seu redor. Quando uma criatura hostil ou armadilha entra na área do efeito, você faz um teste de Percepção (CD determinada pelo mestre de acordo com a situação). Se passar, sabe a origem (criatura ou armadilha), direção e distância do perigo. Se falhar, sabe apenas que o perigo existe.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Você descobre também a raça ou espécie e o poder da criatura detectada (determinado pela aura dela). Criaturas de 1º a 6º nível ou ND geram aura tênue, criaturas de 7º a 12º nível ou ND geram aura moderada e criaturas de 13º ao 20º nível ou ND geram aura poderosa. Criaturas acima do 20º nível ou ND geram aura avassaladora."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, você não fica surpreendido contra perigos detectados com sucesso e recebe +5 em testes de resistência contra armadilhas.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

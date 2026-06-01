@@ -1,0 +1,50 @@
+{
+  "id": "arma-espiritual",
+  "tipo": "magia",
+  "nome": "Arma Espiritual",
+  "resumo": "Cria uma arma de energia que ataca seus inimigos.",
+  "fonte": { "livro": "livro-basico", "pagina": 180 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Você invoca a arma preferida de sua divindade (caso sua divindade possua uma), que surge flutuando a seu lado. Uma vez por rodada, quando você sofre um ataque corpo a corpo, pode usar uma reação para que a arma cause automaticamente 2d6 pontos de dano do tipo da arma — por exemplo, uma espada longa causa dano de corte — no oponente que fez o ataque. Esta magia se dissipa se você morrer.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, a arma o protege. Você recebe +1 na Defesa."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus na Defesa em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para sustentada. Além do normal, uma vez por rodada, você pode gastar uma ação livre para fazer a arma acertar automaticamente um alvo adjacente. Se a arma atacar, não poderá contra-atacar até seu próximo turno.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o tipo do dano para essência.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano causado pela arma em +1d6 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Invoca duas armas, permitindo que você contra-ataque (ou ataque, se usar o aprimoramento acima) duas vezes por rodada.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

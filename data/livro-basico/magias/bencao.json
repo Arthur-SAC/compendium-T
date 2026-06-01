@@ -1,0 +1,31 @@
+{
+  "id": "bencao",
+  "tipo": "magia",
+  "nome": "Bênção",
+  "resumo": "Fornece bônus em ataques e dano.",
+  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "aliados",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Abençoa seus aliados, que recebem +1 em testes de ataque e rolagens de dano. Bênção anula Perdição.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 cadáver e a duração para 1 semana. O cadáver não se decompõe nem pode ser transformado em morto-vivo."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta os bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      }
+    ]
+  }
+}

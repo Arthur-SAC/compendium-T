@@ -1,0 +1,38 @@
+{
+  "id": "leque-cromatico",
+  "tipo": "magia",
+  "nome": "Leque Cromático",
+  "resumo": "Criaturas na área ficam ofuscadas ou atordoadas.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "cone de 4,5m",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 1,
+    "descricao": "Um cone de luzes brilhantes surge das suas mãos, deixando os animais e humanoides na área atordoados por 1 rodada (apenas uma vez por cena, Vontade anula) e ofuscados pela cena. Esta magia não afeta criaturas cegas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, as criaturas afetadas ficam vulneráveis pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Também afeta espíritos e monstros na área. Requer 2º círculo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Também afeta construtos, espíritos, monstros e mortos-vivos na área. Requer 3º círculo.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "invulnerabilidade",
+  "tipo": "magia",
+  "nome": "Invulnerabilidade",
+  "resumo": "Recebe uma série de imunidades físicas ou mentais a sua escolha.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 195
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 5,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 15,
+    "descricao": "Esta magia cria uma barreira mágica impenetrável que protege você contra efeitos nocivos mentais ou físicos, a sua escolha.\n\nProteção mental: você fica imune às condições abalado, alquebrado, apavorado, atordoado, confuso, esmorecido, fascinado, frustrado e pasmo, além de efeitos de encantamento e ilusão.\n\nProteção física: você fica imune às condições atordoado, cego, debilitado, enjoado, envenenado, exausto, fatigado, fraco, lento, ofuscado e paralisado, além de acertos críticos, ataques furtivos e doenças.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "aliado-animal",
+  "tipo": "magia",
+  "nome": "Aliado Animal",
+  "resumo": "Um animal prestativo se torna um parceiro.",
+  "fonte": { "livro": "livro-basico", "pagina": 178 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 animal prestativo",
+    "duracao": "1 dia",
+    "custoPM": 3,
+    "descricao": "Você cria um vínculo mental com um animal prestativo em relação a você. O Aliado Animal obedece a você no melhor de suas capacidades, mesmo que isso arrisque a vida dele. Ele funciona como um parceiro veterano, de um tipo a sua escolha entre ajudante, combatente, fortão, guardião, montaria ou perseguidor.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 animal Minúsculo e a duração para 1 semana. Em vez do normal, o animal se desloca no melhor de suas capacidades até um local designado por você — em geral, para levar um item, carta ou similar. Quando o animal chega ao destino, fica esperando até o fim da magia, permitindo apenas que uma ou mais criaturas escolhidas por você se aproximem e peguem o que ele estiver carregando."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o parceiro para mestre.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+12 PM",
+        "efeito": "Muda o alvo para 2 animais prestativos. Cada animal funciona como um parceiro de um tipo diferente, e você pode receber a ajuda de ambos (mas ainda precisa seguir o limite de parceiros de acordo com o seu nível de personagem).",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

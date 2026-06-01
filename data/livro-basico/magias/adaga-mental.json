@@ -1,0 +1,36 @@
+{
+  "id": "adaga-mental",
+  "tipo": "magia",
+  "nome": "Adaga Mental",
+  "resumo": "Alvo sofre dano psíquico e pode ficar atordoado.",
+  "fonte": { "livro": "livro-basico", "pagina": 178 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 1,
+    "descricao": "Você manifesta e dispara uma adaga imaterial contra a mente do alvo, que sofre 2d6 pontos de dano psíquico e fica atordoado por uma rodada. Se passar no teste de resistência, sofre apenas metade do dano e evita a condição. Uma criatura só pode ficar atordoada por esta magia uma vez por cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Você lança a magia sem gesticular ou pronunciar palavras (o que permite lançar esta magia de armadura) e a adaga se torna invisível. Se o alvo falhar no teste de resistência, não percebe que você lançou uma magia contra ele."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para um dia. Além do normal, você \"finca\" a adaga na mente do alvo. Enquanto a magia durar, você sabe a direção e localização do alvo, desde que ele esteja no mesmo mundo."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d6."
+      }
+    ]
+  }
+}

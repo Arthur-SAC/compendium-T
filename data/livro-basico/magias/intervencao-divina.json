@@ -1,0 +1,23 @@
+{
+  "id": "intervencao-divina",
+  "tipo": "magia",
+  "nome": "Intervenção Divina",
+  "resumo": "Convoca sua divindade para que realize um milagre.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 5,
+    "escola": "Convocação",
+    "execucao": "completa",
+    "alcance": "veja texto",
+    "alvo": "veja texto",
+    "duracao": "veja texto",
+    "resistencia": "veja texto",
+    "custoPM": 15,
+    "descricao": "Você pede a sua divindade para interceder diretamente. Você pode:\n\n• Curar todos os PV e condições de até 10 criaturas em alcance longo (este efeito cura mortos-vivos, em vez de causar dano).\n\n• Dissipar os efeitos de qualquer magia de 4º círculo ou menor.\n\nVocê pode implorar por algo ainda mais poderoso. Nesse caso, a magia requer o sacrifício de 2 PM e pode fazer coisas como:\n\n• Criar um item mundano de até T$ 30.000.\n\n• Duplicar os efeitos de qualquer magia de até 4º círculo. Caso a magia precise de um componente material para ser lançada, ainda é necessário providenciar o componente.\n\n• Proteger uma cidade de um desastre, como uma erupção vulcânica, enchente ou terremoto.\n\n• Ressuscitar uma criatura em alcance longo que tenha morrido há até uma rodada. A criatura acorda com 1 PV.\n\n• Qualquer outra coisa que o mestre autorize, conforme os desejos e objetivos da divindade do conjurador.",
+    "aprimoramentos": []
+  }
+}

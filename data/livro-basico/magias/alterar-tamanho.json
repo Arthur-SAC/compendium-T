@@ -1,0 +1,41 @@
+{
+  "id": "alterar-tamanho",
+  "tipo": "magia",
+  "nome": "Alterar Tamanho",
+  "resumo": "Aumenta ou diminui o tamanho de objetos e criaturas.",
+  "fonte": { "livro": "livro-basico", "pagina": 179 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 objeto",
+    "duracao": "1 dia",
+    "custoPM": 3,
+    "descricao": "Esta magia aumenta ou diminui o tamanho de um item mundano em até três categorias (um objeto Enorme vira Pequeno, por exemplo). Você também pode mudar a consistência do item, deixando-o rígido como pedra ou flexível como seda (isso não altera sua RD ou PV, apenas suas propriedades físicas). Se lançar a magia num objeto de uma criatura involuntária, ela pode fazer um teste de Vontade para anulá-la.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura. Em vez do normal, o alvo aumenta uma categoria de tamanho (seu equipamento se ajusta ao novo tamanho). O alvo também recebe Força +2. Um alvo involuntário pode fazer um teste de Fortitude para negar o efeito."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura. Em vez do normal, o alvo diminui uma categoria de tamanho (seu equipamento se ajusta ao novo tamanho). O alvo também recebe Destreza +2. Um alvo involuntário pode fazer um teste de Fortitude para negar o efeito.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Muda o alcance para toque, o alvo para 1 criatura, a duração para permanente e a resistência para Fortitude anula. Em vez do normal, se falhar na resistência o alvo e seu equipamento têm seu tamanho mudado para Minúsculo. O alvo tem seu valor de Força reduzido a –5 e seus deslocamentos reduzidos a 3m.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

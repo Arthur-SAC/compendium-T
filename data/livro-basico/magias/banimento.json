@@ -1,0 +1,28 @@
+{
+  "id": "banimento",
+  "tipo": "magia",
+  "nome": "Banimento",
+  "resumo": "Expulsa criaturas de outros planos e destrói mortos-vivos.",
+  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Abjuração",
+    "execucao": "1d3+1 rodadas",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 6,
+    "descricao": "Você expulsa uma criatura não nativa de Arton. Um alvo nativo de outro mundo (como muitos espíritos), é teletransportado de volta para um lugar aleatório de seu mundo de origem. Já um alvo morto-vivo tem sua conexão com as energias negativas rompidas, sendo reduzido a 0 PV. Se passar na resistência, em vez dos efeitos acima, o alvo fica enjoado por 1d4 rodadas.\n\nSe você tiver um ou mais itens que se oponham ao alvo de alguma maneira, a CD do teste de resistência aumenta em +2 por item. Por exemplo, se lançar a magia contra demônios do frio (vulneráveis a água benta e que odeiam luz e calor) enquanto segura um frasco de água benta e uma tocha acesa, a CD aumenta em +4. O mestre decide se determinado item é forte o bastante contra a criatura para isso.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "efeito": "Muda a resistência para nenhum. Em vez do normal, devolve automaticamente uma criatura conjurada (como por uma magia de convocação) para seu plano de origem."
+      }
+    ]
+  }
+}

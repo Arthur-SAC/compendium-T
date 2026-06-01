@@ -1,0 +1,32 @@
+{
+  "id": "cranio-voador-de-vladislav",
+  "tipo": "magia",
+  "nome": "Crânio Voador de Vladislav",
+  "resumo": "Crânio flutuante causa dano em um alvo.",
+  "fonte": { "livro": "livro-basico", "pagina": 187 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "médio",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 3,
+    "descricao": "Esta magia cria um crânio envolto em energia negativa. Quando atinge o alvo, ele causa 4d8+4 pontos de dano de trevas e se desfaz emitindo um som horrendo, deixando abalado o alvo e todos os inimigos num raio de 3m dele (criaturas já abaladas ficam apavoradas por 1d4 rodadas). Passar no teste de resistência diminui o dano à metade e evita a condição (as demais criaturas na área também têm direito ao teste de resistência, para evitar a condição).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      }
+    ]
+  }
+}

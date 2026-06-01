@@ -1,0 +1,28 @@
+{
+  "id": "buraco-negro",
+  "tipo": "magia",
+  "nome": "Buraco Negro",
+  "resumo": "Abre uma ruptura no espaço que suga tudo ao redor.",
+  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 5,
+    "escola": "Convocação",
+    "execucao": "completa",
+    "alcance": "longo",
+    "efeito": "buraco negro",
+    "duracao": "3 rodadas",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 15,
+    "descricao": "Esta magia cria um vácuo capaz de sugar tudo nas proximidades. Escolha um espaço desocupado para o buraco negro. No início de cada um de seus três turnos seguintes, todas as criaturas a até alcance longo do buraco negro, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do buraco. Objetos soltos também são puxados. Criaturas podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo +2 em seus testes de resistência.\n\nCriaturas e objetos que iniciem seu turno no espaço do buraco negro devem gastar uma ação de movimento e fazer um teste de Fortitude. Se passarem, podem escapar se arrastando (deslocamento de 1,5m) para longe dele. Se falharem, perdem a ação (mas podem gastar outra para tentar novamente). Se terminarem seu turno no espaço do buraco negro, são sugadas, desaparecendo para sempre.\n\nNão se conhece o destino das coisas sugadas pelo buraco negro. Alguns estudiosos sugerem que são enviadas para outros mundos — provavelmente Sombria, reino da deusa Tenebra.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o efeito para que você não seja afetado."
+      }
+    ]
+  }
+}

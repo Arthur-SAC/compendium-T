@@ -1,0 +1,27 @@
+{
+  "id": "conceder-milagre",
+  "tipo": "magia",
+  "nome": "Conceder Milagre",
+  "resumo": "Alvo pode lançar uma de suas magias de 2º círculo ou menor.",
+  "fonte": { "livro": "livro-basico", "pagina": 184 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 4,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "permanente até ser descarregada",
+    "custoPM": 10,
+    "descricao": "Você transfere um pouco de seu poder divino a outra criatura. Escolha uma magia de até 2º círculo que você conheça; o alvo pode lançar essa magia uma vez, sem pagar o custo dela em PM (aprimoramentos podem ser usados, mas o alvo deve gastar seus próprios PM). Você sofre uma penalidade de –3 PM até que o alvo lance a magia.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda o círculo da magia concedida para 3º e a penalidade de PM para –6."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "infligir-ferimentos",
+  "tipo": "magia",
+  "nome": "Infligir Ferimentos",
+  "resumo": "Seu toque causa dano de trevas e pode deixar fraco.",
+  "fonte": { "livro": "livro-basico", "pagina": 195 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "custoPM": 1,
+    "descricao": "Você canaliza energia negativa contra um alvo, causando 2d8+2 pontos de dano de trevas (ou curando 2d8+2 PV, se for um morto-vivo). Infligir Ferimentos anula Curar Ferimentos.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, se falhar na resistência, o alvo fica fraco pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a resistência para nenhum. Como parte da execução da magia, você pode fazer um ataque corpo a corpo contra o alvo. Se acertar, causa o dano do ataque e o efeito da magia."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas."
+      }
+    ]
+  }
+}

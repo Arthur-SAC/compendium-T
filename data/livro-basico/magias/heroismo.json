@@ -1,0 +1,30 @@
+{
+  "id": "heroismo",
+  "tipo": "magia",
+  "nome": "Heroísmo",
+  "resumo": "Alvo fica imune a medo e ganha bônus contra inimigos mais poderosos do que ele.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 194
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 3,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 6,
+    "descricao": "Esta magia imbui uma criatura com coragem e valentia. O alvo fica imune a medo e recebe 40 PV temporários e +4 em testes de ataque e rolagens de dano contra o inimigo de maior ND na cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o bônus para +6."
+      }
+    ]
+  }
+}

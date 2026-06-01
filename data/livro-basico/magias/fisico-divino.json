@@ -1,0 +1,45 @@
+{
+  "id": "fisico-divino",
+  "tipo": "magia",
+  "nome": "Físico Divino",
+  "resumo": "Fornece bônus em um ou mais atributos físicos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 193
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Você fortalece o corpo do alvo. Ele recebe +2 em Força, Destreza ou Constituição, a sua escolha. Esse aumento não oferece PV ou PM adicionais.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alcance para curto e o alvo para criaturas escolhidas."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Em vez do normal, o alvo recebe +2 nos três atributos físicos. Requer 3º círculo.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Em vez do normal, o alvo recebe +4 no atributo escolhido. Requer 4º círculo.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+12 PM",
+        "efeito": "Em vez do normal, o alvo recebe +4 nos três atributos físicos. Requer 5º círculo.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}

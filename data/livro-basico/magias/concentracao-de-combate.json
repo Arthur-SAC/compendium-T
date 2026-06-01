@@ -1,0 +1,43 @@
+{
+  "id": "concentracao-de-combate",
+  "tipo": "magia",
+  "nome": "Concentração de Combate",
+  "resumo": "Ao atacar, você pode rolar dois dados e ficar com o melhor.",
+  "fonte": { "livro": "livro-basico", "pagina": 185 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "livre",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "1 rodada",
+    "custoPM": 1,
+    "descricao": "Você amplia sua percepção, antecipando movimentos dos inimigos e achando brechas em sua defesa. Quando faz um teste de ataque, você rola dois dados e usa o melhor resultado.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a execução para padrão e a duração para cena.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Além do normal, ao atacar você, um inimigo deve rolar dois dados e usar o pior resultado.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda a execução para padrão, o alcance para curto, o alvo para criaturas escolhidas e a duração para cena.",
+        "requisitoCirculo": 4
+      },
+      {
+        "custo": "+14 PM",
+        "efeito": "Muda a execução para padrão e a duração para um dia. Além do normal, você recebe um sexto sentido que o avisa de qualquer perigo ou ameaça. Você fica imune às condições surpreendido e desprevenido e recebe +10 na Defesa e Reflexos.",
+        "requisitoCirculo": 5
+      }
+    ]
+  }
+}
