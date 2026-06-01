@@ -17,7 +17,7 @@
       "dano": "2d8",
       "critico": "x3",
       "tipoDano": "Corte",
-      "habilidades": ["desbalanceada"]
+      "habilidades": ["Desbalanceada"]
     },
     "especial": "Desbalanceada: impõe –2 em testes de ataque."
   }

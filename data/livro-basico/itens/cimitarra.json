@@ -17,7 +17,7 @@
       "dano": "1d6",
       "critico": "18",
       "tipoDano": "Corte",
-      "habilidades": ["ágil"]
+      "habilidades": ["Ágil"]
     }
   }
 }

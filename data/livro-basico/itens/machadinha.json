@@ -18,7 +18,7 @@
       "dano": "1d6",
       "critico": "x3",
       "tipoDano": "Corte",
-      "habilidades": ["arremessável"]
+      "habilidades": ["Arremesso"]
     }
   }
 }

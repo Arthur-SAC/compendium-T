@@ -17,7 +17,7 @@
       "dano": "1d8/1d10",
       "critico": "19",
       "tipoDano": "Corte",
-      "habilidades": ["adaptável", "ágil"]
+      "habilidades": ["Adaptável", "Ágil"]
     },
     "especial": "Dano duplo: 1d8 (uma mão, proficiência exótica) / 1d10 (duas mãos, contando como marcial). Adaptável: pode ser usada como arma marcial de duas mãos. Ágil: pode usar Acuidade com Arma."
   }

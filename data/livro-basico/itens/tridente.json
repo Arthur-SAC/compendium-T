@@ -18,7 +18,7 @@
       "dano": "1d8",
       "critico": "x2",
       "tipoDano": "Perfuração",
-      "habilidades": ["versátil", "arremessável"],
+      "habilidades": ["Versátil", "Arremesso"],
       "especial": "Versátil: +2 em testes para derrubar. Pode ser arremessado."
     }
   }

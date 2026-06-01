@@ -17,7 +17,7 @@
       "dano": "1d8",
       "critico": "x2",
       "tipoDano": "Impacto",
-      "habilidades": ["versátil"],
+      "habilidades": ["Versátil"],
       "especial": "Versátil: +2 em testes para desarmar."
     }
   }

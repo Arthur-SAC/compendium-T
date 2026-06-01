@@ -72,7 +72,9 @@ export function FichaItem({ entidade, registro, descricoes }: { entidade: Entida
                   <span style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: 1.5, color: "var(--tinta-suave)", fontWeight: 700 }}>Habilidades: </span>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 4 }}>
                     {m.arma.habilidades.map((h, i) => (
-                      <span key={i} style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-1)", border: "1px solid var(--borda)", fontStyle: "italic" }}>{h}</span>
+                      <span key={i} style={{ fontFamily: "var(--serifa)", fontSize: 13, padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-1)", border: "1px solid var(--borda)" }}>
+                        <TextoRico texto={h} registro={registro} descricoes={descricoes} />
+                      </span>
                     ))}
                   </div>
                 </div>

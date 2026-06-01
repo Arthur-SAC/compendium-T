@@ -17,7 +17,7 @@
       "dano": "1d10",
       "critico": "x3",
       "tipoDano": "Corte/Perfuração",
-      "habilidades": ["alongada"]
+      "habilidades": ["Alongada"]
     }
   }
 }
