@@ -1,0 +1,214 @@
+{
+  "id": "bardo",
+  "tipo": "classe",
+  "nome": "Bardo",
+  "resumo": "Artista versátil que lança magias através da arte, inspira aliados, domina habilidades sociais e combina conhecimento amplo com encanto irresistível.",
+  "fonte": { "livro": "livro-basico", "pagina": 43 },
+  "imagens": ["/classes/bardo.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Num mundo de heróis, contar histórias épicas também é um ato de heroísmo. Os grandes menestréis não são apenas músicos ou poetas: são malandros que dominam as ruas e as cortes, sábios que possuem conhecimento obscuro sobre os mais variados assuntos, diplomatas que transformam inimigos jurados em companheiros leais após uma noite na taverna, arautos que inspiram seus aliados a grandes feitos no campo de batalha. Sua intimidade com a música é tão grande que através dela lançam magias. São versados em muitas habilidades, embora não sejam mestres em nenhuma. São os bardos.\n\nBardos são contadores de histórias e músicos errantes que acompanham grupos de aventureiros em missões para depois narrar suas façanhas. Contudo, seu papel vai muito além disso. Enquanto muitos heróis se especializam em uma só área, os bardos são versáteis, pessoas do mundo, confortáveis ao lado de reis e de mendigos. Muitas vezes são a \"face\" do grupo, tomando a frente em negociações e sabendo usar palavras doces quando outros prefeririam apelar para as armas. Bardos têm amigos, inimigos, conhecidos, amantes e rivais em cada cidade e aldeia. Conhecem um fato importante sobre cada artefato misterioso. Tocam a música certa para inflamar as almas de seus companheiros a cada combate.\n\nSendo em seu âmago artistas, os bardos costumam ser muito emotivos e entusiasmados, com personalidades fortes e maneiras únicas de encarar a vida. Alguns demonstram alegria incessante, vendo o lado positivo em tudo e sorrindo mesmo frente aos piores perigos. Outros são intensos, amargurados, românticos e apaixonados, sempre tomados por algum amor impossível ou uma memória melancólica. Outros ainda só querem se divertir, parecendo loucos em seu frenesi de acrobacias, imitações, piadas e absurdos. Outros são sedutores cínicos. Outros são tudo isso, mudando de personalidade como quem muda de camisa!\n\nEmbora a maioria dos bardos utilize a música para canalizar sua magia e inspirar seus aliados, quase qualquer tipo de arte pode tomar este papel. Alguns bardos dançam, outros declamam poesia. Outros ainda apenas fazem discursos grandiosos ou mesmo se exibem em grandes demonstrações acrobáticas com armas. Alguns bardos mais parecem embaixadores sérios e pomposos, outros lembram cavaleiros aristocráticos saídos de alguma história. O importante é que a arte do bardo venha de suas emoções e toque os corações dos demais aventureiros.\n\nDe fato, o estereótipo do \"menestrel que acompanha o grupo\" muitas vezes é só uma fachada ou nem mesmo se aplica. Alguns bardos fingem ser só contadores de histórias enquanto estão em alguma missão secreta. Outros querem ser os heróis de suas próprias histórias!\n\nSeja como for, o bardo é um herói que costuma atrair outras pessoas para si. Sua simpatia, magnetismo e capacidade de ajudar os outros fazem com que nunca esteja sozinho na masmorra ou na taverna. E quem acredita que ele é um mero bobo da corte logo pode se ver com um inimigo poderoso que tem contatos em todos os reinos."
+    },
+    {
+      "titulo": "Bardos Famosos",
+      "texto": "Kir'zanaath \"Kiki\" Odello, Luigi Sortudo, Kadeen, Niele, Senomar."
+    },
+    {
+      "titulo": "Pontos de Vida e Mana",
+      "texto": "Um bardo começa com 12 pontos de vida + Constituição e ganha 3 PV + Constituição por nível. Pontos de Mana: 4 PM por nível. (Os campos numéricos da ficha guardam apenas a parte base inteira: PV inicial 12, +3 PV por nível, +4 PM por nível; o \"+ Constituição\" do PV vem do bônus do atributo.)"
+    },
+    {
+      "titulo": "Músicas de Bardo (quadro)",
+      "texto": "Alguns poderes do bardo são Músicas. Esses poderes compartilham as seguintes regras.\n• Para ativar uma música, você precisa ser treinado em Atuação e empunhar um instrumento musical (veja a página 158).\n• Ativar uma música gasta uma ação padrão e 1 PM.\n• Efeitos de músicas têm alcance curto."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Carisma",
+    "pvInicial": 12,
+    "pvPorNivel": 3,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 6,
+      "fixas": ["Atuação (Car)", "Reflexos (Des)"],
+      "lista": [
+        "Acrobacia (Des)",
+        "Cavalgar (Des)",
+        "Conhecimento (Int)",
+        "Diplomacia (Car)",
+        "Enganação (Car)",
+        "Furtividade (Des)",
+        "Iniciativa (Des)",
+        "Intuição (Sab)",
+        "Investigação (Int)",
+        "Jogatina (Car)",
+        "Ladinagem (Des)",
+        "Luta (For)",
+        "Misticismo (Int)",
+        "Nobreza (Int)",
+        "Percepção (Sab)",
+        "Pontaria (Des)",
+        "Vontade (Sab)"
+      ],
+      "texto": "Atuação (Car) e Reflexos (Des) mais 6 a sua escolha entre Acrobacia (Des), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Enganação (Car), Furtividade (Des), Iniciativa (Des), Intuição (Sab), Investigação (Int), Jogatina (Car), Ladinagem (Des), Luta (For), Misticismo (Int), Nobreza (Int), Percepção (Sab), Pontaria (Des) e Vontade (Sab)."
+    },
+    "proficiencias": ["armas marciais"],
+    "progressao": [
+      { "nivel": 1,  "habilidades": ["Inspiração +1", "Magias (1º círculo)"] },
+      { "nivel": 2,  "habilidades": ["Poder de bardo", "Eclético"] },
+      { "nivel": 3,  "habilidades": ["Poder de bardo"] },
+      { "nivel": 4,  "habilidades": ["Poder de bardo"] },
+      { "nivel": 5,  "habilidades": ["Inspiração +2", "Poder de bardo"] },
+      { "nivel": 6,  "habilidades": ["Magias (2º círculo)", "Poder de bardo"] },
+      { "nivel": 7,  "habilidades": ["Poder de bardo"] },
+      { "nivel": 8,  "habilidades": ["Poder de bardo"] },
+      { "nivel": 9,  "habilidades": ["Inspiração +3", "Poder de bardo"] },
+      { "nivel": 10, "habilidades": ["Magias (3º círculo)", "Poder de bardo"] },
+      { "nivel": 11, "habilidades": ["Poder de bardo"] },
+      { "nivel": 12, "habilidades": ["Poder de bardo"] },
+      { "nivel": 13, "habilidades": ["Inspiração +4", "Poder de bardo"] },
+      { "nivel": 14, "habilidades": ["Magias (4º círculo)", "Poder de bardo"] },
+      { "nivel": 15, "habilidades": ["Poder de bardo"] },
+      { "nivel": 16, "habilidades": ["Poder de bardo"] },
+      { "nivel": 17, "habilidades": ["Inspiração +5", "Poder de bardo"] },
+      { "nivel": 18, "habilidades": ["Poder de bardo"] },
+      { "nivel": 19, "habilidades": ["Poder de bardo"] },
+      { "nivel": 20, "habilidades": ["Artista completo", "Poder de bardo"] }
+    ],
+    "conjuracao": {
+      "tipo": "Arcana",
+      "atributoChave": "Carisma",
+      "descricao": "O bardo escolhe três escolas de magia arcana (escolha permanente). Pode lançar magias arcanas dessas escolas: 1º círculo desde o 1º nível, 2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível. Começa com duas magias de 1º círculo; a cada nível par aprende uma magia de qualquer círculo e escola que possa lançar. Pode lançar magias vestindo armaduras leves sem testes de Misticismo. Soma Carisma no total de PM."
+    },
+    "caminhos": [],
+    "habilidades": [
+      {
+        "nome": "Magias",
+        "nivel": 1,
+        "descricao": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias arcanas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível).\n\nVocê começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo.\n\nSeu atributo-chave para lançar magias é Carisma e você soma seu Carisma no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+      },
+      {
+        "nome": "Inspiração",
+        "nivel": 1,
+        "descricao": "Você pode gastar uma ação padrão e 2 PM para inspirar as pessoas com sua arte. Você e todos os seus aliados em alcance curto ganham +1 em testes de perícia até o fim da cena. A cada quatro níveis, pode gastar +2 PM para aumentar o bônus em +1.",
+        "custo": "2 PM (+2 PM a cada quatro níveis para +1 no bônus)"
+      },
+      {
+        "nome": "Eclético",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você pode gastar 1 PM para receber todos os benefícios de ser treinado em uma perícia por um teste.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Artista Completo",
+        "nivel": 20,
+        "descricao": "No 20º nível, você pode usar Inspiração como uma ação livre. Enquanto estiver sob efeito de sua Inspiração, suas habilidades de bardo (incluindo magias) têm seu custo em PM reduzido pela metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo)."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Arte Mágica",
+        "descricao": "Enquanto você estiver sob efeito de sua Inspiração, a CD para resistir a suas habilidades de bardo aumenta em +2."
+      },
+      {
+        "nome": "Aumentar Repertório",
+        "descricao": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Dança das Lâminas",
+        "descricao": "Quando você lança uma magia com execução de uma ação padrão, pode gastar 1 PM para fazer um ataque corpo a corpo como uma ação livre.",
+        "custo": "1 PM",
+        "prerequisito": "Esgrima Mágica, 10º nível de bardo"
+      },
+      {
+        "nome": "Esgrima Mágica",
+        "descricao": "Sua arte mescla esgrima e magia, transformando dança em golpes. Se estiver sob efeito de Inspiração, você pode substituir testes de Luta por testes de Atuação, mas apenas para ataques com armas corpo a corpo leves ou de uma mão."
+      },
+      {
+        "nome": "Estrelato",
+        "descricao": "Suas apresentações o tornaram famoso, fazendo com que você seja reconhecido e bem tratado por aqueles que apreciam a arte. Por outro lado, pode ser difícil passar despercebido, especialmente em grandes cidades. Quando usa Atuação para impressionar uma plateia, o bônus recebido em perícias baseadas em Carisma aumenta para +5.",
+        "prerequisito": "6º nível de bardo"
+      },
+      {
+        "nome": "Fascinar em Massa",
+        "descricao": "Quando usa Música: Balada Fascinante, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha no alcance da música (você faz um único teste de Atuação, oposto pelo teste de Vontade de cada criatura).",
+        "custo": "+2 PM",
+        "prerequisito": "Música: Balada Fascinante"
+      },
+      {
+        "nome": "Golpe Elemental",
+        "descricao": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo, pode gastar 1 PM para causar 1d6 de dano extra de ácido, eletricidade, fogo ou frio, a sua escolha. Para cada quatro níveis que possuir, pode gastar +1 PM para aumentar o dano em +1d6.",
+        "custo": "1 PM (+1 PM a cada quatro níveis para +1d6)",
+        "prerequisito": "Golpe Mágico"
+      },
+      {
+        "nome": "Golpe Mágico",
+        "descricao": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena.",
+        "prerequisito": "Esgrima Mágica"
+      },
+      {
+        "nome": "Inspiração Marcial",
+        "descricao": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido em rolagens de dano (além de testes de perícia)."
+      },
+      {
+        "nome": "Lendas e Histórias",
+        "descricao": "Você é um arquivo vivo de relatos, canções e folclore. Além de outros benefícios a critério do mestre, pode gastar 1 PM para rolar novamente um teste recém realizado de Conhecimento, Misticismo, Nobreza ou Religião para informação, identificar criaturas ou identificar itens mágicos.",
+        "custo": "1 PM",
+        "prerequisito": "Int 1"
+      },
+      {
+        "nome": "Manipular",
+        "descricao": "Você pode gastar 1 PM para fazer uma criatura fascinada por você ficar enfeitiçada até o fim da cena (Von CD Car anula). Se a criatura passar, fica imune a este efeito por um dia. Usar esta habilidade não conta como ameaça à criatura fascinada.",
+        "custo": "1 PM",
+        "prerequisito": "Música: Balada Fascinante"
+      },
+      {
+        "nome": "Manipular em Massa",
+        "descricao": "Quando usa Manipular, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha em alcance curto.",
+        "custo": "+2 PM",
+        "prerequisito": "Fascinar em Massa, Manipular, 10º nível de bardo"
+      },
+      {
+        "nome": "Melodia Restauradora",
+        "descricao": "Quando você usa Música: Melodia Curativa, pode gastar +2 PM. Se fizer isso, escolha uma das condições a seguir: abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Você remove a condição escolhida das criaturas afetadas pela música.",
+        "custo": "+2 PM",
+        "prerequisito": "Música: Melodia Curativa"
+      },
+      {
+        "nome": "Mestre dos Sussurros",
+        "descricao": "Você é dissimulado, atento para rumores e ótimo em espalhar fofocas. Quando faz um teste de Investigação para interrogar ou um teste de Enganação para intriga, você rola dois dados e usa o melhor resultado. Além disso, pode fazer esses testes em ambientes sociais (taverna, festival, corte...) sem custo e em apenas uma hora (em vez de um dia).",
+        "prerequisito": "Car 1, treinado em Enganação e Investigação"
+      },
+      {
+        "nome": "Música: Balada Fascinante",
+        "descricao": "Faça um teste de Atuação oposto pelo teste de Vontade de uma criatura no alcance. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou envolvido em combate recebe +5 no teste de resistência e tem direito a um novo teste sempre que você se concentrar. Se a criatura passar, fica imune a este efeito por um dia.",
+        "custo": "1 PM (regra de Música)"
+      },
+      {
+        "nome": "Música: Canção Assustadora",
+        "descricao": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falhem ficam abalados até o fim da cena. Alvos que passem ficam imunes a este efeito por um dia.",
+        "custo": "1 PM (regra de Música)"
+      },
+      {
+        "nome": "Música: Melodia Curativa",
+        "descricao": "Criaturas a sua escolha no alcance recuperam 1d6 PV. Quando usa esta habilidade, você pode gastar mais pontos de mana. Para cada PM extra, aumente a cura em +1d6 PV.",
+        "custo": "1 PM (regra de Música; +1 PM por +1d6 PV)"
+      },
+      {
+        "nome": "Paródia",
+        "descricao": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Prestidigitação",
+        "descricao": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de ação completa ou menor. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20).",
+        "prerequisito": "6º nível de bardo"
+      }
+    ]
+  }
+}
