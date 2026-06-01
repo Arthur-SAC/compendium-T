@@ -11,10 +11,14 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 3 — EQUIPAMENTO CONCLUÍDO ✅. Em andamento: Magia (Cap. 4).** Imagens já renderizadas em
-`extracao/cache/discMag/` (PDF 174–217 = impressas 168–211). Sequência: descoberta → `writing-plans` (schema `magia`
-com círculo/escola/execução/alcance/alvo/duração/resistência/PM + aprimoramentos; `FichaMagia`; índice `/magias`
-agrupado por círculo e arcana/divina; regra "como funciona a magia") → extração por círculo, 2 passadas → integração.
+➡️ **CAPÍTULO 4 — MAGIA em andamento. Onda A (código) ✅.** Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`;
+mapa `docs/superpowers/plans/magias-lista.md`. Imagens em `extracao/cache/discMag/` (impressas 168–211).
+**Onda A ✅:** schema `magia` (`MagiaMecanicaSchema` + aprimoramentos), `FichaMagia`, índice `/magias` (por círculo +
+Arcanas/Divinas/Universais), 3 regras (`magia-como-funciona`, `caracteristicas-das-magias`, `aprimoramentos-de-magia`),
+spike Bola de Fogo. **Próximo: Onda B — extrair as ~197 magias** (descrições A–Z, impressas 178–211 = `discMag/p-184…p-217`),
+em ~8–10 blocos por faixa de página, 2 passadas. Cada magia: cabeçalho + descrição + aprimoramentos (`+X PM:`) + truque;
+`resumo` do índice (pp.174–177); **Universais** = `tipo:"universal"` (cruzar índice arcano+divino). Depois **Onda C**
+(integração + acender links de conjuração). Casos especiais: Aprisionamento, Animar Objetos, Muralha de Ossos.
 
 > **FATIAS PENDENTES DO LIVRO BÁSICO (não esquecer — confirmado com o usuário 2026-06-01):** além de **Magia**,
 > faltam **Deuses** (panteão, ~20 divindades — domínios, energia, Obrigações & Restrições, Poderes Concedidos, devotos;
