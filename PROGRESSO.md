@@ -11,14 +11,15 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 4 — MAGIA em andamento. Onda A (código) ✅.** Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`;
-mapa `docs/superpowers/plans/magias-lista.md`. Imagens em `extracao/cache/discMag/` (impressas 168–211).
-**Onda A ✅:** schema `magia` (`MagiaMecanicaSchema` + aprimoramentos), `FichaMagia`, índice `/magias` (por círculo +
-Arcanas/Divinas/Universais), 3 regras (`magia-como-funciona`, `caracteristicas-das-magias`, `aprimoramentos-de-magia`),
-spike Bola de Fogo. **Próximo: Onda B — extrair as ~197 magias** (descrições A–Z, impressas 178–211 = `discMag/p-184…p-217`),
-em ~8–10 blocos por faixa de página, 2 passadas. Cada magia: cabeçalho + descrição + aprimoramentos (`+X PM:`) + truque;
-`resumo` do índice (pp.174–177); **Universais** = `tipo:"universal"` (cruzar índice arcano+divino). Depois **Onda C**
-(integração + acender links de conjuração). Casos especiais: Aprisionamento, Animar Objetos, Muralha de Ossos.
+➡️ **CAPÍTULO 4 — MAGIA: Ondas A (código) e B (extração) ✅.** Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`.
+**Onda A ✅:** schema `magia`, `FichaMagia`, índice `/magias` (por círculo + Arcanas/Divinas/Universais), 3 regras, spike.
+**Onda B ✅: as 198 magias extraídas** (Passada 1; descrições A–Z, impressas 178–211) — cabeçalho/descrição/aprimoramentos/truque,
+classificação cruzada com o mapa, completude verificada por diff (0 gaps), schema-válidas (normalizados `requisitoCirculo`
+camelCase e remoção de campos `null`). Build gera as 198 fichas (650 páginas).
+**FALTA:** (1) **Passada 2** — validação independente das 198 magias (números/CDs/aprimoramentos vs imagem; pontos a checar:
+`controlar-o-clima` círculo 3 vs 4, `muralha-de-ossos` Universal 4, magias com aprimoramentos extensos). (2) **Onda C** —
+integração + **acender os links de conjuração** (a habilidade "Magias" das conjuradoras, poderes concedidos que ensinam
+magias, catalisadores — auto-link por nome). Depois: PROGRESSO Magia ✅; próxima fatia **Deuses** ou **Construção de Personagem**.
 
 > **FATIAS PENDENTES DO LIVRO BÁSICO (não esquecer — confirmado com o usuário 2026-06-01):** além de **Magia**,
 > faltam **Deuses** (panteão, ~20 divindades — domínios, energia, Obrigações & Restrições, Poderes Concedidos, devotos;
