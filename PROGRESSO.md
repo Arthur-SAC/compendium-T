@@ -4,18 +4,23 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-01
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)**. Próxima: escolher a próxima categoria.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)**. Próxima: **Perícias & Poderes** (Cap. 2).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **Categoria Classes CONCLUÍDA.** Definir e escrever o plano da **próxima categoria do Livro Básico**.
-Opções (ver Roadmap da Fase 1): **Magias** (destrava o conteúdo de conjuração que as classes referenciam),
-**Origens** (próximo capítulo sequencial — impressa 85+ = PDF 91+), **Perícias** ou **Poderes Gerais**.
-Recomendação: confirmar com o usuário qual categoria priorizar, então `superpowers:brainstorming` →
-`superpowers:writing-plans` para o plano da fatia, e executar por **Subagent-Driven** (mesmo padrão das Classes).
+➡️ **Classes e Origens CONCLUÍDAS.** Próxima categoria recomendada: **Capítulo 2 — Perícias & Poderes**
+(impressa 112+ = PDF 118+). Destrava os **links** que as Origens e Classes já referenciam (perícias e
+poderes citados viram links quando essas categorias existirem). Sequência: `superpowers:writing-plans`
+para o plano da fatia (provável split: **Perícias** primeiro — conjunto fechado, foundational — depois
+**Poderes Gerais**), e executar por **Subagent-Driven** (mesmo padrão de Classes/Origens). Alternativas:
+**Magias** (destrava a conjuração das classes) ou **Equipamentos**.
+
+> **Dívida leve (O4 de Origens):** termos citados nas origens (perícias/poderes — futuras categorias; e
+> "parceiro"/"patamar veterano-heroico-lenda"/"T$/tibar") ainda não têm tooltip/link próprio. Tratar quando
+> Perícias/Poderes existirem (viram links automáticos) + adicionar os termos de regra avulsos ao `data/referencia/`.
 
 **Dicas operacionais (reutilizáveis em qualquer extração):**
 - poppler: a env `POPPLER_BIN` **não fica setada** na sessão — usar o caminho literal
@@ -37,6 +42,13 @@ Recomendação: confirmar com o usuário qual categoria priorizar, então `super
   **Bardo** (Arcana; Músicas de Bardo), **Clérigo** (Divina; Devoção/Poderes Concedidos + Missas), **Druida** (Divina; Companheiro Animal + Forma Selvagem). Visão 2 passadas, validadas.
 - **C7 (tooltips) ✅ (`fd9c789`):** extraído o **apêndice de Condições (35, impressas 394–395)** com descritores; "Medo" reclassificado como tipo de efeito (glossário, p.228); tipos de dano (essência/luz/trevas, p.230) e duração sustentada (p.226).
 - **C8 (integração) ✅:** suíte **46 verde**; `npm run build` prerenderiza **as 14 fichas de classe** + `/classes`; HTML confere Conjuração/Caminhos das conjuradoras.
+
+**Fatia Origens — CONCLUÍDA ✅** (plano `docs/superpowers/plans/2026-06-01-origens-plano.md`):
+- **O1 (código) ✅ (`a…` no commit de fundação):** `OrigemMecanicaSchema` (itens/itensTexto, beneficios{pericias,poderes,texto}, poderesUnicos) + ramo no `superRefine`; `FichaOrigem`; índice `/origens` + atalho na home; wiring na página de ficha. Origens são **texto puro** (sem ilustração por origem).
+- **O2 (spike) ✅:** `acolito.json` validado vs livro (no mesmo commit da fundação).
+- **O3 (extração) ✅:** **35 origens** (Tabela 1-19, impressas 85–95) por 6 blocos, visão 2 passadas. Cada uma: flavor, Itens, Benefícios (perícias/poderes), Poder Único. Correções de `fonte.pagina` e pontuação aplicadas após validação independente (atenção: os validadores erraram em `mateiro`/`refugiado` — páginas conferidas na imagem).
+- **O4 (tooltips) — diferido** (ver dívida leve acima).
+- **O5 (integração) ✅:** suíte **54 verde**; `npm run build` (75 páginas) gera `/origens` + **35 fichas** `/ficha/origem/<slug>`.
 
 > Spike do Guerreiro (plano `2026-05-29-guerreiro-classe-spike-plano.md`) validou schema, `FichaClasse` e pipeline.
 
