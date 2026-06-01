@@ -1,0 +1,15 @@
+{
+  "id": "estilo-desarmado",
+  "tipo": "poder",
+  "nome": "Estilo Desarmado",
+  "resumo": "Ataques desarmados causam 1d6 e podem ser letais ou não letais sem penalidade.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Luta",
+    "descricao": "Seus ataques desarmados causam 1d6 pontos de dano e podem causar dano letal ou não letal (sem penalidades)."
+  }
+}

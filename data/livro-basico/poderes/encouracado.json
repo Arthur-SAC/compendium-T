@@ -1,0 +1,15 @@
+{
+  "id": "encouracado",
+  "tipo": "poder",
+  "nome": "Encouraçado",
+  "resumo": "Bônus na Defesa ao usar armadura pesada, crescente com poderes dependentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "proficiência com armaduras pesadas",
+    "descricao": "Se estiver usando uma armadura pesada, você recebe +2 na Defesa. Esse bônus aumenta em +2 para cada outro poder que você possua que tenha Encouraçado como pré-requisito."
+  }
+}

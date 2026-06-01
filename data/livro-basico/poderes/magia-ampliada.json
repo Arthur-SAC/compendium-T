@@ -1,0 +1,16 @@
+{
+  "id": "magia-ampliada",
+  "tipo": "poder",
+  "nome": "Magia Ampliada",
+  "resumo": "Aprimoramento: aumenta o alcance ou dobra a área de efeito da magia.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias",
+    "custo": "+2 PM",
+    "descricao": "Aprimoramento. Aumenta o alcance da magia em um passo (de curto para médio, de médio para longo) ou dobra a área de efeito da magia. Por exemplo, uma Bola de Fogo ampliada tem seu alcance aumentado para longo ou sua área aumentada para 12m de raio."
+  }
+}

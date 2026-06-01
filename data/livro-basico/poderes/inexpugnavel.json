@@ -1,0 +1,15 @@
+{
+  "id": "inexpugnavel",
+  "tipo": "poder",
+  "nome": "Inexpugnável",
+  "resumo": "Receba +2 em todos os testes de resistência enquanto usar armadura pesada.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Encouraçado, 6º nível de personagem",
+    "descricao": "Se estiver usando uma armadura pesada, você recebe +2 em todos os testes de resistência."
+  }
+}

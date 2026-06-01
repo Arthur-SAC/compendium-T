@@ -1,0 +1,15 @@
+{
+  "id": "reflexos-de-combate",
+  "tipo": "poder",
+  "nome": "Reflexos de Combate",
+  "resumo": "Ganhe uma ação de movimento extra no primeiro turno de cada combate.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Des 1",
+    "descricao": "Você ganha uma ação de movimento extra no seu primeiro turno de cada combate."
+  }
+}

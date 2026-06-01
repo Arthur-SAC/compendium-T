@@ -1,0 +1,15 @@
+{
+  "id": "inventario-organizado",
+  "tipo": "poder",
+  "nome": "Inventário Organizado",
+  "resumo": "Soma Inteligência ao limite de espaços de carga; itens pequenos ocupam 1/4 de espaço.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Int 1",
+    "descricao": "Você soma sua Inteligência no limite de espaços que pode carregar. Para você, itens muito leves ou pequenos, que normalmente ocupam meio espaço, em vez disso ocupam 1/4 de espaço."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "foco-em-magia",
+  "tipo": "poder",
+  "nome": "Foco em Magia",
+  "resumo": "Reduza o custo em PM de uma magia escolhida em –1 PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias",
+    "descricao": "Escolha uma magia que possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções de custo). Você pode escolher este poder outras vezes para magias diferentes."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sortudo",
+  "tipo": "poder",
+  "nome": "Sortudo",
+  "resumo": "Gaste 3 PM para rolar novamente um teste recém realizado.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Você pode gastar 3 PM para rolar novamente um teste recém realizado (apenas uma vez por teste)."
+  }
+}

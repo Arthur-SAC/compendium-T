@@ -1,0 +1,15 @@
+{
+  "id": "vitalidade",
+  "tipo": "poder",
+  "nome": "Vitalidade",
+  "resumo": "Receba +1 PV por nível de personagem e +2 em Fortitude.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Con 1",
+    "descricao": "Você recebe +1 PV por nível de personagem e +2 em Fortitude."
+  }
+}

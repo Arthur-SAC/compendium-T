@@ -1,0 +1,14 @@
+{
+  "id": "treinamento-em-pericia",
+  "tipo": "poder",
+  "nome": "Treinamento em Perícia",
+  "resumo": "Torne-se treinado em uma perícia à sua escolha; pode ser escolhido várias vezes.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Você se torna treinado em uma perícia a sua escolha. Você pode escolher este poder outras vezes para perícias diferentes."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "torcida",
+  "tipo": "poder",
+  "nome": "Torcida",
+  "resumo": "Bônus em testes e Defesa quando criaturas inteligentes próximas torcem por você.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 1",
+    "descricao": "Você recebe +2 em testes de perícia e Defesa quando tem a torcida a seu favor. Entenda-se por \"torcida\" qualquer número de criaturas inteligentes em alcance médio que não esteja realizando nenhuma ação além de torcer por você."
+  }
+}

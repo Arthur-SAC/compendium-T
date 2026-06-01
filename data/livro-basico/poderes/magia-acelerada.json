@@ -1,0 +1,16 @@
+{
+  "id": "magia-acelerada",
+  "tipo": "poder",
+  "nome": "Magia Acelerada",
+  "resumo": "Aprimoramento: muda a execução da magia para ação livre.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 2º círculo",
+    "custo": "+4 PM",
+    "descricao": "Aprimoramento. Muda a execução da magia para ação livre. Você só pode aplicar este aprimoramento em magias com execução de movimento, padrão ou completa e só pode lançar uma magia como ação livre por rodada."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ataque-pesado",
+  "tipo": "poder",
+  "nome": "Ataque Pesado",
+  "resumo": "Gaste 1 PM ao atacar com arma de duas mãos para também executar uma manobra derrubar ou empurrar como ação livre.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Estilo de Duas Mãos",
+    "descricao": "Quando faz um ataque corpo a corpo com uma arma de duas mãos, você pode pagar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra derrubar ou empurrar contra o alvo como uma ação livre (use o resultado do ataque como o teste de manobra)."
+  }
+}

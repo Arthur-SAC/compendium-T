@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-arma-longa",
+  "tipo": "poder",
+  "nome": "Estilo de Arma Longa",
+  "resumo": "Bônus em ataques com armas alongadas e capacidade de atacar alvos adjacentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "For 1, treinado em Luta",
+    "descricao": "Você recebe +2 em testes de ataque com armas alongadas e pode atacar alvos adjacentes com essas armas."
+  }
+}

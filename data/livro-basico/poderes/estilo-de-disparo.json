@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-disparo",
+  "tipo": "poder",
+  "nome": "Estilo de Disparo",
+  "resumo": "Soma Destreza nas rolagens de dano com armas de disparo.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Pontaria",
+    "descricao": "Se estiver usando uma arma de disparo, você soma sua Destreza nas rolagens de dano."
+  }
+}

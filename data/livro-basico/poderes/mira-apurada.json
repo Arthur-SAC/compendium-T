@@ -1,0 +1,15 @@
+{
+  "id": "mira-apurada",
+  "tipo": "poder",
+  "nome": "Mira Apurada",
+  "resumo": "Ao usar a ação mirar, receba +2 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Sab 1, Disparo Preciso",
+    "descricao": "Quando usa a ação mirar, você recebe +2 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno."
+  }
+}

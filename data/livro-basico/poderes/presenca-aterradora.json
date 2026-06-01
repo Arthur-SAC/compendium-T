@@ -1,0 +1,15 @@
+{
+  "id": "presenca-aterradora",
+  "tipo": "poder",
+  "nome": "Presença Aterradora",
+  "resumo": "Gaste uma ação padrão e 1 PM para assustar criaturas em alcance curto.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Treinado em Intimidação",
+    "descricao": "Você pode gastar uma ação padrão e 1 PM para assustar todas as criaturas a sua escolha em alcance curto. Veja a perícia Intimidação para as regras de assustar."
+  }
+}

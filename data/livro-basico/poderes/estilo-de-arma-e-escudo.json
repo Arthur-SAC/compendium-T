@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-arma-e-escudo",
+  "tipo": "poder",
+  "nome": "Estilo de Arma e Escudo",
+  "resumo": "Aumenta em +2 o bônus na Defesa fornecido por escudo.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Luta, proficiência com escudos",
+    "descricao": "Se você estiver usando um escudo, o bônus na Defesa que ele fornece aumenta em +2."
+  }
+}

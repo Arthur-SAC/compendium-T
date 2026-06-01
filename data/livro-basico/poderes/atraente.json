@@ -1,0 +1,15 @@
+{
+  "id": "atraente",
+  "tipo": "poder",
+  "nome": "Atraente",
+  "resumo": "+2 em perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 1",
+    "descricao": "Você recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você."
+  }
+}

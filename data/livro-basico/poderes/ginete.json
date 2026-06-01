@@ -1,0 +1,15 @@
+{
+  "id": "ginete",
+  "tipo": "poder",
+  "nome": "Ginete",
+  "resumo": "Passe automaticamente em testes de Cavalgar para não cair da montaria e ignore penalidades para atacar ou lançar magias quando montado.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Treinado em Cavalgar",
+    "descricao": "Você passa automaticamente em testes de Cavalgar para não cair da montaria quando sofre dano. Além disso, não sofre penalidades para atacar à distância ou lançar magias quando montado."
+  }
+}

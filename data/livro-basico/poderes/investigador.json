@@ -1,0 +1,15 @@
+{
+  "id": "investigador",
+  "tipo": "poder",
+  "nome": "Investigador",
+  "resumo": "+2 em Investigação e soma Inteligência em Intuição.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Int 1",
+    "descricao": "Você recebe +2 em Investigação e soma sua Inteligência em Intuição."
+  }
+}

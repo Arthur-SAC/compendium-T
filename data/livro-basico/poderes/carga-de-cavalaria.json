@@ -1,0 +1,15 @@
+{
+  "id": "carga-de-cavalaria",
+  "tipo": "poder",
+  "nome": "Carga de Cavalaria",
+  "resumo": "Em investida montada, cause +2d8 de dano e continue se movendo após o ataque.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Ginete",
+    "descricao": "Quando faz uma investida montada, você causa +2d8 pontos de dano. Além disso, pode continuar se movendo depois do ataque. Você deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento."
+  }
+}

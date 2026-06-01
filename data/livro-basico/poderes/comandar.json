@@ -1,0 +1,15 @@
+{
+  "id": "comandar",
+  "tipo": "poder",
+  "nome": "Comandar",
+  "resumo": "Gaste ação de movimento e 1 PM para dar +1 em testes de perícia a aliados em alcance médio até o fim da cena.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 1",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena."
+  }
+}

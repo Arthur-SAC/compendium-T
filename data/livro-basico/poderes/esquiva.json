@@ -1,0 +1,15 @@
+{
+  "id": "esquiva",
+  "tipo": "poder",
+  "nome": "Esquiva",
+  "resumo": "Bônus de +2 na Defesa e Reflexos.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Des 1",
+    "descricao": "Você recebe +2 na Defesa e Reflexos."
+  }
+}

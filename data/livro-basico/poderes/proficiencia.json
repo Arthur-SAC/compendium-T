@@ -1,0 +1,14 @@
+{
+  "id": "proficiencia",
+  "tipo": "poder",
+  "nome": "Proficiência",
+  "resumo": "Escolha uma proficiência: armas marciais, armas de fogo, armaduras pesadas ou escudos.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "descricao": "Escolha uma proficiência: armas marciais, armas de fogo, armaduras pesadas ou escudos (se for proficiente em armas marciais, você também pode escolher armas exóticas). Você recebe essa proficiência. Você pode escolher este poder outras vezes para proficiências diferentes."
+  }
+}

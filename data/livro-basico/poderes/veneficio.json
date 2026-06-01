@@ -1,0 +1,15 @@
+{
+  "id": "veneficio",
+  "tipo": "poder",
+  "nome": "Venefício",
+  "resumo": "Sem risco de auto-envenenamento e +2 na CD dos seus venenos.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "treinado em Ofício (alquimista)",
+    "descricao": "Quando usa um veneno, você não corre risco de se envenenar acidentalmente. Além disso, a CD para resistir aos seus venenos aumenta em +2."
+  }
+}

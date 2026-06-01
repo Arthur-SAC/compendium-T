@@ -1,0 +1,15 @@
+{
+  "id": "costas-largas",
+  "tipo": "poder",
+  "nome": "Costas Largas",
+  "resumo": "+5 espaços de carga e permite beneficiar-se de um item vestido adicional.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Con 1, For 1",
+    "descricao": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional."
+  }
+}

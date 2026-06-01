@@ -1,0 +1,15 @@
+{
+  "id": "foco-em-pericia",
+  "tipo": "poder",
+  "nome": "Foco em Perícia",
+  "resumo": "Gaste 1 PM para rolar dois dados e usar o melhor resultado em testes de uma perícia escolhida.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Treinado na perícia escolhida",
+    "descricao": "Escolha uma perícia. Quando faz um teste dessa perícia, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Você pode escolher este poder outras vezes para perícias diferentes. Este poder não pode ser aplicado em Luta e Pontaria (mas veja Foco em Arma)."
+  }
+}

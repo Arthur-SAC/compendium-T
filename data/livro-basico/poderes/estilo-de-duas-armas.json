@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-duas-armas",
+  "tipo": "poder",
+  "nome": "Estilo de Duas Armas",
+  "resumo": "Permite dois ataques ao usar duas armas, com penalidade; Ambidestria elimina a penalidade.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Des 2, treinado em Luta",
+    "descricao": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se possuir Ambidestria, em vez disso não sofre penalidade para usá-lo."
+  }
+}

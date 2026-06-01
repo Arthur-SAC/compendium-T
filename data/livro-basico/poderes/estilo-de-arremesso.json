@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-arremesso",
+  "tipo": "poder",
+  "nome": "Estilo de Arremesso",
+  "resumo": "Saque de armas de arremesso como ação livre e bônus no dano; +2 no ataque se possuir Saque Rápido.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Pontaria",
+    "descricao": "Você pode sacar armas de arremesso como uma ação livre e recebe +2 nas rolagens de dano com elas. Se também possuir o poder Saque Rápido, também recebe +2 nos testes de ataque com essas armas."
+  }
+}

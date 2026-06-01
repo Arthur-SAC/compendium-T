@@ -1,0 +1,15 @@
+{
+  "id": "arremesso-potente",
+  "tipo": "poder",
+  "nome": "Arremesso Potente",
+  "resumo": "Use Força em vez de Destreza nos testes de ataque com armas de arremesso e aplique Ataque Poderoso nelas.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "For 1, Estilo de Arremesso",
+    "descricao": "Quando usa uma arma de arremesso, você pode usar sua Força em vez de Destreza nos testes de ataque. Se você possuir o poder Ataque Poderoso, poderá usá-lo com armas de arremesso."
+  }
+}

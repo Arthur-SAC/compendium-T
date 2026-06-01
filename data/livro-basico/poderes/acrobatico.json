@@ -1,0 +1,15 @@
+{
+  "id": "acrobatico",
+  "tipo": "poder",
+  "nome": "Acrobático",
+  "resumo": "Use Destreza em testes de Atletismo; terreno difícil não te atrapalha.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Des 2",
+    "descricao": "Você pode usar sua Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar investidas."
+  }
+}

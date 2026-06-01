@@ -1,0 +1,15 @@
+{
+  "id": "estilo-de-duas-maos",
+  "tipo": "poder",
+  "nome": "Estilo de Duas Mãos",
+  "resumo": "+5 nas rolagens de dano ao usar arma corpo a corpo com as duas mãos (exceto armas leves).",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "For 2, treinado em Luta",
+    "descricao": "Se estiver usando uma arma corpo a corpo com as duas mãos, você recebe +5 nas rolagens de dano. Este poder não pode ser usado com armas leves."
+  }
+}

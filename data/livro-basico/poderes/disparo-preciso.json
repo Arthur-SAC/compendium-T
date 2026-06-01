@@ -1,0 +1,15 @@
+{
+  "id": "disparo-preciso",
+  "tipo": "poder",
+  "nome": "Disparo Preciso",
+  "resumo": "Faça ataques à distância contra oponentes em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Estilo de Disparo ou Estilo de Arremesso",
+    "descricao": "Você pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque."
+  }
+}

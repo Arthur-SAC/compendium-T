@@ -1,0 +1,15 @@
+{
+  "id": "sentidos-agucados",
+  "tipo": "poder",
+  "nome": "Sentidos Aguçados",
+  "resumo": "Percepção apurada: bônus, imunidade ao desprevisto e rerolar chance de falha por camuflagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Sab 1, treinado em Percepção",
+    "descricao": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa ver e, sempre que erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fanatico",
+  "tipo": "poder",
+  "nome": "Fanático",
+  "resumo": "Armaduras pesadas não reduzem o deslocamento.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "12º nível de personagem, Encouraçado",
+    "descricao": "Seu deslocamento não é reduzido por usar armaduras pesadas."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trespassar",
+  "tipo": "poder",
+  "nome": "Trespassar",
+  "resumo": "Ao reduzir o alvo a 0 PV ou menos em ataque corpo a corpo, gaste 1 PM para atacar outra criatura no alcance.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Ataque Poderoso",
+    "descricao": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance."
+  }
+}

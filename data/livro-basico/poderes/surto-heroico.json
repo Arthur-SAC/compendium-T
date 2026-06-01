@@ -1,0 +1,14 @@
+{
+  "id": "surto-heroico",
+  "tipo": "poder",
+  "nome": "Surto Heroico",
+  "resumo": "Gaste 5 PM para realizar uma ação padrão ou de movimento adicional por rodada.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional."
+  }
+}

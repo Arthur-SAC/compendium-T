@@ -1,0 +1,15 @@
+{
+  "id": "foco-em-arma",
+  "tipo": "poder",
+  "nome": "Foco em Arma",
+  "resumo": "Escolha uma arma e receba +2 em testes de ataque com ela.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Proficiência com a arma",
+    "descricao": "Escolha uma arma. Você recebe +2 em testes de ataque com essa arma. Você pode escolher este poder outras vezes para armas diferentes."
+  }
+}

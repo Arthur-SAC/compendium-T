@@ -1,0 +1,15 @@
+{
+  "id": "quebrar-aprimorado",
+  "tipo": "poder",
+  "nome": "Quebrar Aprimorado",
+  "resumo": "Receba +2 em testes de ataque para quebrar e faça um ataque extra ao reduzir os PV de uma arma a 0.",
+  "fonte": { "livro": "livro-basico", "pagina": 129 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Ataque Poderoso",
+    "descricao": "Você recebe +2 em testes de ataque para quebrar. Quando reduz os PV de uma arma para 0 ou menos, você pode gastar 1 PM para realizar um ataque extra contra o usuário dela. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente."
+  }
+}

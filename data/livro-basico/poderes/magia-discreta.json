@@ -1,0 +1,16 @@
+{
+  "id": "magia-discreta",
+  "tipo": "poder",
+  "nome": "Magia Discreta",
+  "resumo": "Aprimoramento: lance a magia sem gestos nem palavras, usando apenas concentração.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias",
+    "custo": "+2 PM",
+    "descricao": "Aprimoramento. Você lança a magia sem gesticular e falar, usando apenas concentração. Isso permite lançar magias com as mãos presas, amordaçado etc. Também permite lançar magias arcanas usando armadura sem teste de Misticismo. Outros personagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20)."
+  }
+}

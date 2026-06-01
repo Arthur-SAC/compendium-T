@@ -1,0 +1,15 @@
+{
+  "id": "combate-defensivo",
+  "tipo": "poder",
+  "nome": "Combate Defensivo",
+  "resumo": "Ao agredir, sofra –2 em todos os testes de ataque até seu próximo turno para receber +5 na Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Int 1",
+    "descricao": "Quando usa a ação agredir, você pode usar este poder. Se fizer isso, até seu próximo turno, sofre –2 em todos os testes de ataque, mas recebe +5 na Defesa."
+  }
+}

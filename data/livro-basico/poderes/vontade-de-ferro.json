@@ -1,0 +1,15 @@
+{
+  "id": "vontade-de-ferro",
+  "tipo": "poder",
+  "nome": "Vontade de Ferro",
+  "resumo": "Mais PM por nível e bônus em Vontade.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Sab 1",
+    "descricao": "Você recebe +1 PM para cada dois níveis de personagem e +2 em Vontade."
+  }
+}

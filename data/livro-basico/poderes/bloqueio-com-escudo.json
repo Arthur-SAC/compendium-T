@@ -1,0 +1,15 @@
+{
+  "id": "bloqueio-com-escudo",
+  "tipo": "poder",
+  "nome": "Bloqueio com Escudo",
+  "resumo": "Gaste 1 PM ao sofrer dano para receber redução de dano igual ao bônus na Defesa do seu escudo.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Estilo de Arma e Escudo",
+    "descricao": "Quando sofre dano, você pode gastar 1 PM para receber redução de dano igual ao bônus na Defesa que seu escudo fornece contra este dano. Você só pode usar este poder se estiver usando um escudo."
+  }
+}

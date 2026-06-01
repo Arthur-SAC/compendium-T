@@ -1,0 +1,15 @@
+{
+  "id": "acuidade-com-arma",
+  "tipo": "poder",
+  "nome": "Acuidade com Arma",
+  "resumo": "Use Destreza em vez de Força em testes de ataque e rolagens de dano com armas corpo a corpo leves ou de arremesso.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Des 1",
+    "descricao": "Quando usa uma arma corpo a corpo leve ou uma arma de arremesso, você pode usar sua Destreza em vez de Força nos testes de ataque e rolagens de dano."
+  }
+}

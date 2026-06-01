@@ -1,0 +1,15 @@
+{
+  "id": "arma-secundaria-grande",
+  "tipo": "poder",
+  "nome": "Arma Secundária Grande",
+  "resumo": "Empunhe duas armas de uma mão com o poder Estilo de Duas Armas.",
+  "fonte": { "livro": "livro-basico", "pagina": 124 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Estilo de Duas Armas",
+    "descricao": "Você pode empunhar duas armas de uma mão com o poder Estilo de Duas Armas."
+  }
+}

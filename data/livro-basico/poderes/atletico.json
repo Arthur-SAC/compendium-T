@@ -1,0 +1,15 @@
+{
+  "id": "atletico",
+  "tipo": "poder",
+  "nome": "Atlético",
+  "resumo": "+2 em Atletismo e +3m de deslocamento.",
+  "fonte": { "livro": "livro-basico", "pagina": 130 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "For 2",
+    "descricao": "Você recebe +2 em Atletismo e +3m em seu deslocamento."
+  }
+}

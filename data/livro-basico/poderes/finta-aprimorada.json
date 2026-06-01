@@ -1,0 +1,15 @@
+{
+  "id": "finta-aprimorada",
+  "tipo": "poder",
+  "nome": "Finta Aprimorada",
+  "resumo": "Receba bônus em testes de Enganação para fintar e realize a finta como ação de movimento.",
+  "fonte": { "livro": "livro-basico", "pagina": 128 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Treinado em Enganação",
+    "descricao": "Você recebe +2 em testes de Enganação para fintar e pode fintar como uma ação de movimento."
+  }
+}

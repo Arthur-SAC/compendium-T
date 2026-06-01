@@ -1,0 +1,15 @@
+{
+  "id": "preparar-pocao",
+  "tipo": "poder",
+  "nome": "Preparar Poção",
+  "resumo": "Use Ofício (alquimista) para fabricar poções com magias de 1º e 2º círculos que conhece.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "habilidade de classe Magias, treinado em Ofício (alquimista)",
+    "descricao": "Você pode usar a perícia Ofício (alquimista) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 333 e 341 para as regras de poções."
+  }
+}

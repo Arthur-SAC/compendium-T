@@ -1,0 +1,15 @@
+{
+  "id": "derrubar-aprimorado",
+  "tipo": "poder",
+  "nome": "Derrubar Aprimorado",
+  "resumo": "Receba +2 em testes de ataque para derrubar e gaste 1 PM ao derrubar para fazer um ataque extra contra a criatura.",
+  "fonte": { "livro": "livro-basico", "pagina": 125 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Combate Defensivo",
+    "descricao": "Você recebe +2 em testes de ataque para derrubar. Quando derruba uma criatura com essa manobra, pode gastar 1 PM para fazer um ataque extra contra ela."
+  }
+}

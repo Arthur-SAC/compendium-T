@@ -1,0 +1,15 @@
+{
+  "id": "celebrar-ritual",
+  "tipo": "poder",
+  "nome": "Celebrar Ritual",
+  "resumo": "Lance magias como rituais, dobrando o limite de PM ao custo de tempo e dinheiro.",
+  "fonte": { "livro": "livro-basico", "pagina": 131 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "habilidade de classe Magias, treinado em Misticismo ou Religião, 8º nível de personagem",
+    "descricao": "Você pode lançar magias como rituais. Isso dobra seu limite de PM, mas muda a execução para 1 hora (ou o dobro, o que for maior) e exige um gasto de T$ 10 por PM gasto (em incensos, oferendas…). Assim, um arcanista de 8º nível pode lançar uma magia de 16 PM gastando T$ 160. Magias lançadas como rituais não podem ser armazenadas em itens."
+  }
+}
