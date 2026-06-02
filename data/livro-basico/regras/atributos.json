@@ -1,0 +1,58 @@
+{
+  "id": "atributos",
+  "tipo": "regra-de-criacao",
+  "nome": "Atributos",
+  "resumo": "Os seis atributos (Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma) e como defini-los por pontos ou rolagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 17 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Atributos Básicos",
+      "texto": "Todo personagem tem seis atributos, que definem suas competências básicas: Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Atributos são medidos numericamente. Um valor 0 representa a média humana. Valores 1 ou 2 estão acima da média — o lenhador da vila, acostumado a trabalho pesado, pode ter Força nesse intervalo. Valores 3 ou 4 representam pessoas extraordinárias — o conselheiro real, que leu todos os livros da biblioteca do castelo, pode ter Inteligência nessa faixa. Valores 5 ou mais representam indivíduos heroicos. Já valores negativos estão abaixo da média. Uma criança pode ter Força −1, enquanto um ancião de saúde muito frágil pode ter Constituição −2."
+    },
+    {
+      "titulo": "Força (FOR)",
+      "texto": "Seu poder muscular. A Força é aplicada em testes de Atletismo e Luta; rolagens de dano corpo a corpo e com armas de arremesso; e testes de Força para levantar peso e atos similares."
+    },
+    {
+      "titulo": "Destreza (DES)",
+      "texto": "Sua agilidade, reflexos, equilíbrio e coordenação motora. A Destreza é aplicada na Defesa e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pilotagem, Pontaria e Reflexos."
+    },
+    {
+      "titulo": "Constituição (CON)",
+      "texto": "Sua saúde e vigor. A Constituição é aplicada aos pontos de vida iniciais e por nível e em testes de Fortitude. Se a Constituição muda, seus pontos de vida aumentam ou diminuem retroativamente de acordo."
+    },
+    {
+      "titulo": "Inteligência (INT)",
+      "texto": "Sua capacidade de raciocínio, memória e educação. A Inteligência é aplicada em testes de Conhecimento, Guerra, Investigação, Misticismo, Nobreza e Ofício. Além disso, se sua Inteligência for positiva, você recebe um número de perícias treinadas igual ao valor dela (não precisam ser da sua classe)."
+    },
+    {
+      "titulo": "Sabedoria (SAB)",
+      "texto": "Sua observação, ponderação e determinação. A Sabedoria é aplicada em testes de Cura, Intuição, Percepção, Religião, Sobrevivência e Vontade."
+    },
+    {
+      "titulo": "Carisma (CAR)",
+      "texto": "Sua força de personalidade e capacidade de persuasão, além de uma mistura de simpatia e beleza. O Carisma é aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação e Jogatina."
+    },
+    {
+      "titulo": "Definindo seus Atributos",
+      "texto": "Há duas maneiras de definir seus atributos: com pontos ou com rolagens. Escolha a que preferir.\n\nPontos. Você começa com todos os atributos em 0 e recebe 10 pontos para aumentá-los. O custo para aumentar cada atributo está descrito na tabela abaixo. Você também pode reduzir um atributo para −1 para receber 1 ponto adicional.\n\nRolagens. Role 4d6, descarte o menor e some os outros três. Anote o resultado. Repita esse processo cinco vezes, até obter um total de seis números. Então, converta esses números em atributos conforme a tabela abaixo. Por exemplo, se você rolar 13, 8, 15, 18, 10 e 9, seus atributos serão 1, −1, 2, 4, 0 e −1. Distribua esses valores entre os seis atributos como quiser. Caso seus atributos não somem pelo menos 6, role novamente o menor valor. Repita esse processo até seus atributos somarem 6 ou mais."
+    },
+    {
+      "titulo": "Atributos Mínimos",
+      "texto": "Um valor menor que −5 em um atributo gera um efeito: For ou Des (paralisado), Con (morre), Int ou Sab (inconsciente), Car (torna-se um NPC). Isso ignora imunidades."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_1_1_atributos": [
+      { "atributo": "−2", "custo": "—", "rolagem_4d6": "7 ou menos" },
+      { "atributo": "−1", "custo": "−1 ponto", "rolagem_4d6": "8–9" },
+      { "atributo": "0", "custo": "0 pontos", "rolagem_4d6": "10–11" },
+      { "atributo": "1", "custo": "1 ponto", "rolagem_4d6": "12–13" },
+      { "atributo": "2", "custo": "2 pontos", "rolagem_4d6": "14–15" },
+      { "atributo": "3", "custo": "4 pontos", "rolagem_4d6": "16–17" },
+      { "atributo": "4", "custo": "7 pontos", "rolagem_4d6": "18" }
+    ]
+  }
+}
