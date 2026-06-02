@@ -1,0 +1,110 @@
+{
+  "id": "habilidades-e-efeitos",
+  "tipo": "regra-de-criacao",
+  "nome": "Habilidades e Efeitos",
+  "resumo": "Como habilidades funcionam: ativação e custo, alcance, alvos e áreas, duração, testes de resistência, acúmulo de efeitos, tipos de efeito e habilidades gerais.",
+  "fonte": { "livro": "livro-basico", "pagina": 223 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Usando Habilidades",
+      "texto": "Além de atributos e perícias, personagens possuem habilidades fornecidas por sua raça, origem, classe, itens e outras fontes.\n\nHabilidades podem ser passivas (seus efeitos estão sempre funcionando) ou ativadas (precisam ser usadas para gerar seus efeitos). Para usar habilidades ativadas você precisa gastar uma ação e, provavelmente, pontos de mana.\n\nAção Necessária. A descrição da habilidade determina a ação necessária. Caso nada esteja descrito, usar a habilidade é uma ação livre. Habilidades Engatilhadas — ativadas por decorrência de outro evento (como fazer um ataque) — são ativadas como uma reação e somente uma vez por instância do evento."
+    },
+    {
+      "titulo": "Custo de Pontos de Mana",
+      "texto": "A descrição da habilidade determina se são necessários PM para usá-la. Nesse caso, você gasta os PM mesmo em caso de falha.\n\nPara habilidades com custo variável, o máximo de PM que você pode gastar por uso é igual ao seu nível na classe que fornece a habilidade (mas você sempre pode usar a habilidade em seu custo mínimo). Para habilidades de raça, origem ou outras fontes e poderes gerais, o limite é o seu nível de personagem."
+    },
+    {
+      "titulo": "Custos Especiais",
+      "texto": "Algumas habilidades possuem custos além de PM.\n\nComponente Material. A habilidade exige ingredientes para ser usada. Eles devem estar na mão do personagem e são consumidos com o uso (mesmo que a habilidade falhe).\n\nPenalidade de PM. A habilidade reduz seus PM máximos enquanto estiver ativa (você não recupera esses PM até a duração acabar).\n\nSacrifício de PM. Certas habilidades poderosíssimas exigem que você sacrifique permanentemente certa quantidade de PM para usá-las."
+    },
+    {
+      "titulo": "Alvos e Áreas",
+      "texto": "A maior parte das habilidades atinge um ou mais alvos ou afeta uma área.\n\nLinha de Efeito. Um caminho direto e sem obstruções até onde a habilidade pode ter efeito. Você deve ter linha de efeito para qualquer alvo, ponto de origem de área ou espaço onde queira criar um efeito. Qualquer barreira sólida, visível ou não, anula a linha de efeito.\n\nAlvo. A habilidade afeta um ou mais alvos (criaturas ou objetos), que você deve ser capaz de perceber. Usada sobre um tipo de alvo errado, falha automaticamente (ex.: Tranca Arcana só funciona em porta, baú ou semelhante).\n\nÁrea. Você escolhe um ponto de origem dentro do alcance que possa perceber; tudo na área é afetado, incluindo você. Pode-se usar uma habilidade em área que não perceba com um teste de Percepção (Misticismo para magias) CD 20 + custo em PM. Em alcance pessoal, você é o ponto de origem e não é afetado (exceto quando dito o contrário).\n\nCriação. O que a habilidade cria/invoca surge num local à sua escolha dentro do alcance e com linha de efeito; depois pode se mover para fora da linha de efeito.\n\nRedirecionando Efeitos. Quando a habilidade permite redirecionar seu efeito para novos alvos/áreas, fazer isso é uma ação padrão."
+    },
+    {
+      "titulo": "Clarificações de Regras",
+      "texto": "Arredondando. A menos que indicado o contrário, sempre que um efeito indica uma divisão, arredonde para baixo (ex.: 7 de dano reduzido à metade = 3).\n\nOrdem. Se mais de um efeito afetar um valor, siga a ordem de operações padrão (primeiro multiplicações e divisões, depois somas e subtrações). O resultado de um teste de resistência é sempre o primeiro a ser aplicado.\n\nMultiplicações. Se mais de um efeito fizer você multiplicar um valor, combine-os num único multiplicador, com cada efeito além do primeiro adicionando seu multiplicador –1 (ex.: x2 + x2 = x3, não x4)."
+    },
+    {
+      "titulo": "Acumulando Efeitos",
+      "texto": "A interação entre efeitos depende de sua origem (habilidades, perícias, itens, magias, parceiros e o ambiente).\n\nEfeitos de habilidades e perícias acumulam entre si, exceto quando vierem da mesma habilidade ou perícia (isso não inclui magias). Efeitos de itens, magias, parceiros e o ambiente acumulam com os de outras fontes, mas não entre si (dois itens de +1 em Fortitude não viram +2; um item +1 e uma magia +1 viram +2).\n\nArmaduras. Bônus na Defesa e penalidade de armadura de escudos acumulam com os de armaduras e mais um outro item à sua escolha.\n\nAtributos. O valor de um mesmo atributo não se acumula em características do personagem (ex.: clérigo/druida não soma duas vezes a Sabedoria nos PM). Exceção: perícias — pode somar um atributo a uma perícia que use esse mesmo atributo-chave, mas só uma vez.\n\nChance de Falha. Nunca acumula acima de 75% (sempre há no mínimo 1 em 4 de acertar). Reduções de Custo. Não são cumulativas e nunca reduzem o custo para menos de 1 PM."
+    },
+    {
+      "titulo": "Efeitos que Afetam Testes",
+      "texto": "Efeitos que fornecem bônus a um teste ou modificam sua dificuldade devem ser usados antes de rolar o dado. Efeitos que permitem rolar o dado novamente devem ser usados antes de o mestre declarar se você passou ou não (e você deve ficar com o segundo valor, mesmo que pior)."
+    },
+    {
+      "titulo": "Limites de Nível",
+      "texto": "Algumas habilidades são limitadas pelo seu nível. Para classes, use seu nível naquela classe; para outros casos, seu nível de personagem (ex.: Insolência, do bucaneiro, soma o Carisma na Defesa limitado pelo nível)."
+    },
+    {
+      "titulo": "Testes de Resistência",
+      "texto": "Habilidades prejudiciais normalmente permitem que seus alvos façam um teste de resistência (Fortitude, Reflexos ou Vontade) para evitar ou reduzir os efeitos.\n\nA CD do teste de resistência para qualquer efeito gerado por um personagem é 10 + metade do nível do personagem + seu valor num atributo. O atributo aparece entre parênteses na descrição da fonte (para magias, é sempre o atributo-chave da magia).\n\nResultados possíveis: Anula (sem efeito se passar); Parcial (efeito menor se passar); Reduz à Metade (efeito reduzido à metade se passar); Desacredita (termo de ilusão — uma criatura que interaja com a ilusão tem direito a um teste para percebê-la como irreal; a ilusão continua funcionando, mas a criatura pode avisar aliados como ação livre).\n\nObjetos: itens carregados não sofrem dano por habilidades (mesmo de área), salvo se a descrição disser o contrário; objetos soltos sofrem. Em testes de resistência, itens mundanos soltos falham automaticamente; itens mundanos carregados usam o bônus do portador; itens mágicos sempre testam (com seu próprio bônus ou o do portador, o que for maior). Testes de Perícia: algumas habilidades usam testes de perícia para resistir, com dificuldade igual à CD da habilidade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "alcances": [
+      { "alcance": "Pessoal", "descricao": "Afeta somente o personagem e/ou objetos que ele carregue. Também pode ser uma área que se inicia a partir do personagem." },
+      { "alcance": "Toque", "descricao": "Precisa tocar o alvo em seu alcance natural (tocar faz parte da ação; não exige ação extra nem teste)." },
+      { "alcance": "Curto", "descricao": "Alvos a até 9m (6 quadrados)." },
+      { "alcance": "Médio", "descricao": "Alvos a até 30m (20 quadrados)." },
+      { "alcance": "Longo", "descricao": "Alvos a até 90m (60 quadrados)." },
+      { "alcance": "Ilimitado", "descricao": "Qualquer lugar no mesmo mundo (geralmente exige conhecer e/ou já ter estado no ponto de origem)." }
+    ],
+    "formas_de_area": [
+      { "forma": "Cilindro", "descricao": "Surge na interseção de quatro quadrados, estendendo-se pela largura indicada e subindo até a altura indicada." },
+      { "forma": "Cone", "descricao": "Surge adjacente a você e se afasta na direção escolhida, ficando mais largo com a distância." },
+      { "forma": "Esfera", "descricao": "Surge na interseção de quatro quadrados, estendendo-se em todas as direções até o limite do raio." },
+      { "forma": "Linha", "descricao": "Surge adjacente a você e se afasta reto até o fim do alcance. Tem 1,5m de largura, salvo indicado." },
+      { "forma": "Quadrado / Cubo", "descricao": "Quadrado afeta o piso no(s) quadrado(s) escolhido(s); um cubo também afeta a altura." },
+      { "forma": "Outros", "descricao": "Algumas habilidades têm áreas específicas, citadas na descrição." }
+    ],
+    "duracoes": [
+      { "duracao": "Instantânea", "descricao": "O efeito termina assim que é usado, mas suas consequências podem durar (ex.: Curar Ferimentos cura na hora, mas a cura permanece)." },
+      { "duracao": "Cena", "descricao": "Dura uma cena inteira (sem medida fixa: rodadas, minutos, horas ou dias), encerrando quando esse momento da história acaba." },
+      { "duracao": "Sustentada", "descricao": "Exige gastar 1 PM como ação livre no início de cada turno seu. Pode-se manter várias sustentadas, mas apenas uma magia sustentada por vez." },
+      { "duracao": "Definida", "descricao": "Medida em rodadas, horas, dias ou outra unidade." },
+      { "duracao": "Permanente", "descricao": "Fica ativa para sempre, mas ainda pode ser encerrada de outras formas." },
+      { "duracao": "Descarregar", "descricao": "Permanece dormente até um evento ativá-la e descarregá-la, ou até a duração transcorrer (encerrando sem efeito)." }
+    ],
+    "tipos_de_efeito": [
+      { "tipo": "Arcano", "descricao": "Gerado pelas energias místicas de Arton. Todo efeito arcano é mágico." },
+      { "tipo": "Atordoamento", "descricao": "Afeta a capacidade de agir do alvo." },
+      { "tipo": "Cansaço", "descricao": "Diminui as capacidades físicas. Construtos e mortos-vivos são imunes." },
+      { "tipo": "Climático", "descricao": "Gerado pelas forças da natureza." },
+      { "tipo": "Cura", "descricao": "Cura pontos de vida do alvo." },
+      { "tipo": "Dano", "descricao": "Reduz os PV do alvo; subdividido em tipos de dano." },
+      { "tipo": "Divino", "descricao": "Gerado pela energia de um deus, direta ou indiretamente. Todo efeito divino é mágico." },
+      { "tipo": "Luz", "descricao": "Dano/cura de luz, iluminação e energia positiva (sinônimo de luz)." },
+      { "tipo": "Mágico", "descricao": "Energizado por forças arcanas ou divinas; envolve magias, itens mágicos ou o símbolo de mágico. Pode subdividir-se em escolas de magia." },
+      { "tipo": "Medo", "descricao": "Medo capaz de prejudicar o alvo. Criaturas com Inteligência nula são imunes." },
+      { "tipo": "Mental", "descricao": "Afeta a mente do alvo. Criaturas com Inteligência nula são imunes." },
+      { "tipo": "Metabolismo", "descricao": "Afeta a fisiologia (doenças, sangramento, fome). Construtos e mortos-vivos são imunes." },
+      { "tipo": "Metamorfose", "descricao": "Altera a forma ou composição corporal (inclui petrificação)." },
+      { "tipo": "Movimento", "descricao": "Afeta ou remove a capacidade de se movimentar." },
+      { "tipo": "Perda de Vida", "descricao": "Reduz os PV; ao contrário de dano, NÃO é afetada por redução de dano." },
+      { "tipo": "Sentidos", "descricao": "Afeta os sentidos físicos (ex.: cega ou ensurdece)." },
+      { "tipo": "Trevas", "descricao": "Necromancia, escuridão e energia negativa (sinônimo de trevas)." },
+      { "tipo": "Veneno", "descricao": "Gerado por venenos. Construtos e mortos-vivos são imunes." }
+    ],
+    "habilidades_gerais": [
+      { "nome": "Cura Acelerada", "descricao": "Recupera PV iguais ao valor no início do turno. Se houver dano após uma barra (ex.: cura acelerada 10/ácido), não recupera dano daquele tipo. Não cura perda de PV, apenas dano." },
+      { "nome": "Deslocamento de Escalada", "descricao": "Caminha por superfícies verticais e de cabeça para baixo. Se perder o deslocamento ou a capacidade de agir, cai." },
+      { "nome": "Deslocamento de Escavação", "descricao": "Move-se sob terreno granular (terra, areia), mas não rocha sólida; o terreno se fecha atrás." },
+      { "nome": "Deslocamento de Natação", "descricao": "Move-se na água sem testes de Atletismo (salvo correnteza forte). Respira na água, mas não fora." },
+      { "nome": "Deslocamento de Voo", "descricao": "Pode voar, parar no ar e atacar como criatura terrestre. Se perder o voo ou a capacidade de agir, cai 150m por rodada; derrubada bem-sucedida faz cair 1d6 x 1,5m." },
+      { "nome": "Faro", "descricao": "Olfato apurado: contra inimigos em alcance curto que não veja, não fica desprevenida e camuflagem total dá só 20% de chance de falha." },
+      { "nome": "Imunidade", "descricao": "Imune a um tipo de efeito/elemento — não sofre consequência direta dele (mas pode ser afetada indiretamente). Imunidade a crítico transforma críticos em acertos normais." },
+      { "nome": "Incorpóreo", "descricao": "Sem corpo físico; só pode ser afetada por armas/efeitos mágicos (mesmo de toque) ou outras criaturas incorpóreas. Atravessa objetos sólidos, mas não os manipula; tem Força nula." },
+      { "nome": "Percepção às Cegas", "descricao": "Usa sentidos não-visuais (radar, sonar, vibração); efeitos de visão (escuridão, invisibilidade) não a afetam. Alcance curto, salvo indicado." },
+      { "nome": "Redução de Dano (RD)", "descricao": "Ignora parte do dano (ex.: RD 5 contra 8 = perde 3 PV). Pode ser contra tipos específicos (redução de fogo 10). RD X/tipo não se aplica ao(s) tipo(s) após a barra (ex.: RD 10/mágico não reduz dano mágico)." },
+      { "nome": "Resistência a <Efeito>", "descricao": "Bônus em testes de resistência contra o tipo especificado (ex.: resistência a magia +2 dá +2 em Fortitude/Reflexos/Vontade contra efeitos mágicos)." },
+      { "nome": "Visão na Penumbra", "descricao": "Enxerga em escuridão leve em alcance curto (exceto mágica); ignora camuflagem leve por esse tipo de escuridão." },
+      { "nome": "Visão no Escuro", "descricao": "Enxerga em escuridão total em alcance curto (exceto mágica); ignora camuflagem total por esse tipo de escuridão." },
+      { "nome": "Vulnerabilidade a Dano", "descricao": "Sofre +50% de dano de um tipo específico (ex.: 15 de frio viram 22)." },
+      { "nome": "Agarrar Aprimorado", "descricao": "Ao acertar ataque com a arma natural indicada, faz a manobra agarrar com ela como ação livre (enquanto agarra, não usa essa arma para outros ataques)." }
+    ]
+  }
+}
