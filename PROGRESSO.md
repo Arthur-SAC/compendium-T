@@ -11,15 +11,16 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) — Onda B COMPLETA E VALIDADA (`8e71480` + `12225a7`): 29 regiões. Próxima: Onda C.**
+➡️ **MUNDO DE ARTON (Cap. 9) — Onda B COMPLETA E VALIDADA (`8e71480` + `12225a7` + `6ff4de4`): 30 regiões. Próxima: Onda C.**
 **Onda C** = página/regra `mundo-de-arton` (cosmologia/intro, impressa 350) + **Linha do Tempo** (cronologia "Anos AE",
 impressas 350–353) como entidade/tabela; integração + commit. Texto cru em `extracao/cache/arton.txt` (2 colunas — conferir por imagem).
 **Validação da Onda B ✅** (3 lotes independentes por visão, JSON×imagem 300 DPI): 26/29 fiéis sem reparo. Correções aplicadas (`12225a7`):
 deheon (2 §§ finais da Libertação, antes cortados pela ilustração — "abrigando"/"acreditavam honrar" reconferidos), mercado
 ("nas" não "das" → renomeado p/ `mercado-nas-nuvens`), aslothia ("grimórios"), ermos-purpuras (tira "se" sobrando).
 Confirmados: Sambúrdia e Nova Malpetrim têm cabeçalho próprio; grafias Schwolld (Ahlen) e Moreania.
-**Apontamento aberto (baixa prioridade):** "A Tragédia Élfica" está em `ruinas-de-tyrondir` mas fica fisicamente após Doherimm
-(impressa 383) e fala de Lamnor — atribuição editorial discutível; conteúdo fiel. Reavaliar se incomodar.
+**Remanejamento ✅ (`6ff4de4`):** "A Tragédia Élfica" virou **entidade própria** `tragedia-elfica` (tem cabeçalho vermelho de
+nível de região na impressa 383, logo após Doherimm; trata da queda dos elfos/Lamnor). Saiu de `ruinas-de-tyrondir`. Relações
+thwor+tauron migraram com ela. **Total agora: 30 regiões; build 714 páginas.**
 **UI feita nesta sessão:** listas a 1480px (`9cd50ff`); **fichas em duas colunas** texto+barra lateral (`f782d0c`, colapsa no mobile; imagem fica na lateral — decisão do usuário, tentativa de "imagem ao lado do texto" foi revertida).
 
 **29 regiões (`8e71480`):** O Reinado (8): deheon, bielefeld, wynlla, namalkah, ahlen, zakharov, pondsmania, mercado-das-nuvens.
