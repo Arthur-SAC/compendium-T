@@ -3,7 +3,10 @@
   "tipo": "regiao",
   "nome": "Deheon",
   "resumo": "O Reino Capital do Reinado — reduto de normalidade reconstruída após a guerra, coração da civilização humana, onde se ergue Valkaria, a cidade sob a estátua da Deusa da Ambição.",
-  "fonte": { "livro": "livro-basico", "pagina": 358 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 358
+  },
   "imagens": [],
   "secoes": [
     {
@@ -16,12 +19,22 @@
     },
     {
       "titulo": "A Libertação de Valkaria",
-      "texto": "Mas por que os poderes da deusa alcançavam apenas algumas centenas de quilômetros? Religiosos debatiam o tópico com fervor, mas a verdade oculta era mais sinistra que qualquer de suas teorias. A estátua de Valkaria não era um presente para seus devotos, mas uma prisão — a própria deusa encontrava-se cativa no monumento. Era sua punição por crimes contra o Panteão, crimes que teriam levado à própria criação da Tormenta. Ainda que a diva pudesse dar poderes a seus devotos, ainda que pudesse percorrer os arredores em forma de avatar, sua essência estava aprisionada na pedra. Durante esse período ocorreria o Dia dos Gigantes; um embate épico entre o Kishinauros, máquina humanoide gigante de Mestre Arsenal, e um colosso celestial de origem incerta. A metrópole sofreu danos extensos e por pouco a própria estátua não teria sido destruída, o que resultaria na morte da deusa.\n\nO segredo sobre o cativeiro de Valkaria seria revelado apenas a seu novo sumo-sacerdote, Hennd Kalamar. O fardo era terrível, mas havia esperança; o castigo divino não era eterno. Conforme decretado por Khalmyr, então líder do Panteão, a deusa seria perdoada caso seus campeões vencessem um desafio — um vasto labirinto planar, o mais perigoso de todos, forjado pelos próprios deuses. Coube a Kalamar encontrar e convocar esses aventureiros. E assim, após uma extenuante campanha, após derrotar os poderosos guardiões das masmorras, os heróis salvariam Valkaria. Seriam agora conhecidos como \"Os Libertadores\". A punição de Valkaria terminava. A deusa era livre outra vez, seus poderes agora atuando em toda Arton. Mas sua estátua permaneceria ali, como o presente que todos sempre acreditaram ser."
+      "texto": "Mas por que os poderes da deusa alcançavam apenas algumas centenas de quilômetros? Religiosos debatiam o tópico com fervor, mas a verdade oculta era mais sinistra que qualquer de suas teorias. A estátua de Valkaria não era um presente para seus devotos, mas uma prisão — a própria deusa encontrava-se cativa no monumento. Era sua punição por crimes contra o Panteão, crimes que teriam levado à própria criação da Tormenta. Ainda que a diva pudesse dar poderes a seus devotos, ainda que pudesse percorrer os arredores em forma de avatar, sua essência estava aprisionada na pedra. Durante esse período ocorreria o Dia dos Gigantes; um embate épico entre o Kishinauros, máquina humanoide gigante de Mestre Arsenal, e um colosso celestial de origem incerta. A metrópole sofreu danos extensos e por pouco a própria estátua não teria sido destruída, o que resultaria na morte da deusa.\n\nO segredo sobre o cativeiro de Valkaria seria revelado apenas a seu novo sumo-sacerdote, Hennd Kalamar. O fardo era terrível, mas havia esperança; o castigo divino não era eterno. Conforme decretado por Khalmyr, então líder do Panteão, a deusa seria perdoada caso seus campeões vencessem um desafio — um vasto labirinto planar, o mais perigoso de todos, forjado pelos próprios deuses. Coube a Kalamar encontrar e convocar esses aventureiros. E assim, após uma extenuante campanha, após derrotar os poderosos guardiões das masmorras, os heróis salvariam Valkaria. Seriam agora conhecidos como \"Os Libertadores\". A punição de Valkaria terminava. A deusa era livre outra vez, seus poderes agora atuando em toda Arton. Mas sua estátua permaneceria ali, como o presente que todos sempre acreditaram ser.\n\nAnos mais tarde, após sofrer um golpe de estado perpetrado por radicais, a nação militarista vizinha seria renomeada Supremacia Purista. Seguindo uma visão deturpada dos dogmas de Valkaria, os puristas acreditavam que os humanos seriam a raça eleita, com a missão de exterminar todos os outros povos. Seus poderosos batalhões marchariam sobre os reinos, aniquilando anões, elfos e outros não humanos. Mas seu maior objetivo não poderia ser outro: a conquista de Valkaria, centro político-religioso do mundo, e lar da deusa que acreditavam honrar com sua terrível doutrina de pureza racial. Assim seria desencadeada a Guerra Artoniana, lotando as ruas valkarianas com refugiados das terras vizinhas, impregnando a cidade com penúria e miséria, trazendo a batalha até seus muros. Apenas a investida audaz de um pequeno grupo de aventureiros contra o centro de comando purista colocou fim à ameaça.\n\nHoje, três anos mais tarde, o reino de Deheon ainda se recupera do extenso e sofrido conflito. Mas Valkaria, a deusa, agora lidera o Panteão. A cidade, em seu nome, retoma seu papel como coração do mundo civilizado, como inspiração máxima da humanidade. A mais cosmopolita das comunidades, abrigando seres de todas as raças, todos os reinos, todas as devoções. A metrópole frenética onde tudo existe, tudo acontece, tudo é dez vezes maior, mais famoso, mais belo. Onde todo evento notável tem repercussões pelo resto de Arton. Para o verdadeiro herói aventureiro, não importa até onde suas jornadas levem; cedo ou tarde, a Cidade sob a Deusa estará em seu caminho."
     }
   ],
   "relacoes": [
-    { "tipo": "abriga", "alvoId": "valkaria", "alvoTipo": "divindade", "rotulo": "Valkaria, a Deusa da Ambição" },
-    { "tipo": "citada", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Khalmyr, líder do Panteão" }
+    {
+      "tipo": "abriga",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Valkaria, a Deusa da Ambição"
+    },
+    {
+      "tipo": "citada",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Khalmyr, líder do Panteão"
+    }
   ],
   "mecanica": {
     "secao": "O Reinado",
