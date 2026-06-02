@@ -1,0 +1,121 @@
+{
+  "id": "tempo-entre-aventuras",
+  "tipo": "regra-de-criacao",
+  "nome": "Tempo entre Aventuras",
+  "resumo": "Regras para conduzir o que os personagens fazem entre uma missão e outra, por sumários narrados pelo mestre ou por solos jogados (trabalho, treinamento e busca).",
+  "fonte": { "livro": "livro-basico", "pagina": 276 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tempo entre Aventuras",
+      "texto": "Durante aventuras, os personagens invadem masmorras, enfrentam vilões, conquistam tesouros. Mas o que acontece entre uma missão e outra? O que os heróis fazem quando não estão salvando o mundo? Em campanhas simples você pode evitar essa pergunta: entre as aventuras, os heróis ficam se divertindo na taverna enquanto esperam o próximo velhinho com um problema. Mas em campanhas complexas, que buscam contar uma saga épica, em vez de uma série de aventuras isoladas e sem consequência, essa questão ganha importância.\n\nNessas campanhas, você precisa de tempo entre as aventuras para que os personagens e as tramas possam se desenvolver de forma verossímil. Um herói que entre em uma masmorra por dia poderia subir um nível por dia. Mas faz sentido na história que um jovem inexperiente se torne um campeão lendário em menos de um mês? Se em sua campanha uma guerra começar, algum tempo terá que se passar para que ela se desenvolva — afinal, conflitos desse tipo levam meses ou até anos. Além disso, os jogadores podem querer um tempo para seus personagens buscarem seus próprios objetivos, em vez de apenas reagir às tramas dos vilões.\n\nEsta seção apresenta duas opções para o mestre conduzir o tempo entre aventuras."
+    },
+    {
+      "titulo": "Sumários",
+      "texto": "A opção mais simples. Entre uma aventura e outra, você arbitra o que acontece: “Depois de salvar o reino do ataque purista, vocês passam um mês festejando na capital, aproveitando a fama e a fortuna que ganharam. Até que, certa noite, um velhinho entra na taverna em que vocês estão...”.\n\nVocê pode (e deve) levar em conta as peculiaridades dos personagens para descrever esses eventos. O bárbaro e o ladino podem ficar festejando, mas o arcanista talvez prefira partir para estudar em uma torre, voltando convenientemente na noite em que o velhinho entra na taverna.\n\nEsta opção funciona quando os personagens não têm objetivos específicos — comum com jogadores iniciantes. Nesses casos, é melhor que o mestre tome as rédeas do tempo entre aventuras e simplesmente descreva o que aconteceu.\n\nEssas narrativas também são boas para longos saltos temporais. Por exemplo, o grupo derrotou um grande vilão e terminou um arco de histórias. Você quer que eles tenham uma sensação de vitória, então não quer que a próxima aventura comece logo. Em vez disso, você diz: “Cinco anos se passam. Graças à vitória de vocês contra o necromante, são anos de paz e prosperidade. Mas então, no sexto ano...”. Esse tipo de salto se presta para ser descrito em sumário. É um tempo de inatividade, no qual todos estarão aproveitando a vitória em vez de procurar problemas."
+    },
+    {
+      "titulo": "Jogando solos",
+      "texto": "A segunda opção é mais complexa. Em vez de o mestre descrever o que acontece, os jogadores escolhem o que querem fazer. A diferença para uma aventura normal está no nível de detalhamento.\n\nAventuras são a parte principal da campanha; são descritas em detalhes e resolvidas com as regras completas do jogo. Já o tempo entre aventuras é a parte secundária, por isso é menos detalhado e resolvido com regras simplificadas. Se sua campanha fosse um filme, as aventuras seriam cenas normais; já o tempo entre elas seria uma montagem.\n\nTambém há um motivo prático para isso: entre as aventuras, o grupo muitas vezes estará separado. Se o mestre demorar para resolver a ação de um jogador, os outros ficarão muito tempo parados.\n\nPara ter um conjunto de regras simples e, ao mesmo tempo, capaz de resolver todos os tipos de ações que os jogadores podem querer realizar entre aventuras, você precisa abstrair. Exija poucos testes, fazendo com que cada um determine o resultado de um evento inteiro. Por exemplo, resolva um combate com um teste de ataque e uma infiltração a uma base inimiga com um teste de Furtividade.\n\nA seguir estão três ações que os jogadores podem fazer durante o tempo entre aventuras: trabalho, treinamento e busca. A primeira opção serve para ganhar dinheiro. A segunda tem como objetivo ganhar poder. A terceira é um grande “guarda-chuva” para outras coisas que o jogador queira fazer — basicamente, qualquer ação cujo objetivo não seja adquirir dinheiro ou poder é uma busca.\n\nOs personagens podem fazer uma ação por mês de tempo de jogo. O mestre pode aumentar este tempo para uma ação por estação (três meses) ou até um ano, para campanhas que se estendam por longos períodos. Independentemente da medida que escolher, evite saltos que forneçam muitas ações por vez — é melhor resolver essa parte rapidamente, para chegar logo na aventura. O tempo entre aventuras é o aperitivo da campanha, não o prato principal."
+    },
+    {
+      "titulo": "Trabalho",
+      "texto": "Personagens treinados em Ofício podem usar o tempo entre aventuras para ganhar dinheiro ou fabricar itens, conforme as regras da perícia. Embora esta ação não seja a preferida de aventureiros, é a mais usada por pessoas comuns!"
+    },
+    {
+      "titulo": "Treinamento",
+      "texto": "A vida de aventuras é perigosa; faz sentido que em seu tempo livre os personagens pratiquem para ficar mais poderosos.\n\nO jogador deve descrever como seu personagem vai treinar e escolher um atributo relacionado ao treinamento descrito. Um guerreiro que faça exercícios físicos pode usar Força, enquanto que um arcanista que estude em uma biblioteca pode usar Inteligência.\n\nO personagem então faz três testes do atributo escolhido, com CD 10 + metade de seu nível. Se passar em pelo menos dois, recebe um benefício de seu próximo nível de personagem, a sua escolha. Caso contrário, nada acontece — o personagem não sofre nenhuma penalidade por falhar no treinamento, além do tempo perdido. A lista abaixo resume os benefícios que o jogador pode escolher.\n\n• PV equivalentes ao seu próximo nível.\n\n• PM equivalentes ao seu próximo nível.\n\n• Uma habilidade de classe do seu próximo nível.\n\n• +1 em todas as perícias (apenas se o seu próximo nível de personagem for par).\n\nVocê pode treinar múltiplas vezes, mas deve escolher um benefício diferente a cada vez. Quando sobe de nível, recebe os benefícios não escolhidos desse nível, tornando-se um personagem normal do novo nível. Na prática, você perde os benefícios do treinamento quando sobe de nível. Isso evita que personagens fiquem com poder acima do resto do grupo, mas você ainda terá tido um benefício em todas as sessões entre o treinamento e o próximo nível.\n\nDe acordo com o mestre, benefícios de treinamento podem se manter entre os níveis. Isto é, se você tem um benefício de treinamento e sobe de nível, automaticamente ganha um benefício do próximo nível. Se a qualquer momento o personagem acumular quatro benefícios de treinamento, perde todos eles e sobe um nível imediatamente.\n\nIsso pode fazer com que os personagens fiquem com níveis diferentes. Se os jogadores não se importarem com isso, é uma opção interessante. Em termos de história, faz sentido que aventureiros focados em adquirir poder pessoal se tornem mais poderosos que aqueles mais interessados em outras coisas.\n\nComo alternativa, seu benefício de treinamento pode ser trocar uma habilidade escolhida previamente (como um poder ou magia) por outra que poderia ter escolhido naquele momento."
+    },
+    {
+      "titulo": "Busca",
+      "texto": "Com esta ação, o personagem executa qualquer tarefa a sua escolha, limitado apenas pelo bom senso. Se na última aventura o grupo encontrou um artefato misterioso, o arcanista pode pesquisar para descobrir o que o item faz. Se o histórico do guerreiro diz que ele teve sua família morta por um vampiro, ele pode usar seu tempo livre para investigar o paradeiro do morto-vivo, para que um dia possa se vingar. Nesse último exemplo, note que a luta contra o vampiro merece ser uma aventura, mas a investigação pode ser resolvida em uma busca solo.\n\nPara resolver uma busca, o jogador descreve o que planeja fazer em linhas gerais. Dizer que vai “investigar o paradeiro do vampiro” é pouco. Dizer que vai perguntar entre os camponeses do reino, procurar nas criptas da região ou contratar um mago para usar Vidência é suficiente. É importante ter uma ideia do que o personagem vai fazer, mas não é necessário detalhar.\n\nO jogador então escolhe uma perícia relacionada à descrição da busca. Se o jogador disse que vai perguntar entre os camponeses do reino, Investigação seria coerente. Intimidação também — mas, nesse caso, o personagem estaria coagindo as pessoas, o que poderia ter consequências mais tarde. Já Atletismo não tem nenhuma relação com a ideia do jogador e não poderia ser usado.\n\nApós o jogador escolher uma perícia, é a vez do mestre. Assim como o jogador, ele deve levar em conta a descrição da busca. No exemplo anterior, o mestre poderia escolher Diplomacia, para o guerreiro convencer as pessoas de que não é um asseclas do vampiro, ou Intuição, para discernir informações úteis de boatos e superstições.\n\nPor fim, o jogador rola 2d12 na Tabela 6-6: Desafios de Buscas, para definir a terceira e última perícia. A tabela traz exemplos de desafios relacionados a cada perícia, mas o mestre pode inventar outros.\n\nPor exemplo, se o jogador rolar 13 (Sobrevivência), o mestre pode descrever que o vampiro atacou uma aldeia em um pântano. Para chegar até lá e interrogar os camponeses, o personagem precisará atravessar essa região difícil.\n\nCom as três perícias definidas (a primeira escolhida pelo jogador, a segunda pelo mestre e a terceira aleatoriamente), é hora de rolar. Os testes têm CD 20 + metade do nível do personagem (heróis mais poderosos se envolvem em missões mais difíceis ou atraem a atenção de inimigos mais poderosos).\n\nA quantidade de sucessos determina o resultado da busca. Se o personagem não tiver nenhum sucesso (ou seja, se falhar nos três testes), não consegue o que queria e sofre um castigo (um ferimento, perda de um item etc.). Se tiver um sucesso, não consegue o que queria, mas não sofre nenhuma penalidade. Se tiver dois sucessos, consegue o que queria (por exemplo, a localização do covil do vampiro). Por fim, se tiver três sucessos, consegue o que queria e um benefício adicional a critério do mestre. Talvez, além da localização do covil do vampiro, o guerreiro descubra também uma fraqueza do monstro.\n\nTanto os castigos quanto as recompensas de uma busca podem ser definidos pelo mestre ou de forma aleatória, usando a Tabela 6-7: Consequências de Buscas. Isso é especialmente útil se o personagem está se aventurando sem um objetivo específico.\n\nEm buscas, os jogadores podem tentar usar outras habilidades no lugar dos testes definidos pela mecânica. Por exemplo, um arcanista pode querer substituir um teste de Furtividade por Invisibilidade. Isso não é permitido. Lembre-se de que cada teste não representa uma única ação, mas sim uma sequência de eventos ao longo de horas ou mesmo dias. Da mesma forma, habilidades que modificam perícias (fornecem bônus, substituem um teste por outro...) não podem ser usadas em buscas.\n\nUsos criativos de habilidades podem, entretanto, fornecer bônus num dos testes, assim como boas ideias e interpretação. O bônus varia de +2 a +5."
+    },
+    {
+      "titulo": "Recompensas",
+      "texto": "Favor. Você recebe um favor de um NPC ou organização, ou a promessa de um favor futuro, que o ajuda por uma cena. Exemplos incluem a ajuda de um parceiro, uma carona para um local distante (através de navio, tapete voador, Teletransporte...), uma magia lançada para você, o empréstimo de um item mágico etc. Você decide o favor, mas o mestre deve aprová-lo.\n\nInformação. Você recebe uma informação, como a localização de um tesouro, a identidade do traidor na corte, a resposta para um enigma mágico, a cura para um veneno sobrenatural etc. Você decide a informação, mas o mestre deve aprová-lo.\n\nPoder. Você recebe um benefício de treinamento, definido aleatoriamente.\n\nTesouro. Você ganha um bem material. Role na tabela Tesouros (veja o Capítulo 8: Recompensas), na coluna de riquezas, de itens ou em ambas, na linha correspondente a seu nível."
+    },
+    {
+      "titulo": "Castigos",
+      "texto": "Abalo. Você sofre uma derrota que abala sua confiança. Durante a próxima aventura, seus pontos de mana máximos diminuem em 1 por nível de personagem (se você é um personagem de 5º nível com 15 PM, por exemplo, terá apenas 10 PM na próxima aventura).\n\nComplicação. Você sofre uma complicação, que irá afetá-lo em algum momento de sua carreira. Você pode ter feito um inimigo poderoso, contraído uma doença mágica etc. Cabe ao mestre definir os detalhes exatos dessa complicação, baseando-se nos parâmetros das outras penalidades da lista.\n\nFerimento. Você sofre um ferimento severo, que demora a cicatrizar. Durante a próxima aventura, seu pontos de vida máximos diminuem em 1 por nível de personagem. Habilidades e magias de cura não funcionam contra este efeito.\n\nMaldição. Você sofre um efeito da magia Rogar Maldição na próxima aventura.\n\nRuína. Você perde dinheiro ou itens, a sua escolha, em valor equivalente a um quarto (perda menor) ou metade (perda maior) do dinheiro inicial do seu nível (veja a página 140). Por exemplo, um personagem de 5º nível (dinheiro inicial T$ 2.000) perde T$ 500 em uma perda menor e T$ 1.000 em uma perda maior. Se não tiver como pagar, sofre um Abalo (veja acima)."
+    },
+    {
+      "titulo": "Variante: Custo de Vida",
+      "texto": "Entre uma aventura e outra, heróis precisam comer e comprar roupas, como qualquer pessoa. Mas Tormenta20 é sobre combater o mal, não administrar despesas domésticas!\n\nPara simplificar, em vez de pagar cada estadia ou refeição, você pode pagar um custo mensal que representa o seu sustento. Esse valor inclui despesas mundanas como moradia, comida, roupas e transporte, mas não itens com benefícios mecânicos.\n\nO jogador escolhe um dos custos mensais a seguir. O custo define a condição de descanso padrão do personagem.\n\n• Pobre (T$ 10). Você dorme na rua, em celeiros ou nas piores hospedarias. Come pão velho e veste trapos. Alguns clérigos e paladinos vivem assim por opção — doam quase todo o seu dinheiro, mantendo apenas o mínimo para viver. Outros, como bárbaros, caçadores e druidas, não se importam muito com conforto. Condição ruim.\n\n• Médio (T$ 50). Você dorme em estalagens e come em tavernas. Este estilo de vida é caro para pessoas comuns — imagine alguém que viva em hotéis e coma em restaurantes todos os dias —, mas boa parte dos aventureiros pode pagar por isso. Condição normal.\n\n• Rico (T$ 100). Você fica em quartos privativos nas estalagens, alimenta-se bem e veste-se com roupas feitas por alfaiates. Condição confortável.\n\n• Luxuoso (T$ 200). Você dorme nas melhores estalagens — quando não é convidado por um nobre local para ficar em seu castelo — e come banquetes. Seus passeios de carruagem atraem olhares de admiração e inveja. Condição luxuosa."
+    },
+    {
+      "titulo": "Variantes para Treinamentos e Buscas",
+      "texto": "Em treinamentos, o mestre pode exigir que o personagem tenha acesso a algum elemento de história para treinar, como um mestre ou um livro, ou pague por seu treinamento. Nesse caso, o treino custa T$ 100 por nível de personagem e deve ser pago antes de os testes serem feitos.\n\nEm buscas, o personagem pode se aventurar de forma ousada. Se fizer isso, a CD de todos os testes aumenta em +5. Mas, se ele somar dois ou três sucessos, recebe uma recompensa a mais."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_6_6_desafios_de_buscas": {
+      "rolagem": "2d12",
+      "entradas": [
+        { "valor": 2, "pericia": "Misticismo", "exemplo": "Decifrar uma runa" },
+        { "valor": 3, "pericia": "Adestramento", "exemplo": "Acalmar uma fera" },
+        { "valor": 4, "pericia": "Conhecimento", "exemplo": "Traduzir um texto antigo" },
+        { "valor": 5, "pericia": "Enganação", "exemplo": "Participar de uma intriga" },
+        { "valor": 6, "pericia": "Cura", "exemplo": "Tratar um veneno" },
+        { "valor": 7, "pericia": "Iniciativa", "exemplo": "Perseguir um bandido" },
+        { "valor": 8, "pericia": "Intimidação", "exemplo": "Negociar com um criminoso" },
+        { "valor": 9, "pericia": "Investigação", "exemplo": "Descobrir uma localização" },
+        { "valor": 10, "pericia": "Reflexos", "exemplo": "Evitar um desmoronamento" },
+        { "valor": 11, "pericia": "Atletismo", "exemplo": "Escalar um penhasco" },
+        { "valor": 12, "pericia": "Percepção", "exemplo": "Evitar uma emboscada" },
+        { "valor": 13, "pericia": "Sobrevivência", "exemplo": "Atravessar os ermos" },
+        { "valor": 14, "pericia": "Fortitude", "exemplo": "Tolerar clima ruim" },
+        { "valor": 15, "pericia": "Diplomacia", "exemplo": "Negociar com um mercador" },
+        { "valor": 16, "pericia": "Furtividade", "exemplo": "Infiltrar-se num lugar" },
+        { "valor": 17, "pericia": "Acrobacia", "exemplo": "Atravessar uma ravina" },
+        { "valor": 18, "pericia": "Intuição", "exemplo": "Elucidar um enigma" },
+        { "valor": 19, "pericia": "Vontade", "exemplo": "Resistir a uma maldição" },
+        { "valor": 20, "pericia": "Luta", "exemplo": "Defender-se de um monstro" },
+        { "valor": 21, "pericia": "Jogatina", "exemplo": "Apostar com as fadas" },
+        { "valor": 22, "pericia": "Nobreza", "exemplo": "Participar de um baile" },
+        { "valor": 23, "pericia": "Religião", "exemplo": "Entender um presságio" },
+        { "valor": 24, "pericia": "Guerra", "exemplo": "Atravessar um campo de batalha" }
+      ]
+    },
+    "tabela_6_7_consequencias_de_buscas": [
+      { "sucessos": 0, "consequencia": "1 castigo" },
+      { "sucessos": 1, "consequencia": "Nenhuma" },
+      { "sucessos": 2, "consequencia": "1 recompensa" },
+      { "sucessos": 3, "consequencia": "2 recompensas" }
+    ],
+    "recompensas_e_castigos": {
+      "instrucao": "Para cada castigo ou recompensa, role 1d6 na tabela abaixo.",
+      "entradas": [
+        { "1d6": 1, "recompensa": "Tesouro (riqueza)", "castigo": "Ruína (menor)" },
+        { "1d6": 2, "recompensa": "Favor", "castigo": "Abalo" },
+        { "1d6": 3, "recompensa": "Tesouro (item)", "castigo": "Complicação" },
+        { "1d6": 4, "recompensa": "Informação", "castigo": "Ferimento" },
+        { "1d6": 5, "recompensa": "Tesouro (ambos)", "castigo": "Maldição" },
+        { "1d6": 6, "recompensa": "Poder", "castigo": "Ruína (maior)" }
+      ]
+    },
+    "custo_de_vida": [
+      { "estilo": "Pobre", "custo_mensal": "T$ 10", "condicao_de_descanso": "ruim" },
+      { "estilo": "Médio", "custo_mensal": "T$ 50", "condicao_de_descanso": "normal" },
+      { "estilo": "Rico", "custo_mensal": "T$ 100", "condicao_de_descanso": "confortável" },
+      { "estilo": "Luxuoso", "custo_mensal": "T$ 200", "condicao_de_descanso": "luxuosa" }
+    ],
+    "treinamento": {
+      "testes": 3,
+      "cd": "10 + metade do nível",
+      "sucessos_necessarios": 2,
+      "beneficios": [
+        "PV equivalentes ao seu próximo nível.",
+        "PM equivalentes ao seu próximo nível.",
+        "Uma habilidade de classe do seu próximo nível.",
+        "+1 em todas as perícias (apenas se o seu próximo nível de personagem for par)."
+      ]
+    },
+    "busca": {
+      "testes": 3,
+      "cd": "20 + metade do nível",
+      "pericias": "uma escolhida pelo jogador, uma escolhida pelo mestre e uma definida por 2d12 na Tabela 6-6",
+      "variante_ousada": "a CD de todos os testes aumenta em +5; se somar dois ou três sucessos, recebe uma recompensa a mais"
+    }
+  }
+}

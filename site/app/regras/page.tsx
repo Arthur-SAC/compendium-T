@@ -11,6 +11,7 @@ const GRUPOS: { titulo: string; ids: string[] }[] = [
   { titulo: "Equipamento", ids: ["riqueza-e-equipamento", "regras-de-armas", "regras-de-armaduras", "itens-superiores", "regras-de-itens-especiais"] },
   { titulo: "Magia", ids: ["magia-como-funciona", "caracteristicas-das-magias", "aprimoramentos-de-magia"] },
   { titulo: "Jogando & Combate", ids: ["testes-e-dificuldades", "habilidades-e-efeitos", "combate", "acoes-em-combate"] },
+  { titulo: "O Mestre", ids: ["como-mestrar", "sessoes-aventuras-e-campanhas", "npcs-mestre", "ambientes-de-aventura", "tempo-entre-aventuras"] },
 ];
 
 function CardRegra({ regra }: { regra: Entidade }) {
