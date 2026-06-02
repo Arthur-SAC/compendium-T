@@ -4,16 +4,19 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton — Onda A ✅ (entidade `regiao`, índice `/mundo`, spike Deheon)**. Próxima: **Mundo de Arton Onda B (extrair as ~26 regiões restantes)**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) — Onda B COMPLETA E VALIDADA (`8e71480` + `12225a7` + `6ff4de4`): 30 regiões. Próxima: Onda C.**
-**Onda C** = página/regra `mundo-de-arton` (cosmologia/intro, impressa 350) + **Linha do Tempo** (cronologia "Anos AE",
-impressas 350–353) como entidade/tabela; integração + commit. Texto cru em `extracao/cache/arton.txt` (2 colunas — conferir por imagem).
+➡️ **MUNDO DE ARTON (Cap. 9) ✅ COMPLETO.** Próxima fatia: **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)** — definir com o usuário.
+Possível polimento: índice `/regras` reunindo as regras de jogo; rever atribuição de epítetos derivados (sem subtítulo impresso) se incomodar.
+
+**Onda C ✅ (`5706afa`):** `mundo-de-arton` (cosmologia + visão geral, seção "Mundo de Arton", topo do `/mundo`) +
+`linha-do-tempo` (132 entradas "História Parcial", 7 Bilhões de Anos AE → 1420 "Época atual"; tabela ano|evento via `Ficha`).
+Build 716 páginas. Índice `/mundo` agora com 32 entradas (30 regiões + cosmologia + cronologia).
 **Validação da Onda B ✅** (3 lotes independentes por visão, JSON×imagem 300 DPI): 26/29 fiéis sem reparo. Correções aplicadas (`12225a7`):
 deheon (2 §§ finais da Libertação, antes cortados pela ilustração — "abrigando"/"acreditavam honrar" reconferidos), mercado
 ("nas" não "das" → renomeado p/ `mercado-nas-nuvens`), aslothia ("grimórios"), ermos-purpuras (tira "se" sobrando).
