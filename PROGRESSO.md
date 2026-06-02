@@ -4,20 +4,18 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando — em andamento (Testes ✅ · Habilidades&Efeitos ✅ · falta Combate)**. Próxima: **regra `combate`** (Cap. 5).
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras: Testes, Habilidades&Efeitos, Combate, Ações em Combate)**. Próxima: **Mundo de Arton** ou **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAP. 5 JOGANDO — EM ANDAMENTO.** Plano `docs/superpowers/plans/2026-06-02-jogando-combate-plano.md`.
-Feitas: **`testes-e-dificuldades`** (`09dbea3`) e **`habilidades-e-efeitos`** (`a4f9830`). **PRÓXIMO: regra `combate`** (impressa 229+):
-estatísticas, Tipos de Dano, Iniciativa, Surpresa, Rodada/Turno, Ações (padrão/movimento/livre/completa/reação), Ataque (CD=Defesa),
-Dano, Críticos, Defesa, Cobertura, Movimento, Manobras (derrubar/agarrar/empurrar), Ataques de Oportunidade — dividir em
-`combate` + `acoes-e-manobras` se ficar grande. Texto pronto em `extracao/cache/jogando/jogando.txt`. Depois: Cap. 8 Recompensas
-(tesouro), Mundo de Arton, Mestrar (Cap. 6). **Achado:** evolução de PJ (nível/patamares/multiclasse) ficava no Cap. 1 (Classes),
-já extraída em `evolucao-de-personagem` (`4ae973a`).
+➡️ **CAP. 5 JOGANDO ✅ COMPLETO** (4 regras: `testes-e-dificuldades`, `habilidades-e-efeitos`, `combate`, `acoes-em-combate`).
+Plano `docs/superpowers/plans/2026-06-02-jogando-combate-plano.md`. **PRÓXIMA FATIA:** escolher entre **Mundo de Arton** (lore/geografia
+— catálogo de regiões), **Mestrar (Cap. 6 — O Mestre)** (regras pro mestre, NPCs, recompensas, parceiros) ou **Recompensas (Cap. 8 —
+tesouro/itens mágicos)**. Decisão do usuário pendente. **Polimento pendente:** índice `/regras` reunindo as ~14 regras de jogo
+(testes, combate, magia, devoção, perícias, equipamento, atributos, evolução…) — atualmente acessíveis por auto-link e pela landing /personagem.
 
 ➡️ **CONSTRUÇÃO DE PERSONAGEM ✅** (Cap. 1, regras de criação). Plano `docs/superpowers/plans/2026-06-02-construcao-personagem-plano.md`.
 4 regras (`regra-de-criacao`, verificadas em 300 DPI): **`atributos`** (6 atributos + pontos/rolagem 4d6/mínimos + Tabela 1-1),
