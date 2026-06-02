@@ -12,7 +12,7 @@
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
 ➡️ **CAP. 6 (O MESTRE) ✅ COMPLETO.** Próxima fatia: **Recompensas (Cap. 8: XP, Tesouros, Itens Mágicos, impressas 324+)** ou **Ameaças/Perigos (Cap. 7, impressas 280–323: Construindo Combates, Criaturas, Perigos, Fichas de NPCs)** — definir com o usuário.
-Polimento possível (decisão do usuário pendente): compactar em TABELA as listas longas das regras do Mestre (parceiros/montarias em `npcs-mestre`; as 20 aventuras-modelo em `sessoes-aventuras-e-campanhas`) — hoje são `secoes` (fiel ao livro, mas páginas longas).
+Compactação ✅ (`cb8ce04`): parceiros (12)/montarias (6) em `npcs-mestre` e as 20 aventuras-modelo em `sessoes` viraram TABELAS (`mecanica`), preservando o texto verbatim (contagem de caracteres idêntica). npcs 37→19 secoes, sessoes 38→18.
 
 **Cap. 6 — O Mestre ✅ (`b4924e0` + validação `dbd1536`):** 5 regras `regra-de-criacao` (extração pura; tipo/índice/Ficha já existiam) +
 grupo "O Mestre" no `/regras`. `como-mestrar` (12 secoes), `sessoes-aventuras-e-campanhas` (38), `npcs-mestre` (37 + Tabela 6-1),
