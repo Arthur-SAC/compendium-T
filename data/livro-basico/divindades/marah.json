@@ -1,0 +1,24 @@
+{
+  "id": "marah",
+  "tipo": "divindade",
+  "nome": "Marah",
+  "resumo": "Deusa da Paz, do amor e da esperança.",
+  "fonte": { "livro": "livro-basico", "pagina": 101 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Neste mundo sempre em guerra, devotos da Deusa da Paz talvez sejam os mais corajosos e perseverantes, buscando inspiração em sua padroeira para proteger Arton sem usar de violência. Marah ensina a suportar qualquer provação, demonstrar que brutalidade nunca é a única resposta. Ainda assim, esta não é apenas uma divindade de placidez e indolência; devotos de Marah costumam ser plenos de bom humor e atitude positiva, sempre prontos para uma nova celebração ou romance..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Praticar o amor e a gratidão pela vida e pela bondade. Promover a paz, harmonia e felicidade. Aliviar a dor e o sofrimento, trazer conforto aos aflitos. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção.",
+    "simboloSagrado": "Um coração vermelho.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Não há. Devotos desta deusa não podem lançar a magia Arma Espiritual e similares.",
+    "devotos": "Aggelus, elfos, hynne, qareen, bardos, nobres, paladinos.",
+    "poderesConcedidos": ["Aura de Paz", "Dom da Esperança", "Palavras de Bondade", "Talento Artístico"],
+    "obrigacoesRestricoes": "Devotos de Marah não podem causar dano, perda de PV e condições a criaturas, exceto enfeitiçado, fascinado e pasmo (fornecer bônus em dano também é proibido). Em combate, só podem recorrer a ações como proteger ou curar — ou fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar."
+  }
+}

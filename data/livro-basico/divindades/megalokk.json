@@ -1,0 +1,24 @@
+{
+  "id": "megalokk",
+  "tipo": "divindade",
+  "nome": "Megalokk",
+  "resumo": "Deus dos Monstros, da selvageria e do descontrole.",
+  "fonte": { "livro": "livro-basico", "pagina": 101 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O Deus dos Monstros é uma divindade de selvageria e descontrole — quando bárbaros entram em fúria, diz-se que estão apenas canalizando seu rancor primordial. Enquanto servos de Allihanna promovem harmonia entre a natureza e os povos civilizados, devotos de seu irmão sanguinário buscam apenas o extermínio de seus inimigos. E, para um servo do Deus dos Monstros, quase tudo que se move é um inimigo..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Praticar a violência, a soberania do mais forte. Jamais reprimir os próprios instintos e desejos. Jamais ser domado, desafiar qualquer forma de controle. Jamais oferecer perdão ou rendição. Eliminar os fracos. Destruir seus inimigos.",
+    "simboloSagrado": "A garra de um monstro.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Maça.",
+    "devotos": "Goblins, medusas, minotauros, sulfure, trogs, bárbaros, caçadores, druidas, lutadores.",
+    "poderesConcedidos": ["Olhar Amedrontador", "Presas Primordiais", "Urro Divino", "Voz dos Monstros"],
+    "obrigacoesRestricoes": "Devotos de Megalokk devem rejeitar os modos civilizados e se entregar à ferocidade, descontrole e impaciência. Você é proibido de usar perícias baseadas em Inteligência ou Carisma (exceto Adestramento e Intimidação) e não pode preparar uma ação, escolher 10 ou 20 em testes e lançar magias sustentadas (pois são ações que exigem foco e paciência)."
+  }
+}

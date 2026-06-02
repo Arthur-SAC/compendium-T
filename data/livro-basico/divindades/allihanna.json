@@ -1,0 +1,24 @@
+{
+  "id": "allihanna",
+  "tipo": "divindade",
+  "nome": "Allihanna",
+  "resumo": "Deusa da Natureza, protetora dos ermos selvagens e do equilíbrio natural.",
+  "fonte": { "livro": "livro-basico", "pagina": 97 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A Deusa da Natureza representa a bondade inerente ao mundo natural, a pureza das plantas e animais. Mesmo os animais predadores são apenas inocentes — pois matam apenas para sobreviver, ao contrário dos monstros e seres civilizados. A divindade dos druidas, Allihanna também é cultuada por povos bárbaros. Estes veneram faces variadas desta deusa, que pode se manifestar como um majestoso animal (diferente para cada culto) ou uma criatura quimérica de muitas cabeças."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural.",
+    "simboloSagrado": "Para bárbaros e outros adoradores de animais, o símbolo corresponde ao respectivo animal. Para outros, uma pequena árvore.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Bordão.",
+    "devotos": "Dahllan, elfos, silfides, bárbaros, caçadores, druidas.",
+    "poderesConcedidos": ["Compreender os Ermos", "Dedo Verde", "Descanso Natural", "Voz da Natureza"],
+    "obrigacoesRestricoes": "Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, de couro, gibão de peles e escudo leve, ou itens feitos de materiais especiais não metálicos.\n\nDevotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+  }
+}

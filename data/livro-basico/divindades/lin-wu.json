@@ -1,0 +1,24 @@
+{
+  "id": "lin-wu",
+  "tipo": "divindade",
+  "nome": "Lin-Wu",
+  "resumo": "O honrado Deus Samurai, patrono da honra, da coragem e do Império de Jade.",
+  "fonte": { "livro": "livro-basico", "pagina": 100 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mesmo com a quase extinção de seu povo pela Tormenta, o honrado Deus Samurai nunca fraquejou, nunca perdeu sua dignidade. Hoje, o Império de Jade está livre da tempestade, seus habitantes retornam para a grande reconstrução. Lin-Wu e seu povo sempre serão gratos aos campeões gaijin, por sua amizade e suporte durante os anos de pesadelo. Talvez por esse motivo, conforme especulam seus servos shugenja, devotos de Lin-Wu atuando longe de Tamu-ra recebem poderes diferentes, mais convenientes para suas missões."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Promover a honra acima de tudo. Proteger Tamu-ra e o Reinado de Arton. Praticar honestidade, coragem, cortesia e compaixão. Demonstrar integridade e dignidade. Ser leal a seus companheiros. Buscar redenção após cometer desonra.",
+    "simboloSagrado": "Placa de metal com a silhueta de um dragão-serpente celestial.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Katana.",
+    "devotos": "Anões, cavaleiros, guerreiros, nobres, paladinos.",
+    "poderesConcedidos": ["Coragem Total", "Kiai Divino", "Mente Vazia", "Tradição de Lin-Wu"],
+    "obrigacoesRestricoes": "Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem."
+  }
+}
