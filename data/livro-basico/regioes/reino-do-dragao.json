@@ -1,0 +1,20 @@
+{
+  "id": "reino-do-dragao",
+  "tipo": "regiao",
+  "nome": "Sckharshantallas",
+  "resumo": "O Reino do Dragão — domínio governado pelo Dragão-Rei Sckhar, o mais poderoso dragão vivo de Arton, adorado como divindade; sua capital é Ghallistryx e seu palácio guardaria o maior tesouro do mundo.",
+  "fonte": { "livro": "livro-basico", "pagina": 372 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Reino do Dragão",
+      "texto": "Alguns perigos são eternos, existem desde sempre e são aceitos como um fato da vida. É assim com o Dragão-Rei Sckhar, regente do reino de Sckharshantallas.\n\nO mais poderoso dragão vivo assumiu uma nação inteira como seu covil pessoal, onde é louvado como uma divindade. Sua prole é numerosa, com meios-dragões ocupando cargos de comando em suas cidades. E seu tesouro é incalculável, escondido em palácios e fortalezas por toda a extensão do reino. Alguns aventureiros são loucos o bastante para tentar invadir seus cofres secretos e roubar suas riquezas, mas ninguém é louco o bastante para enfrentá-lo frente a frente.\n\nSckhar é um tirano, mas considerado um bom governante por seu povo. Territorial e possessivo como todo dragão, vê Sckharshantallas — e tudo que está dentro do reino — como sua propriedade. Sua presença intimidadora reduz os ataques de monstros das vizinhas Sanguinárias, além de tornar o reino bastante quente. Os cidadãos pagam tributo com prata, ouro, joias e itens mágicos — aventureiros comentam que o palácio de Sckhar teria o maior tesouro de Arton. A cultura local é baseada na figura majestosa do dragão, que influencia arquitetura, arte e vestuário.\n\nEm Ghallistryx, a capital do reino, isso toma proporções ainda maiores. Uma das grandes metrópoles de Arton, a cidade possui prédios públicos enormes, vias grandes e largas e incontáveis estátuas. Em Ghallistryx também fica o palácio principal do Dragão-Rei, um lugar de luxo e hedonismo como poucos outros.\n\nA verdadeira forma de Sckhar é tão imensa e aterrorizante que pode matar de medo meros mortais. Assim, o dragão tem uma forma humanoide, que usa quando deseja ser visto em público: um elfo alto e esguio, trajado em mantos negros e vermelhos. Seu olho esquerdo é cego, trazendo três cicatrizes inclinadas que cruzam sua extensão.\n\nSckharshantallas já foi integrante do Reinado, mas isso era em grande parte uma diversão para o tirano. Quando a política dos mortais deixou de ser um brinquedo interessante, ele se desligou da coalizão. Contudo, alguns sussurram que um neto recém-nascido de Sckhar é o herdeiro por direito da coroa imperial. Sendo verdade, seria um motivo para o dragão expandir sua ambição para o Reinado e, talvez, tornar-se tirano de todo o continente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "O Reino do Dragão",
+    "capital": "Ghallistryx"
+  }
+}

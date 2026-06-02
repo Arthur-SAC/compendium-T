@@ -1,0 +1,18 @@
+{
+  "id": "imperio-de-jade",
+  "tipo": "regiao",
+  "nome": "Tamu-ra",
+  "resumo": "Ilha de uma civilização ancestral de samurais, monges e ninjas, primeiro alvo da Tormenta; após a Era Akumushi, hoje se reergue na luminosa Era Hikari, próspera ao lado do Reinado.",
+  "fonte": { "livro": "livro-basico", "pagina": 388 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Império de Jade",
+      "texto": "Ilha de Tamu-ra. Lar de uma civilização ancestral. Terra de samurais, monges e ninjas, de artes milenares e culto sagrado à honra. Seu povo, resiliente e determinado como nenhum outro, enfrentou o pior que Arton podia oferecer — de sangrentas guerras civis a terremotos, tufões e ataques de monstros gigantescos. Até a chegada de algo ainda mais terrível. O primeiro ataque da Tormenta.\n\nTamu-ra foi devorada, corrompida, tornada um pesadelo de si mesma. Por longos anos (período que ficou conhecido como a Era Akumushi) esteve ocupada pela tempestade aberrante, dominada pelo titânico deus-dragão-inseto Igasehra. Pouco antes da calamidade, em uma demonstração suprema de poder arcano que custou sua vida, o Imperador Tekametsu transportou parte de sua população e construções até a periferia de Valkaria, onde se formaria o bairro Nitamu-ra. Esses poucos sobreviventes foram tudo que restou da outrora grandiosa e orgulhosa cultura. Durante os sofridos anos seguintes, lutariam para preservar suas tradições, proteger sua identidade.\n\nO sofrimento perdurou até que o cavaleiro da Luz Orion Drake e seus companheiros se ergueram contra a Tormenta. Após uma campanha que se tornaria lendária, reuniram um exército de deuses e dragões para confrontar os invasores. Foi uma batalha sem igual em todos os planos, um embate épico no qual heróis e monstros tombaram... Mas Arton venceu. Pela primeira vez, uma área de Tormenta havia sido eliminada. A longa e tenebrosa tempestade enfim cessou. Terminava a sombria Era Akumushi, começava a luminosa Era Hikari.\n\nHoje, a grande e festiva reconstrução está em andamento. Os tamuranianos reerguem suas cidades, ansiosos para repovoar a terra amada — desta vez acompanhados por seus irmãos do continente. Na nova e cosmopolita capital Shinkyo, o Reinado e o Império de Jade prosperam juntos. Tamu-ra é governada por seu antigo Imperador, milagrosamente ressuscitado como criança. Mas ainda resta corrupção aberrante a expurgar, ainda restam monstros a serem exterminados. Para proteger este ainda frágil império, erguem-se as equipes sentai, grupos de aventureiros unidos pela honra.\n\nOs samurais, monges e ninjas enfim voltaram a sua terra. No entanto, jamais esqueceriam a dívida de honra com os povos do Reinado. Devotos de Lin-Wu, o Deus da Honra, ainda exploram masmorras e combatem o mal ao lado dos heróis locais. Sempre que Arton precisar, Tamu-ra estará pronta a erguer katana e jutsus em sua defesa."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "lin-wu", "alvoTipo": "divindade", "rotulo": "Lin-Wu" }
+  ],
+  "mecanica": { "secao": "Além do Reinado", "epiteto": "O Império de Jade", "capital": "Shinkyo" }
+}

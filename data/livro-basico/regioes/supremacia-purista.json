@@ -1,0 +1,25 @@
+{
+  "id": "supremacia-purista",
+  "tipo": "regiao",
+  "nome": "A Supremacia Purista",
+  "resumo": "País militarista governado por uma facção fanática humana que escraviza ou extermina outras raças; abriga o exército mais poderoso de Arton sob o comando de Hermann Von Krauser.",
+  "fonte": { "livro": "livro-basico", "pagina": 370 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "A Supremacia Purista",
+      "texto": "Em meio a tantos seres monstruosos que aterrorizam Arton, existe uma ameaça humana. Extremamente humana, no pior sentido.\n\nNascidos como uma facção fanática em um país militarizado, os puristas são movidos por profunda intolerância racial contra anões, elfos, qareen — enfim, todas as raças não humanas, caçando-as sem clemência. Em sua cruzada de ódio, tramaram um golpe político e tomaram o controle do país, tornando-se uma das maiores forças armadas no mundo. Por fim, avançaram sobre o próprio Reinado, travando uma guerra sangrenta que mudou a face de Arton.\n\nA nação renomeada Supremacia Purista constitui hoje o exército mais poderoso de Arton. Sob o comando infalível de Hermann Von Krauser, o general Supremo, os puristas seguem perseguindo seu objetivo cruel — a escravidão ou extermínio de todos os povos não humanos.\n\nA Supremacia Purista faz fronteira com Deheon, separada apenas pela Garganta do Troll — um abismo sem fundo e de proporções titânicas — sempre pronta para mais um conflito quando o momento for propício. Esta mancha de ódio no coração do continente também separa Bielefeld do resto do Reinado: territórios ao sul são disputados entre o Reino dos Cavaleiros e a Supremacia, criando uma zona tensa.\n\nÉ uma ironia amarga que, dentro do território da Supremacia Purista, exista a Caverna do Saber e do construto vivo chamado Helladarion, um enorme globo mágico senciente e o maior centro de conhecimento do mundo conhecido. O Helladarion é o sumo-sacerdote de Tanna-Toh, a Deusa do Conhecimento, e sua sabedoria obriga muitos aventureiros a desbravar a Supremacia em busca de respostas."
+    },
+    {
+      "titulo": "A Conflagração do Aço",
+      "texto": "A Guerra Artoniana pode ter acabado oficialmente, mas em alguns lugares ela continua. Talvez nunca acabe. A Conflagração do Aço é uma região disputada pela Supremacia Purista e por Bielefeld, uma fronteira sangrenta onde batalhas podem ocorrer a qualquer momento e onde a balança de poder muda a cada dia. Boa parte da Conflagração é um emaranhado de campos de batalha ativos e abandonados. Ao passar por uma estrada, um viajante pode se ver entre tropas inimigas que se estudam e travam escaramuças há meses. Quase toda esta região mostra sinais do conflito: árvores calcinadas, terra revirada, cadáveres, ruínas... É difícil saber o que é terreno perigoso e o que permanece seguro — e por quanto tempo. A grande quantidade de magia usada na guerra deixou resíduos. Certos trechos parecem ainda estar sob efeito de feitiços que deveriam ter acabado há meses ou anos. Diz-se que há soldados mortos-vivos se erguendo nos antigos campos de batalha e pelo menos um colosso supremo que se move sozinho... A violência física não é o único perigo. Como o domínio sobre cada trecho muda constantemente, a lei também pode mudar sem aviso.\n\nMesmo assim, há quem viva aqui. Algumas aldeias não conseguiram fugir a tempo e agora se veem ilhadas no meio do território disputado. Muitos cavaleiros e soldados patrulham fazem questão de servir aqui para provar seu valor. Ambos os lados constroem torres e fortalezas para tentar estabelecer seu domínio. Diplomatas ousados acham que podem fazer a paz entre os dois reinos. E, é claro, saqueadores de tumbas infestam a região, em busca de tesouros deixados aqui por heróis e vilões que tombaram na guerra."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "tanna-toh", "alvoTipo": "divindade", "rotulo": "Tanna-Toh, a Deusa do Conhecimento" }
+  ],
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "A ameaça humana"
+  }
+}

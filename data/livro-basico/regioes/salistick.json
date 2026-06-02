@@ -1,0 +1,16 @@
+{
+  "id": "salistick",
+  "tipo": "regiao",
+  "nome": "Salistick",
+  "resumo": "Reino de intelectuais independentes e iconoclastas que não acredita nos deuses, célebre por compensar a escassez de curas mágicas com uma medicina e uma tecnologia sem igual em Arton.",
+  "fonte": { "livro": "livro-basico", "pagina": 380 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Salistick",
+      "texto": "Este reino de intelectuais independentes e iconoclastas não acredita nos deuses. Os poucos salistienses que reconhecem a existência de entidades divinas simplesmente acham que são espíritos mágicos de grande poder. Os deuses também parecem não acreditar muito em Salistick. A magia divina não funciona direito aqui — às vezes o que deveria ser um milagre impressionante mais parece um truque de salão, outras vezes as preces de um devoto simplesmente não são atendidas.\n\nSem poder depender de curas mágicas, Salistick desenvolveu a medicina de forma surpreendente. Entre as inúmeras instituições que ensinam esta ciência, o Colégio Real de Médicos de Salistick é a mais prestigiada, atraindo alunos de todo o mundo para aprender técnicas que rivalizam com a própria magia. Só em Salistick se faz cirurgias reais, só em Salistick há remédios para quase todas as principais doenças. Só em Salistick se conhece de verdade o valor da limpeza.\n\nA medicina não avançou sozinha. Salistick desenvolveu várias outras áreas da ciência e da tecnologia para dar suporte aos médicos. Alquimia avançada, máquinas complexas, até mesmo vestuário mais sofisticado, destoando do resto do continente... Salistick guarda estes avanços com bastante cuidado, pois sabe que são sua moeda de troca com reinos mais poderosos e talvez sua garantia de sobrevivência. As leis do Reinado e demais nações não dizem muito para os salistienses: aqui a pólvora é usada livremente, todo tipo de substâncias é legalizado e artes proibidas são apenas \"desencorajadas\". Salistick foi talvez o primeiro reino a aceitar um cidadão osteon e suas leis foram alteradas para que \"estar vivo\" não seja pré-requisito para ter direitos. É um reino progressista e urbanizado, com boa parte da população trabalhando em ofícios especializados. Com tanto a pesquisar e tanto a aprender, quem tem tempo para dogmas antiquados e devoção fanática?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": { "secao": "Além do Reinado" }
+}

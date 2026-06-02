@@ -1,0 +1,19 @@
+{
+  "id": "feudos-de-trebuck",
+  "tipo": "regiao",
+  "nome": "Os Feudos de Trebuck",
+  "resumo": "Terra livre mas desunida ao norte do Reinado, uma miríade de baronatos, condados e ducados que se fragmentaram após a queda da Rainha-Imperatriz Shivara; região rica em oportunidades e perigos para aventureiros.",
+  "fonte": { "livro": "livro-basico", "pagina": 372 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Os Feudos de Trebuck",
+      "texto": "Ao norte do Reinado, após as Repúblicas Livres, encravada entre as Montanhas Sanguinárias, o reino do Dragão e a área de Tormenta de Lorde Gatzvalith, ficam os feudos de Trebuck. Uma miríade de baronatos, condados e ducados, cada um governado por um nobre diferente e nenhum tipo de autoridade maior, os feudos são uma terra livre, mas desunida.\n\nAlguns feudos mantêm relações cordiais. Festivais de colheita e torneios de justas eventualmente reúnem o povo e os nobres de várias terras. Mas, para cada barão justo e honrado, há um corrupto e ganancioso, disposto a saquear e pilhar seus vizinhos. Cavaleiros, mercenários e aventureiros estão sempre em alta demanda na região.\n\nNem sempre foi assim. Antigamente, os feudos eram uma nação aliada ao Reinado, mas a instabilidade causada pela Guerra Purista e pelo desaparecimento da Rainha-Imperatriz Shivara fez com que Trebuck se fragmentasse. Cada nobre se voltou às suas próprias terras e súditos, dando as costas aos seus irmãos — e dando fim ao país.\n\nHoje, alguns arengam sobre os tempos idos de paz e da família real, enquanto menestréis cantam sobre um herdeiro do trono perdido, prestes a retornar e unir a terra. Os nobres, porém, estão ocupados demais protegendo seus próprios domínios. Considerando as frequentes incursões de monstros das Sanguinárias e da área de Tormenta, isso não é pouca coisa.\n\nEventualmente, um lorde especialmente ambicioso surge e tenta expandir suas terras, seja por meio de guerras, seja de casamentos. Até o momento, nenhum desses barões se mostrou à altura da tarefa. Os poucos que conseguiram subjugar alguns vizinhos logo foram mortos por rivais, conselheiros traidores ou mesmo seus próprios herdeiros.\n\nPor todos esses fatores, a região é rica em oportunidades para os ousados. Muitos aventureiros experientes viajam para os feudos em busca de terras para proteger... Ou conquistar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "Terra livre, mas desunida"
+  }
+}

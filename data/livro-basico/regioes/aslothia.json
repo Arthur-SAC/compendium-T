@@ -1,0 +1,19 @@
+{
+  "id": "aslothia",
+  "tipo": "regiao",
+  "nome": "Aslothia",
+  "resumo": "O Reino dos Mortos — antigo reino que proibia a magia e hoje é uma nação necromântica governada pelo Conde Ferren Asloth, onde os mortos-vivos repetem em vida a máxima \"Toda a magia pertence à coroa\".",
+  "fonte": { "livro": "livro-basico", "pagina": 371 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Reino dos Mortos",
+      "texto": "No passado havia um reino conhecido por suas severas leis contra a prática de magia. Arcanistas eram caçados como os piores demônios, grimório e outros itens mágicos eram confiscados pela coroa, o próprio povo era ensinado a temer e odiar magos. Era o Reino da Magia Proibida. No fim, contudo, tudo se revelaria como um plano sinistro de seu regente, o Conde Ferren Asloth — ele próprio secretamente, um arcano muito poderoso. Ao longo de décadas, reunindo o poder e conhecimento de tantos arcanistas capturados, ele enfim completaria o ritual necessário para a transformação em lich — o mais poderoso dos mortos-vivos. E sua nação seria renomeada Aslothia, o Reino dos Mortos.\n\nAslothia é uma terra cinzenta e enevoada, o próprio sol oculto sob neblina eterna. Esta é uma nação necromântica, um país de culto à morte. Em suas cidades tristes a maioria dos vivos se recolhe em seus casebres miseráveis, formando as camadas mais baixas da sociedade, enquanto esqueletos patrulham as ruas — pois a eterna caçada aos magos jamais teve fim. Magia arcana é expressamente proibida, exceto para os seletos arcanistas a serviço do regente. Até os mortos repetem a lei máxima de Aslothia: \"Toda a magia pertence à coroa\".\n\nComo esperado, a alta sociedade aslothiana é formada por necromantes, múmias e barões vampiros, com poder de vida e morte sobre os plebeus. Ainda que a cruel verdade se mantenha oculta aos olhos do Reinado, cada povoado em Aslothia não passa de um rebanho humano, para a alimentação e entretenimento de seu senhor. O desespero da população é tão profundo que muitos sonham com um fim breve para esta existência de sofrimento e, quem sabe, conquistar uma situação melhor após a morte.\n\nAslothia também é o maior covil de mercenários do mundo — isto é, aqueles com estômago para negociar com seus contratadores. Incontáveis companhias mercenárias são sediadas aqui, verdadeiros exércitos sem lealdade ao povo ou a uma causa maior que o ouro. E quando mesmo os guerreiros caídos podem se erguer para lutar mais uma vez, apenas heróis podem intervir."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "O Reino dos Mortos"
+  }
+}

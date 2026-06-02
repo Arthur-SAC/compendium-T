@@ -1,0 +1,22 @@
+{
+  "id": "namalkah",
+  "tipo": "regiao",
+  "nome": "Namalkah",
+  "resumo": "Reino pastoril de extensas planícies onde homem e cavalo são como irmãos, lar dos cavalos mais rápidos e dos melhores ginetes de Arton.",
+  "fonte": { "livro": "livro-basico", "pagina": 363 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Namalkah, o Reino dos Cavalos",
+      "texto": "Neste reino pastoril de extensas planícies e distâncias imprecisas, homem e cavalo são como irmãos. Rústicos e honrados, os namalkahnianos descendem de colonos e bárbaros nativos, cujo contato inicial pacífico resultou na miscigenação destes povos. Aqui cavalos são considerados sagrados, cultuados como presentes dos deuses — ainda que cumprindo seu papel tradicional como companheiros dos seres humanos. Não existem em Arton cavalos mais rápidos ou inteligentes que os de Namalkah, nem ginetes mais hábeis. Cada criança, aos seis anos, é presenteada com um cavalo, tornando-se responsável por ele como pai e filho. Diz-se que um nativo deste reino consegue até falar a língua desses animais."
+    },
+    {
+      "titulo": "Hippiontar",
+      "texto": "Uma das cidades mais importantes de Namalkah começou como um mero rancho no meio do nada, até que recebeu a visita de Hippion, o Deus Menor dos Cavalos, que escolheu o estábulo para passar a noite. Assombrada, a família Verimm, que morava aqui, trouxe tudo que tinha de riquezas em oferenda à divindade. Quando Hippion partiu pela manhã, os rancheiros começaram a experimentar uma época de boa fortuna que não acabou até hoje, séculos depois. A fama do lugar se espalhou e o pequeno rancho se transformou na cidade de Hippiontar, também chamada de \"Baia de Hippion\".\n\nHippiontar mal parece uma cidade — não passa de uma vastidão de estalagens, canchas de corrida, pequenas fazendas e oficinas espalhadas numa planície ao redor do rancho. Contudo, os tropeiros de Namalkah consideram que em cada viagem devem parar pelo menos uma noite em Hippiontar, assim como Hippion fez tanto tempo atrás. A \"cidade\" está sempre recebendo visitantes que trazem oferendas, gastam dinheiro nas tavernas, hospedam-se nas estalagens e, é claro, visitam a lendária baia onde Hippion dormiu. É comum que toda a tropa ou caravana se encontre em Hippiontar, resultando em superlotação, algumas brigas e muita bagunça. Mesmo assim, é raro que exista violência real ou mesmo grandes problemas. Todos que visitam a baia onde o Deus Menor dos Cavalos esteve relatam boa sorte — bebedeiras épicas resultam em nenhuma consequência ruim, rivalidades são resolvidas amigavelmente, acordos comerciais dão certo... Isso faz com que Hippiontar também seja um ponto muito procurado por comerciantes, nobres e diplomatas. Desde que se preste homenagem aos deuses, tudo que tem início aqui costuma dar bons frutos. Hippiontar permaneceu intocada durante a Guerra Purista. Mesmo os habitantes que cavalgam para a batalha voltaram vivos.\n\nAlguns estudiosos já apontaram algo sinistro. Não faz sentido que fatores aleatórios sejam tão distorcidos aqui. Hippion não tem nada a ver com sorte e azar. Existem lugares em Namalkah tocados por Nimb, o Deus do Caos. E se Hippiontar for mais um deles? E se um dia houver um preço a pagar por séculos de sorte? E se o cavalo que visitou o rancho não tiver sido Hippion?"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "nimb", "alvoTipo": "divindade", "rotulo": "Nimb" }
+  ],
+  "mecanica": { "secao": "O Reinado", "epiteto": "O Reino dos Cavalos" }
+}

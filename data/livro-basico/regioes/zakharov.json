@@ -1,0 +1,22 @@
+{
+  "id": "zakharov",
+  "tipo": "regiao",
+  "nome": "Zakharov",
+  "resumo": "Nação devotada às armas e armaduras, nascida da influência anã, que forja e exporta peças cobiçadas por cada guerreiro de Arton.",
+  "fonte": { "livro": "livro-basico", "pagina": 365 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Zakharov, o Reino das Armas",
+      "texto": "Longos anos atrás, após um encontro fortuito entre colonos humanos e um clã de anões, estes ofereceram aos recém-chegados um presente de boas-vindas — o lendário machado de Zakharov. Sob essa poderosa influência da cultura anã, surgiu uma nação devotada às armas e armaduras, que passaria a forjar e exportar peças cobiçadas por cada guerreiro de Arton. Os anões eventualmente partiram, convocados pelo Chamado às Armas; os humanos seguiriam honrando sua arte e tradições, pelo menos por algum tempo. Após a brutalidade da Guerra Artoniana, este povo vem abandonando a antiga visão artística, romântica, e adotando tradições mais militares. Hoje tratam as armas como aquilo que realmente são: instrumentos de guerra e morte."
+    },
+    {
+      "titulo": "Rhond",
+      "texto": "A cidade de Rhond é um ponto importante de peregrinação religiosa em Zakharov. Batizada em homenagem a Rhond, o Deus Menor das Armas, ela não só abriga o principal templo a esta divindade menor. O próprio Rhond vive aqui! Ele teria sido um ancestral clérigo de Keenn, o antigo Deus da Guerra. Após uma vida de aventuras, combates e descobertas, transformou seu corpo magicamente em uma forma monstruosa e metálica com seis braços. Acumulou tanto poder que acreditou ser capaz de vencer sua própria divindade no torneio divino. Foi vencido, mas Keenn não o puniu. Orgulhoso de sua coragem, recompensou-o com a imortalidade, o poder mágico de forjar as mais poderosas e magníficas ferramentas de morte e o título de Deus das Armas.\n\nA cidade de Rhond cresceu a partir de peregrinos que chegavam de todas as partes. O deus trabalha sem cessar numa espécie de caverna dentro de uma colina pedregosa. A caverna é o centro da cidade, mas dezenas de clérigos de Rhond não deixam ninguém se aproximar sem ordens do próprio deus. Os poucos que já tiveram a permissão de visitar sua oficina relatam que a forja é um pequeno vulcão e que as mais magníficas armas estão dispostas nas paredes. O templo de Rhond é uma espécie de fortificação ao redor da colina, com muralhas grossas, dentro das quais vivem os clérigos. Cada um deles tem uma arma única, presenteada por seu patrono.\n\nQualquer um que chegue à cidade de Rhond logo se surpreende com o calor e o barulho. A forja divina torna a cidade inteira escaldante. A luminosidade que vaza de dentro da caverna por cima das muralhas é suficiente para iluminar a noite quase como se fosse dia. As batidas do martelo de Rhond ressoam como trovões e fazem o chão tremer. A cidade é próspera; sempre conta com aventureiros de passagem, suplicando por algo para ajudá-los em alguma empreitada. Rhond não é conhecido por sua paciência, mas às vezes contribui com suas magníficas criações quando acredita que o objetivo é importante o bastante. Também há muitos trambiqueiros e aproveitadores disfarçados de clérigos, tentando convencer visitantes a comprar \"esta legítima arma forjada por Rhond\".\n\nCuriosamente, Rhond tem se mostrado mais disposto a receber aventureiros, sejam heróis ou vilões, que se coloquem contra o novo Deus da Guerra. Algumas de suas armas mais extraordinárias acabam nas mãos daqueles que enfrentam os devotos de Arsenal. Há alguma rivalidade entre os dois clérigos que enfrentaram Keenn? Será que o Deus das Armas está planejando mais uma vez ascender ao posto de deus maior?"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "arsenal", "alvoTipo": "divindade", "rotulo": "Arsenal" }
+  ],
+  "mecanica": { "secao": "O Reinado", "epiteto": "O Reino das Armas" }
+}

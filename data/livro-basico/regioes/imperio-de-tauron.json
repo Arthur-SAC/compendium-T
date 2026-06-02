@@ -1,0 +1,22 @@
+{
+  "id": "imperio-de-tauron",
+  "tipo": "regiao",
+  "nome": "Tauron",
+  "resumo": "Maior nação dos minotauros, no oeste de Arton, baseada nos dogmas de Tauron, o Deus da Força: uma sociedade próspera, mas autoritária, desigual e escravocrata, abalada pela morte de seu deus.",
+  "fonte": { "livro": "livro-basico", "pagina": 376 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Império de Tauron",
+      "texto": "No oeste de Arton, os minotauros ergueram a maior nação do mundo conhecido. Com uma cultura baseada nos dogmas de Tauron, o Deus da Força — o forte deve proteger o fraco, o fraco deve obedecer ao forte — o estado táurico conquistou territórios, abriu estradas, ergueu cidades. Estabeleceu uma sociedade segura, mas autoritária. Próspera, mas desigual. Poderosa, mas escravocrata.\n\nTal poder, entretanto, não foi suficiente para deter a tempestade rubra. Anos atrás, Tiberus, a capital imperial, foi palco de eventos cataclísmicos que resultaram na morte de Tauron e no surgimento de uma área da Tormenta na própria cidade. Engolfada num conflito sem fim entre legionários e demônios, a capital não conseguiu manter sua autoridade sobre as províncias. Por todo o Império, governadores e generais se autoproclamaram reis, transformando suas cidades e acampamentos em estados independentes.\n\nHoje o Império perdura, mas a instabilidade reina. Viaje pelas estradas do outrora glorioso estado e você encontrará governadores corruptos e legionários desertores, escravos rebeldes e caçadores de escravos, monstros selvagens e cultistas da Tormenta. As únicas coisas que você não encontrará são aquelas pelas quais o Império se tornou conhecido: ordem e segurança.\n\nFrente a tamanha adversidade, muitos minotauros resguardam seus modos. A escravidão não é mais aceita, os haréns foram abolidos. Os mais pérfidos entre eles, porém, não renunciaram às tradições. Seja em vilas afastadas, seja em mansões luxuosas, pessoas ainda têm sua liberdade tomada sob o pretexto de proteção."
+    },
+    {
+      "titulo": "Tiberus",
+      "texto": "Tiberus, capital do Império e uma das maiores metrópoles do mundo, ainda resiste — mesmo sob a Tormenta. Bairros da enorme e labiríntica cidade mantêm sua rotina. Há comércio, indústria e até mesmo lutas de gladiadores — o febo pugilista Maquius, um dos mais poderosos lutadores de Arton, ainda se apresenta para trazer alento ao povo. Mas, a qualquer momento, legionários correm pelas ruas e becos para deter demônios que cruzaram o bastião da defesa: o cadáver do Deus da Força, cuja essência divina impede que a tempestade consuma a cidade. O último ato de proteção de Tauron.\n\nNo palácio, o Triunvirato comanda o que sobrou da autoridade imperial. Formado por Kelskan, antigo sumo-sacerdote de Tauron; Pérola, sereia ex-escrava, e Glabo Varaxus, minotauro senador, os três debatem como reerguer o Império. Kelskan e Pérola acreditam que a sociedade táurica não possui mais espaço para a escravidão — é hora de todos lutarem juntos, eles dizem. Mas Varaxus sustenta que voltar aos costumes antigos é o caminho para retomar a glória. A voz do senador é minoria, mas sua posição no Triunvirato está a apenas um \"acidente\" de se tornar dominante."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "tauron", "alvoTipo": "divindade", "rotulo": "Tauron" }
+  ],
+  "mecanica": { "secao": "Além do Reinado", "epiteto": "O Império de Tauron", "capital": "Tiberus" }
+}

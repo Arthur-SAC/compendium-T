@@ -1,0 +1,22 @@
+{
+  "id": "bielefeld",
+  "tipo": "regiao",
+  "nome": "Bielefeld",
+  "resumo": "Reino devotado à luta contra o mal, lar da Ordem da Luz e berço dos mais prestigiados cavaleiros e paladinos de Arton.",
+  "fonte": { "livro": "livro-basico", "pagina": 360 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Bielefeld, o Reino dos Cavaleiros",
+      "texto": "Embora Deheon seja o primeiro e último bastião da humanidade, não há nação mais devotada à luta contra o mal que Bielefeld. Lar da Ordem da Luz, há séculos o país vem treinando e ordenando os mais prestigiados cavaleiros e paladinos de Arton, verdadeiros campeões do Reinado. Foi Bielefeld quem primeiro ergueu seu aço contra as forças de Von Krauser, travando contra seus exércitos as mais violentas batalhas na Guerra Artoniana. Mesmo nos dias de hoje, enquanto tenta restaurar suas fileiras, os cavaleiros ainda combatem os puristas na turbulenta Conflagração do Aço, a zona em conflito que existe nas fronteiras entre Bielefeld, Wynlla e as terras da Supremacia."
+    },
+    {
+      "titulo": "Norm",
+      "texto": "A cidade mais populosa de Bielefeld é conhecida como um lar de heróis. Em Norm fica o Castelo da Luz, sede da famosa e honrada Ordem da Luz. Erguido por anões, é a construção mais impressionante do reino. Suas torres de prata e marfim imitam a espada de Khalmyr, enquanto o escudo do Deus da Justiça aparece em todas as portas e paredes. No pátio central, subindo acima das muralhas, o próprio deus Khalmyr aparece reproduzido numa estátua de sessenta metros de altura. Sua mão direita erguida simboliza a justiça divina que recai sobre todos. Além disso, uma técnica secreta empregada pelos anões faz com que o castelo brilhe à noite, oferecendo uma visão magnífica — e um significado literal ao nome \"Castelo da Luz\".\n\nO Castelo é poderoso. Armadilhas, passagens secretas, muralhas e rampas móveis podem repelir tropas invasoras. Suas catapultas e balestras podem deter mesmo monstros poderosos, enquanto centenas de seteiras estão prontas para acomodar os melhores besteiros do reino. A cidade cresce a partir das muralhas do Castelo, com uma profusão de estalagens, tavernas e estabelecimentos comerciais — que logo cedem lugar a residências, pastos e campos de cultivo. Boa parte dos recursos locais é empregada para manter a fortificação, abastecendo suas tropas com armas, armaduras, boa comida e serviços.\n\nMuitos dos maiores heróis da atualidade vivem em Norm ou passaram por aqui — Alenn Torenn, Greenfeld, Orion Drake e Vanessa Drake são apenas alguns deles. Apenas as cidades de Valkaria e Nova Malpetrim podem competir com Norm como berço de campeões. Contudo, tamanha notoriedade tem seu preço. A história de Norm é trágica e marcada por máculas. Arthur Donovan III, neto do fundador da Ordem, vivia aqui quando enlouqueceu e se tornou um vilão autoritário e sanguinário. O jovem cavaleiro Vincent Gherald organizou aqui uma revolta que corrompeu boa parte da juventude da Ordem com poderes da Tormenta, resultando num incêndio que devastou Norm. Durante a Guerra Purista, o inimigo chegou às portas do Castelo da Luz — congelados por uma maldição, os cavaleiros foram salvos apenas pela intervenção de um grupo de heróis. Quase todos os habitantes da cidade conhecem alguém que morreu ou perdeu tudo durante algum desses desastres. Mas o povo continua firme em sua devoção a Khalmyr e seu apoio aos cavaleiros. Norm se orgulha de aguentar golpes que fariam outros lugares desabar. A cidade-sede da Ordem da Luz se vê como o bastião que protege todo o reino de Bielefeld — e todo o Reinado."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": { "secao": "O Reinado", "epiteto": "O Reino dos Cavaleiros", "capital": "Norm" }
+}

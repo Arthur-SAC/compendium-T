@@ -1,0 +1,19 @@
+{
+  "id": "moregnia",
+  "tipo": "regiao",
+  "nome": "Moreania",
+  "resumo": "A Ilha Nobre, terra natal dos moreau — descendentes de doze animais que pediram aos deuses para se tornar humanos — onde os animais imperam e a civilização floresce em contrastes.",
+  "fonte": { "livro": "livro-basico", "pagina": 389 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Moreania",
+      "texto": "Houve época em que não havia humanos na Ilha Nobre, não havia sequer seres inteligentes para lhe dar esse nome. Seus únicos habitantes eram os animais, selvagens e puros, vivendo conforme as leis de Allihanna — aqui reverenciada como a Dama Altiva. Seria assim até a chegada dos darash, povo humano de ciência profana e cobiça sem limites. Multiplicaram-se como pragas, alastrando suas cidades de metal, seu horrendo Reino das Torres. Devoraram a mata, envenenaram rios, escureceram o próprio céu.\n\nOs animais, aterrorizados, pressentiam a extinção. Sofrendo por eles, a Dama tentou manter a serenidade — mas falhou. Seu irmão ouviu. Megalokk, o Indomável, o Deus dos Monstros. Deus da carnificina, da ferocidade absoluta, da ira infinita. Ele ouviu Allihanna chorar. E ficou furioso.\n\nNa forma de Morte Branca, o dragão de marfim, Megalokk despejou cólera divina sobre os invasores. Os darash revidaram com suas máquinas de guerra, com suas armas de veneno e doença, mas estavam enfrentando um deus. Tudo que conseguiram foi tornar suas terras inabitáveis para eles próprios. Em seis dias, não havia um único darash vivo. Apenas os mais deturpados restariam, não mais humanos, agora rondando como monstros meios-máquinas, mortos-vivos e aberrações. O Reino das Torres permaneceria como a mais vasta e tóxica das ruínas.\n\nCom o fim do povo nefasto, a Dama tentou apaziguar suas crias, mas não teve êxito. Os animais estavam perturbados, haviam sido roubados de sua pureza, expostos aos horrores da civilização. Então, para que pudessem se proteger, doze animais pediram aos deuses para ser humanos. Gato, búfalo, coelho, urso, raposa, coruja. Leão, morcego, crocodilo, serpente, hiena, lobo. Todos queriam a mão que fabrica e empunha, a mente que inventa e nomeia, a magia que cura e transforma. A Dama e o Indomável, mesmo contrariados, atenderam a sua súplica. Concederam mão, mente e magia. Assim, descendendo daqueles Doze Animais míticos, nascia a raça moreau.\n\nAvançando da barbárie e guerras tribais ao governo sábio dos druidas, os moreau ergueram uma civilização cheia de contrastes. Um povo de tradição e respeito pelos animais de quem vieram, mas também buscando o avanço, até flertando com a ciência proibida darash. De suas diferenças nasceram três grandes nações: a antiga e religiosa Luncaster, de templos imensos, onde o Conselho Druida governa com reverência aos deuses; a orgulhosa Brando, com seus castelos majestosos, suas tradições de cavalaria, espada e magia, e a atrevida Laughton, cidade costeira erguida sobre antigas e misteriosas plataformas mágicas. Daqui, justamente, zarparam as audazes caravelas moreau através do Grande Oceano, em expedições de exploração e descoberta. E assim encontraram Arton."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Allihanna" },
+    { "tipo": "citada", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Megalokk" }
+  ],
+  "mecanica": { "secao": "Além do Reinado", "epiteto": "A Ilha Nobre" }
+}

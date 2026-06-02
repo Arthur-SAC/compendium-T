@@ -1,0 +1,22 @@
+{
+  "id": "mundo-perdido",
+  "tipo": "regiao",
+  "nome": "Galrasia",
+  "resumo": "Vasta ilha tropical de selva quente e úmida que emana vida copiosa e ardente, povoada por feras imensas e primitivas e por ruínas de um antigo povo arcano; atrai todo tipo de aventureiros.",
+  "fonte": { "livro": "livro-basico", "pagina": 385 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Mundo Perdido",
+      "texto": "Além da costa continental sudoeste, além do perigoso Mar Negro, existe Galrasia. Vasta ilha tropical, de selva quente e úmida, que dizem ter sido arrancada do próprio mundo de Lena — onde toda a vida jorra farta, infindável, incontrolável. As árvores crescem em troncos grossos como estradas, alcançam e escondem os céus, contorcem-se em paisagens sinuosas, labirínticas. As águas galopam em rios ferozes, de corredeiras e cascatas estrondosas. Os pântanos borbulham densos, pegajosos, mais ruidosos e inquietos que qualquer pântano tem o direito de ser. As matas mergulham até as profundezas da terra, onde nenhum sol alcança, ainda assim exibindo folhagem exuberante, vigorosa, cálida. Um inferno verde.\n\nComo isso é possível? Galrasia emana vida, copiosa e ardente. A mesma luz curativa, a mesma energia positiva que fortifica a magia dos clérigos — tão presente e poderosa que se pode sentir seu calor. Todo ser vivo na ilha sofre seus efeitos, recebe seus benefícios. Doenças saram, feridas fecham, músculos crescem. Tudo é maior. Tudo é faminto.\n\nPorque a fauna galrasiana está entre as mais fantásticas de Arton. Uma população de feras imensas, primitivas, de selvageria extrema. Versões maiores e mais agressivas de animais comuns, lagartos-terror de eras esquecidas, serpentes capazes de engolir búfalos, insetos maiores que carruagens, criaturas-planta ágeis como panteras. Mesmo os herbívoros são bravios, territoriais, atacam tudo que se move — e o que dizer então dos carnívoros? Quando o ferimento mais severo é cicatrizado em minutos, a morte só chega de formas muito violentas e brutais, nas mandíbulas de algum predador terrível, nas lanças sangrentas das tribos-trovão; o inferno verde tem seus próprios demônios.\n\nMas a selva esconde segredos ainda mais profundos. Ruínas antigas, impressionantes, erguidas por um antigo povo de grande poder arcano. Os chamados eiradaan, um estranho e maligno povo élfico estrangeiro, dizem. Qual o segredo de sua chegada a Arton? Que tesouros mágicos, que artefatos poderosos teriam deixado? Ainda, teriam realmente partido?\n\nDesnecessário dizer, o Mundo Perdido atrai todo tipo de aventureiros — caçadores de monstros rastreando troféus, cavaleiros em busca de montarias exóticas, inventores famintos por materiais raros, arcanistas ansiosos por segredos místicos, bucaneiros e ladinos de olho em quaisquer tesouros. Com o aumento de expedições ao longo dos anos, veio a necessidade e a oportunidade; um posto avançado, uma base de operações, um porto seguro. O impensável aconteceu. Na ilha selvagem, indomável, incivilizável, eis que surge a primeira cidade."
+    },
+    {
+      "titulo": "Lysianassa",
+      "texto": "Lysianassa não foi construída, mas cultivada — composta por grandes estruturas vegetais em formato de torres, muralhas, passarelas e escadarias. Suas construtoras (ou \"jardineiras\") são conhecidas como Oqamm, uma pequena ordem de druidas dahllan. Ninguém pode dizer quem são, quantas são, ou mesmo como distingui-las; todas usam as mesmas máscaras estranhas de madeira. Sabe-se bem pouco sobre elas ou seus motivos, mas é quase certo que são também responsáveis por manter afastadas (quase todas) as feras, tornando o lugar habitável por humanos. Com o crescente número de meias-dríades se aventurando no Reinado, talvez as Oqamm tenham erguido Lysianassa com a intenção de promover amizade entre os povos. Talvez.\n\nHoje Lysianassa é uma fervilhante cidade portuária, estabelecendo rotas marítimas regulares para Nova Malpetrim e outros pontos da costa artoniana. Um valioso entreposto comercial para negociar caça e tesouros, ponto de partida ideal para expedições rumo à selva."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "lena", "alvoTipo": "divindade", "rotulo": "Lena" }
+  ],
+  "mecanica": { "secao": "Além do Reinado", "epiteto": "O Mundo Perdido" }
+}

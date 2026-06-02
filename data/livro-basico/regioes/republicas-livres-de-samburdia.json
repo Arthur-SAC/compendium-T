@@ -1,0 +1,19 @@
+{
+  "id": "republicas-livres-de-samburdia",
+  "tipo": "regiao",
+  "nome": "Repúblicas Livres de Sambúrdia",
+  "resumo": "Conhecida como \"o Celeiro de Arton\", uma terra mercantil de terras férteis e fazendas governada pelo ouro, que se desligou do Reinado e engloba nações vizinhas; pátria dos hynne.",
+  "fonte": { "livro": "livro-basico", "pagina": 371 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Repúblicas Livres de Sambúrdia",
+      "texto": "Nem todas as nações de Arton são exatamente reinos. Sambúrdia, conhecida como \"o Celeiro de Arton\", sempre foi um dos países mais ricos do mundo, graças a suas terras férteis e às fazendas que abastecem boa parte do continente. Contudo, durante a guerra contra os puristas, Sambúrdia se desligou do Reinado. Englobou nações vizinhas e se tornou um conglomerado de repúblicas mercantis.\n\nEm Sambúrdia o ouro decide tudo. Mercadores fazem expedições a terras distantes em busca de produtos exóticos e empreendem viagens por terra ou mar para revender essas mercadorias. Os hynne, pequeninos e pacatos habitantes das colinas, abraçaram a vida mercantil, tornando-se alguns dos maiores comerciantes do mundo. Por sua vez, Sambúrdia os acolheu. Nas Repúblicas Livres, nada é determinado por seu nascimento, apenas por sua riqueza e vontade de trabalhar. Nada é proibido para os ricos e tudo está à venda.\n\nContudo, a imensa extensão florestal também significa muitos perigos ocultos em Sambúrdia. Bandoleiros, monstros, fadas e até dragões se escondem entre as árvores. Muitos grupos de aventureiros vão para Sambúrdia em busca da riqueza dos príncipes mercadores."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "O Celeiro de Arton"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ahlen",
+  "tipo": "regiao",
+  "nome": "Ahlen",
+  "resumo": "Reino fundado por três famílias nobres e rivais, onde se aprende desde o berço que o mundo pertence aos astutos e a honra não passa de disfarce.",
+  "fonte": { "livro": "livro-basico", "pagina": 364 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Ahlen, o Reino da Intriga",
+      "texto": "Esta nação foi fundada por três grandes famílias nobres, ambiciosas e sobretudo rivais — Rigaud, Schwolld e Vorlat. Batalhas sangrentas foram travadas entre seus soldados, até que um acordo de paz foi assinado pelos patriarcas, formando uma coalizão. As hostilidades seriam mesmo encerradas, mas não exatamente como se esperava; durante o baile de máscaras que celebraria a tríplice coroação, dois regentes foram traiçoeiramente assassinados pelo terceiro, que então tomou o poder total. Assim nascia Ahlen, onde se aprende desde o berço que este mundo pertence aos astutos. Onde honra e honestidade não passam de disfarces, onde as leis valem apenas para os tolos que se deixam apanhar por elas."
+    },
+    {
+      "titulo": "Thartann",
+      "texto": "A capital de Ahlen foi construída muito tempo depois do início da colonização do reino, em um raro esforço conjunto das famílias dominantes. Mais tarde, tudo se mostrou um artifício de um nobre da família Rigaud para tomar o poder no reino, assassinando os outros dois regentes com quem dividia o governo. Thartann se divide entre uma plebe que vive em condições precárias e uma nobreza com opulência ostensiva e opressora. Cada lugar há um lembrete do poderio dos nobres. As mansões das principais famílias são enormes e suntuosas. Carruagens decoradas com o brasão do reino passeiam pelas ruas de pedra. Aristocratas desfilam em liteiras carregadas por servos.\n\nO maior símbolo do poder dos nobres em Ahlen é o Palácio Rishantor, um dos mais suntuosos do mundo todo. No palácio moram o regente e sua família, os membros do Conselho e famílias aliadas que compõem a corte. A Guilda de Artesãos de Rishantor existe apenas para trabalhar no palácio — participar deste grupo é uma grande honra e nunca falta serviço. Famílias inteiras de servos nascem e morrem dentro de Rishantor, muitas vezes sem nunca pisar fora do palácio. É um pequeno mundo por si só. Exceto pelos artesãos, guardas e servos, apenas nobres podem entrar no Palácio Rishantor. Esta regra só é quebrada durante a Noite das Máscaras. A construção é muitíssimo bem guardada, com soldados patrulhando cada área (principalmente as mais próximas aos aposentos reais, proibidas mesmo durante a Noite das Máscaras). Além disso, arcanistas e clérigos trabalham para o regente, atacando quaisquer intrusos que se provem fortes demais. Armaduras animadas completam a segurança, com outras criaturas guardadas para emergências.\n\nThartann tem um clima lúgubre em meio à ostentação. Por ficar numa região úmida e alagada, parece estar sempre no meio de uma neblina molhada. Mofo e limo crescem em cada parede, misturando-se com as estátuas e decorações intrincadas, emprestando a este lugar um ar de decadência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": { "secao": "O Reinado", "epiteto": "O Reino da Intriga", "capital": "Thartann" }
+}

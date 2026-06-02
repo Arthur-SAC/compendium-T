@@ -1,0 +1,16 @@
+{
+  "id": "khubar",
+  "tipo": "regiao",
+  "nome": "Khubar",
+  "resumo": "Arquipélago de cultura exótica, povo de pele morena-acinzentada que tatua o corpo, protegido pelo dragão marinho Benthos; território neutro que recebe todo tipo de viajantes marítimos.",
+  "fonte": { "livro": "livro-basico", "pagina": 384 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Khubar",
+      "texto": "Khubar tem uma cultura exótica, que seguiu um caminho diverso dos povos do continente. As casas são rústicas, simples cabanas de palha, bambu, folhas e troncos de palmeira. O clima é quente, com chuvas fortes. A montaria mais comum é o tumarkhân, um enorme e dócil lagarto herbívoro. O povo, de pele morena-acinzentada, tem o costume de tatuar metade do corpo com padrões fluidos e variados. Dizem que esses desenhos servem para representar a dualidade do ser humano, que nasce com potencial para o bem e para o mal. É costume em Khubar usar pouca roupa, para exibir as tatuagens. Mas os khubarianos estão longe do barbarismo. Seus guerreiros são bem treinados e organizados, seus sábios são grandes filósofos, magos e monges, preocupados com o equilíbrio entre a mente e o corpo. A economia é baseada na pesca, coleta de frutas e caça de pequenos répteis. O reino é protegido por Benthos, o Dragão-Rei do Mar, uma das criaturas mais poderosas de Arton, que é convocado pelos anciões e clérigos do reino com orações e meditação. Esta proteção impediu que Khubar fosse muito afetado pelos maremotos decorrentes da queda da Flecha de Fogo.\n\nSem afiliação às leis do Reinado, Khubar recebe todo tipo de viajantes marítimos — entre eles, piratas. A cultura tradicional não tolera roubo e violência, mas aqui esses fora da lei não são perseguidos. A recente abertura do Mar do Dragão-Rei transformou Khubar subitamente num ponto de parada natural para navios de todas as procedências, além de um ponto de recrutamento para tripulações heroicas e vilanescas. Daqui partem expedições a Lamnor, ataques à costa de Bielefeld e de Wynlla, viagens mercantis às Repúblicas Livres de Sambúrdia e até longas jornadas para Tamu-ra. Os khubarianos muitas vezes embarcam nessas naus, tomados pelo desejo de ver o mundo.\n\nSendo território neutro, Khubar também se tornou ponto de encontro para oficiais, diplomatas e aventureiros de reinos inimigos. Sob o sol escaldante e nas noites agitadas da ilha, centuriões minotauros negociam com cavaleiros da Luz, puristas arrependidos pedem asilo a agentes do Reinado, aristocratas de Ahlen compram mortos-vivos de necromantes de Aslothia... Muito ouro circula em Khubar — além de mercadorias valiosas como pólvora, itens mágicos e matéria vermelha. Novas construções no estilo do continente começam a surgir, enquanto estrangeiros exilados, com segredos a esconder ou apenas procurando uma nova vida, se assentam na ilha. Para atender a toda esta nova população, inúmeras tavernas pipocam por toda parte, sendo palco de negócios escusos, duelos, juras de lealdade e inícios de grandes buscas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": { "secao": "Além do Reinado" }
+}
