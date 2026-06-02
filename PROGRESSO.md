@@ -11,11 +11,16 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAP. 5 JOGANDO ✅ COMPLETO** (4 regras: `testes-e-dificuldades`, `habilidades-e-efeitos`, `combate`, `acoes-em-combate`).
-Plano `docs/superpowers/plans/2026-06-02-jogando-combate-plano.md`. **PRÓXIMA FATIA:** escolher entre **Mundo de Arton** (lore/geografia
-— catálogo de regiões), **Mestrar (Cap. 6 — O Mestre)** (regras pro mestre, NPCs, recompensas, parceiros) ou **Recompensas (Cap. 8 —
-tesouro/itens mágicos)**. Decisão do usuário pendente. **Polimento pendente:** índice `/regras` reunindo as ~14 regras de jogo
-(testes, combate, magia, devoção, perícias, equipamento, atributos, evolução…) — atualmente acessíveis por auto-link e pela landing /personagem.
+➡️ **MUNDO DE ARTON (Cap. 9) — PLANEJADO, iniciar Onda A.** Usuário escolheu esta fatia. Plano `docs/superpowers/plans/2026-06-02-mundo-de-arton-plano.md`;
+texto em `extracao/cache/arton.txt`. **Cap. 9 = impressas 350–391** (PDF 356–397): seções Mundo de Arton (cosmologia/cronologia, 350),
+O Reinado (regiões civilizadas, 358), Além do Reinado (terras selvagens, 370). Regiões = entidades **`regiao`** de PROSA (reusam `Ficha`
+genérico; sem schema novo). **PRÓXIMO (Onda A):** mapear região→página (`mundo-paginas.md`, por imagem — cabeçalhos não são all-caps),
+índice `/mundo`, spike Deheon. Regiões conhecidas: Deheon, Supremacia Purista, Aslothia, Repúblicas Livres de Sambúrdia, Svalas,
+Salistick, Trebuck, Sckharshantallas, Tauron, Khubar; Ermos Púrpuras, Sanguinárias, Galrasia, Grande Savana, Deserto da Perdição.
+
+**Cap. 5 Jogando ✅ COMPLETO** (4 regras: `testes-e-dificuldades`, `habilidades-e-efeitos`, `combate`, `acoes-em-combate`).
+Plano `2026-06-02-jogando-combate-plano.md`. **Polimento pendente:** índice `/regras` reunindo as ~16 regras de jogo
+(testes, combate, magia, devoção, perícias, equipamento, atributos, evolução…) — hoje acessíveis por auto-link e pela landing /personagem.
 
 ➡️ **CONSTRUÇÃO DE PERSONAGEM ✅** (Cap. 1, regras de criação). Plano `docs/superpowers/plans/2026-06-02-construcao-personagem-plano.md`.
 4 regras (`regra-de-criacao`, verificadas em 300 DPI): **`atributos`** (6 atributos + pontos/rolagem 4d6/mínimos + Tabela 1-1),
