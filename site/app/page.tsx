@@ -38,6 +38,9 @@ export default function Home() {
         <Link href="/deuses" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver os deuses do Panteão →
         </Link>
+        <Link href="/personagem" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Como criar um personagem (9 passos) →
+        </Link>
       </div>
     </main>
   );

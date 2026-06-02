@@ -1,0 +1,24 @@
+{
+  "id": "construcao-de-personagem",
+  "tipo": "regra-de-criacao",
+  "nome": "Construção de Personagem",
+  "resumo": "Os nove passos para criar um personagem jogador: dos atributos aos toques finais.",
+  "fonte": { "livro": "livro-basico", "pagina": 16 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Cada jogador de Tormenta20 controla um personagem, um herói aventureiro. Este capítulo traz as regras para a construção de personagens jogadores — como determinar seus atributos, raça, classe, origem e demais características.\n\nO personagem pode ser fornecido pelo mestre, especialmente se você ainda não conhece as regras — mas inventar seu aventureiro é uma das partes mais divertidas do jogo. Para fazer isso, siga os passos abaixo."
+    },
+    {
+      "titulo": "Os Nove Passos",
+      "texto": "1. Defina seus Atributos. Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Esses seis atributos são as principais características de seu personagem e afetam quase tudo que você faz.\n\n2. Escolha sua Raça. Este livro contém dezessete raças. Cada uma modifica seus atributos e fornece habilidades específicas.\n\n3. Escolha sua Classe. Enquanto a raça diz como você nasceu, a classe é como uma profissão. Este livro oferece quatorze classes.\n\n4. Escolha sua Origem. O que você fazia antes de ser aventureiro? Aqui você escolhe o histórico, o passado de seu personagem.\n\n5. Escolha sua Divindade (Opcional). Existem vinte deuses em Arton. Se quiser, você pode devotar-se a um deles.\n\n6. Escolha suas Perícias. As habilidades mundanas que seu personagem aprendeu com treinamento, importantes para resolver desafios físicos, mentais e sociais. Veja o Capítulo 2.\n\n7. Anote seu Equipamento. Anote seus itens iniciais, determinados por sua origem e sua classe. Veja o Capítulo 3.\n\n8. Magias (Apenas Arcanistas, Bardos, Clérigos e Druidas). Verifique quantas magias você conhece e escolha quais são. Veja o Capítulo 4.\n\n9. Toques Finais. Preencha os campos que faltam na sua ficha — pontos de vida e mana, deslocamento, Defesa e ataques. Escolha também o nome do personagem e defina sua personalidade e aparência."
+    },
+    {
+      "titulo": "Conceito de Personagem",
+      "texto": "Antes de começar a construir sua ficha, é útil ter uma ideia básica sobre quem você quer interpretar — um conceito de personagem. Você não precisa de qualquer experiência com o jogo nem conhecer o mundo de Arton: basta saber que seu personagem será um herói. Você pode basear seu conceito em uma combinação de coisas — dê uma olhada nas seções deste capítulo, leia as descrições das partes que mais interessarem e imagine como elas podem se combinar. Essa mistura já diz muito sobre o personagem."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

@@ -1,0 +1,59 @@
+{
+  "id": "caracteristicas-derivadas",
+  "tipo": "regra-de-criacao",
+  "nome": "Características Derivadas (Toques Finais)",
+  "resumo": "Pontos de Vida e Mana, recuperação por descanso, pontos temporários, Defesa, Tamanho e Deslocamento.",
+  "fonte": { "livro": "livro-basico", "pagina": 106 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Pontos de Vida (PV)",
+      "texto": "Pontos de vida são uma medida de seu vigor físico, tolerância a dor e experiência em combate. Eles indicam a quantidade de dano que você pode sofrer antes de cair inconsciente. Assim, o mesmo ferimento que mataria um camponês comum será \"apenas um arranhão\" para um bárbaro embrutecido ou um ladino esquivo.\n\nEnquanto tiver pelo menos 1 ponto de vida, você pode agir e lutar normalmente. Se ficar com 0 ou menos PV, você cai inconsciente e sangrando."
+    },
+    {
+      "titulo": "Pontos de Mana (PM)",
+      "texto": "Pontos de mana são uma medida de sua energia, determinação e força interior. Eles indicam quantas habilidades você consegue usar.\n\nVocê não pode gastar mais pontos de mana do que tem, mas não sofre penalidades por ficar com 0 ou menos PM."
+    },
+    {
+      "titulo": "Recuperando PV e PM",
+      "texto": "Com uma noite de descanso (pelo menos oito horas de sono), você recupera PV e PM de acordo com seu nível e condições de descanso (veja a tabela). Helior, elfo caçador de 7º nível, recupera 7 PV e 7 PM com uma noite de sono numa estalagem (condição normal). Mas, como vive com o pé na estrada, dormindo ao relento, se acostumou a recuperar apenas 3 PV e 3 PM (condição ruim).\n\nCertas habilidades, magias e itens também recuperam PV e PM. Você nunca pode recuperar mais pontos de vida ou mana do que perdeu — ou seja, não pode ultrapassar seu máximo."
+    },
+    {
+      "titulo": "Pontos Temporários",
+      "texto": "Certos efeitos fornecem PV ou PM temporários. Eles são somados a seus pontos atuais, mesmo que ultrapassem o máximo. Pontos temporários são sempre os primeiros a serem gastos. Caso não seja especificado o contrário, pontos temporários desaparecem no fim do dia."
+    },
+    {
+      "titulo": "Defesa",
+      "texto": "A Defesa representa o quão difícil é acertá-lo em combate. Sua Defesa é 10 + sua Destreza + seu bônus de armadura e escudo.\n\nQuando você ataca um inimigo, a CD do seu teste de ataque é a Defesa dele."
+    },
+    {
+      "titulo": "Tamanho",
+      "texto": "O tamanho de uma criatura é classificado em seis categorias: Minúsculo, Pequeno, Médio, Grande, Enorme e Colossal. Por padrão, seu tamanho é Médio, mas sua raça pode alterar isso. Criaturas Médias não recebem modificadores por tamanho. Criaturas menores recebem bônus em Furtividade e penalidade em manobras de combate. Para criaturas maiores, esses bônus e penalidades são invertidos.\n\nCriaturas Minúsculas usam armas reduzidas, que causam um passo a menos de dano. Criaturas Grandes e Enormes usam armas aumentadas, que causam um passo a mais de dano, enquanto Colossais usam armas gigantes, que causam dois passos a mais de dano. Uma criatura pode usar uma arma feita para até uma categoria de tamanho maior ou menor que a dela, mas sofre −5 nos testes de ataque e a arma ocupa um espaço a mais ou a menos, respectivamente (mínimo meio espaço)."
+    },
+    {
+      "titulo": "Deslocamento",
+      "texto": "Sua velocidade, medida em quantos metros você pode se mover em uma ação de movimento. Por padrão, seu deslocamento é 9 metros (6 quadrados no mapa), mas algumas habilidades podem mudar esse valor."
+    },
+    {
+      "titulo": "Descrição",
+      "texto": "Atributos, raça, classe, origem, perícias, equipamentos e magias: o que você tem até aqui é suficiente para jogar. Mas não é tudo que você pode ter. Um personagem pode ser mais que estatísticas mecânicas — escolher um nome, uma aparência e uma personalidade dá vida a ele e o torna memorável na mesa. A descrição da raça diz um pouco sobre sua personalidade, e o comportamento padrão daquele povo pode servir de ponto de partida. Mas você pode (e deve!) personalizar: nada impede um bárbaro educado ou um nobre covarde."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "recuperacao_por_descanso": [
+      { "condicao": "Ruim", "recuperacao": "metade do nível", "exemplo": "dormir ao relento, sem saco de dormir e acampamento" },
+      { "condicao": "Normal", "recuperacao": "igual ao nível", "exemplo": "dormir em uma estalagem comum" },
+      { "condicao": "Confortável", "recuperacao": "o dobro do nível", "exemplo": "" },
+      { "condicao": "Luxuosa", "recuperacao": "o triplo do nível", "exemplo": "" }
+    ],
+    "tabela_1_21_tamanho": [
+      { "categoria": "Minúsculo", "exemplos": "Falcão, rato, sílfide", "espaco_alcance": "1,5m", "mod_furtividade_manobras": "+5 / −5" },
+      { "categoria": "Pequeno", "exemplos": "Cão, goblin, hynne", "espaco_alcance": "1,5m", "mod_furtividade_manobras": "+2 / −2" },
+      { "categoria": "Médio", "exemplos": "Humano, anão, elfo", "espaco_alcance": "1,5m", "mod_furtividade_manobras": "0" },
+      { "categoria": "Grande", "exemplos": "Cavalo, ogro, serpe", "espaco_alcance": "3m", "mod_furtividade_manobras": "−2 / +2" },
+      { "categoria": "Enorme", "exemplos": "Ente, gigante, hidra", "espaco_alcance": "4,5m", "mod_furtividade_manobras": "−5 / +5" },
+      { "categoria": "Colossal", "exemplos": "Colosso, dragão, kraken", "espaco_alcance": "9m", "mod_furtividade_manobras": "−10 / +10" }
+    ]
+  }
+}

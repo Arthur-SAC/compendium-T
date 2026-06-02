@@ -1,0 +1,24 @@
+{
+  "id": "caracteristicas-das-racas",
+  "tipo": "regra-de-criacao",
+  "nome": "Características das Raças",
+  "resumo": "Como as raças funcionam: modificadores de atributo e habilidades de raça. As 17 raças do Livro Básico estão no índice de Raças.",
+  "fonte": { "livro": "livro-basico", "pagina": 18 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "As raças de Arton são muito variadas entre si. Na maior parte do mundo civilizado um personagem não será hostilizado por pertencer a qualquer raça. Contudo, alguns antros de vilania podem nutrir verdadeiro ódio por determinadas raças — a Supremacia Purista, por exemplo, despreza não humanos. A exceção a isso são os lefou. Tocados pela Tormenta, a maior ameaça deste mundo, os lefou atraem medo em todos os reinos.\n\nAlgumas raças são mais numerosas ou têm papel predominante na história de Arton — humanos, anões, dahllan, elfos, goblins, lefou, minotauros e qareen. O povo do continente está acostumado a ver membros dessas raças. Mas essas não são as únicas: há um grupo de raças mais raras — golens, hynne, kliren, medusas, osteon, sereias, sílfides, suraggel e trogs —, que a maioria das pessoas nunca viu e possuem mecânicas mais avançadas, indicadas para jogadores veteranos."
+    },
+    {
+      "titulo": "Modificadores de Atributo",
+      "texto": "Sua raça modifica seus atributos, podendo aumentá-los acima de 4 ou diminuí-los abaixo de −2. (Os modificadores de cada raça estão na ficha da raça e resumidos na Tabela 1-2: Raças.)"
+    },
+    {
+      "titulo": "Habilidades de Raça",
+      "texto": "Você possui todas as habilidades de sua raça. As regras para usar habilidades são explicadas no Capítulo 5: Jogando."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}
