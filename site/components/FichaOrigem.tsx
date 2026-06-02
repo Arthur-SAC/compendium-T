@@ -6,7 +6,8 @@ import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
-const chipBase = { fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" } as const;
+const chipBase = { fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-1)", border: "1px solid var(--borda)" } as const;
+const cartaoAside = { background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 12, padding: "12px 14px" };
 
 // Chips simples; se `registro` for passado e o nome casar uma entidade (ex.: perícia, poder),
 // o chip vira link para a ficha correspondente.
@@ -32,31 +33,62 @@ export function FichaOrigem({ entidade, registro, descricoes }: { entidade: Enti
   const tituloPoderes = m.poderesUnicos && m.poderesUnicos.length > 1 ? "Poderes Únicos" : "Poder Único";
 
   return (
-    <article style={{ maxWidth: 760, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
+    <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
       <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "20px 24px 14px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
         <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>Origem</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
         <Divisor />
       </header>
 
-      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)" }}>
+      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)", padding: "20px 26px 24px" }}>
         {entidade.resumo && (
-          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 560, margin: "0 auto", padding: "16px 24px 0", lineHeight: 1.55, textAlign: "center" }}>
+          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto 20px", lineHeight: 1.55, textAlign: "center" }}>
             {entidade.resumo}
           </p>
         )}
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, padding: "18px 22px 22px" }}>
-          {imagem && (
-            <div style={{ flex: "1 1 240px", minWidth: 220, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 290, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
-            </div>
-          )}
-          <div style={{ flex: "2 1 320px", minWidth: 280 }}>
+        <div className="ficha-corpo">
+          <div className="ficha-main">
+            {/* Seções de flavor */}
+            {entidade.secoes.map((s, i) => (
+              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+                <h2 style={h2}>{s.titulo}</h2>
+                <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+              </section>
+            ))}
+
+            {/* Poder(es) Único(s) */}
+            {m.poderesUnicos && m.poderesUnicos.length > 0 && (
+              <section style={{ marginBottom: 16 }}>
+                <h2 style={h2}>{tituloPoderes}</h2>
+                <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                  {m.poderesUnicos.map((p, i) => (
+                    <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
+                      <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{p.nome}.</span>{" "}
+                      <TextoRico texto={p.descricao} registro={registro} descricoes={descricoes} />
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Proveniência */}
+            <p style={{ marginTop: 20, fontSize: 11, color: "var(--tinta-suave)", fontStyle: "italic" }}>
+              Fonte: {entidade.fonte.livro}, p. {entidade.fonte.pagina}
+            </p>
+          </div>
+
+          <aside className="ficha-aside">
+            {imagem && (
+              <div style={{ ...cartaoAside, display: "flex", justifyContent: "center" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 290, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
+              </div>
+            )}
+
             {/* Itens */}
             {(m.itens?.length > 0 || m.itensTexto) && (
-              <section style={{ marginBottom: 14 }}>
+              <div style={cartaoAside}>
                 <h2 style={h2}>Itens</h2>
                 {m.itensTexto ? (
                   <p style={{ fontFamily: "var(--serifa)", lineHeight: 1.55, margin: 0 }}>
@@ -65,11 +97,11 @@ export function FichaOrigem({ entidade, registro, descricoes }: { entidade: Enti
                 ) : (
                   <Chips itens={m.itens} />
                 )}
-              </section>
+              </div>
             )}
 
             {/* Benefícios */}
-            <section style={{ marginBottom: 14 }}>
+            <div style={cartaoAside}>
               <h2 style={h2}>Benefícios</h2>
               {m.beneficios.pericias && m.beneficios.pericias.length > 0 && (
                 <div style={{ marginBottom: 8 }}>
@@ -88,52 +120,22 @@ export function FichaOrigem({ entidade, registro, descricoes }: { entidade: Enti
                   <TextoRico texto={m.beneficios.texto} registro={registro} descricoes={descricoes} />
                 </p>
               )}
-            </section>
-          </div>
-        </div>
+            </div>
 
-        <div style={{ padding: "0 24px 22px" }}>
-          {/* Poder(es) Único(s) */}
-          {m.poderesUnicos && m.poderesUnicos.length > 0 && (
-            <section style={{ marginBottom: 16 }}>
-              <h2 style={h2}>{tituloPoderes}</h2>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {m.poderesUnicos.map((p, i) => (
-                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6 }}>
-                    <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{p.nome}.</span>{" "}
-                    <TextoRico texto={p.descricao} registro={registro} descricoes={descricoes} />
-                  </div>
-                ))}
+            {/* Relações */}
+            {entidade.relacoes.length > 0 && (
+              <div style={cartaoAside}>
+                <h2 style={h2}>Relações</h2>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
+                  {entidade.relacoes.map((r, i) => (
+                    <span key={i} style={{ fontSize: 11, padding: "4px 11px", borderRadius: 20, background: "var(--pergaminho-1)", border: "1px solid var(--borda)" }}>
+                      <LinkEntidade alvoId={r.alvoId} alvoTipo={r.alvoTipo} rotulo={r.rotulo} />
+                    </span>
+                  ))}
+                </div>
               </div>
-            </section>
-          )}
-
-          {/* Seções de flavor */}
-          {entidade.secoes.map((s, i) => (
-            <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-              <h2 style={h2}>{s.titulo}</h2>
-              <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
-            </section>
-          ))}
-
-          {/* Relações */}
-          {entidade.relacoes.length > 0 && (
-            <section>
-              <h2 style={h2}>Relações</h2>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
-                {entidade.relacoes.map((r, i) => (
-                  <span key={i} style={{ fontSize: 11, padding: "4px 11px", borderRadius: 20, background: "var(--pergaminho-stat)", border: "1px solid var(--borda)" }}>
-                    <LinkEntidade alvoId={r.alvoId} alvoTipo={r.alvoTipo} rotulo={r.rotulo} />
-                  </span>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Proveniência */}
-          <p style={{ marginTop: 20, fontSize: 11, color: "var(--tinta-suave)", fontStyle: "italic" }}>
-            Fonte: {entidade.fonte.livro}, p. {entidade.fonte.pagina}
-          </p>
+            )}
+          </aside>
         </div>
       </div>
     </article>
