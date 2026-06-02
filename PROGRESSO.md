@@ -4,16 +4,34 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)**. Próxima: **Deuses** ou **Construção de Personagem**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)**. Próxima: **Construção de Personagem / Atributos** (Cap. 1).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 4 — MAGIA ✅ CONCLUÍDO** (Ondas A+B+C + Passada 2). Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`.
-**Próxima fatia:** **Deuses** (panteão, ~20 divindades) ou **Construção de Personagem / Atributos** (Cap. 1) — ver
-"FATIAS PENDENTES" abaixo. Decisão do usuário: seguir a sequência (catálogos primeiro), capítulos de regra depois.
+➡️ **DEUSES ✅ CONCLUÍDO** (Ondas A+B+C + Passada 2). Plano `docs/superpowers/plans/2026-06-02-deuses-plano.md`;
+mapa `deuses-paginas.md`. **Próxima fatia: Construção de Personagem / Atributos (Cap. 1)** — os 6 passos,
+os 6 Atributos e o que cada um faz, rolagem/compra de pontos, multiclasse, evolução de nível/XP/patamares.
+É uma fatia de REGRA (não catálogo) — provavelmente entidades `regra-de-criacao` + índice próprio. Decisão do
+usuário: seguir a sequência; catálogos já feitos, agora as regras de criação. Depois: Combate & Jogando (Cap. 5),
+Mundo de Arton, Mestrar.
+
+**Deuses ✅** (20 divindades + regra de devoção; plano `2026-06-02-deuses-plano.md`):
+- **Onda A ✅ (`79bf2a6`):** `DivindadeMecanicaSchema` (crencasObjetivos, simboloSagrado, canalizaEnergia,
+  armaPreferida, devotos, poderesConcedidos[], obrigacoesRestricoes) + ramo no superRefine; `FichaDivindade`
+  (selo de energia; Poderes Concedidos como chips que linkam); índice `/deuses` por energia + atalho na home;
+  regra `devocao-como-funciona` (impressa 96); spike Khalmyr. +7 testes.
+- **Onda B ✅ (`ae1870c`):** 20 divindades extraídas (impressas 96–105). Reconciliação automática dos Poderes
+  Concedidos vs slugs de poderes (script): corrigidos nomes p/ acender link (Azgher "Fulgor Solar"; Wynna
+  "Bênção do Mana"/"Teurgista Místico"; Arsenal energia "Qualquer.").
+- **Passada 2 ✅ (`44123b3`):** validação independente por visão (5 validadores). Fixes: khalmyr ("vitória",
+  "permanentes"), tenebra ("se cobrir"). 16/20 sem discrepância. Achado: o mapa de descoberta tinha thwor/thyatis
+  trocados — a extração da imagem estava certa (corrigido o doc).
+- **Onda C ✅:** links reversos acendem (deuses citados em Cavaleiro/Clérigo/Druida/Paladino, poderes concedidos e
+  raças linkam pras fichas de divindade — auto-link Title-Case). Build **672 páginas**; suíte **117 verde**.
+- **Deferido:** símbolos sagrados (ilustração circular por deus) — extração de imagem opcional, p/ passe de design.
 
 **Cap. 4 — Magia ✅** (198 magias + 3 regras):
 - **Onda A ✅:** schema `magia`, `FichaMagia`, índice `/magias` (por círculo + Arcanas/Divinas/Universais), 3 regras, spike.
