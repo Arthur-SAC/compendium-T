@@ -1,0 +1,24 @@
+{
+  "id": "devocao-como-funciona",
+  "tipo": "regra-de-criacao",
+  "nome": "Devoção e os Deuses",
+  "resumo": "Como servir a uma divindade: tornar-se devoto, seguir Obrigações & Restrições e receber Poderes Concedidos.",
+  "fonte": { "livro": "livro-basico", "pagina": 96 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Em Arton, você pode trabalhar a serviço dos deuses, cumprindo seus desígnios. Um personagem que serve a uma divindade é chamado devoto e, em troca de seguir certas obrigações, recebe poderes. Ser devoto é uma escolha. Por exemplo, você pode ser um cavaleiro normal, sem obrigações, ou um cavaleiro devoto de Khalmyr, com obrigações e poderes."
+    },
+    {
+      "titulo": "Escolhendo seu Deus",
+      "texto": "Você pode se tornar devoto na construção de seu personagem ou sempre que subir de nível. Porém, só pode ter uma devoção e não pode mudá-la (exceto sob critério do mestre). Se você for clérigo, druida ou paladino, automaticamente será um devoto.\n\nPara ser devoto de um deus, sua raça ou sua classe devem estar listadas na seção \"Devotos\" do deus em questão. Humanos e clérigos são exceção — podem ser devotos de qualquer divindade.\n\nAo se tornar devoto, você recebe um poder concedido a sua escolha da lista do deus e passa a seguir as Obrigações & Restrições dele. Se violá-las, perde todos os seus PM e só pode recuperá-los a partir do próximo dia. Se violá-las de novo na mesma aventura, perde todos os seus PM e não pode recuperá-los até fazer uma penitência (veja a perícia Religião). Poderes concedidos são descritos no Capítulo 2.\n\nMulticlasse. No caso de classes com listas de devoções permitidas, a classe com menos opções determina a que deve ser seguida (isso permite que uma devoção anterior seja mudada). Se não houver devoções compatíveis, a multiclasse não pode ser feita."
+    },
+    {
+      "titulo": "Características dos Deuses",
+      "texto": "Cada divindade do Panteão é descrita pelos seguintes campos:\n\nCrenças e Objetivos. Um resumo da doutrina da divindade, aquilo em que os devotos creem.\n\nSímbolo Sagrado. O símbolo do deus, normalmente usado como um medalhão ou na roupa.\n\nCanalizar Energia. O tipo de energia que a divindade canaliza. Devotos de alguns deuses podem escolher o tipo de energia (nesse caso, uma vez feita, a escolha não pode ser mudada).\n\nArma Preferida. A arma típica de devotos do deus, importante para certas habilidades e magias."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

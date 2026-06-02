@@ -220,6 +220,17 @@ export const MagiaMecanicaSchema = z.object({
 });
 export type MagiaMecanica = z.infer<typeof MagiaMecanicaSchema>;
 
+export const DivindadeMecanicaSchema = z.object({
+  crencasObjetivos: z.string(),
+  simboloSagrado: z.string(),
+  canalizaEnergia: z.string(),          // "Positiva" | "Negativa" | "Qualquer"
+  armaPreferida: z.string(),            // pode ser "não há"
+  devotos: z.string(),                  // texto (raças/classes permitidas)
+  poderesConcedidos: z.array(z.string()).default([]),  // nomes → linkam pros poderes (group concedido)
+  obrigacoesRestricoes: z.string(),
+});
+export type DivindadeMecanica = z.infer<typeof DivindadeMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -294,6 +305,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de magia inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "divindade") {
+      const r = DivindadeMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de divindade inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }
