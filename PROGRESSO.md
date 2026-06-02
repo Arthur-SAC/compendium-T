@@ -11,7 +11,22 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) — Onda B: extrair as ~26 regiões restantes.** Plano `2026-06-02-mundo-de-arton-plano.md`;
+➡️ **MUNDO DE ARTON (Cap. 9) — Onda B EXTRAÍDA (`8e71480`): 29 regiões. Falta aplicar a 2ª passada de validação + Onda C.**
+**Validação em andamento** (3 subagentes em background comparando JSON×imagem): aplicar as correções que reportarem e commitar.
+Depois: **Onda C** = página `mundo-de-arton` (cosmologia/intro) + **Linha do Tempo** (cronologia "Anos AE", impressas 350–353) como entidade/tabela.
+**Pendência conhecida (Deheon):** falta o 3º § da "Libertação de Valkaria" (Guerra Artoniana), cortado por ilustração na col. esq. da PDF 366 — completar se a validação achar a continuação.
+**UI feita nesta sessão:** listas a 1480px (`9cd50ff`); **fichas em duas colunas** texto+barra lateral (`f782d0c`, colapsa no mobile; imagem fica na lateral — decisão do usuário, tentativa de "imagem ao lado do texto" foi revertida).
+
+**29 regiões (`8e71480`):** O Reinado (8): deheon, bielefeld, wynlla, namalkah, ahlen, zakharov, pondsmania, mercado-das-nuvens.
+Além do Reinado (21): supremacia-purista, aslothia, republicas-livres-de-samburdia, feudos-de-trebuck, reino-do-dragao,
+sanguinarias, ermos-purpuras, imperio-de-tauron, nova-malpetrim, covil-dos-pistoleiros, ruinas-de-tyrondir, salistick,
+svalas, doherimm, tres-mares, khubar, mundo-perdido, continente-bestial, imperio-de-jade, moregnia, a-tormenta.
+Entidade `regiao` = prosa (Ficha genérico); `mecanica.secao` agrupa o índice `/mundo` (ordena por página). Auto-link: colisão
+"Tauron" (deus×região) é first-wins por ordem de pasta (divindades antes de regioes) → deus mantém o link; sem links quebrados.
+
+---
+### (histórico) plano original da Onda B
+➡️ Plano `2026-06-02-mundo-de-arton-plano.md`;
 **mapa autoritativo `docs/superpowers/plans/mundo-paginas.md`** (região→página, subseções, achados). Onda A já fez código + spike Deheon.
 **Como na Onda A:** renderizar a página da região em 300 DPI (`pdftoppm -r 300`, `extracao/cache/arton/`), recortar colunas com PIL,
 transcrever fiel (2 passadas, sem inventar), salvar `data/livro-basico/regioes/<slug>.json` (tipo `regiao`, `mecanica.secao`
