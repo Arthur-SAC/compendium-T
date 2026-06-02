@@ -1,0 +1,31 @@
+{
+  "id": "deheon",
+  "tipo": "regiao",
+  "nome": "Deheon",
+  "resumo": "O Reino Capital do Reinado — reduto de normalidade reconstruída após a guerra, coração da civilização humana, onde se ergue Valkaria, a cidade sob a estátua da Deusa da Ambição.",
+  "fonte": { "livro": "livro-basico", "pagina": 358 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Deheon, o Reino Capital",
+      "texto": "Com sua vasta fronteira circular — delimitada no ponto onde os clérigos de Valkaria perdiam seus poderes, antes da Libertação da deusa —, o Reino Capital tem sido visto como um reduto de normalidade tranquila em meio ao caos geopolítico, um lugar onde as coisas ainda são como deveriam ser. De população humana, mas aberta e confiável a quaisquer outras raças, em oposição declarada à intolerância purista. Nobres guerreiros em seus castelos, protegendo os camponeses à volta. Rotas comerciais bem patrulhadas, seguras, pelo menos até onde a imensidão do país permite. Cidades ainda em reconstrução, ainda curando as feridas da guerra, mas cheias de determinação, otimismo e confiança em um futuro melhor."
+    },
+    {
+      "titulo": "A Cidade sob a Deusa",
+      "texto": "Valkaria. A maior metrópole de Arton não é apenas uma cidade — mas o centro do universo. É a capital política do Reinado, o marco zero do mundo civilizado. É onde está a Deusa. A Líder dos Deuses.\n\nSua fundação data de 400 anos atrás, quando uma caravana de exilados de Lamnor, após meses de rigorosa jornada através de terras selvagens, encontrou a deusa. Uma estátua alta como uma montanha, de tais proporções que nenhum poder mortal poderia esculpir. Uma mulher de joelhos, braços estendidos, olhar enigmático para os céus. Por toda a volta, planícies verdejantes e regatos límpidos, livres de feras e monstros, uma terra abençoada. Quem mais poderia ser, senão uma deusa? Quem mais senão Valkaria, seu nome já conhecido, sonhado por aqueles que haviam guiado os refugiados rumo àquele destino? Que outro lugar no mundo seria a morada perfeita, senão aos pés da dama, senão sob sua sombra gentil?\n\nA partir daquele ponto, ao longo dos séculos seguintes, cresceram a cidade e a humanidade. Fazendas cercando povoados, povoados cercando castelos, castelos cercando a deusa. Valkaria se espalhava imensa, populosa, inchada. Na arquitetura local, a imitação elogiosa do próprio monumento — mármore variando entre lilás e cinza-gelo, ornamentado com ondas e espirais douradas. Nem tudo limpo ou elegante; em muitos distritos, sobretudo os mais afastados, moradores imploravam perdão à deusa por seus casebres humildes e ruas estreitas de terra batida, infestadas de mascates, pregadores, mendigos e punguistas. Mas ali, sob os braços generosos da donzela, tudo seria enorme, majestoso, brilhante. Palácios opulentos quase alcançando os quadris da deusa. Parques e jardins suspensos, ligados por viadutos. Amplas pontes cruzando canais abarrotados de embarcações. Dúzias de estátuas menores, retratando não apenas a deusa, mas também seus irmãos no Panteão. O centro de Valkaria era arte e beleza até onde a vista alcançava.\n\nOrando à padroeira, clérigos descobriam-se capazes de conjurar milagres, mas havia um limite. Ao exceder certa distância da estátua, os poderes concedidos desapareciam. Naquele ponto seria demarcada a distintiva fronteira circular da nação de Deheon, futuro Reino Capital do Reinado. Outras raças talvez temessem exceder a barreira invisível, pisar em terras além da proteção divina, mas não os seres humanos. Expedições partiriam para explorar, desbravar, colonizar o continente ao redor — e retornar com mais riquezas para o enriquecimento da metrópole, mais oferendas para a deusa. Pois era Valkaria, a Deusa da Ambição, a deusa jamais satisfeita. Nenhum tesouro seria demais para agradá-la, nenhuma feiura ou sujeira jamais poderia tocá-la. Para sua tão querida deusa-mãe, a humanidade não poderia oferecer menos."
+    },
+    {
+      "titulo": "A Libertação de Valkaria",
+      "texto": "Mas por que os poderes da deusa alcançavam apenas algumas centenas de quilômetros? Religiosos debatiam o tópico com fervor, mas a verdade oculta era mais sinistra que qualquer de suas teorias. A estátua de Valkaria não era um presente para seus devotos, mas uma prisão — a própria deusa encontrava-se cativa no monumento. Era sua punição por crimes contra o Panteão, crimes que teriam levado à própria criação da Tormenta. Ainda que a diva pudesse dar poderes a seus devotos, ainda que pudesse percorrer os arredores em forma de avatar, sua essência estava aprisionada na pedra. Durante esse período ocorreria o Dia dos Gigantes; um embate épico entre o Kishinauros, máquina humanoide gigante de Mestre Arsenal, e um colosso celestial de origem incerta. A metrópole sofreu danos extensos e por pouco a própria estátua não teria sido destruída, o que resultaria na morte da deusa.\n\nO segredo sobre o cativeiro de Valkaria seria revelado apenas a seu novo sumo-sacerdote, Hennd Kalamar. O fardo era terrível, mas havia esperança; o castigo divino não era eterno. Conforme decretado por Khalmyr, então líder do Panteão, a deusa seria perdoada caso seus campeões vencessem um desafio — um vasto labirinto planar, o mais perigoso de todos, forjado pelos próprios deuses. Coube a Kalamar encontrar e convocar esses aventureiros. E assim, após uma extenuante campanha, após derrotar os poderosos guardiões das masmorras, os heróis salvariam Valkaria. Seriam agora conhecidos como \"Os Libertadores\". A punição de Valkaria terminava. A deusa era livre outra vez, seus poderes agora atuando em toda Arton. Mas sua estátua permaneceria ali, como o presente que todos sempre acreditaram ser."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "abriga", "alvoId": "valkaria", "alvoTipo": "divindade", "rotulo": "Valkaria, a Deusa da Ambição" },
+    { "tipo": "citada", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Khalmyr, líder do Panteão" }
+  ],
+  "mecanica": {
+    "secao": "O Reinado",
+    "epiteto": "O Reino Capital",
+    "capital": "Valkaria"
+  }
+}
