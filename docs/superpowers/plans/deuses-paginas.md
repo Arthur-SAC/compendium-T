@@ -22,7 +22,7 @@
 | Arsenal | 98 | Qualquer | Martelo de guerra | Conjurar Arma, Coragem Total, Fé Guerreira, Sangue de Ferro |
 | Azgher | 98 | Positiva | Cimitarra | Espada Solar, Fúlgor Solar, Habitante do Deserto, Inimigo de Tenebra |
 | Hyninn | 98 | Qualquer | Adaga | Apostar com o Trapaceiro, Farsa do Fingidor, Forma de Macaco, Golpista Divino |
-| Kallyadranoch | 99 | Negativa | Lança | Energia Total, Presas Primordiais, Servos do Dragão |
+| Kallyadranoch | 99 | Negativa | Lança | Aura de Medo, Escamas Dracônicas, Presas Primordiais, Servos do Dragão |
 | Khalmyr | 99 | Positiva | Espada longa | Coragem Total, Dom da Verdade, Espada Justiceira, Reparar Injustiça |
 | Lena | 99 | Positiva | (não há) | Ataque Piedoso, Aura Restauradora, Cura Gentil, Curandeira Perfeita |
 | Lin-Wu | 100 | Qualquer | Katana | Coragem Total, Kiai Divino, Mente Vazia, Tradição de Lin-Wu |
@@ -33,10 +33,10 @@
 | Sszzaas | 103 | Negativa | Adaga | Astúcia da Serpente, Familiar Ofídico, Presas Venenosas, Sangue Ofídico |
 | Tanna-Toh | 103 | Qualquer | Bordão | Conhecimento Enciclopédico, Mente Analítica, Pesquisa Abençoada, Voz da Civilização |
 | Tenebra | 104 | Negativa | Adaga | Carícia Sombria, Manto da Penumbra, Visão nas Trevas, Zumbificar |
-| Thwor | 104 | Qualquer | Machado de guerra | Ataque Piedoso, Dom da Profecia, Dom da Imortalidade, Dom da Ressurreição |
-| Thyatis | 104 | Positiva | Espada longa | Almejar o Impossível, Olhar Amedrontador, Tropas Duyshidakk |
+| Thwor | 104 | Qualquer | Machado de guerra | Almejar o Impossível, Fúria Divina, Olhar Amedrontador, Tropas Duyshidakk |
+| Thyatis | 104 | Positiva | Espada longa | Ataque Piedoso, Dom da Imortalidade, Dom da Profecia, Dom da Ressurreição |
 | Valkaria | 105 | Positiva | Mangual | Almejar o Impossível, Armas da Ambição, Coragem Total, Liberdade Divina |
-| Wynna | 105 | Qualquer | Adaga | Benção da Mana, Centelha Mágica, Escudo Mágico, Terapista Místico |
+| Wynna | 105 | Qualquer | Adaga | Bênção do Mana, Centelha Mágica, Escudo Mágico, Teurgista Místico |
 
 **Nomes dos Poderes Concedidos a validar contra a Onda B (e contra os slugs em `data/livro-basico/poderes/`)** —
 auto-link só acende se o nome bater exatamente (ex.: "Benção da Mana" vs slug `bencao-do-mana`; conferir na extração).
