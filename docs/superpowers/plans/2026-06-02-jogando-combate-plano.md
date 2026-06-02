@@ -9,9 +9,13 @@ funcionam, e o sistema de combate. Completa a camada "jogável sem o livro".
 ## Limites (descoberto via rodapés do pdftotext)
 - **Cap. 5 — Jogando:** splash PDF 218–219 (impressas 212–213); conteúdo PDF 220–~233 (impressas 214–~227), **~14 páginas densas (2 colunas)**.
 - **Cap. 6 — O Mestre** começa ~PDF 234 (futura fatia **Mestrar**). NÃO entra aqui.
-- ⚠️ **Evolução de personagem (Nível / XP / Patamares Iniciante-Veterano-Campeão-Lenda / Multiclasse) está no Capítulo 8: Recompensas**
-  (o texto remete "veja isso no Capítulo 8: Recompensas") — **NÃO** está no Cap. 1 nem no Cap. 5. → tratar na futura fatia **Recompensas (Cap. 8)**.
-  (Patamares são referenciados de passagem: iniciante até 4º nível, veterano/campeão 5º–16º, lenda 17º+.)
+- ✅ **CORREÇÃO:** a **Evolução de personagem (Subir de Nível / XP / Patamares / Multiclasse) está no Cap. 1, na abertura das
+  Classes** (impressas 34–35), NÃO no Cap. 8. Extraída na regra `evolucao-de-personagem` (`Subindo de Nível`, `Patamares de Jogo`
+  Iniciante/Veterano/Campeão/Lenda, `Multiclasse`, `Tabela 1-4: Níveis de Personagem` — XP e bônus de perícia por nível, verificada
+  em imagem 300 DPI). Linkada na landing `/personagem`. (A menção a "Capítulo 8: Recompensas" no Cap. 6 era sobre tesouro/recompensas,
+  não sobre a mecânica de subir de nível.)
+- **Pendente de backfill (abertura das Classes, impressas 32–34):** `classes-como-funcionam` — o que é uma classe, Características
+  (atributo-chave, PV/PM, perícias, habilidades) + tabela-resumo das 14 classes + Habilidades de Classe.
 
 ## Decomposição em regras (`regra-de-criacao`) — extrair por visão (páginas renderizadas), 2 passadas
 - [ ] **`testes-e-dificuldades`** (SPIKE) — Fazendo Testes (de atributo, de perícia, comuns, opostos, misturando testes),

@@ -43,6 +43,12 @@ export default function TrilhaPersonagem() {
           </li>
         ))}
       </ol>
+
+      <p style={{ textAlign: "center", margin: "28px 0 0" }}>
+        <Link href="/ficha/regra-de-criacao/evolucao-de-personagem" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 14, borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Depois de criar: subir de nível, patamares e multiclasse →
+        </Link>
+      </p>
     </main>
   );
 }

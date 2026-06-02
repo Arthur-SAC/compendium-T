@@ -1,0 +1,47 @@
+{
+  "id": "evolucao-de-personagem",
+  "tipo": "regra-de-criacao",
+  "nome": "Evolução de Personagem (Nível, Patamares e Multiclasse)",
+  "resumo": "Como subir de nível com XP, os quatro patamares de jogo (Iniciante a Lenda), a multiclasse e a tabela de níveis de personagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 34 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Subindo de Nível",
+      "texto": "Quando acumula XP suficiente (conforme a Tabela 1-4) você sobe de nível. Quando isso acontece, você ganha os três benefícios a seguir:\n\n1. Pontos de Vida e Mana. Seus PV e PM aumentam de acordo com a sua classe. Some sua Constituição aos PV que ganha por nível (mas você sempre ganha pelo menos 1 PV ao subir de nível).\n\n2. Habilidades de Classe. Você ganha todas as habilidades do nível alcançado. Consulte a tabela da sua classe para saber quais.\n\n3. Bônus em Perícias. Seu bônus em perícias é igual à metade do seu nível. Assim, a cada nível par (2º, 4º, 6º etc.) ele aumenta em +1. Isso representa o fato de que heróis experientes se tornam mais capazes. Você usa o número antes da barra para perícias treinadas e o número depois da barra para perícias não treinadas (veja mais no Capítulo 2)."
+    },
+    {
+      "titulo": "Patamares de Jogo",
+      "texto": "As classificações abaixo fornecem uma noção da escala de poder dos personagens e afetam certas habilidades.\n\n• Iniciante (1º ao 4º nível). Aventureiro novato, envolvido em missões locais, como proteger vilas do ataque de bandidos e escoltar caravanas.\n\n• Veterano (5º ao 10º nível). Neste patamar, o herói presta serviços importantes a nobres e líderes de guildas.\n\n• Campeão (11º ao 16º nível). Já famoso por suas façanhas, o aventureiro trabalha para monarcas e enfrenta grandes vilões e monstros terríveis.\n\n• Lenda (17º ao 20º nível). Entre os mais poderosos de Arton, o herói lida com perigos que ameaçam todo o mundo... Ou mesmo toda a realidade!"
+    },
+    {
+      "titulo": "Multiclasse",
+      "texto": "Quando sobe de nível, você pode escolher outra classe. Essa opção é conhecida como multiclasse e fornece mais versatilidade, em troca de poder bruto.\n\nPor exemplo: o qareen Zaled Rayeder, um arcanista de 3º nível, encontra um propósito para seus dons mágicos selvagens na ordem de Khalmyr. Ao subir para o 4º nível, escolhe um nível de paladino, tornando-se um arcanista 3/paladino 1 — terá as habilidades de um arcanista de 3º nível e de um paladino de 1º nível.\n\nPontos de Vida. Quando você ganha o primeiro nível em uma nova classe, ganha os PV de um nível subsequente, não do primeiro. Zaled ganha 5 PV pelo primeiro nível de paladino, não 20.\n\nPontos de Mana. Some os PM fornecidos por cada classe para determinar seu montante total.\n\nPerícias & Proficiências. Quando você ganha o primeiro nível em uma nova classe, não ganha as perícias treinadas ou proficiências da nova classe.\n\nNíveis de Classe e de Personagem. Nível de classe são níveis numa classe específica. Já seu nível de personagem é a soma dos níveis de todas as suas classes. Zaled é um arcanista de 3º nível, um paladino de 1º nível e um personagem de 4º nível (a soma dos dois)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_1_4_niveis_de_personagem": [
+      { "nivel": "1º", "pontos_de_experiencia": "0", "bonus_em_pericias": "+2/+0" },
+      { "nivel": "2º", "pontos_de_experiencia": "1.000", "bonus_em_pericias": "+3/+1" },
+      { "nivel": "3º", "pontos_de_experiencia": "3.000", "bonus_em_pericias": "+3/+1" },
+      { "nivel": "4º", "pontos_de_experiencia": "6.000", "bonus_em_pericias": "+4/+2" },
+      { "nivel": "5º", "pontos_de_experiencia": "10.000", "bonus_em_pericias": "+4/+2" },
+      { "nivel": "6º", "pontos_de_experiencia": "15.000", "bonus_em_pericias": "+5/+3" },
+      { "nivel": "7º", "pontos_de_experiencia": "21.000", "bonus_em_pericias": "+7/+3" },
+      { "nivel": "8º", "pontos_de_experiencia": "28.000", "bonus_em_pericias": "+8/+4" },
+      { "nivel": "9º", "pontos_de_experiencia": "36.000", "bonus_em_pericias": "+8/+4" },
+      { "nivel": "10º", "pontos_de_experiencia": "45.000", "bonus_em_pericias": "+9/+5" },
+      { "nivel": "11º", "pontos_de_experiencia": "55.000", "bonus_em_pericias": "+9/+5" },
+      { "nivel": "12º", "pontos_de_experiencia": "66.000", "bonus_em_pericias": "+10/+6" },
+      { "nivel": "13º", "pontos_de_experiencia": "78.000", "bonus_em_pericias": "+10/+6" },
+      { "nivel": "14º", "pontos_de_experiencia": "91.000", "bonus_em_pericias": "+11/+7" },
+      { "nivel": "15º", "pontos_de_experiencia": "105.000", "bonus_em_pericias": "+13/+7" },
+      { "nivel": "16º", "pontos_de_experiencia": "120.000", "bonus_em_pericias": "+14/+8" },
+      { "nivel": "17º", "pontos_de_experiencia": "136.000", "bonus_em_pericias": "+14/+8" },
+      { "nivel": "18º", "pontos_de_experiencia": "153.000", "bonus_em_pericias": "+15/+9" },
+      { "nivel": "19º", "pontos_de_experiencia": "171.000", "bonus_em_pericias": "+15/+9" },
+      { "nivel": "20º", "pontos_de_experiencia": "190.000", "bonus_em_pericias": "+16/+10" }
+    ]
+  }
+}
