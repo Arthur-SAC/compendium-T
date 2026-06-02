@@ -3,23 +3,34 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-06-01
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)**. Próxima: **Magia** (Cap. 4).
+**Última atualização:** 2026-06-02
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)**. Próxima: **Deuses** ou **Construção de Personagem**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAPÍTULO 4 — MAGIA: Ondas A (código) e B (extração) ✅.** Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`.
-**Onda A ✅:** schema `magia`, `FichaMagia`, índice `/magias` (por círculo + Arcanas/Divinas/Universais), 3 regras, spike.
-**Onda B ✅: as 198 magias extraídas** (Passada 1; descrições A–Z, impressas 178–211) — cabeçalho/descrição/aprimoramentos/truque,
-classificação cruzada com o mapa, completude verificada por diff (0 gaps), schema-válidas (normalizados `requisitoCirculo`
-camelCase e remoção de campos `null`). Build gera as 198 fichas (650 páginas).
-**FALTA:** (1) **Passada 2** — validação independente das 198 magias (números/CDs/aprimoramentos vs imagem; pontos a checar:
-`controlar-o-clima` círculo 3 vs 4, `muralha-de-ossos` Universal 4, magias com aprimoramentos extensos). (2) **Onda C** —
-integração + **acender os links de conjuração** (a habilidade "Magias" das conjuradoras, poderes concedidos que ensinam
-magias, catalisadores — auto-link por nome). Depois: PROGRESSO Magia ✅; próxima fatia **Deuses** ou **Construção de Personagem**.
+➡️ **CAPÍTULO 4 — MAGIA ✅ CONCLUÍDO** (Ondas A+B+C + Passada 2). Plano `docs/superpowers/plans/2026-06-01-magia-plano.md`.
+**Próxima fatia:** **Deuses** (panteão, ~20 divindades) ou **Construção de Personagem / Atributos** (Cap. 1) — ver
+"FATIAS PENDENTES" abaixo. Decisão do usuário: seguir a sequência (catálogos primeiro), capítulos de regra depois.
+
+**Cap. 4 — Magia ✅** (198 magias + 3 regras):
+- **Onda A ✅:** schema `magia`, `FichaMagia`, índice `/magias` (por círculo + Arcanas/Divinas/Universais), 3 regras, spike.
+- **Onda B ✅:** 198 magias (Passada 1; descrições A–Z, impressas 178–211) — cabeçalho/descrição/aprimoramentos/truque, schema-válidas.
+- **Onda C ✅ (`874d856`):** links de conjuração acesos. As 198 magias entram no registro de auto-link; como vários nomes são
+  palavras comuns ("Luz", "Sono", "Voo", "Condição"), o auto-link gerava ~86 links espúrios. **Correção (TDD):** links de
+  ENTIDADE exigem inicial maiúscula (nomes próprios Title-Case); TOOLTIPS seguem case-insensitive (condições em minúsculo).
+  Resultado: 116 referências legítimas linkam (concessões inatas Sílfide=Luz/Sono/Enfeitiçar, Suraggel=Escuridão,
+  Bucaneiro=Amedrontar, poderes que ensinam Toque Vampírico…) e 86 falsos positivos somem. **Resolve o "risco médio" de auto-link.**
+- **Passada 2 ✅ (`7c890fd`):** validação independente das 198 por visão (11 blocos, JSON×imagem). Passada 1 muito sólida. Fixes:
+  (a) **conteúdo** — `enxame-rubro-de-ichabod` (+aprimoramento +3 PM voo/cubo faltante), `toque-vampirico` (−aprimoramento +5 PM
+  fabricado), `telecinesia` (efeito completado + requisitoCirculo espúrio removido), `mao-poderosa-de-talude` ("Esmarar"→"Esmagar"),
+  `caminhos-da-natureza` (rótulo alvo→área); (b) **75 páginas** `fonte.pagina` off-by-one — a extração não contou as impressas
+  183 e 192; reconciliado contra mapa autoritativo (rodapés de p-184..p-217, convenção PDF=impressa+6). Watch-points: `controlar-o-clima`
+  círculo 4 e `muralha-de-ossos` Universal 4 — **ambos já corretos**. 198 schema-válidas; build 650 páginas; suíte **106 verde**.
+- **Técnica reutilizável:** para validar/posicionar páginas, re-renderizar em 300 DPI (`pdftoppm -r 300 -f N -l N`) e recortar
+  colunas com PIL — muito mais legível que as imagens 150 DPI do cache; o rodapé dourado dá a impressa (= PDF − 6).
 
 > **FATIAS PENDENTES DO LIVRO BÁSICO (não esquecer — confirmado com o usuário 2026-06-01):** além de **Magia**,
 > faltam **Deuses** (panteão, ~20 divindades — domínios, energia, Obrigações & Restrições, Poderes Concedidos, devotos;
@@ -101,7 +112,7 @@ home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups 
 - [ ] **Poderes citados viram links** em Origens e Classes (depois da Onda 2 — Poderes existirem como entidades).
 - [ ] **Selos SVG na ficha individual de Perícia** (`FichaPericia`): hoje "Somente Treinada"/"Penalidade de armadura" são texto; usar os mesmos ícones do índice `/pericias`.
 - [ ] **Revisão visual unificada** das fichas/índices (densidade, espaçamentos, navegação entre categorias, breadcrumb, busca com filtros por tipo).
-- [ ] **Auto-link com stop-words/termos explícitos** (risco que cresce com mais categorias — nomes curtos/ambíguos gerando links indesejados).
+- [ ] **Auto-link: stop-list explícita p/ resíduos Title-Case** (a regra de inicial-maiúscula da Onda C de Magia já mata o grosso; sobram poucos casos como "Condição"/"Névoa" em contexto de palavra comum e capitalizações de início de frase).
 - [ ] **Trilhas de aprendizado** (Jogador/Mestre) e navegação global — quando o conteúdo permitir.
 - [ ] **Artes das armas (Cap. 3, impressas 146–149):** o livro tem **pranchas ilustradas agrupadas** (várias armas por imagem, rotuladas por tipo: "Espadas longas", "Cimitarras", "Adagas", "Alfanges", "Espadas bastardas", "Katana"…), **não** arte limpa por arma (sem smask, sobrepostas). Opções: usar as pranchas como ilustração decorativa de seção em `/equipamento`, ou recortar manualmente. Decidir no passe de design. (Equipamento já tem subgrupos no índice: armas por proficiência; armaduras leve/pesada/escudos.)
 
@@ -110,8 +121,11 @@ home, índice `/racas` e estilo. 35 testes verdes + build estático OK. Mockups 
   na `mecanica.nota` com `modificadores:[]`. Futuro: estruturar heranças/variantes no schema + exibição.
 - ~~**Condições seed** `medo`/`atordoado` usam pág. 318 (provisória)~~ **RESOLVIDO (`fd9c789`):** apêndice
   de Condições (35) extraído das impressas 394–395; `medo` virou tipo de efeito no glossário (p.228); `atordoado` realinhado.
-- **Auto-link (risco médio)**: com mais categorias, nomes curtos/ambíguos gerarão links indesejados →
-  prever stop-words / termos linkáveis explícitos.
+- ~~**Auto-link (risco médio)**: com mais categorias, nomes curtos/ambíguos gerarão links indesejados~~
+  **MITIGADO (`874d856`, Onda C de Magia):** links de entidade exigem inicial maiúscula (nomes próprios
+  Title-Case); tooltips seguem case-insensitive. Elimina o grosso dos falsos positivos de palavras comuns.
+  **Resíduo:** ainda podem sobrar falsos Title-Case raros (ex.: "Condição" em bullet de regra, "Névoa" do
+  item "Névoa Tóxica") e capitalizações de início de frase — tratar com stop-list explícita no passe de design se incomodar.
 - **`data/sources.json`** ainda não é a fonte da verdade (carregador usa `dirs=["livro-basico"]`).
 - Riscos de escala JÁ resolvidos nesta fatia: memoização do carregamento (T2), regex pré-compilada (T3),
   export estático (T4), exibição estruturada da mecânica via `FichaRaca` (T5).
