@@ -11,10 +11,15 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) — Onda B EXTRAÍDA (`8e71480`): 29 regiões. Falta aplicar a 2ª passada de validação + Onda C.**
-**Validação em andamento** (3 subagentes em background comparando JSON×imagem): aplicar as correções que reportarem e commitar.
-Depois: **Onda C** = página `mundo-de-arton` (cosmologia/intro) + **Linha do Tempo** (cronologia "Anos AE", impressas 350–353) como entidade/tabela.
-**Pendência conhecida (Deheon):** falta o 3º § da "Libertação de Valkaria" (Guerra Artoniana), cortado por ilustração na col. esq. da PDF 366 — completar se a validação achar a continuação.
+➡️ **MUNDO DE ARTON (Cap. 9) — Onda B COMPLETA E VALIDADA (`8e71480` + `12225a7`): 29 regiões. Próxima: Onda C.**
+**Onda C** = página/regra `mundo-de-arton` (cosmologia/intro, impressa 350) + **Linha do Tempo** (cronologia "Anos AE",
+impressas 350–353) como entidade/tabela; integração + commit. Texto cru em `extracao/cache/arton.txt` (2 colunas — conferir por imagem).
+**Validação da Onda B ✅** (3 lotes independentes por visão, JSON×imagem 300 DPI): 26/29 fiéis sem reparo. Correções aplicadas (`12225a7`):
+deheon (2 §§ finais da Libertação, antes cortados pela ilustração — "abrigando"/"acreditavam honrar" reconferidos), mercado
+("nas" não "das" → renomeado p/ `mercado-nas-nuvens`), aslothia ("grimórios"), ermos-purpuras (tira "se" sobrando).
+Confirmados: Sambúrdia e Nova Malpetrim têm cabeçalho próprio; grafias Schwolld (Ahlen) e Moreania.
+**Apontamento aberto (baixa prioridade):** "A Tragédia Élfica" está em `ruinas-de-tyrondir` mas fica fisicamente após Doherimm
+(impressa 383) e fala de Lamnor — atribuição editorial discutível; conteúdo fiel. Reavaliar se incomodar.
 **UI feita nesta sessão:** listas a 1480px (`9cd50ff`); **fichas em duas colunas** texto+barra lateral (`f782d0c`, colapsa no mobile; imagem fica na lateral — decisão do usuário, tentativa de "imagem ao lado do texto" foi revertida).
 
 **29 regiões (`8e71480`):** O Reinado (8): deheon, bielefeld, wynlla, namalkah, ahlen, zakharov, pondsmania, mercado-das-nuvens.
