@@ -20,18 +20,16 @@ Entregável-bônus: uma landing **/personagem** que amarra os 9 passos aos índi
 > · 6 Perícias · 7 Equipamento · 8 Magias (conjuradoras) · 9 Toques Finais.
 
 ## Ondas
-- [x] **Spike:** regra `atributos` (impressa 17) — 6 atributos + definir (pontos/rolagem 4d6/mínimos) + Tabela 1-1 na `mecanica`.
-- [ ] **A — regras restantes** (`regra-de-criacao`, extração 2 passadas):
-  - `construcao-de-personagem` (9 passos + Conceito) — impressa 16. (vira a base da landing)
-  - `caracteristicas-derivadas` (Toques Finais: PV, PM, recuperação Normal/Ruim/Confortável/Luxuosa, temporários,
-    Defesa = 10 + armadura + Destreza, Tamanho + Tabela 3-2, Deslocamento) — impressas 106–107.
-  - `caracteristicas-das-racas` (Modif. de Atributo + Habilidades de Raça + Tabela 1-2) — impressa 18. **Backfill da regra de Raças.**
-- [ ] **DESCOBRIR:** onde estão **Nível / XP / Patamares (iniciante-veterano-campeão-lenda) / Multiclasse**. Procurar no fim do Cap. 1
-  (impressas 107–113, "Toques Finais"/descrição) ou em capítulo de evolução. Extrair a(s) regra(s) correspondente(s).
-- [ ] **B — landing /personagem** (opcional, alto valor): lista os 9 passos, cada um linkando pro índice/regra
-  (Atributos→/ficha/regra-de-criacao/atributos; Raça→/racas; Classe→/classes; Origem→/origens; Divindade→/deuses;
-  Perícias→/pericias; Equipamento→/equipamento; Magias→/magias; Toques Finais→a regra). Semente da **Trilha do Jogador**.
-- [ ] **C — integração:** build + testes verdes; atalho na home; atualizar PROGRESSO. Commit.
+- [x] **Spike:** regra `atributos` (impressa 17) — 6 atributos + definir (pontos/rolagem 4d6/mínimos) + Tabela 1-1 na `mecanica` (`fe205a1`).
+- [x] **A — regras restantes** (`regra-de-criacao`, verificadas por mim em 300 DPI) (`3502ed8`):
+  - `construcao-de-personagem` (9 passos + Conceito) — impressa 16.
+  - `caracteristicas-derivadas` (Toques Finais: PV, PM, recuperação Ruim/Normal/Confortável/Luxuosa, temporários,
+    Defesa = 10 + Destreza + armadura/escudo, Tamanho + Tabela 1-21, Deslocamento, Descrição) — impressas 106–107.
+  - `caracteristicas-das-racas` (Modif. de Atributo + Habilidades de Raça, aponta pro índice /racas) — impressa 18. **Backfill da regra de Raças.**
+- [x] **B — landing /personagem** (`3502ed8`): os 9 passos, cada um linkando pro índice/regra. Atalho na home. **Semente da Trilha do Jogador.**
+- [x] **C — integração:** build 677 + suíte 117 verdes; atalho na home; PROGRESSO atualizado.
+- [ ] **DESCOBERTO:** **Nível / XP / Patamares / Multiclasse NÃO estão no Cap. 1.** Os Toques Finais terminam em Descrição (impressa 107)
+  apontando pro **Capítulo 5: Jogando**. → Tratar Nível/XP/Patamares (iniciante-veterano-campeão-lenda)/Multiclasse na **fatia do Cap. 5 (Combate & Jogando)**.
 
 ## Notas
 - Tabelas (1-1, 1-2, 3-2) entram em `mecanica` como array de objetos → `Ficha` genérico renderiza como `<table>`.

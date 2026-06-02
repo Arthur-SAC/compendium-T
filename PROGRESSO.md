@@ -4,19 +4,24 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)**. Próxima: **Construção de Personagem / Atributos** (Cap. 1).
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (4 regras + landing /personagem)**. Próxima: **Combate & Jogando** (Cap. 5).
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **DEUSES ✅ CONCLUÍDO** (Ondas A+B+C + Passada 2). Plano `docs/superpowers/plans/2026-06-02-deuses-plano.md`;
-mapa `deuses-paginas.md`. **Próxima fatia: Construção de Personagem / Atributos (Cap. 1)** — os 6 passos,
-os 6 Atributos e o que cada um faz, rolagem/compra de pontos, multiclasse, evolução de nível/XP/patamares.
-É uma fatia de REGRA (não catálogo) — provavelmente entidades `regra-de-criacao` + índice próprio. Decisão do
-usuário: seguir a sequência; catálogos já feitos, agora as regras de criação. Depois: Combate & Jogando (Cap. 5),
-Mundo de Arton, Mestrar.
+➡️ **CONSTRUÇÃO DE PERSONAGEM ✅** (Cap. 1, regras de criação). Plano `docs/superpowers/plans/2026-06-02-construcao-personagem-plano.md`.
+4 regras (`regra-de-criacao`, verificadas em 300 DPI): **`atributos`** (6 atributos + pontos/rolagem 4d6/mínimos + Tabela 1-1),
+**`construcao-de-personagem`** (visão geral + **9 passos** + Conceito), **`caracteristicas-derivadas`** (Toques Finais:
+PV/PM, recuperação, temporários, Defesa, Tamanho + Tabela 1-21, Deslocamento, Descrição), **`caracteristicas-das-racas`**
+(Modif. de Atributo + Habilidades de Raça → /racas; backfill de Raças). **Landing `/personagem`** com os 9 passos linkando
+pros índices (semente da Trilha do Jogador) + atalho na home. Tabelas vão na `mecanica` e renderizam via `Ficha` (corrigido).
+**Nota:** eram **9 passos** (não 6, como dizia a nota antiga). **Nível/XP/Patamares/Multiclasse NÃO estão no Cap. 1** →
+ficam pra fatia do **Cap. 5 (Combate & Jogando)**.
+
+**Próxima fatia: Combate & Jogando (Cap. 5)** — combate, ações, testes/CDs, condições em uso, e **Nível/XP/Patamares/Multiclasse**.
+Depois: **Mundo de Arton** e **Mestrar**. (Pendências de polimento no Backlog de UX; símbolos dos deuses + Deuses de Arton anotados.)
 
 **Deuses ✅** (20 divindades + regra de devoção; plano `2026-06-02-deuses-plano.md`):
 - **Onda A ✅ (`79bf2a6`):** `DivindadeMecanicaSchema` (crencasObjetivos, simboloSagrado, canalizaEnergia,
