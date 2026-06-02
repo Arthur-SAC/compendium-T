@@ -1,0 +1,80 @@
+{
+  "id": "testes-e-dificuldades",
+  "tipo": "regra-de-criacao",
+  "nome": "Testes e Dificuldades",
+  "resumo": "Como resolver ações incertas: 1d20 + modificador contra uma CD. Testes de atributo e perícia, comuns e opostos, e testes estendidos.",
+  "fonte": { "livro": "livro-basico", "pagina": 220 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Testes",
+      "texto": "Sempre que um personagem tenta fazer uma ação cujo resultado é incerto, o jogador faz um teste. Um teste é uma rolagem de 1d20 + um modificador. Testes são classificados pela característica utilizada (atributo ou perícia) e pelo que define sua CD (comuns ou opostos)."
+    },
+    {
+      "titulo": "Testes de Atributo",
+      "texto": "Você usa testes de atributo para tarefas básicas, para as quais nenhuma perícia se aplica. Para fazer um teste de atributo, role 1d20 e some o valor do atributo apropriado.\n\nTeste de Atributo = 1d20 + Atributo\n\nExemplos: erguer um objeto pesado (Força); amarrar cordas (Destreza); estabilizar sangramento (Constituição); resolver um enigma (Inteligência); decidir se algo é prudente (Sabedoria); causar boa impressão (Carisma)."
+    },
+    {
+      "titulo": "Testes de Perícia",
+      "texto": "Um teste de perícia funciona como um teste de atributo. Porém, você soma o valor da perícia em questão.\n\nTeste de Perícia = 1d20 + Valor de Perícia\n\nO Capítulo 2: Perícias & Poderes explica como calcular seu valor de cada perícia."
+    },
+    {
+      "titulo": "Testes Comuns",
+      "texto": "Testes comuns são usados quando um personagem está competindo contra o ambiente. São realizados contra uma CD determinada pelo mestre, de acordo com a tarefa sendo realizada (veja a Tabela 5-1: Dificuldades). As descrições de cada perícia, no Capítulo 2, também trazem exemplos de dificuldades para tarefas específicas."
+    },
+    {
+      "titulo": "Testes Opostos",
+      "texto": "Testes opostos são usados quando dois ou mais personagens estão competindo entre si. Cada personagem envolvido faz seu teste; aquele com o maior valor é o vencedor. Em caso de empate, uma nova rolagem deve ser feita."
+    },
+    {
+      "titulo": "Misturando Testes Comuns e Opostos",
+      "texto": "Um teste pode ser comum e oposto ao mesmo tempo. Por exemplo, se três personagens estão disputando para ver quem atravessa um lago primeiro, todos devem fazer um teste de Atletismo contra uma CD. Aqueles que passarem atravessam o lago; dentre esses, aquele com o maior resultado chega primeiro."
+    },
+    {
+      "titulo": "Sucessos e Falhas Automáticos",
+      "texto": "Ao fazer um teste, um 20 natural (quando o resultado do d20 é 20) sempre é um sucesso, e um 1 natural (quando o resultado do d20 é 1) sempre é uma falha, não importando o valor a ser alcançado."
+    },
+    {
+      "titulo": "Condições Favoráveis e Desfavoráveis",
+      "texto": "Certas situações podem tornar um teste mais fácil ou mais difícil. Para representar isso, o mestre pode alterar o teste de duas maneiras:\n\n• Conceder um bônus de +2 ou mais para circunstâncias que melhorem o desempenho (ex.: procurar um livro em uma biblioteca bem organizada com um teste de Investigação).\n\n• Impor uma penalidade de –2 ou mais para circunstâncias que atrapalhem o desempenho (ex.: procurar um frasco específico em um laboratório bagunçado com um teste de Investigação)."
+    },
+    {
+      "titulo": "Novas Tentativas",
+      "texto": "Em geral, você pode tentar um teste de novo em caso de falha e continuar tentando. Contudo, alguns testes acarretam penalidades (ou problemas!) em caso de falha. Por exemplo, um personagem que falhe em um teste de Atletismo para subir uma encosta pode tentar novamente; mas, se falhar por 5 ou mais, cairá."
+    },
+    {
+      "titulo": "Ferramentas",
+      "texto": "Algumas perícias requerem ferramentas. Se isso for necessário, será mencionado na descrição da perícia. Se você não possui o item apropriado, ainda pode usar a perícia, mas sofre uma penalidade de –5 no teste."
+    },
+    {
+      "titulo": "Ajudar",
+      "texto": "Às vezes, os personagens trabalham juntos e se ajudam. Um personagem (normalmente aquele com o maior bônus) é o líder e faz o teste normal, enquanto cada ajudante faz um teste contra CD 10 (usando a mesma perícia ou outra que faça sentido). Um teste de ajuda concede ao líder um bônus de +1, e +1 adicional para cada 10 pontos acima da CD (+2 para um resultado 20, +3 para 30 e assim por diante). Em muitos casos, ajuda externa não traz benefícios (você não pode ajudar um colega a ser mais silencioso em seu teste de Furtividade), ou apenas um número limitado de ajudantes pode auxiliar ao mesmo tempo. O mestre limita a ajuda como achar melhor."
+    },
+    {
+      "titulo": "Testes sem Rolagens",
+      "texto": "Quando uma tarefa não é desafiadora nem feita em situação de perigo, você pode dispensar a rolagem para acelerar o jogo.\n\nEscolher 0. Quando seu bônus total em um teste é igual ou maior que a CD, você passa automaticamente — a tarefa é trivial para você. Caso o teste tenha graus de sucesso, obtém o mínimo (ainda pode rolar para um grau maior, arriscando falhar em um 1 natural).\n\nEscolher 10. Quando não há pressão, em vez de rolar 1d20 considere um resultado 10 automático. Costuma bastar para muitas tarefas.\n\nEscolher 20. Quando não há pressão nem consequência por falhar, considere um resultado 20 automático — mas exige vinte vezes mais tempo que o normal."
+    },
+    {
+      "titulo": "Testes Estendidos",
+      "texto": "A maioria das tarefas se resolve com um único teste. Para situações complexas e demoradas (escalar uma montanha) ou para criar tensão, use um teste estendido: o grupo deve acumular uma quantidade de sucessos antes de três falhas (o que indica uma falha total). Quanto mais complexa a tarefa, mais sucessos são exigidos (veja a Tabela 5-2).\n\nTestes estendidos podem envolver mais de uma perícia. Podem ser feitos em grupo (resolva por \"rodadas\"; a cada rodada cada jogador faz um teste, somando sucessos e falhas de todos). Nos testes estendidos abertos, o mestre deixa os jogadores escolherem quais perícias usar (cada perícia só uma vez). Personagens podem ajudar (a perícia usada para ajudar não pode ser reutilizada no teste estendido).\n\nPara desafios maiores, o mestre pode usar dificuldade cumulativa (CD +2 a cada teste) e penalidades por falha (ex.: –2 cumulativo por falha numa negociação, ou 3d6 de dano por falha ao escalar). Interrupções podem contar como falha, a critério do mestre."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_5_1_dificuldades": [
+      { "tarefa": "Fácil*", "cd": "5", "exemplo": "Subir uma encosta íngreme (Atletismo)" },
+      { "tarefa": "Média", "cd": "10", "exemplo": "Ouvir um guarda se aproximando (Percepção)" },
+      { "tarefa": "Difícil", "cd": "15", "exemplo": "Estancar um sangramento (Cura)" },
+      { "tarefa": "Desafiadora", "cd": "20", "exemplo": "Nadar contra uma correnteza (Atletismo)" },
+      { "tarefa": "Formidável", "cd": "25", "exemplo": "Sabotar uma armadilha complexa (Ladinagem)" },
+      { "tarefa": "Heroica", "cd": "30", "exemplo": "Decifrar um pergaminho antigo em um idioma morto (Conhecimento)" },
+      { "tarefa": "Quase Impossível", "cd": "40", "exemplo": "Fabricar uma \"obra-prima\" — um item com quatro melhorias (Ofício)" }
+    ],
+    "tabela_5_2_testes_estendidos": [
+      { "sucessos_exigidos": "3", "complexidade": "Baixa", "exemplo": "Escalar um paredão (Atletismo)" },
+      { "sucessos_exigidos": "5", "complexidade": "Média", "exemplo": "Atravessar o Pântano dos Juncos (Sobrevivência)" },
+      { "sucessos_exigidos": "7", "complexidade": "Alta", "exemplo": "Compreender um ritual antigo (Misticismo)" }
+    ],
+    "nota_testes_faceis": "Testes fáceis (CD 5) aparecem na tabela para dar senso de escala, mas normalmente não são exigidos — o mestre pode considerar que o personagem passa automaticamente, para acelerar o jogo."
+  }
+}
