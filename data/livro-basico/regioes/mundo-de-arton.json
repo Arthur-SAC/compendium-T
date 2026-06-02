@@ -1,0 +1,32 @@
+{
+  "id": "mundo-de-arton",
+  "tipo": "regiao",
+  "nome": "Mundo de Arton",
+  "resumo": "Visão geral do cenário: Arton é continente e mundo, forjado por vinte divindades maiores e centro de toda a Criação — do Reinado e suas nações civilizadas às terras selvagens que as cercam.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 350
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Cosmologia",
+      "texto": "Arton é um continente, mas também um mundo — tão vasto e inexplorado que quase nada além dos oceanos realmente importa. Forjado pelo poder de vinte divindades maiores, soberanas. É o centro de seu universo, o centro de toda a Criação. O sol, a lua e as demais moradas dos deuses orbitam a seu redor, em meio à vastidão planar do Nada e do Vazio."
+    },
+    {
+      "titulo": "As Terras de Arton",
+      "texto": "Neste mundo, em sua imensa área continental, a humanidade se espalha. Movidos por sua criadora, a Deusa da Ambição, os povos humanos colonizam e conquistam — mas abocanham mais do que podem mastigar. Erguem povoados e cidadelas ousadas, imprudentes, cercadas de selvageria indomada. Alcançar suas grandes cidades demanda semanas, até meses, de viagem a cavalo. Ainda que cada aldeia ou metrópole brilhe com personalidade própria, com suas maravilhas e maneirismos, a simples jornada entre esses pontos é uma aventura.\n\nO centro da civilização humana em Arton é o Reinado, aliança de reinos liderada pela Rainha-Imperatriz Shivara. Há poucos anos, o Reinado travou uma guerra contra a Supremacia Purista, país militarista e intolerante. O conflito terminou em impasse e todos sabem que é questão de tempo até os batalhões puristas marcharem novamente. Outro vizinho inconveniente é Aslothia, o Reino dos Mortos, terra cinzenta onde barões vampiros comandam falanges de esqueletos e oprimem os vivos. Mais ao norte encontram-se a liga de cidades-estados mercantes conhecida como Repúblicas Livres de Sambúrdia, os pequenos reinos de Svalas e Salistick, os Feudos de Trebuck e Sckharshantallas, o Reino do Dragão. Por fim, ao oeste, ergue-se o decadente Império de Tauron, enquanto que ao leste, no Mar do Dragão-Rei, situa-se a exótica Khubar.\n\nAlém dessas regiões \"civilizadas\", existem terras ainda mais selvagens. Os Ermos Púrpuras são florestas profundas, habitadas por tribos que seguem costumes antigos. As Sanguinárias, maior cordilheira de Arton, são território de gigantes, dragões e outros monstros. A ilha tropical de Galrasia esconde lagartos-terror e outras feras ancestrais, esquecidas pelo tempo. A Grande Savana é dominada por manadas bravias, predadores astutos e sociedades arcanas misteriosas. Por fim, o Deserto da Perdição simplesmente devora aqueles que ousam desafiar suas dunas e tempestades. Os únicos que conhecem os mistérios das areias são os Sar-Allan, povo que se divide entre saqueadores nômades e sábios que vivem em grandes cidades."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "citada",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Valkaria, a Deusa da Ambição"
+    }
+  ],
+  "mecanica": {
+    "secao": "Mundo de Arton"
+  }
+}
