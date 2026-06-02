@@ -4,7 +4,7 @@
   "nome": "Oceano",
   "resumo": "Deus dos Mares, sereno e pleno em si mesmo.",
   "fonte": { "livro": "livro-basico", "pagina": 102 },
-  "imagens": [],
+  "imagens": ["/divindades/oceano.png"],
   "secoes": [
     {
       "titulo": "",

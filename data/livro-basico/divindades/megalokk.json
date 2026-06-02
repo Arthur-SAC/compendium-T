@@ -4,7 +4,7 @@
   "nome": "Megalokk",
   "resumo": "Deus dos Monstros, da selvageria e do descontrole.",
   "fonte": { "livro": "livro-basico", "pagina": 101 },
-  "imagens": [],
+  "imagens": ["/divindades/megalokk.png"],
   "secoes": [
     {
       "titulo": "",

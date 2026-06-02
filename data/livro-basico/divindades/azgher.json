@@ -4,7 +4,7 @@
   "nome": "Azgher",
   "resumo": "Deus do Sol, severo guardião dos viajantes e protetor dos desertos.",
   "fonte": { "livro": "livro-basico", "pagina": 98 },
-  "imagens": [],
+  "imagens": ["/divindades/azgher.png"],
   "secoes": [
     {
       "titulo": "",

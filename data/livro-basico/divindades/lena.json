@@ -4,7 +4,7 @@
   "nome": "Lena",
   "resumo": "A Deusa da Vida, da Criança e da fertilidade, padroeira da cura e do sustento.",
   "fonte": { "livro": "livro-basico", "pagina": 99 },
-  "imagens": [],
+  "imagens": ["/divindades/lena.png"],
   "secoes": [
     {
       "titulo": "",

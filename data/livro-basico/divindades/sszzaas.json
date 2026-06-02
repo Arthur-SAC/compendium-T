@@ -4,7 +4,7 @@
   "nome": "Sszzaas",
   "resumo": "O sibilante Deus da Traição, o mais inteligente e perigoso dos deuses.",
   "fonte": { "livro": "livro-basico", "pagina": 103 },
-  "imagens": [],
+  "imagens": ["/divindades/sszzaas.png"],
   "secoes": [
     {
       "titulo": "",

@@ -4,7 +4,7 @@
   "nome": "Aharadak",
   "resumo": "A Tormenta personificada: senhor monstruoso e ambicioso da aberração e da loucura.",
   "fonte": { "livro": "livro-basico", "pagina": 96 },
-  "imagens": [],
+  "imagens": ["/divindades/aharadak.png"],
   "secoes": [
     {
       "titulo": "",

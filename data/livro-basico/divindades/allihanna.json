@@ -4,7 +4,7 @@
   "nome": "Allihanna",
   "resumo": "Deusa da Natureza, protetora dos ermos selvagens e do equilíbrio natural.",
   "fonte": { "livro": "livro-basico", "pagina": 97 },
-  "imagens": [],
+  "imagens": ["/divindades/allihanna.png"],
   "secoes": [
     {
       "titulo": "",

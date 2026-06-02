@@ -4,7 +4,7 @@
   "nome": "Valkaria",
   "resumo": "A Deusa da Ambição e nova líder do Panteão.",
   "fonte": { "livro": "livro-basico", "pagina": 105 },
-  "imagens": [],
+  "imagens": ["/divindades/valkaria.png"],
   "secoes": [
     {
       "titulo": "",

@@ -4,7 +4,7 @@
   "nome": "Arsenal",
   "resumo": "Deus da Guerra, mestre do combate e das armas, antes mortal e hoje divino.",
   "fonte": { "livro": "livro-basico", "pagina": 98 },
-  "imagens": [],
+  "imagens": ["/divindades/arsenal.png"],
   "secoes": [
     {
       "titulo": "",

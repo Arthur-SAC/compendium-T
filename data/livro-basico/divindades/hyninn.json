@@ -4,7 +4,7 @@
   "nome": "Hyninn",
   "resumo": "O ardiloso Deus da Trapaça, padroeiro de foras da lei e trapaceiros.",
   "fonte": { "livro": "livro-basico", "pagina": 98 },
-  "imagens": [],
+  "imagens": ["/divindades/hyninn.png"],
   "secoes": [
     {
       "titulo": "",

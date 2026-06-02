@@ -4,7 +4,7 @@
   "nome": "Kallyadranoch",
   "resumo": "O Deus dos Dragões, senhor da soberania, do orgulho e do poder elemental das grandes feras.",
   "fonte": { "livro": "livro-basico", "pagina": 99 },
-  "imagens": [],
+  "imagens": ["/divindades/kallyadranoch.png"],
   "secoes": [
     {
       "titulo": "",

@@ -4,7 +4,7 @@
   "nome": "Thyatis",
   "resumo": "O generoso Deus da Ressurreição e Profecia.",
   "fonte": { "livro": "livro-basico", "pagina": 104 },
-  "imagens": [],
+  "imagens": ["/divindades/thyatis.png"],
   "secoes": [
     {
       "titulo": "",

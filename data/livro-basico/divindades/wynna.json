@@ -4,7 +4,7 @@
   "nome": "Wynna",
   "resumo": "A exuberante Deusa da Magia, que concede magia a todos que pedem.",
   "fonte": { "livro": "livro-basico", "pagina": 105 },
-  "imagens": [],
+  "imagens": ["/divindades/wynna.png"],
   "secoes": [
     {
       "titulo": "",

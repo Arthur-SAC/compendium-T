@@ -4,7 +4,7 @@
   "nome": "Tanna-Toh",
   "resumo": "A Deusa do Conhecimento, venerada pelos povos civilizados.",
   "fonte": { "livro": "livro-basico", "pagina": 103 },
-  "imagens": [],
+  "imagens": ["/divindades/tanna-toh.png"],
   "secoes": [
     {
       "titulo": "",

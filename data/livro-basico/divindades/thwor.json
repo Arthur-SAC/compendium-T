@@ -4,7 +4,7 @@
   "nome": "Thwor",
   "resumo": "Imperador bugbear ascendido como o Deus dos Goblinoides.",
   "fonte": { "livro": "livro-basico", "pagina": 104 },
-  "imagens": [],
+  "imagens": ["/divindades/thwor.png"],
   "secoes": [
     {
       "titulo": "",

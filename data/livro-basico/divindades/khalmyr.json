@@ -4,7 +4,7 @@
   "nome": "Khalmyr",
   "resumo": "Antigo líder do Panteão e Deus da Justiça.",
   "fonte": { "livro": "livro-basico", "pagina": 99 },
-  "imagens": [],
+  "imagens": ["/divindades/khalmyr.png"],
   "secoes": [
     {
       "titulo": "",

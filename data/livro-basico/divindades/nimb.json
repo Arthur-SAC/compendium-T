@@ -4,7 +4,7 @@
   "nome": "Nimb",
   "resumo": "Deus do Caos, da sorte, do azar e da loucura.",
   "fonte": { "livro": "livro-basico", "pagina": 102 },
-  "imagens": [],
+  "imagens": ["/divindades/nimb.png"],
   "secoes": [
     {
       "titulo": "",

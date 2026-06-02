@@ -4,7 +4,7 @@
   "nome": "Lin-Wu",
   "resumo": "O honrado Deus Samurai, patrono da honra, da coragem e do Império de Jade.",
   "fonte": { "livro": "livro-basico", "pagina": 100 },
-  "imagens": [],
+  "imagens": ["/divindades/lin-wu.png"],
   "secoes": [
     {
       "titulo": "",

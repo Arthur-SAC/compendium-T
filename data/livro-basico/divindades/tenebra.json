@@ -4,7 +4,7 @@
   "nome": "Tenebra",
   "resumo": "A sedutora e misteriosa Deusa das Trevas, mãe de tudo que anda e rasteja no escuro.",
   "fonte": { "livro": "livro-basico", "pagina": 104 },
-  "imagens": [],
+  "imagens": ["/divindades/tenebra.png"],
   "secoes": [
     {
       "titulo": "",

@@ -4,7 +4,7 @@
   "nome": "Marah",
   "resumo": "Deusa da Paz, do amor e da esperança.",
   "fonte": { "livro": "livro-basico", "pagina": 101 },
-  "imagens": [],
+  "imagens": ["/divindades/marah.png"],
   "secoes": [
     {
       "titulo": "",
