@@ -17,16 +17,19 @@ funcionam, e o sistema de combate. Completa a camada "jogável sem o livro".
 - **Pendente de backfill (abertura das Classes, impressas 32–34):** `classes-como-funcionam` — o que é uma classe, Características
   (atributo-chave, PV/PM, perícias, habilidades) + tabela-resumo das 14 classes + Habilidades de Classe.
 
-## Decomposição em regras (`regra-de-criacao`) — extrair por visão (páginas renderizadas), 2 passadas
-- [ ] **`testes-e-dificuldades`** (SPIKE) — Fazendo Testes (de atributo, de perícia, comuns, opostos, misturando testes),
-  **Tabela 5-1: Dificuldades** (CDs), Condições Favoráveis/Desfavoráveis, **Testes Estendidos** (abertos, em grupo, ajuda).
-- [ ] **`habilidades-e-efeitos`** — como habilidades funcionam: tipos de efeito (dano, cura, movimento, condição…),
-  área e duração de efeitos, **bônus que não acumulam** (mesma fonte), Redução de Dano (RD), Vulnerabilidade, **Tipos de Dano**
-  (corte/impacto/perfuração, fogo/frio/eletricidade/ácido, essência/luz/trevas, psíquico).
-- [ ] **`combate`** — Iniciativa, Surpresa/desprevenido, Rodada e Turno, **Ações** (padrão, movimento, livre, completa, reação),
-  **Teste de Ataque** (CD = Defesa), **Dano** (corpo a corpo = arma + Força; disparo = arma), **Acertos Críticos**,
-  **Defesa**, **Cobertura**, Movimento em combate, **Manobras** (derrubar, agarrar, empurrar…), Ataques de Oportunidade.
-  (Talvez dividir em `combate` + `acoes-e-manobras` se ficar grande.)
+## Decomposição em regras (`regra-de-criacao`) — extração via texto pdftotext (exato) + verificação de tabelas em imagem
+- [x] **`testes-e-dificuldades`** (`09dbea3`) — Fazendo Testes (atributo/perícia/comuns/opostos/misturando), Tabela 5-1
+  Dificuldades, sucessos/falhas automáticos, condições favoráveis, novas tentativas, ferramentas, ajudar, escolher 0/10/20,
+  Testes Estendidos (+ Tabela 5-2, abertos/em grupo/ajuda/dificultando/interrupções).
+- [x] **`habilidades-e-efeitos`** (`a4f9830`) — usar habilidades (passiva/ativada/engatilhada), custo de PM + custos especiais,
+  alcance, alvos e áreas (linha de efeito/formas/criação), clarificações, acúmulo de efeitos, efeitos que afetam testes,
+  limites de nível, duração, testes de resistência; + tabelas: alcances, formas de área, durações, 18 tipos de efeito, 15 habilidades gerais.
+- [ ] **`combate`** ⬅️ **PRÓXIMO (o maior)** — impressa 229+. Estatísticas de combate, **Tipos de Dano** (ácido/corte/impacto/
+  perfuração/fogo/frio/eletricidade/luz/trevas/essência/psíquico/mental/veneno), Iniciativa, Surpresa/desprevenido, Rodada e
+  Turno, **Ações** (padrão, movimento, livre, completa, reação), **Teste de Ataque** (CD = Defesa), **Dano** (corpo a corpo =
+  arma + Força; disparo = arma), **Acertos Críticos**, **Defesa**, **Cobertura**, Movimento em combate, **Manobras**
+  (derrubar, agarrar, empurrar, etc.), Ataques de Oportunidade. **Dividir em `combate` + `acoes-e-manobras` se ficar grande.**
+  Texto em `extracao/cache/jogando/jogando.txt` (Cap.5 = início até ~rodapé "Jogando"; depois é Cap.6 O Mestre).
 
 > Condições já existem como tooltips (`data/referencia/condicoes.json`, 35 condições) e Recuperação/Descanso já está em
 > `caracteristicas-derivadas` — não reextrair; linkar/cruzar.
