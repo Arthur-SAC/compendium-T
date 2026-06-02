@@ -4,15 +4,20 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Recompensas (Cap. 8)** ou **Ameaças/Perigos (Cap. 7)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) ✅ COMPLETO.** Próxima fatia: **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)** — definir com o usuário.
-Possível polimento: índice `/regras` reunindo as regras de jogo; rever atribuição de epítetos derivados (sem subtítulo impresso) se incomodar.
+➡️ **CAP. 6 (O MESTRE) ✅ COMPLETO.** Próxima fatia: **Recompensas (Cap. 8: XP, Tesouros, Itens Mágicos, impressas 324+)** ou **Ameaças/Perigos (Cap. 7, impressas 280–323: Construindo Combates, Criaturas, Perigos, Fichas de NPCs)** — definir com o usuário.
+Polimento possível (decisão do usuário pendente): compactar em TABELA as listas longas das regras do Mestre (parceiros/montarias em `npcs-mestre`; as 20 aventuras-modelo em `sessoes-aventuras-e-campanhas`) — hoje são `secoes` (fiel ao livro, mas páginas longas).
+
+**Cap. 6 — O Mestre ✅ (`b4924e0` + validação `dbd1536`):** 5 regras `regra-de-criacao` (extração pura; tipo/índice/Ficha já existiam) +
+grupo "O Mestre" no `/regras`. `como-mestrar` (12 secoes), `sessoes-aventuras-e-campanhas` (38), `npcs-mestre` (37 + Tabela 6-1),
+`ambientes-de-aventura` (34 + Tabelas 6-2..6-5), `tempo-entre-aventuras` (10 + Tabelas 6-6/6-7 + Recompensas&Castigos).
+Validação 2ª passada por visão: **tabelas 100% corretas**; 4 arquivos fiéis; 3 fixes de prosa em `como-mestrar` (incl. um "não" que faltava). Build 721 páginas. Plano `2026-06-02-mestrar-cap6-plano.md`.
 
 **Onda C ✅ (`5706afa`):** `mundo-de-arton` (cosmologia + visão geral, seção "Mundo de Arton", topo do `/mundo`) +
 `linha-do-tempo` (132 entradas "História Parcial", 7 Bilhões de Anos AE → 1420 "Época atual"; tabela ano|evento via `Ficha`).
