@@ -4,19 +4,28 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras: Testes, Habilidades&Efeitos, Combate, Ações em Combate)**. Próxima: **Mundo de Arton** ou **Mestrar (Cap. 6)** ou **Recompensas (Cap. 8)**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton — Onda A ✅ (entidade `regiao`, índice `/mundo`, spike Deheon)**. Próxima: **Mundo de Arton Onda B (extrair as ~26 regiões restantes)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **MUNDO DE ARTON (Cap. 9) — PLANEJADO, iniciar Onda A.** Usuário escolheu esta fatia. Plano `docs/superpowers/plans/2026-06-02-mundo-de-arton-plano.md`;
-texto em `extracao/cache/arton.txt`. **Cap. 9 = impressas 350–391** (PDF 356–397): seções Mundo de Arton (cosmologia/cronologia, 350),
-O Reinado (regiões civilizadas, 358), Além do Reinado (terras selvagens, 370). Regiões = entidades **`regiao`** de PROSA (reusam `Ficha`
-genérico; sem schema novo). **PRÓXIMO (Onda A):** mapear região→página (`mundo-paginas.md`, por imagem — cabeçalhos não são all-caps),
-índice `/mundo`, spike Deheon. Regiões conhecidas: Deheon, Supremacia Purista, Aslothia, Repúblicas Livres de Sambúrdia, Svalas,
-Salistick, Trebuck, Sckharshantallas, Tauron, Khubar; Ermos Púrpuras, Sanguinárias, Galrasia, Grande Savana, Deserto da Perdição.
+➡️ **MUNDO DE ARTON (Cap. 9) — Onda B: extrair as ~26 regiões restantes.** Plano `2026-06-02-mundo-de-arton-plano.md`;
+**mapa autoritativo `docs/superpowers/plans/mundo-paginas.md`** (região→página, subseções, achados). Onda A já fez código + spike Deheon.
+**Como na Onda A:** renderizar a página da região em 300 DPI (`pdftoppm -r 300`, `extracao/cache/arton/`), recortar colunas com PIL,
+transcrever fiel (2 passadas, sem inventar), salvar `data/livro-basico/regioes/<slug>.json` (tipo `regiao`, `mecanica.secao`
+= "O Reinado"/"Além do Reinado", `epiteto`, `capital`; subseções → `secoes`; deuses/raças citados → `relacoes` + auto-link Title-Case).
+Commit por bloco. **Atenção (do mapa):** (a) reinos do Reinado são regiões PARES (Bielefeld, Wynlla, Namalkah, Ahlen, Zakharov,
+Pondsmânia, Mercado das Nuvens); (b) "Além do Reinado" tem ~19 (Supremacia Purista, Aslothia [sem cabeçalho], Trebuck, Reino do
+Dragão, Sanguinárias, Ermos Púrpuras, Tauron, Pistoleiros, Tyrondir, Salistick, Svalas, Doherimm, Três Mares, Khubar, Galrasia,
+Lamnor, Tamu-ra, Morégnia, A Tormenta); (c) layout tem fluxo "Continua na página…" — algumas regiões terminam cortadas por ilustração
+(Deheon tem 3º § da Libertação/Guerra Artoniana ainda pendente). **Depois (Onda C):** página `mundo-de-arton` (cosmologia) + Linha do Tempo (cronologia).
+
+**Cap. 9 Onda A ✅ (`1450945`):** entidade `regiao` (prosa, reusa `Ficha` genérico — sem schema novo; `mecanica` mínima
+`secao`/`epiteto`/`capital`). Índice `/mundo` agrupado por seção (ordem do livro) + ordenado por página + atalho na home.
+Spike **Deheon** (impressa 358, 300 DPI): intro + A Cidade sob a Deusa + A Libertação de Valkaria; auto-link acende Valkaria/Khalmyr.
+Mapa de descoberta corrigiu o plano (divisão real O Reinado/Além do Reinado; reinos-membros são regiões pares). +2 testes (119 verde); build 685 páginas.
 
 **Cap. 5 Jogando ✅ COMPLETO** (4 regras: `testes-e-dificuldades`, `habilidades-e-efeitos`, `combate`, `acoes-em-combate`).
 Plano `2026-06-02-jogando-combate-plano.md`. **Polimento pendente:** índice `/regras` reunindo as ~16 regras de jogo
