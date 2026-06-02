@@ -1,0 +1,121 @@
+{
+  "id": "combate",
+  "tipo": "regra-de-criacao",
+  "nome": "Combate",
+  "resumo": "O sistema de combate: teste de ataque vs Defesa, dano e tipos de dano, acertos críticos, iniciativa, rodadas, ferimentos e morte, movimentação e situações especiais.",
+  "fonte": { "livro": "livro-basico", "pagina": 229 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Embora seja possível superar obstáculos e vencer inimigos de muitas formas, às vezes os heróis ficam sem escolha além de sacar suas armas, preparar suas magias e partir para a batalha."
+    },
+    {
+      "titulo": "Teste de Ataque",
+      "texto": "É um tipo específico de teste de perícia, para acertar um alvo. Normalmente é um teste de Luta (ataque corpo a corpo) ou de Pontaria (ataque à distância). A dificuldade é a Defesa do alvo: se o resultado é igual ou maior que a Defesa, você acerta e causa dano. O teste pode sofrer modificadores por habilidades, arma e condições (veja a Tabela 5-3)."
+    },
+    {
+      "titulo": "Dano",
+      "texto": "Quando você acerta um ataque, causa dano, reduzindo os PV do inimigo. Você rola os dados de dano da arma ou ataque (ex.: 1d4 para uma adaga, 1d8 para uma espada longa — veja o Capítulo 3).\n\nDano com arma corpo a corpo ou de arremesso = dano da arma + Força do atacante.\nDano com arma de disparo = dano da arma.\n\nAssim, um personagem com Força 3 usando espada longa causa 1d8+3."
+    },
+    {
+      "titulo": "Acertos Críticos",
+      "texto": "Um acerto crítico atinge pontos vitais. Cada arma tem uma margem de ameaça (18, 19 ou 20 — quando nenhuma aparece, é 20) e um multiplicador (x2, x3 ou x4 — quando nenhum aparece, é x2), na coluna \"Crítico\" da tabela de armas (Capítulo 3).\n\nVocê faz um crítico quando acerta rolando um valor igual ou maior que a margem de ameaça. Multiplica os dados de dano (incluindo aumentos por passos) pelo multiplicador. Bônus numéricos de dano e dados extras (como Ataque Furtivo) NÃO são multiplicados. Criaturas imunes a crítico sofrem o dano de um ataque normal."
+    },
+    {
+      "titulo": "Iniciativa",
+      "texto": "A cada rodada, todo personagem tem um turno. A Iniciativa determina a ordem dos turnos. No início do combate, cada jogador faz um teste de Iniciativa; o mestre faz um único teste para os inimigos (usando o menor valor, se houver vários). Os resultados mais altos agem primeiro. Em empates, age primeiro quem tiver o maior valor de perícia; persistindo, fazem um novo teste entre si. A ordem se mantém por todo o combate (não se rola Iniciativa a cada rodada). Quem entra na batalha depois faz um teste de Iniciativa e age na rodada seguinte.\n\nSurpresa. Se você não percebeu seus inimigos ao começar o combate, está surpreendido (fica desprevenido e não age na primeira rodada). Se você os percebeu e eles não, são eles que estão surpreendidos."
+    },
+    {
+      "titulo": "Como Funciona o Combate",
+      "texto": "O combate acontece em uma série de rodadas. Uma rodada é o tempo para que todos tenham seu turno; um turno é o tempo que cada personagem tem para agir.\n\nPasso 1. Cada personagem faz um teste de Iniciativa (o mestre faz um único para os inimigos).\nPasso 2. O mestre diz quem está ciente dos inimigos; quem não percebe começa surpreendido (desprevenido, não age na 1ª rodada).\nPasso 3. Todos agem na ordem da Iniciativa (exceto os surpreendidos, na 1ª rodada).\nPasso 4. Terminados todos os turnos, a rodada acaba e outra começa, na mesma ordem (já com os antes surpreendidos agindo).\n\nPercebendo os inimigos: em geral, testes de Percepção contra uma CD ou opostos à Furtividade dos inimigos."
+    },
+    {
+      "titulo": "A Rodada de Combate",
+      "texto": "Uma rodada representa cerca de seis segundos no mundo de jogo. A rodada começa no turno de quem teve a Iniciativa mais alta e termina após o turno do último. É também o tempo entre uma Iniciativa e a mesma Iniciativa na rodada seguinte — efeitos que duram X rodadas terminam imediatamente antes do mesmo resultado de Iniciativa em que começaram."
+    },
+    {
+      "titulo": "Tipos de Ações",
+      "texto": "No seu turno, você pode fazer uma ação padrão e uma ação de movimento, em qualquer ordem. Pode trocar a ação padrão por uma de movimento (fazendo duas de movimento), mas não o inverso. Pode abrir mão das duas para fazer uma ação completa.\n\nPortanto, em um turno: uma ação padrão + uma de movimento; OU duas de movimento; OU uma ação completa. Além disso, qualquer quantidade de ações livres e reações.\n\nAção Padrão: executa uma tarefa (atacar, lançar magia). Ação de Movimento: algum movimento físico (percorrer o deslocamento, levantar, sacar arma…). Ação Completa: exige toda a rodada (abre mão da padrão e da de movimento). Ação Livre: quase nenhum tempo, só no seu turno. Reação: resposta automática, pode ocorrer fora do seu turno (e mesmo se você não puder agir, como atordoado). Veja o catálogo em \"Ações em Combate\"."
+    },
+    {
+      "titulo": "Ferimentos e Morte",
+      "texto": "Ao sofrer dano, subtraia o valor dos seus PV. O dano não impede você de agir — isso só muda quando seus PV chegam a 0 ou menos.\n\nCom 0 PV ou menos você cai inconsciente e fica sangrando. No início de cada turno, faça um teste de Constituição (CD 15): se passar, estabiliza (não testa mais, exceto se perder mais PV); se falhar, perde 1d6 PV. Repita a cada rodada até estabilizar ou morrer. Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou qualquer efeito que cure ao menos 1 PV. Recuperar PV até um valor positivo devolve a consciência.\n\nVocê morre quando seus PV chegam a –10 ou a um número negativo igual à metade dos seus PV totais (o que for mais baixo). Ex.: um personagem com 12 PV morre a –10; com 30 PV, morre a –15."
+    },
+    {
+      "titulo": "Dano Não Letal",
+      "texto": "Dano não letal conta para determinar quando você cai inconsciente, mas não para sangrar ou morrer. Efeitos de cura recuperam primeiro os PV perdidos por dano não letal. Quase todo dano normal é letal; você pode usar uma arma para causar dano não letal (ou uma arma de dano não letal para causar dano letal), mas sofre –5 no teste de ataque."
+    },
+    {
+      "titulo": "Movimentação",
+      "texto": "Deslocamento. Quantos metros você percorre com uma ação de movimento (padrão 9m; raça e classe podem mudar).\n\nAtravessar Espaço Ocupado. Pode atravessar o espaço de um aliado; não o de um inimigo, a menos que ele esteja caído/indefeso, seja ao menos três categorias de tamanho maior/menor, ou você use Acrobacia ou a ação atropelar (espaço de inimigo conta como terreno difícil).\n\nCarga. Sobrecarregado, seu deslocamento diminui 3m. Diagonais. No mapa, mover na diagonal custa o dobro (1,5m = 3m). Subir/Mergulhar (voo/natação): vertical custa o dobro na subida e metade na descida. Terreno Difícil. Custa o dobro (você move metade do deslocamento)."
+    },
+    {
+      "titulo": "Situações Especiais",
+      "texto": "Camuflagem. Camuflagem leve (escuridão leve, neblina, folhagens) dá 20% de chance de falha aos ataques contra você (o atacante rola 1d10 com o d20; 1–2 erra). Camuflagem total (escuridão total) dá 50% de chance de falha (1–5 no d10).\n\nCobertura. Cobertura leve (atrás de árvore, muralha, carroça, criatura maior) dá +5 na Defesa. Cobertura total (atrás de uma parede) impede que você seja atacado.\n\nFlanquear. Quando você e um aliado lutam corpo a corpo em lados opostos de um inimigo, ambos recebem +2 nos ataques contra ele. Não se flanqueia à distância nem com ataques desarmados (salvo Briga ou Estilo Desarmado).\n\nVeja todos os modificadores na Tabela 5-3."
+    },
+    {
+      "titulo": "Quebrando Objetos",
+      "texto": "Tentar quebrar um objeto é similar a atacar uma criatura. Para objetos soltos, faça um ataque contra a Defesa do objeto (definida pela categoria de tamanho; objeto em movimento recebe +5 na Defesa). Para objeto segurado por outra criatura, veja a manobra quebrar. Acertando, causa dano normal — mas objetos costumam ter redução de dano conforme o material. Um objeto reduzido a 0 PV ou menos é destruído. Veja a Tabela 5-4."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipos_de_dano": [
+      { "tipo": "Ácido", "descricao": "Monstros, perigos naturais e itens alquímicos. Ligado ao elemento terra." },
+      { "tipo": "Corte", "descricao": "Armas afiadas (espadas, machados, garras)." },
+      { "tipo": "Eletricidade", "descricao": "Magias e perigos naturais (relâmpago). Ligado ao elemento ar." },
+      { "tipo": "Essência", "descricao": "Energia mágica pura (ex.: Seta Infalível de Talude)." },
+      { "tipo": "Fogo", "descricao": "Calor e chamas naturais e mágicas. Ligado ao elemento fogo." },
+      { "tipo": "Frio", "descricao": "Magias e clima severo. Ligado ao elemento água." },
+      { "tipo": "Impacto", "descricao": "Armas de contusão (clavas, maças), ondas de choque, explosões, ataques sônicos e quedas." },
+      { "tipo": "Luz", "descricao": "Magias e efeitos de divindades bondosas." },
+      { "tipo": "Perfuração", "descricao": "Armas pontudas (lanças) e mordidas de monstros." },
+      { "tipo": "Psíquico", "descricao": "Ataques mentais e magias que afetam a mente." },
+      { "tipo": "Trevas", "descricao": "Necromancia e divindades malignas." }
+    ],
+    "tabela_5_3_modificadores_de_ataque": [
+      { "o_atacante_esta": "Caído", "modificador_no_ataque": "−5" },
+      { "o_atacante_esta": "Cego", "modificador_no_ataque": "50% de chance de falha" },
+      { "o_atacante_esta": "Em posição elevada", "modificador_no_ataque": "+2" },
+      { "o_atacante_esta": "Flanqueando o alvo", "modificador_no_ataque": "+2 (apenas corpo a corpo)" },
+      { "o_atacante_esta": "Invisível", "modificador_no_ataque": "+5 (não se aplica a alvos cegos)" },
+      { "o_atacante_esta": "Ofuscado", "modificador_no_ataque": "−2" }
+    ],
+    "tabela_5_3_modificadores_de_defesa": [
+      { "o_alvo_esta": "Caído", "modificador_na_defesa": "−5 contra corpo a corpo, +5 contra à distância" },
+      { "o_alvo_esta": "Cego", "modificador_na_defesa": "−5" },
+      { "o_alvo_esta": "Desprevenido", "modificador_na_defesa": "−5" },
+      { "o_alvo_esta": "Sob camuflagem leve", "modificador_na_defesa": "20% de chance de falha" },
+      { "o_alvo_esta": "Sob camuflagem total", "modificador_na_defesa": "50% de chance de falha" },
+      { "o_alvo_esta": "Sob cobertura leve", "modificador_na_defesa": "+5" },
+      { "o_alvo_esta": "Sob cobertura total", "modificador_na_defesa": "O alvo não pode ser atacado" }
+    ],
+    "tabela_5_4_objetos": [
+      { "exemplo": "Pergaminho", "tamanho": "Minúsculo", "defesa": "15", "rd": "0", "pv": "1" },
+      { "exemplo": "Corda", "tamanho": "Minúsculo", "defesa": "15", "rd": "0", "pv": "2" },
+      { "exemplo": "Corrente", "tamanho": "Minúsculo", "defesa": "15", "rd": "10", "pv": "2" },
+      { "exemplo": "Cadeira", "tamanho": "Pequeno", "defesa": "12", "rd": "5", "pv": "5" },
+      { "exemplo": "Barril", "tamanho": "Médio", "defesa": "10", "rd": "5", "pv": "10" },
+      { "exemplo": "Porta de madeira", "tamanho": "Grande", "defesa": "8", "rd": "5", "pv": "20" },
+      { "exemplo": "Porta de pedra", "tamanho": "Grande", "defesa": "8", "rd": "8", "pv": "100" },
+      { "exemplo": "Porta de ferro", "tamanho": "Grande", "defesa": "8", "rd": "10", "pv": "100" },
+      { "exemplo": "Carroça", "tamanho": "Grande", "defesa": "8", "rd": "5", "pv": "50" },
+      { "exemplo": "Casebre", "tamanho": "Enorme", "defesa": "5", "rd": "5", "pv": "100" },
+      { "exemplo": "Celeiro", "tamanho": "Colossal", "defesa": "0", "rd": "5", "pv": "200" }
+    ],
+    "tabela_5_4_armas_armaduras_escudos": [
+      { "item": "Arma leve de madeira (machadinha)", "rd": "5", "pv": "2" },
+      { "item": "Arma de uma mão de madeira (clava)", "rd": "5", "pv": "5" },
+      { "item": "Arma de duas mãos de madeira (bordão)", "rd": "5", "pv": "10" },
+      { "item": "Arma leve de metal (adaga)", "rd": "10", "pv": "2" },
+      { "item": "Arma de uma mão de metal (espada longa)", "rd": "10", "pv": "5" },
+      { "item": "Arma de duas mãos de metal (montante)", "rd": "10", "pv": "10" },
+      { "item": "Escudo leve", "rd": "5", "pv": "10" },
+      { "item": "Escudo pesado", "rd": "10", "pv": "20" },
+      { "item": "Armadura leve", "rd": "5", "pv": "20" },
+      { "item": "Armadura pesada", "rd": "10", "pv": "40" }
+    ],
+    "nota_pv_de_itens": "PV de itens comuns. Divida por 2 para itens reduzidos, multiplique por 2 para aumentados e por 5 para gigantes."
+  }
+}
