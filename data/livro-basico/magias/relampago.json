@@ -3,7 +3,7 @@
   "tipo": "magia",
   "nome": "Relâmpago",
   "resumo": "Causa dano de eletricidade em criaturas numa linha.",
-  "fonte": { "livro": "livro-basico", "pagina": 202 },
+  "fonte": { "livro": "livro-basico", "pagina": 203 },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

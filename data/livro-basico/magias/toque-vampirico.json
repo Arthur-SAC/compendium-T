@@ -31,11 +31,6 @@
         "custo": "+2 PM",
         "efeito": "Muda o alcance para pessoal, o alvo para você e a duração para cena. Em vez do normal, a cada rodada você pode gastar uma ação padrão para tocar 1 criatura e causar 3d6 pontos de dano. Você recupera pontos de vida iguais à metade do dano causado.",
         "requisitoCirculo": 3
-      },
-      {
-        "custo": "+5 PM",
-        "efeito": "Muda o alvo para área: esfera com 6m de raio centrada em você e a resistência para Fortitude reduz à metade. Em vez do normal, você suga energia das criaturas vivas na área, causando 1d10 pontos de dano de trevas e recebendo PV temporários iguais ao dano total causado. Os PV temporários desaparecem ao final da cena.",
-        "requisitoCirculo": 2
       }
     ]
   }

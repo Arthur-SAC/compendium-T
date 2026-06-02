@@ -3,7 +3,7 @@
   "tipo": "magia",
   "nome": "Selo de Mana",
   "resumo": "Você sela a energia de uma criatura, impedindo que use pontos de mana.",
-  "fonte": { "livro": "livro-basico", "pagina": 204 },
+  "fonte": { "livro": "livro-basico", "pagina": 205 },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

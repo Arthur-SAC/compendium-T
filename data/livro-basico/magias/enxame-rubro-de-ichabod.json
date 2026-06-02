@@ -3,7 +3,7 @@
   "tipo": "magia",
   "nome": "Enxame Rubro de Ichabod",
   "resumo": "Invoca uma massa rastejante de demônios da Tormenta.",
-  "fonte": { "livro": "livro-basico", "pagina": 191 },
+  "fonte": { "livro": "livro-basico", "pagina": 192 },
   "imagens": [],
   "secoes": [],
   "relacoes": [],
@@ -34,6 +34,10 @@
       {
         "custo": "+3 PM",
         "efeito": "O enxame vira Enorme (quadrado de 6m de lado)."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "O enxame ganha deslocamento de voo 18m e passa a ocupar um cubo ao invés de um quadrado."
       },
       {
         "custo": "+4 PM",

@@ -3,7 +3,7 @@
   "tipo": "magia",
   "nome": "Aviso",
   "resumo": "Envia um alerta telepático para uma criatura.",
-  "fonte": { "livro": "livro-basico", "pagina": 181 },
+  "fonte": { "livro": "livro-basico", "pagina": 182 },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

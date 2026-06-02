@@ -3,7 +3,7 @@
   "tipo": "magia",
   "nome": "Curar Ferimentos",
   "resumo": "Seu toque recupera pontos de vida.",
-  "fonte": { "livro": "livro-basico", "pagina": 188 },
+  "fonte": { "livro": "livro-basico", "pagina": 189 },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

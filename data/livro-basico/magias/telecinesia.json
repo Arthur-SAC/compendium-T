@@ -20,8 +20,7 @@
     "aprimoramentos": [
       {
         "custo": "+3 PM",
-        "efeito": "Aumenta o tamanho máximo das criaturas afetadas em uma categoria.",
-        "requisitoCirculo": 3
+        "efeito": "Aumenta o tamanho máximo da criatura em uma categoria (para Grande, Enorme e Colossal) ou dobra a quantidade de espaços do objeto."
       }
     ]
   }
