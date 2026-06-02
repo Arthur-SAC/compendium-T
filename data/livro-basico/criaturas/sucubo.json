@@ -3,14 +3,34 @@
   "tipo": "criatura",
   "nome": "Súcubo",
   "resumo": "Belíssima e cruel, a súcubo seduz mortais para devorar-lhes a alma.",
-  "fonte": { "livro": "ameacas-de-arton", "pagina": 120 },
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 120
+  },
   "imagens": [],
   "secoes": [
-    { "titulo": "Descrição", "texto": "Sua vítima precisa resistir ou fica tomada de Medo, incapaz de reagir à altura." },
-    { "titulo": "Habilidades", "texto": "Beijo Vampírico. Causa 4d6 de dano e a súcubo recupera PV igual ao dano." }
+    {
+      "titulo": "Descrição",
+      "texto": "Sua vítima precisa resistir ou fica tomada de Medo, incapaz de reagir à altura."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "Beijo Vampírico. Causa 4d6 de dano e a súcubo recupera PV igual ao dano."
+    }
   ],
   "relacoes": [
-    { "tipo": "serve", "alvoId": "sszzaas", "alvoTipo": "divindade", "rotulo": "serve Sszzaas" }
+    {
+      "tipo": "serve",
+      "alvoId": "sszzaas",
+      "alvoTipo": "divindade",
+      "rotulo": "serve Sszzaas"
+    }
   ],
-  "mecanica": { "nd": "5", "pv": 140, "defesa": 21 }
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "pontosDeVida": "140",
+    "defesa": "21"
+  }
 }

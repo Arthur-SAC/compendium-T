@@ -1,0 +1,45 @@
+{
+  "id": "glop",
+  "tipo": "criatura",
+  "nome": "Glop",
+  "resumo": "Pequenas gosmas ácidas em forma de gota que perambulam pelos corredores das masmorras, dissolvendo qualquer matéria orgânica.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 286
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Pequenas gosmas esverdeadas com formato de gota que perambulam pelos corredores de masmorras. Irracionais, seu único propósito parece ser alimentar-se, o que fazem saltando sobre matéria orgânica e dissolvendo-a com seus corpos ácidos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Monstro",
+    "tamanho": "Pequeno",
+    "tema": "Masmorras",
+    "iniciativa": "+0",
+    "percepcao": "+0, percepção às cegas",
+    "defesa": "10, imunidade a ácido",
+    "fortitude": "+0",
+    "reflexos": "+2",
+    "vontade": "–5",
+    "pontosDeVida": "10",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Pancada +7 (1d4 mais 1d4 ácido)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "0",
+      "constituicao": "0",
+      "inteligencia": "—",
+      "sabedoria": "–5",
+      "carisma": "–5"
+    },
+    "habilidades": [],
+    "tesouro": "Nenhum."
+  }
+}

@@ -10,7 +10,7 @@ const baseValida = {
   imagens: [],
   secoes: [{ titulo: "Habilidades", texto: "Beijo Vampírico." }],
   relacoes: [{ tipo: "serve", alvoId: "sszzaas", alvoTipo: "divindade", rotulo: "serve Sszzaas" }],
-  mecanica: { nd: "5", pv: 140, defesa: 21 },
+  mecanica: { nd: "5", tipo: "Espírito", tamanho: "Médio", pontosDeVida: "140", defesa: "21" },
 };
 
 test("aceita entidade válida", () => {

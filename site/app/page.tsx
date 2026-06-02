@@ -41,6 +41,9 @@ export default function Home() {
         <Link href="/mundo" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Explorar o Mundo de Arton →
         </Link>
+        <Link href="/bestiario" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Abrir o Bestiário →
+        </Link>
         <Link href="/personagem" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Como criar um personagem (9 passos) →
         </Link>

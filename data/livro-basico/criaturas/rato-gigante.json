@@ -1,0 +1,50 @@
+{
+  "id": "rato-gigante",
+  "tipo": "criatura",
+  "nome": "Rato Gigante",
+  "resumo": "Roedor de pelagem grossa e até um metro de comprimento, que vive em bandos por pântanos, ermos, esgotos e porões — e transmite doença com sua mordida.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 286
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esse roedor de pelagem grossa, olhos vermelhos e presas amareladas atinge até um metro de comprimento. Ratos gigantes vivem em bandos e podem ser encontrados em quase qualquer lugar — pântanos, ermos, esgotos de metrópoles e porões de tavernas não muito recomendadas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Animal",
+    "tamanho": "Pequeno",
+    "tema": "Masmorras",
+    "iniciativa": "+4",
+    "percepcao": "+5, faro, visão na penumbra",
+    "defesa": "12",
+    "fortitude": "+5",
+    "reflexos": "+3",
+    "vontade": "–2",
+    "pontosDeVida": "9",
+    "deslocamento": "12m (8q), escalada 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +7 (1d4+1 mais doença)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "1",
+      "inteligencia": "—",
+      "sabedoria": "1",
+      "carisma": "–3"
+    },
+    "habilidades": [
+      {
+        "nome": "Doença",
+        "descricao": "Uma criatura mordida por um rato gigante pode ser exposta à doença infecção do esgoto (veja a página 318)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

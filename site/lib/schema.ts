@@ -231,6 +231,45 @@ export const DivindadeMecanicaSchema = z.object({
 });
 export type DivindadeMecanica = z.infer<typeof DivindadeMecanicaSchema>;
 
+// Bloco de estatísticas de criatura (bestiário, Cap. 7). Valores como string para
+// aceitar "+5", "1/4", "9m (6q)", "—" (mente animal) sem perder fidelidade.
+export const CriaturaAtributosSchema = z.object({
+  forca: z.string().optional(),
+  destreza: z.string().optional(),
+  constituicao: z.string().optional(),
+  inteligencia: z.string().optional(),
+  sabedoria: z.string().optional(),
+  carisma: z.string().optional(),
+});
+export type CriaturaAtributos = z.infer<typeof CriaturaAtributosSchema>;
+
+export const CriaturaHabilidadeSchema = z.object({
+  nome: z.string(),
+  descricao: z.string(),
+});
+
+export const CriaturaMecanicaSchema = z.object({
+  nd: z.string(),               // "1/4", "1/2", "2", "5"...
+  tipo: z.string(),             // "Monstro", "Animal", "Humanoide (orc)", "Morto-vivo"...
+  tamanho: z.string(),          // "Minúsculo"|"Pequeno"|"Médio"|"Grande"|"Enorme"|"Colossal"
+  tema: z.string().optional(),  // agrupa o índice /bestiario (Masmorras, Ermos, Dragões...)
+  iniciativa: z.string().optional(),
+  percepcao: z.string().optional(),
+  defesa: z.string().optional(),
+  fortitude: z.string().optional(),
+  reflexos: z.string().optional(),
+  vontade: z.string().optional(),
+  pontosDeVida: z.string().optional(),
+  deslocamento: z.string().optional(),
+  ataques: z.array(z.string()).default([]),
+  atributos: CriaturaAtributosSchema.optional(),
+  pericias: z.string().optional(),
+  habilidades: z.array(CriaturaHabilidadeSchema).default([]),
+  equipamento: z.string().optional(),
+  tesouro: z.string().optional(),
+});
+export type CriaturaMecanica = z.infer<typeof CriaturaMecanicaSchema>;
+
 export const EntidadeSchema = z
   .object({
     id: z.string(),
@@ -314,6 +353,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de divindade inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "criatura") {
+      const r = CriaturaMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de criatura inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }
