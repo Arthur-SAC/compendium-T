@@ -31,7 +31,14 @@ Mundo de Arton, Mestrar.
   trocados — a extração da imagem estava certa (corrigido o doc).
 - **Onda C ✅:** links reversos acendem (deuses citados em Cavaleiro/Clérigo/Druida/Paladino, poderes concedidos e
   raças linkam pras fichas de divindade — auto-link Title-Case). Build **672 páginas**; suíte **117 verde**.
-- **Deferido:** símbolos sagrados (ilustração circular por deus) — extração de imagem opcional, p/ passe de design.
+- **Deferido / enriquecimento futuro (pedido do usuário, 2026-06-02):**
+  - **Símbolos sagrados:** o **Livro Básico TEM** a ilustração do símbolo de cada deus (imagem circular ao lado da
+    ficha — ex.: espada+balança de Khalmyr, anel da Wynna, olho de Aharadak). Hoje só extraímos o `simboloSagrado`
+    como TEXTO; falta extrair as IMAGENS (via `comporComMascara` / `pdfimages -png`, salvar em
+    `site/public/divindades/<slug>.png` e preencher `imagens[]`). Páginas já renderizadas em `extracao/cache/deuses/`.
+  - **Livro "Deuses de Arton" (Fase 2):** traz MUITO mais sobre cada divindade (lore, devotos, mais poderes) **e arte**.
+    Quando essa fonte entrar (camada separada, marcada por fonte — nunca sobrescreve o Básico), enriquecer as fichas de
+    divindade com esse conteúdo e imagens.
 
 **Cap. 4 — Magia ✅** (198 magias + 3 regras):
 - **Onda A ✅:** schema `magia`, `FichaMagia`, índice `/magias` (por círculo + Arcanas/Divinas/Universais), 3 regras, spike.
