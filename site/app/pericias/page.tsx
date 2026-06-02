@@ -40,7 +40,7 @@ export default function IndicePericias() {
   const regra = entidades.find((e) => e.id === "pericias-como-funcionam");
 
   return (
-    <main style={{ padding: 48, maxWidth: 980, margin: "0 auto" }}>
+    <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
       <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Perícias</h1>
       <Divisor />
       <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>

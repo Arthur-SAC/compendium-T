@@ -38,7 +38,7 @@ export default function IndiceMundo() {
   const ordenarPagina = (a: Entidade, b: Entidade) => a.fonte.pagina - b.fonte.pagina;
 
   return (
-    <main style={{ padding: 48, maxWidth: 1060, margin: "0 auto" }}>
+    <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
       <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Mundo de Arton</h1>
       <Divisor />
       <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 24px", fontFamily: "var(--serifa)" }}>

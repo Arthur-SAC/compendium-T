@@ -56,7 +56,7 @@ export default function IndiceMagias() {
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
 
   return (
-    <main style={{ padding: 48, maxWidth: 1060, margin: "0 auto" }}>
+    <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
       <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Magias</h1>
       <Divisor />
       <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>
