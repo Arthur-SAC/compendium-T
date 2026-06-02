@@ -3,7 +3,10 @@
   "tipo": "regra-de-criacao",
   "nome": "Sessões, Aventuras e Campanhas",
   "resumo": "Como organizar o jogo em sessões, aventuras e campanhas, com modelos para estruturar uma aventura em fases, classificar cenas e planejar uma campanha completa.",
-  "fonte": { "livro": "livro-basico", "pagina": 248 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 248
+  },
   "imagens": [],
   "secoes": [
     {
@@ -75,90 +78,93 @@
       "texto": "Se você já planejou uma aventura ou várias, já conhece os heróis e já tem um elenco de coadjuvantes, resta planejar a campanha em si. Qualquer planejamento de campanha é obrigatoriamente vago e sujeito a mudanças drásticas, pois os jogadores podem (e devem!) tomar decisões inesperadas que bagunçam tudo. Além disso, os dados são sempre imprevisíveis. Contudo, você pode usar este modelo para ter uma ideia geral de como visualizar uma campanha do início ao fim e como conduzi-la.\n\nPode haver campanhas de três aventuras ou de duzentas. Contudo, vamos ser realistas. Se cada aventura demora em média três sessões para ser terminada, não adianta pensar em centenas de aventuras, pois dificilmente haverá tempo para tudo isso — se houver, você é muito sortudo, tem uma incrível capacidade de planejamento e um excelente grupo de amigos. Vamos imaginar uma campanha com 20 aventuras — uma para cada nível de personagem. Com três sessões por aventura, isso dá uma média de 60 sessões. Como um ano tem 52 semanas, se o grupo tentar se reunir toda semana, considerando compromissos, viagens e períodos em que não se pode jogar, a campanha durará cerca de dois anos. Um jogo épico, mas dentro de um período de tempo razoavelmente previsível."
     },
     {
-      "titulo": "Aventura 1: Introdução",
-      "texto": "Comece com uma aventura básica. Os personagens se conhecem e lidam com uma ameaça local. Formam um grupo e têm sua primeira vitória. A ameaça é ligada à trama principal, mas está a pelo menos três graus de distância do grande vilão. Por exemplo, os heróis enfrentam salteadores que trabalham para uma guilda que tenta desestabilizar o comércio na região para que um nobre maligno que trabalha para o vilão tome o poder. Este nobre será o \"vilão intermediário\", que vai surgir no meio da campanha. A aventura acaba com uma ligação com a trama principal — uma tatuagem em um dos salteadores, uma carta enigmática etc. No final também há um gancho imediato para a próxima aventura."
-    },
-    {
-      "titulo": "Aventura 2: Tudo Fica Maior",
-      "texto": "Seguindo o gancho da primeira aventura, os heróis realizam uma missão parecida, mas em escala maior. Por exemplo, em vez de enfrentar salteadores para defender uma aldeia, enfrentam mercenários para defender um barão. Acaba com a informação de um ataque, perigo ou ameaça maior que acontecerá imediatamente — na próxima aventura."
-    },
-    {
-      "titulo": "Aventura 3: Primeiro Chefe",
-      "texto": "Os heróis enfrentam a ameaça que foi descoberta no final da aventura anterior. Esta é uma aventura de ação ininterrupta, em que o grupo frustra um grande plano. Aqui o chefe dos primeiros inimigos é vencido e há a sensação de um ciclo se fechando. Mas, no final, os heróis descobrem para quem os inimigos destas três aventuras trabalhavam: o vilão intermediário (no exemplo, o nobre que quer tomar o controle do reino). Por fim, há a primeira aparição de algum coadjuvante poderoso: indeciso misterioso, mentor palpiteiro ou outro."
-    },
-    {
-      "titulo": "Aventura 4: Monstro da Semana",
-      "texto": "Os heróis precisam fazer algo para entrar na luta contra o grande vilão (por exemplo, levar as evidências a um alto nobre). Mas isso não acontece imediatamente. No caminho, eles se deparam com uma ameaça localizada e lidam com ela. Fica claro que não tem relação com a mitologia."
-    },
-    {
-      "titulo": "Aventura 5: Conquistando Confiança",
-      "texto": "Para se inserir na luta contra o grande vilão, os heróis precisam fazer algo para se provar. Talvez cumpram uma missão e demonstrem seu poder, talvez apenas precisem conseguir uma audiência com um nobre. De qualquer forma, esta aventura deve parecer um incômodo, um desvio desnecessário. Uma vez cumprida a missão, parece que tudo vai ficar bem, mas a cena de vitória é interrompida."
-    },
-    {
-      "titulo": "Aventura 6: Nadando Entre os Tubarões",
-      "texto": "O grande vilão interrompe tudo que os personagens estavam fazendo. Talvez ele apareça em pessoa, talvez mande um subalterno poderoso. O capanga recorrente está junto. De qualquer forma, algo muito grave acontece (o castelo onde os heróis estavam é destruído, o nobre morre etc.) e há o primeiro confronto entre heróis e vilões poderosos. Os heróis só não morrem porque são salvos por uma figura poderosa do bem. Esta aventura é um ponto baixo para os personagens e pode ser mais curta que as outras."
-    },
-    {
-      "titulo": "Aventura 7: Contexto",
-      "texto": "Aventura calma, quase só cenas de interpretação. Os heróis estão na presença de grandes forças do bem. Esses figurões dizem que eles não deveriam estar ali, que quase foram mortos. Mas, agora que estão envolvidos, não adianta tentar tapar o sol com a peneira. Os figurões explicam tudo que está acontecendo aos personagens. Como alternativa, eles não sabem o que está acontecendo, apenas que haveria um ataque, e os personagens é que devem explicar a eles. Os grandes heróis dão aos personagens uma missão no combate ao grande vilão. Esta é uma aventura extremamente rápida se você não der aos aventureiros a chance de explorar algum lugar, reunir poderes, ganhar itens ou ver maravilhas."
-    },
-    {
-      "titulo": "Aventura 8: Monstro da Semana",
-      "texto": "No caminho ou em um momento antes de poder cumprir a missão dada pelos figurões, os heróis se deparam com uma ameaça localizada e lidam com ela."
-    },
-    {
-      "titulo": "Aventura 9: Agora É Pessoal",
-      "texto": "Ao cumprir a missão designada pelos figurões, os heróis se deparam mais uma vez com o capanga recorrente ou outro vilão menor que possam enfrentar. A dinâmica de duelos/inimizade pessoal fica evidente. Os heróis conseguem cumprir a missão, mas ficam sabendo de algo terrível: isso tudo era secundário, pois a região do começo da campanha está ameaçada! O vilão intermediário que foi sugerido no início (no exemplo, o nobre que queria tomar o controle do reino) está para agir e não há tempo para avisar ninguém! Os heróis precisam resolver isso sozinhos."
-    },
-    {
-      "titulo": "Aventura 10: De Volta ao Lar",
-      "texto": "Os heróis retornam à região que foi o início de tudo e reencontram coadjuvantes que só os conheciam como pirralhos iniciantes. Há uma imensa batalha. Os heróis enfrentam e vencem definitivamente o vilão intermediário (no exemplo, o nobre maligno), mostrando sua evolução. Um coadjuvante querido morre."
-    },
-    {
-      "titulo": "Aventura 11: Recolhendo as Peças",
-      "texto": "Os heróis lidam com o impacto da aventura anterior — com funerais, reuniões com nobres, tempo de descanso etc. Ninguém sabe qual será o próximo passo do grande vilão. Esta é uma boa aventura para introduzir uma história pessoal dos heróis (aparição de familiares, casamento, volta à cidade natal etc.)."
-    },
-    {
-      "titulo": "Aventura 12: Monstro da Semana",
-      "texto": "Enquanto ninguém sabe o que vai acontecer, os heróis enfrentam uma ameaça localizada. Se você quiser, pode relacioná-la a algum elemento do passado de um deles."
-    },
-    {
-      "titulo": "Aventura 13: Reino Exótico",
-      "texto": "A verdadeira dimensão do plano do grande vilão (e sua próxima jogada) se revela quando um habitante de um lugar distante e exótico entra em contato com os heróis, pedindo ajuda. Eles também estão com problemas relacionados ao grande vilão. Os heróis vão até o reino distante e se maravilham com seu exotismo e sua magia. A maior parte da aventura tem a ver com exploração, interação com pessoas diferentes e obtenção de bônus que não seriam possíveis nos reinos usuais."
-    },
-    {
-      "titulo": "Aventura 14: Tudo Fica Pior",
-      "texto": "A missão no reino exótico culmina numa batalha em que os heróis mais uma vez enfrentam seus inimigos recorrentes. O grande vilão aparece, mas não dá atenção aos personagens, considerando-os vermes sem importância. O revés que ele sofreu na aventura 10 foi uma inconveniência menor, pois havia outros capangas como o vilão intermediário agindo pelo mundo. Um figurão vai atrás do vilão e morre. O reino exótico é abalado (conquistado, devastado, tomado por uma praga etc.). Nada parece ser capaz de deter o grande vilão."
-    },
-    {
-      "titulo": "Aventura 15: União Faz a Força",
-      "texto": "Apenas a união de vários povos será capaz de fazer frente ao grande vilão. Os heróis começam a reunir aliados em vários reinos. Eles já falam em pé de igualdade com os figurões."
-    },
-    {
-      "titulo": "Aventura 16: Unidos Venceremos",
-      "texto": "Os heróis continuam reunindo aliados, ao longo de uma ou mais missões para lideranças no mundo inteiro. No final, participam de algum tipo de grande conselho com governantes ou heróis lendários."
-    },
-    {
-      "titulo": "Aventura 17: Batalha em Massa",
-      "texto": "Há o primeiro grande combate entre as forças do bem e do mal. Talvez isso seja uma batalha entre exércitos, talvez seja a invasão a um covil do vilão. O importante é que aqui todos estejam lutando com suas máximas capacidades."
-    },
-    {
-      "titulo": "Aventura 18: No Inferno",
-      "texto": "Os heróis entram num lugar em que o poder do vilão é supremo (reino de mortos-vivos, área de Tormenta, dimensão maligna etc.). Eles avançam, mas para seguir adiante têm um grande combate ou provação. Se houver algum herói lendário entre eles, ele morre ou precisa ser protegido."
-    },
-    {
-      "titulo": "Aventura 19: A Virada",
-      "texto": "No centro de poder do grande vilão, os heróis enfrentam o capanga recorrente. Todos sabem que esta é a última vez. Por medo, por finalmente ver os motivos dos heróis ou por arrependimento, o inimigo revela que a fraqueza do vilão não era nada do que se acreditava. É algo a que os personagens podem ter acesso, mas de uma forma que ninguém esperava. Esta fraqueza não está aqui, no lugar de poder do vilão, mas no lar dos heróis! E o vilão também está lá. Mesmo que os heróis relutem em fazer isso, precisam matar seu inimigo, que não cede até o final, ou então ele morre por ter \"traído\" o grande vilão."
-    },
-    {
-      "titulo": "Aventura 20: Mestres dos Dois Mundos",
-      "texto": "Os heróis têm todo o poder e todo o conhecimento de que precisam para vencer o grande vilão. O plano dele acontece num local conhecido pelos heróis. Eles chegam lá transformados por sua jornada no reino exótico, pelas alianças e pelo inferno. São os líderes absolutos de todos os coadjuvantes. Enfrentam o vilão e vencem com a informação dada pelo inimigo que souberam respeitar. Então há um desfecho, com recompensas e reflexão sobre o quanto as vidas de todos mudaram ao longo da campanha. Quaisquer problemas pessoais foram resolvidos e agora os personagens alcançam a felicidade ou a resolução de suas jornadas — conquistando seus objetivos, casando, reconciliando-se com pessoas de seu passado e finalmente ficando em paz. Fim."
-    },
-    {
       "titulo": "Mitologia e Monstro da Semana (quadro)",
       "texto": "Embora uma campanha seja uma história contínua, pode ser cansativo jogar sempre a mesma narrativa, sem nenhum episódio lidando com outras coisas. Como mestre, incentive os personagens a terem interesses fora do conflito principal. Para isso, introduza algumas aventuras sem relação com o tema geral, com uma ameaça isolada que surge e é derrotada na própria aventura. Aventuras que lidam com a história maior são chamadas de aventuras \"de mitologia\". Já aventuras isoladas são chamadas de \"monstro da semana\"."
     }
   ],
   "relacoes": [],
-  "mecanica": {}
+  "mecanica": {
+    "tabela_modelo_de_campanha": [
+      {
+        "aventura": "Aventura 1: Introdução",
+        "descrição": "Comece com uma aventura básica. Os personagens se conhecem e lidam com uma ameaça local. Formam um grupo e têm sua primeira vitória. A ameaça é ligada à trama principal, mas está a pelo menos três graus de distância do grande vilão. Por exemplo, os heróis enfrentam salteadores que trabalham para uma guilda que tenta desestabilizar o comércio na região para que um nobre maligno que trabalha para o vilão tome o poder. Este nobre será o \"vilão intermediário\", que vai surgir no meio da campanha. A aventura acaba com uma ligação com a trama principal — uma tatuagem em um dos salteadores, uma carta enigmática etc. No final também há um gancho imediato para a próxima aventura."
+      },
+      {
+        "aventura": "Aventura 2: Tudo Fica Maior",
+        "descrição": "Seguindo o gancho da primeira aventura, os heróis realizam uma missão parecida, mas em escala maior. Por exemplo, em vez de enfrentar salteadores para defender uma aldeia, enfrentam mercenários para defender um barão. Acaba com a informação de um ataque, perigo ou ameaça maior que acontecerá imediatamente — na próxima aventura."
+      },
+      {
+        "aventura": "Aventura 3: Primeiro Chefe",
+        "descrição": "Os heróis enfrentam a ameaça que foi descoberta no final da aventura anterior. Esta é uma aventura de ação ininterrupta, em que o grupo frustra um grande plano. Aqui o chefe dos primeiros inimigos é vencido e há a sensação de um ciclo se fechando. Mas, no final, os heróis descobrem para quem os inimigos destas três aventuras trabalhavam: o vilão intermediário (no exemplo, o nobre que quer tomar o controle do reino). Por fim, há a primeira aparição de algum coadjuvante poderoso: indeciso misterioso, mentor palpiteiro ou outro."
+      },
+      {
+        "aventura": "Aventura 4: Monstro da Semana",
+        "descrição": "Os heróis precisam fazer algo para entrar na luta contra o grande vilão (por exemplo, levar as evidências a um alto nobre). Mas isso não acontece imediatamente. No caminho, eles se deparam com uma ameaça localizada e lidam com ela. Fica claro que não tem relação com a mitologia."
+      },
+      {
+        "aventura": "Aventura 5: Conquistando Confiança",
+        "descrição": "Para se inserir na luta contra o grande vilão, os heróis precisam fazer algo para se provar. Talvez cumpram uma missão e demonstrem seu poder, talvez apenas precisem conseguir uma audiência com um nobre. De qualquer forma, esta aventura deve parecer um incômodo, um desvio desnecessário. Uma vez cumprida a missão, parece que tudo vai ficar bem, mas a cena de vitória é interrompida."
+      },
+      {
+        "aventura": "Aventura 6: Nadando Entre os Tubarões",
+        "descrição": "O grande vilão interrompe tudo que os personagens estavam fazendo. Talvez ele apareça em pessoa, talvez mande um subalterno poderoso. O capanga recorrente está junto. De qualquer forma, algo muito grave acontece (o castelo onde os heróis estavam é destruído, o nobre morre etc.) e há o primeiro confronto entre heróis e vilões poderosos. Os heróis só não morrem porque são salvos por uma figura poderosa do bem. Esta aventura é um ponto baixo para os personagens e pode ser mais curta que as outras."
+      },
+      {
+        "aventura": "Aventura 7: Contexto",
+        "descrição": "Aventura calma, quase só cenas de interpretação. Os heróis estão na presença de grandes forças do bem. Esses figurões dizem que eles não deveriam estar ali, que quase foram mortos. Mas, agora que estão envolvidos, não adianta tentar tapar o sol com a peneira. Os figurões explicam tudo que está acontecendo aos personagens. Como alternativa, eles não sabem o que está acontecendo, apenas que haveria um ataque, e os personagens é que devem explicar a eles. Os grandes heróis dão aos personagens uma missão no combate ao grande vilão. Esta é uma aventura extremamente rápida se você não der aos aventureiros a chance de explorar algum lugar, reunir poderes, ganhar itens ou ver maravilhas."
+      },
+      {
+        "aventura": "Aventura 8: Monstro da Semana",
+        "descrição": "No caminho ou em um momento antes de poder cumprir a missão dada pelos figurões, os heróis se deparam com uma ameaça localizada e lidam com ela."
+      },
+      {
+        "aventura": "Aventura 9: Agora É Pessoal",
+        "descrição": "Ao cumprir a missão designada pelos figurões, os heróis se deparam mais uma vez com o capanga recorrente ou outro vilão menor que possam enfrentar. A dinâmica de duelos/inimizade pessoal fica evidente. Os heróis conseguem cumprir a missão, mas ficam sabendo de algo terrível: isso tudo era secundário, pois a região do começo da campanha está ameaçada! O vilão intermediário que foi sugerido no início (no exemplo, o nobre que queria tomar o controle do reino) está para agir e não há tempo para avisar ninguém! Os heróis precisam resolver isso sozinhos."
+      },
+      {
+        "aventura": "Aventura 10: De Volta ao Lar",
+        "descrição": "Os heróis retornam à região que foi o início de tudo e reencontram coadjuvantes que só os conheciam como pirralhos iniciantes. Há uma imensa batalha. Os heróis enfrentam e vencem definitivamente o vilão intermediário (no exemplo, o nobre maligno), mostrando sua evolução. Um coadjuvante querido morre."
+      },
+      {
+        "aventura": "Aventura 11: Recolhendo as Peças",
+        "descrição": "Os heróis lidam com o impacto da aventura anterior — com funerais, reuniões com nobres, tempo de descanso etc. Ninguém sabe qual será o próximo passo do grande vilão. Esta é uma boa aventura para introduzir uma história pessoal dos heróis (aparição de familiares, casamento, volta à cidade natal etc.)."
+      },
+      {
+        "aventura": "Aventura 12: Monstro da Semana",
+        "descrição": "Enquanto ninguém sabe o que vai acontecer, os heróis enfrentam uma ameaça localizada. Se você quiser, pode relacioná-la a algum elemento do passado de um deles."
+      },
+      {
+        "aventura": "Aventura 13: Reino Exótico",
+        "descrição": "A verdadeira dimensão do plano do grande vilão (e sua próxima jogada) se revela quando um habitante de um lugar distante e exótico entra em contato com os heróis, pedindo ajuda. Eles também estão com problemas relacionados ao grande vilão. Os heróis vão até o reino distante e se maravilham com seu exotismo e sua magia. A maior parte da aventura tem a ver com exploração, interação com pessoas diferentes e obtenção de bônus que não seriam possíveis nos reinos usuais."
+      },
+      {
+        "aventura": "Aventura 14: Tudo Fica Pior",
+        "descrição": "A missão no reino exótico culmina numa batalha em que os heróis mais uma vez enfrentam seus inimigos recorrentes. O grande vilão aparece, mas não dá atenção aos personagens, considerando-os vermes sem importância. O revés que ele sofreu na aventura 10 foi uma inconveniência menor, pois havia outros capangas como o vilão intermediário agindo pelo mundo. Um figurão vai atrás do vilão e morre. O reino exótico é abalado (conquistado, devastado, tomado por uma praga etc.). Nada parece ser capaz de deter o grande vilão."
+      },
+      {
+        "aventura": "Aventura 15: União Faz a Força",
+        "descrição": "Apenas a união de vários povos será capaz de fazer frente ao grande vilão. Os heróis começam a reunir aliados em vários reinos. Eles já falam em pé de igualdade com os figurões."
+      },
+      {
+        "aventura": "Aventura 16: Unidos Venceremos",
+        "descrição": "Os heróis continuam reunindo aliados, ao longo de uma ou mais missões para lideranças no mundo inteiro. No final, participam de algum tipo de grande conselho com governantes ou heróis lendários."
+      },
+      {
+        "aventura": "Aventura 17: Batalha em Massa",
+        "descrição": "Há o primeiro grande combate entre as forças do bem e do mal. Talvez isso seja uma batalha entre exércitos, talvez seja a invasão a um covil do vilão. O importante é que aqui todos estejam lutando com suas máximas capacidades."
+      },
+      {
+        "aventura": "Aventura 18: No Inferno",
+        "descrição": "Os heróis entram num lugar em que o poder do vilão é supremo (reino de mortos-vivos, área de Tormenta, dimensão maligna etc.). Eles avançam, mas para seguir adiante têm um grande combate ou provação. Se houver algum herói lendário entre eles, ele morre ou precisa ser protegido."
+      },
+      {
+        "aventura": "Aventura 19: A Virada",
+        "descrição": "No centro de poder do grande vilão, os heróis enfrentam o capanga recorrente. Todos sabem que esta é a última vez. Por medo, por finalmente ver os motivos dos heróis ou por arrependimento, o inimigo revela que a fraqueza do vilão não era nada do que se acreditava. É algo a que os personagens podem ter acesso, mas de uma forma que ninguém esperava. Esta fraqueza não está aqui, no lugar de poder do vilão, mas no lar dos heróis! E o vilão também está lá. Mesmo que os heróis relutem em fazer isso, precisam matar seu inimigo, que não cede até o final, ou então ele morre por ter \"traído\" o grande vilão."
+      },
+      {
+        "aventura": "Aventura 20: Mestres dos Dois Mundos",
+        "descrição": "Os heróis têm todo o poder e todo o conhecimento de que precisam para vencer o grande vilão. O plano dele acontece num local conhecido pelos heróis. Eles chegam lá transformados por sua jornada no reino exótico, pelas alianças e pelo inferno. São os líderes absolutos de todos os coadjuvantes. Enfrentam o vilão e vencem com a informação dada pelo inimigo que souberam respeitar. Então há um desfecho, com recompensas e reflexão sobre o quanto as vidas de todos mudaram ao longo da campanha. Quaisquer problemas pessoais foram resolvidos e agora os personagens alcançam a felicidade ou a resolução de suas jornadas — conquistando seus objetivos, casando, reconciliando-se com pessoas de seu passado e finalmente ficando em paz. Fim."
+      }
+    ]
+  }
 }

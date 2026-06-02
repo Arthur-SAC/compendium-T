@@ -3,7 +3,10 @@
   "tipo": "regra-de-criacao",
   "nome": "NPCs",
   "resumo": "Orientações para criar e usar NPCs (coadjuvantes e antagonistas) em Tormenta20, incluindo arquétipos clássicos, regras de atitude e estatísticas simplificadas, e o sistema de parceiros (aliados que fornecem bônus) e montarias.",
-  "fonte": { "livro": "livro-basico", "pagina": 257 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 257
+  },
   "imagens": [],
   "secoes": [
     {
@@ -71,84 +74,12 @@
       "texto": "Estes são exemplos de parceiros. O mestre pode criar outros ou misturar benefícios: por exemplo, um cavaleiro da Luz mestre pode fornecer +2 em testes de ataque e +2 na Defesa (os benefícios de um combatente veterano e um guardião iniciante)."
     },
     {
-      "titulo": "Adepto",
-      "texto": "Um conjurador capaz de ajudá-lo a lançar suas magias. Iniciante: o custo para lançar suas magias de 1º círculo diminui –1 PM. Veterano: como acima, mas também reduz o custo de suas magias de 2º círculo. Mestre: como acima, e esta redução se torna cumulativa com outras reduções."
-    },
-    {
-      "titulo": "Ajudante",
-      "texto": "Um bardo, nobre ou sábio que ajuda com palavras firmes ou encorajadoras. Iniciante: você recebe +2 em duas perícias. Veterano: muda para +2 em três perícias. Mestre: muda para +4 em três perícias. As perícias são definidas pelo parceiro. Um ajudante não pode fornecer bônus em Luta ou Pontaria."
-    },
-    {
-      "titulo": "Assassino",
-      "texto": "Um ladino ou outro tipo furtivo e letal. Iniciante: você pode usar a habilidade Ataque Furtivo +1d6. Se já possui a habilidade, o bônus é cumulativo. Veterano: além do Ataque Furtivo, fornece bônus por flanquear contra um inimigo por rodada. Mestre: muda o dano do Ataque Furtivo para +2d6. Note que, além de fornecer +2 em testes de ataque corpo a corpo, o bônus por flanquear facilita que o personagem use seu Ataque Furtivo."
-    },
-    {
-      "titulo": "Atirador",
-      "texto": "Um arqueiro, besteiro ou outro combatente à distância. Iniciante: uma vez por rodada, você recebe +1d6 em uma rolagem de dano à distância. Veterano: muda para +1d10. Mestre: muda para +2d8."
-    },
-    {
-      "titulo": "Combatente",
-      "texto": "Um bucaneiro, guerreiro, paladino ou animal de caça. Iniciante: +2 em testes de ataque. Veterano: muda para +3 em testes de ataque. Mestre: muda para +4 em testes de ataque e, uma vez por rodada, você pode gastar 5 PM para fazer um ataque extra."
-    },
-    {
-      "titulo": "Destruidor",
-      "texto": "Um arcanista ou inventor. Iniciante: uma vez por rodada, como uma ação livre, você pode gastar 1 PM para causar 2d6 pontos de dano de ácido, eletricidade, fogo ou frio (de acordo com o parceiro) em um alvo em alcance curto. Veterano: como acima, mas você também pode gastar 2 PM para causar 4d6 pontos de dano. Mestre: como acima, mas você também pode gastar 4 PM para causar 6d6 pontos de dano em uma área de 6m de raio em alcance médio."
-    },
-    {
-      "titulo": "Fortão",
-      "texto": "Um bárbaro, lutador ou outro tipo que bate primeiro e pensa depois. Iniciante: uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo. Veterano: muda para +1d12. Mestre: muda para +3d6."
-    },
-    {
-      "titulo": "Guardião",
-      "texto": "Um cavaleiro, cão de guarda ou outro NPC cuja função primária é proteger. Iniciante: você recebe +2 na Defesa. Veterano: muda para +3. Mestre: muda para +4 na Defesa e +2 em testes de resistência."
-    },
-    {
-      "titulo": "Magivocador",
-      "texto": "Um conjurador especializado em magias ofensivas. Iniciante: o dano de suas magias aumenta em +1 dado do mesmo tipo. Veterano: como acima, e a CD para resistir a suas magias aumenta em +1. Mestre: como acima, mas dobra os bônus (para um total de +2 dados de dano e +2 na CD)."
-    },
-    {
-      "titulo": "Médico",
-      "texto": "Um clérigo, druida, herbalista ou outro NPC com capacidades curativas. Iniciante: uma vez por rodada você pode gastar 1 PM para curar 1d8+1 PV de uma criatura adjacente. Veterano: como acima, mas você pode gastar 3 PM para curar 3d8+3 PV ou remover uma condição prejudicial (como abalado ou fatigado). Mestre: como acima, mas você também pode gastar 5 PM para curar 6d8+6 PV."
-    },
-    {
-      "titulo": "Perseguidor",
-      "texto": "Um caçador, animal farejador ou outro especialista em localizar alvos. Iniciante: +2 em Percepção e Sobrevivência. Veterano: você pode usar Sentidos Aguçados. Mestre: você pode usar Percepção às Cegas."
-    },
-    {
-      "titulo": "Vigilante",
-      "texto": "Um vigia ou animal de guarda, sempre atento aos arredores. Iniciante: +2 em Percepção e Iniciativa. Veterano: você pode usar Esquiva Sobrenatural. Mestre: você pode usar Olhos nas Costas."
-    },
-    {
       "titulo": "Quadro: Por Que Parceiros?",
       "texto": "Parceiros são mais indicados que NPCs com fichas porque aceleram o jogo e mantêm o foco nos personagens. Se cada parceiro tivesse suas próprias ações, o jogo ficaria lento. Além disso, se agisse independentemente, um parceiro poderia acabar rolando o ataque que mata o vilão, frustrando os jogadores. Com parceiros que oferecem bônus, quem efetivamente age é sempre o jogador."
     },
     {
       "titulo": "Montarias e Combate Montado",
       "texto": "Montarias são um tipo específico de parceiro. Elas usam as seguintes regras especiais.\n\n• Para usar um parceiro montaria você precisa montar nele. Para passá-lo para outro aliado, precisa desmontar antes. Ambas são ações de movimento.\n\n• Uma vez montado, você precisa gastar uma ação de movimento e fazer um teste de Cavalgar (CD 10) por turno para guiar a montaria. Se passar, recebe os benefícios dela. Se falhar, perde a ação de movimento. Se falhar por 5 ou mais, cai da montaria e sofre 1d6 pontos de dano. Se for treinado em Cavalgar, você recebe os bônus da montaria automaticamente, sem precisar gastar a ação ou fazer o teste.\n\n• Se você sofrer dano, deve fazer um teste de Cavalgar (CD igual ao dano). Se falhar, cai da montaria e sofre 1d6 pontos de dano. Se possuir o poder Ginete, você não precisa fazer esse teste.\n\n• Cada parceiro montaria possui uma categoria de tamanho (indicada ao lado do nome do parceiro). Um personagem só pode montar uma montaria maior do que ele mesmo, e enquanto estiver montado usa o tamanho da montaria para efeitos do espaço que ocupa e para modificador de Furtividade.\n\n• O balanço da montaria em movimento torna mais difícil atacar à distância (–2 em testes de ataque) e conta como condição ruim para lançar magias. Se possuir o poder Ginete, você não sofre nenhuma dessas penalidades.\n\nMontarias podem ser compradas ou recebidas por habilidades. No primeiro caso, são sempre parceiros iniciantes. No segundo, seu poder é definido pela habilidade em questão. Note que embora alguns animais sejam facilmente comprados, como cavalos e trobos, outros são raros. Encontrar um grifo à venda é quase impossível!"
-    },
-    {
-      "titulo": "Cavalo (Grande)",
-      "texto": "A montaria mais comum do Reinado. Iniciante: seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 15m e você recebe +2 em ataques corpo a corpo. Mestre: como acima, mas você recebe uma segunda ação de movimento extra por turno (novamente, apenas para se deslocar).\n\nEstas estatísticas também se aplicam a pôneis (tamanho Médio)."
-    },
-    {
-      "titulo": "Cão de caça (Médio ou pequeno)",
-      "texto": "Cães de porte adequado são montarias comuns para personagens Pequenos ou Minúsculos. Iniciante: seu deslocamento muda para 9m, você pode usar faro e recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 12m e você recebe +2 na Defesa. Mestre: como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre."
-    },
-    {
-      "titulo": "Lobo-das-cavernas (Grande)",
-      "texto": "Primos primitivos e maiores dos lobos comuns, lobos-das-cavernas são usados como montaria por goblinoides e aventureiros selvagens. Iniciante: seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 15m e, uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo. Mestre: como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre.\n\nEstas estatísticas também se aplicam a lobos comuns (tamanho Médio)."
-    },
-    {
-      "titulo": "Grifo (Grande)",
-      "texto": "Esta fera majestosa é muito cobiçada por heróis. Iniciante: uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo (um grifo iniciante é um filhote e não pode ser usado como montaria). Veterano: como acima, mas pode ser usado como montaria, mudando seu deslocamento para voo 18m. Mestre: como acima, mas você recebe uma ação de movimento extra por turno (apenas para se deslocar)."
-    },
-    {
-      "titulo": "Gorlogg (Grande)",
-      "texto": "Esta besta primitiva é usada como montaria pelos mais selvagens. Iniciante: seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: como acima, mas o bônus em rolagens de dano corpo a corpo muda para +1d10. Mestre: seu deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +2d8."
-    },
-    {
-      "titulo": "Trobo (Grande)",
-      "texto": "Usados como animais de carga e tração, trobos também servem como montarias. Iniciante: seu deslocamento muda para 9m e você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +1 em testes de resistência. Veterano: como acima, mas seu deslocamento muda para 12m e o bônus em testes de resistência muda para +2. Mestre: como acima, mas o bônus em testes de resistência muda para +5."
     },
     {
       "titulo": "Quadro: Variante: Parceiros Vulneráveis",
@@ -158,9 +89,103 @@
   "relacoes": [],
   "mecanica": {
     "tabela_6_1_estatisticas_de_npcs": [
-      { "patamar": "Iniciante (exemplo: guarda de cidade, mascate...)", "pericia_forte": "+5", "pericia_fraca": "+0" },
-      { "patamar": "Veterano (capitão da guarda, mercador próspero...)", "pericia_forte": "+10", "pericia_fraca": "+3" },
-      { "patamar": "Campeão (guarda-costas real, mestre de guilda...)", "pericia_forte": "+15", "pericia_fraca": "+6" }
+      {
+        "patamar": "Iniciante (exemplo: guarda de cidade, mascate...)",
+        "pericia_forte": "+5",
+        "pericia_fraca": "+0"
+      },
+      {
+        "patamar": "Veterano (capitão da guarda, mercador próspero...)",
+        "pericia_forte": "+10",
+        "pericia_fraca": "+3"
+      },
+      {
+        "patamar": "Campeão (guarda-costas real, mestre de guilda...)",
+        "pericia_forte": "+15",
+        "pericia_fraca": "+6"
+      }
+    ],
+    "tabela_tipos_de_parceiros": [
+      {
+        "parceiro": "Adepto",
+        "benefícios": "Um conjurador capaz de ajudá-lo a lançar suas magias. Iniciante: o custo para lançar suas magias de 1º círculo diminui –1 PM. Veterano: como acima, mas também reduz o custo de suas magias de 2º círculo. Mestre: como acima, e esta redução se torna cumulativa com outras reduções."
+      },
+      {
+        "parceiro": "Ajudante",
+        "benefícios": "Um bardo, nobre ou sábio que ajuda com palavras firmes ou encorajadoras. Iniciante: você recebe +2 em duas perícias. Veterano: muda para +2 em três perícias. Mestre: muda para +4 em três perícias. As perícias são definidas pelo parceiro. Um ajudante não pode fornecer bônus em Luta ou Pontaria."
+      },
+      {
+        "parceiro": "Assassino",
+        "benefícios": "Um ladino ou outro tipo furtivo e letal. Iniciante: você pode usar a habilidade Ataque Furtivo +1d6. Se já possui a habilidade, o bônus é cumulativo. Veterano: além do Ataque Furtivo, fornece bônus por flanquear contra um inimigo por rodada. Mestre: muda o dano do Ataque Furtivo para +2d6. Note que, além de fornecer +2 em testes de ataque corpo a corpo, o bônus por flanquear facilita que o personagem use seu Ataque Furtivo."
+      },
+      {
+        "parceiro": "Atirador",
+        "benefícios": "Um arqueiro, besteiro ou outro combatente à distância. Iniciante: uma vez por rodada, você recebe +1d6 em uma rolagem de dano à distância. Veterano: muda para +1d10. Mestre: muda para +2d8."
+      },
+      {
+        "parceiro": "Combatente",
+        "benefícios": "Um bucaneiro, guerreiro, paladino ou animal de caça. Iniciante: +2 em testes de ataque. Veterano: muda para +3 em testes de ataque. Mestre: muda para +4 em testes de ataque e, uma vez por rodada, você pode gastar 5 PM para fazer um ataque extra."
+      },
+      {
+        "parceiro": "Destruidor",
+        "benefícios": "Um arcanista ou inventor. Iniciante: uma vez por rodada, como uma ação livre, você pode gastar 1 PM para causar 2d6 pontos de dano de ácido, eletricidade, fogo ou frio (de acordo com o parceiro) em um alvo em alcance curto. Veterano: como acima, mas você também pode gastar 2 PM para causar 4d6 pontos de dano. Mestre: como acima, mas você também pode gastar 4 PM para causar 6d6 pontos de dano em uma área de 6m de raio em alcance médio."
+      },
+      {
+        "parceiro": "Fortão",
+        "benefícios": "Um bárbaro, lutador ou outro tipo que bate primeiro e pensa depois. Iniciante: uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo. Veterano: muda para +1d12. Mestre: muda para +3d6."
+      },
+      {
+        "parceiro": "Guardião",
+        "benefícios": "Um cavaleiro, cão de guarda ou outro NPC cuja função primária é proteger. Iniciante: você recebe +2 na Defesa. Veterano: muda para +3. Mestre: muda para +4 na Defesa e +2 em testes de resistência."
+      },
+      {
+        "parceiro": "Magivocador",
+        "benefícios": "Um conjurador especializado em magias ofensivas. Iniciante: o dano de suas magias aumenta em +1 dado do mesmo tipo. Veterano: como acima, e a CD para resistir a suas magias aumenta em +1. Mestre: como acima, mas dobra os bônus (para um total de +2 dados de dano e +2 na CD)."
+      },
+      {
+        "parceiro": "Médico",
+        "benefícios": "Um clérigo, druida, herbalista ou outro NPC com capacidades curativas. Iniciante: uma vez por rodada você pode gastar 1 PM para curar 1d8+1 PV de uma criatura adjacente. Veterano: como acima, mas você pode gastar 3 PM para curar 3d8+3 PV ou remover uma condição prejudicial (como abalado ou fatigado). Mestre: como acima, mas você também pode gastar 5 PM para curar 6d8+6 PV."
+      },
+      {
+        "parceiro": "Perseguidor",
+        "benefícios": "Um caçador, animal farejador ou outro especialista em localizar alvos. Iniciante: +2 em Percepção e Sobrevivência. Veterano: você pode usar Sentidos Aguçados. Mestre: você pode usar Percepção às Cegas."
+      },
+      {
+        "parceiro": "Vigilante",
+        "benefícios": "Um vigia ou animal de guarda, sempre atento aos arredores. Iniciante: +2 em Percepção e Iniciativa. Veterano: você pode usar Esquiva Sobrenatural. Mestre: você pode usar Olhos nas Costas."
+      }
+    ],
+    "tabela_montarias": [
+      {
+        "montaria": "Cavalo",
+        "tamanho": "Grande",
+        "benefícios": "A montaria mais comum do Reinado. Iniciante: seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 15m e você recebe +2 em ataques corpo a corpo. Mestre: como acima, mas você recebe uma segunda ação de movimento extra por turno (novamente, apenas para se deslocar).\n\nEstas estatísticas também se aplicam a pôneis (tamanho Médio)."
+      },
+      {
+        "montaria": "Cão de caça",
+        "tamanho": "Médio ou pequeno",
+        "benefícios": "Cães de porte adequado são montarias comuns para personagens Pequenos ou Minúsculos. Iniciante: seu deslocamento muda para 9m, você pode usar faro e recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 12m e você recebe +2 na Defesa. Mestre: como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre."
+      },
+      {
+        "montaria": "Lobo-das-cavernas",
+        "tamanho": "Grande",
+        "benefícios": "Primos primitivos e maiores dos lobos comuns, lobos-das-cavernas são usados como montaria por goblinoides e aventureiros selvagens. Iniciante: seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar). Veterano: como acima, mas seu deslocamento muda para 15m e, uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo. Mestre: como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre.\n\nEstas estatísticas também se aplicam a lobos comuns (tamanho Médio)."
+      },
+      {
+        "montaria": "Grifo",
+        "tamanho": "Grande",
+        "benefícios": "Esta fera majestosa é muito cobiçada por heróis. Iniciante: uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo (um grifo iniciante é um filhote e não pode ser usado como montaria). Veterano: como acima, mas pode ser usado como montaria, mudando seu deslocamento para voo 18m. Mestre: como acima, mas você recebe uma ação de movimento extra por turno (apenas para se deslocar)."
+      },
+      {
+        "montaria": "Gorlogg",
+        "tamanho": "Grande",
+        "benefícios": "Esta besta primitiva é usada como montaria pelos mais selvagens. Iniciante: seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo. Veterano: como acima, mas o bônus em rolagens de dano corpo a corpo muda para +1d10. Mestre: seu deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +2d8."
+      },
+      {
+        "montaria": "Trobo",
+        "tamanho": "Grande",
+        "benefícios": "Usados como animais de carga e tração, trobos também servem como montarias. Iniciante: seu deslocamento muda para 9m e você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +1 em testes de resistência. Veterano: como acima, mas seu deslocamento muda para 12m e o bônus em testes de resistência muda para +2. Mestre: como acima, mas o bônus em testes de resistência muda para +5."
+      }
     ]
   }
 }
