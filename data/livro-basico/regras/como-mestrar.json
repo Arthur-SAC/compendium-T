@@ -3,7 +3,10 @@
   "tipo": "regra-de-criacao",
   "nome": "Como Mestrar",
   "resumo": "O papel do mestre e as principais etapas de mestrar uma sessão de Tormenta20: preparação, proposta, início, ações dos jogadores, resultados, reações e improviso.",
-  "fonte": { "livro": "livro-basico", "pagina": 242 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 242
+  },
   "imagens": [],
   "secoes": [
     {
@@ -20,7 +23,7 @@
     },
     {
       "titulo": "Quem É o Mestre?",
-      "texto": "Se você tiver dificuldade para entender o papel do mestre, pense num videogame. Você joga com um personagem, mas há muito mais acontecendo além dos movimentos do protagonista, certo? Há um cenário, inimigos, efeitos sonoros, coadjuvantes, desafios... Em Tormenta20, tudo isso é descrito pelo mestre e está sob controle dele. Outra maneira de pensar no mestre é como o narrador de um livro. Ele estabelece o ambiente, situa o leitor com imagens, sons, cheiros e sensações... Enfim, narra a história. A única diferença é que o mestre tem qualquer poder de decisão sobre as ações dos heróis — os personagens jogadores."
+      "texto": "Se você tiver dificuldade para entender o papel do mestre, pense num videogame. Você joga com um personagem, mas há muito mais acontecendo além dos movimentos do protagonista, certo? Há um cenário, inimigos, efeitos sonoros, coadjuvantes, desafios... Em Tormenta20, tudo isso é descrito pelo mestre e está sob controle dele. Outra maneira de pensar no mestre é como o narrador de um livro. Ele estabelece o ambiente, situa o leitor com imagens, sons, cheiros e sensações... Enfim, narra a história. A única diferença é que o mestre não tem qualquer poder de decisão sobre as ações dos heróis — os personagens jogadores."
     },
     {
       "titulo": "Proposta",
@@ -40,7 +43,7 @@
     },
     {
       "titulo": "Reações",
-      "texto": "Uma vez que as ações dos jogadores tenham seus resultados, os coadjuvantes e o ambiente reagem. Por exemplo, se o grupo se meteu contra o valentão, a vítima dele pode aproveitar para fugir. O taverneiro pode subir no balcão e gritar que não quer confusão na taverna. Se alguém resolveu virar uma mesa, os fregueses pulam das cadeiras e se afastam, tentando não se molhar com a cerveja derramada.\n\nTenha em mente as coisas que você já tinha decidido que iriam acontecer e mantenha o plano, mas adapte tudo ao que os personagens fazem. Por exemplo: você tinha decidido que o velhinho ia chegar no exato momento em que os personagens se mostraram heroicos ao defender a vítima do valentão, então pediria que eles resolvessem o problema dos kobolds. Mas eles não parecem heróis — a barda está contando piadas, a bárbara virou uma mesa cheia de canecas, o ladino está se escondendo atrás de todos e o guerreiro está se escondendo em troca de proteger seu patrão. Enquanto a vítima dele tenta botar ordem na casa e o valentão está gargalhando no chão. E agora?\n\nO velhinho pode chegar nesse instante. Mas, em vez de se impressionar com o heroísmo dos aventureiros, ele diz: \"Oh, não! Eu esperava encontrar heróis, mas aqui só há piadistas e arruaceiros! Será que não há ninguém vai aparecer para salvar nossa pele dos kobolds?\".\n\nSeja honesto com as ações dos jogadores. Se que eles arranjam problemas, cometam erros, tenham sucessos, sofram fracassos e façam coisas inesperadas. A ladina quiser aproveitar para roubar o taverneiro, deixe se desespere. Deixe que ela tente. Não era nada do que você esperava, mas até é a história que vocês estão contando em conjunto. Você achou que seria a história de um grupo honrado se voluntariando para defender uma aldeia, mas é a história de como um bando de desordeiros acabou se metendo sem querer num conflito entre kobolds e aldeões. Também pode ser interessante, não?"
+      "texto": "Uma vez que as ações dos jogadores tenham seus resultados, os coadjuvantes e o ambiente reagem. Por exemplo, se o grupo se meteu contra o valentão, a vítima dele pode aproveitar para fugir. O taverneiro pode subir no balcão e gritar que não quer confusão na taverna. Se alguém resolveu virar uma mesa, os fregueses pulam das cadeiras e se afastam, tentando não se molhar com a cerveja derramada.\n\nTenha em mente as coisas que você já tinha decidido que iriam acontecer e mantenha o plano, mas adapte tudo ao que os personagens fazem. Por exemplo: você tinha decidido que o velhinho ia chegar no exato momento em que os personagens se mostraram heroicos ao defender a vítima do valentão, então pediria que eles resolvessem o problema dos kobolds. Mas eles não parecem heróis — a barda está contando piadas, a bárbara virou uma mesa cheia de canecas, o ladino está se escondendo atrás de todos e o guerreiro está se escondendo em troca de proteger seu patrão. Enquanto a vítima dele tenta botar ordem na casa e o valentão está gargalhando no chão. E agora?\n\nO velhinho pode chegar nesse instante. Mas, em vez de se impressionar com o heroísmo dos aventureiros, ele diz: \"Oh, não! Eu esperava encontrar heróis, mas aqui só há piadistas e arruaceiros! Será que não há ninguém vai aparecer para salvar nossa pele dos kobolds?\".\n\nSeja honesto com as ações dos jogadores. Deixe que eles arranjem problemas, cometam erros, tenham sucessos, sofram fracassos e façam coisas inesperadas. Se a ladina quiser aproveitar para roubar o taverneiro, não se desespere. Deixe que ela tente. Não era nada do que você esperava, mas esta é a história que vocês estão contando em conjunto. Você achou que seria a história de um grupo honrado se voluntariando para defender uma aldeia, mas é a história de como um bando de desordeiros acabou se metendo sem querer num conflito entre kobolds e aldeões. Também pode ser interessante, não?"
     },
     {
       "titulo": "Narrando Falhas",
