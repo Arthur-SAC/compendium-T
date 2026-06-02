@@ -3,7 +3,10 @@
   "tipo": "regiao",
   "nome": "As Ruínas de Tyrondir",
   "resumo": "Antigo \"Reino da Fronteira\" que barrava os goblinoides, destruído pela queda da Flecha de Fogo: hoje uma extensão devastada de crateras, lava e o letal lodo negro — o sangue do deus Ragnar.",
-  "fonte": { "livro": "livro-basico", "pagina": 378 },
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 378
+  },
   "imagens": [],
   "secoes": [
     {
@@ -17,16 +20,24 @@
     {
       "titulo": "A Ossada de Ragnar",
       "texto": "O Istmo de Hangpharstyth, que ligava os dois continentes, foi quase todo destruído. Canais foram abertos com a queda do meteoro, permitindo a circulação de navios. Existem algumas passagens por terra, mas são poucas e temporárias, estreitas e traiçoeiras, conhecidas por poucos. Para chegar de um continente a outro, é preciso enfrentar o mar e a Ossada de Ragnar. Contudo, apenas os mais habilidosos e ousados marinheiros se aventuram por aqui. Imensos pilares de rocha emergem do mar, como se realmente fossem costelas de um deus. A água é surpreendentemente rasa em alguns lugares, fazendo com que navios encalhem ou tenham seus cascos destruídos sem aviso. As correntes são fortes e caóticas, o vento é canalizado pelos súbitos paredões de pedra.\n\nPiratas, comerciantes, militares e até mesmo goblinoides cruzam este verdadeiro labirinto marítimo. Além disso, magia não funciona nesta região, devido a um acidente causado pela bruxa goblin Hangpharstyth séculos atrás. Aqui só se pode contar com conhecimento e coragem."
-    },
-    {
-      "titulo": "A Tragédia Élfica",
-      "texto": "Elfos. Povo amargurado, derrotado, escravizado e escorraçado. Porque perderam tudo. Sua cultura. Sua terra. Sua deusa.\n\nOs elfos chegaram a este mundo há mais de mil anos, suas embarcações mágicas depositadas no oceano pelas próprias mãos gentis da deusa Glórienn. Aportaram na costa verdejante do continente Lamnor, de onde expulsaram as brutais tribos hobgoblins nativas e ergueram sua orgulhosa cidade-nação, Lenórienn; por ser considerada a Primeira Cidade da Primeira Raça, seu surgimento ficaria marcado como um importantíssimo marco na trajetória da civilização. De fato, até mesmo historiadores humanos consideram a fundação de Lenórienn como o início da própria História.\n\nOs elfos teriam testemunhado o desenvolvimento da raça humana com certa curiosidade. Teriam ajudado os humanos em seu avanço, ensinando artes e ciências, até mesmo os rudimentos da conjuração arcana — ainda que sempre se mantendo distantes, altivos, intocáveis. Para alguns, os elfos eram bondosos, generosos, sinceramente interessados no desenvolvimento humano; para outros, sua ajuda veio apenas por arrogância e orgulho, por desejo vaidoso de mostrar superioridade, imitar os deuses.\n\nExiste ainda uma teoria ainda mais cruel; os elfos teriam erguido os povos humanos apenas para dar combate (ou pior, um alvo) a seus antigos inimigos.\n\nAinda que a história registrada os rejeite como seres inteligentes, havia outros povos em Lamnor antes dos elfos e humanos. Havia humanoides monstruosos, como orcs e ogros. Sobretudo, havia as várias raças goblinoides — incluindo os hobgoblins, expulsos pelos elfos. Ferozes e guerreiros, dedicariam suas vidas a odiar e atacar os elfos, considerando-os invasores e opressores. Mesmo com os emergentes reinos humanos em batalha constante com os outros goblinoides e monstros, os hobgoblins permaneceriam focados em seus inimigos mortais. O conflito entre elfos e hobgoblins ficaria conhecido como a Infinita Guerra, e realmente todos achavam que nunca acabaria.\n\nSeria assim até o surgimento de uma lenda, uma profecia, uma maldição. Nascido sob um eclipse, Thwor Khoshkothruk era um bugbear, uma temida raça de goblins imensos, aterrorizantes e mortais — sendo ele ainda mais imenso, aterrorizante e mortal. Tinha a ferocidade bugbear, mas também uma astúcia jamais vista em sua espécie, jamais vista em qualquer goblinoide. Sozinho, invadiu a cidade dos elfos e raptou sua princesa, oferecendo-a como tributo aos hobgoblins. Em troca, propôs uma aliança entre seus povos, entre todos os povos assim chamados monstruosos.\n\nThwor se tornaria o grande líder unificador das tribos, o maior general bárbaro na história do mundo. Com sua força, inteligência e carisma descomunais, reuniu os goblinoides em um único povo, os duyshidakk. Um povo, um exército, um verdadeiro império. Thwor derrotou os elfos e tomou Lenórienn. Caso humanos e elfos também se ajudassem, talvez pudessem ter resistido, mas o isolacionismo dos elfos foi sua ruína. Um a um, os reinos humanos também caíram. Lamnor agora pertence aos duyshidakk.\n\nOs elfos foram massacrados, dizimados. Os poucos sobreviventes fugiram para o norte, para Arton, como refugiados. Sua deusa Glórienn, diminuída, acabou escravizada por Tauron, o Deus da Força — e muitos elfos seguiram seu exemplo, aceitando a \"proteção\" táurica em troca de servidão. Outros passariam a viver entre os humanos, derrotados, amargurados. A tragédia, mesmo ocorrida há longos anos, ainda é fresca na longeva memória élfica. Com medo, nunca voltariam a se reunir, erguer nações. Vagariam pelo mundo, vivendo de caridade, crime ou aventuras.\n\nContudo, notícias recentes abalaram ainda mais os elfos: uma antiga profecia se cumpriu, levando à morte de Thwor Khoshkothruk e causando a desintegração de seu império. Glórienn caiu ainda mais, perderia seu status divino, agora se tornando mortal. O que isso significa para a raça élfica? Sua derrocada final? Ou um novo começo?"
     }
   ],
   "relacoes": [
-    { "tipo": "citada", "alvoId": "thyatis", "alvoTipo": "divindade", "rotulo": "Thyatis" },
-    { "tipo": "citada", "alvoId": "thwor", "alvoTipo": "divindade", "rotulo": "Thwor" },
-    { "tipo": "citada", "alvoId": "tauron", "alvoTipo": "divindade", "rotulo": "Tauron" }
+    {
+      "tipo": "citada",
+      "alvoId": "thyatis",
+      "alvoTipo": "divindade",
+      "rotulo": "Thyatis"
+    },
+    {
+      "tipo": "citada",
+      "alvoId": "thwor",
+      "alvoTipo": "divindade",
+      "rotulo": "Thwor"
+    }
   ],
-  "mecanica": { "secao": "Além do Reinado", "epiteto": "O Reino da Fronteira" }
+  "mecanica": {
+    "secao": "Além do Reinado",
+    "epiteto": "O Reino da Fronteira"
+  }
 }
