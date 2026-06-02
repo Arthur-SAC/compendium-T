@@ -50,21 +50,36 @@ export function tokenizar(texto: string, registro: Registro): Token[] {
   if (!registro.re) return [{ tipo: "texto", valor: texto }];
 
   const tokens: Token[] = [];
+  // Coalesce: anexa ao último token de texto em vez de fragmentar (uma entidade rejeitada
+  // pela regra de maiúscula vira texto e deve fundir com o texto vizinho).
+  const pushTexto = (valor: string) => {
+    const ult = tokens[tokens.length - 1];
+    if (ult && ult.tipo === "texto") ult.valor += valor;
+    else tokens.push({ tipo: "texto", valor });
+  };
   let ultimo = 0;
   for (const m of texto.matchAll(registro.re)) {
     const inicio = m.index!;
     const casado = m[0];
-    if (inicio > ultimo) tokens.push({ tipo: "texto", valor: texto.slice(ultimo, inicio) });
+    if (inicio > ultimo) pushTexto(texto.slice(ultimo, inicio));
     const entrada = registro.porNome.get(casado.toLowerCase());
+    // Links de entidade são nomes próprios (raças, classes, magias…) e no livro aparecem
+    // sempre em Title-Case. Vários nomes de magia são palavras comuns ("Luz", "Sono", "Voo",
+    // "Condição"); em prosa minúscula ("um raio de luz") NÃO devem virar link — só a referência
+    // capitalizada ("Luz", "lança Escuridão") linka. Tooltips (condições/glossário) seguem
+    // case-insensitive, pois são citados em minúsculo ("fica atordoado").
+    const inicialMaiuscula = /^\p{Lu}/u.test(casado);
     if (!entrada) {
-      tokens.push({ tipo: "texto", valor: casado });
+      pushTexto(casado);
     } else if (entrada.kind === "tooltip") {
       tokens.push({ tipo: "tooltip", termoId: entrada.termoId, valor: casado });
-    } else {
+    } else if (inicialMaiuscula) {
       tokens.push({ tipo: "link", alvoId: entrada.alvoId, alvoTipo: entrada.alvoTipo, valor: casado });
+    } else {
+      pushTexto(casado);
     }
     ultimo = inicio + casado.length;
   }
-  if (ultimo < texto.length) tokens.push({ tipo: "texto", valor: texto.slice(ultimo) });
+  if (ultimo < texto.length) pushTexto(texto.slice(ultimo));
   return tokens.length ? tokens : [{ tipo: "texto", valor: texto }];
 }

@@ -69,6 +69,37 @@ test("ainda casa ND como palavra isolada", () => {
   expect(t).toContainEqual({ tipo: "tooltip", termoId: "nd", valor: "ND" });
 });
 
+test("link de entidade exige inicial maiúscula (nome próprio): minúsculo NÃO linka", () => {
+  // Magias têm nomes que são palavras comuns ("Luz", "Sono"). Em prosa minúscula
+  // ("um raio de luz") NÃO devem virar link; só a referência Title-Case ("Luz") linka.
+  const reg = construirRegistro({
+    termos: [],
+    entidades: [{ id: "luz", nome: "Luz", tipo: "magia" }],
+  });
+  expect(tokenizar("um raio de luz forte", reg)).toEqual([
+    { tipo: "texto", valor: "um raio de luz forte" },
+  ]);
+  expect(tokenizar("lança Luz como magia", reg)).toContainEqual({
+    tipo: "link",
+    alvoId: "luz",
+    alvoTipo: "magia",
+    valor: "Luz",
+  });
+});
+
+test("tooltips continuam case-insensitive mesmo com a regra de maiúscula para entidades", () => {
+  const reg = construirRegistro({
+    termos: [{ id: "atordoado", nome: "atordoado", descricao: "..." }],
+    entidades: [{ id: "luz", nome: "Luz", tipo: "magia" }],
+  });
+  // termo em minúsculo ainda vira tooltip
+  expect(tokenizar("fica atordoado agora", reg)).toContainEqual({
+    tipo: "tooltip",
+    termoId: "atordoado",
+    valor: "atordoado",
+  });
+});
+
 test("construirRegistro pré-compila a regex e tokeniza igual em chamadas repetidas", () => {
   const reg = construirRegistro({
     termos: [{ id: "medo", nome: "Medo", descricao: "x" }],
