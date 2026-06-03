@@ -329,6 +329,91 @@ body::before {
   margin-top: 8px;
 }
 
+/* Tabela de perícias (campos lado a lado, leitura compacta) */
+.tabela-pericias {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--serifa);
+}
+.tabela-pericias th {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--vermelho);
+  border-bottom: 2px solid var(--borda);
+  padding: 6px 10px;
+}
+.tabela-pericias td {
+  border-bottom: 1px solid var(--borda-suave);
+  padding: 8px 10px;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--tinta-suave);
+}
+.tabela-pericias tbody tr:hover {
+  background: rgba(177, 39, 58, 0.06);
+}
+.tabela-pericias .tp-nome {
+  font-family: var(--font-tormenta), var(--serifa);
+  color: var(--carmesim);
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tabela-pericias .tp-col-nome {
+  white-space: nowrap;
+}
+.tabela-pericias .tp-col-atr {
+  white-space: nowrap;
+  color: var(--vermelho);
+  font-size: 12.5px;
+}
+
+/* Cards de informação (poderes): nome / pré-requisito / descrição empilhados */
+.cards-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--tinta);
+  border: 1px solid var(--borda-suave);
+  border-radius: 10px;
+  padding: 12px 15px;
+  background: rgba(255, 250, 240, 0.3);
+  transition: border-color 0.15s ease;
+}
+.card-info:hover {
+  border-color: var(--carmesim);
+}
+.card-info-nome {
+  font-family: var(--font-tormenta), var(--serifa);
+  color: var(--carmesim);
+  font-size: 19px;
+  letter-spacing: 0.4px;
+}
+.card-info-prereq {
+  font-family: var(--serifa);
+  font-size: 11.5px;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--vermelho);
+}
+.card-info-desc {
+  font-family: var(--serifa);
+  font-size: 13px;
+  color: var(--tinta-suave);
+  line-height: 1.45;
+}
+
 /* Navegação entre sub-páginas de uma seção (círculos, grupos, categorias, temas) */
 .sub-nav {
   display: flex;

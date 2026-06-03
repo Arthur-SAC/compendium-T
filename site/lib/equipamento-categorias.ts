@@ -1,44 +1,55 @@
 import type { ItemMecanica } from "@/lib/schema";
 
-// Subgrupo opcional dentro de uma categoria (ex.: armas por proficiência).
+// Subgrupo opcional dentro de uma categoria (ex.: armaduras leves/pesadas/escudos).
 export type Subgrupo = { rotulo: string; filtro: (m: ItemMecanica) => boolean };
-export type CategoriaEquip = { slug: string; rotulo: string; chaves: string[]; subgrupos?: Subgrupo[] };
+export type CategoriaEquip = {
+  slug: string;
+  rotulo: string;
+  base?: (m: ItemMecanica) => boolean; // itens comuns (tipo "item")
+  subgrupos?: Subgrupo[]; // subgrupos do base
+  magicos?: string[]; // tipoItem de itens mágicos (tipo "item-magico") listados abaixo
+};
 
 export const CATEGORIAS_EQUIP: CategoriaEquip[] = [
+  { slug: "armas-simples", rotulo: "Armas Simples", base: (m) => m.categoria === "arma" && m.arma?.proficiencia === "simples", magicos: ["Encanto de Arma", "Arma Específica"] },
+  { slug: "armas-marciais", rotulo: "Armas Marciais", base: (m) => m.categoria === "arma" && m.arma?.proficiencia === "marcial", magicos: ["Encanto de Arma", "Arma Específica"] },
+  { slug: "armas-exoticas", rotulo: "Armas Exóticas", base: (m) => m.categoria === "arma" && m.arma?.proficiencia === "exótica", magicos: ["Encanto de Arma", "Arma Específica"] },
+  { slug: "armas-de-fogo", rotulo: "Armas de Fogo", base: (m) => m.categoria === "arma" && m.arma?.proficiencia === "fogo", magicos: ["Encanto de Arma", "Arma Específica"] },
   {
-    slug: "armas",
-    rotulo: "Armas",
-    chaves: ["arma"],
+    slug: "a-distancia",
+    rotulo: "À Distância & Munições",
+    base: (m) => (m.categoria === "arma" && !!m.arma?.alcance) || m.categoria === "municao",
     subgrupos: [
-      { rotulo: "Simples", filtro: (m) => m.arma?.proficiencia === "simples" },
-      { rotulo: "Marciais", filtro: (m) => m.arma?.proficiencia === "marcial" },
-      { rotulo: "Exóticas", filtro: (m) => m.arma?.proficiencia === "exótica" },
-      { rotulo: "De Fogo", filtro: (m) => m.arma?.proficiencia === "fogo" },
+      { rotulo: "Armas à Distância", filtro: (m) => m.categoria === "arma" && !!m.arma?.alcance },
+      { rotulo: "Munições", filtro: (m) => m.categoria === "municao" },
     ],
   },
   {
     slug: "armaduras-escudos",
     rotulo: "Armaduras & Escudos",
-    chaves: ["armadura", "escudo"],
+    base: (m) => m.categoria === "armadura" || m.categoria === "escudo",
     subgrupos: [
       { rotulo: "Armaduras Leves", filtro: (m) => m.categoria === "armadura" && m.protecao?.subcategoria === "leve" },
       { rotulo: "Armaduras Pesadas", filtro: (m) => m.categoria === "armadura" && m.protecao?.subcategoria === "pesada" },
       { rotulo: "Escudos", filtro: (m) => m.categoria === "escudo" },
     ],
+    magicos: ["Encanto de Armadura", "Armadura Específica", "Escudo Específico"],
   },
-  { slug: "municoes", rotulo: "Munições", chaves: ["municao"] },
-  { slug: "aventura", rotulo: "Equipamento de Aventura", chaves: ["item-aventura"] },
-  { slug: "ferramentas", rotulo: "Ferramentas", chaves: ["ferramenta"] },
-  { slug: "vestuario", rotulo: "Vestuário", chaves: ["vestuario"] },
-  { slug: "esotericos", rotulo: "Esotéricos", chaves: ["esoterico"] },
-  { slug: "alquimicos", rotulo: "Alquímicos", chaves: ["alquimico"] },
-  { slug: "alimentacao", rotulo: "Alimentação", chaves: ["alimentacao"] },
-  { slug: "animais", rotulo: "Animais", chaves: ["animal"] },
-  { slug: "veiculos", rotulo: "Veículos", chaves: ["veiculo"] },
-  { slug: "servicos", rotulo: "Serviços", chaves: ["servico"] },
+  { slug: "aventura", rotulo: "Equipamento de Aventura", base: (m) => m.categoria === "item-aventura" },
+  { slug: "ferramentas", rotulo: "Ferramentas", base: (m) => m.categoria === "ferramenta" },
+  { slug: "vestuario", rotulo: "Vestuário", base: (m) => m.categoria === "vestuario" },
+  { slug: "esotericos", rotulo: "Esotéricos", base: (m) => m.categoria === "esoterico" },
+  { slug: "alquimicos", rotulo: "Alquímicos", base: (m) => m.categoria === "alquimico" },
+  { slug: "pocoes", rotulo: "Poções", magicos: ["Poção"] },
+  { slug: "acessorios-magicos", rotulo: "Acessórios Mágicos", magicos: ["Acessório"] },
+  { slug: "artefatos", rotulo: "Artefatos", magicos: ["Artefato"] },
+  { slug: "alimentacao", rotulo: "Alimentação", base: (m) => m.categoria === "alimentacao" },
+  { slug: "animais", rotulo: "Animais", base: (m) => m.categoria === "animal" },
+  { slug: "veiculos", rotulo: "Veículos", base: (m) => m.categoria === "veiculo" },
+  { slug: "servicos", rotulo: "Serviços", base: (m) => m.categoria === "servico" },
 ];
 
-// Reúne todas as informações mecânicas do item (menos as explicações das habilidades).
+// Reúne todas as informações mecânicas do item comum (menos as explicações das habilidades).
 export function statsDoItem(m: ItemMecanica): string[] {
   const partes: string[] = [];
   if (m.arma) {

@@ -41,14 +41,14 @@ export default async function PaginaGrupoPoderes({ params }: { params: Promise<{
         </p>
         <SubNav base="/poderes" itens={GRUPOS} atual={grupo} voltarRotulo="Todos os grupos" />
 
-        <div className="indice-lista">
+        <div className="cards-info">
           {lista.map((p) => {
             const m = mec(p);
             return (
-              <Link key={p.id} href={`/ficha/poder/${p.id}`} className="indice-linha">
-                <span className="indice-nome">{p.nome}</span>
-                {m.prerequisito && <span className="indice-meta">Pré-req.: {m.prerequisito}</span>}
-                {p.resumo && <span className="indice-resumo">{p.resumo}</span>}
+              <Link key={p.id} href={`/ficha/poder/${p.id}`} className="card-info">
+                <span className="card-info-nome">{p.nome}</span>
+                {m.prerequisito && <span className="card-info-prereq">Pré-requisito: {m.prerequisito}</span>}
+                {p.resumo && <span className="card-info-desc">{p.resumo}</span>}
               </Link>
             );
           })}

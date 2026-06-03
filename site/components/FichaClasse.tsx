@@ -138,8 +138,16 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
 
       <div style={{ background: "transparent", color: "var(--tinta)", padding: "20px 26px 24px" }}>
         {entidade.resumo && (
-          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto 20px", lineHeight: 1.55, textAlign: "center" }}>{entidade.resumo}</p>
+          <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto 18px", lineHeight: 1.55, textAlign: "center" }}>{entidade.resumo}</p>
         )}
+
+        {/* Atributo-chave / PV / PM em uma única linha (faixa larga) */}
+        <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center", margin: "0 0 22px" }}>
+          <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
+          <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
+          <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
+          <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
+        </div>
 
         <div className="ficha-corpo">
           <div className="ficha-main">
@@ -237,12 +245,6 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                 <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 300, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
               </div>
             )}
-            <div style={{ ...cartaoAside, display: "flex", gap: 10, flexWrap: "wrap" }}>
-              <StatBox valor={<AtributoChave texto={m.atributoChave} />} rotulo="Atributo-chave" />
-              <StatBox valor={String(m.pvInicial)} rotulo="PV inicial" />
-              <StatBox valor={`+${m.pvPorNivel}`} rotulo="PV / nível" />
-              <StatBox valor={`+${m.pmPorNivel}`} rotulo="PM / nível" />
-            </div>
             <div style={cartaoAside}>
               <h2 style={h2}>Perícias</h2>
               <p style={{ fontFamily: "var(--serifa)", lineHeight: 1.55, margin: "0 0 4px" }}>{m.pericias.texto}</p>

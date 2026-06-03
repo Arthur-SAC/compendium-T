@@ -11,7 +11,6 @@ export const CATEGORIAS: Categoria[] = [
   { id: "pericias", rotulo: "Perícias", rota: "/pericias" },
   { id: "poderes", rotulo: "Poderes", rota: "/poderes" },
   { id: "equipamento", rotulo: "Equipamento", rota: "/equipamento" },
-  { id: "itens-magicos", rotulo: "Itens Mágicos", rota: "/itens-magicos" },
   { id: "magias", rotulo: "Magias", rota: "/magias" },
   { id: "deuses", rotulo: "Deuses", rota: "/deuses" },
   { id: "bestiario", rotulo: "Bestiário", rota: "/bestiario" },
@@ -27,7 +26,7 @@ const TIPO_PARA_AREA: Record<string, string> = {
   pericia: "pericias",
   poder: "poderes",
   item: "equipamento",
-  "item-magico": "itens-magicos",
+  "item-magico": "equipamento",
   magia: "magias",
   divindade: "deuses",
   criatura: "bestiario",
@@ -59,12 +58,11 @@ export function subsecoesDaArea(area: string): SubSecao[] {
 export const REGRAS_POR_AREA: Record<string, string[]> = {
   personagem: ["construcao-de-personagem", "atributos", "caracteristicas-derivadas", "nome-idade-e-envelhecimento", "alinhamento", "evolucao-de-personagem"],
   racas: ["caracteristicas-das-racas"],
-  classes: ["classes-como-funcionam", "evolucao-de-personagem"],
+  classes: ["classes-como-funcionam", "evolucao-de-personagem", "pontos-de-experiencia"],
   origens: ["construcao-origens"],
   pericias: ["pericias-como-funcionam"],
   poderes: ["poderes-como-funcionam"],
-  equipamento: ["regras-de-armas", "regras-de-armaduras", "itens-superiores", "itens-magicos", "regras-de-itens-especiais", "riqueza-e-equipamento"],
-  "itens-magicos": ["itens-magicos", "itens-superiores", "tesouros"],
+  equipamento: ["riqueza-e-equipamento", "regras-de-armas", "regras-de-armaduras", "regras-de-itens-especiais", "itens-superiores", "itens-magicos", "tesouros"],
   magias: ["magia-como-funciona", "caracteristicas-das-magias", "aprimoramentos-de-magia"],
   deuses: ["devocao-como-funciona", "deuses-menores"],
   bestiario: ["construindo-combates", "perigos", "fichas-de-npcs"],
@@ -95,6 +93,7 @@ export const ROTULOS_REGRA: Record<string, string> = {
   "regras-de-itens-especiais": "Itens Especiais (venenos, pratos…)",
   "riqueza-e-equipamento": "Riqueza & Equipamento",
   tesouros: "Tesouros",
+  "pontos-de-experiencia": "Pontos de Experiência",
   "magia-como-funciona": "Como Funciona a Magia",
   "caracteristicas-das-magias": "Características das Magias",
   "aprimoramentos-de-magia": "Aprimoramentos de Magia",
@@ -110,4 +109,17 @@ export const ROTULOS_REGRA: Record<string, string> = {
 
 export function rotuloRegra(id: string): string {
   return ROTULOS_REGRA[id] ?? id;
+}
+
+// Tipos de entidade que pertencem a cada área (inverso de TIPO_PARA_AREA).
+export function tiposDaArea(area: string): string[] {
+  return Object.entries(TIPO_PARA_AREA).filter(([, a]) => a === area).map(([t]) => t);
+}
+
+// Áreas cujo catálogo é pequeno o bastante para listar na coluna direita
+// (as grandes — magias/poderes/equipamento/bestiário — já têm menu de grupos no centro).
+export const AREAS_COM_LISTA = new Set(["racas", "classes", "origens", "pericias", "deuses", "mundo"]);
+
+export function mostrarListaNaBarra(area: string): boolean {
+  return AREAS_COM_LISTA.has(area);
 }

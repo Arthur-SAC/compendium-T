@@ -2,16 +2,16 @@ import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
 import { carregarEntidades } from "@/lib/dados";
 import IndiceMagias from "@/app/magias/page";
-import PaginaCirculo from "@/app/magias/[circulo]/page";
+import PaginaCirculoTipo from "@/app/magias/[circulo]/[tipo]/page";
 
-test("menu de magias lista os círculos com link próprio", () => {
+test("menu de magias oferece o link de Arcanas por círculo", () => {
   render(<IndiceMagias />);
-  expect(screen.getByRole("link", { name: /1º Círculo/ })).toHaveAttribute("href", "/magias/1");
+  expect(screen.getAllByRole("link", { name: /Arcanas/ }).length).toBeGreaterThan(0);
 });
 
-test("sub-página do círculo lista Bola de Fogo com link para a ficha", async () => {
+test("página de círculo/tipo lista Bola de Fogo com link para a ficha", async () => {
   const bf = carregarEntidades().find((e) => e.id === "bola-de-fogo" && e.tipo === "magia");
   const circulo = String((bf!.mecanica as { circulo: number }).circulo);
-  render(await PaginaCirculo({ params: Promise.resolve({ circulo }) }));
+  render(await PaginaCirculoTipo({ params: Promise.resolve({ circulo, tipo: "arcana" }) }));
   expect(screen.getByRole("link", { name: /^Bola de Fogo/ })).toHaveAttribute("href", "/ficha/magia/bola-de-fogo");
 });

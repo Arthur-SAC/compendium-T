@@ -2,36 +2,33 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { areaDoPath, subsecoesDaArea, regrasDaArea, rotuloRegra, CATEGORIAS } from "@/lib/navegacao";
+import { areaDoPath, regrasDaArea, rotuloRegra, CATEGORIAS, tiposDaArea, mostrarListaNaBarra } from "@/lib/navegacao";
 import { BuscaCompacta } from "./BuscaCompacta";
 import type { Indice } from "@/lib/busca";
 
-/** Coluna direita: busca (topo) + sub-seções da área + regras da área. */
+/** Coluna direita: busca (topo) + regras da área + lista de entidades da seção. */
 export function BarraContexto({ indice }: { indice: Indice }) {
   const pathname = usePathname() ?? "/";
   const area = areaDoPath(pathname);
-  const subsecoes = subsecoesDaArea(area);
   const regras = regrasDaArea(area);
-  const rota = CATEGORIAS.find((c) => c.id === area)?.rota ?? "";
+  const cat = CATEGORIAS.find((c) => c.id === area);
+  const rota = cat?.rota ?? "";
   const naFicha = pathname.startsWith("/ficha/");
+
+  // Lista de entidades da seção (ex.: as classes) — só nas áreas de catálogo pequeno.
+  const tipos = tiposDaArea(area);
+  const lista = mostrarListaNaBarra(area)
+    ? indice.filter((e) => tipos.includes(e.tipo)).slice().sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
+    : [];
 
   return (
     <aside className="barra-contexto" aria-label="Contexto da seção">
       <BuscaCompacta indice={indice} />
 
       <div className="ctx-menu">
-        {subsecoes.length > 0 && (
-          <>
-            <div className="ctx-rotulo">Nesta seção</div>
-            {subsecoes.map((s) => (
-              <Link key={s.id} href={`${rota}#${s.id}`} className="ctx-link">{s.rotulo}</Link>
-            ))}
-          </>
-        )}
-
         {regras.length > 0 && (
           <>
-            <div className="ctx-rotulo" style={{ marginTop: subsecoes.length > 0 ? 16 : 0 }}>Regras desta seção</div>
+            <div className="ctx-rotulo">Regras desta seção</div>
             {regras.map((id) => (
               <Link key={id} href={`/ficha/regra-de-criacao/${id}`} className="ctx-link ctx-link-regra">
                 {rotuloRegra(id)}
@@ -40,7 +37,18 @@ export function BarraContexto({ indice }: { indice: Indice }) {
           </>
         )}
 
-        {naFicha && rota && (
+        {lista.length > 0 && (
+          <>
+            <div className="ctx-rotulo" style={{ marginTop: regras.length > 0 ? 16 : 0 }}>{cat?.rotulo ?? "Nesta seção"}</div>
+            {lista.map((e) => (
+              <Link key={`${e.tipo}/${e.id}`} href={`/ficha/${e.tipo}/${e.id}`} className="ctx-link">
+                {e.nome}
+              </Link>
+            ))}
+          </>
+        )}
+
+        {naFicha && rota && lista.length === 0 && (
           <Link href={rota} className="ctx-link" style={{ marginTop: 16, opacity: 0.7 }}>
             ← Voltar ao índice
           </Link>

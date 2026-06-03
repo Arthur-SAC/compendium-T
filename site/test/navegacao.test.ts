@@ -5,7 +5,7 @@ test("areaDoPath identifica a área pela rota", () => {
   expect(areaDoPath("/equipamento")).toBe("equipamento");
   expect(areaDoPath("/ficha/criatura/glop")).toBe("bestiario");
   expect(areaDoPath("/ficha/item/adaga")).toBe("equipamento");
-  expect(areaDoPath("/ficha/item-magico/espada-baronial")).toBe("itens-magicos");
+  expect(areaDoPath("/ficha/item-magico/espada-baronial")).toBe("equipamento");
   expect(areaDoPath("/ficha/regra-de-criacao/combate")).toBe("regras");
   expect(areaDoPath("/")).toBe("");
 });

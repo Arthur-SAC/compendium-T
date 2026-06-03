@@ -4,14 +4,17 @@ import { carregarEntidades } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
 import { SubNav } from "@/components/SubNav";
 import { CATEGORIAS_EQUIP, statsDoItem } from "@/lib/equipamento-categorias";
-import type { Entidade, ItemMecanica } from "@/lib/schema";
+import type { Entidade, ItemMecanica, ItemMagicoMecanica } from "@/lib/schema";
 
 export const dynamicParams = false;
 
 const ITENS_NAV = CATEGORIAS_EQUIP.map((c) => ({ slug: c.slug, rotulo: c.rotulo }));
 
-function mec(it: Entidade): ItemMecanica {
+function mecItem(it: Entidade): ItemMecanica {
   return it.mecanica as unknown as ItemMecanica;
+}
+function mecMagico(it: Entidade): ItemMagicoMecanica {
+  return it.mecanica as unknown as ItemMagicoMecanica;
 }
 
 export function generateStaticParams() {
@@ -19,19 +22,15 @@ export function generateStaticParams() {
 }
 
 function LinhaItem({ it }: { it: Entidade }) {
-  const m = mec(it);
+  const m = mecItem(it);
   const stats = statsDoItem(m);
   const habilidades = m.arma?.habilidades ?? [];
   return (
     <Link href={`/ficha/item/${it.id}`} className="indice-linha" style={{ alignItems: "flex-start" }}>
       <span className="indice-nome" style={{ paddingTop: 1 }}>{it.nome}</span>
       <span style={{ flex: "1 1 auto", minWidth: 0, display: "flex", flexDirection: "column", gap: 3 }}>
-        {stats.length > 0 && (
-          <span style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--vermelho)" }}>{stats.join(" · ")}</span>
-        )}
-        {it.resumo && (
-          <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)", lineHeight: 1.4 }}>{it.resumo}</span>
-        )}
+        {stats.length > 0 && <span style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--vermelho)" }}>{stats.join(" · ")}</span>}
+        {it.resumo && <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)", lineHeight: 1.4 }}>{it.resumo}</span>}
         {habilidades.length > 0 && (
           <span style={{ display: "flex", flexWrap: "wrap", gap: 5, marginTop: 1 }}>
             {habilidades.map((h, i) => (
@@ -44,43 +43,63 @@ function LinhaItem({ it }: { it: Entidade }) {
   );
 }
 
+function LinhaMagico({ it }: { it: Entidade }) {
+  const m = mecMagico(it);
+  const meta = [m.categoria, m.preco].filter(Boolean).join(" · ");
+  return (
+    <Link href={`/ficha/item-magico/${it.id}`} className="indice-linha" style={{ alignItems: "flex-start" }}>
+      <span className="indice-nome" style={{ paddingTop: 1 }}>{it.nome}</span>
+      <span style={{ flex: "1 1 auto", minWidth: 0, display: "flex", flexDirection: "column", gap: 3 }}>
+        {meta && <span style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--vermelho)" }}>{meta}</span>}
+        {it.resumo && <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)", lineHeight: 1.4 }}>{it.resumo}</span>}
+      </span>
+    </Link>
+  );
+}
+
 export default async function PaginaCategoriaEquip({ params }: { params: Promise<{ categoria: string }> }) {
   const { categoria } = await params;
   const def = CATEGORIAS_EQUIP.find((c) => c.slug === categoria);
   if (!def) notFound();
+  const entidades = carregarEntidades();
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
-  const lista = carregarEntidades()
-    .filter((e) => e.tipo === "item" && def.chaves.includes(mec(e).categoria ?? "outros"))
-    .sort(ordenar);
+
+  const base = def.base
+    ? entidades.filter((e) => e.tipo === "item" && def.base!(mecItem(e))).sort(ordenar)
+    : [];
+  const magicosPorTipo = (def.magicos ?? []).map((tipo) => ({
+    tipo,
+    lista: entidades.filter((e) => e.tipo === "item-magico" && mecMagico(e).tipoItem === tipo).sort(ordenar),
+  })).filter((g) => g.lista.length > 0);
 
   return (
     <main className="folha-main">
       <div className="folha">
-        <h1 className="titulo-grimorio" style={{ fontSize: 44, textAlign: "center" }}>{def.rotulo}</h1>
+        <h1 className="titulo-grimorio" style={{ fontSize: 42, textAlign: "center" }}>{def.rotulo}</h1>
         <Divisor />
-        <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 18px", fontFamily: "var(--serifa)" }}>
-          {lista.length} {lista.length === 1 ? "item" : "itens"}
-        </p>
         <SubNav base="/equipamento" itens={ITENS_NAV} atual={categoria} voltarRotulo="Todas as categorias" />
 
         {def.subgrupos ? (
           def.subgrupos.map((sg) => {
-            const sublista = lista.filter((it) => sg.filtro(mec(it)));
+            const sublista = base.filter((it) => sg.filtro(mecItem(it)));
             if (sublista.length === 0) return null;
             return (
               <section key={sg.rotulo} style={{ marginBottom: 8 }}>
                 <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>{sg.rotulo} ({sublista.length})</h3>
-                <div className="indice-lista">
-                  {sublista.map((it) => <LinhaItem key={it.id} it={it} />)}
-                </div>
+                <div className="indice-lista">{sublista.map((it) => <LinhaItem key={it.id} it={it} />)}</div>
               </section>
             );
           })
-        ) : (
-          <div className="indice-lista">
-            {lista.map((it) => <LinhaItem key={it.id} it={it} />)}
-          </div>
-        )}
+        ) : base.length > 0 ? (
+          <div className="indice-lista">{base.map((it) => <LinhaItem key={it.id} it={it} />)}</div>
+        ) : null}
+
+        {magicosPorTipo.map((g) => (
+          <section key={g.tipo} style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>{g.tipo} <span style={{ color: "var(--tinta-suave)", fontWeight: 400 }}>· itens mágicos</span> ({g.lista.length})</h3>
+            <div className="indice-lista">{g.lista.map((it) => <LinhaMagico key={it.id} it={it} />)}</div>
+          </section>
+        ))}
       </div>
     </main>
   );
