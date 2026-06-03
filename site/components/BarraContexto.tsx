@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { areaDoPath, regrasDaArea, rotuloRegra, CATEGORIAS, tiposDaArea, mostrarListaNaBarra } from "@/lib/navegacao";
+import { areaDoPath, regrasDaArea, rotuloRegra, CATEGORIAS, tiposDaArea, mostrarListaNaBarra, gruposNavDaArea } from "@/lib/navegacao";
 import { BuscaCompacta } from "./BuscaCompacta";
 import type { Indice } from "@/lib/busca";
 
-/** Coluna direita: busca (topo) + regras da área + lista de entidades da seção. */
+/** Coluna direita: busca (topo) + regras da área + lista navegável da seção. */
 export function BarraContexto({ indice }: { indice: Indice }) {
   const pathname = usePathname() ?? "/";
   const area = areaDoPath(pathname);
@@ -15,11 +15,16 @@ export function BarraContexto({ indice }: { indice: Indice }) {
   const rota = cat?.rota ?? "";
   const naFicha = pathname.startsWith("/ficha/");
 
-  // Lista de entidades da seção (ex.: as classes) — só nas áreas de catálogo pequeno.
+  // Catálogo pequeno → lista as entidades; seção com grupos → lista os grupos.
   const tipos = tiposDaArea(area);
-  const lista = mostrarListaNaBarra(area)
-    ? indice.filter((e) => tipos.includes(e.tipo)).slice().sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
+  const catalogo = mostrarListaNaBarra(area)
+    ? indice
+        .filter((e) => tipos.includes(e.tipo))
+        .slice()
+        .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
+        .map((e) => ({ rotulo: e.nome, href: `/ficha/${e.tipo}/${e.id}` }))
     : [];
+  const lista = catalogo.length > 0 ? catalogo : gruposNavDaArea(area);
 
   return (
     <aside className="barra-contexto" aria-label="Contexto da seção">
@@ -40,10 +45,8 @@ export function BarraContexto({ indice }: { indice: Indice }) {
         {lista.length > 0 && (
           <>
             <div className="ctx-rotulo" style={{ marginTop: regras.length > 0 ? 16 : 0 }}>{cat?.rotulo ?? "Nesta seção"}</div>
-            {lista.map((e) => (
-              <Link key={`${e.tipo}/${e.id}`} href={`/ficha/${e.tipo}/${e.id}`} className="ctx-link">
-                {e.nome}
-              </Link>
+            {lista.map((l) => (
+              <Link key={l.href} href={l.href} className="ctx-link">{l.rotulo}</Link>
             ))}
           </>
         )}

@@ -123,3 +123,51 @@ export const AREAS_COM_LISTA = new Set(["racas", "classes", "origens", "pericias
 export function mostrarListaNaBarra(area: string): boolean {
   return AREAS_COM_LISTA.has(area);
 }
+
+// Links de grupo por área (para a coluna direita das seções que têm menu de grupos no centro).
+export type LinkNav = { rotulo: string; href: string };
+export const GRUPOS_NAV: Record<string, LinkNav[]> = {
+  magias: [1, 2, 3, 4, 5].map((c) => ({ rotulo: `${c}º Círculo`, href: `/magias/${c}/arcana` })),
+  poderes: [
+    { rotulo: "Combate", href: "/poderes/combate" },
+    { rotulo: "Destino", href: "/poderes/destino" },
+    { rotulo: "Magia", href: "/poderes/magia" },
+    { rotulo: "Concedidos", href: "/poderes/concedido" },
+    { rotulo: "Tormenta", href: "/poderes/tormenta" },
+  ],
+  equipamento: [
+    { rotulo: "Armas Simples", href: "/equipamento/armas-simples" },
+    { rotulo: "Armas Marciais", href: "/equipamento/armas-marciais" },
+    { rotulo: "Armas Exóticas", href: "/equipamento/armas-exoticas" },
+    { rotulo: "Armas de Fogo", href: "/equipamento/armas-de-fogo" },
+    { rotulo: "À Distância & Munições", href: "/equipamento/a-distancia" },
+    { rotulo: "Armaduras & Escudos", href: "/equipamento/armaduras-escudos" },
+    { rotulo: "Equipamento de Aventura", href: "/equipamento/aventura" },
+    { rotulo: "Ferramentas", href: "/equipamento/ferramentas" },
+    { rotulo: "Vestuário", href: "/equipamento/vestuario" },
+    { rotulo: "Esotéricos", href: "/equipamento/esotericos" },
+    { rotulo: "Alquímicos", href: "/equipamento/alquimicos" },
+    { rotulo: "Poções", href: "/equipamento/pocoes" },
+    { rotulo: "Acessórios Mágicos", href: "/equipamento/acessorios-magicos" },
+    { rotulo: "Artefatos", href: "/equipamento/artefatos" },
+    { rotulo: "Alimentação", href: "/equipamento/alimentacao" },
+    { rotulo: "Animais", href: "/equipamento/animais" },
+    { rotulo: "Veículos", href: "/equipamento/veiculos" },
+    { rotulo: "Serviços", href: "/equipamento/servicos" },
+  ],
+  bestiario: [
+    { rotulo: "Masmorras", href: "/bestiario/masmorras" },
+    { rotulo: "Ermos", href: "/bestiario/ermos" },
+    { rotulo: "Os Puristas", href: "/bestiario/os-puristas" },
+    { rotulo: "Reino dos Mortos", href: "/bestiario/reino-dos-mortos" },
+    { rotulo: "Os Duyshidakk", href: "/bestiario/os-duyshidakk" },
+    { rotulo: "Os Sszzaazitas", href: "/bestiario/os-sszzaazitas" },
+    { rotulo: "Os Trolls Nobres", href: "/bestiario/os-trolls-nobres" },
+    { rotulo: "Os Dragões", href: "/bestiario/os-dragoes" },
+    { rotulo: "A Tormenta", href: "/bestiario/a-tormenta" },
+  ],
+};
+
+export function gruposNavDaArea(area: string): LinkNav[] {
+  return GRUPOS_NAV[area] ?? [];
+}

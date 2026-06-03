@@ -67,14 +67,10 @@ body::before {
   max-width: 1820px;
   margin: 0 auto;
 }
-/* Colunas laterais: mesma largura, em coluna flex. Logo/busca no topo (mesma altura);
-   os menus em si centralizam na vertical (ver .nav-cats / .ctx-menu). */
+/* Colunas laterais: mesma largura, fluem com a página (sem scroll interno).
+   Começam na mesma altura (mesmo padding-top); a lista longa é revelada ao rolar a página. */
 .nav-global,
 .barra-contexto {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow-y: auto;
   padding: 28px 16px;
   display: flex;
   flex-direction: column;
@@ -167,8 +163,6 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* centraliza o menu verticalmente no espaço abaixo da logo/busca */
-  margin: auto 0;
 }
 .nav-cat,
 .ctx-link {
