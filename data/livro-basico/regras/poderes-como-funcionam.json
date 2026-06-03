@@ -21,6 +21,22 @@
     {
       "titulo": "Usar ou Não?",
       "texto": "Poderes gerais permitem diferenciar ainda mais seu personagem, trazendo novas opções e estratégias. No entanto, seu uso deixa o jogo mais pesado — construir o personagem e subir de nível será mais trabalhoso.\n\nSe você está experimentando suas primeiras aventuras, pode ser melhor evitar poderes gerais. Suas escolhas de raça, classe e origem já oferecem um enorme número de combinações.\n\nNo entanto, se você é um veterano de várias campanhas, talvez queira mais capacidade de personalização. Nesse caso, fique à vontade para ler esta seção e escolher os poderes que preferir — seja para melhor representar o conceito de seu herói, seja para conseguir combinações mais efetivas."
+    },
+    {
+      "titulo": "Grupo Magia",
+      "texto": "Poderes de Magia são ligados a magias e itens mágicos. Todos os poderes deste grupo possuem como pré-requisito lançar magias."
+    },
+    {
+      "titulo": "Poderes de Aprimoramento (Magia)",
+      "texto": "Dentro do grupo Magia existem os Poderes de Aprimoramento. Estes poderes acrescentam melhorias às magias conhecidas pelo conjurador. Eles seguem todas as regras para aprimoramentos (veja o Capítulo 4: Magia). Você pode aplicar quantos aprimoramentos quiser, desde que não ultrapasse seu limite de PM."
+    },
+    {
+      "titulo": "Grupo Concedidos",
+      "texto": "Poderes Concedidos são recebidos por devotos. Todos os poderes desta seção possuem como pré-requisito ser devoto de um dos deuses indicados. O atributo-chave desses poderes é Sabedoria (ou seja, é Sabedoria que define as CDs de seus efeitos)."
+    },
+    {
+      "titulo": "Grupo Tormenta",
+      "texto": "Poderes da Tormenta oferecem habilidades ligadas à tempestade rubra. Quando escolhe um poder da Tormenta, você perde 1 de Carisma. Para cada dois outros poderes da Tormenta, você perde mais 1 de Carisma. Essa perda representa deformidades físicas e o desaparecimento gradual de sua própria identidade. Um personagem reduzido a menos que Car –5 torna-se um NPC sob controle do mestre (perdido para a Tormenta)."
     }
   ],
   "relacoes": [],

@@ -11,6 +11,10 @@
       "texto": "Todas as magias são classificadas em tipos (arcana ou divina) e círculos (do 1º ao 5º).\n\nMagia Arcana. Manipula diretamente as energias do mundo, permitindo ao conjurador violar as leis naturais e alterar a realidade. Este tipo de mágica pode ser dominado por estudo ou aptidão natural. Seus efeitos costumam ser impressionantes, destruidores e fantásticos — como produzir relâmpagos, metamorfosear criaturas, transportar por longas distâncias e criar imagens ilusórias.\n\nMagia Divina. Provém de uma causa ou entidade poderosa — normalmente um deus maior. Através da devoção a essa causa ou entidade, o conjurador recebe poder mágico. A magia divina geralmente envolve proteção, fortalecimento e cura."
     },
     {
+      "titulo": "Magias Universais",
+      "texto": "Além das magias estritamente arcanas e estritamente divinas, existem magias universais — magias que não pertencem exclusivamente a um tipo ou outro e que aparecem tanto na Lista de Magias Arcanas quanto na Lista de Magias Divinas. Elas podem ser aprendidas e lançadas por conjuradores de qualquer um dos dois tipos (arcanos ou divinos), respeitando o círculo que cada classe é capaz de lançar. Exemplos incluem Vidência e Visão da Verdade. Na descrição da magia, o tipo aparece como \"Universal\" seguido do círculo e da escola (por exemplo, \"Universal 1 (Adivinhação)\")."
+    },
+    {
       "titulo": "Círculos e Atributo-chave",
       "texto": "Círculos. Magias são divididas em círculos, do 1º ao 5º. Quanto mais alto o círculo da magia, mais poderosa ela é. Magias de 1º círculo são pouco mais que truques, mal excedendo capacidades mundanas. Já magias de 5º círculo podem invocar chuvas de meteoros, parar o tempo e até mesmo realizar desejos!\n\nA magia é intensa em Arton e pode ser dominada de várias formas.\n\n• Inteligência. Atributo-chave dos bruxos e magos. Eles seguem métodos e fórmulas antigas, herméticas, registradas em livros e pergaminhos. Para eles, magia é ciência.\n\n• Sabedoria. Atributo-chave dos clérigos e druidas. É a magia espiritual, baseada no contato com os deuses e a percepção da natureza. Para eles, magia é fé.\n\n• Carisma. Atributo-chave dos bardos e feiticeiros. Eles invocam seu próprio poder interior, alimentando magias com autoconfiança e força de personalidade. Para eles, magia é arte.\n\nO atributo-chave afeta seus pontos de mana e a CD dos testes de resistência para resistir a suas magias."
     },
@@ -48,7 +52,7 @@
       { "circulo": "4º", "custo_pm": 10 },
       { "circulo": "5º", "custo_pm": 15 }
     ],
-    "tipos": ["arcana", "divina"],
+    "tipos": ["arcana", "divina", "universal"],
     "circulos": [1, 2, 3, 4, 5],
     "atributos_chave": {
       "inteligencia": ["bruxo", "mago"],

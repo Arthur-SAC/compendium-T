@@ -5,12 +5,13 @@ import type { Entidade } from "@/lib/schema";
 
 // Agrupamento temático das regras (ordem de exibição). Ids não listados caem em "Outras Regras".
 const GRUPOS: { titulo: string; ids: string[] }[] = [
-  { titulo: "Criação de Personagem", ids: ["construcao-de-personagem", "atributos", "caracteristicas-das-racas", "caracteristicas-derivadas", "evolucao-de-personagem"] },
-  { titulo: "Origens & Devoção", ids: ["construcao-origens", "devocao-como-funciona"] },
+  { titulo: "Introdução", ids: ["introducao-ao-jogo"] },
+  { titulo: "Criação de Personagem", ids: ["construcao-de-personagem", "atributos", "caracteristicas-das-racas", "classes-como-funcionam", "caracteristicas-derivadas", "nome-idade-e-envelhecimento", "alinhamento", "evolucao-de-personagem"] },
+  { titulo: "Origens & Devoção", ids: ["construcao-origens", "devocao-como-funciona", "deuses-menores"] },
   { titulo: "Perícias & Poderes", ids: ["pericias-como-funcionam", "poderes-como-funcionam"] },
   { titulo: "Equipamento", ids: ["riqueza-e-equipamento", "regras-de-armas", "regras-de-armaduras", "itens-superiores", "regras-de-itens-especiais"] },
   { titulo: "Magia", ids: ["magia-como-funciona", "caracteristicas-das-magias", "aprimoramentos-de-magia"] },
-  { titulo: "Jogando & Combate", ids: ["testes-e-dificuldades", "habilidades-e-efeitos", "combate", "acoes-em-combate"] },
+  { titulo: "Jogando & Combate", ids: ["interpretacao", "testes-e-dificuldades", "habilidades-e-efeitos", "combate", "acoes-em-combate"] },
   { titulo: "O Mestre", ids: ["como-mestrar", "sessoes-aventuras-e-campanhas", "npcs-mestre", "ambientes-de-aventura", "tempo-entre-aventuras"] },
   { titulo: "Ameaças", ids: ["construindo-combates", "perigos", "fichas-de-npcs"] },
   { titulo: "Recompensas", ids: ["pontos-de-experiencia", "tesouros", "itens-magicos"] },

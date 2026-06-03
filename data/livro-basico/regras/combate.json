@@ -57,6 +57,10 @@
     {
       "titulo": "Quebrando Objetos",
       "texto": "Tentar quebrar um objeto é similar a atacar uma criatura. Para objetos soltos, faça um ataque contra a Defesa do objeto (definida pela categoria de tamanho; objeto em movimento recebe +5 na Defesa). Para objeto segurado por outra criatura, veja a manobra quebrar. Acertando, causa dano normal — mas objetos costumam ter redução de dano conforme o material. Um objeto reduzido a 0 PV ou menos é destruído. Veja a Tabela 5-4."
+    },
+    {
+      "titulo": "Variante: Mapa de Batalha",
+      "texto": "Para auxiliar a visualização dos personagens em combate, você pode usar um mapa de batalha (uma superfície quadriculada, como um tabuleiro de xadrez) e peças para representar cada criatura. Cada quadrado do mapa de batalha deve ter 2,5 centímetros de lado e representa 1,5m no mundo de jogo. Assim, um personagem com deslocamento 9m pode percorrer 6 quadrados com uma ação de movimento. Para simplificar, você pode se referir a distâncias no jogo em \"quadrados\" (de 1,5m) em vez de metros.\n\nUsar mapas de batalha deixa o combate mais complexo, exigindo que os jogadores calculem suas ações e movimentos levando em conta questões como flanquear, terreno difícil e distâncias exatas das habilidades. Via de regra, é uma opção divertida para grupos que gostam do aspecto tático do jogo.\n\nA Jambô possui mapas de batalha e peças para representar criaturas em sua loja online, em www.jamboeditora.com.br. Você também pode encontrar mapas e peças na internet ou, se for treinado em algum Ofício relevante, criar os seus próprios!"
     }
   ],
   "relacoes": [],

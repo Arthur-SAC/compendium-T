@@ -21,8 +21,38 @@
     {
       "titulo": "Limites de Carga",
       "texto": "A quantidade de equipamento que você pode carregar é medida em espaços de itens. Por padrão, um item ocupa 1 espaço. Porém, há exceções:\n• Itens alquímicos, poções, pergaminhos e outros itens muito leves ou pequenos ocupam meio espaço. Ou seja, dois desses itens ocupam 1 espaço.\n• Armas de duas mãos, armaduras leves, escudos pesados, criaturas Minúsculas e outros itens pesados ou volumosos ocupam 2 espaços.\n• Armaduras pesadas, criaturas Pequenas e outros itens muito pesados ou volumosos, como um barril ou baú, ocupam 5 espaços.\n• Itens extremamente pesados ou volumosos, como uma criatura Média, ocupam 10 espaços. Itens ainda maiores podem ocupar mais espaços ou serem impossíveis de carregar, a critério do mestre.\n• Cada mil moedas, independentemente do tipo, ocupam 1 espaço.\n\nVocê pode carregar 10 espaços +2 por ponto de Força (ou –1 por ponto de Força negativo). Se ultrapassar esse limite, fica sobrecarregado — sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m. Você não pode carregar mais do que o dobro do seu limite."
+    },
+    {
+      "titulo": "Personagens de Alto Nível",
+      "texto": "Personagens acima do 1º nível começam com mais dinheiro, conforme a Tabela 3-1: Dinheiro Inicial. Esse valor representa a riqueza acumulada em itens e moedas pelo personagem ao longo de sua carreira até aquele nível."
+    },
+    {
+      "titulo": "Carga: Bastidores",
+      "texto": "A regra de carga existe para adicionar um elemento tático ao jogo, fazendo com que o jogador precise escolher o que levar em cada aventura — ou o que abandonar, caso encontre um item valioso mas já esteja com seus espaços ocupados. O mestre pode ignorar essa regra, desde que os jogadores não abusem. Nada de sair por aí com 50 essências de mana!\n\nA regra usa espaços em vez de peso para considerar tanto peso quanto volume, e para simplificar os cálculos. Obviamente, a regra é abstrata. Em caso de dúvida, o mestre deve decidir o que achar mais coerente. Lembre-se da filosofia básica: 1 item = 1 espaço. Para definir o que é \"um item\", pense em termos de funcionalidade. Uma espada e sua bainha ocupam apenas 1 espaço porque a bainha sozinha não tem utilidade. Porém, uma bainha mágica, com poderes, ocupa um espaço próprio. Isso pode não fazer muito sentido em termos simulacionistas, mas é um preço pequeno a se pagar pela simplicidade. Se isso incomodá-lo, considere que a bainha mágica é mais pesada, precisa de mais cuidados etc."
     }
   ],
   "relacoes": [],
-  "mecanica": {}
+  "mecanica": {
+    "tabela_3_1_dinheiro_inicial": [
+      { "nivel": 2, "dinheiro": "T$ 300" },
+      { "nivel": 3, "dinheiro": "T$ 600" },
+      { "nivel": 4, "dinheiro": "T$ 1.000" },
+      { "nivel": 5, "dinheiro": "T$ 2.000" },
+      { "nivel": 6, "dinheiro": "T$ 3.000" },
+      { "nivel": 7, "dinheiro": "T$ 5.000" },
+      { "nivel": 8, "dinheiro": "T$ 7.000" },
+      { "nivel": 9, "dinheiro": "T$ 10.000" },
+      { "nivel": 10, "dinheiro": "T$ 13.000" },
+      { "nivel": 11, "dinheiro": "T$ 19.000" },
+      { "nivel": 12, "dinheiro": "T$ 27.000" },
+      { "nivel": 13, "dinheiro": "T$ 36.000" },
+      { "nivel": 14, "dinheiro": "T$ 49.000" },
+      { "nivel": 15, "dinheiro": "T$ 66.000" },
+      { "nivel": 16, "dinheiro": "T$ 88.000" },
+      { "nivel": 17, "dinheiro": "T$ 110.000" },
+      { "nivel": 18, "dinheiro": "T$ 150.000" },
+      { "nivel": 19, "dinheiro": "T$ 200.000" },
+      { "nivel": 20, "dinheiro": "T$ 260.000" }
+    ]
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "id": "nome-idade-e-envelhecimento",
+  "tipo": "regra-de-criacao",
+  "nome": "Nome, Idade e Envelhecimento",
+  "resumo": "Toques finais na criação de personagem — orientações para escolher um nome, determinar a idade inicial conforme a classe e aplicar os modificadores de envelhecimento, incluindo as regras especiais para raças longevas.",
+  "fonte": { "livro": "livro-basico", "pagina": 107 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Nome",
+      "texto": "\"E qual é o nome do personagem?\", pergunta o mestre, trazendo sustos, engasgos e suor frio à mesa de jogo! Depois de tantas decisões sobre atributos, raças, classes e magias, muitos jogadores costumam deixar isto por último. Dedicam pouco tempo e esforço a esta escolha, justamente uma das mais importantes.\n\nPode parecer pouco, apenas um nome. Pode parecer que qualquer improviso serve, qualquer Bob, o Bárbaro, está de bom tamanho. Muitas vezes, em muitos grupos, esse nome mal será usado — os jogadores tratam-se por seus nomes reais ou apenas suas classes ou raças: \"Ah, eu ajudo o paladino e o minotauro enquanto o clérigo lança a magia no anão!\".\n\nVocê pode jogar assim, não é proibido. Como já foi dito, Tormenta20 é jogado como você achar que deve. No entanto, se deseja um personagem marcante e memorável, um herói lendário de aventuras e batalhas fabulosas, então vai precisar de um nome. E um que seja bom!\n\nNão há regras aqui, mas deve haver bom senso. Escolha um nome ridículo, constrangedor, e ninguém vai querer dizê-lo em voz alta. Escolha um nome complicado, de difícil pronúncia, e ninguém vai lembrar. Um nome muito famoso como \"Sherlock\" ou \"Gandalf\" levará todos a criar uma imagem errada sobre o personagem (a menos que seja essa sua intenção). Um nome muito comum, da vida real, acabará com a imersão do grupo; esgueirar-se pelas docas de Nova Malpetrim para encontrar um pescador que diz \"Olá, eu sou Paulo do Porto!\" vai destruir qualquer clima épico!\n\nUma técnica de escritores é escolher um adjetivo que descreva seu personagem e mudá-lo para que pareça um nome; o público, inconscientemente, vai associar essa qualidade (ou defeito) ao personagem. Por exemplo, se você decidir que seu guerreiro é muito agressivo, poderia chamá-lo \"Agravh\" ou \"Agrovorr\". Uma arcanista elegante poderia ser \"Eleannt\" ou \"Elgania\", e assim por diante.\n\nEstá sem ideias? Abra um site com nomes de bebês — alguns nomes da vida real são diferentes e exóticos o bastante para combinar com histórias de fantasia. Lisandra, Dagmar, Verônica, Christian, Elisabeth, Hildegard. Outra ideia é pegar um nome verdadeiro e mudar algumas letras: Mighel, Jeremun, Kharolinne, Reynard, Nichaela. Por fim, você sempre pode usar um gerador de nomes da internet!\n\nPara informações sobre os nomes em Arton, veja as páginas 361 e 364."
+    },
+    {
+      "titulo": "Idade",
+      "texto": "Muitos heróis são jovens, mas nem todos precisam ser. Não há idade certa para viver aventuras, perseguir sonhos e combater o mal."
+    },
+    {
+      "titulo": "Idade Inicial",
+      "texto": "Você pode escolher a idade inicial de seu personagem ou determiná-la aleatoriamente, com uma rolagem que varia conforme sua classe.\n\nBárbaro, Bucaneiro, Ladino, Lutador. 1d6+15 anos (para um resultado entre 16 e 21 anos).\n\nBardo, Caçador, Cavaleiro, Guerreiro, Nobre, Paladino. 2d4+15 anos (para um resultado entre 17 e 23 anos).\n\nArcanista, Clérigo, Druida, Inventor. 2d6+15 anos (para um resultado entre 17 e 27 anos)."
+    },
+    {
+      "titulo": "Envelhecimento",
+      "texto": "Conforme envelhecem, personagens recebem os seguintes modificadores.\n\nMaduro (45 Anos). For –1, Des –1, Con –1, Int +1, Sab +1, Car +1.\n\nVelho (70 Anos). For –2, Des –2, Con –2, Int +1, Sab +1, Car +1.\n\nLongevidade Máxima. 70 + 2d20 anos.\n\nOs modificadores são cumulativos. Assim, um personagem velho recebe um total de For –3, Des –3, Con –3, Int +2, Sab +2, Car +2."
+    },
+    {
+      "titulo": "Raças Longevas (sidebar)",
+      "texto": "As categorias de envelhecimento abaixo se aplicam a todas as raças, com exceção de anões, dahllan, elfos, golens, osteon, qareen e sílfides. Essas raças usam a mesma idade inicial, mas multiplicam as categorias de envelhecimento (maduro e velho) e a longevidade máxima pelos seguintes valores.\n\nAnões e Qareen. x2.\n\nDahllan, Elfos, Golens, Osteon, Sílfides. x5. Personagens dessas raças não têm longevidade máxima; podem viver para sempre, morrendo apenas de formas violentas ou por razões excepcionais (por exemplo, quando escolhem deixar de viver ou são chamados ao além-vida por sua divindade)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "idade_inicial": [
+      { "classes": "Bárbaro, Bucaneiro, Ladino, Lutador", "rolagem": "1d6+15", "intervalo": "16 a 21 anos" },
+      { "classes": "Bardo, Caçador, Cavaleiro, Guerreiro, Nobre, Paladino", "rolagem": "2d4+15", "intervalo": "17 a 23 anos" },
+      { "classes": "Arcanista, Clérigo, Druida, Inventor", "rolagem": "2d6+15", "intervalo": "17 a 27 anos" }
+    ],
+    "envelhecimento": [
+      { "categoria": "Maduro", "idade": "45 anos", "for": "–1", "des": "–1", "con": "–1", "int": "+1", "sab": "+1", "car": "+1" },
+      { "categoria": "Velho", "idade": "70 anos", "for": "–2", "des": "–2", "con": "–2", "int": "+1", "sab": "+1", "car": "+1" },
+      { "categoria": "Velho (total cumulativo)", "idade": "70 anos", "for": "–3", "des": "–3", "con": "–3", "int": "+2", "sab": "+2", "car": "+2" }
+    ],
+    "longevidade_maxima": "70 + 2d20 anos",
+    "racas_longevas": [
+      { "racas": "Anões, Qareen", "multiplicador": "x2", "longevidade_maxima": "sim (multiplicada)" },
+      { "racas": "Dahllan, Elfos, Golens, Osteon, Sílfides", "multiplicador": "x5", "longevidade_maxima": "não (podem viver para sempre)" }
+    ]
+  }
+}

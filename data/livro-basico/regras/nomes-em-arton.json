@@ -1,0 +1,48 @@
+{
+  "id": "nomes-em-arton",
+  "tipo": "regra-de-criacao",
+  "nome": "Nomes em Arton",
+  "resumo": "Tradições de nomes em Arton — o costume humano do nome único para que os deuses vigiem cada pessoa, e os duelos entre homônimos — acompanhadas de exemplos de nomes para humanos, anões, dahllan, elfos, goblins, lefou, qareen e táuricos.",
+  "fonte": { "livro": "livro-basico", "pagina": 361 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tradições",
+      "texto": "Nomes são muito importantes em Arton. Existe uma tradição, predominantemente humana, que afirma que cada pessoa deve ter um nome único, para que os deuses possam vigiá-lo durante a vida e dar-lhe o julgamento correto quando a hora da morte chegar. Assim, a maioria dos pais tenta ser o mais criativo possível na hora do batismo, embora não haja qualquer garantia que não exista algum outro, digamos, Bazinthir ou Lithora no mundo.\n\nEssa tradição não impede que a criança receba o nome de um herói ou membro da família falecido. Distorcendo o raciocínio inicial, há quem prefira \"roubar\" o nome de celebridades de boa fortuna, na esperança de trazer para o rebento as bonanças do outro. Quando dois aventureiros que levam a tradição a sério e possuem o mesmo nome se encontram, é comum que se enfrentem. O derrotado é obrigado a mudar seu nome perante um clérigo do Panteão, sob pena de ser amaldiçoado para sempre."
+    },
+    {
+      "titulo": "Nomes Humanos",
+      "texto": "Muitos humanos não possuem sobrenome — isso é mais comum na nobreza ou em linhagens de aventureiros. Entre os plebeus, é costume adotar como sobrenome o nome do pai ou da mãe (Thedon, filho de Beldon), o local de nascimento (Heleonor de Bielefeld) ou uma divindade (Ghart de Khalmyr)."
+    },
+    {
+      "titulo": "Nomes Anões",
+      "texto": "Anões têm nomes imponentes, que carregam o timbre grave que lembra o bater dos martelos dos ferreiros e dos tambores de batalha. Seus sobrenomes vêm de famílias ancestrais ou de adjetivos que exaltam suas qualidades. Exemplos: Khovarinn Hastharom, Dorotha Quebra-Pedra e Bholtarimm Machado-Afiado."
+    },
+    {
+      "titulo": "Nomes Dahllan",
+      "texto": "Esta invenção dos povos civilizados nem sempre é adotada pelas dahllan. Algumas, por não acreditarem ter muita importância, aceitam qualquer nome que alguém decida lhes dar — enquanto outras, fascinadas com essa novidade, escolhem o próprio nome com muito capricho. Exemplos: Violeta, Celandine e outros nomes de flores."
+    },
+    {
+      "titulo": "Nomes Élficos",
+      "texto": "Nomes élficos rolam pela língua como uma canção, com muitas vogais abertas e repetições de consoantes. O encurtamento de seus nomes para facilitar a pronúncia é visto como uma gentileza, uma demonstração de abertura para o convívio com as raças que um dia foram renegadas pelos elfos. Exemplos: Aeripharian, Yadallina, Nielendorane, Thalesorian."
+    },
+    {
+      "titulo": "Nomes Goblins",
+      "texto": "No Reinado, goblins possuem nomes curtos, simples e guturais. Não possuem sobrenomes, visto que dificilmente conseguem formar famílias longevas. Exemplos: Krig, Tabo, Tulan, Glab, Kyara, Barak, Galtor."
+    },
+    {
+      "titulo": "Nomes Lefou",
+      "texto": "Normalmente seguem os costumes da raça dos pais. Depois de adulto, um lefou pode acabar escolhendo um novo nome para si mesmo, caso se identifique mais com seu lado aberrante — ou então um epíteto grandioso. Estes nomes costumam ser difíceis de pronunciar, carregando na quantidade de consoantes. Alguns fazem isso para reforçar que de alguma forma fazem parte de algo maior que Arton. Outros, para deixar clara sua herança, e provar que é possível ser lefou e um herói ao mesmo tempo. Exemplos: Haruulk, Mar'drull, Oharshakk, Yrrizevak, Estrela Sangrenta, Trovão Afiado."
+    },
+    {
+      "titulo": "Nomes Qareen",
+      "texto": "O nome verdadeiro de um qareen, concedido pela deusa, é revelado pela marca de Wynna. Esse nome muitas vezes termina com um \"d\" mudo. Exemplos: Kirud, Ahad, Talud, Sahla."
+    },
+    {
+      "titulo": "Nomes Táuricos",
+      "texto": "Após a fundação da república de Tapista, minotauros nobres adotaram uma convenção para sua nomenclatura baseada em três nomes: um prenome (próprio do indivíduo), um nome da linhagem (herdado pelo primogênito) e um sobrenome (compartilhado por todos com algum parentesco). Os prenomes normalmente terminam em \"ius\". Minotauros plebeus ou que seguem as tradições bárbaras anteriores à república possuem um único nome, normalmente de poucas sílabas e som grave. Exemplos: Gaius Aurelius Lomatubarius, Petronius Maximus Liturus, Kargan, Orgun."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

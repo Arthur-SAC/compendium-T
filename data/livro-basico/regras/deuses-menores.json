@@ -1,0 +1,16 @@
+{
+  "id": "deuses-menores",
+  "tipo": "regra-de-criacao",
+  "nome": "Deuses Menores",
+  "resumo": "Além das vinte divindades do Panteão, Arton abriga incontáveis deuses menores — qualquer um pode ascender à divindade se cultuado por gente suficiente —, com regras para seus devotos prometidas para suplementos futuros.",
+  "fonte": { "livro": "livro-basico", "pagina": 105 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Deuses Menores",
+      "texto": "Além das vinte divindades maiores do Panteão, Arton é povoado por uma miríade de deuses menores — neste mundo todos podem ascender à divindade, desde que sejam cultuados por um número suficiente de pessoas. Entre os mais conhecidos estão Tibar, o Deus do Comércio; Rhond, o Deus das Armas, e Sckhar, o Deus (e tirano) de Sckharshantallas.\n\nRegras para devotos de deuses menores serão apresentadas em suplementos futuros."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

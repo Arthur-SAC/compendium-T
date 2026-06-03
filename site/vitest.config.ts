@@ -8,6 +8,9 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./test/setup.ts"],
+    // O carregamento + validação Zod de ~1000 entidades em jsdom pode passar de 5s
+    // na primeira chamada de carregarEntidades(); 20s evita flutuação (timeout flaky).
+    testTimeout: 20000,
   },
   resolve: {
     alias: { "@": path.resolve(__dirname, ".") },

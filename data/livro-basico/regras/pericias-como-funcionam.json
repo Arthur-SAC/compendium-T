@@ -7,6 +7,10 @@
   "imagens": [],
   "secoes": [
     {
+      "titulo": "Escolhendo Perícias",
+      "texto": "Ao escolher sua classe, você recebe um número de perícias treinadas (ou seja, nas quais é mais competente). Você também recebe um número de perícias treinadas igual a sua Inteligência. Perícias ganhas por Inteligência não precisam pertencer à lista de sua classe.\n\nVocê pode ganhar novas perícias treinadas com o poder Treinamento em Perícia ou aumentando sua Inteligência (exceto aumentos temporários)."
+    },
+    {
       "titulo": "Usando Perícias",
       "texto": "A descrição de cada perícia explica o que você pode fazer com ela, junto com exemplos de usos e suas respectivas regras. Testes de perícia seguem a mecânica básica do jogo, apresentada na Introdução e detalhada no Capítulo 5: Jogando."
     },
