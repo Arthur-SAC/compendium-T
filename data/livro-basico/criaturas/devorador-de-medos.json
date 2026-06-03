@@ -1,0 +1,60 @@
+{
+  "id": "devorador-de-medos",
+  "tipo": "criatura",
+  "nome": "Devorador de Medos",
+  "resumo": "Bugbear mestre do pavor que fareja o medo e abala a coragem da vítima aos poucos antes de desferir o golpe mortal.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 303
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Bugbears são crueldade e violência em forma de carne. Para estas criaturas, o maior prazer é aterrorizar e o segundo maior é matar (após aterrorizar). Entre estes seres assustadores, os mestres absolutos do pavor são os devoradores de medos.\n\nDevoradores de medos podem literalmente farejar o medo, algo tão intoxicante para eles quanto o álcool é para humanos. Isso os leva a acuar vítimas apavoradas, até o momento em que decidem desferir o golpe mortal. Não há prazer em golpear o guarda de milícia pelas costas, antes que ele perceba qualquer perigo; o devorador de medos prefere abalar a coragem da vítima aos poucos, rosnando ameaças nas sombras, fazendo-a procurar inutilmente em volta, até fugir em pânico. Então ele ataca. E mata."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Humanoide (bugbear)",
+    "tamanho": "Médio",
+    "tema": "Os Duyshidakk",
+    "iniciativa": "+11",
+    "percepcao": "+9, faro, visão no escuro",
+    "defesa": "31, imunidade a medo",
+    "fortitude": "+21",
+    "reflexos": "+15",
+    "vontade": "+8",
+    "pontosDeVida": "325",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra x2 +26 (1d12+20, x3)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "pericias": "Furtividade +13, Intimidação +14.",
+    "equipamento": "Machado de guerra cruel.",
+    "tesouro": "Metade.",
+    "habilidades": [
+      {
+        "nome": "Apavorar (Movimento)",
+        "descricao": "O devorador de medos faz um teste de Intimidação oposto pela Vontade de todas as criaturas a sua escolha em alcance médio. Criaturas que falhem ficam abaladas pela cena; criaturas que falhem por 10 ou mais ficam apavoradas por 1d4 rodadas e abaladas pela cena. O devorador não pode usar esta habilidade mais de uma vez na mesma criatura na mesma cena."
+      },
+      {
+        "nome": "Artesão do Medo",
+        "descricao": "Quando faz um teste de Intimidação, o devorador rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Medo Inebriante",
+        "descricao": "O devorador sofre metade do dano de ataques e efeitos de criaturas abaladas ou apavoradas. Além disso, enquanto estiver em alcance médio de uma criatura abalada ou apavorada, ele recebe um bônus em testes de perícia e rolagens de dano corpo a corpo igual à penalidade causada pela condição. Quando acerta um ataque corpo a corpo em uma dessas criaturas, o devorador recebe uma quantidade de PV temporários igual a essa penalidade."
+      }
+    ]
+  }
+}

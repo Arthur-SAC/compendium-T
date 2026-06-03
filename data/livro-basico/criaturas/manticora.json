@@ -1,0 +1,50 @@
+{
+  "id": "manticora",
+  "tipo": "criatura",
+  "nome": "Mantícora",
+  "resumo": "Monstro com corpo de leão, asas de dragão e rosto humano envelhecido, que costuma fazer das masmorras seu covil ou protegê-las a mando de um mestre poderoso.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 287
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Monstro com corpo de leão, asas de dragão e rosto humano envelhecido, a mantícora está entre as criaturas mais perigosas em uma masmorra — muitas vezes adotando tais lugares como seu covil, ou encarregadas de sua proteção por um mestre ainda mais poderoso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "tema": "Masmorras",
+    "iniciativa": "+7",
+    "percepcao": "+8, faro, visão no escuro",
+    "defesa": "26",
+    "fortitude": "+18",
+    "reflexos": "+7",
+    "vontade": "+12",
+    "pontosDeVida": "240",
+    "deslocamento": "9m (6q), voo 15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +18 (1d10+12) e duas garras +18 (1d8+12)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "2",
+      "constituicao": "5",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Espinhos (Movimento)",
+        "descricao": "A mantícora dispara 1d4 espinhos de sua cauda. Cada espinho atinge uma criatura em alcance médio, causando 1d8+7 pontos de dano de perfuração (Ref CD 22 reduz à metade). Recarga (movimento)."
+      }
+    ],
+    "tesouro": "Padrão mais espinhos (CD 21 para extrair). Os espinhos contam como T$ 150 em matéria-prima para fabricar flechas superiores."
+  }
+}

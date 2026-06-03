@@ -1,0 +1,70 @@
+{
+  "id": "colosso-supremo",
+  "tipo": "criatura",
+  "nome": "Colosso Supremo",
+  "resumo": "Engenho infernal do tamanho de moinhos de vento, forjado com magia e tecnologia goblin, operado por escravos goblins e tripulações humanas.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 296
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Grandes como moinhos de vento, feitos de pedra e metal, estes engenhos infernais são forjados com técnicas que combinam magia e tecnologia goblin. Plataformas em seus ombros abrigam soldados operando balistas, bem como oficiais que supervisionam e comandam as tropas no solo. Em seu interior, escravos goblins são responsáveis pela operação e reparos em tempo real. Além de sua espada titânica e canhões que disparam jatos de chamas, o colosso possui chaminés que expelem uma fumaça escura e venenosa; os tripulantes humanos usam máscaras protetoras, enquanto os goblins são resistentes ao veneno (e também fáceis de substituir)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Construto",
+    "tamanho": "Colossal",
+    "tema": "Os Puristas",
+    "iniciativa": "+8",
+    "percepcao": "+9, visão no escuro",
+    "defesa": "46, cura acelerada 20, redução de dano 10, resistência a magia +5",
+    "fortitude": "+31",
+    "reflexos": "+19",
+    "vontade": "+20",
+    "pontosDeVida": "675",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Espada titânica +39 (4d12+30, 19)."
+    ],
+    "atributos": {
+      "forca": "15",
+      "destreza": "–1",
+      "constituicao": "10",
+      "inteligencia": "—",
+      "sabedoria": "–5",
+      "carisma": "–5"
+    },
+    "habilidades": [
+      {
+        "nome": "Balistas (Livre)",
+        "descricao": "O colosso possui duas balistas, uma em cada ombro. Cada balista é tripulada por soldados que a carregam e a disparam em rodadas alternadas (ataque +39, 6d8 pontos de dano de perfuração, crítico 19, alcance médio). É possível atacar as tripulações para impedir os disparos. Cada tripulação possui Defesa 26, 50 PV e usa os testes de resistência do colosso."
+      },
+      {
+        "nome": "Fumos Tóxicos",
+        "descricao": "Uma criatura que comece seu turno em alcance curto do colosso perde 4d6 PV e fica enjoada (Fort CD 38 evita). Veneno."
+      },
+      {
+        "nome": "Goblins Consertadores",
+        "descricao": "Goblins especialmente pequenos rastejam por dentro dos dutos do colosso fazendo reparos, sendo a fonte da cura acelerada do construto. Por estarem dentro do colosso, os goblins são imunes a dano, mas ainda podem ser afetados por efeitos mentais. Eles possuem Vontade +3 (mas recebem a resistência a magia do colosso) e, se forem afetados por qualquer condição, a cura acelerada deixa de funcionar."
+      },
+      {
+        "nome": "Jato de Chamas (Movimento)",
+        "descricao": "O colosso dispara um jato de chamas que atinge um cone de 12m. Criaturas na área sofrem 8d8+10 pontos de dano de fogo (Ref CD 38 reduz à metade)."
+      },
+      {
+        "nome": "Passar por Cima (Completa)",
+        "descricao": "O colosso percorre até o dobro do seu deslocamento, passando por qualquer criatura Grande ou menor. Uma criatura atropelada sofre 6d8+15 pontos de dano de impacto (Ref CD 38 reduz à metade)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o colosso supremo faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "tesouro": "1d6 engrenagens (CD 29 para extrair; cada engrenagem conta como T$ 1.000 em matéria-prima para fabricar engenhocas)."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "nagah-mistica",
+  "tipo": "criatura",
+  "nome": "Nagah Mística",
+  "resumo": "Fêmea nagah, clériga ou arcanista que exerce a liderança nos grupos sszzaazitas, conjurando magias com rapidez sobrenatural.",
+  "fonte": { "livro": "livro-basico", "pagina": 305 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (nagah)",
+    "tamanho": "Médio",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+8",
+    "percepcao": "+6, visão na penumbra",
+    "defesa": "20",
+    "fortitude": "+6",
+    "reflexos": "+12",
+    "vontade": "+18, resistência a veneno +5",
+    "pontosDeVida": "160",
+    "pontosDeMana": "35",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +18 (1d6+6, 19) e cauda +18 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "4",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      { "nome": "Magia Acelerada (Livre, 4 PM)", "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a nagah mística muda a execução dela para livre." },
+      { "nome": "Magias", "descricao": "A nagah lança magias como uma maga de 8º nível (CD 24).\n• Imagem Espelhada (Padrão, 5 PM) Cinco cópias ilusórias da nagah surgem ao seu redor, concedendo a ela +10 na Defesa. Cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2.\n• Relâmpago (Padrão, 5 PM) A nagah causa 8d6 pontos de dano de eletricidade em todas as criaturas em uma linha com alcance médio (Reflexos reduz à metade).\n• Velocidade (Padrão, 3 PM, sustentada) A nagah pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias." },
+      { "nome": "Fraquezas Ofídias", "descricao": "Como o nagah guardião." }
+    ],
+    "pericias": "Conhecimento +10, Enganação +9, Furtividade +10, Intuição +9, Misticismo +10.",
+    "equipamento": "Adaga, essência de mana.",
+    "tesouro": "Padrão."
+  }
+}

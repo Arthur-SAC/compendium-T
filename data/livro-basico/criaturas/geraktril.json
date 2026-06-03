@@ -1,0 +1,50 @@
+{
+  "id": "geraktril",
+  "tipo": "criatura",
+  "nome": "Geraktril",
+  "resumo": "Versão maior e mais avançada dos uktril, abominação de três braços com pinças capazes de cortar homens ao meio.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 314
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Versão maior e mais avançada dos uktril, são abominações de três braços com pinças capazes de cortar homens ao meio. Podem ser encontrados liderando bandos uktril ou em pequenos grupos próprios. São também emissários sagrados de Aharadak, às vezes manifestando-se em cerimônias profanas para abater vítimas oferecidas em sacrifício."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "tema": "A Tormenta",
+    "iniciativa": "+13",
+    "percepcao": "+16, visão no escuro",
+    "defesa": "30, redução de dano 10",
+    "fortitude": "+18",
+    "reflexos": "+15",
+    "vontade": "+6",
+    "pontosDeVida": "240",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas pinças +23 (3d6+10, 19) e garra +23 (1d8+10)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "5",
+      "constituicao": "3",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d4 PM (Von CD 22 evita)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

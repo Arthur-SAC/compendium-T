@@ -1,0 +1,49 @@
+{
+  "id": "lagash",
+  "tipo": "criatura",
+  "nome": "Lagash",
+  "resumo": "Serpente gigantesca de escamas negras e olhos amarelos, considerada sagrada pelos sszzaazitas e usada para proteger tesouros valiosos.",
+  "fonte": { "livro": "livro-basico", "pagina": 306 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta serpente gigantesca é considerada sagrada pelos sszzaazitas — embora isso não impeça cultistas do Deus da Traição de usarem-na para proteger tesouros valiosos. O corpo de um lagash é coberto de escamas negras, seus olhos brilham amarelos e a bocarra verte veneno... e cobras! Lagash são pouco conhecidos no Reinado — além de habitar apenas selvas profundas e subterrâneos, quem encontra um desses monstros normalmente não sobrevive para contar a história."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+19",
+    "percepcao": "+11, faro, visão no escuro",
+    "defesa": "41",
+    "fortitude": "+26",
+    "reflexos": "+20",
+    "vontade": "+13, imunidade a efeitos de movimento e veneno",
+    "pontosDeVida": "660",
+    "deslocamento": "12m (8q), escalar 12m (8q), natação 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +37 (4d12+28 mais veneno)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "4",
+      "constituicao": "9",
+      "inteligencia": "–3",
+      "sabedoria": "2",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      { "nome": "Agarrar Aprimorado (Livre)", "descricao": "Se o lagash acerta um ataque de mordida, pode fazer a manobra agarrar (teste +42)." },
+      { "nome": "Constrição (Livre)", "descricao": "No início de cada um de seus turnos, o lagash causa 6d12+28 pontos de dano de impacto na criatura que estiver agarrando." },
+      { "nome": "Crias de Sszzaas (Movimento)", "descricao": "O lagash cospe 2d6 serpentes em espaços desocupados em alcance curto. Elas agem a partir da próxima rodada do lagash, têm deslocamento 9m (normal, de escalada e de natação) e podem gastar uma ação padrão para causar 1d6 pontos de dano de perfuração em uma criatura adjacente. As serpentes têm For –1, Des 2, Defesa nula (são acertadas automaticamente) e 1 PV, falham automaticamente em qualquer teste oposto e desaparecem quando mortas ou ao fim da cena. Recarga (movimento)." },
+      { "nome": "Cuspe Venenoso (Padrão)", "descricao": "O lagash cospe veneno em um cone de 9m. Criaturas na área perdem 6d12 pontos de vida e ficam cegas por 1d4 rodadas (Fort CD 35 reduz à metade e evita a cegueira)." },
+      { "nome": "Veneno", "descricao": "Perde 4d12 pontos de vida por rodada durante 5 rodadas (Fort CD 35 reduz para uma rodada)." }
+    ],
+    "pericias": "Furtividade +17.",
+    "tesouro": "Padrão."
+  }
+}

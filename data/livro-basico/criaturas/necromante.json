@@ -1,0 +1,61 @@
+{
+  "id": "necromante",
+  "tipo": "criatura",
+  "nome": "Necromante",
+  "resumo": "Arcanista elfo especializado em magias de trevas e na conjuração de mortos-vivos, figura de autoridade em Aslothia.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 298
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Estes arcanistas especializados em magias de trevas e na conjuração de mortos-vivos nem sempre são vilões. Alguns, bem-intencionados, acreditam firmemente que os mortos são uma força de trabalho valiosa, deixando os vivos livres para se dedicar a disciplinas mentais. Outros, no entanto, utilizam esqueletos e zumbis apenas como recursos para atingir objetivos perversos. Muitos são figuras de autoridade em Aslothia.\n\nUm necromante raramente comete a imprudência de ser encontrado sozinho — quase sempre estará acompanhado por esqueletos. Em combate, tentará se manter protegido por seus servos, enquanto usa magias para fortificá-los e incapacitar oponentes."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Humanoide (elfo)",
+    "tamanho": "Médio",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+9",
+    "percepcao": "+9, visão na penumbra",
+    "defesa": "23",
+    "fortitude": "+7",
+    "reflexos": "+14",
+    "vontade": "+20",
+    "pontosDeVida": "180",
+    "pontosDeMana": "55",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +22 (1d4, 19, mais 1d8 trevas)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "1",
+      "inteligencia": "5",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Ergam-se! (Completa, 5 PM)",
+        "descricao": "O necromante conjura seis mortos-vivos em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do necromante, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d8 pontos de dano de trevas em uma criatura adjacente. Os mortos-vivos têm For 3, Des 3, Defesa 25, 1 PV e as habilidades de mortos-vivos (veja página 284), falham automaticamente em qualquer teste oposto e desaparecem quando mortos ou ao fim da cena."
+      },
+      {
+        "nome": "Sacrificar Servo (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, o necromante sacrifica um de seus mortos-vivos conjurados para reduzir esse dano a 0."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O necromante lança magias como um mago de 7º nível (CD 26, 28 para necromancia*).\n• Amedrontar* (Padrão, 7 PM) Animais e humanoides a escolha do necromante em alcance curto ficam apavorados por 1d4+1 rodadas e depois abalados (Vontade reduz para abalado).\n• Armadura Arcana (Padrão, 7 PM) O necromante recebe +7 na Defesa por um dia.\n• Crânio Voador* (Padrão, 6 PM) Um crânio de energia negativa causa 6d8+6 pontos de dano de trevas em uma criatura em alcance médio e deixa todas as criaturas a 3m do alvo abaladas (Fortitude reduz à metade e evita a condição).\n• Toque Vampírico* (Padrão, 6 PM) O necromante toca em uma criatura e causa 10d6 pontos de dano de trevas (Fortitude reduz à metade) e recupera pontos de vida iguais à metade do dano causado."
+      }
+    ],
+    "pericias": "Conhecimento +14, Misticismo +16.",
+    "equipamento": "Adaga, essência de mana.",
+    "tesouro": "Dobro."
+  }
+}

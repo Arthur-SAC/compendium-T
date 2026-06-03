@@ -53,6 +53,7 @@ export function FichaCriatura({ entidade, registro, descricoes }: { entidade: En
           <StatLinha rotulo="Resistências" valor={[m.fortitude && `Fort ${m.fortitude}`, m.reflexos && `Ref ${m.reflexos}`, m.vontade && `Von ${m.vontade}`].filter(Boolean).join(", ")} />
         )}
         {m.pontosDeVida && <StatLinha rotulo="Pontos de Vida" valor={m.pontosDeVida} />}
+        {m.pontosDeMana && <StatLinha rotulo="Pontos de Mana" valor={m.pontosDeMana} />}
         {m.deslocamento && <StatLinha rotulo="Deslocamento" valor={m.deslocamento} />}
       </div>
 

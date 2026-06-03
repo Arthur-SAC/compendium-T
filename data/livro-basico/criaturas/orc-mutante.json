@@ -1,0 +1,50 @@
+{
+  "id": "orc-mutante",
+  "tipo": "criatura",
+  "nome": "Orc mutante",
+  "resumo": "Orc deformado e poderoso, dotado de um terceiro braço degenerado que rasga as vítimas atingidas por seus ataques.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 286
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "tema": "Masmorras",
+    "iniciativa": "+8",
+    "percepcao": "+5, visão no escuro",
+    "defesa": "22",
+    "fortitude": "+15",
+    "reflexos": "+11",
+    "vontade": "+7",
+    "pontosDeVida": "55",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra +20 (1d12+18, x3) e mordida +20 (1d6+18)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "–2",
+      "sabedoria": "–2",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Terceiro Braço (Livre)",
+        "descricao": "Se o orc mutante acerta o ataque de machado de guerra e o ataque de mordida em uma mesma criatura na mesma rodada, ele rasga a vítima com seu terceiro braço degenerado, causando mais 1d6+9 pontos de dano de corte."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "equipamento": "Machado de guerra.",
+    "tesouro": "Padrão."
+  }
+}

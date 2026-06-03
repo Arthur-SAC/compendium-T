@@ -1,0 +1,51 @@
+{
+  "id": "aparicao",
+  "tipo": "criatura",
+  "nome": "Aparição",
+  "resumo": "Criatura incorpórea de pura sombra que drena a vida dos vivos, odiando a luz e os seres viventes.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 298
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Vistas à distância, estas criaturas feitas de pura sombra lembram vultos usando mantos esvoaçantes. Dizem que são sombras separadas de seus antigos “donos”, agora odiando os vivos e a própria luz. Apesar de sua extrema furtividade na escuridão, podem ser detectadas por animais e crianças. Em combate, usam o toque sombrio para drenar a vida de seus oponentes, concentrando-se em uma vítima por vez."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+10",
+    "percepcao": "+6, visão no escuro",
+    "defesa": "23",
+    "fortitude": "+5",
+    "reflexos": "+17",
+    "vontade": "+11, incorpóreo",
+    "pontosDeVida": "110",
+    "deslocamento": "Voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Toque drenante +18 (3d8+6 trevas). Uma criatura viva atingida deve fazer um teste de Fortitude (CD 21). Se falhar, fica fraca e a aparição recebe 20 PV temporários cumulativos."
+    ],
+    "atributos": {
+      "forca": "—",
+      "destreza": "6",
+      "constituicao": "0",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Vulnerabilidade à Luz do Dia",
+        "descricao": "Uma aparição exposta a luz solar natural fica debilitada."
+      }
+    ],
+    "pericias": "Furtividade +15.",
+    "tesouro": "Nenhum."
+  }
+}

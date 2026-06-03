@@ -1,0 +1,46 @@
+{
+  "id": "nagah-guardiao",
+  "tipo": "criatura",
+  "nome": "Nagah Guardião",
+  "resumo": "Macho da raça nagah, guerreiro de torso humanoide e corpo de serpente que serve aos grupos sszzaazitas.",
+  "fonte": { "livro": "livro-basico", "pagina": 305 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Nagah",
+      "texto": "Estes seres de torso humanoide e corpo de serpente foram outrora considerados uma raça de devotos de Allihanna. Infelizmente, tudo não passou de um elaborado e duradouro disfarce, mantido enquanto Sszzaas estava afastado, tramando seu retorno. Hoje, quase todos os grupos sszzaazitas incluem algumas nagahs. Em sua sociedade, os machos quase sempre são guerreiros, enquanto as fêmeas são clérigas ou arcanistas, exercendo a liderança."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (nagah)",
+    "tamanho": "Médio",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+6",
+    "percepcao": "+3, visão na penumbra",
+    "defesa": "21",
+    "fortitude": "+6",
+    "reflexos": "+11",
+    "vontade": "+9, resistência a veneno +5",
+    "pontosDeVida": "45",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas cimitarras +14 (1d6+6, 18) e cauda +14 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      { "nome": "Fraquezas Ofídias", "descricao": "O nagah guardião sofre 1 ponto de dano adicional para cada dado de dano de frio e –5 em testes de resistência contra Músicas de Bardo." }
+    ],
+    "pericias": "Enganação +4, Furtividade +6.",
+    "equipamento": "Cimitarras x2.",
+    "tesouro": "Padrão."
+  }
+}

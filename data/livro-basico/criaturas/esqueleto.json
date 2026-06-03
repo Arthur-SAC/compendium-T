@@ -1,0 +1,46 @@
+{
+  "id": "esqueleto",
+  "tipo": "criatura",
+  "nome": "Esqueleto",
+  "resumo": "Morto-vivo sem mente que se move e luta com agilidade, empunhando armas a mando de seu criador.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 297
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Basta um olhar atento para diferenciar um osteon destes mortos-vivos sem mente. Esqueletos se movem e lutam com agilidade, até empunhando armas, mas sem qualquer inteligência guiando seus atos — apenas seguem as ordens de seus criadores. Muitos necromantes, especialmente em Aslothia e Wynlla, usam esqueletos como servos e soldados. De fato, as temidas falanges — tropas de esqueletos de elite — são uma das principais linhas de defesa do Reino dos Mortos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+7",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "19",
+    "fortitude": "+3",
+    "reflexos": "+7",
+    "vontade": "+12, redução de corte, frio e perfuração 5",
+    "pontosDeVida": "14",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +14 (2d8+12, 19)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "—",
+      "sabedoria": "0",
+      "carisma": "–5"
+    },
+    "habilidades": [],
+    "equipamento": "Escudo pesado, espada longa.",
+    "tesouro": "Nenhum."
+  }
+}

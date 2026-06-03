@@ -1,0 +1,49 @@
+{
+  "id": "turba-zumbi",
+  "tipo": "criatura",
+  "nome": "Turba Zumbi",
+  "resumo": "Uma horda de zumbis que ataca como um bando único, sobrepujando inimigos pela quantidade.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 297
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Morto-vivo (bando)",
+    "tamanho": "Grande",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+1",
+    "percepcao": "+1, visão no escuro",
+    "defesa": "11",
+    "fortitude": "+5",
+    "reflexos": "+1",
+    "vontade": "+1",
+    "pontosDeVida": "100",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo [Bando] Mordida +17 (2d6+12)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "–1",
+      "constituicao": "3",
+      "inteligencia": "—",
+      "sabedoria": "–1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Bando",
+        "descricao": "A turba é formada por um grupo de zumbis. Se um ataque da turba exceder a Defesa do inimigo por 10 ou mais, ele causa o dobro do dano. Se um ataque da turba errar, ele ainda assim causa metade do dano. A turba é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Um personagem com o poder Trespassar que acerte a turba pode usá-lo para fazer um ataque adicional contra ela (mas apenas uma vez por turno)."
+      },
+      {
+        "nome": "Fraqueza Zumbi",
+        "descricao": "A turba zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seus cérebros (Defesa 21)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

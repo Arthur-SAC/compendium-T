@@ -260,6 +260,7 @@ export const CriaturaMecanicaSchema = z.object({
   reflexos: z.string().optional(),
   vontade: z.string().optional(),
   pontosDeVida: z.string().optional(),
+  pontosDeMana: z.string().optional(),
   deslocamento: z.string().optional(),
   ataques: z.array(z.string()).default([]),
   atributos: CriaturaAtributosSchema.optional(),

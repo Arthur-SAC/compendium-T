@@ -1,0 +1,55 @@
+{
+  "id": "troll-das-cavernas",
+  "tipo": "criatura",
+  "nome": "Troll das Cavernas",
+  "resumo": "Trolls colossais usados pelos finntroll como armas pesadas, capazes de desafiar os mais poderosos heróis do Reinado.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 309
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Maiores e mais poderosos que trolls comuns, são empregados pelos finntrolls como armas pesadas. Possuem ombros imensos, braços largos como troncos de árvore e cabeça redonda e abrutalhada. Suas pernas poderosas terminam em pés sem dedos e sua pele cinzenta é tão áspera — e dura — quanto a rocha. Um grupo destas gigantescas criaturas pode desafiar até os mais poderosos heróis do Reinado!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "tema": "Os Trolls Nobres",
+    "iniciativa": "+7",
+    "percepcao": "+14, faro, visão no escuro",
+    "defesa": "29, cura acelerada 20/ácido ou fogo",
+    "fortitude": "+21",
+    "reflexos": "+15",
+    "vontade": "+9",
+    "pontosDeVida": "345",
+    "deslocamento": "12m (8q), escalar 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Tacape +26 (3d6+27) e mordida +26 (2d6+27)."
+    ],
+    "atributos": {
+      "forca": "9",
+      "destreza": "0",
+      "constituicao": "11",
+      "inteligencia": "–2",
+      "sabedoria": "–1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Golpe Avassalador (Livre)",
+        "descricao": "Quando acerta um ataque de tacape, o troll das cavernas arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fort CD 28 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o troll das cavernas faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "equipamento": "Tacape gigante.",
+    "tesouro": "Metade."
+  }
+}

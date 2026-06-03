@@ -1,0 +1,48 @@
+{
+  "id": "hobgoblin-soldado",
+  "tipo": "criatura",
+  "nome": "Hobgoblin Soldado",
+  "resumo": "Goblinoide militarista de armas e armaduras de extrema qualidade, que luta de forma inteligente e organizada.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 300
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "De estatura similar a humanos robustos, hobgoblins são os mais militaristas entre os duyshidakk. Contrariando o que se espera de \"humanoides monstruosos\", suas armas e armaduras são de extrema qualidade, assim como suas estratégias de combate. Lutam de forma inteligente e organizada, dividindo suas forças entre infantaria na linha de frente (lutadores corpo a corpo em armaduras pesadas) e artilharia com arcos, bestas ou armas de pólvora dando apoio na retaguarda."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Médio",
+    "tema": "Os Duyshidakk",
+    "iniciativa": "+4",
+    "percepcao": "+1, visão no escuro",
+    "defesa": "19",
+    "fortitude": "+12",
+    "reflexos": "+7",
+    "vontade": "+3",
+    "pontosDeVida": "18",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +15 (1d8+15, 19).",
+      "À Distância Arco longo +11 (1d8+6, x3)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "2",
+      "constituicao": "1",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "pericias": "Ofício (armeiro) +2.",
+    "equipamento": "Arco longo, cota de malha, escudo pesado, espada longa, flechas x20.",
+    "tesouro": "Padrão.",
+    "habilidades": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "guerreiro-de-chifres",
+  "tipo": "criatura",
+  "nome": "Guerreiro de Chifres",
+  "resumo": "Demônio de corpo humanoide e cabeça de bode, um dos mais fracos de sua espécie, encontrado vagando em masmorras ou convocado por arcanistas.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 287
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Numerosas entidades malignas invadem Arton para corromper, torturar ou destruir os mortais. De corpo humanoide e cabeça de bode, guerreiros de chifres estão entre os demônios mais fracos, mas ainda assim são inimigos perigosos. Podem ser encontrados vagando em masmorras, sozinhos ou em pequenos bandos — às vezes sob comando de um arcanista, responsável por sua convocação a este mundo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Espírito (demônio)",
+    "tamanho": "Médio",
+    "tema": "Masmorras",
+    "iniciativa": "+6",
+    "percepcao": "+3, faro, visão no escuro",
+    "defesa": "21, imunidade a ácido e venenos, redução de dano 5, redução de fogo e frio 10",
+    "fortitude": "+13",
+    "reflexos": "+11",
+    "vontade": "+9",
+    "pontosDeVida": "100",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra +14 (1d12+16, x3) ou chifres +14 (2d6+10 impacto)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "3",
+      "constituicao": "4",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Marrada (Completa)",
+        "descricao": "O guerreiro de chifres faz uma investida e ataca com seu machado de guerra e seus chifres. Os dois ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo."
+      }
+    ],
+    "pericias": "Atletismo +8, Intimidação +4.",
+    "equipamento": "Machado de guerra cruel.",
+    "tesouro": "Padrão."
+  }
+}

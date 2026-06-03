@@ -1,0 +1,56 @@
+{
+  "id": "goblin-salteador",
+  "tipo": "criatura",
+  "nome": "Goblin Salteador",
+  "resumo": "Goblin frenético e ferocíssimo que ataca em bandos para sobrepujar até heróis experientes.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 300
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Os Duyshidakk",
+      "texto": "Com a manifestação da Flecha de Fogo e a realização da antiga profecia, a temida Aliança Negra não existe mais. Ainda assim, os povos goblinoides — ou duyshidakk — permanecem senhores absolutos do continente Lamnor e continuam tão perigosos para o Reinado quanto antes, ou talvez mais. Thwor Khoshkothruk, o Imperador Supremo, derrotou Ragnar e ascendeu como o novo Deus dos Goblinoides. Sem uma liderança central, os duyshidakk agora compõem vastos exércitos e hordas independentes (até mesmo reinos), com seus próprios chefes e generais.\n\nOutrora considerados \"feras estúpidas\", os goblinoides possuem história e cultura complexas. Até mesmo seus ataques contra o Reinado encontram certa justificativa: no passado, a raça humana escolheu se aliar aos elfos contra os goblinoides, em vez de se unir ao povo com quem já compartilhavam o continente para repelir os colonizadores. Considerando os humanos traidores, estes duyshidakk não apenas lutam para preservar seu modo de vida, mas também buscam justiça (ou vingança) por esse crime milenar. Hordas inteiras ainda planejam invadir o Reinado para cumprir a visão do deus Thwor, \"O Mundo Como Deve Ser\", essencialmente Arton tomado por caos e anarquia.\n\nIndependentemente de tudo isso, muitas pessoas ainda veem os goblinoides como monstros. E goblinoides sem contato com a cultura de Lamnor podem mesmo não passar de bestas ferozes. Mas os duyshidakk buscam revelar a eles a verdade de Thwor."
+    },
+    {
+      "titulo": "",
+      "texto": "Quase sempre subestimados e considerados \"fracos\", estes goblins possuem uma ferocidade caótica, sendo máquinas insanas de esfaquear e estripar. Um pequeno bando pode chacinar um povoado humano ou sobrepujar aventureiros novatos; em grandes números, atacando por todos os lados, conseguem derrubar até mesmo heróis experientes."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "tema": "Os Duyshidakk",
+    "iniciativa": "+5",
+    "percepcao": "+1, visão no escuro",
+    "defesa": "13",
+    "fortitude": "+2",
+    "reflexos": "+3",
+    "vontade": "–1",
+    "pontosDeVida": "4",
+    "deslocamento": "9m (6q), escalada 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas adagas +7 (1d4, 19)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "0",
+      "sabedoria": "–1",
+      "carisma": "–1"
+    },
+    "pericias": "",
+    "equipamento": "Adagas x2.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Frenesi",
+        "descricao": "O goblin salteador recebe +2 em testes de ataque e rolagens de dano para cada outro goblin salteador adjacente ao seu alvo."
+      }
+    ]
+  }
+}

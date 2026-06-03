@@ -1,0 +1,69 @@
+{
+  "id": "finntroll-cacador",
+  "tipo": "criatura",
+  "nome": "Finntroll Caçador",
+  "resumo": "Tiranos sádicos da raça finntroll que caçam escravos pela superfície do Reinado.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 307
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Os Trolls Nobres",
+      "texto": "Os subterrâneos de Arton são habitados por todo tipo de horrores. Mas, pior ainda, são território dos finntroll.\n\nEstes tiranos sádicos, também chamados de trolls nobres, fazem parte de uma raça antiga, povoando vastas cidades subterrâneas. Sua sociedade maligna acredita ter direito a governar tudo que existe, tornando todos os outros seres seus escravos ou comida. Os prepotentes finntrolls acreditam ser as criaturas mais perfeitas na criação; todos os outros são seres inferiores que devem lhes servir.\n\nAssim como os monstruosos trolls comuns, finntrolls também são feitos de matéria vegetal. Contudo, apesar desse parentesco (e ainda que também sejam capazes de regenerar partes perdidas), os trolls nobres são muito diferentes. Têm estatura humana, ainda que mais altos, magros e pálidos, com olhos profundos. Usam vestimentas elaboradas, escuras, adornadas com joias. Os homens geralmente raspam o cabelo, enquanto as mulheres usam penteados elaborados."
+    },
+    {
+      "titulo": "Finntroll",
+      "texto": "Arrogantes e indolentes, finntroll raramente deixam seu império subterrâneo — e quando o fazem, sempre têm um propósito cruel, como caçar escravos, roubar itens mágicos ou selar alianças nefastas com vilões da superfície.\n\nCaçadores são especialistas em caçar escravos, os mais vistos no Reinado. A população de aldeias inteiras já desapareceu na calada da noite após o ataque de um bando de caçadores.\n\nFeitores são ainda mais perigosos. Membros de uma casta elevada, raramente serão encontrados sozinhos — em geral, estarão no comando de escravos, trolls ou monstros ainda piores."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Monstro (finntroll)",
+    "tamanho": "Médio",
+    "tema": "Os Trolls Nobres",
+    "iniciativa": "+7",
+    "percepcao": "+7, visão no escuro",
+    "defesa": "19, imunidade a atordoamento e metamorfose, resistência a magia +2",
+    "fortitude": "+6",
+    "reflexos": "+12",
+    "vontade": "+4",
+    "pontosDeVida": "65",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas cimitarras +12 (1d6+5, 18).",
+      "À Distância Besta pesada +12 (1d12+4, 19) ou rede +12 (agarrar)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Marca da Presa (Movimento)",
+        "descricao": "O finntroll analisa uma criatura em alcance curto. Até o final da cena, recebe +1d8 em rolagens de dano contra essa criatura (ou +2d8, se a criatura for um anão, elfo ou humano)."
+      },
+      {
+        "nome": "Natureza Vegetal",
+        "descricao": "O finntroll é afetado por habilidades e magias que afetam plantas."
+      },
+      {
+        "nome": "Regeneração Vegetal (Movimento)",
+        "descricao": "O finntroll recupera 5 PV. Esta habilidade não cura dano de ácido e fogo e não pode ser usada quando o finntroll está exposto à luz do sol ou similar."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto à luz do sol ou similar, o finntroll fica ofuscado."
+      }
+    ],
+    "pericias": "Furtividade +8, Sobrevivência +7.",
+    "equipamento": "Besta pesada, cimitarra x2, rede, virotes x20.",
+    "tesouro": "Padrão."
+  }
+}

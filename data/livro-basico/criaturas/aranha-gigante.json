@@ -1,0 +1,55 @@
+{
+  "id": "aranha-gigante",
+  "tipo": "criatura",
+  "nome": "Aranha Gigante",
+  "resumo": "Aranha do tamanho de um cavalo que captura vítimas com teia e as paralisa com uma picada venenosa.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 287
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Grandes como cavalos, estas aranhas capturam suas vítimas com teia, disparando-a ou tecendo uma armadilha em alguma passagem, para então paralisá-las com a picada venenosa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "tema": "Masmorras",
+    "iniciativa": "+7",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "19",
+    "fortitude": "+8",
+    "reflexos": "+11",
+    "vontade": "+3",
+    "pontosDeVida": "77",
+    "deslocamento": "12m (8q), escalar 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +12 (2d6+8 mais veneno)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "–5",
+      "sabedoria": "0",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      {
+        "nome": "Teia (padrão)",
+        "descricao": "A aranha gigante dispara teia em um quadrado de 3m de lado em alcance curto. Criaturas na área ficam enredadas (Ref CD 18 evita). Uma criatura enredada pode se soltar com uma ação completa e um teste de Força ou Acrobacia (CD 20) ou cortando a teia (cada espaço de 1,5m de teia tem 5 PV e RD 5). Fogo queima a teia em duas rodadas (e liberta as criaturas), mas causa 1d6 pontos de dano de fogo por rodada a todas as criaturas nela. A aranha gigante também pode usar a teia para cobrir uma área quadrada com 6m de lado. Por sua semitransparência, a teia é difícil de ver (Percepção CD 20) até ser tarde demais. Uma criatura que entre na área fica enredada. A aranha pode andar na própria teia sem se enredar. Ela percebe automaticamente (como se tivesse percepção às cegas) qualquer criatura na teia."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Condição fraco (Fort CD 18 evita)."
+      }
+    ],
+    "pericias": "Furtividade +9.",
+    "tesouro": "1d4 doses de veneno de aranha gigante (CD 17 para extrair, T$ 45 cada dose)."
+  }
+}

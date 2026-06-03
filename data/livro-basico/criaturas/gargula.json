@@ -1,0 +1,50 @@
+{
+  "id": "gargula",
+  "tipo": "criatura",
+  "nome": "Gárgula",
+  "resumo": "Predador furtivo que finge ser estátua no alto de ruínas e prédios, mergulhando com as garras quando surge a oportunidade de atacar.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 287
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esses predadores furtivos se mantêm imóveis no alto de ruínas, castelos, catedrais e outros prédios, fingindo ser estátuas. Quando surge uma oportunidade de atacar, mergulham com suas garras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Construto",
+    "tamanho": "Médio",
+    "tema": "Masmorras",
+    "iniciativa": "+3",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "19, imunidade a condição petrificado, redução de dano 5",
+    "fortitude": "+13",
+    "reflexos": "+7",
+    "vontade": "+2",
+    "pontosDeVida": "65",
+    "deslocamento": "12m (8q), voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo duas garras +12 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Imobilidade",
+        "descricao": "Uma gárgula pode permanecer completamente imóvel. Se ela estiver assim, um personagem deve passar num teste de Percepção (CD 35) para perceber que ela é uma criatura e não uma estátua."
+      }
+    ],
+    "tesouro": "Padrão."
+  }
+}

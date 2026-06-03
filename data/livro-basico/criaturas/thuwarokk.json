@@ -1,0 +1,62 @@
+{
+  "id": "thuwarokk",
+  "tipo": "criatura",
+  "nome": "Thuwarokk",
+  "resumo": "Gigantesco lefeu semelhante a um besouro blindado quase tão grande quanto um castelo, conhecido como \"colosso da Tormenta\".",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 315
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este gigantesco lefeu lembra um besouro blindado, mas é quase tão grande quanto um castelo! Além de quatro pares de patas, possui três pares de \"braços\" menores e ágeis. Sua carapaça é espessa como uma muralha, recobrindo o dorso e mostrando poucas juntas vulneráveis. Lembrando mais imensas máquinas de guerra que seres vivos, os thuwarokk eram conhecidos como \"colossos da Tormenta\" — e são exatamente isso: feras colossais, monstros de destruição total, capazes de dizimar exércitos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "16",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Colossal",
+    "tema": "A Tormenta",
+    "iniciativa": "+11",
+    "percepcao": "+12, visão no escuro",
+    "defesa": "50, redução de dano 10",
+    "fortitude": "+30",
+    "reflexos": "+24",
+    "vontade": "+16",
+    "pontosDeVida": "900",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Quatro pancadas +48 (4d12+24)."
+    ],
+    "atributos": {
+      "forca": "17",
+      "destreza": "–1",
+      "constituicao": "10",
+      "inteligencia": "–3",
+      "sabedoria": "0",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      {
+        "nome": "Carapaça",
+        "descricao": "A carapaça do thuwarokk reduz todo dano de corte, impacto e perfuração que ele sofre pela metade. Se o thuwarokk passar num teste de resistência contra magia que o tem como alvo, ela é revertida contra o conjurador. Apesar de resistente, a carapaça de um thuwarokk possui pontos fracos, que podem ser encontrados com uma ação de movimento e um teste de Percepção (CD 25). Um personagem que encontre um ponto fraco pode atacar a criatura com –5 no teste de ataque, mas, se acertar, ignora as proteções da carapaça."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d12 PM (Von CD 42 evita)."
+      },
+      {
+        "nome": "Jato de Ácido (Movimento)",
+        "descricao": "O thuwarokk dispara um jato corrosivo que atinge um cone de 30m. Criaturas na área sofrem 10d8+20 pontos de dano de ácido (Ref CD 42 reduz à metade). Recarga (movimento)."
+      },
+      {
+        "nome": "Passar por Cima (Completa)",
+        "descricao": "O thuwarokk percorre até o dobro do seu deslocamento, passando por qualquer criatura Enorme ou menor. Uma criatura atropelada sofre 10d12+50 pontos de dano (Ref CD 42 reduz à metade)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

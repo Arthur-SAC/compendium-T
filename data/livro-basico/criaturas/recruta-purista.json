@@ -1,0 +1,51 @@
+{
+  "id": "recruta-purista",
+  "tipo": "criatura",
+  "nome": "Recruta Purista",
+  "resumo": "A ralé do exército purista, recrutada entre filhos de camponeses e indesejados para missões menos importantes.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 294
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Em meio a tantos seres monstruosos que aterrorizam Arton, existe uma ameaça humana. Extremamente humana, no pior sentido. A Supremacia Purista é uma nação belicosa e fanática, determinada a exterminar todos os não humanos de Arton. Veja mais sobre os puristas no Capítulo 9: Mundo de Arton. A seguir estão fichas dos membros mais comuns dos batalhões.\n\nA ralé do exército purista. São recrutados entre filhos de camponeses — ou entre órfãos, criminosos e outros \"indesejados\". Recebem treinamento militar e equipamento abaixo dos padrões da Supremacia, mas ainda superior ao da maior parte do Reinado. São usados em missões menos importantes, como atacar aldeias com poucas defesas, proteger lugares não estratégicos e patrulhar estradas secundárias."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Puristas",
+    "iniciativa": "+3",
+    "percepcao": "+0",
+    "defesa": "16",
+    "fortitude": "+6",
+    "reflexos": "+2",
+    "vontade": "+0",
+    "pontosDeVida": "10",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Alabarda +8 (1d10+5, x3)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "–1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o recruta estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      }
+    ],
+    "equipamento": "Alabarda, cota de malha.",
+    "tesouro": "Nenhum."
+  }
+}

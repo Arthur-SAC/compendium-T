@@ -1,0 +1,49 @@
+{
+  "id": "cascavel",
+  "tipo": "criatura",
+  "nome": "Cascavel",
+  "resumo": "Serpente peçonhenta minúscula, usada pelos sszzaazitas como familiar, armadilha e instrumento de assassinato.",
+  "fonte": { "livro": "livro-basico", "pagina": 304 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Os Sszzaazitas",
+      "texto": "Ainda que nenhum devoto de Sszzaas seja honesto, nem todos são malignos. De fato, alguns até empregam seus poderes para promover o bem, ajudar aventureiros — até mesmo como uma forma de “trair” sua divindade, ainda seguindo suas obrigações e restrições. Da mesma forma, nem todos os devotos deste deus são sszzaazitas (mesmo que pouquíssimos em Arton vejam qualquer diferença). Este título é reservado a um grupo seleto de cultistas, os mais fanáticos, manipuladores e perigosos de todos. Se realmente fazem parte de uma organização coesa, ou estão competindo entre si pelo favoritismo do Senhor das Víboras, difícil dizer — talvez ambas as teorias sejam verdadeiras. Seus reais números também são desconhecidos; parecem capazes de influenciar cada cidade, cada palácio, cada regente, sem que se consiga realmente encontrar seus membros.\n\nSszzazitas não são apenas clérigos, mas qualquer criatura que siga os preceitos de Sszzaas ao trair, torturar e matar em proveito próprio. São servidos por uma variedade de criaturas relacionadas a serpentes. Os cultistas utilizam esses monstros como força de combate, enquanto eles mesmos agem nas sombras."
+    },
+    {
+      "titulo": "Cobras",
+      "texto": "Não apenas um animal sagrado para os sszzaazitas, mas o próprio símbolo de sua divindade, será praticamente certa a existência de serpentes variadas (especialmente as peçonhentas) em seus covis e esconderijos. São amplamente utilizadas como familiares, armadilhas e instrumentos de assassinato. E como precaver-se contra seus “aliados” nunca é demais, cultistas também guardam zelosamente frascos com antídoto."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Animal",
+    "tamanho": "Minúsculo",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+5",
+    "percepcao": "+3, faro, visão na penumbra",
+    "defesa": "13",
+    "fortitude": "+2",
+    "reflexos": "+5",
+    "vontade": "–1",
+    "pontosDeVida": "2",
+    "deslocamento": "6m (4q), escalar 6m (4q), natação 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +7 (1d4 mais veneno)."
+    ],
+    "atributos": {
+      "forca": "–2",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "–5",
+      "sabedoria": "0",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      { "nome": "Veneno", "descricao": "Perde 1d12 pontos de vida (Fort CD 16 evita)." }
+    ],
+    "pericias": "Furtividade +12.",
+    "tesouro": "1 dose de peçonha comum (CD 15 para extrair)."
+  }
+}

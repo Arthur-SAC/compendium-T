@@ -1,0 +1,56 @@
+{
+  "id": "sargento-mor",
+  "tipo": "criatura",
+  "nome": "Sargento-mor",
+  "resumo": "Soldados veteranos e embrutecidos que comandam um batalhão de cem puristas, liderando pelo exemplo na linha de frente.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 294
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Sargentos da Supremacia são soldados veteranos e embrutecidos. Por já terem provado seu valor em batalha, recebem o comando de um batalhão, formado por cem soldados. Apesar da promoção, ainda são mais guerreiros do que comandantes e lideram pelo exemplo, avançando à frente de suas tropas (para um oficial estrategista, veja Capitão-Baluarte, a seguir). Seja enfrentando tropas inimigas, seja enfrentando heróis aventureiros, sargentos nunca se abalam; confiam em seu treinamento, em sua experiência e em sua força bruta."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Puristas",
+    "iniciativa": "+4",
+    "percepcao": "+3",
+    "defesa": "24",
+    "fortitude": "+14",
+    "reflexos": "+9",
+    "vontade": "+5",
+    "pontosDeVida": "105",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda +14 (1d12+15, 19).",
+      "À Distância Besta pesada +12 (1d12+10, 19)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "1",
+      "constituicao": "4",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o sargento-mor estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o sargento-mor faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "equipamento": "Armadura completa, besta pesada, escudo pesado, espada bastarda aumentada certeira, virotes x20.",
+    "tesouro": "Padrão."
+  }
+}

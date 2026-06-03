@@ -1,0 +1,52 @@
+{
+  "id": "soldado-purista",
+  "tipo": "criatura",
+  "nome": "Soldado Purista",
+  "resumo": "A base dos batalhões puristas, jovens enrijecidos por um treino brutal e por uma lavagem cerebral que os transforma em máquinas de matar.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 294
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A base dos batalhões puristas. São recrutados entre crianças da Supremacia (normalmente entre 10 a 12 anos) e enviados a um dos vários campos militares do reino. Lá aprendem a seguir ordens, a usar o equipamento dos batalhões e a seguir a doutrina purista. É um treino brutal e eficaz. Muitos morrem. Os que sobrevivem se tornam jovens fortes e enrijecidos, repletos de cicatrizes no corpo e na alma.\n\nQuando estão chegando à maioridade (15 a 17 anos), são enviados à cidade militar de Warton (ou a outro quartel) para concluir seu treinamento e serem alocados a um batalhão. A etapa final de sua formação é na verdade uma lavagem cerebral que transforma os futuros soldados em máquinas de matar, sem qualquer traço de compaixão ou remorso.\n\nOs soldados puristas, tragicamente, possuem pouco de sua tão aclamada humanidade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Puristas",
+    "iniciativa": "+4",
+    "percepcao": "+1",
+    "defesa": "20",
+    "fortitude": "+10",
+    "reflexos": "+4",
+    "vontade": "+1",
+    "pontosDeVida": "20",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda +9 (1d10+9, 19).",
+      "À Distância Besta pesada +7 (1d12+4, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "–1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Lutar em Formação",
+        "descricao": "Se o soldado estiver adjacente a um aliado que também possua este poder, recebe +2 em testes de ataque e Defesa."
+      }
+    ],
+    "equipamento": "Besta pesada, escudo pesado, espada bastarda, meia armadura, virotes x10.",
+    "tesouro": "Metade."
+  }
+}

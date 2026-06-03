@@ -1,0 +1,51 @@
+{
+  "id": "orc-combatente",
+  "tipo": "criatura",
+  "nome": "Orc combatente",
+  "resumo": "Guerreiro orc comum, selvagem e violento, que luta com brutalidade e sem estratégia, prejudicado por sua sensibilidade à luz.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 286
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Orcs",
+      "texto": "Estes humanoides monstruosos podem ser encontrados em muitos pontos de Arton, em pequenos bandos ou vastas tribos. Selvagens e violentos, lutam com brutalidade e sem estratégia, obedecendo a seus líderes apenas pela força. Seu maior ponto fraco é a sensibilidade a luz, levando-os a infestar masmorras e outros lugares subterrâneos, de onde lançam ataques noturnos contra povoados civilizados."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "tema": "Masmorras",
+    "iniciativa": "+4",
+    "percepcao": "+1, visão no escuro",
+    "defesa": "14",
+    "fortitude": "+5",
+    "reflexos": "+3",
+    "vontade": "+0",
+    "pontosDeVida": "8",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Maça +9 (1d8+7)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "–1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "equipamento": "Couro batido, maça.",
+    "tesouro": "Metade."
+  }
+}

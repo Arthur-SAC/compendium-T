@@ -1,0 +1,50 @@
+{
+  "id": "cultista-de-sszzaas",
+  "tipo": "criatura",
+  "nome": "Cultista de Sszzaas",
+  "resumo": "Devoto de Sszzaas que comanda cabalas sombrias, manipulando asseclas e executando os ditames do Grande Corruptor.",
+  "fonte": { "livro": "livro-basico", "pagina": 306 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mesmo com sua religião sendo proibida no Reinado, todos já ouviram falar de algum grupo sszzaazita escondido nas sombras de mansões sinistras ou tavernas discretas, tecendo planos dentro de planos, cometendo crimes para seu patrono maléfico. Encabeçando tais cabalas sombrias, quase sempre haverá um devoto de Sszzaas, manipulando seus asseclas, prometendo poder e riquezas, quando na verdade apenas executa os ditames do Grande Corruptor."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Monstro (medusa)",
+    "tamanho": "Médio",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+11",
+    "percepcao": "+12, visão no escuro",
+    "defesa": "29",
+    "fortitude": "+7",
+    "reflexos": "+14",
+    "vontade": "+20, resistência a veneno +5",
+    "pontosDeVida": "160",
+    "pontosDeMana": "40",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +22 (1d4+4, 19, mais veneno)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "0",
+      "inteligencia": "4",
+      "sabedoria": "4",
+      "carisma": "5"
+    },
+    "habilidades": [
+      { "nome": "Ataque Furtivo", "descricao": "Uma vez por rodada, a cultista de Sszzaas causa +5d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que ela esteja flanqueando." },
+      { "nome": "Magias", "descricao": "A cultista lança magias como uma clériga de Sszzaas de 7º nível (CD 26). 1º — Arma Mágica, Comando, Curar Ferimentos, Escuridão; 2º — Enxame de Pestes, Miasma Mefítico." },
+      { "nome": "Olhar Atordoante (Movimento)", "descricao": "Uma criatura em alcance curto fica atordoada por uma rodada (apenas uma vez por cena; Fort CD 26 evita)." },
+      { "nome": "Veneno", "descricao": "Perde 2d12 pontos de vida durante 3 rodadas (Fort CD 26 reduz para uma rodada)." }
+    ],
+    "pericias": "Enganação +20, Intuição +20, Religião +17.",
+    "equipamento": "Adaga certeira, couraça, escudo leve, símbolo sagrado de Sszzaas.",
+    "tesouro": "Padrão."
+  }
+}

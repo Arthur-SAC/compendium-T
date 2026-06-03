@@ -1,0 +1,54 @@
+{
+  "id": "troll",
+  "tipo": "criatura",
+  "nome": "Troll",
+  "resumo": "Monstro vegetal voraz que regenera quase qualquer ferimento; serve aos finntroll e ameaça viajantes por toda Arton.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 308
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um troll é um monstro feito de matéria vegetal. Alto e magro como uma árvore, possui pele verde e verruguenta e braços longos que terminam em garras afiadas. Estes monstros vorazes não apenas servem aos finntroll como guardas e soldados, mas também são encontrados em diversos pontos de Arton, uma ameaça constante a viajantes e aventureiros. Alguns dizem que são uma versão primitiva dos finntroll, enquanto outros presumem que foram criados pelos trolls nobres através de experimentos perversos que envolvem transformar criaturas indefesas.\n\nUm troll pode regenerar quase qualquer ferimento, até mesmo membros decepados. Essa capacidade exige quantidades fantásticas de comida, fazendo com que o monstro esteja sempre faminto — um troll vai tentar devorar qualquer coisa que se mova. Apenas dano causado por fogo ou ácido impede sua regeneração.\n\nAs estatísticas a seguir representam a espécie de troll mais comum, que habita pântanos e charcos, mas existem outras (veja o quadro ao lado).\n\nIndependentemente da espécie, trolls procuram viver em tocas ou ruínas próximas a trilhas ou estradas, onde têm constante acesso a presas. Seu apetite contínuo e macabro os leva a capturar todo tipo de criaturas — especialmente humanoides, cujo sabor apreciam — e usá-las como ingredientes em numerosas \"receitas\" diabólicas."
+    },
+    {
+      "titulo": "Trolls Variantes",
+      "texto": "Além do troll comum, existem outras espécies adaptadas a outros ambientes. Estas variantes usam as estatísticas do troll comum, com os modificadores a seguir.\n\nGhillanin: Estes trolls subterrâneos têm a pele cinzenta, com textura de rocha. São muito usados pelos finntroll; vastas hordas deles atacaram o reino anão de Doherimm durante o Chamado às Armas.\n• Pele Dura. O ghillanin possui Defesa 25.\n• Sensibilidade a Luz. Quando exposto à luz do sol ou similar, o ghillanin fica ofuscado e sua cura acelerada não funciona.\n\nGlacioll: Estes trolls do gelo são habitantes das Uivantes e outros lugares frios. De cor azulada, não apenas são imunes a frio, como também absorvem sua energia, ficando maiores! Um glacioll atingido por um ataque ou magia de frio se fortalece, em vez de sofrer dano.\n• Absorver Frio. Quando sofre dano de frio, o glacioll em vez disso recebe uma quantidade de PV temporários igual ao dano que sofreria. Para cada 10 PV temporários recebidos desta forma, o troll glacioll recebe +1 em testes de ataque e rolagens de dano até o fim da cena.\n• Vulnerabilidade a Fogo. O glacioll sofre +50% de dano de fogo.\n\nVrakoll: Estes trolls aquáticos são encontrados em água doce ou salgada. Podem respirar e se mover livremente debaixo d'água, mas têm dificuldade para lutar em terra firme. Levando em conta a dificuldade em atacá-los com fogo ou ácido quando submersos, em seu ambiente eles são praticamente invencíveis!\n• Aquático. O vrakoll possui deslocamento de natação 9m e pode respirar debaixo d'água. Entretanto, sofre −2 em testes de ataque em terra firme."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "tema": "Os Trolls Nobres",
+    "iniciativa": "+4",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "23, cura acelerada 15/ácido ou fogo",
+    "fortitude": "+14",
+    "reflexos": "+10",
+    "vontade": "+6",
+    "pontosDeVida": "165",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +17 (1d8+6) e duas garras +17 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "6",
+      "inteligencia": "–2",
+      "sabedoria": "–1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Dilacerar",
+        "descricao": "Se o troll acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 2d6+6 pontos de dano."
+      }
+    ],
+    "tesouro": "Padrão."
+  }
+}

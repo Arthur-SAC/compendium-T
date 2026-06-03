@@ -1,0 +1,57 @@
+{
+  "id": "arauto-de-thwor",
+  "tipo": "criatura",
+  "nome": "Arauto de Thwor",
+  "resumo": "Clérigo de Thwor — mesmo não goblinoide — que prega O Mundo Como Deve Ser e transformar Arton em utopia selvagem.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 301
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Após conhecer a história de sofrimento e opressão dos duyshidakk, não é espantoso que outros povos experimentem afinidade com sua causa. Hoje Thwor não é servido apenas por goblinoides, mas também por humanos e outras raças! Aceitos como irmãos pelos duyshidakk e abraçando suas tradições, estes clérigos assumem a missão sagrada de criar O Mundo Como Deve Ser e transformar Arton na utopia selvagem pregada por seu deus."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Duyshidakk",
+    "iniciativa": "+5",
+    "percepcao": "+8",
+    "defesa": "23",
+    "fortitude": "+10",
+    "reflexos": "+4",
+    "vontade": "+16",
+    "pontosDeVida": "135",
+    "deslocamento": "6m (4q)",
+    "pontosDeMana": "26",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra +16 (3d6+12, x3)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "4",
+      "carisma": "0"
+    },
+    "pericias": "Intimidação +9, Religião +8.",
+    "equipamento": "Machado de guerra, símbolo sagrado de Thwor.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "O Mundo como Ele É (Reação)",
+        "descricao": "Quando erra um ataque, o arauto de Thwor pode repetir o teste de ataque. Ele pode usar esta habilidade uma vez contra cada oponente a cada cena."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O arauto lança magias como um clérigo de Thwor de 4º nível (CD 18).\n• Amedrontar (Padrão, 3 PM) Um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado (Vontade reduz para abalado apenas).\n• Curar Ferimentos (Padrão, 4 PM) Uma criatura adjacente cura 5d8+5 PV.\n• Perdição (Padrão, 1 PM) Criaturas escolhidas em alcance curto sofrem –1 em testes de ataque e rolagens de dano até o fim da cena."
+      }
+    ]
+  }
+}

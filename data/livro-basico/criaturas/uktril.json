@@ -1,0 +1,58 @@
+{
+  "id": "uktril",
+  "tipo": "criatura",
+  "nome": "Uktril",
+  "resumo": "O lefeu mais comum e fraco: uma combinação impossível de humano e formiga, com garras que gotejam muco.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 314
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Lefeu",
+      "texto": "A seguir estão quatro demônios da Tormenta."
+    },
+    {
+      "titulo": "",
+      "texto": "Mesmo o lefeu mais comum e mais fraco é uma abominação perversa, uma combinação impossível de humano e formiga, com garras cruéis que gotejam muco. Estes monstros rondam as fronteiras das áreas de Tormenta em pequenos grupos, não raras vezes infestando masmorras e regiões vizinhas. Também podem ser conjurados por magias profanas ou oferecidos por Aharadak como servos para cultistas."
+    },
+    {
+      "titulo": "Habilidades Lefeu",
+      "texto": "Todos os lefeu partilham as seguintes habilidades (já contabilizadas em suas fichas).\n\nImunidades. Lefeu são imunes a acertos críticos, ácido, cansaço, eletricidade, fogo, frio, luz, paralisia, metabolismo, metamorfose, trevas e veneno.\n\nInsanidade da Tormenta. Uma criatura que veja um ou mais lefeu deve fazer um teste de Vontade contra o lefeu de maior ND. Se falhar, perde os PM indicados (+1 PM para cada lefeu além do primeiro). Se for reduzida a 0 PM, fica confusa. Uma criatura só é afetada por esta habilidade uma vez por dia.\n\nPercepção Temporal. Um lefeu soma sua Sabedoria em testes de ataque, Defesa e Reflexos (já contabilizado na ficha).\n\nVisão Ampla. Um lefeu recebe +5 em Percepção e não pode ser flanqueado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "tema": "A Tormenta",
+    "iniciativa": "+9",
+    "percepcao": "+10, visão no escuro",
+    "defesa": "22, redução de dano 10",
+    "fortitude": "+12",
+    "reflexos": "+11",
+    "vontade": "+6",
+    "pontosDeVida": "45",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Pinça +16 (2d6+6, 19) e garra +16 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "2",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "1d6 PM (Von CD 17 evita)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

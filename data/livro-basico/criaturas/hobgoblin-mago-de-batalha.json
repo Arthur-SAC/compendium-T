@@ -1,0 +1,57 @@
+{
+  "id": "hobgoblin-mago-de-batalha",
+  "tipo": "criatura",
+  "nome": "Hobgoblin Mago de Batalha",
+  "resumo": "Hobgoblin que, após pilhar tomos arcanos élficos, domina conjurações de efeitos destrutivos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 301
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "No passado remoto, durante a Infinita Guerra contra os elfos, todos os hobgoblins odiavam e desprezavam magia — justamente por ser \"coisa de elfo\". Mais tarde, no entanto, integrar a Aliança Negra e derrotar Lenórienn trouxe uma atitude mais pragmática. Após pilharem os tomos arcanos élficos, muitos hobgoblins passariam a dominar conjurações com efeitos destrutivos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Médio",
+    "tema": "Os Duyshidakk",
+    "iniciativa": "+5",
+    "percepcao": "+4, visão no escuro",
+    "defesa": "17",
+    "fortitude": "+11",
+    "reflexos": "+5",
+    "vontade": "+17",
+    "pontosDeVida": "120",
+    "deslocamento": "9m (6q)",
+    "pontosDeMana": "35",
+    "ataques": [
+      "Corpo a Corpo Espada longa +14 (1d8+3, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "pericias": "Guerra +9, Misticismo +9, Ofício (armeiro) +11.",
+    "equipamento": "Espada longa, essência de mana.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "O hobgoblin mago de batalha soma sua Inteligência (+4) nas rolagens de dano com magias."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O hobgoblin lança magias como um mago de 5º nível (CD 22).\n• Amedrontar (Padrão, 3 PM) Um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado (Vontade reduz para abalado apenas).\n• Armadura Arcana (Padrão, 5 PM) O hobgoblin recebe +6 na Defesa por um dia.\n• Bola de Fogo (Padrão, 5 PM) O hobgoblin cria uma poderosa explosão em alcance médio que causa 8d6+5 pontos de dano de fogo em todas as criaturas em um raio de 6m (Reflexos reduz à metade).\n• Concentração de Combate (Livre, 1 PM) Quando faz um ataque, o hobgoblin rola dois dados e usa o melhor resultado.\n• Toque Vampírico (Padrão, 5 PM) O hobgoblin faz um ataque com sua espada longa. Se acertar, além do dano da arma ele causa 6d6+5 pontos de dano de trevas e recupera pontos de vida iguais à metade desse dano de trevas."
+      }
+    ]
+  }
+}

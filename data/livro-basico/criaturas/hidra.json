@@ -1,0 +1,45 @@
+{
+  "id": "hidra",
+  "tipo": "criatura",
+  "nome": "Hidra",
+  "resumo": "Monstruosidade reptiliana de cinco cabeças cujos pescoços decepados rebrotam em dobro; voraz, agressiva e difícil de matar.",
+  "fonte": { "livro": "livro-basico", "pagina": 306 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta monstruosidade reptiliana tem a aparência de um lagarto imenso e obeso, coberto de escamas verdes ou marrons, com cinco cabeças encimando pescoços longos e flexíveis como serpentes. Hidras são criaturas solitárias e normalmente habitam pântanos, onde se escondem imersas em água ou lama, esperando por uma presa. Porém, às vezes são capturadas por sszzaazitas, sendo usadas como guardiãs de lugares importantes ou armas de guerra. Seja como for, a hidra é um monstro voraz, agressivo e difícil de matar; quando uma de suas cabeças é cortada, outras duas nascem no lugar!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "11",
+    "tipo": "Monstro",
+    "tamanho": "Enorme",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+9",
+    "percepcao": "+9, faro, visão no escuro",
+    "defesa": "35",
+    "fortitude": "+24",
+    "reflexos": "+18",
+    "vontade": "+9, cura acelerada 100",
+    "pontosDeVida": "550",
+    "deslocamento": "9m (6q), natação 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Cinco mordidas +34 (3d6+16)."
+    ],
+    "atributos": {
+      "forca": "10",
+      "destreza": "0",
+      "constituicao": "10",
+      "inteligencia": "–4",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      { "nome": "Cortar Cabeças", "descricao": "As cabeças da hidra são seu ponto fraco e é possível atacá-las diretamente. Atacar uma cabeça impõe uma penalidade de –2 no teste de ataque. Se o ataque acertar e causar pelo menos 25 pontos de dano de corte, a cabeça é decepada e a hidra perde um ataque de mordida. Entretanto, 1d4 rodadas após a cabeça ser decepada, duas novas nascem em seu lugar (a hidra pode ter até dez cabeças). Para impedir o nascimento de novas cabeças é necessário cauterizar o pescoço. Isso exige causar 25 pontos de dano de ácido ou fogo na hidra. Se todas as cabeças da hidra forem decepadas e todos seus pescoços forem cauterizados, ela morre." }
+    ],
+    "pericias": "Furtividade +4 (+14 em pântanos).",
+    "tesouro": "Padrão."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "reishid",
+  "tipo": "criatura",
+  "nome": "Reishid",
+  "resumo": "Lefeu mestre da espionagem e do assassinato, que dobra suas asas de barata como capuzes para passar despercebido entre os mortais.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 314
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mestres da espionagem e assassinato, estes lefeu estão entre os mais perigosos encontrados longe das áreas de Tormenta. Dobrando suas asas de barata como capuzes e mantos, conseguem passar despercebidos mesmo em grandes cidades. Nestes tempos de culto a Aharadak, muitas vezes também se tornam mestres de cerimônia em rituais profanos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Monstro (lefeu)",
+    "tamanho": "Médio",
+    "tema": "A Tormenta",
+    "iniciativa": "+17",
+    "percepcao": "+19, visão no escuro",
+    "defesa": "37, redução de dano 10",
+    "fortitude": "+19",
+    "reflexos": "+21",
+    "vontade": "+10",
+    "pontosDeVida": "295",
+    "deslocamento": "9m (6q), escalar 9m (6q), voo 15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Adaga da Tormenta +30 (1d4+18 mais 1d8 de trevas, 19), garra +30 (1d6+18) e mordida +30 (1d6+18 mais veneno)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "7",
+      "constituicao": "4",
+      "inteligencia": "4",
+      "sabedoria": "4",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque em Movimento",
+        "descricao": "O reishid pode se mover antes e depois de executar a ação agredir, desde que a distância total percorrida não seja maior que seu deslocamento."
+      },
+      {
+        "nome": "Ataque Reflexo (Reação)",
+        "descricao": "Uma vez por rodada, o reishid pode fazer um ataque corpo a corpo contra um alvo adjacente que esteja desprevenido ou que se mova para fora de seu alcance."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d6 PM (Von CD 26 evita)."
+      },
+      {
+        "nome": "Sombra Rubra",
+        "descricao": "Quando faz um teste de Iniciativa ou Furtividade, o reishid rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Condição paralisado por 1d6 horas (Fort CD 26 reduz para lento por 1d6 rodadas)."
+      }
+    ],
+    "pericias": "Furtividade +20.",
+    "tesouro": "Padrão mais adaga da Tormenta. Esta é uma arma mágica específica que conta como uma adaga formidável tumular. Sua lâmina é longa e ondulada e seu cabo lembra uma carapaça. A adaga secreta muco adesivo pelo cabo, que mantém a arma firme na mão, fornecendo +5 em testes contra desarmar. Soltar uma adaga da Tormenta gasta uma ação de movimento."
+  }
+}

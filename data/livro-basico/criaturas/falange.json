@@ -1,0 +1,46 @@
+{
+  "id": "falange",
+  "tipo": "criatura",
+  "nome": "Falange",
+  "resumo": "Tropa de elite de esqueletos que ataca em formação cerrada como um bando devastador.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 298
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Morto-vivo (bando)",
+    "tamanho": "Grande",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+12",
+    "percepcao": "+6, visão no escuro",
+    "defesa": "25",
+    "fortitude": "+6",
+    "reflexos": "+12",
+    "vontade": "+18, redução de corte, frio e perfuração 5",
+    "pontosDeVida": "300",
+    "deslocamento": "6m",
+    "ataques": [
+      "Corpo a Corpo [Bando] Espada longa +28 (4d8+30, 19, mais 4d8 trevas)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "—",
+      "sabedoria": "0",
+      "carisma": "–5"
+    },
+    "habilidades": [
+      {
+        "nome": "Bando",
+        "descricao": "A falange é formada por um grupo de esqueletos. Se um ataque da falange exceder a Defesa do inimigo por 10 ou mais, ele causa o dobro do dano. Se um ataque da falange errar, ele ainda assim causa metade do dano. A falange é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Um personagem com o poder Trespassar que acerte a falange pode usá-lo para fazer um ataque adicional contra ela (mas apenas uma vez por turno)."
+      }
+    ],
+    "equipamento": "Escudo pesado, espada longa, meia armadura (1d8 cada).",
+    "tesouro": "Nenhum."
+  }
+}

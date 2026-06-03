@@ -1,0 +1,51 @@
+{
+  "id": "orc-chefe",
+  "tipo": "criatura",
+  "nome": "Orc Chefe",
+  "resumo": "Líder orc que comanda seu bando pela força, capaz de entrar em um urro selvagem que aumenta seus ataques corpo a corpo.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 286
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "tema": "Masmorras",
+    "iniciativa": "+5",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "19",
+    "fortitude": "+13",
+    "reflexos": "+7",
+    "vontade": "+2",
+    "pontosDeVida": "66",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha +11 (1d8+12, x3)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Urro Selvagem (Movimento)",
+        "descricao": "O orc chefe recebe +2 em testes de ataque e rolagens de dano corpo a corpo até o final da cena, mas não pode fazer nenhuma ação que exija calma e concentração."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+      }
+    ],
+    "pericias": "Intimidação +4, Sobrevivência +5 (+7 em subterrâneos).",
+    "equipamento": "Gibão de peles, machado de batalha.",
+    "tesouro": "Padrão."
+  }
+}

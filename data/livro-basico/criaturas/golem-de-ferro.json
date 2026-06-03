@@ -1,0 +1,54 @@
+{
+  "id": "golem-de-ferro",
+  "tipo": "criatura",
+  "nome": "Golem de Ferro",
+  "resumo": "Construto antigo e quase invulnerável, sem inteligência real, deixado em ruínas ancestrais para proteger as propriedades de mestres há muito falecidos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 288
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ainda que existam golens inteligentes, também existem numerosos construtos antigos e sem inteligência real — deixados em ruínas ancestrais para proteger as propriedades de seus mestres, talvez há muito falecidos. Ao perseguir um tesouro antigo, um grupo de aventureiros pode acabar despertando um imenso e quase invulnerável golem de ferro, um dos oponentes mais perigosos de uma masmorra."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Construto",
+    "tamanho": "Grande",
+    "tema": "Masmorras",
+    "iniciativa": "+4",
+    "percepcao": "+9, visão no escuro",
+    "defesa": "36, redução de dano 10",
+    "fortitude": "+24",
+    "reflexos": "+14",
+    "vontade": "+11",
+    "pontosDeVida": "400",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas pancadas +30 (2d10+25)."
+    ],
+    "atributos": {
+      "forca": "12",
+      "destreza": "–1",
+      "constituicao": "10",
+      "inteligencia": "—",
+      "sabedoria": "0",
+      "carisma": "–5"
+    },
+    "habilidades": [
+      {
+        "nome": "Imunidade a Magia",
+        "descricao": "O golem de ferro é imune a efeitos mágicos, com as seguintes exceções. Efeitos mágicos de eletricidade deixam o golem de ferro lento por 1d6 rodadas. Efeitos mágicos de fogo removem a condição lento e curam 1 PV para cada 3 pontos de dano que causariam."
+      },
+      {
+        "nome": "Sopro (Movimento)",
+        "descricao": "O golem de ferro expele uma nuvem de gás venenoso que preenche um cubo de 3m de lado. Criaturas dentro da área perdem 6d12 pontos de vida e ficam enjoadas (Fort CD 30 reduz à metade e evita a condição enjoado). Recarga (movimento), veneno."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

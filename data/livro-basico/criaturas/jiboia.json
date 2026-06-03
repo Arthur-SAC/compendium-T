@@ -1,0 +1,41 @@
+{
+  "id": "jiboia",
+  "tipo": "criatura",
+  "nome": "Jiboia",
+  "resumo": "Serpente constritora de tamanho médio, que agarra e esmaga suas presas.",
+  "fonte": { "livro": "livro-basico", "pagina": 304 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Animal",
+    "tamanho": "Médio",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+5",
+    "percepcao": "+3, faro, visão na penumbra",
+    "defesa": "14",
+    "fortitude": "+3",
+    "reflexos": "+5",
+    "vontade": "+0",
+    "pontosDeVida": "14",
+    "deslocamento": "6m (4q), escalar 6m (4q), natação 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +9 (1d6+4)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "3",
+      "constituicao": "1",
+      "inteligencia": "–5",
+      "sabedoria": "1",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      { "nome": "Agarrar Aprimorado (Livre)", "descricao": "Se a jiboia acerta um ataque de mordida, pode fazer a manobra agarrar (teste +9)." },
+      { "nome": "Constrição (Livre)", "descricao": "No início de cada um de seus turnos, a jiboia causa 2d6+4 pontos de dano de impacto na criatura que estiver agarrando." }
+    ],
+    "pericias": "Furtividade +7.",
+    "tesouro": "Nenhum."
+  }
+}

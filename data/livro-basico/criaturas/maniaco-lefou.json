@@ -1,0 +1,51 @@
+{
+  "id": "maniaco-lefou",
+  "tipo": "criatura",
+  "nome": "Maníaco Lefou",
+  "resumo": "Meio-demônio da Tormenta tomado pela loucura e pela violência, que ataca tudo que encontra.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 314
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando o grupo de aventureiros conhecido como o Esquadrão do Inferno entrou em contato com um outro universo, inadvertidamente libertou sobre Arton a maior de todas as ameaças. Esses invasores são chamados lefeu, ou demônios da Tormenta; seres tão bizarros, tão macabros, que só conseguimos vê-los como insetos monstruosos — os limites daquilo que nossas mentes conseguem imaginar. A Tormenta choveu sangue ácido e demônios sobre Tamu-ra, destruindo uma civilização milenar. Mais tarde surgiriam outras áreas de Tormenta, lugares de profanação e pesadelo, onde nosso próprio mundo é devorado, substituído pela Anticriação aberrante.\n\nUma área de Tormenta é hostil à vida, um lugar onde apenas os aventureiros mais fortificados conseguem sequer pisar. Infelizmente, a corrupção não se restringe a esses territórios — a Tormenta avança sobre Arton de numerosas formas. Sua loucura toca os povos, transformando pessoas em maníacos depravados. Criaturas aberrantes rondam o Reinado, espreitando povoados, infestando masmorras. Mesmo o próprio Panteão perdeu sua pureza divina, agora acolhendo Aharadak, o infecto Deus da Tormenta.\n\nPoucos meios-demônios da Tormenta têm a sorte de integrar um grupo de aventureiros. Temidos e hostilizados por todas as outras raças, quase todos abraçam a violência e a loucura. Tornam-se selvagens ensandecidos, solitários ou em pequenos grupos, atacando tudo que encontram. Mais de uma aldeia foi chacinada por maníacos lefou, buscando apenas um fim para o pesadelo sangrento que é sua existência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (lefou)",
+    "tamanho": "Médio",
+    "tema": "A Tormenta",
+    "iniciativa": "+4",
+    "percepcao": "+2",
+    "defesa": "18",
+    "fortitude": "+12",
+    "reflexos": "+7",
+    "vontade": "+3",
+    "pontosDeVida": "25",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra +16 (1d12+15, x3)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "1",
+      "inteligencia": "–1",
+      "sabedoria": "–1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Frenesi Insano",
+        "descricao": "Sempre que causa ou sofre dano, o maníaco lefou recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano até o fim da cena."
+      }
+    ],
+    "equipamento": "Machado de guerra.",
+    "tesouro": "Metade."
+  }
+}

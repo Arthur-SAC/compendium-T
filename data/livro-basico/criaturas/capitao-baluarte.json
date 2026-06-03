@@ -1,0 +1,56 @@
+{
+  "id": "capitao-baluarte",
+  "tipo": "criatura",
+  "nome": "Capitão-Baluarte",
+  "resumo": "Oficial de baixo escalão escolhido entre a jovem nobreza da Supremacia, cujo talento está em liderar as investidas de seus subordinados.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 295
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esses oficiais de baixo escalão são escolhidos entre a jovem nobreza da Supremacia e treinados desde a infância para liderar. São combatentes hábeis, mas seu verdadeiro talento está em liderar as investidas de seus subordinados, não em atacar pessoalmente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Puristas",
+    "iniciativa": "+4",
+    "percepcao": "+5",
+    "defesa": "33",
+    "fortitude": "+15",
+    "reflexos": "+5",
+    "vontade": "+13",
+    "pontosDeVida": "115",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +17 (1d8+8, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "0",
+      "constituicao": "4",
+      "inteligencia": "3",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Comandar (Padrão)",
+        "descricao": "Os aliados em alcance médio do capitão-baluarte recebem +4 em testes de ataque e rolagens de dano até o fim da rodada."
+      },
+      {
+        "nome": "Formação Invencível",
+        "descricao": "Os aliados em alcance curto do capitão-baluarte recebem +2 na Defesa."
+      }
+    ],
+    "pericias": "Cavalgar +4, Guerra +7, Nobreza +7.",
+    "equipamento": "Armadura completa reforçada, escudo pesado reforçado, espada longa certeira.",
+    "tesouro": "Dobro."
+  }
+}

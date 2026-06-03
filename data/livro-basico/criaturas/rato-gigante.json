@@ -2,7 +2,7 @@
   "id": "rato-gigante",
   "tipo": "criatura",
   "nome": "Rato Gigante",
-  "resumo": "Roedor de pelagem grossa e até um metro de comprimento, que vive em bandos por pântanos, ermos, esgotos e porões — e transmite doença com sua mordida.",
+  "resumo": "Roedor de pelagem grossa, olhos vermelhos e presas amareladas que vive em bandos e pode ser encontrado em quase qualquer lugar.",
   "fonte": {
     "livro": "livro-basico",
     "pagina": 286
@@ -11,7 +11,7 @@
   "secoes": [
     {
       "titulo": "",
-      "texto": "Esse roedor de pelagem grossa, olhos vermelhos e presas amareladas atinge até um metro de comprimento. Ratos gigantes vivem em bandos e podem ser encontrados em quase qualquer lugar — pântanos, ermos, esgotos de metrópoles e porões de tavernas não muito recomendadas."
+      "texto": "Esse roedor de pelagem grossa, olhos vermelhos e presas amareladas atinge até um metro de comprimento. Ratos gigantes vivem em bandos e podem ser encontrados em quase qualquer lugar — pântanos ermos, esgotos de metrópoles e porões de tavernas não muito recomendadas..."
     }
   ],
   "relacoes": [],
@@ -20,29 +20,29 @@
     "tipo": "Animal",
     "tamanho": "Pequeno",
     "tema": "Masmorras",
-    "iniciativa": "+4",
-    "percepcao": "+5, faro, visão na penumbra",
+    "iniciativa": "+5",
+    "percepcao": "+4, faro, visão na penumbra",
     "defesa": "12",
-    "fortitude": "+5",
+    "fortitude": "+0",
     "reflexos": "+3",
     "vontade": "–2",
-    "pontosDeVida": "9",
-    "deslocamento": "12m (8q), escalada 9m (6q)",
+    "pontosDeVida": "3",
+    "deslocamento": "12m (8q), escalar 6m (4q)",
     "ataques": [
-      "Corpo a Corpo Mordida +7 (1d4+1 mais doença)."
+      "Corpo a Corpo Mordida +7 (1d4+3 mais doença)."
     ],
     "atributos": {
       "forca": "0",
       "destreza": "2",
       "constituicao": "1",
-      "inteligencia": "—",
+      "inteligencia": "–4",
       "sabedoria": "1",
       "carisma": "–3"
     },
     "habilidades": [
       {
         "nome": "Doença",
-        "descricao": "Uma criatura mordida por um rato gigante pode ser exposta à doença infecção do esgoto (veja a página 318)."
+        "descricao": "Uma criatura mordida por um rato gigante é exposta a doença infecção do esgoto (veja a página 318)."
       }
     ],
     "tesouro": "Nenhum."

@@ -1,0 +1,64 @@
+{
+  "id": "finntroll-feitor",
+  "tipo": "criatura",
+  "nome": "Finntroll Feitor",
+  "resumo": "Finntroll de casta elevada, conjurador que comanda escravos, trolls e monstros piores.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 307
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Monstro (finntroll)",
+    "tamanho": "Médio",
+    "tema": "Os Trolls Nobres",
+    "iniciativa": "+9",
+    "percepcao": "+5, visão no escuro",
+    "defesa": "20, imunidade a atordoamento e metamorfose, resistência a magia +2",
+    "fortitude": "+8",
+    "reflexos": "+12",
+    "vontade": "+16",
+    "pontosDeVida": "155",
+    "deslocamento": "9m (6q)",
+    "pontosDeMana": "35",
+    "ataques": [
+      "Corpo a Corpo Chicote +18 (1d3+10, 19)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "0",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Açoitar (Padrão)",
+        "descricao": "O finntroll usa de coerção e dor para motivar seus subalternos. No próximo turno de cada aliado do finntroll em alcance médio, esse aliado recebe uma ação de movimento extra e +2 em testes de ataque e rolagens de dano."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O finntroll feitor lança magias como um mago de 7º nível (CD 26, 28 para encantamento*). 1º — Adaga Mental*, Armadura Arcana, Enfeitiçar*; 2º — Desespero Esmagador*, Marca da Obediência*, Relâmpago."
+      },
+      {
+        "nome": "Natureza Vegetal",
+        "descricao": "O finntroll é afetado por habilidades e magias que afetam plantas."
+      },
+      {
+        "nome": "Regeneração Vegetal (Movimento)",
+        "descricao": "O finntroll recupera 5 PV. Esta habilidade não cura dano de ácido e fogo e não pode ser usada quando o finntroll está exposto à luz do sol ou similar."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto à luz do sol ou similar, o finntroll fica ofuscado."
+      }
+    ],
+    "pericias": "Intimidação +9, Misticismo +11.",
+    "equipamento": "Chicote cruel.",
+    "tesouro": "Dobro."
+  }
+}

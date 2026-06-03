@@ -1,0 +1,58 @@
+{
+  "id": "ganchador",
+  "tipo": "criatura",
+  "nome": "Ganchador",
+  "resumo": "Besouro humanoide com braços terminados em ganchos, escravizado pelos finntroll nos subterrâneos de Arton.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 308
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta criatura parece um besouro humanoide com quase três metros de altura. A cabeça lembra a de um urubu com um bico grande e é a única parte da criatura não coberta por um exoesqueleto duro e repleto de pontas afiadas. Mas são os braços que dão nome à criatura, pois terminam em ganchos pontudos de aparência cruel. Ganchadores vivem nos subterrâneos de Arton e estão entre as criaturas escravizadas pelos finntroll."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Monstro",
+    "tamanho": "Grande",
+    "tema": "Os Trolls Nobres",
+    "iniciativa": "+7",
+    "percepcao": "+5, percepção às cegas",
+    "defesa": "26",
+    "fortitude": "+15",
+    "reflexos": "+11",
+    "vontade": "+7",
+    "pontosDeVida": "210",
+    "deslocamento": "9m (6q), escalar 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +17 (2d6+8) e duas garras +17 (1d8+8, 19/x3)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "3",
+      "constituicao": "5",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Dilacerar",
+        "descricao": "Se o ganchador acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 2d8+8 pontos de dano."
+      },
+      {
+        "nome": "Quebrar Tudo!",
+        "descricao": "O ganchador recebe +2 em testes de ataque para quebrar (teste total +21) e causa +1d8 pontos de dano contra objetos."
+      },
+      {
+        "nome": "Sensibilidade a Luz",
+        "descricao": "Quando exposto à luz do sol ou similar, o ganchador fica ofuscado."
+      }
+    ],
+    "tesouro": "Metade mais duas garras (CD 20 para extrair; cada garra conta como T$ 500 em matéria-prima para fabricar armas de corte superiores)."
+  }
+}

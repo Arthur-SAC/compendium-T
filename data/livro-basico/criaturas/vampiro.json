@@ -1,0 +1,68 @@
+{
+  "id": "vampiro",
+  "tipo": "criatura",
+  "nome": "Vampiro",
+  "resumo": "Morto-vivo poderoso e aristocrático, dependente de sangue e vulnerável à luz do sol, comum na nobreza de Aslothia.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 299
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Tornar-se vampiro costuma ser o objetivo de muitos necromantes em busca de mais poder ou clérigos de Tenebra que querem melhor servir à deusa. Essa “dádiva” pode ser alcançada através de pactos, rituais ou maldições. Cada vampiro é único, mas todos partilham duas fraquezas principais: são vulneráveis à luz do sol e dependentes de sangue.\n\nAinda que sejam temidos em todo o Reinado e além, muitos vampiros compõem a alta sociedade de Aslothia, onde são membros da nobreza (e cometem atrocidades impunemente)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "+15",
+    "percepcao": "+13, visão no escuro",
+    "defesa": "45",
+    "fortitude": "+12",
+    "reflexos": "+26",
+    "vontade": "+20, cura acelerada 10, redução de dano 10/luz",
+    "pontosDeVida": "550",
+    "deslocamento": "18m (12q), escalar 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +36 (2d8+5, 17, mais 2d10 trevas) e garra +36 (2d6+25 mais 2d10 trevas)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "5",
+      "constituicao": "5",
+      "inteligencia": "3",
+      "sabedoria": "3",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Dominação Vampírica (Padrão)",
+        "descricao": "O vampiro sussurra palavras de controle para um humanoide em alcance curto. A vítima fica confusa, enfeitiçada ou fascinada até o final da cena ou perde suas memórias da última hora, a escolha do vampiro (Von CD 29 evita). Uma criatura só pode ser alvo desta habilidade uma vez por cena."
+      },
+      {
+        "nome": "Drenar Sangue (Padrão)",
+        "descricao": "O vampiro drena sangue de uma criatura viva que esteja agarrando; ele causa 6d6 pontos de dano de perfuração e recupera a mesma quantidade de PV. Uma criatura morta pelo vampiro desta forma se erguerá como um vampiro na próxima noite e deverá vencer um teste de Vontade oposto contra o vampiro ou ficará sob o controle dele até que ele a liberte ou seja destruído."
+      },
+      {
+        "nome": "Forma de Morcego (Padrão)",
+        "descricao": "O vampiro se transforma em um morcego. Ele se torna Minúsculo (+5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de voo 12m. Seu equipamento é absorvido (retornando quando ele volta ao normal) e suas outras estatísticas não são alteradas. A transformação dura quanto tempo ele desejar, mas termina caso faça um ataque, lance uma magia ou sofra dano."
+      },
+      {
+        "nome": "Presença Majestosa (Reação)",
+        "descricao": "Quando uma criatura ataca o vampiro, deve passar em um teste de Vontade (CD 29) ou não conseguirá machucá-lo e perderá a ação. Uma criatura que passe no teste de Vontade não é mais afetada por esta habilidade até o fim da cena."
+      },
+      {
+        "nome": "Sensibilidade ao Sol",
+        "descricao": "Quando exposto a luz solar direta, o vampiro fica ofuscado e perde 6d6 PV por rodada."
+      }
+    ],
+    "pericias": "Diplomacia +16, Enganação +16, Furtividade +25, Nobreza +13.",
+    "equipamento": "Armadura completa delicada de mitral, espada longa precisa de mitral.",
+    "tesouro": "Dobro."
+  }
+}

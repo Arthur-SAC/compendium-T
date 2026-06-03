@@ -1,0 +1,41 @@
+{
+  "id": "sucuri",
+  "tipo": "criatura",
+  "nome": "Sucuri",
+  "resumo": "Serpente constritora gigantesca, capaz de agarrar e esmagar presas grandes.",
+  "fonte": { "livro": "livro-basico", "pagina": 304 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "tema": "Os Sszzaazitas",
+    "iniciativa": "+5",
+    "percepcao": "+4, faro, visão na penumbra",
+    "defesa": "19",
+    "fortitude": "+9",
+    "reflexos": "+15",
+    "vontade": "+3",
+    "pontosDeVida": "88",
+    "deslocamento": "6m (4q), escalar 9m (6q), natação 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +18 (2d6+14)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "–5",
+      "sabedoria": "1",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      { "nome": "Agarrar Aprimorado (Livre)", "descricao": "Se a sucuri acerta um ataque de mordida, pode fazer a manobra agarrar (teste +20)." },
+      { "nome": "Constrição (Livre)", "descricao": "No início de cada um de seus turnos, a sucuri causa 4d6+14 pontos de dano de impacto na criatura que estiver agarrando." }
+    ],
+    "pericias": "Furtividade +8.",
+    "tesouro": "Nenhum."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zumbi",
+  "tipo": "criatura",
+  "nome": "Zumbi",
+  "resumo": "O tipo mais comum e rudimentar de morto-vivo, pouco mais que carne apodrecida cambaleante.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 297
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mortos-vivos sempre existiram em Arton, temidos em masmorras assombradas, caçados por campeões dos deuses ou tolerados como servos de conjuradores prestigiados. No entanto, dois acontecimentos recentes aumentaram a incidência de mortos-vivos — a destruição de Ragnar, o Deus da Morte, deixando a própria morte sem uma divindade, e a conversão do Conde Ferren Asloth em um poderoso lich, com a subsequente criação de Aslothia, o Reino dos Mortos.\n\nNem todos os mortos-vivos já foram seres vivos. Alguns são criados por magia, enquanto outros surgem por fenômenos sobrenaturais. Não importando sua origem, todos são movidos por energia negativa, oposta à energia positiva da vida. Muitos perdem qualquer inteligência, seguindo apenas instintos básicos (ou as ordens de seu criador), enquanto outros mantêm as memórias que tinham em vida.\n\nO tipo mais comum e rudimentar de morto-vivo, pouco mais que um amontoado cambaleante de carne apodrecida. Podem ser conjurados e controlados ou ocorrer espontaneamente em lugares amaldiçoados. Sozinhos, zumbis são adversários fáceis até para plebeus bem armados ou heróis novatos — mas uma grande horda pode surpreender e sobrepujar até mesmo aventureiros experientes."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "tema": "Reino dos Mortos",
+    "iniciativa": "–1",
+    "percepcao": "–1, visão no escuro",
+    "defesa": "11",
+    "fortitude": "+3",
+    "reflexos": "–1",
+    "vontade": "–1",
+    "pontosDeVida": "20",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +7 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "–1",
+      "constituicao": "2",
+      "inteligencia": "—",
+      "sabedoria": "–1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Fraqueza Zumbi",
+        "descricao": "O zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seu cérebro (Defesa 21)."
+      }
+    ],
+    "tesouro": "Nenhum."
+  }
+}

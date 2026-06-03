@@ -1,0 +1,72 @@
+{
+  "id": "capelao-de-guerra",
+  "tipo": "criatura",
+  "nome": "Capelão de Guerra",
+  "resumo": "Braço armado do Templo da Pureza Divina, adorador fanático de Valkaria e Arsenal que lança magias clericais em apoio aos batalhões puristas.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 295
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Composto por adoradores fanáticos de Valkaria e Arsenal, o Templo da Pureza Divina prega que os humanos são a raça eleita e que os outros povos devem ser exterminados para \"purificar\" Arton. Os capelães são o braço armado do Templo e com frequência acompanham batalhões puristas em missão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Os Puristas",
+    "iniciativa": "+4",
+    "percepcao": "+7",
+    "defesa": "21, imunidade a medo",
+    "fortitude": "+10",
+    "reflexos": "+5",
+    "vontade": "+16",
+    "pontosDeVida": "105",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Martelo de guerra +14 (1d8+15, x3)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "0",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Pontos de Mana",
+        "descricao": "25"
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O capelão de guerra lança magias como um clérigo de 5º nível (CD 18)."
+      },
+      {
+        "nome": "Arma Mágica (Padrão, 5 PM)",
+        "descricao": "Uma arma do capelão se torna mágica, fornecendo +2 nos testes de ataque e rolagens de dano e +1d6 pontos de dano de fogo."
+      },
+      {
+        "nome": "Bênção (Padrão, 3 PM)",
+        "descricao": "Aliados em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena."
+      },
+      {
+        "nome": "Curar Ferimentos (Padrão, 5 PM)",
+        "descricao": "Uma criatura adjacente cura 6d8+6 PV."
+      },
+      {
+        "nome": "Soco de Arsenal (Padrão, 5 PM)",
+        "descricao": "Uma criatura em alcance médio sofre 5d6+5 pontos de dano de impacto e é empurrada 3m na direção oposta (Fortitude reduz o dano à metade e evita o empurrão)."
+      }
+    ],
+    "pericias": "Misticismo +5, Religião +7.",
+    "equipamento": "Armadura completa, escudo leve, martelo de guerra certeiro, símbolo sagrado.",
+    "tesouro": "Padrão."
+  }
+}
