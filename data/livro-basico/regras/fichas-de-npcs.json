@@ -1,0 +1,70 @@
+{
+  "id": "fichas-de-npcs",
+  "tipo": "regra-de-criacao",
+  "nome": "Fichas de NPCs",
+  "resumo": "Como montar fichas de ameaça para NPCs que enfrentam o grupo, com estatísticas derivadas do ND pela Tabela 7-2 (em vez de atributos), habilidades, características estéticas e ajustes de valores.",
+  "fonte": { "livro": "livro-basico", "pagina": 322 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Fichas de NPCs",
+      "texto": "Como dito no Capítulo 6, a maioria dos NPCs não precisa de fichas. Na verdade, os únicos que precisam são aqueles que podem enfrentar o grupo. Para esses, você pode criar uma ficha de ameaça, semelhante a das criaturas descritas neste capítulo.\n\nFichas de ameaça seguem uma lógica diferente das fichas de personagens. Elas não se preocupam com a origem de cada bônus e modificador das estatísticas, apenas com os valores finais. Para criar uma ficha de ameaça, siga os passos abaixo."
+    },
+    {
+      "titulo": "Conceito e ND",
+      "texto": "Para começar, defina o conceito do NPC, o papel dele no mundo. Ele é um assassino furtivo, um combatente de armadura pesada ou um aristocrata que secretamente adora Aharadak?\n\nApós pensar no conceito do NPC, escolha um nível de desafio adequado para ele (use como base os patamares de jogo descritos na página 35). O ND representa a experiência e poder geral do NPC e funciona como o nível de personagem dele."
+    },
+    {
+      "titulo": "Estatísticas de jogo",
+      "texto": "Estatísticas de ameaças não são calculadas a partir de atributos, habilidades e equipamento. Em vez disso, são determinadas pelo ND e pela Tabela 7-2: Estatísticas de NPCs. Esse sistema torna a criação de NPCs mais fácil e rápida.\n\nAtaque e Dano. O teste de ataque e o dano do NPC. Um multiplicador ao lado do ataque indica que o NPC faz aquela quantidade de ataques por rodada (cada um com o dano indicado). Defina como o NPC ataca. Isso não afeta os valores, mas ajuda a definir detalhes como tipo de dano, alcance etc.\n\nDefesa & PV. Respectivamente, os valores de Defesa e pontos de vida do NPC.\n\nPerícias. Esta coluna apresenta dois valores. Use o primeiro para as perícias nos quais o NPC é focado, de acordo com seu conceito. Por exemplo, um assassino usaria o primeiro valor para Enganação, Furtividade e Iniciativa. Use o segundo valor para todas as outras perícias do NPC.\n\nCD. Indica a dificuldade para resistir às habilidades do NPC, como magias e outros efeitos."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "Habilidades. Escolha as habilidades do NPC. Um assassino pode ter ataque furtivo, um combatente de armadura pesada pode ter redução de dano e um cultista pode lançar magias. Como regra geral, um NPC de patamar iniciante deve ter uma ou duas habilidades, com uma habilidade adicional para cada patamar acima. Para exemplos de habilidades, veja as classes de personagem e as ameaças.\n\nEvite usar pontos de mana. Eles são ótimos para medir os recursos de um personagem jogador, mas uma complicação desnecessária para o mestre, que já precisa controlar diversos elementos. Para habilidades simples, considere que o NPC pode usá-las à vontade. Para habilidades mais poderosas (como uma magia de alto círculo), considere que o NPC pode usá-la uma vez por cena ou então apenas após recarregá-la gastando uma ação. Se quiser usar pontos de mana, considere de 3 a 6 PM por ND."
+    },
+    {
+      "titulo": "Outras Características",
+      "texto": "Outras Características. Defina a raça, os atributos, o deslocamento e o equipamento do NPC. A raça pode ser uma disponível para personagens ou uma exclusiva de ameaças, como orc ou finntroll. Seja como for, a escolha será apenas \"estética\", pois não afeta outras estatísticas — embora possa ser uma inspiração para as habilidades.\n\nPara atributos, veja o \"pacote\" correspondente ao patamar do NPC, a seguir, e distribua os valores dados entre os seis atributos. Assim como a raça, esses valores não influenciam as demais estatísticas, servindo apenas para testes de atributo. Iniciante: 3, 2, 1, 1, 0, –1. Veterano: 4, 3, 2, 1, 0, 0. Campeão: 5, 4, 3, 2, 1, 0. Lenda: 7, 5, 4, 2, 2, 1.\n\nO deslocamento padrão é 9m, mas pode ser maior ou menor — nosso assassino furtivo pode ter deslocamento 12m, enquanto o combatente de armadura pesada pode ter 6m.\n\nPor fim, decida se o NPC possui algum equipamento digno de nota. Novamente, isso é uma escolha visual, pois as estatísticas já foram definidas."
+    },
+    {
+      "titulo": "Alterando Valores",
+      "texto": "Alterando Valores. Essas regras permitem que você crie NPCs rapidamente e sem se prender em detalhes que não teriam impacto no jogo. Naturalmente, fique à vontade para ajustar os valores da tabela para que se encaixem melhor no conceito do NPC. Um bárbaro robusto e de tanga pode ter mais pontos de vida, mas menos Defesa. Já um conjurador pode ter menos PV, mas a capacidade de lançar magias. Para esses ajustes, você pode subir algumas estatísticas em 1 ou mais níveis, e baixar outras. O tal bárbaro robusto pode ter pontos de vida como se seu ND fosse 2 pontos maior, mas ter sua Defesa diminuída na mesma proporção. Apenas tome cuidado para não alterar demais os números sem ajustar o nível de desafio, para evitar ter uma ficha muito forte, ou muito fraca, para o seu ND."
+    },
+    {
+      "titulo": "Descrição",
+      "texto": "Uma vez que você tenha as estatísticas de jogo do NPC, é hora de definir seus aspectos descritivos, como nome, aparência, personalidade e histórico. Para isso, consulte as dicas para personagens, na página 107, e os arquétipos de NPCs a partir da página 257.\n\nFique à vontade para detalhar o quanto quiser, mas lembre-se de priorizar informações que irão aparecer no jogo! Para a maioria dos NPCs, um nome, uma frase de descrição, e dois ou três traços de personalidade são suficientes."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_7_2_estatisticas_de_npcs": [
+      { "patamar": "Iniciante", "nd": "1/2", "ataque": "+7", "dano": "1d6+3", "defesa": "15", "pv": "10", "pericias": "+4/+0", "cd": "14" },
+      { "patamar": "Iniciante", "nd": "1", "ataque": "+9", "dano": "1d8+6", "defesa": "16", "pv": "20", "pericias": "+6/+1", "cd": "15" },
+      { "patamar": "Iniciante", "nd": "2", "ataque": "+11", "dano": "1d10+10", "defesa": "18", "pv": "40", "pericias": "+8/+2", "cd": "16" },
+      { "patamar": "Iniciante", "nd": "3", "ataque": "+13", "dano": "1d12+12", "defesa": "21", "pv": "70", "pericias": "+10/+3", "cd": "17" },
+      { "patamar": "Iniciante", "nd": "4", "ataque": "+15", "dano": "2d6+14", "defesa": "24", "pv": "110", "pericias": "+12/+4", "cd": "18" },
+      { "patamar": "Veterano", "nd": "5", "ataque": "+18, x2", "dano": "1d12+11", "defesa": "28", "pv": "150", "pericias": "+14/+5", "cd": "20" },
+      { "patamar": "Veterano", "nd": "6", "ataque": "+20, x2", "dano": "2d6+15", "defesa": "31", "pv": "190", "pericias": "+16/+6", "cd": "22" },
+      { "patamar": "Veterano", "nd": "7", "ataque": "+22, x2", "dano": "2d8+19", "defesa": "34", "pv": "230", "pericias": "+18/+7", "cd": "24" },
+      { "patamar": "Veterano", "nd": "8", "ataque": "+24, x2", "dano": "2d10+20", "defesa": "37", "pv": "270", "pericias": "+20/+8", "cd": "26" },
+      { "patamar": "Veterano", "nd": "9", "ataque": "+26, x2", "dano": "2d12+21", "defesa": "40", "pv": "310", "pericias": "+22/+9", "cd": "28" },
+      { "patamar": "Veterano", "nd": "10", "ataque": "+29, x2", "dano": "3d6+26", "defesa": "43", "pv": "350", "pericias": "+24/+10", "cd": "30" },
+      { "patamar": "Campeão", "nd": "11", "ataque": "+32, x3", "dano": "3d8+24", "defesa": "46", "pv": "400", "pericias": "+25/+11", "cd": "32" },
+      { "patamar": "Campeão", "nd": "12", "ataque": "+35, x3", "dano": "3d10+26", "defesa": "48", "pv": "450", "pericias": "+26/+12", "cd": "34" },
+      { "patamar": "Campeão", "nd": "13", "ataque": "+37, x3", "dano": "3d12+28", "defesa": "50", "pv": "550", "pericias": "+27/+13", "cd": "36" },
+      { "patamar": "Campeão", "nd": "14", "ataque": "+40, x3", "dano": "4d6+38", "defesa": "52", "pv": "600", "pericias": "+28/+14", "cd": "38" },
+      { "patamar": "Campeão", "nd": "15", "ataque": "+42, x3", "dano": "4d8+40", "defesa": "54", "pv": "650", "pericias": "+29/+15", "cd": "40" },
+      { "patamar": "Campeão", "nd": "16", "ataque": "+45, x3", "dano": "4d10+42", "defesa": "56", "pv": "700", "pericias": "+30/+16", "cd": "42" },
+      { "patamar": "Lenda", "nd": "17", "ataque": "+47, x4", "dano": "4d12+35", "defesa": "59", "pv": "750", "pericias": "+32/+17", "cd": "44" },
+      { "patamar": "Lenda", "nd": "18", "ataque": "+50, x4", "dano": "4d12+40", "defesa": "61", "pv": "800", "pericias": "+33/+18", "cd": "46" },
+      { "patamar": "Lenda", "nd": "19", "ataque": "+52, x4", "dano": "4d12+45", "defesa": "63", "pv": "850", "pericias": "+34/+19", "cd": "48" },
+      { "patamar": "Lenda", "nd": "20", "ataque": "+55, x4", "dano": "4d12+50", "defesa": "65", "pv": "900", "pericias": "+35/+20", "cd": "50" }
+    ],
+    "pacotes_de_atributos": [
+      { "patamar": "Iniciante", "valores": "3, 2, 1, 1, 0, –1" },
+      { "patamar": "Veterano", "valores": "4, 3, 2, 1, 0, 0" },
+      { "patamar": "Campeão", "valores": "5, 4, 3, 2, 1, 0" },
+      { "patamar": "Lenda", "valores": "7, 5, 4, 2, 2, 1" }
+    ]
+  }
+}

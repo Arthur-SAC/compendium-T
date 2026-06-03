@@ -44,12 +44,20 @@ function CardCriatura({ criatura }: { criatura: Entidade }) {
   );
 }
 
+// Regras do Cap. 7 (Ameaças) que acompanham o bestiário.
+const REGRAS_AMEACAS: { id: string; titulo: string; desc: string }[] = [
+  { id: "construindo-combates", titulo: "Construindo Combates", desc: "Nível de desafio, papéis (solo/lacaio/especial), vários inimigos e tipos de criatura." },
+  { id: "perigos", titulo: "Perigos", desc: "Armadilhas, doenças e perigos ambientais — ameaças que não são criaturas." },
+  { id: "fichas-de-npcs", titulo: "Fichas de NPCs", desc: "Criar fichas de ameaça por ND, com a Tabela 7-2 de estatísticas." },
+];
+
 export default function IndiceBestiario() {
   const entidades = carregarEntidades();
   // Bestiário do Livro Básico: exclui seeds de outras fontes (ex.: Súcubo, de Ameaças de Arton).
   const criaturas = entidades.filter((e) => e.tipo === "criatura" && e.fonte?.livro === "livro-basico");
   const ordenar = (a: Entidade, b: Entidade) => ndValor(mec(a).nd) - ndValor(mec(b).nd) || a.nome.localeCompare(b.nome, "pt-BR");
   const temas = [...ORDEM_TEMAS, ...new Set(criaturas.map((c) => mec(c).tema).filter((t): t is string => !!t && !ORDEM_TEMAS.includes(t as typeof ORDEM_TEMAS[number])))];
+  const idsRegras = new Set(entidades.filter((e) => e.tipo === "regra-de-criacao").map((e) => e.id));
 
   return (
     <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
@@ -58,6 +66,18 @@ export default function IndiceBestiario() {
       <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 24px", fontFamily: "var(--serifa)" }}>
         {criaturas.length} {criaturas.length === 1 ? "criatura" : "criaturas"} — Livro Básico
       </p>
+
+      <section style={{ marginBottom: 32 }}>
+        <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700, marginBottom: 10 }}>Regras de Ameaças (Cap. 7)</div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 14 }}>
+          {REGRAS_AMEACAS.filter((r) => idsRegras.has(r.id)).map((r) => (
+            <Link key={r.id} href={`/ficha/regra-de-criacao/${r.id}`} style={{ display: "block", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, padding: "14px 16px", boxShadow: "0 8px 22px rgba(0,0,0,.4)" }}>
+              <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 17 }}>{r.titulo}</strong>
+              <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", lineHeight: 1.45, margin: "4px 0 0" }}>{r.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {temas.map((tema) => {
         const sublista = criaturas.filter((c) => mec(c).tema === tema).sort(ordenar);

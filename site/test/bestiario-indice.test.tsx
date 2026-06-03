@@ -19,3 +19,11 @@ test("índice do bestiário mostra o tema Os Dragões com o Dragão-Rei", () => 
   const link = screen.getByRole("link", { name: /Dragão-Rei/ });
   expect(link).toHaveAttribute("href", "/ficha/criatura/dragao-rei");
 });
+
+test("índice do bestiário traz o painel de Regras de Ameaças (Cap. 7)", () => {
+  render(<IndiceBestiario />);
+  const link = screen.getByRole("link", { name: /Construindo Combates/ });
+  expect(link).toHaveAttribute("href", "/ficha/regra-de-criacao/construindo-combates");
+  expect(screen.getByRole("link", { name: /Perigos/ })).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: /Fichas de NPCs/ })).toBeInTheDocument();
+});
