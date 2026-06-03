@@ -68,9 +68,11 @@ body::before {
   margin: 0 auto;
 }
 /* Colunas laterais: mesma largura, fluem com a página (sem scroll interno).
-   Começam na mesma altura (mesmo padding-top); a lista longa é revelada ao rolar a página. */
+   min-height 100vh permite centralizar o menu (logo/busca no topo, menu mais baixo)
+   quando o conteúdo é curto; listas longas crescem e a página rola para revelar o resto. */
 .nav-global,
 .barra-contexto {
+  min-height: 100vh;
   padding: 28px 16px;
   display: flex;
   flex-direction: column;
@@ -163,6 +165,9 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  /* centraliza o menu na vertical quando há espaço (fica mais baixo, como antes);
+     com lista longa, não sobra espaço e ele simplesmente flui para baixo. */
+  margin: auto 0;
 }
 .nav-cat,
 .ctx-link {
