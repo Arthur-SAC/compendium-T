@@ -165,9 +165,9 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* centraliza o menu na vertical quando há espaço (fica mais baixo, como antes);
-     com lista longa, não sobra espaço e ele simplesmente flui para baixo. */
-  margin: auto 0;
+  /* desce o menu (fica mais baixo, como antes) sem depender de centralização flex;
+     com lista longa, apenas flui para baixo e a página rola para revelar o resto. */
+  margin-top: 16vh;
 }
 .nav-cat,
 .ctx-link {
@@ -326,6 +326,27 @@ body::before {
 }
 .indice-grupo-titulo:first-of-type {
   margin-top: 8px;
+}
+
+/* Tabela de quadro (listas "Termo. descrição" dentro de uma seção viram tabela) */
+.tabela-quadro {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--serifa);
+  margin: 8px 0 12px;
+}
+.tabela-quadro td {
+  border-bottom: 1px solid var(--borda-suave);
+  padding: 6px 10px;
+  vertical-align: top;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.tabela-quadro .tq-termo {
+  white-space: nowrap;
+  font-weight: 700;
+  color: var(--carmesim);
+  width: 1%;
 }
 
 /* Tabela de perícias (campos lado a lado, leitura compacta) */
@@ -598,11 +619,18 @@ body::before {
     margin: 0 8px 0 0;
     font-size: 24px;
   }
+  .nav-global,
+  .barra-contexto {
+    min-height: 0;
+  }
+  .nav-cats,
+  .ctx-menu {
+    margin-top: 0;
+  }
   .nav-cats {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2px 4px;
-    margin: 0;
   }
   .barra-contexto {
     position: static;

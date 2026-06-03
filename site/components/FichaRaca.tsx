@@ -1,6 +1,7 @@
 import type { Entidade, RacaMecanica, ModificadorAtributo } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
+import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
@@ -48,7 +49,7 @@ export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entida
             {introSecoes.map((s, i) => (
               <section key={`intro-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
                 <h2 style={h2}>{s.titulo}</h2>
-                <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
             {m.habilidades && m.habilidades.length > 0 && (
@@ -67,7 +68,7 @@ export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entida
             {restoSecoes.map((s, i) => (
               <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
                 <h2 style={h2}>{s.titulo}</h2>
-                <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
           </div>

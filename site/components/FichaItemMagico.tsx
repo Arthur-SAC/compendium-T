@@ -1,6 +1,7 @@
 import type { Entidade, ItemMagicoMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
+import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
@@ -35,7 +36,7 @@ export function FichaItemMagico({ entidade, registro, descricoes }: { entidade: 
         {entidade.secoes.map((s, i) => (
           <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
             {s.titulo && <h2 style={h2}>{s.titulo}</h2>}
-            <p style={{ margin: 0 }}><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+            <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
           </section>
         ))}
 

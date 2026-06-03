@@ -1,6 +1,7 @@
 import type { Entidade, PericiaMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
+import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
@@ -78,7 +79,7 @@ export function FichaPericia({ entidade, registro, descricoes }: { entidade: Ent
             {entidade.secoes.map((s, i) => (
               <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
                 <h2 style={h2}>{s.titulo}</h2>
-                <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
 

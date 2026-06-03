@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Entidade, DivindadeMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
+import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
 
@@ -46,7 +47,7 @@ export function FichaDivindade({ entidade, registro, descricoes }: { entidade: E
             {entidade.secoes.map((s, i) => (
               <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
                 {s.titulo ? <h2 style={h2}>{s.titulo}</h2> : null}
-                <p style={{ margin: 0 }}><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
 
