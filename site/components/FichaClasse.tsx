@@ -127,7 +127,11 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
   const progSegunda = m.progressao.slice(metade);
   // "Pontos de Vida e Mana" sai do bloco de seções e vai para a coluna direita (abaixo de Proficiências)
   const secaoPVMana = entidade.secoes.find((s) => /pontos de vida e mana/i.test(s.titulo));
-  const outrasSecoes = entidade.secoes.filter((s) => s !== secaoPVMana);
+  // Intro (descrição/famosos) vem ANTES da progressão; quadros e demais seções vêm DEPOIS.
+  const restantes = entidade.secoes.filter((s) => s !== secaoPVMana);
+  const ehIntro = (s: { titulo: string }) => /descri|resumo|famos/i.test(s.titulo);
+  const introSecoes = restantes.filter(ehIntro);
+  const restoSecoes = restantes.filter((s) => !ehIntro(s));
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
@@ -152,8 +156,8 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
 
         <div className="ficha-corpo">
           <div className="ficha-main">
-            {outrasSecoes.map((s, i) => (
-              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+            {introSecoes.map((s, i) => (
+              <section key={`intro-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
                 <h2 style={h2}>{s.titulo}</h2>
                 <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
@@ -237,6 +241,12 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
+          {restoSecoes.map((s, i) => (
+            <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+              <h2 style={h2}>{s.titulo}</h2>
+              <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
+            </section>
+          ))}
           </div>
 
           <aside className="ficha-aside">

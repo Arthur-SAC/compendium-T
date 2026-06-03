@@ -67,20 +67,21 @@ body::before {
   max-width: 1820px;
   margin: 0 auto;
 }
-/* Colunas laterais: mesma largura, fluem com a página (sem scroll interno).
-   min-height 100vh permite centralizar o menu (logo/busca no topo, menu mais baixo)
-   quando o conteúdo é curto; listas longas crescem e a página rola para revelar o resto. */
+/* Colunas laterais. Esquerda: flui com a página (rola junto). Direita: fica fixa (sticky). */
 .nav-global,
 .barra-contexto {
-  min-height: 100vh;
   padding: 28px 16px;
   display: flex;
   flex-direction: column;
 }
 .nav-global {
+  min-height: 100vh;
   border-right: 1px solid var(--borda-suave);
 }
 .barra-contexto {
+  position: sticky;
+  top: 0;
+  align-self: start;
   border-left: 1px solid var(--borda-suave);
 }
 .logo-marca {
@@ -165,9 +166,12 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* desce o menu (fica mais baixo, como antes) sem depender de centralização flex;
-     com lista longa, apenas flui para baixo e a página rola para revelar o resto. */
-  margin-top: 16vh;
+}
+/* Menus descem um pouco (mais baixos, não colados na logo/busca).
+   Esquerda rola junto com a página; direita é fixa (sticky, sem barra de scroll). */
+.nav-cats,
+.ctx-menu {
+  margin-top: 14vh;
 }
 .nav-cat,
 .ctx-link {
@@ -635,6 +639,7 @@ body::before {
   .barra-contexto {
     position: static;
     height: auto;
+    max-height: none;
     overflow: visible;
     border-left: none;
     border-bottom: 1px solid var(--borda-suave);
