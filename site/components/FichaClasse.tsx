@@ -127,11 +127,30 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
   const progSegunda = m.progressao.slice(metade);
   // "Pontos de Vida e Mana" sai do bloco de seções e vai para a coluna direita (abaixo de Proficiências)
   const secaoPVMana = entidade.secoes.find((s) => /pontos de vida e mana/i.test(s.titulo));
-  // Intro (descrição/famosos) vem ANTES da progressão; quadros e demais seções vêm DEPOIS.
+  // Intro (descrição/famosos) vem ANTES da progressão.
   const restantes = entidade.secoes.filter((s) => s !== secaoPVMana);
   const ehIntro = (s: { titulo: string }) => /descri|resumo|famos/i.test(s.titulo);
   const introSecoes = restantes.filter(ehIntro);
-  const restoSecoes = restantes.filter((s) => !ehIntro(s));
+
+  // Quadros (ex.: "Familiares Arcanos", "Linhagens Sobrenaturais") aparecem logo após o
+  // poder de mesmo nome (ex.: Familiar → Familiares); o que sobrar vai depois dos Caminhos.
+  const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s*\(quadro\)\s*/g, "").trim();
+  const tituloLimpo = (s: string) => s.replace(/\s*\(quadro\)\s*/gi, "").trim();
+  const quadrosRestantes = restantes.filter((s) => !ehIntro(s));
+  const tomarQuadros = (nome: string) => {
+    const a = norm(nome);
+    if (a.length < 5) return [] as typeof quadrosRestantes;
+    const achados = quadrosRestantes.filter((q) => norm(q.titulo).startsWith(a));
+    for (const q of achados) quadrosRestantes.splice(quadrosRestantes.indexOf(q), 1);
+    return achados;
+  };
+  const quadrosAposPoder = m.poderes.map((p) => tomarQuadros(p.nome));
+  const renderQuadro = (q: { titulo: string; texto: string }, key: string, inline = false) => (
+    <div key={key} style={{ marginTop: inline ? 10 : 0, marginBottom: inline ? 0 : 12 }}>
+      <h3 style={{ fontSize: inline ? 12 : 13, textTransform: "uppercase", letterSpacing: inline ? 1.5 : 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 3, margin: "0 0 6px" }}>{tituloLimpo(q.titulo)}</h3>
+      <TextoBlocos texto={q.texto} registro={registro} descricoes={descricoes} />
+    </div>
+  );
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
@@ -162,6 +181,12 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                 <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
+          {m.progressao.length > 0 && (
+            <section style={{ marginBottom: 16 }}>
+              <h2 style={h2}>Progressão (1º–20º nível)</h2>
+              <TabelaProgressaoDupla esquerda={progPrimeira} direita={progSegunda} />
+            </section>
+          )}
             {m.conjuracao && (
               <section style={{ marginBottom: 16 }}>
                 <h2 style={h2}>Conjuração</h2>
@@ -173,12 +198,6 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                 </p>
               </section>
             )}
-          {m.progressao.length > 0 && (
-            <section style={{ marginBottom: 16 }}>
-              <h2 style={h2}>Progressão (1º–20º nível)</h2>
-              <TabelaProgressaoDupla esquerda={progPrimeira} direita={progSegunda} />
-            </section>
-          )}
 
           {m.habilidades.length > 0 && (
             <section style={{ marginBottom: 16 }}>
@@ -210,6 +229,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                         <TabelaEfeitos titulo="Efeitos que reduzem o custo" efeitos={p.efeitos.filter((e) => e.custo.trim().startsWith("–") || e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
                       </>
                     )}
+                    {quadrosAposPoder[i].map((q, k) => renderQuadro(q, `qp-${i}-${k}`, true))}
                   </div>
                 ))}
               </div>
@@ -241,9 +261,9 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
-          {restoSecoes.map((s, i) => (
+          {quadrosRestantes.map((s, i) => (
             <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-              <h2 style={h2}>{s.titulo}</h2>
+              <h2 style={h2}>{tituloLimpo(s.titulo)}</h2>
               <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
             </section>
           ))}

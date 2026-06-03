@@ -75,13 +75,13 @@ body::before {
   flex-direction: column;
 }
 .nav-global {
-  min-height: 100vh;
-  border-right: 1px solid var(--borda-suave);
-}
-.barra-contexto {
   position: sticky;
   top: 0;
   align-self: start;
+  border-right: 1px solid var(--borda-suave);
+}
+.barra-contexto {
+  min-height: 100vh;
   border-left: 1px solid var(--borda-suave);
 }
 .logo-marca {
