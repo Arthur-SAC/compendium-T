@@ -11,10 +11,17 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **LIVRO BÁSICO PONTA A PONTA ✅.** Próxima fatia (pedido do usuário 2026-06-03): **AUDITORIA MINUCIOSA DE COMPLETUDE** —
-varrer o Livro Básico capítulo por capítulo (impressas) e cruzar com o que existe em `data/livro-basico/` para garantir que
-**nada foi pulado** (quadros/sidebars, tabelas, itens, regras). "Se não está no site, não existe" — o site deve ser confiável.
-Depois: **passe de design/UX** (Backlog).
+➡️ **AUDITORIA DE COMPLETUDE ✅ FEITA** (relatório: `docs/superpowers/plans/auditoria-completude-livro-basico.md`).
+Catálogos íntegros; achadas **13 lacunas de conteúdo não-catálogo**. Próxima fatia: **CORRIGIR AS LACUNAS** (criar o
+conteúdo pulado). Ordem sugerida: (1) seções grandes — **Introdução** (6–13: Mecânica Básica/Dados/Termos/20 Coisas),
+**Alinhamento** (109–111), **Interpretação** (Cap.5, 214–219); (2) regras intercaladas — Nome/Idade/Envelhecimento (108),
+Escolhendo Perícias (113), Tabela 3-1 Dinheiro Inicial (138), grupos de Poderes (Tormenta/Concedidos/Aprimoramento),
+tipo Universal de magia, intro Classes + Tabela 1-3; (3) quadros — Deuses Menores (104), Nomes em Arton (361–364),
+Variante Mapa de Batalha (235), Carga: Bastidores (140). Depois: **passe de design/UX** (Backlog).
+
+**Auditoria (2026-06-03):** 9 auditores independentes varreram o Livro Básico × `data/`. **Catálogos 100% íntegros**
+(raças/classes/origens/deuses/perícias/poderes/magias/itens/itens-mágicos/criaturas/regiões). **13 lacunas** (3 seções
+inteiras + regras/quadros intercalados) listadas no relatório. Cap. 6 e os catálogos sem nenhuma lacuna.
 
 **Cap. 8 — Recompensas ✅ COMPLETO (`...` Ondas A+B+C):**
 - **Onda A (código):** novo tipo `item-magico` (`ItemMagicoMecanicaSchema`: tipoItem/categoria/preco), `FichaItemMagico`, índice
