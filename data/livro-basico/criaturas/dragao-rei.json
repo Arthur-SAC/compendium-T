@@ -1,0 +1,80 @@
+{
+  "id": "dragao-rei",
+  "tipo": "criatura",
+  "nome": "Dragão-Rei",
+  "resumo": "O ápice dos dragões verdadeiros — conjurador colossal cuspidor de fogo, de poder quase divino.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 312
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O ápice dos dragões verdadeiros, de poder quase divino. As estatísticas representam o tipo mais comum, um dragão cuspidor de fogo. Veja Dragão Filhote para a descrição geral dos dragões."
+    },
+    {
+      "titulo": "Habilidades Dracônicas",
+      "texto": "Todos os dragões verdadeiros partilham as seguintes habilidades.\n\nAura Aterradora. A simples visão de um dragão adulto ou mais velho amedronta o mais valente dos aventureiros. Uma criatura que comece seu turno em alcance longo do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.\n\nImunidades. Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia.\n\nMagia Dracônica. Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração.\n\nMetamorfose Dracônica (Completa). Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original.\n\nResistência a Magia. Dragões filhotes têm resistência a magia +1. Esse bônus aumenta em +1 para cada categoria de idade acima de filhote.\n\nSopro (Padrão). O dragão cospe energia em uma área. A área do sopro, o tipo de energia e o dano dependem do dragão. Recarga (movimento)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Colossal",
+    "iniciativa": "+19",
+    "percepcao": "+27, percepção às cegas, visão no escuro",
+    "defesa": "62, imunidade a fogo, redução de dano 20, resistência a magia +5, vulnerabilidade a frio",
+    "fortitude": "+34",
+    "reflexos": "+20",
+    "vontade": "+28",
+    "pontosDeVida": "1400",
+    "pontosDeMana": "128",
+    "deslocamento": "12m (8q), voo 36m (24q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +55 (6d20+50, 16) e duas garras +50 (6d20+50, 16)."
+    ],
+    "atributos": {
+      "forca": "17",
+      "destreza": "0",
+      "constituicao": "12",
+      "inteligencia": "7",
+      "sabedoria": "7",
+      "carisma": "7"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Vontade CD 50 evita (veja Habilidades Dracônicas)."
+      },
+      {
+        "nome": "Escamas Supremas",
+        "descricao": "O Dragão-Rei sofre apenas metade do dano de fontes mundanas."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "O Dragão-Rei pode manter duas magias sustentadas simultaneamente com apenas uma ação livre (mas pagando o custo de cada uma)."
+      },
+      {
+        "nome": "Magia Acelerada (livre, 4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o Dragão-Rei muda a execução dela para livre."
+      },
+      {
+        "nome": "Magia",
+        "descricao": "O Dragão-Rei lança magias como um conjurador arcano de 20º nível (CD 50).\n• Campo de Força (Reação, 7 PM) Quando sofre dano, o dragão recebe redução de dano 50 contra este dano.\n• Controlar a Gravidade (Padrão, 10 PM, sustentada) O dragão controla os efeitos da gravidade em um cubo de 12m de lado em alcance médio (veja página 186).\n• Controlar o Tempo (Padrão, 15 PM) O dragão controla o tempo ao seu redor (veja página 187).\n• Dissipar Magia (Padrão, 3 PM) O dragão escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o resultado do teste são dissipadas.\n• Enfeitiçar (Padrão, 1 PM) Um humanoide em alcance curto fica enfeitiçado até o final da cena (Vontade evita).\n• Globo de Invulnerabilidade (Padrão, 15 PM, sustentada) O dragão é envolto por uma esfera mágica com 3m de raio que detém qualquer magia de 4º círculo ou menor.\n• Segunda Chance (Padrão, 20 PM) Uma criatura adjacente cura 300 PV e condições (veja a página 205).\n• Velocidade (Padrão, 10 PM, sustentada) O dragão pode executar uma ação padrão adicional por turno."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 18m sofrem 20d12 pontos de dano de fogo e ficam em chamas (Ref CD 50 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Enganação +26, Intimidação +26, Intuição +26, Misticismo +26.",
+    "tesouro": "Dobro e 6 peças de couro de dragão (CD 35 para extrair, veja o quadro na página 312).",
+    "tema": "Os Dragões"
+  }
+}

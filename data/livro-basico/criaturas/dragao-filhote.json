@@ -1,0 +1,54 @@
+{
+  "id": "dragao-filhote",
+  "tipo": "criatura",
+  "nome": "Dragão Filhote",
+  "resumo": "A mais jovem categoria de idade do dragão verdadeiro cuspidor de fogo — já um predador temível.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 310
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Inferiores apenas aos próprios deuses, dragões são as criaturas mais antigas e poderosas de Arton. Sua força física e habilidades mágicas são igualadas apenas pelo terror que sua simples presença incita no coração dos outros seres.\n\nOs dragões foram criados por Kallyadranoch e dominaram o mundo de Arton em eras primevas. Com o surgimento de outras raças favoritas dos deuses, essa soberania se viu enfraquecida — mas o golpe decisivo veio com a queda e o esquecimento de Kally, após a Revolta dos Três. Buscando preservar seu orgulho, os dragões recolheram-se para regiões selvagens e afastadas, como as Montanhas Sanguinárias.\n\nDragões são tão variados quanto humanoides. A maioria é agressiva, egoísta, maligna e, acima de tudo, arrogante (não sem certa razão...), mas alguns podem ser sábios e honrados. Em comum, todos possuem a herança de Kallyadranoch — conforme envelhecem, tornam-se cada vez mais poderosos.\n\nA simples presença de um dragão afeta todo o equilíbrio de poder em uma região, possivelmente afastando outros monstros. Assim, não é sem motivo que muitos dragões são venerados como protetores, mesmo quando sua ganância exige tributos cruéis.\n\nAs estatísticas a seguir representam o tipo mais comum de dragão, um cuspidor de fogo."
+    },
+    {
+      "titulo": "Habilidades Dracônicas",
+      "texto": "Todos os dragões verdadeiros partilham as seguintes habilidades.\n\nAura Aterradora. A simples visão de um dragão adulto ou mais velho amedronta o mais valente dos aventureiros. Uma criatura que comece seu turno em alcance longo do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.\n\nImunidades. Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia.\n\nMagia Dracônica. Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração.\n\nMetamorfose Dracônica (Completa). Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original.\n\nResistência a Magia. Dragões filhotes têm resistência a magia +1. Esse bônus aumenta em +1 para cada categoria de idade acima de filhote.\n\nSopro (Padrão). O dragão cospe energia em uma área. A área do sopro, o tipo de energia e o dano dependem do dragão. Recarga (movimento)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Médio",
+    "iniciativa": "+8",
+    "percepcao": "+5, percepção às cegas, visão no escuro",
+    "defesa": "22, imunidade a fogo, resistência a magia +1, vulnerabilidade a frio",
+    "fortitude": "+15",
+    "reflexos": "+3",
+    "vontade": "+9",
+    "pontosDeVida": "140",
+    "deslocamento": "12m (8q), voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +15 (2d6+5) e duas garras +15 (1d6+5)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 6m sofrem 2d12 pontos de dano de fogo e ficam em chamas (Ref CD 18 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      }
+    ],
+    "tesouro": "Padrão.",
+    "tema": "Os Dragões"
+  }
+}

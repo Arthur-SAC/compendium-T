@@ -1,0 +1,68 @@
+{
+  "id": "dragao-adulto",
+  "tipo": "criatura",
+  "nome": "Dragão Adulto",
+  "resumo": "Dragão verdadeiro adulto cuspidor de fogo, já um conjurador arcano capaz de impor sua Aura Aterradora.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 311
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Categoria de idade adulta do dragão verdadeiro, já um conjurador arcano de aura aterradora. As estatísticas representam o tipo mais comum, um dragão cuspidor de fogo. Veja Dragão Filhote para a descrição geral dos dragões."
+    },
+    {
+      "titulo": "Habilidades Dracônicas",
+      "texto": "Todos os dragões verdadeiros partilham as seguintes habilidades.\n\nAura Aterradora. A simples visão de um dragão adulto ou mais velho amedronta o mais valente dos aventureiros. Uma criatura que comece seu turno em alcance longo do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.\n\nImunidades. Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia.\n\nMagia Dracônica. Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração.\n\nMetamorfose Dracônica (Completa). Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original.\n\nResistência a Magia. Dragões filhotes têm resistência a magia +1. Esse bônus aumenta em +1 para cada categoria de idade acima de filhote.\n\nSopro (Padrão). O dragão cospe energia em uma área. A área do sopro, o tipo de energia e o dano dependem do dragão. Recarga (movimento)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "11",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Enorme",
+    "iniciativa": "+12",
+    "percepcao": "+15, percepção às cegas, visão no escuro",
+    "defesa": "42, imunidade a fogo, redução de dano 10, resistência a magia +3, vulnerabilidade a frio",
+    "fortitude": "+24",
+    "reflexos": "+11",
+    "vontade": "+18",
+    "pontosDeVida": "600",
+    "pontosDeMana": "70",
+    "deslocamento": "12m (8q), voo 24m (16q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +35 (4d10+25, 18) e duas garras +35 (3d10+25, 18)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "1",
+      "constituicao": "8",
+      "inteligencia": "4",
+      "sabedoria": "4",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Vontade CD 31 evita (veja Habilidades Dracônicas)."
+      },
+      {
+        "nome": "Magia",
+        "descricao": "O dragão adulto lança magias como um conjurador arcano de 11º nível (CD 32).\n• Campo de Força (Reação, 4 PM) Quando sofre dano, o dragão recebe redução de dano 30 contra este dano.\n• Curar Ferimentos (Padrão, 11 PM) Uma criatura adjacente cura 12d8+12 PV.\n• Dissipar Magia (Padrão, 3 PM) O dragão escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o resultado do teste são dissipadas.\n• Enfeitiçar (Padrão, 1 PM) Um humanoide em alcance curto fica enfeitiçado até o final da cena (Vontade evita).\n• Globo de Invulnerabilidade (Padrão, 6 PM, sustentada) O dragão é envolto por uma esfera mágica com 3m de raio que detém qualquer magia de 2º círculo ou menor.\n• Velocidade (Padrão, 3 PM, sustentada) O dragão pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 12m sofrem 12d12 pontos de dano de fogo e ficam em chamas (Ref CD 32 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Enganação +15, Intimidação +15, Misticismo +15.",
+    "tesouro": "Dobro e 4 peças de couro de dragão (CD 26 para extrair, veja o quadro na página 312).",
+    "tema": "Os Dragões"
+  }
+}

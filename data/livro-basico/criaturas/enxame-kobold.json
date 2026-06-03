@@ -1,0 +1,56 @@
+{
+  "id": "enxame-kobold",
+  "tipo": "criatura",
+  "nome": "Enxame Kobold",
+  "resumo": "Aglomerado de kobolds — pequenos humanoides reptilianos que surgem onde há ou houve um dragão — atacando em massa como um único enxame.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 310
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esses pequenos humanoides reptilianos são considerados uma praga — o que realmente são! Medindo 75cm de altura, parecem caricaturas de dragões, com cabeças grandes e desproporcionais, orelhas caninas e pequenos chifres, corpo magro e cauda fina, curta.\n\nEmbora possam se reproduzir como seres normais, kobolds às vezes surgem espontaneamente onde existe ou existiu um dragão; diz-se que a própria energia dracônica faz seus ovos brotarem como fungos. Um kobold sozinho dificilmente representa ameaça. Infelizmente, eles normalmente surgem em grandes quantidades, atacando como enxames."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Monstro (kobold, enxame)",
+    "tamanho": "Médio",
+    "iniciativa": "+6",
+    "percepcao": "+1, visão no escuro",
+    "defesa": "17",
+    "fortitude": "+7",
+    "reflexos": "+13",
+    "vontade": "+2",
+    "pontosDeVida": "60",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "–1",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Caixa com Pregos (Padrão)",
+        "descricao": "Os kobolds arremessam uma caixa com pregos (ou outra coisa perigosa, como insetos peçonhentos) em uma criatura em alcance curto. A vítima sofre 2d6 pontos de dano de perfuração e fica atordoada por uma rodada (Ref CD 16 reduz o dano à metade e evita a condição atordoado)."
+      },
+      {
+        "nome": "Enxame",
+        "descricao": "O enxame kobold é um aglomerado de kobolds que agem em conjunto. Ele pode entrar no espaço ocupado por um personagem e, no fim de seu turno, causa 2d6 pontos de dano de perfuração a qualquer personagem em seu espaço, automaticamente. O enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano, mas sofre 50% a mais de dano de efeitos de área, como Bola de Fogo. Além disso, sofre apenas metade do dano de ataques com armas. Estar dentro do enxame conta como condição ruim para lançar magias."
+      },
+      {
+        "nome": "Unidos Venceremos",
+        "descricao": "No início de cada rodada, novos kobolds se juntam ao enxame. O enxame ganha +10 PV (até um limite máximo de 100 PV). O enxame recebe +1 em rolagens de dano para cada 10 PV que possui."
+      }
+    ],
+    "tesouro": "Metade.",
+    "tema": "Os Dragões"
+  }
+}

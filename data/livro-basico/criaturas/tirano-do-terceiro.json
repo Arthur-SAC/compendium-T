@@ -1,0 +1,57 @@
+{
+  "id": "tirano-do-terceiro",
+  "tipo": "criatura",
+  "nome": "Tirano do Terceiro",
+  "resumo": "Poderoso servo humano de Kallyadranoch que cavalga dragões e aterroriza o mundo — um exército de uma só pessoa.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 313
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Poderosos servos de Kallyadranoch, os tiranos são verdadeiros exércitos de uma só pessoa, cavalgando dragões e aterrorizando o mundo com seu poderio. Ambiciosos e cruéis como as feras que adoram, estão entre os maiores vilões de Arton."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "iniciativa": "+9",
+    "percepcao": "+10, visão no escuro",
+    "defesa": "37, imunidade a atordoamento e medo, redução de dano 5, resistência a magia +2",
+    "fortitude": "+22",
+    "reflexos": "+10",
+    "vontade": "+16",
+    "pontosDeVida": "370",
+    "pontosDeMana": "62",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +29 (2d8+14, x3) e garra +29 (1d8+14)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "0",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Dádiva Dracônica",
+        "descricao": "O tirano do terceiro pode lançar magias arcanas cavalgando e/ou de armadura sem precisar de testes de Misticismo."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "O tirano do terceiro lança magias como um mago de 10º nível (CD 30).\n• Bola de Fogo (Padrão, 9 PM) O tirano cria uma poderosa explosão em alcance médio que causa 12d6+5 pontos de dano de fogo em todas as criaturas em um raio de 6m (Reflexos reduz à metade).\n• Concentração de Combate (Padrão, 8 PM) Até o fim da cena, quando faz um ataque, o tirano rola dois dados e usa o melhor resultado, e quando um oponente ataca o tirano, rola dois dados e usa o pior resultado.\n• Velocidade (Padrão, 3 PM, sustentada) O tirano pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ],
+    "pericias": "Cavalgar +9, Intimidação +13, Misticismo +11.",
+    "equipamento": "Armadura completa de adamante, machado de batalha de adamante atroz.",
+    "tesouro": "Dobro.",
+    "tema": "Os Dragões"
+  }
+}

@@ -46,7 +46,8 @@ function CardCriatura({ criatura }: { criatura: Entidade }) {
 
 export default function IndiceBestiario() {
   const entidades = carregarEntidades();
-  const criaturas = entidades.filter((e) => e.tipo === "criatura");
+  // Bestiário do Livro Básico: exclui seeds de outras fontes (ex.: Súcubo, de Ameaças de Arton).
+  const criaturas = entidades.filter((e) => e.tipo === "criatura" && e.fonte?.livro === "livro-basico");
   const ordenar = (a: Entidade, b: Entidade) => ndValor(mec(a).nd) - ndValor(mec(b).nd) || a.nome.localeCompare(b.nome, "pt-BR");
   const temas = [...ORDEM_TEMAS, ...new Set(criaturas.map((c) => mec(c).tema).filter((t): t is string => !!t && !ORDEM_TEMAS.includes(t as typeof ORDEM_TEMAS[number])))];
 

@@ -1,0 +1,60 @@
+{
+  "id": "dragao-jovem",
+  "tipo": "criatura",
+  "nome": "Dragão Jovem",
+  "resumo": "Categoria de idade jovem do dragão verdadeiro cuspidor de fogo, já capaz de assumir outras formas e varrer vários inimigos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 310
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Categoria de idade jovem do dragão verdadeiro, já capaz de assumir outras formas. As estatísticas representam o tipo mais comum, um dragão cuspidor de fogo. Veja Dragão Filhote para a descrição geral dos dragões."
+    },
+    {
+      "titulo": "Habilidades Dracônicas",
+      "texto": "Todos os dragões verdadeiros partilham as seguintes habilidades.\n\nAura Aterradora. A simples visão de um dragão adulto ou mais velho amedronta o mais valente dos aventureiros. Uma criatura que comece seu turno em alcance longo do dragão fica apavorada (se tiver 4 níveis ou menos) ou abalada (se tiver 5 níveis ou mais) até o fim da cena (Vontade evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.\n\nImunidades. Dragões são imunes a efeitos de atordoamento, cansaço, dano do tipo de seu sopro, metamorfose e paralisia.\n\nMagia Dracônica. Dragões adultos ou mais velhos podem lançar magias sem palavras mágicas, gestos ou concentração.\n\nMetamorfose Dracônica (Completa). Dragões jovens ou mais velhos podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Eles costumam usar esta habilidade para se infiltrar em sociedades humanoides, aprender sobre seus costumes ou apenas quando não querem ser reconhecidos. Um dragão morto reverte à sua forma original.\n\nResistência a Magia. Dragões filhotes têm resistência a magia +1. Esse bônus aumenta em +1 para cada categoria de idade acima de filhote.\n\nSopro (Padrão). O dragão cospe energia em uma área. A área do sopro, o tipo de energia e o dano dependem do dragão. Recarga (movimento)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Grande",
+    "iniciativa": "+11",
+    "percepcao": "+11, percepção às cegas, visão no escuro",
+    "defesa": "32, imunidade a fogo, redução de dano 5, resistência a magia +2, vulnerabilidade a frio",
+    "fortitude": "+20",
+    "reflexos": "+9",
+    "vontade": "+12",
+    "pontosDeVida": "320",
+    "pontosDeMana": "15",
+    "deslocamento": "12m (8q), voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +25 (2d6+14, 19) e duas garras +25 (1d8+14, 19)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "2",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 9m sofrem 6d12 pontos de dano de fogo e ficam em chamas (Ref CD 25 reduz o dano à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Intimidação +11.",
+    "tesouro": "Dobro e 2 peças de couro de dragão (CD 22 para extrair, veja o quadro na página 312).",
+    "tema": "Os Dragões"
+  }
+}
