@@ -12,13 +12,13 @@ export function BarraContexto() {
   const regras = regrasDaArea(area);
   const rota = CATEGORIAS.find((c) => c.id === area)?.rota ?? "";
   const naFicha = pathname.startsWith("/ficha/");
-
-  if (!area || (subsecoes.length === 0 && regras.length === 0)) {
-    return <aside className="barra-contexto" aria-label="Contexto da seção" />;
-  }
+  const temContexto = subsecoes.length > 0 || regras.length > 0;
 
   return (
     <aside className="barra-contexto" aria-label="Contexto da seção">
+      <Link href="/" className="nav-busca">Buscar no Compêndio…</Link>
+      {temContexto && <div className="ctx-busca-sep" />}
+
       {subsecoes.length > 0 && (
         <>
           <div className="ctx-rotulo">Nesta seção</div>

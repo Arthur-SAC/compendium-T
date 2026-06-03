@@ -48,26 +48,22 @@ function subtitulo(m: ItemMecanica): string {
   return m.preco ?? "";
 }
 
-function CardItem({ it }: { it: Entidade }) {
+function LinhaItem({ it }: { it: Entidade }) {
   const m = mec(it);
+  const meta = subtitulo(m);
   return (
-    <Link
-      href={`/ficha/item/${it.id}`}
-      style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
-    >
-      <div style={{ padding: "13px 14px 11px", background: "radial-gradient(120% 90% at 50% 0%, rgba(155,28,46,.08), transparent 70%)", borderBottom: "1px solid var(--borda)" }}>
-        <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 20, letterSpacing: ".5px" }}>{it.nome}</strong>
-        <p style={{ fontFamily: "var(--serifa)", fontSize: 12, color: "var(--tinta-suave)", lineHeight: 1.4, margin: "3px 0 0" }}>{subtitulo(m)}</p>
-      </div>
+    <Link href={`/ficha/item/${it.id}`} className="indice-linha">
+      <span className="indice-nome">{it.nome}</span>
+      {meta && <span className="indice-meta">{meta}</span>}
     </Link>
   );
 }
 
-function Grade({ itens }: { itens: Entidade[] }) {
+function Lista({ itens }: { itens: Entidade[] }) {
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 14 }}>
+    <div className="indice-lista">
       {itens.map((it) => (
-        <CardItem key={it.id} it={it} />
+        <LinhaItem key={it.id} it={it} />
       ))}
     </div>
   );
@@ -95,58 +91,60 @@ export default function IndiceEquipamento() {
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
 
   return (
-    <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
-      <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Equipamento</h1>
-      <Divisor />
-      <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>
-        {itens.length} {itens.length === 1 ? "item" : "itens"} do Livro Básico
-      </p>
+    <main className="folha-main">
+      <div className="folha">
+        <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Equipamento</h1>
+        <Divisor />
+        <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>
+          {itens.length} {itens.length === 1 ? "item" : "itens"} do Livro Básico
+        </p>
 
-      {regra && (
-        <section style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, padding: "16px 20px", margin: "0 0 28px", boxShadow: "0 10px 28px rgba(0,0,0,.4)" }}>
-          <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700, marginBottom: 6 }}>Como funciona o Equipamento</div>
-          <ul style={{ fontFamily: "var(--serifa)", color: "var(--tinta)", lineHeight: 1.6, fontSize: 14, margin: "0 0 10px", paddingLeft: 18 }}>
-            <li>A moeda padrão do Reinado é o <strong style={{ color: "var(--carmesim)" }}>Tibar (T$)</strong>, uma peça de prata. 1 TO (ouro) = T$ 10; 1 T$ = 10 TC (cobre).</li>
-            <li>Você pode <strong style={{ color: "var(--carmesim)" }}>carregar 10 + 2×Força espaços</strong>; ultrapassar o limite deixa você sobrecarregado.</li>
-            <li>Você pode <strong style={{ color: "var(--carmesim)" }}>empunhar até 2 itens</strong> ao mesmo tempo e receber benefícios de no máximo <strong style={{ color: "var(--carmesim)" }}>4 itens vestidos</strong>.</li>
-          </ul>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px", marginTop: 4 }}>
-            <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)" }}>Regras completas:</span>
-            {regras.map((r, i) => (
-              <span key={r.id} style={{ fontFamily: "var(--serifa)", fontSize: 13 }}>
-                <Link href={`/ficha/${r.ent!.tipo}/${r.ent!.id}`} style={{ color: "var(--ouro)", textDecoration: "none", borderBottom: "1px solid rgba(232,192,106,.4)" }}>{r.rotulo}</Link>
-                {i < regras.length - 1 ? <span style={{ color: "var(--tinta-suave)" }}> · </span> : null}
-              </span>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {ORDEM_CATEGORIAS.map(({ chaves, rotulo, subgrupos }) => {
-        const lista = chaves.flatMap((c) => grupos[c] ?? []).sort(ordenar);
-        if (lista.length === 0) return null;
-        return (
-          <section key={rotulo} style={{ marginBottom: 32 }}>
-            <h2 className="titulo-grimorio" style={{ fontSize: 28, margin: "0 0 14px", color: "var(--ouro)" }}>{rotulo}</h2>
-            {subgrupos ? (
-              subgrupos.map((sg) => {
-                const sublista = lista.filter((it) => sg.filtro(mec(it)));
-                if (sublista.length === 0) return null;
-                return (
-                  <div key={sg.rotulo} style={{ marginBottom: 18 }}>
-                    <h3 style={{ fontFamily: "var(--serifa)", fontSize: 13, textTransform: "uppercase", letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 12px" }}>
-                      {sg.rotulo} <span style={{ color: "var(--tinta-suave)", fontWeight: 400 }}>({sublista.length})</span>
-                    </h3>
-                    <Grade itens={sublista} />
-                  </div>
-                );
-              })
-            ) : (
-              <Grade itens={lista} />
-            )}
+        {regra && (
+          <section style={{ background: "rgba(177,39,58,.06)", border: "1px solid var(--borda-suave)", borderRadius: 12, padding: "16px 20px", margin: "0 0 28px" }}>
+            <div style={{ fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "var(--vermelho)", fontWeight: 700, marginBottom: 6 }}>Como funciona o Equipamento</div>
+            <ul style={{ fontFamily: "var(--serifa)", color: "var(--tinta)", lineHeight: 1.6, fontSize: 14, margin: "0 0 10px", paddingLeft: 18 }}>
+              <li>A moeda padrão do Reinado é o <strong style={{ color: "var(--carmesim)" }}>Tibar (T$)</strong>, uma peça de prata. 1 TO (ouro) = T$ 10; 1 T$ = 10 TC (cobre).</li>
+              <li>Você pode <strong style={{ color: "var(--carmesim)" }}>carregar 10 + 2×Força espaços</strong>; ultrapassar o limite deixa você sobrecarregado.</li>
+              <li>Você pode <strong style={{ color: "var(--carmesim)" }}>empunhar até 2 itens</strong> ao mesmo tempo e receber benefícios de no máximo <strong style={{ color: "var(--carmesim)" }}>4 itens vestidos</strong>.</li>
+            </ul>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "6px 14px", marginTop: 4 }}>
+              <span style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)" }}>Regras completas:</span>
+              {regras.map((r, i) => (
+                <span key={r.id} style={{ fontFamily: "var(--serifa)", fontSize: 13 }}>
+                  <Link href={`/ficha/${r.ent!.tipo}/${r.ent!.id}`} style={{ color: "var(--carmesim)", textDecoration: "none", borderBottom: "1px solid var(--borda-suave)" }}>{r.rotulo}</Link>
+                  {i < regras.length - 1 ? <span style={{ color: "var(--tinta-suave)" }}> · </span> : null}
+                </span>
+              ))}
+            </div>
           </section>
-        );
-      })}
+        )}
+
+        {ORDEM_CATEGORIAS.map(({ chaves, rotulo, subgrupos }) => {
+          const lista = chaves.flatMap((c) => grupos[c] ?? []).sort(ordenar);
+          if (lista.length === 0) return null;
+          return (
+            <section key={rotulo} style={{ marginBottom: 32 }}>
+              <h3 className="indice-grupo-titulo" style={{ fontSize: 16 }}>{rotulo}</h3>
+              {subgrupos ? (
+                subgrupos.map((sg) => {
+                  const sublista = lista.filter((it) => sg.filtro(mec(it)));
+                  if (sublista.length === 0) return null;
+                  return (
+                    <div key={sg.rotulo}>
+                      <h4 className="indice-grupo-titulo" style={{ fontSize: 12, marginTop: 18, borderBottomWidth: 1 }}>
+                        {sg.rotulo} ({sublista.length})
+                      </h4>
+                      <Lista itens={sublista} />
+                    </div>
+                  );
+                })
+              ) : (
+                <Lista itens={lista} />
+              )}
+            </section>
+          );
+        })}
+      </div>
     </main>
   );
 }

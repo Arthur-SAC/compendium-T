@@ -11,9 +11,25 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **AUDITORIA DE COMPLETUDE ✅ + 13 LACUNAS CORRIGIDAS ✅** (relatório: `docs/superpowers/plans/auditoria-completude-livro-basico.md`).
-Livro Básico agora **completo de verdade** (catálogos + todas as regras/quadros). Próxima fatia: **passe de design/UX** (Backlog)
-ou **Fase 2 (demais livros)**.
+➡️ **PASSE DE DESIGN/UX — Fase 2 (em andamento, 2026-06-03):** "folha de pergaminho única" no centro.
+Pedido do usuário: acabar com os "bloquinhos divididos", logo maior + mais espaço antes do menu, **busca movida para a
+coluna da DIREITA** (topo), menus dos dois lados começando na mesma altura/espaçamento, e **trocar as bordas douradas por
+vermelho** (`--borda` agora `#b1273a`; novo `--borda-suave`). Implementado:
+- `globals.css`: colunas laterais simétricas (232px) com `gap`, ambas `sticky top:0` e `padding:30px 16px 28px` (mesma altura);
+  logo 30px + `margin-bottom:30px`; novas classes `.folha`/`.folha-main` (folha de pergaminho preenchendo a coluna central, com
+  textura) e `.indice-lista/.indice-linha/.indice-nome/.indice-meta/.indice-resumo/.indice-thumb/.indice-grupo-titulo` (linhas
+  sobre a folha, fim dos cards divididos); responsivo ajustado.
+- `NavGlobal` perdeu a busca; `BarraContexto` ganhou a busca no topo (sempre visível). `Logo` cresceu (via CSS).
+- **13 índices + home convertidos** para a folha (cards→linhas, cores invertidas claro→tinta, painéis de regra viraram painéis
+  embutidos vermelhos, sem dourado): home, racas, classes, origens, pericias, poderes, equipamento, itens-magicos, magias,
+  deuses (com thumb do símbolo), bestiario, mundo, regras, personagem.
+- **Fichas** mantêm o card de pergaminho centrado (já eram "folha"); a borda 2px agora é vermelha via `--borda`.
+- Validação: `tsc` limpo · **129 testes verdes** · `npm run build` **999 páginas**. `app/estilo` (styleguide de dev) ficou na casca escura — intencional.
+- **Pendências menores do passe:** mobile põe a busca no rodapé (Fase 3 traz drawer); avaliar se home/personagem devem
+  preencher a coluna (hoje são folhas centradas mais estreitas). Próxima fatia: **Fase 2 (demais livros)** ou continuar o passe de design.
+
+(histórico) **AUDITORIA DE COMPLETUDE ✅ + 13 LACUNAS CORRIGIDAS ✅** (relatório: `docs/superpowers/plans/auditoria-completude-livro-basico.md`).
+Livro Básico **completo de verdade** (catálogos + todas as regras/quadros).
 
 **Correção das lacunas ✅ (2026-06-03):** 39 regras agora (era 32). **7 regras novas:** `introducao-ao-jogo` (O que é T20,
 Mecânica Básica = 1d20+mod vs CD, Dados, Termos Importantes, 20 Coisas a Saber), `alinhamento` (eixos + 9 alinhamentos),

@@ -17,16 +17,11 @@ const GRUPOS: { titulo: string; ids: string[] }[] = [
   { titulo: "Recompensas", ids: ["pontos-de-experiencia", "tesouros", "itens-magicos"] },
 ];
 
-function CardRegra({ regra }: { regra: Entidade }) {
+function LinhaRegra({ regra }: { regra: Entidade }) {
   return (
-    <Link
-      href={`/ficha/${regra.tipo}/${regra.id}`}
-      style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, overflow: "hidden", boxShadow: "0 10px 28px rgba(0,0,0,.45)" }}
-    >
-      <div style={{ padding: "13px 14px 12px", background: "radial-gradient(120% 90% at 50% 0%, rgba(155,28,46,.08), transparent 70%)", borderBottom: "1px solid var(--borda)" }}>
-        <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 18, letterSpacing: ".3px" }}>{regra.nome}</strong>
-        <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", lineHeight: 1.45, margin: "4px 0 0" }}>{regra.resumo}</p>
-      </div>
+    <Link href={`/ficha/${regra.tipo}/${regra.id}`} className="indice-linha">
+      <span className="indice-nome">{regra.nome}</span>
+      {regra.resumo && <span className="indice-resumo">{regra.resumo}</span>}
     </Link>
   );
 }
@@ -47,23 +42,25 @@ export default function IndiceRegras() {
   if (outras.length > 0) grupos.push({ titulo: "Outras Regras", itens: outras });
 
   return (
-    <main style={{ padding: 48, maxWidth: 1480, margin: "0 auto" }}>
-      <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Regras</h1>
-      <Divisor />
-      <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>
-        Todas as regras do Livro Básico reunidas — da criação de personagem ao combate. {regras.length} regras.
-      </p>
+    <main className="folha-main">
+      <div className="folha">
+        <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Regras</h1>
+        <Divisor />
+        <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>
+          Todas as regras do Livro Básico reunidas — da criação de personagem ao combate. {regras.length} regras.
+        </p>
 
-      {grupos.map((g) => (
-        <section key={g.titulo} style={{ marginBottom: 28 }}>
-          <h2 style={{ fontFamily: "var(--serifa)", fontSize: 14, textTransform: "uppercase", letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 14px" }}>
-            {g.titulo} <span style={{ color: "var(--tinta-suave)", fontWeight: 400 }}>({g.itens.length})</span>
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 14 }}>
-            {g.itens.map((r) => <CardRegra key={r.id} regra={r} />)}
-          </div>
-        </section>
-      ))}
+        {grupos.map((g) => (
+          <section key={g.titulo} style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>
+              {g.titulo} ({g.itens.length})
+            </h3>
+            <div className="indice-lista">
+              {g.itens.map((r) => <LinhaRegra key={r.id} regra={r} />)}
+            </div>
+          </section>
+        ))}
+      </div>
     </main>
   );
 }

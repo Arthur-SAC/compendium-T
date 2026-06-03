@@ -12,7 +12,6 @@ export function NavGlobal() {
   return (
     <nav className="nav-global" aria-label="Navegação principal">
       <Logo />
-      <Link href="/" className="nav-busca">Buscar no Compêndio…</Link>
       <div className="nav-cats">
         {CATEGORIAS.map((c) => {
           const ativo = c.id === area;

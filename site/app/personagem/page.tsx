@@ -17,38 +17,40 @@ const PASSOS: { n: number; titulo: string; desc: string; href: string; cta: stri
 
 export default function TrilhaPersonagem() {
   return (
-    <main style={{ padding: 48, maxWidth: 980, margin: "0 auto" }}>
-      <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Construção de Personagem</h1>
-      <Divisor />
-      <p style={{ textAlign: "center", color: "var(--texto-casca-suave)", margin: "12px 0 6px", fontFamily: "var(--serifa)" }}>
-        Os nove passos para criar um herói de Tormenta20. Siga em ordem — cada passo leva ao seu conteúdo completo.
-      </p>
-      <p style={{ textAlign: "center", margin: "0 0 28px" }}>
-        <Link href="/ficha/regra-de-criacao/construcao-de-personagem" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 14, borderBottom: "1px solid rgba(232,192,106,.4)" }}>
-          Ler a regra completa (visão geral + conceito de personagem) →
-        </Link>
-      </p>
+    <main className="folha-main">
+      <div className="folha" style={{ maxWidth: 980, margin: "18px auto" }}>
+        <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Construção de Personagem</h1>
+        <Divisor />
+        <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 6px", fontFamily: "var(--serifa)" }}>
+          Os nove passos para criar um herói de Tormenta20. Siga em ordem — cada passo leva ao seu conteúdo completo.
+        </p>
+        <p style={{ textAlign: "center", margin: "0 0 28px" }}>
+          <Link href="/ficha/regra-de-criacao/construcao-de-personagem" style={{ color: "var(--carmesim)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 14, borderBottom: "1px solid var(--borda-suave)" }}>
+            Ler a regra completa (visão geral + conceito de personagem) →
+          </Link>
+        </p>
 
-      <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 14 }}>
-        {PASSOS.map((p) => (
-          <li key={p.n}>
-            <Link href={p.href} style={{ display: "flex", gap: 16, alignItems: "center", textDecoration: "none", color: "var(--tinta)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", border: "2px solid var(--borda)", borderRadius: 14, padding: "14px 18px", boxShadow: "0 10px 28px rgba(0,0,0,.4)" }}>
-              <span aria-hidden style={{ flex: "0 0 auto", width: 44, height: 44, display: "grid", placeItems: "center", borderRadius: "50%", border: "2px solid var(--ouro)", color: "var(--ouro)", fontFamily: "var(--font-tormenta), var(--serifa)", fontSize: 22, fontWeight: 800 }}>{p.n}</span>
-              <span style={{ flex: 1 }}>
-                <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 19 }}>{p.titulo}</strong>
-                <span style={{ display: "block", fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)", lineHeight: 1.45, marginTop: 2 }}>{p.desc}</span>
-              </span>
-              <span style={{ flex: "0 0 auto", color: "var(--ouro)", fontFamily: "var(--serifa)", fontSize: 13, whiteSpace: "nowrap" }}>{p.cta} →</span>
-            </Link>
-          </li>
-        ))}
-      </ol>
+        <ol style={{ listStyle: "none", padding: 0, margin: 0 }}>
+          {PASSOS.map((p) => (
+            <li key={p.n}>
+              <Link href={p.href} className="indice-linha" style={{ gap: 16, alignItems: "center" }}>
+                <span aria-hidden style={{ flex: "0 0 auto", width: 40, height: 40, display: "grid", placeItems: "center", borderRadius: "50%", border: "2px solid var(--borda)", color: "var(--vermelho)", fontFamily: "var(--font-tormenta), var(--serifa)", fontSize: 20, fontWeight: 800 }}>{p.n}</span>
+                <span style={{ flex: 1 }}>
+                  <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", fontSize: 19 }}>{p.titulo}</strong>
+                  <span style={{ display: "block", fontFamily: "var(--serifa)", fontSize: 13, color: "var(--tinta-suave)", lineHeight: 1.45, marginTop: 2 }}>{p.desc}</span>
+                </span>
+                <span style={{ flex: "0 0 auto", color: "var(--vermelho)", fontFamily: "var(--serifa)", fontSize: 13, whiteSpace: "nowrap" }}>{p.cta} →</span>
+              </Link>
+            </li>
+          ))}
+        </ol>
 
-      <p style={{ textAlign: "center", margin: "28px 0 0" }}>
-        <Link href="/ficha/regra-de-criacao/evolucao-de-personagem" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 14, borderBottom: "1px solid rgba(232,192,106,.4)" }}>
-          Depois de criar: subir de nível, patamares e multiclasse →
-        </Link>
-      </p>
+        <p style={{ textAlign: "center", margin: "28px 0 0" }}>
+          <Link href="/ficha/regra-de-criacao/evolucao-de-personagem" style={{ color: "var(--carmesim)", textDecoration: "none", fontFamily: "var(--serifa)", fontSize: 14, borderBottom: "1px solid var(--borda-suave)" }}>
+            Depois de criar: subir de nível, patamares e multiclasse →
+          </Link>
+        </p>
+      </div>
     </main>
   );
 }

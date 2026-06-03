@@ -22,7 +22,8 @@
   --magenta: #b0388f;
   --bronze: #b8935a;          /* rótulos/acentos discretos (no lugar do ouro brilhante) */
   --ouro: #b8935a;            /* compat: usos antigos de --ouro viram bronze fosco */
-  --borda: #c7b48c;           /* borda de pergaminho fosca (não dourada brilhante) */
+  --borda: #b1273a;           /* borda em vermelho-sangue (substitui o dourado) */
+  --borda-suave: rgba(177, 39, 58, 0.28); /* fios/divisórias internas em vermelho discreto */
   --tooltip: #a83e22;
   --tooltip-linha: #b5462b;
   --serifa: Georgia, "Times New Roman", serif;
@@ -57,59 +58,75 @@ body::before {
 }
 
 /* ===== App shell (3 colunas) ===== */
+/* Colunas laterais com a MESMA largura → menus simétricos. */
 .app-shell {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr) 198px;
+  grid-template-columns: 232px minmax(0, 1fr) 232px;
   align-items: start;
-  max-width: 1560px;
+  gap: 18px;
+  max-width: 1660px;
   margin: 0 auto;
 }
-.nav-global {
+/* Ambos os menus laterais começam na MESMA altura (mesmo padding-top) e mesmo espaçamento. */
+.nav-global,
+.barra-contexto {
   position: sticky;
   top: 0;
   height: 100vh;
   overflow-y: auto;
-  padding: 14px 10px 24px;
-  border-right: 1px solid rgba(155, 28, 46, 0.35);
+  padding: 30px 16px 28px;
+}
+.nav-global {
+  border-right: 1px solid var(--borda-suave);
+}
+.barra-contexto {
+  border-left: 1px solid var(--borda-suave);
 }
 .logo-marca {
   font-family: var(--font-tormenta), var(--serifa);
   font-weight: 800;
-  font-size: 20px;
-  line-height: 1;
+  font-size: 30px;
+  line-height: 1.05;
   white-space: nowrap;
   background: linear-gradient(90deg, #e8c06a, #c0395a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  /* espaçamento maior entre a logo e os itens do menu */
+  margin: 0 4px 30px;
 }
+/* Caixa de busca — reaproveitada na coluna da direita (topo). */
 .nav-busca {
   display: block;
-  margin: 12px 6px 10px;
-  padding: 6px 10px;
+  margin: 0 0 4px;
+  padding: 8px 12px;
   font-family: var(--serifa);
   font-size: 13px;
   color: var(--menu-texto);
   background: var(--busca-fundo);
-  border: 1px solid rgba(155, 28, 46, 0.45);
+  border: 1px solid var(--borda-suave);
   border-radius: 8px;
   text-decoration: none;
+}
+.nav-busca:hover {
+  border-color: var(--borda);
+  color: #fff;
 }
 .nav-cats {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 3px;
 }
 .nav-cat {
   display: block;
-  padding: 3px 11px;
+  padding: 4px 12px;
   border-radius: 5px;
   color: var(--menu-texto);
   font-family: var(--serifa);
-  font-size: 13.5px;
-  line-height: 1.95;
+  font-size: 14px;
+  line-height: 2;
   text-decoration: none;
   white-space: nowrap;
   opacity: 0.86;
@@ -147,12 +164,11 @@ body::before {
   opacity: 0.65;
 }
 
-.barra-contexto {
-  position: sticky;
-  top: 0;
-  max-height: 100vh;
-  overflow-y: auto;
-  padding: 24px 14px;
+/* separador entre a busca (topo da direita) e as seções de contexto */
+.ctx-busca-sep {
+  height: 1px;
+  background: var(--borda-suave);
+  margin: 16px 0;
 }
 .ctx-rotulo {
   font-size: 9.5px;
@@ -178,6 +194,98 @@ body::before {
 .ctx-link-regra {
   color: #e8a9b4;
   opacity: 0.92;
+}
+
+/* ===== Folha de pergaminho única (índices e home) ===== */
+/* O <main> da página apenas hospeda a folha; a folha preenche a coluna central. */
+.folha-main {
+  padding: 0;
+}
+.folha {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 36px);
+  margin: 18px 0;
+  padding: 44px 52px 56px;
+  background: radial-gradient(135% 115% at 50% 0%, var(--pergaminho-1), var(--pergaminho-2));
+  color: var(--tinta);
+  border-radius: 6px;
+  box-shadow: inset 0 0 60px rgba(96, 46, 22, 0.16), 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+/* textura sutil de papel, igual à .pagina-pergaminho (sem costura) */
+.folha::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 6px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .045 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+  opacity: 0.6;
+}
+/* o conteúdo da folha fica acima da textura */
+.folha > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Lista de índice: linhas sobre a folha (sem bloquinhos divididos) */
+.indice-lista {
+  display: flex;
+  flex-direction: column;
+}
+.indice-linha {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--borda-suave);
+  text-decoration: none;
+  color: var(--tinta);
+}
+.indice-linha:hover {
+  background: rgba(177, 39, 58, 0.07);
+}
+.indice-nome {
+  flex: 0 0 auto;
+  min-width: 190px;
+  font-family: var(--font-tormenta), var(--serifa);
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  color: var(--carmesim);
+}
+.indice-meta {
+  font-family: var(--serifa);
+  font-size: 12px;
+  color: var(--vermelho);
+}
+.indice-resumo {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--serifa);
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--tinta-suave);
+}
+.indice-thumb {
+  flex: 0 0 auto;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(60, 30, 10, 0.4));
+}
+.indice-grupo-titulo {
+  font-family: var(--serifa);
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--vermelho);
+  border-bottom: 2px solid var(--borda);
+  padding-bottom: 5px;
+  margin: 34px 0 6px;
+}
+.indice-grupo-titulo:first-of-type {
+  margin-top: 8px;
 }
 
 /* ===== Layout de ficha em duas colunas (mantido) ===== */
@@ -210,21 +318,22 @@ body::before {
 @media (max-width: 960px) {
   .app-shell {
     grid-template-columns: 1fr;
+    gap: 0;
   }
   .nav-global {
     position: static;
     height: auto;
     overflow: visible;
     border-right: none;
-    border-bottom: 1px solid rgba(155, 28, 46, 0.3);
+    border-bottom: 1px solid var(--borda-suave);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 8px 10px;
     padding: 12px 14px;
   }
-  .nav-busca {
-    margin: 0;
+  .logo-marca {
+    margin: 0 8px 0 0;
   }
   .nav-cats {
     flex-direction: row;
@@ -233,7 +342,20 @@ body::before {
   }
   .barra-contexto {
     position: static;
-    max-height: none;
-    border-top: 1px solid rgba(155, 28, 46, 0.2);
+    height: auto;
+    overflow: visible;
+    border-left: none;
+    border-bottom: 1px solid var(--borda-suave);
+    padding: 12px 14px;
+  }
+  .folha {
+    min-height: 0;
+    margin: 0;
+    padding: 24px 18px 36px;
+    border-radius: 0;
+  }
+  .indice-nome {
+    min-width: 130px;
+    font-size: 18px;
   }
 }
