@@ -4,16 +4,23 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-03
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **Cap. 7 Bestiário ✅ Ondas A+B (77 criaturas, 9 temas; índice `/bestiario`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **2ª leva do Cap. 7 (Construindo Combates + Perigos + Fichas de NPCs)** ou **Recompensas (Cap. 8)**.
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **Cap. 7 Ameaças ✅ COMPLETO (77 criaturas validadas + 3 regras: Construindo Combates/Perigos/Fichas de NPCs; índice `/bestiario`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Recompensas (Cap. 8)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAP. 7 BESTIÁRIO ✅ Ondas A+B COMPLETAS (77 criaturas, 9 temas).** Próxima fatia: **2ª leva do Cap. 7** —
-regras **Construindo Combates** (impressa 282) e **Perigos** (impressa 317), + **Fichas de NPCs** (impressa 322, entram no hub `/bestiario`).
-Alternativa: **Recompensas (Cap. 8: XP, Tesouros, Itens Mágicos, impressas 324+)**. Definir com o usuário.
+➡️ **CAP. 7 AMEAÇAS ✅ COMPLETO** (criaturas + regras; ver bloco abaixo). Próxima fatia: **Recompensas (Cap. 8: XP/níveis,
+Tesouros, Itens Mágicos — impressas 324+)**. Depois disso o Livro Básico fica ponta a ponta (resta o **passe de design/UX** — ver Backlog).
+
+**Cap. 7 — 2ª leva ✅ (`45878d0`):** 3 regras `regra-de-criacao` (validadas célula a célula por revisor independente, 0 discrepâncias):
+- **`construindo-combates`** (impressas 282–285): ND, fatores, papéis solo/lacaio/especial, vários inimigos, formato do bloco de stats, `tipos_de_criatura` (6), **Tabela 7-1: Criaturas por Nível de Desafio** (80 linhas).
+- **`perigos`** (impressas 317–321): perigos ambientais, **armadilhas** (23, c/ CDs/ND; mágicas marcadas), **doenças** (8), perigos complexos (4). (As armadilhas NÃO têm nº de tabela no livro — "Tabela 7-1" é só a de Criaturas.)
+- **`fichas-de-npcs`** (impressas 322–323): criar fichas de ameaça por ND, **Tabela 7-2: Estatísticas de NPCs** (21 linhas) + pacotes de atributos por patamar.
+- **Wiring:** grupo **"Ameaças"** no `/regras` + painel **"Regras de Ameaças"** no topo do `/bestiario`. Build **802 páginas**; suíte **122 verde**.
+- **Nota fiel ao livro:** a Tabela 7-1 grafa "Finntroll caçador" (2 n) e "**Fintroll** feitor" (1 n) — inconsistência da fonte, preservada.
+- Imagens 300 DPI em `extracao/cache/cap7-regras/` (impressas 282–285, 317–323).
 
 **Cap. 7 — Bestiário (plano `2026-06-02-bestiario-cap7-plano.md`):**
 - **Onda A ✅ (`3950046`):** entidade `criatura` (`CriaturaMecanicaSchema`), `FichaCriatura` (duas colunas: bloco numérico na lateral + habilidades/flavor), índice `/bestiario` agrupado por `tema` (ordem do livro) + selo de ND + atalho na home. Spike Masmorras.
