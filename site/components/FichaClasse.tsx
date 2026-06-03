@@ -199,6 +199,38 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
               </section>
             )}
 
+          {m.caminhos && m.caminhos.length > 0 && (
+            <section style={{ marginBottom: 16 }}>
+              <h2 style={h2}>Caminhos</h2>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                {m.caminhos.map((c, i) => (
+                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "10px 0", borderBottom: i < m.caminhos!.length - 1 ? "1px solid var(--borda)" : "none" }}>
+                    <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 16 }}>{c.nome}</div>
+                    <div style={{ marginTop: 2 }}><TextoRico texto={c.descricao} registro={registro} descricoes={descricoes} /></div>
+                    {c.habilidades.length > 0 && (
+                      <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 8 }}>
+                        {c.habilidades.map((h, j) => (
+                          <div key={j}>
+                            <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
+                            <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
+                            {h.prerequisito && <PreRequisito texto={h.prerequisito} />}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {quadrosRestantes.map((s, i) => (
+            <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+              <h2 style={h2}>{tituloLimpo(s.titulo)}</h2>
+              <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
+            </section>
+          ))}
+
           {m.habilidades.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Habilidades de Classe</h2>
@@ -235,38 +267,6 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
               </div>
             </section>
           )}
-
-          {m.caminhos && m.caminhos.length > 0 && (
-            <section style={{ marginBottom: 16 }}>
-              <h2 style={h2}>Caminhos</h2>
-              <div style={{ display: "flex", flexDirection: "column" }}>
-                {m.caminhos.map((c, i) => (
-                  <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "10px 0", borderBottom: i < m.caminhos!.length - 1 ? "1px solid var(--borda)" : "none" }}>
-                    <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 16 }}>{c.nome}</div>
-                    <div style={{ marginTop: 2 }}><TextoRico texto={c.descricao} registro={registro} descricoes={descricoes} /></div>
-                    {c.habilidades.length > 0 && (
-                      <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 8 }}>
-                        {c.habilidades.map((h, j) => (
-                          <div key={j}>
-                            <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
-                            <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
-                            {h.prerequisito && <PreRequisito texto={h.prerequisito} />}
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {quadrosRestantes.map((s, i) => (
-            <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-              <h2 style={h2}>{tituloLimpo(s.titulo)}</h2>
-              <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
-            </section>
-          ))}
           </div>
 
           <aside className="ficha-aside">
