@@ -1,0 +1,20 @@
+{
+  "id": "escudo-espinhoso",
+  "tipo": "item-magico",
+  "nome": "Escudo Espinhoso",
+  "resumo": "Escudo pesado coberto de espinhos que pode disparar um espinho certeiro em um alvo em alcance curto.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este escudo pesado defensor é coberto de espinhos. Você pode gastar uma ação de movimento e 2 PM para disparar um espinho em um alvo em alcance curto. O espinho acerta automaticamente e causa 1d10+2 pontos de dano de perfuração."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 50.000"
+  }
+}

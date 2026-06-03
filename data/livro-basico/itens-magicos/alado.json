@@ -1,0 +1,18 @@
+{
+  "id": "alado",
+  "tipo": "item-magico",
+  "nome": "Alado",
+  "resumo": "Encanto de armadura ou escudo que faz asas emergirem das costas, concedendo deslocamento de voo.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

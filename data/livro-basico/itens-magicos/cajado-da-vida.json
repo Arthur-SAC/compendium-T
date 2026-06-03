@@ -1,0 +1,20 @@
+{
+  "id": "cajado-da-vida",
+  "tipo": "item-magico",
+  "nome": "Cajado da Vida",
+  "resumo": "Bordão formidável branco com runas prateadas que conta como cajado arcano para magias divinas e aumenta a cura.",
+  "fonte": { "livro": "livro-basico", "pagina": 337 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este bordão formidável branco com runas prateadas é valorizado por curandeiros. Conta como um cajado arcano, mas afeta magias divinas. Além disso, quando você lança uma magia de cura, ela cura +2 pontos de vida por dado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

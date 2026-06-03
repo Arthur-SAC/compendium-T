@@ -1,0 +1,20 @@
+{
+  "id": "orbe-das-tempestades",
+  "tipo": "item-magico",
+  "nome": "Orbe das Tempestades",
+  "resumo": "Esfera de vidro com fumaça e raios que permite lançar Controlar o Clima e Fúria do Panteão e mantém aliados sob Suporte Ambiental.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta esfera de vidro com 20cm de diâmetro contém fumaça e raios em seu interior. Você pode lançar Controlar o Clima e Fúria do Panteão (CD Sab). Caso já conheça as magias, o custo para lançá-las diminui em –1 PM. Além disso, você e todos os seus aliados adjacentes ficam sob efeito de Suporte Ambiental."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 97.500"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "flamejante",
+  "tipo": "item-magico",
+  "nome": "Flamejante",
+  "resumo": "Causa +1d6 de dano de fogo e pode disparar uma bola de fogo.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +1d6 de dano de fogo. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, em vez do ataque normal você dispara uma bola de fogo contra um alvo em alcance médio. O alvo sofre 6d6 pontos de dano. Um teste de Reflexos (CD For ou Des, à sua escolha) reduz à metade. Uma arma flamejante emana chamas como uma tocha."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-regeneracao",
+  "tipo": "item-magico",
+  "nome": "Anel da Regeneração",
+  "resumo": "Anel que concede Cura Acelerada 5 ao usuário.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe Cura Acelerada 5 (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 150.000"
+  }
+}

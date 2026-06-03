@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-protecao",
+  "tipo": "item-magico",
+  "nome": "Anel da Proteção",
+  "resumo": "Anel que desvia ataques contra seu usuário, fornecendo +2 de Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este anel desvia ataques contra seu usuário. Você recebe +2 de Defesa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

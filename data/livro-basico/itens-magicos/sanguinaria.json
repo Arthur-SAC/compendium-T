@@ -1,0 +1,18 @@
+{
+  "id": "sanguinaria",
+  "tipo": "item-magico",
+  "nome": "Sanguinária",
+  "resumo": "Deixa criaturas vivas sangrando, com perda de PV cumulativa.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma criatura viva atingida fica sangrando. A perda de PV por sangramento causada pela arma é cumulativa — uma criatura atingida duas vezes perde 2d6 PV por sangramento por rodada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "incandescente",
+  "tipo": "item-magico",
+  "nome": "Incandescente",
+  "resumo": "Encanto de armadura ou escudo que concede redução de fogo e permite emitir labaredas que ferem criaturas adjacentes.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe redução de fogo 10 e pode gastar uma ação de movimento e 2 PM para fazer o item emitir labaredas até o fim da cena. Se fizer isso, no início de cada um de seus turnos você causa 1d6 pontos de dano de fogo em todas as criaturas adjacentes. Um item incandescente é avermelhado e quente ao toque."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

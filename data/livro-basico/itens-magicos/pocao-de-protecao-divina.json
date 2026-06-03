@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-protecao-divina",
+  "tipo": "item-magico",
+  "nome": "Poção de Proteção Divina",
+  "resumo": "Poção que reproduz a magia Proteção Divina, concedendo bônus em testes de resistência.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Proteção Divina: o alvo recebe bônus em testes de resistência. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

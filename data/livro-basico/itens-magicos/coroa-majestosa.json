@@ -1,0 +1,20 @@
+{
+  "id": "coroa-majestosa",
+  "tipo": "item-magico",
+  "nome": "Coroa Majestosa",
+  "resumo": "Coroa de ouro com dezenas de pedras preciosas que concede +2 em Carisma após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta coroa de ouro possui dezenas de pedras preciosas. Você recebe +2 em Carisma (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

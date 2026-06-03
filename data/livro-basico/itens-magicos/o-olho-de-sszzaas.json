@@ -1,0 +1,19 @@
+{
+  "id": "o-olho-de-sszzaas",
+  "tipo": "item-magico",
+  "nome": "O Olho de Sszzaas",
+  "resumo": "Gema esverdeada num cajado fossilizado que permite lançar qualquer magia sem PM — mas suas falhas escondem a manipulação do Grande Corruptor.",
+  "fonte": { "livro": "livro-basico", "pagina": 348 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Como parte de seu plano para retornar ao Panteão, o deus Sszzaas removeu um de seus próprios olhos para forjar um artefato — o Olho de Sszzaas, uma gema esverdeada segura por um cajado de madeira fossilizada. As extremidades do cajado são ligadas por uma corrente, cujo comprimento pode variar magicamente.\n\nCultistas de Sszzaas foram encarregados de esconder o artefato em um templo nas proximidades de Lenórienn, onde deveria ser encontrado pela pessoa certa. O portador da peça acreditaria ser capaz de usar magia poderosa, quando na verdade estaria servindo aos interesses do Grande Corruptor. De fato, o Olho carrega parte da consciência do próprio Sszzaas, que testemunha e manipula tudo à distância.\n\nO cajado permite ao personagem lançar qualquer magia que conheça ou tenha ouvido falar — seja arcana ou divina — como se fosse uma habilidade mágica, sem precisar gastar pontos de mana. O personagem ainda pode usar aprimoramentos, mas precisa pagar por eles.\n\nLançar uma magia exige um teste de Misticismo (CD 20 + o custo em PM da magia, incluindo aprimoramentos). Se o teste falhar, a magia não funciona ou provoca algum efeito imprevisível (alvo trocado, efeito invertido, Teletransporte para um local diferente...) ou assim parece. Na verdade, sempre que uma magia “falha”, isso quer dizer que Sszzaas está no controle — e as coisas estão saindo exatamente como ele planejou, seguindo algum plano intrincado e desconhecido pelo portador do cajado.\n\nApesar de poderoso, o Olho de Sszzaas é uma peça pouco conhecida. Reconhecê-lo e descobrir como usá-lo exige um teste de Conhecimento (CD 30)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ferraduras-da-velocidade",
+  "tipo": "item-magico",
+  "nome": "Ferraduras da Velocidade",
+  "resumo": "Ferraduras que aumentam em +3m o deslocamento de um cavalo ou montaria.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este conjunto de ferraduras pode ser fixado nos cascos de um cavalo (ou outro parceiro montaria, a critério do mestre) para aumentar seu deslocamento em +3m."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

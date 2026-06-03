@@ -1,0 +1,20 @@
+{
+  "id": "tomo-dos-grandes-pensamentos",
+  "tipo": "item-magico",
+  "nome": "Tomo dos Grandes Pensamentos",
+  "resumo": "Livro de exercícios de raciocínio e memória cuja leitura aumenta a Inteligência em +1 permanentemente.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este livro pesado contém exercícios para aprimorar o raciocínio e a memória, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Inteligência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

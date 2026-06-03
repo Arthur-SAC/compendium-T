@@ -1,0 +1,18 @@
+{
+  "id": "defensor",
+  "tipo": "item-magico",
+  "nome": "Defensor",
+  "resumo": "Encanto de armadura ou escudo que aumenta o bônus na Defesa do item em +2.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O item é encantado para desviar golpes. O bônus na Defesa do item aumenta em +2."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

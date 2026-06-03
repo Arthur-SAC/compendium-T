@@ -1,0 +1,20 @@
+{
+  "id": "cinto-da-forca-do-gigante",
+  "tipo": "item-magico",
+  "nome": "Cinto da Força do Gigante",
+  "resumo": "Cinto largo de couro com rebites de ferro que concede +2 em Força após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este cinto largo é feito de couro com rebites de ferro. Você recebe +2 em Força (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

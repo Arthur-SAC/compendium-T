@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-resistencia-a-energia",
+  "tipo": "item-magico",
+  "nome": "Poção de Resistência a Energia",
+  "resumo": "Poção que reproduz a magia Resistência a Energia, concedendo redução de dano contra um tipo de energia.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Resistência a Energia: o alvo recebe redução de dano 10 contra um tipo de dano à escolha (ácido, eletricidade, fogo, frio, luz ou trevas). Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

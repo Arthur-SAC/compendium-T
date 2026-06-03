@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-voz-divina",
+  "tipo": "item-magico",
+  "nome": "Poção de Voz Divina",
+  "resumo": "Poção que reproduz a magia Voz Divina, permitindo conversar com criaturas variadas, plantas, rochas e cadáveres.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Voz Divina: permite conversar com criaturas variadas, plantas, rochas e cadáveres. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

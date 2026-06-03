@@ -1,0 +1,20 @@
+{
+  "id": "pingente-da-sensatez",
+  "tipo": "item-magico",
+  "nome": "Pingente da Sensatez",
+  "resumo": "Pequena pérola em corrente leve, usada como colar, que fornece +1 em Sabedoria.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pequena pérola com uma corrente leve é usada como um colar. Você recebe +1 em Sabedoria (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

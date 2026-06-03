@@ -1,0 +1,20 @@
+{
+  "id": "estola-da-serenidade",
+  "tipo": "item-magico",
+  "nome": "Estola da Serenidade",
+  "resumo": "Faixa de pano com inscrições mágicas usada sobre a nuca que concede +2 em Sabedoria após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta faixa de pano com inscrições mágicas é usada sobre a nuca, com as duas extremidades caindo na frente do corpo. Você recebe +2 em Sabedoria (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

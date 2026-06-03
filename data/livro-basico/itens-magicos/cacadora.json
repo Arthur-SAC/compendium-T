@@ -1,0 +1,18 @@
+{
+  "id": "cacadora",
+  "tipo": "item-magico",
+  "nome": "Caçadora",
+  "resumo": "A arma persegue o alvo, anulando penalidades por camuflagem e cobertura leve.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma persegue o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve. Caso a arma seja de ataque à distância, seu alcance também aumenta em uma categoria."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

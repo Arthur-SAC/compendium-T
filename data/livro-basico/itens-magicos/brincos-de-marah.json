@@ -1,0 +1,20 @@
+{
+  "id": "brincos-de-marah",
+  "tipo": "item-magico",
+  "nome": "Brincos de Marah",
+  "resumo": "Brincos brancos abençoados pela Deusa da Paz que forçam a primeira criatura a atacá-lo a fazer um teste de Vontade ou perder a ação.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este par de brincos brancos é abençoado pela Deusa da Paz. A primeira criatura que o atacar em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá a ação. Se você atacar uma criatura, o efeito dos brincos é cancelado por um dia. Se você possuir Aparência Inofensiva (ou um poder similar) os efeitos acumulam, afetando as duas primeiras criaturas que o atacarem em uma cena."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

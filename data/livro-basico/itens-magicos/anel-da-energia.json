@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-energia",
+  "tipo": "item-magico",
+  "nome": "Anel da Energia",
+  "resumo": "Anel que concede +5 PM após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +5 PM (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "manto-da-resistencia",
+  "tipo": "item-magico",
+  "nome": "Manto da Resistência",
+  "resumo": "Manto de tecido grosso e pesado que fornece +2 em testes de resistência.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este manto de tecido grosso e pesado protege seu usuário. Você recebe +2 em testes de resistência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "abascanto",
+  "tipo": "item-magico",
+  "nome": "Abascanto",
+  "resumo": "Encanto de armadura ou escudo que concede resistência a magia +5.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe resistência a magia +5."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

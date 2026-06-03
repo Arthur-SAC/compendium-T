@@ -1,0 +1,20 @@
+{
+  "id": "anel-do-escudo-mental",
+  "tipo": "item-magico",
+  "nome": "Anel do Escudo Mental",
+  "resumo": "Anel que concede imunidade a magias de adivinhação.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe imunidade a magias de adivinhação."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

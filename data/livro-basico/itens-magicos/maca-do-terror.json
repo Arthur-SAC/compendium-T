@@ -1,0 +1,20 @@
+{
+  "id": "maca-do-terror",
+  "tipo": "item-magico",
+  "nome": "Maça do Terror",
+  "resumo": "Maça formidável feita de um osso e um crânio que permite lançar a magia Amedrontar.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta maça formidável é feita com um osso e um crânio e permite que você lance a magia Amedrontar (CD For ou Car a sua escolha). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

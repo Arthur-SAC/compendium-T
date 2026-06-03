@@ -1,0 +1,20 @@
+{
+  "id": "pulseiras-da-celeridade",
+  "tipo": "item-magico",
+  "nome": "Pulseiras da Celeridade",
+  "resumo": "Pulseira de platina que aguça os movimentos, concedendo +2 em Destreza após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pulseira de platina aguça todos os seus movimentos. Você recebe +2 em Destreza (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

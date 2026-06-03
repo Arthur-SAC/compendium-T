@@ -1,0 +1,20 @@
+{
+  "id": "faixas-do-pugilista",
+  "tipo": "item-magico",
+  "nome": "Faixas do Pugilista",
+  "resumo": "Faixas surradas que concedem +2 em testes de ataque e rolagens de dano com ataques desarmados.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Estas faixas surradas são amarradas nos punhos, nos braços ou na testa. Você recebe +2 em testes de ataque e rolagens de dano com ataques desarmados (cumulativo com outros itens)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

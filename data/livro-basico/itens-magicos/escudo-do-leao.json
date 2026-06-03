@@ -1,0 +1,20 @@
+{
+  "id": "escudo-do-leao",
+  "tipo": "item-magico",
+  "nome": "Escudo do Leão",
+  "resumo": "Escudo pesado em forma de cabeça de leão que ganha vida e morde uma criatura adjacente.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este escudo pesado defensor é forjado como uma cabeça de leão rugindo. Uma vez por rodada, você pode gastar 2 PM para fazer a cabeça criar vida e morder uma criatura adjacente. A mordida acerta automaticamente e causa 2d6+2 pontos de dano de perfuração."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 50.000"
+  }
+}

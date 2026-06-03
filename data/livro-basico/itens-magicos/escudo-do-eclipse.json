@@ -1,0 +1,20 @@
+{
+  "id": "escudo-do-eclipse",
+  "tipo": "item-magico",
+  "nome": "Escudo do Eclipse",
+  "resumo": "Escudo pesado negro que absorve a luz, fornece redução de trevas, adiciona dano de trevas e lança Escuridão.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este escudo pesado defensor é completamente negro e parece absorver a luz. Ele fornece redução de trevas 10 e causa +1d8 de dano de trevas num ataque. Além disso, você pode gastar uma ação de movimento e 2 PM para lançar Escuridão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 70.000"
+  }
+}

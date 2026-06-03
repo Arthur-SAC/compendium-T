@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-escudo-da-fe",
+  "tipo": "item-magico",
+  "nome": "Poção de Escudo da Fé",
+  "resumo": "Poção que reproduz a magia Escudo da Fé (aprimorada para duração cena), protegendo o alvo com bônus na Defesa.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Escudo da Fé com o aprimoramento para duração cena: um escudo místico protege o alvo, concedendo +2 na Defesa. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 120"
+  }
+}

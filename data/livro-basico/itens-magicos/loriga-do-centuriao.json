@@ -1,0 +1,20 @@
+{
+  "id": "loriga-do-centuriao",
+  "tipo": "item-magico",
+  "nome": "Loriga do Centurião",
+  "resumo": "Loriga segmentada com o símbolo de Tauron que faz os ataques corpo a corpo causarem dano de fogo extra quando você lidera criaturas.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta loriga segmentada defensora é dourada com detalhes em vermelho e possui o símbolo de Tauron, antigo Deus da Força, gravado no peitoral. Se estiver liderando uma ou mais criaturas (em termos de jogo, se estiver usando o poder Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

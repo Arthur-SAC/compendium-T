@@ -1,0 +1,20 @@
+{
+  "id": "anel-de-telecinesia",
+  "tipo": "item-magico",
+  "nome": "Anel de Telecinesia",
+  "resumo": "Anel que permite lançar Telecinesia, reduzindo seu custo se você já conhece a magia.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar Telecinesia (CD Int). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 10.500"
+  }
+}

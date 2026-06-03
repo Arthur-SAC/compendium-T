@@ -1,0 +1,20 @@
+{
+  "id": "avalanche",
+  "tipo": "item-magico",
+  "nome": "Avalanche",
+  "resumo": "Machado de guerra de gelo eterno congelante formidável que fornece redução de fogo 10 e invoca uma tempestade de gelo.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este machado de guerra de gelo eterno congelante formidável fornece redução de fogo 10. Você pode gastar uma ação padrão e 6 PM para brandi-lo acima de sua cabeça e invocar uma tempestade de gelo que afeta alcance curto ao seu redor. Criaturas na área recebem camuflagem leve e sofrem 3d6 pontos de dano de impacto e 3d6 pontos de frio por rodada. Você não sofre os efeitos nocivos da tempestade (o dano e a chance de falha pela camuflagem) e pode gastar 1 PM no início de cada um de seus turnos para mantê-la."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 140.000"
+  }
+}

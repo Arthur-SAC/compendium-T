@@ -1,0 +1,20 @@
+{
+  "id": "anel-do-sustento",
+  "tipo": "item-magico",
+  "nome": "Anel do Sustento",
+  "resumo": "Anel que dispensa comer ou beber e reduz a necessidade de sono a duas horas por noite.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar. Os efeitos do anel só se ativam após uma semana de uso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

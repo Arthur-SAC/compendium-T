@@ -1,0 +1,20 @@
+{
+  "id": "chapeu-do-disfarce",
+  "tipo": "item-magico",
+  "nome": "Chapéu do Disfarce",
+  "resumo": "Chapéu que lança Disfarce Ilusório aprimorado sem custo em PM e muda de forma.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar Disfarce Ilusório (CD Car), com o aprimoramento que inclui odores e sensações e muda o bônus em Enganação para disfarces para +20, sem pagar seu custo em PM. Você não pode usar outros aprimoramentos. Como parte do disfarce, o chapéu pode mudar para um elmo, faixa, tiara, gorro, touca e assim por diante."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 6.000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pingente-da-saude",
+  "tipo": "item-magico",
+  "nome": "Pingente da Saúde",
+  "resumo": "Joia verde em cordão de prata que concede imunidade a doenças e venenos.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O usuário desta joia verde em um cordão de prata recebe imunidade a doenças e venenos. Os efeitos só se ativam após uma semana de uso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

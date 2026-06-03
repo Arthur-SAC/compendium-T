@@ -1,0 +1,20 @@
+{
+  "id": "manoplas-da-forca-do-ogro",
+  "tipo": "item-magico",
+  "nome": "Manoplas da Força do Ogro",
+  "resumo": "Par de luvas de couro grosso com rebites de ferro que fornece +1 em Força.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

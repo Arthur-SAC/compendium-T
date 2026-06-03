@@ -1,0 +1,20 @@
+{
+  "id": "cinto-do-campeao",
+  "tipo": "item-magico",
+  "nome": "Cinto do Campeão",
+  "resumo": "Cinturão de ouro cravejado de joias, prêmio dos jogos gladiatoriais de Tauron, que aprimora Força e o combate desarmado.",
+  "fonte": { "livro": "livro-basico", "pagina": 343 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este cinturão de ouro é cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Você recebe +1 em Força e a habilidade Briga (veja a página 76; somente após um dia de uso). Caso já a possua, seu dano desarmado será calculado como se você possuísse quatro níveis de lutador a mais (máximo 2d12). Por fim, caso possua o poder Torcida, o bônus que você recebe por ele aumenta para +3. Estes cintos eram dados aos vencedores dos jogos gladiatoriais do Império de Tauron. A cada ano, diversos combatentes de Arton viajavam a Tiberus para competir e ter uma chance de ganhar um destes itens."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 51.000"
+  }
+}

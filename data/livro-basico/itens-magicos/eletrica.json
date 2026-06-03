@@ -1,0 +1,18 @@
+{
+  "id": "eletrica",
+  "tipo": "item-magico",
+  "nome": "Elétrica",
+  "resumo": "Causa +1d6 de dano de eletricidade e pode atingir outra criatura com um raio.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +1d6 de dano de eletricidade. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, um raio atinge outra criatura em alcance curto, causando 3d8 pontos de dano de eletricidade. Uma arma elétrica emite faíscas e é coberta de arcos voltaicos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

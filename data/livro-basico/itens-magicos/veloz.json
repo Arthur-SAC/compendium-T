@@ -1,0 +1,18 @@
+{
+  "id": "veloz",
+  "tipo": "item-magico",
+  "nome": "Veloz",
+  "resumo": "Concede a habilidade Ataque Extra do guerreiro, usável apenas com esta arma.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe a habilidade Ataque Extra, do guerreiro, mas só pode usá-la com esta arma. Se já a possui, em vez disso, o custo para usá-la com esta arma diminui em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

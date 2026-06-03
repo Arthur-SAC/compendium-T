@@ -1,0 +1,20 @@
+{
+  "id": "manto-elfico",
+  "tipo": "item-magico",
+  "nome": "Manto Élfico",
+  "resumo": "Manto cinza comum que fornece +5 em Furtividade quando o capuz cobre o rosto.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Indistinguível de um manto cinza comum. Entretanto, quando usado com o capuz cobrindo o rosto, fornece +5 em Furtividade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

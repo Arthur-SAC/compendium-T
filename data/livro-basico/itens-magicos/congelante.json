@@ -1,0 +1,18 @@
+{
+  "id": "congelante",
+  "tipo": "item-magico",
+  "nome": "Congelante",
+  "resumo": "Causa +1d6 de dano de frio e pode enredar a vítima.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +1d6 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada. Uma arma congelante é coberta por uma camada de gelo e névoa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

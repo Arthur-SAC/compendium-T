@@ -1,0 +1,20 @@
+{
+  "id": "cota-elfica",
+  "tipo": "item-magico",
+  "nome": "Cota Élfica",
+  "resumo": "Cota de malha de mitral leve como seda que permite aplicar a Destreza na Defesa como se fosse uma armadura leve.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Composta de anéis finíssimos, esta cota de malha defensora de mitral parece ser feita de seda. Ela permite que você aplique sua Destreza na Defesa como se fosse uma armadura leve."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

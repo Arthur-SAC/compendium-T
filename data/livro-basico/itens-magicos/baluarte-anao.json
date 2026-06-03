@@ -1,0 +1,20 @@
+{
+  "id": "baluarte-anao",
+  "tipo": "item-magico",
+  "nome": "Baluarte Anão",
+  "resumo": "Armadura completa de adamante que eleva a redução de dano se você não se deslocar no turno.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta armadura completa reforçada defensora de adamante fornece proteção sem igual. Se você não se deslocar em seu turno, a RD que ela fornece aumenta para 10 até seu próximo turno."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 50.000"
+  }
+}

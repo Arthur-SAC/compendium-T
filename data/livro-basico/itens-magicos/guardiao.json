@@ -1,0 +1,18 @@
+{
+  "id": "guardiao",
+  "tipo": "item-magico",
+  "nome": "Guardião",
+  "resumo": "Encanto de armadura ou escudo que aumenta o bônus na Defesa do item em +4; conta como dois encantos.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Conta como dois encantos (para itens menores, role novamente). O item emite um campo de força que desvia ataques. O bônus na Defesa do item aumenta em +4. Pré-requisito: defensor."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

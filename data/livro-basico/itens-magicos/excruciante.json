@@ -1,0 +1,18 @@
+{
+  "id": "excruciante",
+  "tipo": "item-magico",
+  "nome": "Excruciante",
+  "resumo": "Inflige dor terrível, deixando a criatura viva fraca ou debilitada.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma inflige dor terrível. Uma criatura viva atingida fica fraca. Se já estiver fraca, mesmo por este efeito, fica debilitada (a condição máxima que esta arma pode causar)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "anel-de-invisibilidade",
+  "tipo": "item-magico",
+  "nome": "Anel de Invisibilidade",
+  "resumo": "Anel de prata que coloca o usuário sob efeito de Invisibilidade, reativável após atacar ou conjurar.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ao colocar este anel de prata, você fica sob efeito de Invisibilidade. O efeito termina se você fizer um ataque ou lançar uma magia ofensiva, mas você pode tirar e recolocar o anel (uma ação padrão) para que ele volte a funcionar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

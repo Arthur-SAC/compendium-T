@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-curar-ferimentos",
+  "tipo": "item-magico",
+  "nome": "Poção de Curar Ferimentos",
+  "resumo": "Poção que reproduz a magia Curar Ferimentos, recuperando pontos de vida; disponível em quatro potências.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Curar Ferimentos: recupera pontos de vida de quem a bebe. As variações de potência da Tabela 8-12 são: 2d8+2 PV (T$ 30); com aprimoramentos, 4d8+4 PV (T$ 270), 7d8+7 PV (T$ 1.080) e 11d8+11 PV (T$ 3.000). Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30 a T$ 3.000"
+  }
+}

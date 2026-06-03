@@ -1,0 +1,20 @@
+{
+  "id": "manto-do-fascinio",
+  "tipo": "item-magico",
+  "nome": "Manto do Fascínio",
+  "resumo": "Manto de veludo com bordados de ouro que fornece +1 em Carisma.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este manto de veludo possui bordados de ouro. Você recebe +1 em Carisma (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

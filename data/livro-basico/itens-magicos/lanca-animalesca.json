@@ -1,0 +1,20 @@
+{
+  "id": "lanca-animalesca",
+  "tipo": "item-magico",
+  "nome": "Lança Animalesca",
+  "resumo": "Lança formidável da qual brotam espinhos e folhas vivas, transferindo seu bônus às armas naturais na Forma Selvagem.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Espinhos e folhas vivas brotam desta lança formidável. Se você usar a habilidade Forma Selvagem, aplica o bônus de +2 em ataque e dano da lança animalesca em suas armas naturais."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

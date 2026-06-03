@@ -1,0 +1,20 @@
+{
+  "id": "cajado-da-destruicao",
+  "tipo": "item-magico",
+  "nome": "Cajado da Destruição",
+  "resumo": "Bordão formidável escuro com ponteiras de metal que conta como cajado arcano e aumenta o dano de magias de dano.",
+  "fonte": { "livro": "livro-basico", "pagina": 337 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este bordão formidável escuro e reforçado com ponteiras de metal é procurado por conjuradores de batalha. Conta como um cajado arcano. Além dos benefícios desse esotérico, quando você lança uma magia de dano, ela causa +1 ponto de dano por dado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

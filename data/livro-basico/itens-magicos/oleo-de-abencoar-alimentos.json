@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-abencoar-alimentos",
+  "tipo": "item-magico",
+  "nome": "Óleo de Abençoar Alimentos",
+  "resumo": "Óleo que reproduz a magia Abençoar Alimentos, purificando uma refeição e concedendo bônus temporários a quem se alimenta dela.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Abençoar Alimentos: purifica uma refeição, que também passa a fornecer bônus temporários a quem se alimenta dela. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

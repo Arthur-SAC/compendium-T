@@ -1,0 +1,20 @@
+{
+  "id": "colar-guardiao",
+  "tipo": "item-magico",
+  "nome": "Colar Guardião",
+  "resumo": "Diamante lapidado em corrente de platina que deflete ataques, concedendo +5 na Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 343 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este diamante lapidado preso em uma corrente de platina deflete ataques contra seu usuário. Você recebe +5 na Defesa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 51.000"
+  }
+}

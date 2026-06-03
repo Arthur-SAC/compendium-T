@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-concentracao-de-combate",
+  "tipo": "item-magico",
+  "nome": "Poção de Concentração de Combate",
+  "resumo": "Poção que reproduz a magia Concentração de Combate (aprimorada para duração cena), permitindo rolar dois dados de ataque e ficar com o melhor.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Concentração de Combate com o aprimoramento para duração cena: ao fazer um teste de ataque, você rola dois dados e usa o melhor resultado. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

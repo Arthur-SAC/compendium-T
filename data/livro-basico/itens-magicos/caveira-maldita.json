@@ -1,0 +1,20 @@
+{
+  "id": "caveira-maldita",
+  "tipo": "item-magico",
+  "nome": "Caveira Maldita",
+  "resumo": "Pedra em formato de crânio que gera o efeito da magia Profanar e fortalece mortos-vivos e devotos de energia negativa próximos.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pedra esculpida em formato de crânio gera o efeito da magia Profanar, com o crânio como ponto de origem. Mortos-vivos e devotos de deuses que canalizam apenas energia negativa na área de efeito recebem +2 em testes e Defesa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 10.500"
+  }
+}

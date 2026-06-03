@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-vitalidade",
+  "tipo": "item-magico",
+  "nome": "Anel da Vitalidade",
+  "resumo": "Anel que concede +10 PV após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +10 PV (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

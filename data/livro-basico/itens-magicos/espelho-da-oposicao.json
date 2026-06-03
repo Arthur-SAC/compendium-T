@@ -1,0 +1,20 @@
+{
+  "id": "espelho-da-oposicao",
+  "tipo": "item-magico",
+  "nome": "Espelho da Oposição",
+  "resumo": "Espelho que cria uma cópia hostil de quem observa seu reflexo, com as mesmas habilidades e equipamento.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este item lembra um espelho normal com cerca de 1m de comprimento e 1,5m de altura. Pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Quando uma criatura observa seu reflexo, o espelho cria uma cópia sua, com as mesmas habilidades e equipamento. A duplicata ataca a criatura original; quando um dos dois é derrotado, a duplicata e seus itens desaparecem."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 75.000"
+  }
+}

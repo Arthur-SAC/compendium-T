@@ -1,0 +1,18 @@
+{
+  "id": "opaco",
+  "tipo": "item-magico",
+  "nome": "Opaco",
+  "resumo": "Encanto de armadura ou escudo que concede redução de ácido, eletricidade, fogo e frio.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

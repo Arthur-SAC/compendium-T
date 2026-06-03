@@ -1,0 +1,18 @@
+{
+  "id": "destruidora",
+  "tipo": "item-magico",
+  "nome": "Destruidora",
+  "resumo": "Fornece +2 no ataque e +2d8 de dano contra construtos e objetos.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Se usada contra construtos e objetos (com a manobra quebrar), a arma fornece +2 no teste de ataque e causa +2d8 de dano."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

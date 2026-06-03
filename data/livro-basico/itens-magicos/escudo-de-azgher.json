@@ -1,0 +1,20 @@
+{
+  "id": "escudo-de-azgher",
+  "tipo": "item-magico",
+  "nome": "Escudo de Azgher",
+  "resumo": "Escudo pesado em forma de sol que emite uma luz com efeitos de Visão da Verdade e causa dano de fogo aos inimigos.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este escudo pesado guardião é forjado na forma de um sol estilizado. Você pode gastar uma ação padrão e 10 PM para fazê-lo emitir uma luz brilhante e quente num cone com alcance curto. A luz gera os efeitos da magia Visão da Verdade e causa 6d6 pontos de dano de fogo em todos os seus inimigos (mortos-vivos e criaturas vulneráveis a luz solar sofrem 6d8 pontos de dano). Você pode gastar 1 PM no início de cada um de seus turnos para manter a luz."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 140.000"
+  }
+}

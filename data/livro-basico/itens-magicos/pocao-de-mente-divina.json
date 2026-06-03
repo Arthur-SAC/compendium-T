@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-mente-divina",
+  "tipo": "item-magico",
+  "nome": "Poção de Mente Divina",
+  "resumo": "Poção que reproduz a magia Mente Divina, concedendo bônus em atributos mentais.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Mente Divina: fornece bônus em um ou mais atributos mentais. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

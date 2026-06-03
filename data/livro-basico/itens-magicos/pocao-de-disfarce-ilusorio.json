@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-disfarce-ilusorio",
+  "tipo": "item-magico",
+  "nome": "Poção de Disfarce Ilusório",
+  "resumo": "Poção que reproduz a magia Disfarce Ilusório, mudando a aparência de quem a bebe.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Disfarce Ilusório: muda a aparência de uma ou mais criaturas. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lamina-da-luz",
+  "tipo": "item-magico",
+  "nome": "Lâmina da Luz",
+  "resumo": "Espada bastarda formidável de lâmina prateada concedida a cavaleiros da Luz, capaz de irradiar luz brilhante.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "De lâmina prateada e reluzente, esta espada bastarda formidável é concedida a cavaleiros da Luz de honra e virtude comprovadas. Você pode gastar uma ação de movimento e 2 PM para erguer a lâmina da luz acima de sua cabeça. Se fizer isso, ela irradia luz brilhante em alcance médio até o fim da cena. Todos os inimigos dentro da luz ficam ofuscados."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

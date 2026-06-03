@@ -1,0 +1,20 @@
+{
+  "id": "amuleto-da-robustez",
+  "tipo": "item-magico",
+  "nome": "Amuleto da Robustez",
+  "resumo": "Disco com corrente de ouro usado como colar que concede +2 em Constituição após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este disco com corrente de ouro é usado como um colar. Você recebe +2 em Constituição (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

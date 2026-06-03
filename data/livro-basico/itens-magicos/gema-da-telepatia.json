@@ -1,0 +1,20 @@
+{
+  "id": "gema-da-telepatia",
+  "tipo": "item-magico",
+  "nome": "Gema da Telepatia",
+  "resumo": "Gema que permite lançar Compreensão e Enfeitiçar sem custo em PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar Compreensão e Enfeitiçar (CD Car) sem pagar seu custo em PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

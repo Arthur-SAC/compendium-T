@@ -1,0 +1,20 @@
+{
+  "id": "tapete-voador",
+  "tipo": "item-magico",
+  "nome": "Tapete Voador",
+  "resumo": "Tapete que flutua com deslocamento de voo 12m e carrega até seis criaturas Médias.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Com um comando, este tapete flutua, fornecendo deslocamento de voo 12m. O tapete tem 3m x 3m e pode carregar seis criaturas Médias (ou 120 espaços). Se você estiver em alcance longo do tapete, pode comandar o voo dele."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

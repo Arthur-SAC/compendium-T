@@ -1,0 +1,18 @@
+{
+  "id": "ilusorio",
+  "tipo": "item-magico",
+  "nome": "Ilusório",
+  "resumo": "Encanto de armadura ou escudo que faz o item parecer uma roupa comum, mantendo suas propriedades.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode gastar uma ação de movimento e 1 PM para fazer o item adquirir a aparência de uma roupa comum, mas mantendo suas propriedades (bônus na Defesa, penalidade de armadura...). A magia Visão da Verdade revela o item disfarçado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

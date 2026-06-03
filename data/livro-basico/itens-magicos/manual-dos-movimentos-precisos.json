@@ -1,0 +1,20 @@
+{
+  "id": "manual-dos-movimentos-precisos",
+  "tipo": "item-magico",
+  "nome": "Manual dos Movimentos Precisos",
+  "resumo": "Tomo de coordenação e equilíbrio cuja leitura aumenta a Destreza em +1 permanentemente.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este tomo volumoso descreve exercícios de coordenação e equilíbrio, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Destreza."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

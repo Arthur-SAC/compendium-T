@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-liberdade",
+  "tipo": "item-magico",
+  "nome": "Anel da Liberdade",
+  "resumo": "Anel de ouro, relíquia da Igreja de Valkaria, que mantém o usuário permanentemente sob efeito de Libertação.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de Libertação."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "brincos-da-sagacidade",
+  "tipo": "item-magico",
+  "nome": "Brincos da Sagacidade",
+  "resumo": "Par de brincos de safira que aguça o raciocínio, fornecendo +1 em Inteligência.",
+  "fonte": { "livro": "livro-basico", "pagina": 343 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este par de brincos de safira aguça o raciocínio. Você recebe +1 em Inteligência (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

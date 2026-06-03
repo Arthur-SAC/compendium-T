@@ -1,0 +1,20 @@
+{
+  "id": "corda-da-escalada",
+  "tipo": "item-magico",
+  "nome": "Corda da Escalada",
+  "resumo": "Corda de 15m que se move por comando e se fixa firmemente onde você quiser.",
+  "fonte": { "livro": "livro-basico", "pagina": 343 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta corda de 15m é bastante fina, mas forte o suficiente para suportar até seis criaturas Médias (ou 120 espaços). Com um comando (uma ação de movimento), a corda se move em qualquer direção (incluindo para cima) a 3m por rodada, fixando-se firmemente onde você quiser. Ela pode se desamarrar e voltar da mesma forma."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

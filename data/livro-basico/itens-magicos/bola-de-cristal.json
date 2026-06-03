@@ -1,0 +1,20 @@
+{
+  "id": "bola-de-cristal",
+  "tipo": "item-magico",
+  "nome": "Bola de Cristal",
+  "resumo": "Pequena esfera que revela pessoas e lugares distantes, gerando a magia Vidência.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pequena esfera revela pessoas e lugares distantes. Olhar através dela é uma ação completa e gera a magia Vidência (CD Sab)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 10.500"
+  }
+}

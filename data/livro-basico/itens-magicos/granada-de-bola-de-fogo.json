@@ -1,0 +1,23 @@
+{
+  "id": "granada-de-bola-de-fogo",
+  "tipo": "item-magico",
+  "nome": "Granada de Bola de Fogo",
+  "resumo": "Granada que reproduz a magia Bola de Fogo, explodindo em chamas e causando dano em área; disponível em duas potências.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta granada contém o efeito da magia Bola de Fogo: uma esfera incandescente explode, causando dano de fogo em todas as criaturas na área. As variações de potência da Tabela 8-12 são: 6d6 de dano (T$ 270) e, com aprimoramento, 10d6 de dano (T$ 1.470). Ativar uma granada exige uma ação padrão para arremessá-la em qualquer ponto em alcance curto (o ponto de impacto é o centro do efeito)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270 a T$ 1.470"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "elmo-do-teletransporte",
+  "tipo": "item-magico",
+  "nome": "Elmo do Teletransporte",
+  "resumo": "Elmo que permite lançar Salto Dimensional e Teletransporte sobre si mesmo.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar Salto Dimensional e Teletransporte, mas apenas em você mesmo. Caso já conheça as magias, o custo para lançá-las diminui em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

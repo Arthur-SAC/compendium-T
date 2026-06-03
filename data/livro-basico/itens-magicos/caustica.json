@@ -1,0 +1,18 @@
+{
+  "id": "caustica",
+  "tipo": "item-magico",
+  "nome": "Cáustica",
+  "resumo": "Encanto de armadura ou escudo que concede redução de ácido e permite que o item goteje ácido, somando dano aos ataques.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe redução de ácido 10 e pode gastar uma ação de movimento e 2 PM para fazer o item gotejar ácido. Se fizer isso, seus ataques causam +1d4 de dano de ácido até o fim da cena."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

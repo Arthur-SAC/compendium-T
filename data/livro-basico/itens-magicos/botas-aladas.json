@@ -1,0 +1,20 @@
+{
+  "id": "botas-aladas",
+  "tipo": "item-magico",
+  "nome": "Botas Aladas",
+  "resumo": "Botas das quais brotam asas, concedendo deslocamento de voo temporário ao gastar PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode gastar 2 PM para fazer asas brotarem dos calcanhares destas botas e receber deslocamento de voo 12m por uma rodada. Você pode gastar 1 PM no início de cada um de seus turnos para manter esse efeito."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 15.000"
+  }
+}

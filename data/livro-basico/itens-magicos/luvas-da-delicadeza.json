@@ -1,0 +1,20 @@
+{
+  "id": "luvas-da-delicadeza",
+  "tipo": "item-magico",
+  "nome": "Luvas da Delicadeza",
+  "resumo": "Luvas de tecido fino que permitem manipulação delicada, fornecendo +1 em Destreza.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Estas luvas de tecido fino permitem manipulação delicada. Você recebe +1 em Destreza (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

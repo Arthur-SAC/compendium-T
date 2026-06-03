@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-purificacao",
+  "tipo": "item-magico",
+  "nome": "Poção de Purificação",
+  "resumo": "Poção que reproduz a magia Purificação, removendo condições prejudiciais.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Purificação: remove condições prejudiciais do alvo. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

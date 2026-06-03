@@ -1,0 +1,20 @@
+{
+  "id": "garrafa-da-fumaca-eterna",
+  "tipo": "item-magico",
+  "nome": "Garrafa da Fumaça Eterna",
+  "resumo": "Ânfora de metal que lança Névoa sem custo em PM, persistindo até ser tampada.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode abrir a tampa desta ânfora de metal para lançar a magia Névoa sem pagar seu custo em PM. A fumaça persiste até a garrafa ser tampada. Após isso, dissipa-se no fim da cena (ou após 4 rodadas, sob vento forte, ou 1 rodada, sob um vendaval)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

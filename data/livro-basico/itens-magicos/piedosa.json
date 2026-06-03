@@ -1,0 +1,18 @@
+{
+  "id": "piedosa",
+  "tipo": "item-magico",
+  "nome": "Piedosa",
+  "resumo": "Causa +1d8 de dano, mas todo o dano causado é não letal.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +1d8 de dano, mas todo o dano causado é não letal. Você pode gastar 1 PM para desativar e ativar este encanto."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

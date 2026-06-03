@@ -1,0 +1,20 @@
+{
+  "id": "robe-do-arquimago",
+  "tipo": "item-magico",
+  "nome": "Robe do Arquimago",
+  "resumo": "Traje que gera um campo protetor para conjuradores arcanos, com bônus na Defesa e em resistências baseados no círculo de magia mais alto.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este traje pesado alinha-se com as energias arcanas emitidas por seu usuário para gerar um campo protetor. Se você for um conjurador arcano, recebe um bônus na Defesa igual a 5 + o círculo de magia mais alto que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Assim, um arcanista de 9º nível (capaz de lançar magias de 3º círculo) recebe +8 na Defesa e +4 em testes de resistência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 90.000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "venenosa",
+  "tipo": "item-magico",
+  "nome": "Venenosa",
+  "resumo": "Pode envenenar a vítima, causando perda de PV por rodada durante 3 rodadas.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica envenenada, perdendo 1d12 pontos de vida por rodada durante 3 rodadas. Uma arma venenosa verte um líquido verde e viscoso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

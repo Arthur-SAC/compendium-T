@@ -1,0 +1,20 @@
+{
+  "id": "braceletes-de-bronze",
+  "tipo": "item-magico",
+  "nome": "Braceletes de Bronze",
+  "resumo": "Braceletes que geram um campo de força invisível, concedendo +4 na Defesa (não cumulativo com armaduras).",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Estes braceletes geram um campo de força invisível, porém tangível. Você recebe +4 na Defesa, cumulativo com outros itens mágicos, mas não com armaduras."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 16.500"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tomo-da-lideranca-e-influencia",
+  "tipo": "item-magico",
+  "nome": "Tomo da Liderança e Influência",
+  "resumo": "Livro de encadernação luxuosa sobre convencer e inspirar cuja leitura aumenta o Carisma em +1 permanentemente.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este livro de encadernação luxuosa contém instruções detalhadas para convencer e inspirar os demais, mas as páginas escondem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Carisma."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "os-rubis-da-virtude",
+  "tipo": "item-magico",
+  "nome": "Os Rubis da Virtude",
+  "resumo": "Gemas indetectáveis que carregam a essência dos vinte deuses; incrustadas no corpo concedem um nível de classe, redução de dano e proteção contra adivinhação.",
+  "fonte": { "livro": "livro-basico", "pagina": 349 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Criados para selar um pacto entre os deuses do Panteão, os Rubis da Virtude quase foram a causa de sua morte. Cada um, se destruído, destruiria também o deus que estivesse secretamente ligado a ele — sem que fosse possível descobrir qual rubi pertencia a quem. Entregues a cada deus após sua criação, seriam mantidos como provas de confiança, garantias de que os deuses, mesmo aqueles envolvidos em disputas, jamais tentariam destruir uns aos outros.\n\nAs gemas não podem ser danificadas por mortais ou mesmo por deuses menores; apenas um deus do Panteão pode destruí-las. Além disso, não podem ser detectadas por meios mágicos.\n\nMesmo sem saber a quem estava ligada, cada deus guardou em lugar seguro a gema em sua posse. No entanto, conseguindo o que parecia ser impossível, Sszzaas — o mais traiçoeiro e furtivo dos seres — roubou todos os rubis. Ele foi descoberto e julgado antes de descobrir como utilizá-los, mas teve tempo de escondê-los em Arton. E os Rubis, protegidos de qualquer detecção mágica, não puderam ser encontrados.\n\nComo castigo, Sszzaas foi transformado em avatar e condenado a vagar pelo mundo até ser destruído ou aceito de volta. Os Rubis estavam desaparecidos, mas nenhum mortal poderia danificá-los. Mesmo assim, para evitar riscos, Khalmyr decretou que as ligações vitais entre os rubis e os deuses fossem rompidas. E assim foi feito.\n\nMesmo sem essa conexão, as gemas ainda eram poderosas, pois traziam parte da essência divina dos vinte deuses. Sabendo que poderia utilizá-las de alguma forma, Sszzaas tratou de mantê-las longe dos olhos dos deuses, até o último instante.\n\nOs Rubis da Virtude trazem grande poder a quem encontrá-los. Cada Rubi fornece a seu portador um nível de experiência em uma classe que ele já possua. Para isso, a gema deve ser incrustada no corpo da criatura, o que exige um teste de Cura (CD 25). O efeito leva um dia para se manifestar. Por sua invulnerabilidade, cada Rubi fornece redução de dano 2 e +1 em testes de resistência, cumulativos com efeitos já existentes — incluindo outros rubis. Por fim, por sua indetectabilidade, cada rubi torna o portador mais difícil de observar por meios mágicos. Um conjurador que lance uma magia de adivinhação contra o portador de um destes artefatos deve passar em um teste de Misticismo (CD 30 + a quantidade de rubis) ou a magia não terá efeito."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

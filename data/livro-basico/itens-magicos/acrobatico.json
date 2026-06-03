@@ -1,0 +1,18 @@
+{
+  "id": "acrobatico",
+  "tipo": "item-magico",
+  "nome": "Acrobático",
+  "resumo": "Encanto de armadura ou escudo que concede bônus em Acrobacia e ignora a penalidade de armadura nessa perícia.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +5 em Acrobacia e ignora a penalidade de armadura do item para testes dessa perícia."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

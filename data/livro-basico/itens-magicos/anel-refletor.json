@@ -1,0 +1,20 @@
+{
+  "id": "anel-refletor",
+  "tipo": "item-magico",
+  "nome": "Anel Refletor",
+  "resumo": "Aro de platina poderoso contra conjuradores, capaz de refletir magias de volta ao lançador.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este aro de platina é poderoso contra conjuradores. Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao seu conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 51.000"
+  }
+}

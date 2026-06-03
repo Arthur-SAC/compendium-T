@@ -1,0 +1,18 @@
+{
+  "id": "energetica",
+  "tipo": "item-magico",
+  "nome": "Energética",
+  "resumo": "Transforma a parte perigosa da arma em magia pura: +4 em ataque, ignora 20 de RD e converte o dano para essência.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma tem sua parte perigosa (a lâmina de uma espada, a ponta de uma lança...) transformada em magia pura. Ela fornece +4 em testes de ataque, ignora 20 pontos de redução de dano, converte todo o dano causado para essência e emana luz como uma tocha. Pré-requisito: formidável.\n\nEste encanto conta como dois encantos. Para itens menores, role novamente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

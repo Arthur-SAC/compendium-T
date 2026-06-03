@@ -1,0 +1,18 @@
+{
+  "id": "drenante",
+  "tipo": "item-magico",
+  "nome": "Drenante",
+  "resumo": "Em acerto crítico contra criatura viva, deixa-a fraca e concede PV temporários.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando você faz um acerto crítico em uma criatura viva, a criatura fica fraca e você ganha 2d10 pontos de vida temporários. Uma arma drenante emite um brilho púrpura."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

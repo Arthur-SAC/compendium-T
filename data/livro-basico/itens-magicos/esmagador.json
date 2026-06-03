@@ -1,0 +1,18 @@
+{
+  "id": "esmagador",
+  "tipo": "item-magico",
+  "nome": "Esmagador",
+  "resumo": "Encanto apenas para escudos que fornece bônus em ataque e dano e aumenta o dano do escudo em um passo.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Apenas escudos. Para armaduras, role novamente. Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

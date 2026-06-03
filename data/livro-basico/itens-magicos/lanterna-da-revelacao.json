@@ -1,0 +1,20 @@
+{
+  "id": "lanterna-da-revelacao",
+  "tipo": "item-magico",
+  "nome": "Lanterna da Revelação",
+  "resumo": "Lampião cuja luz revela todas as criaturas e objetos invisíveis no alcance.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este item funciona como um lampião normal, mas sua luz revela todas as criaturas e objetos invisíveis no alcance."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 6.000"
+  }
+}

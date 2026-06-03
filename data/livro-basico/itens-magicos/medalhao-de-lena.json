@@ -1,0 +1,20 @@
+{
+  "id": "medalhao-de-lena",
+  "tipo": "item-magico",
+  "nome": "Medalhão de Lena",
+  "resumo": "Joia que emite uma explosão de energia positiva curando 100 PV quando o usuário é reduzido a 0 PV ou menos.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando você é reduzido a 0 ou menos PV, esta joia emite uma explosão de energia positiva que cura 100 PV (antes que você caia). Este poder só se ativa uma vez por dia."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

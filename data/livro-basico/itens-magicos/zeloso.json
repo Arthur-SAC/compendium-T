@@ -1,0 +1,18 @@
+{
+  "id": "zeloso",
+  "tipo": "item-magico",
+  "nome": "Zeloso",
+  "resumo": "Encanto de armadura ou escudo que permite atrair para si um ataque destinado a um aliado adjacente.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

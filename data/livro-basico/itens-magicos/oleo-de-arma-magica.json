@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-arma-magica",
+  "tipo": "item-magico",
+  "nome": "Óleo de Arma Mágica",
+  "resumo": "Óleo que reproduz a magia Arma Mágica, tornando uma arma mágica e concedendo bônus de ataque e dano; disponível em duas potências.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Arma Mágica: a arma é considerada mágica e fornece +1 nos testes de ataque e nas rolagens de dano (conta como bônus de encanto). Com aprimoramento para bônus +3 (T$ 750), o bônus fornecido sobe para +3. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30 a T$ 750"
+  }
+}

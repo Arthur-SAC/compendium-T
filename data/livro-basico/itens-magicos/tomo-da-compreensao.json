@@ -1,0 +1,20 @@
+{
+  "id": "tomo-da-compreensao",
+  "tipo": "item-magico",
+  "nome": "Tomo da Compreensão",
+  "resumo": "Livro de ensinamentos para aguçar a percepção cuja leitura aumenta a Sabedoria em +1 permanentemente.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este livro volumoso contém ensinamentos para tornar o leitor mais centrado e aguçar sua percepção, mas também possui um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Sabedoria."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

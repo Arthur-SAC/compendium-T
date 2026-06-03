@@ -1,0 +1,18 @@
+{
+  "id": "defensora",
+  "tipo": "item-magico",
+  "nome": "Defensora",
+  "resumo": "A arma se movimenta para aparar ataques, fornecendo +2 na Defesa.",
+  "fonte": { "livro": "livro-basico", "pagina": 335 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma se movimenta para aparar ataques contra você. Você recebe +2 na Defesa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

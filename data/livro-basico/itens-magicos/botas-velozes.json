@@ -1,0 +1,20 @@
+{
+  "id": "botas-velozes",
+  "tipo": "item-magico",
+  "nome": "Botas Velozes",
+  "resumo": "Botas que concedem +3m de deslocamento e permitem lançar Velocidade sobre si mesmo.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +3m em seu deslocamento e pode lançar Velocidade (apenas sobre você mesmo)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

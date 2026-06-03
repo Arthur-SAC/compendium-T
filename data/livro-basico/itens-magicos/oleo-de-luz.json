@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-luz",
+  "tipo": "item-magico",
+  "nome": "Óleo de Luz",
+  "resumo": "Óleo que reproduz a magia Luz, fazendo um objeto iluminar como uma tocha.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Luz: o objeto afetado ilumina como uma tocha. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

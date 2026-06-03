@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-camuflagem-ilusoria",
+  "tipo": "item-magico",
+  "nome": "Poção de Camuflagem Ilusória",
+  "resumo": "Poção que reproduz a magia Camuflagem Ilusória, distorcendo a imagem do alvo e concedendo camuflagem.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Camuflagem Ilusória: a imagem do alvo fica distorcida, concedendo camuflagem. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

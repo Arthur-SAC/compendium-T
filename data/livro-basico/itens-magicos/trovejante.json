@@ -1,0 +1,18 @@
+{
+  "id": "trovejante",
+  "tipo": "item-magico",
+  "nome": "Trovejante",
+  "resumo": "Em acerto crítico, atordoa a vítima por uma rodada (uma vez por cena).",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

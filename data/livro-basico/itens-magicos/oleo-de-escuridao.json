@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-escuridao",
+  "tipo": "item-magico",
+  "nome": "Óleo de Escuridão",
+  "resumo": "Óleo que reproduz a magia Escuridão, fazendo um objeto emanar uma área de escuridão.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Escuridão: o objeto afetado emana uma área de escuridão. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

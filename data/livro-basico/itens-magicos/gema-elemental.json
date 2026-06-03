@@ -1,0 +1,20 @@
+{
+  "id": "gema-elemental",
+  "tipo": "item-magico",
+  "nome": "Gema Elemental",
+  "resumo": "Gema que permite lançar Conjurar Elemental sem custo em PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar Conjurar Elemental sem pagar seu custo em PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

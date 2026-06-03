@@ -1,0 +1,18 @@
+{
+  "id": "sombrio",
+  "tipo": "item-magico",
+  "nome": "Sombrio",
+  "resumo": "Encanto de armadura ou escudo que concede bônus em Furtividade e ignora a penalidade de armadura nessa perícia.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +5 em Furtividade e ignora a penalidade de armadura do item para testes dessa perícia. Um item sombrio é escuro, fosco e bem lubrificado, para não fazer barulho."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

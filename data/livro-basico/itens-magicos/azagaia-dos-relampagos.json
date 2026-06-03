@@ -1,0 +1,20 @@
+{
+  "id": "azagaia-dos-relampagos",
+  "tipo": "item-magico",
+  "nome": "Azagaia dos Relâmpagos",
+  "resumo": "Azagaia que, ao ser arremessada, se transforma em um Relâmpago e depois retorna para você.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando arremessada, esta azagaia se transforma em um Relâmpago (8d6 de dano de eletricidade numa linha com alcance médio; CD For ou Des a sua escolha). Quando atinge o fim do alcance ela volta a ser uma azagaia e volta para você no fim do turno."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

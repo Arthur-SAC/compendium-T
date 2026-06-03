@@ -1,0 +1,18 @@
+{
+  "id": "formidavel",
+  "tipo": "item-magico",
+  "nome": "Formidável",
+  "resumo": "Fornece +2 em testes de ataque e rolagens de dano.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma é encantada para desferir golpes precisos. Ela fornece +2 em testes de ataque e rolagens de dano."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

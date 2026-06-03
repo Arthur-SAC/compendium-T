@@ -1,0 +1,18 @@
+{
+  "id": "profana",
+  "tipo": "item-magico",
+  "nome": "Profana",
+  "resumo": "Causa +2d8 de dano contra devotos de deuses de energia positiva e criaturas bondosas.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre). Uma arma profana emite luz rubra pulsante."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

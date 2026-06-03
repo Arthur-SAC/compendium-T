@@ -1,0 +1,18 @@
+{
+  "id": "fantasmagorico",
+  "tipo": "item-magico",
+  "nome": "Fantasmagórico",
+  "resumo": "Encanto de armadura ou escudo que permite lançar a magia Manto de Sombras.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você pode lançar a magia Manto de Sombras. Um item fantasmagórico é cinzento e esfumaçado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-compreensao",
+  "tipo": "item-magico",
+  "nome": "Poção de Compreensão",
+  "resumo": "Poção que reproduz a magia Compreensão, permitindo entender qualquer coisa escrita ou falada e ouvir pensamentos.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Compreensão: você entende qualquer coisa escrita ou falada e pode ouvir pensamentos. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

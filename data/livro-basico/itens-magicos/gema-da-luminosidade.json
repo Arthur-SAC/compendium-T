@@ -1,0 +1,20 @@
+{
+  "id": "gema-da-luminosidade",
+  "tipo": "item-magico",
+  "nome": "Gema da Luminosidade",
+  "resumo": "Prisma de cristal que emite luz de tocha ou um raio brilhante que cega um alvo.",
+  "fonte": { "livro": "livro-basico", "pagina": 344 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este cristal tem a aparência de um longo prisma. Com um comando, emite luz equivalente a uma tocha ou então um raio brilhante, que deixa uma criatura em alcance curto cega por 1d4 rodadas (Fort CD Car evita)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

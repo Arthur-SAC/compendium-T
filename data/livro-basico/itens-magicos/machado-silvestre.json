@@ -1,0 +1,20 @@
+{
+  "id": "machado-silvestre",
+  "tipo": "item-magico",
+  "nome": "Machado Silvestre",
+  "resumo": "Machado de batalha formidável com gravuras de plantas e animais que causa dano extra e concede Trespassar em ambientes ermos.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O cabo e a lâmina deste machado de batalha formidável são cobertos de gravuras representando plantas e animais selvagens. Quando você usa o machado silvestre em um ambiente ermo e ao ar livre, causa +1d8 de dano e recebe o poder Trespassar. Caso já possua este poder, pode utilizá-lo sem pagar pontos de mana."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 70.000"
+  }
+}

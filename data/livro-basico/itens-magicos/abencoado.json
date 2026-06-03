@@ -1,0 +1,18 @@
+{
+  "id": "abencoado",
+  "tipo": "item-magico",
+  "nome": "Abençoado",
+  "resumo": "Encanto de armadura ou escudo que concede redução de trevas e resistência contra necromancia.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe redução de trevas 10 e +5 em testes de resistência contra efeitos de necromancia. Um item abençoado é decorado com gravuras de símbolos sagrados de deuses do Bem."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-vitalidade-fantasma",
+  "tipo": "item-magico",
+  "nome": "Poção de Vitalidade Fantasma",
+  "resumo": "Poção que reproduz a magia Vitalidade Fantasma, concedendo pontos de vida temporários.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Vitalidade Fantasma: você recebe pontos de vida temporários. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

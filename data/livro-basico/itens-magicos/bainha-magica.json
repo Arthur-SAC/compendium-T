@@ -1,0 +1,20 @@
+{
+  "id": "bainha-magica",
+  "tipo": "item-magico",
+  "nome": "Bainha Mágica",
+  "resumo": "Bainha que se ajusta a qualquer arma corpo a corpo e lança Arma Mágica sem custo em PM.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta bainha de couro curtido e prata muda de tamanho para acomodar qualquer arma corpo a corpo. Você pode lançar Arma Mágica em qualquer arma na bainha sem pagar seu custo em PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

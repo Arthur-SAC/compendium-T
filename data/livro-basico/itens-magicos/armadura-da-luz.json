@@ -1,0 +1,20 @@
+{
+  "id": "armadura-da-luz",
+  "tipo": "item-magico",
+  "nome": "Armadura da Luz",
+  "resumo": "Armadura completa banhada a ouro com o símbolo de Khalmyr que concede redução de dano igual ao Carisma a quem segue um código de conduta ou é devoto de energia positiva.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta armadura completa banhada a ouro reforçada guardiã zelosa possui o símbolo de Khalmyr gravado no peitoral. Se você possuir um código de conduta (de honra, do herói...) ou for devoto de uma divindade que canaliza apenas energia positiva, recebe redução de dano igual ao seu Carisma."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 150.000"
+  }
+}

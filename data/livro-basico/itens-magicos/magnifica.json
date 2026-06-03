@@ -1,0 +1,18 @@
+{
+  "id": "magnifica",
+  "tipo": "item-magico",
+  "nome": "Magnífica",
+  "resumo": "Fornece +4 em testes de ataque e rolagens de dano.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma é encantada para desferir golpes perfeitos. Ela fornece +4 em testes de ataque e rolagens de dano. Pré-requisito: formidável.\n\nEste encanto conta como dois encantos. Para itens menores, role novamente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

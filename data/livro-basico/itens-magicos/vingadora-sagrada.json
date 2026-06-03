@@ -1,0 +1,20 @@
+{
+  "id": "vingadora-sagrada",
+  "tipo": "item-magico",
+  "nome": "Vingadora Sagrada",
+  "resumo": "Espada longa formidável que revela todo o seu poder apenas nas mãos de um paladino, concedendo grandes bônus de ataque, dano e resistência a magia.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada longa formidável revela todo o seu poder apenas quando empunhada por um paladino. Se você for um paladino, recebe +5 em testes de ataque e rolagens de dano, o custo de seu Golpe Divino é reduzido em –1 PM e você e seus aliados em alcance curto recebem resistência a magia +5."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 200.000"
+  }
+}

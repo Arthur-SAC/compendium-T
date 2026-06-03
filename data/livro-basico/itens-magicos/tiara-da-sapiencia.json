@@ -1,0 +1,20 @@
+{
+  "id": "tiara-da-sapiencia",
+  "tipo": "item-magico",
+  "nome": "Tiara da Sapiência",
+  "resumo": "Tiara delicada com uma gema sobre a testa que concede +2 em Inteligência após um dia de uso.",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta tiara delicada possui uma gema que descansa sobre a testa. Você recebe +2 em Inteligência (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 25.500"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-vestimenta-da-fe",
+  "tipo": "item-magico",
+  "nome": "Óleo de Vestimenta da Fé",
+  "resumo": "Óleo que reproduz a magia Vestimenta da Fé, concedendo bônus na Defesa a um traje, armadura ou escudo.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Vestimenta da Fé: um traje, armadura ou escudo recebe bônus na Defesa. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-fisico-divino",
+  "tipo": "item-magico",
+  "nome": "Poção de Físico Divino",
+  "resumo": "Poção que reproduz a magia Físico Divino, concedendo bônus em atributos físicos; disponível em duas potências.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Físico Divino: fornece +2 em um atributo físico (Força, Destreza ou Constituição) à escolha. As variações da Tabela 8-12 são: um atributo (T$ 270) e, com aprimoramento, três atributos físicos (T$ 1.080). Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270 a T$ 1.080"
+  }
+}

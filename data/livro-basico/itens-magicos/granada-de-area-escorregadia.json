@@ -1,0 +1,23 @@
+{
+  "id": "granada-de-area-escorregadia",
+  "tipo": "item-magico",
+  "nome": "Granada de Área Escorregadia",
+  "resumo": "Granada que reproduz a magia Área Escorregadia, cobrindo uma área de modo que criaturas podem cair ou objetos podem ser derrubados.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta granada contém o efeito da magia Área Escorregadia: criaturas na área podem cair e um objeto afetado pode ser derrubado. Ativar uma granada exige uma ação padrão para arremessá-la em qualquer ponto em alcance curto (o ponto de impacto é o centro do efeito)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

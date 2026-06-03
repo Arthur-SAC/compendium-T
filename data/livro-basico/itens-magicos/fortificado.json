@@ -1,0 +1,18 @@
+{
+  "id": "fortificado",
+  "tipo": "item-magico",
+  "nome": "Fortificado",
+  "resumo": "Encanto de armadura ou escudo que concede chance de ignorar o dano extra de acertos críticos e ataques furtivos.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe 25% de chance (para escudos) e 50% de chance (para armaduras) de ignorar o dano extra de acertos críticos e ataques furtivos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

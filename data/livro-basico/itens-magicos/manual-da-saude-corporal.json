@@ -1,0 +1,20 @@
+{
+  "id": "manual-da-saude-corporal",
+  "tipo": "item-magico",
+  "nome": "Manual da Saúde Corporal",
+  "resumo": "Tomo de resistência e dietas saudáveis cuja leitura aumenta a Constituição em +1 permanentemente.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este tomo volumoso contém exercícios de resistência e dietas saudáveis, mas suas palavras trazem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Constituição."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

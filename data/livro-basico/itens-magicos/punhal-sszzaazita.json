@@ -1,0 +1,20 @@
+{
+  "id": "punhal-sszzaazita",
+  "tipo": "item-magico",
+  "nome": "Punhal Sszzaazita",
+  "resumo": "Adaga assassina formidável venenosa de lâmina negra que pode se transformar em um objeto inofensivo indetectável.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta adaga assassina formidável venenosa tem lâmina negra e ondulada. Você pode gastar uma ação padrão e 2 PM para transformar o punhal sszzaazita em um objeto inofensivo de tamanho similar, como uma colher ou pena. Nenhuma magia é capaz de detectar essa transformação. Transformar o punhal em arma é uma ação livre."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 100.000"
+  }
+}

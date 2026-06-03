@@ -1,0 +1,20 @@
+{
+  "id": "vassoura-voadora",
+  "tipo": "item-magico",
+  "nome": "Vassoura Voadora",
+  "resumo": "Como um tapete voador, mas carrega duas pessoas (ou 40 espaços).",
+  "fonte": { "livro": "livro-basico", "pagina": 342 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Como um tapete voador, mas pode carregar duas pessoas (ou 40 espaços)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

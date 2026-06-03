@@ -1,0 +1,18 @@
+{
+  "id": "protetor",
+  "tipo": "item-magico",
+  "nome": "Protetor",
+  "resumo": "Encanto de armadura ou escudo que concede bônus em testes de resistência.",
+  "fonte": { "livro": "livro-basico", "pagina": 339 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +2 em testes de resistência."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

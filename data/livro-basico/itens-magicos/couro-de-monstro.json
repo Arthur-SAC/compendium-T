@@ -1,0 +1,20 @@
+{
+  "id": "couro-de-monstro",
+  "tipo": "item-magico",
+  "nome": "Couro de Monstro",
+  "resumo": "Gibão de peles feito do couro de monstros que concede bônus extra ao dano ao usar Ataque Poderoso ou investida.",
+  "fonte": { "livro": "livro-basico", "pagina": 340 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Usado por chefes bárbaros das Montanhas Sanguinárias, este gibão de peles defensor é feito do couro de monstros, como basiliscos e serpes. Se você usar o poder Ataque Poderoso ou fizer uma investida, recebe um bônus de +2d6 nas rolagens de dano."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 36.000"
+  }
+}

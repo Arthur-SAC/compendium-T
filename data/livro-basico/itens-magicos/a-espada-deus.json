@@ -1,0 +1,19 @@
+{
+  "id": "a-espada-deus",
+  "tipo": "item-magico",
+  "nome": "A Espada-Deus",
+  "resumo": "Espada longa indestrutível, ela própria cultuada como divindade, a melhor arma já forjada por Rhond.",
+  "fonte": { "livro": "livro-basico", "pagina": 346 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Poucos duvidam: as divindades estão presentes em cada aspecto da vida em Arton. Uma das provas disso é a capacidade dos mortais de se tornarem deuses menores. Contudo, tão forte é o poder divino que até mesmo objetos podem ser deuses.\n\nA Espada-Deus não é um objeto sagrado. Não é poderosa porque foi abençoada por um deus. A espada-deus é, ela própria, cultuada. Ela oferece bênçãos, possui clérigos, ouve preces. Alguns têm dificuldade de entender como um objeto pode ser alvo de adoração — mas, ao olhar pela janela, qualquer um é capaz de ver alguém que venera o ouro ou uma bandeira. Pessoas veneram objetos o tempo todo.\n\nA Espada-Deus é a melhor arma já forjada por Rhond, o Deus Menor das Armas. Foi empunhada por incontáveis heróis e vilões, mas os nomes desses mortais foram esquecidos — a arma é maior que todos. Após ser usada por algum tempo, sempre acaba em algum local inóspito de onde só pode ser tirada por um mortal digno. Pode estar no fundo de um lago, sendo entregue por uma fada, ou cravada em uma pedra, selecionando quem pode arrancá-la. A arma foi vista pela última vez nas mãos de Orion Drake, na batalha contra a Tormenta em Tamu-ra.\n\nA Espada-Deus é uma espada longa atroz precisa pungente ameaçadora magnífica veloz, com dano básico de 2d12. Alguns estudiosos e armeiros dizem que seu fio é tão fino que pode cortar qualquer coisa e em todos os Planos de existência simultaneamente. Por isso, a espada-deus ignora redução de dano e seus acertos críticos afetam até mesmo criaturas imunes a acertos críticos. A espada-deus é indestrutível.\n\nQuando há chance de combate, a Espada-Deus vibra na mão do usuário, ou mesmo na bainha. Apenas personagens com pelo menos 15 níveis em classes com Luta como perícia inicial podem usar a espada-deus. Os demais erram todos os ataques com a arma. Quando está aguardando seu próximo usuário, a Espada-Deus não permite que um personagem que não cumpra esse pré-requisito tire-a de onde está.\n\nFisicamente, a Espada-Deus é surpreendentemente simples. Seu cabo é forrado com couro, seu guarda-mão é uma barra de metal simples, sua lâmina não possui adornos. Seu poder real não se revela na aparência — apenas na luta."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "oleo-de-armamento-da-natureza",
+  "tipo": "item-magico",
+  "nome": "Óleo de Armamento da Natureza",
+  "resumo": "Óleo que reproduz a magia Armamento da Natureza, fazendo uma arma natural ou primitiva causar dano como se fosse maior.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este óleo contém o efeito da magia Armamento da Natureza: uma arma natural ou primitiva causa dano como se fosse maior. Ativar um óleo exige uma ação padrão para aplicá-lo no objeto a ser afetado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

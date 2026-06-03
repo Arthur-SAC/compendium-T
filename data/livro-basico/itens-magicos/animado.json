@@ -1,0 +1,18 @@
+{
+  "id": "animado",
+  "tipo": "item-magico",
+  "nome": "Animado",
+  "resumo": "Encanto apenas para escudos que faz o escudo flutuar e defender sozinho, deixando as mãos livres.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Apenas escudos. Para armaduras, role novamente. Você pode gastar uma ação de movimento e 1 PM para fazer o escudo flutuar ao seu redor até o fim da cena. Você recebe o mesmo bônus na Defesa que receberia se estivesse empunhando o escudo, mas fica com as duas mãos livres. Você só pode ser protegido por um escudo ao mesmo tempo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

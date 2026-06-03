@@ -1,0 +1,18 @@
+{
+  "id": "tumular",
+  "tipo": "item-magico",
+  "nome": "Tumular",
+  "resumo": "Causa +1d8 de dano de trevas, ampliável para +2d8 ao custo de PV próprios.",
+  "fonte": { "livro": "livro-basico", "pagina": 336 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma causa +1d8 de dano de trevas. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, o bônus de dano aumenta para +2d8, mas você perde 1d8 pontos de vida. Uma arma tumular drena o calor ao redor."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "granada-de-nevoa",
+  "tipo": "item-magico",
+  "nome": "Granada de Névoa",
+  "resumo": "Granada que reproduz a magia Névoa, criando uma névoa que oferece camuflagem.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta granada contém o efeito da magia Névoa: cria uma névoa que oferece camuflagem. Ativar uma granada exige uma ação padrão para arremessá-la em qualquer ponto em alcance curto (o ponto de impacto é o centro do efeito)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Menor",
+    "preco": "T$ 30"
+  }
+}

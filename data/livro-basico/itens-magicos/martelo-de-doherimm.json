@@ -1,0 +1,20 @@
+{
+  "id": "martelo-de-doherimm",
+  "tipo": "item-magico",
+  "nome": "Martelo de Doherimm",
+  "resumo": "Martelo de guerra formidável de pedra e aço que, empunhado por um anão, ganha o encanto arremesso e dano extra.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este martelo de guerra formidável é feito de pedra e aço. Quando empunhado por um anão, adquire o encanto arremesso e aumenta seu dano em +1d8 (ou +2d8 se usado contra criaturas Grandes ou maiores)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 70.000"
+  }
+}

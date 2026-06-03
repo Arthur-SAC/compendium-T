@@ -1,0 +1,23 @@
+{
+  "id": "pocao-de-aparencia-perfeita",
+  "tipo": "item-magico",
+  "nome": "Poção de Aparência Perfeita",
+  "resumo": "Poção que reproduz a magia Aparência Perfeita, aumentando o Carisma e concedendo bônus em perícias sociais.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 341
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta poção contém o efeito da magia Aparência Perfeita: aumenta o Carisma e concede bônus em perícias sociais. Para ativá-la, beba-a com uma ação padrão (a poção afeta quem a ingere)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Poção",
+    "categoria": "Médio",
+    "preco": "T$ 270"
+  }
+}

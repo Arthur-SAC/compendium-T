@@ -1,0 +1,18 @@
+{
+  "id": "escorregadio",
+  "tipo": "item-magico",
+  "nome": "Escorregadio",
+  "resumo": "Encanto de armadura ou escudo que concede bônus para escapar e em manobras contra agarrar.",
+  "fonte": { "livro": "livro-basico", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Você recebe +10 em testes de Acrobacia para escapar e em testes de manobra contra agarrar. Um item escorregadio parece estar sempre coberto de óleo levemente gorduroso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

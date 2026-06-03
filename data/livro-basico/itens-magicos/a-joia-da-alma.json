@@ -1,0 +1,19 @@
+{
+  "id": "a-joia-da-alma",
+  "tipo": "item-magico",
+  "nome": "A Joia da Alma",
+  "resumo": "Gema indestrutível de vinte faces, resíduo da inexistência, que fornece +3 Inteligência mas pode esvair a sanidade do portador.",
+  "fonte": { "livro": "livro-basico", "pagina": 346 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "No princípio não havia deuses. Nem vida, nem mundo, nem mesmo o próprio tempo. Não havia luz ou trevas, calor ou frio. Não havia forma nem tamanho, sequer havia o conceito de existir. Foi em meio à não existência que o Nada e o Vazio se casaram e deram origem à Criação e tudo que a compõe. O mundo de Arton. Engana-se, porém, quem pensa que nenhum vestígio restou da aurora do universo. Há uma fagulha. Um resíduo da inexistência que se manifesta na forma de gema preciosa que ainda hoje busca cumprir o propósito de sua essência. Os mortais a chamam de Joia da Alma.\n\nÉ tênue a linha entre a existência e a não existência. Perdida em um ambiente que não o seu, a Joia da Alma busca transpor essa barreira. Para isso, vasculha a memória daqueles que a tocam, procurando por falhas — ou fendas — na realidade, algo que possa usar como meio para se reunir ao outro lado. Não é capaz de impor uma ação aos seres de carne e osso, mas se alimenta daquilo que enxerga. Isso torna o contato prolongado algo perigoso, capaz de causar danos irreparáveis ao espírito do portador.\n\nQualquer um que toque a Joia da Alma terá seu passado esmiuçado pela pedra. Como efeito colateral, recuperará instantaneamente todas as memórias de sua vida, tanto momentos bons quanto ruins, desde o nascimento até agora. Por contrariar leis da natureza, muitas vezes isso acontece de forma dolorosa. Nem todos estão preparados para o turbilhão de emoções acarretado pela lembrança. O portador mantém todas as lembranças enquanto segurar a joia. Ao soltá-la, as memórias retornam ao esquecimento.\n\nPortar a Joia da Alma fornece +3 em Inteligência (somente após um dia de uso). O artefato é cobiçado por arcanistas que memorizam magias, pois impede que elas sumam da memória — para magos, o custo para lançar magias arcanas diminui para 0 PM (custos de aprimoramentos ainda precisam ser pagos).\n\nEmpunhar a Joia da Alma exige um teste de Vontade (CD 25). Se falhar, o personagem fica atordoado por uma rodada e larga o artefato no chão. Se passar, consegue segurar a Joia sem efeitos colaterais. Mesmo assim, precisa repetir o teste no início de cada dia, com a CD aumentando cumulativamente em +1 por dia. Se falhar, fica frustrado. Se falhar novamente, fica esmorecido. Se falhar num terceiro teste, sua sanidade se esvai. Se for um personagem jogador, torna-se um NPC sob controle do mestre — a Joia não foi feita para ser empunhada por mortais.\n\nA Joia da Alma é uma gema indestrutível e semitransparente, lapidada com vinte faces iguais. As mesmas faces dos vinte deuses primordiais, cujo nascimento presenciou."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

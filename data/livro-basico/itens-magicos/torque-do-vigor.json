@@ -1,0 +1,20 @@
+{
+  "id": "torque-do-vigor",
+  "tipo": "item-magico",
+  "nome": "Torque do Vigor",
+  "resumo": "Colar ou bracelete com acabamento de animal poderoso que fornece +1 em Constituição.",
+  "fonte": { "livro": "livro-basico", "pagina": 345 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O acabamento deste colar ou bracelete remete a um animal poderoso, como um urso ou lobo. Você recebe +1 em Constituição (somente após um dia de uso)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}
