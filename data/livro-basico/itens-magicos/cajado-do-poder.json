@@ -1,0 +1,20 @@
+{
+  "id": "cajado-do-poder",
+  "tipo": "item-magico",
+  "nome": "Cajado do Poder",
+  "resumo": "Bordão defensor magnífico que conta como cajado arcano e reduz o custo das suas magias arcanas, aumentando a CD para resisti-las.",
+  "fonte": { "livro": "livro-basico", "pagina": 337 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este bordão defensor magnífico tem cabo reto e liso, com uma joia cintilante na ponta. Conta como um cajado arcano. Além dos benefícios desse esotérico, o custo de suas magias arcanas diminui em –1 PM (cumulativo com Mestre em Escola) e a CD para resistir a elas aumenta em +2 (para um aumento total de +3)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 180.000"
+  }
+}

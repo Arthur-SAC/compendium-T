@@ -8,6 +8,7 @@ import { FichaOrigem } from "@/components/FichaOrigem";
 import { FichaPericia } from "@/components/FichaPericia";
 import { FichaPoder } from "@/components/FichaPoder";
 import { FichaItem } from "@/components/FichaItem";
+import { FichaItemMagico } from "@/components/FichaItemMagico";
 import { FichaMagia } from "@/components/FichaMagia";
 import { FichaDivindade } from "@/components/FichaDivindade";
 import { FichaCriatura } from "@/components/FichaCriatura";
@@ -45,6 +46,8 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
         <FichaPoder entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "item" ? (
         <FichaItem entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : entidade.tipo === "item-magico" ? (
+        <FichaItemMagico entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "magia" ? (
         <FichaMagia entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "divindade" ? (

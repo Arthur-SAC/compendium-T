@@ -32,6 +32,9 @@ export default function Home() {
         <Link href="/equipamento" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver o equipamento →
         </Link>
+        <Link href="/itens-magicos" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
+          Ver os itens mágicos →
+        </Link>
         <Link href="/magias" style={{ color: "var(--ouro)", textDecoration: "none", fontFamily: "var(--serifa)", borderBottom: "1px solid rgba(232,192,106,.4)" }}>
           Ver todas as magias →
         </Link>

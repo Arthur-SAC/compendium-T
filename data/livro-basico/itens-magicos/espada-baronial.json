@@ -1,0 +1,20 @@
+{
+  "id": "espada-baronial",
+  "tipo": "item-magico",
+  "nome": "Espada Baronial",
+  "resumo": "Espada longa de guarda reta que premia quem segue um código de conduta, é devoto de Khalmyr ou é treinado em Nobreza.",
+  "fonte": { "livro": "livro-basico", "pagina": 337 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada longa de guarda reta fornece +1 em testes de ataque e rolagens de dano. Este bônus aumenta em +1 se você possuir um código de conduta (de honra, do herói...), for devoto de Khalmyr ou for treinado em Nobreza. Os bônus são cumulativos — um personagem com um código de conduta, devoto de Khalmyr e treinado em Nobreza recebe +4 em ataque e dano."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

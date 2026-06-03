@@ -2,6 +2,7 @@ import { z } from "zod";
 
 export const TIPOS_ENTIDADE = [
   "raca", "classe", "origem", "poder", "magia", "pericia", "item",
+  "item-magico",
   "condicao", "divindade", "criatura", "npc", "regiao", "distincao",
   "variante-classe", "linhagem", "termo", "regra", "regra-de-criacao",
 ] as const;
@@ -194,6 +195,16 @@ export const ItemMecanicaSchema = z.object({
 });
 export type ItemMecanica = z.infer<typeof ItemMecanicaSchema>;
 
+// Item mágico (Cap. 8 — Recompensas). Descrição rica vai em `secoes`; aqui só os metadados.
+export const ItemMagicoMecanicaSchema = z.object({
+  tipoItem: z.string(),               // "Encanto de Arma"|"Arma Específica"|"Encanto de Armadura"|"Armadura Específica"|"Escudo Específico"|"Poção"|"Pergaminho"|"Acessório"|"Artefato"
+  categoria: z.string().optional(),   // "Menor"|"Médio"|"Maior"|"Artefato" (raridade)
+  preco: z.string().optional(),       // "T$ 30.000" (encantos: preço vem da Tabela 8-7)
+  espacos: z.string().optional(),
+  ativacao: z.string().optional(),    // ex.: "ação padrão", quando relevante
+});
+export type ItemMagicoMecanica = z.infer<typeof ItemMagicoMecanicaSchema>;
+
 export const AprimoramentoMagiaSchema = z.object({
   custo: z.string(),
   efeito: z.string(),
@@ -336,6 +347,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de item inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "item-magico") {
+      const r = ItemMagicoMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de item mágico inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     } else if (ent.tipo === "magia") {
