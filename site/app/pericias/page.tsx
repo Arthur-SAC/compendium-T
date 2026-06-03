@@ -71,14 +71,16 @@ export default function IndicePericias() {
             const m = p.mecanica as unknown as PericiaMecanica;
             return (
               <Link key={p.id} href={`/ficha/pericia/${p.id}`} className="indice-linha">
-                <span className="indice-nome">{p.nome}</span>
-                {(m.treinada || m.penalidadeArmadura) && (
-                  <span style={{ display: "inline-flex", gap: 4, flexShrink: 0 }}>
-                    {m.treinada && <Selo tipo="treinada" />}
-                    {m.penalidadeArmadura && <Selo tipo="armadura" />}
-                  </span>
-                )}
-                {m.atributoChave && <span className="indice-meta">{m.atributoChave}</span>}
+                <span style={{ flex: "0 0 244px", display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                  <span className="indice-nome" style={{ minWidth: 0, flex: "0 1 auto" }}>{p.nome}</span>
+                  {(m.treinada || m.penalidadeArmadura) && (
+                    <span style={{ display: "inline-flex", gap: 4, flexShrink: 0 }}>
+                      {m.treinada && <Selo tipo="treinada" />}
+                      {m.penalidadeArmadura && <Selo tipo="armadura" />}
+                    </span>
+                  )}
+                </span>
+                <span className="indice-meta" style={{ flex: "0 0 104px" }}>{m.atributoChave}</span>
                 {p.resumo && <span className="indice-resumo">{p.resumo}</span>}
               </Link>
             );

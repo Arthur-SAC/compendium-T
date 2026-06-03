@@ -18,7 +18,7 @@ const PASSOS: { n: number; titulo: string; desc: string; href: string; cta: stri
 export default function TrilhaPersonagem() {
   return (
     <main className="folha-main">
-      <div className="folha" style={{ maxWidth: 980, margin: "18px auto" }}>
+      <div className="folha">
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Construção de Personagem</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 6px", fontFamily: "var(--serifa)" }}>

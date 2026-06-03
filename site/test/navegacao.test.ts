@@ -15,10 +15,15 @@ test("regras de equipamento incluem fabricação de itens mágicos e superiores"
   expect(regrasDaArea("equipamento")).toContain("itens-superiores");
 });
 
-test("equipamento tem sub-seções, incluindo armas à distância e fabricação", () => {
-  const ids = subsecoesDaArea("equipamento").map((s) => s.id);
-  expect(ids).toContain("armas-a-distancia");
-  expect(ids).toContain("fabricacao");
+test("equipamento não usa mais sub-seções de âncora (virou menu + páginas)", () => {
+  expect(subsecoesDaArea("equipamento")).toEqual([]);
+});
+
+test("sub-páginas continuam na mesma área", () => {
+  expect(areaDoPath("/magias/3")).toBe("magias");
+  expect(areaDoPath("/poderes/combate")).toBe("poderes");
+  expect(areaDoPath("/equipamento/armas")).toBe("equipamento");
+  expect(areaDoPath("/bestiario/masmorras")).toBe("bestiario");
 });
 
 test("CATEGORIAS tem as áreas principais com rota e rótulo", () => {

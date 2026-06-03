@@ -109,13 +109,13 @@ export function Ficha({ entidade, registro, descricoes }: { entidade: Entidade; 
   const largura = temMain && temAside ? 1140 : temMain ? 760 : 620;
 
   return (
-    <article style={{ maxWidth: largura, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
-      <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "18px 22px 12px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
+    <article style={{ maxWidth: largura, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
+      <header style={{ background: "transparent", padding: "18px 22px 12px", textAlign: "center" }}>
         <div style={{ fontSize: 11, letterSpacing: 4, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>{entidade.tipo}</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 38, margin: "2px 0 0" }}>{entidade.nome}</h1>
         <Divisor />
       </header>
-      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)", padding: "20px 26px 24px" }}>
+      <div style={{ background: "transparent", color: "var(--tinta)", padding: "20px 26px 24px" }}>
         {temMain && temAside ? (
           <div className="ficha-corpo">
             <div className="ficha-main">{colunaPrincipal}</div>

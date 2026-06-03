@@ -5,16 +5,11 @@ vi.mock("next/navigation", () => ({ usePathname: () => "/equipamento" }));
 
 import { BarraContexto } from "@/components/BarraContexto";
 
-test("BarraContexto lista sub-seções e regras da área (equipamento inclui Itens Mágicos)", () => {
-  render(<BarraContexto />);
-  expect(screen.getByText(/Nesta seção/i)).toBeInTheDocument();
+test("BarraContexto lista as regras da área (equipamento inclui Itens Mágicos)", () => {
+  render(<BarraContexto indice={[]} />);
   expect(screen.getByText(/Regras desta seção/i)).toBeInTheDocument();
   expect(screen.getByRole("link", { name: /Itens Mágicos/ })).toHaveAttribute(
     "href",
     "/ficha/regra-de-criacao/itens-magicos",
-  );
-  expect(screen.getByRole("link", { name: /Armas à Distância/ })).toHaveAttribute(
-    "href",
-    "/equipamento#armas-a-distancia",
   );
 });

@@ -1,11 +1,18 @@
 import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
+import { carregarEntidades } from "@/lib/dados";
 import IndicePoderes from "@/app/poderes/page";
+import PaginaGrupoPoderes from "@/app/poderes/[grupo]/page";
 
-test("índice de poderes lista Ataque Poderoso com link para a ficha", () => {
+test("menu de poderes lista os grupos com link próprio", () => {
   render(<IndicePoderes />);
-  // `^Ataque Poderoso` evita casar cards cujo PRÉ-REQUISITO é "Ataque Poderoso"
-  // (ex.: Quebrar Aprimorado, Trespassar), cujo nome acessível começa por outro nome.
-  const link = screen.getByRole("link", { name: /^Ataque Poderoso/ });
-  expect(link).toHaveAttribute("href", "/ficha/poder/ataque-poderoso");
+  expect(screen.getByRole("link", { name: /^Combate/ })).toHaveAttribute("href", "/poderes/combate");
+});
+
+test("sub-página do grupo lista Ataque Poderoso com link para a ficha", async () => {
+  const ap = carregarEntidades().find((e) => e.id === "ataque-poderoso" && e.tipo === "poder");
+  const grupo = (ap!.mecanica as { grupo: string }).grupo;
+  render(await PaginaGrupoPoderes({ params: Promise.resolve({ grupo }) }));
+  // `^Ataque Poderoso` evita casar cards cujo pré-requisito é "Ataque Poderoso".
+  expect(screen.getByRole("link", { name: /^Ataque Poderoso/ })).toHaveAttribute("href", "/ficha/poder/ataque-poderoso");
 });

@@ -53,24 +53,41 @@ function PreRequisito({ texto }: { texto: string }) {
   );
 }
 
-function TabelaProgressao({ linhas }: { linhas: ProgressaoNivel[] }) {
+// Tabela única com as duas metades pareadas na MESMA linha (1º–10º | 11º–20º).
+// Garante alinhamento mesmo quando as habilidades quebram em várias linhas.
+function TabelaProgressaoDupla({ esquerda, direita }: { esquerda: ProgressaoNivel[]; direita: ProgressaoNivel[] }) {
+  const linhas = Math.max(esquerda.length, direita.length);
+  const cel = (p?: ProgressaoNivel) => [
+    <td key="n" style={{ ...tdBase, fontWeight: 700, color: "var(--carmesim)", textAlign: "center" }}>{p ? `${p.nivel}º` : ""}</td>,
+    <td key="h" style={tdBase}>{p ? (p.habilidades.join(", ") || "—") : ""}</td>,
+  ];
   return (
-    <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 13 }}>
-      <thead>
-        <tr>
-          <th style={{ ...thBase, width: 56 }}>Nível</th>
-          <th style={thBase}>Habilidades</th>
-        </tr>
-      </thead>
-      <tbody>
-        {linhas.map((p) => (
-          <tr key={p.nivel}>
-            <td style={{ ...tdBase, fontWeight: 700, color: "var(--carmesim)" }}>{p.nivel}º</td>
-            <td style={tdBase}>{p.habilidades.join(", ") || "—"}</td>
+    <div style={{ overflowX: "auto" }}>
+      <table style={{ width: "100%", tableLayout: "fixed", borderCollapse: "collapse", fontFamily: "var(--serifa)", fontSize: 13 }}>
+        <colgroup>
+          <col style={{ width: "8%" }} />
+          <col style={{ width: "42%" }} />
+          <col style={{ width: "8%" }} />
+          <col style={{ width: "42%" }} />
+        </colgroup>
+        <thead>
+          <tr>
+            <th style={{ ...thBase, textAlign: "center" }}>Nível</th>
+            <th style={thBase}>Habilidades</th>
+            <th style={{ ...thBase, textAlign: "center" }}>Nível</th>
+            <th style={thBase}>Habilidades</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {Array.from({ length: linhas }).map((_, i) => (
+            <tr key={i}>
+              {cel(esquerda[i])}
+              {cel(direita[i])}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
@@ -112,20 +129,26 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
   const outrasSecoes = entidade.secoes.filter((s) => s !== secaoPVMana);
 
   return (
-    <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
-      <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "20px 24px 14px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
+    <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
+      <header style={{ background: "transparent", padding: "20px 24px 14px", textAlign: "center" }}>
         <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>Classe</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
         <Divisor />
       </header>
 
-      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)", padding: "20px 26px 24px" }}>
+      <div style={{ background: "transparent", color: "var(--tinta)", padding: "20px 26px 24px" }}>
         {entidade.resumo && (
           <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto 20px", lineHeight: 1.55, textAlign: "center" }}>{entidade.resumo}</p>
         )}
 
         <div className="ficha-corpo">
           <div className="ficha-main">
+            {outrasSecoes.map((s, i) => (
+              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+                <h2 style={h2}>{s.titulo}</h2>
+                <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
+              </section>
+            ))}
             {m.conjuracao && (
               <section style={{ marginBottom: 16 }}>
                 <h2 style={h2}>Conjuração</h2>
@@ -140,10 +163,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
           {m.progressao.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Progressão (1º–20º nível)</h2>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "flex-start" }}>
-                <div style={{ flex: "1 1 280px", minWidth: 260 }}><TabelaProgressao linhas={progPrimeira} /></div>
-                {progSegunda.length > 0 && <div style={{ flex: "1 1 280px", minWidth: 260 }}><TabelaProgressao linhas={progSegunda} /></div>}
-              </div>
+              <TabelaProgressaoDupla esquerda={progPrimeira} direita={progSegunda} />
             </section>
           )}
 
@@ -208,12 +228,6 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
-          {outrasSecoes.map((s, i) => (
-            <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-              <h2 style={h2}>{s.titulo}</h2>
-              <p><TextoRico texto={s.texto} registro={registro} descricoes={descricoes} /></p>
-            </section>
-          ))}
           </div>
 
           <aside className="ficha-aside">

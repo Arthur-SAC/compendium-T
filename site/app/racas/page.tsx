@@ -15,17 +15,21 @@ export default function IndiceRacas() {
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>
           {racas.length} {racas.length === 1 ? "raça" : "raças"} do Livro Básico
         </p>
-        <div className="indice-lista">
+        <div className="indice-cards">
           {racas.map((r) => {
             const imagem = r.imagens[0];
             return (
-              <Link key={r.id} href={`/ficha/raca/${r.id}`} className="indice-linha">
-                {imagem && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={imagem} alt={r.nome} className="indice-thumb" />
-                )}
-                <span className="indice-nome">{r.nome}</span>
-                <span className="indice-resumo">{r.resumo}</span>
+              <Link key={r.id} href={`/ficha/raca/${r.id}`} className="indice-card">
+                <span className="indice-card-fig">
+                  {imagem && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={imagem} alt={r.nome} />
+                  )}
+                </span>
+                <span className="indice-card-body">
+                  <span className="indice-card-nome">{r.nome}</span>
+                  <span className="indice-card-resumo">{r.resumo}</span>
+                </span>
               </Link>
             );
           })}

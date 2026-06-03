@@ -15,17 +15,21 @@ export default function IndiceClasses() {
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>
           {classes.length} {classes.length === 1 ? "classe" : "classes"} do Livro Básico
         </p>
-        <div className="indice-lista">
+        <div className="indice-cards">
           {classes.map((r) => {
             const imagem = r.imagens[0];
             return (
-              <Link key={r.id} href={`/ficha/classe/${r.id}`} className="indice-linha">
-                {imagem && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={imagem} alt={r.nome} className="indice-thumb" />
-                )}
-                <span className="indice-nome">{r.nome}</span>
-                <span className="indice-resumo">{r.resumo}</span>
+              <Link key={r.id} href={`/ficha/classe/${r.id}`} className="indice-card">
+                <span className="indice-card-fig">
+                  {imagem && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={imagem} alt={r.nome} />
+                  )}
+                </span>
+                <span className="indice-card-body">
+                  <span className="indice-card-nome">{r.nome}</span>
+                  <span className="indice-card-resumo">{r.resumo}</span>
+                </span>
               </Link>
             );
           })}

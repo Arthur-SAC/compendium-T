@@ -24,7 +24,7 @@
     }
   ],
   "relacoes": [
-    { "tipo": "reverencia", "alvoId": "heredrimm", "alvoTipo": "divindade", "rotulo": "Heredrimm, o deus que os humanos chamam de Khalmyr" }
+    { "tipo": "reverencia", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Heredrimm, o deus que os humanos chamam de Khalmyr" }
   ],
   "mecanica": {
     "modificadores": [

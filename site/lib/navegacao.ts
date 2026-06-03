@@ -46,19 +46,10 @@ export function areaDoPath(pathname: string): string {
 }
 
 // Sub-seções por área (links de âncora dentro do índice da área).
+// Magias/Poderes/Equipamento/Bestiário agora têm páginas próprias por grupo (menu no índice),
+// então não usam mais âncoras aqui.
 export type SubSecao = { id: string; rotulo: string };
-export const SUBSECOES: Record<string, SubSecao[]> = {
-  equipamento: [
-    { id: "armas-simples", rotulo: "Armas Simples" },
-    { id: "armas-marciais", rotulo: "Armas Marciais" },
-    { id: "armas-a-distancia", rotulo: "Armas à Distância" },
-    { id: "armaduras", rotulo: "Armaduras" },
-    { id: "escudos", rotulo: "Escudos" },
-    { id: "itens-gerais", rotulo: "Itens Gerais" },
-    { id: "alquimicos", rotulo: "Itens Alquímicos" },
-    { id: "fabricacao", rotulo: "Fabricação de Itens" },
-  ],
-};
+export const SUBSECOES: Record<string, SubSecao[]> = {};
 
 export function subsecoesDaArea(area: string): SubSecao[] {
   return SUBSECOES[area] ?? [];

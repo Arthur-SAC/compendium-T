@@ -14,16 +14,20 @@ function mec(d: Entidade): DivindadeMecanica {
   return d.mecanica as unknown as DivindadeMecanica;
 }
 
-function LinhaDivindade({ divindade }: { divindade: Entidade }) {
+function CardDivindade({ divindade }: { divindade: Entidade }) {
   const simbolo = divindade.imagens[0];
   return (
-    <Link href={`/ficha/divindade/${divindade.id}`} className="indice-linha">
-      {simbolo && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={simbolo} alt={divindade.nome} className="indice-thumb" style={{ width: 40, height: 40 }} />
-      )}
-      <span className="indice-nome">{divindade.nome}</span>
-      <span className="indice-resumo">{divindade.resumo}</span>
+    <Link href={`/ficha/divindade/${divindade.id}`} className="indice-card">
+      <span className="indice-card-fig indice-card-fig--simbolo">
+        {simbolo && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={simbolo} alt={divindade.nome} />
+        )}
+      </span>
+      <span className="indice-card-body">
+        <span className="indice-card-nome">{divindade.nome}</span>
+        <span className="indice-card-resumo">{divindade.resumo}</span>
+      </span>
     </Link>
   );
 }
@@ -65,8 +69,8 @@ export default function IndiceDeuses() {
               <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>
                 {rotulo} ({sublista.length})
               </h3>
-              <div className="indice-lista">
-                {sublista.map((d) => <LinhaDivindade key={d.id} divindade={d} />)}
+              <div className="indice-cards">
+                {sublista.map((d) => <CardDivindade key={d.id} divindade={d} />)}
               </div>
             </section>
           );

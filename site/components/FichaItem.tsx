@@ -118,8 +118,8 @@ export function FichaItem({ entidade, registro, descricoes }: { entidade: Entida
   );
 
   return (
-    <article style={{ maxWidth: largura, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)" }}>
-      <header style={{ background: "radial-gradient(120% 140% at 50% 0%, #6a1421 0%, transparent 70%), linear-gradient(180deg,#4a0f18,#320a11)", padding: "20px 24px 14px", textAlign: "center", borderBottom: "2px solid var(--borda)" }}>
+    <article style={{ maxWidth: largura, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
+      <header style={{ background: "transparent", padding: "20px 24px 14px", textAlign: "center" }}>
         <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>{rotuloCategoria}</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
         {(m.preco || m.espacos) && (
@@ -131,7 +131,7 @@ export function FichaItem({ entidade, registro, descricoes }: { entidade: Entida
         <Divisor />
       </header>
 
-      <div style={{ background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))", color: "var(--tinta)", padding: "20px 26px 24px" }}>
+      <div style={{ background: "transparent", color: "var(--tinta)", padding: "20px 26px 24px" }}>
         {entidade.resumo && (
           <p style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", maxWidth: 620, margin: "0 auto 20px", lineHeight: 1.55, textAlign: "center" }}>
             {entidade.resumo}

@@ -23,8 +23,13 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
   const { tipo, id } = await params;
   const entidades = carregarEntidades();
   const termos = carregarTermos();
-  const entidade = entidades.find((e) => e.id === id && e.tipo === tipo);
-  if (!entidade) notFound();
+  const entidadeBruta = entidades.find((e) => e.id === id && e.tipo === tipo);
+  if (!entidadeBruta) notFound();
+
+  // Só mantém relações cujo alvo realmente existe (evita links quebrados p/ conteúdo de
+  // outros livros ainda não importados; voltam sozinhas quando a fonte entrar na Fase 2).
+  const validos = new Set(entidades.map((e) => `${e.tipo}/${e.id}`));
+  const entidade = { ...entidadeBruta, relacoes: entidadeBruta.relacoes.filter((r) => validos.has(`${r.alvoTipo}/${r.alvoId}`)) };
 
   const registro = construirRegistro({
     termos: termos.map((t) => ({ id: t.id, nome: t.nome, descricao: t.descricao })),
