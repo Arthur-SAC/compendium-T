@@ -4,15 +4,31 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-03
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **Cap. 7 Ameaças ✅ COMPLETO (77 criaturas validadas + 3 regras: Construindo Combates/Perigos/Fichas de NPCs; índice `/bestiario`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Recompensas (Cap. 8)**.
+**Fase atual:** Fase 0 ✅ → **Fase 1 — LIVRO BÁSICO PONTA A PONTA ✅** (todos os capítulos extraídos). Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ (30 regiões + cosmologia + Linha do Tempo)** · **Cap. 6 O Mestre ✅ (5 regras)** · **Cap. 7 Ameaças ✅ (77 criaturas + 3 regras)** · **Cap. 8 Recompensas ✅ (186 itens mágicos + 3 regras; índice `/itens-magicos`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **AUDITORIA DE COMPLETUDE** (varrer o livro inteiro p/ achar conteúdo pulado) + **passe de design/UX**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAP. 7 AMEAÇAS ✅ COMPLETO** (criaturas + regras; ver bloco abaixo). Próxima fatia: **Recompensas (Cap. 8: XP/níveis,
-Tesouros, Itens Mágicos — impressas 324+)**. Depois disso o Livro Básico fica ponta a ponta (resta o **passe de design/UX** — ver Backlog).
+➡️ **LIVRO BÁSICO PONTA A PONTA ✅.** Próxima fatia (pedido do usuário 2026-06-03): **AUDITORIA MINUCIOSA DE COMPLETUDE** —
+varrer o Livro Básico capítulo por capítulo (impressas) e cruzar com o que existe em `data/livro-basico/` para garantir que
+**nada foi pulado** (quadros/sidebars, tabelas, itens, regras). "Se não está no site, não existe" — o site deve ser confiável.
+Depois: **passe de design/UX** (Backlog).
+
+**Cap. 8 — Recompensas ✅ COMPLETO (`...` Ondas A+B+C):**
+- **Onda A (código):** novo tipo `item-magico` (`ItemMagicoMecanicaSchema`: tipoItem/categoria/preco), `FichaItemMagico`, índice
+  `/itens-magicos` (agrupado por tipo + selo de categoria + painel de regras), atalho na home, wiring na rota. Mapa `itens-magicos-lista.md` (192 catalogados).
+- **Onda B (186 itens, 9 subagentes por visão):** 28 Encantos de Arma, 18 Armas Específicas, 25 Encantos de Armadura,
+  8 Armaduras + 5 Escudos Específicos, 32 Poções (1 por nome único — "Poção/Óleo/Granada de X" — variações de potência embutidas),
+  65 Acessórios (21 menores + 22 médios + 22 maiores), 5 Artefatos (Baralho do Caos com as 22 cartas em `secoes`).
+- **3 regras** `regra-de-criacao`: `pontos-de-experiencia` (326), `tesouros` (327; Tabelas 8-1 a 8-6), `itens-magicos` (333; Tabela 8-7).
+  Grupo **"Recompensas"** no `/regras`. **Onda C (validação por visão):** preços/categorias/descrições — **0 divergências**.
+- Build **992 páginas**; suíte **123 verde**. Imagens 300 DPI em `extracao/cache/cap8/`.
+
+**Nota de modelagem (item-magico):** descrição rica em `secoes`; `mecanica` mínima. Encantos sem preço/categoria (vêm da Tabela 8-7).
+Poções nomeadas "Poção de X" p/ não colidir com as magias homônimas no auto-link. Artefatos sem preço. O `mecanica.cartas` do
+Baralho do Caos é descartado pelo schema (não-strict) — conteúdo preservado nas `secoes`; estruturar no schema é melhoria futura.
 
 **Cap. 7 — 2ª leva ✅ (`45878d0`):** 3 regras `regra-de-criacao` (validadas célula a célula por revisor independente, 0 discrepâncias):
 - **`construindo-combates`** (impressas 282–285): ND, fatores, papéis solo/lacaio/especial, vários inimigos, formato do bloco de stats, `tipos_de_criatura` (6), **Tabela 7-1: Criaturas por Nível de Desafio** (80 linhas).
