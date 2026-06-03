@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { AppShell } from "@/components/AppShell";
 
 const tormenta = localFont({
   src: "./fonts/Tormenta20x.ttf",
@@ -18,7 +19,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-br" className={`${tormenta.variable} h-full`}>
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        <AppShell>{children}</AppShell>
+      </body>
     </html>
   );
 }

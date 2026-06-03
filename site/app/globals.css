@@ -1,24 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  /* casca escura (vinho/carmesim) */
-  --fundo-1: #1f0a0e;
-  --fundo-2: #160a10;
-  --texto-casca: #f3dcd0;
-  --texto-casca-suave: #e7b3a6;
+  /* casca escura (vinho/carmesim com leve tom Tormenta) */
+  --fundo-1: #2a1018;
+  --fundo-2: #1a0a10;
+  --texto-casca: #f1e2d3;
+  --texto-casca-suave: #e7b9ab;
+  --menu-texto: #e7d6c1;
   --topbar-borda: #7a2030;
   --busca-fundo: #2a0c11;
   /* pergaminho / card de leitura */
-  --pergaminho-1: #f7eed8;
-  --pergaminho-2: #efe1c2;
-  --pergaminho-stat: #f7edd6;
-  --tinta: #2c1d12;
+  --pergaminho-1: #f4ecd5;
+  --pergaminho-2: #e3d4b3;
+  --pergaminho-stat: #f3e7cf;
+  --tinta: #2c1c12;
   --tinta-suave: #6b513a;
-  /* acentos */
+  /* acentos — carmesim/magenta; SEM dourado no ambiente */
   --carmesim: #9b1c2e;
+  --carmesim-escuro: #7a1320;
   --vermelho: #b1273a;
-  --ouro: #e8c06a;
-  --borda: #c8a86a;
+  --magenta: #b0388f;
+  --bronze: #b8935a;          /* rótulos/acentos discretos (no lugar do ouro brilhante) */
+  --ouro: #b8935a;            /* compat: usos antigos de --ouro viram bronze fosco */
+  --borda: #c7b48c;           /* borda de pergaminho fosca (não dourada brilhante) */
   --tooltip: #a83e22;
   --tooltip-linha: #b5462b;
   --serifa: Georgia, "Times New Roman", serif;
@@ -29,18 +33,19 @@ body {
   color: var(--texto-casca);
   min-height: 100vh;
 }
-/* fundo numa camada fixa de viewport: nunca repete nem emenda, qualquer altura de página */
+/* casca em gradiente sólido, camada fixa — nunca repete nem emenda (sem malha) */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(120% 60% at 50% 0%, #5a0f1a 0%, transparent 60%),
-    radial-gradient(90% 50% at 90% 100%, #3a0a12 0%, transparent 60%),
+    radial-gradient(150% 120% at 50% -15%, #371620 0%, transparent 60%),
+    radial-gradient(90% 50% at 92% 102%, #2a0c14 0%, transparent 60%),
     linear-gradient(180deg, var(--fundo-1), var(--fundo-2));
 }
 
+/* títulos e logo mantêm a "pegada dos nomes": degradê dourado→carmesim */
 .titulo-grimorio {
   font-family: var(--font-tormenta), var(--serifa);
   background: linear-gradient(180deg, #f8de9b 0%, #eaa84a 45%, #d23a4a 100%);
@@ -51,8 +56,131 @@ body::before {
   letter-spacing: 0.5px;
 }
 
-/* Layout de ficha em duas colunas (desktop): texto principal + barra lateral.
-   Colapsa para coluna única no mobile. Usado por todas as fichas. */
+/* ===== App shell (3 colunas) ===== */
+.app-shell {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr) 198px;
+  align-items: start;
+  max-width: 1560px;
+  margin: 0 auto;
+}
+.nav-global {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 14px 10px 24px;
+  border-right: 1px solid rgba(155, 28, 46, 0.35);
+}
+.logo-marca {
+  font-family: var(--font-tormenta), var(--serifa);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #e8c06a, #c0395a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-busca {
+  display: block;
+  margin: 12px 6px 10px;
+  padding: 6px 10px;
+  font-family: var(--serifa);
+  font-size: 13px;
+  color: var(--menu-texto);
+  background: var(--busca-fundo);
+  border: 1px solid rgba(155, 28, 46, 0.45);
+  border-radius: 8px;
+  text-decoration: none;
+}
+.nav-cats {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.nav-cat {
+  display: block;
+  padding: 3px 11px;
+  border-radius: 5px;
+  color: var(--menu-texto);
+  font-family: var(--serifa);
+  font-size: 13.5px;
+  line-height: 1.95;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0.86;
+}
+.nav-cat:hover {
+  opacity: 1;
+  background: rgba(155, 28, 46, 0.22);
+}
+.nav-cat-ativo {
+  background: var(--carmesim-escuro);
+  color: #fff;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.conteudo {
+  min-width: 0;
+}
+/* página de pergaminho texturizada (textura só aqui; sem costura) */
+.pagina-pergaminho {
+  position: relative;
+  background: radial-gradient(135% 115% at 50% 0%, var(--pergaminho-1), var(--pergaminho-2));
+  color: var(--tinta);
+  border-radius: 4px;
+  box-shadow: inset 0 0 52px rgba(96, 46, 22, 0.16), 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+.pagina-pergaminho::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 4px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .045 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+  opacity: 0.65;
+}
+
+.barra-contexto {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 24px 14px;
+}
+.ctx-rotulo {
+  font-size: 9.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin: 0 0 8px;
+}
+.ctx-link {
+  display: block;
+  font-family: var(--serifa);
+  font-size: 12.5px;
+  line-height: 1.95;
+  color: var(--menu-texto);
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0.82;
+}
+.ctx-link:hover {
+  opacity: 1;
+  color: #fff;
+}
+.ctx-link-regra {
+  color: #e8a9b4;
+  opacity: 0.92;
+}
+
+/* ===== Layout de ficha em duas colunas (mantido) ===== */
 .ficha-corpo {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -75,5 +203,37 @@ body::before {
   }
   .ficha-aside {
     position: static;
+  }
+}
+
+/* ===== Responsivo do shell (mobile básico — Fase 3 traz drawer) ===== */
+@media (max-width: 960px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+  .nav-global {
+    position: static;
+    height: auto;
+    overflow: visible;
+    border-right: none;
+    border-bottom: 1px solid rgba(155, 28, 46, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+    padding: 12px 14px;
+  }
+  .nav-busca {
+    margin: 0;
+  }
+  .nav-cats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+  }
+  .barra-contexto {
+    position: static;
+    max-height: none;
+    border-top: 1px solid rgba(155, 28, 46, 0.2);
   }
 }

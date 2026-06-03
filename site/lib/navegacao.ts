@@ -83,3 +83,40 @@ export const REGRAS_POR_AREA: Record<string, string[]> = {
 export function regrasDaArea(area: string): string[] {
   return REGRAS_POR_AREA[area] ?? [];
 }
+
+// Rótulos legíveis das regras (usado client-side na BarraContexto, sem carregar os dados).
+export const ROTULOS_REGRA: Record<string, string> = {
+  "construcao-de-personagem": "Construção de Personagem",
+  atributos: "Atributos",
+  "caracteristicas-derivadas": "Características Derivadas",
+  "nome-idade-e-envelhecimento": "Nome, Idade e Envelhecimento",
+  alinhamento: "Alinhamento",
+  "evolucao-de-personagem": "Evolução de Personagem",
+  "caracteristicas-das-racas": "Características das Raças",
+  "classes-como-funcionam": "Como Funcionam as Classes",
+  "construcao-origens": "Como Funcionam as Origens",
+  "pericias-como-funcionam": "Como Funcionam as Perícias",
+  "poderes-como-funcionam": "Como Funcionam os Poderes",
+  "regras-de-armas": "Regras de Armas",
+  "regras-de-armaduras": "Regras de Armaduras",
+  "itens-superiores": "Itens Superiores",
+  "itens-magicos": "Itens Mágicos",
+  "regras-de-itens-especiais": "Itens Especiais (venenos, pratos…)",
+  "riqueza-e-equipamento": "Riqueza & Equipamento",
+  tesouros: "Tesouros",
+  "magia-como-funciona": "Como Funciona a Magia",
+  "caracteristicas-das-magias": "Características das Magias",
+  "aprimoramentos-de-magia": "Aprimoramentos de Magia",
+  "devocao-como-funciona": "Devoção",
+  "deuses-menores": "Deuses Menores",
+  "construindo-combates": "Construindo Combates",
+  perigos: "Perigos",
+  "fichas-de-npcs": "Fichas de NPCs",
+  "mundo-de-arton": "Mundo de Arton (Cosmologia)",
+  "linha-do-tempo": "Linha do Tempo",
+  "nomes-em-arton": "Nomes em Arton",
+};
+
+export function rotuloRegra(id: string): string {
+  return ROTULOS_REGRA[id] ?? id;
+}
