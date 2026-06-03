@@ -3,15 +3,27 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-06-02
-**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **Recompensas (Cap. 8)** ou **Ameaças/Perigos (Cap. 7)**.
+**Última atualização:** 2026-06-03
+**Fase atual:** Fase 0 ✅ → **Fase 1**. Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem; inclui Evolução: nível/patamares/multiclasse)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ COMPLETO (30 regiões + cosmologia + Linha do Tempo; índice `/mundo`)** · **Cap. 6 O Mestre ✅ COMPLETO (5 regras + grupo "O Mestre" no `/regras`)** · **Cap. 7 Bestiário ✅ Ondas A+B (77 criaturas, 9 temas; índice `/bestiario`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **2ª leva do Cap. 7 (Construindo Combates + Perigos + Fichas de NPCs)** ou **Recompensas (Cap. 8)**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **CAP. 6 (O MESTRE) ✅ COMPLETO.** Próxima fatia: **Recompensas (Cap. 8: XP, Tesouros, Itens Mágicos, impressas 324+)** ou **Ameaças/Perigos (Cap. 7, impressas 280–323: Construindo Combates, Criaturas, Perigos, Fichas de NPCs)** — definir com o usuário.
+➡️ **CAP. 7 BESTIÁRIO ✅ Ondas A+B COMPLETAS (77 criaturas, 9 temas).** Próxima fatia: **2ª leva do Cap. 7** —
+regras **Construindo Combates** (impressa 282) e **Perigos** (impressa 317), + **Fichas de NPCs** (impressa 322, entram no hub `/bestiario`).
+Alternativa: **Recompensas (Cap. 8: XP, Tesouros, Itens Mágicos, impressas 324+)**. Definir com o usuário.
+
+**Cap. 7 — Bestiário (plano `2026-06-02-bestiario-cap7-plano.md`):**
+- **Onda A ✅ (`3950046`):** entidade `criatura` (`CriaturaMecanicaSchema`), `FichaCriatura` (duas colunas: bloco numérico na lateral + habilidades/flavor), índice `/bestiario` agrupado por `tema` (ordem do livro) + selo de ND + atalho na home. Spike Masmorras.
+- **Onda B ✅ COMPLETA (`cb39ca5` + `a0ff3d4`):** **77 criaturas** em 9 temas — Ermos 18, Masmorras 11, Os Sszzaazitas 9, Reino dos Mortos 8, Os Duyshidakk 7, Os Puristas 7, **Os Dragões 7**, Os Trolls Nobres 5, A Tormenta 5 (impressas 286–316). Schema/Ficha ganharam `pontosDeMana`. **Normalização:** 14 fichas tinham `ataques` como objeto `{tipo,descricao}` (violava o schema `z.array(z.string())`) → convertidas para string. Índice conta só criaturas do Livro Básico (exclui o seed `sucubo.json`, que é de `ameacas-de-arton`).
+- **Onda C (validação por visão):** **Os Dragões 7/7 validados** célula a célula em 300 DPI por revisor independente (0 discrepâncias numéricas: Sopro cone/dano/CD por idade, Magia nível/CD/PM, Aura CD, atributos com sinais). **Pendente:** validação independente dos outros 8 temas (foram extraídos por subagentes com 2 passadas na própria extração; uma 2ª passada ampla seria o rigor pleno — confirmar com o usuário se vale).
+- **Convenções (reusar):** palavras-chave defensivas finais da linha (imunidade/redução de dano/RM/vulnerabilidade) vão no campo `defesa` (ex.: `"22, redução de dano 10"`). Habilidades de tema compartilhadas (Habilidades Lefeu, Habilidades Dracônicas) entram como `secao` titulada com `\n\n` entre as habilidades. Listas de magias dentro de uma habilidade usam `\n•` (estilo Necromante). `ataques` = só linhas Corpo a Corpo/Distância; Sopro/Varrer/etc. vão em `habilidades[]`. Atributos negativos usam en-dash `–`.
+- **Cache reutilizável:** imagens 300 DPI dos Dragões em `extracao/cache/dragoes/` (p-316..319 + recortes L/R) + gerador `gerar.mjs`.
+- **Dívida leve:** o seed `data/livro-basico/criaturas/sucubo.json` tem `fonte.livro="ameacas-de-arton"` mas vive na pasta do Básico — quando a Fase 2 trouxer Ameaças de Arton, mover/realocar (cuidado: `seed.test.ts` pode referenciá-lo).
+
+**(histórico) Cap. 6 — O Mestre ✅ COMPLETO.** Próxima fatia (à época): Cap. 7 ou Cap. 8.
 Compactação ✅ (`cb8ce04`): parceiros (12)/montarias (6) em `npcs-mestre` e as 20 aventuras-modelo em `sessoes` viraram TABELAS (`mecanica`), preservando o texto verbatim (contagem de caracteres idêntica). npcs 37→19 secoes, sessoes 38→18.
 
 **Cap. 6 — O Mestre ✅ (`b4924e0` + validação `dbd1536`):** 5 regras `regra-de-criacao` (extração pura; tipo/índice/Ficha já existiam) +
