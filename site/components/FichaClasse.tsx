@@ -132,24 +132,39 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
   const ehIntro = (s: { titulo: string }) => /descri|resumo|famos/i.test(s.titulo);
   const introSecoes = restantes.filter(ehIntro);
 
-  // Quadros (ex.: "Familiares Arcanos", "Linhagens Sobrenaturais") aparecem logo após o
-  // poder de mesmo nome (ex.: Familiar → Familiares); o que sobrar vai depois dos Caminhos.
+  // Posicionamento dos quadros por âncora (previsível por classe):
+  //  Familiares→após poder Familiar · Animais Totêmicos→após poder Totem Espiritual ·
+  //  Linhagens→após Caminhos · Músicas→após Conjuração · demais (Bravatas, Armadilhas…)→antes de Poderes.
+  type Quadro = { titulo: string; texto: string };
   const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s*\(quadro\)\s*/g, "").trim();
   const tituloLimpo = (s: string) => s.replace(/\s*\(quadro\)\s*/gi, "").trim();
-  const quadrosRestantes = restantes.filter((s) => !ehIntro(s));
-  const tomarQuadros = (nome: string) => {
-    const a = norm(nome);
-    if (a.length < 5) return [] as typeof quadrosRestantes;
-    const achados = quadrosRestantes.filter((q) => norm(q.titulo).startsWith(a));
-    for (const q of achados) quadrosRestantes.splice(quadrosRestantes.indexOf(q), 1);
-    return achados;
-  };
-  const quadrosAposPoder = m.poderes.map((p) => tomarQuadros(p.nome));
-  const renderQuadro = (q: { titulo: string; texto: string }, key: string, inline = false) => (
+  const quadros = restantes.filter((s) => !ehIntro(s)) as Quadro[];
+  const qAposPoder: Record<number, Quadro[]> = {};
+  const qAposCaminhos: Quadro[] = [];
+  const qAposConjuracao: Quadro[] = [];
+  const qAntesPoderes: Quadro[] = [];
+  const idxPoder = (re: RegExp) => m.poderes.findIndex((p) => re.test(norm(p.nome)));
+  for (const q of quadros) {
+    const t = norm(q.titulo);
+    let i = -1;
+    if (/familiar/.test(t)) i = idxPoder(/^familiar$/);
+    else if (/totemic/.test(t)) i = idxPoder(/totem/);
+    if (i >= 0) (qAposPoder[i] ??= []).push(q);
+    else if (/linhagen/.test(t)) qAposCaminhos.push(q);
+    else if (/musica/.test(t)) qAposConjuracao.push(q);
+    else qAntesPoderes.push(q);
+  }
+  const renderQuadro = (q: Quadro, key: string, inline = false) => (
     <div key={key} style={{ marginTop: inline ? 10 : 0, marginBottom: inline ? 0 : 12 }}>
       <h3 style={{ fontSize: inline ? 12 : 13, textTransform: "uppercase", letterSpacing: inline ? 1.5 : 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 3, margin: "0 0 6px" }}>{tituloLimpo(q.titulo)}</h3>
       <TextoBlocos texto={q.texto} registro={registro} descricoes={descricoes} />
     </div>
+  );
+  const secaoQuadro = (q: Quadro, key: string) => (
+    <section key={key} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
+      <h2 style={h2}>{tituloLimpo(q.titulo)}</h2>
+      <TextoBlocos texto={q.texto} registro={registro} descricoes={descricoes} />
+    </section>
   );
 
   return (
@@ -198,6 +213,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                 </p>
               </section>
             )}
+            {qAposConjuracao.map((q, k) => secaoQuadro(q, `conj-${k}`))}
 
           {m.caminhos && m.caminhos.length > 0 && (
             <section style={{ marginBottom: 16 }}>
@@ -224,12 +240,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
-          {quadrosRestantes.map((s, i) => (
-            <section key={`resto-${i}`} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-              <h2 style={h2}>{tituloLimpo(s.titulo)}</h2>
-              <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
-            </section>
-          ))}
+          {qAposCaminhos.map((q, k) => secaoQuadro(q, `cam-${k}`))}
 
           {m.habilidades.length > 0 && (
             <section style={{ marginBottom: 16 }}>
@@ -246,6 +257,8 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
             </section>
           )}
 
+          {qAntesPoderes.map((q, k) => secaoQuadro(q, `ap-${k}`))}
+
           {m.poderes.length > 0 && (
             <section style={{ marginBottom: 16 }}>
               <h2 style={h2}>Poderes de Classe</h2>
@@ -261,7 +274,7 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                         <TabelaEfeitos titulo="Efeitos que reduzem o custo" efeitos={p.efeitos.filter((e) => e.custo.trim().startsWith("–") || e.custo.trim().startsWith("-"))} registro={registro} descricoes={descricoes} />
                       </>
                     )}
-                    {quadrosAposPoder[i].map((q, k) => renderQuadro(q, `qp-${i}-${k}`, true))}
+                    {(qAposPoder[i] ?? []).map((q, k) => renderQuadro(q, `qp-${i}-${k}`, true))}
                   </div>
                 ))}
               </div>

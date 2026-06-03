@@ -32,11 +32,11 @@ export default function IndiceOrigens() {
             </Link>
           </section>
         )}
-        <div className="indice-lista">
+        <div className="cards-info">
           {origens.map((o) => (
-            <Link key={o.id} href={`/ficha/origem/${o.id}`} className="indice-linha">
-              <span className="indice-nome">{o.nome}</span>
-              <span className="indice-resumo">{o.resumo}</span>
+            <Link key={o.id} href={`/ficha/origem/${o.id}`} className="card-info">
+              <span className="card-info-nome">{o.nome}</span>
+              {o.resumo && <span className="card-info-desc">{o.resumo}</span>}
             </Link>
           ))}
         </div>
