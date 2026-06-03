@@ -11,13 +11,20 @@
 
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
-➡️ **AUDITORIA DE COMPLETUDE ✅ FEITA** (relatório: `docs/superpowers/plans/auditoria-completude-livro-basico.md`).
-Catálogos íntegros; achadas **13 lacunas de conteúdo não-catálogo**. Próxima fatia: **CORRIGIR AS LACUNAS** (criar o
-conteúdo pulado). Ordem sugerida: (1) seções grandes — **Introdução** (6–13: Mecânica Básica/Dados/Termos/20 Coisas),
-**Alinhamento** (109–111), **Interpretação** (Cap.5, 214–219); (2) regras intercaladas — Nome/Idade/Envelhecimento (108),
-Escolhendo Perícias (113), Tabela 3-1 Dinheiro Inicial (138), grupos de Poderes (Tormenta/Concedidos/Aprimoramento),
-tipo Universal de magia, intro Classes + Tabela 1-3; (3) quadros — Deuses Menores (104), Nomes em Arton (361–364),
-Variante Mapa de Batalha (235), Carga: Bastidores (140). Depois: **passe de design/UX** (Backlog).
+➡️ **AUDITORIA DE COMPLETUDE ✅ + 13 LACUNAS CORRIGIDAS ✅** (relatório: `docs/superpowers/plans/auditoria-completude-livro-basico.md`).
+Livro Básico agora **completo de verdade** (catálogos + todas as regras/quadros). Próxima fatia: **passe de design/UX** (Backlog)
+ou **Fase 2 (demais livros)**.
+
+**Correção das lacunas ✅ (2026-06-03):** 39 regras agora (era 32). **7 regras novas:** `introducao-ao-jogo` (O que é T20,
+Mecânica Básica = 1d20+mod vs CD, Dados, Termos Importantes, 20 Coisas a Saber), `alinhamento` (eixos + 9 alinhamentos),
+`interpretacao` (papel do jogador, regra de testes sociais, quadros Não Seja Fominha/Babaca/O Objetivo do RPG),
+`nome-idade-e-envelhecimento` (idade inicial, envelhecimento Maduro/Velho, Raças Longevas), `classes-como-funcionam`
+(intro + Tabela 1-3), `deuses-menores` (105: Tibar/Rhond/Sckhar), `nomes-em-arton` (361–364: 8 povos). **5 regras completadas:**
+`pericias-como-funcionam` (+Escolhendo Perícias), `magia-como-funciona` (+tipo Universal; `mecanica.tipos` agora inclui "universal"),
+`combate` (+Variante Mapa de Batalha), `poderes-como-funcionam` (+grupos Concedidos[Sab]/Tormenta[−Car]/Aprimoramento),
+`riqueza-e-equipamento` (+Tabela 3-1 Dinheiro Inicial + quadro Carga). Wiring: grupo "Introdução" no `/regras` + regras de
+criação reordenadas. `testTimeout` do Vitest → 20s (volume cresceu p/ ~1000 entidades; teste `magias-indice` ficava flaky no limite de 5s).
+**Pendência menor:** ajustar `fonte.pagina` (alguns subagentes notaram off-by-1: deuses-menores está na impressa 105, idade na 108) — conferido, valores OK.
 
 **Auditoria (2026-06-03):** 9 auditores independentes varreram o Livro Básico × `data/`. **Catálogos 100% íntegros**
 (raças/classes/origens/deuses/perícias/poderes/magias/itens/itens-mágicos/criaturas/regiões). **13 lacunas** (3 seções
