@@ -18,9 +18,9 @@ export function Busca({ indice }: { indice: Indice }) {
       <div style={{ marginTop: 12, display: "flex", flexDirection: "column", gap: 6 }}>
         {resultados.map((r: ItemIndice, i) => (
           <motion.div key={r.tipo + r.id} initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.02 }}>
-            <Link href={`/ficha/${r.tipo}/${r.id}`} style={{ display: "block", padding: "10px 14px", borderRadius: 10, background: "rgba(42,12,17,.6)", border: "1px solid var(--topbar-borda)", color: "var(--texto-casca)", textDecoration: "none" }}>
-              <strong style={{ color: "var(--ouro)" }}>{r.nome}</strong>
-              <span style={{ float: "right", fontSize: 10, textTransform: "uppercase", color: "var(--texto-casca-suave)" }}>{r.tipo}</span>
+            <Link href={`/ficha/${r.tipo}/${r.id}`} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, padding: "9px 14px", borderRadius: 10, background: "var(--pergaminho-1)", border: "1px solid var(--borda-suave)", color: "var(--tinta)", textDecoration: "none" }}>
+              <strong style={{ fontFamily: "var(--font-tormenta), var(--serifa)", color: "var(--carmesim)", letterSpacing: ".3px" }}>{r.nome}</strong>
+              <span style={{ flexShrink: 0, fontSize: 9.5, letterSpacing: 1, textTransform: "uppercase", color: "var(--pergaminho-1)", background: "var(--carmesim-escuro)", borderRadius: 12, padding: "2px 9px", fontWeight: 700 }}>{r.tipo}</span>
             </Link>
           </motion.div>
         ))}

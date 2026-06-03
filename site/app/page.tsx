@@ -8,8 +8,8 @@ export default function Home() {
   const indice = construirIndice(ents.map((e) => ({ id: e.id, tipo: e.tipo, nome: e.nome, resumo: e.resumo })));
   return (
     <main className="folha-main">
-      <div className="folha" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-        <h1 className="titulo-grimorio" style={{ fontSize: 56, textAlign: "center" }}>Compêndio de Arton</h1>
+      <div className="folha">
+        <h1 className="titulo-grimorio" style={{ fontSize: 56, textAlign: "center", marginTop: 24 }}>Compêndio de Arton</h1>
         <Divisor />
         <div style={{ marginTop: 28 }}>
           <Busca indice={indice} />
