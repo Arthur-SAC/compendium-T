@@ -1,0 +1,1739 @@
+{
+  "id": "tesouros",
+  "tipo": "regra-de-criacao",
+  "nome": "Tesouros",
+  "resumo": "Regras para o mestre recompensar os personagens com tesouros após combates e outras situações, incluindo as tabelas de tesouro por nível de desafio, riquezas, itens diversos, equipamentos, itens superiores e tesouro médio por cena.",
+  "fonte": {
+    "livro": "livro-basico",
+    "pagina": 327
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tesouros",
+      "texto": "A profissão de aventureiro é perigosa, mas traz grandes recompensas. Com os espólios de inimigos caídos e os pagamentos por missões completadas, um herói pode se tornar tão rico quanto um rei."
+    },
+    {
+      "titulo": "Tesouro em Combate",
+      "texto": "Para determinar o tesouro de um combate, faça os jogadores rolarem duas vezes na Tabela 8-1 (veja as páginas 328 e 329), uma vez na coluna Dinheiro e outra na coluna Itens, na linha equivalente ao ND da criatura derrotada. Assim, se o grupo derrotou um necromante (ND 7), deve rolar duas vezes na linha do ND 7, uma na coluna de Dinheiro e outra na de Itens (os jogadores decidem entre si quem rola). Se o grupo tiver derrotado mais de uma criatura, rola uma vez para cada criatura ou, de acordo com o mestre, uma vez na linha equivalente ao nível de desafio do combate.\n\nA descrição da criatura indica o tesouro que ela fornece. \"Nenhum\" indica que a criatura não traz tesouro; nesse caso, não use a tabela. \"Padrão\" indica tesouro típico; use a tabela sem modificação. \"Metade\" indica que a criatura tem poucos tesouros; use a tabela, mas divida pela metade quaisquer resultados rolados na coluna Dinheiro. Por fim, \"Dobro\" significa que a criatura tem muitos tesouros. Role duas vezes em cada coluna da tabela.\n\nA maneira como o grupo encontra o tesouro fica a seu critério. Você pode simplesmente descrever \"depois de derrotar os gnolls, vocês vasculham suas bolsas e encontram...\" ou preparar algo mais elaborado. Por exemplo, bandidos que ataquem o grupo em uma estrada provavelmente não estarão carregando o seu tesouro consigo. Em vez disso, podem ter um esconderijo próximo onde guardam o fruto de seus roubos. Depois de derrotar os bandidos, os personagens podem vasculhar as redondezas em busca desse esconderijo. Outro exemplo: em uma aventura que envolva explorar um antigo templo, você pode determinar que o tesouro de todos os combates está em uma sala trancada e protegida por armadilhas. Ao derrotar guardas em um corredor, o grupo não encontrará nenhum tesouro. Mas, se conseguirem acesso a essa câmara, terão todo o tesouro de uma só vez. Ou, ainda, em vez de encontrar tesouro de inimigos derrotados, o grupo pode receber um valor equivalente como pagamento por seu empregador. As possibilidades são diversas. E, é claro, em vez de rolar, você pode escolher um tesouro, usando a tabela como guia."
+    },
+    {
+      "titulo": "Recompensas Fora de Jogo (quadro)",
+      "texto": "Você pode premiar não apenas os personagens, mas os próprios jogadores. Dedicação ao jogo (limpar a sala depois da partida, comprar os refrigerantes, mandar mensagens para marcar a sessão...) ou outras contribuições podem valer uma recompensa. Se quiser fazer isso, conceda 1 PM temporário ou outro pequeno bônus aos mais prestativos."
+    },
+    {
+      "titulo": "Resultados da Tabela",
+      "texto": "Dinheiro. O grupo encontra moedas ou riquezas.\n\n• Moedas. Você pode apenas descrever o valor (\"Vocês encontram 25 TO\") ou detalhar mais (\"Vocês encontram 25 Tibares de ouro da época do Rei-Imperador Phylidio, o Tranquilo. Tais moedas são muito valiosas hoje\").\n\n• Riquezas. O grupo encontra um ou mais itens sem uso prático, mas valiosos. Role 1d% na Tabela 8-2 para determinar o valor de venda de cada riqueza. A tabela traz exemplos de itens e, entre parênteses, quantos espaços eles ocupam.\n\nMoedas e riquezas podem ser usadas como elementos de aventura. Por exemplo, se o grupo derrota mercenários contratados por um barão corrupto, pode encontrar moedas com a efígie do nobre, ligando os bandidos a ele.\n\nItens. O grupo encontra um item diverso, um equipamento, um equipamento superior, uma ou mais poções ou um item mágico.\n\n• Diverso. Role na Tabela 8-3, na página seguinte, para determinar qual item o grupo encontra.\n\n• Equipamento. Role 1d6 para determinar o tipo de equipamento: 1–3) arma; 4–5) armadura ou escudo; 6) esotérico. Então role na Tabela 8-4, na página seguinte, para determinar o item específico.\n\n• Superior. Role para determinar se é uma arma, armadura/escudo ou esotérico, como acima. Então, para cada melhoria do item, role uma vez na Tabela 8-5: Itens Superiores, na página 332.\n\n• Poções. Veja a página 341.\n\n• Mágico. Role 1d6 para determinar o tipo de item: 1–2) arma (página 336); 3) armadura/escudo (página 339); 4–6) acessório (página 342)."
+    },
+    {
+      "titulo": "Tesouro em Outras Situações",
+      "texto": "O mestre pode fornecer tesouros por outras situações que não envolvam combate — normalmente na forma de recompensas por atos realizados pelo grupo. Se os personagens resgatam o filho de uma mercadora, ela pode presenteá-los com tesouro.\n\nEsta também é uma forma de garantir que o grupo receba o tesouro devido por uma aventura. Se os personagens são convocados por um rei para acabar com uma infestação de aparições, podem passar a aventura sem ganhar nada (pois aparições são criaturas com tesouro \"nenhum\"). Para resolver isso, no fim da aventura o rei pode recompensá-los com um valor equivalente ao que teriam ganhado pelos combates, se aparições possuíssem tesouro padrão."
+    },
+    {
+      "titulo": "Controlando a Riqueza",
+      "texto": "É importante controlar a riqueza do grupo. Personagens com dinheiro demais para seu nível terão acesso a itens que não deveriam ter, tornando os desafios fáceis. Da mesma forma, um grupo muito pobre terá dificuldade para sobreviver!\n\nA tabela ao lado (Tabela 8-6) apresenta o tesouro médio que o grupo deve receber a cada cena com uma ameaça. A palavra-chave é \"médio\" — os personagens não precisam ganhar esse valor exato. Mas, se passarem por muitas cenas sem tesouro, faça com que recebam esse valor em outra ocasião (como visto em \"Tesouro em Outras Situações\"). Por outro lado, se estão muito ricos, devem passar por uma série de cenas sem tesouro, até a situação se normalizar. Um grupo de quatro personagens deve vencer quatro ameaças de ND igual ao seu nível para subir para o próximo. Assim, ao longo de cada nível, um grupo deve conquistar quatro vezes o valor na tabela.\n\nOutra maneira de garantir que o grupo tenha riqueza apropriada é comparar seu nível e riqueza com a Tabela 3-1: Dinheiro Inicial. Um personagem de 10º nível, por exemplo, deve ter posses que somam perto de T$ 13.000. Se tiver muito mais ou muito menos, algo está errado e precisa ser ajustado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_8_1_tesouro_por_nd": [
+      {
+        "nd": "1/4",
+        "d_percent_dinheiro": "01-30",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "1/4",
+        "d_percent_dinheiro": "31-70",
+        "dinheiro": "1d6x10 TC"
+      },
+      {
+        "nd": "1/4",
+        "d_percent_dinheiro": "71-95",
+        "dinheiro": "1d4x100 TC"
+      },
+      {
+        "nd": "1/4",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1d6x10 T$"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_dinheiro": "01-25",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_dinheiro": "26-70",
+        "dinheiro": "2d6x10 TC"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_dinheiro": "71-95",
+        "dinheiro": "2d8x10 T$"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1d4x100 T$"
+      },
+      {
+        "nd": "1",
+        "d_percent_dinheiro": "01-20",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "1",
+        "d_percent_dinheiro": "21-70",
+        "dinheiro": "3d8x10 T$"
+      },
+      {
+        "nd": "1",
+        "d_percent_dinheiro": "71-95",
+        "dinheiro": "4d12x10 T$"
+      },
+      {
+        "nd": "1",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1 riqueza menor"
+      },
+      {
+        "nd": "2",
+        "d_percent_dinheiro": "01-15",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "2",
+        "d_percent_dinheiro": "16-55",
+        "dinheiro": "3d10x10 T$"
+      },
+      {
+        "nd": "2",
+        "d_percent_dinheiro": "56-85",
+        "dinheiro": "2d4x100 T$"
+      },
+      {
+        "nd": "2",
+        "d_percent_dinheiro": "86-95",
+        "dinheiro": "2d6+1x100 T$"
+      },
+      {
+        "nd": "2",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1 riqueza menor"
+      },
+      {
+        "nd": "3",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "3",
+        "d_percent_dinheiro": "11-20",
+        "dinheiro": "4d12x10 T$"
+      },
+      {
+        "nd": "3",
+        "d_percent_dinheiro": "21-60",
+        "dinheiro": "1d4x100 T$"
+      },
+      {
+        "nd": "3",
+        "d_percent_dinheiro": "61-90",
+        "dinheiro": "1d8x10 TO"
+      },
+      {
+        "nd": "3",
+        "d_percent_dinheiro": "91-100",
+        "dinheiro": "1d3 riquezas menores"
+      },
+      {
+        "nd": "4",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "4",
+        "d_percent_dinheiro": "11-50",
+        "dinheiro": "1d6x100 T$"
+      },
+      {
+        "nd": "4",
+        "d_percent_dinheiro": "51-80",
+        "dinheiro": "1d12x100 T$"
+      },
+      {
+        "nd": "4",
+        "d_percent_dinheiro": "81-90",
+        "dinheiro": "1 riqueza menor+%"
+      },
+      {
+        "nd": "4",
+        "d_percent_dinheiro": "91-100",
+        "dinheiro": "1d3 riquezas menores+%"
+      },
+      {
+        "nd": "5",
+        "d_percent_dinheiro": "01-15",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "5",
+        "d_percent_dinheiro": "16-65",
+        "dinheiro": "1d8x100 T$"
+      },
+      {
+        "nd": "5",
+        "d_percent_dinheiro": "66-95",
+        "dinheiro": "3d4x10 TO"
+      },
+      {
+        "nd": "5",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1 riqueza média"
+      },
+      {
+        "nd": "6",
+        "d_percent_dinheiro": "01-15",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "6",
+        "d_percent_dinheiro": "16-60",
+        "dinheiro": "2d6x100 T$"
+      },
+      {
+        "nd": "6",
+        "d_percent_dinheiro": "61-90",
+        "dinheiro": "2d10x100 T$"
+      },
+      {
+        "nd": "6",
+        "d_percent_dinheiro": "91-100",
+        "dinheiro": "1d3+1 riquezas menores"
+      },
+      {
+        "nd": "7",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "7",
+        "d_percent_dinheiro": "11-60",
+        "dinheiro": "2d8x100 T$"
+      },
+      {
+        "nd": "7",
+        "d_percent_dinheiro": "61-90",
+        "dinheiro": "2d12x10 TO"
+      },
+      {
+        "nd": "7",
+        "d_percent_dinheiro": "91-100",
+        "dinheiro": "1d4+1 riquezas menores"
+      },
+      {
+        "nd": "8",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "8",
+        "d_percent_dinheiro": "11-55",
+        "dinheiro": "2d10x100 T$"
+      },
+      {
+        "nd": "8",
+        "d_percent_dinheiro": "56-95",
+        "dinheiro": "1d4+1 riquezas menores"
+      },
+      {
+        "nd": "8",
+        "d_percent_dinheiro": "96-100",
+        "dinheiro": "1 riqueza média+%"
+      },
+      {
+        "nd": "9",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "9",
+        "d_percent_dinheiro": "11-35",
+        "dinheiro": "1 riqueza média"
+      },
+      {
+        "nd": "9",
+        "d_percent_dinheiro": "36-85",
+        "dinheiro": "4d6x100 T$"
+      },
+      {
+        "nd": "9",
+        "d_percent_dinheiro": "86-100",
+        "dinheiro": "1d3 riquezas médias"
+      },
+      {
+        "nd": "10",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "10",
+        "d_percent_dinheiro": "11-30",
+        "dinheiro": "4d6x100 T$"
+      },
+      {
+        "nd": "10",
+        "d_percent_dinheiro": "31-85",
+        "dinheiro": "4d10x10 TO"
+      },
+      {
+        "nd": "10",
+        "d_percent_dinheiro": "86-100",
+        "dinheiro": "1d3+1 riquezas médias"
+      },
+      {
+        "nd": "11",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "11",
+        "d_percent_dinheiro": "11-45",
+        "dinheiro": "2d4x1.000 T$"
+      },
+      {
+        "nd": "11",
+        "d_percent_dinheiro": "46-85",
+        "dinheiro": "1d3 riquezas médias"
+      },
+      {
+        "nd": "11",
+        "d_percent_dinheiro": "86-100",
+        "dinheiro": "2d6x100 TO"
+      },
+      {
+        "nd": "12",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "12",
+        "d_percent_dinheiro": "11-45",
+        "dinheiro": "1 riqueza média+%"
+      },
+      {
+        "nd": "12",
+        "d_percent_dinheiro": "46-80",
+        "dinheiro": "2d6x1.000 T$"
+      },
+      {
+        "nd": "12",
+        "d_percent_dinheiro": "81-100",
+        "dinheiro": "1d4+1 riquezas médias"
+      },
+      {
+        "nd": "13",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "13",
+        "d_percent_dinheiro": "11-45",
+        "dinheiro": "4d4x1.000 T$"
+      },
+      {
+        "nd": "13",
+        "d_percent_dinheiro": "46-80",
+        "dinheiro": "1d3+1 riquezas médias"
+      },
+      {
+        "nd": "13",
+        "d_percent_dinheiro": "81-100",
+        "dinheiro": "4d6x100 TO"
+      },
+      {
+        "nd": "14",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "14",
+        "d_percent_dinheiro": "11-45",
+        "dinheiro": "1d3+1 riquezas médias"
+      },
+      {
+        "nd": "14",
+        "d_percent_dinheiro": "46-80",
+        "dinheiro": "3d6x1.000 T$"
+      },
+      {
+        "nd": "14",
+        "d_percent_dinheiro": "81-100",
+        "dinheiro": "1 riqueza maior"
+      },
+      {
+        "nd": "15",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "15",
+        "d_percent_dinheiro": "11-45",
+        "dinheiro": "1 riqueza média+%"
+      },
+      {
+        "nd": "15",
+        "d_percent_dinheiro": "46-80",
+        "dinheiro": "2d10x1.000 T$"
+      },
+      {
+        "nd": "15",
+        "d_percent_dinheiro": "81-100",
+        "dinheiro": "1d4x1.000 TO"
+      },
+      {
+        "nd": "16",
+        "d_percent_dinheiro": "01-10",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "16",
+        "d_percent_dinheiro": "11-40",
+        "dinheiro": "3d6x1.000 T$"
+      },
+      {
+        "nd": "16",
+        "d_percent_dinheiro": "41-75",
+        "dinheiro": "3d10x100 TO"
+      },
+      {
+        "nd": "16",
+        "d_percent_dinheiro": "76-100",
+        "dinheiro": "1d3 riquezas maiores"
+      },
+      {
+        "nd": "17",
+        "d_percent_dinheiro": "01-05",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "17",
+        "d_percent_dinheiro": "06-40",
+        "dinheiro": "4d6x1.000 T$"
+      },
+      {
+        "nd": "17",
+        "d_percent_dinheiro": "41-75",
+        "dinheiro": "1d3 riquezas médias+%"
+      },
+      {
+        "nd": "17",
+        "d_percent_dinheiro": "76-100",
+        "dinheiro": "2d4x1.000 TO"
+      },
+      {
+        "nd": "18",
+        "d_percent_dinheiro": "01-05",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "18",
+        "d_percent_dinheiro": "06-40",
+        "dinheiro": "4d10x1.000 T$"
+      },
+      {
+        "nd": "18",
+        "d_percent_dinheiro": "41-75",
+        "dinheiro": "1 riqueza maior"
+      },
+      {
+        "nd": "18",
+        "d_percent_dinheiro": "76-100",
+        "dinheiro": "1d3+1 riquezas maiores"
+      },
+      {
+        "nd": "19",
+        "d_percent_dinheiro": "01-05",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "19",
+        "d_percent_dinheiro": "06-40",
+        "dinheiro": "4d12x1.000 T$"
+      },
+      {
+        "nd": "19",
+        "d_percent_dinheiro": "41-75",
+        "dinheiro": "1 riqueza maior+%"
+      },
+      {
+        "nd": "19",
+        "d_percent_dinheiro": "76-100",
+        "dinheiro": "1d12x1.000 TO"
+      },
+      {
+        "nd": "20",
+        "d_percent_dinheiro": "01-05",
+        "dinheiro": "—"
+      },
+      {
+        "nd": "20",
+        "d_percent_dinheiro": "06-40",
+        "dinheiro": "2d4x1.000 TO"
+      },
+      {
+        "nd": "20",
+        "d_percent_dinheiro": "41-75",
+        "dinheiro": "1d3 riquezas maiores"
+      },
+      {
+        "nd": "20",
+        "d_percent_dinheiro": "76-100",
+        "dinheiro": "1d3+1 riquezas maiores+%"
+      }
+    ],
+    "tabela_8_1_itens_por_nd": [
+      {
+        "nd": "1/4",
+        "d_percent_itens": "01-50",
+        "itens": "—"
+      },
+      {
+        "nd": "1/4",
+        "d_percent_itens": "51-75",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "1/4",
+        "d_percent_itens": "76-100",
+        "itens": "Equipamento"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_itens": "01-45",
+        "itens": "—"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_itens": "46-70",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "1/2",
+        "d_percent_itens": "71-100",
+        "itens": "Equipamento"
+      },
+      {
+        "nd": "1",
+        "d_percent_itens": "01-40",
+        "itens": "—"
+      },
+      {
+        "nd": "1",
+        "d_percent_itens": "41-65",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "1",
+        "d_percent_itens": "66-90",
+        "itens": "Equipamento"
+      },
+      {
+        "nd": "1",
+        "d_percent_itens": "91-100",
+        "itens": "1 poção"
+      },
+      {
+        "nd": "2",
+        "d_percent_itens": "01-30",
+        "itens": "—"
+      },
+      {
+        "nd": "2",
+        "d_percent_itens": "31-40",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "2",
+        "d_percent_itens": "41-70",
+        "itens": "Equipamento"
+      },
+      {
+        "nd": "2",
+        "d_percent_itens": "71-90",
+        "itens": "1 poção"
+      },
+      {
+        "nd": "2",
+        "d_percent_itens": "91-100",
+        "itens": "Superior (1 melhoria)"
+      },
+      {
+        "nd": "3",
+        "d_percent_itens": "01-25",
+        "itens": "—"
+      },
+      {
+        "nd": "3",
+        "d_percent_itens": "26-35",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "3",
+        "d_percent_itens": "36-60",
+        "itens": "Equipamento"
+      },
+      {
+        "nd": "3",
+        "d_percent_itens": "61-85",
+        "itens": "1 poção"
+      },
+      {
+        "nd": "3",
+        "d_percent_itens": "86-100",
+        "itens": "Superior (1 melhoria)"
+      },
+      {
+        "nd": "4",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "4",
+        "d_percent_itens": "21-30",
+        "itens": "Diverso"
+      },
+      {
+        "nd": "4",
+        "d_percent_itens": "31-55",
+        "itens": "Equipamento2D"
+      },
+      {
+        "nd": "4",
+        "d_percent_itens": "56-80",
+        "itens": "1 poção+%"
+      },
+      {
+        "nd": "4",
+        "d_percent_itens": "81-100",
+        "itens": "Superior (1 melhoria)2D"
+      },
+      {
+        "nd": "5",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "5",
+        "d_percent_itens": "21-70",
+        "itens": "1 poção"
+      },
+      {
+        "nd": "5",
+        "d_percent_itens": "71-90",
+        "itens": "Superior (1 melhoria)"
+      },
+      {
+        "nd": "5",
+        "d_percent_itens": "91-100",
+        "itens": "Superior (2 melhorias)"
+      },
+      {
+        "nd": "6",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "6",
+        "d_percent_itens": "21-65",
+        "itens": "1 poção+%"
+      },
+      {
+        "nd": "6",
+        "d_percent_itens": "66-95",
+        "itens": "Superior (1 melhoria)"
+      },
+      {
+        "nd": "6",
+        "d_percent_itens": "96-100",
+        "itens": "Superior (2 melhorias)2D"
+      },
+      {
+        "nd": "7",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "7",
+        "d_percent_itens": "21-60",
+        "itens": "1d3 poções"
+      },
+      {
+        "nd": "7",
+        "d_percent_itens": "61-90",
+        "itens": "Superior (2 melhorias)"
+      },
+      {
+        "nd": "7",
+        "d_percent_itens": "91-100",
+        "itens": "Superior (3 melhorias)"
+      },
+      {
+        "nd": "8",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "8",
+        "d_percent_itens": "21-75",
+        "itens": "1d3 poções"
+      },
+      {
+        "nd": "8",
+        "d_percent_itens": "76-95",
+        "itens": "Superior (2 melhorias)"
+      },
+      {
+        "nd": "8",
+        "d_percent_itens": "96-100",
+        "itens": "Superior (3 melhorias)2D"
+      },
+      {
+        "nd": "9",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "9",
+        "d_percent_itens": "21-70",
+        "itens": "1 poção+%"
+      },
+      {
+        "nd": "9",
+        "d_percent_itens": "71-95",
+        "itens": "Superior (3 melhorias)"
+      },
+      {
+        "nd": "9",
+        "d_percent_itens": "96-100",
+        "itens": "Mágico (menor)"
+      },
+      {
+        "nd": "10",
+        "d_percent_itens": "01-50",
+        "itens": "—"
+      },
+      {
+        "nd": "10",
+        "d_percent_itens": "51-75",
+        "itens": "1d3+1 poções"
+      },
+      {
+        "nd": "10",
+        "d_percent_itens": "76-90",
+        "itens": "Superior (3 melhorias)"
+      },
+      {
+        "nd": "10",
+        "d_percent_itens": "91-100",
+        "itens": "Mágico (menor)"
+      },
+      {
+        "nd": "11",
+        "d_percent_itens": "01-45",
+        "itens": "—"
+      },
+      {
+        "nd": "11",
+        "d_percent_itens": "46-70",
+        "itens": "1d4+1 poções"
+      },
+      {
+        "nd": "11",
+        "d_percent_itens": "71-90",
+        "itens": "Superior (3 melhorias)"
+      },
+      {
+        "nd": "11",
+        "d_percent_itens": "91-100",
+        "itens": "Mágico (menor)2D"
+      },
+      {
+        "nd": "12",
+        "d_percent_itens": "01-45",
+        "itens": "—"
+      },
+      {
+        "nd": "12",
+        "d_percent_itens": "46-70",
+        "itens": "1d3+1 poções+%"
+      },
+      {
+        "nd": "12",
+        "d_percent_itens": "71-85",
+        "itens": "Superior (4 melhorias)"
+      },
+      {
+        "nd": "12",
+        "d_percent_itens": "86-100",
+        "itens": "Mágico (menor)"
+      },
+      {
+        "nd": "13",
+        "d_percent_itens": "01-40",
+        "itens": "—"
+      },
+      {
+        "nd": "13",
+        "d_percent_itens": "41-65",
+        "itens": "1d4+1 poções+%"
+      },
+      {
+        "nd": "13",
+        "d_percent_itens": "66-95",
+        "itens": "Superior (4 melhorias)"
+      },
+      {
+        "nd": "13",
+        "d_percent_itens": "96-100",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "14",
+        "d_percent_itens": "01-40",
+        "itens": "—"
+      },
+      {
+        "nd": "14",
+        "d_percent_itens": "41-65",
+        "itens": "1d4+1 poções+%"
+      },
+      {
+        "nd": "14",
+        "d_percent_itens": "66-90",
+        "itens": "Superior (4 melhorias)"
+      },
+      {
+        "nd": "14",
+        "d_percent_itens": "91-100",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "15",
+        "d_percent_itens": "01-35",
+        "itens": "—"
+      },
+      {
+        "nd": "15",
+        "d_percent_itens": "36-45",
+        "itens": "1d6+1 poções"
+      },
+      {
+        "nd": "15",
+        "d_percent_itens": "46-85",
+        "itens": "Superior (4 melhorias)2D"
+      },
+      {
+        "nd": "15",
+        "d_percent_itens": "86-100",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "16",
+        "d_percent_itens": "01-35",
+        "itens": "—"
+      },
+      {
+        "nd": "16",
+        "d_percent_itens": "36-45",
+        "itens": "1d6+1 poções+%"
+      },
+      {
+        "nd": "16",
+        "d_percent_itens": "46-80",
+        "itens": "Superior (4 melhorias)2D"
+      },
+      {
+        "nd": "16",
+        "d_percent_itens": "81-100",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "17",
+        "d_percent_itens": "01-20",
+        "itens": "—"
+      },
+      {
+        "nd": "17",
+        "d_percent_itens": "21-40",
+        "itens": "Mágico (menor)"
+      },
+      {
+        "nd": "17",
+        "d_percent_itens": "41-80",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "17",
+        "d_percent_itens": "81-100",
+        "itens": "Mágico (maior)"
+      },
+      {
+        "nd": "18",
+        "d_percent_itens": "01-15",
+        "itens": "—"
+      },
+      {
+        "nd": "18",
+        "d_percent_itens": "16-40",
+        "itens": "Mágico (menor)2D"
+      },
+      {
+        "nd": "18",
+        "d_percent_itens": "41-70",
+        "itens": "Mágico (médio)"
+      },
+      {
+        "nd": "18",
+        "d_percent_itens": "71-100",
+        "itens": "Mágico (maior)"
+      },
+      {
+        "nd": "19",
+        "d_percent_itens": "01-10",
+        "itens": "—"
+      },
+      {
+        "nd": "19",
+        "d_percent_itens": "11-40",
+        "itens": "Mágico (menor)2D"
+      },
+      {
+        "nd": "19",
+        "d_percent_itens": "41-60",
+        "itens": "Mágico (médio)2D"
+      },
+      {
+        "nd": "19",
+        "d_percent_itens": "61-100",
+        "itens": "Mágico (maior)"
+      },
+      {
+        "nd": "20",
+        "d_percent_itens": "01-05",
+        "itens": "—"
+      },
+      {
+        "nd": "20",
+        "d_percent_itens": "06-40",
+        "itens": "Mágico (menor)2D"
+      },
+      {
+        "nd": "20",
+        "d_percent_itens": "41-50",
+        "itens": "Mágico (médio)2D"
+      },
+      {
+        "nd": "20",
+        "d_percent_itens": "51-100",
+        "itens": "Mágico (maior)2D"
+      }
+    ],
+    "tabela_8_1_notas": "+% Na rolagem de d% para determinar o tipo de riqueza ou poção, você recebe +20%. Resultados acima de 100% contam como 100%. 2D Na rolagem para definir o tipo de equipamento ou item mágico, você pode rolar 2d6 e escolher um deles. Por exemplo, se rolar um 2 e um 6 para definir o tipo de equipamento, você pode escolher entre uma arma e um esotérico.",
+    "tabela_8_2_riquezas": [
+      {
+        "d_percent_menor": "01-25",
+        "d_percent_media": "—",
+        "d_percent_maior": "—",
+        "valor_t$": "4d4 (10)",
+        "exemplos": "Ágata ou hematita (1/2); barril de farinha ou gaiola com galinhas (5)."
+      },
+      {
+        "d_percent_menor": "26-40",
+        "d_percent_media": "—",
+        "d_percent_maior": "—",
+        "valor_t$": "1d4x10 (25)",
+        "exemplos": "Quartzo rosa ou topázio (1/2); caixa de tabaco ou rolo de linho (1); jarro de especiarias, como canela, gorad, pimenta ou sal (2)."
+      },
+      {
+        "d_percent_menor": "41-55",
+        "d_percent_media": "01-10",
+        "d_percent_maior": "—",
+        "valor_t$": "2d4x10 (50)",
+        "exemplos": "Bracelete de ouro finamente trabalhado (1/2); estatueta de osso ou marfim entalhado ou rolo de seda (1); vaso de prata (2)."
+      },
+      {
+        "d_percent_menor": "56-70",
+        "d_percent_media": "11-30",
+        "d_percent_maior": "—",
+        "valor_t$": "4d6x10 (140)",
+        "exemplos": "Ametista ou pérola branca (1/2); lingote de prata ou cálice de prata com gemas de lápis-lazúli (1); tapeçaria grande e bem-feita de lã (5)."
+      },
+      {
+        "d_percent_menor": "71-85",
+        "d_percent_media": "31-50",
+        "d_percent_maior": "01-05",
+        "valor_t$": "1d6x100 (350)",
+        "exemplos": "Alexandrita ou pérola negra (1/2); espada cerimonial ornada com prata e gema negra no cabo ou pente de prata com pedras preciosas (1)."
+      },
+      {
+        "d_percent_menor": "86-95",
+        "d_percent_media": "51-65",
+        "d_percent_maior": "06-15",
+        "valor_t$": "2d6x100 (700)",
+        "exemplos": "Pente em forma de dragão com olhos de gema vermelha (1); harpa de madeira exótica com ornamentos de zircão e marfim (5)."
+      },
+      {
+        "d_percent_menor": "96-99",
+        "d_percent_media": "66-80",
+        "d_percent_maior": "16-25",
+        "valor_t$": "2d8x100 (900)",
+        "exemplos": "Opala negra ou tapa-olho com um olho falso de safira (1/2); luva bordada e adornada com gemas ou pingente de opala vermelha com corrente de ouro (1); lingote de ouro ou pintura antiga (2)."
+      },
+      {
+        "d_percent_menor": "100",
+        "d_percent_media": "81-90",
+        "d_percent_maior": "26-40",
+        "valor_t$": "4d10x100 (2.200)",
+        "exemplos": "Esmeralda verde ou pingente de safira (1/2); caixinha de música de ouro ou tornozeleira com gemas (1); manto bordado em veludo e seda com inúmeras pedras preciosas (2)."
+      },
+      {
+        "d_percent_menor": "—",
+        "d_percent_media": "91-95",
+        "d_percent_maior": "41-60",
+        "valor_t$": "6d12x100 (3.900)",
+        "exemplos": "Anel de prata e safira ou correntinha com pequenas pérolas rosas, diamante branco (1/2); ídolo de ouro puro maciço (5)."
+      },
+      {
+        "d_percent_menor": "—",
+        "d_percent_media": "96-99",
+        "d_percent_maior": "61-75",
+        "valor_t$": "2d10x1.000 (11.000)",
+        "exemplos": "Anel de ouro e rubi ou diamante vermelho (1/2); conjunto de taças de ouro decoradas com esmeraldas (2)."
+      },
+      {
+        "d_percent_menor": "—",
+        "d_percent_media": "100",
+        "d_percent_maior": "76-85",
+        "valor_t$": "6d8x1.000 (27.000)",
+        "exemplos": "Coroa de ouro adornada com centenas de gemas, pertencente a um antigo monarca (1); baú de mitral com coleção de diamantes (2)."
+      },
+      {
+        "d_percent_menor": "—",
+        "d_percent_media": "—",
+        "d_percent_maior": "86-95",
+        "valor_t$": "1d10x10.000 (55.000)",
+        "exemplos": "Arca de madeira reforçada repleta de lingotes de prata e ouro, além de pedras preciosas de vários tipos (20)."
+      },
+      {
+        "d_percent_menor": "—",
+        "d_percent_media": "—",
+        "d_percent_maior": "96-100",
+        "valor_t$": "4d12x10.000 (260.000)",
+        "exemplos": "Uma sala forrada de moedas! Mover todo esse dinheiro exige trabalhadores e carroças (ou outra ideia por parte dos jogadores), além de atrair a atenção de bandidos, coletores de impostos e aproveitadores de vários tipos..."
+      }
+    ],
+    "tabela_8_3_itens_diversos": [
+      {
+        "d_percent": "01-02",
+        "item": "Ácido"
+      },
+      {
+        "d_percent": "03-04",
+        "item": "Água benta"
+      },
+      {
+        "d_percent": "05",
+        "item": "Alaúde élfico"
+      },
+      {
+        "d_percent": "06",
+        "item": "Algemas"
+      },
+      {
+        "d_percent": "07-08",
+        "item": "Baga-de-fogo"
+      },
+      {
+        "d_percent": "09-23",
+        "item": "Bálsamo restaurador"
+      },
+      {
+        "d_percent": "24",
+        "item": "Bandana"
+      },
+      {
+        "d_percent": "25",
+        "item": "Bandoleira de poções"
+      },
+      {
+        "d_percent": "26-30",
+        "item": "Bomba"
+      },
+      {
+        "d_percent": "31",
+        "item": "Botas reforçadas"
+      },
+      {
+        "d_percent": "32",
+        "item": "Camisa bufante"
+      },
+      {
+        "d_percent": "33",
+        "item": "Capa esvoaçante"
+      },
+      {
+        "d_percent": "34",
+        "item": "Capa pesada"
+      },
+      {
+        "d_percent": "35",
+        "item": "Casaco longo"
+      },
+      {
+        "d_percent": "36",
+        "item": "Chapéu arcano"
+      },
+      {
+        "d_percent": "37-38",
+        "item": "Coleção de livros"
+      },
+      {
+        "d_percent": "39-40",
+        "item": "Cosmético"
+      },
+      {
+        "d_percent": "41-42",
+        "item": "Dente-de-dragão"
+      },
+      {
+        "d_percent": "43",
+        "item": "Enfeite de elmo"
+      },
+      {
+        "d_percent": "44",
+        "item": "Elixir do amor"
+      },
+      {
+        "d_percent": "45-46",
+        "item": "Equipamento de viagem"
+      },
+      {
+        "d_percent": "47-56",
+        "item": "Essência de mana"
+      },
+      {
+        "d_percent": "57",
+        "item": "Estojo de disfarces"
+      },
+      {
+        "d_percent": "58",
+        "item": "Farrapos de ermitão"
+      },
+      {
+        "d_percent": "59",
+        "item": "Flauta mística"
+      },
+      {
+        "d_percent": "60-66",
+        "item": "Fogo alquímico"
+      },
+      {
+        "d_percent": "67",
+        "item": "Gorro de ervas"
+      },
+      {
+        "d_percent": "68-69",
+        "item": "Líquen lilás"
+      },
+      {
+        "d_percent": "70",
+        "item": "Luneta"
+      },
+      {
+        "d_percent": "71",
+        "item": "Luva de pelica"
+      },
+      {
+        "d_percent": "72-73",
+        "item": "Maleta de medicamentos"
+      },
+      {
+        "d_percent": "74",
+        "item": "Manopla"
+      },
+      {
+        "d_percent": "75",
+        "item": "Manto eclesiástico"
+      },
+      {
+        "d_percent": "76-78",
+        "item": "Mochila de aventureiro"
+      },
+      {
+        "d_percent": "79-80",
+        "item": "Musgo púrpura"
+      },
+      {
+        "d_percent": "81",
+        "item": "Organizador de pergaminhos"
+      },
+      {
+        "d_percent": "82-83",
+        "item": "Ossos de monstro"
+      },
+      {
+        "d_percent": "84-85",
+        "item": "Pó de cristal"
+      },
+      {
+        "d_percent": "86-87",
+        "item": "Pó de giz"
+      },
+      {
+        "d_percent": "88",
+        "item": "Pó do desaparecimento"
+      },
+      {
+        "d_percent": "89",
+        "item": "Robe místico"
+      },
+      {
+        "d_percent": "90-91",
+        "item": "Saco de sal"
+      },
+      {
+        "d_percent": "92",
+        "item": "Sapatos de camurça"
+      },
+      {
+        "d_percent": "93-94",
+        "item": "Seixo de âmbar"
+      },
+      {
+        "d_percent": "95",
+        "item": "Sela"
+      },
+      {
+        "d_percent": "96",
+        "item": "Tabardo"
+      },
+      {
+        "d_percent": "97",
+        "item": "Traje da corte"
+      },
+      {
+        "d_percent": "98-99",
+        "item": "Terra de cemitério"
+      },
+      {
+        "d_percent": "100",
+        "item": "Veste de seda"
+      }
+    ],
+    "tabela_8_4_equipamento_armas": [
+      {
+        "d_percent": "01-03",
+        "arma": "Adaga"
+      },
+      {
+        "d_percent": "04-05",
+        "arma": "Alabarda"
+      },
+      {
+        "d_percent": "06-07",
+        "arma": "Alfange"
+      },
+      {
+        "d_percent": "08-10",
+        "arma": "Arco curto"
+      },
+      {
+        "d_percent": "11-13",
+        "arma": "Arco longo"
+      },
+      {
+        "d_percent": "14-15",
+        "arma": "Azagaia"
+      },
+      {
+        "d_percent": "16",
+        "arma": "Balas (20)"
+      },
+      {
+        "d_percent": "17-18",
+        "arma": "Besta leve"
+      },
+      {
+        "d_percent": "19-20",
+        "arma": "Besta pesada"
+      },
+      {
+        "d_percent": "21-23",
+        "arma": "Bordão"
+      },
+      {
+        "d_percent": "24",
+        "arma": "Chicote"
+      },
+      {
+        "d_percent": "25-27",
+        "arma": "Cimitarra"
+      },
+      {
+        "d_percent": "28-30",
+        "arma": "Clava"
+      },
+      {
+        "d_percent": "31",
+        "arma": "Corrente de espinhos"
+      },
+      {
+        "d_percent": "32-33",
+        "arma": "Espada bastarda"
+      },
+      {
+        "d_percent": "34-38",
+        "arma": "Espada curta"
+      },
+      {
+        "d_percent": "39-43",
+        "arma": "Espada longa"
+      },
+      {
+        "d_percent": "44-46",
+        "arma": "Flechas (20)"
+      },
+      {
+        "d_percent": "47-49",
+        "arma": "Florete"
+      },
+      {
+        "d_percent": "50-51",
+        "arma": "Foice"
+      },
+      {
+        "d_percent": "52-53",
+        "arma": "Funda"
+      },
+      {
+        "d_percent": "54-55",
+        "arma": "Gadanho"
+      },
+      {
+        "d_percent": "56",
+        "arma": "Katana"
+      },
+      {
+        "d_percent": "57-59",
+        "arma": "Lança"
+      },
+      {
+        "d_percent": "60",
+        "arma": "Lança montada"
+      },
+      {
+        "d_percent": "61-63",
+        "arma": "Maça"
+      },
+      {
+        "d_percent": "64-66",
+        "arma": "Machadinha"
+      },
+      {
+        "d_percent": "67",
+        "arma": "Machado anão"
+      },
+      {
+        "d_percent": "68-70",
+        "arma": "Machado de batalha"
+      },
+      {
+        "d_percent": "71-73",
+        "arma": "Machado de guerra"
+      },
+      {
+        "d_percent": "74",
+        "arma": "Machado táurico"
+      },
+      {
+        "d_percent": "75-76",
+        "arma": "Mangual"
+      },
+      {
+        "d_percent": "77",
+        "arma": "Marreta"
+      },
+      {
+        "d_percent": "78-80",
+        "arma": "Martelo de guerra"
+      },
+      {
+        "d_percent": "81-83",
+        "arma": "Montante"
+      },
+      {
+        "d_percent": "84",
+        "arma": "Mosquete"
+      },
+      {
+        "d_percent": "85",
+        "arma": "Pedras (20)"
+      },
+      {
+        "d_percent": "86-88",
+        "arma": "Picareta"
+      },
+      {
+        "d_percent": "89-90",
+        "arma": "Pique"
+      },
+      {
+        "d_percent": "91-92",
+        "arma": "Pistola"
+      },
+      {
+        "d_percent": "93",
+        "arma": "Rede"
+      },
+      {
+        "d_percent": "94-96",
+        "arma": "Tacape"
+      },
+      {
+        "d_percent": "97-98",
+        "arma": "Tridente"
+      },
+      {
+        "d_percent": "99-100",
+        "arma": "Virotes (20)"
+      }
+    ],
+    "tabela_8_4_equipamento_armadura": [
+      {
+        "d_percent": "01-05",
+        "armadura": "Couro"
+      },
+      {
+        "d_percent": "06-10",
+        "armadura": "Brunea"
+      },
+      {
+        "d_percent": "11-25",
+        "armadura": "Completa"
+      },
+      {
+        "d_percent": "26-30",
+        "armadura": "Cota de malha"
+      },
+      {
+        "d_percent": "31-45",
+        "armadura": "Couraça"
+      },
+      {
+        "d_percent": "46-55",
+        "armadura": "Couro batido"
+      },
+      {
+        "d_percent": "56-65",
+        "armadura": "Escudo leve"
+      },
+      {
+        "d_percent": "66-80",
+        "armadura": "Escudo pesado"
+      },
+      {
+        "d_percent": "81-85",
+        "armadura": "Gibão de peles"
+      },
+      {
+        "d_percent": "86-90",
+        "armadura": "Loriga segmentada"
+      },
+      {
+        "d_percent": "91-100",
+        "armadura": "Meia armadura"
+      }
+    ],
+    "tabela_8_4_equipamento_esoterico": [
+      {
+        "d_percent": "01-10",
+        "esoterico": "Bolsa de pó"
+      },
+      {
+        "d_percent": "11-25",
+        "esoterico": "Cajado arcano"
+      },
+      {
+        "d_percent": "26-35",
+        "esoterico": "Cetro elemental"
+      },
+      {
+        "d_percent": "36-42",
+        "esoterico": "Costela de lich"
+      },
+      {
+        "d_percent": "43-50",
+        "esoterico": "Dedo de ente"
+      },
+      {
+        "d_percent": "51-55",
+        "esoterico": "Luva de ferro"
+      },
+      {
+        "d_percent": "56-65",
+        "esoterico": "Medalhão de prata"
+      },
+      {
+        "d_percent": "66-75",
+        "esoterico": "Orbe cristalina"
+      },
+      {
+        "d_percent": "76-85",
+        "esoterico": "Tomo hermético"
+      },
+      {
+        "d_percent": "86-100",
+        "esoterico": "Varinha arcana"
+      }
+    ],
+    "tabela_8_5_itens_superiores_armas": [
+      {
+        "d_percent": "01-10",
+        "arma": "Atroz1"
+      },
+      {
+        "d_percent": "11-13",
+        "arma": "Banhada a ouro"
+      },
+      {
+        "d_percent": "14-23",
+        "arma": "Certeira"
+      },
+      {
+        "d_percent": "24-26",
+        "arma": "Cravejada de gemas"
+      },
+      {
+        "d_percent": "27-36",
+        "arma": "Cruel"
+      },
+      {
+        "d_percent": "37-39",
+        "arma": "Discreta"
+      },
+      {
+        "d_percent": "40-44",
+        "arma": "Equilibrada"
+      },
+      {
+        "d_percent": "45-48",
+        "arma": "Harmonizada"
+      },
+      {
+        "d_percent": "49-53",
+        "arma": "Injeção alquímica"
+      },
+      {
+        "d_percent": "54-55",
+        "arma": "Macabra"
+      },
+      {
+        "d_percent": "56-65",
+        "arma": "Maciça"
+      },
+      {
+        "d_percent": "66-75",
+        "arma": "Material especial2"
+      },
+      {
+        "d_percent": "76-80",
+        "arma": "Mira telescópica"
+      },
+      {
+        "d_percent": "81-90",
+        "arma": "Precisa"
+      },
+      {
+        "d_percent": "91-100",
+        "arma": "Pungente1"
+      }
+    ],
+    "tabela_8_5_itens_superiores_armaduras_escudos": [
+      {
+        "d_percent": "01-15",
+        "armadura_escudo": "Ajustada"
+      },
+      {
+        "d_percent": "16-19",
+        "armadura_escudo": "Banhada a ouro"
+      },
+      {
+        "d_percent": "20-23",
+        "armadura_escudo": "Cravejada de gemas"
+      },
+      {
+        "d_percent": "24-28",
+        "armadura_escudo": "Delicada"
+      },
+      {
+        "d_percent": "29-32",
+        "armadura_escudo": "Discreta"
+      },
+      {
+        "d_percent": "33-37",
+        "armadura_escudo": "Espinhos"
+      },
+      {
+        "d_percent": "38-40",
+        "armadura_escudo": "Macabra"
+      },
+      {
+        "d_percent": "41-50",
+        "armadura_escudo": "Material especial2"
+      },
+      {
+        "d_percent": "51-55",
+        "armadura_escudo": "Polida"
+      },
+      {
+        "d_percent": "56-80",
+        "armadura_escudo": "Reforçada"
+      },
+      {
+        "d_percent": "81-90",
+        "armadura_escudo": "Selada"
+      },
+      {
+        "d_percent": "91-100",
+        "armadura_escudo": "Sob medida1"
+      }
+    ],
+    "tabela_8_5_itens_superiores_esotericos": [
+      {
+        "d_percent": "01-04",
+        "esoterico": "Banhado a ouro"
+      },
+      {
+        "d_percent": "05-19",
+        "esoterico": "Canalizador"
+      },
+      {
+        "d_percent": "20-23",
+        "esoterico": "Cravejado de gemas"
+      },
+      {
+        "d_percent": "24-27",
+        "esoterico": "Discreto"
+      },
+      {
+        "d_percent": "28-42",
+        "esoterico": "Energético"
+      },
+      {
+        "d_percent": "43-57",
+        "esoterico": "Harmonizado"
+      },
+      {
+        "d_percent": "58-60",
+        "esoterico": "Macabro"
+      },
+      {
+        "d_percent": "61-69",
+        "esoterico": "Material especial2"
+      },
+      {
+        "d_percent": "70-85",
+        "esoterico": "Canalizador"
+      },
+      {
+        "d_percent": "86-100",
+        "esoterico": "Vigilante"
+      }
+    ],
+    "tabela_8_5_notas": "1 Conta como duas melhorias. Se o item só possuir uma, role novamente. 2 Role 1d6 para definir o material: 1) aço-rubi, 2) adamante, 3) gelo eterno, 4) madeira Tollon, 5) matéria vermelha, 6) mitral. Observação: a coluna Esotéricos lista \"Canalizador\" em duas faixas (05-19 e 70-85), exatamente como impresso no livro.",
+    "tabela_8_6_tesouro_medio_por_cena": [
+      {
+        "nivel": "1º",
+        "tesouro_t$": "T$ 300"
+      },
+      {
+        "nivel": "2º",
+        "tesouro_t$": "T$ 300"
+      },
+      {
+        "nivel": "3º",
+        "tesouro_t$": "T$ 400"
+      },
+      {
+        "nivel": "4º",
+        "tesouro_t$": "T$ 1.000"
+      },
+      {
+        "nivel": "5º",
+        "tesouro_t$": "T$ 1.000"
+      },
+      {
+        "nivel": "6º",
+        "tesouro_t$": "T$ 2.000"
+      },
+      {
+        "nivel": "7º",
+        "tesouro_t$": "T$ 2.000"
+      },
+      {
+        "nivel": "8º",
+        "tesouro_t$": "T$ 3.000"
+      },
+      {
+        "nivel": "9º",
+        "tesouro_t$": "T$ 3.000"
+      },
+      {
+        "nivel": "10º",
+        "tesouro_t$": "T$ 6.000"
+      },
+      {
+        "nivel": "11º",
+        "tesouro_t$": "T$ 8.000"
+      },
+      {
+        "nivel": "12º",
+        "tesouro_t$": "T$ 9.000"
+      },
+      {
+        "nivel": "13º",
+        "tesouro_t$": "T$ 13.000"
+      },
+      {
+        "nivel": "14º",
+        "tesouro_t$": "T$ 17.000"
+      },
+      {
+        "nivel": "15º",
+        "tesouro_t$": "T$ 22.000"
+      },
+      {
+        "nivel": "16º",
+        "tesouro_t$": "T$ 22.000"
+      },
+      {
+        "nivel": "17º",
+        "tesouro_t$": "T$ 40.000"
+      },
+      {
+        "nivel": "18º",
+        "tesouro_t$": "T$ 50.000"
+      },
+      {
+        "nivel": "19º",
+        "tesouro_t$": "T$ 60.000"
+      },
+      {
+        "nivel": "20º",
+        "tesouro_t$": "T$ 72.000"
+      }
+    ]
+  }
+}

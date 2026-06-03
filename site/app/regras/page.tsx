@@ -13,6 +13,7 @@ const GRUPOS: { titulo: string; ids: string[] }[] = [
   { titulo: "Jogando & Combate", ids: ["testes-e-dificuldades", "habilidades-e-efeitos", "combate", "acoes-em-combate"] },
   { titulo: "O Mestre", ids: ["como-mestrar", "sessoes-aventuras-e-campanhas", "npcs-mestre", "ambientes-de-aventura", "tempo-entre-aventuras"] },
   { titulo: "Ameaças", ids: ["construindo-combates", "perigos", "fichas-de-npcs"] },
+  { titulo: "Recompensas", ids: ["pontos-de-experiencia", "tesouros", "itens-magicos"] },
 ];
 
 function CardRegra({ regra }: { regra: Entidade }) {
