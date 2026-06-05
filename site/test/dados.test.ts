@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { carregarEntidades, carregarTermos } from "@/lib/dados";
+import { carregarEntidades, carregarTermos, idsDuplicados } from "@/lib/dados";
 import { carregarFontes, tituloFonte } from "@/lib/dados";
 
 test("carrega todas as entidades do data/ e encontra o Súcubo", () => {
@@ -36,4 +36,18 @@ test("tituloFonte mapeia slug -> título; desconhecido cai no próprio slug", ()
   expect(tituloFonte("livro-basico")).toBe("Livro Básico");
   expect(tituloFonte("ameacas-de-arton")).toBe("Ameaças de Arton");
   expect(tituloFonte("inexistente")).toBe("inexistente");
+});
+
+test("idsDuplicados acha colisões de tipo/id e ignora únicos", () => {
+  expect(idsDuplicados([])).toEqual([]);
+  expect(idsDuplicados([{ tipo: "criatura", id: "orc" }, { tipo: "criatura", id: "goblin" }])).toEqual([]);
+  // mesmo id em tipos diferentes NÃO é colisão
+  expect(idsDuplicados([{ tipo: "criatura", id: "orc" }, { tipo: "raca", id: "orc" }])).toEqual([]);
+  // mesmo tipo+id é colisão
+  expect(idsDuplicados([{ tipo: "criatura", id: "orc" }, { tipo: "criatura", id: "orc" }])).toEqual(["criatura/orc"]);
+});
+
+test("o data/ carregado não tem ids duplicados", () => {
+  const ents = carregarEntidades();
+  expect(idsDuplicados(ents)).toEqual([]);
 });

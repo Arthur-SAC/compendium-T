@@ -30,6 +30,18 @@ function listarJson(dir: string): string[] {
 
 let _entidades: Entidade[] | null = null;
 
+// Acha colisões de identidade (mesmo tipo+id em fontes diferentes), que sombreariam entidades.
+export function idsDuplicados(ents: { tipo: string; id: string }[]): string[] {
+  const vistos = new Set<string>();
+  const dups: string[] = [];
+  for (const e of ents) {
+    const chave = `${e.tipo}/${e.id}`;
+    if (vistos.has(chave)) dups.push(chave);
+    else vistos.add(chave);
+  }
+  return dups;
+}
+
 export function carregarEntidades(): Entidade[] {
   if (_entidades) return _entidades;
   const ents: Entidade[] = [];
@@ -40,6 +52,10 @@ export function carregarEntidades(): Entidade[] {
     for (const arq of listarJson(base)) {
       ents.push(EntidadeSchema.parse(JSON.parse(readFileSync(arq, "utf8"))));
     }
+  }
+  const dups = idsDuplicados(ents);
+  if (dups.length > 0) {
+    throw new Error(`Entidades com id duplicado entre fontes (sombreamento): ${dups.join(", ")}`);
   }
   _entidades = ents;
   return ents;
