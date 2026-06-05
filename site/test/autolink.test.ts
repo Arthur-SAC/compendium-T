@@ -100,6 +100,35 @@ test("tooltips continuam case-insensitive mesmo com a regra de maiúscula para e
   });
 });
 
+test("tooltip com exigeMaiuscula só acende em Inicial Maiúscula (nome de ação)", () => {
+  // Ações/manobras (Agarrar, Atropelar) também são verbos comuns. Só a referência
+  // capitalizada ("a manobra Agarrar") acende; o verbo ("agarrar a corda") fica texto.
+  const reg = construirRegistro({
+    termos: [{ id: "agarrar", nome: "Agarrar", descricao: "Você segura uma criatura.", exigeMaiuscula: true }],
+    entidades: [],
+  });
+  expect(tokenizar("usa a manobra Agarrar agora", reg)).toContainEqual({
+    tipo: "tooltip",
+    termoId: "agarrar",
+    valor: "Agarrar",
+  });
+  expect(tokenizar("vai agarrar a corda", reg)).toEqual([
+    { tipo: "texto", valor: "vai agarrar a corda" },
+  ]);
+});
+
+test("tooltip sem exigeMaiuscula continua case-insensitive (condições em minúsculo)", () => {
+  const reg = construirRegistro({
+    termos: [{ id: "atordoado", nome: "atordoado", descricao: "..." }],
+    entidades: [],
+  });
+  expect(tokenizar("fica atordoado", reg)).toContainEqual({
+    tipo: "tooltip",
+    termoId: "atordoado",
+    valor: "atordoado",
+  });
+});
+
 test("construirRegistro pré-compila a regex e tokeniza igual em chamadas repetidas", () => {
   const reg = construirRegistro({
     termos: [{ id: "medo", nome: "Medo", descricao: "x" }],

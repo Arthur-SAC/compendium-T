@@ -394,5 +394,8 @@ export const TermoSchema = z.object({
   nome: z.string(),
   descricao: z.string(),
   fonte: FonteSchema.optional(),
+  // Só acende como tooltip quando a ocorrência está em Inicial Maiúscula
+  // (nomes de ações/manobras que também são verbos comuns: "manobra Agarrar" sim, "agarrar a corda" não).
+  exigeMaiuscula: z.boolean().optional(),
 });
 export type Termo = z.infer<typeof TermoSchema>;

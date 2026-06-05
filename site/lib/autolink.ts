@@ -5,11 +5,14 @@ export type Token =
   | { tipo: "tooltip"; termoId: string; valor: string }
   | { tipo: "link"; alvoId: string; alvoTipo: TipoEntidade; valor: string };
 
-type TermoEntrada = { id: string; nome: string; descricao: string };
+// `exigeMaiuscula`: termo só acende se a ocorrência estiver em Inicial Maiúscula.
+// Usado para nomes de ações/manobras (Agarrar, Atropelar) que também são verbos comuns —
+// "a manobra Agarrar" acende; "agarrar a corda" não.
+type TermoEntrada = { id: string; nome: string; descricao: string; exigeMaiuscula?: boolean };
 type EntidadeEntrada = { id: string; nome: string; tipo: TipoEntidade };
 
 type Entrada =
-  | { kind: "tooltip"; termoId: string; nome: string }
+  | { kind: "tooltip"; termoId: string; nome: string; exigeMaiuscula?: boolean }
   | { kind: "link"; alvoId: string; alvoTipo: TipoEntidade; nome: string };
 
 export type Registro = {
@@ -27,7 +30,7 @@ export function construirRegistro(dados: {
   entidades: EntidadeEntrada[];
 }): Registro {
   const entradas: Registro["entradas"] = [
-    ...dados.termos.map((t) => ({ kind: "tooltip" as const, termoId: t.id, nome: t.nome })),
+    ...dados.termos.map((t) => ({ kind: "tooltip" as const, termoId: t.id, nome: t.nome, exigeMaiuscula: t.exigeMaiuscula })),
     ...dados.entidades.map((e) => ({ kind: "link" as const, alvoId: e.id, alvoTipo: e.tipo, nome: e.nome })),
   ];
   entradas.sort((a, b) => b.nome.length - a.nome.length);
@@ -72,7 +75,9 @@ export function tokenizar(texto: string, registro: Registro): Token[] {
     if (!entrada) {
       pushTexto(casado);
     } else if (entrada.kind === "tooltip") {
-      tokens.push({ tipo: "tooltip", termoId: entrada.termoId, valor: casado });
+      // Termos marcados com exigeMaiuscula (ações/manobras) só acendem capitalizados.
+      if (entrada.exigeMaiuscula && !inicialMaiuscula) pushTexto(casado);
+      else tokens.push({ tipo: "tooltip", termoId: entrada.termoId, valor: casado });
     } else if (inicialMaiuscula) {
       tokens.push({ tipo: "link", alvoId: entrada.alvoId, alvoTipo: entrada.alvoTipo, valor: casado });
     } else {

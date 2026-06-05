@@ -32,7 +32,7 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
   const entidade = { ...entidadeBruta, relacoes: entidadeBruta.relacoes.filter((r) => validos.has(`${r.alvoTipo}/${r.alvoId}`)) };
 
   const registro = construirRegistro({
-    termos: termos.map((t) => ({ id: t.id, nome: t.nome, descricao: t.descricao })),
+    termos: termos.map((t) => ({ id: t.id, nome: t.nome, descricao: t.descricao, exigeMaiuscula: t.exigeMaiuscula })),
     entidades: entidades.map((e) => ({ id: e.id, nome: e.nome, tipo: e.tipo })),
   });
   const descricoes = Object.fromEntries(termos.map((t) => [t.id, t.descricao]));

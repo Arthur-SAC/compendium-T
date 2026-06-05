@@ -33,7 +33,7 @@ export function carregarEntidades(): Entidade[] {
 
 export function carregarTermos(): Termo[] {
   if (_termos) return _termos;
-  const arquivos = ["referencia/condicoes.json", "referencia/glossario.json"];
+  const arquivos = ["referencia/condicoes.json", "referencia/glossario.json", "referencia/acoes.json"];
   const termos: Termo[] = [];
   for (const a of arquivos) {
     const arr = JSON.parse(readFileSync(join(RAIZ_DADOS, a), "utf8"));

@@ -7,10 +7,14 @@ test("carrega todas as entidades do data/ e encontra o Súcubo", () => {
   expect(sucubo?.nome).toBe("Súcubo");
 });
 
-test("carrega os termos (condições + glossário)", () => {
+test("carrega os termos (condições + glossário + ações)", () => {
   const termos = carregarTermos();
   expect(termos.some((t) => t.id === "medo")).toBe(true);
   expect(termos.some((t) => t.id === "nd")).toBe(true);
+  // ações/manobras entram como termos marcados com exigeMaiuscula
+  const atropelar = termos.find((t) => t.id === "atropelar");
+  expect(atropelar?.exigeMaiuscula).toBe(true);
+  expect(atropelar?.descricao).toMatch(/criatura/);
 });
 
 test("carregarEntidades memoiza (mesma referência entre chamadas)", () => {
