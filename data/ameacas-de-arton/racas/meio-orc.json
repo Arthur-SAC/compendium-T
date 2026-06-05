@@ -1,0 +1,54 @@
+{
+  "id": "meio-orc",
+  "tipo": "raca",
+  "nome": "Meio-Orc",
+  "resumo": "Descendentes de orcs com humanos ou seres de sangue humano, os meios-orcs herdam a força e o vigor orc enquanto mantêm versatilidade humanoide, sendo considerados orcs para efeitos relacionados a raça.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 31 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando orcs acasalam com humanos ou seres de sangue humano (meios-elfos, minauros, lefou…), nascem meios-orcs. São considerados orcs para muitos efeitos relacionados a raça, herdando o sangue orc, mas também a adaptabilidade dos povos humanoides com quem se misturam."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "meio-orc-bandoleiro", "alvoTipo": "criatura", "rotulo": "Meio-Orc Bandoleiro" },
+    { "tipo": "verTambem", "alvoId": "meio-orc-capanga", "alvoTipo": "criatura", "rotulo": "Meio-Orc Capanga" },
+    { "tipo": "verTambem", "alvoId": "meio-orc-chefe", "alvoTipo": "criatura", "rotulo": "Meio-Orc Chefe" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 2 },
+      { "valor": 1, "escolha": true }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Força +2, +1 em outro atributo (exceto Carisma).",
+    "habilidades": [
+      {
+        "nome": "Adaptável",
+        "descricao": "Você recebe +2 em Intimidação e se torna treinado em uma perícia a sua escolha.",
+        "efeito": "+2 em Intimidação; treinado em uma perícia à escolha"
+      },
+      {
+        "nome": "Criatura das Profundezas",
+        "descricao": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo.",
+        "efeito": "Visão no escuro; +2 em Percepção e Sobrevivência no subterrâneo"
+      },
+      {
+        "nome": "Sangue Orc",
+        "descricao": "Você recebe +1 em rolagens de dano com armas corpo a corpo e de arremesso e é considerado um orc para efeitos relacionados a raça.",
+        "efeito": "+1 em dano com armas corpo a corpo e de arremesso; conta como orc para efeitos de raça"
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Qualquer."
+      }
+    ]
+  }
+}

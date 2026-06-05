@@ -1,0 +1,53 @@
+{
+  "id": "tabrachi",
+  "tipo": "raca",
+  "nome": "Tabrachi",
+  "resumo": "Humanoides batráquios anfíbios, dotados de língua-arma versátil e grande capacidade de salto e natação. Grupos tabrachi costumam ser acompanhados por campeões, e alguns cavalgam sapos atrozes.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 37 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Os tabrachi são humanoides batráquios anfíbios. Muitos grupos tabrachi são acompanhados por um ou mais campeões, os guerreiros de elite de seu povo. Entre estes, alguns cavalgam sapos atrozes; estes anfíbios monstruosos também podem estar protegendo seus locais sagrados."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "tabrachi-soldado", "alvoTipo": "criatura", "rotulo": "Tabrachi Soldado" },
+    { "tipo": "verTambem", "alvoId": "tabrachi-campeao", "alvoTipo": "criatura", "rotulo": "Tabrachi Campeão" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Batráquio",
+        "descricao": "Você recebe visão na penumbra e deslocamento de natação igual ao seu deslocamento terrestre.",
+        "efeito": "Visão na penumbra; deslocamento de natação igual ao terrestre"
+      },
+      {
+        "nome": "Linguarudo",
+        "descricao": "Sua língua é uma arma natural que pode atacar inimigos a até 3m (dano 1d4, crítico x2, impacto). Ela é uma arma versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a língua.",
+        "efeito": "Língua: arma natural (1d4, x2, impacto, alcance 3m), versátil; +2 para desarmar e derrubar; 1x/rodada gaste 1 PM para um ataque corpo a corpo extra com a língua ao agredir com outra arma"
+      },
+      {
+        "nome": "Saltador",
+        "descricao": "Você recebe +10 em testes de Atletismo para saltar.",
+        "efeito": "+10 em Atletismo para saltar"
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Megalokk, Nimb, Sszzaas, Tenebra."
+      }
+    ]
+  }
+}

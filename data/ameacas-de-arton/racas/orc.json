@@ -1,0 +1,58 @@
+{
+  "id": "orc",
+  "tipo": "raca",
+  "nome": "Orc",
+  "resumo": "Talvez o povo humanoide mais brutal e violento de Arton: musculosos, de pele verde-acinzentada, focinho suíno e presas inferiores, vivem em cavernas e túneis, sensíveis à luz do sol e incapazes de entender qualquer linguagem exceto a força.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 33 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O bando é formado por humanoides musculosos, com pele verde-acinzentada, focinho suíno e presas inferiores que se projetam fora da boca. Os olhos trazem um sinistro brilho avermelhado. Quando alguém diz que humanoides monstruosos são violentos e estúpidos, quase sempre está falando de orcs. Orcs são, talvez, o povo humanoide mais brutal e violento de Arton. Existem em números vastos, espalhados por todo o mundo. Vivem em cavernas e túneis sob Arton, tanto por hábito quanto por necessidade: são sensíveis à luz do sol, que ofusca sua visão e reduz suas habilidades de combate. A origem dos orcs é um mistério. Alguns afirmam que eles podem ter sido o povo mais antigo do mundo; para outros, seriam seres misturados, mestiços, uma combinação de traços de outras grandes raças. Embora a raça orc apresente variações físicas extremas, todos são mental e culturalmente muito parecidos: ferozes e brutais, incapazes de entender qualquer linguagem exceto a força. Para o orc típico, não existe poder maior que a força bruta, nem resposta melhor que a violência."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "orc-combatente", "alvoTipo": "criatura", "rotulo": "Orc Combatente" },
+    { "tipo": "verTambem", "alvoId": "orc-veterano", "alvoTipo": "criatura", "rotulo": "Orc Veterano" },
+    { "tipo": "verTambem", "alvoId": "orc-chefe", "alvoTipo": "criatura", "rotulo": "Orc Chefe" },
+    { "tipo": "verTambem", "alvoId": "orc-rei", "alvoTipo": "criatura", "rotulo": "Orc Rei" },
+    { "tipo": "verTambem", "alvoId": "orc-mutante", "alvoTipo": "criatura", "rotulo": "Orc Mutante" },
+    { "tipo": "verTambem", "alvoId": "orc-mutante-superior", "alvoTipo": "criatura", "rotulo": "Orc Mutante Superior" },
+    { "tipo": "verTambem", "alvoId": "orc-xama", "alvoTipo": "criatura", "rotulo": "Orc Xamã" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 2 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Feroz",
+        "descricao": "Você recebe +2 em rolagens de dano com armas corpo a corpo e de arremesso. Quando sofre dano de um inimigo, esse bônus se torna +4 até o fim de seu próximo turno.",
+        "efeito": "+2 em dano com armas corpo a corpo e de arremesso; +4 até o fim do próximo turno após sofrer dano de um inimigo"
+      },
+      {
+        "nome": "Habitante das Cavernas",
+        "descricao": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo. Entretanto, recebe sensibilidade a luz.",
+        "efeito": "Visão no escuro; +2 em Percepção e Sobrevivência no subterrâneo; sensibilidade a luz"
+      },
+      {
+        "nome": "Vigor Brutal",
+        "descricao": "Você recebe +2 em Fortitude e soma sua Força em seu total de pontos de vida.",
+        "efeito": "+2 em Fortitude; soma a Força ao total de pontos de vida"
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Arsenal, Megalokk, Nimb, Tenebra."
+      }
+    ]
+  }
+}
