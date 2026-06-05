@@ -1,8 +1,22 @@
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { EntidadeSchema, TermoSchema, type Entidade, type Termo } from "./schema";
 
 const RAIZ_DADOS = join(process.cwd(), "..", "data");
+
+export type Fonte = { slug: string; titulo: string; arquivo?: string; ordem: number };
+
+let _fontes: Fonte[] | null = null;
+export function carregarFontes(): Fonte[] {
+  if (_fontes) return _fontes;
+  const raw = JSON.parse(readFileSync(join(RAIZ_DADOS, "sources.json"), "utf8")) as { fontes: Fonte[] };
+  _fontes = [...raw.fontes].sort((a, b) => a.ordem - b.ordem);
+  return _fontes;
+}
+
+export function tituloFonte(slug: string): string {
+  return carregarFontes().find((f) => f.slug === slug)?.titulo ?? slug;
+}
 
 function listarJson(dir: string): string[] {
   const out: string[] = [];
@@ -15,14 +29,14 @@ function listarJson(dir: string): string[] {
 }
 
 let _entidades: Entidade[] | null = null;
-let _termos: Termo[] | null = null;
 
 export function carregarEntidades(): Entidade[] {
   if (_entidades) return _entidades;
-  const dirs = ["livro-basico"]; // Fase 1+ adiciona outras fontes aqui (ou lê de sources.json)
   const ents: Entidade[] = [];
-  for (const d of dirs) {
-    const base = join(RAIZ_DADOS, d);
+  // Ordem das fontes (Básico antes) garante first-wins do auto-link a favor do Básico.
+  for (const fonte of carregarFontes()) {
+    const base = join(RAIZ_DADOS, fonte.slug);
+    if (!existsSync(base)) continue; // fonte listada mas ainda não extraída
     for (const arq of listarJson(base)) {
       ents.push(EntidadeSchema.parse(JSON.parse(readFileSync(arq, "utf8"))));
     }
@@ -30,6 +44,8 @@ export function carregarEntidades(): Entidade[] {
   _entidades = ents;
   return ents;
 }
+
+let _termos: Termo[] | null = null;
 
 export function carregarTermos(): Termo[] {
   if (_termos) return _termos;
