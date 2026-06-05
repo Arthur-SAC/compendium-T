@@ -4,7 +4,7 @@
   "nome": "Tabrachi",
   "resumo": "Humanoides batráquios anfíbios, dotados de língua-arma versátil e grande capacidade de salto e natação. Grupos tabrachi costumam ser acompanhados por campeões, e alguns cavalgam sapos atrozes.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 37 },
-  "imagens": [],
+  "imagens": ["/racas/tabrachi.png"],
   "secoes": [
     {
       "titulo": "Descrição",

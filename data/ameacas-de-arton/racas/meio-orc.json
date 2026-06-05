@@ -4,7 +4,7 @@
   "nome": "Meio-Orc",
   "resumo": "Descendentes de orcs com humanos ou seres de sangue humano, os meios-orcs herdam a força e o vigor orc enquanto mantêm versatilidade humanoide, sendo considerados orcs para efeitos relacionados a raça.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 31 },
-  "imagens": [],
+  "imagens": ["/racas/meio-orc.png"],
   "secoes": [
     {
       "titulo": "Descrição",

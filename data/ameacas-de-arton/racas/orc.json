@@ -4,7 +4,7 @@
   "nome": "Orc",
   "resumo": "Talvez o povo humanoide mais brutal e violento de Arton: musculosos, de pele verde-acinzentada, focinho suíno e presas inferiores, vivem em cavernas e túneis, sensíveis à luz do sol e incapazes de entender qualquer linguagem exceto a força.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 33 },
-  "imagens": [],
+  "imagens": ["/racas/orc.png"],
   "secoes": [
     {
       "titulo": "Descrição",
