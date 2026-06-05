@@ -21,7 +21,16 @@
    TDD: `site/test/textoblocos.test.tsx` (5 testes). Suíte **140 verde**, tsc limpo, build 1040 páginas.
 - **Infra:** poppler v26.02.0 baixado em `extracao/poppler-bin/` (gitignored); caminhos da máquina
   antiga corrigidos no código e no CLAUDE.md (`1867670`). Bypass de permissão: `skipDangerousModePermissionPrompt:true`.
+3. **Alinhamento das tabelas (`414d127`):** colunas de número ficavam à esquerda, soltas sob cabeçalhos
+   largos. Agora 1ª coluna (rótulos) à esquerda, demais centralizadas, `tabular-nums`.
+4. **Nomes de ações/manobras viram tooltip site-wide (`ca61a9f`):** Agredir, Atropelar, Agarrar, Derrubar…
+   (`data/referencia/acoes.json`, 14 termos, p.233). Acendem em referências cruzadas capitalizadas
+   ("manobra Agarrar"); NÃO acendem como verbo comum ("agarrar a corda"). Mecanismo novo no autolink:
+   `TermoSchema.exigeMaiuscula` → tooltip só com Inicial Maiúscula (threaded por schema/dados/página).
+   Suíte **142 verde**, build 1040.
 - **Em aberto:** se aparecerem tabelas quebradas em **outro formato** (não-pipe), tratar quando o tester apontar.
+- **Nota:** o termo-líder das manobras na própria página de Ações em Combate é `<strong class="termo-lead">`
+  (a definição), não tooltip — os tooltips de ação acendem nas OUTRAS páginas que as citam.
 
 ---
 
