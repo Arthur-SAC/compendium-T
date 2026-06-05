@@ -34,6 +34,22 @@
 
 ---
 
+## Fase 2.0 — Fundação multi-fonte + spike Ameaças (Brutos & Indomáveis) ✅ (branch `fase2-ameacas-spike`)
+
+Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano `docs/superpowers/plans/2026-06-05-fase2-ameacas-spike-plano.md`. Executado por Subagent-Driven (implementer + 2 revisões por tarefa; extrações com revisor independente por visão).
+
+- **Carregador multi-fonte (`ae5b93d`):** `lib/dados.ts` lê `data/sources.json` (Básico antes por `ordem`); `carregarFontes`/`tituloFonte`; guarda `existsSync` p/ fonte listada mas não extraída. **`["livro-basico"]` hard-coded eliminado.**
+- **`SeloFonte` (`5eedcb5`):** selo SVG monocromático da fonte. Em **toda ficha** (`1e5d1d2`, topo) e nos índices `/racas` (por card) e `/bestiario` (por tema) — filtro `=== "livro-basico"` removido (`54e3061`).
+- **Súcubo movido (`fd4fffa`):** `data/livro-basico/criaturas/sucubo.json` → `data/ameacas-de-arton/criaturas/`. O teste "encontra o Súcubo" agora passa carregando da fonte Ameaças = **multi-fonte provado**.
+- **Offset de Ameaças: PDF = impressa + 2** (`98f2ace`).
+- **Spike extraído (impressas 30–37 = PDF 32–39):** **13 criaturas** (`21be86d`) em `data/ameacas-de-arton/criaturas/` (Meio-Orc ×3, Orc combatente/veterano/chefe/rei, Orc Mutante, Orc Mutante Superior, Orc Xamã, Sapo Atroz, Tabrachi ×2) + **3 raças jogáveis** (`40fc5c0`: meio-orc, orc, tabrachi), **cruzadas** criatura↔raça (`versaoJogavel`/`verTambem`). **Ambas as passadas: 0 discrepâncias** (revisor independente por visão).
+- **Validação:** tsc 0 · **146 testes** · build **1054 páginas**. Teste do índice de raças tornado específico por href (`racas-indice`).
+- **Reuso confirmado:** `criatura`/`FichaCriatura` e `raca`/`FichaRaca` do Básico serviram sem mudança; só a camada de fonte foi nova.
+
+**Próxima fatia (plano próprio):** Ameaças completo — todos os temas/criaturas, todas as raças jogáveis, itens, e a intro de regras (Cap. 1). Reusa este pipeline. (Atenção p/ o plano completo: colisão de nome de **tema** entre fontes, ex. "Ermos" existe no Básico e em Ameaças — decidir se mescla por tema ou separa por fonte.)
+
+---
+
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
 ➡️ **PASSE DE DESIGN/UX — Fase 2 (em andamento, 2026-06-03):** "folha de pergaminho única" no centro.
