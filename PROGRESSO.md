@@ -348,6 +348,20 @@ commitar caminhos específicos; **não dar push** até o usuário pedir.
 
 ---
 
+## Ameaças de Arton — Offset de páginas (descoberto 2026-06-05)
+
+**Offset confirmado: PDF = impressa + 2** (i.e., OFFSET = 2).
+
+Evidências (PDF page → impressa → título):
+- PDF 32 → impressa 30 → "BRUTOS & INDOMÁVEIS" / Meio-Orc (início da seção)
+- PDF 36 → impressa 34 → Orc Mutante / Orc Mutante Superior
+- PDF 38 → impressa 36 → Sapo Atroz / Tabrachi
+
+**Spike Brutos & Indomáveis:** impressas 30–37 = PDF pages 32–39.
+Texto layout extraído em `extracao/cache/ameacas/brutos/` (8 arquivos: `txt-printed-30_pdf-32.txt` … `txt-printed-37_pdf-39.txt`). Acentos UTF-8 confirmados ("Tabrachi", "Pântano", "natação", "Xamã").
+
+---
+
 ## Roadmap (fases seguintes — cada uma com plano próprio)
 
 - **Fase 1 — Livro Básico ponta a ponta:** extrair e validar TUDO (raças, classes, origens,
