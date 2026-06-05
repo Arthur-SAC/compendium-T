@@ -6,7 +6,7 @@ import { EntidadeSchema, TermoSchema } from "@/lib/schema";
 const RAIZ = join(__dirname, "..", "..", "data");
 
 test("Súcubo (seed) é uma entidade válida", () => {
-  const json = JSON.parse(readFileSync(join(RAIZ, "livro-basico/criaturas/sucubo.json"), "utf8"));
+  const json = JSON.parse(readFileSync(join(RAIZ, "ameacas-de-arton/criaturas/sucubo.json"), "utf8"));
   expect(() => EntidadeSchema.parse(json)).not.toThrow();
 });
 
