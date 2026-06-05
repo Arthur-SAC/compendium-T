@@ -341,9 +341,10 @@ commitar caminhos específicos; **não dar push** até o usuário pedir.
 - **extracao/:** **3 testes** (slugify, parsePdfimagesList, buildPagePaths). Rodar: `cd extracao && npm test`.
 
 ## Estado do git
-- Remote `origin` (GitHub `Arthur-SAC/compendium-T`) main = `092e8b9`.
-- Local `main` HEAD = `ebb80a8`.
-- **Commits locais não enviados:** `c8d67b7`, `155fbce`, `e5a472b`, `e47365f`, `ef6d49d`, `3842e0f`, `221ec2e`, `3f7db76`, `34f7c4c`, `ebb80a8` (Tarefas 6–10 + docs + fix). Push pendente do "sobe" do usuário.
+- Remote `origin` (GitHub `Arthur-SAC/compendium-T`) main = `83cbf2e` — **sincronizado** (push em 2026-06-05).
+- Local `main` HEAD = `83cbf2e`. Sem commits pendentes.
+- Identidade git local do repo: `Arthur-SAC <arthur.cald3ron@gmail.com>` (configurada nesta máquina).
+- Lembrete: PDFs/poppler-bin/node_modules/settings.local.json continuam gitignored (conferido antes do push).
 
 ---
 
