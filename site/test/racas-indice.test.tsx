@@ -1,9 +1,12 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import { expect, test } from "vitest";
 import IndiceRacas from "@/app/racas/page";
 
 test("índice de raças lista o Humano com link para a ficha", () => {
-  render(<IndiceRacas />);
-  const link = screen.getByRole("link", { name: /Humano/ });
-  expect(link).toHaveAttribute("href", "/ficha/raca/humano");
+  const { container } = render(<IndiceRacas />);
+  // Específico pelo href (o índice agora tem raças de várias fontes; um match por
+  // substring "/Humano/" pegaria também resumos que citam "humano").
+  const link = container.querySelector('a[href="/ficha/raca/humano"]');
+  expect(link).toBeInTheDocument();
+  expect(link).toHaveTextContent("Humano");
 });
