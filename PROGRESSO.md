@@ -9,6 +9,22 @@
 
 ---
 
+## Ajustes dos testers (rodada 2026-06-05)
+
+➡️ **2 ajustes de UX corrigidos na camada de render `TextoBlocos` (`b765dc5`):**
+1. **Manobras/ações sem destaque** (Atropelar, Preparar, Agredir…): o termo-líder de cada
+   parágrafo de prosa agora vira `<strong class="termo-lead">` em vermelho (antes era texto corrido).
+2. **Tabelas viradas em linha:** tabelas embutidas no texto da fonte (delimitadas por `|`, com
+   legenda `Tabela X-Y:` e grupos `--- … ---`) eram achatadas em prosa; agora viram `<table
+   class="tabela-dados">` de verdade. Conserto único cobre as **5 regras** com tabela-pipe
+   (regras-de-armas, regras-de-armaduras, magia-como-funciona, itens-superiores, ao-sabor-do-destino).
+   TDD: `site/test/textoblocos.test.tsx` (5 testes). Suíte **140 verde**, tsc limpo, build 1040 páginas.
+- **Infra:** poppler v26.02.0 baixado em `extracao/poppler-bin/` (gitignored); caminhos da máquina
+  antiga corrigidos no código e no CLAUDE.md (`1867670`). Bypass de permissão: `skipDangerousModePermissionPrompt:true`.
+- **Em aberto:** se aparecerem tabelas quebradas em **outro formato** (não-pipe), tratar quando o tester apontar.
+
+---
+
 ## PRÓXIMA AÇÃO (retomar aqui) — dizer só "continua"
 
 ➡️ **PASSE DE DESIGN/UX — Fase 2 (em andamento, 2026-06-03):** "folha de pergaminho única" no centro.
