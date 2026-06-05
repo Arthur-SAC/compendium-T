@@ -5,6 +5,8 @@ site/.next/
 site/out/
 # cache de extração (páginas renderizadas / imagens)
 extracao/cache/
+# binários do poppler (baixados localmente — não versionar)
+extracao/poppler-bin/
 data/**/imagens/
 # PDFs dos livros (NUNCA versionar — tamanho + direitos autorais)
 pdfs/

@@ -56,14 +56,15 @@ Wiki digital completa do RPG **Tormenta 20**, extraída dos livros em PDF, para 
 
 ## Ambiente (Windows) — quirks importantes
 
-- Caminho do projeto tem espaços: `C:\Users\ASCalderon\Desktop\compendium tormenta 20` → sempre citar entre aspas.
+- Caminho do projeto tem espaços: `C:\Users\arthu\Downloads\compendium tormenta 20\compendium tormenta 20` → sempre citar entre aspas.
 - **No Bash, o Node NÃO está no PATH** → prefixar `export PATH="$PATH:/c/Program Files/nodejs"`.
-  No PowerShell, `node`/`npm` funcionam direto.
-- **poppler** em `C:/Users/ASCalderon/Desktop/Projeto-Tormenta/poppler-bin/poppler-24.08.0/Library/bin`
-  (env `POPPLER_BIN`). O pipeline usa esse caminho como padrão.
-- Texto dos PDFs sai em **UTF-8 correto** com `pdftotext -layout` (acentos OK).
-- Existe um projeto antigo em `C:\Users\ASCalderon\Desktop\Projeto-Tormenta` — **descartado**
-  (extração incompleta, ignorava blocos coloridos). Pode servir só de referência pontual.
+  No PowerShell, `node`/`npm` funcionam direto. (Node v24.13.0 nesta máquina.)
+- **poppler** baixado dentro do projeto em `extracao/poppler-bin/poppler-26.02.0/Library/bin`
+  (gitignored). O pipeline usa esse caminho como padrão (relativo ao cwd `extracao/`); pode
+  sobrescrever com a env `POPPLER_BIN`. Se sumir, rebaixar do release `oschwartz10612/poppler-windows`.
+- Texto dos PDFs sai em **UTF-8 correto** com `pdftotext -layout` (acentos OK — confirmado nesta máquina).
+- Existe um projeto antigo (extração incompleta, ignorava blocos coloridos) — **descartado**.
+  Pode servir só de referência pontual.
 
 ## Convenções de trabalho
 

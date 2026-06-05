@@ -1,8 +1,11 @@
 import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 
+// poppler vive dentro do próprio projeto (baixado em extracao/poppler-bin/).
+// Os scripts de extração rodam a partir de `extracao/`, então o padrão é relativo ao cwd.
+// Pode ser sobrescrito pela env POPPLER_BIN.
 const POPPLER_BIN = process.env.POPPLER_BIN ||
-  "C:/Users/ASCalderon/Desktop/Projeto-Tormenta/poppler-bin/poppler-24.08.0/Library/bin";
+  join(process.cwd(), "poppler-bin", "poppler-26.02.0", "Library", "bin");
 
 function bin(nome: string): string {
   return join(POPPLER_BIN, nome);
