@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
-import { carregarEntidades, carregarTermos } from "@/lib/dados";
+import { carregarEntidades, carregarTermos, tituloFonte } from "@/lib/dados";
 import { construirRegistro } from "@/lib/autolink";
+import { SeloFonte } from "@/components/SeloFonte";
 import { Ficha } from "@/components/Ficha";
 import { FichaRaca } from "@/components/FichaRaca";
 import { FichaClasse } from "@/components/FichaClasse";
@@ -39,6 +40,9 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
 
   return (
     <main style={{ padding: 40 }}>
+      <div style={{ maxWidth: 1140, margin: "0 auto 10px", textAlign: "center" }}>
+        <SeloFonte titulo={tituloFonte(entidade.fonte.livro)} />
+      </div>
       {entidade.tipo === "raca" ? (
         <FichaRaca entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "classe" ? (
