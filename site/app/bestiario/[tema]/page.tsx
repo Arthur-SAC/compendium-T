@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { carregarEntidades } from "@/lib/dados";
+import { carregarEntidades, tituloFonte } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
+import { SeloFonte } from "@/components/SeloFonte";
 import { SubNav } from "@/components/SubNav";
 import type { Entidade, CriaturaMecanica } from "@/lib/schema";
 
@@ -33,7 +34,7 @@ function ndValor(nd: string): number {
 // Temas presentes no Livro Básico, na ordem do livro (+ eventuais extras ao fim).
 function temasOrdenados(): string[] {
   const presentes = new Set(
-    carregarEntidades().filter((e) => e.tipo === "criatura" && e.fonte?.livro === "livro-basico").map((e) => mec(e).tema).filter(Boolean) as string[],
+    carregarEntidades().filter((e) => e.tipo === "criatura").map((e) => mec(e).tema).filter(Boolean) as string[],
   );
   const extras = [...presentes].filter((t) => !ORDEM_TEMAS.includes(t));
   return [...ORDEM_TEMAS.filter((t) => presentes.has(t)), ...extras];
@@ -50,7 +51,7 @@ export default async function PaginaTema({ params }: { params: Promise<{ tema: s
   if (!temaReal) notFound();
 
   const criaturas = carregarEntidades()
-    .filter((e) => e.tipo === "criatura" && e.fonte?.livro === "livro-basico" && mec(e).tema === temaReal)
+    .filter((e) => e.tipo === "criatura" && mec(e).tema === temaReal)
     .sort((a, b) => ndValor(mec(a).nd) - ndValor(mec(b).nd) || a.nome.localeCompare(b.nome, "pt-BR"));
 
   const itensNav = temas.map((t) => ({ slug: slugify(t), rotulo: t }));
@@ -63,6 +64,9 @@ export default async function PaginaTema({ params }: { params: Promise<{ tema: s
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 18px", fontFamily: "var(--serifa)" }}>
           {criaturas.length} {criaturas.length === 1 ? "criatura" : "criaturas"}
         </p>
+        <div style={{ textAlign: "center", marginBottom: 14 }}>
+          <SeloFonte titulo={tituloFonte(criaturas[0]?.fonte.livro ?? "livro-basico")} />
+        </div>
         <SubNav base="/bestiario" itens={itensNav} atual={tema} voltarRotulo="Todos os temas" />
 
         <div className="indice-lista">

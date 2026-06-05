@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { carregarEntidades } from "@/lib/dados";
+import { carregarEntidades, tituloFonte } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
+import { SeloFonte } from "@/components/SeloFonte";
 import type { Entidade, CriaturaMecanica } from "@/lib/schema";
 
 const ORDEM_TEMAS = [
@@ -24,12 +25,14 @@ function slugify(t: string): string {
 
 export default function IndiceBestiario() {
   const entidades = carregarEntidades();
-  const criaturas = entidades.filter((e) => e.tipo === "criatura" && e.fonte?.livro === "livro-basico");
+  const criaturas = entidades.filter((e) => e.tipo === "criatura");
   const idsRegras = new Set(entidades.filter((e) => e.tipo === "regra-de-criacao").map((e) => e.id));
 
   const presentes = new Set(criaturas.map((c) => mec(c).tema).filter(Boolean) as string[]);
   const temas = [...ORDEM_TEMAS.filter((t) => presentes.has(t)), ...[...presentes].filter((t) => !ORDEM_TEMAS.includes(t))];
   const contar = (tema: string) => criaturas.filter((c) => mec(c).tema === tema).length;
+  const fonteDoTema = (tema: string) =>
+    criaturas.find((c) => mec(c).tema === tema)?.fonte.livro ?? "livro-basico";
 
   return (
     <main className="folha-main">
@@ -37,7 +40,7 @@ export default function IndiceBestiario() {
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Bestiário</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 24px", fontFamily: "var(--serifa)" }}>
-          {criaturas.length} criaturas do Livro Básico — escolha um tema
+          {criaturas.length} criaturas — escolha um tema
         </p>
 
         <section style={{ background: "rgba(177,39,58,.06)", border: "1px solid var(--borda-suave)", borderRadius: 12, padding: "16px 20px", margin: "0 0 28px" }}>
@@ -59,6 +62,7 @@ export default function IndiceBestiario() {
             return (
               <Link key={tema} href={`/bestiario/${slugify(tema)}`} className="indice-linha">
                 <span className="indice-nome">{tema}</span>
+                <SeloFonte titulo={tituloFonte(fonteDoTema(tema))} />
                 <span className="indice-resumo">{n} {n === 1 ? "criatura" : "criaturas"}</span>
               </Link>
             );
