@@ -88,7 +88,13 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **6 raças jogáveis novas (`020f4b5`+`c24d82b`):** Kallyanach, Kaijin, Kappa, Mashin, Nezumi (Pequeno), Tengu — cruzadas; artes p/ Kallyanach/Kappa/Nezumi/Tengu (Kaijin/Mashin sem figura isolada). Fix: Tengu +"Imprevisível como o Vento".
 - **Total Ameaças: 160 criaturas + 13 raças.** Build 1224 páginas.
 
-**Próxima onda (Onda 7):** Império de Tauron (p.168) + a(s) seção(ões) seguinte(s) (descobrir fronteira no render). Depois seguem até ~p.300 (inclui Montarias p.210, Piratas & Pistoleiros p.252). Reusa o pipeline.
+### Onda 7 ✅ — Império de Tauron + Kobolds (revisão por visão; fixes aplicados)
+- **Império de Tauron (12 criaturas, `d7eaac3`):** Arqueiro Escravo, Centurião/de Elite, Fúria de Tauron/Estouro, Gladiador Táurico, Legionário/Insano, Decúria, Minauro Arcanista/Ladino, Governador Corrupto (ND6). 0 reprints.
+- **Kobolds (10 criaturas, `d75829b`):** Cão de Kally, Enxame Larval, Kobold Patrulheiro/Veterano, Patrulha Kobold, Kobold Bruto/Explosivo/Xamã/Mãe, Vagalhão Kobold (event-block, ND17). Base Kobold (p.180) é só flavor.
+- **2 raças jogáveis novas (`14d7e39` + fixes `6243059`):** Minauro (Tauron — distinto do minotauro do Básico) e Kobold, cruzadas. Sem arte (sidebars sem figura). Fixes de fidelidade: "Ajuntamento Escamoso", "Os do Fundo", "Diferentão", Minauro "nadar".
+- **Total Ameaças: 182 criaturas + 15 raças.** Build 1250 páginas.
+
+**Próxima onda (Onda 8):** Mascotes & Familiares (p.190, continua além de 195 — renderizar até o fim) + a(s) seção(ões) seguinte(s) até Montarias (p.210). Reusa o pipeline.
 
 ---
 
