@@ -55,7 +55,15 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Sem raças/itens novos** nesses 2 grupos (confirmado por visão).
 - **Total Ameaças: 39 criaturas** (Brutos 10 + Áreas 13 + Capangas 15 + seed Súcubo). Build **1084 páginas**, tsc 0, **148 testes**.
 
-**Próxima onda:** Culto de Aharadak (p.52) + Dragões (p.64) [+ Duyshidakk?]. Em "Ermos" (p.102) entra o **merge de tema homônimo** com o Básico. Reusa o pipeline da Onda 1.
+### Onda 2 ✅ — Culto de Aharadak + Dragões (0 discrepâncias mecânicas por visão)
+- **Culto de Aharadak (10 criaturas, `b3b922d`):** Iniciado/Sacerdote da Agonia, Aspecto de Aharadak, Fanático/Líder Fanático Lefou, Reishid Líder de Culto, Senhor do Gigante Rubro (Forma Inicial + Final), Zyrrinaz, Avatar de Aharadak (ND **S**, fix `…`). **Reishid base pulado** (=Básico `reishid`).
+- **Dragões (12 criaturas, `de1069f`):** Filhote do Bosque/dos Rios, Ninhada, Jovem da Proteção/do Ocaso, Adulto da Tirania/dos Segredos, Venerável da Equidade/dos Recifes, Feral, Bicéfalo, **Sckhar Dragão-Rei do Fogo** (ND S+). 0 reprints (variantes elementais nomeadas, distintas dos genéricos do Básico). "Dragão-Real" da p.74 é só flavor (não é criatura).
+- Sem raças jogáveis nesses grupos. Build **1108 páginas**, tsc 0, 148 testes. **Total Ameaças: 61 criaturas.**
+
+> **DEFERIDO p/ fatia final de "Itens & Regras de Ameaças"** (não perder): **itens** já vistos — Culto: Dádivas de Aharadak (Armadura/Asas/Flagelo/Mente/Olhos do Devorador, ~T$33–54k) + Semente Rubra (T$3.600). **Sidebars de regra** — Templos de Aharadak, Energia Dracônica, Dragões como Familiares e Parceiros, Modificando Dragões + Tabela 1-2, Lefeu e Almas. Coletar todos os itens/sidebars ao fim do bestiário, junto com a intro do Cap. 1 e a seção consolidada "Habilidades de Raça" (p.303).
+> **Dívida leve:** prosa de flavor (`secoes`/`resumo`) das criaturas de Ameaças está sintetizada (não verbatim) — mecânica é 100% fiel; polir flavor depois se quiser.
+
+**Próxima onda (Onda 3):** Duyshidakk (p.78) + Elementais (p.88). Depois Ermos (p.102, **merge de tema** com o Básico). Reusa o pipeline.
 
 ---
 
