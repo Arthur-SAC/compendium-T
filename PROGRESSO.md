@@ -94,7 +94,14 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **2 raças jogáveis novas (`14d7e39` + fixes `6243059`):** Minauro (Tauron — distinto do minotauro do Básico) e Kobold, cruzadas. Sem arte (sidebars sem figura). Fixes de fidelidade: "Ajuntamento Escamoso", "Os do Fundo", "Diferentão", Minauro "nadar".
 - **Total Ameaças: 182 criaturas + 15 raças.** Build 1250 páginas.
 
-**Próxima onda (Onda 8):** Mascotes & Familiares (p.190, continua além de 195 — renderizar até o fim) + a(s) seção(ões) seguinte(s) até Montarias (p.210). Reusa o pipeline.
+### Onda 8 — EM ANDAMENTO
+- **Mascotes & Familiares ✅ (10 criaturas, `de5a718`):** Bogum, Escudeiro, Fofo, Gambá, Homúnculo, Kill'bone, Tentacute, Tropa de Tentacutes, Verilêmur, Malafex (impressas 190–197). 0 reprints. (Dívida leve: flavor de Verilêmur/Malafex resumido.)
+- **PENDENTE nesta onda:** **Masmorras** (impressas 198–208 — **MERGE de tema** com o Básico; reprint-check pesado: Asa-Assassina, Cocatriz, Cocatriz-Real, Harpia Saqueadora, Glop/Glooop/Mamãe Glop, Mantor, Mímico, Quimera, Slark, Tigre-de-Hyninn/Primordial, Brawar ND14) + **raça Harpia** (p.201). Cache já renderizado em `extracao/cache/ameacas/mascotes-plus/`.
+- **Total Ameaças até aqui: 192 criaturas + 15 raças.** Build 1250 páginas.
+
+**Mapa restante do livro (impressas):** Masmorras 198–208 · Montarias 210–~? · … · Piratas & Pistoleiros 252 · … até ~300. Depois: **fatia final de Itens & Regras** (Dádivas de Aharadak, Semente Rubra, Totens Risonhos, sidebars de regra dos Dragões/Golens Despertos, intro Cap. 1, seção consolidada "Habilidades de Raça" p.303).
+
+**Próxima ação:** terminar a Onda 8 (Masmorras + Harpia), depois Montarias e seguir até ~p.300, e por fim a fatia de Itens & Regras.
 
 ---
 
