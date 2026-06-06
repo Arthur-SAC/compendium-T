@@ -70,7 +70,13 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - Build **1138 páginas**, 148 testes. **Total Ameaças: 87 criaturas + 5 raças** (meio-orc, orc, tabrachi, bugbear, hobgoblin).
 - **Dívida leve adicional:** `bruxa-goblin` perdeu os marcadores `*` (footnote do foco arcano) nos nomes das magias — sem impacto numérico; tratar no polimento junto da dívida de flavor.
 
-**Próxima onda (Onda 4):** **Ermos (p.102)** — aqui acontece o **MERGE DE TEMA** com o Básico (ambos têm "Ermos"; reprint-check pesado, Básico canônico) — **+ Gnolls (p.114)**. Reusa o pipeline.
+### Onda 4 ✅ — Ermos (MERGE de tema) + Gnolls (0 discrepâncias mecânicas por visão)
+- **Ermos (14 criaturas, `a11b2af` + fix `estirge` p.107):** Bulette, Carrasco de Lena, Centauro Chefe, Centauro Xamã de Megalokk, Ente, Estirge/Enxame Estirge/Nuvem de Estirges, Fera-Vassalo/Líder/Mãe, Lagarto Perseguidor, Tendrículo, Rhandomm. `tema`="Ermos" → **mescla com os Ermos do Básico** no `/bestiario/ermos`, cada linha com seu selo. 0 reprints.
+- **Gnolls (11 criaturas, `7af2f7e`):** Gnoll Caçador de Cabeças, Capanga, Líder de Alcateia, Xamã de Allihanna/Megalokk/Marah, Hiena, Hiena Rainha, Hienodonte, Matrona Gnoll, Gnoll Vuul'rak. **Reprints pulados:** Gnoll Filibusteiro e Gnoll Saqueador (já no Básico; Filibusteiro tem Ref +7 em Ameaças vs +11 no Básico — diferença de edição, mantido Básico). Typo da fonte preservado: Xamã de Marah "Curar Ferimentos 7d8+7 PM".
+- **2 raças jogáveis novas (`242c6d8`):** Centauro (Sab+2/For+1/Int−1, Grande, 12m — sem arte isolada) e Gnoll (Con+2/Sab+1/Int−1, Médio, com arte `/racas/gnoll.png`), cruzadas com suas criaturas. Revisor confirmou as leituras do extrator (vs scan inicial errado).
+- **Total Ameaças: 112 criaturas + 7 raças.** Item "Totens Risonhos" (Gnolls) → fatia de itens.
+
+**Próxima onda (Onda 5):** Golens (p.124) + Igreja de Arsenal (p.136). Reusa o pipeline.
 
 ---
 
