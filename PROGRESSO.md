@@ -63,7 +63,14 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 > **DEFERIDO p/ fatia final de "Itens & Regras de Ameaças"** (não perder): **itens** já vistos — Culto: Dádivas de Aharadak (Armadura/Asas/Flagelo/Mente/Olhos do Devorador, ~T$33–54k) + Semente Rubra (T$3.600). **Sidebars de regra** — Templos de Aharadak, Energia Dracônica, Dragões como Familiares e Parceiros, Modificando Dragões + Tabela 1-2, Lefeu e Almas. Coletar todos os itens/sidebars ao fim do bestiário, junto com a intro do Cap. 1 e a seção consolidada "Habilidades de Raça" (p.303).
 > **Dívida leve:** prosa de flavor (`secoes`/`resumo`) das criaturas de Ameaças está sintetizada (não verbatim) — mecânica é 100% fiel; polir flavor depois se quiser.
 
-**Próxima onda (Onda 3):** Duyshidakk (p.78) + Elementais (p.88). Depois Ermos (p.102, **merge de tema** com o Básico). Reusa o pipeline.
+### Onda 3 ✅ — Duyshidakk + Elementais (0 discrepâncias mecânicas por visão)
+- **Duyshidakk (12 criaturas, `e08c80d`):** Bugbear Sentinela/Guarda-Costas, Bruxa Goblin, Gangue/Horda Goblin, Goblin-Bomba, Goblin de Ferro/Mark II, Hobgoblin Atirador/Comandante Tático/Gladiador, Sangue do Ayrrak. 0 reprints (os goblinoides do Básico são outros).
+- **Elementais (14 criaturas, `b68207a`):** Aquin'ne, Corgann, Namasqall, T'Peel, Rarvnaak, Hallus'tir, Pakk, Ber-baram, Serpentaar, Terrier, Pamgra, Bando de Pamgras, Tanaloom, Elemental Corrompido. `tipo` = "Espírito (elemental)" verbatim. 0 reprints.
+- **2 raças jogáveis novas (`700380c`):** Bugbear (Foc+2/Des+1/Car−1) e Hobgoblin (Con+2/Des+1/Car−1), cruzadas com suas criaturas; Hobgoblin com arte (`/racas/hobgoblin.png`), Bugbear sem (sem figura isolada na página → `imagens:[]`).
+- Build **1138 páginas**, 148 testes. **Total Ameaças: 87 criaturas + 5 raças** (meio-orc, orc, tabrachi, bugbear, hobgoblin).
+- **Dívida leve adicional:** `bruxa-goblin` perdeu os marcadores `*` (footnote do foco arcano) nos nomes das magias — sem impacto numérico; tratar no polimento junto da dívida de flavor.
+
+**Próxima onda (Onda 4):** **Ermos (p.102)** — aqui acontece o **MERGE DE TEMA** com o Básico (ambos têm "Ermos"; reprint-check pesado, Básico canônico) — **+ Gnolls (p.114)**. Reusa o pipeline.
 
 ---
 
