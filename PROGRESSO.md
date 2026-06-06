@@ -47,7 +47,15 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Validação:** tsc 0 · **146 testes** · build **1054 páginas**. Teste do índice de raças tornado específico por href (`racas-indice`).
 - **Reuso confirmado:** `criatura`/`FichaCriatura` e `raca`/`FichaRaca` do Básico serviram sem mudança; só a camada de fonte foi nova.
 
-**Próxima fatia (plano próprio):** Ameaças completo — todos os temas/criaturas, todas as raças jogáveis, itens, e a intro de regras (Cap. 1). Reusa este pipeline. (Atenção p/ o plano completo: colisão de nome de **tema** entre fontes, ex. "Ermos" existe no Básico e em Ameaças — decidir se mescla por tema ou separa por fonte.)
+**Ameaças completo é feito em ONDAS por grupo temático** (spec `2026-06-06-fase2.1-ameacas-onda1-design.md`, plano `2026-06-06-fase2.1-ameacas-onda1-plano.md`). Política: pular reprints do Básico (Básico canônico); mesclar temas homônimos por tema com selo (ex. "Ermos", em ondas futuras).
+
+### Onda 1 ✅ — Áreas de Tormenta + Capangas & Bandoleiros (Subagent-Driven, 0 discrepâncias por visão)
+- **Áreas de Tormenta (13 criaturas, `42aefd2`):** Alma Acorrentada, Bruxo/Arquibruxo da Tormenta, Enxame Infernal, Esmagador Coletivo, Infecto, Turba de Infectos, Lefeu Veridak/Hurobakk/Burodron/Morgadrel/Ezzayn, Gatzvalith Lorde da Tormenta. "Armadilhas Vivas" = armadilhas (sem stat block) → não viraram criatura. Variantes de Ezzayn e sidebar Lekael dobradas como habilidades. Fix de 3 `fonte.pagina` (página do stat block) `…`.
+- **Capangas & Bandoleiros (15 criaturas inéditas, `db7b113`):** Bandido Ligeiro/Selvagem, Capanga, Jagunço, Capanga Minotauro, Chefe de Gangue/Quadrilha, Sacerdote/Alto Sacerdote de Hyninn, Devoto de Hyninn Manhoso/Simão/Velhaco, Gatuno/Gatuno Mestre, Duplo. **Reprints pulados:** Bandido Comum (=Básico `bandido`), Chefe Bandido (=Básico `chefe-bandido`).
+- **Sem raças/itens novos** nesses 2 grupos (confirmado por visão).
+- **Total Ameaças: 39 criaturas** (Brutos 10 + Áreas 13 + Capangas 15 + seed Súcubo). Build **1084 páginas**, tsc 0, **148 testes**.
+
+**Próxima onda:** Culto de Aharadak (p.52) + Dragões (p.64) [+ Duyshidakk?]. Em "Ermos" (p.102) entra o **merge de tema homônimo** com o Básico. Reusa o pipeline da Onda 1.
 
 ---
 
