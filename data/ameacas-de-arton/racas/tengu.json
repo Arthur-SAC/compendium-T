@@ -38,6 +38,10 @@
         "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro e +2 em Percepção."
       },
       {
+        "nome": "Imprevisível como o Vento",
+        "descricao": "Uma vez por rodada, quando não está voando e faz um ataque ou uma finta, o tengu pode rolar dois dados e usar o melhor resultado."
+      },
+      {
         "nome": "Longevidade",
         "descricao": "Normal."
       },
