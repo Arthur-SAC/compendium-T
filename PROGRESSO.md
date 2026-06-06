@@ -82,7 +82,13 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Golens Despertos** (raça golem desperto, expansão da raça `golem` que já existe no Básico) → DEFERIDO p/ fatia de regras (não sobrescrever Básico). Item "Totens Risonhos" idem.
 - **Total Ameaças: 129 criaturas + 7 raças.**
 
-**Próxima onda (Onda 6):** Igreja de Kallyadranoch (p.144) + Império de Jade (p.154). Reusa o pipeline.
+### Onda 6 ✅ — Igreja de Kallyadranoch + Império de Jade (revisão por visão; fixes aplicados)
+- **Igreja de Kallyadranoch (10 criaturas, `d7b2bd5`):** Cavaleiro/Acólito/Clérigo/Alto Clérigo de Kally, Corcel de Kally, Dracomante/Dracomante Superior, Kallyanach Bárbaro/Morte Glacial, Avatar de Kallyadranoch (ND S). Fix `dracomante` p.149.
+- **Império de Jade (21 criaturas, `0bcb9b8`+`4e98dbb`):** Kabuto ×4 (Chibi/Ko/Horda/Dai), Kaijin ×3, Kappa ×2, Mashin ×2, Nezumi ×3, Oni+Aka Oni, Tengu Bandoleiro+Daitengu, Dragão Celestial Jovem/Adulto/Venerável. Fix: `kaijin-ninja` re-extraído (bloco atravessava página); `kishinauros` ND S.
+- **6 raças jogáveis novas (`020f4b5`+`c24d82b`):** Kallyanach, Kaijin, Kappa, Mashin, Nezumi (Pequeno), Tengu — cruzadas; artes p/ Kallyanach/Kappa/Nezumi/Tengu (Kaijin/Mashin sem figura isolada). Fix: Tengu +"Imprevisível como o Vento".
+- **Total Ameaças: 160 criaturas + 13 raças.** Build 1224 páginas.
+
+**Próxima onda (Onda 7):** Império de Tauron (p.168) + a(s) seção(ões) seguinte(s) (descobrir fronteira no render). Depois seguem até ~p.300 (inclui Montarias p.210, Piratas & Pistoleiros p.252). Reusa o pipeline.
 
 ---
 
