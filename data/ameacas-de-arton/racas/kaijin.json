@@ -1,0 +1,55 @@
+{
+  "id": "kaijin",
+  "tipo": "raca",
+  "nome": "Kaijin",
+  "resumo": "Demônios da Tormenta ao mesmo tempo monstruosos e humanoides, criaturas disformes movidas por loucos planos de vingança contra o mundo. Os mais fortes e espertos comandam capangas e até ninjas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 157 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O monstro aberrante é, obviamente, um demônio da Tormenta — mas algo parece diferente. É monstruoso, mas também humanoide. Os mais fortes e espertos conseguem comandar capangas, ou até mesmo ninjas, para executar seus loucos planos de vingança contra o mundo."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "kaijin-capanga", "alvoTipo": "criatura", "rotulo": "Kaijin Capanga" },
+    { "tipo": "verTambem", "alvoId": "kaijin-bruto", "alvoTipo": "criatura", "rotulo": "Kaijin Bruto" },
+    { "tipo": "verTambem", "alvoId": "kaijin-ninja", "alvoTipo": "criatura", "rotulo": "Kaijin Ninja" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 2 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "atributo": "Carisma", "valor": -2 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Couraça Rubra",
+        "descricao": "Você recebe redução de dano 2. Sua couraça conta como um poder da Tormenta, exceto para perda de Carisma."
+      },
+      {
+        "nome": "Cria da Tormenta",
+        "descricao": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta. Além disso, efeitos da Tormenta que não afetem lefou também não afetam você."
+      },
+      {
+        "nome": "Disforme",
+        "descricao": "Por sua anatomia anômala, você não pode empunhar nem vestir itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você. Esta habilidade conta como um poder da Tormenta, exceto para perda de Carisma."
+      },
+      {
+        "nome": "Terror Vivo",
+        "descricao": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma) e recebe um poder da Tormenta a sua escolha, que não conta para perda de Carisma."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Lin-Wu."
+      }
+    ]
+  }
+}
