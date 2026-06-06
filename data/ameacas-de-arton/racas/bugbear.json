@@ -1,0 +1,50 @@
+{
+  "id": "bugbear",
+  "tipo": "raca",
+  "nome": "Bugbear",
+  "resumo": "Goblinoides brutamontes e peludos que se nutrem do medo alheio, empunhando armas grandes demais para sua estatura e caçando com sentidos aguçados de predador.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 79 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Enquanto goblins são caóticos e engenhosos, os bugbears são assassinos brutais entre os duyshidakk. Maiores e mais fortes que seus primos goblinoides, são predadores que se deleitam com o pavor que causam, capazes de manejar armas feitas para criaturas bem maiores que eles."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "bugbear-sentinela", "alvoTipo": "criatura", "rotulo": "Bugbear Sentinela" },
+    { "tipo": "verTambem", "alvoId": "bugbear-guarda-costas", "alvoTipo": "criatura", "rotulo": "Bugbear Guarda-Costas" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Empunhadura Poderosa",
+        "descricao": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0 e você pode também usar armas de até duas categorias de tamanho maiores que a sua com uma penalidade de –5 nos testes de ataque."
+      },
+      {
+        "nome": "Saborear Pavor",
+        "descricao": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma). Além disso, se estiver em alcance curto de outra criatura abalada ou apavorada, você recebe um bônus em testes de ataque igual à penalidade causada pela condição."
+      },
+      {
+        "nome": "Sentidos de Predador",
+        "descricao": "Você recebe faro e visão no escuro."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Megalokk, Tenebra."
+      }
+    ]
+  }
+}

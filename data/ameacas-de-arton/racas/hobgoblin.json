@@ -1,0 +1,51 @@
+{
+  "id": "hobgoblin",
+  "tipo": "raca",
+  "nome": "Hobgoblin",
+  "resumo": "Os mais disciplinados entre os duyshidakk: goblinoides militaristas que se organizam em tropas eficientes, dominam a arte da guerra e forjam armas e armaduras superiores.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 84 },
+  "imagens": ["/racas/hobgoblin.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Enquanto goblins são caóticos e engenhosos, e bugbears são assassinos brutais, hobgoblins são os mais disciplinados entre os duyshidakk. Organizam-se em tropas eficientes, obedecendo a hierarquias, seguindo ordens de seus comandantes. Um grupo hobgoblin é uma máquina de guerra bem ajustada."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "hobgoblin-atirador", "alvoTipo": "criatura", "rotulo": "Hobgoblin Atirador" },
+    { "tipo": "verTambem", "alvoId": "hobgoblin-comandante-tatico", "alvoTipo": "criatura", "rotulo": "Hobgoblin Comandante Tático" },
+    { "tipo": "verTambem", "alvoId": "hobgoblin-gladiador", "alvoTipo": "criatura", "rotulo": "Hobgoblin Gladiador" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Arte da Guerra",
+        "descricao": "Você é treinado em Guerra e recebe proficiência em armas marciais. Se receber essa proficiência novamente, recebe +2 em rolagens de dano com essas armas."
+      },
+      {
+        "nome": "Metalurgia Hobgoblin",
+        "descricao": "Você recebe +2 em Ofício (armeiro) e, se for treinado nesta perícia, pode fabricar armas e armaduras superiores com uma melhoria. Se aprender a fabricar itens superiores desses tipos por outra habilidade, gasta apenas ¼ do preço das melhorias que aplica nesses itens (em vez de ⅓)."
+      },
+      {
+        "nome": "Táticas de Guerrilha",
+        "descricao": "Você recebe visão no escuro e +2 em Furtividade."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Megalokk, Tenebra."
+      }
+    ]
+  }
+}
