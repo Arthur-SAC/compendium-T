@@ -1,0 +1,55 @@
+{
+  "id": "minauro",
+  "tipo": "raca",
+  "nome": "Minauro",
+  "resumo": "Variante mestiça do povo táurico, fruto da mistura entre minotauros e humanos. Mais versáteis e de temperamento mais aberto que os minotauros puros, os minauros desenvolvem gostos e aversões próprios e seguem caminhos diversos pelo mundo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 175 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "[...] de demonstrar suas capacidades, competindo com minotauros “puros” o tempo todo. Sua parte humana também pode levar a uma curiosidade imprudente por assuntos “proibidos” para o povo táurico, como armas de longo alcance, magia arcana ou talentos ladinos. De fato, minauros tendem a mostrar comportamento mais diverso, desenvolvem gostos e aversões imprevisíveis. Minauros e minotauros não se relacionam bem. Mesmo o minotauro mais nobre e generoso não consegue disfarçar a mágoa, considerando os minauros inferiores, dignos de pena. Minauros são tratados como doentes, inválidos ou “irmãozinhos” pequenos — o que eles detestam! Por isso preferem deixar o convívio com minotauros para viver entre outras raças, onde sua força acima da média é respeitada e bem-vinda. Se resolvem ser aventureiros, minauros ficam muito à vontade em grupos formados por pessoas diversas. Entendem que sua grande força é importante para a equipe, adotando classes combativas, mas também podem “mudar contra a corrente” e seguir carreiras totalmente contrárias à raça dos pais, como arcanistas, bardos, inventores e ladinos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "minauro-arcanista", "alvoTipo": "criatura", "rotulo": "Minauro Arcanista" },
+    { "tipo": "verTambem", "alvoId": "minauro-ladino", "alvoTipo": "criatura", "rotulo": "Minauro Ladino" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 1 },
+      { "valor": 1, "escolha": true, "quantidade": 2 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Modificadores: Força +1 e +1 em dois atributos à escolha. Tamanho Médio e deslocamento 9m (regra geral); o sidebar não declara tamanho ou deslocamento próprios. As habilidades de raça do minauro (Faro, Mente Aberta, Plurivalente, Longevidade, Devotos) e seus modificadores são distintos do minotauro do Livro Básico — trata-se de uma raça à parte. Sem ilustração: a página do sidebar (p.177) contém apenas textura de fundo e divisores decorativos, sem figura do personagem.",
+    "habilidades": [
+      {
+        "nome": "Faro",
+        "descricao": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha.",
+        "efeito": "Contra inimigos em alcance curto que não vê: não fica desprevenido; camuflagem total causa apenas 20% de chance de falha"
+      },
+      {
+        "nome": "Mente Aberta",
+        "descricao": "Você recebe +2 em Diplomacia e Investigação.",
+        "efeito": "+2 em Diplomacia e Investigação"
+      },
+      {
+        "nome": "Plurivalente",
+        "descricao": "Você recebe um poder geral a sua escolha.",
+        "efeito": "Recebe um poder geral à escolha"
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal.",
+        "efeito": "Longevidade normal"
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Qualquer.",
+        "efeito": "Pode reverenciar qualquer divindade"
+      }
+    ]
+  }
+}
