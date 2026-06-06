@@ -76,7 +76,13 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **2 raças jogáveis novas (`242c6d8`):** Centauro (Sab+2/For+1/Int−1, Grande, 12m — sem arte isolada) e Gnoll (Con+2/Sab+1/Int−1, Médio, com arte `/racas/gnoll.png`), cruzadas com suas criaturas. Revisor confirmou as leituras do extrator (vs scan inicial errado).
 - **Total Ameaças: 112 criaturas + 7 raças.** Item "Totens Risonhos" (Gnolls) → fatia de itens.
 
-**Próxima onda (Onda 5):** Golens (p.124) + Igreja de Arsenal (p.136). Reusa o pipeline.
+### Onda 5 ✅ — Golens + Igreja de Arsenal (0 discrepâncias mecânicas por visão)
+- **Golens (10 criaturas, `1094f3d`):** Gárgula Assassina, Golem de Barro/Bronze/Carne/Espelhos/Ferro Superior/Matéria Vermelha/Pedra, Instrumento Divino, Soldado Mecânico. **Reprints pulados:** Gárgula (ND2) e Golem de Ferro (ND10) = idênticos ao Básico.
+- **Igreja de Arsenal (7 criaturas, `4a8bb4e` + `a306953`):** Coletor de Arsenal, Forjador Litúrgico, Concílio Forjador, Guerreiro Perpétuo, Kishin, **Kishinauros (ND S** — fix), **Bispo de Guerra (ND8** — faltante recuperado na revisão). **Capelão de Guerra pulado** (=Básico `capelao-de-guerra`).
+- **Golens Despertos** (raça golem desperto, expansão da raça `golem` que já existe no Básico) → DEFERIDO p/ fatia de regras (não sobrescrever Básico). Item "Totens Risonhos" idem.
+- **Total Ameaças: 129 criaturas + 7 raças.**
+
+**Próxima onda (Onda 6):** Igreja de Kallyadranoch (p.144) + Império de Jade (p.154). Reusa o pipeline.
 
 ---
 
