@@ -1,0 +1,50 @@
+{
+  "id": "tengu",
+  "tipo": "raca",
+  "nome": "Tengu",
+  "resumo": "Humanoides-corvos de penas negras e cabeça de corvo, guerreiros habilidosos e orgulhosos de suas técnicas. Capazes de planar e voar, lutam com armaduras tamuranianas e katanas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 164 },
+  "imagens": ["/racas/tengu.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O vulto humanoide é escuro como a noite, todo coberto de penas profundamente negras. Tem cabeça de corvo e asas às costas. Usa armadura tamuraniana tradicional e uma bela espada katana. A postura é ereta e confiante, até mesmo digna, em oposição ao aspecto animalesco."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "tengu-bandoleiro", "alvoTipo": "criatura", "rotulo": "Tengu Bandoleiro" },
+    { "tipo": "verTambem", "alvoId": "daitengu", "alvoTipo": "criatura", "rotulo": "Daitengu" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Inteligência", "valor": 1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O sidebar de raça não declara explicitamente tamanho nem deslocamento terrestre base; os tengu das estatísticas (Tengu Bandoleiro, Daitengu) são Médios com deslocamento 9m, e a habilidade Caminhante do Céu indica deslocamento 9m ao pairar.",
+    "habilidades": [
+      {
+        "nome": "Asas Desorientadoras",
+        "descricao": "Quando estão livres, suas asas podem ser usadas para distrair seus oponentes. Se não estiver usando-as para voar, você recebe os benefícios de Finta Aprimorada. Se tiver esse poder, em vez disso o bônus em Enganação para fintar aumenta para +5."
+      },
+      {
+        "nome": "Caminhante do Céu",
+        "descricao": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua."
+      },
+      {
+        "nome": "Espírito Corvino",
+        "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro e +2 em Percepção."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Khalmyr, Lin-Wu, Tanna-Toh, Valkaria, Wynna."
+      }
+    ]
+  }
+}

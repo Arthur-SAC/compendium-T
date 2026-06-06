@@ -1,0 +1,55 @@
+{
+  "id": "nezumi",
+  "tipo": "raca",
+  "nome": "Nezumi",
+  "resumo": "Homens-rato pequenos, ágeis e roedores. Vivem em guerra contra os 'invasores' de Tamu-ra e alguns bandos abandonam a ilha rumo ao Reinado, tornando-se assaltantes ou mercenários.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 162 },
+  "imagens": ["/racas/nezumi.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Os recém-chegados podem ser facilmente descritos como pessoas-ratos. Seres de pelagem cinzenta com grandes orelhas, focinhos alongados, olhos vermelhos e garras ameaçadoras. Quase todos têm cicatrizes e pedaços das orelhas e caudas faltando. Embora pequenos, parecem perigosos, prontos a explodir em fúria e arrancar os olhos de seus inimigos. No passado, o perigoso povo-rato estava entre as maiores ameaças ao Império de Jade. Ambos, humanos e nezumi, acreditavam ser os legítimos donos da ilha."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "nezumi-capanga", "alvoTipo": "criatura", "rotulo": "Nezumi Capanga" },
+    { "tipo": "verTambem", "alvoId": "nezumi-ninja", "alvoTipo": "criatura", "rotulo": "Nezumi Ninja" },
+    { "tipo": "verTambem", "alvoId": "nezumi-brutamontes", "alvoTipo": "criatura", "rotulo": "Nezumi Brutamontes" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Pequeno",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Empunhadura Poderosa",
+        "descricao": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0."
+      },
+      {
+        "nome": "Pequeno, Mas Não Metade",
+        "descricao": "Seu tamanho é Pequeno, mas seu deslocamento se mantém 9m e você recebe resistência a medo +5 contra criaturas maiores que você e +2 em Intimidação."
+      },
+      {
+        "nome": "Roedor",
+        "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Além disso, quando faz um acerto crítico com sua mordida, você deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico."
+      },
+      {
+        "nome": "Sentidos Murídeos",
+        "descricao": "Você recebe faro e visão na penumbra."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Megalokk, Tenebra."
+      }
+    ]
+  }
+}

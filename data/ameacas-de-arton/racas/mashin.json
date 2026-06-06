@@ -1,0 +1,78 @@
+{
+  "id": "mashin",
+  "tipo": "raca",
+  "nome": "Mashin",
+  "resumo": "Golens especiais criados com técnicas tamuranianas. São um tipo de chassi para personagens golens, capazes de escolher maravilhas mecânicas no lugar de perícias.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 160 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Mashins são golens especiais criados com técnicas tamuranianas. Eles são um tipo de chassi para personagens golens (veja a página 134)."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "mashin-monge", "alvoTipo": "criatura", "rotulo": "Mashin Monge" },
+    { "tipo": "verTambem", "alvoId": "mashin-samurai", "alvoTipo": "criatura", "rotulo": "Mashin Samurai" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "valor": 1, "escolha": true },
+      { "valor": 1, "escolha": true }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 6,
+    "deslocamentoUnidade": "m",
+    "nota": "O mashin é um tipo de chassi para personagens golens (veja a página 134). O deslocamento de 6m e os demais traços de construto vêm da habilidade Chassi do golem; o mashin é sempre Médio.",
+    "habilidades": [
+      {
+        "nome": "Mashin (Chassi)",
+        "descricao": "+1 em dois atributos a sua escolha. Você se torna treinado em duas perícias a sua escolha e pode escolher uma maravilha mecânica em vez de uma dessas perícias. Entretanto, você é sempre Médio."
+      },
+      {
+        "nome": "Maravilha Mecânica",
+        "descricao": "Se escolher uma maravilha mecânica, você recebe um dos poderes a seguir. Uma vez por patamar, você pode escolher uma maravilha mecânica no lugar de um poder de classe."
+      },
+      {
+        "nome": "Adaptação Elemental",
+        "descricao": "Quando sofre dano de ácido, eletricidade, fogo, frio, luz ou trevas, você pode gastar 2 PM para receber redução 10 contra esse tipo de dano até o fim da cena."
+      },
+      {
+        "nome": "Arma Acoplada",
+        "descricao": "Você possui uma arma acoplada ao seu corpo. Ela fica recolhida em um compartimento e não pode ser desarmada, e você conta como se tivesse Saque Rápido para usá-la. Um personagem treinado em Ofício (artesão) pode substituir essa arma com uma hora de trabalho e o gasto de T$ 100."
+      },
+      {
+        "nome": "Arma Elemental",
+        "descricao": "Você pode gastar uma ação de movimento e 2 PM para fazer uma arma que esteja empunhando causar +1d6 pontos de dano do tipo de sua fonte elemental até o fim da cena. Pré-requisito: Fonte de Energia (elemental)."
+      },
+      {
+        "nome": "Auxílio de Mira",
+        "descricao": "Quando faz um ataque à distância, você pode pagar 1 PM para aumentar em +2 a margem de ameaça desse ataque."
+      },
+      {
+        "nome": "Caminho da Perfeição",
+        "descricao": "Escolha uma de suas perícias treinadas. Você recebe +2 nessa perícia."
+      },
+      {
+        "nome": "Canalizar Reparos",
+        "descricao": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM."
+      },
+      {
+        "nome": "Canhão Energético",
+        "descricao": "Se sua arma acoplada for uma arma de fogo, você pode gastar uma ação de movimento e 1 PM para energizá-la. Até o fim da cena, seu próximo ataque com ela causa +1 dado de dano do mesmo tipo. Múltiplos usos deste poder são cumulativos (limitado por sua Constituição). Pré-requisito: Arma Acoplada."
+      },
+      {
+        "nome": "Dínamo de Mana",
+        "descricao": "Escolha uma de suas habilidades com um custo em PM. Você pode gastar sua ação de movimento para canalizar seu mana. Quando faz isso, até o fim do seu turno, o custo do próximo uso da habilidade escolhida é reduzido em –1 PM. Um personagem treinado em Ofício (artesão) pode substituir essa habilidade com uma hora de trabalho e o gasto de T$ 100."
+      },
+      {
+        "nome": "Pernas Aprimoradas",
+        "descricao": "Você pode gastar 2 PM para receber +6m em seu deslocamento e +5 em Atletismo até o fim da cena."
+      },
+      {
+        "nome": "Reservatório Alquímico",
+        "descricao": "Você possui um reservatório em seu corpo que pode armazenar até duas doses de preparados alquímicos. Uma vez por rodada, você pode usar um desses preparados ou pode consumi-lo para sua fonte de energia. Carregar seu reservatório exige uma ação completa e o gasto dos itens com os quais você quiser carregá-lo. Pré-requisito: Fonte de Energia (alquímica)."
+      }
+    ]
+  }
+}
