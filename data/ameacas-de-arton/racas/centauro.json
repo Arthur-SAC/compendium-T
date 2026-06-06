@@ -1,0 +1,54 @@
+{
+  "id": "centauro",
+  "tipo": "raca",
+  "nome": "Centauro",
+  "resumo": "Seres com corpo de cavalo e tronco humanoide que vivem em tribos nos ermos, ginetes natos de cascos poderosos. A maioria venera Allihanna, mas algumas tribos violentas seguem o monstruoso Megalokk.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 105 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Seres quadrúpedes com corpo de cavalo e tronco humanoide, os centauros vivem em tribos pelos ermos, caçando com lanças e arcos. Por sua força e corpulência superiores, são guerreiros temíveis que investem galopando contra os inimigos. A maior parte dos centauros venera Allihanna, mas nem todos: existem tribos violentas e agressivas que preferem aprazer seu irmão monstruoso, Megalokk."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "centauro-chefe", "alvoTipo": "criatura", "rotulo": "Centauro Chefe" },
+    { "tipo": "verTambem", "alvoId": "centauro-xama-de-megalokk", "alvoTipo": "criatura", "rotulo": "Centauro Xamã de Megalokk" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Sabedoria", "valor": 2 },
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Grande",
+    "deslocamento": 12,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Avantajado",
+        "descricao": "Seu tamanho é Grande e seu deslocamento é 12m."
+      },
+      {
+        "nome": "Cascos",
+        "descricao": "Você possui uma arma natural de cascos (dano 1d8, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os cascos."
+      },
+      {
+        "nome": "Ginete Natural",
+        "descricao": "Você é considerado montado para efeito de fazer investidas e para benefícios das armas que empunha, e pode escolher o poder Carga de Cavalaria mesmo sem cumprir seus pré-requisitos. Entretanto, não pode se beneficiar de uma montaria e, se estiver carregando um cavaleiro, sofre −2 em testes (além das penalidades de sobrecarga, se houver) e é considerado em condição ruim para lançar magias."
+      },
+      {
+        "nome": "Medo de Altura",
+        "descricao": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Hippion, Megalokk."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "gnoll",
+  "tipo": "raca",
+  "nome": "Gnoll",
+  "resumo": "Homens-hiena hostis e raivosos dos ermos, predadores de matilha de focinho largo e presas amareladas. Atacam qualquer não gnoll, mas isolados temem ficar sós e costumam se render para mostrar lealdade.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 115 },
+  "imagens": ["/racas/gnoll.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Criaturas altas e de pose recurvada, cobertas de pelagem escura, com cabeça robusta, grandes orelhas arredondadas e um focinho largo cheio de presas amareladas. Como povo, gnolls são hostis e raivosos, reagindo a qualquer não gnoll com violência — atacam sem dar atenção a raça, brasões ou bandeiras. Como indivíduo, contudo, o gnoll odeia e teme ficar sozinho. Sendo uma criatura de matilha, estar em menor número é sempre uma desvantagem e estar isolado é morte certa. Se por alguma razão acaba desgarrado, não mede esforços para se juntar a quaisquer outros humanoides, quase sempre oferecendo rendição para mostrar sua lealdade."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "gnoll-cacador-de-cabecas", "alvoTipo": "criatura", "rotulo": "Gnoll Caçador de Cabeças" },
+    { "tipo": "verTambem", "alvoId": "gnoll-capanga", "alvoTipo": "criatura", "rotulo": "Gnoll Capanga" },
+    { "tipo": "verTambem", "alvoId": "gnoll-lider-de-alcateia", "alvoTipo": "criatura", "rotulo": "Gnoll Líder de Alcateia" },
+    { "tipo": "verTambem", "alvoId": "gnoll-xama-de-allihanna", "alvoTipo": "criatura", "rotulo": "Gnoll Xamã de Allihanna" },
+    { "tipo": "verTambem", "alvoId": "gnoll-xama-de-megalokk", "alvoTipo": "criatura", "rotulo": "Gnoll Xamã de Megalokk" },
+    { "tipo": "verTambem", "alvoId": "gnoll-xama-de-marah", "alvoTipo": "criatura", "rotulo": "Gnoll Xamã de Marah" },
+    { "tipo": "verTambem", "alvoId": "matrona-gnoll", "alvoTipo": "criatura", "rotulo": "Matrona Gnoll" },
+    { "tipo": "verTambem", "alvoId": "gnoll-vuul-rak", "alvoTipo": "criatura", "rotulo": "Gnoll Vuul'rak" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Sabedoria", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Faro",
+        "descricao": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "nome": "Mordida",
+        "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "nome": "Oportunista",
+        "descricao": "Você recebe +2 nas rolagens de dano contra criaturas que tenham sofrido dano de outras criaturas desde seu último turno."
+      },
+      {
+        "nome": "Rendição",
+        "descricao": "Quando um inimigo se rende, você recebe 1d4 PM temporários cumulativos. Da mesma forma, quando é reduzido a um quarto de seus PV ou menos, seu instinto é se render. Caso continue lutando, fica alquebrado."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Hyninn, Marah, Megalokk, Nimb, Tenebra."
+      }
+    ]
+  }
+}
