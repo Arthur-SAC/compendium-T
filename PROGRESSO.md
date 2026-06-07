@@ -126,13 +126,20 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **4 raças jogáveis (`befb5d18`):** Ceratops (Grande), Pteros, Velocis, Voracis — cruzadas; artes p/ Ceratops/Velocis/Voracis (Pteros sem figura).
 - **Total Ameaças: 302 criaturas + 20 raças.** Build 1382 páginas.
 
-**Bestiário restante (render já feito em `totens-plus`, impressas 274–305):**
-- **Onda 13 — Supremacia Purista (p.274–283, 11 criaturas):** Arcano de Guerra Adepto/Veterano, Caçador de Impuros, Corcel de Comando, Carruagem de Comando, Dançarino de Guerra/Veterano, Purificado, Soldado Blindado, Companhia Blindada de Elite, Soldado Superior (ND17). (Sem raça; itens Soro Supremo/Equipamento Purista → fatia de regras.)
-- **Onda 14 — Reino dos Mortos/Aslothia (p.284–295, 10 criaturas):** Alzeras, Cemitério Vivo, Chacal-Zumbi, Mercenário de Aslothia/Líder, Morgue'raz, Wisphago, Lich, Lich de Aslothia, Arquilich Ferren Asloth (ND S). **Reprint-check vs Básico (esqueleto/zumbi) e vs Mortos-Vivos já extraído.** Itens: Filactério, Bênçãos de Ferren.
-- **Onda 15 — Reinos de Moreania (p.296–302, 10 criaturas):** Búfalo-de-Guerra, Hippossauro, Mantícora/Primal, Otyugh/Horda, Yidishan Bugbear, Raposa Bucaneira, Búfalo Paladino de Bullton, Coruja Druida + **raça Yidishan** (p.300) + **raça Moreau** (12 heranças, p.303–305 — raça grande). **Bestiário termina na p.302.**
+### Onda 13 ✅ — Supremacia Purista (11 criaturas, `+`, 0 discrepâncias)
+Arcano de Guerra Adepto/Veterano, Caçador de Impuros, Corcel de Comando, Carruagem de Comando, Dançarino de Guerra/Veterano, Purificado, Soldado Blindado, Companhia Blindada de Elite, Soldado Superior (ND17 — boss completo, nada truncado). 0 reprints.
 
-**Depois (fatia final de Itens & Regras):** Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, sidebars de regra (Dragões/Golens Despertos/Piratas/Purista), intro Cap.1.
-**Fora do escopo do bestiário:** Montanhas Sanguinárias (p.306+) é capítulo de **regiões/gazetteer** (lore), decidir depois se entra nesta fase.
+### Onda 14 ✅ — Reino dos Mortos / Aslothia (10 criaturas, `4db6bc0`, 0 discrepâncias)
+Alzeras, Cemitério Vivo, Chacal-Zumbi, Mercenário de Aslothia/Líder, Morgue'raz, Wisphago, Lich, Lich de Aslothia, Arquilich Ferren Asloth (ND S — 18 habilidades, 9 magias, 21 Servos). tema "Reino dos Mortos" (merge com Básico). 0 reprints.
+
+### Onda 15 ✅ — Reinos de Moreania (9 criaturas + 2 raças, 0 discrepâncias)
+- **9 criaturas (`bd85cda`):** Búfalo-de-Guerra, Hippossauro, Mantícora Primal (ND14), Otyugh/Horda, Yidishan Bugbear, Raposa Bucaneira, Búfalo Paladino de Bullton, Coruja Druida. **Mantícora ND6 pulada** (reprint idêntico do Básico).
+- **Raças Yidishan + Moreau (`caafe64`):** Yidishan (construto); Moreau (raça grande com **12 Heranças**: Coruja/Hiena/Raposa/Serpente/Búfalo/Coelho/Crocodilo/Gato/Leão/Lobo/Morcego/Urso). Ambas cruzadas + arte.
+
+## ✅ BESTIÁRIO DE AMEAÇAS COMPLETO — 332 criaturas + 22 raças jogáveis. Build 1416 páginas. (impressas ~10–302; revisão por visão em 100%.)
+
+**Falta da Fase 2 (fatia final de Itens & Regras):** itens (Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, Espada Espinhenta/Frutos da Espada-Mãe, Fígado de Lagarto-Trovão, Pistola Demoníaca etc.), sidebars de regra (Templos de Aharadak, Energia Dracônica, Dragões como Familiares/Modificando Dragões, Golens Despertos, Habilidades de Piratas, Novos Poderes de Montarias/Treinar Montarias), intro Cap.1 (Fichas/Tipos/Habilidades Gerais). **Precisa decidir o modelo de dados (tipos `item`/`regra`).**
+**Fora do escopo do bestiário:** Montanhas Sanguinárias (p.306+) = capítulo de **regiões/gazetteer** (lore) — decidir depois se entra nesta fase.
 
 ---
 
