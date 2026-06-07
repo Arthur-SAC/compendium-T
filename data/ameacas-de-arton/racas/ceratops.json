@@ -1,0 +1,50 @@
+{
+  "id": "ceratops",
+  "tipo": "raca",
+  "nome": "Ceratops",
+  "resumo": "Os maiores e mais fortes entre os thera (povos-trovão). Descendem de enormes quadrúpedes de cabeça blindada e repleta de chifres. Guerreiros truculentos, orgulhosos e agressivos, cuja simples aparência basta para desencorajar agressores.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 265 },
+  "imagens": ["/racas/ceratops.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Alta e forte como um ogro, a criatura exibe uma cabeçorra de formato incomum, ostentando um escudo de osso e vários longos chifres. Tem couro rosa-alaranjado, coberto de pinturas de rituais. A cauda é longa, musculosa e também com chifres. Veste um manto orgulhoso feito com a pele de algum grande felino, além de joias cravejadas com gemas locais. Ceratops são os maiores e mais fortes entre os thera. Descendem de enormes quadrúpedes com cabeças blindadas e repletas de chifres. São guerreiros truculentos, orgulhosos e agressivos; na maior parte dos casos, sua simples aparência basta para desencorajar qualquer agressor."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "ceratops-guerreiro", "alvoTipo": "criatura", "rotulo": "Ceratops Guerreiro" },
+    { "tipo": "verTambem", "alvoId": "ceratops-chefe-da-tribo", "alvoTipo": "criatura", "rotulo": "Ceratops Chefe da Tribo" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Destreza", "valor": -1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Grande",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O tamanho Grande é definido pela habilidade Paquidérmico (\"Seu tamanho é Grande\"). O sidebar não informa o deslocamento; inferido em 9m a partir das criaturas Ceratops Guerreiro e Ceratops Chefe da Tribo, ambas com deslocamento 9m (6q).",
+    "habilidades": [
+      {
+        "nome": "Chifres",
+        "descricao": "Você possui uma arma natural de chifres (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+      },
+      {
+        "nome": "Papel Tribal",
+        "descricao": "Você é treinado em uma perícia a sua escolha entre Cura, Intimidação, Ofício ou Sobrevivência."
+      },
+      {
+        "nome": "Paquidérmico",
+        "descricao": "Seu tamanho é Grande. Você recebe +1 na Defesa e pode usar Força como atributo-chave de Intimidação (em vez de Carisma)."
+      },
+      {
+        "nome": "Medo de Altura",
+        "descricao": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Arsenal, Azgher, Lena, Megalokk"
+  }
+}

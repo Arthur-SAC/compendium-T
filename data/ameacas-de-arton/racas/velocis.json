@@ -1,0 +1,45 @@
+{
+  "id": "velocis",
+  "tipo": "raca",
+  "nome": "Velocis",
+  "resumo": "Thera (povo-trovão) parecido com antílopes, alto e esguio de pele azul-acinzentada. Verdadeiras máquinas de correr e saltar, são as criaturas terrestres mais rápidas de Arton, nômades da Grande Savana.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 268 },
+  "imagens": ["/racas/velocis.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ele é alto e esguio, de pele azul-acinzentada, com manchas de negro profundo nas pernas, antebraços, pescoço e ao redor dos olhos. Tem um par de pequenos chifres voltados para trás, uma crina curta atrás do pescoço e outra na cauda delgada. Veste uma tanga simples. Empunha uma lança e um escudo grande, mas de aspecto leve. Parecidos com antílopes, os membros do povo-trovão chamados velocis são verdadeiras máquinas de correr e saltar. Alguns os descrevem como as criaturas terrestres mais rápidas de Arton."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "velocis-cacador", "alvoTipo": "criatura", "rotulo": "Velocis Caçador" },
+    { "tipo": "verTambem", "alvoId": "xama-de-sarana", "alvoTipo": "criatura", "rotulo": "Xamã de Sarana" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Sabedoria", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 12,
+    "deslocamentoUnidade": "m",
+    "nota": "O deslocamento 12m é definido pela habilidade Velocista da Planície. Tamanho Médio confirmado pelas criaturas Velocis Caçador e Xamã de Sarana (Humanoide [velocis] Médio).",
+    "habilidades": [
+      {
+        "nome": "Através de Espinheiros",
+        "descricao": "Você recebe redução de corte e perfuração 2 e não sofre redução em seu deslocamento por terreno difícil natural."
+      },
+      {
+        "nome": "Sentidos Selvagens",
+        "descricao": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha)."
+      },
+      {
+        "nome": "Velocista da Planície",
+        "descricao": "Seu deslocamento é 12m. Você pode usar Destreza como atributo-chave de Atletismo (em vez de Força) e, quando faz testes de Atletismo para correr ou saltar, pode rolar dois dados e usar o melhor resultado."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Lena, Marah"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "pteros",
+  "tipo": "raca",
+  "nome": "Pteros",
+  "resumo": "Thera (povo-trovão) alado, magro e mirrado mas de musculatura rija, com asas membranosas, olhos de águia e focinho longo. Descende de répteis voadores e domina os céus de Arton.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 267 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A criatura de um metro e meio parece magra, mirrada, mas de musculatura rija. Os braços abertos revelam ser asas membranosas, com mãos rústicas, atrofiadas. A cabeça apresenta olhos de águia, focinho longo e uma crista colorida de cartilagem. A pele é lisa, coberta com uma fina penugem cinza-esverdeada. Tem cauda longa e fina, com ponta em forma de folha. As garras nos pés parecem bem perigosas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "pteros-ceifador", "alvoTipo": "criatura", "rotulo": "Pteros Ceifador" },
+    { "tipo": "verTambem", "alvoId": "pteros-do-ceu-infinito", "alvoTipo": "criatura", "rotulo": "Pteros do Céu Infinito" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Sabedoria", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O sidebar não informa explicitamente o deslocamento terrestre; inferido em 9m (padrão de raça Média). A habilidade Senhor dos Céus concede pairar a 1,5m do chão com deslocamento 9m e voar com deslocamento 12m gastando 1 PM por rodada. Sem ilustração: a página (PDF p.269) não contém imagem raster cor+máscara extraível para a figura do Pteros (apenas a textura de fundo), por isso imagens permanece vazio.",
+    "habilidades": [
+      {
+        "nome": "Ligação Natural",
+        "descricao": "Você possui uma ligação mental com uma criatura inteligente (Int –3 ou mais). Vocês podem se comunicar mentalmente em alcance longo e sempre sabem em que direção e distância podem encontrar o outro. Você pode trocar a criatura com a qual mantém o vínculo no início de cada aventura."
+      },
+      {
+        "nome": "Mãos Rudimentares",
+        "descricao": "Suas mãos não permitem que você empunhe itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você."
+      },
+      {
+        "nome": "Pés Rapinantes",
+        "descricao": "Seus pés são duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "nome": "Senhor dos Céus",
+        "descricao": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Quando abre suas asas para pairar ou voar, você ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua."
+      },
+      {
+        "nome": "Sentidos Rapinantes",
+        "descricao": "Você recebe visão na penumbra e +2 em Percepção e Sobrevivência."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Lena, Marah, Wynna"
+  }
+}

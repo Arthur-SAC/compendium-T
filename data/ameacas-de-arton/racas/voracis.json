@@ -1,0 +1,45 @@
+{
+  "id": "voracis",
+  "tipo": "raca",
+  "nome": "Voracis",
+  "resumo": "Thera (povo-trovão) predador, também conhecido como \"caçadora\". Estão entre os humanoides mais agressivos de Arton, temidas até pelos outros thera. Vivem em sociedade rígida e matriarcal, habitando vilas nas copas das árvores.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 270 },
+  "imagens": ["/racas/voracis.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Embora pareça uma mulher baixa e esguia, sua postura lembra mais uma pantera. A cabeça é feral, de focinho alongado. Tem pele marrom-avermelhada, olhos amarelos de leoa, uma cauda fina e escamada, e uma crista de cores vivas. Veste uma tanga leve e adornos feitos de ossos, garras e dentes. Uma mão empunha uma adaga serrilhada enquanto a outra exibe garras negras. Também conhecidas como “caçadoras”, voracis estão entre os humanoides mais agressivos de Arton, temidas até pelos outros thera. São as rainhas de seus territórios, o topo da cadeia alimentar — aquelas que caçam todos, sem serem caçadas por ninguém. A sociedade voracis é rígida e matriarcal: as mulheres caçam, lutam e lideram. Os machos da espécie são raros, quase nunca vistos. Voracis habitam vilas nas copas das árvores, em grandes tablados de madeira com cabanas semi-esféricas, feitas de ossos e decoradas com troféus de caça."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "voracis-cacadora", "alvoTipo": "criatura", "rotulo": "Voracis Caçadora" },
+    { "tipo": "verTambem", "alvoId": "voracis-rainha", "alvoTipo": "criatura", "rotulo": "Voracis Rainha" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O sidebar não informa o deslocamento; inferido em 9m a partir da criatura Voracis Rainha (deslocamento 9m [6q]). Tamanho Médio confirmado pelas criaturas Voracis (Humanoide [voracis] Médio).",
+    "habilidades": [
+      {
+        "nome": "Garras",
+        "descricao": "Suas mãos são duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      },
+      {
+        "nome": "Rainha da Selva",
+        "descricao": "Você recebe deslocamento de escalada 9m, +2 em Atletismo e recupera +1 PV por nível quando descansa."
+      },
+      {
+        "nome": "Sentidos Selvagens",
+        "descricao": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha)."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Arsenal, Megalokk"
+  }
+}
