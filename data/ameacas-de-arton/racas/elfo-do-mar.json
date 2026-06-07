@@ -1,0 +1,52 @@
+{
+  "id": "elfo-do-mar",
+  "tipo": "raca",
+  "nome": "Elfo-do-Mar",
+  "resumo": "Elfos aquáticos de pele perolada azul-acinzentada e orelhas em forma de barbatana, adaptados à vida submarina. Hábeis com arpão, rede e tridente, recebem deslocamento de natação e dependem do contato com a água.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 316 },
+  "imagens": ["/racas/elfo-do-mar.png"],
+  "secoes": [
+    {
+      "titulo": "Habilidades de Raça",
+      "texto": "Sidebar com as regras para usar o elfo-do-mar como raça jogável."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "elfo-do-mar-pescador", "alvoTipo": "criatura", "rotulo": "Elfo-do-Mar Pescador" },
+    { "tipo": "verTambem", "alvoId": "elfo-do-mar-chefe", "alvoTipo": "criatura", "rotulo": "Elfo-do-Mar Chefe" },
+    { "tipo": "verTambem", "alvoId": "elfo-do-mar-druida", "alvoTipo": "criatura", "rotulo": "Elfo-do-Mar Druida" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Deslocamento de natação igual ao deslocamento em terra (definido pela habilidade Cria das Águas).",
+    "habilidades": [
+      {
+        "nome": "Arsenal do Oceano",
+        "descricao": "Você recebe proficiência em arpão, rede e tridente e +2 em testes de ataque com essas armas. Se receber proficiência em uma dessas armas novamente, pode considerá-la uma arma leve."
+      },
+      {
+        "nome": "Cria das Águas",
+        "descricao": "Você possui deslocamento de natação igual a seu deslocamento em terra e visão na penumbra. Quando dentro d'água, você recebe percepção às cegas e +2 na Defesa e em Furtividade e Sobrevivência."
+      },
+      {
+        "nome": "Dependência d'Água",
+        "descricao": "Se permanecer mais de um dia sem contato com a água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "x2."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Arsenal, Hyninn, Megalokk, Oceano."
+      }
+    ]
+  }
+}

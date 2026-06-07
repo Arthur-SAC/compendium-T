@@ -1,0 +1,54 @@
+{
+  "id": "nagah",
+  "tipo": "raca",
+  "nome": "Nagah",
+  "resumo": "Humanoides ofídicos de cauda de serpente, ligados ao culto de Sszzaas. Machos e fêmeas recebem modificadores de atributo distintos, além de cauda como arma natural, talento para o engano e resistência a veneno.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 333 },
+  "imagens": ["/racas/nagah.png"],
+  "secoes": [
+    {
+      "titulo": "Habilidades de Raça",
+      "texto": "Sidebar com as regras para usar o nagah como raça jogável. Os modificadores de atributo dependem do sexo do personagem."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "nagah-dormente", "alvoTipo": "criatura", "rotulo": "Nagah Dormente" },
+    { "tipo": "verTambem", "alvoId": "nagah-defensor", "alvoTipo": "criatura", "rotulo": "Nagah Defensor" },
+    { "tipo": "verTambem", "alvoId": "nagah-retalhador", "alvoTipo": "criatura", "rotulo": "Nagah Retalhador" },
+    { "tipo": "verTambem", "alvoId": "nagah-sacerdotisa", "alvoTipo": "criatura", "rotulo": "Nagah Sacerdotisa" },
+    { "tipo": "verTambem", "alvoId": "nagah-encantadora", "alvoTipo": "criatura", "rotulo": "Nagah Encantadora" }
+  ],
+  "mecanica": {
+    "modificadores": [],
+    "nota": "Os modificadores de atributo dependem do sexo do personagem: machos recebem Força +1, Destreza +1, Constituição +1; fêmeas recebem Inteligência +1, Sabedoria +1, Carisma +1.",
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Cauda",
+        "descricao": "Você possui uma arma natural de cauda (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a cauda."
+      },
+      {
+        "nome": "Inocência Dissimulada",
+        "descricao": "Você recebe +2 em Enganação e pode gastar 2 PM para substituir um teste de perícia originalmente baseada em Inteligência, Sabedoria ou Carisma por Enganação."
+      },
+      {
+        "nome": "Presentes de Sszzaas",
+        "descricao": "Você recebe visão na penumbra, +1 na Defesa e resistência a veneno +5."
+      },
+      {
+        "nome": "Fraquezas Ofídicas",
+        "descricao": "Você sofre 1 ponto de dano adicional para cada dado de dano de frio e −5 em testes de resistência contra Músicas de bardo."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Hyninn, Kally, Megalokk, Sszzaas, Tenebra, Wynna."
+      }
+    ]
+  }
+}
