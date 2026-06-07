@@ -120,8 +120,19 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Dívida leve:** quadro "Habilidades de Piratas" (p.258) → fatia de regras. "—" de atributo inconsistente (normalizar no polimento).
 - **Total Ameaças: 290 criaturas + 16 raças.** Build 1364 páginas.
 
-**Próxima onda (Onda 12):** **Povos-Trovão** (p.264–270, 8 criaturas: Ceratops Guerreiro/Chefe, Pteros Ceifador/do Céu Infinito, Velocis Caçador, Xamã de Sarana, Voracis Caçadora/Rainha) + **4 raças jogáveis** (Ceratops, Pteros, Velocis, Voracis) + **Totens do Trovão** (p.271–273+, 4+ totens — renderizar além de 273 p/ achar o fim do bestiário). Já renderizado 252–273 em `piratas-plus`.
-**Depois:** fatia final de Itens & Regras (Dádivas de Aharadak, Totens Risonhos, Semente Rubra, sidebars de regra, intro Cap.1, "Habilidades de Raça" consolidada p.303).
+### Onda 12 ✅ — Povos-Trovão + Totens do Trovão + 4 raças (revisão por visão; 1 fix)
+- **Povos-Trovão (8 criaturas, `06162ca`):** Ceratops Guerreiro/Chefe, Pteros Ceifador/do Céu Infinito, Velocis Caçador, Xamã de Sarana, Voracis Caçadora/Rainha. Fix: Pteros do Céu Infinito (atributos For0/Sab5, +Tempestade Divina, perícias/equip/tesouro).
+- **Totens do Trovão (4 criaturas, `fee29eb`):** Totem de Sarana (ND10), da Divina Serpente (ND14), do Rei-Tirano (ND15), do Pai-de-Tudo (ND12) — todos Espírito. 0 discrepâncias.
+- **4 raças jogáveis (`befb5d18`):** Ceratops (Grande), Pteros, Velocis, Voracis — cruzadas; artes p/ Ceratops/Velocis/Voracis (Pteros sem figura).
+- **Total Ameaças: 302 criaturas + 20 raças.** Build 1382 páginas.
+
+**Bestiário restante (render já feito em `totens-plus`, impressas 274–305):**
+- **Onda 13 — Supremacia Purista (p.274–283, 11 criaturas):** Arcano de Guerra Adepto/Veterano, Caçador de Impuros, Corcel de Comando, Carruagem de Comando, Dançarino de Guerra/Veterano, Purificado, Soldado Blindado, Companhia Blindada de Elite, Soldado Superior (ND17). (Sem raça; itens Soro Supremo/Equipamento Purista → fatia de regras.)
+- **Onda 14 — Reino dos Mortos/Aslothia (p.284–295, 10 criaturas):** Alzeras, Cemitério Vivo, Chacal-Zumbi, Mercenário de Aslothia/Líder, Morgue'raz, Wisphago, Lich, Lich de Aslothia, Arquilich Ferren Asloth (ND S). **Reprint-check vs Básico (esqueleto/zumbi) e vs Mortos-Vivos já extraído.** Itens: Filactério, Bênçãos de Ferren.
+- **Onda 15 — Reinos de Moreania (p.296–302, 10 criaturas):** Búfalo-de-Guerra, Hippossauro, Mantícora/Primal, Otyugh/Horda, Yidishan Bugbear, Raposa Bucaneira, Búfalo Paladino de Bullton, Coruja Druida + **raça Yidishan** (p.300) + **raça Moreau** (12 heranças, p.303–305 — raça grande). **Bestiário termina na p.302.**
+
+**Depois (fatia final de Itens & Regras):** Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, sidebars de regra (Dragões/Golens Despertos/Piratas/Purista), intro Cap.1.
+**Fora do escopo do bestiário:** Montanhas Sanguinárias (p.306+) é capítulo de **regiões/gazetteer** (lore), decidir depois se entra nesta fase.
 
 ---
 
