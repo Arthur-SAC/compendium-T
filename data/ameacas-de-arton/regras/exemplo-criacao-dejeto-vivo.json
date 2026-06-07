@@ -1,0 +1,53 @@
+{
+  "id": "exemplo-criacao-dejeto-vivo",
+  "tipo": "regra",
+  "nome": "Exemplo de Criação de Ameaça: Dejeto Vivo",
+  "resumo": "Exemplo passo a passo aplicando o Manual de Criação de Ameaças para construir o dejeto vivo, um monstro solo de ND 6 que habita esgotos. Acompanha a ficha final resultante.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 385
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Passo 0: Conceito e Nome",
+      "texto": "Começamos pelo conceito e nome. Esta será uma criatura amorfa que vive nos esgotos de grandes cidades, como Valkaria, alimentando-se de dejetos, restos de itens alquímicos e componentes mágicos. Enfim, uma pilha de lixo animada por magia e alquimia. O nome será algo bastante evocativo: dejeto vivo. Com isso, temos o suficiente para uma descrição.\n\nOs esgotos de Valkaria recebem todo tipo de resíduo, desde os restos do dia a dia da cidade até lixo produzido por alquimistas, inventores e conjuradores. Levados pelas chuvas até os drenos, essas substâncias se misturam e se acumulam. Com o tempo, a combinação de dejetos alquímicos e mágicos pode dar origem a um tipo particular de limo monstruoso: o dejeto vivo.\n\nDejetos vivos são criaturas amorfas, constituídas por dejetos mesclados a substâncias alquímicas e resíduos mágicos. Desprovidas de mente ou vontade, elas existem apenas para se alimentar, devorando tudo que é orgânico em seu caminho. Vivem em esgotos ou ruínas escuras e úmidas, de onde saem à noite em busca de alimento. Caçam projetando pseudópodes, usando-os para agarrar e engolfar suas presas, que então são lentamente digeridas em seu interior."
+    },
+    {
+      "titulo": "Passo 1: Tipo, Tamanho e Papel",
+      "texto": "Uma criatura monstruosa, de inteligência limitada e forma não humanoide se encaixa no conceito de “monstro”. Ele será um caçador solitário, que enfrentará os personagens sozinho, usando ataques físicos e algumas habilidades de suporte, o que se encaixa no conceito de “solo”. Ele é capaz de ocupar grandes espaços nos túneis e esgotos onde vive, mas ao mesmo tempo é limitado pelo tamanho desses espaços. “Grande” parece um tamanho adequado.\n\nComo um ser amorfo, um dejeto vivo não é muito rápido, e pode ter deslocamento 6m. Entretanto, ele vive em túneis e corredores muitas vezes alagados. Assim, terá também deslocamentos de escalada e de natação, ambos 6m."
+    },
+    {
+      "titulo": "Passo 2: Nível de Desafio",
+      "texto": "Esgotos são um dos cenários de aventuras mais comuns para personagens iniciantes. Porém, o dejeto habita os túneis de grandes cidades, um ambiente mais adequado para personagens veteranos. Assim, ND 6 parece adequado a ele."
+    },
+    {
+      "titulo": "Passo 3: Estatísticas de Combate",
+      "texto": "Para as estatísticas de combate, consultamos a linha correspondente a ND 6 na seção “Solo” da Tabela 2-3. Por sua composição química e mágica, mente simples e mobilidade reduzida, faz sentido atribuir os valores de resistência indicados na tabela (do maior ao menor) em Fortitude, Vontade e Reflexos. Uma gosma amorfa será uma criatura lenta, mas ao mesmo tempo vigorosa. Assim, podemos reduzir sua Defesa para 24 (equivalente a ND 5) e aumentar seus PV para 280 (equivalente a ND 7)."
+    },
+    {
+      "titulo": "Passo 4: Ataques",
+      "texto": "A descrição do dejeto vivo menciona “pseudópodes”. De forma geral, não é indicado colocar muitos ataques em uma mesma ameaça, mas o dejeto será bastante simples, então pode ter três ataques. Seu dano médio é 56, o que equivale a 19 por ataque (arredondando para cima). Para o dano base usamos 1d8 (o dano de armas naturais de criaturas Grandes) de impacto. Para representar sua natureza química, eles causarão também 1d8 pontos de dano de ácido, o que resulta em um dano médio de 9. Por fim, ele soma +10 ao dano de cada ataque, para alcançar o dano médio desejado."
+    },
+    {
+      "titulo": "Passo 5: Habilidades",
+      "texto": "Por ser veterano, o dejeto vivo tem quatro habilidades. Ele é formado por elementos alquímicos e mágicos, por isso recebe resistência a magia e alquimia +5 (como “alquimia” não é um efeito muito poderoso, podemos considerar tudo uma habilidade só).\n\nPara as habilidades seguintes, escolhemos Agarrar Aprimorado e Engolir, que representam sua forma de caçar e se alimentar. Como uma criatura feita de lixo, ele deve ser bastante fedorento; por isso recebe um efeito de área (importante para criaturas solo) que deixa os oponentes enjoados.\n\nPor fim, ele recebe uma habilidade sensorial. Monstros costumam ter visão no escuro, mas, em vez disso, ele terá percepção às cegas em alcance médio, o que parece mais adequado a uma criatura sem olhos que vive em túneis sem luz.\n\nSomando tudo, o dejeto vivo tem cinco habilidades. Entretanto, como várias são passivas e simples, ele ficou ao mesmo tempo equilibrado e simples de usar. Assim, parece adequado manter esse número."
+    },
+    {
+      "titulo": "Passo 6: Estatísticas Secundárias",
+      "texto": "Começamos definindo os valores de atributo; dejetos vivos são criaturas fortes e resistentes, mas lentas. Assim, ele recebe valores excelentes para Força (4) e Constituição (5), mas uma Destreza ineficaz (–1). Por outro lado, são seres irracionais, guiados por seu instinto primário. Ele recebe uma Inteligência incapaz (–5) e valores medianos para Sabedoria (1) e Carisma (0).\n\nDejetos vivos são criaturas simples, que vivem apenas para se alimentar, sobretudo de presas vivas. Eles não são particularmente rápidos, mas possuem sentidos apurados para navegar em um ambiente caótico e sujo. Assim, precisam apenas de Percepção treinada; seu valor será +6 (3 pela metade de seu ND 6, 2 por treinamento e 1 por Sabedoria)."
+    },
+    {
+      "titulo": "Passo 7: Equipamento e Tesouro",
+      "texto": "Dejetos vivos não usam itens. Mas, como muitos predadores, é possível que seus túneis abriguem os tesouros de suas vítimas, o que justifica um tesouro Padrão. Entretanto, como se alimentam de alquimia, excluímos itens alquímicos de seus tesouros. Para compensar isso, ele recebe um tesouro especial: doses de ácido. Por ser um recurso barato, podemos incluir algumas doses (1d6). A CD para extraí-las é 21 (15 + o ND do dejeto).\n\nApós esses passos, temos mais uma ameaça para espreitar os esgotos das grandes cidades de Arton."
+    },
+    {
+      "titulo": "Ficha resultante: Dejeto Vivo (ND 6)",
+      "texto": "Dejeto Vivo — ND 6\nMonstro Grande\nIniciativa +2, Percepção +6, percepção às cegas (médio)\nDefesa 24, Fort +18, Ref +6, Von +12, resistência a alquimia e magia +5\nPontos de Vida 280\nDeslocamento 6m (4q), escalada 6m (4q), natação 6m (4q)\nCorpo a Corpo Três pseudópodes +20 (1d8+10 impacto, x2, mais 1d8 ácido).\nAgarrar Aprimorado (Livre) Pseudópode (teste +22).\nEngolir (Padrão) No início de cada um dos turnos do dejeto vivo, a criatura engolida sofre 2d6+10 pontos de dano de ácido. Ela pode escapar causando um total de 20 pontos de dano ao interior do dejeto (Defesa 10).\nOdor Nauseabundo Uma criatura que comece seu turno em alcance curto do dejeto vivo fica enjoada pela cena (Fort CD 22 evita e a criatura não pode mais ficar enjoada por esta habilidade até o fim da cena).\nFor 4, Des −1, Con 5, Int −5, Sab 1, Car 0\nTesouro Padrão (exceto itens alquímicos), 1d6 doses de ácido (CD 21 para extrair)."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "relacionado", "alvoId": "manual-de-criacao-de-ameacas", "alvoTipo": "regra-de-criacao", "rotulo": "Manual de Criação de Ameaças" }
+  ],
+  "mecanica": {}
+}

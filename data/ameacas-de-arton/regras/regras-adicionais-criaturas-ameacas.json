@@ -1,0 +1,59 @@
+{
+  "id": "regras-adicionais-criaturas-ameacas",
+  "tipo": "regra",
+  "nome": "Regras Adicionais para Criaturas (Ameaças de Arton)",
+  "resumo": "Regras específicas para criaturas no papel de ameaças: ataques (Luta e Pontaria, tipos e dados de dano, armas naturais, armas empunhadas, remoção de equipamento), CD de habilidades, ameaças e morte, condições de itens (Avariado, Destruído) e parceiros de ameaças.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 374
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Regras adicionais",
+      "texto": "Este capítulo reúne diversas regras específicas para criaturas no papel de ameaças, incluindo regras para modificar ameaças existentes e criar outras novas."
+    },
+    {
+      "titulo": "Criaturas e Ataques",
+      "texto": "Uma das principais ações de uma criatura são seus ataques físicos, em corpo a corpo ou à distância. Os ataques de uma criatura seguem todas as regras de combate normais; as informações a seguir complementam e esclarecem o uso de ataques por ameaças."
+    },
+    {
+      "titulo": "Luta e Pontaria",
+      "texto": "As perícias Luta e Pontaria funcionam como normal para criaturas. Por simplicidade, considere que os valores dessas perícias são iguais aos ataques listados para a criatura, e que uma criatura com um ataque sempre é treinada na perícia correspondente. Se a criatura não tiver um ataque de um determinado tipo e a perícia correspondente não estiver listada, ela não é treinada.\n\nUm ogro caçador (veja p. 41) possui um ataque de tacape corpo a corpo com modificador +24. Ele é considerado treinado em Luta e seu valor na perícia é +24. Esse mesmo ogro não possui nenhum ataque à distância e a perícia Pontaria não aparece em suas perícias treinadas, logo ele não é treinado nela. Caso precise fazer um ataque à distância, ele terá um modificador +3 (metade de seu ND 7, mais sua Destreza 0)."
+    },
+    {
+      "titulo": "Tipos e Dados de Dano",
+      "texto": "A descrição de cada ataque indica o tipo de dano causado (corte, perfuração etc.). Se nenhum tipo for indicado, o ataque causa o dano normal para aquela arma. Assim como para personagens, bônus de dano e dados extras de criaturas não são multiplicados em caso de acerto crítico, a menos que seja dito em contrário na descrição da ameaça."
+    },
+    {
+      "titulo": "Armas Naturais",
+      "texto": "Diversas criaturas são dotadas de armas naturais, como garras e chifres. A Tabela 2-1: Armas Naturais lista as principais armas naturais existentes, bem como seu tipo de dano padrão.\n\nComo regra geral, armas naturais causam 1d6 pontos de dano de seu tipo para uma criatura Pequena ou Média. Criaturas Minúsculas diminuem esse dano em um passo, criaturas Grandes e Enormes aumentam em um passo, e criaturas Colossais aumentam em dois passos (veja a Tabela 3-2: Dano de Armas, em Tormenta20, p. 143). Criaturas com armas naturais mais fracas ou particularmente perigosas podem causar dano diferente desses valores.\n\nTabela 2-1: Armas Naturais (Arma — Dano):\n- Cascos — Impacto\n- Cauda — Impacto\n- Chifres — Perfuração\n- Ferrão — Perfuração\n- Garra — Corte\n- Marrada — Impacto\n- Mordida — Perfuração\n- Pancada — Impacto\n- Pinça — Corte\n- Presas — Perfuração\n- Tentáculo — Impacto\n- Tromba — Impacto"
+    },
+    {
+      "titulo": "Armas Empunhadas",
+      "texto": "Para armas empunhadas por criaturas, considere que qualquer modificação nas características da arma (como dano básico ou crítico) é resultado das habilidades da criatura, a menos que descrito na ficha. Nas mãos de outra criatura, como os personagens, a arma funciona como um exemplar normal, com suas características padrão. Características especiais das armas de uma criatura geralmente estarão descritas em seu equipamento ou tesouro.\n\nUm coletor de Arsenal (veja p. 136) usa um martelo de guerra (dano básico 1d8) que causa 2d8 pontos de dano. Em seu equipamento, sua arma é descrita como um martelo de guerra formidável. O dado de dano extra do martelo é parte das habilidades do coletor; nas mãos de outra criatura, seu martelo será apenas uma arma formidável, que causa 1d8 pontos de dano."
+    },
+    {
+      "titulo": "Removendo Equipamentos",
+      "texto": "Eventualmente, uma criatura pode perder sua arma durante um combate, sendo forçada a recorrer a ataques desarmados. Se isso acontecer e você precisar definir as características de seu ataque desarmado rapidamente, considere que o modificador de ataque desarmado da criatura é igual ao de seu ataque principal, e seu dano desarmado é 1d3 + seu bônus de dano com seu ataque principal, sem contar bônus e dados extras de dano específicos da arma. Esse é o dano para criaturas Pequenas e Médias. Criaturas Minúsculas diminuem esse dano em um passo, criaturas Grandes e Enormes aumentam em um passo, e criaturas Colossais aumentam em dois passos. Assim, uma criatura Grande que tenha um ataque de espada longa +23 (1d8+14, 19) terá um ataque desarmado +23 (1d4+14). Alternativamente, se estiver criando uma ameaça nova, você pode definir um ataque desarmado para ela, como um ataque secundário ou como uma opção de ataque principal.\n\nDa mesma forma, uma criatura pode perder seu escudo ou ter sua armadura destruída. Caso isso aconteça, ajuste as características afetadas conforme as estatísticas do item que foi perdido. Para definir as estatísticas do item, considere sua descrição na linha “Equipamento”, mais quaisquer habilidades que definam algum efeito adicional por estar usando esse equipamento."
+    },
+    {
+      "titulo": "CD de Habilidades",
+      "texto": "Por questão de simplicidade, as fichas de ameaças não indicam o atributo-chave para a CD de cada uma de suas habilidades. De forma geral, apenas saber o valor da CD para resistir a uma determinada habilidade é suficiente para utilizar a criatura. Entretanto, em alguns casos específicos, como efeitos que modificam os atributos da criatura, pode ser importante saber qual o atributo-chave para a CD de uma determinada habilidade. Nesses casos, use as diretrizes a seguir.\n\nHabilidades Atléticas. Habilidades que derrubam ou deslocam os alvos, ou que causam condições de movimento, geralmente têm Força ou Destreza como atributo-chave (o que for maior).\n\nHabilidades Fisiológicas. Habilidades baseadas na fisiologia da criatura, como doenças, venenos e habilidades que produzem algum tipo de energia não mágica (como um sopro de fogo ou uma nuvem fétida), têm como atributo-chave Constituição.\n\nHabilidades de Controle. Efeitos que controlam a mente de outras criaturas, impõem condições mentais ou causam dano psíquico geralmente são baseadas em Carisma.\n\nMagias. Para magias, o atributo-chave da CD é indicado pelo tipo de conjurador. Para conjuradores arcanos (sem um caminho de magia definido) use Inteligência ou Carisma, o que for maior.\n\nPara efeitos que não se encaixam em nenhuma das definições acima, use o maior atributo entre Força, Destreza e Constituição para habilidades claramente físicas, ou o maior entre Inteligência, Sabedoria e Carisma para habilidades mágicas ou mentais, ou então use o maior de todos os atributos caso não seja possível classificar a habilidade de nenhuma forma."
+    },
+    {
+      "titulo": "Ameaças e Morte",
+      "texto": "A regra de morte pode ser trabalhosa para ameaças, pois exige controlar os PV negativos de várias criaturas. Além disso, ameaças com muitos PV têm pouca chance de efetivamente morrer em combate, o que pode ter impactos narrativos na aventura. Para resolver isso, use a seguinte variante. Quando uma ameaça é reduzida a 0 ou menos PV por dano letal, anote esse valor, mas ignore sangramentos. No fim do combate, considere que lacaios nessa situação estão mortos e solos e especiais têm 50% de chance de estar vivos. Os personagens podem impedir essas mortes estabilizando ou curando a ameaça durante o combate, ou tomando medidas como causar dano não letal."
+    },
+    {
+      "titulo": "Condições de Itens",
+      "texto": "Algumas habilidades de ameaças afetam itens de formas específicas. Para representar esses efeitos, Ameaças de Arton introduz condições específicas para itens, descritas a seguir.\n\nAvariado. O item possui mossas, rachaduras ou avarias que comprometem seu uso. Uma arma ou ferramenta avariada impõe –5 nos testes em que é empregada, enquanto uma armadura ou escudo avariado impõe –5 na Defesa. Essas penalidades são cumulativas com outros efeitos. Um item se torna avariado quando um efeito impõe essa condição. Se for avariado novamente, o item é destruído.\n\nDestruído. O item não pode ser usado e não concede nenhum de seus benefícios. Um item é destruído quando perde todos os seus PV ou quando um efeito impõe essa condição.\n\nReparando Itens. Um item avariado pode ser reparado da mesma forma e com os mesmos custos que um item destruído (veja Tormenta20, p. 121). Efeitos que consertam itens, como o aprimoramento da magia Transmutar Objetos, também removem essas condições."
+    },
+    {
+      "titulo": "Parceiros de Ameaças",
+      "texto": "Algumas ameaças possuem parceiros. Para todos os efeitos, eles seguem as regras normais de seu tipo e não contam como oponentes separados para fins de XP e outras recompensas. Da mesma forma, um parceiro não precisa ser derrotado para que o combate termine; considere que quando a ameaça é derrotada, seus parceiros se rendem, fogem ou simplesmente desaparecem (caso tenham sido conjurados, por exemplo).\n\nAssim, em alguns casos, o mestre pode tratar o parceiro como uma criatura separada, para dar um destaque especial a ele ou para representar um elemento específico da aventura. Neste caso, inclua uma criatura do tipo adequado ao encontro e ignore os benefícios que a ameaça receberia do parceiro. Se tratar um parceiro como uma criatura separada, considere seu ND ao calcular o nível do encontro e as recompensas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

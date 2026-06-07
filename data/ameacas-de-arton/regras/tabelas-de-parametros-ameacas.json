@@ -1,0 +1,33 @@
+{
+  "id": "tabelas-de-parametros-ameacas",
+  "tipo": "regra",
+  "nome": "Tabela 2-3: Parâmetros de Criaturas (Ameaças de Arton)",
+  "resumo": "Tabelas de parâmetros de combate por nível de desafio (ND) para os três papéis de ameaça: 2-3 A (Solos), 2-3 B (Lacaios) e 2-3 C (Especiais). Cada linha indica Valor de Ataque, Dano Médio, Defesa, três valores de Resistência (Forte 80%, Média 50%, Fraca 20%), PV e Efeito Padrão (CD).",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 382
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Como usar as tabelas",
+      "texto": "Os valores destas tabelas são calculados com base em um grupo de quatro personagens otimizados para combate, com acesso a todos os recursos disponíveis para personagens de seu nível. Para cada estatística de combate de uma ameaça, consulte a linha correspondente ao ND da criatura na seção apropriada conforme seu papel: Solos (Tabela 2-3 A), Lacaios (Tabela 2-3 B) ou Especiais (Tabela 2-3 C). Os três valores de resistência (Forte, Média e Fraca) são distribuídos livremente entre Fortitude, Reflexos e Vontade conforme o conceito da ameaça. As linhas estão agrupadas por patamar: Iniciante (ND 1/4 a 4), Veterano (ND 5 a 12), Campeão (ND 13 a 17), Lenda (ND 18 a 20) e Lenda+/L+ (ND S e S+)."
+    },
+    {
+      "titulo": "Tabela 2-3 A: Parâmetros de Criaturas — Solos",
+      "texto": "Colunas: ND | Valor de Ataque | Dano Médio | Defesa | Resistência Forte (80%) | Resistência Média (50%) | Resistência Fraca (20%) | PV | Efeito Padrão (CD).\n\nIniciante:\n- 1/4 | 6 | 8 | 11 | 3 | 0 | -2 | 7 | 12\n- 1/2 | 7 | 10 | 14 | 6 | 3 | -1 | 15 | 13\n- 1 | 9 | 15 | 16 | 11 | 5 | 0 | 35 | 14\n- 2 | 12 | 18 | 19 | 13 | 7 | 2 | 70 | 16\n- 3 | 14 | 21 | 21 | 15 | 9 | 3 | 105 | 17\n- 4 | 16 | 24 | 23 | 16 | 10 | 4 | 140 | 18\n\nVeterano:\n- 5 | 17 | 40 | 24 | 17 | 11 | 5 | 200 | 20\n- 6 | 20 | 56 | 27 | 18 | 12 | 6 | 240 | 22\n- 7 | 24 | 62 | 31 | 20 | 14 | 7 | 280 | 24\n- 8 | 26 | 68 | 33 | 21 | 15 | 8 | 320 | 26\n- 9 | 27 | 74 | 34 | 21 | 15 | 9 | 360 | 28\n- 10 | 29 | 80 | 36 | 22 | 16 | 10 | 400 | 30\n- 11 | 34 | 130 | 41 | 24 | 18 | 11 | 550 | 31\n- 12 | 36 | 144 | 43 | 26 | 20 | 12 | 600 | 33\n\nCampeão:\n- 13 | 37 | 158 | 44 | 26 | 20 | 13 | 650 | 35\n- 14 | 39 | 172 | 46 | 28 | 22 | 14 | 700 | 38\n- 15 | 43 | 186 | 50 | 28 | 22 | 15 | 750 | 40\n- 16 | 46 | 200 | 53 | 30 | 24 | 16 | 800 | 42\n- 17 | 47 | 270 | 54 | 30 | 24 | 17 | 1020 | 44\n\nLenda:\n- 18 | 49 | 288 | 56 | 32 | 26 | 18 | 1080 | 47\n- 19 | 52 | 306 | 59 | 32 | 26 | 19 | 1140 | 47\n- 20 | 54 | 324 | 61 | 34 | 28 | 20 | 1200 | 49\n\nLenda+ (L+):\n- S | 58 | 360 | 65 | 36 | 30 | 22 | 2500 | 51\n- S+ | 65 | 500 | 70 | 38 | 33 | 25 | 4000 | 55"
+    },
+    {
+      "titulo": "Tabela 2-3 B: Parâmetros de Criaturas — Lacaios",
+      "texto": "Colunas: ND | Valor de Ataque | Dano Médio | Defesa | Resistência Forte (80%) | Resistência Média (50%) | Resistência Fraca (20%) | PV | Efeito Padrão (CD).\n\nIniciante:\n- 1/4 | 7 | 9 | 10 | 2 | 0 | -1 | 4 | 12\n- 1/2 | 9 | 11 | 13 | 5 | 3 | 0 | 6 | 13\n- 1 | 11 | 17 | 15 | 10 | 5 | 1 | 9 | 14\n- 2 | 14 | 21 | 18 | 12 | 7 | 3 | 14 | 16\n- 3 | 16 | 24 | 20 | 14 | 9 | 4 | 21 | 17\n- 4 | 17 | 32 | 22 | 15 | 10 | 5 | 28 | 18\n\nVeterano:\n- 5 | 20 | 56 | 23 | 16 | 11 | 6 | 40 | 20\n- 6 | 24 | 62 | 26 | 17 | 12 | 7 | 48 | 22\n- 7 | 26 | 68 | 30 | 19 | 14 | 8 | 56 | 24\n- 8 | 27 | 74 | 32 | 20 | 15 | 9 | 64 | 26\n- 9 | 29 | 80 | 33 | 20 | 15 | 10 | 72 | 28\n- 10 | 34 | 105 | 35 | 21 | 16 | 11 | 80 | 30\n- 11 | 36 | 144 | 40 | 23 | 18 | 12 | 110 | 31\n- 12 | 37 | 158 | 42 | 25 | 20 | 13 | 120 | 33\n\nCampeão:\n- 13 | 39 | 172 | 43 | 25 | 20 | 14 | 130 | 35\n- 14 | 43 | 186 | 45 | 27 | 22 | 15 | 140 | 38\n- 15 | 46 | 200 | 49 | 27 | 22 | 16 | 150 | 40\n- 16 | 47 | 235 | 52 | 29 | 24 | 17 | 160 | 42\n- 17 | 49 | 288 | 53 | 29 | 24 | 18 | 204 | 44\n\nLenda:\n- 18 | 52 | 306 | 55 | 31 | 26 | 19 | 216 | 47\n- 19 | 54 | 324 | 58 | 31 | 26 | 20 | 228 | 47\n- 20 | 56 | 344 | 60 | 33 | 28 | 21 | 240 | 49\n\nLenda+ (L+):\n- S | 60 | 385 | 64 | 35 | 30 | 23 | 500 | 51\n- S+ | 67 | 540 | 69 | 37 | 33 | 26 | 800 | 55"
+    },
+    {
+      "titulo": "Tabela 2-3 C: Parâmetros de Criaturas — Especiais",
+      "texto": "Colunas: ND | Valor de Ataque | Dano Médio | Defesa | Resistência Forte (80%) | Resistência Média (50%) | Resistência Fraca (20%) | PV | Efeito Padrão (CD).\n\nIniciante:\n- 1/4 | 4 | 8 | 11 | 3 | 0 | -2 | 5 | 14\n- 1/2 | 5 | 10 | 12 | 6 | 3 | -1 | 11 | 15\n- 1 | 7 | 15 | 14 | 11 | 5 | 0 | 25 | 16\n- 2 | 10 | 18 | 17 | 13 | 7 | 2 | 49 | 18\n- 3 | 12 | 21 | 19 | 15 | 9 | 3 | 74 | 19\n- 4 | 14 | 24 | 21 | 16 | 10 | 4 | 98 | 20\n\nVeterano:\n- 5 | 15 | 40 | 22 | 17 | 11 | 5 | 140 | 22\n- 6 | 18 | 56 | 25 | 18 | 12 | 6 | 168 | 24\n- 7 | 22 | 62 | 29 | 20 | 14 | 7 | 196 | 26\n- 8 | 24 | 68 | 31 | 21 | 15 | 8 | 224 | 28\n- 9 | 25 | 74 | 32 | 21 | 15 | 9 | 252 | 30\n- 10 | 27 | 80 | 34 | 22 | 16 | 10 | 280 | 32\n- 11 | 32 | 130 | 39 | 24 | 18 | 11 | 385 | 33\n- 12 | 34 | 144 | 41 | 26 | 20 | 12 | 420 | 35\n\nCampeão:\n- 13 | 35 | 158 | 42 | 26 | 20 | 13 | 455 | 37\n- 14 | 37 | 172 | 44 | 28 | 22 | 14 | 490 | 40\n- 15 | 41 | 186 | 48 | 28 | 22 | 15 | 525 | 42\n- 16 | 44 | 200 | 51 | 30 | 24 | 16 | 560 | 44\n- 17 | 45 | 270 | 52 | 30 | 24 | 17 | 714 | 46\n\nLenda:\n- 18 | 47 | 288 | 54 | 32 | 26 | 18 | 756 | 49\n- 19 | 50 | 306 | 57 | 32 | 26 | 19 | 798 | 49\n- 20 | 52 | 324 | 59 | 34 | 28 | 20 | 840 | 51\n\nLenda+ (L+):\n- S | 55 | 360 | 63 | 36 | 30 | 22 | 1750 | 55\n- S+ | 60 | 500 | 67 | 38 | 33 | 25 | 2800 | 60"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "relacionado", "alvoId": "manual-de-criacao-de-ameacas", "alvoTipo": "regra-de-criacao", "rotulo": "Manual de Criação de Ameaças" }
+  ],
+  "mecanica": {}
+}

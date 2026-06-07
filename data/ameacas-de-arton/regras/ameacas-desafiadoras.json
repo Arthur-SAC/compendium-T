@@ -1,0 +1,35 @@
+{
+  "id": "ameacas-desafiadoras",
+  "tipo": "regra",
+  "nome": "Ameaças Desafiadoras (Ameaças de Arton)",
+  "resumo": "Orientações para empregar ameaças em encontros: o ND como indicador de dificuldade (calibrado para quatro personagens otimizados), recompensas por vários inimigos (unificar XP e tesouro pelo ND total do encontro), criaturas S e S+, magias sem custo e magias simuladas.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 376
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Ameaças Desafiadoras",
+      "texto": "O ND e as fichas das criaturas de Tormenta20, bem como os valores apresentados na Tabela 2-3, são calculados com base em um grupo de quatro personagens otimizados para combate e com acesso a todos os recursos disponíveis para personagens de seu nível (PV, PM, equipamento etc.).\n\nAo empregar ameaças, considere, além dos fatores da história, as condições do grupo, as habilidades disponíveis e o grau de experiência dos jogadores. O nível de desafio é um indicador geral de dificuldade, mas esses fatores podem tornar necessário usar criaturas de ND menor ou maior para representar um desafio adequado ao seu grupo. Se você for um mestre iniciante, não se preocupe se “errar a mão” nos primeiros combates; com a prática vem a experiência e, após algumas sessões, você terá uma boa noção de como calcular seus encontros."
+    },
+    {
+      "titulo": "Recompensas por Vários Inimigos",
+      "texto": "Em Tormenta20, por padrão, a XP e o tesouro de um encontro são calculados usando o ND de cada criatura separadamente. Isso simplifica os cálculos, sobretudo em encontros contra poucas ameaças. Entretanto, em encontros com muitos oponentes ou com NDs variados, pode ser mais prático unificar o cálculo de XP e tesouro. Neste caso, em vez de recompensar por criatura, calcule a XP e o tesouro usando o ND total do encontro. Use a categoria de tesouro (metade, padrão ou dobro) da criatura de maior ND, mas role na linha correspondente ao ND do encontro. Inclua também quaisquer tesouros especiais das criaturas participantes. Assim, um encontro contra duas ameaças de ND 8 (ND de encontro 10) fornecerá 10.000 XP (10 vezes 1.000 XP) e irá gerar um tesouro de ND 10.\n\nCalcular XP e tesouro com base no ND do encontro pode gerar recompensas menores ou maiores (caso o grupo enfrente criaturas de ND baixo, que pela regra padrão não dariam nenhuma XP), conforme a composição do grupo de criaturas, mas a longo prazo tudo tende a se equilibrar."
+    },
+    {
+      "titulo": "Criaturas S e S+",
+      "texto": "Ameaças de Arton apresenta criaturas de nível de desafio S e S+. Essas são criaturas especiais que, por sua força, influência e papel no mundo, estão em um patamar de poder único, que não pode ser facilmente alcançado por outros seres. Mais do que um grau adicional de dificuldade, os níveis S e S+ indicam criaturas que não podem ser derrotadas apenas com poder bruto. Vencer uma dessas ameaças deve ser o objetivo de uma série de aventuras ou mesmo o ápice de uma longa campanha, ao longo da qual os aventureiros irão reunir aliados, conhecimento e recursos especiais para essa empreitada verdadeiramente épica.\n\nOs ND S e S+ não são novos níveis numéricos, mas um status especial de certas criaturas. Para quaisquer estatísticas não listadas em suas fichas (como perícias não treinadas), elas são consideradas criaturas de ND 20. Entretanto, para habilidades de outras criaturas, seu ND é maior que 20. Assim, elas não podem ser afetadas por efeitos limitados pelo nível do alvo (como a habilidade Invocar Lefeu de um lekael). Por fim, essas criaturas possuem a habilidade Maior que a Morte."
+    },
+    {
+      "titulo": "Magias Sem Custo",
+      "texto": "Algumas criaturas podem lançar magias sem pagar seu custo (geralmente com um limite de PM). Essas magias seguem todas as demais regras e consideram seu custo total original para efeitos baseados nele. A criatura não gasta PM ao sustentar uma magia e não precisa pagar custos especiais, penalidade de PM e sacrifício de PM para magias."
+    },
+    {
+      "titulo": "Magias Simuladas",
+      "texto": "Uma magia simulada é uma habilidade que reproduz os efeitos de uma magia, como os poderes Flagelo dos Mares e Truque de Mágica (veja Tormenta20, pp. 48 e 89). Magias simuladas seguem as mesmas regras de uso de magias normais, exceto por não serem habilidades mágicas e não contarem como magias (não se beneficiam de efeitos que afetam magias, como itens esotéricos e catalisadores, e não exigem testes de concentração). Entretanto, elas não se acumulam com outras magias (simuladas ou não)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

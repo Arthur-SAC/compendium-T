@@ -1,0 +1,46 @@
+{
+  "id": "como-modificar-criaturas",
+  "tipo": "regra-de-criacao",
+  "nome": "Como Modificar Criaturas",
+  "resumo": "Passos para modificar a ficha de uma ameaça existente (criatura-base) e representar uma versão mais poderosa, mais fraca ou com papel diferente, ajustando ND, estatísticas de combate, habilidades, estatísticas secundárias, equipamento e tesouro mantendo as diferenças em relação aos parâmetros da Tabela 2-3.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 387
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Como Modificar Criaturas",
+      "texto": "Usando os passos acima, você pode modificar a ficha de uma ameaça existente para representar uma versão mais poderosa ou com papel diferente. Para modificar uma ameaça (chamada de criatura-base), siga os passos abaixo."
+    },
+    {
+      "titulo": "Passo 0: Novo Conceito",
+      "texto": "Defina o que você pretende que a criatura modificada represente. Ela será apenas uma versão “mais forte” da criatura-base, ou será uma versão especializada, como um conjurador ou capitão?"
+    },
+    {
+      "titulo": "Passo 1: Nível de Desafio",
+      "texto": "Ajuste o nível de desafio da criatura conforme seu conceito."
+    },
+    {
+      "titulo": "Passo 2: Estatísticas de Combate",
+      "texto": "Ajuste as estatísticas de combate da ameaça. Para isso, compare as estatísticas de sua criatura com as listadas na linha de seu papel e ND na Tabela 2-3. Para cada estatística, verifique se o valor dela está de acordo com a tabela, acima ou abaixo, e anote as diferenças (por exemplo, se sua criatura é um animal solo de ND 2 com ataque +14, ao verificar a tabela você notará que isso está 2 pontos acima do padrão; anote essa diferença). Em seguida, modifique as estatísticas de sua criatura para as do novo ND e mantenha as diferenças (por exemplo, se quiser aumentar o ND de seu animal para 5, ele deverá ter um ataque de +19, 2 pontos acima dos +17 normais desse ND)."
+    },
+    {
+      "titulo": "Passo 3: Habilidades",
+      "texto": "Ajuste o dano e a CD para resistir às habilidades da criatura, como acima. Você também pode adicionar novas habilidades para refletir seu conceito (como Magias para transformar um humanoide combatente em um conjurador) ou remover alguma habilidade se estiver criando uma versão mais fraca ou menos experiente da ameaça. Como regra geral, aumente ou diminua a quantidade de habilidades da ameaça apenas se o novo ND resultar em uma criatura de patamar diferente da original. Caso contrário, o melhor é trocar habilidades."
+    },
+    {
+      "titulo": "Passo 4: Estatísticas Secundárias",
+      "texto": "A menos que o conceito da criatura exija valores de atributos muito diferentes da criatura-base (como transformar um trapaceiro em combatente), você pode mantê-los iguais. Para perícias, modifique cada perícia em um valor igual à metade da mudança no ND. Ajuste as perícias treinadas caso o ajuste de ND modifique seu bônus de treinamento (ou seja, as mudanças que ocorrem em ND 7 e 15)."
+    },
+    {
+      "titulo": "Passo 5: Equipamento e Tesouro",
+      "texto": "Ajuste o equipamento da criatura para refletir seu novo conceito, caso necessário."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "relacionado", "alvoId": "manual-de-criacao-de-ameacas", "alvoTipo": "regra-de-criacao", "rotulo": "Manual de Criação de Ameaças" },
+    { "tipo": "relacionado", "alvoId": "criacao-de-bandos-ameacas", "alvoTipo": "regra-de-criacao", "rotulo": "Como Criar Bandos" }
+  ],
+  "mecanica": {}
+}

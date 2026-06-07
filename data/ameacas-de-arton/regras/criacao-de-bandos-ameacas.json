@@ -1,0 +1,62 @@
+{
+  "id": "criacao-de-bandos-ameacas",
+  "tipo": "regra-de-criacao",
+  "nome": "Como Criar Bandos",
+  "resumo": "Passos para transformar uma criatura-base em um bando — um grupo de criaturas tratado como uma única ameaça. Cobre composição, ND, tamanho, estatísticas de combate, habilidades de bando, perícias, equipamento, tesouro e ajustes finais, com o exemplo do Cardume de Aquin'ne (ND 5).",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 388
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Como Criar Bandos",
+      "texto": "Outra forma de modificar uma criatura é transformá-la em um bando. Um bando é um grupo de criaturas de qualquer tamanho. Geralmente representam dez ou cem indivíduos, mas você pode criar bandos com qualquer quantidade de criaturas. Você pode criar um bando como uma ameaça nova (seguindo os passos para criar uma ameaça), mas também pode formar bandos de criaturas já existentes. Para isso, escolha uma criatura (a criatura-base) e faça as alterações a seguir."
+    },
+    {
+      "titulo": "1) Composição do Bando",
+      "texto": "Defina a quantidade de criaturas no bando. Isso pode ser um número exato, no caso de bandos de criaturas organizadas (como unidades de um exército) ou apenas uma quantidade aproximada, como “alguns”, “um punhado” ou “dezenas”, no caso de bandos de criaturas desordenadas, como insetos ou mortos-vivos. Essa quantidade é apenas descritiva e não tem efeito em regras, mas poderá ajudá-lo a definir certas características do bando, como seu ND e tamanho."
+    },
+    {
+      "titulo": "2) Determine o ND",
+      "texto": "Escolha um ND para o bando. Você pode escolher qualquer valor (desde que acima do ND da criatura-base), mas tenha em mente que pode ser interessante que o ND reflita a quantidade de indivíduos. Bandos pequenos terão um ND próximo da criatura-base, enquanto bandos muito grandes terão ND muito maior. Como referência, um bando com dez indivíduos terá ND entre 2 e 4 pontos acima do ND da criatura-base, enquanto um bando com dezenas ou mesmo cem indivíduos terá ND entre 6 e 8 pontos acima."
+    },
+    {
+      "titulo": "3) Ajuste o Tamanho",
+      "texto": "O tamanho do bando será baseado no tamanho da criatura-base e na quantidade de indivíduos no bando. Como regra geral, um bando de dez criaturas será uma categoria de tamanho maior que a criatura-base, enquanto um bando de cem criaturas será três categorias de tamanho maior (até um máximo de Colossal). Esta mudança no tamanho afeta testes de Furtividade e manobras de combate, mas não o tamanho das armas que o bando usa."
+    },
+    {
+      "titulo": "4) Ajuste as Estatísticas de Combate",
+      "texto": "Defina as estatísticas de combate do bando (exceto dano) conforme seu papel de combate e ND, consultando a Tabela 2-2. Verifique se a criatura-base tem algum modificador em relação aos valores de uma criatura do mesmo ND e aplique esses modificadores no bando. Por exemplo, um bulette (uma criatura solo de ND 7) tem Defesa 32, 1 ponto acima da Defesa de uma criatura de seu tipo e ND. Assim, a Defesa de um bando de bulettes será 1 ponto maior que o indicado para seu ND.\n\nSe o bando permanecer no mesmo patamar da criatura-base, mantenha seus valores de dano iguais. Se o bando aumentar de patamar, multiplique o dano dos ataques e das habilidades da criatura-base (exceto magias) conforme seu aumento de patamar: dano x2 para um patamar, dano x4 para dois patamares e dano x6 para três patamares. Você também pode aumentar o número de ataques do bando para distribuir melhor seu dano.\n\nExemplo: Você quer criar dois bandos de mantícoras (ND 6, patamar veterano). O primeiro tem três criaturas, e você escolhe ND 8 para ele. Como esse bando continua sendo veterano, seu dano não é modificado. Você cria também um bando com várias mantícoras e escolhe ND 12 para ele. Esse bando tem patamar campeão (1 acima de veterano), logo seu dano será o dobro do dano de uma mantícora."
+    },
+    {
+      "titulo": "5) Habilidades de Bando",
+      "texto": "A criatura recebe a habilidade Bando. Além disso, se o aumento em seu ND mudar seu patamar, adicione novas habilidades conforme adequado ao seu papel de combate."
+    },
+    {
+      "titulo": "6) Perícias",
+      "texto": "Ajuste as perícias do bando de modo a refletir seu aumento de ND."
+    },
+    {
+      "titulo": "7) Equipamento e Tesouro",
+      "texto": "Se a criatura-base possui algum equipamento, multiplique esses itens pela quantidade de indivíduos (ou por um valor aproximado, para representar que nem todos os itens do bando estarão em condições de uso após um combate). Para o tesouro, mantenha a categoria (metade, padrão, dobro), mas use a linha apropriada ao ND do bando. Se o tesouro inclui algum item ou recurso especial, ajuste a CD para extrair conforme o novo ND e aumente as quantidades do tesouro conforme adequado ao número de criaturas. Em alguns casos, você pode limitar esse aumento; se o bando for muito grande, pode não haver tempo suficiente para extrair todos os recursos antes de eles se estragarem, por exemplo."
+    },
+    {
+      "titulo": "8) Ajustes Finais",
+      "texto": "Para conferir se o bando está adequado como ameaça, compare-o com outras criaturas de ND semelhante. Você pode fazer alguns ajustes, como aumentar o número de ataques se o dano estiver muito baixo ou adicionar resistências e imunidades para aumentar suas defesas."
+    },
+    {
+      "titulo": "Exemplo de criação de bando: Cardume de Aquin'ne",
+      "texto": "Neste exemplo, vamos transformar um simpático aquin'ne (veja p. 88) em um bando chamado cardume de aquin'ne. Para isso, vamos executar os passos a seguir.\n\n1) Composição do Bando. Para começar, definimos a composição do bando. Algo entre oito a doze aquin'ne parece bom para um cardume dessas criaturas.\n\n2) Determine o ND. Por sua composição, esse bando parece ligeiramente mais poderoso que um aquin'ne individual. ND 5 (3 pontos acima de um aquin'ne, e o suficiente para transformá-lo em veterano) parece um bom valor.\n\n3) Ajuste o Tamanho. Um aquin'ne é uma criatura Pequena, então um bom tamanho para um bando com aproximadamente dez indivíduos é Médio. Isso afeta seus valores de manobras de combate e Furtividade.\n\n4) Ajuste as Estatísticas de Combate. Um aquin'ne é um lacaio de ND 2. Verificando suas estatísticas de combate, vemos que seu ataque é +13 (1 ponto abaixo do ataque de uma criatura de seu papel e ND). Para definir o ataque do cardume, consultamos a linha de um lacaio de ND 5 e usamos esse valor, aplicando a diferença de 1 entre o ataque de um aquin'ne e o de seu ND original. Assim, o cardume de aquin'ne terá ataque +19. Para as demais estatísticas de combate, basta repetir esse processo. Por fim, o dano do cardume será 4d4+12 (o dobro do dano de um aquin'ne individual, devido ao seu aumento de 1 patamar).\n\n5) Perícias. O cardume de aquin'ne é uma criatura de ND 5, 3 pontos acima do ND 2 de um aquin'ne padrão. Isso significa um aumento de +1 em todas as suas perícias.\n\n6) Habilidades de Bando. Como o cardume é uma criatura de patamar veterano, podemos adicionar uma habilidade. Para deixar as coisas simples e representar sua forma aquática, escolhemos a habilidade Varrer.\n\n7) Equipamento e Tesouro. Aquin'ne não possuem equipamento, então isso não será alterado no cardume. Entretanto, fornecem um recurso especial: 1 dose de éter elemental. Assim, ajustamos a CD para extrair esse recurso para 20 (refletindo o aumento no ND do bando) e aumentamos a quantidade de doses para 2d4 (representando que nem todas as doses poderão ser aproveitadas).\n\nApós essas etapas, temos uma nova criatura."
+    },
+    {
+      "titulo": "Ficha resultante: Cardume de Aquin'ne (ND 5)",
+      "texto": "Cardume de Aquin'ne — ND 5\nEspírito (elemental) Médio\nIniciativa +5, Percepção +5, visão no escuro\nDefesa 23, Fort +14, Ref +11, Von +6, imunidade a acertos críticos e efeitos de atordoamento, cansaço, frio, metabolismo e paralisia, vulnerabilidade a fogo\nPontos de Vida 40\nDeslocamento 9m (6q), natação 15m (10q)\nCorpo a Corpo [Bando] Tentáculo hídrico x2 +19 (4d4+12 corte).\nAfogar Uma criatura agarrada pelo cardume de aquin'ne é considerada submersa até se soltar.\nAgarrar Aprimorado (Livre) Tentáculo hídrico (teste +21).\nRedemoinho de Maresia (Padrão) O cardume toca um objeto adjacente, que perde 10 PV (Ref CD 20 evita).\nVarrer (Livre) Uma vez por rodada, quando o cardume de aquin'ne faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance.\nFor 4, Des 2, Con 2, Int –2, Sab 2, Car –2\nPerícias Atletismo +7 (+15 para nadar), Furtividade +3 (+13 na água).\nTesouro 2d4 doses de éter elemental (frio) (CD 20 para extrair)."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "relacionado", "alvoId": "manual-de-criacao-de-ameacas", "alvoTipo": "regra-de-criacao", "rotulo": "Manual de Criação de Ameaças" },
+    { "tipo": "relacionado", "alvoId": "como-modificar-criaturas", "alvoTipo": "regra-de-criacao", "rotulo": "Como Modificar Criaturas" }
+  ],
+  "mecanica": {}
+}
