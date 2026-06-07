@@ -150,13 +150,16 @@ O Cap.1 é híbrido regiões+criaturas; rendeu MUITO mais bestiário (caches `sa
 - **Regras do Cap.1 (`157111c`):** 17 entradas `regra` — Novos Perigos (armadilhas/doenças/maldições/perigos ambientais/Fenômenos Rubros/10 perigos complexos) + Chefe Final (arenas + recursos). Revisão 0 issues.
 - **Total Ameaças até aqui: 406 criaturas + 26 raças + 5 regiões + 17 regras.**
 
-### Falta para terminar o livro (impressas 372–432):
-- **Cap.2 — Regras de Ameaças (372–389):** regras adicionais p/ criaturas, Ameaças Desafiadoras (ND/XP/tesouro), Manual de Criação de Ameaças + Tabelas de Parâmetros, Modificar Criaturas, Criação de Bandos. → `regra`/`regra-de-criacao`.
-- **Cap.3 — Bazar Monstruoso (390–405):** Armas, Armaduras, Itens Gerais, Animais, **Itens Mágicos** (400–405), Recursos Naturais, **Novas Magias** (404–405). → `item`/`item-magico`/`magia`. Já renderizado texto em `tail-map`.
-- **Apêndice D — Encontros Aleatórios (422–432):** tabelas d% por terreno/região. → `regra`.
-- **Fatia "Itens & Regras" espalhada no bestiário:** Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, Espada Espinhenta/Frutos da Espada-Mãe, Fígado de Lagarto-Trovão, itens de Piratas, + sidebars de regra (Templos de Aharadak, Modificando Dragões, Golens Despertos, Habilidades de Piratas, Novos Poderes de Montarias etc.).
-- **Pular (sem conteúdo mecânico):** Lista de Apoiadores (406–415), Apêndices A/B/C (índices/tabela de referência, 416–421).
-- **Dívidas leves:** ícone "anfíbio" no `tipo` de criaturas aquáticas não capturado; "—" de atributo inconsistente; algumas `secoes` de flavor resumidas. Tratar no polimento final.
+## ✅✅ AMEAÇAS DE ARTON — LIVRO 100% EXTRAÍDO (impressas 8–432)
+**Totais:** 406 criaturas · 26 raças jogáveis · 5 regiões · 51 regras (+regra-de-criação) · 4 poderes · 69 itens · 15 itens mágicos · 7 magias = **583 entradas**. Suíte 148/148 verde. Build **1651 páginas**. Revisão por visão em 100% do bestiário; revisão de fidelidade nas regras/itens.
+- **Cap.2 Regras de Ameaças (`5181402`):** 7 entradas (regras adicionais, Ameaças Desafiadoras, Manual de Criação, Tabelas de Parâmetros 2-3 A/B/C, Modificar Criaturas, Criação de Bandos).
+- **Cap.3 Bazar Monstruoso (`84abf25`+`892d73f`):** 65 itens (armas/armaduras/gerais/animais) + 9 itens mágicos + 7 magias + recursos naturais/melhorias.
+- **Apêndice D Encontros Aleatórios (`a22fbf5`):** 3 entradas (regras + tabelas d% por terreno/região + mapeamento de regiões).
+- **Boxes temáticos espalhados (`a5b2246`+`0f75758`):** 10 itens (Dádivas de Aharadak ×5, Semente Rubra, Soro Supremo, Espada Espinhenta, Frutos da Espada-Mãe, Fígado de Lagarto-Trovão) + 4 poderes de montaria + 21 regras (Templos de Aharadak, Dragões como Familiares/Modificando Dragões, Golens Despertos, Mementos Fantasmagóricos, Habilidades de Piratas, sidebars de Montarias/Mascotes/Kobolds, Ódio Puro, Filactério, Bênçãos de Ferren, Falsos Amigos, intro do bestiário Fichas/Tipos/Habilidades Gerais).
+- **Pulado (sem mecânica):** Lista de Apoiadores (406–415), Apêndices A/B/C (índices/tabela de referência cruzada, 416–421).
+- **Dívidas leves p/ polimento:** ícone "anfíbio" no `tipo` de criaturas aquáticas não capturado; representação de "—" de atributo inconsistente entre arquivos; algumas `secoes` de flavor resumidas (mecânica 100% fiel).
+
+**Próximo:** decidir merge/PR da branch `fase2-ameacas-spike` (segue local até pedido) e, no futuro, próximos livros (Atlas, Heróis, Deuses de Arton…) reusando o mesmo pipeline.
 
 ---
 
