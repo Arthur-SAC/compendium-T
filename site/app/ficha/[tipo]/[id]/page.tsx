@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { carregarEntidades, carregarTermos, tituloFonte } from "@/lib/dados";
 import { construirRegistro } from "@/lib/autolink";
+import { tabelaEquipamentoPipe } from "@/lib/equipamento-tabela";
 import { SeloFonte } from "@/components/SeloFonte";
 import { Ficha } from "@/components/Ficha";
 import { FichaRaca } from "@/components/FichaRaca";
@@ -30,7 +31,18 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
   // Só mantém relações cujo alvo realmente existe (evita links quebrados p/ conteúdo de
   // outros livros ainda não importados; voltam sozinhas quando a fonte entrar na Fase 2).
   const validos = new Set(entidades.map((e) => `${e.tipo}/${e.id}`));
-  const entidade = { ...entidadeBruta, relacoes: entidadeBruta.relacoes.filter((r) => validos.has(`${r.alvoTipo}/${r.alvoId}`)) };
+  // Marcador [[tabela-equipamento:<slug>]] numa seção → tabela dinâmica gerada das entidades item
+  // (multi-fonte, auto-inclui livros futuros). Inofensivo fora das regras (nenhuma seção casa).
+  const RE_MARCADOR = /^\[\[tabela-equipamento:([a-z-]+)\]\]$/;
+  const secoes = entidadeBruta.secoes.map((s) => {
+    const m = RE_MARCADOR.exec(s.texto.trim());
+    return m ? { ...s, texto: tabelaEquipamentoPipe(m[1], entidades) } : s;
+  });
+  const entidade = {
+    ...entidadeBruta,
+    secoes,
+    relacoes: entidadeBruta.relacoes.filter((r) => validos.has(`${r.alvoTipo}/${r.alvoId}`)),
+  };
 
   const registro = construirRegistro({
     termos: termos.map((t) => ({ id: t.id, nome: t.nome, descricao: t.descricao, exigeMaiuscula: t.exigeMaiuscula })),
