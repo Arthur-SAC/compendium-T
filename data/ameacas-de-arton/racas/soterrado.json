@@ -4,7 +4,7 @@
   "nome": "Soterrado",
   "resumo": "Variante da raça osteon: esqueletos revestidos por grossas camadas de gelo. Para criar um personagem desta raça, usam-se as habilidades de osteon, substituindo Armadura Óssea e Memória Póstuma por Abraço Gélido e Esquife de Gelo.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 354 },
-  "imagens": [],
+  "imagens": ["/racas/soterrado.png"],
   "secoes": [
     {
       "titulo": "Raça Variante: Soterrado",
