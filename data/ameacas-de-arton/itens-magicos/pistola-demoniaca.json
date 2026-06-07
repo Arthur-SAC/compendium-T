@@ -1,0 +1,20 @@
+{
+  "id": "pistola-demoniaca",
+  "tipo": "item-magico",
+  "nome": "Pistola Demoníaca",
+  "resumo": "Pistola ameaçadora formidável e profana obtida apenas por pacto com um demônio da pólvora; sempre carregada, mas amaldiçoa o portador com impulso homicida.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 403 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pistola ameaçadora formidável e profana não pode ser fabricada por nenhum meio conhecido por mortais e só pode ser obtida através de um pacto com um demônio da pólvora (veja p. 255). Uma pistola demoníaca está sempre carregada e não precisa de munição. Uma vez por dia, em um momento escolhido pelo mestre (ou na primeira ocasião em que houver outras pessoas próximas), o portador da arma é atingido pelo impulso homicida de disparar contra uma criatura inteligente aleatória à vista (incluindo aliados). O portador pode resistir a esse impulso por este dia passando em um teste de Vontade (CD 25). Qualquer medida para evitar acidentes (manter a pistola guardada, descarregada ou mesmo trancada e fora de alcance) fracassa automaticamente; quando o portador cede ao impulso assassino, a arma surge magicamente em suas mãos. Caso o portador da pistola seja morto, a arma desaparece."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Médio",
+    "preco": "T$ 72.250"
+  }
+}

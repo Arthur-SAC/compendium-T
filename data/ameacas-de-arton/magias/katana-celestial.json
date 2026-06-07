@@ -1,0 +1,26 @@
+{
+  "id": "katana-celestial",
+  "tipo": "magia",
+  "nome": "Katana Celestial",
+  "resumo": "Um golpe vindo dos céus risca o campo de batalha em uma ou duas linhas, causando dano de luz e cegando e ensurdecendo criaturas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 404 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 5,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "linha de 60m ou duas linhas de 30m",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos parcial",
+    "custoPM": 9,
+    "descricao": "Um golpe vindo dos céus risca o campo de batalha. Se escolher duas linhas, cada uma deve seguir em uma direção diferente, criando um corte em \"V\". Criaturas na área sofrem 12d8 pontos de dano de luz (ou 12d12, se forem mortos-vivos) e ficam cegas e surdas até o fim da cena (Reflexos reduz à metade e evita as condições).",
+    "aprimoramentos": [
+      { "custo": "+3 PM", "efeito": "Aumenta o dano em +2d8 (ou +2d12 contra mortos-vivos)." },
+      { "custo": "+6 PM", "efeito": "Muda a área para uma linha de 120m ou quatro linhas de 30m em direções opostas, formando um \"X\"." }
+    ]
+  }
+}

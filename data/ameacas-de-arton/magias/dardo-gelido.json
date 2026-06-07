@@ -1,0 +1,26 @@
+{
+  "id": "dardo-gelido",
+  "tipo": "magia",
+  "nome": "Dardo Gélido",
+  "resumo": "Dispara um dardo de gelo que causa dano de frio e deixa o alvo lento por 1 rodada.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 404 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Fortitude parcial",
+    "custoPM": 1,
+    "descricao": "Você dispara um dardo de gelo contra o alvo, que sofre 2d6 pontos de dano de frio e fica lento por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+    "aprimoramentos": [
+      { "custo": "+1 PM", "efeito": "Aumenta o dano em +1d6." },
+      { "custo": "+1 PM", "efeito": "Aumenta o número de alvos em +1 (total de alvos limitado pelo círculo máximo de magia que você pode lançar)." }
+    ]
+  }
+}

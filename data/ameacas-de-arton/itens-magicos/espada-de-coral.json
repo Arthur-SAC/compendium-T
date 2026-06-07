@@ -1,0 +1,19 @@
+{
+  "id": "espada-de-coral",
+  "tipo": "item-magico",
+  "nome": "Espada de Coral",
+  "resumo": "Cimitarra feita de lanajuste pela Irmandade dos Pescadores; além dos benefícios do material, deixa a vítima sangrando em um acerto crítico.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 400 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Fabricada com uma técnica secreta mantida pela Irmandade dos Pescadores, uma espada de coral é uma cimitarra feita de lanajuste. Além dos benefícios do material especial, ela tem fio extremamente agudo; em um acerto crítico, deixa a vítima sangrando. Quando aplicado desta forma, este material especial custa +T$ 1.800 (em vez de T$ 600)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "preco": "+T$ 1.800 (material especial lanajuste; em vez de T$ 600)"
+  }
+}

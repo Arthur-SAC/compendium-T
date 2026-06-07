@@ -1,0 +1,20 @@
+{
+  "id": "pilao-conspurcado",
+  "tipo": "item-magico",
+  "nome": "Pilão Conspurcado",
+  "resumo": "Pequeno pilão de madeira que conta como uma costela de lich; reduz o custo e aumenta a CD de magias de encantamento e necromancia.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 403 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este pequeno pilão de madeira de aparência sinistra é decorado com símbolos místicos entalhados e fragmentos de ossos encravados. Conta como uma costela de lich. Além dos benefícios desse esotérico, o custo de suas magias de encantamento e necromancia lançadas pela varinha diminui em –1 PM e a CD para resistir a elas aumenta em +2."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  }
+}

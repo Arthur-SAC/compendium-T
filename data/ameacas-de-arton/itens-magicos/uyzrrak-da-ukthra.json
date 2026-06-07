@@ -1,0 +1,20 @@
+{
+  "id": "uyzrrak-da-ukthra",
+  "tipo": "item-magico",
+  "nome": "Uyzrrak Da'ukthra",
+  "resumo": "Machado de guerra magnífico aumentado atroz de adamante, marcado com escrita goblinoide; poderoso nas mãos de um duyshidakk.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 403 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este machado de guerra magnífico aumentado atroz de adamante é marcado com escrita goblinoide em sua lâmina e aparenta já ter visto inúmeras batalhas. Quando empunhado por um duyshidakk, causa +2d8 pontos de dano contra qualquer criatura não duyshidakk e recebe um encanto adicional, conforme o elemento do círculo intermediário do Akzath mais próximo do portador: Luz, Sagrado; Nós, Piedoso; Dentro, Defensor; Estagnação, Excruciante; Trevas, Profano; Fora, Arremesso; Eles, Dilacerante; Movimento, Energético. A critério do mestre, se o portador do machado se tornar mais próximo de outro elemento, o encanto muda de acordo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Médio",
+    "preco": "T$ 78.050"
+  }
+}

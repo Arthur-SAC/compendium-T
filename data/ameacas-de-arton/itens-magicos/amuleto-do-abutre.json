@@ -1,0 +1,19 @@
+{
+  "id": "amuleto-do-abutre",
+  "tipo": "item-magico",
+  "nome": "Amuleto do Abutre",
+  "resumo": "Artefato: pingente de ouro em formato de abutre, poderoso amuleto arcano ligado ao Arquilich Ferren Asloth; concede grande poder, mas funciona como um segundo filactério que corrompe o portador.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 403 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este pingente de ouro em formato de abutre é um poderoso amuleto arcano, cuja origem sombria é cercada de mistério. Sabe-se que ele surgiu na mesma época em que Ferren Asloth realizou seu famigerado ritual e que é um dos mais poderosos itens do Arquilich Ferren Asloth. Capaz de conceder habilidades arcanas incríveis, fornece ao usuário +50 PM (somente após um dia de uso), aumenta em +5 a CD para resistir a suas magias arcanas e permite utilizar a habilidade Conhecimento Sequestrado (CD Int, veja p. 294).\n\nTamanho poder, entretanto, não passa de uma armadilha. Em sua obsessão pela vida eterna, Ferren aprisionou uma pequena parte de sua essência neste amuleto, fazendo com que ele funcione como um segundo filactério. No início de cada dia em que estiver usando o amuleto, o portador deve fazer um teste de Vontade (CD 20 + 1 por dia adicional). Se falhar, começa a ter pensamentos cruéis, que o incentivam a buscar mais poder a qualquer custo. Se falhar uma segunda vez, torna-se dependente do amuleto e não consegue mais removê-lo por vontade própria (e fica agressivo caso outra pessoa tente fazê-lo). Por fim, se falhar uma terceira vez, sua alma é destruída. Quando isso acontecer, se Ferren estiver destruído, o fragmento de sua alma armazenado no amuleto se apossa do corpo do portador, trazendo o Arquilich de volta à existência. O portador passa automaticamente no teste de Vontade sempre que tiver matado um conjurador arcano no dia anterior."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

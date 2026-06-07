@@ -1,0 +1,27 @@
+{
+  "id": "momento-de-tormenta",
+  "tipo": "magia",
+  "nome": "Momento de Tormenta",
+  "resumo": "Uma nuvem rubra surge acima do conjurador e pode manifestar fenômenos de Tormenta (chuva ácida, neblina venenosa, raios escarlates ou pesadelos reais). Só pode ser aprendida por quem observou uma área de Tormenta.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 404 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 2,
+    "escola": "Convocação",
+    "execucao": "completa",
+    "alcance": "pessoal",
+    "area": "cubo de 30m",
+    "duracao": "sustentada",
+    "resistencia": "veja texto",
+    "custoPM": 3,
+    "descricao": "Uma nuvem rubra surge acima do conjurador. Uma vez por turno, você pode gastar uma ação de movimento para fazer a nuvem manifestar um dos fenômenos a seguir.\n\nChuva ácida. Gotas corrosivas causam 6d4 pontos de dano de ácido em todas as criaturas na área.\n\nNeblina venenosa. Uma neblina faz com que todas as criaturas na área percam 2d12 PV por veneno (Fortitude evita).\n\nRaios escarlates. Até 6 inimigos aleatórios na área sofrem 6d8 pontos de dano de eletricidade (Reflexos reduz à metade).\n\nPesadelos reais. Cada criatura na área sofre 4d6 pontos de dano psíquico e perde 1d4 PM (Vontade reduz o dano à metade e evita a perda de PM).\n\nEsta magia só pode ser aprendida e lançada por conjuradores que tenham observado uma área de Tormenta pelo menos uma vez. Sua divulgação é proibida e seu uso é permitido apenas em áreas controladas na Academia Arcana e outros lugares restritos, para estudar o fenômeno da Tormenta. Usar esta magia em qualquer outro ponto do Reinado é um crime enquadrado na décima-primeira infração do Vigintílogo.",
+    "aprimoramentos": [
+      { "custo": "+3 PM", "efeito": "Aumenta o dano em +1 dado do mesmo tipo." },
+      { "custo": "+5 PM", "efeito": "Além do normal, criaturas na área ficam alquebradas enquanto permanecerem na área." },
+      { "custo": "+5 PM (Apenas Devotos de Aharadak)", "efeito": "Muda a área para círculo de 1km de raio." }
+    ]
+  }
+}

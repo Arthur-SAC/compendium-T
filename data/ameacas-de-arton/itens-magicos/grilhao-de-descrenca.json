@@ -1,0 +1,20 @@
+{
+  "id": "grilhao-de-descrenca",
+  "tipo": "item-magico",
+  "nome": "Grilhão de Descrença",
+  "resumo": "Armadura completa reforçada e selada com maldição divina: não pode ser retirada e impede ressurreição, criando guerreiros perpétuos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 402 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta armadura completa reforçada e selada contém uma forte maldição divina: uma vez vestida, não pode ser retirada. Qualquer criatura que chegue a 0 PV vestindo esta armadura não pode ser ressuscitada e se torna um guerreiro perpétuo (veja p. 139). Se de alguma forma a maldição for removida (como por dissipar o item ou quebrar a maldição), ela se transforma numa armadura completa reforçada e selada com um encanto aleatório (veja Tormenta20, p. 338). Uma armadura grilhão de descrença não pode ser fabricada e é encontrada apenas em guerreiros perpétuos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Menor",
+    "preco": "T$ 24.000"
+  }
+}

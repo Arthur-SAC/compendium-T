@@ -1,0 +1,20 @@
+{
+  "id": "chifre-de-unicornio",
+  "tipo": "item-magico",
+  "nome": "Chifre de Unicórnio",
+  "resumo": "Poderoso item mágico de cura, obtido apenas de um unicórnio morto; lança magias de cura e pode ser usado como espada curta.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 402 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um chifre de unicórnio é um poderoso item mágico de cura. Se estiver empunhando o chifre, você pode lançar Curar Ferimentos e Purificação; caso já conheça essas magias, seu custo diminui em –1 PM, cumulativo com outras reduções. Ele também pode ser usado para lançar a magia Segunda Chance, mas perde todos os poderes após isso. Por fim, ele pode ser empunhado como uma espada curta formidável.\n\nMesmo sem seus poderes, o chifre pode ser transformado em 12 doses de pó de chifre, um poderoso ingrediente para preparados e poções. Misturar uma dose desse pó aos ingredientes de um preparado ou poção aumenta cada dado de cura do efeito do item em dois passos (até um máximo de d12).\n\nAinda que o simples ato de portar um chifre de unicórnio não seja necessariamente maligno, muitos devotos, sobretudo de Allihanna e Marah, poderão questionar a origem do chifre. Chifres de unicórnio não podem ser fabricados, e são obtidos apenas de um unicórnio morto."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 120.000"
+  }
+}

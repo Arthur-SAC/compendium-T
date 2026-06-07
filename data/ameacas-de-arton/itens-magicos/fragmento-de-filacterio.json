@@ -1,0 +1,20 @@
+{
+  "id": "fragmento-de-filacterio",
+  "tipo": "item-magico",
+  "nome": "Fragmento de Filactério",
+  "resumo": "Maior fragmento de um filactério de lich destruído; conta como uma costela de lich poderosa que fornece +20 PM.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 402 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mesmo após a destruição do filactério de um lich, uma parte do poder mágico da criatura pode permanecer, geralmente em seu maior fragmento. Um fragmento de filactério conta como uma costela de lich poderosa que fornece +20 PM (somente após um dia de uso). Um fragmento só pode ser obtido de um filactério estilhaçado e não pode ser fabricado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 90.000"
+  }
+}

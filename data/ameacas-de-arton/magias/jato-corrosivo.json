@@ -1,0 +1,26 @@
+{
+  "id": "jato-corrosivo",
+  "tipo": "magia",
+  "nome": "Jato Corrosivo",
+  "resumo": "Dispara um jato que causa dano de ácido às criaturas em uma linha, com dano extra contra construtos e objetos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 404 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "linha de 9m",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 1,
+    "descricao": "Você dispara um jato, que causa 2d6 pontos de dano de ácido às criaturas na área. Contra construtos e objetos soltos, a magia causa +1 ponto de dano por dado.",
+    "aprimoramentos": [
+      { "custo": "+1 PM", "efeito": "Aumenta o dano em +1d6." },
+      { "custo": "+1 PM", "efeito": "Muda a resistência para Reflexos parcial. Se passar, a criatura reduz o dano à metade; se falhar, fica vulnerável." }
+    ]
+  }
+}
