@@ -4,7 +4,7 @@
   "nome": "Minauro",
   "resumo": "Variante mestiça do povo táurico, fruto da mistura entre minotauros e humanos. Mais versáteis e de temperamento mais aberto que os minotauros puros, os minauros desenvolvem gostos e aversões próprios e seguem caminhos diversos pelo mundo.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 175 },
-  "imagens": [],
+  "imagens": ["/racas/minauro.png"],
   "secoes": [
     {
       "titulo": "Descrição",

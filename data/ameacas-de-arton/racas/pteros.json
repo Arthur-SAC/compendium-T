@@ -4,7 +4,7 @@
   "nome": "Pteros",
   "resumo": "Thera (povo-trovão) alado, magro e mirrado mas de musculatura rija, com asas membranosas, olhos de águia e focinho longo. Descende de répteis voadores e domina os céus de Arton.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 267 },
-  "imagens": [],
+  "imagens": ["/racas/pteros.png"],
   "secoes": [
     {
       "titulo": "Descrição",

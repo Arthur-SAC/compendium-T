@@ -4,7 +4,7 @@
   "nome": "Harpia",
   "resumo": "Criatura com torso de mulher e corpo de ave de rapina, dotada de asas no lugar dos braços e pés rapinantes com garras; ágil e carismática, mas pouco perspicaz.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 201 },
-  "imagens": [],
+  "imagens": ["/racas/harpia.png"],
   "secoes": [
     {
       "titulo": "Descrição",

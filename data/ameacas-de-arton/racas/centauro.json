@@ -4,7 +4,7 @@
   "nome": "Centauro",
   "resumo": "Seres com corpo de cavalo e tronco humanoide que vivem em tribos nos ermos, ginetes natos de cascos poderosos. A maioria venera Allihanna, mas algumas tribos violentas seguem o monstruoso Megalokk.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 105 },
-  "imagens": [],
+  "imagens": ["/racas/centauro.png"],
   "secoes": [
     {
       "titulo": "Descrição",

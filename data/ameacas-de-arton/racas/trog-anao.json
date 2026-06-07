@@ -4,7 +4,7 @@
   "nome": "Trog Anão",
   "resumo": "Estranha combinação entre um anão e um homem-lagarto, com a estatura atarracada do primeiro e a face reptiliana escamada do segundo. Variante da raça trog, vista pelos trogloditas como uma maldição.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 39 },
-  "imagens": [],
+  "imagens": ["/racas/trog-anao.png"],
   "secoes": [
     {
       "titulo": "Descrição",

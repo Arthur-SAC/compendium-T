@@ -4,7 +4,7 @@
   "nome": "Bugbear",
   "resumo": "Goblinoides brutamontes e peludos que se nutrem do medo alheio, empunhando armas grandes demais para sua estatura e caçando com sentidos aguçados de predador.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 79 },
-  "imagens": [],
+  "imagens": ["/racas/bugbear.png"],
   "secoes": [
     {
       "titulo": "Descrição",

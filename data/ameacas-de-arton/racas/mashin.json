@@ -4,7 +4,7 @@
   "nome": "Mashin",
   "resumo": "Golens especiais criados com técnicas tamuranianas. São um tipo de chassi para personagens golens, capazes de escolher maravilhas mecânicas no lugar de perícias.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 160 },
-  "imagens": [],
+  "imagens": ["/racas/mashin.png"],
   "secoes": [
     {
       "titulo": "Descrição",

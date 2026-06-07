@@ -4,7 +4,7 @@
   "nome": "Kobold",
   "resumo": "Pequenos humanoides reptilianos dracônicos que vivem e atuam em bando. Frágeis individualmente, compensam com números, esperteza e armadilhas, sendo capazes de feitos surpreendentes quando agem como grupo coordenado.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 183 },
-  "imagens": [],
+  "imagens": ["/racas/kobold.png"],
   "secoes": [
     {
       "titulo": "Descrição",

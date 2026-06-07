@@ -4,7 +4,7 @@
   "nome": "Kaijin",
   "resumo": "Demônios da Tormenta ao mesmo tempo monstruosos e humanoides, criaturas disformes movidas por loucos planos de vingança contra o mundo. Os mais fortes e espertos comandam capangas e até ninjas.",
   "fonte": { "livro": "ameacas-de-arton", "pagina": 157 },
-  "imagens": [],
+  "imagens": ["/racas/kaijin.png"],
   "secoes": [
     {
       "titulo": "Descrição",
