@@ -1,0 +1,16 @@
+{
+  "id": "corda-de-teia",
+  "tipo": "item",
+  "nome": "Corda de Teia",
+  "resumo": "Feita de teia de aranha gigante, esta corda de 10m funciona como uma corda normal, mas é mais resistente.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Arrebentá-la exige 5 pontos de dano de corte ou um teste de Força (CD 28)."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "elixir-quimerico",
+  "tipo": "item",
+  "nome": "Elixir Quimérico",
+  "resumo": "Elixir que concede uma arma natural de mordida até o fim da cena.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 120",
+    "espacos": "0,5",
+    "especial": "Beber este elixir é uma ação padrão; até o fim da cena, você ganha uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possui uma mordida, seu dano aumenta em um passo."
+  }
+}

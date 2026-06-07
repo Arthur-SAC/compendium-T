@@ -1,0 +1,16 @@
+{
+  "id": "esporos-de-cogumelo",
+  "tipo": "item",
+  "nome": "Esporos de Cogumelo",
+  "resumo": "Veneno extraído de certos cogumelos e criaturas aparentadas, que causa breve mas perigosa paralisia.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 75",
+    "espacos": "0,5",
+    "especial": "Veneno. Inalação; a vítima fica paralisada (lenta) por 1 rodada, depois imune a paralisia por este veneno pela cena."
+  }
+}

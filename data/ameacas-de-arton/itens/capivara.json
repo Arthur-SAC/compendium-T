@@ -1,0 +1,15 @@
+{
+  "id": "capivara",
+  "tipo": "item",
+  "nome": "Capivara",
+  "resumo": "Simpática, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 60",
+    "especial": "Animal parceiro iniciante. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos."
+  }
+}

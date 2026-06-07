@@ -1,0 +1,15 @@
+{
+  "id": "coc-au-triz",
+  "tipo": "item",
+  "nome": "Coc-au-Triz",
+  "resumo": "Ovos de cocatriz são ingredientes mágicos poderosos; esta guloseima é um ninho de fios de ovos assados e gratinados.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 54",
+    "especial": "Ao consumir, escolha uma habilidade com custo em PM. Seu custo diminui em –1 PM."
+  }
+}

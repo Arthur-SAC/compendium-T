@@ -1,0 +1,25 @@
+{
+  "id": "bacamarte",
+  "tipo": "item",
+  "nome": "Bacamarte",
+  "resumo": "Esta arma de fogo tem boca larga, capaz de espalhar a munição como um cone de 6m (seu alcance máximo).",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 450",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "fogo",
+      "empunhadura": "duas mãos",
+      "alcance": "especial",
+      "dano": "4d6",
+      "critico": "19/x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Tem boca larga, capaz de espalhar a munição como um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare com a Defesa de cada criatura na área. Recarregar exige uma ação completa e 2 balas. Todas as armas de fogo usam balas (veja Tormenta20, p. 151) como munição."
+  }
+}

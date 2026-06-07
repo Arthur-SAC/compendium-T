@@ -1,0 +1,15 @@
+{
+  "id": "urso-pardo",
+  "tipo": "item",
+  "nome": "Urso Pardo",
+  "resumo": "Este robusto predador pode ser encontrado em várias regiões de Arton.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 300",
+    "especial": "Animal parceiro iniciante. Ainda que incomum, pode ser empregado como um parceiro montaria."
+  }
+}

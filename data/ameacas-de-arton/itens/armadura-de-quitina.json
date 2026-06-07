@@ -1,0 +1,21 @@
+{
+  "id": "armadura-de-quitina",
+  "tipo": "item",
+  "nome": "Armadura de Quitina",
+  "resumo": "Feita com carapaças selecionadas de grandes insetos, esta armadura dos povos-trovão é mais leve que suas contrapartes metálicas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 395 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 350",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 7,
+      "penalidadeArmadura": -3
+    },
+    "especial": "Embora seja uma armadura pesada, não reduz o deslocamento do usuário."
+  }
+}

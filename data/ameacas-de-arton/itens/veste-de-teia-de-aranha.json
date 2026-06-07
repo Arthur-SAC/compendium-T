@@ -1,0 +1,21 @@
+{
+  "id": "veste-de-teia-de-aranha",
+  "tipo": "item",
+  "nome": "Veste de Teia de Aranha",
+  "resumo": "Feita com teia de aranha gigante, esta veste é cinza-escura, maleável e silenciosa, mas também forte como aço.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 395 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 3.000",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 4,
+      "penalidadeArmadura": 0
+    },
+    "especial": "Fornece +5 em Furtividade, mas não pode receber a melhoria material especial."
+  }
+}

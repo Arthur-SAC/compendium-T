@@ -1,0 +1,16 @@
+{
+  "id": "caixa-de-voz",
+  "tipo": "item",
+  "nome": "Caixa de Voz",
+  "resumo": "Complexo mecanismo com 1d4 cargas, segredo de engenharia da Supremacia Purista, que aumenta o alcance de habilidades de bardo ou nobre.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "item-aventura",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Tem 1d4 cargas: quando usa uma habilidade de bardo ou nobre com alcance curto ou médio, você pode gastar uma carga para aumentar seu alcance em um passo. Segredo de engenharia da Supremacia Purista, este item não pode ser fabricado, sendo encontrado apenas nos destroços de corcéis e carruagens de comando."
+  }
+}

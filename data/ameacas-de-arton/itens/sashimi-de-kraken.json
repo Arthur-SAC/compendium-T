@@ -1,0 +1,15 @@
+{
+  "id": "sashimi-de-kraken",
+  "tipo": "item",
+  "nome": "Sashimi de Kraken",
+  "resumo": "Iguaria exótica criada pelos maiores chefs de Tamu-ra.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 398 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 60",
+    "especial": "Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar."
+  }
+}

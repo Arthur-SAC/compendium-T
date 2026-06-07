@@ -1,0 +1,16 @@
+{
+  "id": "traje-selako",
+  "tipo": "item",
+  "nome": "Traje Selako",
+  "resumo": "Feito com couro de selako, este traje fornece parte das capacidades desses predadores.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 90",
+    "espacos": "1",
+    "especial": "Você recebe +2 em testes de Atletismo para nadar e +3m em seu deslocamento de natação."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lagrima-petrea",
+  "tipo": "item",
+  "nome": "Lágrima Pétrea",
+  "resumo": "Líquido cristalino que tem o poder de devolver criaturas à sua forma original.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todos os efeitos de metamorfose (Ref CD Des evita)."
+  }
+}

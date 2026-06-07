@@ -1,0 +1,25 @@
+{
+  "id": "arpao",
+  "tipo": "item",
+  "nome": "Arpão",
+  "resumo": "Instrumento de pesca convertido em arma; esta haste tem rebarbas em uma extremidade e uma corda na outra. É uma arma de arremesso.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d10",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": ["Arremesso"]
+    },
+    "especial": "Se causar dano com um ataque, o arpão fica preso no alvo. Enquanto você segura a corda, sempre que o alvo se move, você pode fazer um teste de Força oposto. Se você vencer, o alvo só pode se mover até o limite da corda (9m). Ele pode se soltar gastando uma ação de movimento, mas perde 1d10 PV. O arpão é uma arma de arremesso; pode ser usado como arma corpo a corpo, mas com penalidade de –5 no teste de ataque."
+  }
+}

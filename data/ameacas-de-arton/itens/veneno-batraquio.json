@@ -1,0 +1,16 @@
+{
+  "id": "veneno-batraquio",
+  "tipo": "item",
+  "nome": "Veneno Batráquio",
+  "resumo": "Produzido a partir da saliva de sapos gigantes, esta gosma machuca e enjoa.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Veneno. Contato; perde 1d12 PV e fica enjoado por 1 rodada (perde 1d6 PV)."
+  }
+}

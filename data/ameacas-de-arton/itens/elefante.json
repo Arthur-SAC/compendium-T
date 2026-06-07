@@ -1,0 +1,15 @@
+{
+  "id": "elefante",
+  "tipo": "item",
+  "nome": "Elefante",
+  "resumo": "Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 1.500",
+    "especial": "Animal parceiro iniciante. Pode ser usado como um parceiro montaria."
+  }
+}

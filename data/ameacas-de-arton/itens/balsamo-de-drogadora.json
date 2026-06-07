@@ -1,0 +1,16 @@
+{
+  "id": "balsamo-de-drogadora",
+  "tipo": "item",
+  "nome": "Bálsamo de Drogadora",
+  "resumo": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta que cura ferimentos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Aplicá-la é uma ação completa e cura 4d6+4 PV."
+  }
+}

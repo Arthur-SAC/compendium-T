@@ -1,0 +1,35 @@
+{
+  "id": "animais-parceiros-ameacas",
+  "tipo": "regra",
+  "nome": "Animais Parceiros (Ameaças de Arton)",
+  "resumo": "Animais raros restritos a povos ou regiões específicas, disponíveis ocasionalmente como parceiros iniciantes (montaria ou especial).",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 399
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Animais",
+      "texto": "Estes animais são raros, restritos a povos ou regiões específicas, mas podem ocasionalmente ser encontrados à venda. Todos são parceiros iniciantes."
+    },
+    {
+      "titulo": "Lista de animais",
+      "texto": "Bulette. Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm — em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria.\n\nCapivara. Simpática, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos.\n\nCorcel do Deserto. Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição. Pode ser usado como um parceiro montaria.\n\nDromedário. Disponível em regiões áridas ou montanhosas, pode ser um parceiro montaria.\n\nElefante. Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração. Pode ser usado como um parceiro montaria.\n\nHiena. Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos. Uma hiena pode ser usada como um parceiro especial (veja p. 119) por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos.\n\nLeão. Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria.\n\nRinoceronte. Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda.\n\nUrso Pardo. Este robusto predador pode ser encontrado em várias regiões de Arton. Ainda que incomum, pode ser empregado como um parceiro montaria."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "animais": [
+      { "nome": "Bulette", "preco": "T$ 500", "disponibilidade": "Grande Savana, Deserto da Perdição ou Doherimm; em outros lugares, dobro do preço.", "papel": "parceiro montaria" },
+      { "nome": "Capivara", "preco": "T$ 60", "disponibilidade": "Apreciada por ginetes Pequenos como hynne e goblins.", "papel": "parceiro montaria (personagens Pequenos e Minúsculos)" },
+      { "nome": "Corcel do Deserto", "preco": "T$ 150", "disponibilidade": "Grande Savana e Deserto da Perdição.", "papel": "parceiro montaria" },
+      { "nome": "Dromedário", "preco": "T$ 75", "disponibilidade": "Regiões áridas ou montanhosas.", "papel": "parceiro montaria" },
+      { "nome": "Elefante", "preco": "T$ 1.500", "disponibilidade": "Áreas abertas, como fazendas e áreas de mineração.", "papel": "parceiro montaria" },
+      { "nome": "Hiena", "preco": "T$ 220", "disponibilidade": "Mais comuns entre gnolls.", "papel": "parceiro especial (treinados em Adestramento) ou montaria (personagens Pequenos e Minúsculos)" },
+      { "nome": "Leão", "preco": "T$ 800", "disponibilidade": "Pode ser treinado para aceitar um cavaleiro.", "papel": "parceiro montaria" },
+      { "nome": "Rinoceronte", "preco": "T$ 600", "disponibilidade": "Selvagens e de difícil domesticação; raramente à venda.", "papel": "parceiro montaria" },
+      { "nome": "Urso Pardo", "preco": "T$ 300", "disponibilidade": "Várias regiões de Arton; incomum.", "papel": "parceiro montaria" }
+    ]
+  }
+}

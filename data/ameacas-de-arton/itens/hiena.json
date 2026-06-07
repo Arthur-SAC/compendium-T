@@ -1,0 +1,15 @@
+{
+  "id": "hiena",
+  "tipo": "item",
+  "nome": "Hiena",
+  "resumo": "Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 220",
+    "especial": "Animal parceiro iniciante. Pode ser usada como um parceiro especial (veja p. 119) por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos."
+  }
+}

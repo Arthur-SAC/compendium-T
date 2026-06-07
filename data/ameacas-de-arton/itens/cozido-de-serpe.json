@@ -1,0 +1,15 @@
+{
+  "id": "cozido-de-serpe",
+  "tipo": "item",
+  "nome": "Cozido de Serpe",
+  "resumo": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alimentacao",
+    "preco": "T$ 12",
+    "especial": "Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer 3 sucessos antes de 3 falhas. Se preparado com sucesso, fornece +1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fort CD 20 reduz para 1 rodada)."
+  }
+}

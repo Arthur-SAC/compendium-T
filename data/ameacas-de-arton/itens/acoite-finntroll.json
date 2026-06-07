@@ -1,0 +1,24 @@
+{
+  "id": "acoite-finntroll",
+  "tipo": "item",
+  "nome": "Açoite Finntroll",
+  "resumo": "Feito de tiras de couro com farpas de aço nas pontas, é também um instrumento de tortura.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Corte",
+      "habilidades": []
+    },
+    "especial": "Uma criatura que sofra dano do açoite sofre –2 em testes de perícia e rolagens de dano por 1 rodada (metabolismo)."
+  }
+}

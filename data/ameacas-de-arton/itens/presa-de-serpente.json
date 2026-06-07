@@ -1,0 +1,24 @@
+{
+  "id": "presa-de-serpente",
+  "tipo": "item",
+  "nome": "Presa de Serpente",
+  "resumo": "Espada de obsidiana, um vidro vulcânico negro. Mais afiada que o aço, causa ferimentos terríveis.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 1.000",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "17",
+      "tipoDano": "Corte",
+      "habilidades": []
+    },
+    "especial": "Em um acerto crítico, o dano aumenta em um passo (antes de ser multiplicado). Uma presa de serpente não pode receber a melhoria material especial e exige treinamento especial para ser empunhada sem quebrar, por isso é uma arma exótica. É uma arma ágil."
+  }
+}

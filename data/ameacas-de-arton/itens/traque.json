@@ -1,0 +1,25 @@
+{
+  "id": "traque",
+  "tipo": "item",
+  "nome": "Traque",
+  "resumo": "Esta arma de fogo, feita com sucata e materiais de segunda mão, é suscetível a falhar nos piores momentos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 75",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "fogo",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "2d6",
+      "critico": "19/x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Se errar um ataque com um resultado ímpar no d20, ela é avariada. Recarregá-la é uma ação padrão. Todas as armas de fogo usam balas (veja Tormenta20, p. 151) como munição."
+  }
+}

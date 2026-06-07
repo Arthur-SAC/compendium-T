@@ -1,0 +1,15 @@
+{
+  "id": "bulette",
+  "tipo": "item",
+  "nome": "Bulette",
+  "resumo": "Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm. Parceiro montaria.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 500",
+    "especial": "Animal parceiro iniciante. Pode ser adquirido de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm — em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria."
+  }
+}

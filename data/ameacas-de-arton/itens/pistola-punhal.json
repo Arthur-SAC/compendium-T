@@ -1,0 +1,24 @@
+{
+  "id": "pistola-punhal",
+  "tipo": "item",
+  "nome": "Pistola-Punhal",
+  "resumo": "Arma formada por uma lâmina pontiaguda com um mecanismo acoplado que armazena uma bala. É uma arma híbrida com dois modos: corpo a corpo ágil ou arma de fogo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "18",
+      "tipoDano": "Perfuração",
+      "habilidades": ["Ágil"]
+    },
+    "especial": "Arma híbrida usada em dois modos: como arma corpo a corpo ágil (dano 1d6, crítico 18) ou como arma de fogo (dano 2d6, crítico 19/x3, alcance curto). Quando faz um ataque com a pistola-punhal em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano. Para atacar com ela em modo arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente com ela. Recarregar a pistola-punhal é uma ação padrão."
+  }
+}

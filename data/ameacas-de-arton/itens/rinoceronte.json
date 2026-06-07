@@ -1,0 +1,15 @@
+{
+  "id": "rinoceronte",
+  "tipo": "item",
+  "nome": "Rinoceronte",
+  "resumo": "Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 600",
+    "especial": "Animal parceiro iniciante. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dromedario",
+  "tipo": "item",
+  "nome": "Dromedário",
+  "resumo": "Disponível em regiões áridas ou montanhosas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 75",
+    "especial": "Animal parceiro iniciante. Pode ser um parceiro montaria."
+  }
+}

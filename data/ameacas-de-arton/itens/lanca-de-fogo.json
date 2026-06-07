@@ -1,0 +1,24 @@
+{
+  "id": "lanca-de-fogo",
+  "tipo": "item",
+  "nome": "Lança de Fogo",
+  "resumo": "Arma formada por um longo cano com uma coronha de madeira e uma lâmina pontiaguda. É uma arma híbrida usada como arma corpo a corpo alongada ou como arma de fogo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 1.000",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "dano": "1d10",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Arma híbrida usada em dois modos: como arma corpo a corpo alongada (dano 1d10, crítico x3) ou como arma de fogo (dano 2d8, crítico 19/x3, alcance médio). Quando faz um ataque com a lança de fogo em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d8 pontos de dano. Quando faz um ataque com ela em modo arma de fogo contra um oponente adjacente, você causa +1d8 pontos de dano. Para atacar com ela como arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente na arma. Recarregar a lança de fogo é uma ação padrão."
+  }
+}

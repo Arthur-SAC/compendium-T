@@ -1,0 +1,16 @@
+{
+  "id": "peconha-ancia",
+  "tipo": "item",
+  "nome": "Peçonha Anciã",
+  "resumo": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 1.800",
+    "espacos": "0,5",
+    "especial": "Veneno. Contato; perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos (perde 3d12 PV)."
+  }
+}

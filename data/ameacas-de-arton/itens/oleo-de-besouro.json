@@ -1,0 +1,16 @@
+{
+  "id": "oleo-de-besouro",
+  "tipo": "item",
+  "nome": "Óleo de Besouro",
+  "resumo": "O líquido do terrível besouro-do-óleo pode ser usado em lampiões e explosivos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 50",
+    "espacos": "0,5",
+    "especial": "Pode ser usado em lampiões (dobro da duração e área de iluminação) e explosivos. Para usar um frasco, você precisa empunhá-lo, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-lo em alcance curto. Criaturas a até 3m do ponto atingido sofrem 4d6 pontos de dano de fogo e ficam em chamas (Ref CD Des reduz o dano à metade e evita a condição)."
+  }
+}

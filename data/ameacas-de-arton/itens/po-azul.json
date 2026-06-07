@@ -1,0 +1,16 @@
+{
+  "id": "po-azul",
+  "tipo": "item",
+  "nome": "Pó Azul",
+  "resumo": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Inalar o pó é uma ação completa e recupera 2d4 PM."
+  }
+}

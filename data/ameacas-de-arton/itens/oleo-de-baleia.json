@@ -1,0 +1,16 @@
+{
+  "id": "oleo-de-baleia",
+  "tipo": "item",
+  "nome": "Óleo de Baleia",
+  "resumo": "Antigo preparado destilado de gordura de baleia que ignora penalidades de combate submerso.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena."
+  }
+}

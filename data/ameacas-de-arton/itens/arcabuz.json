@@ -1,0 +1,25 @@
+{
+  "id": "arcabuz",
+  "tipo": "item",
+  "nome": "Arcabuz",
+  "resumo": "Versão mais pesada e mais potente do mosquete. Por seu peso e recuo, é uma arma desbalanceada.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 800",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "fogo",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "2d10",
+      "critico": "19/x3",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Por seu peso e recuo, é uma arma desbalanceada. Recarregar um arcabuz é uma ação padrão. Todas as armas de fogo usam balas (veja Tormenta20, p. 151) como munição."
+  }
+}

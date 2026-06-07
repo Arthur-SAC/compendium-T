@@ -1,0 +1,16 @@
+{
+  "id": "manto-do-mantor",
+  "tipo": "item",
+  "nome": "Manto do Mantor",
+  "resumo": "Manto feito a partir do couro de um mantor, que oferece parte de sua furtividade.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 450",
+    "espacos": "1",
+    "especial": "Na escuridão completa fornece camuflagem total, mesmo contra criaturas que vejam no escuro."
+  }
+}

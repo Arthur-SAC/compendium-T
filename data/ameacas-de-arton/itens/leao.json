@@ -1,0 +1,15 @@
+{
+  "id": "leao",
+  "tipo": "item",
+  "nome": "Leão",
+  "resumo": "Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 800",
+    "especial": "Animal parceiro iniciante. Pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria."
+  }
+}

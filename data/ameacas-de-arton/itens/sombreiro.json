@@ -1,0 +1,16 @@
+{
+  "id": "sombreiro",
+  "tipo": "item",
+  "nome": "Sombreiro",
+  "resumo": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Fornece resistência a efeitos de sentidos +2."
+  }
+}

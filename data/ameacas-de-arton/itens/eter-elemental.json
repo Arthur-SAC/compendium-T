@@ -1,0 +1,16 @@
+{
+  "id": "eter-elemental",
+  "tipo": "item",
+  "nome": "Éter Elemental",
+  "resumo": "Extraído de elementais, este líquido viscoso tem cor e textura relacionados ao elemento de origem e imbui armas com dano elemental.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-lo é uma ação padrão e faz a arma (ou as munições) causar +1d4 pontos de dano do tipo do dano elemental até o fim da cena. Múltiplas doses não são cumulativas."
+  }
+}

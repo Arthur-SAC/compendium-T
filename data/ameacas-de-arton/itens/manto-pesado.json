@@ -1,0 +1,16 @@
+{
+  "id": "manto-pesado",
+  "tipo": "item",
+  "nome": "Manto Pesado",
+  "resumo": "Vestes pesadas com um grande capuz que oferecem proteção contra o sol e contra claridade em excesso.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Você recebe imunidade a condição ofuscado e, mesmo durante o dia, não é considerado sob luz solar ou semelhante."
+  }
+}

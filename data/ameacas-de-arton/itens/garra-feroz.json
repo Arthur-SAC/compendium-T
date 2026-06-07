@@ -1,0 +1,16 @@
+{
+  "id": "garra-feroz",
+  "tipo": "item",
+  "nome": "Garra Feroz",
+  "resumo": "Pinças de insetos gigantes, presas com tiras de couro, que funcionam como uma manopla.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "vestuario",
+    "preco": "T$ 60",
+    "espacos": "1",
+    "especial": "Funcionam como uma manopla (Tormenta20, p. 159), mas seus benefícios também se aplicam a uma garra ou a uma arma natural de um personagem sob efeito de habilidades como Forma Selvagem."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bomba-de-fumaca",
+  "tipo": "item",
+  "nome": "Bomba de Fumaça",
+  "resumo": "Saco de estopa com pavio, contendo uma pólvora especial que produz mais fumaça do que fogo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 15",
+    "espacos": "0,5",
+    "especial": "Segue as mesmas regras da bomba, mas, em vez de causar dano, emite uma nuvem de fumaça espessa com 6m de raio, que obscurece toda a visão e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total."
+  }
+}

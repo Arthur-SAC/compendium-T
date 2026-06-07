@@ -1,0 +1,16 @@
+{
+  "id": "tomo-de-guerra",
+  "tipo": "item",
+  "nome": "Tomo de Guerra",
+  "resumo": "Item esotérico que potencializa magias de evocação.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gelo-extremo",
+  "tipo": "item",
+  "nome": "Gelo Extremo",
+  "resumo": "Cristais minerais que eliminam todo o calor ao redor, potencializando magias de frio.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+  }
+}

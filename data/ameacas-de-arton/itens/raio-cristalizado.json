@@ -1,0 +1,16 @@
+{
+  "id": "raio-cristalizado",
+  "tipo": "item",
+  "nome": "Raio Cristalizado",
+  "resumo": "Eletricidade gerada por elementais e outros seres mágicos, solidificada na forma de pequenos cristais, que potencializa magias de eletricidade.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+  }
+}

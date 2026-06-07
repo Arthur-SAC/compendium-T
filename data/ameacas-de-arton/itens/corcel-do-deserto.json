@@ -1,0 +1,15 @@
+{
+  "id": "corcel-do-deserto",
+  "tipo": "item",
+  "nome": "Corcel do Deserto",
+  "resumo": "Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 399 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "animal",
+    "preco": "T$ 150",
+    "especial": "Animal parceiro iniciante. Pode ser usado como um parceiro montaria."
+  }
+}

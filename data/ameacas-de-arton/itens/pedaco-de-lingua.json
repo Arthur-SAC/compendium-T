@@ -1,0 +1,16 @@
+{
+  "id": "pedaco-de-lingua",
+  "tipo": "item",
+  "nome": "Pedaço de Língua",
+  "resumo": "Glândulas que podem ser usadas como um catalisador para aumentar a CD de magias.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Fornece +1 na CD dos testes de Fortitude para resistir a suas magias."
+  }
+}

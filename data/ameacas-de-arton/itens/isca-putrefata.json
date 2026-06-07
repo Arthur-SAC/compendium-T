@@ -1,0 +1,16 @@
+{
+  "id": "isca-putrefata",
+  "tipo": "item",
+  "nome": "Isca Putrefata",
+  "resumo": "Frasco de restos mortais diluídos em uma solução macabra que atrai mortos-vivos não inteligentes.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 397 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Ref CD Des evita) e dura 1d6 rodadas. Durante esse tempo, cada morto-vivo não inteligente em alcance curto é atraído (Von CD Des evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança, fica fascinado ou, se a isca estiver presa a uma criatura, a ataca."
+  }
+}

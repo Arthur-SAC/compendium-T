@@ -1,0 +1,25 @@
+{
+  "id": "zarabatana",
+  "tipo": "item",
+  "nome": "Zarabatana",
+  "resumo": "Pequeno tubo oco usado para disparar dardos. Causa dano mínimo, mas é excelente para inocular venenos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 394 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d3",
+      "critico": "x2",
+      "tipoDano": "Perfuração",
+      "habilidades": []
+    },
+    "especial": "Causa dano mínimo, mas é excelente para inocular venenos; a CD para resistir ao veneno dos dardos aumenta em +2. Um pacote de munição contém 20 dardos, custa T$ 2 e ocupa 0,5 espaço."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tomo-do-rancor",
+  "tipo": "item",
+  "nome": "Tomo do Rancor",
+  "resumo": "Item esotérico que potencializa magias de dano.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 396 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "esoterico",
+    "preco": "T$ 750",
+    "espacos": "1",
+    "especial": "Suas magias de dano recebem o seguinte aprimoramento: +2 PM. Além do normal, quando lança uma magia de dano, ela causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha."
+  }
+}
