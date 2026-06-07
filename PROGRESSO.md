@@ -108,7 +108,13 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Montarias (26 criaturas, `244ba4d`+`34a4c34`):** Baleote, Capivara, Cavalos (Montaria/Carga/Guerra/Namalkah/Glacial), Corcel do Deserto, Dromedário, Elefante, Gorlogg-montaria (desambiguado do `gorlogg` do Básico: Car−4 + Parceiro)/Gorlogg Alfa, Leão/Pantera/Tigre, Rinoceronte/Lanoso, Brontotério, Tatu-Montanha, Trobo, Tumarkhân, Ursos (Panda/Pardo/Cavernas), Warg, Unicórnio. Sem raça. Sidebars de regra (Novos Poderes de Montarias etc.) → fatia de regras.
 - **Total Ameaças: 231 criaturas + 16 raças.** Build 1302 páginas.
 
-**Próxima onda (Onda 10):** **Mortos-Vivos** (p.228–~? — reprint-check pesado vs "Reino dos Mortos" do Básico: Carniçal, Esqueletos, Fantasma, Múmia etc. podem ser reprints) + seguinte(s) até **Piratas & Pistoleiros** (p.252). Mortos-Vivos 228–237 já renderizado em `montarias-plus`; renderizar 238+.
+### Onda 10 ✅ — Mortos-Vivos (23 criaturas; revisão por visão, 2 fixes)
+- **MV-A (15, `8eaf667`):** Carniçal, Lacedon, Cavalo/Ogro/Urso Pardo/Gigante/Mamute/Hidra/Rei-Tirano Esqueleto, Fantasma/Ancestral, Garra-Zumbi ×4. 0 reprints (variantes distintas das bases do Básico).
+- **MV-B (8, `...` + fix):** Lívido, Mortalha, Múmia, Senhor das Múmias, Necrodraco Esqueleto/Zumbi/Lich (ND20), **Tarso Dragão-Rei dos Mortos (ND S+)**. Lich e Tarso foram escritos manualmente (API sobrecarregada na hora) e depois **revisados por visão**; fix: "Fraqueza Zumbi" pertencia ao Zumbi (removida do Lich).
+- **Dívida leve:** representação de atributo "—" inconsistente entre arquivos (alguns omitem a chave, outros mantêm `"—"`); valores corretos, só normalização. Tratar no polimento.
+- **Total Ameaças: 254 criaturas + 16 raças.** Build 1326 páginas.
+
+**Próxima onda (Onda 11):** **Mundo Perdido** (p.242–251, 14 criaturas: Árvore-Matilha, Burafonte/Armento, Deinonico/Bando, Espada-da-Floresta, Galhada Macho/Fêmea, Gali-Gali/Enxame, Grande Battham, Raagoran, Tuntram, Rei-Tirano + 2 itens) + **Piratas & Pistoleiros** (p.252) e o que houver até ~p.300. Mundo Perdido 242–251 já renderizado em `montarias-plus`/`mortos-vivos-plus`.
 
 ---
 
