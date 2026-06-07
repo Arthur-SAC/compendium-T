@@ -104,7 +104,11 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 **Mapa restante (impressas):** Montarias 210–~? · … · Piratas & Pistoleiros 252 · … até ~300. Depois: **fatia final de Itens & Regras** (Dádivas de Aharadak, Semente Rubra, Totens Risonhos, sidebars de regra dos Dragões/Golens Despertos, intro Cap. 1, seção consolidada "Habilidades de Raça" p.303).
 **Lembrete do usuário:** ao TERMINAR o livro, reiniciar o dev server (`cd site && npm run dev`) p/ ele ver as atualizações.
 
-**Próxima onda (Onda 9):** Montarias (p.210) + seguinte(s).
+### Onda 9 ✅ — Montarias (26 criaturas, 0 discrepâncias por visão)
+- **Montarias (26 criaturas, `244ba4d`+`34a4c34`):** Baleote, Capivara, Cavalos (Montaria/Carga/Guerra/Namalkah/Glacial), Corcel do Deserto, Dromedário, Elefante, Gorlogg-montaria (desambiguado do `gorlogg` do Básico: Car−4 + Parceiro)/Gorlogg Alfa, Leão/Pantera/Tigre, Rinoceronte/Lanoso, Brontotério, Tatu-Montanha, Trobo, Tumarkhân, Ursos (Panda/Pardo/Cavernas), Warg, Unicórnio. Sem raça. Sidebars de regra (Novos Poderes de Montarias etc.) → fatia de regras.
+- **Total Ameaças: 231 criaturas + 16 raças.** Build 1302 páginas.
+
+**Próxima onda (Onda 10):** **Mortos-Vivos** (p.228–~? — reprint-check pesado vs "Reino dos Mortos" do Básico: Carniçal, Esqueletos, Fantasma, Múmia etc. podem ser reprints) + seguinte(s) até **Piratas & Pistoleiros** (p.252). Mortos-Vivos 228–237 já renderizado em `montarias-plus`; renderizar 238+.
 
 ---
 
