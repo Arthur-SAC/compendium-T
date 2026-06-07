@@ -151,7 +151,9 @@ O Cap.1 é híbrido regiões+criaturas; rendeu MUITO mais bestiário (caches `sa
 - **Total Ameaças até aqui: 406 criaturas + 26 raças + 5 regiões + 17 regras.**
 
 ## ✅✅ AMEAÇAS DE ARTON — LIVRO 100% EXTRAÍDO (impressas 8–432)
-**Totais:** 406 criaturas · 26 raças jogáveis · 5 regiões · 51 regras (+regra-de-criação) · 4 poderes · 69 itens · 15 itens mágicos · 7 magias = **583 entradas**. Suíte 148/148 verde. Build **1651 páginas**. Revisão por visão em 100% do bestiário; revisão de fidelidade nas regras/itens.
+**Totais:** 406 criaturas · **29 raças jogáveis** · 5 regiões · 50 regras (+regra-de-criação) · 4 poderes · 69 itens · 15 itens mágicos · 7 magias. Suíte 148/148 verde. Revisão por visão em 100% do bestiário; revisão de fidelidade nas regras/itens.
+
+**Correção pós-entrega (`2517004`+`ab2aabe`):** o usuário notou raças faltando + sem imagem. Conferido via Apêndice A (Tabela A-1): faltavam **Ogro** (p.40), **Trog Anão** (p.39) e **Golem Desperto** (p.134 — era a regra "Golens Despertos", convertida em raça `golem-desperto`; regra removida). Criadas com cross-link e arte. Depois, extraída **arte para 9 raças que estavam sem imagem** (bugbear, centauro, harpia, kaijin, kobold, mashin, minauro, pteros, trog-anao) a partir das ilustrações das criaturas. **Resultado: 29 raças, 28 com imagem** (só `soterrado` sem — figura é cena, não recortável).
 - **Cap.2 Regras de Ameaças (`5181402`):** 7 entradas (regras adicionais, Ameaças Desafiadoras, Manual de Criação, Tabelas de Parâmetros 2-3 A/B/C, Modificar Criaturas, Criação de Bandos).
 - **Cap.3 Bazar Monstruoso (`84abf25`+`892d73f`):** 65 itens (armas/armaduras/gerais/animais) + 9 itens mágicos + 7 magias + recursos naturais/melhorias.
 - **Apêndice D Encontros Aleatórios (`a22fbf5`):** 3 entradas (regras + tabelas d% por terreno/região + mapeamento de regiões).
