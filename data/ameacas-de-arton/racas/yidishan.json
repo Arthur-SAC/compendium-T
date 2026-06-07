@@ -1,0 +1,51 @@
+{
+  "id": "yidishan",
+  "tipo": "raca",
+  "nome": "Yidishan",
+  "resumo": "Meios-golens criados pelos darash para prolongar sua longevidade, substituindo órgãos naturais por partes mecânicas. São imunes a doenças, envelhecimento, fome e sede, mas também insanos e malignos, enlouquecidos pela dor da transformação.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 300 },
+  "imagens": ["/racas/yidishan.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Tentando sobreviver à própria pestilência e prolongar sua longevidade, os darash desenvolveram formas de substituir seus órgãos naturais por partes mecânicas. O resultado final, os yidishan, foi um sucesso parcial. Os meios-golens são realmente imunes a doenças, envelhecimento, fome ou sede — mas são também insanos e malignos, enlouquecidos pela dor da transformação. Meios-golens são seres bizarros, com peças de metal presas à carne com grampos, cravos e arames, de formas muito dolorosas. Suas partes mecânicas oferecem grande força e resistência, mas a agonia constante sufoca qualquer pensamento racional. A maior parte deles vaga pelo Reino das Torres em bandos, muitos a serviço do vilão Bunkman Berenwocket, aquele que criou a maior parte destes monstros."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "yidishan-bugbear", "alvoTipo": "criatura", "rotulo": "Yidishan Bugbear" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "valor": 1, "escolha": true, "quantidade": 3, "observacao": "Em três atributos diferentes à escolha, exceto Carisma." },
+      { "atributo": "Carisma", "valor": -2 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Modificadores conforme o sidebar: +1 em três atributos diferentes à escolha (exceto Carisma) e Carisma –2; os três +1 livres estão codificados como modificadores com \"escolha\": true. O sidebar não informa tamanho nem deslocamento; tamanho Médio e deslocamento 9m (6q) inferidos a partir da criatura Yidishan Bugbear. A habilidade Natureza Orgânica permite ser um yidishan de outra raça humanoide além de humano, podendo nesse caso herdar a categoria de tamanho dessa raça.",
+    "habilidades": [
+      {
+        "nome": "Híbrido Mecânico",
+        "descricao": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a cansaço, efeitos metabólicos e veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de itens da categoria alimentação e efeitos de cura mundana são reduzidos pela metade em você. Você precisa ficar inerte por 8 horas por dia para recarregar suas forças. Se fizer isso, recupera PV e PM por descanso em condições normais (yidishan não são afetados por condições boas ou ruins de descanso)."
+      },
+      {
+        "nome": "Natureza Orgânica",
+        "descricao": "Você se torna treinado em uma perícia (que não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um yidishan de outra raça humanoide além de humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho."
+      },
+      {
+        "nome": "Peças Metálicas",
+        "descricao": "As partes mecânicas que complementam seu corpo fornecem +2 na Defesa, mas impõem uma penalidade de armadura de –2."
+      },
+      {
+        "nome": "Longevidade x5",
+        "descricao": "Sua longevidade é multiplicada por 5."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Arsenal, Megalokk, Nimb."
+      }
+    ],
+    "longevidade": "x5",
+    "devocao": "Arsenal, Megalokk, Nimb"
+  }
+}

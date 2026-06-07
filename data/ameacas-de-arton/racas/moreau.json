@@ -1,0 +1,86 @@
+{
+  "id": "moreau",
+  "tipo": "raca",
+  "nome": "Moreau",
+  "resumo": "Humanos de Moreania com ascendência animal, criados pela Dama. Cada moreau escolhe uma Herança (linhagem animal) que define suas demais habilidades de raça; também é considerado um humano para quaisquer fins.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 303 },
+  "imagens": ["/racas/moreau.png"],
+  "secoes": [
+    {
+      "titulo": "Habilidades de Raça",
+      "texto": "“As crianças da Dama, atemorizadas, pediram para nunca mais sofrer tanto. Esses somos nós.” — Alvorrrais Hvanholdt, herdeiro do coelho bucaneiro"
+    },
+    {
+      "titulo": "Mais Humanos que Humanos",
+      "texto": "Nem todos os moreau são herdeiros completos. Alguns lembram humanos artonianos mais comuns, com traços físicos de animais que não concedem nenhuma habilidade. Para representar isso, ao criar um personagem humano de Moreania, você pode definir que ele possui traços cosméticos de algum animal, como escamas em alguns pontos do corpo, orelhas de gato e outros. Em termos de características de raça, entretanto, ele será um humano."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "raposa-bucaneira", "alvoTipo": "criatura", "rotulo": "Raposa Bucaneira" },
+    { "tipo": "verTambem", "alvoId": "bufalo-paladino-de-bullton", "alvoTipo": "criatura", "rotulo": "Búfalo Paladino de Bullton" },
+    { "tipo": "verTambem", "alvoId": "coruja-druida", "alvoTipo": "criatura", "rotulo": "Coruja Druida" }
+  ],
+  "mecanica": {
+    "modificadores": [],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "O moreau não possui modificadores de atributo fixos: eles dependem da Herança escolhida (os modificadores de cada Herança estão no texto da habilidade correspondente). Tamanho Médio e deslocamento 9m (6q) são o padrão; algumas Heranças alteram esses valores (Coelho e Raposa concedem deslocamento 12m; Urso torna o personagem Grande; Crocodilo e Serpente concedem deslocamentos de natação/escalada). O sidebar não fixa explicitamente o tamanho/deslocamento base; inferidos a partir das criaturas moreau (todas Médias, deslocamento variável conforme habilidades).",
+    "habilidades": [
+      {
+        "nome": "Herança",
+        "descricao": "Escolha uma das heranças descritas a seguir. Ela representa sua ascendência e determina suas demais habilidades de raça. Além disso, você é considerado também um humano para quaisquer fins."
+      },
+      {
+        "nome": "Herança: Coruja",
+        "descricao": "Sabedoria +1, +1 em dois atributos. Espreitador: Você recebe visão no escuro e +2 em Percepção e Vontade. Garras: Você tem duas armas naturais de garra (dano 1d6, crítico x2, corte), uma em cada mão. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras. Sapiência: Você pode lançar uma magia de 1º círculo de adivinhação a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+      },
+      {
+        "nome": "Herança: Hiena",
+        "descricao": "Sabedoria +1, +1 em dois atributos. Destemor: Você recebe +2 em rolagens de dano e em testes de resistência contra criaturas maiores que você. Faro: Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Mordida: Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "nome": "Herança: Raposa",
+        "descricao": "Inteligência +1, +1 em dois atributos. Agarra-me Se Puderes: Seu deslocamento é 12m (em vez de 9m) e você tem visão na penumbra. Esperteza Vulpina: Você recebe +2 em duas perícias originalmente baseadas em Inteligência ou Carisma, a sua escolha. Faro: Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "nome": "Herança: Serpente",
+        "descricao": "Inteligência +1, +1 em dois atributos. Arborícola: Você recebe deslocamento de escalada 6m e +2 em Furtividade. Constritor: Você recebe +2 em testes para agarrar e em rolagens de dano contra criaturas que estiver agarrando. Instintos Traiçoeiros: Você recebe visão no escuro e +2 em Diplomacia e na CD de seus efeitos mentais."
+      },
+      {
+        "nome": "Herança: Búfalo",
+        "descricao": "Força +1, +1 em dois atributos. Chifres: Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres. Faro: Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Marrada Impressionante: Você recebe +2 em ataques em investida e em testes para empurrar, e pode usar Força como atributo-chave de Intimidação (em vez de Carisma)."
+      },
+      {
+        "nome": "Herança: Coelho",
+        "descricao": "Destreza +1, +1 em dois atributos. Patas Ligeiras: Seu deslocamento é 12m e, quando faz uma investida ou um teste de Atletismo para correr, você não precisa percorrer uma linha reta. Pé de Coelho: Quando faz um teste de uma perícia baseada em Destreza (exceto testes de ataque), você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Senso de Preservação: Você recebe visão na penumbra e +2 em Percepção e Reflexos."
+      },
+      {
+        "nome": "Herança: Crocodilo",
+        "descricao": "Constituição +1, +1 em dois atributos. Mordida Poderosa: Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração), com a qual recebe +2 em testes de agarrar. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Predador Aquático: Você tem deslocamento de natação 6m e recebe +1 na Defesa e +2 em Furtividade. Surto Reptiliano: Uma vez por cena, você pode gastar 1 PM para realizar uma ação de movimento adicional em seu turno."
+      },
+      {
+        "nome": "Herança: Gato",
+        "descricao": "Carisma +1, +1 em dois atributos. As Muitas Vidas de um Gato: Você soma seu Carisma em testes de Constituição para estabilizar sangramento e em Acrobacia e, se estiver consciente em uma queda, reduz o dano dela em 3d6. Garras: Você tem duas armas naturais de garra (dano 1d6, crítico x2, corte), uma em cada mão. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras. Sentidos Felinos: Você recebe visão na penumbra e +2 em Furtividade e Percepção."
+      },
+      {
+        "nome": "Herança: Leão",
+        "descricao": "Força +1, +1 em dois atributos. Mordida: Você possui uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Rugido Imponente: Você pode gastar uma ação de movimento e 1 PM para emitir um rugido assustador. Todos os inimigos em alcance curto sofrem -2 em rolagens de dano por 1 rodada. Medo. Sentidos da Realeza: Você recebe visão na penumbra e +2 em Intimidação e Percepção."
+      },
+      {
+        "nome": "Herança: Lobo",
+        "descricao": "Carisma +1, +1 em dois atributos. Faro: Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Mordida: Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Táticas de Matilha: Você recebe +2 nas rolagens de dano e na margem de ameaça em ataques contra oponentes que esteja flanqueando."
+      },
+      {
+        "nome": "Herança: Morcego",
+        "descricao": "Destreza +1, +1 em dois atributos. Asas: Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua. Criatura da Noite: Você recebe visão no escuro e +2 em Furtividade e Percepção. Ecolocalização: Você pode gastar 1 PM para receber percepção às cegas em alcance médio por 1 rodada."
+      },
+      {
+        "nome": "Herança: Urso",
+        "descricao": "Constituição +1, +1 em dois atributos. Abraço de Urso: Você é Grande e pode usar Constituição como atributo-chave de Intimidação (em vez de Carisma). Faro: Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Mordida: Você possui uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Qualquer"
+  }
+}
