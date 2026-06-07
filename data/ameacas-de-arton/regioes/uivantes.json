@@ -1,0 +1,24 @@
+{
+  "id": "uivantes-ameacas",
+  "tipo": "regiao",
+  "nome": "Uivantes (Ameaças de Arton)",
+  "resumo": "As Montanhas Uivantes, cordilheira de nevasca eterna no coração de Arton e antigo covil da Dragoa-Rainha Beluhga, lar de criaturas adaptadas ao inferno glacial e de povos que lutam pela sobrevivência no gelo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 348 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Uivantes",
+      "texto": "Esta região cercada de montanhas geladas no coração do continente é um mundo próprio, com suas próprias leis naturais, que rejeita o restante de Arton. Nesta cordilheira rigorosa de nevasca eterna, chamada de \"reino\" apenas por convenções geográficas, tudo que não pertence ao gelo vive pouco. Mesmo com a suposta morte de Beluhga nada mudou em suas paisagens brancas — levando muitos a questionar se a Dragoa-Rainha realmente morreu ou se apenas aguarda o momento de sua vingança terrível.\n\nAs Uivantes, contudo, estão longe de ser desoladas. Uma variedade de criaturas luta pela sobrevivência, um número vasto de povos ergue comunidades e fortalezas. Muitos de seus habitantes são pacíficos, como anões do gelo em suas forjas secretas na Montanha Invencível ou pequeninos hynne e seus esportes festivos. Outros, contudo, são saqueadores ferozes e inclementes, que pilham e matam tudo que encontram.\n\nDiferente de outras regiões selvagens, é quase impossível encontrar criaturas nativas das Uivantes em outros pontos de Arton. São seres adaptados ao inferno glacial, que sobrepujam intrusos estrangeiros sem dificuldade. Quando surgem em locais distantes, é quase certo que foram capturados ou conjurados, com propósitos que podem variar desde combates de arena até povoar masmorras gélidas."
+    },
+    {
+      "titulo": "Povos e Saqueadores",
+      "texto": "A proximidade das Uivantes com o reino de Tapista faz com que a região seja regularmente visitada por expedições de minotauros. No passado distante, um gigantesco bando decidiu fazer destas montanhas sua morada permanente: a vasta tribo conhecida como a Manada, formada por cerca de 4.000 minotauros de tipo físico diferente do cidadão de Tapista — muito mais peludos e com muita gordura sob a pele. Vivem em nomadismo e, assim como o antigo Império de Tauron, eram escravistas, ainda mais brutais; qualquer humanoide em seu caminho corre o risco de ser transformado em escravo.\n\nOs Furiosos são a maior tribo de ogros nas Uivantes, espalhados em inúmeros bandos que aterrorizam toda a região. Furiosos esmagam suas vítimas a cruéis golpes de tacape, então usando seus crânios como ornamentos; sua maior diferença em relação aos ogros comuns é a fúria selvagem e incontrolável que lhes dá o nome. Alguns bandos são liderados por um gigante — diz-se que o primeiro líder do bando original, Keylor, ainda está vivo, embora alguns relatos sugiram que \"Keylor\" seja na verdade um título guerreiro usado por todos os gigantes que lideram os Furiosos."
+    },
+    {
+      "titulo": "Gelo Eterno e Monstros do Frio",
+      "texto": "As Uivantes abrigam criaturas únicas, nascidas ou moldadas pelo frio sobrenatural. Os golens de Nor são construtos fabricados com gelo eterno — o mesmo material usado em armas e armaduras gélidas — atribuídos ora aos anões da Montanha Invencível, ora ao arcanista desaparecido Eadmund Siberus Nor; protegem estruturas e passagens, e versões menores chegam a manifestar livre-arbítrio. Mamutes são a base alimentar de muitas tribos, honrados em cerimônias pelos nativos, mas caçados apenas pelas presas valiosas por estrangeiros — pecado que originou o mito do lyuba, um mamute mumificado pelo gelo que retorna em busca de vingança.\n\nOutras ameaças glaciais incluem os soterrados (esqueletos revestidos de gelo, surgidos de vítimas de avalanches), os staghs (pequenos elementais do gelo) e os ursos das neves. Mas talvez o maior e mais perigoso monstro nas Uivantes — rivalizando até com os dragões — seja o verme do gelo, criatura gigantesca que se desloca livremente sob gelo e rocha, emergindo apenas para atacar; dizem que grande parte dos túneis e masmorras das Uivantes não passam de antigas trilhas deixadas pela criatura."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": { "secao": "Ameaças de Arton", "epiteto": "A cordilheira de nevasca eterna" }
+}

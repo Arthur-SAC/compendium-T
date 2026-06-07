@@ -1,0 +1,22 @@
+{
+  "id": "sanguinarias-ameacas",
+  "tipo": "regiao",
+  "nome": "Sanguinárias (Ameaças de Arton)",
+  "resumo": "As Montanhas Sanguinárias, reduto supremo das bestas hórridas e reino de massacre de Megalokk, onde os verdadeiros monstros prosperam e os titânicos kaiju travam batalhas que sacodem o mundo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 306 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Sanguinárias",
+      "texto": "Arton teve épocas remotas em que não havia humanoides, não havia povos inteligentes. Seus deuses ainda não os haviam dado à luz. Mas havia vida, havia a força irresistível que sempre encontra um meio, que move todos os seres. Essa força seria consumida e excretada por Megalokk, infestando tudo com suas crias horrendas, descomunais, indomáveis. O mundo era um inferno de monstros. Seria tornado habitável por humanos e outros povos apenas quando os deuses forçaram o recuo das feras até regiões onde permanecem confinadas. Hoje, as Sanguinárias são o reduto supremo das bestas hórridas, o reino de massacre que Arton havia sido.\n\nÉ verdade que algumas feras de Galrasia também existem nas Sanguinárias, e vice-versa. Contudo, enquanto o Mundo Perdido é terra de criaturas naturais — ainda que muitas vezes crescidas e embrutecidas —, as Sanguinárias são onde os verdadeiros monstros prosperam. Aqui não existe equilíbrio natural, não existe o Grande Ciclo cultuado pelos devotos de Allihanna. Tudo é caos violento, tudo ataca e mata mesmo sem fome, sem provocação, sem motivo.\n\nNas Sanguinárias não há relação clara de predador e presa — tudo é predador, tudo busca devastação, aniquilação, destruição. Os monstros não matam por alimento, por defesa de território, por proteção de suas famílias; eles matam por serem monstros.\n\nGrande parte dos monstros nas Sanguinárias não se reproduz por meios naturais; não há cruza, gestação ou parto. As criaturas apenas surgem, formam-se, erguem-se do negrume dos abismos, do magma nos vulcões, da vontade de Megalokk. Aqueles que acasalam o fazem como paródia violenta dos animais de Allihanna, trazendo oferendas de vítimas ou matando o pretendente, ou ambos. Monstros existem unicamente para a violência."
+    },
+    {
+      "titulo": "Kaiju",
+      "texto": "Grandes como a estátua de Valkaria — ou até maiores —, kaiju são os maiores seres vivos conhecidos na existência. Mais que simples monstros, são verdadeiras forças da natureza, como os terremotos, vulcões e tufões. Muitas vezes, até venerados como deuses.\n\nEmbora muitos concordem que os kaiju são crias de Megalokk, alguns acadêmicos acreditam que nem mesmo um deus maior teria poder para produzir estas criaturas supremas, sendo sua verdadeira origem um mistério. Eles não se reproduzem como outros seres, não acasalam ou procriam — até porque não existem espécies kaiju, não existem dois iguais. Alguns passam por estranhos estágios larvais e metamorfoses, mas nunca foram encontrados ovos ou filhotes. Suspeita-se que todos os kaiju existentes surgiram no passado remoto, quando Arton era tomada pelos monstros, ou vieram de lugares ainda mais terríveis. Adormecidos, ou mesmo mortos, podem despertar a qualquer momento para trazer fúria e destruição.\n\nKaiju não morrem por meios naturais; seu tempo de vida simplesmente não pode ser medido. Um kaiju pode ser derrotado e morto, tipicamente por outro kaiju — pois quase nenhum outro ser no mundo é capaz dessa façanha. Contudo, mesmo despedaçado ou reduzido a ossos, um kaiju nunca morre realmente; vai regenerar com o tempo, sem que nada nem ninguém consiga impedir. Por isso, é normal que kaiju destruídos em batalhas épicas simplesmente retornem tempos depois.\n\nUm kaiju enfurecido pode despertar e atacar em qualquer parte de Arton, mas o único lugar onde existem em abundância são as Sanguinárias. Ali, travam batalhas titânicas cujos tremores sacodem a ilha de Tamu-ra a leste. Tamuranianos chamam a cordilheira de Trono de Sugora, o grande espírito que alguns consideram o nome nativo de Megalokk. Vez ou outra, um kaiju atravessa o mar e alcança o Império de Jade para devastar suas cidades, forçando os heróis locais a encontrar formas de lidar com a besta."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Megalokk, o Deus dos Monstros" }
+  ],
+  "mecanica": { "secao": "Ameaças de Arton", "epiteto": "O reduto supremo das bestas hórridas" }
+}

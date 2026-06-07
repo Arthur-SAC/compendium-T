@@ -1,0 +1,20 @@
+{
+  "id": "sob-as-ondas",
+  "tipo": "regiao",
+  "nome": "Sob as Ondas",
+  "resumo": "Os três mares de Arton e o vasto mundo submerso sob suas águas: reinos de sereias, tritões e elfos-do-mar, monstros marinhos, dragões e o krakën, sob o domínio do desaparecido Grande Oceano.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 314 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Sob as Ondas",
+      "texto": "Mar Negro. Mar do Dragão-Rei. Mar dos Monstros. Os três mares de Arton, cercando o continente com águas revoltas. Todos têm seus motivos para serem navegados — buscar aventuras na selvagem Galrasia, buscar sabedoria em Khubar, alcançar o renascido Império de Jade. Todos também oferecem perigos a quem ousa desafiá-los.\n\nA simples travessia por navio é arriscada, monstros e povos marinhos hostis espreitam. Alguns capazes de abordar e saquear, outros grandes o bastante para demolir embarcações inteiras. E esta é apenas, figurativa e literalmente, a superfície de todo um mundo de reinos submersos, com suas próprias raças guerreiras, seus próprios monstros, gigantes e dragões. Sereias, tritões e elfos-do-mar povoam aldeias, cidades, até reinos. Para aqueles com meios mágicos para explorar este universo sob as águas, o domínio do deus Oceano oferece vastas oportunidades e recompensas.\n\nExistem ainda as regiões de \"ar molhado\", onde as águas mágicas podem ser respiradas por seres da superfície. Aqui vivem os povos marinhos mais amistosos, hospitaleiros, dispostos a comercializar com aqueles do \"mundo seco\" — até mesmo pedindo seu auxílio ocasional, buscando grupos de aventureiros que venham em seu socorro.\n\nQuanto ao próprio Grande Oceano, seu desaparecimento permanece um mistério. Embora os devotos ainda sejam capazes de conjurar milagres, o Deus dos Mares não pode ser encontrado ou contactado em parte alguma — o que é incomum, mesmo levando em conta sua notória impassividade e indolência. Entre os piratas, existe cizânia e caça aos culpados. Mas, para aqueles que vivem sob as ondas, as consequências reais são ainda incertas."
+    },
+    {
+      "titulo": "O Krakën e o Pliorex",
+      "texto": "O krakën é avistado raramente, mesmo em alto-mar. Ainda assim, não são poucas as histórias de navios arrastados para as profundezas por estas feras. Embora muitos acreditem se tratar de uma besta selvagem, o krakën é extremamente inteligente. Utiliza vastos complexos de túneis submarinos como covil, contendo partes com ar respirável, onde mantém vítimas em cativeiro; esses túneis às vezes levam a passagens em terra firme.\n\nComunidades de povos aquáticos veneram o krakën, fazendo oferendas para aplacar sua fúria ou garantir sua proteção, de forma similar aos dragões em terra. É comum o monstro comandar esses servos em ataques ao mundo seco, para trazer pilhagens ou atrair heróis valorosos, que o krakën aprecia manipular, torturar e humilhar. Existe uma antiga e trágica lenda sobre uma elfa-do-mar que acreditava ser paladina de um bondoso deus submerso, quando na verdade trazia vítimas para saciar seu apetite monstruoso.\n\nUm de seus inimigos naturais, se tal coisa existe, é o pliorex. Também chamado \"kronossauro\", este gigantesco lagarto-terror de Galrasia é mais abundante no Mar Negro, mas pode ocasionalmente migrar para outros pontos do litoral artoniano. O tipo comum mede entre dez e quinze metros, enquanto a variedade abissal (de coloração totalmente branca) chega ao tamanho de uma caravela. Alimenta-se de peixes, lulas, conchas e qualquer outra criatura de tamanho humano, embora também possa caçar bichos muito maiores; não é incomum que ataque embarcações, por confundi-las com presas ou para alcançar petiscos no convés."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": { "secao": "Ameaças de Arton", "epiteto": "Os três mares e o mundo submerso de Arton" }
+}

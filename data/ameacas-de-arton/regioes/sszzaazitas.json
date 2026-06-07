@@ -1,0 +1,26 @@
+{
+  "id": "sszzaazitas",
+  "tipo": "regiao",
+  "nome": "Sszzaazitas",
+  "resumo": "A seita secreta dos devotos mais perversos de Sszzaas, o Deus da Traição, infiltrada em toda parte do Reinado e composta sobretudo por nagahs e medusas que vivem da mentira, do disfarce e da perfídia.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 326 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Sszzaazitas",
+      "texto": "Ser capaz de ludibriar os próprios deuses. Executar um plano de traição debaixo de seus narizes. Acabar banido, tornado mortal, e ainda recuperar sua posição como deus maior. Esse é o poder de Sszzaas. Esse é o domínio que seus devotos buscam.\n\nO Grande Corruptor já provou ser o mais inteligente e ardiloso dos deuses. Os devotos sabem bem, não devem contar com sua piedade, ou mesmo sua retribuição por serviços prestados — como esperar algo assim do próprio Deus da Traição? O que esperam é conquistar sua admiração, espelhar sua argúcia e inclemência, merecer um lugar privilegiado em seu mundo. Um mundo onde os mais sagazes prosperam.\n\nAssim, nem todos os devotos de Sszzaas são malignos. Mas quase todos são. E, entre estes, não há piores que os sszzaazitas. A seita teria sido formada em algum ponto dos anos 1100, durante a inquisição sofrida pela Ordem de Sszzaas. Quase todos que serviam abertamente ao Deus Serpente foram caçados e executados, raças reptilianas inteiras teriam sido extintas. Vendo oportunidade na crise, ex-clérigos aproveitaram a crença geral de que Sszzaas e seus servos teriam desaparecido, construindo uma vasta organização secreta que ninguém imaginaria existir. Assim, quando o Corruptor realizou seu retorno triunfal, os sszzaazitas já aguardavam para ser agraciados com poder divino e restabelecer seu domínio.\n\nEles estão em todo lugar. Têm olhos em cada sala do trono, cada mansão da nobreza, cada guilda mercante, cada companhia mercenária. Nem mesmo as igrejas de outros deuses estão livres de seus espiões, suas chantagens e emboscadas. E não há grupo de heróis que não tenha aceito deles alguma missão com objetivos escusos, mesmo sem a menor suspeita."
+    },
+    {
+      "titulo": "Adoradores e Falsos Amigos",
+      "texto": "É raro encontrar cultistas de Sszzaas em grandes números, ou mesmo grupos. Eles sabem perfeitamente que, exceto em casos especiais, não podem confiar uns nos outros. Assim, muitos cultos de Sszzaas são na verdade formados por bandidos devotos, ingênuos mal-intencionados que buscam recompensas, ou que acreditam servir a algum outro deus ou causa. Apenas os líderes são clérigos verdadeiros, às vezes se fazendo passar por clérigos de Hyninn, Nimb, Valkaria ou até Khalmyr! Membros de qualquer raça podem ser adoradores de Sszzaas, mas — por sua ligação com serpentes — medusas estão entre as devotas favoritas deste deus.\n\nSszzaas é a mentira, a enganação, o subterfúgio. Uma de suas facetas mais perversas é aproveitar a confiança e a amizade daqueles ao seu redor para promover a falsidade e a ruína. Muitos sszzaazitas aprendem a se passar por outras pessoas, mais amigáveis, confiáveis e úteis. Um sszzaazita com a habilidade Falso Amigo tem um disfarce cuidadosamente elaborado, praticamente uma segunda identidade, e pode se tornar parceiro de um aventureiro com o objetivo de sabotar sua missão, manipular o grupo ou simplesmente traí-los no pior momento possível."
+    },
+    {
+      "titulo": "As Nagahs",
+      "texto": "Seres de torso humanoide e corpo de serpente, nagahs foram outrora consideradas uma raça de devotos de Allihanna. Infelizmente, tudo não passou de um elaborado e duradouro disfarce, mantido enquanto Sszzaas estava afastado, tramando seu retorno. Hoje, quase todos os grupos sszzaazitas incluem nagahs. Em sua sociedade, os homens quase sempre são guerreiros, enquanto as mulheres são clérigas ou arcanistas, exercendo a liderança.\n\nExiste forte dimorfismo sexual entre as nagahs: as fêmeas são mentalmente superiores, os machos são fisicamente mais aptos. Elas lideram e conjuram, eles pegam em armas. Entre as mais perigosas estão as nagahs dormentes, sszzaazitas enfeitiçadas pelo próprio Sszzaas para acreditar serem pessoas diferentes — aventureiras de grande nobreza que, a um comando secreto, \"despertam\" e executam as ordens de seus mestres. Nenhum meio mágico conhecido pode revelar uma nagah dormente; pior ainda, nem todas são nagahs — apenas as mentiras espalhadas pelos próprios sszzaazitas levam a crer que sim."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "sszzaas", "alvoTipo": "divindade", "rotulo": "Sszzaas, o Deus da Traição" }
+  ],
+  "mecanica": { "secao": "Ameaças de Arton", "epiteto": "A seita secreta do Grande Corruptor" }
+}

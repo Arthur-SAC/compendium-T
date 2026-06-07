@@ -1,0 +1,27 @@
+{
+  "id": "trolls-nobres",
+  "tipo": "regiao",
+  "nome": "Trolls Nobres",
+  "resumo": "Os finntroll, trolls nobres conjuradores e arrogantes que governam um vasto império subterrâneo abaixo de Doherimm, escravizando outros povos como soldados, montarias e bestas de guerra em nome de seus deuses Troldhaugen e Dearani.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 338 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Trolls Nobres",
+      "texto": "Se outrora estes monstros degenerados eram ameaça apenas para os anões de Doherimm, sua recente atuação na Guerra Artoniana — em aliança temporária com a Supremacia Purista — demonstrou o contrário. De pensamento similar àquele cultivado pelos puristas, finntroll acreditam ser as criaturas mais perfeitas na existência, cabendo a todos os outros seres o papel de servi-los a seu bel-prazer.\n\nOs trolls nobres governam um império subterrâneo cuja real extensão é desconhecida; apesar de sua imensa arrogância, são planejadores ardilosos que sabem proteger seus segredos. Ainda assim, há relatos sobre vastas cidades que hospedam largas populações destes seres, situadas em profundidades ainda maiores que os territórios dos anões, raras vezes alcançadas por outros seres exceto quando levados como prisioneiros.\n\nEmbora os caçadores e feitores sejam aqueles mais frequentemente encontrados por aventureiros, a sociedade finntroll é sofisticada e segmentada em numerosos outros papéis — sobretudo aqueles dedicados à conjuração de magias, campo de domínio entre estes seres astutos. Exceto pelos caçadores e feitores, a maioria dos trolls nobres não usa armas, nem exerce qualquer forma de combate físico. Por se considerarem mentalmente superiores, delegam essas \"tarefas braçais rústicas\" a soldados trolls e outros servos. Por seu elevado intelecto e tradições arcanas, finntroll são praticantes de magia exímios, até capazes de rivalizar com as artes élficas em seu auge; em geral dispensam magias de dano direto por achá-las \"primitivas e deselegantes\", preferindo efeitos incapacitantes, paralisia, controle mental e morte instantânea."
+    },
+    {
+      "titulo": "Castas e Servos",
+      "texto": "Para cada missão, há um guerreiro especializado. O caçador é aquele destinado a rastrear e capturar alvos — desde camponeses para uso como escravos até nobres para chantagens, ou devotos de deuses rivais — geralmente acompanhado por perdigueiros trolls, cães-planta criados para farejar e imobilizar presas. Feitores pertencem a uma casta mais elevada e orgulhosa, especializando-se em comandar escravos, trolls e monstros para lutar em seu lugar; o senhor de estábulo é uma versão superior e ainda mais perigosa do feitor.\n\nPor sua força, brutalidade e resiliência imensas, trolls são a escolha favorita dos finntroll como guardas e soldados, usados também como montarias pelos cavaleiros finntroll. Notando que heróis relutam em atacar vítimas de escravidão, os pragmáticos finntroll capturam anões de Doherimm e usam profunda dominação mental para transformá-los em protetores-reféns: guerreiros escravos, obedientes e sacrificáveis, que defendem seus algozes. Sabe-se, no entanto, que a vontade férrea dos anões não pode ser destruída tão facilmente — deve haver maneiras de libertá-los do controle mental. Mycotann, seres-cogumelo pacíficos do povo de Camprini, também são escravizados e usados como unidades de suporte, expelindo esporos paralisantes para facilitar a captura de vítimas."
+    },
+    {
+      "titulo": "Religião Finntroll",
+      "texto": "Não se pode dizer que trolls nobres sejam espiritualizados: quase todos são arrogantes e egocêntricos demais para crer em \"poderes superiores\", muito menos devotar-se a eles. Além disso, eles regeneram ferimentos, dispensando curas milagrosas. Ainda assim, de forma moderada, os finntroll cultivam uma religião baseada na crença de que foram concebidos por Megalokk e Tenebra — chamados por eles Troldhaugen e Dearani, um rei brutal e uma rainha das trevas, impiedosos e sedutores. Acreditam homenagear esses deuses quando provam ao mundo a magnificência de sua maior obra (ou seja, eles mesmos), erguendo templos ostensivos sob o pretexto de agradá-los, mas na verdade buscando alimentar os próprios egos. Tenebra e Megalokk de fato concedem poderes a seus clérigos, que em retribuição fazem peregrinações à superfície para capturar vítimas a serem sacrificadas em seus cultos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "citada", "alvoId": "tenebra", "alvoTipo": "divindade", "rotulo": "Tenebra (Dearani)" },
+    { "tipo": "citada", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Megalokk (Troldhaugen)" }
+  ],
+  "mecanica": { "secao": "Ameaças de Arton", "epiteto": "O império subterrâneo dos finntroll" }
+}
