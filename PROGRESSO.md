@@ -94,14 +94,17 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **2 raças jogáveis novas (`14d7e39` + fixes `6243059`):** Minauro (Tauron — distinto do minotauro do Básico) e Kobold, cruzadas. Sem arte (sidebars sem figura). Fixes de fidelidade: "Ajuntamento Escamoso", "Os do Fundo", "Diferentão", Minauro "nadar".
 - **Total Ameaças: 182 criaturas + 15 raças.** Build 1250 páginas.
 
-### Onda 8 — EM ANDAMENTO
-- **Mascotes & Familiares ✅ (10 criaturas, `de5a718`):** Bogum, Escudeiro, Fofo, Gambá, Homúnculo, Kill'bone, Tentacute, Tropa de Tentacutes, Verilêmur, Malafex (impressas 190–197). 0 reprints. (Dívida leve: flavor de Verilêmur/Malafex resumido.)
-- **PENDENTE nesta onda:** **Masmorras** (impressas 198–208 — **MERGE de tema** com o Básico; reprint-check pesado: Asa-Assassina, Cocatriz, Cocatriz-Real, Harpia Saqueadora, Glop/Glooop/Mamãe Glop, Mantor, Mímico, Quimera, Slark, Tigre-de-Hyninn/Primordial, Brawar ND14) + **raça Harpia** (p.201). Cache já renderizado em `extracao/cache/ameacas/mascotes-plus/`.
-- **Total Ameaças até aqui: 192 criaturas + 15 raças.** Build 1250 páginas.
+### Onda 8 ✅ — Mascotes & Familiares + Masmorras(merge) + raça Harpia
+- **Mascotes & Familiares (10 criaturas, `de5a718`):** Bogum, Escudeiro, Fofo, Gambá, Homúnculo, Kill'bone, Tentacute, Tropa de Tentacutes, Verilêmur, Malafex (impressas 190–197). 0 reprints.
+- **Masmorras (13 criaturas, `43d3001`, MERGE com o Básico):** Asa-Assassina, Cocatriz/Cocatriz-Real, Harpia Saqueadora, Glooop/Mamãe Glop, Mantor, Mímico, Quimera, Slark, Tigre-de-Hyninn/Primordial, Brawar (ND14). **Glop pulado** (reprint do Básico).
+- **Raça Harpia (`c0ab6bb`):** Des+2/Car+1/Int−1, cruzada com Harpia Saqueadora; sem arte (sidebar sem figura). Conferida.
+- **Fix de teste (`...`):** `bestiario-indice.test.tsx` específico por href (Glop/Glooop/Mamãe Glop ambíguos). Suíte **148 verde**.
+- **Total Ameaças: 205 criaturas + 16 raças.** Build 1275 páginas.
 
-**Mapa restante do livro (impressas):** Masmorras 198–208 · Montarias 210–~? · … · Piratas & Pistoleiros 252 · … até ~300. Depois: **fatia final de Itens & Regras** (Dádivas de Aharadak, Semente Rubra, Totens Risonhos, sidebars de regra dos Dragões/Golens Despertos, intro Cap. 1, seção consolidada "Habilidades de Raça" p.303).
+**Mapa restante (impressas):** Montarias 210–~? · … · Piratas & Pistoleiros 252 · … até ~300. Depois: **fatia final de Itens & Regras** (Dádivas de Aharadak, Semente Rubra, Totens Risonhos, sidebars de regra dos Dragões/Golens Despertos, intro Cap. 1, seção consolidada "Habilidades de Raça" p.303).
+**Lembrete do usuário:** ao TERMINAR o livro, reiniciar o dev server (`cd site && npm run dev`) p/ ele ver as atualizações.
 
-**Próxima ação:** terminar a Onda 8 (Masmorras + Harpia), depois Montarias e seguir até ~p.300, e por fim a fatia de Itens & Regras.
+**Próxima onda (Onda 9):** Montarias (p.210) + seguinte(s).
 
 ---
 
