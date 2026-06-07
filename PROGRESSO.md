@@ -136,10 +136,27 @@ Alzeras, Cemitério Vivo, Chacal-Zumbi, Mercenário de Aslothia/Líder, Morgue'r
 - **9 criaturas (`bd85cda`):** Búfalo-de-Guerra, Hippossauro, Mantícora Primal (ND14), Otyugh/Horda, Yidishan Bugbear, Raposa Bucaneira, Búfalo Paladino de Bullton, Coruja Druida. **Mantícora ND6 pulada** (reprint idêntico do Básico).
 - **Raças Yidishan + Moreau (`caafe64`):** Yidishan (construto); Moreau (raça grande com **12 Heranças**: Coruja/Hiena/Raposa/Serpente/Búfalo/Coelho/Crocodilo/Gato/Leão/Lobo/Morcego/Urso). Ambas cruzadas + arte.
 
-## ✅ BESTIÁRIO DE AMEAÇAS COMPLETO — 332 criaturas + 22 raças jogáveis. Build 1416 páginas. (impressas ~10–302; revisão por visão em 100%.)
+## Bestiário principal (impressas ~10–302) — 332 criaturas + 22 raças. (revisão por visão 100%.)
 
-**Falta da Fase 2 (fatia final de Itens & Regras):** itens (Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, Espada Espinhenta/Frutos da Espada-Mãe, Fígado de Lagarto-Trovão, Pistola Demoníaca etc.), sidebars de regra (Templos de Aharadak, Energia Dracônica, Dragões como Familiares/Modificando Dragões, Golens Despertos, Habilidades de Piratas, Novos Poderes de Montarias/Treinar Montarias), intro Cap.1 (Fichas/Tipos/Habilidades Gerais). **Precisa decidir o modelo de dados (tipos `item`/`regra`).**
-**Fora do escopo do bestiário:** Montanhas Sanguinárias (p.306+) = capítulo de **regiões/gazetteer** (lore) — decidir depois se entra nesta fase.
+### Capítulo 1 — Regiões e Criaturas (impressas 306–371) ✅ — usuário pediu "tudo até o fim do livro"
+O Cap.1 é híbrido regiões+criaturas; rendeu MUITO mais bestiário (caches `sanguinarias`/`tail-map`):
+- **Sanguinárias (9, `4dba293`):** Cerianthar, Grande Tachygloss, Oxxdon/Imenso, Razza'Kham, Serpe Anciã, Uraghian Jovem/Adulto, Kaiju (ND20). (Serpe ND5 = reprint pulado.)
+- **Sob as Ondas / Mares (20, `adec98d`+`b33c707`):** Canceronte/de Guerra, Elfo-do-Mar Pescador/Chefe/Druida, Enguia Rainha (ND19), Irukanjin, Água-viva ×3, Nereida, Peixe-Recife, Platan, Selako ×4, Pliorex/Abissal, Kraken (ND19).
+- **Sszzaazitas (16, `597de99`+`30afedd`):** Iniciada de Sszzaas, Elemental do Veneno ×3, Górgona/Matriarca, Nagah ×6 (Encantadora/Dormente/Defensor/Retalhador/Sacerdotisa), Hynne Dormente, Rival Espelho (ND?), Zumbi Peçonha, Nastarrath (ND18), Sszzaazita Celebrante. (Cultista de Sszzaas e Nagah Mística = reprints pulados.)
+- **Trolls Nobres / Finntrolls (13, `29097d2`+`2193f43`):** Arcanista Finntroll, Defeituoso, Mycotann ×3, Finntroll Caçador/Feitor (desambiguados `-ameacas` vs Básico)/Senhor de Estábulo, Perdigueiro Troll, Protetor-Refém, Cavaleiro/Sacerdote/Alto Sacerdote Finntroll.
+- **Uivantes (15, `1468e4a`+`f5ff066`):** Carcaju, Golem de Nor ×3, Mamute, Lyuba (ND14), Minotauro da Manada/Chefe, Ogro Furioso, Keylor, Soterrado vagante, Stagh, Urso das Neves, Verme do Gelo Larva/Adulto (ND18).
+- **4 raças novas (`9a264ea`+`850e40e`):** Elfo-do-Mar, Nagah (macho/fêmea), Finntroll, Soterrado (variante de Osteon). Cross-linked + arte (Soterrado sem figura).
+- **5 regiões + Bispo do Forte Sagrado (`475e39d`):** regioes Sanguinárias/Sob as Ondas/Sszzaazitas/Trolls Nobres/Uivantes (tipo `regiao`); Bispo do Forte Sagrado (criatura, Chefe Final ND10).
+- **Regras do Cap.1 (`157111c`):** 17 entradas `regra` — Novos Perigos (armadilhas/doenças/maldições/perigos ambientais/Fenômenos Rubros/10 perigos complexos) + Chefe Final (arenas + recursos). Revisão 0 issues.
+- **Total Ameaças até aqui: 406 criaturas + 26 raças + 5 regiões + 17 regras.**
+
+### Falta para terminar o livro (impressas 372–432):
+- **Cap.2 — Regras de Ameaças (372–389):** regras adicionais p/ criaturas, Ameaças Desafiadoras (ND/XP/tesouro), Manual de Criação de Ameaças + Tabelas de Parâmetros, Modificar Criaturas, Criação de Bandos. → `regra`/`regra-de-criacao`.
+- **Cap.3 — Bazar Monstruoso (390–405):** Armas, Armaduras, Itens Gerais, Animais, **Itens Mágicos** (400–405), Recursos Naturais, **Novas Magias** (404–405). → `item`/`item-magico`/`magia`. Já renderizado texto em `tail-map`.
+- **Apêndice D — Encontros Aleatórios (422–432):** tabelas d% por terreno/região. → `regra`.
+- **Fatia "Itens & Regras" espalhada no bestiário:** Dádivas de Aharadak, Totens Risonhos, Semente Rubra, Soro Supremo, Espada Espinhenta/Frutos da Espada-Mãe, Fígado de Lagarto-Trovão, itens de Piratas, + sidebars de regra (Templos de Aharadak, Modificando Dragões, Golens Despertos, Habilidades de Piratas, Novos Poderes de Montarias etc.).
+- **Pular (sem conteúdo mecânico):** Lista de Apoiadores (406–415), Apêndices A/B/C (índices/tabela de referência, 416–421).
+- **Dívidas leves:** ícone "anfíbio" no `tipo` de criaturas aquáticas não capturado; "—" de atributo inconsistente; algumas `secoes` de flavor resumidas. Tratar no polimento final.
 
 ---
 
