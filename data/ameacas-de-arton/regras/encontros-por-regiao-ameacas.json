@@ -1,0 +1,167 @@
+{
+  "id": "encontros-por-regiao-ameacas",
+  "tipo": "regra",
+  "nome": "Encontros por Região (Ameaças de Arton)",
+  "resumo": "Sugestões de terrenos e tabelas de encontros para as diversas regiões de Arton, mapeando cada região aos tipos de terreno (e regiões especiais) usados nas tabelas de encontros aleatórios do Apêndice D.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 432
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Encontros por Região",
+      "texto": "A seguir, são listadas sugestões de terrenos e tabelas de encontros para as diversas regiões de Arton."
+    },
+    {
+      "titulo": "Academia Arcana",
+      "texto": "Os campos ao redor da Academia são considerados floresta, mas raramente geram encontros aleatórios. Entretanto, qualquer tipo de terreno pode ser gerado magicamente conforme necessário para atividades acadêmicas."
+    },
+    {
+      "titulo": "Ahlen",
+      "texto": "Planície, mais colina (noroeste) e floresta (Ilha de Collen, oeste e partes do norte)."
+    },
+    {
+      "titulo": "Aslothia",
+      "texto": "Aslothia, mais aquático (litoral) e floresta (norte e leste)."
+    },
+    {
+      "titulo": "Bielefeld",
+      "texto": "Planície, mais Estradas do Reinado, floresta (leste) e Supremacia Purista (fronteira noroeste)."
+    },
+    {
+      "titulo": "Catacumbas de Leverick",
+      "texto": "Subterrâneo."
+    },
+    {
+      "titulo": "Conflagração do Aço",
+      "texto": "Floresta e colina (próximo às fronteiras)."
+    },
+    {
+      "titulo": "Deheon",
+      "texto": "Floresta e planície, mais Estradas do Reinado, aquático (Rios Nerull e da Fortitude), colina (leste), montanha (Teldiskan) e pântano (Pântano dos Juncos)."
+    },
+    {
+      "titulo": "Doherimm",
+      "texto": "Subterrâneo e aquático (sul)."
+    },
+    {
+      "titulo": "Ermos Púrpuras",
+      "texto": "Floresta, mais Aslothia (fronteira leste), montanha (várias) e Supremacia Purista (fronteira oeste)."
+    },
+    {
+      "titulo": "Feudos de Trebuck",
+      "texto": "Planície, mais área de Tormenta (oeste), floresta (várias) e Sanguinárias (leste)."
+    },
+    {
+      "titulo": "Floresta de Tollon",
+      "texto": "Floresta, mais aquático (sul e grandes rios) e colina (norte)."
+    },
+    {
+      "titulo": "Galrasia",
+      "texto": "Galrasia, mais aquático (litoral) e montanha (região central)."
+    },
+    {
+      "titulo": "Halak-Tûr",
+      "texto": "Deserto, mais área de Tormenta, montanha (leste) e planície (sul)."
+    },
+    {
+      "titulo": "Império de Tauron",
+      "texto": "Império de Tauron, mais aquático (litoral sul), floresta (Megalokk, Narinilla, Petrynia) e montanha (fronteira leste)."
+    },
+    {
+      "titulo": "Lamnor",
+      "texto": "Tyrondir/Lamnor, mais aquático (litoral e centro), área de Tormenta (oeste e sul), deserto (Deserto sem Retorno), floresta (Myrvallar e norte), montanha (sul) e pântano (norte)."
+    },
+    {
+      "titulo": "Khalifor",
+      "texto": "Urbano e subterrâneo."
+    },
+    {
+      "titulo": "Khubar",
+      "texto": "Floresta e planície, mais aquático (litoral e entre ilhas) e montanha (região central das ilhas)."
+    },
+    {
+      "titulo": "Montanhas Sanguinárias",
+      "texto": "Sanguinárias, mais aquático (litoral sudeste), e área de Tormenta (leste)."
+    },
+    {
+      "titulo": "Montanhas Uivantes",
+      "texto": "Ártico e montanha, mais aquático (Grande Lago), floresta (sul) e Império de Tauron (oeste)."
+    },
+    {
+      "titulo": "Moreania",
+      "texto": "Aquático (litoral e entre ilhas), floresta (leste), montanha (Montanhas de Marfim) e planície (oeste)."
+    },
+    {
+      "titulo": "Namalkah",
+      "texto": "Planície, mais Estradas do Reinado, aquático (Rio dos Deuses), floresta (norte e leste), montanha (extremo oeste e Desfiladeiro de Dópsia) e Supremacia Purista (fronteira sul)."
+    },
+    {
+      "titulo": "Nova Malpetrim",
+      "texto": "Aquático e urbano."
+    },
+    {
+      "titulo": "Pondsmânia",
+      "texto": "Floresta, mais colina (oeste), planície (leste e oeste) e qualquer outro (à vontade da Rainha)."
+    },
+    {
+      "titulo": "Repúblicas Livres de Samburdia",
+      "texto": "Floresta, mais aquático (Rio dos Deuses, Rio Soupar e litoral sudeste), Aslothia (fronteira sul), planície (oeste e partes do leste e da fronteira sul), montanha e Sanguinárias (fronteira nordeste)."
+    },
+    {
+      "titulo": "Ruínas de Tyrondir",
+      "texto": "Tyrondir/Lamnor, mais aquático (litoral), colina (noroeste) e montanha (noroeste)."
+    },
+    {
+      "titulo": "Salistick",
+      "texto": "Planície, mais aquático (Rio Vermelho), floresta (sul), pântano (Pântano dos Vermes) e Supremacia Purista (fronteira oeste)."
+    },
+    {
+      "titulo": "Sckharshantallas",
+      "texto": "Planície, mais aquático (Lago Allinthonarid e Rio dos Deuses), área de Tormenta (extremo sudoeste), floresta (diversas) e montanha (fronteiras norte, leste e sul),"
+    },
+    {
+      "titulo": "Smokestone",
+      "texto": "Urbano, mais colina e deserto."
+    },
+    {
+      "titulo": "Supremacia Purista",
+      "texto": "Supremacia Purista, mais colina, floresta (Vale do Baixo) e montanha (Monte Kovith)."
+    },
+    {
+      "titulo": "Svalas",
+      "texto": "Planície, mais floresta (Floresta Svalas), e Supremacia Purista (fronteira oeste)."
+    },
+    {
+      "titulo": "Tamu-ra",
+      "texto": "Planície, mais aquático (litoral e rio internos), floresta (norte e sul) e montanha (extremo norte)."
+    },
+    {
+      "titulo": "Triunphus",
+      "texto": "Urbano e montanha (cercanias da cidade)."
+    },
+    {
+      "titulo": "Ubani",
+      "texto": "Planície, mais área de Tormenta (leste e oeste), deserto (norte), floresta (Kivulisi), Império de Tauron (fronteira sudoeste) e Sanguinárias (fronteira leste)."
+    },
+    {
+      "titulo": "Valkaria",
+      "texto": "Urbano e subterrâneo (esgotos e catacumbas)."
+    },
+    {
+      "titulo": "Vectora",
+      "texto": "Urbano, com pequenas áreas de subterrâneo."
+    },
+    {
+      "titulo": "Wynlla",
+      "texto": "Aquático (litoral), Floresta (Floresta Suplicante), Montanha (norte), Urbano (Coridrian, Sophand), Planície e Estradas do Reinado."
+    },
+    {
+      "titulo": "Zakharov",
+      "texto": "Aquático (Rio Panteão), Colinas (Colinas Centrais), Floresta (leste), Supremacia Purista (fronteira leste), Estradas do Reinado e Planície."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

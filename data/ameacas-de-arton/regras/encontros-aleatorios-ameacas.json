@@ -1,0 +1,31 @@
+{
+  "id": "encontros-aleatorios-ameacas",
+  "tipo": "regra",
+  "nome": "Encontros Aleatórios (Ameaças de Arton)",
+  "resumo": "Regras do Apêndice D para usar encontros aleatórios: escolha uma ou mais condições (tempo, barulho, área específica, perigo complexo); quando ocorrerem, role 1d20 +1 por rolagem anterior sem encontro e, com 20 ou mais, role 1d% na tabela do terreno ou região. Inclui ajustes por patamar e o Rhandomm.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 422
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Encontros aleatórios",
+      "texto": "Apesar de todos os esforços do Reinado e de outras organizações, a maior parte de Arton ainda é formada por terras ermas, onde viajantes estão sujeitos a encontrar todo tipo de criaturas, de andarilhos amistosos a predadores vorazes. E mesmo em lugares ditos civilizados, um grupo de aventureiros sempre pode se deparar com o inesperado.\n\nEncontros aleatórios podem facilitar a vida do mestre, fazendo com que ele não precise planejar todas as partes da história. Imagine uma aventura na qual os personagens devem entrar em uma caverna para recuperar um martelo mágico roubado por um dragão. O mestre decide que, na última sala, o dragão estará esperando pelos PJs. Mas e quanto ao resto da caverna? Se os aventureiros ficarem muito tempo perambulando pelos túneis, podem topar com outras criaturas. Claro, o mestre pode definir com antecedência cada habitante de cada sala. Mas, se não quiser ter todo esse trabalho, pode usar encontros aleatórios."
+    },
+    {
+      "titulo": "Como usar",
+      "texto": "Para usar encontros aleatórios, escolha uma ou mais condições da lista abaixo. Sempre que essa condição ocorrer, role 1d20 e adicione +1 para cada rolagem anterior sem um encontro. Se o resultado for 20 ou mais, um encontro acontece. Para determinar o que os aventureiros encontram (ou melhor, pelo que eles são encontrados), role 1d% na tabela correspondente ao tipo de terreno ou região em que eles estão.\n\nPara ajustar os resultados ao patamar de sua aventura, some +30 à rolagem se o grupo estiver em patamar veterano, +70 se estiver em patamar campeão e +110 em patamar lenda."
+    },
+    {
+      "titulo": "Condições",
+      "texto": "Tempo. A condição mais básica. Role o dado a cada hora ou dia, de acordo com a situação do jogo. Por exemplo, se os aventureiros estiverem explorando uma ruína, role um dado por hora. Por outro lado, se estiverem numa viagem de uma semana de uma cidade a outra, role o dado a cada dia. Se você não quiser controlar o tempo do jogo, role a cada cena, ou sempre que os heróis fizerem algo que leva muito tempo, como escolher 20 num teste de perícia ou ficar um dia acampados para recuperar pontos de vida e magia.\n\nBarulho. Role o dado sempre que os personagens fizerem algo barulhento ou que, de alguma outra forma, chame atenção. Por exemplo, se o ladino do grupo não conseguir arrombar uma porta trancada e o bárbaro resolver derrubá-la com seu machado, há uma chance de encontro.\n\nÁrea Específica. Role um dado sempre que os aventureiros passarem por uma área específica, determinada com antecedência por você. Normalmente, será um lugar importante ou muito movimentado, como um corredor que leva ao quarto do rei em um castelo, ou uma clareira no centro de um bosque. Provavelmente será uma área pela qual os aventureiros deverão passar para cumprir sua missão. Por outro lado, se os heróis tiverem uma ideia que permita que circundem esse lugar, melhor para eles.\n\nPerigo Complexo. Certos perigos complexos, como Jornada pelos Ermos, podem ser combinados com encontros aleatórios. Neste caso, role um dado sempre que o grupo (ou o personagem que está representando o grupo) falhar em um teste do perigo."
+    },
+    {
+      "titulo": "O Rhandomm",
+      "texto": "Uma força do caos que capaz de se manifestar em qualquer lugar de Arton, o Rhandomm é uma ameaça que pode surgir nos momentos e lugares menos esperados. Sempre que rolar um 100 natural (um resultado de 100 no dado de %) em uma tabela de encontros, qualquer que seja o patamar, role 1d4. Em um resultado “1”, substitua o encontro pelo Rhandomm."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}
