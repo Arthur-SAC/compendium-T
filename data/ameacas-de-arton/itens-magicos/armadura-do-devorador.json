@@ -1,0 +1,24 @@
+{
+  "id": "armadura-do-devorador",
+  "tipo": "item-magico",
+  "nome": "Armadura do Devorador",
+  "resumo": "Simbionte lefeu (\"bioarmadura\") que se ancora ao crânio do hospedeiro e reveste seu corpo com uma armadura completa de matéria vermelha; uma das Dádivas de Aharadak.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Dádivas de Aharadak (simbiontes)",
+      "texto": "Os devotos favoritos do Devorador são muitas vezes recompensados com simbiontes — um tipo especial de criatura lefeu. São pequenos, na forma de ovos, casulos, larvas ou vermes. Quando encontram um hospedeiro (voluntário, indefeso ou inconsciente), lançam raízes em sua carne e penetram a ponto de tornar impossível a remoção, causando mudanças extremas em sua anatomia e permitindo manifestar variados poderes aberrantes. Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados; o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte. Apesar de sua origem sinistra, existe mercado para simbiontes em suas formas larvais, ainda não unidos a hospedeiros; são itens valiosos que não podem ser roubados (nem removidos), mas é sempre raro achá-los à venda, mesmo em lugares como Vectora."
+    },
+    {
+      "titulo": "",
+      "texto": "Também conhecido como \"bioarmadura\", em sua forma natural este simbionte lembra um grotesco tatuzinho, mas do tamanho de uma mão aberta. Ele rasteja até a fronte do hospedeiro, ancorando-se ao crânio, assumindo o aspecto de uma tiara ou elmo macabro. Quando ativada, crostas revestem o corpo do hospedeiro, formando uma armadura completa. Invocar a Armadura do Devorador é uma ação livre. Isso faz com que o corpo do hospedeiro seja coberto por crostas e carapaças aberrantes que funcionam como uma armadura completa espinhosa selada sob medida de matéria vermelha que não requer proficiência. Além disso, quando a armadura é ativada, o hospedeiro não precisa respirar. Ela também é ativada involuntariamente como uma reação sempre que o hospedeiro sofre dano. É possível evitar uma ativação involuntária, mas para isso é necessário passar em um teste de Vontade (CD 10 + dano sofrido). Em ambos os casos, quando a armadura é ativada o hospedeiro perde 1d4 pontos de vida devido à dor da transformação e qualquer outra armadura que ele esteja usando é destruída. Desativar a bioarmadura é uma ação livre."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Simbionte (Dádiva de Aharadak)",
+    "preco": "T$ 54.000",
+    "ativacao": "ação livre"
+  }
+}

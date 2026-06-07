@@ -1,0 +1,23 @@
+{
+  "id": "flagelo-do-devorador",
+  "tipo": "item-magico",
+  "nome": "Flagelo do Devorador",
+  "resumo": "Simbionte lefeu (\"escorpião da tempestade\") preso ao antebraço do hospedeiro; conta como escudo leve de matéria vermelha e permite lançar Jato Corrosivo; uma das Dádivas de Aharadak.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Dádivas de Aharadak (simbiontes)",
+      "texto": "Os devotos favoritos do Devorador são muitas vezes recompensados com simbiontes — um tipo especial de criatura lefeu. Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados; o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte."
+    },
+    {
+      "titulo": "",
+      "texto": "Este simbionte lembra um grande escorpião com a aparência agressiva e alienígena dos lefeu — sendo por isso também conhecido como \"escorpião da tempestade\". Prende-se ao antebraço do hospedeiro, cravando garras quase até os ossos e espalhando raízes sinistras pelo corpo todo, salientes sob a pele. O Flagelo do Devorador conta como um escudo leve de matéria vermelha. Além disso, o hospedeiro pode lançar Jato Corrosivo com tempo de conjuração de ação de movimento. Se aprender essa magia, seu custo é reduzido em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Simbionte (Dádiva de Aharadak)",
+    "preco": "T$ 33.000"
+  }
+}

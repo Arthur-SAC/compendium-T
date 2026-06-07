@@ -1,0 +1,18 @@
+{
+  "id": "espada-espinhenta",
+  "tipo": "item-magico",
+  "nome": "Espada Espinhenta",
+  "resumo": "Espada bastarda atroz de madeira Tollon, tão efetiva quanto uma de aço; presente de Allihanna a seus devotos, mantém-se fresca enquanto pertencer ao devoto.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 245 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada bastarda atroz de madeira Tollon é tão efetiva quanto uma feita de aço. Se tomada à força, apodrece em pouco tempo (em termos de regras, se desfaz ao fim da aventura). Em situações especiais, Allihanna pode enviar um espada-da-floresta para presentear um de seus devotos com uma destas lâminas. Neste caso, a lâmina se manterá fresca enquanto pertencer ao devoto."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Arma Específica"
+  }
+}

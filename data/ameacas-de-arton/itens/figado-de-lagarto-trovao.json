@@ -1,0 +1,20 @@
+{
+  "id": "figado-de-lagarto-trovao",
+  "tipo": "item",
+  "nome": "Fígado de Lagarto-Trovão",
+  "resumo": "Símbolo de coragem e poder; abençoado em ritual e ingerido por quem derrotou a criatura, concede +1 em Força permanente (uma única vez).",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 248 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um símbolo de coragem e poder, o fígado do lagarto-trovão conserva uma fração da força da criatura. Obter isso exige que o fígado seja abençoado por um druida ou clérigo de Allihanna ou Megalokk em um ritual de 1 hora que consome T$ 3.000 em materiais. Após isso, se ingerido pelo personagem que derrotou o lagarto, o fígado fornece +1 em Força. Um personagem só pode aumentar sua Força desta forma uma vez."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "T$ 3.000 em materiais (ritual)",
+    "especial": "Abençoado por um druida ou clérigo de Allihanna ou Megalokk em ritual de 1 hora (consome T$ 3.000 em materiais). Ingerido pelo personagem que derrotou o lagarto, fornece +1 em Força. Um personagem só pode aumentar sua Força desta forma uma vez."
+  }
+}

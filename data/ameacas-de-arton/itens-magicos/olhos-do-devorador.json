@@ -1,0 +1,23 @@
+{
+  "id": "olhos-do-devorador",
+  "tipo": "item-magico",
+  "nome": "Olhos do Devorador",
+  "resumo": "Simbionte lefeu (\"visorg\") que substitui os olhos do hospedeiro; concede +5 em Percepção, visão no escuro e Visão da Verdade; uma das Dádivas de Aharadak.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Dádivas de Aharadak (simbiontes)",
+      "texto": "Os devotos favoritos do Devorador são muitas vezes recompensados com simbiontes — um tipo especial de criatura lefeu. Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados; o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte."
+    },
+    {
+      "titulo": "",
+      "texto": "Chamado por alguns de \"visorg\", este simbionte de corpo achatado lembra uma mão enrugada com dedos compridos e duas grandes gemas vermelhas incrustadas no dorso. Uma vez posicionada no rosto do hospedeiro, a criatura crava seus \"dedos\", permanentemente prendendo-se à sua face e substituindo seus olhos. O hospedeiro recebe +5 em Percepção, enxerga perfeitamente no escuro, incluindo em magias de escuridão, e não pode ser flanqueado. Além disso, pode lançar a magia Visão da Verdade. Se aprender essa magia, seu custo é reduzido em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Simbionte (Dádiva de Aharadak)",
+    "preco": "T$ 34.000"
+  }
+}

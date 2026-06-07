@@ -1,0 +1,20 @@
+{
+  "id": "semente-rubra",
+  "tipo": "item",
+  "nome": "Semente Rubra",
+  "resumo": "Baga de odor ocre encontrada apenas em áreas de Tormenta; na verdade um alimento mágico que cura intensamente, mas deixa o organismo debilitado.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda, e podem alcançar preços de até T$ 3.600."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "até T$ 3.600",
+    "especial": "Consumir uma semente cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. Também causa um choque temporário, deixando o personagem debilitado até o fim de seu próximo turno."
+  }
+}

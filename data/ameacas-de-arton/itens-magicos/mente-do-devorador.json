@@ -1,0 +1,23 @@
+{
+  "id": "mente-do-devorador",
+  "tipo": "item-magico",
+  "nome": "Mente do Devorador",
+  "resumo": "Simbionte lefeu (\"psinídeo\") agarrado à cabeça do hospedeiro; concede +1 em Inteligência e Sabedoria e uma magia arcana de encantamento de 1º círculo; uma das Dádivas de Aharadak.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Dádivas de Aharadak (simbiontes)",
+      "texto": "Os devotos favoritos do Devorador são muitas vezes recompensados com simbiontes — um tipo especial de criatura lefeu. Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados; o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte."
+    },
+    {
+      "titulo": "",
+      "texto": "Este simbionte, conhecido por alguns como \"psinídeo\", lembra uma grande aranha, com um abdome macabro em forma de cérebro humano. Ele agarra-se à cabeça do hospedeiro com suas longas patas, enterrando ali seu corpo. O hospedeiro recebe +1 em Inteligência e Sabedoria (cumulativo com outros itens), e pode lançar uma magia arcana de encantamento de 1º círculo (escolhida quando o simbionte é implantado; atributo-chave Inteligência ou Sabedoria). Se aprender essa magia, seu custo é reduzido em –1 PM."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Simbionte (Dádiva de Aharadak)",
+    "preco": "T$ 34.000"
+  }
+}

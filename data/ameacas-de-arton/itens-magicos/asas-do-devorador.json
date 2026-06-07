@@ -1,0 +1,24 @@
+{
+  "id": "asas-do-devorador",
+  "tipo": "item-magico",
+  "nome": "Asas do Devorador",
+  "resumo": "Simbionte lefeu (\"pterodraco\") que se prende às costas do hospedeiro e lhe concede grandes asas membranosas para voar; uma das Dádivas de Aharadak.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Dádivas de Aharadak (simbiontes)",
+      "texto": "Os devotos favoritos do Devorador são muitas vezes recompensados com simbiontes — um tipo especial de criatura lefeu. Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados; o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte."
+    },
+    {
+      "titulo": "",
+      "texto": "Também conhecido como \"pterodraco\", este simbionte lembra uma grande concha com olhos telescópicos e centenas de pequenas patas. O simbionte se une ao hospedeiro instalando-se em suas costas. Suas inúmeras patas se cravam na carne até atingir a coluna, onde se prendem permanentemente. Quando a simbiose é bem-sucedida, o pterodraco desenvolve um par de grandes asas membranosas. O hospedeiro pode gastar 2 PM para ativar as Asas do Devorador e ganhar deslocamento de voo igual ao seu deslocamento em terra com duração sustentada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Simbionte (Dádiva de Aharadak)",
+    "preco": "T$ 27.000",
+    "ativacao": "2 PM (duração sustentada)"
+  }
+}

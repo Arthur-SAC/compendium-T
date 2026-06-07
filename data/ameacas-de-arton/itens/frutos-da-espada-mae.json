@@ -1,0 +1,19 @@
+{
+  "id": "frutos-da-espada-mae",
+  "tipo": "item",
+  "nome": "Frutos da Espada-Mãe",
+  "resumo": "Fruto que alimenta e cura, procurado por alvos de maldições e pragas; ingerido, cura e remove condições negativas, doenças e venenos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 245 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Desesperadamente procurado por aqueles que são alvos de maldições e pragas, esse fruto alimenta e cura. Ingerir um fruto da espada-mãe é uma ação padrão e cura 4d8+4 pontos de vida e remove todas as condições negativas, doenças e venenos que estejam afetando um personagem. Um fruto da espada-mãe não consumido apodrece ao fim da aventura."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "especial": "Ingerir um fruto é uma ação padrão e cura 4d8+4 PV e remove todas as condições negativas, doenças e venenos que estejam afetando o personagem. Um fruto não consumido apodrece ao fim da aventura."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "soro-supremo",
+  "tipo": "item",
+  "nome": "Soro Supremo",
+  "resumo": "Composto alquímico extraído do corpo de um soldado superior purista; ingerido, aumenta permanentemente um atributo físico em +1.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 282 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um personagem de posse do corpo de um soldado superior pode tentar extrair uma fração do soro que concede a ele seu poder. Isso é um teste estendido de Ofício (alquimista) com CD 40 em que o personagem precisa obter 5 sucessos antes de 3 falhas. Cada teste representa um dia de trabalho. Se passar, o personagem obtém uma dose de soro supremo. Se falhar, arruína a amostra e não pode mais tentar com este corpo. Ingerir uma dose do soro supremo aumenta permanentemente Força, Destreza ou Constituição (escolhido na fabricação do soro) em +1. Um personagem só pode se beneficiar de uma dose de soro supremo."
+    },
+    {
+      "titulo": "",
+      "texto": "Além de ser um segredo muito bem guardado pelos puristas, o soro supremo é um composto extremamente volátil, preparado para um indivíduo específico. Por esta razão, não é encontrado à venda."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquimico",
+    "preco": "não é encontrado à venda",
+    "especial": "Extraído do corpo de um soldado superior com teste estendido de Ofício (alquimista) CD 40 (5 sucessos antes de 3 falhas; cada teste = um dia). Ingerir uma dose aumenta permanentemente Força, Destreza ou Constituição (escolhido na fabricação) em +1. Um personagem só pode se beneficiar de uma dose."
+  }
+}
