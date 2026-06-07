@@ -23,8 +23,12 @@ test("menu do bestiário lista o tema Os Dragões com link próprio", () => {
 });
 
 test("sub-página do tema lista o Glop com link para a ficha", async () => {
-  render(await PaginaTema({ params: Promise.resolve({ tema: temaSlugDe("glop") }) }));
-  expect(screen.getByRole("link", { name: /Glop/ })).toHaveAttribute("href", "/ficha/criatura/glop");
+  // Específico por href: o tema Masmorras agora tem Glop, Glooop e Mamãe Glop
+  // (um match por /Glop/ pegaria os três).
+  const { container } = render(await PaginaTema({ params: Promise.resolve({ tema: temaSlugDe("glop") }) }));
+  const link = container.querySelector('a[href="/ficha/criatura/glop"]');
+  expect(link).toBeInTheDocument();
+  expect(link).toHaveTextContent("Glop");
 });
 
 test("sub-página de Os Dragões lista o Dragão-Rei", async () => {
