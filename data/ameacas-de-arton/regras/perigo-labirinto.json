@@ -1,0 +1,38 @@
+{
+  "id": "perigo-labirinto",
+  "tipo": "regra",
+  "nome": "Labirinto (Perigo Complexo, ND 6)",
+  "resumo": "Perigo complexo (ND 6). Os personagens se deparam com um emaranhado de caminhos e precisam descobrir qual deles leva até a saída. Objetivo: sair do labirinto.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 366
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Labirinto (ND 6)",
+      "texto": "Os personagens se deparam com um emaranhado de caminhos e precisam descobrir qual deles leva até a saída."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Sair do labirinto."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "Para sair do labirinto, o grupo precisa acumular uma quantidade de sucessos na ação guiar, conforme a extensão do labirinto: 3 sucessos para um labirinto pequeno (algumas salas e corredores), 5 sucessos para um labirinto médio (os subterrâneos de uma pequena cidade) ou 7 sucessos para um labirinto extenso (um complexo de túneis e salas sob uma metrópole). O mestre determina quanto tempo cada rodada de testes representa; para labirintos curtos 1 rodada pode equivaler a 1 hora, enquanto em labirintos mais extensos isso pode ser algumas horas ou um dia.\n\nNo fim de cada turno, cada personagem deve fazer um teste de Fortitude (CD 20). Se falhar, perde 2d6 pontos de vida. Essa perda de vida representa cansaço, armadilhas e outros perigos, e só pode ser curada a partir de um dia após sair do labirinto."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Guiar (Sobrevivência CD 25 ou 30). O personagem guia o grupo pelo labirinto. Quando faz esta ação, ele pode procurar um caminho mais seguro; isso aumenta a CD para 30, mas, em caso de sucesso, a CD do teste de Fortitude para evitar a perda de vida nesta rodada é reduzida em 5. Apenas um personagem pode fazer esta ação por rodada.\n\nAjudar o Guia (Varia). O personagem faz um teste para ajudar (veja Tormenta20, p. 221). O jogador pode usar qualquer perícia que conseguir justificar, mas cada perícia só pode ser usada uma vez na mesma rodada.\n\nCalcular Rota (Conhecimento CD 20). O personagem calcula uma rota com base na arquitetura ou em outros indícios do lugar. Se passar, fornece +5 no próximo teste de guiar. Se falhar, aumenta a CD do teste de Fortitude desta rodada em +5.\n\nProteger-se (Nenhum Teste). O personagem se resguarda e evita os perigos do labirinto. Nesta rodada, ele recebe +5 no teste de Fortitude para evitar a perda de vida."
+    },
+    {
+      "titulo": "Variante: Labirinto Mental",
+      "texto": "Este labirinto representa um desafio físico, no qual os personagens se cansam e sofrem ferimentos. Você pode usar este perigo para representar um labirinto que testa a sanidade e capacidade mental dos personagens. Para isso, substitua o teste de Fortitude por Vontade e a perda de vida por perda de 1d4 PM. Um personagem reduzido a 0 PM desta forma fica em estado catatônico, incapaz de agir. Se todo o grupo ficar neste estado, os personagens sucumbem à loucura do lugar.\n\nEste perigo é um labirinto simplificado, que pode ser usado como uma etapa de uma aventura maior. É possível criar labirintos mais complexos, com salas, criaturas e armadilhas elaboradas. Contudo, explorar um labirinto desses será uma aventura completa, não um perigo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "objetivo": "Sair do labirinto."
+  }
+}

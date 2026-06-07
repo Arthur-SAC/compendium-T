@@ -1,0 +1,34 @@
+{
+  "id": "perigo-pesquisa",
+  "tipo": "regra",
+  "nome": "Pesquisa (Perigo Complexo, ND 2)",
+  "resumo": "Perigo complexo (ND 2). O grupo precisa pesquisar uma informação em uma biblioteca, livraria ou amontoado de livros e pergaminhos. Objetivo: encontrar a informação.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 367
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Pesquisa (ND 2)",
+      "texto": "O grupo precisa pesquisar uma informação em uma biblioteca, livraria ou amontoado de livros e pergaminhos."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Encontrar a informação."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "O grupo precisa acumular 6 sucessos para encontrar a informação. Para cada falha, os personagens perdem 1 PM devido ao esforço mental; um personagem reduzido a 0 PM dessa forma fica frustrado até o fim do dia. Se o grupo acumular 4 falhas, todos os personagens ficam frustrados até o fim do dia e só podem tentar novamente no dia seguinte (mas mantêm os sucessos acumulados)."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Usar Biblioteca (Investigação CD 15). O personagem vasculha os livros e textos à disposição, reunindo pistas para encontrar a informação.\n\nConsultar o Sobrenatural (Misticismo ou Religião CD 15). Se a informação for relativa a conhecimento místico ou divino, o personagem pode usar a perícia correspondente para ajudar a encontrar a informação. Cada personagem só pode usar esta ação uma vez por pesquisa.\n\nEstudar Textos (Conhecimento CD 12). O personagem combina seus conhecimentos específicos com os textos à disposição para encontrar a informação.\n\nAjudar (Varia CD 10). O personagem faz um teste para ajudar (veja Tormenta20, p. 221) um aliado. O jogador pode usar qualquer perícia que conseguir justificar — Atletismo para carregar livros, Intuição para adivinhar qual pergaminho tem certa informação etc. Este uso não conta como um sucesso."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "objetivo": "Encontrar a informação."
+  }
+}

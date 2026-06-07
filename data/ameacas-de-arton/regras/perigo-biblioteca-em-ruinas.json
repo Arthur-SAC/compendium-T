@@ -1,0 +1,34 @@
+{
+  "id": "perigo-biblioteca-em-ruinas",
+  "tipo": "regra",
+  "nome": "Biblioteca em Ruínas (Perigo Complexo, ND 10)",
+  "resumo": "Perigo complexo (ND 10). Os personagens precisam pesquisar uma informação em uma biblioteca muito antiga — mas ela está ruindo! Objetivo: obter a informação necessária antes que a biblioteca desabe.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 363
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Biblioteca em Ruínas (ND 10)",
+      "texto": "Os personagens precisam pesquisar uma informação em uma biblioteca muito antiga. Mas ela está ruindo!"
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Obter a informação necessária antes que a biblioteca desabe."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "Para encontrar a informação, o grupo precisa acumular 6 sucessos nas ações a seguir. Os personagens têm 4 rodadas para agir livremente. Na quinta, a biblioteca entra em colapso; os personagens ainda podem agir, mas qualquer um dentro do local sofre 12d6 pontos de dano de impacto. Na sexta rodada, a biblioteca desaba completamente e qualquer personagem dentro dela sofre 20d6 pontos de dano de impacto.\n\nNo início de cada rodada, role 1d6 e consulte a lista de efeitos abaixo.\n\n1-3) Desmoronamento de livros. Estantes pesadas caem por todos os lados. Cada personagem sofre 4d6 pontos de dano de impacto (Ref CD 25 evita).\n\n4) Pequeno incêndio. Uma vela, lamparina ou tocha cai no chão, começando um pequeno incêndio. Qualquer número de personagens pode abrir mão de sua ação nesta rodada para tentar apagar as chamas. Isso requer passar em um teste de Destreza (CD 15). Até que as chamas sejam apagadas, a CD de todos os testes contra este perigo aumenta em +2 para cada rodada de chamas.\n\n5) Fissura no chão. Fendas se abrem no chão. Cada personagem deve fazer um teste de Acrobacia ou Atletismo (CD 25). Se falhar, tropeça e sofre –5 em sua próxima ação contra o perigo.\n\n6) Bloqueio. Escolha um personagem aleatoriamente. Um desabamento está prestes a bloquear o caminho dele. O personagem pode desistir deste corredor e procurar outro (perdendo a ação nesta rodada) ou tentar correr antes que o desabamento termine. Nesse caso, precisa fazer um teste de Atletismo (CD 25). Se passar, pode agir normalmente. Se falhar, perde a ação e sofre 4d6 pontos de dano de impacto."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Usar Biblioteca (Investigação CD 22). O personagem percorre os corredores em busca de livros que possam trazer a informação necessária.\n\nAjuda Esotérica (Misticismo ou Religião CD 22). Se a informação que o grupo busca for relativa a magia ou aos deuses, o personagem pode usar a perícia correspondente para pesquisar.\n\nJulgar pela Capa (Conhecimento CD 22). O personagem procura títulos relativos ao tema da pesquisa. Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como dois sucessos.\n\nPalpite Fortuito (Intuição CD 22). O personagem usa sua intuição para deduzir quais livros poderiam ser de alguma ajuda.\n\nCoordenar Pesquisa (Conhecimento CD 10). O personagem faz um teste para ajudar. Não conta como um sucesso, mas o bônus de ajuda se aplica a todos os membros do grupo nesta rodada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "10",
+    "objetivo": "Obter a informação necessária antes que a biblioteca desabe."
+  }
+}

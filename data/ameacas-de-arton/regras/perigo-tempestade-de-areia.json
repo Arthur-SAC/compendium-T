@@ -1,0 +1,34 @@
+{
+  "id": "perigo-tempestade-de-areia",
+  "tipo": "regra",
+  "nome": "Tempestade de Areia (Perigo Complexo, ND 5)",
+  "resumo": "Perigo complexo (ND 5). Atravessando terras desérticas, os personagens são apanhados por uma tempestade de areia. Objetivo: sobreviver à passagem das areias.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 367
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tempestade de Areia (ND 5)",
+      "texto": "Atravessando terras desérticas, os personagens são apanhados por uma tempestade de areia."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Sobreviver à passagem das areias. A tempestade dura 2d4+1 rodadas. Após esse período, ela se torna um vento fraco, sem os efeitos a seguir."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "No início de seu turno, cada personagem deve fazer um teste de Fortitude (CD 20+1d6; role uma vez no início de cada rodada e aplique a mesma CD para todos os personagens). Se falhar, sofre 4d4 pontos de dano de corte e fica cego até o início de seu próximo turno. Se falhar por 10 ou mais, além disso começa a sufocar (veja Tormenta20, p. 319). Um personagem cego sofre –5 em todas as ações abaixo.\n\nAlém disso, no fim de cada rodada, role 1d4 para cada animal ou monstro irracional acompanhando o grupo. Num resultado 1, a criatura se assusta e foge, desaparecendo na tempestade. Uma criatura que fuja desta forma pode ser encontrada quando a tempestade passar com um teste de Sobrevivência (CD 20 + a duração da tempestade em rodadas). Contudo, há 25% de chance de estar morta.\n\nOs personagens têm direito a um teste de Sobrevivência (CD 20) para perceber a tempestade de areia iniciando. Quem passar pode realizar uma ação adicional na primeira rodada."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Proteger-se (Acrobacia ou Atletismo CD 15). O personagem se encolhe no chão e recebe +2 no próximo teste de Fortitude contra a tempestade.\n\nCobrir-se (Sobrevivência CD 15). O personagem se cobre com uma capa, saco de dormir ou equivalente. Ele recebe +5 no próximo teste de Fortitude contra a tempestade e +2 no seguinte. Após isso, o item é destruído.\n\nProcurar Abrigo (Percepção ou Sobrevivência CD 25). O personagem encontra uma proteção, como uma vala ou rocha alta. Ele recebe +5 nos testes de Fortitude contra este perigo até o fim da cena.\n\nProteger Aliado (Sobrevivência CD 15). O personagem usa seu próprio corpo para proteger um aliado adjacente. Na próxima rodada, sofre –5 em seu teste de Fortitude, mas o aliado recebe +5.\n\nLavar o Rosto (Cura CD 15). O personagem remove a cegueira e o sufocamento causados pela tempestade de si mesmo ou de um aliado.\n\nAcalmar Animal (Adestramento CD 25). O personagem acalma um animal ou monstro irracional. Isso elimina a chance de a criatura fugir durante a tempestade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "objetivo": "Sobreviver à passagem das areias."
+  }
+}

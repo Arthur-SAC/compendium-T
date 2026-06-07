@@ -1,0 +1,34 @@
+{
+  "id": "perigo-inundacao-de-esgoto",
+  "tipo": "regra",
+  "nome": "Inundação de Esgoto (Perigo Complexo, ND 4)",
+  "resumo": "Perigo complexo (ND 4). Vasculhando túneis subterrâneos, o grupo é surpreendido por uma inundação súbita. Objetivo: sobreviver à inundação.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 366
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Inundação de Esgoto (ND 4)",
+      "texto": "Vasculhando túneis subterrâneos, como os esgotos de uma grande cidade ou uma masmorra próxima de um rio, o grupo é surpreendido por uma inundação súbita."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Sobreviver à inundação."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "O grupo precisa correr por 1d4+4 rodadas para evitar ser engolfado pelas águas. Após esse tempo, a inundação perde força ou os personagens encontram uma saída.\n\nOs personagens têm direito a um teste de Percepção (CD 20) para perceber a inundação se aproximando. Quem passar pode realizar uma ação adicional em sua primeira rodada.\n\nNo início de cada rodada, role 1d6 e some o resultado à CD de todos os testes deste perigo. Isso representa detritos e obstáculos no caminho dos personagens.\n\nA inundação começa a 6m dos personagens e se move 6m no fim de cada rodada. Se for alcançado pela inundação, um personagem fica com água pelos joelhos e sofre −2 nos testes de correr e carregar outro. Se for ultrapassado, é engolfado pelas águas. Um personagem engolfado não pode fazer as ações correr ou carregar outro, sofre 4d6 pontos de dano de impacto no fim de seu turno e deve prender a respiração (veja Tormenta20, p. 319). Devido à violência da água, cada rodada engolfado conta como 2 rodadas de sufocamento."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Correr (Atletismo CD 20). O personagem corre para longe da inundação. Se passar, avança 6m. Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como 2 sucessos. Este teste recebe os mesmos modificadores da ação corrida (veja Tormenta20, p. 116) e pode ser substituído por Cavalgar ou Pilotagem, caso o personagem esteja usando uma montaria ou veículo.\n\nCarregar Outro (Atletismo CD 25). O personagem carrega um aliado próximo (com no máximo 1 sucesso de diferença). Isso funciona como a ação correr, acima, mas com CD maior. Se passar, o personagem e o aliado avançam 6m.\n\nEvitar Colisão (Atletismo ou Reflexos CD 20). Um personagem engolfado pela inundação pode tentar evitar ser jogado pelas águas contra paredes e detritos. Se passar, reduz o dano da inundação nesta rodada à metade. Um sucesso por 10 ou mais (ou um 20 natural no teste) evita todo o dano.\n\nAgarrar-se (Atletismo CD 20). Esta ação só pode ser executada por um personagem que tenha passado em um teste de evitar colisão na rodada anterior. O personagem se agarra a uma parede ou outra estrutura fixa. Se passar, não sofre dano da inundação e pode repetir esta ação na próxima rodada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "objetivo": "Sobreviver à inundação."
+  }
+}

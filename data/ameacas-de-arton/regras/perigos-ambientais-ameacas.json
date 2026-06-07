@@ -1,0 +1,54 @@
+{
+  "id": "perigos-ambientais-ameacas",
+  "tipo": "regra",
+  "nome": "Perigos Ambientais (Ameaças de Arton)",
+  "resumo": "Novos perigos ambientais de Arton — Ar Saturado, Área Desencantada, Areia Movediça, Dejetos Alquímicos, Eletricidade, Lodo Negro e Rio Congelado — com seus efeitos, testes de resistência e CDs.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 358
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Novos Perigos",
+      "texto": "Criaturas não são as únicas ameaças que podem se colocar no caminho dos personagens. De simples areia movediça à fúria de um deslizamento de neve, o mundo é repleto de desafios que podem encerrar prematuramente a carreira de qualquer aventureiro."
+    },
+    {
+      "titulo": "Ar Saturado",
+      "texto": "Um personagem em uma área onde a umidade do ar é excessiva deve fazer um teste de Fortitude (CD 15) por dia de exposição. Se falhar, fica alquebrado e fatigado devido ao esforço para respirar (esse é um efeito de metabolismo). Além disso, nessas áreas, efeitos climáticos de calor e frio causam +1d6 pontos de dano, e as condições de descanso são sempre uma categoria piores."
+    },
+    {
+      "titulo": "Área Desencantada",
+      "texto": "Embora a magia seja uma das forças primordiais de Arton, em alguns lugares ela existe em quantidades muito pequenas. Isso pode ser efeito de um desastre mágico, resultado de uma maldição ou apenas uma inexplicável característica natural da área. Em uma área desencantada, o custo em pontos de mana de habilidades e efeitos aumenta em +1 e a recuperação de PM por descanso é sempre ruim, independente de outros efeitos e condições (como um acampamento)."
+    },
+    {
+      "titulo": "Areia Movediça",
+      "texto": "Presente em pântanos e desertos, areia movediça pode engolir criaturas e objetos. Em geral, ocupa um quadrado com 6m. Um personagem deve passar em um teste de Sobrevivência (CD 25) para notar areia movediça à frente. Se entrar na área da areia, fica agarrado. Se passar 1 rodada inteira agarrado, submerge no início de seu turno e precisa prender a respiração (veja “Sufocamento” em Tormenta20, p. 319).\n\nUma criatura na areia movediça pode gastar uma ação completa e fazer um teste de Atletismo (CD 25) para escapar. Se estava submersa, fica agarrada. Se estava agarrada, fica livre na margem da areia. Porém, se falhar por 5 ou mais, fica fatigada (se já estava fatigada, fica exausta e, se já estava exausta, fica inconsciente, provavelmente morrendo…).\n\nPersonagens fora da área de areia movediça podem ajudar no teste de Atletismo (jogando um galho, vara ou corda para a vítima, por exemplo)."
+    },
+    {
+      "titulo": "Dejetos Alquímicos",
+      "texto": "Em certos locais, acidentes com poções e preparados alquímicos formam poças desses materiais. Só os deuses sabem os efeitos que podem causar àqueles desastrados o suficiente para perturbar a mistura. Uma área de dejetos alquímicos geralmente ocupa um quadrado de 3m, mas a critério do mestre pode ser maior ou menor. Um personagem na área de dejetos alquímicos, ou em contato com eles, sofre 4d4 pontos de dano de ácido e uma condição adicional por um dia, determinada aleatoriamente (Fort CD 20 reduz o dano à metade e evita a condição). Role 1d6 para determinar a condição adicional: 1) abalado; 2) alquebrado; 3) cego; 4) enjoado; 5) fatigado; 6) lento."
+    },
+    {
+      "titulo": "Eletricidade",
+      "texto": "Embora não seja comumente empregada em Arton, eletricidade pode ser encontrada em certos lugares, sobretudo naqueles que abrigam tecnologias experimentais, como laboratórios de inventores. A cada rodada de contato com uma fonte de eletricidade, uma criatura sofre 2d6 pontos de dano e fica atordoada por 1 rodada (Fort CD 20 reduz o dano à metade e evita a condição; uma criatura molhada e/ou usando armadura de metal sofre –5 em seu teste de Fortitude). Sempre que o resultado de um dado de dano for o valor máximo, role um dado adicional de dano."
+    },
+    {
+      "titulo": "Lodo Negro",
+      "texto": "Descoberto como sendo a essência de Ragnar, o antigo Deus da Morte, este líquido viscoso pode brotar em qualquer lugar, sendo mais abundante nas Ruínas de Tyrondir. Visto por seus antigos devotos como a última dádiva de seu deus morto, o lodo negro mata tudo que toca. Uma criatura viva que entre em contato com ele deve fazer um teste de Fortitude (CD 35) a cada rodada. Se passar, perde 10d12 PV. Se falhar, sofre a perda de PV ou seus PV são reduzidos a –10 (o que for pior). Imersão total mata a criatura instantaneamente, sem direito a testes. Além disso, o lodo negro é imprevisível e pode atravessar barreiras sólidas sem aviso, sendo impossível armazená-lo em qualquer recipiente."
+    },
+    {
+      "titulo": "Rio Congelado",
+      "texto": "Um rio congelado normalmente mede de 9m a 18m de uma margem a outra. Você pode andar sobre o gelo à metade do seu deslocamento sem testes. Porém, andar ao seu deslocamento normal, correr, fazer uma investida ou sofrer dano sobre o gelo exige um teste de Acrobacia (CD 15 no caso de movimento, ou igual ao dano sofrido). Em caso de falha, role 1d4. Em um resultado 2, 3 ou 4, você cai e desliza esse resultado x 1,5m (para a frente, no caso de movimento, ou na direção oposta ao ataque, no caso de dano sofrido). Em um resultado 1, o gelo cede e você afunda na água.\n\nCaso afunde, você sofre 2d4 pontos de dano de frio por rodada e deve fazer um teste de Atletismo para nadar (CD 15). Se passar, pode gastar uma ação de movimento para se erguer pelo buraco. Se falhar, é arrastado conforme a correnteza (veja “Aquático”, em Tormenta20, p. 269), ficando debaixo do gelo! Para sair, precisa nadar (CD baseada na correnteza) até estar embaixo de um buraco e gastar uma ação de movimento para se erguer. Abrir um buraco no gelo exige causar 20 pontos de dano de impacto, perfuração ou fogo. Uma vez fora d’água, você sofre os efeitos de frio extremo (veja “Clima”, em Tormenta20, p. 267) até se aquecer."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "relacionado",
+      "alvoId": "fenomenos-rubros",
+      "alvoTipo": "regra",
+      "rotulo": "Fenômenos Rubros"
+    }
+  ],
+  "mecanica": {}
+}

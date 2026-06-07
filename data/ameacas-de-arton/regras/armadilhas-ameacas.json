@@ -1,0 +1,127 @@
+{
+  "id": "armadilhas-ameacas",
+  "tipo": "regra",
+  "nome": "Armadilhas (Ameaças de Arton)",
+  "resumo": "Novas armadilhas que os vilões de Arton usam para defender seus esconderijos e ameaçar a vida dos aventureiros, com efeito, testes de resistência, CDs de Investigação e Ladinagem e ND. Para as regras completas de armadilhas, veja Tormenta20, p. 317.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 358
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Armadilhas",
+      "texto": "Além das armadilhas descritas em Tormenta20, os vilões de Arton contam com as opções descritas a seguir para defender seus esconderijos e ameaçar a vida dos aventureiros. As regras de armadilhas são descritas em detalhes em Tormenta20, p. 317."
+    },
+    {
+      "titulo": "Lista de armadilhas",
+      "texto": "Armadilha de Gaiola. Barras de ferro cercam um quadrado de 1,5m, prendendo uma criatura em seu interior. A gaiola pode ser aberta com um teste de Força ou Ladinagem (CD 25) ou quebrada (as grades têm RD 10 e 60 PV); Investigação CD 20; Ladinagem CD 25; ND 1/2.\n\nRuna de Aceleração. Uma criatura em alcance curto é arremessada 9m na direção em que estava se movendo; se atingir uma parede ou outro objeto sólido, sofre 1d6 pontos de dano de impacto para cada 1,5m que percorreu; Fortitude CD 20 reduz a distância à metade; Investigação/Ladinagem CD 20; ND 1.\n\nGás Pútrido. Criaturas em alcance curto ficam enjoadas por uma cena. Fortitude CD 20 reduz para 1d4 rodadas; Investigação/Ladinagem CD 25; ND 2.\n\nPiso Eletrificado. 6d6 pontos de dano de eletricidade em todas as criaturas em um quadrado de 3m; Fortitude CD 20 reduz à metade, criaturas molhadas ou usando armaduras de metal sofrem –5 no teste; Investigação CD 25; Ladinagem CD 20; ND 2.\n\nJato de Chamas. 6d6 pontos de dano de fogo e deixa em chamas todas as criaturas em uma linha de 6m; Reflexos CD 25 reduz à metade e evita a condição; Investigação/Ladinagem CD 25; ND 3.\n\nExtrato de Oxxdon. Objetos de metal em uma nuvem de 3m de raio oxidam e são destruídos, construtos de metal perdem 4d12 PV e ficam exaustos (mesmo que sejam imunes) até serem reparados (veja a habilidade Ferrugem na p. 308); Reflexos CD 25 evita que os itens sejam destruídos; Fortitude CD 25 reduz a perda de PV de construtos pela metade e a condição para fatigado; Investigação/Ladinagem CD 20; ND 5.\n\nMina Terrestre. 12d6 pontos de dano de impacto em todas as criaturas em uma esfera de 3m; Reflexos CD 25 evita; Investigação/Ladinagem CD 25; ND 5.\n\nRuna de Teletransporte. Uma criatura em até 3m é transportada para uma superfície sólida desocupada em alcance médio (geralmente uma prisão ou armadilha); Vontade CD 20 evita; Investigação CD 25; Ladinagem CD 20; ND 5.\n\nSímbolo da Anulação. Magias em alcance curto são dissipadas e itens mágicos nesse alcance se tornam mundanos por 1d6 rodadas; Vontade CD 25 evita; Investigação CD 25; Ladinagem CD 20; ND 5.\n\nEstátua de Górgona. Criaturas em um cone de 9m à frente da estátua são petrificadas; Reflexos CD 25 evita; Investigação/Ladinagem CD 25; ND 9.\n\nRuna de Desintegração. Uma criatura em alcance curto sofre 10d12 pontos de dano de essência; Fortitude CD 30 reduz o dano para 2d12. Independente do resultado do teste de Fortitude, se os PV da criatura forem reduzidos a 0 ou menos ela será completamente desintegrada, restando apenas pó; Investigação/Ladinagem CD 30; ND 10.\n\nSussurro de Sszzaas. Uma criatura em alcance curto tem a mente manipulada, passando a ver todos como inimigos; deve gastar suas ações realizando ações hostis contra seus aliados. Vontade CD 30 evita; a vítima pode refazer o teste no fim de cada rodada e, se passar, o efeito se encerra; Investigação/Ladinagem CD 30; ND 13. Encantamento."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "armadilhas": [
+      {
+        "nome": "Armadilha de Gaiola",
+        "efeito": "Barras de ferro cercam um quadrado de 1,5m, prendendo uma criatura em seu interior. A gaiola pode ser aberta com um teste de Força ou Ladinagem (CD 25) ou quebrada (as grades têm RD 10 e 60 PV).",
+        "resistencia": "—",
+        "investigacao": "CD 20",
+        "ladinagem": "CD 25",
+        "nd": "1/2"
+      },
+      {
+        "nome": "Runa de Aceleração",
+        "magica": true,
+        "efeito": "Uma criatura em alcance curto é arremessada 9m na direção em que estava se movendo; se atingir uma parede ou outro objeto sólido, sofre 1d6 pontos de dano de impacto para cada 1,5m que percorreu.",
+        "resistencia": "Fortitude CD 20 reduz a distância à metade",
+        "investigacao": "CD 20",
+        "ladinagem": "CD 20",
+        "nd": "1"
+      },
+      {
+        "nome": "Gás Pútrido",
+        "efeito": "Criaturas em alcance curto ficam enjoadas por uma cena.",
+        "resistencia": "Fortitude CD 20 reduz para 1d4 rodadas",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 25",
+        "nd": "2"
+      },
+      {
+        "nome": "Piso Eletrificado",
+        "efeito": "6d6 pontos de dano de eletricidade em todas as criaturas em um quadrado de 3m.",
+        "resistencia": "Fortitude CD 20 reduz à metade; criaturas molhadas ou usando armaduras de metal sofrem –5 no teste",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 20",
+        "nd": "2"
+      },
+      {
+        "nome": "Jato de Chamas",
+        "efeito": "6d6 pontos de dano de fogo e deixa em chamas todas as criaturas em uma linha de 6m.",
+        "resistencia": "Reflexos CD 25 reduz à metade e evita a condição",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 25",
+        "nd": "3"
+      },
+      {
+        "nome": "Extrato de Oxxdon",
+        "efeito": "Objetos de metal em uma nuvem de 3m de raio oxidam e são destruídos, construtos de metal perdem 4d12 PV e ficam exaustos (mesmo que sejam imunes) até serem reparados (veja a habilidade Ferrugem na p. 308).",
+        "resistencia": "Reflexos CD 25 evita que os itens sejam destruídos; Fortitude CD 25 reduz a perda de PV de construtos pela metade e a condição para fatigado",
+        "investigacao": "CD 20",
+        "ladinagem": "CD 20",
+        "nd": "5"
+      },
+      {
+        "nome": "Mina Terrestre",
+        "efeito": "12d6 pontos de dano de impacto em todas as criaturas em uma esfera de 3m.",
+        "resistencia": "Reflexos CD 25 evita",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 25",
+        "nd": "5"
+      },
+      {
+        "nome": "Runa de Teletransporte",
+        "magica": true,
+        "efeito": "Uma criatura em até 3m é transportada para uma superfície sólida desocupada em alcance médio (geralmente uma prisão ou armadilha).",
+        "resistencia": "Vontade CD 20 evita",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 20",
+        "nd": "5"
+      },
+      {
+        "nome": "Símbolo da Anulação",
+        "magica": true,
+        "efeito": "Magias em alcance curto são dissipadas e itens mágicos nesse alcance se tornam mundanos por 1d6 rodadas.",
+        "resistencia": "Vontade CD 25 evita",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 20",
+        "nd": "5"
+      },
+      {
+        "nome": "Estátua de Górgona",
+        "efeito": "Criaturas em um cone de 9m à frente da estátua são petrificadas.",
+        "resistencia": "Reflexos CD 25 evita",
+        "investigacao": "CD 25",
+        "ladinagem": "CD 25",
+        "nd": "9"
+      },
+      {
+        "nome": "Runa de Desintegração",
+        "magica": true,
+        "efeito": "Uma criatura em alcance curto sofre 10d12 pontos de dano de essência; reduzido para 2d12 se passar na Fortitude. Independente do resultado do teste de Fortitude, se os PV da criatura forem reduzidos a 0 ou menos ela será completamente desintegrada, restando apenas pó.",
+        "resistencia": "Fortitude CD 30 reduz o dano para 2d12",
+        "investigacao": "CD 30",
+        "ladinagem": "CD 30",
+        "nd": "10"
+      },
+      {
+        "nome": "Sussurro de Sszzaas",
+        "magica": true,
+        "efeito": "Uma criatura em alcance curto tem a mente manipulada, passando a ver todos como inimigos; deve gastar suas ações realizando ações hostis contra seus aliados. A vítima pode refazer o teste no fim de cada rodada e, se passar, o efeito se encerra. Encantamento.",
+        "resistencia": "Vontade CD 30 evita",
+        "investigacao": "CD 30",
+        "ladinagem": "CD 30",
+        "nd": "13"
+      }
+    ]
+  }
+}

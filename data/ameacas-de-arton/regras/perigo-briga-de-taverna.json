@@ -1,0 +1,34 @@
+{
+  "id": "perigo-briga-de-taverna",
+  "tipo": "regra",
+  "nome": "Briga de Taverna (Perigo Complexo, ND 2)",
+  "resumo": "Perigo complexo (ND 2). Ninguém sabe como ela começou, mas quando o primeiro rola Iniciativa, só resta tomar parte ou tentar apartar. Objetivo: ficar de pé até o fim.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 363
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Briga de Taverna (ND 2)",
+      "texto": "Ninguém sabe como ela começou, mas quando o primeiro rola Iniciativa, só resta tomar parte ou tentar apartar."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Ficar de pé até o fim. A briga dura 1d6+2 rodadas. Após esse período, os ânimos se acalmam, o taverneiro bota ordem ou a guarda chega e todos se dispersam como se nada tivesse acontecido."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "No início de cada rodada, todos os personagens sofrem 2d6+4 pontos de dano de impacto não letal. Um personagem que seja reduzido a 0 PV ou menos deixa de sofrer dano (ninguém vai bater em alguém caído; mesmo bêbados brigões têm princípios).\n\nBrigas de taverna raramente são fatais; um personagem que bata “com maldade” atrai a ira dos demais participantes (o dano que ele sofre no início da rodada aumenta em +1d6+2 a cada vez que ele causar dano letal) e pode ter futuros problemas com a lei local."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Brigar (Defesa 16). O personagem usa uma ação agredir para golpear alguém. Se causar pelo menos 15 pontos de dano com esta ação, nocauteia o oponente mais próximo e não sofre dano na próxima rodada.\n\nApartar (Diplomacia ou Intimidação CD 20). O personagem acalma os ânimos com palavras. Se passar, reduz a duração da briga em 1 rodada.\n\nBater Carteiras (Ladinagem CD 20). O personagem aproveita a confusão para encher os bolsos. Se passar, obtém T$ 2d8, mas se falhar por 5 ou mais é pego roubando e apanha com mais violência (sofre +1d6 pontos de dano na próxima rodada).\n\nLançar Magia (Von CD 15 + PM). O personagem lança uma magia. O efeito exato depende da magia usada, a critério do mestre, que pode usar outras ações como referência ou criar um efeito novo.\n\nSair de Fininho (Furtividade CD 20). O personagem se afasta do centro da confusão e tenta se proteger, mas numa briga generalizada nenhum lugar é totalmente seguro. Se passar, durante a próxima rodada tem 50% de chance de não sofrer dano (resultado par em 1d6)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "objetivo": "Ficar de pé até o fim."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "perigo-grama-carnivora",
+  "tipo": "regra",
+  "nome": "Grama Carnívora (Perigo Complexo, ND 3 a 11)",
+  "resumo": "Perigo complexo (ND 3 a 11). Uma aberração planar quase indistinguível de vegetação rasteira que aprisiona e digere suas presas. Objetivo: sair da área da grama carnívora antes de ser devorado.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 364
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Grama Carnívora (ND 3 a 11)",
+      "texto": "Quando vocês deixam a floresta e entram na clareira, a grama parece estranhamente pegajosa. Então percebem longos fios esbranquiçados em meio à vegetação, agarrando seus pés, subindo pelas pernas, tentando imobilizar seus corpos.\n\nCertas áreas de Galrasia, da Grande Savana e de outros locais são evitadas por todo tipo de animal. Embora pareçam campos ou clareiras comuns, cobertos de grama verde e brilhante, são na verdade terrenos de caça para uma criatura predatória.\n\nA grama carnívora (que não é realmente uma planta, mas um tipo de aberração planar) é quase indistinguível de vegetação rasteira comum, exceto por meios mágicos. Costuma cobrir até mil metros quadrados, não existindo certeza se essa área corresponde a um único indivíduo ou a uma colônia. Desloca-se muito lentamente, procurando lugares à volta de árvores solitárias para atrair criaturas que buscam sua sombra ou frutos; ou à margem de riachos e lagoas, para apanhar animais que venham beber.\n\nQuando uma criatura pisa em sua superfície, a grama expele numerosos filamentos que agarram e imobilizam. Uma vez aprisionada a vítima, começa a exalar vapores ácidos digestivos com o objetivo de derretê-la por completo. Embora pareça um ser primitivo, seja por instinto ou astúcia, a grama sabe aguardar até que suas presas estejam mais distantes das bordas antes de atacar.\n\nA grama tem relação simbiótica com um animal comum de Arton, conhecido como tatu-traiçoeiro — pequeno mamífero que traz na couraça um padrão de manchas peculiar, lembrando crânios. De carne saborosa, considerada iguaria, o animal é alvo constante de caçadores que ignoram os alertas sobre sua periculosidade. Quando ameaçado, o bicho foge para a toca — intencionalmente escavada em área de grama carnívora, que não o molesta, mas ataca qualquer perseguidor. É sabido que druidas não muito bondosos também cultivam esta grama em áreas sagradas de Allihanna, para que permaneçam intocadas."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Sair da área da grama carnívora antes de ser devorado."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "Para escapar da grama, cada personagem deve obter uma certa quantidade de sucessos na ação fugir, definida pelo tamanho da área. Uma área de grama pode ser pequena (uma clareira, 3 sucessos exigidos, ND 3), média (uma vasta planície, 5 sucessos, ND 6) ou extensa (quase mil metros quadrados de área, 7 sucessos, ND 11).\n\nOs personagens têm direito a um teste de Sobrevivência (CD 20) para perceber que estão andando sobre grama carnívora. Quem passar pode realizar uma ação adicional em sua primeira rodada.\n\nNo início de cada um de seus turnos, cada personagem sofre 1d6 pontos de dano de impacto e deve fazer um teste de Reflexos (CD 20). Se falhar, fica agarrado e imóvel e só pode realizar a ação libertar-se. A cada rodada em que permanecer agarrado, o dano que o personagem sofre no início do turno aumenta em +1d6.\n\nÁreas de grama maiores são mais fortes e vorazes. Para uma área média (ND 6) aumente a CD de todos os testes em +5 e o dano inicial para 2d6, e para uma área de grama extensa (ND 11) aumente a CD de todos os testes em +10 e o dano inicial para 3d6."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Fugir (Atletismo CD 20). O personagem corre para fora da grama. Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como 2 sucessos. Este teste recebe os mesmos modificadores da ação corrida (veja Atletismo em Tormenta20, p. 116) e pode ser substituído por Cavalgar ou Pilotagem, caso o personagem esteja usando uma montaria ou veículo.\n\nLibertar-se (Atletismo ou Acrobacia CD 20). Um personagem que esteja emaranhado pela grama pode tentar se soltar. Se estiver agarrado, fica enredado. Se estiver enredado, fica livre. Se passar por 10 ou mais, livra-se e não precisa fazer o teste no fim desta rodada.\n\nConjurar (Vontade CD 20 + custo em PM da magia). O personagem tenta lançar uma magia. Se falhar no teste, a magia falha, mas os PM são gastos da mesma forma.\n\nAtacar (Luta CD 20). O personagem usa uma arma de corte para atacar a grama. Se passar, liberta um aliado agarrado próximo (até 1 sucesso de diferença) ou abre caminho (isso conta como 1 sucesso em fugir).\n\nAnalisar (Sobrevivência CD 20). O personagem analisa a criatura e o terreno. Se passar, fornece ao grupo +2 em todos os testes de perícia realizados durante o perigo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3 a 11",
+    "objetivo": "Sair da área da grama carnívora antes de ser devorado.",
+    "tamanhos": [
+      { "tamanho": "Pequena (uma clareira)", "sucessos": "3", "nd": "3" },
+      { "tamanho": "Média (uma vasta planície)", "sucessos": "5", "nd": "6" },
+      { "tamanho": "Extensa (quase mil metros quadrados de área)", "sucessos": "7", "nd": "11" }
+    ]
+  }
+}

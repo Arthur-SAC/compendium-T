@@ -1,0 +1,30 @@
+{
+  "id": "perigos-complexos-ameacas",
+  "tipo": "regra",
+  "nome": "Perigos Complexos (Ameaças de Arton)",
+  "resumo": "Introdução aos perigos complexos de Ameaças de Arton — cenas de desafio que exigem diversas decisões e múltiplos testes para serem superadas, de embates sociais a ameaças vencidas com astúcia.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 362
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Perigos Complexos",
+      "texto": "Perigos complexos representam cenas de desafio que exigem diversas decisões e múltiplos testes para serem superadas. Embora sejam comumente usados em perigos de ação, podem servir também para outros tipos de desafios, desde embates sociais até ameaças que só podem ser superadas com astúcia ou esperteza."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "relacionado", "alvoId": "perigo-biblioteca-em-ruinas", "alvoTipo": "regra", "rotulo": "Biblioteca em Ruínas (ND 10)" },
+    { "tipo": "relacionado", "alvoId": "perigo-briga-de-taverna", "alvoTipo": "regra", "rotulo": "Briga de Taverna (ND 2)" },
+    { "tipo": "relacionado", "alvoId": "perigo-ciclone-arcano", "alvoTipo": "regra", "rotulo": "Ciclone Arcano (ND 5)" },
+    { "tipo": "relacionado", "alvoId": "perigo-construcao-em-colapso", "alvoTipo": "regra", "rotulo": "Construção em Colapso (ND 8)" },
+    { "tipo": "relacionado", "alvoId": "perigo-grama-carnivora", "alvoTipo": "regra", "rotulo": "Grama Carnívora (ND 3 a 11)" },
+    { "tipo": "relacionado", "alvoId": "perigo-inundacao-de-esgoto", "alvoTipo": "regra", "rotulo": "Inundação de Esgoto (ND 4)" },
+    { "tipo": "relacionado", "alvoId": "perigo-labirinto", "alvoTipo": "regra", "rotulo": "Labirinto (ND 6)" },
+    { "tipo": "relacionado", "alvoId": "perigo-naufragio", "alvoTipo": "regra", "rotulo": "Naufrágio (ND 7)" },
+    { "tipo": "relacionado", "alvoId": "perigo-pesquisa", "alvoTipo": "regra", "rotulo": "Pesquisa (ND 2)" },
+    { "tipo": "relacionado", "alvoId": "perigo-tempestade-de-areia", "alvoTipo": "regra", "rotulo": "Tempestade de Areia (ND 5)" }
+  ],
+  "mecanica": {}
+}

@@ -1,0 +1,111 @@
+{
+  "id": "doencas-ameacas",
+  "tipo": "regra",
+  "nome": "Doenças (Ameaças de Arton)",
+  "resumo": "Novas doenças que os aventureiros podem contrair, com seu contágio, CD e efeitos progressivos. Para as regras completas de doenças, veja Tormenta20, p. 318.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 359
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Doenças",
+      "texto": "Invisíveis e silenciosas, doenças são um perigo que pode ser encontrado em muitos lugares, das garras contaminadas de um predador às águas putrefatas de um pântano sombrio. Esta seção descreve novas doenças que os aventureiros podem contrair; para as regras completas de doenças, veja Tormenta20, p. 318."
+    },
+    {
+      "titulo": "Lista de doenças",
+      "texto": "Alergia Elemental. Aventureiros expostos a quantidades concentradas de energia elemental podem desenvolver uma peculiar e perigosa alergia. Existe uma versão desta doença para cada tipo de energia (ácido, eletricidade, fogo, frio, luz e trevas). Contato e Ingestão, CD 25, a vítima fica vulnerável ao tipo de energia/além de vulnerável, quando sofre dano do tipo de energia a vítima perde 1 PM/além dos anteriores, quando sofre dano do tipo de energia a vítima sofre uma condição conforme o elemento; ácido: vulnerável, eletricidade: ofuscado, fogo: fica em chamas, frio: lento, luz: cego: trevas: recuperação de PV reduzida à metade.\n\nDoença de Descompressão Etérea. Uma doença comum entre exploradores que passam muito tempo viajando pelo éter divino. Muitas vezes o contato súbito com a materialidade de Arton ao atravessar a iliosfera pode afetar a saúde do viajante. Contato, CD 20, vítima fica esmorecida/perde 2d10 PM que não podem ser recuperados até a doença ser curada.\n\nFebre do Carniçal. Causa fraqueza e, em casos graves, pode transformar a vítima em um morto-vivo. Contato, CD 15, vítima fica fraca/enjoada/morre. Uma criatura morta por esta doença retorna como um carniçal na próxima meia-noite.\n\nFebre Necrótica. Faz o corpo da vítima necrosar. Contato, CD 20, vítima fica fraca/debilitada/morre. Uma criatura morta pela febre necrótica se torna um zumbi três dias depois.\n\nGripe do Fluxo. Constantes manipulações temporais podem causar uma rara doença mágica, chamada gripe do fluxo. O corpo e a mente da vítima ficam em momentos diferentes no fluxo de tempo, e a dessincronia temporal pode deixar sequelas irreversíveis. Inalação, CD 25, vítima fica esmorecida/não pode sustentar magias até o fim da doença/perde 1 de Sabedoria*.\n\nInfecção Escarlate. Faz a vítima definhar lentamente, podendo causar sequelas permanentes ou até matar. Contato, CD 20, vítima perde 1d12 PV/perde 2d12 PV/perde 1 de Carisma*/morre. Uma criatura morta por infecção escarlate retorna como um infecto no dia seguinte.\n\nNáusea Antinatural. Pequenos parasitas de matéria vermelha se alojam na barriga da vítima e se alimentam de seus órgãos internos, fazendo com que ela tenha enjoos terríveis e seja corrompida gradualmente. Contato, CD 25, a vítima perde 1d4 PM e 1d12 PV/perde 2d4 PM e 2d12 PV/expele 1 enxame infernal (p. 21) e o ciclo da doença se reinicia. Os PM e PV perdidos não podem ser recuperados até a doença ser curada.\n\nPodridão da Múmia. A vítima começa a enfraquecer, conforme seu corpo se deteriora magicamente. Podridão da múmia só pode ser curada por meios mágicos; passar no teste de Fortitude apenas impede a progressão da doença. Contato, CD 20, vítima fica lenta/fatigada/exausta/perde 1 de Constituição*/morre.\n\nPraga Coral. Doença terrivelmente contagiosa criada como arma mágica contra orcs, a Praga Coral sofreu uma mutação e passou a afetar também outros humanoides e animais. Após a incubação, manchas vermelhas aparecem no corpo da vítima, ela é afetada por febre e dores. Por fim, é tomada pelas placas afiadas como coral que emprestam nome à doença, com o tempo transformando-se em um monstro. Até hoje nenhuma cura é conhecida; passar no teste de Fortitude, bem como efeitos que curam doenças, apenas impedem a progressão da Praga naquele dia. Contato e Inalação, CD 35, vítima fica fraca/debilitada/debilitada e perde 1 de Força, Constituição e Carisma (essa perda é cumulativa, mas pode ser revertida por Desejo ou Intervenção Divina). Se qualquer atributo da vítima chegar a -5, ela se torna um monstro sob controle do mestre.\n\nPulmão em Brasa. Causada pelo acúmulo de poeira de pedra-de-fumaça nos pulmões, causa problemas respiratórios e por fim morte por combustão espontânea. Inalação CD 20, a vítima fica fatigada/exausta/morre em uma explosão que causa 6d6 pontos de dano de fogo em todas as criaturas em um raio de 3m.\n\nRinite Feérica. Provocada por partículas de poeira impregnadas com magia, esta versão mística da temível rinite é imbuída com o arcano e os espirros que causa são infundidos de natureza sobrenatural. Inalação, CD 20, a vítima fica vulnerável a magia/vulnerável e alquebrada/além dos anteriores, quando é afetada por um efeito mágico, a vítima fica enjoada por 1 rodada.\n\nTremedeira Desastrada. Tremores fortes tomam conta dos membros da vítima, dificultando locomoção, esquiva e combate. Inalação, CD 20, a vítima fica fatigada/exausta/exausta e, a cada ataque que faz, tem 25% de chance (1 em 1d4) de deixar sua arma cair.\n\n*Perda permanente (mas você só pode perder 1 ponto de atributo por uma mesma doença)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "doencas": [
+      {
+        "nome": "Alergia Elemental",
+        "descricao": "Aventureiros expostos a quantidades concentradas de energia elemental podem desenvolver uma peculiar e perigosa alergia. Existe uma versão desta doença para cada tipo de energia (ácido, eletricidade, fogo, frio, luz e trevas).",
+        "contagio": "Contato e Ingestão",
+        "resistencia": "CD 25",
+        "efeito": "vítima fica vulnerável ao tipo de energia/além de vulnerável, quando sofre dano do tipo de energia a vítima perde 1 PM/além dos anteriores, quando sofre dano do tipo de energia a vítima sofre uma condição conforme o elemento (ácido: vulnerável; eletricidade: ofuscado; fogo: fica em chamas; frio: lento; luz: cego; trevas: recuperação de PV reduzida à metade)"
+      },
+      {
+        "nome": "Doença de Descompressão Etérea",
+        "descricao": "Uma doença comum entre exploradores que passam muito tempo viajando pelo éter divino. Muitas vezes o contato súbito com a materialidade de Arton ao atravessar a iliosfera pode afetar a saúde do viajante.",
+        "contagio": "Contato",
+        "resistencia": "CD 20",
+        "efeito": "vítima fica esmorecida/perde 2d10 PM que não podem ser recuperados até a doença ser curada"
+      },
+      {
+        "nome": "Febre do Carniçal",
+        "descricao": "Causa fraqueza e, em casos graves, pode transformar a vítima em um morto-vivo. Uma criatura morta por esta doença retorna como um carniçal na próxima meia-noite.",
+        "contagio": "Contato",
+        "resistencia": "CD 15",
+        "efeito": "vítima fica fraca/enjoada/morre"
+      },
+      {
+        "nome": "Febre Necrótica",
+        "descricao": "Faz o corpo da vítima necrosar. Uma criatura morta pela febre necrótica se torna um zumbi três dias depois.",
+        "contagio": "Contato",
+        "resistencia": "CD 20",
+        "efeito": "vítima fica fraca/debilitada/morre"
+      },
+      {
+        "nome": "Gripe do Fluxo",
+        "descricao": "Constantes manipulações temporais podem causar uma rara doença mágica, chamada gripe do fluxo. O corpo e a mente da vítima ficam em momentos diferentes no fluxo de tempo, e a dessincronia temporal pode deixar sequelas irreversíveis.",
+        "contagio": "Inalação",
+        "resistencia": "CD 25",
+        "efeito": "vítima fica esmorecida/não pode sustentar magias até o fim da doença/perde 1 de Sabedoria*"
+      },
+      {
+        "nome": "Infecção Escarlate",
+        "descricao": "Faz a vítima definhar lentamente, podendo causar sequelas permanentes ou até matar. Uma criatura morta por infecção escarlate retorna como um infecto no dia seguinte.",
+        "contagio": "Contato",
+        "resistencia": "CD 20",
+        "efeito": "vítima perde 1d12 PV/perde 2d12 PV/perde 1 de Carisma*/morre"
+      },
+      {
+        "nome": "Náusea Antinatural",
+        "descricao": "Pequenos parasitas de matéria vermelha se alojam na barriga da vítima e se alimentam de seus órgãos internos, fazendo com que ela tenha enjoos terríveis e seja corrompida gradualmente. Os PM e PV perdidos não podem ser recuperados até a doença ser curada.",
+        "contagio": "Contato",
+        "resistencia": "CD 25",
+        "efeito": "a vítima perde 1d4 PM e 1d12 PV/perde 2d4 PM e 2d12 PV/expele 1 enxame infernal (p. 21) e o ciclo da doença se reinicia"
+      },
+      {
+        "nome": "Podridão da Múmia",
+        "descricao": "A vítima começa a enfraquecer, conforme seu corpo se deteriora magicamente. Podridão da múmia só pode ser curada por meios mágicos; passar no teste de Fortitude apenas impede a progressão da doença.",
+        "contagio": "Contato",
+        "resistencia": "CD 20",
+        "efeito": "vítima fica lenta/fatigada/exausta/perde 1 de Constituição*/morre"
+      },
+      {
+        "nome": "Praga Coral",
+        "descricao": "Doença terrivelmente contagiosa criada como arma mágica contra orcs, a Praga Coral sofreu uma mutação e passou a afetar também outros humanoides e animais. Após a incubação, manchas vermelhas aparecem no corpo da vítima, ela é afetada por febre e dores. Por fim, é tomada pelas placas afiadas como coral que emprestam nome à doença, com o tempo transformando-se em um monstro. Até hoje nenhuma cura é conhecida; passar no teste de Fortitude, bem como efeitos que curam doenças, apenas impedem a progressão da Praga naquele dia. Se qualquer atributo da vítima chegar a -5, ela se torna um monstro sob controle do mestre.",
+        "contagio": "Contato e Inalação",
+        "resistencia": "CD 35",
+        "efeito": "vítima fica fraca/debilitada/debilitada e perde 1 de Força, Constituição e Carisma (essa perda é cumulativa, mas pode ser revertida por Desejo ou Intervenção Divina)"
+      },
+      {
+        "nome": "Pulmão em Brasa",
+        "descricao": "Causada pelo acúmulo de poeira de pedra-de-fumaça nos pulmões, causa problemas respiratórios e por fim morte por combustão espontânea.",
+        "contagio": "Inalação",
+        "resistencia": "CD 20",
+        "efeito": "a vítima fica fatigada/exausta/morre em uma explosão que causa 6d6 pontos de dano de fogo em todas as criaturas em um raio de 3m"
+      },
+      {
+        "nome": "Rinite Feérica",
+        "descricao": "Provocada por partículas de poeira impregnadas com magia, esta versão mística da temível rinite é imbuída com o arcano e os espirros que causa são infundidos de natureza sobrenatural.",
+        "contagio": "Inalação",
+        "resistencia": "CD 20",
+        "efeito": "a vítima fica vulnerável a magia/vulnerável e alquebrada/além dos anteriores, quando é afetada por um efeito mágico, a vítima fica enjoada por 1 rodada"
+      },
+      {
+        "nome": "Tremedeira Desastrada",
+        "descricao": "Tremores fortes tomam conta dos membros da vítima, dificultando locomoção, esquiva e combate.",
+        "contagio": "Inalação",
+        "resistencia": "CD 20",
+        "efeito": "a vítima fica fatigada/exausta/exausta e, a cada ataque que faz, tem 25% de chance (1 em 1d4) de deixar sua arma cair"
+      }
+    ],
+    "doencas_nota": "*Perda permanente (mas você só pode perder 1 ponto de atributo por uma mesma doença)."
+  }
+}

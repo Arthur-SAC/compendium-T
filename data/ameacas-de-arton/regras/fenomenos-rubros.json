@@ -1,0 +1,69 @@
+{
+  "id": "fenomenos-rubros",
+  "tipo": "regra",
+  "nome": "Fenômenos Rubros",
+  "resumo": "Os riscos imprevisíveis das terras da Tempestade Rubra. A cada hora de viagem em uma área de Tormenta, role 1d8 na tabela de fenômenos rubros — Caos de Sangue, Neblina Venenosa, Labaredas Infernais, Chuva Ácida, Temperaturas Implacáveis, Tempestade Elétrica ou Pesadelos Reais.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 360
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Fenômenos Rubros",
+      "texto": "Aventurar-se por áreas de Tormenta significa submeter-se à corrupção constante, representada pelo perigo Tormenta (veja Tormenta20, p. 319). Entretanto, esses lugares reservam muitos outros riscos; aqui, o clima e o terreno são imprevisíveis, e a lógica das leis naturais não se aplica. Nas terras da Tempestade Rubra, a morte pode vir do chão, dos céus ou de parte alguma, sem aviso ou razão. A cada hora de viagem em uma área de Tormenta, role 1d8 e consulte a tabela a seguir. Quando um destes fenômenos se manifesta, cada personagem pode fazer um teste de Conhecimento ou Sobrevivência (CD 35). Se passar, consegue identificar o fenômeno e tem 1 rodada para se preparar. A área de cada fenômeno é propositalmente vaga; em uma região de Tormenta, as distâncias e dimensões não seguem a realidade e é impossível escapar destes efeitos simplesmente se afastando do lugar. Os efeitos causados por fenômenos rubros ignoram imunidades, a menos que sejam específicas contra efeitos da Tormenta."
+    },
+    {
+      "titulo": "Tabela de Fenômenos Rubros (1d8)",
+      "texto": "1 — Caos de sangue\n2 — Neblina venenosa\n3 — Labaredas infernais\n4 — Chuva ácida\n5 — Temperaturas implacáveis\n6 — Tempestade elétrica\n7 — Pesadelos reais\n8 — Nenhum fenômeno"
+    },
+    {
+      "titulo": "Caos de Sangue",
+      "texto": "As forças da Tormenta se combinam em um fenômeno duplo. Role duas vezes usando 1d6+1 em vez de 1d8. Resultados iguais são cumulativos."
+    },
+    {
+      "titulo": "Neblina Venenosa",
+      "texto": "Nuvens descem do firmamento rubro, cobrindo tudo com gotículas de chuva ácida. A neblina venenosa dura por 2d4 rodadas e pode ser dispersada por um vento forte em 1d4 rodadas ou um vendaval em 1 rodada. Ela fornece camuflagem leve a criaturas a 1,5m e camuflagem total a criaturas a mais de 1,5m. Além disso, criaturas que iniciem seu turno dentro da neblina perdem 8d4 pontos de vida e têm seus itens expostos (como armaduras e escudos) avariados. Essa perda de vida persiste por mais 1 rodada após a criatura se abrigar da neblina ou ela terminar."
+    },
+    {
+      "titulo": "Labaredas Infernais",
+      "texto": "Sem causa aparente, o ar se transforma em chamas horrendas e sobrenaturais. Quando este fenômeno se manifesta, e no início de cada rodada por mais 1d4 rodadas, cada personagem tem 50% de chance (um resultado ímpar em um dado) de ser atingido por uma coluna de chamas e sofrer 10d6 pontos de dano, metade de fogo e metade de trevas (Ref CD 35 reduz à metade)."
+    },
+    {
+      "titulo": "Chuva Ácida",
+      "texto": "Nuvens rubras despejam torrentes de ácido sangrento e corrosivo. A chuva dura 2d4 rodadas; no início de cada rodada, cada personagem sofre 4d8 pontos de dano de ácido. Esse dano persiste por mais 1 rodada após o personagem se abrigar da chuva ou ela terminar."
+    },
+    {
+      "titulo": "Temperaturas Implacáveis",
+      "texto": "A temperatura da região é corrompida, deixando o ar ao mesmo tempo impossivelmente quente e irresistivelmente frio. O lugar é acometido ao mesmo tempo por calor e frio extremos (veja Tormenta20, p. 267) por 2d4 minutos. A cada minuto, cada personagem deve fazer um teste de Fortitude (CD 25 + 1 por teste anterior). Se falhar, sofre 4d6 pontos de dano (metade fogo, metade frio) que só podem ser curados ao fim do fenômeno."
+    },
+    {
+      "titulo": "Tempestade Elétrica",
+      "texto": "Nuvens sangrentas despejam relâmpagos avermelhados, espalhando indiscriminadamente morte, destruição e loucura. A tempestade de eletricidade corrompida dura 2d4 rodadas; no início de cada rodada, um personagem escolhido aleatoriamente é atingido por um relâmpago e sofre 20d8 pontos de dano, metade ácido, metade eletricidade. Para cada resultado 8 nesses dados de dano, a vítima perde também 2 PM (Ref CD 35 reduz o dano e a perda de PM à metade)."
+    },
+    {
+      "titulo": "Pesadelos Reais",
+      "texto": "A Tempestade Rubra se infiltra na mente dos aventureiros, fazendo com que eles enxerguem seus maiores medos materializados. As criaturas ficam apavoradas, sofrem 6d8 pontos de dano psíquico e perdem 1d6 PM (Von CD 35 evita o dano e a perda de PM). Cada criatura sob efeito do pesadelo deve repetir o teste de Vontade no início de cada um de seus turnos; se falhar, sofre o dano e a perda de PM novamente. O pesadelo termina se o personagem passar em dois testes de Vontade seguidos. Medo."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "relacionado",
+      "alvoId": "perigos-ambientais-ameacas",
+      "alvoTipo": "regra",
+      "rotulo": "Perigos Ambientais"
+    }
+  ],
+  "mecanica": {
+    "tabela_1d8": [
+      { "rolagem": "1", "resultado": "Caos de sangue" },
+      { "rolagem": "2", "resultado": "Neblina venenosa" },
+      { "rolagem": "3", "resultado": "Labaredas infernais" },
+      { "rolagem": "4", "resultado": "Chuva ácida" },
+      { "rolagem": "5", "resultado": "Temperaturas implacáveis" },
+      { "rolagem": "6", "resultado": "Tempestade elétrica" },
+      { "rolagem": "7", "resultado": "Pesadelos reais" },
+      { "rolagem": "8", "resultado": "Nenhum fenômeno" }
+    ]
+  }
+}

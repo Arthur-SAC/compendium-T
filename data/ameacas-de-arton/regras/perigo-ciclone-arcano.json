@@ -1,0 +1,34 @@
+{
+  "id": "perigo-ciclone-arcano",
+  "tipo": "regra",
+  "nome": "Ciclone Arcano (Perigo Complexo, ND 5)",
+  "resumo": "Perigo complexo (ND 5). Uma manifestação descontrolada de energia mágica bruta que afeta tudo em seu caminho. Objetivo: escapar do ciclone arcano.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 363
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Ciclone Arcano (ND 5)",
+      "texto": "Assim como outros elementos da natureza, a magia também pode se manifestar como um fenômeno selvagem, semelhante a uma tempestade ou um terremoto. Um ciclone arcano é um desses eventos, uma manifestação descontrolada de energia mágica bruta que afeta tudo em seu caminho."
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Escapar do ciclone arcano."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "O grupo tem 5 rodadas para se afastar da área do ciclone. No fim da quinta rodada, a posição de cada personagem é definida pelo número de sucessos acumulados nas ações abaixo. Um personagem com 2 ou menos sucessos fica no centro do ciclone: sofre 16d6 pontos de dano de essência e perde 4d4 PM. Um personagem com 3 ou 4 sucessos fica na orla do ciclone: sofre 8d6 pontos de dano de essência e perde 2d4 PM. Um personagem com 5 ou mais sucessos escapa ileso.\n\nOs personagens têm direito a um teste de Misticismo (CD 20) para perceber a aproximação do ciclone. Quem passar pode realizar uma ação adicional em sua primeira rodada."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Correr (Atletismo CD 20). O personagem corre para longe do ciclone. Se passar, afasta-se do centro (veja Efeito, acima). Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como 2 sucessos. Este teste recebe os mesmos modificadores da ação corrida (veja Tormenta20, p. 116) e pode ser substituído por Cavalgar ou Pilotagem, caso o personagem esteja usando uma montaria ou veículo.\n\nCarregar Outro (Atletismo CD 25). O personagem carrega um aliado próximo (com no máximo 1 sucesso de diferença). Isto funciona como a ação correr, acima, mas com CD maior. Se passar, o personagem acumula 1 sucesso para si e para o aliado.\n\nBloquear (Misticismo CD 15). Em vez de se afastar, o personagem usa seu conhecimento arcano para bloquear os efeitos mágicos do ciclone. Se passar, recebe 1 sucesso (veja Efeito, acima). Cada personagem só pode usar esta ação uma vez.\n\nResistir (Von CD 20). Em vez de se afastar, o personagem se concentra em resistir aos efeitos do ciclone. Se passar, recebe 1 sucesso (veja Efeito, acima). Se falhar, não pode tentar esta ação novamente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "objetivo": "Escapar do ciclone arcano."
+  }
+}

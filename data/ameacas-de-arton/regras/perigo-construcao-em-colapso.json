@@ -1,0 +1,34 @@
+{
+  "id": "perigo-construcao-em-colapso",
+  "tipo": "regra",
+  "nome": "Construção em Colapso (Perigo Complexo, ND 8)",
+  "resumo": "Perigo complexo (ND 8). Os personagens estão em uma vasta construção, como um castelo ou templo, que está prestes a desabar. Objetivo: sair da construção.",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 364
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Construção em Colapso (ND 8)",
+      "texto": "Os personagens estão em uma vasta construção, como um castelo ou templo, que está prestes a desabar. Eles precisam escapar antes que sejam soterrados!"
+    },
+    {
+      "titulo": "Objetivo",
+      "texto": "Sair da construção."
+    },
+    {
+      "titulo": "Efeito",
+      "texto": "A construção será completamente destruída em 7 rodadas. Para escapar, um personagem precisa acumular 5 sucessos nas ações avançar, correr ou carregar outro. No início de cada rodada, role 1d6 e consulte a lista de efeitos abaixo.\n\n1-2) Destroços. Destroços caem do teto. Cada personagem deve fazer um teste de Reflexos (CD 25). Se falhar, sofre 4d6 pontos de dano de impacto. Se falhar por 10 ou mais, o dano aumenta para 8d6.\n\n3-4) Fenda no chão. Rachaduras se abrem no chão. Cada personagem deve fazer um teste de Acrobacia ou Atletismo (CD 25). Se falhar, tropeça e sofre –5 em sua próxima ação contra o perigo. Se falhar por 10 ou mais, cai e perde sua ação nesta rodada.\n\n5) Bloqueio. Um desabamento está prestes a bloquear o caminho! O personagem pode desistir desta rota e procurar outra (perde a ação nesta rodada, mas age normalmente a partir da próxima) ou tentar correr antes que o desabamento termine. Nesse caso, precisa fazer um teste de Atletismo (CD 25). Se passar, pode fazer sua ação nesta rodada. Se falhar, perde a ação e sofre 8d6 pontos de dano de impacto.\n\n6) Explosão. Magia, itens alquímicos armazenados ou mesmo a pressão sobre as paredes causam uma explosão. Cada personagem deve fazer um teste de Reflexos (CD 30). Se falhar, sofre 6d6 pontos de dano (tipo definido pelo mestre) e –5 em seu próximo teste contra o perigo. Se falhar por 10 ou mais, o dano aumenta para 10d6 e o personagem perde sua ação nesta rodada.\n\nAo fim da sétima rodada, qualquer personagem que não tenha acumulado 5 sucessos será atingido pelo desabamento da construção, sofrendo 20d6 pontos de dano de impacto (sem teste de resistência)."
+    },
+    {
+      "titulo": "Ações",
+      "texto": "Avançar (Acrobacia ou Reflexos CD 25). O personagem avança com cuidado em direção à saída. Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como 2 sucessos.\n\nCorrer (Atletismo CD 20). O personagem corre em direção à saída sem se preocupar com os perigos em seu caminho. Ele sofre 4d6 pontos de dano de impacto. Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como 2 sucessos.\n\nCarregar Outro (Atletismo CD 30). O personagem carrega um aliado próximo (com no máximo 1 sucesso de diferença). Isto funciona como a ação avançar. Se passar, o personagem acumula 1 sucesso para si e para o aliado. Se falhar, ambos sofrem dano.\n\nProcurar Caminho (Percepção CD 20). O personagem analisa o terreno em busca de uma rota de fuga. Se passar, recebe +5 em todos os testes para avançar, correr e carregar outro realizados durante o perigo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "8",
+    "objetivo": "Sair da construção."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "maldicoes-ameacas",
+  "tipo": "regra",
+  "nome": "Maldições (Ameaças de Arton)",
+  "resumo": "Maldições são efeitos mágicos poderosos, criados para punir ou enfraquecer suas vítimas. Esta seção traz as regras de ativação, detecção, resistência e remoção de maldições e cinco maldições prontas (Conhecimento Proibido, Fúria de Allihanna, Maldição do Bardo, Mortuária e Toque de Tibar).",
+  "fonte": {
+    "livro": "ameacas-de-arton",
+    "pagina": 361
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Maldições",
+      "texto": "Maldições são efeitos mágicos poderosos, criados para punir ou enfraquecer suas vítimas. Elas são empregadas para proteger lugares, como tumbas ou tesouros, ou proferidas por criaturas movidas por sentimentos sombrios ou emoções profundas. Independente de sua origem, maldições impõem consequências terríveis sobre suas vítimas e geralmente só podem ser removidas sob condições específicas. Maldições podem ser encontradas nos mais diversos lugares ou rogadas pelas mais diferentes criaturas. A descrição de certas ameaças indica se a criatura pode ou não proferir uma maldição, mas o mestre pode adicionar maldições aos seus encontros conforme adequado à aventura."
+    },
+    {
+      "titulo": "Ativação",
+      "texto": "Cada manifestação de uma maldição possui uma forma de ativação, relacionada àquilo que a maldição quer impedir ou punir. Por exemplo, uma maldição preparada para proteger um objeto será ativada quando alguém mover ou manusear o objeto, enquanto uma maldição criada para guardar um lugar, como uma tumba, será ativada quando alguém entrar no local ou executar uma ação proibida em seu interior (como violar um sarcófago). Maldições também podem ser proferidas por criaturas, como uma de suas habilidades ou como uma manifestação extrema de raiva, ódio ou outro sentimento (um sszzaazita em seu templo e prestes a morrer, por exemplo, pode rogar uma maldição sobre os aventureiros que o derrotaram). Em todos os casos, o mestre define as condições para que cada maldição seja ativada."
+    },
+    {
+      "titulo": "Detecção",
+      "texto": "É possível perceber que um lugar ou objeto guarda uma maldição prestes a ser ativada. Fazer isso exige estudar o lugar ou objeto por alguns minutos e passar em um teste de Investigação ou Misticismo (CD igual à da maldição)."
+    },
+    {
+      "titulo": "Testes de Resistência",
+      "texto": "Quando uma maldição é ativada, cada vítima pode fazer um teste de Vontade para evitá-la. A CD depende da fonte da maldição: para criaturas, use a CD de suas habilidades; para lugares e objetos, determine a CD conforme adequado ao encontro (como referência, use as CD para especiais na Tabela 2-3: Parâmetros de Criaturas, do Capítulo 2)."
+    },
+    {
+      "titulo": "Remoção",
+      "texto": "Cada maldição possui uma forma específica de remoção. Além disso, uma maldição geralmente pode ser removida com as magias Desejo e Intervenção Divina (ambas com sacrifício de 2 PM)."
+    },
+    {
+      "titulo": "Conhecimento Proibido",
+      "texto": "Criada especialmente para corromper aqueles que se apropriam de conhecimentos profanos, esta maldição é encontrada protegendo livros e tratados acadêmicos, mas também pode ser proferida por alguém empenhado em resguardar uma fonte de informações ou conhecimentos perigosos. Uma criatura amaldiçoada fica confusa até o fim da cena em que sofreu a maldição e perde 1 ponto permanente de Sabedoria ou Carisma por dia (determinados aleatoriamente a cada dia). Caso algum desses atributos seja reduzido a –5, a vítima se transforma em um monstro à escolha do mestre. Remover a maldição requer um ritual especial, celebrado por um clérigo de Tannah-Toh, que deverá lançar Dispersar as Trevas sobre a criatura amaldiçoada. Esse ritual exige o gasto de T$ 1.000 em incensos e outros ingredientes sagrados."
+    },
+    {
+      "titulo": "Fúria de Allihanna",
+      "texto": "Esta maldição é uma punição contra aqueles que cometem crimes hediondos contra o mundo natural, tais como matar um unicórnio. Ela é encontrada em templos e recantos sagrados de Allihanna, mas também pode se manifestar espontaneamente quando uma ofensa grave é cometida contra os filhos da Deusa da Natureza. O personagem amaldiçoado passa a atrair o ódio do mundo selvagem: animais, devotos de Allihanna e outras criaturas que, a critério do mestre, são ligadas ao mundo natural recebem +5 em testes e rolagens de dano contra ele e são considerados hostis. Além disso, a natureza conspira contra o personagem: ele considera ambientes naturais como terreno difícil e sofre –5 em testes de Acrobacia e Atletismo nesses lugares. Por fim, suas condições de descanso em ambientes naturais sempre são dois níveis abaixo do normal. Remover esta maldição exige o perdão de um clérigo ou druida de Allihanna capaz de lançar magias de 4º círculo. Esse perdão geralmente depende de um serviço ou favor que de alguma forma repare o crime que desencadeou a maldição."
+    },
+    {
+      "titulo": "Maldição do Bardo",
+      "texto": "Em Arton existe um ditado popular: “Matar bardo dá azar”. Embora isso seja apenas uma crendice, em ocasiões especiais a morte de um bardo particularmente talentoso ou inspirado pode desencadear esta maldição. Uma criatura afetada pela Maldição do Bardo perde todo seu talento: para efeitos de modificadores de perícias e CD de habilidades, todos seus atributos são tratados como 0. Quebrar esta maldição requer localizar a alma do bardo morto e desafiá-lo para um duelo artístico: três testes opostos de Atuação, em que o personagem amaldiçoado deve vencer pelo menos dois. Tal duelo só pode ser realizado uma vez por aventura."
+    },
+    {
+      "titulo": "Mortuária",
+      "texto": "Esta maldição é causada pelos mortos-vivos conhecidos como mortalhas, mas também pode ser encontrada em tumbas de conjuradores ligados a forças necromânticas ou energia negativa. Uma criatura amaldiçoada pela Mortuária se torna cansada e decrépita, como se sua energia vital estivesse a ponto de se extinguir, e recebe vulnerabilidade a trevas (isso substitui qualquer imunidade ou redução de trevas, bem como a capacidade de recuperar PV com dano de trevas). A remoção desta maldição depende de sua fonte: se for causada por uma mortalha, é necessário destruir a criatura. Se for causada pela violação de uma tumba, é necessário lançar Dispersar as Trevas sobre os restos mortais do ocupante original do lugar, em um ritual de 1 hora que custa T$ 1.000."
+    },
+    {
+      "titulo": "Toque de Tibar",
+      "texto": "Esta maldição pode recair sobre aqueles que cometem crimes contra os dogmas de Tibar, tal como tentar descobrir o segredo da Cunhagem Sagrada ou falsificar moedas. Todos os objetos que a criatura amaldiçoada veste ou empunha se transformam em pirita enquanto estiverem em sua posse; armas impõem uma penalidade de –2 em testes de ataque e rolagens de dano, armaduras e escudos têm seu bônus de Defesa reduzido em –2 e itens gerais impõem uma penalidade de –2 em quaisquer testes em que sejam empregados. Remover esta maldição exige que a vítima repare o crime cometido. Isso pode significar esquecer qualquer informação secreta obtida (por meio de algum efeito como Alterar Memória) ou devolver quaisquer lucros obtidos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}
