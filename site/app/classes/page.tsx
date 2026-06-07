@@ -23,7 +23,7 @@ export default function IndiceClasses() {
                 <span className="indice-card-fig">
                   {imagem && (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={imagem} alt={r.nome} />
+                    <img src={imagem} alt={r.nome} loading="lazy" decoding="async" />
                   )}
                 </span>
                 <span className="indice-card-body">

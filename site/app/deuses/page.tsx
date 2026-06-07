@@ -21,7 +21,7 @@ function CardDivindade({ divindade }: { divindade: Entidade }) {
       <span className="indice-card-fig indice-card-fig--simbolo">
         {simbolo && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={simbolo} alt={divindade.nome} />
+          <img src={simbolo} alt={divindade.nome} loading="lazy" decoding="async" />
         )}
       </span>
       <span className="indice-card-body">

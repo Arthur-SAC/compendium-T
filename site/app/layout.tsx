@@ -9,6 +9,7 @@ const tormenta = localFont({
   src: "./fonts/Tormenta20x.ttf",
   variable: "--font-tormenta",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
