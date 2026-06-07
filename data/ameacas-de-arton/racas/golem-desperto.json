@@ -1,0 +1,101 @@
+{
+  "id": "golem-desperto",
+  "tipo": "raca",
+  "nome": "Golem Desperto",
+  "resumo": "Construto desperto e jogável. Expande a raça golem do Livro Básico (o golem de ferro elemental médio) com escolhas de chassi (material), fonte de energia, propósito de criação e tamanho, permitindo criar os mais variados golens despertos.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 134 },
+  "imagens": ["/racas/golem-desperto.png"],
+  "secoes": [
+    {
+      "titulo": "Golens Despertos",
+      "texto": "Entre as raças disponíveis para personagens jogadores em Tormenta20, é apresentado o golem em sua versão mais comum — o golem de ferro elemental médio. As habilidades a seguir expandem essas regras e permitem criar outros tipos de golens despertos."
+    },
+    {
+      "titulo": "Golem de Espelhos e Habilidades de Classe",
+      "texto": "O chassi de espelhos permite que um golem copie habilidades de classe de outras criaturas. Habilidades de classe são explicadas em detalhes em Tormenta20, Capítulo 1. Lembre-se de que cada magia fornecida por uma classe é uma habilidade individual. É possível também copiar habilidades de ameaças. Qualquer magia fornecida pela habilidade Magias, bem como qualquer habilidade com o mesmo nome de uma habilidade de classe, é considerada uma habilidade de classe."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "golem-de-barro", "alvoTipo": "criatura", "rotulo": "Golem de Barro" },
+    { "tipo": "verTambem", "alvoId": "golem-de-bronze", "alvoTipo": "criatura", "rotulo": "Golem de Bronze" },
+    { "tipo": "verTambem", "alvoId": "golem-de-carne", "alvoTipo": "criatura", "rotulo": "Golem de Carne" },
+    { "tipo": "verTambem", "alvoId": "golem-de-espelhos", "alvoTipo": "criatura", "rotulo": "Golem de Espelhos" },
+    { "tipo": "verTambem", "alvoId": "golem-de-pedra", "alvoTipo": "criatura", "rotulo": "Golem de Pedra" },
+    { "tipo": "verTambem", "alvoId": "golem-de-ferro-superior", "alvoTipo": "criatura", "rotulo": "Golem de Ferro Superior" },
+    { "tipo": "verTambem", "alvoId": "golem-de-nor-medio", "alvoTipo": "criatura", "rotulo": "Golem de Nor (Médio)" },
+    { "tipo": "verTambem", "alvoId": "golem-de-nor-grande", "alvoTipo": "criatura", "rotulo": "Golem de Nor (Grande)" },
+    { "tipo": "verTambem", "alvoId": "golem-de-nor-enorme", "alvoTipo": "criatura", "rotulo": "Golem de Nor (Enorme)" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Expande a raça golem do Livro Básico (Golens Despertos, p. 134). Os modificadores base são Força +1, Carisma –1, cumulativos com os ajustes do Chassi e do Tamanho escolhidos. O tamanho é escolhido (Pequeno: Destreza +1; Médio: sem ajustes; Grande: Destreza –1) e o deslocamento depende do chassi (vários chassis fixam deslocamento em 6m, não reduzido por armadura ou excesso de carga). Esta raça substitui a regra Golens Despertos.",
+    "habilidades": [
+      {
+        "nome": "Chassi",
+        "descricao": "Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi). Entretanto, por ser acoplada, sua armadura não conta no limite de itens que você pode usar (mas você só pode usar uma armadura). Além disso, escolha um material para seu chassi entre os abaixo."
+      },
+      {
+        "nome": "Chassi: Barro",
+        "descricao": "Constituição +2. Seu deslocamento não é afetado por terreno difícil e você passa automaticamente em testes de Acrobacia para passar por espaços apertados. Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água."
+      },
+      {
+        "nome": "Chassi: Bronze",
+        "descricao": "+1 em dois atributos. Seu deslocamento não é reduzido por armaduras pesadas ou excesso de carga. Sua armadura não é acoplada ao seu corpo; você pode removê-la e colocá-la no tempo normal, mas ela conta em seu limite de itens vestidos."
+      },
+      {
+        "nome": "Chassi: Carne",
+        "descricao": "Constituição +2, Força +1, Carisma –1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a metamorfose e trevas, mas não pode escolher elemental (água ou fogo) ou vapor como sua fonte de energia, e dano mágico de fogo e frio o deixa lento por 1d4 rodadas."
+      },
+      {
+        "nome": "Chassi: Espelhos",
+        "descricao": "Carisma +2, Sabedoria +1, Constituição –1. Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 1 PM para copiar essa habilidade. Até o fim do seu próximo turno, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se copiar outra habilidade, você perde a anterior."
+      },
+      {
+        "nome": "Chassi: Ferro",
+        "descricao": "Força +1 e Constituição +1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2."
+      },
+      {
+        "nome": "Chassi: Gelo Eterno",
+        "descricao": "Constituição +2. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a frio e redução de fogo 10, mas não pode escolher elemental (fogo) ou vapor como sua fonte de energia (veja Golem de Nor na página 348)."
+      },
+      {
+        "nome": "Chassi: Pedra",
+        "descricao": "Constituição +2. Você não pode correr e seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe redução de corte, fogo e perfuração 5."
+      },
+      {
+        "nome": "Chassi: Sucata",
+        "descricao": "Força +1 e Constituição +1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Quando recebe cuidados prolongados com a perícia Ofício (artesão), sua recuperação de PV aumenta em +2 por nível nesse dia (em vez de +1)."
+      },
+      {
+        "nome": "Criatura Artificial",
+        "descricao": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a cansaço, efeitos metabólicos e veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por 8 horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "nome": "Fonte de Energia",
+        "descricao": "Escolha sua fonte de energia da lista abaixo.\n• Alquímica. Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM.\n• Elemental. Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano.\n• Sagrada. Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1º círculo.\n• Vapor. Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Ref CD Con reduz à metade e evita a condição)."
+      },
+      {
+        "nome": "Propósito de Criação",
+        "descricao": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "nome": "Tamanho",
+        "descricao": "Escolha seu tamanho da lista abaixo.\n• Pequeno. Destreza +1.\n• Médio. Sem ajustes.\n• Grande. Destreza –1."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Indefinida."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Qualquer."
+      }
+    ]
+  }
+}

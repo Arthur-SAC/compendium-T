@@ -1,0 +1,53 @@
+{
+  "id": "trog-anao",
+  "tipo": "raca",
+  "nome": "Trog Anão",
+  "resumo": "Estranha combinação entre um anão e um homem-lagarto, com a estatura atarracada do primeiro e a face reptiliana escamada do segundo. Variante da raça trog, vista pelos trogloditas como uma maldição.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 39 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A criatura parece uma estranha combinação entre um anão e um homem-lagarto. Tem a estatura atarracada do primeiro, a face reptiliana escamada do segundo e a rabugice somada de ambos! Usa armadura metálica e empunha um machado, parecendo muito disposto a enterrá-lo nas tripas de quem chegar perto."
+    },
+    {
+      "titulo": "Os Trogs e Tenebra",
+      "texto": "Trogloditas temem os deuses mais do que os respeitam ou veneram. Para eles, sua criadora Tenebra é uma terrível Rainha das Trevas, pronta a puni-los por qualquer pequeno deslize. Desesperados por agradá-la, realizam cerimônias tribais que muitas vezes envolvem oferendas e sacrifícios."
+    },
+    {
+      "titulo": "Uma Maldição",
+      "texto": "Trogs consideram sua ligação com os anões uma maldição. Pensam neles como os filhos que a deusa realmente ama. Assim, o ocasional nascimento de um trog anão é visto com grande ressentimento — um sinal agourento de que a deusa está mostrando aos trogs como eles foram um dia, ou como “deveriam ser”. Esses anões são logo mortos ou, por temor de desagradar ainda mais a deusa, expulsos de suas cavernas.\n\nSem uma tribo e com escassas chances de aceitação nas cidades humanas, o trog anão pode acabar isolado como um monstro qualquer nas profundezas de alguma masmorra. Alguns, contudo, conseguem se tornar aventureiros e integrar equipes."
+    },
+    {
+      "titulo": "Raça Variante: Trog Anão",
+      "texto": "Trog anão é uma variante da raça trog. Para criar um personagem desta raça, use as habilidades de trog, mas reduza a Destreza em –1 e substitua Reptiliano pela habilidade Quase Anão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Destreza", "valor": -1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 6,
+    "deslocamentoUnidade": "m",
+    "nota": "Variante da raça trog. Os modificadores de atributo seguem a Tabela A-1 do Apêndice A (Constituição +2, Força +1, Destreza –1, Inteligência –1). Use as habilidades de trog, mas com Destreza reduzida em –1 e Reptiliano substituído por Quase Anão.",
+    "habilidades": [
+      {
+        "nome": "Mau Cheiro (Padrão)",
+        "descricao": "O trog expele um gás fétido. Todas as criaturas (exceto trogs) em alcance curto ficam enjoadas por 1d6 rodadas (Fortitude evita). Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia. Veneno."
+      },
+      {
+        "nome": "Sangue Frio",
+        "descricao": "O trog sofre 1 ponto de dano adicional por dado de dano de frio."
+      },
+      {
+        "nome": "Quase Anão",
+        "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro e +1 PV por nível. Além disso, seu deslocamento é 6m (em vez de 9m), mas não é reduzido por uso de armadura ou excesso de carga. (Substitui a habilidade Reptiliano da raça trog.)"
+      }
+    ]
+  }
+}

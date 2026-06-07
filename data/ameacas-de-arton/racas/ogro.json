@@ -1,0 +1,50 @@
+{
+  "id": "ogro",
+  "tipo": "raca",
+  "nome": "Ogro",
+  "resumo": "Montanha de músculos em forma humanoide, alto e robusto como um antigo carvalho, encimada por uma cabeça diminuta. Tão feio quanto forte, empunha uma clava grande como uma tora.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 40 },
+  "imagens": ["/racas/ogro.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando ouvia que algo é “grande como um ogro”, talvez você não soubesse o significado exato da comparação — mas agora sabe. Aquilo que se aproxima a passadas pesadas é alto e robusto como um antigo carvalho, uma montanha de músculos em forma humanoide, encimada por uma cabeça diminuta. Tão feio quanto forte, coberto de pelos desgrenhados, verrugas e manchas. Veste peles e couro de animais que matou, e empunha uma clava grande como uma tora."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "ogro-furioso", "alvoTipo": "criatura", "rotulo": "Ogro Furioso" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 3 },
+      { "atributo": "Constituição", "valor": 2 },
+      { "atributo": "Inteligência", "valor": -1 },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Grande",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Quanto Maior o Tamanho…",
+        "descricao": "Você é um humanoide do subtipo gigante; seu tamanho é Grande e você recebe visão na penumbra."
+      },
+      {
+        "nome": "…Maior a Porrada!",
+        "descricao": "Quando acerta um ataque corpo a corpo, você pode gastar 1 PM para causar +1d8 pontos de dano do mesmo tipo."
+      },
+      {
+        "nome": "Camada de Ingenuidade",
+        "descricao": "Você sofre –5 em Intuição e Vontade."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Allihanna, Arsenal, Megalokk, Tenebra."
+      }
+    ]
+  }
+}
