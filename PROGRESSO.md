@@ -114,7 +114,14 @@ Spec `docs/superpowers/specs/2026-06-05-fase2-ameacas-de-arton-design.md`; plano
 - **Dívida leve:** representação de atributo "—" inconsistente entre arquivos (alguns omitem a chave, outros mantêm `"—"`); valores corretos, só normalização. Tratar no polimento.
 - **Total Ameaças: 254 criaturas + 16 raças.** Build 1326 páginas.
 
-**Próxima onda (Onda 11):** **Mundo Perdido** (p.242–251, 14 criaturas: Árvore-Matilha, Burafonte/Armento, Deinonico/Bando, Espada-da-Floresta, Galhada Macho/Fêmea, Gali-Gali/Enxame, Grande Battham, Raagoran, Tuntram, Rei-Tirano + 2 itens) + **Piratas & Pistoleiros** (p.252) e o que houver até ~p.300. Mundo Perdido 242–251 já renderizado em `montarias-plus`/`mortos-vivos-plus`.
+### Onda 11 ✅ — Mundo Perdido + Piratas & Pistoleiros (revisão por visão; fixes aplicados)
+- **Mundo Perdido (14 criaturas, `e17c24d` + fixes):** Árvore-Matilha, Burafonte/Armento (ND8), Deinonico/Bando, Espada-da-Floresta, Galhada Macho/Fêmea, Gali-Gali/Enxame, Grande Battham, Raagoran (p.249), Tuntram, Rei-Tirano (dino, distinto do Rei-Tirano Esqueleto). 0 reprints.
+- **Piratas & Pistoleiros (22 criaturas, `6b92121` + `f46a6c1`):** Afogado/Capitão, Armeiro de Tenebra Devoto/Clérigo, Demônio da Pólvora, Goblin de Sombreiro ×2, Homem-Piranha ×3, 5 piratas osteon (Pirata/Imediato/Bando/Capitão/Capitão do Conclave), Pistoleiro/Líder/Capitão da Frota Áurea, Sahuagin ×2, Chapéu-Preto, Lobo do Mar. "Pistoleiro de Smokestone" = cabeçalho (não criatura). 0 reprints.
+- **Dívida leve:** quadro "Habilidades de Piratas" (p.258) → fatia de regras. "—" de atributo inconsistente (normalizar no polimento).
+- **Total Ameaças: 290 criaturas + 16 raças.** Build 1364 páginas.
+
+**Próxima onda (Onda 12):** **Povos-Trovão** (p.264–270, 8 criaturas: Ceratops Guerreiro/Chefe, Pteros Ceifador/do Céu Infinito, Velocis Caçador, Xamã de Sarana, Voracis Caçadora/Rainha) + **4 raças jogáveis** (Ceratops, Pteros, Velocis, Voracis) + **Totens do Trovão** (p.271–273+, 4+ totens — renderizar além de 273 p/ achar o fim do bestiário). Já renderizado 252–273 em `piratas-plus`.
+**Depois:** fatia final de Itens & Regras (Dádivas de Aharadak, Totens Risonhos, Semente Rubra, sidebars de regra, intro Cap.1, "Habilidades de Raça" consolidada p.303).
 
 ---
 
