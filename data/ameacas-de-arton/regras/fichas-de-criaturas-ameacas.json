@@ -1,0 +1,42 @@
+{
+  "id": "fichas-de-criaturas-ameacas",
+  "tipo": "regra",
+  "nome": "Fichas de Criaturas e Tipos de Criaturas (Ameaças de Arton)",
+  "resumo": "Como ler as fichas de criaturas (ND, tipo, tamanho, papel de combate, linhas da ficha) e os tipos de criatura (animais, construtos, espíritos, humanoides, monstros, mortos-vivos) com suas habilidades inerentes.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 12 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Fichas de Criaturas",
+      "texto": "Este capítulo apresenta fichas de criaturas, divididas em seções temáticas de forma semelhante àquelas de Tormenta20. Cada seção apresenta as fichas em ordem alfabética e é encerrada com a criatura mais poderosa ou icônica do grupo. Além disso, cada seção inclui uma caixa de \"Reforços\" — criaturas de outras seções que se encaixam tematicamente no grupo. Os reforços funcionam como uma sugestão de outras criaturas que combinam com o tema, mas nada impede que você inclua criaturas de fora dessa lista em seus encontros."
+    },
+    {
+      "titulo": "Nome & ND",
+      "texto": "O nome e o nível de desafio (ND) da criatura. O ND funciona como o nível da criatura (mínimo 1). Criaturas de ND \"S\" e \"S+\" são casos especiais. Contam como ND 20, mas são ainda mais perigosas — os seres mais poderosos da Criação. Veja mais sobre esses níveis de desafio no Capítulo 2: Regras Avançadas de Ameaças."
+    },
+    {
+      "titulo": "Tipo, Tamanho e Papel de Combate",
+      "texto": "Tipo. O tipo (e subtipo, quando houver) representa a natureza da criatura dentro do mundo e determina que efeitos podem afetá-la. Além disso, alguns tipos fornecem habilidades específicas.\n\nTamanho. O tamanho determina o espaço que a criatura ocupa, seu alcance natural e seu modificador em Furtividade e manobras de combate. A Tabela 1-1 traz os modificadores por tamanho.\n\nPapel de Combate. O papel de combate da criatura indica como ela deve ser usada pelo mestre. Existem três papéis: solo, lacaio e especial, cada um indicado por um ícone.\n• Solo. A criatura foi construída para enfrentar os personagens sozinha. Ela possui estatísticas equilibradas; em especial possui muitos pontos de vida, para garantir que o combate dure um tempo bom (por volta de 3 a 5 rodadas). Este papel é ocupado principalmente por grandes monstros e vilões.\n• Lacaio. A criatura foi construída para enfrentar os personagens em grandes quantidades. Assim, ao usar lacaios, normalmente você usará várias criaturas de ND menor que o nível do grupo, em vez de uma única criatura de ND igual ao nível do grupo. Por exemplo, um grupo de 5º nível pode enfrentar quatro lacaios de ND 1 (o que gera um encontro de ND 5). Lacaios possuem valores de ataque e dano mais altos, para garantir que continuem sendo um risco real para os personagens, mesmo considerando que seu ND será menor que o nível deles, mas menos pontos de vida, para serem derrotados rapidamente, mantendo o combate acelerado. Este papel é ocupado primariamente por humanoides e monstros pequenos.\n• Especial. A criatura possui diversas habilidades especiais e/ou foi feita para ser usada em situações fora de combate direto (por exemplo, para enganar ou roubar os personagens). Este papel é ocupado também por conjuradores ou líderes — criaturas cujas habilidades fortalecem outras, e consequentemente devem ser usadas em conjunto com lacaios."
+    },
+    {
+      "titulo": "Linhas da ficha",
+      "texto": "Iniciativa & Percepção. Os valores de Iniciativa e Percepção da criatura e quaisquer habilidades relacionadas a seus sentidos.\n\nDefesa & Resistências. A Defesa e os valores de Fortitude, Reflexos e Vontade da criatura, além de quaisquer habilidades especiais defensivas, como redução de dano.\n\nPontos de Vida. O total de pontos de vida da criatura.\n\nDeslocamento. A quantidade de metros que a criatura consegue percorrer com uma ação de movimento (e, entre parênteses, a quantidade de quadrados de 1,5m). O número padrão é o deslocamento terrestre. Uma criatura pode possuir outras formas de deslocamento, como voo e natação.\n\nPontos de Mana. A quantidade de PM que a criatura possui. A maior parte das criaturas não possui pontos de mana; via de regra, apenas conjuradores possuem PM. Caso a criatura não possua pontos de mana, esta linha não aparecerá.\n\nAções. Todos os ataques e habilidades que a criatura pode fazer (e, entre parênteses, a ação necessária e seu custo em PM, se houver). Habilidades sem ação exigida são passivas. Algumas habilidades terminam com o termo \"recarga\": sempre que usar a habilidade, a criatura precisará gastar a ação determinada, ou cumprir a condição descrita, antes de poder usá-la novamente.\n\nAtributos. Os valores de atributos da criatura. Algumas criaturas possuem um valor de atributo nulo (–): a criatura não possui o atributo e não pode usá-lo. \"For –\" não pode exercer força física; \"Des –\" não pode se mover; \"Int –\" não é capaz de pensar, agindo apenas conforme uma programação prévia.\n\nPerícias. Os valores totais das demais perícias da criatura. Criaturas podem usar perícias que não exijam treinamento; nesse caso, seu valor na perícia será igual à metade de seu ND + o atributo-chave.\n\nEquipamento e Tesouro. Itens utilizados pela criatura e, após os itens, sua categoria de tesouro. Algumas criaturas possuem recursos que podem ser extraídos de seu corpo: extrair um recurso exige uma hora de trabalho e um teste de Sobrevivência ou de um Ofício relacionado (CD 15 + ND da criatura). Em caso de falha, os recursos são estragados."
+    },
+    {
+      "titulo": "Tipos de Criaturas",
+      "texto": "Todas as criaturas pertencem a um dos seguintes tipos, que também determinam habilidades inerentes.\n\nAnimais. Seres vivos sem inteligência suficiente para desenvolver um idioma (Int –5 ou –4) e sem habilidades sobrenaturais. Um animal inteligente ou com poderes mágicos é considerado um monstro, mas muitos animais têm habilidades \"naturais\" como venenos e toxinas, apêndices adaptados ou órgãos especializados.\n\nConstrutos. Objetos animados ou criaturas fabricadas artificialmente, por magia ou ciência. Normalmente não possuem inteligência real. Possuem: visão no escuro; imunidade a cansaço, efeitos de metabolismo e veneno; não recuperam PV por descanso, e efeitos de cura e a perícia Cura não funcionam com eles — mas a perícia Ofício (artesão) pode ser usada no lugar dela com os mesmos efeitos.\n\nEspíritos. Seres nativos de outros Planos, com profunda conexão com as energias primais da Criação. Geralmente possuem visão no escuro, mas isso não é uma característica inerente do tipo.\n\nHumanoides. Membros de raças que lembram os humanos, com a mesma anatomia básica. Todos são inteligentes, com suas próprias culturas e sociedades. Todo humanoide possui uma raça (como humano, anão etc.) ou subtipo (como gigante etc.).\n\nMonstros. Criaturas de anatomia estranha ou com habilidades mágicas (dos dragões aos lefeu). Muitos têm origem ligada à Tormenta; outros, como dragões e entes, são criações dos deuses.\n\nMortos-Vivos. Cadáveres animados por meio de energia negativa. Possuem: visão no escuro; imunidade a cansaço, efeitos de metabolismo, trevas e veneno; sofrem dano por efeitos mágicos de cura de luz (Von CD do efeito reduz à metade), e recuperam PV com dano de trevas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tabela_1_1_tamanho_de_criaturas": [
+      { "categoria_de_tamanho": "Minúsculo", "exemplos": "Falcão, rato, sílfide", "espaco_alcance": "1,5m", "modificador_furtividade_manobras": "+5/–5" },
+      { "categoria_de_tamanho": "Pequeno", "exemplos": "Cão, goblin, hynne", "espaco_alcance": "1,5m", "modificador_furtividade_manobras": "+2/–2" },
+      { "categoria_de_tamanho": "Médio", "exemplos": "Humano, anão, elfo", "espaco_alcance": "1,5m", "modificador_furtividade_manobras": "0" },
+      { "categoria_de_tamanho": "Grande", "exemplos": "Cavalo, ogro, serpe", "espaco_alcance": "3m", "modificador_furtividade_manobras": "–2/+2" },
+      { "categoria_de_tamanho": "Enorme", "exemplos": "Ente, gigante, hidra", "espaco_alcance": "4,5m", "modificador_furtividade_manobras": "–5/+5" },
+      { "categoria_de_tamanho": "Colossal", "exemplos": "Colosso, dragão, kraken", "espaco_alcance": "9m", "modificador_furtividade_manobras": "–10/+10" }
+    ],
+    "tabela_1_1_nota": "Espaço ocupado pela criatura. \"3m\", por exemplo, significa que a criatura ocupa um espaço de 3m x 3m, ou seja, 2x2 quadrados num mapa."
+  }
+}

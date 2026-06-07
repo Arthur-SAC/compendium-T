@@ -1,0 +1,20 @@
+{
+  "id": "falsos-amigos",
+  "tipo": "regra",
+  "nome": "Falsos Amigos",
+  "resumo": "Sszzaazitas com a habilidade Falso Amigo usam um disfarce elaborado para se tornar parceiros de aventureiros e traí-los; recebem +10 em Enganação para manter o disfarce.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 327 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Falsos Amigos",
+      "texto": "Sszzaas é a mentira, a enganação, o subterfúgio. E uma de suas facetas mais perversas é aproveitar a confiança e a amizade daqueles ao seu redor para promover a falsidade e a ruína. Assim, muitos sszzaazitas aprendem a se passar por outras pessoas, mais amigáveis, confiáveis e úteis. Costumam usar esses disfarces para transitar na sociedade, mantendo uma fachada respeitável enquanto avançam furtivamente os planos de Sszzaas.\n\nUm sszzaazita com a habilidade Falso Amigo tem um disfarce cuidadosamente elaborado, praticamente uma segunda identidade, sendo sua \"personalidade pública\". Muitos utilizam esse disfarce para se aproximar de pessoas importantes, influentes ou poderosas (como aventureiros) e manipulá-las para seus propósitos. Em termos de regras, o sszzaazita pode atuar como um tipo de parceiro específico, indicado na habilidade. Desmascarar esse disfarce é muito difícil; o ssazzaazita recebe +10 em testes de Enganação para manter o disfarce e em testes de Vontade contra efeitos que possam revelar sua verdadeira identidade.\n\nUm sszzaazita sob disfarce de Falso Amigo pode se tornar parceiro de um aventureiro, com o objetivo de sabotar sua missão, manipular o grupo ou simplesmente traí-los no pior momento possível. A qualquer momento, o Falso Amigo pode abandonar o personagem ou mesmo atacá-lo à traição!"
+    },
+    {
+      "titulo": "Conselho ao mestre",
+      "texto": "Utilize com sabedoria. Uma campanha em que todos os parceiros subitamente se revelam traidores pode ser chata, ou fazer os jogadores perderem interesse em ter parceiros. Também evite Falsos Amigos para parceiros obtidos por habilidades; são melhores como NPCs que se tornam parceiros como parte da campanha. Também funcionam bem para aventuras de intriga, quando sszzaazitas podem estar envolvidos. Caso seu grupo goste de tramas de investigação, traição e espionagem, um Falso Amigo pode ser o tempero ideal."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

@@ -1,0 +1,25 @@
+{
+  "id": "quem-nao-tem-cao-caca-com-kobold",
+  "tipo": "regra",
+  "nome": "Quem Não Tem Cão Caça com Kobold / Conjurando Kobolds",
+  "resumo": "Um kobold solitário pode servir como parceiro especial (combatente), e personagens desesperados podem conjurar kobolds com aprimoramentos da magia Conjurar Monstro.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 181 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Quem Não Tem Cão Caça com Kobold",
+      "texto": "Embora kobolds sejam normalmente considerados pestes, sob as circunstâncias certas um kobold solitário pode ser convencido a ajudar um aventureiro. Tal kobold pode servir como um parceiro especial (combatente) que fornece os benefícios a seguir. Iniciante: você recebe +1 em testes de ataque e rolagens de dano contra inimigos que esteja flanqueando (para um total de +3 de ataque). Veterano: os bônus acima aumentam para +2. Mestre: você pode flanquear mesmo criaturas que não podem ser flanqueadas."
+    },
+    {
+      "titulo": "Conjurando Kobolds (Por que…?!?)",
+      "texto": "Personagens realmente desesperados podem conjurar kobolds usando a magia Conjurar Monstro. Para isso, adicione a ela os seguintes aprimoramentos.\n\n+1 PM: em vez de um monstro, você invoca 4 kobolds Pequenos, que têm For 1, Des 1, Def 12, 1 PV cada e causam, cada um, 1d6-1 pontos de dano com uma ordem atacar. Você pode comandar todos os kobolds com a mesma ação padrão, mas eles devem receber o mesmo tipo de ordem e não podem seguir a ordem lançar magia. Você pode usar este aprimoramento mais vezes para aumentar o número de kobolds em +1, mas não pode usá-lo em conjunto com outros aprimoramentos.\n\n+3 PM: como acima, mas cada kobold tem For 4, Des 1, Def 19, 15 PV e causa 2d6+1 pontos de dano de corte com uma ordem atacar. Requer 2º círculo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "aprimoramentos_conjurar_kobolds": [
+      { "custo": "+1 PM", "efeito": "Em vez de um monstro, você invoca 4 kobolds Pequenos (For 1, Des 1, Def 12, 1 PV cada; causam 1d6-1 de dano com a ordem atacar). Comanda todos com a mesma ação padrão, mesma ordem, não podem lançar magia. Pode usar mais vezes para +1 kobold, mas não em conjunto com outros aprimoramentos." },
+      { "custo": "+3 PM", "efeito": "Como acima, mas cada kobold tem For 4, Des 1, Def 19, 15 PV e causa 2d6+1 de dano de corte com a ordem atacar. Requer 2º círculo." }
+    ]
+  }
+}

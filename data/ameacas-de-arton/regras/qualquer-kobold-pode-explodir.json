@@ -1,0 +1,16 @@
+{
+  "id": "qualquer-kobold-pode-explodir",
+  "tipo": "regra",
+  "nome": "Qualquer Kobold Pode Explodir",
+  "resumo": "Qualquer ficha de kobold pode virar versão explosiva ao receber a habilidade Detonação Final, aumentando o ND em +1 (apenas para experiência).",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 185 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Qualquer Kobold Pode Explodir",
+      "texto": "O kobold explosivo descrito aqui é apenas um exemplo de kobold que acumulou energia arcana suficiente para se tornar uma bomba ambulante. Mas, na prática, qualquer dessas criaturinhas pode ser explosiva. Você pode transformar qualquer ficha de kobold em sua versão explosiva concedendo a habilidade Detonação Final. Se fizer isso, o ND da criatura aumenta em +1 (apenas para efeitos de experiência).\n\nDetonação Final. Quando o kobold é reduzido a 0 PV, role 1d6: com um resultado 1 ou 2, ocorre uma explosão. Todas as criaturas a até 3m sofrem 4d6 pontos de dano de impacto, +2d6 para cada patamar acima de iniciante do kobold (Ref CD baseada no ND reduz à metade, veja a página 383)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

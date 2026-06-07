@@ -1,0 +1,16 @@
+{
+  "id": "dois-como-um",
+  "tipo": "poder",
+  "nome": "Dois Como Um",
+  "resumo": "Montado, gaste 2 PM para rolar dois dados e usar o melhor em certos testes.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 223 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Ginete",
+    "custo": "2 PM",
+    "descricao": "Quando faz um teste de Atletismo, Cavalgar, Iniciativa, Luta, Percepção, Pontaria ou Reflexos enquanto montado, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "homunculos-e-inventores",
+  "tipo": "regra",
+  "nome": "Homúnculos e Inventores",
+  "resumo": "A critério do mestre, um inventor com o poder Homúnculo pode substituir o tipo ajudante pela habilidade de parceiro iniciante do homúnculo desta seção.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 193 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Homúnculos e Inventores",
+      "texto": "Um inventor com o poder Homúnculo aprende a criar uma versão alquímica desses seres, que atua como um parceiro ajudante iniciante. Entretanto, a critério do mestre, o inventor pode substituir o tipo ajudante pela habilidade de parceiro iniciante do homúnculo descrito aqui. Demais habilidades da criatura permanecem como descrito no poder Homúnculo (veja Tormenta20, p. 69)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

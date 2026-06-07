@@ -1,0 +1,16 @@
+{
+  "id": "equipamento-purista",
+  "tipo": "regra",
+  "nome": "Equipamento Purista",
+  "resumo": "Itens tomados de puristas são difíceis de vender e valem apenas um quarto do preço, em vez da metade.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 279 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Equipamento Purista",
+      "texto": "Embora o equipamento empregado pelos puristas seja de ótima qualidade, é bastante difícil vendê-lo. Puristas obviamente não enxergam com bons olhos quem comercializa suas armas e armaduras, enquanto em outros lugares, por desprezo ou por temor, muitas pessoas não querem lidar com esse tipo de material. Por isso, itens de puristas são vendidos por um quarto do preço, não pela metade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

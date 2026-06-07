@@ -1,0 +1,49 @@
+{
+  "id": "armadilhas-kobolds",
+  "tipo": "regra",
+  "nome": "Armadilhas Kobolds",
+  "resumo": "Engenhos ardilosos e rústicos fabricados por kobolds; coleção de armadilhas com CDs de resistência, detecção e desarme e ND.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 178 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Armadilhas Kobolds",
+      "texto": "Onde há kobolds, há armadilhas. Seus engenhos são ardilosos, mas também rústicos; com sorte e perícia, um ladino iniciante pode encontrá-los a tempo."
+    },
+    {
+      "titulo": "Andrajos Flamejantes",
+      "texto": "Uma área repleta de trapos, aparentemente inofensivos, embebidos em combustível que se inflama quando a armadilha é acionada. Criaturas em um raio de 3m sofrem 2d6 pontos de dano de fogo e ficam em chamas. Reflexos CD 17 reduz o dano à metade e evita a condição; Investigação CD 15; Ladinagem CD 20; ND ¼."
+    },
+    {
+      "titulo": "Sinos Alarmantes",
+      "texto": "Barbantes camuflados conectados a sinos, em latas cheias de pedras ou nas partes íntimas de um bode produzem um som estridente quando acionados. Todas as criaturas em alcance longo são alertadas pelo dispositivo e, até o fim da cena, nenhum kobold nessa área pode ser surpreendido; Reflexos CD 15 evita; Investigação/Ladinagem CD 15; ND ¼."
+    },
+    {
+      "titulo": "Geringonça Retardante",
+      "texto": "Um complexo mecanismo equilibra recipientes cheios de lama pegajosa, que é derramada sobre os passantes. Criaturas em um raio de 3m ficam enredadas até remover a lama; fazer isso demora 1 minuto. Reflexos CD 17 evita; Investigação CD 17; Ladinagem CD 20; ND ¼."
+    },
+    {
+      "titulo": "Barril de Bugulentos",
+      "texto": "Um barril repleto de \"bugulentos\" (para os kobolds, qualquer tipo de inseto venenoso) se derrama sobre uma criatura. A vítima perde 1d12 pontos de vida por veneno quando a armadilha é acionada e no início de cada um de seus turnos, até se livrar dos bugulentos, o que exige uma ação completa e passar em um teste de Destreza (CD 10). Os bugulentos também são eliminados se a vítima ficar em chamas. Reflexos CD 20 evita; Investigação/Ladinagem CD 20; ND ½."
+    },
+    {
+      "titulo": "Besunte Galinificador",
+      "texto": "Essencialmente um barril cheio de um líquido viscoso misturado a penas de galinha, que se derrama sobre uma criatura. Uma armadilha extremamente humilhante, faz com que os kobolds se encham de coragem para enfrentar a vítima. Todos os kobolds recebem +2 em testes de perícia e rolagens de dano contra a vítima enquanto ela estiver coberta pelas penas (removê-las demora 1 minuto). Surpreendentemente, deixar a vítima em chamas também resolve. Reflexos CD 20 evita, Investigação/Ladinagem CD 20; ND ½."
+    },
+    {
+      "titulo": "Tronco de Árvore",
+      "texto": "Simples e prática, é um atestado da \"genialidade\" kobold. Um tronco desce como um aríete atingindo uma linha de 6m. Criaturas nessa área sofrem 4d6 pontos de dano de impacto e ficam caídas. Reflexos CD 20 reduz o dano à metade e evita a condição; Investigação/Ladinagem CD 20; ND 1."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "armadilhas": [
+      { "nome": "Andrajos Flamejantes", "efeito": "Raio 3m, 2d6 dano de fogo e em chamas.", "resistencia": "Reflexos CD 17 reduz à metade e evita a condição", "deteccao": "Investigação CD 15", "desarme": "Ladinagem CD 20", "nd": "¼" },
+      { "nome": "Sinos Alarmantes", "efeito": "Alerta todas as criaturas em alcance longo; nenhum kobold na área pode ser surpreendido até o fim da cena.", "resistencia": "Reflexos CD 15 evita", "deteccao": "Investigação/Ladinagem CD 15", "desarme": "Investigação/Ladinagem CD 15", "nd": "¼" },
+      { "nome": "Geringonça Retardante", "efeito": "Raio 3m, criaturas ficam enredadas até remover a lama (1 minuto).", "resistencia": "Reflexos CD 17 evita", "deteccao": "Investigação CD 17", "desarme": "Ladinagem CD 20", "nd": "¼" },
+      { "nome": "Barril de Bugulentos", "efeito": "Perde 1d12 PV por veneno ao acionar e no início de cada turno, até se livrar (ação completa + teste de Destreza CD 10; ou ficar em chamas).", "resistencia": "Reflexos CD 20 evita", "deteccao": "Investigação/Ladinagem CD 20", "desarme": "Investigação/Ladinagem CD 20", "nd": "½" },
+      { "nome": "Besunte Galinificador", "efeito": "Cobre a vítima de penas; todos os kobolds recebem +2 em testes de perícia e dano contra ela enquanto coberta (remover demora 1 minuto, ou ficar em chamas).", "resistencia": "Reflexos CD 20 evita", "deteccao": "Investigação/Ladinagem CD 20", "desarme": "Investigação/Ladinagem CD 20", "nd": "½" },
+      { "nome": "Tronco de Árvore", "efeito": "Linha de 6m, 4d6 dano de impacto e caído.", "resistencia": "Reflexos CD 20 reduz à metade e evita a condição", "deteccao": "Investigação/Ladinagem CD 20", "desarme": "Investigação/Ladinagem CD 20", "nd": "1" }
+    ]
+  }
+}

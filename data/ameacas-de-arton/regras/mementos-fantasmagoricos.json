@@ -1,0 +1,16 @@
+{
+  "id": "mementos-fantasmagoricos",
+  "tipo": "regra",
+  "nome": "Mementos Fantasmagóricos",
+  "resumo": "Cada fantasma tem um memento — um objeto ou lugar ligado ao vínculo que o prende ao mundo material; investigá-lo faz parte das histórias de fantasmas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 233 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Mementos Fantasmagóricos",
+      "texto": "Cada fantasma tem uma ligação ou um assunto inacabado que o prende ao mundo material. Essa conexão é representada por um memento, um objeto ou lugar diretamente relacionado ao vínculo do fantasma com o mundo dos vivos. Isso pode ser qualquer coisa, desde a aliança de alguém que morreu após trair seu grande amor até o estandarte de um cavaleiro que caiu em uma batalha desesperada. O memento de alguém executado por um crime que não cometeu pode ser o próprio cenário de sua execução. Cada fantasma tem um memento, tão único quanto a tragédia que o gerou.\n\nO mestre é livre para criar o memento de cada fantasma. Um bom memento possui uma relação clara com a história da criatura e, ao mesmo tempo, é um mistério que precisa ser desvendado pelos personagens. Investigar e descobrir um memento é uma parte importante, e divertida, das histórias de fantasmas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bencaos-de-ferren",
+  "tipo": "regra",
+  "nome": "As Bênçãos de Ferren",
+  "resumo": "Poderes e transformações concedidos pelo Aquilich Ferren Asloth aos seus favoritos em Aslothia; a natureza das bênçãos varia enormemente.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 293 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "As Bênçãos de Ferren",
+      "texto": "Em Aslothia, desafiar o regente nunca foi uma escolha sábia ou recomendável. No entanto, desde a Noite da Ascensão Profana, uma nova motivação surgiu para os mais ambiciosos se aproximarem cada vez mais do Aquilich. Essa motivação tem nome: as bênçãos de Ferren.\n\nEssas bênçãos são concedidas apenas aos membros mais próximos da corte ou aos grandes heróis de Aslothia — aos olhos do regente. São poderes e transformações conferidos pelo próprio Asloth, um dom adquirido após sua transformação final.\n\nA natureza das bênçãos varia grandemente: uns se transformam em vampiros, outros em lobisomens e outras criaturas noturnas, mas mantendo seu intelecto. Alguns adquirem habilidades fantásticas e desenvolvem fome insaciável por carne humanoide. É raro um efeito se repetir com exatidão: dizem que Ferren traz à tona as sombras que permeiam a alma daquele que é abençoado.\n\nOs principais abençoados por Ferren são os poderosos Sislach: Narsogg, Vissanzi e Rawia. Estes, sob as ordens diretas do Arquilich, mantêm a ordem no reino de forma implacável."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

@@ -1,0 +1,16 @@
+{
+  "id": "aprimorando-escudeiros",
+  "tipo": "regra",
+  "nome": "Aprimorando Escudeiros",
+  "resumo": "Escudeiros são criaturas vivas; suas melhorias representam aprendizado, mas a critério do mestre um escudeiro mestre pode receber os benefícios de um encanto de arma ou de escudo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 191 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Aprimorando Escudeiros",
+      "texto": "Embora possam ser empunhados como armas, escudeiros são criaturas vivas e não objetos que podem ser modificados por meio de artesanato. Assim, as melhorias que um parceiro escudeiro recebe representam seu aprendizado e sua experiência, não mudanças em sua anatomia. Entretanto, a critério do mestre, um escudeiro poderoso o suficiente pode ser aprimorado magicamente. Em termos de regras, um escudeiro mestre pode receber os benefícios de um encanto de arma ou de escudo. Para isso, o personagem precisa encontrar alguém capaz de encantar itens desses tipos, ou obter os benefícios de um encanto como pagamento de uma entidade poderosa ou recompensa de uma aventura ou missão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

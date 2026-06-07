@@ -1,0 +1,15 @@
+{
+  "id": "adestrar-montaria",
+  "tipo": "poder",
+  "nome": "Adestrar Montaria",
+  "resumo": "+2 em Adestramento e sua montaria se torna veterana ou recebe a habilidade de outro tipo de parceiro iniciante.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 223 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "treinado em Adestramento, 7º nível de personagem",
+    "descricao": "Você recebe +2 em Adestramento. Além disso, escolha um dos efeitos a seguir. Sua montaria se torna veterana ou recebe a habilidade de um outro tipo de parceiro iniciante, entre ajudante, assassino, besta de carga (veja a página 416), combatente, fortão, guardião ou vigilante. No caso do ajudante, o mestre deve aprovar as perícias escolhidas. Você só pode ter uma montaria treinada desta forma por vez e, se perdê-la, pode aplicar um treinamento a outra com uma semana de trabalho."
+  }
+}

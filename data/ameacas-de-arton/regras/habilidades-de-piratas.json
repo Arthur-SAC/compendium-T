@@ -1,0 +1,24 @@
+{
+  "id": "habilidades-de-piratas",
+  "tipo": "regra",
+  "nome": "Habilidades de Piratas",
+  "resumo": "Habilidades compartilhadas por todos os piratas da seção \"Pirata\": Correr pelo Cordame e Pernas do Mar.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 258 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Habilidades de Piratas",
+      "texto": "Acostumados à vida no mar, todos os piratas da seção \"Pirata\" partilham as habilidades a seguir."
+    },
+    {
+      "titulo": "Correr pelo Cordame (Completa)",
+      "texto": "O pirata percorre até seu deslocamento, ignorando terreno difícil, e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano."
+    },
+    {
+      "titulo": "Pernas do Mar",
+      "texto": "Quando está se equilibrando ou escalando, o pirata não fica desprevenido e seu deslocamento não é reduzido à metade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

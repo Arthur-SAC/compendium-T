@@ -1,0 +1,28 @@
+{
+  "id": "odio-puro-exercito-purista",
+  "tipo": "regra",
+  "nome": "Ódio Puro / O Exército Purista",
+  "resumo": "Habilidade compartilhada pelos puristas (Ódio Puro: +5 em Vontade sob ordens e +2 no dano contra humanoides não humanos) e a estrutura organizacional do Exército Purista.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 281 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Ódio Puro",
+      "texto": "Puristas passam por um processo de doutrinação no qual aprendem a obedecer ordens sem questionar e a odiar todas as raças não humanas. Um purista recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos."
+    },
+    {
+      "titulo": "O Exército Purista",
+      "texto": "Maior rival do Reinado, a Supremacia Purista possui um exército profissional composto pelos soldados mais bem treinados e equipados de Arton. Isso não é surpresa, pois o militarismo sempre esteve no âmago da cultura do reino. Nas grandes cidades, quartéis ocupam o papel de centros cívicos, com boa parte da população trabalhando no exército ou para ele. Já nas vilas do interior, homens e mulheres reúnem-se em salões de guerreiros e partem em saques. De uma forma ou de outra, no Exército com uma Nação a sociedade gira em torno da guerra."
+    },
+    {
+      "titulo": "Estrutura do Exército Purista",
+      "texto": "A estrutura básica do Exército Purista é o batalhão, com cem soldados e comandado por um sargento-mor. Em missões pequenas, um batalhão pode ser dividido em grupos de assalto, formados por dez homens ou mulheres e liderados por um sargento. Dez batalhões formam um grande batalhão, com mil membros e comandado por um capitão-baluarte. Cinco grandes batalhões formam uma arma, com cinco mil soldados e comandada por um coronel. Quatro armas formam um arsenal, com vinte mil membros e comandado por um lorde general.\n\nOs batalhões básicos são formados por soldados de infantaria pesada, mas também há batalhões especializados de vários tipos. Os mais comuns são os de besteiros e os de cavaleiros, mas também há os raros e temidos batalhões de magos, especializados em feitiços de destruição em massa, e os de engenheiros, especializados em invenções de goblins escravizados, de autômatos de ferro a bombas explosivas.\n\nNa Guerra Artoniana, o Exército Purista possuía seis arsenais, totalizando um efetivo de 120 mil soldados. Acredita-se que ele ainda não voltou à sua força máxima, mas espiões do Reinado sabem que a Supremacia está recrutando e treinando novos soldados. Quanto tempo até ela estar preparada para uma nova guerra, ainda é algo sobre o que se pode apenas especular."
+    },
+    {
+      "titulo": "Comandante",
+      "texto": "Hermann Von Krauser é o comandante absoluto do Exército Purista. Tendo estudado todos os manuais artonianos de estratégia militar — e tendo escrito alguns ele mesmo —, Von Krauser possui conhecimento incomparável sobre a arte da guerra. Ele não detém o título de General Supremo à toa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

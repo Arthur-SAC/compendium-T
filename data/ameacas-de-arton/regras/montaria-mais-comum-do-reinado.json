@@ -1,0 +1,16 @@
+{
+  "id": "montaria-mais-comum-do-reinado",
+  "tipo": "regra",
+  "nome": "A Montaria Mais Comum do Reinado",
+  "resumo": "Cavalos de montaria x de guerra: cavalos de montaria se assustam em batalha, exigindo teste de Cavalgar (CD 20) no início de cada turno para permanecer montado.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 213 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "A Montaria Mais Comum do Reinado",
+      "texto": "As estatísticas de parceiro para cavalos (Tormenta20, p. 262) se aplicam tanto a cavalos de montaria quanto a de guerra. Cavalos de montaria são mais baratos, mas, por não serem treinados para uso em batalhas, se assustam facilmente. Assim, para permanecer montado em um cavalo de montaria durante um combate, o personagem precisa passar em um teste de Cavalgar (CD 20) no início de cada turno."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

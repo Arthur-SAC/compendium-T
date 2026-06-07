@@ -1,0 +1,16 @@
+{
+  "id": "montarias-para-cavaleiros-e-paladinos",
+  "tipo": "regra",
+  "nome": "Montarias para Cavaleiros e Paladinos",
+  "resumo": "A critério do mestre, um personagem que recebe uma montaria específica por habilidade pode escolher outro tipo de montaria, possivelmente com requisitos adicionais.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 225 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Montarias para Cavaleiros e Paladinos",
+      "texto": "A critério do mestre, quando um personagem recebe uma montaria específica (como o cavalo de guerra concedido por Caminho do Cavaleiro), pode escolher outro tipo de montaria. Se permitir essa opção, o mestre pode limitar os tipos de montarias disponíveis para cada habilidade ou pedir que o personagem cumpra algum requisito adicional para receber a montaria, como viajar até uma região específica ou encontrar um filhote e treiná-lo desde jovem."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

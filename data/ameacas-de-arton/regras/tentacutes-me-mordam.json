@@ -1,0 +1,16 @@
+{
+  "id": "tentacutes-me-mordam",
+  "tipo": "regra",
+  "nome": "Tentacutes me Mordam!",
+  "resumo": "As estatísticas do tentacute podem ser usadas para representar micos, saguis e outros pequenos primatas, como ameaças ou parceiros.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 195 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tentacutes me Mordam!",
+      "texto": "Tentacutes possuem diversas similaridades com micos, saguis e outros pequenos primatas. Assim, suas estatísticas podem ser usadas para representar essas pequenas criaturas, tanto como ameaças quanto como parceiros."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

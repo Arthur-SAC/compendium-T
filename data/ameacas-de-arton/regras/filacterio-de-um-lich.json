@@ -1,0 +1,16 @@
+{
+  "id": "filacterio-de-um-lich",
+  "tipo": "regra",
+  "nome": "O Filactério de um Lich",
+  "resumo": "Receptáculo mágico que abriga a alma do lich; só destruindo-o é possível eliminar um lich permanentemente. Item mágico maior com Defesa 20, RD 40 e 50 PV.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 292 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Filactério de um Lich",
+      "texto": "Parte do longo e complexo ritual para transformar um arcanista em um lich, o filactério é um receptáculo mágico que abriga a alma do conjurador. Caso o corpo do lich seja destruído, vai ressurgir dentro de 1d10 dias ao lado do item. A única maneira de eliminar um lich permanentemente é destruindo o filactério (normalmente mantido oculto e protegido).\n\nO filactério típico é um recipiente minúsculo, muitas vezes relacionado à cultura do lich, repleto de símbolos arcanos e runas místicas. Exemplos incluem caixas de metal, urnas de cerâmica ou frascos de vidro. Qualquer que seja sua forma, um filactério é um item mágico maior com Defesa 20, RD 40, 50 PV e uma aura mágica poderosa. O lich sempre sabe onde está seu filactério e quem está de posse dele.\n\nUm filactério destruído pode ser transformado em um fragmento de filactério."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

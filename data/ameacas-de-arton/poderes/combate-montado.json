@@ -1,0 +1,15 @@
+{
+  "id": "combate-montado",
+  "tipo": "poder",
+  "nome": "Combate Montado",
+  "resumo": "Enquanto montado, +2 em testes de ataque e rolagens de dano com armas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 223 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Ginete",
+    "descricao": "Enquanto estiver montado, você recebe +2 em testes de ataque e rolagens de dano com armas."
+  }
+}

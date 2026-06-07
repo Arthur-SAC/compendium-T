@@ -1,0 +1,16 @@
+{
+  "id": "resistencia-montada",
+  "tipo": "poder",
+  "nome": "Resistência Montada",
+  "resumo": "Montado, gaste 2 PM para usar Cavalgar no lugar da perícia exigida em um teste de resistência.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 223 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Combate Montado",
+    "custo": "2 PM",
+    "descricao": "Enquanto estiver montado, sempre que precisar fazer um teste de resistência, você pode gastar 2 PM para usar Cavalgar no lugar da perícia exigida. Se o teste for contra um efeito que permite um teste para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste."
+  }
+}
