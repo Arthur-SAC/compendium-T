@@ -1,0 +1,61 @@
+{
+  "id": "finntroll",
+  "tipo": "raca",
+  "nome": "Finntroll",
+  "resumo": "Trolls de corpo vegetal e elevado intelecto arcano, originários do Império Trollkyrka. Personagens jogadores finntroll são sempre membros da raça que abandonaram o Império e rejeitam suas práticas escravistas.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 339 },
+  "imagens": ["/racas/finntroll.png"],
+  "secoes": [
+    {
+      "titulo": "Personagens finntroll",
+      "texto": "Personagens jogadores finntroll são sempre membros da raça que abandonaram o Império Trollkyrka e rejeitam suas práticas escravistas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "arcanista-finntroll", "alvoTipo": "criatura", "rotulo": "Arcanista Finntroll" },
+    { "tipo": "verTambem", "alvoId": "finntroll-cacador-ameacas", "alvoTipo": "criatura", "rotulo": "Finntroll Caçador" },
+    { "tipo": "verTambem", "alvoId": "finntroll-feitor-ameacas", "alvoTipo": "criatura", "rotulo": "Finntroll Feitor" },
+    { "tipo": "verTambem", "alvoId": "finntroll-senhor-de-estabulo", "alvoTipo": "criatura", "rotulo": "Finntroll Senhor de Estábulo" },
+    { "tipo": "verTambem", "alvoId": "cavaleiro-finntroll", "alvoTipo": "criatura", "rotulo": "Cavaleiro Finntroll" },
+    { "tipo": "verTambem", "alvoId": "sacerdote-finntroll", "alvoTipo": "criatura", "rotulo": "Sacerdote Finntroll" },
+    { "tipo": "verTambem", "alvoId": "alto-sacerdote-finntroll", "alvoTipo": "criatura", "rotulo": "Alto Sacerdote Finntroll" },
+    { "tipo": "verTambem", "alvoId": "defeituoso", "alvoTipo": "criatura", "rotulo": "Defeituoso" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Inteligência", "valor": 2 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "atributo": "Força", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Tamanho e deslocamento não declarados explicitamente no quadro de habilidades de raça; assumidos Médio/9m (regra geral) — as criaturas finntroll do capítulo têm tamanho Médio e deslocamento 9m.",
+    "habilidades": [
+      {
+        "nome": "Corpo Vegetal",
+        "descricao": "Você é uma criatura do tipo monstro e recebe natureza vegetal e visão no escuro."
+      },
+      {
+        "nome": "Presença Arcana",
+        "descricao": "Você recebe +2 em Misticismo e resistência a magia +2."
+      },
+      {
+        "nome": "Regeneração Vegetal",
+        "descricao": "Uma vez por rodada, você pode gastar 1 PM para recuperar 5 PV. Esta habilidade não cura dano de ácido ou fogo."
+      },
+      {
+        "nome": "Intolerância a Luz",
+        "descricao": "Você recebe sensibilidade a luz e, quando exposto à luz do sol ou similar, não consegue ativar sua Regeneração Vegetal."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Kallyanadroch, Megalokk, Sszzaas, Tenebra. Finntroll que rejeitam a maldade do Império Trollkyrka podem ser devotos de qualquer divindade."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "soterrado",
+  "tipo": "raca",
+  "nome": "Soterrado",
+  "resumo": "Variante da raça osteon: esqueletos revestidos por grossas camadas de gelo. Para criar um personagem desta raça, usam-se as habilidades de osteon, substituindo Armadura Óssea e Memória Póstuma por Abraço Gélido e Esquife de Gelo.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 354 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Raça Variante: Soterrado",
+      "texto": "Soterrado é uma variante da raça osteon. Para criar um personagem desta raça, use as habilidades de osteon, mas substitua Armadura Óssea e Memória Póstuma pelas seguintes."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "variante", "alvoId": "osteon", "alvoTipo": "raca", "rotulo": "Osteon (raça base)" },
+    { "tipo": "verTambem", "alvoId": "soterrado-vagante", "alvoTipo": "criatura", "rotulo": "Soterrado vagante" }
+  ],
+  "mecanica": {
+    "modificadores": [],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "Variante de Osteon; veja a raça Osteon — substitui Armadura Óssea e Memória Póstuma por Abraço Gélido e Esquife de Gelo. Modificadores de atributo, tamanho (Médio) e deslocamento (9m) herdados do Osteon (não redeclarados no quadro da variante).",
+    "habilidades": [
+      {
+        "nome": "Abraço Gélido",
+        "descricao": "Você recebe +2 em testes para agarrar. Além disso, seus ataques desarmados e com armas naturais causam 2 pontos de dano de frio extras."
+      },
+      {
+        "nome": "Esquife de Gelo",
+        "descricao": "Você recebe redução de corte e perfuração 5 e redução de frio 10. Entretanto, sofre 1 ponto de dano adicional por dado de dano de fogo."
+      },
+      {
+        "nome": "Demais habilidades de Osteon",
+        "descricao": "O soterrado mantém as demais habilidades da raça osteon: Natureza Esquelética e Preço da Não Vida. Apenas Armadura Óssea e Memória Póstuma são substituídas por Abraço Gélido e Esquife de Gelo."
+      }
+    ]
+  }
+}
