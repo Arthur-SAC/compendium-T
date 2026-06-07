@@ -1,0 +1,58 @@
+{
+  "id": "harpia",
+  "tipo": "raca",
+  "nome": "Harpia",
+  "resumo": "Criatura com torso de mulher e corpo de ave de rapina, dotada de asas no lugar dos braços e pés rapinantes com garras; ágil e carismática, mas pouco perspicaz.",
+  "fonte": { "livro": "ameacas-de-arton", "pagina": 201 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A harpia lembra uma mulher humana, com a parte inferior do corpo, pernas e asas de um pássaro enorme. No lugar dos braços e das mãos possui asas de abutre, e seus pés rapinantes terminam em garras afiadas. Sua face feroz e voz estridente podem amedrontar, e harpias são devotas de Hyninn, Megalokk e Tenebra."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "verTambem", "alvoId": "harpia-saqueadora", "alvoTipo": "criatura", "rotulo": "Harpia Saqueadora" }
+  ],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Destreza", "valor": 2 },
+      { "atributo": "Carisma", "valor": 1 },
+      { "atributo": "Inteligência", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "nota": "A sidebar de Habilidades de Raça da Harpia não imprime tamanho nem deslocamento base; ambos foram inferidos a partir da criatura Harpia Saqueadora (Médio; deslocamento 9m/6q), com a qual compartilha o tipo. A habilidade Asas de Abutre concede pairar/voar com deslocamento 12m.",
+    "habilidades": [
+      {
+        "nome": "Asas de Abutre",
+        "descricao": "Você possui asas no lugar dos braços e das mãos. Você pode pairar a 1,5m do chão com deslocamento 12m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m.",
+        "efeito": "Pode pairar a 1,5m do chão com deslocamento 12m (ignora terreno difícil; imune a dano por queda, exceto se inconsciente); sem armadura pesada, gasta 1 PM/rodada para voar com deslocamento 12m"
+      },
+      {
+        "nome": "Cria de Masmorra",
+        "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro e +2 em Intimidação e Sobrevivência.",
+        "efeito": "Tipo monstro; visão no escuro; +2 em Intimidação e Sobrevivência"
+      },
+      {
+        "nome": "Grito Aterrorizante",
+        "descricao": "Você pode gastar uma ação padrão e 1 PM para emitir um grito estridente. Criaturas em alcance curto ficam abaladas (Von CD Car evita).",
+        "efeito": "Ação padrão + 1 PM; criaturas em alcance curto ficam abaladas (Von CD Car evita)"
+      },
+      {
+        "nome": "Pés Rapinantes",
+        "descricao": "Seus pés podem ser usados como mãos ou como duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras.",
+        "efeito": "Pés funcionam como mãos ou duas garras (1d6, x2, corte); 1 PM uma vez por rodada para ataque extra com garra livre ao agredir com arma; garras servem como arma secundária (ex.: Estilo de Duas Armas)"
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devotos",
+        "descricao": "Hyninn, Megalokk, Tenebra."
+      }
+    ]
+  }
+}
