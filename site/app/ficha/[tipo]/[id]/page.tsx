@@ -75,6 +75,8 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
         <FichaDivindade entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "criatura" ? (
         <FichaCriatura entidade={entidade} registro={registro} descricoes={descricoes} />
+      ) : entidade.tipo === "variante-classe" ? (
+        <FichaClasse entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : (
         <Ficha entidade={entidade} registro={registro} descricoes={descricoes} />
       )}

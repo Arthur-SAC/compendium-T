@@ -5,6 +5,7 @@ import { TextoRico } from "./TextoRico";
 import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
+import Link from "next/link";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
 const cartaoAside = { background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 12, padding: "12px 14px" };
@@ -121,6 +122,8 @@ function TabelaEfeitos({ titulo, efeitos, registro, descricoes }: { titulo: stri
 
 export function FichaClasse({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
   const m = entidade.mecanica as unknown as ClasseMecanica;
+  const varianteDe = (entidade.mecanica as { varianteDe?: string }).varianteDe;
+  const nomeBasica = varianteDe ? varianteDe.charAt(0).toUpperCase() + varianteDe.slice(1) : "";
   const imagem = entidade.imagens[0];
   const metade = Math.ceil(m.progressao.length / 2);
   const progPrimeira = m.progressao.slice(0, metade);
@@ -169,6 +172,13 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
+      {varianteDe && (
+        <div style={{ background: "var(--vermelho)", color: "#fff", padding: "10px 18px", fontFamily: "var(--serifa)", fontSize: 13.5, textAlign: "center" }}>
+          ⚠️ <strong>Classe Variante</strong> — variante de{" "}
+          <Link href={`/ficha/classe/${varianteDe}`} style={{ color: "#fff", textDecoration: "underline" }}>{nomeBasica}</Link>.
+          {" "}Substitui características da classe básica e <strong>não faz multiclasse</strong> com ela (são a mesma classe).
+        </div>
+      )}
       <header style={{ background: "transparent", padding: "20px 24px 14px", textAlign: "center" }}>
         <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>Classe</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
