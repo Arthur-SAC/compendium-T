@@ -4,7 +4,7 @@
   "nome": "Treinador",
   "resumo": "Mestre das criaturas ferais de Arton, o treinador convoca, doma e direciona animais, monstros e outras feras como combatentes ou mascotes, compartilhando suas ações com um parceiro especial chamado melhor amigo.",
   "fonte": { "livro": "herois-de-arton", "pagina": 16 },
-  "imagens": [],
+  "imagens": ["/classes/treinador.png"],
   "secoes": [
     {
       "titulo": "Descrição",
