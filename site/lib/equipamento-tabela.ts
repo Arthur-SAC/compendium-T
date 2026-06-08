@@ -97,5 +97,38 @@ export function tabelaEquipamentoPipe(slug: string, entidades: Entidade[]): stri
     return montarPipe(caption, header, grupos);
   }
 
+  if (slug === "alimentacao") {
+    const def = CATEGORIAS_EQUIP.find((c) => c.slug === "alimentacao");
+    const caption = `Tabela: ${def?.rotulo ?? "Alimentação"}`;
+    const header = ["Item", "Fonte", "Preço", "Espaços"];
+    const linhas = itens
+      .filter((e) => mec(e).categoria === "alimentacao")
+      .sort(ordenar)
+      .map((e) => {
+        const m = mec(e);
+        return [e.nome, fonteCurta(e.fonte.livro), v(m.preco), v(m.espacos)].join(" | ");
+      });
+    return [caption, header.join(" | "), ...linhas].join("\n");
+  }
+
+  // Venenos: subconjunto dos alquímicos. Detecção pelo `especial` ("Veneno…" nas expansões;
+  // "Inoculação:" no Básico) — valida 0 falso-positivo no acervo atual.
+  if (slug === "venenos") {
+    const caption = "Tabela: Venenos";
+    const header = ["Item", "Fonte", "Preço"];
+    const ehVeneno = (m: ItemMecanica) => {
+      const esp = m.especial ?? "";
+      return m.categoria === "alquimico" && (esp.startsWith("Veneno") || esp.includes("Inoculação:"));
+    };
+    const linhas = itens
+      .filter((e) => ehVeneno(mec(e)))
+      .sort(ordenar)
+      .map((e) => {
+        const m = mec(e);
+        return [e.nome, fonteCurta(e.fonte.livro), v(m.preco)].join(" | ");
+      });
+    return [caption, header.join(" | "), ...linhas].join("\n");
+  }
+
   return "";
 }

@@ -22,6 +22,23 @@ test("tabela de armas inclui uma arma de Ameaças (Bacamarte) agrupada por profi
   expect(t).toContain("Tabela: Armas");
 });
 
+test("tabela de venenos lista os alquímicos-veneno do Básico e de Ameaças (sem falso-positivo)", () => {
+  const t = tabelaEquipamentoPipe("venenos", carregarEntidades());
+  expect(t).toContain("Tabela: Venenos");
+  expect(t).toContain("Beladona"); // Básico (Inoculação:)
+  expect(t).toContain("Veneno Batráquio"); // Ameaças (Veneno.)
+  // não-venenos NÃO entram
+  expect(t).not.toContain("Fogo Alquímico");
+  expect(t).not.toContain("Soro Supremo");
+});
+
+test("tabela de alimentação inclui pratos do Básico e de Ameaças", () => {
+  const t = tabelaEquipamentoPipe("alimentacao", carregarEntidades());
+  expect(t).toContain("Tabela: Alimentação");
+  expect(t).toContain("Ração de Viagem"); // Básico
+  expect(t).toContain("Sashimi de Kraken"); // Ameaças
+});
+
 test("slug desconhecido retorna string vazia (marcador inofensivo)", () => {
   expect(tabelaEquipamentoPipe("inexistente", carregarEntidades())).toBe("");
 });
