@@ -21,7 +21,7 @@ const d = {
 describe("FichaDistincao", () => {
   it("exibe Admissão, nome da marca e nome do poder", () => {
     render(<FichaDistincao entidade={d} registro={registro} descricoes={{}} />);
-    expect(screen.getByText(/Admissão/i)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Admissão/i })).toBeInTheDocument();
     expect(screen.getByText(/Marca do Corvo/i)).toBeInTheDocument();
     expect(screen.getByText(/Manto do Corvo/i)).toBeInTheDocument();
   });
