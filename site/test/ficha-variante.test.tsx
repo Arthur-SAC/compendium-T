@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { expect, test } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { FichaClasse } from "@/components/FichaClasse";
 import { construirRegistro } from "@/lib/autolink";
@@ -14,11 +14,9 @@ const ent = {
   },
 } as any;
 
-describe("FichaClasse com variante", () => {
-  it("mostra a faixa de aviso de variante e linka a classe básica", () => {
-    render(<FichaClasse entidade={ent} registro={reg} descricoes={{}} />);
-    expect(screen.getByText(/Classe Variante/i)).toBeTruthy();
-    const link = screen.getByRole("link", { name: /Inventor/i });
-    expect(link.getAttribute("href")).toBe("/ficha/classe/inventor");
-  });
+test("FichaClasse mostra a faixa de aviso de variante e linka a classe básica", () => {
+  render(<FichaClasse entidade={ent} registro={reg} descricoes={{}} />);
+  expect(screen.getByText(/Classe Variante/i)).toBeInTheDocument();
+  const link = screen.getByRole("link", { name: /Inventor/i });
+  expect(link).toHaveAttribute("href", "/ficha/classe/inventor");
 });

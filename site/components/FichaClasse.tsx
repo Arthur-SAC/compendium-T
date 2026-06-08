@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { Entidade, ClasseMecanica, ProgressaoNivel, EfeitoPoder } from "@/lib/schema";
+import type { Entidade, ClasseMecanica, ProgressaoNivel, EfeitoPoder, VarianteClasseMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
 import { TextoBlocos } from "./TextoBlocos";
@@ -122,7 +122,7 @@ function TabelaEfeitos({ titulo, efeitos, registro, descricoes }: { titulo: stri
 
 export function FichaClasse({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
   const m = entidade.mecanica as unknown as ClasseMecanica;
-  const varianteDe = (entidade.mecanica as { varianteDe?: string }).varianteDe;
+  const varianteDe = (entidade.mecanica as Partial<VarianteClasseMecanica>).varianteDe;
   const nomeBasica = varianteDe ? varianteDe.charAt(0).toUpperCase() + varianteDe.slice(1) : "";
   const imagem = entidade.imagens[0];
   const metade = Math.ceil(m.progressao.length / 2);
@@ -174,7 +174,11 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
       {varianteDe && (
         <div style={{ background: "var(--vermelho)", color: "#fff", padding: "10px 18px", fontFamily: "var(--serifa)", fontSize: 13.5, textAlign: "center" }}>
-          ⚠️ <strong>Classe Variante</strong> — variante de{" "}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ verticalAlign: "-2px", marginRight: 6 }} aria-hidden="true">
+            <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
+            <line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          <strong>Classe Variante</strong> — variante de{" "}
           <Link href={`/ficha/classe/${varianteDe}`} style={{ color: "#fff", textDecoration: "underline" }}>{nomeBasica}</Link>.
           {" "}Substitui características da classe básica e <strong>não faz multiclasse</strong> com ela (são a mesma classe).
         </div>
