@@ -1,0 +1,216 @@
+{
+  "id": "atleta",
+  "tipo": "variante-classe",
+  "nome": "Atleta",
+  "resumo": "Variante do Lutador que abandona as técnicas de combate para cultivar o corpo ao limite, sendo capaz de correr mais rápido, saltar mais alto e realizar façanhas físicas extraordinárias.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 24 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Embora quase toda aventura em Arton envolva alguma batalha, nem todos os aventureiros estão interessados em combate. Curiosamente, alguns desses são lutadores.\n\nO atleta é um aventureiro que cultiva seu corpo ao limite, sendo capaz de correr mais rápido, saltar mais alto, nadar por mais tempo que qualquer outro. Não treina técnicas de luta, mas é capaz de erguer pesos impressionantes, tem fôlego para marchar por semanas e realiza acrobacias incríveis. Suas façanhas às vezes parecem não ter objetivo além de provar que ele é capaz de cumpri-las... Mas mais de um atleta já salvou seu grupo ao segurar um teto que desabava, correr por um dia inteiro para pedir reforços ou dobrar as barras da cela onde todos estavam presos.\n\nAtletas podem ser vaidosos, esculpindo o próprio corpo com a justificativa de aumentar sua força ou resistência. Contudo, também podem ser os aventureiros mais próximos do artoniano médio. Enquanto outros falam de matar e morrer com naturalidade, para o atleta a violência é estranha. Melhor é evitá-la, talvez correndo mais que o inimigo... Ou decidindo qualquer desavença com uma competição amigável."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "lutador",
+    "atributoChave": "Força",
+    "pvInicial": 20,
+    "pvPorNivel": 5,
+    "pmPorNivel": 3,
+    "pericias": {
+      "quantidade": 4,
+      "fixas": ["Atletismo (For)", "Luta (For)"],
+      "lista": ["Acrobacia (Des)", "Adestramento (Car)", "Cavalgar (Des)", "Cura (Sab)", "Fortitude (Con)", "Iniciativa (Des)", "Intimidação (Car)", "Ofício (Int)", "Percepção (Sab)", "Pilotagem (Des)", "Pontaria (Des)", "Reflexos (Des)"],
+      "texto": "Atletismo (For) e Luta (For), mais 4 a sua escolha entre Acrobacia (Des), Adestramento (Car), Cavalgar (Des), Cura (Sab), Fortitude (Con), Iniciativa (Des), Intimidação (Car), Ofício (Int), Percepção (Sab), Pilotagem (Des), Pontaria (Des) e Reflexos (Des)."
+    },
+    "proficiencias": [],
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Briga (1d6)", "Façanha atlética"] },
+      { "nivel": 2, "habilidades": ["Arremesso atlético", "Poder de lutador", "Poderio muscular"] },
+      { "nivel": 3, "habilidades": ["Casca grossa (Con)", "Poder de lutador"] },
+      { "nivel": 4, "habilidades": ["Poder de lutador"] },
+      { "nivel": 5, "habilidades": ["Briga (1d8)", "Mais alto e mais rápido", "Poder de lutador"] },
+      { "nivel": 6, "habilidades": ["Poder de lutador"] },
+      { "nivel": 7, "habilidades": ["Casca grossa (Con +1)", "Poder de lutador"] },
+      { "nivel": 8, "habilidades": ["Poder de lutador"] },
+      { "nivel": 9, "habilidades": ["Briga (1d10)", "Disciplina atlética", "Poder de lutador"] },
+      { "nivel": 10, "habilidades": ["Poder de lutador"] },
+      { "nivel": 11, "habilidades": ["Casca grossa (Con +2)", "Poder de lutador"] },
+      { "nivel": 12, "habilidades": ["Poder de lutador"] },
+      { "nivel": 13, "habilidades": ["Briga (2d6)", "Poder de lutador"] },
+      { "nivel": 14, "habilidades": ["Poder de lutador"] },
+      { "nivel": 15, "habilidades": ["Casca grossa (Con +3)", "Poder de lutador"] },
+      { "nivel": 16, "habilidades": ["Poder de lutador"] },
+      { "nivel": 17, "habilidades": ["Briga (2d8)", "Poder de lutador"] },
+      { "nivel": 18, "habilidades": ["Poder de lutador"] },
+      { "nivel": 19, "habilidades": ["Casca grossa (Con +4)", "Poder de lutador"] },
+      { "nivel": 20, "habilidades": ["Corpo ideal (2d10)", "Poder de lutador"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Briga",
+        "nivel": 1,
+        "descricao": "Como o lutador básico.",
+        "origemBasica": true
+      },
+      {
+        "nome": "Façanha Atlética",
+        "nivel": 1,
+        "descricao": "Quando faz um teste de perícia, você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Força). Para cada PM que gastar, recebe +2 no teste."
+      },
+      {
+        "nome": "Arremesso Atlético",
+        "nivel": 2,
+        "descricao": "No 2º nível, o alcance de seus ataques com armas de arremesso aumenta em um passo (de curto para médio e de médio para longo). Além disso, quando ataca com uma dessas armas, você pode usar o dano da habilidade Briga no lugar do dano básico da arma. A partir do 10º nível, seus ataques com armas de arremesso contam como ataques desarmados para efeito de suas habilidades de lutador."
+      },
+      {
+        "nome": "Poder de Lutador",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o lutador básico.",
+        "origemBasica": true
+      },
+      {
+        "nome": "Poderio Muscular",
+        "nivel": 2,
+        "descricao": "No 2º nível, você aprende e pode lançar Primor Atlético, mas apenas em si mesmo. Esta não é uma habilidade mágica e provém de seu extenso treinamento físico (veja \"Magias Simuladas\", p. 44)."
+      },
+      {
+        "nome": "Casca Grossa",
+        "nivel": 3,
+        "descricao": "Como o lutador básico.",
+        "origemBasica": true
+      },
+      {
+        "nome": "Mais Alto e Mais Rápido",
+        "nivel": 5,
+        "descricao": "No 5º nível, seu deslocamento aumenta em +3m. Além disso, você recebe deslocamento de escalada e natação igual à metade de seu deslocamento normal (se já os possui, em vez disso eles aumentam em +3m). Ao contrário do normal, esse deslocamento de natação não fornece a capacidade de respirar debaixo d'água, mas você soma seu nível de atleta no total de rodadas para prender sua respiração (veja Tormenta20, p. 319)."
+      },
+      {
+        "nome": "Disciplina Atlética",
+        "nivel": 9,
+        "descricao": "A partir do 9º nível, quando falha em um teste de resistência, você pode gastar 2 PM para rolar esse teste novamente, usando Atletismo no lugar da perícia original.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Corpo Ideal",
+        "nivel": 20,
+        "descricao": "No 20º nível, você atinge o ápice físico de um corpo mortal. Você recebe imunidade a cansaço, condições de metabolismo e veneno, redução de dano 10 e seu dano desarmado e com armas de arremesso aumenta para 2d10 (criaturas Médias)."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Arma Improvisada",
+        "descricao": "Para você, atacar com armas improvisadas conta como fazer um ataque desarmado, mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadas são frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra."
+      },
+      {
+        "nome": "Até Acertar",
+        "descricao": "Se você errar um ataque desarmado, recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano desarmado contra o mesmo oponente. Os bônus terminam quando você acertar um ataque ou no fim da cena, o que acontecer primeiro."
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Braços Calejados",
+        "descricao": "Se você não estiver usando armadura, soma sua Força na Defesa, limitado pelo seu nível."
+      },
+      {
+        "nome": "Cabeçada",
+        "descricao": "Quando faz um ataque desarmado, você pode gastar 2 PM. Se fizer isso, o oponente fica desprevenido contra este ataque. Você só pode usar este poder uma vez por cena contra um mesmo alvo.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Chave",
+        "descricao": "Se estiver agarrando uma criatura e fizer um teste de manobra contra ela para causar dano, o dano desarmado aumenta em um passo.",
+        "prerequisito": "Int 1, Lutador de Chão, 4º nível de lutador"
+      },
+      {
+        "nome": "Confiança dos Ringues",
+        "descricao": "Quando um inimigo erra um ataque corpo a corpo contra você, você recebe 2 PM temporários (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena.",
+        "prerequisito": "8º nível de lutador"
+      },
+      {
+        "nome": "Convencido",
+        "descricao": "Acostumado a contar apenas com seus músculos, você adquiriu certo desdém por artes mais sofisticadas. Você recebe resistência a medo e mental +5."
+      },
+      {
+        "nome": "Golpe Baixo",
+        "descricao": "Quando faz um ataque desarmado, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o oponente deve fazer um teste de Fortitude (CD For). Se ele falhar, fica atordoado por uma rodada (apenas uma vez por cena).",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Golpe Imprudente",
+        "descricao": "Quando usa Golpe Relâmpago, você pode atacar de forma impulsiva. Se fizer isso, seus ataques desarmados recebem um dado de dano extra do mesmo tipo (por exemplo, se o seu dano é 2d6, você causa 3d6), mas você sofre –5 na Defesa até o início de seu próximo turno."
+      },
+      {
+        "nome": "Imobilização",
+        "descricao": "Se estiver agarrando uma criatura, você pode gastar uma ação completa para imobilizá-la. Faça um teste de manobra contra ela. Se você passar, imobiliza a criatura — ela fica indefesa e não pode realizar nenhuma ação, exceto tentar se soltar (o que exige um teste de manobra). Se a criatura se soltar da imobilização, ainda fica agarrada. Enquanto estiver imobilizando uma criatura, você sofre as penalidades de agarrar.",
+        "prerequisito": "Chave, 8º nível de lutador"
+      },
+      {
+        "nome": "Língua dos Becos",
+        "descricao": "Você pode pagar 1 PM para usar sua Força no lugar de Carisma em um teste de perícia baseada em Carisma.",
+        "prerequisito": "For 1, treinado em Intimidação",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Lutador de Chão",
+        "descricao": "Você recebe +2 em testes de ataque para agarrar e derrubar. Quando agarra uma criatura, pode gastar 1 PM para fazer uma manobra derrubar contra ela como uma ação livre.",
+        "custo": "1 PM (opcional)"
+      },
+      {
+        "nome": "Nome na Arena",
+        "descricao": "Você construiu uma reputação no circuito de lutas de Arton. Uma vez por cena, pode gastar uma ação completa para fazer um teste de Luta (CD 10) e impressionar os presentes. Se passar, você recebe +2 em todos os seus testes de perícias originalmente baseadas em Carisma até o fim da cena e a atitude de qualquer pessoa que seja fã de lutas aumenta em uma categoria em relação a você (veja a página 259). Esse bônus aumenta em +2 para cada 10 pontos pelos quais o resultado do teste exceder a CD (+4 para um resultado 20, +6 para 30 e assim por diante).",
+        "prerequisito": "11º nível de lutador"
+      },
+      {
+        "nome": "Punhos de Adamante",
+        "descricao": "Seus ataques desarmados ignoram 10 pontos de redução de dano do alvo, se houver.",
+        "prerequisito": "8º nível de lutador"
+      },
+      {
+        "nome": "Rasteira",
+        "descricao": "Quando faz um ataque desarmado contra uma criatura até uma categoria de tamanho maior que a sua, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a criatura fica caída.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Sarado",
+        "descricao": "Você soma sua Força no seu total de pontos de vida e em Fortitude. Você pode usar Força em vez de Carisma em testes de Diplomacia com pessoas que se atraiam por físicos bem definidos.",
+        "prerequisito": "For 3"
+      },
+      {
+        "nome": "Sequência Destruidora",
+        "descricao": "No início do seu turno, você pode gastar 2 PM para dizer um número (no mínimo 2). Se fizer e acertar uma quantidade de ataques igual ao número dito, o último recebe um bônus cumulativo de +4 na rolagem de dano por ataque feito. Por exemplo, se você falar \"três\" e fizer e acertar três ataques, o último ataque (o terceiro) receberá +12 na rolagem de dano.",
+        "prerequisito": "Trocação, 12º nível de lutador",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Trincado",
+        "descricao": "Esculpido à exaustão, seu corpo se tornou uma máquina. Você soma sua Constituição nas rolagens de dano desarmado.",
+        "prerequisito": "Con 3, Sarado, 10º nível de lutador"
+      },
+      {
+        "nome": "Trocação",
+        "descricao": "Quando você começa a bater, não para mais. Ao acertar um ataque desarmado, pode fazer outro ataque desarmado contra o mesmo alvo, pagando uma quantidade de PM igual à quantidade de ataques já realizados no turno. Ou seja, pode fazer o primeiro ataque extra gastando 1 PM, um segundo ataque extra gastando mais 2 PM e assim por diante, até errar um ataque ou não ter mais pontos de mana.",
+        "prerequisito": "6º nível de lutador"
+      },
+      {
+        "nome": "Trocação Tumultuosa",
+        "descricao": "Quando usa a ação agredir para fazer um ataque desarmado, você pode gastar 2 PM para atingir todas as criaturas adjacentes — incluindo aliados! Você deve usar este poder antes de rolar o ataque e compara o resultado de seu teste contra a Defesa de cada criatura.",
+        "prerequisito": "Trocação, 8º nível de lutador",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Valentão",
+        "descricao": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
+      },
+      {
+        "nome": "Voadora",
+        "descricao": "Quando faz uma investida desarmada, você pode gastar 2 PM. Se fizer isso, recebe +1d6 no dano para cada 3m que se deslocar até chegar ao oponente, limitado pelo seu nível.",
+        "custo": "2 PM"
+      }
+    ],
+    "caminhos": []
+  }
+}
