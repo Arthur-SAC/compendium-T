@@ -4,7 +4,7 @@
   "nome": "Santo",
   "resumo": "Variante do Paladino que abre mão do livre-arbítrio para se tornar o veículo mais puro da vontade divina, canalizando a energia sagrada em ladainhas de combate e cura miraculosa.",
   "fonte": { "livro": "herois-de-arton", "pagina": 37 },
-  "imagens": [],
+  "imagens": ["/classes/paladino.png"],
   "secoes": [
     {
       "titulo": "Descrição",

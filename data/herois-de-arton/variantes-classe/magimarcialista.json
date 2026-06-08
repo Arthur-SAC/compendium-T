@@ -4,7 +4,7 @@
   "nome": "Magimarcialista",
   "resumo": "Variante do Bardo que abandona o repertório tradicional para unir combate e magia destrutiva, acumulando cargas arcanas e marciais para amplificar ataques e feitiços.",
   "fonte": { "livro": "herois-de-arton", "pagina": 33 },
-  "imagens": [],
+  "imagens": ["/classes/bardo.png"],
   "secoes": [
     {
       "titulo": "Descrição",

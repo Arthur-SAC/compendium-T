@@ -4,7 +4,7 @@
   "nome": "Burguês",
   "resumo": "Variante do Nobre que substitui linhagem e brasões pelo poder do ouro, usando riqueza, negociação e ostentação para liderar e auxiliar seus companheiros.",
   "fonte": { "livro": "herois-de-arton", "pagina": 25 },
-  "imagens": [],
+  "imagens": ["/classes/nobre.png"],
   "secoes": [
     {
       "titulo": "Descrição",

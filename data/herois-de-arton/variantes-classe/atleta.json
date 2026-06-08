@@ -4,7 +4,7 @@
   "nome": "Atleta",
   "resumo": "Variante do Lutador que abandona as técnicas de combate para cultivar o corpo ao limite, sendo capaz de correr mais rápido, saltar mais alto e realizar façanhas físicas extraordinárias.",
   "fonte": { "livro": "herois-de-arton", "pagina": 24 },
-  "imagens": [],
+  "imagens": ["/classes/lutador.png"],
   "secoes": [
     {
       "titulo": "Descrição",

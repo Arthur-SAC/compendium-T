@@ -4,7 +4,7 @@
   "nome": "Vassalo",
   "resumo": "Variante do Cavaleiro que serve a um nobre suserano, ascendendo progressivamente na hierarquia aristocrática de Arton — de pajem a imperador — em troca de responsabilidades feudais e títulos de nobreza.",
   "fonte": { "livro": "herois-de-arton", "pagina": 41 },
-  "imagens": [],
+  "imagens": ["/classes/cavaleiro.png"],
   "secoes": [
     {
       "titulo": "Descrição",

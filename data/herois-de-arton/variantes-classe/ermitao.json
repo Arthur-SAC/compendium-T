@@ -4,7 +4,7 @@
   "nome": "Ermitão",
   "resumo": "Variante do Druida que abandona qualquer convívio social para guardar um sítio sagrado específico, trocando a Forma Selvagem pelo domínio absoluto do território e comunicação com vegetais e espíritos.",
   "fonte": { "livro": "herois-de-arton", "pagina": 29 },
-  "imagens": [],
+  "imagens": ["/classes/druida.png"],
   "secoes": [
     {
       "titulo": "Descrição",

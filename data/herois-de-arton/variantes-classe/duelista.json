@@ -4,7 +4,7 @@
   "nome": "Duelista",
   "resumo": "Variante do Bucaneiro que encarna o esgrimista austero e honrado, sempre pronto para defender grandes causas nos salões e ruelas de Arton com sua escola de duelo pessoal.",
   "fonte": { "livro": "herois-de-arton", "pagina": 27 },
-  "imagens": [],
+  "imagens": ["/classes/bucaneiro.png"],
   "secoes": [
     {
       "titulo": "Descrição",

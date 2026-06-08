@@ -4,7 +4,7 @@
   "nome": "Usurpador",
   "resumo": "Herege que aprendeu o segredo de roubar o poder milagroso dos deuses, utilizando magia divina sem devoção, dogma ou servidão.",
   "fonte": { "livro": "herois-de-arton", "pagina": 40 },
-  "imagens": [],
+  "imagens": ["/classes/clerigo.png"],
   "secoes": [
     {
       "titulo": "Descrição",

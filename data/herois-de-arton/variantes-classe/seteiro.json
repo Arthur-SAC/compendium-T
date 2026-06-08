@@ -4,7 +4,7 @@
   "nome": "Seteiro",
   "resumo": "Variante do Caçador focada no arco como modo de vida, atuando como franco-atirador que semeia pânico em hordas ou elimina alvos importantes com precisão e supressão de fogo.",
   "fonte": { "livro": "herois-de-arton", "pagina": 38 },
-  "imagens": [],
+  "imagens": ["/classes/cacador.png"],
   "secoes": [
     {
       "titulo": "Descrição",

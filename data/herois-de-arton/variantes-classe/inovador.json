@@ -4,7 +4,7 @@
   "nome": "Inovador",
   "resumo": "Variante do Guerreiro que rejeita convenções e desenvolve um estilo de combate totalmente único, usando armas inusitadas, manobras imprevisíveis e sequências de movimentos inovadores para desconcertar qualquer oponente.",
   "fonte": { "livro": "herois-de-arton", "pagina": 30 },
-  "imagens": [],
+  "imagens": ["/classes/guerreiro.png"],
   "secoes": [
     {
       "titulo": "Descrição",

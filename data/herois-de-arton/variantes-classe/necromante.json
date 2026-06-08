@@ -4,7 +4,7 @@
   "nome": "Necromante",
   "resumo": "Variante do Arcanista que estuda a vida, a morte e os estados intermediários, lançando magias por meio de uma conexão sombria com a morte e animando cadáveres como parceiros.",
   "fonte": { "livro": "herois-de-arton", "pagina": 34 },
-  "imagens": [],
+  "imagens": ["/classes/arcanista.png"],
   "secoes": [
     {
       "titulo": "Descrição",
