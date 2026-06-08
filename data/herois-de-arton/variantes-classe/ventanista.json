@@ -4,7 +4,7 @@
   "nome": "Ventanista",
   "resumo": "Variante do Ladino focada em furtividade, charme e larcenismo galante: usa magias simuladas de encantamento e ilusão, disfarces elaborados e provocação ousada para roubar com arte e precisão milimétrica, sem recorrer à violência.",
   "fonte": { "livro": "herois-de-arton", "pagina": 44 },
-  "imagens": [],
+  "imagens": ["/classes/ventanista.png"],
   "secoes": [
     {
       "titulo": "Descrição",

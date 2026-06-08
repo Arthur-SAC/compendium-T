@@ -4,7 +4,7 @@
   "nome": "Machado de Pedra",
   "resumo": "Variante do Bárbaro que representa os guerreiros mais primitivos de Arton, que nunca tiveram contato com a civilização, usando apenas armas de pedra e osso, mas com fúria suprema e resistência natural excepcional.",
   "fonte": { "livro": "herois-de-arton", "pagina": 32 },
-  "imagens": [],
+  "imagens": ["/classes/machado-de-pedra.png"],
   "secoes": [
     {
       "titulo": "Descrição",
