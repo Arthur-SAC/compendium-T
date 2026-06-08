@@ -123,6 +123,11 @@ export const ClasseMecanicaSchema = z.object({
 });
 export type ClasseMecanica = z.infer<typeof ClasseMecanicaSchema>;
 
+export const VarianteClasseMecanicaSchema = ClasseMecanicaSchema.extend({
+  varianteDe: z.string(), // slug da classe básica (ex.: "inventor")
+});
+export type VarianteClasseMecanica = z.infer<typeof VarianteClasseMecanicaSchema>;
+
 export const PoderOrigemSchema = z.object({ nome: z.string(), descricao: z.string() });
 export type PoderOrigem = z.infer<typeof PoderOrigemSchema>;
 
@@ -383,6 +388,15 @@ export const EntidadeSchema = z
           code: "custom",
           path: ["mecanica"],
           message: `mecânica de criatura inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
+        });
+      }
+    } else if (ent.tipo === "variante-classe") {
+      const r = VarianteClasseMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["mecanica"],
+          message: `mecânica de variante de classe inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
       }
     }
