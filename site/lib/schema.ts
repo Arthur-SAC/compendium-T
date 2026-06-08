@@ -86,6 +86,15 @@ export const PoderClasseSchema = z.object({
 });
 export type PoderClasse = z.infer<typeof PoderClasseSchema>;
 
+export const DistincaoMarcaSchema = z.object({ nome: z.string(), descricao: z.string() });
+export const DistincaoMecanicaSchema = z.object({
+  admissao: z.string(),
+  marca: DistincaoMarcaSchema,
+  poderes: z.array(PoderClasseSchema).default([]),
+  beneficioAdicional: z.string().optional(),
+});
+export type DistincaoMecanica = z.infer<typeof DistincaoMecanicaSchema>;
+
 export const PericiasClasseSchema = z.object({
   quantidade: z.number().int().min(0),
   fixas: z.array(z.string()).default([]),
@@ -398,6 +407,11 @@ export const EntidadeSchema = z
           path: ["mecanica"],
           message: `mecânica de variante de classe inválida: ${r.error.issues.map((i) => i.message).join("; ")}`,
         });
+      }
+    } else if (ent.tipo === "distincao") {
+      const r = DistincaoMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({ code: "custom", path: ["mecanica"], message: `mecânica de distinção inválida: ${r.error.issues.map((i) => i.message).join("; ")}` });
       }
     }
   });
