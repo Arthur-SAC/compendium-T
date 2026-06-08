@@ -125,8 +125,7 @@
           },
           {
             "escola": "Escola de Tiro",
-            "descricao": "Seu dano com armas de fogo aumenta em um passo e seu alcance com essas armas aumenta em uma categoria (de curto para médio, de médio para longo).",
-            "custo": null
+            "descricao": "Seu dano com armas de fogo aumenta em um passo e seu alcance com essas armas aumenta em uma categoria (de curto para médio, de médio para longo)."
           }
         ]
       },
