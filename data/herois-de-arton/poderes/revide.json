@@ -1,0 +1,15 @@
+{
+  "id": "revide",
+  "tipo": "poder",
+  "nome": "Revide",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Frenesi, 11º nível de bárbaro",
+    "custo": "2 PM",
+    "descricao": "Uma vez por rodada, quando sofre dano de um ataque corpo a corpo enquanto está em fúria, você pode gastar 2 PM para fazer um ataque corpo a corpo contra a criatura que o atacou, desde que ela esteja em seu alcance."
+  }
+}

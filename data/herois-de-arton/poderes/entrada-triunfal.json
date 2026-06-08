@@ -1,0 +1,13 @@
+{
+  "id": "entrada-triunfal",
+  "tipo": "poder",
+  "nome": "Entrada Triunfal",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Se um combate começar e você for o primeiro na iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV máximos."
+  }
+}

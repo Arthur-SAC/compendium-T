@@ -1,0 +1,14 @@
+{
+  "id": "apoteose-ferica",
+  "tipo": "poder",
+  "nome": "Apoteose Feérica",
+  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Herança Superior (linhagem feérica), 17° nível de arcanista",
+    "descricao": "Sua natureza feérica se acentua, mas isso o afasta do mundo dos mortais. Sempre que um ou mais inimigos falharem em um teste de Vontade contra uma de suas magias, você recebe 1 PM temporário cumulativo que dura até o fim da cena. Se a magia é de encantamento ou ilusão, em vez disso você recebe 2 PM temporários. Em ambos os casos, o ganho é limitado pelo total de PM gasto na magia. Contudo, você não pode mais lançar magias de convocação e necromancia."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "inspiracao-espirituosa",
+  "tipo": "poder",
+  "nome": "Inspiração Espirituosa",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "11º nível de bardo",
+    "descricao": "Na primeira vez que você usa Inspiração em cada combate, você e seus aliados recebem uma quantidade de PM temporários igual ao bônus fornecido por essa habilidade."
+  }
+}

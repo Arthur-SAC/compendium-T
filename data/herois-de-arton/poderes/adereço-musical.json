@@ -1,0 +1,13 @@
+{
+  "id": "adereço-musical",
+  "tipo": "poder",
+  "nome": "Adereço Musical",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Você pode gastar 10 minutos para acoplar (ou desacoplar) um item esotérico a um instrumento musical. Isso permite empunhar o esotérico com a mesma mão que empunha o instrumento e usar seu efeito em Acorde Místico, como se esse poder fosse uma magia. Cada instrumento musical só pode ter um esotérico acoplado."
+  }
+}

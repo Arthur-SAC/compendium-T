@@ -1,0 +1,14 @@
+{
+  "id": "ingrediente-especial",
+  "tipo": "poder",
+  "nome": "Ingrediente Especial",
+  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Caldeirão do Bruxo, 5º nível de arcanista",
+    "descricao": "Quando usa uma poção, você pode usar um catalisador e aplicar seus efeitos a ela."
+  }
+}

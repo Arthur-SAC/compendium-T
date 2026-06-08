@@ -1,0 +1,14 @@
+{
+  "id": "estampido-ensurdecedor",
+  "tipo": "poder",
+  "nome": "Estampido Ensurdecedor",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Grudar o Cano",
+    "descricao": "Quando faz um ataque à distância com uma arma de fogo, você pode pagar 1 PM para deixar todas as criaturas adjacentes a você abaladas e surdas (Fort CD Car reduz a duração das condições para 1 rodada)."
+  }
+}

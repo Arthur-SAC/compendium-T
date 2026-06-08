@@ -1,0 +1,13 @@
+{
+  "id": "ampliar-brado",
+  "tipo": "poder",
+  "nome": "Ampliar Brado",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "descricao": "O alcance de seus brados aumenta para médio e a CD para resistir a eles aumenta em +2."
+  }
+}

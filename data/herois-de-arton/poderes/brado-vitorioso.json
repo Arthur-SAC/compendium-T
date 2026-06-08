@@ -1,0 +1,14 @@
+{
+  "id": "brado-vitorioso",
+  "tipo": "poder",
+  "nome": "Brado Vitorioso",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Brado Assustador, Sangue dos Inimigos",
+    "descricao": "Quando faz um acerto crítico ou reduz um inimigo a 0 ou menos PV enquanto está em fúria, você pode usar um dos seus poderes de brado como ação livre."
+  }
+}

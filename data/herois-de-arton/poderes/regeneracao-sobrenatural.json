@@ -1,0 +1,14 @@
+{
+  "id": "regeneracao-sobrenatural",
+  "tipo": "poder",
+  "nome": "Regeneração Sobrenatural",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Con 5, Vigor Primal, 5º nível de bárbaro",
+    "descricao": "Enquanto está em fúria e com menos da metade de seus PV máximos, você tem Cura Acelerada 5."
+  }
+}

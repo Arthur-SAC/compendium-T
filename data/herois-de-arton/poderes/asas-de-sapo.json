@@ -1,0 +1,14 @@
+{
+  "id": "asas-de-sapo",
+  "tipo": "poder",
+  "nome": "Asas de Sapo",
+  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "treinado em Ofício (alquimista)",
+    "descricao": "Você pode empunhar dois catalisadores diferentes em uma mão ao mesmo tempo e, quando lança uma magia, pode gastar ambos para aplicar seus efeitos."
+  }
+}

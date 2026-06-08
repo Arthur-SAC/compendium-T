@@ -1,0 +1,14 @@
+{
+  "id": "balada-do-atirador",
+  "tipo": "poder",
+  "nome": "Balada do Atirador",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "Esgrima Mágica",
+    "descricao": "Você pode usar Esgrima Mágica, e qualquer poder de bardo que o tenha como pré-requisito, com armas de ataque à distância leves ou de uma mão. Quando faz isso, você pode substituir testes de Pontaria por Atuação."
+  }
+}

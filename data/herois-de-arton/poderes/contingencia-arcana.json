@@ -1,0 +1,14 @@
+{
+  "id": "contingencia-arcana",
+  "tipo": "poder",
+  "nome": "Contingência Arcana",
+  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Runa de Proteção",
+    "descricao": "Quando lança Runa de Proteção com o aprimoramento que muda o alvo para \"você\", você pode substituir o componente material da magia por uma penalidade em PM igual ao círculo da magia inscrita na runa."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "arremesso-violento",
+  "tipo": "poder",
+  "nome": "Arremesso Violento",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Fúria da Savana",
+    "descricao": "Enquanto você está em fúria, o dano e o alcance de suas armas de arremesso aumenta em um passo (de curto para médio e de médio para longo) e a penalidade em ataques que você sofre por arremessar armas sem alcance diminui para –2."
+  }
+}

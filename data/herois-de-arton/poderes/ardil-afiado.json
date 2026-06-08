@@ -1,0 +1,14 @@
+{
+  "id": "ardil-afiado",
+  "tipo": "poder",
+  "nome": "Ardil Afiado",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Car 1, treinado em Enganação",
+    "descricao": "Você pode usar Audácia em testes de manobra. Se fizer isso contra um oponente desprevenido, soma o dobro do Carisma no teste."
+  }
+}

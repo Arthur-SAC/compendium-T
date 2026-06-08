@@ -1,0 +1,14 @@
+{
+  "id": "familiar-aprimorado",
+  "tipo": "poder",
+  "nome": "Familiar Aprimorado",
+  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Familiar, 5º nível de arcanista",
+    "descricao": "Seu familiar pode falar e passa a fornecer um segundo benefício, escolhido entre os tipos comuns de familiares (Tormenta20, p. 38)."
+  }
+}

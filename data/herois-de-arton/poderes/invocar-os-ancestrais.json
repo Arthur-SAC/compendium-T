@@ -1,0 +1,15 @@
+{
+  "id": "invocar-os-ancestrais",
+  "tipo": "poder",
+  "nome": "Invocar os Ancestrais",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Totem Espiritual, 11º nível de bárbaro",
+    "custo": "2 PM",
+    "descricao": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 ancestrais capangas em espaços desocupados em alcance curto. Eles têm Defesa igual à sua, 1 PV, são incorpóreos e falham automaticamente em qualquer teste de resistência ou oposto. Você pode gastar uma ação de movimento para fazê-los se mover (deslocamento 9m). Cada ancestral fornece um bônus cumulativo de +2 em rolagens de dano a um personagem adjacente e, uma vez por rodada, quando faz a ação agredir, você pode gastar um ancestral para fazer um ataque adicional."
+  }
+}

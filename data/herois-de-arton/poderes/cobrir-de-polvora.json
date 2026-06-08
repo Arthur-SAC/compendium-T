@@ -1,0 +1,13 @@
+{
+  "id": "cobrir-de-polvora",
+  "tipo": "poder",
+  "nome": "Cobrir de Pólvora",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Você pode gastar uma ação de movimento, 1 PM e uma bala de arma de fogo para cobrir uma criatura em alcance curto com uma pequena quantidade de pólvora. O alvo fica cego por 1 rodada (Ref CD Car evita) e, até o fim da cena, o próximo ataque contra ele causa +1d6 pontos de dano de fogo e deixa-o em chamas."
+  }
+}

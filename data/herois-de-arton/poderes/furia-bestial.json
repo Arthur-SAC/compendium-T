@@ -1,0 +1,13 @@
+{
+  "id": "furia-bestial",
+  "tipo": "poder",
+  "nome": "Fúria Bestial",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "descricao": "Enquanto você está em fúria, o dano das suas armas naturais aumenta em dois passos e o multiplicador de crítico delas aumenta em +1."
+  }
+}

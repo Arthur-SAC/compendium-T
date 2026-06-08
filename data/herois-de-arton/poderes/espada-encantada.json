@@ -1,0 +1,14 @@
+{
+  "id": "espada-encantada",
+  "tipo": "poder",
+  "nome": "Espada Encantada",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "Golpe Elemental",
+    "descricao": "Quando você causa dano com seu Golpe Elemental, o alvo sofre uma condição conforme o tipo de dano escolhido. Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: em chamas. Frio: lento por 1 rodada."
+  }
+}

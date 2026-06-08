@@ -1,0 +1,14 @@
+{
+  "id": "bloqueio-desconcertante",
+  "tipo": "poder",
+  "nome": "Bloqueio Desconcertante",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Esgrimista",
+    "descricao": "Quando uma criatura erra um ataque corpo a corpo contra você, ou quando você bloqueia um ataque com Aparar, você pode gastar 1 PM. Se você fizer isso, a criatura fica desprevenida contra seu próximo ataque feito até o fim do seu próximo turno."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "apoteose-celestial",
+  "tipo": "poder",
+  "nome": "Apoteose Celestial",
+  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Herança Superior (linhagem celestial), 17° nível de arcanista",
+    "descricao": "Sua conexão com o divino se torna ainda mais profunda, às custas de uma fração de sua mortalidade. Você recebe +1 em Sabedoria e aprende uma magia divina de cada círculo a que tenha acesso. Entretanto, sua Constituição diminui em –1."
+  }
+}

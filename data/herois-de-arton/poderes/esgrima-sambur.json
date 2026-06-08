@@ -1,0 +1,14 @@
+{
+  "id": "esgrima-sambur",
+  "tipo": "poder",
+  "nome": "Esgrima Sambur",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Esgrimista",
+    "descricao": "Se estiver empunhando duas armas corpo a corpo leves ou ágeis e fizer a ação agredir, você pode gastar 1 PM para fazer dois ataques, um com cada arma (se tiver Ambidestria ou Estilo de Duas Armas, em vez disso não sofre penalidade para usá-los). Além disso, se tiver o poder Aparar, pode usá-lo uma segunda vez na rodada."
+  }
+}

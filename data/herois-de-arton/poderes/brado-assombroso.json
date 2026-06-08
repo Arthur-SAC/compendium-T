@@ -1,0 +1,14 @@
+{
+  "id": "brado-assombroso",
+  "tipo": "poder",
+  "nome": "Brado: Assombroso",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Brado Assustador",
+    "descricao": "Você pode gastar uma quantidade de PM limitada pela sua Constituição. Para cada PM que gastar, você causa 1d6 pontos de dano psíquico em todos os inimigos no alcance do brado (Von CD Con reduz à metade). Medo."
+  }
+}

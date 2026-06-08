@@ -1,0 +1,14 @@
+{
+  "id": "magia-performatica",
+  "tipo": "poder",
+  "nome": "Magia Performática",
+  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Car 1, treinado em Atuação",
+    "descricao": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona."
+  }
+}

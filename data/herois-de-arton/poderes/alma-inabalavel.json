@@ -1,0 +1,14 @@
+{
+  "id": "alma-inabalavel",
+  "tipo": "poder",
+  "nome": "Alma Inabalável",
+  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "treinado em Intimidação",
+    "descricao": "Quando faz um teste de resistência, você pode gastar 1 PM para substituir a perícia normal por Intimidação. Se você passar no teste e a fonte do efeito for uma criatura, ela fica abalada por 1d4 rodadas (Vontade CD igual ao resultado do teste de Intimidação evita)."
+  }
+}

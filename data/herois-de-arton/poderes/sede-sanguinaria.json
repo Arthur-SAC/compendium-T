@@ -1,0 +1,14 @@
+{
+  "id": "sede-sanguinaria",
+  "tipo": "poder",
+  "nome": "Sede Sanguinária",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Sangue dos Inimigos, 5º nível de bárbaro",
+    "descricao": "Enquanto está em fúria, quando faz um acerto crítico ou reduz um inimigo a 0 PV ou menos, você recupera 10 PV e 2 PM."
+  }
+}

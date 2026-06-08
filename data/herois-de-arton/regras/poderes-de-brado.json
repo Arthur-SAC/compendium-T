@@ -1,0 +1,12 @@
+{
+  "id": "poderes-de-brado",
+  "tipo": "regra",
+  "nome": "Poderes de Brado",
+  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "secoes": [
+    {
+      "titulo": "Poderes de Brado",
+      "texto": "Poderes de brado compartilham as seguintes regras.\n\n• Emitir um brado gasta uma ação de movimento e 1 PM, a menos que a descrição diga o contrário.\n• Brados têm alcance curto.\n\nA critério do mestre, habilidades raciais baseadas em gritos, como o Rugido Imponente do moreau do leão (Ameaças de Arton, p. 305), podem ser consideradas poderes de brado para um bárbaro."
+    }
+  ]
+}
