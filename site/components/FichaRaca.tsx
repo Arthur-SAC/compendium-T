@@ -20,7 +20,7 @@ function StatBox({ valor, rotulo }: { valor: string; rotulo: string }) {
   );
 }
 
-export function FichaRaca({ entidade, registro, descricoes, poderesExtras = [] }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; poderesExtras?: { id: string; nome: string }[] }) {
+export function FichaRaca({ entidade, registro, descricoes, poderesExtras = [] }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; poderesExtras?: { id: string; nome: string; prerequisito?: string }[] }) {
   const m = entidade.mecanica as unknown as RacaMecanica;
   const imagem = entidade.imagens[0];
   const deslocamento = m.deslocamento != null ? `${m.deslocamento}${m.deslocamentoUnidade ?? ""}` : null;
@@ -78,11 +78,12 @@ export function FichaRaca({ entidade, registro, descricoes, poderesExtras = [] }
                 <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", margin: "0 0 8px" }}>
                   Poderes (de qualquer fonte) disponíveis para esta raça. Clique para ver a descrição completa.
                 </p>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                   {poderesExtras.map((p) => (
-                    <Link key={p.id} href={`/ficha/poder/${p.id}`} style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-1)", border: "1px solid var(--borda)", textDecoration: "none" }}>
-                      {p.nome}
-                    </Link>
+                    <div key={p.id} style={{ fontFamily: "var(--serifa)", fontSize: 13.5, lineHeight: 1.5 }}>
+                      <Link href={`/ficha/poder/${p.id}`} style={{ color: "var(--carmesim)", fontWeight: 700, textDecoration: "none" }}>{p.nome}</Link>
+                      {p.prerequisito && <span style={{ color: "var(--tinta-suave)", fontStyle: "italic" }}> — Pré-requisito: {p.prerequisito}</span>}
+                    </div>
                   ))}
                 </div>
               </section>

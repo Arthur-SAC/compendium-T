@@ -58,7 +58,7 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
   const ALIASES_RACA: Record<string, string[]> = { suraggel: ["aggelus", "sulfure"] };
   const todosPoderes = entidades.filter((e) => e.tipo === "poder");
   const ordenar = (l: { id: string; nome: string }[]) => l.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  let poderesExtras: { id: string; nome: string }[] = [];
+  let poderesExtras: { id: string; nome: string; prerequisito?: string }[] = [];
   if (entidade.tipo === "classe" || entidade.tipo === "variante-classe") {
     const alvo = entidade.tipo === "variante-classe"
       ? norm(String((entidade.mecanica as { varianteDe?: string }).varianteDe ?? ""))
@@ -67,7 +67,7 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
       poderesExtras = ordenar(
         todosPoderes
           .filter((e) => String((e.mecanica as { grupo?: string }).grupo ?? "").split(",").map((x) => norm(x)).includes(alvo))
-          .map((e) => ({ id: e.id, nome: e.nome })),
+          .map((e) => ({ id: e.id, nome: e.nome, prerequisito: (e.mecanica as { prerequisito?: string }).prerequisito })),
       );
     }
   } else if (entidade.tipo === "raca") {
