@@ -1,0 +1,23 @@
+{
+  "id": "boticario",
+  "tipo": "origem",
+  "nome": "Boticário",
+  "resumo": "Aprendiz de um especialista em ervas, poções e misturas alquímicas, você domina a arte de curar, fabricar elixires e criar venenos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 47 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi aprendiz de um especialista em ervas, poções e misturas alquímicas, alguém capaz de curar doenças, fabricar elixires e até criar venenos. Na loja de seu mestre, repleta de frascos misteriosos e ingredientes exóticos, você passava os dias triturando raízes, destilando essências e consultando grimórios antigos. Seus clientes variavam de camponeses com males comuns a magos em busca de componentes raros. Seu trabalho não era livre de perigos: ao manusear substâncias exóticas, uma dosagem errada podia ser fatal. Talvez você tenha cometido um erro terrível que levou a seu banimento? Seus atuais colegas aventureiros sabem disso?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Bálsamo restaurador, instrumentos de Ofício (alquimista), maleta de medicamentos.",
+    "beneficios": {
+      "pericias": ["Cura", "Ofício (alquimista)"],
+      "texto": "Além disso, pode fabricar poções de duas fórmulas de 1º círculo a sua escolha, como se tivesse o poder Alquimista Iniciado (Tormenta20, p. 68)."
+    },
+    "poderesUnicos": []
+  }
+}

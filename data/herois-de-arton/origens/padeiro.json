@@ -1,0 +1,23 @@
+{
+  "id": "padeiro",
+  "tipo": "origem",
+  "nome": "Padeiro",
+  "resumo": "Artesão do forno que alimentava a comunidade com pães e tortas, até que uma encomenda secreta — talvez envenenada — o forçou a fugir e virar aventureiro.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 52 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você começava sua jornada ainda antes do amanhecer, acendendo o forno de pedra com madeira encantada para assar pães, bolos e tortas que alimentavam a comunidade. Amassava farinhas com trigo dourado de campos abençoados por Azgher ou frutas colhidas sob as estrelas de Tenebra. Em sua padaria, moradores e aventureiros se reuniam para comprar suas delícias e compartilhar notícias. Você também preparava iguarias especiais para festivais, ou até encomendas secretas, como pães encantados para fortalecer guerreiros, ou aquela torta destinada a envenenar um inimigo... Ah sim, foi por isso que acabou fugindo e virando aventureiro!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Instrumentos de Ofício (cozinheiro), rolo de massa (mesmas estatísticas de uma clava).",
+    "beneficios": {
+      "pericias": ["Ofício (cozinheiro)"],
+      "texto": "Além disso, sua profissão fortificou seus braços! Você recebe +1 em rolagens de dano com armas de impacto e pode substituir testes de Atletismo por testes de Ofício (cozinheiro)."
+    },
+    "poderesUnicos": []
+  }
+}

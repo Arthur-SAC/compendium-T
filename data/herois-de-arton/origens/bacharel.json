@@ -1,0 +1,23 @@
+{
+  "id": "bacharel",
+  "tipo": "origem",
+  "nome": "Bacharel",
+  "resumo": "Treinado para argumentar, questionar e debater em tribunais e disputas legais do Reinado, usando palavras como arma.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 46 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Para que a justiça de Khalmyr seja cumprida, os inocentes devem ser protegidos e os culpados, punidos. Seja atuando em grandes tribunais do Reinado, seja resolvendo tumultos locais repentinos em que alguém pode acabar na forca, você foi treinado para argumentar, questionar, debater, objetar. É capaz de defender vítimas e acusar criminosos, utilizando como arma apenas argumentos, jurisprudências, filosofia e bom senso. Quando dizem que a pena é mais poderosa que a espada, estão falando sobre você."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Tabardo com o símbolo de Khalmyr, uma coleção de livros a sua escolha.",
+    "beneficios": {
+      "pericias": ["Conhecimento", "Diplomacia", "Nobreza"],
+      "texto": "Além disso, uma vez por cena pode usar Diplomacia para mudar atitude como uma ação livre."
+    },
+    "poderesUnicos": []
+  }
+}

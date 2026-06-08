@@ -1,0 +1,23 @@
+{
+  "id": "freira",
+  "tipo": "origem",
+  "nome": "Freira",
+  "resumo": "Dedicada ao serviço espiritual, caridade e proteção dos vulneráveis em um convento, atuando como conselheira e defensora dos inocentes em tempos de crise.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 51 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Mesmo sem os milagres dos clérigos e frades, você se dedicava ao serviço espiritual, à caridade e à proteção dos vulneráveis. Vivendo em um convento isolado ou abadia fortificada, mantinha uma rotina de orações, cultivo de ervas medicinais, preparo de remédios e cuidado de enfermos. Muitas vezes também atuava como conselheira para heróis em busca de redenção ou orientação. E, em tempos de crise, chegava a defender o convento contra ameaças, até recorrendo a relíquias sagradas e antigos rituais para proteger os inocentes. Considerando sua vocação, bastou um pequeno passo para você se reunir a aventureiros e se tornar uma campeã do bem."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Maleta de medicamentos, manto eclesiástico, símbolo sagrado.",
+    "beneficios": {
+      "pericias": ["Cura"],
+      "texto": "Quando faz um teste para ajudar, você pode gastar 1 PM para aumentar o bônus da ajuda em +1d4 e, quando usa um efeito de cura, pode gastar 1 PM para aumentar esse efeito em +1 dado do mesmo tipo."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ladrao-de-tumulos",
+  "tipo": "origem",
+  "nome": "Ladrão de Túmulos",
+  "resumo": "Saqueador de campos de batalha e sepulturas que coletava pertences dos que não precisavam mais, acumulando experiência com mortos-vivos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 52 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Não a mais digna das profissões, mas se tornaria especialmente popular no pós-guerra. Você percorreu antigos campos de batalha e outros lugares de grande morticínio, coletando pertences daqueles que não precisavam mais. Ou ainda, você ousou literalmente saquear sepulturas consagradas aos deuses — ou seja, não apenas perturbou os mortos, mas também certos espíritos muito mais poderosos! Ainda bem que escolheu se tornar aventureiro, com certeza uma vida bem menos arriscada. Chega a ser surpresa você nunca ter sido assombrado ou amaldiçoado. Ainda."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Pá (mesmas estatísticas de uma lança), pé de cabra.",
+    "beneficios": {
+      "pericias": ["Ladinagem", "Sobrevivência"],
+      "texto": "Recebe +2 na Defesa e em testes de perícia contra mortos-vivos. Além disso, recebe redução de trevas 5 (ou, se for um morto-vivo, recupera +1 PV por dado de dano de trevas)."
+    },
+    "poderesUnicos": []
+  }
+}

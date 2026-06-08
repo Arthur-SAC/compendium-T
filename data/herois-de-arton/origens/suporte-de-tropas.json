@@ -1,0 +1,23 @@
+{
+  "id": "suporte-de-tropas",
+  "tipo": "origem",
+  "nome": "Suporte de Tropas",
+  "resumo": "Seguidor de exércitos e aventureiros que fornecia apoio essencial no campo — cozinhando, curando, consertando —, até decidir se juntar ao grupo de vez.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 53 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Exércitos em marcha não são formados apenas por combatentes. Muitas vezes são seguidos por grupos de mercadores, cozinheiros, costureiros, curandeiros, até coveiros que lidam com (ou saqueiam) os cadáveres. Estes seguidores são apreciados pelos soldados, por seu apoio às tropas no campo de batalha — mas podem ser desprezados pelos oficiais, considerados parasitas oportunistas. Em menor escala, também existem aqueles que acompanham aventureiros à distância, esperando colher seus espólios ou ajudar quando houver oportunidade. Você foi alguém assim, até se cansar de seguir e resolver se juntar ao grupo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Equipamento de viagem, instrumentos de ofício, maleta de medicamentos.",
+    "beneficios": {
+      "pericias": [],
+      "texto": "Sempre que você faz um teste para ajudar, o bônus que fornece aumenta em +2. Além disso, quando flanqueia um inimigo, o bônus que você e seus aliados recebem em testes de ataque aumenta para +4."
+    },
+    "poderesUnicos": []
+  }
+}

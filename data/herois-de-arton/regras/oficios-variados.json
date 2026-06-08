@@ -1,0 +1,12 @@
+{
+  "id": "oficios-variados",
+  "tipo": "regra",
+  "nome": "Ofícios Variados",
+  "fonte": { "livro": "herois-de-arton", "pagina": 49 },
+  "secoes": [
+    {
+      "titulo": "Ofícios Variados",
+      "texto": "Algumas das origens descritas aqui fornecem treinamento em Ofícios variados, como coureiro ou barbeiro. Assim como os Ofícios básicos descritos em Tormenta20, essas perícias também podem ser usadas para fabricar e consertar itens dos tipos apropriados. Por exemplo, Ofício (coureiro) pode ser usado para fabricar quaisquer itens feitos primariamente de couro, como um gibão de peles, uma bandoleira de poções, uma mochila de aventureiro ou um item feito de um material especial à base de couro (como o couro de bulette, descrito em Ameaças de Arton, p. 399). Em todos os casos, o mestre tem a palavra final sobre quais itens fazem parte desses Ofícios."
+    }
+  ]
+}
