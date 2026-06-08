@@ -1,0 +1,288 @@
+{
+  "id": "vassalo",
+  "tipo": "variante-classe",
+  "nome": "Vassalo",
+  "resumo": "Variante do Cavaleiro que serve a um nobre suserano, ascendendo progressivamente na hierarquia aristocrática de Arton — de pajem a imperador — em troca de responsabilidades feudais e títulos de nobreza.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 41 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O cavaleiro vassalo é um servo por natureza. Ao contrário de outros aventureiros, que levam vidas de liberdade e independência, o vassalo possui um lorde, um nobre a quem deve obedecer, e faz parte de uma estrutura social rígida. Esse senhor é sempre um aristocrata tradicional, alguém que vive segundo os costumes mais antigos da sociedade artoniana. À medida que adquire experiência, o vassalo recebe responsabilidades e posições de prestígio em seu reino, feudo ou domínio. Seu início é humilde, como um mero pajem, mas ele acaba sua carreira como um grande senhor de terras, responsável por uma população numerosa.\n\nExiste muita variedade e diversidade em Arton, mas o vassalo escolhe um caminho convencional e até mesmo antiquado. Ele vê grande valor na hierarquia nobiliárquica, tem orgulho de ostentar títulos de nobreza e erguer o estandarte de seu senhor. Contudo, não é um mero burocrata, nem tem sede de poder: o vassalo personifica o lado heroico da nobreza, vendo como seu dever proteger a plebe. Derrama seu sangue tanto por seu senhor quanto por seus próprios súditos.\n\nÉ uma vida de servidão e deveres. Mas recompensada pela satisfação de fazer o que é certo — e pelo luxo da aristocracia."
+    },
+    {
+      "titulo": "Vassalo em Campanha",
+      "texto": "O vassalo é uma classe diferente. Em vez de oferecer muitos poderes abertos, que podem ser escolhidos pelo jogador, tem uma lista em grande parte fixa e imutável. Em vez de se encaixar em quase qualquer campanha, exige uma progressão narrativa para o personagem — determinando parcialmente os rumos da história. Como lidar com toda essa esquisitice?\n\nAntes de escolher um vassalo, o jogador deve conversar com o mestre, garantindo que essa variante tem espaço na campanha. Por sua vez, o mestre deve trabalhar com o jogador para que sua ascensão na aristocracia aconteça em jogo.\n\nSimulando o lado mais tradicional e até antiquado da nobreza de Arton, o vassalo também é uma variante mais estanque em termos de regras. Empurra o personagem e a campanha como um todo para um certo lado. Por isso, todos precisam estar de acordo para que ele funcione. Se você prefere um personagem mais solto, que tenha mais opções de poderes e liberdade na campanha, talvez um cavaleiro ou um nobre se encaixem mais com seu conceito.\n\nPara um exemplo de como um personagem vassalo funciona na mesa, você pode assistir à Guilda do Macaco — na campanha, Lothar Algherulff seguiu essa variante do 1º ao 17º nível. O sistema de jogo era outro, mas a classe era parecida e os ajustes necessários na campanha não dependeram de regras, mas de história."
+    },
+    {
+      "titulo": "O Treinamento de um Vassalo",
+      "texto": "Ao longo de sua carreira, o vassalo se torna treinado em diversas perícias. Sempre que receber um desses treinamentos por uma habilidade de vassalo, se já for treinado na perícia, em vez disso você recebe +2 nela."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "cavaleiro",
+    "atributoChave": "Força (Carisma secundário em vários poderes)",
+    "pvInicial": 20,
+    "pvPorNivel": 5,
+    "pmPorNivel": 3,
+    "pericias": {
+      "quantidade": 2,
+      "fixas": ["Fortitude (Con)", "Luta (For)"],
+      "lista": ["Adestramento (Car)", "Atletismo (For)", "Cavalgar (Des)", "Diplomacia (Car)", "Guerra (Int)", "Iniciativa (Des)", "Intimidação (Car)", "Nobreza (Int)", "Percepção (Sab)", "Vontade (Sab)"],
+      "texto": "Como o cavaleiro básico."
+    },
+    "proficiencias": ["armas marciais", "escudos"],
+    "nota_proficiencias": "O vassalo começa com proficiência em armas marciais e escudos. Proficiência com armaduras pesadas é adquirida no 3º nível via Escudeiro Aprendiz.",
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Baluarte +2", "Código de honra", "Jovem pajem", "Suserano"] },
+      { "nivel": 2, "habilidades": ["Valete"] },
+      { "nivel": 3, "habilidades": ["Escudeiro aprendiz"] },
+      { "nivel": 4, "habilidades": ["Guarda do castelo"] },
+      { "nivel": 5, "habilidades": ["Baluarte +4", "Vigilante das estradas"] },
+      { "nivel": 6, "habilidades": ["Cavaleiro do reino"] },
+      { "nivel": 7, "habilidades": ["Sargento do reino"] },
+      { "nivel": 8, "habilidades": ["Capitão do reino"] },
+      { "nivel": 9, "habilidades": ["Baluarte +6", "Lorde"] },
+      { "nivel": 10, "habilidades": ["Barão"] },
+      { "nivel": 11, "habilidades": ["Visconde"] },
+      { "nivel": 12, "habilidades": ["Conde"] },
+      { "nivel": 13, "habilidades": ["Baluarte +8", "Marquês"] },
+      { "nivel": 14, "habilidades": ["Duque"] },
+      { "nivel": 15, "habilidades": ["Arquiduque"] },
+      { "nivel": 16, "habilidades": ["Conselheiro real"] },
+      { "nivel": 17, "habilidades": ["Baluarte +10", "Rei mercenário"] },
+      { "nivel": 18, "habilidades": ["Rei"] },
+      { "nivel": 19, "habilidades": ["Alto rei"] },
+      { "nivel": 20, "habilidades": ["Imperador"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Código de Honra",
+        "nivel": 1,
+        "descricao": "Como o cavaleiro básico."
+      },
+      {
+        "nome": "Baluarte",
+        "nivel": 1,
+        "descricao": "Como o cavaleiro básico.",
+        "custo": "1 PM (+1 PM a cada quatro níveis)"
+      },
+      {
+        "nome": "Jovem Pajem",
+        "nivel": 1,
+        "descricao": "Você inicia sua carreira como um pajem, servindo a um sir ou dame mais experiente. Você se torna treinado em Adestramento ou Ofício (armeiro)."
+      },
+      {
+        "nome": "Suserano",
+        "nivel": 1,
+        "descricao": "Escolha um membro da nobreza aprovado pelo mestre. Você serve a esse nobre, sendo oficialmente reconhecido como parte de sua corte.\n\nOs efeitos de seu status ficam a cargo do mestre mas, como regra geral, você recebe +5 em testes de Diplomacia e Intimidação ao lidar com vassalos de seu suserano de nível inferior ao seu e, nas terras dele, pode obter alojamento e alimentação sem custo. Se deixar de servir a seu suserano por qualquer motivo, você perde todos os seus PM e só pode recuperá-los após ser aceito por outro suserano."
+      },
+      {
+        "nome": "Valete",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você já acompanha seu senhor na corte e nos salões nobres. Você se torna treinado em Diplomacia ou Nobreza e recebe um poder de cavaleiro a sua escolha."
+      },
+      {
+        "nome": "Escudeiro Aprendiz",
+        "nivel": 3,
+        "descricao": "A partir do 3º nível, você ajuda seu senhor na batalha. Você se torna treinado em Cavalgar e recebe proficiência com armaduras pesadas. Se já tiver proficiência com armaduras pesadas, recebe +2 na Defesa enquanto usa uma armadura pesada."
+      },
+      {
+        "nome": "Guarda do Castelo",
+        "nivel": 4,
+        "descricao": "No 4º nível, você já patrulha as muralhas do castelo sozinho. Você se torna treinado em Intuição e recebe um poder de cavaleiro a sua escolha."
+      },
+      {
+        "nome": "Vigilante de Estradas",
+        "nivel": 5,
+        "descricao": "A partir do 5º nível, você expande suas responsabilidades para além do castelo. Você recebe a habilidade Montaria e se torna treinado em Percepção."
+      },
+      {
+        "nome": "Cavaleiro do Reino",
+        "nivel": 6,
+        "descricao": "No 6º nível, você recebe o título de sir ou dame e atinge o grau mais baixo da nobreza. Você recebe uma arma, armadura ou escudo superior com duas melhorias a sua escolha e recebe um poder de cavaleiro a sua escolha."
+      },
+      {
+        "nome": "Sargento do Reino",
+        "nivel": 7,
+        "descricao": "No 7º nível, você adquire uma posição no exército do reino. Você recebe um poder de cavaleiro ou de guerreiro a sua escolha (como um guerreiro de nível igual ao seu para propósitos de pré-requisitos)."
+      },
+      {
+        "nome": "Capitão do Reino",
+        "nivel": 8,
+        "descricao": "No 8º nível, você se torna um oficial no exército, respeitado e prestigiado por militares, nobres e plebeus. Você recebe o poder Escudeiro e a habilidade Golpe Divino (Tormenta20, p. 82), como um paladino de nível igual ao seu. Esta não é uma habilidade mágica e provém de seu senso de justiça e determinação em combate (veja \"Magias Simuladas\", p. 44)."
+      },
+      {
+        "nome": "Lorde",
+        "nivel": 9,
+        "descricao": "No 9º nível você ascende dentro da nobreza, recebendo um feudo — e muitas responsabilidades. Você recebe o poder Autoridade Feudal. Se já possui esse poder, as pessoas convocadas passam a contar como um parceiro veterano. Além disso, escolha um dos caminhos a seguir.\n\n• Caminho do Soldado. Você recebe um poder de guerreiro (como um guerreiro de nível igual ao seu) a sua escolha.\n\n• Caminho do Governante. Você recebe um poder de nobre (como um nobre de nível igual ao seu) a sua escolha."
+      },
+      {
+        "nome": "Barão",
+        "nivel": 10,
+        "descricao": "No 10º nível, você ascende dentro da nobreza e passa a receber impostos de seus plebeus. Você recebe o poder Título e um domínio de nível 1 (veja p. 314). Se já tiver um domínio, em vez disso ele recebe uma construção gratuita (cujos pré-requisitos seu domínio cumpra)."
+      },
+      {
+        "nome": "Visconde",
+        "nivel": 11,
+        "descricao": "No 11º nível, você adquire um título mais alto. Se escolheu o Caminho do Soldado, recebe +1 PV por nível de vassalo. Se escolheu o Caminho do Governante, recebe +1 em Inteligência."
+      },
+      {
+        "nome": "Conde",
+        "nivel": 12,
+        "descricao": "A partir do 12º nível, você é um alto nobre e tem acesso a equipamentos poderosos. No início de cada aventura, você recebe um \"orçamento\" de T$ 30.000 que pode gastar em itens mágicos. Esses itens devem ser devolvidos ou reembolsados no fim da aventura. Além disso, recebe um poder de cavaleiro ou geral a sua escolha."
+      },
+      {
+        "nome": "Marquês",
+        "nivel": 13,
+        "descricao": "No 13º nível, seus feitos alçam-no a um título ainda mais alto. Se escolheu o Caminho do Soldado, você recebe redução de dano 5 e +2 na Defesa. Se escolheu o Caminho do Governante, você passa a somar seu Carisma em seus testes de resistência."
+      },
+      {
+        "nome": "Duque",
+        "nivel": 14,
+        "descricao": "No 14º nível, você se tornou um dos mais altos nobres do reino. Quando você usa Autoridade Feudal, o nível do parceiro convocado aumenta em um passo. Além disso, você recebe um poder de cavaleiro a sua escolha."
+      },
+      {
+        "nome": "Arquiduque",
+        "nivel": 15,
+        "descricao": "No 15º nível você atinge o mais alto grau da nobreza, possuindo uma aura que o distingue das pessoas normais e o torna quase intocável. Uma vez por rodada, quando uma criatura inteligente lhe causar dano, você pode gastar 5 PM para reduzir esse dano a 0.",
+        "custo": "5 PM (uma vez por rodada)"
+      },
+      {
+        "nome": "Conselheiro Real",
+        "nivel": 16,
+        "descricao": "A partir do 16º nível, você se torna um dos conselheiros do rei e passa a compartilhar do poder de Sua Majestade. Você recebe um poder de cavaleiro a sua escolha e aprende e pode lançar uma magia divina de até 4º círculo a sua escolha (atributo-chave Carisma)."
+      },
+      {
+        "nome": "Rei Mercenário",
+        "nivel": 17,
+        "descricao": "No 17º nível, você dá seus primeiros passos rumo à majestade, e a terra responde às suas aspirações. Se escolheu o Caminho do Soldado, você recebe 3 pontos de atributo para distribuir como quiser em Força, Destreza e Constituição. Se escolheu o Caminho do Governante, recebe 3 pontos de atributo para distribuir como quiser em Inteligência, Sabedoria e Carisma."
+      },
+      {
+        "nome": "Rei",
+        "nivel": 18,
+        "descricao": "No 18º nível, seu reino já não precisa mais do apoio de seu antigo lorde — mas vocês ainda são aliados. Você recebe +1 em Carisma e um poder de cavaleiro a sua escolha."
+      },
+      {
+        "nome": "Alto Rei",
+        "nivel": 19,
+        "descricao": "No 19º nível, você se torna um alto rei, senhor de seu reino e do antigo reino de seu lorde. Tem a sua disposição seguidores e riquezas sem fim — seu \"orçamento\" de itens mágicos aumenta para T$ 100.000 e seu limite de parceiros aumenta em 2."
+      },
+      {
+        "nome": "Imperador",
+        "nivel": 20,
+        "descricao": "No 20º nível, você chegou ao ápice político de Arton. Talvez tenha colonizado um continente desconhecido. Talvez tenha conquistado o Império de Tauron ou o Reinado. De qualquer forma, você agora é um grande imperador, respeitado e temido por todos. Sua fama não tem limites e as pessoas atribuem a você os mais variados poderes. Você recebe +1 em dois atributos diferentes a sua escolha e aprende e pode lançar uma magia divina de até 5º círculo a sua escolha (atributo-chave Carisma). Você pode começar a pensar em dar terras a seu antigo escudeiro, formando mais um rei e continuando o nobre ciclo do cavaleiro vassalo."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Armadura da Honra",
+        "descricao": "No início de cada cena, você recebe uma quantidade de pontos de vida temporários igual a seu nível + seu Carisma. Os PV temporários duram até o final da cena."
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Autoridade Feudal",
+        "descricao": "Você pode gastar uma hora e 2 PM para conclamar o povo a ajudá-lo (qualquer pessoa sem um título de nobreza ou uma posição numa igreja reconhecida pelo seu reino). Em termos de jogo, essas pessoas contam como um parceiro iniciante de um tipo a sua escolha (aprovado pelo mestre) que lhe acompanha até o fim da aventura. Esta habilidade só pode ser usada em locais onde sua posição carregue alguma influência (a critério do mestre).",
+        "prerequisito": "6º nível de cavaleiro",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Desprezar os Covardes",
+        "descricao": "Você recebe redução de dano 5 se estiver caído, desprevenido ou flanqueado."
+      },
+      {
+        "nome": "Escudeiro",
+        "descricao": "Você recebe os serviços de um escudeiro, um parceiro especial que cuida de seu equipamento. Suas armas fornecem +1 em rolagens de dano e sua armadura concede +1 na Defesa. Além disso, você pode pagar 1 PM para receber ajuda do escudeiro em combate. Você recebe uma ação de movimento que pode usar para se levantar, sacar um item ou trazer sua montaria. O escudeiro não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com um mês de trabalho.",
+        "custo": "1 PM (opcional)"
+      },
+      {
+        "nome": "Especialização em Armadura",
+        "descricao": "Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Bastião).",
+        "prerequisito": "12º nível de cavaleiro"
+      },
+      {
+        "nome": "Estandarte",
+        "descricao": "Sua flâmula torna-se um símbolo de inspiração. No início de cada cena, você e todos os aliados que possam ver seu estandarte recebem um número de PM temporários igual ao seu Carisma (mínimo 1). Esses pontos temporários desaparecem no final da cena.",
+        "prerequisito": "Título, 14º nível de cavaleiro"
+      },
+      {
+        "nome": "Etiqueta",
+        "descricao": "Você recebe +2 em Diplomacia ou Nobreza e pode gastar 1 PM para rolar novamente um teste recém realizado de uma dessas perícias.",
+        "custo": "1 PM (opcional)"
+      },
+      {
+        "nome": "Investida Destruidora",
+        "descricao": "Quando faz a ação investida, você pode gastar 2 PM. Se fizer isso, causa +2d8 pontos de dano. Você deve usar esta habilidade antes de rolar o ataque.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Montaria Corajosa",
+        "descricao": "Sua montaria concede +1d6 em rolagens de dano corpo a corpo (cumulativo com qualquer bônus que ela já forneça como parceiro).",
+        "prerequisito": "Montaria"
+      },
+      {
+        "nome": "Pajem",
+        "descricao": "Você recebe os serviços de um pajem, um parceiro que o auxilia em pequenos afazeres. Você recebe +2 em Diplomacia, por estar sempre aprumado, e sua condição de descanso é uma categoria acima do padrão pela situação (veja a página 106). O pajem pode executar pequenas tarefas, como entregar mensagens e comprar itens, e não conta em seu limite de parceiros. Caso ele morra, você pode treinar outro com uma semana de trabalho."
+      },
+      {
+        "nome": "Postura de Combate: Aríete Implacável",
+        "descricao": "Ao assumir esta postura, você aumenta o bônus de ataque em investidas em +2. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta o bônus de ataque em +1. Além disso, se fizer uma investida contra um construto ou objeto, causa +2d8 de dano. Você precisa se deslocar todos os turnos para manter esta postura ativa.",
+        "custo": "2 PM (postura; +2 PM por +1 de ataque)"
+      },
+      {
+        "nome": "Postura de Combate: Castigo de Ferro",
+        "descricao": "Sempre que um aliado adjacente sofrer um ataque corpo a corpo, você pode gastar 1 PM para fazer um ataque na criatura que o atacou.",
+        "custo": "2 PM (postura); 1 PM por ataque"
+      },
+      {
+        "nome": "Postura de Combate: Foco de Batalha",
+        "descricao": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Postura de Combate: Muralha Intransponível",
+        "descricao": "Para assumir esta postura você precisa estar empunhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumente esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.",
+        "custo": "2 PM (postura; +2 PM por +1 de bônus)"
+      },
+      {
+        "nome": "Postura de Combate: Provocação Petulante",
+        "descricao": "Enquanto esta postura estiver ativa, todos os inimigos que iniciarem seus turnos em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, qualquer ação hostil que realizarem deve ter você como alvo (mas suas outras ações não têm esta restrição). Ações hostis incluem ataques e outras ações que causem dano e/ou condições negativas. Mental.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Postura de Combate: Torre Inabalável",
+        "descricao": "Você assume uma postura defensiva que o torna imune a qualquer tentativa de tirá-lo do lugar, de forma mundana ou mágica. Enquanto mantiver a postura, você não pode se deslocar, mas soma sua Constituição na Defesa e pode substituir testes de Reflexos e Vontade por testes de Fortitude.",
+        "custo": "2 PM (postura)"
+      },
+      {
+        "nome": "Solidez",
+        "descricao": "Se estiver usando um escudo, você soma o bônus na Defesa recebido pelo escudo em testes de resistência."
+      },
+      {
+        "nome": "Título",
+        "descricao": "Você adquire um título de nobreza. Converse com o mestre para definir os benefícios exatos de seu título. Como regra geral, no início de cada aventura você recebe 20 TO por nível de cavaleiro (rendimentos dos impostos) ou a ajuda de um parceiro veterano (um membro de sua corte).",
+        "prerequisito": "Autoridade Feudal, 10º nível de cavaleiro, ter conquistado terras ou realizado um serviço para um nobre que possa se tornar seu suserano"
+      },
+      {
+        "nome": "Torre Armada",
+        "descricao": "Quando um inimigo erra um ataque contra você, você pode gastar 1 PM. Se fizer isso, recebe +5 em rolagens de dano contra esse inimigo até o fim de seu próximo turno.",
+        "custo": "1 PM"
+      }
+    ],
+    "caminhos": [
+      {
+        "nome": "Caminho do Soldado",
+        "descricao": "Escolhido no 9º nível (Lorde). Foco em combate. No 11º nível (Visconde), recebe +1 PV por nível de vassalo. No 13º nível (Marquês), recebe redução de dano 5 e +2 na Defesa. No 17º nível (Rei Mercenário), recebe 3 pontos de atributo distribuídos livremente em Força, Destreza e Constituição."
+      },
+      {
+        "nome": "Caminho do Governante",
+        "descricao": "Escolhido no 9º nível (Lorde). Foco em liderança e influência. No 11º nível (Visconde), recebe +1 em Inteligência. No 13º nível (Marquês), soma Carisma em testes de resistência. No 17º nível (Rei Mercenário), recebe 3 pontos de atributo distribuídos livremente em Inteligência, Sabedoria e Carisma."
+      }
+    ],
+    "conjuracao": null
+  }
+}
