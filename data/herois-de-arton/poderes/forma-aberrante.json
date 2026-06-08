@@ -1,0 +1,17 @@
+{
+  "id": "forma-aberrante",
+  "tipo": "poder",
+  "nome": "Forma Aberrante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "druida de Aharadak, Forma Selvagem",
+    "descricao": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma aberrante. Nessa forma, você conta como se tivesse dois poderes da Tormenta adicionais (exceto para perda de Carisma)."
+  }
+}

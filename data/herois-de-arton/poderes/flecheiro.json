@@ -1,0 +1,17 @@
+{
+  "id": "flecheiro",
+  "tipo": "poder",
+  "nome": "Flecheiro",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "3° nível de caçador",
+    "descricao": "Você pode usar Sobrevivência no lugar de Ofício para fabricar munições e pode fabricar munições com uma melhoria."
+  }
+}

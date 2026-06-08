@@ -2,7 +2,10 @@
   "id": "o-proprio-sangue",
   "tipo": "poder",
   "nome": "O Próprio Sangue",
-  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

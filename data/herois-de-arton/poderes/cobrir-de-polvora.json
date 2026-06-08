@@ -2,7 +2,10 @@
   "id": "cobrir-de-polvora",
   "tipo": "poder",
   "nome": "Cobrir de Pólvora",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

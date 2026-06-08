@@ -1,0 +1,17 @@
+{
+  "id": "missa-compartilhar-milagre",
+  "tipo": "poder",
+  "nome": "Missa: Compartilhar Milagre",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "17° nível de clérigo",
+    "descricao": "Escolha um dos seus poderes concedidos. Até o fim do dia, cada participante desta Missa pode usar esse poder durante 1 rodada, como se fosse devoto da sua divindade (os demais pré-requisitos do poder ainda devem ser cumpridos)."
+  }
+}

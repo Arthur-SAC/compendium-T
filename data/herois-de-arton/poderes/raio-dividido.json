@@ -2,7 +2,10 @@
   "id": "raio-dividido",
   "tipo": "poder",
   "nome": "Raio Dividido",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

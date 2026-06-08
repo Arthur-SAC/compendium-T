@@ -1,0 +1,16 @@
+{
+  "id": "missa-mente-abencoada",
+  "tipo": "poder",
+  "nome": "Missa: Mente Abençoada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "descricao": "Os participantes recebem +2 em testes de perícias baseadas em Sabedoria."
+  }
+}

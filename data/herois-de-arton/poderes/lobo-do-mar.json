@@ -2,7 +2,10 @@
   "id": "lobo-do-mar",
   "tipo": "poder",
   "nome": "Lobo do Mar",
-  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

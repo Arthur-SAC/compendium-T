@@ -2,7 +2,10 @@
   "id": "brado-vitorioso",
   "tipo": "poder",
   "nome": "Brado Vitorioso",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

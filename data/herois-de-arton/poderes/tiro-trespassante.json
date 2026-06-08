@@ -1,0 +1,18 @@
+{
+  "id": "tiro-trespassante",
+  "tipo": "poder",
+  "nome": "Tiro Trespassante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Arqueiro",
+    "custo": "1 PM",
+    "descricao": "Quando você faz um ataque à distância com uma arma de disparo e reduz os pontos de vida do alvo a 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura que esteja adiante na mesma linha, usando a mesma arma e munição do ataque original."
+  }
+}

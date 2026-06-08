@@ -2,7 +2,10 @@
   "id": "mago-vermelho",
   "tipo": "poder",
   "nome": "Mago Vermelho",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -1,0 +1,17 @@
+{
+  "id": "punicao-divina",
+  "tipo": "poder",
+  "nome": "Punição Divina",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Prece de Combate",
+    "descricao": "Uma vez por rodada, quando lança uma magia divina com tempo de execução de ação de movimento em si mesmo, você pode gastar +2 PM fazer um ataque como ação livre."
+  }
+}

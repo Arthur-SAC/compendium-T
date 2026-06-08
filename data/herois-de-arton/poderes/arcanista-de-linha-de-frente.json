@@ -2,7 +2,10 @@
   "id": "arcanista-de-linha-de-frente",
   "tipo": "poder",
   "nome": "Arcanista de Linha de Frente",
-  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

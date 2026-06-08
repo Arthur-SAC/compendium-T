@@ -1,0 +1,17 @@
+{
+  "id": "bencao-de-batalha",
+  "tipo": "poder",
+  "nome": "Bênção de Batalha",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Bênção",
+    "descricao": "Bênção passa a afetar também você (em vez de apenas seus aliados). Além disso, na primeira rodada de combate, você pode lançar essa magia como ação de movimento (em vez de padrão)."
+  }
+}

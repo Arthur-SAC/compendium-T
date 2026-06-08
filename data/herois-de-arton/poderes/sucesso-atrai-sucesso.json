@@ -2,7 +2,10 @@
   "id": "sucesso-atrai-sucesso",
   "tipo": "poder",
   "nome": "Sucesso Atrai Sucesso",
-  "fonte": { "livro": "herois-de-arton", "pagina": 61 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

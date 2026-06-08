@@ -1,0 +1,17 @@
+{
+  "id": "canalizar-poderoso",
+  "tipo": "poder",
+  "nome": "Canalizar Poderoso",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Canalizar Amplo, 9° nível de clérigo",
+    "descricao": "Os dados de seu Canalizar Energia mudam para d10."
+  }
+}

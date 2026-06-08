@@ -2,7 +2,10 @@
   "id": "apoteose-rubra",
   "tipo": "poder",
   "nome": "Apoteose Rubra",
-  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "balada-do-atirador",
   "tipo": "poder",
   "nome": "Balada do Atirador",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "triunfo-do-amor",
   "tipo": "poder",
   "nome": "Triunfo do Amor",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

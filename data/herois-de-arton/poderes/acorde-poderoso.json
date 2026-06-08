@@ -2,7 +2,10 @@
   "id": "acorde-poderoso",
   "tipo": "poder",
   "nome": "Acorde Poderoso",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

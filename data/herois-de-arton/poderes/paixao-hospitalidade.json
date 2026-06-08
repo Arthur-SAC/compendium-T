@@ -1,0 +1,16 @@
+{
+  "id": "paixao-hospitalidade",
+  "tipo": "poder",
+  "nome": "Paixão: Hospitalidade",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Para um cavaleiro, a hospitalidade vai além do abrigo físico: representa também o papel do cavaleiro como guardião daqueles ao seu redor. Você pode evocar esta Paixão para proteger seus aliados. Se passar, você emana uma aura de 6m de raio; dentro dela, você e seus aliados recebem um bônus na Defesa e em testes de resistência igual ao bônus máximo que sua habilidade Duelo pode fornecer."
+  }
+}

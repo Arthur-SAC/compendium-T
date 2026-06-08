@@ -2,7 +2,10 @@
   "id": "memoria-subita",
   "tipo": "poder",
   "nome": "Memória Súbita",
-  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

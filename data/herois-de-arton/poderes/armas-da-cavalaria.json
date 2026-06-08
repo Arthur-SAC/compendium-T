@@ -1,0 +1,17 @@
+{
+  "id": "armas-da-cavalaria",
+  "tipo": "poder",
+  "nome": "Armas da Cavalaria",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "prerequisito": "5º nível de cavaleiro",
+    "descricao": "Você recebe +2 em testes de ataque e rolagens de dano com espadas longas e bastardas, escudos leves e pesados, lanças montadas e de justa, maças e alabardas."
+  }
+}

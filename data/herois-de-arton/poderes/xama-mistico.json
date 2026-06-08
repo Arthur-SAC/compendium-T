@@ -1,0 +1,17 @@
+{
+  "id": "xama-mistico",
+  "tipo": "poder",
+  "nome": "Xamã Místico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "não possuir Forma Selvagem",
+    "descricao": "Você recebe +1 PM por nível de druida, pode aprender e lançar magias de uma escola adicional e a CD para resistir a suas magias aumenta em +1."
+  }
+}

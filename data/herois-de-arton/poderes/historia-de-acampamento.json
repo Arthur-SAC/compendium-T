@@ -2,7 +2,10 @@
   "id": "historia-de-acampamento",
   "tipo": "poder",
   "nome": "História de Acampamento",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

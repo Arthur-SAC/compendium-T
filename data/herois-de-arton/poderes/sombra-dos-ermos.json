@@ -1,0 +1,18 @@
+{
+  "id": "sombra-dos-ermos",
+  "tipo": "poder",
+  "nome": "Sombra dos Ermos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Camuflagem",
+    "custo": "1 PM",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para receber camuflagem leve com duração sustentada."
+  }
+}

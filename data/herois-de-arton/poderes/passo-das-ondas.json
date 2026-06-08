@@ -2,7 +2,10 @@
   "id": "passo-das-ondas",
   "tipo": "poder",
   "nome": "Passo Das Ondas",
-  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

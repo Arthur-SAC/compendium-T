@@ -1,0 +1,17 @@
+{
+  "id": "ultimo-sangue",
+  "tipo": "poder",
+  "nome": "Último Sangue",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "5º nível de caçador",
+    "descricao": "Seus ataques contra criaturas sangrando causam um dado extra de dano do mesmo tipo."
+  }
+}

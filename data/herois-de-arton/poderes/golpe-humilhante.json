@@ -2,7 +2,10 @@
   "id": "golpe-humilhante",
   "tipo": "poder",
   "nome": "Golpe Humilhante",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

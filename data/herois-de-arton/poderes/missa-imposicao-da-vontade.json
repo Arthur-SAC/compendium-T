@@ -1,0 +1,16 @@
+{
+  "id": "missa-imposicao-da-vontade",
+  "tipo": "poder",
+  "nome": "Missa: Imposição da Vontade",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "descricao": "A CD para resistir às habilidades dos participantes aumenta em +1."
+  }
+}

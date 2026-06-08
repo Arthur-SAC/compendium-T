@@ -1,0 +1,16 @@
+{
+  "id": "postura-de-combate-armamento-pesado",
+  "tipo": "poder",
+  "nome": "Postura de Combate: Armamento Pesado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Para assumir esta postura, você precisa estar empunhando uma arma corpo a corpo de duas mãos. Você recebe +2 em Fortitude e em rolagens de dano com esta arma. Para cada PM adicional que você gastar quando assumir a postura, esse bônus aumenta em +1 (até um limite de +5). Além disso, quando acerta um ataque nesta postura, você pode empurrar o alvo 1,5m. Você precisa atacar todos os turnos para manter esta postura ativa."
+  }
+}

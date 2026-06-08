@@ -2,7 +2,10 @@
   "id": "dancar-nas-cordas",
   "tipo": "poder",
   "nome": "Dançar nas Cordas",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "apoteose-celestial",
   "tipo": "poder",
   "nome": "Apoteose Celestial",
-  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

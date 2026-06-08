@@ -1,0 +1,17 @@
+{
+  "id": "curandeiro-dos-ermos",
+  "tipo": "poder",
+  "nome": "Curandeiro dos Ermos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Ervas Curativas",
+    "descricao": "Você pode usar Ervas Curativas como uma ação de movimento e os dados de cura dessa habilidade aumentam para d8."
+  }
+}

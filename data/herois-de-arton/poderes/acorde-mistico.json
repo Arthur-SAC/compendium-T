@@ -2,7 +2,10 @@
   "id": "acorde-mistico",
   "tipo": "poder",
   "nome": "Acorde Místico",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

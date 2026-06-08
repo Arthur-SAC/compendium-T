@@ -1,0 +1,17 @@
+{
+  "id": "forca-da-natureza",
+  "tipo": "poder",
+  "nome": "Força da Natureza",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Forma Selvagem Superior, 17º nível de druida",
+    "descricao": "Se estiver em forma selvagem, você pode gastar 4 PM para se cobrir de terra e raízes, como um elemental da própria terra, até o fim da cena. Nesse estado, você recebe +4 em um atributo a sua escolha."
+  }
+}

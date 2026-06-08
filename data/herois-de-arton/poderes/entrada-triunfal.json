@@ -2,7 +2,10 @@
   "id": "entrada-triunfal",
   "tipo": "poder",
   "nome": "Entrada Triunfal",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

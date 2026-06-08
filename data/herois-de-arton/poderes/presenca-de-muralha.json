@@ -1,0 +1,16 @@
+{
+  "id": "presenca-de-muralha",
+  "tipo": "poder",
+  "nome": "Presença de Muralha",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Você pode gastar 1 PM para gerar uma aura com 9m de raio e duração sustentada. Cada inimigo que começar seu turno nessa área deve fazer um teste de Vontade (CD Car). Se falhar, seu deslocamento é reduzido à metade pela duração do efeito. Se passar, não é mais afetado por este efeito nesse dia. Medo."
+  }
+}

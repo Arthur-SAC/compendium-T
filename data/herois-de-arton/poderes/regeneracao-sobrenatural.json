@@ -2,7 +2,10 @@
   "id": "regeneracao-sobrenatural",
   "tipo": "poder",
   "nome": "Regeneração Sobrenatural",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

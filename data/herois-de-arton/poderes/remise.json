@@ -2,7 +2,10 @@
   "id": "remise",
   "tipo": "poder",
   "nome": "Remise",
-  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

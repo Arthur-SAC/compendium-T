@@ -2,7 +2,10 @@
   "id": "ampliar-brado",
   "tipo": "poder",
   "nome": "Ampliar Brado",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

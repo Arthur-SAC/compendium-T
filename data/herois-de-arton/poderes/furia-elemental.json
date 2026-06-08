@@ -2,7 +2,10 @@
   "id": "furia-elemental",
   "tipo": "poder",
   "nome": "Fúria Elemental",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -1,0 +1,16 @@
+{
+  "id": "tocaia-habilidosa",
+  "tipo": "poder",
+  "nome": "Tocaia Habilidosa",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "descricao": "Sua Marca da Presa também fornece +1 na CD de suas habilidades contra a criatura marcada para cada PM gasto. Esse bônus dobra com a habilidade Inimigo."
+  }
+}

@@ -2,7 +2,10 @@
   "id": "apresentacao-impactante",
   "tipo": "poder",
   "nome": "Apresentação Impactante",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "magia-performatica",
   "tipo": "poder",
   "nome": "Magia Performática",
-  "fonte": { "livro": "herois-de-arton", "pagina": 55 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

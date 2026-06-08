@@ -1,0 +1,17 @@
+{
+  "id": "canalizar-concentrado",
+  "tipo": "poder",
+  "nome": "Canalizar Concentrado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Canalizar Energia, 11° nível de clérigo",
+    "descricao": "Quando usa Canalizar Energia, você pode afetar apenas uma criatura no alcance (em vez de todas). Se fizer isso, a cura ou o dano da habilidade aumenta em +1 por dado e a CD aumenta em +2."
+  }
+}

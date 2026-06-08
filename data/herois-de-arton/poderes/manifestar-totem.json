@@ -2,7 +2,10 @@
   "id": "manifestar-totem",
   "tipo": "poder",
   "nome": "Manifestar Totem",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

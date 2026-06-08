@@ -2,7 +2,10 @@
   "id": "inspiracao-resoluta",
   "tipo": "poder",
   "nome": "Inspiração Resoluta",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

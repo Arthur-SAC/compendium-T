@@ -1,0 +1,17 @@
+{
+  "id": "honra-compartilhada",
+  "tipo": "poder",
+  "nome": "Honra Compartilhada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "prerequisito": "Armadura da Honra",
+    "descricao": "Quando usa o poder Armadura da Honra, você pode fornecer seu benefício a todos os aliados em alcance curto."
+  }
+}

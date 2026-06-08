@@ -2,7 +2,10 @@
   "id": "contingencia-arcana",
   "tipo": "poder",
   "nome": "Contingência Arcana",
-  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

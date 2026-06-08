@@ -2,7 +2,10 @@
   "id": "estocada-no-flanco",
   "tipo": "poder",
   "nome": "Estocada no Flanco",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

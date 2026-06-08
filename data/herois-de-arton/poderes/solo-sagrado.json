@@ -1,0 +1,17 @@
+{
+  "id": "solo-sagrado",
+  "tipo": "poder",
+  "nome": "Solo Sagrado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Consagrar",
+    "descricao": "Quando você lança uma magia de luz dentro de uma área de Consagrar, criaturas a sua escolha nessa área recebem RD igual ao dobro do círculo da magia contra o próximo dano que sofrerem até o início do seu próximo turno."
+  }
+}

@@ -2,7 +2,10 @@
   "id": "invocar-os-ancestrais",
   "tipo": "poder",
   "nome": "Invocar os Ancestrais",
-  "fonte": { "livro": "herois-de-arton", "pagina": 57 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -1,0 +1,16 @@
+{
+  "id": "duelista-escudado",
+  "tipo": "poder",
+  "nome": "Duelista Escudado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Enquanto sua habilidade Duelo estiver ativa e você estiver empunhando um escudo, você recebe RD igual ao bônus concedido pela habilidade."
+  }
+}

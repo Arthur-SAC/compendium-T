@@ -1,0 +1,17 @@
+{
+  "id": "companheiro-elemental",
+  "tipo": "poder",
+  "nome": "Companheiro Elemental",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "druida de Arton, Companheiro Animal",
+    "descricao": "Escolha um de seus companheiros animais. Ele recebe o tipo destruidor, ganhando os bônus de seu nível. Se você possuir o suplemento Ameaças de Arton, em vez disso ele pode se tornar também um parceiro aquin'ne, t'peel, pakk ou terrier (também ganhando o bônus de seu nível)."
+  }
+}

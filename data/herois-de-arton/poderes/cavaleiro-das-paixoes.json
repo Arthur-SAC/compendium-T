@@ -1,0 +1,17 @@
+{
+  "id": "cavaleiro-das-paixoes",
+  "tipo": "poder",
+  "nome": "Cavaleiro das Paixões",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "prerequisito": "um poder de Paixão",
+    "descricao": "Você recebe +5 em testes de atributo para usar suas Paixões."
+  }
+}

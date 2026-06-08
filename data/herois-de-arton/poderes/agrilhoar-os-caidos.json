@@ -2,7 +2,10 @@
   "id": "agrilhoar-os-caidos",
   "tipo": "poder",
   "nome": "Agrilhoar os Caídos",
-  "fonte": { "livro": "herois-de-arton", "pagina": 54 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

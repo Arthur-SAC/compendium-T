@@ -2,7 +2,10 @@
   "id": "musica-marcha-vitoriosa",
   "tipo": "poder",
   "nome": "Música: Marcha Vitoriosa",
-  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

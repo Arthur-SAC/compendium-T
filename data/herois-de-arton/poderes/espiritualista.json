@@ -2,7 +2,10 @@
   "id": "espiritualista",
   "tipo": "poder",
   "nome": "Espiritualista",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "brado-assombroso",
   "tipo": "poder",
   "nome": "Brado: Assombroso",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

@@ -2,7 +2,10 @@
   "id": "onda-de-sangue",
   "tipo": "poder",
   "nome": "Onda de Sangue",
-  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

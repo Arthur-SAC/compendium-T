@@ -1,0 +1,16 @@
+{
+  "id": "postura-de-combate-sequencia-blindada",
+  "tipo": "poder",
+  "nome": "Postura de Combate: Sequência Blindada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Para assumir esta postura, você precisa estar vestindo armadura pesada. Quando faz a ação agredir, você pode fazer um ataque desarmado além de seus demais ataques."
+  }
+}

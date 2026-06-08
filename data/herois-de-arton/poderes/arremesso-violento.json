@@ -2,7 +2,10 @@
   "id": "arremesso-violento",
   "tipo": "poder",
   "nome": "Arremesso Violento",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

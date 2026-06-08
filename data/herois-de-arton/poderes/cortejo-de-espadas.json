@@ -2,7 +2,10 @@
   "id": "cortejo-de-espadas",
   "tipo": "poder",
   "nome": "Cortejo de Espadas",
-  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],

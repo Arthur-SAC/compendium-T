@@ -2,7 +2,10 @@
   "id": "trama-celere",
   "tipo": "poder",
   "nome": "Trama Célere",
-  "fonte": { "livro": "herois-de-arton", "pagina": 56 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
   "imagens": [],
   "secoes": [],
   "relacoes": [],
