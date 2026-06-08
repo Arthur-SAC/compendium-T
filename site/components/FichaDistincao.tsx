@@ -6,9 +6,11 @@ import { TextoBlocos } from "./TextoBlocos";
 import { Divisor } from "./Divisor";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
+const cartaoAside = { background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 12, padding: "12px 14px" };
 
 export function FichaDistincao({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
   const m = entidade.mecanica as unknown as DistincaoMecanica;
+  const imagem = entidade.imagens[0];
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
@@ -92,6 +94,21 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
               Fonte: {entidade.fonte.livro}, p. {entidade.fonte.pagina}
             </p>
           </div>
+
+          <aside className="ficha-aside">
+            {imagem && (
+              <div style={{ ...cartaoAside, display: "flex", justifyContent: "center" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 290, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
+              </div>
+            )}
+            <div style={{ ...cartaoAside, fontFamily: "var(--serifa)", lineHeight: 1.5 }}>
+              <h2 style={h2}>Como conquistar</h2>
+              <p style={{ margin: 0, fontSize: 13 }}>
+                Cumpra a <strong style={{ color: "var(--carmesim)" }}>Admissão</strong> em jogo (a partir do patamar veterano, 5º nível). Ao ingressar, você recebe a <strong style={{ color: "var(--carmesim)" }}>Marca da Distinção</strong> e pode escolher os <strong style={{ color: "var(--carmesim)" }}>Poderes da Distinção</strong> como poderes gerais.
+              </p>
+            </div>
+          </aside>
         </div>
       </div>
     </article>
