@@ -8,11 +8,11 @@
   "secoes": [
     {
       "titulo": "Descrição",
-      "texto": "Inventores são versáteis, capazes de fabricar, conservar e aprimorar vários tipos de itens. Contudo, alguns pensam que os únicos itens que merecem tamanha atenção são aqueles oriundos de Arton de forma física e espiritual. O único ofício verdadeiramente transcendente é a alquimia.\n\nO alquimista é um inventor que busca mais do que criar objetos mundanos: cada preparado teria um componente místico, afetando a alma de quem o usa. Assim, ácido não seria apenas uma maneira de causar dano, mas um modo de destruir o que é velho, para que possa ser substituído pelo novo. Essência de mana não seria apenas um elixir de ervas, mas energia materializada, capaz de elevar a mente. Para o alquimista, o verdadeiro ofício é compreender como Arton está conectada a outras dimensões, outros mundos, outras realidades — e imbui seus preparados com essa compreensão transcendente.\n\nUm ditado comum entre alquimistas é \"Assim acima como abaixo\": tudo ato em Arton tem reflexo nos reinos dos deuses e todo item alquímico seria uma metáfora para algum processo de transformação espiritual. Dizem que os maiores alquimistas podem transformar chumbo em ouro. Mas apenas os aprendizes pensam que isso é sobre riqueza."
+      "texto": "Inventores são artesãos versáteis, capazes de fabricar, consertar e aprimorar vários tipos de itens. Contudo, alguns pensam que os únicos itens que merecem tamanho esmero são aqueles que elevam Arton de forma física e espiritual. O único ofício verdadeiramente transcendente é a alquimia.\n\nO alquimista é um inventor que busca mais do que criar objetos mundanos: cada preparado teria um componente místico, afetando a alma de quem o usa. Assim, ácido não seria apenas uma maneira de causar dano, mas um modo de destruir o que é velho, para que possa ser substituído pelo novo. Essência de mana não seria apenas um elixir de ervas, mas energia materializada, capaz de elevar a mente. Para o alquimista, o verdadeiro ofício é compreender como Arton está conectada a outras dimensões, outros mundos, outras realidades — e imbuir seus preparados com essa compreensão transcendental.\n\nUm ditado comum entre alquimistas é \"Assim acima como abaixo\": todo ato em Arton teria um reflexo nos reinos dos deuses e todo item alquímico seria uma metáfora para algum processo de transformação espiritual. Dizem que os maiores alquimistas podem transformar chumbo em ouro... Mas apenas os aprendizes pensam que isso é sobre riqueza."
     },
     {
       "titulo": "Emulsões",
-      "texto": "Uma emulsão é um óleo que concede propriedades mágicas a um item. Usá-la é uma ação padrão e reforece um ou mais encantos para um item até o fim da cena. Conceder um encanto através de uma emulsão não tem custo adicional (além do gasto do óleo) e conta no limite de encantos do item.\n\nExistem emulsões com um, dois e três encantos. Se um encanto coberto em uma emulsão tiver outros pré-requisitos, a emulsão deve incluir também esse pré-requisito. Fabricar uma emulsão segue as mesmas regras para fabricar itens alquímicos, mas o custo e a CD dependem da quantidade de encantos contidos no óleo.\n\nTabela de Emulsões:\n| Encantos | TS 250 | CD 25 |\n| 2 | TS 750 | CD 30 |\n| 3 | TS 1.500 | CD 35 |\n\nPor sua volatilidade, que exige do criador enumeração constante, além da necessidade de supervisão em sua aplicação, emulsões não são comercializadas."
+      "texto": "Uma emulsão é um óleo que concede propriedades mágicas a um item. Usá-la é uma ação padrão e fornece um ou mais encantos para um item até o fim da cena. Conceder um encanto através de uma emulsão não tem custo adicional (além do gasto do óleo) e conta no limite de encantos do item.\n\nExistem emulsões com um, dois e três encantos. Se um encanto contido em uma emulsão tiver outro como pré-requisito, a emulsão deve incluir também esse pré-requisito. Fabricar uma emulsão segue as mesmas regras para itens alquímicos, mas o custo e a CD dependem da quantidade de encantos contidos no óleo.\n\nTabela de Emulsões:\n| Encantos | Custo de Fabricação | CD |\n|----------|--------------------|----|  \n| 1 | T$ 250 | 25 |\n| 2 | T$ 750 | 30 |\n| 3 | T$ 1.500 | 35 |\n\nPor sua volatilidade, que exige do criador manutenção constante, além da necessidade de supervisão em sua aplicação, emulsões não são comercializadas."
     }
   ],
   "relacoes": [],
@@ -26,7 +26,7 @@
       "quantidade": 4,
       "fixas": ["Ofício (alquimista) (Int)", "Vontade (Sab)"],
       "lista": ["Conhecimento (Int)", "Cura (Sab)", "Diplomacia (Car)", "Fortitude (Con)", "Iniciativa (Des)", "Investigação (Int)", "Luta (For)", "Misticismo (Int)", "Ofício (Int)", "Pilotagem (Des)", "Percepção (Sab)", "Pontaria (Des)"],
-      "texto": "Como o inventor básico, mas seu Ofício inicial é (alquimista). Ofício (alquimista) (Int) e Vontade (Sab), mais 4 a sua escolha entre Conhecimento (Int), Cura (Sab), Diplomacia (Car), Fortitude (Con), Iniciativa (Des), Investigação (Int), Luta (For), Misticismo (Int), Ofício (Int), Pilotagem (Des), Percepção (Sab) e Pontaria (Des)."
+      "texto": "Como o inventor básico, mas seu Ofício inicial é alquimista."
     },
     "proficiencias": [],
     "progressao": [
@@ -55,7 +55,7 @@
       {
         "nome": "Engenhosidade",
         "nivel": 1,
-        "descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar a sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. (como o inventor básico)",
+        "descricao": "Como o inventor básico.",
         "custo": "2 PM"
       },
       {
@@ -66,12 +66,12 @@
       {
         "nome": "Alquimista Iniciado",
         "nivel": 2,
-        "descricao": "No 2º nível, você recebe o poder Alquimista Iniciado (veja Tormenta20 p. 68)."
+        "descricao": "No 2º nível, você recebe o poder Alquimista Iniciado (veja Tormenta20, p. 68)."
       },
       {
         "nome": "Poder de Inventor",
         "nivel": 2,
-        "descricao": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes de inventor (veja a lista de poderes). (como o inventor básico)"
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o inventor básico."
       },
       {
         "nome": "Mistura Básica",
@@ -92,28 +92,28 @@
       {
         "nome": "Odores Alquímicos",
         "nivel": 8,
-        "descricao": "A partir do 8º nível, você pode gastar uma ação completa para detectar a presença de itens alquímicos e poções em alcance médio. Você identifica cada um deles (tipo do item (preparado, veneno etc.) e uso geral (curar, fornecer bônus etc.). Para poções, você identifica qual magia ela emula e com quantos pontos de mana foi fabricada."
+        "descricao": "A partir do 8º nível, você pode gastar uma ação completa para detectar a presença de itens alquímicos e poções em alcance médio. No caso de itens alquímicos, você descobre seu tipo (preparado, veneno etc.) e uso geral (curar, fornecer bônus etc.). Para poções, você identifica qual magia ela emula e com quantos pontos de mana foi fabricada."
       },
       {
         "nome": "Fabricar Emulsão",
         "nivel": 9,
-        "descricao": "No 9º nível, você aprende a fabricar emulsões com um encanto (1 ou o quadro). Nos níveis 13 e 17, você aprende a fabricar emulsões com dois e três encantos, respectivamente."
+        "descricao": "No 9º nível, você aprende a fabricar emulsões com um encanto (veja o quadro). Nos níveis 13 e 17, você aprende a fabricar emulsões com respectivamente dois e três encantos."
       },
       {
         "nome": "Mestre Alquimista",
         "nivel": 10,
-        "descricao": "No 10º nível, você recebe o poder Mestre Alquimista (veja Tormenta20 p. 69)."
+        "descricao": "No 10º nível, você recebe o poder Mestre Alquimista (veja Tormenta20, p. 69)."
       },
       {
         "nome": "Bombardeio Eficiente",
         "nivel": 11,
-        "descricao": "No 11º nível, quando usa uma poção que causa dano, você pode gastar 1 PM para que esse item cause 10 pontos de redução a dano das criaturas atingidas.",
+        "descricao": "A partir do 11º nível, quando usa um preparado alquímico ou uma poção que causa dano, você pode gastar 1 PM para que esse item ignore 10 pontos da redução de dano das criaturas atingidas.",
         "custo": "1 PM"
       },
       {
         "nome": "Pedra Filosofal",
         "nivel": 20,
-        "descricao": "No 20º nível, você recebe uma pedra filosofal, um material que combina alquimia, magia e a própria energia vital em uma fórmula única. Enquanto estiver de posse da pedra filosofal, você recebe Aceleração 10 e, quando tiver dois dados e o melhor resultado, você recebe o melhor resultado. No caso de ser usada na criação de um item em alcance curto faz reduzir a 0 PV ou matar, você pode sacrificar sua pedra filosofal para salvar essa criatura. A pedra se enfraquece em um rio de explosão de energia positiva que fornece ao alvo o efeito básico da magia Segunda Chance (com o efeito adicional de desconstruir o dano sofrido pelo alvo, caso tenha sido destruído ou desintegrado). Você só pode ter uma pedra filosofal por vez; se perdê-la, pode fabricar outra com uma semana de trabalho e o gasto de T$ 18.000."
+        "descricao": "No 20º nível, você recebe uma pedra filosofal, um material que combina alquimia, magia e sua própria energia vital em uma fórmula única. Enquanto estiver de posse de sua pedra filosofal, você tem Cura Acelerada 10 e, quando faz um teste de Fortitude, rola dois dados e usa o melhor resultado. Além disso, se você ou um aliado em alcance curto for reduzido a 0 PV ou morrer, você pode sacrificar sua pedra filosofal para salvar essa criatura. A pedra se estilhaça em uma explosão de energia positiva que fornece ao alvo o efeito básico da magia Segunda Chance (com o efeito adicional de reconstruir o corpo do alvo, caso tenha sido destruído ou desintegrado). Você só pode ter uma pedra filosofal por vez; se perdê-la, pode fabricar outra com uma semana de trabalho e o gasto de T$ 18.000."
       }
     ],
     "poderes": [
