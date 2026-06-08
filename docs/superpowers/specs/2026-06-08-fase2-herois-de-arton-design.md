@@ -19,6 +19,17 @@ Meta de fidelidade e políticas herdadas (não mudam):
   `idsDuplicados()` do carregador pega colisões `tipo/id` no build.
 - `SeloFonte` já marca a origem em fichas e índices.
 
+### Política nova: spike de cobertura de schema por tipo (pedido do usuário, 2026-06-08)
+
+Antes de extrair **em lote** qualquer tipo de entidade — **inclusive tipos que já
+existem** (`magia`, `item`, `item-magico`, `poder`, `origem`, `raca`, etc.) — extrair
+**1 exemplar primeiro** e conferir, contra a imagem da página, se **nenhum campo/linha
+do livro novo ficou de fora do schema existente**. Os autores podem ter mudado o padrão
+ou adicionado campos no livro novo; um lote cego engoliria isso em silêncio (o schema
+não-strict descarta chaves desconhecidas). Só replicar para os demais do mesmo tipo
+**depois** de confirmar a cobertura — ou, se algo ficou de fora, **ajustar
+schema/ficha primeiro** e então rodar o lote. Vale para cada tipo em cada onda.
+
 ## 1. Fundação (multi-fonte)
 
 - Acrescentar a `data/sources.json`:
@@ -136,6 +147,8 @@ Cada onda de dados: blocos com revisor independente; commits por bloco; ao fecha
   JSONs via Zod ao prerenderizar).
 - Catálogo de Heróis revisado por visão (mecânica 100% fiel).
 - Novos tipos (`distincao`, `variante-classe`) com testes de schema + ficha + índice.
+- **Cada tipo extraído passou pelo spike de cobertura de schema (1 exemplar conferido
+  contra a página) antes da extração em lote.**
 - `PROGRESSO.md` atualizado ao fim de cada onda.
 - Livro 100% coberto (catálogos + regras); reprints documentados; pulados sem mecânica
   (créditos, índices/apêndices) registrados.
