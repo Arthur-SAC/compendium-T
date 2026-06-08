@@ -1,0 +1,208 @@
+{
+  "id": "treinador",
+  "tipo": "classe",
+  "nome": "Treinador",
+  "resumo": "Mestre das criaturas ferais de Arton, o treinador convoca, doma e direciona animais, monstros e outras feras como combatentes ou mascotes, compartilhando suas ações com um parceiro especial chamado melhor amigo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 16 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando um poderoso tachygloss ou uma alcateia gorlogg irrompem no campo de batalha, dilacerando alvos em apenas um lado do conflito, é quase certo que existe um treinador por trás.\n\nFigura mística e enigmática, o treinador é um mestre das criaturas ferais que compartilham Arton com os povos humanoides. Suas habilidades permitem convocar animais, monstros e outras feras como combatentes, montarias, bestas de carga ou simples mascotes. Há quem os confunda com druidas, por sua afinidade com o mundo selvagem, mas é um erro pensar assim. Embora alguns sejam de fato abençoados por Allihanna ou Megalokk, outros adquirem seus talentos exóticos de formas totalmente diferentes, tão variadas quanto os seres que comandam. Treinadores podem ser selvagens, mas também urbanos, eruditos, até palacianos.\n\nAlguns treinadores foram criados por animais após serem abandonados ou perdidos quando crianças, adotados por matilhas de gorloggs, bandos de lagartos-terror ou outras bestas. Crescendo entre feras, desenvolveram entendimento instintivo de suas linguagens e comportamentos. Outros receberam seus dons como bênçãos, escolhidos pelos deuses como seus campeões no mundo mortal. Há aqueles cuja conexão com animais e monstros é fruto de alguma herança sobrenatural, descendentes de antigos espíritos, celestiais ou abissais. E outros, ainda, apenas passaram por treinamento severo e obsessivo, aprendendo a domar e treinar bestas com paciência, coragem e conhecimento profundo.\n\nUma das habilidades mais impressionantes do treinador é ser capaz de deter, acalmar ou domar feras selvagens, derrotando-as sem lutar. Com uma combinação de palavras, gestos e uma aura natural de autoridade, ele pode neutralizar as criaturas mais ferozes sem derramamento de sangue — ou mesmo transformá-las em aliadas! Pode assim resolver conflitos de forma pacífica, protegendo tanto as pessoas quanto as próprias feras.\n\nEnquanto muitos treinadores atraem animais e monstros conhecidos, outros podem adotar seleções mais estranhas. Talvez exista um deles capaz de invocar bestas elementais que emergem da natureza ao redor. Outro que manifesta e controla enxames de construtos animalescos. Outro ainda que roga aos deuses para invocar feras celestiais — ou abissais, quando recorre a deuses malignos. E algum pode até ser louco ou depravado o bastante para convocar aberrações da Tormenta…\n\nAssim, por magia, prática ou destino, treinadores são peritos em controlar e invocar criaturas — que podem existir nas redondezas, ser conjuradas por magia ou apenas se manifestar num instante, como produto de sua vontade. Sejam pássaros para reconhecimento aéreo, ursos para rastreamento e ataque ou grifos selvagens para transporte rápido, o treinador sempre pode contar com fiéis ajudantes. Alguns treinadores desenvolvem um vínculo especial com uma criatura única e poderosa, como um imenso lagarto-trovão, um elemental gigantesco, uma fera abissal profana ou mesmo um construto de guerra!\n\nMais que simples invocadores, treinadores são eruditos e protetores do mundo não humanoide, com vasto conhecimento sobre os seres que comandam. Em combate são adversários formidáveis, pois nunca estão sozinhos: enquanto suas criaturas atacam ou defendem, treinadores permanecem em posição estratégica, coordenando com precisão e eficiência, usando seus poderes para curar e fortificar seus mascotes. E, quando atuam com colegas aventureiros, são sempre valiosos e versáteis — afinal, um treinador conta como dois heróis… no mínimo!"
+    },
+    {
+      "titulo": "Melhor Amigo",
+      "texto": "Seu melhor amigo é uma criatura com a qual você possui uma afinidade única. Pode ser um animal que você criou desde filhote, um construto que você fabricou ou mesmo o espírito de um antepassado que decidiu protegê-lo! Em termos de regras, é um parceiro iniciante de um tipo a sua escolha condizente com suas características e aprovado pelo mestre. Se você receber um parceiro não inteligente por outra habilidade, como o poder Companheiro Animal (Tormenta20, p. 62) ou a origem Irmão sem Esporas (Atlas de Arton, p. 476), pode fazer esse parceiro ser seu melhor amigo, usando todos os bônus de parceiros (bônus iguais não se acumulam; use os melhores). Seu melhor amigo só fornece seus benefícios de parceiro se estiver em alcance curto de você.\n\nAo contrário de outros parceiros, seu melhor amigo possui uma ficha completa, com as características a seguir — mesmo que sejam diferentes da ficha de sua espécie. Por exemplo, se você escolher um melhor amigo gorlogg, ele terá as características abaixo, não aquelas descritas em Tormenta20, p. 291. Da mesma forma, se escolher um melhor amigo elefante (Ameaças de Arton, p. 216), ele não será Enorme. Talvez o seu ainda seja um filhote que ainda não cresceu totalmente? Se achar isso sem graça, lembre-se de que você ainda pode escolher o truque Amigão para fazê-lo crescer!\n\nTamanho. Escolha entre Pequeno, Médio ou Grande.\n\nAtributos. For 1, Des 1, Con 1, Int –4, Sab 1, Car 0.\n\nPontos de Vida. Começa com 16 pontos de vida + Constituição e ganha 4 PV + Con por nível.\n\nPontos de Mana. Seu melhor amigo não possui pontos de mana. Você usa os seus próprios PM para ativar as habilidades dele.\n\nPerícias Treinadas. Escolha 3 entre Acrobacia (Des), Atletismo (For), Fortitude (Con), Furtividade (Des), Luta (For), Percepção (Sab), Pontaria (Des), Reflexos (Des), Sobrevivência (Sab) e Vontade (Sab).\n\nDefesa. 10 + Destreza + Carisma do treinador + metade do nível do treinador.\n\nDeslocamento. 12m (8q). Se o seu melhor amigo for uma montaria, em vez disso use os deslocamentos que ele fornece.\n\nAtaques. Possui uma arma natural (dano 1d8, crítico x2, corte, impacto ou perfuração, escolhido ao criar o melhor amigo). Se você tiver o suplemento Ameaças de Arton, pode escolher uma das armas naturais descritas na p. 374.\n\nTipo. Escolha entre animal, construto, espírito, monstro ou morto-vivo. Conforme o tipo, ele recebe os benefícios a seguir.\n\n• Animal. +1 em Força, Destreza e Sabedoria, faro, visão na penumbra, treinamento em Percepção e Sobrevivência e +1 na margem de ameaça com suas armas naturais.\n\n• Construto. +2 em Constituição, visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Não respira, alimenta-se ou dorme; não é afetado por condições de descanso, não se beneficia de cura mundana e itens de alimentação e a perícia Cura não funciona com ele, mas Ofício (artesão) pode ser usada com os mesmos efeitos.\n\n• Espírito. +1 em Sabedoria e Carisma. Pode assumir uma forma incorpórea Minúscula de energia positiva ou negativa (escolhida ao ser criado) com deslocamento de voo 9m, que não pode atacar ou usar habilidades. Nessa forma, fornece +2 em perícias baseadas em Sabedoria (energia positiva) ou +2 em perícias baseadas em Carisma (energia negativa). Você pode gastar uma ação de movimento para fazê-lo mudar entre sua forma normal e sua forma incorpórea.\n\n• Monstro. +1 em Força e Destreza, visão no escuro e uma segunda arma natural (quando o melhor amigo faz a ação agredir com outra arma, você pode gastar 1 PM para que ele faça um ataque corpo a corpo extra com essa arma).\n\n• Morto-Vivo. +2 em Constituição, visão no escuro e imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno; não respira, alimenta-se ou dorme; não é afetado por condições de descanso, sofre dano por efeitos mágicos de cura de luz e recupera PV com dano de trevas.\n\nAções. Seu amigo depende de suas instruções para agir. Em termos de regras, a cada turno você pode gastar suas ações com seu personagem (o treinador) ou com seu melhor amigo, em qualquer combinação. Por exemplo, pode gastar sua ação de movimento para percorrer seu deslocamento e sua ação padrão para que seu melhor amigo faça uma ação agredir. Ações adicionais, como aquelas concedidas pela magia Velocidade, também podem ser distribuídas dessa forma.\n\nNível. Para efeitos baseados no nível do melhor amigo, use o nível do treinador.\n\nEquipamento. Um melhor amigo não pode empunhar nem carregar itens, mas pode vestir até dois itens que, a critério do mestre, sejam adequados a sua forma e natureza."
+    },
+    {
+      "titulo": "Truques",
+      "texto": "• Alado. Seu melhor amigo ganha deslocamento de voo 15m. Pré-requisitos: Asas, 5º nível de treinador.\n\n• Amigão. Seu melhor amigo recebe +1 em Força e o tamanho dele muda para Enorme. Isso aumenta o dano de suas armas naturais em um passo e afeta seu modificador de Furtividade e manobras (Tormenta20, p. 107). Pré-requisito: melhor amigo Grande, 7º nível de treinador.\n\n• Amigo Feroz. Seu melhor amigo recebe +2 em testes de ataque e na margem de ameaça com suas armas naturais, e o dano delas aumenta em um passo.\n\n• Amigo Protetor. Quando você sofre dano, caso seu melhor amigo esteja em alcance curto, você pode gastar 2 PM para que ele salte em sua defesa. Se fizer isso, você sofre apenas metade do dano e o melhor amigo sofre o restante.\n\n• Amigo Veterano. Seu amigo vira um parceiro veterano de seu tipo. Pré-requisito: 5º nível de treinador.\n\n• Amigo Mestre. Seu amigo veterano vira um parceiro mestre de seu tipo. Pré-requisito: Amigo Veterano, 11º nível de treinador.\n\n• Anatomia Humanoide. Seu melhor amigo tem uma forma humanoide e Int –2 (em vez de –4). Ele não recebe uma arma natural inicial, mas tem proficiência com armas simples e armaduras leves, pode empunhar dois itens e vestir um item adicional, e tem um limite de carga de 10 espaços. Este truque só pode ser escolhido na criação do melhor amigo. Pré-requisito: construto ou morto-vivo.\n\n• Arma Natural Adicional. Seu melhor amigo recebe uma arma natural adicional. Quando ele faz a ação agredir com outra arma, você pode gastar 1 PM para que ele faça um ataque corpo a corpo extra com essa arma. Pré-requisito: animal ou monstro.\n\n• Asas. Seu melhor amigo possui asas que podem ser usadas para pairar a 1,5m do chão com deslocamento 12m. Isso permite que ele ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para que ele voe com deslocamento 12m.\n\n• Bote. Quando faz uma investida, seu melhor amigo pode atacar com todas as suas armas naturais. Todos os ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Pré-requisito: duas armas naturais.\n\n• Condicionamento Especial. O melhor amigo recebe +2 em um atributo e +1 em outro atributo, exceto Inteligência. Você pode escolher este truque uma vez por patamar.\n\n• Deslocamento Especial. Seu melhor amigo recebe deslocamento de escalada ou de natação igual a seu deslocamento base. Você pode escolher este truque uma segunda vez para que ele tenha ambos os deslocamentos.\n\n• Magia Inata. Escolha uma magia de 1º círculo, arcana ou divina. Seu melhor amigo aprende e pode lançar essa magia (atributo-chave Carisma do treinador). Você pode escolher este truque outras vezes para magias diferentes. Pré-requisito: espírito.\n\n• Manobra Ensaiada. Escolha uma manobra de combate. Seu melhor amigo recebe +2 em testes de ataque para executar essa manobra e, uma vez por rodada, quando ele acerta um ataque com uma arma natural, você pode gastar 1 PM para que ele faça essa manobra contra o alvo do ataque como uma ação livre.\n\n• Reanimação Sombria. Uma vez por cena, se seu melhor amigo estiver com 0 PV ou menos, você pode gastar 3 PM por patamar para reanimá-lo. Se você fizer isso, ele é reerguido com pontos de vida iguais à metade do seu máximo. Pré-requisito: morto-vivo.\n\n• Redução de Dano. Seu melhor amigo recebe redução de dano 5. Pré-requisito: 5º nível de treinador.\n\n• Sopro. Seu melhor amigo recebe um sopro de um tipo a sua escolha entre ácido, fogo, frio ou eletricidade. Você pode gastar uma ação padrão e uma quantidade de PM limitada pelo seu Carisma para que seu melhor amigo sopre um cone de 6m de energia do tipo escolhido. Para cada PM gasto, criaturas na área sofrem 2d8 pontos de dano do tipo escolhido (Reflexos CD Car do treinador reduz à metade). Pré-requisito: construto, espírito ou monstro.\n\n• Táticas de Matilha. Se seu melhor amigo estiver flanqueando um inimigo, além do bônus normal por flanquear, recebe +2 nos testes de ataque (total +4) e nas rolagens de dano contra ele. Se você estiver flanqueando com ele, recebe os mesmos bônus.\n\n• Treinamento de Companhia. Seu melhor amigo recebe uma ação de movimento adicional nos turnos dele (apenas para se deslocar). Pré-requisito: animal.\n\n• Treinamento Defensivo. Seu melhor amigo passa a receber um bônus na Defesa igual ao seu nível (em vez de metade do nível).\n\n• Treinamento Marcial. Seu melhor amigo recebe +2 em testes de ataque e rolagens de dano. Para cada patamar acima de iniciante, esse bônus aumenta em +1. Se ele possuir o truque Anatomia Humanoide, também recebe proficiência com armas marciais, armaduras pesadas e escudos.\n\n• Veloz. Seu melhor amigo recebe +2 na Defesa e +3m em seus deslocamentos e se torna treinado em Atletismo (se já for, recebe +2 nessa perícia)."
+    },
+    {
+      "titulo": "Mascotes",
+      "texto": "Um mascote é uma criatura com a qual você desenvolveu uma grande afinidade. Em termos de jogo, é um parceiro especial que não conta em seu limite de parceiros e com o qual você pode se comunicar através de gestos em alcance médio. Ele obedece a seus comandos, mas ainda está limitado ao que uma criatura de sua espécie pode fazer. Mascotes fornecem seus benefícios tanto para você quanto para seus melhores amigos. Se perder um de seus mascotes, você pode treinar um novo com uma semana de trabalho e T$ 100.\n\n• Águia Real. Uma vez por rodada, fornece +1d6 em uma rolagem de dano com arma.\n\n• Bicho Preguiça. Agarrado às costas (suas ou de seu melhor amigo), este animal ocupa o espaço de um item vestido, mas fornece um ataque natural de garra (dano 1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa garra.\n\n• Camundongo Espiritual. Aumenta a CD para resistir a habilidades mágicas em +1.\n\n• Fada-Borboleta. Diminui o custo de habilidades mágicas em –1.\n\n• Gekko Malhado. Fornece +2 na Defesa e em Reflexos.\n\n• Mico-Leão Dourado. Permite usar Ladinagem para punga em alcance curto.\n\n• Minivaca. Fornece +1 em testes de ataque. Esse bônus dobra em investidas.\n\n• Ossinhos. O esqueleto de um animal reanimado. Fornece redução de corte, frio e perfuração 2."
+    },
+    {
+      "titulo": "Pontos de Vida e Mana",
+      "texto": "Um treinador começa com 12 pontos de vida + Constituição e ganha 3 PV + Constituição por nível. Pontos de Mana: 4 PM por nível."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Carisma",
+    "pvInicial": 12,
+    "pvPorNivel": 3,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 4,
+      "fixas": ["Adestramento (Car)", "Vontade (Sab)"],
+      "lista": ["Atletismo (For)", "Cavalgar (Des)", "Diplomacia (Car)", "Guerra (Int)", "Iniciativa (Des)", "Intimidação (Car)", "Intuição (Sab)", "Luta (For)", "Ofício (Int)", "Percepção (Sab)", "Pontaria (Des)", "Reflexos (Des)", "Religião (Sab)", "Sobrevivência (Sab)"],
+      "texto": "Adestramento (Car) e Vontade (Sab), mais 4 a sua escolha entre Atletismo (For), Cavalgar (Des), Diplomacia (Car), Guerra (Int), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Luta (For), Ofício (Int), Percepção (Sab), Pontaria (Des), Reflexos (Des), Religião (Sab) e Sobrevivência (Sab)."
+    },
+    "proficiencias": [],
+    "progressao": [
+      { "nivel": 1,  "habilidades": ["Direcionar", "Melhor amigo (2 truques)"] },
+      { "nivel": 2,  "habilidades": ["Domar criatura (2d8)", "Poder de treinador"] },
+      { "nivel": 3,  "habilidades": ["Poder de treinador"] },
+      { "nivel": 4,  "habilidades": ["Melhor amigo (3 truques)", "Poder de treinador"] },
+      { "nivel": 5,  "habilidades": ["Domar criatura (cena)", "Poder de treinador", "Treino especializado"] },
+      { "nivel": 6,  "habilidades": ["Domar criatura (4d8)", "Poder de treinador", "Sincronia de combate"] },
+      { "nivel": 7,  "habilidades": ["Melhor amigo (4 truques)", "Poder de treinador"] },
+      { "nivel": 8,  "habilidades": ["Domar criatura (dia)", "Poder de treinador"] },
+      { "nivel": 9,  "habilidades": ["Poder de treinador"] },
+      { "nivel": 10, "habilidades": ["Domar criatura (6d8)", "Melhor amigo (5 truques)", "Poder de treinador"] },
+      { "nivel": 11, "habilidades": ["Poder de treinador"] },
+      { "nivel": 12, "habilidades": ["Poder de treinador"] },
+      { "nivel": 13, "habilidades": ["Melhor amigo (6 truques)", "Poder de treinador"] },
+      { "nivel": 14, "habilidades": ["Domar criatura (8d8)", "Poder de treinador"] },
+      { "nivel": 15, "habilidades": ["Poder de treinador"] },
+      { "nivel": 16, "habilidades": ["Melhor amigo (7 truques)", "Poder de treinador"] },
+      { "nivel": 17, "habilidades": ["Poder de treinador"] },
+      { "nivel": 18, "habilidades": ["Domar criatura (10d8)", "Poder de treinador"] },
+      { "nivel": 19, "habilidades": ["Melhor amigo (8 truques)", "Poder de treinador"] },
+      { "nivel": 20, "habilidades": ["Poder de treinador", "Sincronia perfeita"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Direcionar",
+        "nivel": 1,
+        "descricao": "Se o seu melhor amigo estiver em alcance curto e fizer um teste de perícia, você pode gastar 2 PM para somar seu Carisma no teste dele.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Melhor Amigo",
+        "nivel": 1,
+        "descricao": "Você recebe um melhor amigo, um parceiro especial que o acompanha em suas aventuras. Veja a página 20 para as regras do melhor amigo. Ele começa com dois truques a sua escolha e recebe um novo truque a cada três níveis seguintes. Caso seu melhor amigo morra, você fica atordoado por 1d4 rodadas. Você pode treinar um novo melhor amigo com um mês de trabalho."
+      },
+      {
+        "nome": "Domar Criatura",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Adestramento oposto ao teste de Vontade de uma criatura não inteligente em alcance curto. Se você vencer, causa 2d8 pontos de dano psíquico não letal à criatura. Se perder, causa metade desse dano. Se a criatura for reduzida a 0 ou menos PV, em vez de cair inconsciente, ela se rende. A cada quatro níveis, você pode gastar +1 PM para aumentar o dano em +2d8.\n\nA partir do 5º nível, quando rende uma criatura com ND igual ou menor que seu nível, você pode gastar uma quantidade de pontos de mana igual ao ND dela. Se fizer isso, ela recupera todos os PV perdidos por esta habilidade e, até o fim da cena, você controla as ações dela (ela age durante o seu turno, mas possui as próprias ações).\n\nA partir do 8º nível, se o ND da criatura for igual ou menor que seu nível –3, ela fica com você até o fim do dia. Enquanto estiver sendo controlada, a criatura conta em seu limite de parceiros.\n\nCriaturas que possuam habilidades que não gastem PM e não possuam limite de uso podem usar essas habilidades apenas uma vez por dia. Além disso, algumas criaturas (a critério do mestre) são indomáveis, sendo imunes a este efeito (nesse caso, você recupera os PM gastos ao tentar comandar a criatura).",
+        "custo": "1 PM (+ escalonamento)"
+      },
+      {
+        "nome": "Poder de Treinador",
+        "nivel": 2,
+        "descricao": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir."
+      },
+      {
+        "nome": "Treino Especializado",
+        "nivel": 5,
+        "descricao": "No 5º nível, escolha entre Conquistar pelos Números e Treino Intensivo.\n\n• Conquistar pelos Números. Você recebe um segundo melhor amigo. Uma vez por rodada, quando faz uma ação padrão com um de seus melhores amigos, você pode gastar 3 PM para fazer uma ação padrão com o outro.\n\n• Treino Intensivo. Seu melhor amigo recebe +4 PV por nível, redução de dano 5 e um truque. No 11º nível, a RD aumenta para 10 e ele recebe outro truque. No 17º nível, a RD aumenta para 15."
+      },
+      {
+        "nome": "Sincronia de Combate",
+        "nivel": 6,
+        "descricao": "A partir do 6º nível, uma vez por rodada, quando seu melhor amigo acerta um ataque usando a ação agredir, você pode gastar 2 PM para fazer um ataque contra o mesmo alvo.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Sincronia Perfeita",
+        "nivel": 20,
+        "descricao": "No 20º nível, você pode gastar uma ação de movimento e 6 PM para entrar em um estado de sincronia perfeita com um dos seus melhores amigos. Até o fim da cena, o tamanho dele aumenta em uma categoria. Além disso, uma vez por rodada, quando usa uma ação padrão consigo mesmo, você recebe uma ação padrão extra para usar com ele.",
+        "custo": "6 PM"
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Amigo Divino",
+        "descricao": "Seu melhor amigo vive em um mundo divino, mas você pode gastar uma ação de movimento e 2 PM para invocá-lo a Arton. Ele surge em um espaço desocupado em alcance curto e permanece até o fim da cena ou até você enviá-lo de volta (uma ação livre). Enquanto estiver no mundo divino e com menos da metade de seus PV, o melhor amigo tem Cura Acelerada 10.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Asas Aliadas",
+        "descricao": "Uma vez por rodada, se você estiver em alcance curto de seu melhor amigo e ele usar deslocamento de voo, você pode pagar 1 PM para ser alçado aos céus. Se fizer isso, você se desloca para um quadrado desocupado no trajeto do amigo. Além disso, seu próximo ataque nesse turno conta como uma investida.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Bom Garoto",
+        "descricao": "Uma vez por rodada, quando seu melhor amigo faz um acerto crítico em combate ou reduz um inimigo a 0 PV em seu turno, você recebe uma ação padrão que só pode usar consigo mesmo.",
+        "prerequisito": "11º nível de treinador"
+      },
+      {
+        "nome": "Comando Defensivo",
+        "descricao": "Quando seu melhor amigo sofre dano, você pode gastar 2 PM para fazer um teste de Adestramento e reduzir o resultado do teste desse dano. Você pode usar esta habilidade uma vez por rodada para cada melhor amigo.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Comandos Distantes",
+        "descricao": "O alcance de suas habilidades de treinador aumenta em uma categoria (de curto para médio, de médio para longo)."
+      },
+      {
+        "nome": "Convocar Enxame",
+        "descricao": "Você aprende e pode lançar Enxame de Pestes (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível. Esta não é uma habilidade mágica e provém de sua capacidade de atrair criaturas (veja \"Magias Simuladas\", p. 44).",
+        "prerequisito": "5º nível de treinador"
+      },
+      {
+        "nome": "Coração Grande",
+        "descricao": "Seu limite de parceiros aumenta em +1. No 11º nível, esse limite aumenta em +1."
+      },
+      {
+        "nome": "Direcionamento Marcial",
+        "descricao": "Quando usa Direcionar em um teste de ataque, você também soma seu Carisma na rolagem de dano desse ataque."
+      },
+      {
+        "nome": "Domador Cativante",
+        "descricao": "Você soma seu Carisma no dano de Domar Criatura, e os dados de dano dessa habilidade aumentam para d10."
+      },
+      {
+        "nome": "Domador Lendário",
+        "descricao": "Quando usa Domar Criatura, você pode gastar +2 PM para mudar os dados de dano para d12 e atingir todos os alvos dentro do alcance.",
+        "prerequisito": "Domador Cativante, 17º nível de treinador",
+        "custo": "+2 PM"
+      },
+      {
+        "nome": "Ensinar Truque",
+        "descricao": "Um de seus melhores amigos aprende um truque adicional. Você pode escolher este poder uma vez por patamar por amigo."
+      },
+      {
+        "nome": "Investida Conjunta",
+        "descricao": "Uma vez por rodada, quando um melhor amigo no qual você está montado faz uma investida, você pode gastar 2 PM para fazer um ataque corpo a corpo (que também conta como uma investida).",
+        "prerequisito": "melhor amigo montaria",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Líder da Matilha",
+        "descricao": "Quando usa Direcionar, você pode aplicar o bônus ao próximo teste de perícia de outros melhores amigos com a mesma ação ao custo de +1 PM por amigo adicional. O bônus só afeta o teste se ele for feito até o fim do seu turno.",
+        "prerequisito": "Conquistar pelos Números"
+      },
+      {
+        "nome": "Língua das Criaturas",
+        "descricao": "Você pode se comunicar com criaturas não inteligentes (Int –4 ou –5) por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com essas criaturas para mudar atitude e persuasão (Tormenta20, p. 118)."
+      },
+      {
+        "nome": "Mascote",
+        "descricao": "Você tem um mascote (veja o quadro). Você pode escolher este poder várias vezes para mascotes diferentes."
+      },
+      {
+        "nome": "Petisco Merecido",
+        "descricao": "Você pode gastar 2 PM para conceder +2 em Força e Destreza a um melhor amigo em alcance curto até o fim da cena.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Proteção Fraterna",
+        "descricao": "Quando você e/ou seu melhor amigo sofre um efeito que permite um teste de resistência, se ele estiver em alcance curto, você pode gastar 2 PM para coordenar seus esforços. Os dois fazem o teste de resistência, mas ambos usam o melhor resultado. Se um de vocês tiver uma habilidade que modifica o efeito por passar no teste de resistência (como Evasão), ambos são afetados por ela.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Trabalho em Equipe",
+        "descricao": "Uma vez por rodada, quando você faz uma ação de movimento, seus melhores amigos recebem uma ação de movimento.",
+        "prerequisito": "5º nível de treinador"
+      },
+      {
+        "nome": "Treinador Eclético",
+        "descricao": "Seus melhores amigos usam seu nível de personagem, em vez de seu nível de treinador, para calcular seus PV, modificadores de perícias e Defesa.",
+        "prerequisito": "6º nível de treinador"
+      },
+      {
+        "nome": "Veterinário de Campo",
+        "descricao": "Você pode gastar uma ação completa para fazer um teste de Adestramento em um melhor amigo adjacente. Ele recupera uma quantidade de PV igual ao resultado do teste. Você só pode usar este poder uma vez por dia num mesmo alvo."
+      }
+    ],
+    "caminhos": []
+  }
+}
