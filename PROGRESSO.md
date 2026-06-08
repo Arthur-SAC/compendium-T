@@ -3,8 +3,24 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-06-03
-**Fase atual:** Fase 0 ✅ → **Fase 1 — LIVRO BÁSICO PONTA A PONTA ✅** (todos os capítulos extraídos). Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ (30 regiões + cosmologia + Linha do Tempo)** · **Cap. 6 O Mestre ✅ (5 regras)** · **Cap. 7 Ameaças ✅ (77 criaturas + 3 regras)** · **Cap. 8 Recompensas ✅ (186 itens mágicos + 3 regras; índice `/itens-magicos`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **AUDITORIA DE COMPLETUDE** (varrer o livro inteiro p/ achar conteúdo pulado) + **passe de design/UX**.
+**Última atualização:** 2026-06-08
+**Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
+`docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
+
+### Fase 2.3 — Heróis de Arton — Onda A (código) ✅ (branch `fase2.3-herois-de-arton`)
+Offset PDF = impressa + 2. Tipos novos `distincao` e `variante-classe` já reservados no enum desde a Fase 0.
+- **A1 (`64c3a1d`):** `VarianteClasseMecanicaSchema` (= `ClasseMecanicaSchema` + `varianteDe: string`) + ramo no `superRefine`. Teste `schema-variante-classe`.
+- **A2 (`93e904f` + fix `1a10f32`):** `FichaClasse` ganha faixa de aviso de variante (ícone **SVG**, sem emoji — fix de revisão) linkando a classe básica + "não faz multiclasse"; dispatcher mapeia `variante-classe` → `FichaClasse`. Teste `ficha-variante`.
+- **A3 (`2699710`):** índice `/classes` inclui variantes (filtro, href dinâmico `/ficha/${tipo}/${id}`, selo "Variante", contagem "básicas e variantes"). Teste `classes-indice`.
+- **A4 (`523b0d7`):** fonte `herois-de-arton` (ordem 3) no `data/sources.json`. Build **1653 páginas**, **157 testes**, tsc 0. Guarda `existsSync` aceita a fonte sem dados.
+- **Decisões fixadas:** Distinções = poderes embutidos (estilo classe); Variantes = ficha completa composta (básica + substituições) com aviso. Tabela 1-2 (básica→variante) no spec.
+- **Política nova (pedido do usuário 2026-06-08):** antes de extrair em lote QUALQUER tipo (mesmo reusado), fazer **spike de cobertura de schema** (1 exemplar conferido vs página) — autores podem mudar o padrão.
+- **Backlog:** repensar a apresentação das Regras (opcionais e gerais) — formato a definir.
+- **➡️ PRÓXIMA: Onda 1 (dados, Cap. 1):** 5 raças, classe Treinador, 14 variantes, novas origens, novos poderes, tabelas. Seguir o "Procedimento P" do plano (render 300 DPI → spike → extração em blocos por visão + revisor independente → tsc/test/build → commit).
+
+---
+(histórico Fase 1)
+**Fase 0 ✅ → Fase 1 — LIVRO BÁSICO PONTA A PONTA ✅** (todos os capítulos extraídos). Raças ✅ · Revamp visual ✅ · **Classes ✅ (14/14)** · **Origens ✅ (35/35)** · **Cap. 2 ✅ (Perícias 29 + Poderes 162)** · **Cap. 3 Equipamento ✅ (171 itens + 5 regras)** · **Cap. 4 Magia ✅ (198 magias + 3 regras)** · **Deuses ✅ (20 divindades + regra de devoção)** · **Construção de Personagem ✅ (5 regras + landing /personagem)** · **Cap. 5 Jogando ✅ (4 regras)** · **Cap. 9 Mundo de Arton ✅ (30 regiões + cosmologia + Linha do Tempo)** · **Cap. 6 O Mestre ✅ (5 regras)** · **Cap. 7 Ameaças ✅ (77 criaturas + 3 regras)** · **Cap. 8 Recompensas ✅ (186 itens mágicos + 3 regras; índice `/itens-magicos`)** · **UI: listas a 1480px + fichas em duas colunas**. Próxima: **AUDITORIA DE COMPLETUDE** (varrer o livro inteiro p/ achar conteúdo pulado) + **passe de design/UX**.
 **Método:** Subagent-Driven Development (1 subagente/tarefa + revisão Opus nas delicadas)
 
 ---
