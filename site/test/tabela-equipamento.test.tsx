@@ -39,6 +39,18 @@ test("tabela de alimentação inclui pratos do Básico e de Ameaças", () => {
   expect(t).toContain("Sashimi de Kraken"); // Ameaças
 });
 
+test("tabela de instrumentos lista só os instrumentos musicais (subconjunto de ferramentas)", () => {
+  const t = tabelaEquipamentoPipe("instrumentos", carregarEntidades());
+  expect(t).toContain("Tabela: Instrumentos Musicais");
+  expect(t).toContain("Alaúde Élfico");
+  expect(t).toContain("Flauta Mística");
+  expect(t).toContain("Tambor das Profundezas");
+  // ferramentas que NÃO são instrumentos ficam de fora
+  expect(t).not.toContain("Gazua");
+  expect(t).not.toContain("Instrumentos de Ofício");
+  expect(t).not.toContain("Luneta");
+});
+
 test("slug desconhecido retorna string vazia (marcador inofensivo)", () => {
   expect(tabelaEquipamentoPipe("inexistente", carregarEntidades())).toBe("");
 });

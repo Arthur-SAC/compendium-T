@@ -28,6 +28,10 @@
     {
       "titulo": "Instrumentos Musicais",
       "texto": "Alguns itens da categoria ferramentas são instrumentos musicais. Tais itens são de grande importância para bardos e possuem as regras a seguir:\n\n• Você precisa empunhar um instrumento musical com as duas mãos para receber seus benefícios e para usar Músicas de Bardo (veja a página 45).\n\n• Instrumentos musicais podem ser usados como esotéricos por bardos (permitindo que lance magias usando a mão que empunha o instrumento).\n\n• Instrumentos musicais podem receber melhorias de ferramentas (contam como itens ligados a Atuação) e de esotéricos (mas afetam apenas magias lançadas por bardos).\n\nINSTRUMENTOS MUSICAIS (exemplos do capítulo):\n\n• Instrumento Musical (T$ 30): Um instrumento típico, como um bandolim, flauta ou lira. Segue todas as regras acima.\n\n• Alaúde Élfico (T$ 400): Feito com madeira de alta qualidade e manufatura delicada. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical.\n\n• Flauta Mística (T$ 400 — preço estimado, veja tabela): Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical.\n\n• Tambor das Profundezas (T$ 400 — preço estimado, veja tabela): Instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+    },
+    {
+      "titulo": "Instrumentos disponíveis",
+      "texto": "[[tabela-equipamento:instrumentos]]"
     }
   ],
   "relacoes": [],

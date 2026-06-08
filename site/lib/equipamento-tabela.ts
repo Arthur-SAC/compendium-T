@@ -111,6 +111,26 @@ export function tabelaEquipamentoPipe(slug: string, entidades: Entidade[]): stri
     return [caption, header.join(" | "), ...linhas].join("\n");
   }
 
+  // Instrumentos musicais: subconjunto das ferramentas (importantes para bardos). Detecção
+  // por menção a "instrumento musical"/"música"/"bardo" no nome/resumo/especial.
+  if (slug === "instrumentos") {
+    const caption = "Tabela: Instrumentos Musicais";
+    const header = ["Item", "Fonte", "Preço", "Espaços"];
+    const ehInstrumento = (e: Entidade) => {
+      const m = mec(e);
+      if (m.categoria !== "ferramenta") return false;
+      return /instrumento musical|música|bardo/i.test(`${e.nome} ${e.resumo ?? ""} ${m.especial ?? ""}`);
+    };
+    const linhas = itens
+      .filter(ehInstrumento)
+      .sort(ordenar)
+      .map((e) => {
+        const m = mec(e);
+        return [e.nome, fonteCurta(e.fonte.livro), v(m.preco), v(m.espacos)].join(" | ");
+      });
+    return [caption, header.join(" | "), ...linhas].join("\n");
+  }
+
   // Venenos: subconjunto dos alquímicos. Detecção pelo `especial` ("Veneno…" nas expansões;
   // "Inoculação:" no Básico) — valida 0 falso-positivo no acervo atual.
   if (slug === "venenos") {
