@@ -1,0 +1,218 @@
+{
+  "id": "seteiro",
+  "tipo": "variante-classe",
+  "nome": "Seteiro",
+  "resumo": "Variante do Caçador focada no arco como modo de vida, atuando como franco-atirador que semeia pânico em hordas ou elimina alvos importantes com precisão e supressão de fogo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 38 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "\"Viver é como disparar uma flecha: devemos agir no momento certo e não podemos voltar atrás.\"\n\nO seteiro é um caçador apenas em nome... A menos que se fale de caçar seres inteligentes. É o franco-atirador que mata alvos importantes no exército inimigo. O acrobata que dispara de ângulos e posições que outros nem conseguem compreender. O aventureiro semeia o pânico nas hordas de capangas — ou mata vilões do outro lado da sala final da masmorra.\n\nO seteiro faz do arco seu modo de vida. Alguns são solitários e amargos: combatendo de longe, percebem como é fácil matar. Têm dificuldade de se relacionar com outras pessoas, enxergando-as como meros alvos. Contudo, outros seteiros valorizam seus amigos e familiares justamente por notar a fragilidade da vida. Quando tudo pode acabar com a puxada da corda de um arco, é bom aproveitar o tempo que se tem. De qualquer forma, seteiros levam o caminho do arco como um modo de vida: localizam um objetivo e seguem em linha reta até ele, como a flecha. São pessoas diretas e resolutas, sem paciência para indecisão.\n\nSeteiros têm pouca ligação emocional com os ermos. É mais provável que trabalhem em grandes exércitos ou companhias mercenárias. Muitos são combatentes de confiança de seus lordes, vivendo em um castelo até que um novo alvo precise ser eliminado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "cacador",
+    "atributoChave": "Força ou Destreza",
+    "pvInicial": 16,
+    "pvPorNivel": 4,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 8,
+      "fixas": ["Pontaria (Des)", "Sobrevivência (Sab)"],
+      "lista": ["Adestramento (Car)", "Atletismo (For)", "Cavalgar (Des)", "Cura (Sab)", "Fortitude (Con)", "Furtividade (Des)", "Iniciativa (Des)", "Investigação (Int)", "Luta (For)", "Ofício (Int)", "Percepção (Sab)", "Reflexos (Des)"],
+      "texto": "Pontaria (Des) e Sobrevivência (Sab), mais 6 a sua escolha entre Adestramento (Car), Atletismo (For), Cavalgar (Des), Cura (Sab), Fortitude (Con), Furtividade (Des), Iniciativa (Des), Investigação (Int), Luta (For), Ofício (Int), Percepção (Sab) e Reflexos (Des)."
+    },
+    "proficiencias": ["armas marciais"],
+    "progressao": [
+      { "nivel": 1,  "habilidades": ["Caminho do atirador", "Marca da presa +1d4", "Tiro de supressão"] },
+      { "nivel": 2,  "habilidades": ["Poder de caçador"] },
+      { "nivel": 3,  "habilidades": ["Evasão", "Poder de caçador"] },
+      { "nivel": 4,  "habilidades": ["Poder de caçador"] },
+      { "nivel": 5,  "habilidades": ["Disparo constritor", "Marca da presa +1d8", "Poder de caçador"] },
+      { "nivel": 6,  "habilidades": ["Poder de caçador"] },
+      { "nivel": 7,  "habilidades": ["Poder de caçador"] },
+      { "nivel": 8,  "habilidades": ["Poder de caçador"] },
+      { "nivel": 9,  "habilidades": ["Marca da presa +1d12", "Poder de caçador"] },
+      { "nivel": 10, "habilidades": ["Poder de caçador", "Rajada de flechas"] },
+      { "nivel": 11, "habilidades": ["Poder de caçador"] },
+      { "nivel": 12, "habilidades": ["Poder de caçador"] },
+      { "nivel": 13, "habilidades": ["Evasão aprimorada", "Marca da presa +2d8", "Poder de caçador"] },
+      { "nivel": 14, "habilidades": ["Poder de caçador"] },
+      { "nivel": 15, "habilidades": ["Poder de caçador", "Sentinela"] },
+      { "nivel": 16, "habilidades": ["Poder de caçador"] },
+      { "nivel": 17, "habilidades": ["Marca da presa +2d10", "Poder de caçador"] },
+      { "nivel": 18, "habilidades": ["Poder de caçador"] },
+      { "nivel": 19, "habilidades": ["Poder de caçador"] },
+      { "nivel": 20, "habilidades": ["Poder de caçador", "Mestre do disparo"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Caminho do Atirador",
+        "nivel": 1,
+        "descricao": "Você abriu mão do treinamento convencional de um caçador para abraçar o caminho do atirador. Suas habilidades de seteiro relacionadas a ataques e armas só funcionam com arcos e bestas."
+      },
+      {
+        "nome": "Marca da Presa",
+        "nivel": 1,
+        "descricao": "Como o caçador básico.",
+        "custo": "1 PM (+1 PM a cada quatro níveis)"
+      },
+      {
+        "nome": "Tiro de Supressão",
+        "nivel": 1,
+        "descricao": "Sempre que você causa dano com um arco ou besta em uma criatura que esteja sob efeito de sua Marca da Presa, essa criatura sofre uma penalidade cumulativa de –1 em rolagens de dano, até um valor igual à quantidade de PM gasta em Marca da Presa, até o fim da cena."
+      },
+      {
+        "nome": "Poder de Caçador",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o caçador básico."
+      },
+      {
+        "nome": "Evasão",
+        "nivel": 3,
+        "descricao": "A partir do 3° nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+      },
+      {
+        "nome": "Disparo Constritor",
+        "nivel": 5,
+        "descricao": "No 5° nível, quando usa a ação mirar, você pode pagar 2 PM. Se fizer isso, pode executar uma manobra entre desarmar, empurrar ou quebrar com um de seus ataques à distância feitos até o fim desse turno.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Rajada de Flechas",
+        "nivel": 10,
+        "descricao": "A partir do 10° nível, você pode gastar uma ação completa e 2 PM para alvejar uma área com seus disparos. Escolha um ponto no alcance de sua arma, então faça um ataque à distância e compare-o com a Defesa de cada inimigo num raio de 3m dele. Então faça uma rolagem de dano, com um bônus cumulativo de +2 para cada acerto, e aplique-a em cada inimigo atingido. Você gasta apenas uma munição, independente de quantos inimigos atacou.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Evasão Aprimorada",
+        "nivel": 13,
+        "descricao": "No 13º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+      },
+      {
+        "nome": "Sentinela",
+        "nivel": 15,
+        "descricao": "No 15° nível, uma vez por rodada, quando uma criatura sob efeito de sua Marca da Presa acerta um ataque contra um aliado, você pode gastar 1 PM para fazer um ataque contra essa criatura.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Mestre do Disparo",
+        "nivel": 20,
+        "descricao": "No 20° nível, você pode usar sua Marca da Presa como uma ação livre. Além disso, uma vez por rodada, quando faz um ataque com um arco ou besta contra um alvo de sua Marca da Presa, você pode fazer um ataque adicional contra ele."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Ambidestria",
+        "descricao": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno.",
+        "prerequisito": "Des 2"
+      },
+      {
+        "nome": "Armadilha: Arataca",
+        "descricao": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+      },
+      {
+        "nome": "Armadilha: Espinhos",
+        "descricao": "A vítima sofre 6d6 pontos de dano de perfuração. Um teste de Reflexos (CD Sab) reduz o dano à metade."
+      },
+      {
+        "nome": "Armadilha: Laço",
+        "descricao": "A vítima deve fazer um teste de Reflexos (CD Sab). Se passar, fica caída. Se falhar, fica agarrada. Uma criatura agarrada pode se soltar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+      },
+      {
+        "nome": "Armadilha: Rede",
+        "descricao": "Todas as criaturas na área ficam enredadas e não podem sair da área. Uma vítima pode se libertar com uma ação padrão e um teste de Força ou Acrobacia (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil. Nesta armadilha você escolhe quantas criaturas precisam estar na área para ativá-la."
+      },
+      {
+        "nome": "Armadilheiro",
+        "descricao": "Você soma sua Sabedoria no dano e na CD de suas armadilhas (cumulativo).",
+        "prerequisito": "um poder de armadilha, 5º nível de caçador"
+      },
+      {
+        "nome": "Arqueiro",
+        "descricao": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria nas rolagens de dano (limitado pelo seu nível).",
+        "prerequisito": "Sab 1"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Bote",
+        "descricao": "Se estiver empunhando duas armas e fizer uma investida, você pode pagar 1 PM para fazer um ataque adicional com sua arma secundária.",
+        "prerequisito": "Ambidestria, 6º nível de caçador",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Camuflagem",
+        "descricao": "Você pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível.",
+        "prerequisito": "6º nível de caçador",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Chuva de Lâminas",
+        "descricao": "Uma vez por rodada, quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária.",
+        "prerequisito": "Des 4, Ambidestria, 12º nível de caçador",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Companheiro Animal",
+        "descricao": "Você recebe um companheiro animal. Veja o quadro na página 62.",
+        "prerequisito": "Car 1, treinado em Adestramento"
+      },
+      {
+        "nome": "Elo com a Natureza",
+        "descricao": "Você soma sua Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria).",
+        "prerequisito": "Sab 1, 3º nível de caçador"
+      },
+      {
+        "nome": "Emboscar",
+        "descricao": "Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar este poder na primeira rodada de um combate.",
+        "prerequisito": "treinado em Furtividade",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Empatia Selvagem",
+        "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja Diplomacia, na página 118)."
+      },
+      {
+        "nome": "Escaramuça",
+        "descricao": "Quando se move 6m ou mais, você recebe +2 na Defesa e Reflexos e +1d8 nas rolagens de dano de ataques corpo a corpo e à distância em alcance curto até o início de seu próximo turno. Você não pode usar esta habilidade se estiver vestindo armadura pesada.",
+        "prerequisito": "Des 2, 6º nível de caçador"
+      },
+      {
+        "nome": "Escaramuça Superior",
+        "descricao": "Quando usa Escaramuça, seus bônus aumentam para +5 na Defesa e Reflexos e +1d12 em rolagens de dano.",
+        "prerequisito": "Escaramuça, 12º nível de caçador"
+      },
+      {
+        "nome": "Espreitar",
+        "descricao": "Quando usa a habilidade Marca da Presa, você recebe um bônus de +1 em testes de perícia contra a criatura marcada. Esse bônus aumenta em +1 para cada PM adicional gasto na habilidade e também dobra com a habilidade Inimigo."
+      },
+      {
+        "nome": "Ervas Curativas",
+        "descricao": "Você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitado por sua Sabedoria) para aplicar ervas que curam ou desintoxicam em você ou num aliado adjacente. Para cada PM que gastar, cura 2d6 PV ou remove uma condição envenenado afetando o alvo."
+      },
+      {
+        "nome": "Ímpeto",
+        "descricao": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Inimigo de (Criatura)",
+        "descricao": "Escolha um tipo de criatura entre animal, construto, espírito, monstro ou morto-vivo, ou duas raças humanoides (por exemplo, orcs e gnolls, ou elfos e qareen). Quando você usa a habilidade Marca da Presa contra uma criatura do tipo ou da raça escolhida, dobra os dados de bônus no dano. O nome desta habilidade varia de acordo com o tipo de criatura escolhida (Inimigo de Monstros, Inimigo de Mortos-Vivos etc.). Você pode escolher este poder outras vezes para inimigos diferentes."
+      },
+      {
+        "nome": "Olho do Falcão",
+        "descricao": "Você pode usar a habilidade Marca da Presa em criaturas em alcance longo."
+      },
+      {
+        "nome": "Ponto Fraco",
+        "descricao": "Quando usa a habilidade Marca da Presa, seus ataques contra a criatura marcada recebem +2 na margem de ameaça. Esse bônus dobra com a habilidade Inimigo."
+      }
+    ],
+    "caminhos": []
+  }
+}
