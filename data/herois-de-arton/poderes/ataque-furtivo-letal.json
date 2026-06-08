@@ -1,0 +1,17 @@
+{
+  "id": "ataque-furtivo-letal",
+  "tipo": "poder",
+  "nome": "Ataque Furtivo Letal",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "5º nível de ladino",
+    "descricao": "Quando você faz um ataque furtivo, sempre que rolar o resultado máximo ou um ponto abaixo em um dado da habilidade (por exemplo, um 5 ou 6 ao rolar 1d6), role um dado extra."
+  }
+}

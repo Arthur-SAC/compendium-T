@@ -1,0 +1,17 @@
+{
+  "id": "explicacao-cientifica",
+  "tipo": "poder",
+  "nome": "Explicação Científica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "5º nível de inventor",
+    "descricao": "Você pode gastar uma ação de movimento e uma quantidade de PM limitada pela sua Inteligência para receber resistência a magia igual aos PM gastos até o fim da cena."
+  }
+}

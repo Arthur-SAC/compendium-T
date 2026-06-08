@@ -1,0 +1,17 @@
+{
+  "id": "palavras-ressonantes",
+  "tipo": "poder",
+  "nome": "Palavras Ressonantes",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "5º nível de nobre",
+    "descricao": "Quando você usa Palavras Afiadas, sempre que rolar o resultado máximo ou um ponto abaixo do máximo em um dado da habilidade (por exemplo, um 5 ou 6 ao rolar 1d6), role um dado extra."
+  }
+}

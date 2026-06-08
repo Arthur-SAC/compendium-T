@@ -1,0 +1,16 @@
+{
+  "id": "voz-limpida",
+  "tipo": "poder",
+  "nome": "Voz Límpida",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "descricao": "Quando você usa uma habilidade de nobre que afete um ou mais aliados, o custo dessa habilidade diminui em –1 PM (isso não reduz efeitos baseados no custo em PM pago)."
+  }
+}

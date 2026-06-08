@@ -1,0 +1,16 @@
+{
+  "id": "soldado-de-infantaria",
+  "tipo": "poder",
+  "nome": "Soldado de Infantaria",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "descricao": "Você recebe +3m em seu deslocamento e seu limite de carga aumenta em 6 espaços."
+  }
+}

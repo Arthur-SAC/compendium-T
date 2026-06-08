@@ -1,0 +1,17 @@
+{
+  "id": "guarda-pessoal",
+  "tipo": "poder",
+  "nome": "Guarda Pessoal",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "5º nível de nobre",
+    "descricao": "Você recebe um pelotão de infantaria (p. 241) veterano que atua como seu guarda-costas. No 11º nível, o pelotão se torna um parceiro mestre. Se perder seu pelotão de infantaria, você pode arregimentar outro após uma semana."
+  }
+}

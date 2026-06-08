@@ -1,0 +1,17 @@
+{
+  "id": "vestido-para-a-ocasiao",
+  "tipo": "poder",
+  "nome": "Vestido Para a Ocasião",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Enganação",
+    "descricao": "Se estiver usando um traje da corte ou de viajante, você pode gastar uma ação completa e 1 PM para transformar esse item em outro item de vestuário mundano até o fim da cena. Isso fornece +5 em testes de Enganação para disfarce, além dos benefícios do novo item."
+  }
+}

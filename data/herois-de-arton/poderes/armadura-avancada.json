@@ -1,0 +1,17 @@
+{
+  "id": "armadura-avancada",
+  "tipo": "poder",
+  "nome": "Armadura Avançada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Armadura Mecanizada, 7º nível de inventor",
+    "descricao": "Quando ativa uma engenhoca acoplada, você recebe um bônus no teste de ativação igual ao número de melhorias da armadura. Além disso, você pode gastar 4 PM para ativar uma engenhoca acoplada como ação livre (apenas se sua ativação for ação de movimento, padrão ou completa)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "escudo-fraterno",
+  "tipo": "poder",
+  "nome": "Escudo Fraterno",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "Égide Sagrada",
+    "descricao": "Se você estiver empunhando um escudo, sua Égide Sagrada afeta aliados até 9m (em vez de apenas adjacentes)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "assassino-em-serie",
+  "tipo": "poder",
+  "nome": "Assassino em Série",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "11º nível de ladino",
+    "descricao": "Você pode gastar 2 PM para usar Ataque Furtivo uma segunda vez na rodada."
+  }
+}

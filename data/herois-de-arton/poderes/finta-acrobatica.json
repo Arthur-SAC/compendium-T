@@ -1,0 +1,17 @@
+{
+  "id": "finta-acrobatica",
+  "tipo": "poder",
+  "nome": "Finta Acrobática",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Acrobacia e Enganação",
+    "descricao": "Você soma sua Destreza em testes de Enganação para fintar."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "analise-tatica",
+  "tipo": "poder",
+  "nome": "Análise Tática",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "treinado em Guerra",
+    "descricao": "Você recebe +2 em Guerra e pode fazer testes dessa perícia para identificar criatura contra humanoides (veja Misticismo em Tormenta20, p. 121)."
+  }
+}

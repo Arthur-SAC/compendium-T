@@ -1,0 +1,17 @@
+{
+  "id": "julgamento-divino-retribuicao",
+  "tipo": "poder",
+  "nome": "Julgamento Divino: Retribuição",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "subgrupo": "Julgamento Divino",
+    "descricao": "Você pode marcar um inimigo em alcance curto. Na próxima vez em que esse inimigo causar dano em você, você pode gastar 2 PM para fazer um ataque corpo a corpo contra ele (desde que ele esteja em seu alcance)."
+  }
+}

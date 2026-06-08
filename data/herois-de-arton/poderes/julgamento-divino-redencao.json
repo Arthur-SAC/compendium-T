@@ -1,0 +1,17 @@
+{
+  "id": "julgamento-divino-redencao",
+  "tipo": "poder",
+  "nome": "Julgamento Divino: Redenção",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "subgrupo": "Julgamento Divino",
+    "descricao": "Você é capaz de criar um vínculo espiritual com um aliado. Você pode lançar Escudo da Fé, mas apenas com o aprimoramento que divide o dano entre o alvo e você (mas não precisa cumprir seu requisito de círculo)."
+  }
+}

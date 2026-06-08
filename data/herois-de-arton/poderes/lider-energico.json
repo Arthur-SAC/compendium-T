@@ -1,0 +1,17 @@
+{
+  "id": "lider-energico",
+  "tipo": "poder",
+  "nome": "Líder Enérgico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "treinado em Iniciativa",
+    "descricao": "Você soma seu Carisma em Iniciativa. Além disso, se for o primeiro na iniciativa, em seu primeiro turno você pode usar uma habilidade de nobre com execução de ação de movimento ou padrão como ação livre."
+  }
+}

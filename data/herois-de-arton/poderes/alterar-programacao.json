@@ -1,0 +1,17 @@
+{
+  "id": "alterar-programacao",
+  "tipo": "poder",
+  "nome": "Alterar Programação",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "treinado em Ofício (artesão)",
+    "descricao": "Você pode gastar uma ação completa e 3 PM para alterar a programação de um construto não inteligente (Int –4 ou menor) adjacente. Faça um teste de Ofício (artesão) oposto ao teste de Vontade do construto. Se você vencer, ele fica confuso por 1 rodada e vulnerável. Se for um lacaio, em vez disso fica sob seu controle até o fim da aventura (veja Domar Criatura, p. 17). Você só pode controlar um construto dessa forma por vez e cada construto só pode ser alvo deste poder uma vez por cena."
+  }
+}

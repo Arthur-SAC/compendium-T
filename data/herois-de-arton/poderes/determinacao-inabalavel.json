@@ -1,0 +1,17 @@
+{
+  "id": "determinacao-inabalavel",
+  "tipo": "poder",
+  "nome": "Determinação Inabalável",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "11º nível de guerreiro",
+    "descricao": "Enquanto estiver com metade dos seus pontos de vida ou menos, você recebe +2 em testes de resistência e o custo de sua habilidade Durão diminui em –1 PM."
+  }
+}

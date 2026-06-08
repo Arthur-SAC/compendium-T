@@ -1,0 +1,17 @@
+{
+  "id": "aparato-personalizado",
+  "tipo": "poder",
+  "nome": "Aparato Personalizado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Engenhoqueiro",
+    "descricao": "O primeiro aparato de cada uma de suas engenhocas não aumenta a CD para ativá-la."
+  }
+}

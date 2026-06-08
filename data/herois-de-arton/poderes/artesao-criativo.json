@@ -1,0 +1,17 @@
+{
+  "id": "artesao-criativo",
+  "tipo": "poder",
+  "nome": "Artesão Criativo",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "treinado em Ofício (artesão)",
+    "descricao": "Você pode usar Ofício (artesão) no lugar de qualquer outro Ofício para qualquer fim (como pré-requisitos, por exemplo)."
+  }
+}

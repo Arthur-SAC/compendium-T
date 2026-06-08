@@ -1,0 +1,17 @@
+{
+  "id": "bloqueio-divino",
+  "tipo": "poder",
+  "nome": "Bloqueio Divino",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "proficiência com escudos",
+    "descricao": "Quando sofre um ataque, se estiver empunhando um escudo, você pode gastar 2 PM para receber +5 na Defesa contra esse ataque."
+  }
+}

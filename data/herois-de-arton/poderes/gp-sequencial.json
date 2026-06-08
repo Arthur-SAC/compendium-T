@@ -1,0 +1,17 @@
+{
+  "id": "gp-sequencial",
+  "tipo": "poder",
+  "nome": "GP: Sequencial",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "+2 PM",
+    "descricao": "Seu golpe causa +1d6 pontos de dano. A cada vez que você acerta o golpe na mesma cena, esse bônus aumenta em um passo."
+  }
+}

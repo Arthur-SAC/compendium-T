@@ -1,0 +1,16 @@
+{
+  "id": "arremesso-de-investida",
+  "tipo": "poder",
+  "nome": "Arremesso de Investida",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "descricao": "Quando faz uma investida, você pode gastar 1 PM para realizar um ataque à distância adicional com uma arma de arremesso contra o alvo da investida."
+  }
+}

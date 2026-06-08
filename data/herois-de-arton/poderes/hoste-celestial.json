@@ -1,0 +1,17 @@
+{
+  "id": "hoste-celestial",
+  "tipo": "poder",
+  "nome": "Hoste Celestial",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "treinado em Religião, Orar, 17º nível de paladino",
+    "descricao": "Você pode gastar uma ação padrão e 10 PM para convocar guerreiros espirituais para lutar ao seu lado. Eles flutuam ao seu redor, são incorpóreos e imunes a dano e possuem 100 pontos de luz. Uma vez por rodada, quando você sofre dano, pode fazer os espíritos absorverem esse dano; nesse caso, eles perdem pontos de luz igual ao dano que você sofreria. Além disso, uma vez por rodada, você pode gastar 2 PM para fazê-los atacar uma criatura em alcance curto (ataque igual a sua Religião com um bônus de +10, dano de luz igual a 4d8 + seu Carisma, crítico 18/x3). Os espíritos desaparecem se os pontos de luz deles forem reduzidos a 0 ou no fim da cena."
+  }
+}

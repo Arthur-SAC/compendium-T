@@ -1,0 +1,17 @@
+{
+  "id": "palavras-de-efeito",
+  "tipo": "poder",
+  "nome": "Palavras de Efeito",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "5º nível de nobre",
+    "descricao": "Você soma seu Carisma no dano de sua habilidade Palavras Afiadas e a ação necessária para usá-la diminui em um passo (de completa para padrão, de padrão para movimento)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ordens-agressivas",
+  "tipo": "poder",
+  "nome": "Ordens Agressivas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "5º nível de nobre",
+    "descricao": "Quando você usa Gritar Ordens, a habilidade também soma seu bônus na primeira rolagem de dano dos aliados até o início do seu próximo turno."
+  }
+}

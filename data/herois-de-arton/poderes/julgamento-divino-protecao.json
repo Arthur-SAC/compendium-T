@@ -1,0 +1,17 @@
+{
+  "id": "julgamento-divino-protecao",
+  "tipo": "poder",
+  "nome": "Julgamento Divino: Proteção",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "subgrupo": "Julgamento Divino",
+    "descricao": "Você pode gastar 2 PM para conceder 10 PV temporários e +2 na Defesa para uma criatura em alcance curto."
+  }
+}

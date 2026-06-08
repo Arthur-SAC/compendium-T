@@ -1,0 +1,17 @@
+{
+  "id": "golpe-de-genio",
+  "tipo": "poder",
+  "nome": "Golpe de Gênio",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 70
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "11º nível de inventor",
+    "descricao": "Uma vez por aventura (ou uma vez por mês, de acordo com o mestre), você pode usar Engenhosidade duas vezes em um mesmo teste, ou pode fabricar um item superior ou mágico com uma semana de trabalho (em vez de um mês)."
+  }
+}

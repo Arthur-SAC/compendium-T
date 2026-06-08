@@ -1,0 +1,17 @@
+{
+  "id": "investida-sagrada",
+  "tipo": "poder",
+  "nome": "Investida Sagrada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "Montaria Sagrada, 10º nível de paladino",
+    "descricao": "Quando faz uma investida montada, você pode pagar 1 PM para receber deslocamento de voo igual ao seu deslocamento base até o fim do seu turno e causar +1d8 pontos de dano."
+  }
+}

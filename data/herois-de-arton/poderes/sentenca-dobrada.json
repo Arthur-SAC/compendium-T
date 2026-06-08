@@ -1,0 +1,16 @@
+{
+  "id": "sentenca-dobrada",
+  "tipo": "poder",
+  "nome": "Sentença Dobrada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "descricao": "Quando profere um julgamento, você pode gastar +1 PM para proferir um segundo julgamento com a mesma ação (pagando o custo de ambos)."
+  }
+}

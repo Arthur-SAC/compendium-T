@@ -1,0 +1,17 @@
+{
+  "id": "conviccao-heroica",
+  "tipo": "poder",
+  "nome": "Convicção Heroica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "11º nível de paladino",
+    "descricao": "Uma vez por cena, quando seus pontos de vida forem reduzidos a 0 ou menos, você pode gastar 5 PM para curar 50 PV."
+  }
+}

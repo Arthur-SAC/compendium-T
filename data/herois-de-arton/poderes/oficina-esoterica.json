@@ -1,0 +1,17 @@
+{
+  "id": "oficina-esoterica",
+  "tipo": "poder",
+  "nome": "Oficina Esotérica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 70
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "treinado em Misticismo, Oficina de Campo",
+    "descricao": "Você pode usar Oficina de Campo em itens esotéricos, poções e pergaminhos. Itens esotéricos aumentam o limite de PM para magias em +1, poções rendem duas doses (a segunda dose deve ser consumida até o fim do dia) e pergaminhos permitem gastar +1 PM em aprimoramentos (mesmo que o usuário não conheça a magia)."
+  }
+}

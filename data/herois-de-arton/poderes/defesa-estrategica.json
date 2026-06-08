@@ -1,0 +1,17 @@
+{
+  "id": "defesa-estrategica",
+  "tipo": "poder",
+  "nome": "Defesa Estratégica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "Int 1",
+    "descricao": "Você soma sua Inteligência na Defesa, limitada pelo seu nível."
+  }
+}

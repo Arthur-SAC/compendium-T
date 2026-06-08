@@ -1,0 +1,17 @@
+{
+  "id": "escudo-sagrado",
+  "tipo": "poder",
+  "nome": "Escudo Sagrado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "Bloqueio Divino, 7º nível de paladino",
+    "descricao": "Se estiver empunhando um escudo, você pode gastar uma ação de movimento e 1 PM para criar uma barreira sagrada com duração sustentada a partir dele. Você recebe redução de dano igual ao seu Carisma."
+  }
+}

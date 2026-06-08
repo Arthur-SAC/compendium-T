@@ -1,0 +1,16 @@
+{
+  "id": "expurgo-sagrado",
+  "tipo": "poder",
+  "nome": "Expurgo Sagrado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "descricao": "Quando você usa Golpe Divino contra um abissal ou um morto-vivo, seu custo diminui em –1 PM (cumulativo com outras reduções) e o bônus de dano da habilidade aumenta em mais um dado."
+  }
+}

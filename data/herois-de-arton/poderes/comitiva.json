@@ -1,0 +1,17 @@
+{
+  "id": "comitiva",
+  "tipo": "poder",
+  "nome": "Comitiva",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "5º nível de nobre",
+    "descricao": "Seu limite de parceiros aumenta em +1. A partir do 11º nível, esse limite aumenta em +1 adicional."
+  }
+}

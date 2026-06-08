@@ -1,0 +1,17 @@
+{
+  "id": "rei-do-crime",
+  "tipo": "poder",
+  "nome": "Rei do Crime",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "Chefe de Gangue, Contatos no Submundo, Mente Criminosa, 17º nível de ladino",
+    "descricao": "Você é uma lenda dos becos e das tavernas, e todos querem lhe servir para ter uma chance de progredir no submundo. Uma vez por cena, você pode gastar 6 PM para invocar 2d4+2 assassinos capangas em espaços desocupados em alcance curto. Os assassinos possuem deslocamento 9m, Defesa 17, dano 1d6+5 de corte cada e Ataque Furtivo +4d6. Uma vez por rodada, quando você é alvo de um efeito, pode sacrificar um capanga adjacente para ignorar o efeito. Veja \"Capangas\", p. 240."
+  }
+}

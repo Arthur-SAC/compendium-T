@@ -1,0 +1,17 @@
+{
+  "id": "operacoes-combinadas",
+  "tipo": "poder",
+  "nome": "Operações Combinadas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "Ordens de Engajamento, 14º nível de guerreiro",
+    "descricao": "Quando usa Ordens de Engajamento, você pode gastar +3 PM. Se fizer isso, pode atacar junto do aliado e, se um de vocês usar habilidades com custo em PM que forneçam bônus a esse ataque ou a seu dano, o outro também é afetado (apenas se isso for aplicável ao ataque)."
+  }
+}

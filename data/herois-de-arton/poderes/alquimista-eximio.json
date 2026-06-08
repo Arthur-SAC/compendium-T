@@ -1,0 +1,17 @@
+{
+  "id": "alquimista-eximio",
+  "tipo": "poder",
+  "nome": "Alquimista Exímio",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Alquimista Iniciado",
+    "descricao": "Quando você usa um preparado alquímico ou uma poção, a CD para resistir a ele aumenta em +2 e, se ele causar dano ou recuperar PV ou PM, esse efeito aumenta em +1 por dado."
+  }
+}

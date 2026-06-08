@@ -1,0 +1,17 @@
+{
+  "id": "forcar-a-calibragem",
+  "tipo": "poder",
+  "nome": "Forçar a Calibragem",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Engenhoqueiro",
+    "descricao": "Quando faz um teste para ativar uma engenhoca, você pode sofrer uma penalidade de –5 nesse teste para aumentar a CD para resistir à engenhoca em +2."
+  }
+}

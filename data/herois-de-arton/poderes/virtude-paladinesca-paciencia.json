@@ -1,0 +1,17 @@
+{
+  "id": "virtude-paladinesca-paciencia",
+  "tipo": "poder",
+  "nome": "Virtude Paladinesca: Paciência",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "subgrupo": "Virtude Paladinesca",
+    "descricao": "Em combate, você pode ficar uma rodada inteira em meditação, sem fazer ações (exceto reações), para receber +2 em testes de perícia e na Defesa até o fim da cena."
+  }
+}

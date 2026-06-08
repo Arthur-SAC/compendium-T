@@ -1,0 +1,17 @@
+{
+  "id": "arma-sacramentada",
+  "tipo": "poder",
+  "nome": "Arma Sacramentada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "Arma Juramentada, 11º nível de paladino",
+    "descricao": "A conexão de sua arma com sua divindade se torna mais forte. Em suas mãos, a arma também recebe os benefícios de um encanto (escolhido ao receber este poder) cujos pré-requisitos ela cumpra. Esse encanto não conta no limite da arma e também deixa de funcionar se você descumprir suas Obrigações & Restrições."
+  }
+}

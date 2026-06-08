@@ -1,0 +1,16 @@
+{
+  "id": "enganar-os-olhos",
+  "tipo": "poder",
+  "nome": "Enganar os Olhos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "descricao": "Quando você faz um teste de Acrobacia para passar por inimigo, a criatura o considera invisível por 1 rodada (Reflexos CD Des evita)."
+  }
+}

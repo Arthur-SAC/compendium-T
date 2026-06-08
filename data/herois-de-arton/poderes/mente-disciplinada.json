@@ -1,0 +1,17 @@
+{
+  "id": "mente-disciplinada",
+  "tipo": "poder",
+  "nome": "Mente Disciplinada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "6º nível de guerreiro",
+    "descricao": "Sempre que você é afetado por uma habilidade de um aliado que fornece um bônus numérico em testes de perícia, rolagens de dano ou na Defesa, para você esse bônus aumenta em +1."
+  }
+}
