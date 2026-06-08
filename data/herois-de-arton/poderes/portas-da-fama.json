@@ -1,0 +1,14 @@
+{
+  "id": "portas-da-fama",
+  "tipo": "poder",
+  "nome": "Portas da Fama",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "Estrelato",
+    "descricao": "Você recebe +10 em testes de Diplomacia, Enganação e Furtividade para entrar em lugares proibidos — as pessoas simplesmente presumem que você tem acesso a tudo!"
+  }
+}

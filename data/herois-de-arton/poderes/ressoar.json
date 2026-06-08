@@ -1,0 +1,14 @@
+{
+  "id": "ressoar",
+  "tipo": "poder",
+  "nome": "Ressoar",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "17º nível de bardo",
+    "descricao": "Quando lança uma magia que tenha apenas você como alvo, você pode gastar 2 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se você passar, um aliado em alcance curto que esteja sob efeito de sua Inspiração é afetado pelo efeito básico da magia como se você a tivesse lançado nele."
+  }
+}

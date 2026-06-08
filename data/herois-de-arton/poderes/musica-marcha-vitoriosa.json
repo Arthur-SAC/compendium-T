@@ -1,0 +1,14 @@
+{
+  "id": "musica-marcha-vitoriosa",
+  "tipo": "poder",
+  "nome": "Música: Marcha Vitoriosa",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "Inspiração Marcial, 5º nível de bardo",
+    "descricao": "Faça um teste de Atuação. Para cada 10 pontos no resultado desse teste, seus aliados dentro do alcance recebem +1 em rolagens de dano por 1 rodada."
+  }
+}

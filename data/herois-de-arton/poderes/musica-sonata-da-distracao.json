@@ -1,0 +1,13 @@
+{
+  "id": "musica-sonata-da-distracao",
+  "tipo": "poder",
+  "nome": "Música: Sonata da Distração",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Faça um teste de Atuação oposto pela Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falharem ficam desprevenidos por 1 rodada. Alvos que passarem ficam imunes a este efeito por 1 dia. Mental."
+  }
+}

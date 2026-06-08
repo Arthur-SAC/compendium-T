@@ -1,0 +1,13 @@
+{
+  "id": "triunfo-do-amor",
+  "tipo": "poder",
+  "nome": "Triunfo do Amor",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Se você \"conquistar\" romanticamente um NPC, seus PM aumentam em +1 por nível até o fim da aventura. O mestre define exatamente o que você precisa fazer, de acordo com o NPC. Por padrão, isso envolve aumentar a atitude dele em relação a você para prestativo e então passar em um teste de Atuação, Diplomacia ou Enganação oposto pela Vontade do NPC +10. Você pode receber esse benefício até duas vezes por aventura (ou seja, pode conquistar até duas pessoas por aventura para ganhar +2 PM por nível)."
+  }
+}

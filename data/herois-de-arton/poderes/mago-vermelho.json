@@ -1,0 +1,14 @@
+{
+  "id": "mago-vermelho",
+  "tipo": "poder",
+  "nome": "Mago Vermelho",
+  "fonte": { "livro": "herois-de-arton", "pagina": 58 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "treinado em Misticismo",
+    "descricao": "Se estiver empunhando uma arma leve ou ágil, você soma o círculo máximo de magias que pode lançar nos testes de ataque e nas rolagens de dano com ela. Além disso, a mão da arma é considerada livre para lançar magias."
+  }
+}
