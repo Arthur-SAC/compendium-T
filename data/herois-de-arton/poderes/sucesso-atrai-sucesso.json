@@ -1,0 +1,13 @@
+{
+  "id": "sucesso-atrai-sucesso",
+  "tipo": "poder",
+  "nome": "Sucesso Atrai Sucesso",
+  "fonte": { "livro": "herois-de-arton", "pagina": 61 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Você pode gastar 2 PM para invocar uma onda de boa sorte. Sempre que fizer um acerto crítico em um inimigo, você recebe um bônus cumulativo de +2 nas rolagens de dano (limitado pelo seu Carisma) até o fim da cena."
+  }
+}

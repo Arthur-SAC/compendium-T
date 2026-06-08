@@ -1,0 +1,14 @@
+{
+  "id": "onda-de-sangue",
+  "tipo": "poder",
+  "nome": "Onda de Sangue",
+  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Estocada no Flanco",
+    "descricao": "Sempre que você deixa alguém sangrando, a perda de vida causada por sangramento aumenta em um passo (cumulativo até um máximo de d12) e a criatura falha automaticamente em seu próximo teste de Constituição para remover essa condição."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gole-da-coragem",
+  "tipo": "poder",
+  "nome": "Gole da Coragem",
+  "fonte": { "livro": "herois-de-arton", "pagina": 59 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Uma vez por cena, quando ingerir uma bebida, preparado ou poção, você recebe uma ação padrão adicional nesse turno."
+  }
+}

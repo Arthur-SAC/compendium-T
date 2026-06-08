@@ -1,0 +1,14 @@
+{
+  "id": "lobo-do-mar",
+  "tipo": "poder",
+  "nome": "Lobo do Mar",
+  "fonte": { "livro": "herois-de-arton", "pagina": 60 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "17º nível de bucaneiro",
+    "descricao": "Você já viu quase todo o mundo e almeja ver o resto. Quando você chega a um lugar no qual nunca esteve, pelo resto da aventura o custo de Audácia diminui em –1 PM e você pode usá-la em testes de ataque (ambos nesse lugar)."
+  }
+}
