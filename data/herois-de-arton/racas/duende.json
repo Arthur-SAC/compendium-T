@@ -4,7 +4,7 @@
   "nome": "Duende",
   "resumo": "Seres féericos de origens e aparências diversas, cujas habilidades são inteiramente definidas por cinco passos de escolha — natureza, tamanho, dons, presentes mágicos e limitações.",
   "fonte": { "livro": "herois-de-arton", "pagina": 8 },
-  "imagens": [],
+  "imagens": ["/racas/duende.png"],
   "secoes": [
     {
       "titulo": "Descrição",

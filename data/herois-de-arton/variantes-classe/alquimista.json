@@ -4,7 +4,7 @@
   "nome": "Alquimista",
   "resumo": "Variante do Inventor focada em alquimia transcendental, usando emulsões mágicas, odores alquímicos e a busca pela Pedra Filosofal para transformar a realidade.",
   "fonte": { "livro": "herois-de-arton", "pagina": 22 },
-  "imagens": [],
+  "imagens": ["/classes/alquimista.png"],
   "secoes": [
     {
       "titulo": "Descrição",
