@@ -1,0 +1,18 @@
+{
+  "id": "vigilancia-elfica",
+  "tipo": "poder",
+  "nome": "Vigilância Élfica",
+  "resumo": "Em seu primeiro turno de cada combate, você recebe uma ação de movimento adicional.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 91
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Elfo, Meio-Elfo, Naidora",
+    "descricao": "Em seu primeiro turno de cada combate, você recebe uma ação de movimento adicional."
+  }
+}

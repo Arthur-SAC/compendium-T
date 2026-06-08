@@ -1,0 +1,17 @@
+{
+  "id": "contra-ataque",
+  "tipo": "poder",
+  "nome": "Contra-Ataque",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Combate Defensivo",
+    "descricao": "Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 2 PM para fazer um ataque corpo a corpo contra essa criatura."
+  }
+}

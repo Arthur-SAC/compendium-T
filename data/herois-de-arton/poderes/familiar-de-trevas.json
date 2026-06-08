@@ -1,0 +1,17 @@
+{
+  "id": "familiar-de-trevas",
+  "tipo": "poder",
+  "nome": "Familiar de Trevas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Sulfure, Qareen das Trevas; possuir um familiar",
+    "descricao": "Seu familiar se transforma em uma criatura abissal. Além dos benefícios normais, seu familiar se torna imune a dano de trevas e, sempre que lança uma magia que gere um efeito de trevas, você recebe +1 PM para gastar em aprimoramentos. Pré-requisito: possuir um familiar."
+  }
+}

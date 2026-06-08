@@ -1,0 +1,17 @@
+{
+  "id": "precisao-letal",
+  "tipo": "poder",
+  "nome": "Precisão Letal",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "11º nível de personagem",
+    "descricao": "A margem de ameaça de seus ataques aumenta em +1."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "furia-natural",
+  "tipo": "poder",
+  "nome": "Fúria Natural",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Várias; Fúria, arma natural fornecida por uma habilidade de raça",
+    "descricao": "Quando você é dominado por seus instintos selvagens, prefere usar suas armas naturais àquelas criadas pela civilização. Quando você está em fúria, o dano de suas armas naturais aumenta em um passo e a margem de ameaça delas aumenta em +1. Pré-requisitos: Fúria, arma natural fornecida por uma habilidade de raça."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vitalidade-das-fadas",
+  "tipo": "poder",
+  "nome": "Vitalidade das Fadas",
+  "resumo": "Sua energia vital vem de personalidade. Você soma seu Carisma nos PV iniciais e em Fortitude, e recebe +1 PV por nível a partir do 2º.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 91
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan, Duende, Sátiro, Sílfide",
+    "descricao": "Sua energia vital não provém de simples saúde física, mas de convicção, postura positiva e força de personalidade. Você soma seu Carisma em seus pontos de vida iniciais e em Fortitude, e recebe +1 PV por nível a partir do 2º."
+  }
+}

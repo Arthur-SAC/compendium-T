@@ -1,0 +1,17 @@
+{
+  "id": "meditacao-mistica",
+  "tipo": "poder",
+  "nome": "Meditação Mística",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Eiradaan, Elfo; Sab 1, treinado em Vontade",
+    "descricao": "Uma vez por dia, você pode entrar em um transe místico por 1d4 minutos. Enquanto medita, você fica fascinado. Você pode interromper sua meditação a qualquer momento, mas, se concluí-la, recupera um número de pontos de mana igual ao seu nível. Pré-requisitos: Sab 1, treinado em Vontade."
+  }
+}

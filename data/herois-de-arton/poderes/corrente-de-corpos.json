@@ -1,0 +1,17 @@
+{
+  "id": "corrente-de-corpos",
+  "tipo": "poder",
+  "nome": "Corrente de Corpos",
+  "resumo": "Uma vez por rodada, você pode entregar um item empunhado a qualquer aliado com este poder como ação livre.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "No campo de batalha, entregar rapidamente itens como preparados alquímicos, poções e até armas pode ser a diferença entre a vida e a morte. Uma vez por rodada, você pode entregar um item que esteja empunhando a qualquer aliado com este poder como uma ação livre. Para isso, vocês devem estar em alcance curto um do outro ou deve haver outros aliados com este poder entre os dois."
+  }
+}

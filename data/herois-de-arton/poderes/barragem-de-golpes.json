@@ -1,0 +1,17 @@
+{
+  "id": "barragem-de-golpes",
+  "tipo": "poder",
+  "nome": "Barragem de Golpes",
+  "resumo": "Quando você causa dano a um inimigo, aliados com este poder recebem +1 em rolagens de dano contra o mesmo alvo pela cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 92
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Quando um de vocês acerta, o golpe é duro. Quando dois acertam, é ainda mais. E quanto mais membros do grupo acertam, mais cada um castiga o oponente. Quando você causa dano em um inimigo, seus aliados com este poder recebem um bônus de +1 em rolagens de dano contra o mesmo alvo pela cena (limitado, para cada personagem, pelo nível dele). O bônus acaba se nenhum personagem com este poder causar dano ao inimigo em uma rodada."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pose-assustadora",
+  "tipo": "poder",
+  "nome": "Pose Assustadora",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 1, treinado em Intimidação",
+    "descricao": "Você recebe +2 em Intimidação e pode gastar 1 PM para assustar como uma ação de movimento."
+  }
+}

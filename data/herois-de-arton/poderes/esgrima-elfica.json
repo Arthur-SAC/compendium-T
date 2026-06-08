@@ -1,0 +1,17 @@
+{
+  "id": "esgrima-elfica",
+  "tipo": "poder",
+  "nome": "Esgrima Élfica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Elfo",
+    "descricao": "Sua raça mescla arte e guerra como nenhuma outra. Você recebe +1 em testes de ataque com espadas e, para você, todas as espadas são consideradas armas ágeis."
+  }
+}

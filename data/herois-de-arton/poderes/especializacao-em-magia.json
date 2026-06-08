@@ -1,0 +1,17 @@
+{
+  "id": "especializacao-em-magia",
+  "tipo": "poder",
+  "nome": "Especialização em Magia",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "Foco em Magia com a magia escolhida",
+    "descricao": "Escolha uma magia que possa lançar. A CD para resistir a essa magia aumenta em +2."
+  }
+}

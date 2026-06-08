@@ -1,0 +1,18 @@
+{
+  "id": "saraivada-florestal",
+  "tipo": "poder",
+  "nome": "Saraivada Florestal",
+  "resumo": "Se estiver sob efeito de Armadura de Allihanna, gaste uma ação de movimento e 2 PM para disparar folhas e lascas em cone de 9m: 2d8+2 de dano de corte (Ref CD Sab reduz à metade). Por patamar acima de iniciante, gaste +1 PM para +1d8+1 de dano.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan",
+    "descricao": "Se estiver sob efeito de sua Armadura de Allihanna, você pode gastar uma ação de movimento e 2 PM para disparar folhas afiadas e lascas de madeira em um cone de 9m. Todas as criaturas nessa área sofrem 2d8+2 pontos de dano de corte (Ref CD Sab reduz à metade). Para cada patamar acima de iniciante, você pode gastar +1 PM para aumentar o dano em +1d8+1."
+  }
+}

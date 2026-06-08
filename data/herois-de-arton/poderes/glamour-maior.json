@@ -1,0 +1,17 @@
+{
+  "id": "glamour-maior",
+  "tipo": "poder",
+  "nome": "Glamour Maior",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Duende, Eiradaan, Sílfide; Glamour, 5º nível de personagem",
+    "descricao": "Você aprende mais três magias, de 1º ou 2º círculo, arcanas ou divinas, que pode lançar como magias de glamour (veja o poder anterior). Pré-requisitos: Glamour, 5º nível de personagem."
+  }
+}

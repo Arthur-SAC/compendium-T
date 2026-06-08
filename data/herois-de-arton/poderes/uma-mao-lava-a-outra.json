@@ -1,0 +1,18 @@
+{
+  "id": "uma-mao-lava-a-outra",
+  "tipo": "poder",
+  "nome": "Uma Mão Lava a Outra",
+  "resumo": "Ao fazer um teste de perícia, você pode gastar 1 PM para rolar novamente; pode usar este poder uma vez por cena por cada membro do grupo com este poder (não funciona em combate).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 95
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "prerequisito": "Mão Amiga",
+    "descricao": "É sempre mais fácil encarar desafios cercado de companheiros. Mesmo quando tudo parece perdido, basta uma olhada para seus amigos para saber que tudo ficará bem. Quando faz um teste de perícia, você pode gastar 1 PM para rolar novamente esse teste. Você pode usar este poder um número de vezes por cena igual ao total de membros do grupo com este poder. Este poder não funciona em cenas de combate. Pré-requisito: Mão Amiga."
+  }
+}

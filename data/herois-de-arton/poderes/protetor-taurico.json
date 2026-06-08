@@ -1,0 +1,18 @@
+{
+  "id": "protetor-taurico",
+  "tipo": "poder",
+  "nome": "Protetor Táurico",
+  "resumo": "Gaste uma ação de movimento para carregar um aliado adjacente Médio ou menor (mão livre necessária). O aliado carregado recebe cobertura leve (Defesa +5) e ataques contra ele têm 50% de chance de atingir você.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Minotauro",
+    "descricao": "Você pode gastar uma ação de movimento para carregar consigo (no colo, sobre os ombros…) um aliado adjacente Médio ou menor. Você precisa de uma mão livre, que fica ocupada enquanto você estiver carregando o aliado. Enquanto está sendo carregado, o aliado é considerado sob cobertura leve (Defesa +5). Além disso, qualquer ataque contra o aliado tem 50% de chance de ter você, e não o aliado, como alvo."
+  }
+}

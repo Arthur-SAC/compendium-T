@@ -1,0 +1,17 @@
+{
+  "id": "coracao-de-pedra",
+  "tipo": "poder",
+  "nome": "Coração de Pedra",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão, Medusa",
+    "descricao": "Você recebe +1 PV por nível e imunidade a petrificação."
+  }
+}

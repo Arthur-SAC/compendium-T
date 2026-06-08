@@ -1,0 +1,18 @@
+{
+  "id": "exercito-de-um-grupo-so",
+  "tipo": "poder",
+  "nome": "Exército de Um Grupo Só",
+  "resumo": "Você pode formar um bando com aliados com este poder, fornecendo +2 em seus testes de ataque e permitindo que causem dano mesmo ao errar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 94
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "prerequisito": "treinado em Guerra",
+    "descricao": "Você e seu grupo são mais que um bando de aventureiros — com disciplina inquebrável, estratégias coordenadas e planejamento meticuloso, são soldados e generais de seu próprio exército. Juntos, lutam como uma tropa organizada. Você pode gastar uma ação padrão e 2 PM para formar um bando com seus aliados com este poder, desde que cada um gaste uma ação padrão e 2 PM na mesma rodada. Enquanto estiverem formando um bando com você, os aliados não podem executar ações (exceto reações), mas cada um fornece +2 em seus testes de ataque. Quando você ataca, causa metade do dano mesmo que erre e, se acertar por 10 ou mais, seus aliados podem rolar o dano de um único ataque que poderiam fazer com uma ação padrão e somar ao dano do seu ataque (esse dano não é multiplicado em caso de acerto crítico). O bando se mantém até um personagem desfazer a formação (uma ação livre) ou ficar inconsciente, ou até o fim da cena. Pré-requisito: treinado em Guerra."
+  }
+}

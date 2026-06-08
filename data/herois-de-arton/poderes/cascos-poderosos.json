@@ -1,0 +1,17 @@
+{
+  "id": "cascos-poderosos",
+  "tipo": "poder",
+  "nome": "Cascos Poderosos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Centauro, Minotauro, Sátiro",
+    "descricao": "Quando faz um ataque desarmado, você pode gastar 1 PM para desferir esse ataque usando seus cascos. Se fizer isso, causa +1 dado de dano do mesmo tipo, mas não pode escolher causar dano não letal."
+  }
+}

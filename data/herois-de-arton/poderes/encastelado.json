@@ -1,0 +1,17 @@
+{
+  "id": "encastelado",
+  "tipo": "poder",
+  "nome": "Encastelado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Encouraçado, 5º nível de personagem",
+    "descricao": "Se estiver usando uma armadura pesada, você recebe redução de dano 2. Essa RD aumenta em +1 para cada outro poder que você possua que tenha Encouraçado como pré-requisito."
+  }
+}

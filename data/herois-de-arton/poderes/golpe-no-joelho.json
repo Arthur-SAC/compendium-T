@@ -1,0 +1,17 @@
+{
+  "id": "golpe-no-joelho",
+  "tipo": "poder",
+  "nome": "Golpe no Joelho",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Goblin, Hynne, Kobolds; Entre as Pernas",
+    "descricao": "Se você fizer um ataque corpo a corpo contra uma criatura maior que você enquanto ocupa o mesmo espaço que ela, o dano desse ataque aumenta em um passo e você recebe +2 na margem de ameaça. Pré-requisito: Entre as Pernas."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "escudo-vivo",
+  "tipo": "poder",
+  "nome": "Escudo Vivo",
+  "resumo": "Quando mais de um aliado com este poder for afetado por dano em área, você pode gastar 2 PM para sofrer o dano no lugar deles.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Você e seu grupo são mais do que companheiros de aventuras — são amigos leais, que dariam a vida um pelo outro. Quando mais de um personagem com este poder for afetado por dano em área, você pode gastar 2 PM para sofrer o dano no lugar desses aliados que estejam em alcance curto. Cada um faz um teste de resistência normalmente. Você sofre todo o dano que seus aliados sofreriam de acordo com seus testes de resistência. Suas próprias imunidades e RD se aplicam normalmente."
+  }
+}

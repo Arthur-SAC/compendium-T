@@ -1,0 +1,17 @@
+{
+  "id": "conforto-do-aco",
+  "tipo": "poder",
+  "nome": "Conforto do Aço",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão",
+    "descricao": "Seu povo veste metal como se fosse algodão. Você não sofre penalidade de armadura por usar armaduras (mas ainda sofre por escudos). Além disso, se estiver usando armadura pesada, recebe +2 na Defesa."
+  }
+}

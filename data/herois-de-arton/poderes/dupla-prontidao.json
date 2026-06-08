@@ -1,0 +1,17 @@
+{
+  "id": "dupla-prontidao",
+  "tipo": "poder",
+  "nome": "Dupla Prontidão",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Gnoll, Kaijin, Lefou, Orc, Trog; Sab 2, Duas Cabeças",
+    "descricao": "Com campo de visão superior e órgãos sensoriais duplicados, você recebe +2 em Percepção, nunca fica desprevenido e não pode ser flanqueado. Pré-requisitos: Sab 2, Duas Cabeças."
+  }
+}

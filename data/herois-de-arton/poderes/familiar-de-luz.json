@@ -1,0 +1,17 @@
+{
+  "id": "familiar-de-luz",
+  "tipo": "poder",
+  "nome": "Familiar de Luz",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Aggelus, Qareen da Luz; possuir um familiar",
+    "descricao": "Seu familiar se transforma em uma criatura celestial. Além dos benefícios normais, seu familiar se torna imune a dano de luz e, sempre que lança uma magia que gere um efeito de luz, você recebe +1 PM para gastar em aprimoramentos. Pré-requisito: possuir um familiar."
+  }
+}

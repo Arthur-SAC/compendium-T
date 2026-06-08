@@ -1,0 +1,17 @@
+{
+  "id": "familiar-de-elemento",
+  "tipo": "poder",
+  "nome": "Familiar de <Elemento>",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Qareen da Água, Ar, Fogo ou Terra; possuir um familiar",
+    "descricao": "Seu familiar se transforma em uma criatura elemental (por exemplo, se você é um qareen do fogo e seu familiar é um corvo, ele passa a ser um corvo feito de chamas). Seu familiar se torna imune a dano do seu elemento e, sempre que você lança uma magia que gere um efeito desse elemento, recebe +1 PM para gastar em aprimoramentos. Ele continua fornecendo seus benefícios originais. Pré-requisito: possuir um familiar."
+  }
+}

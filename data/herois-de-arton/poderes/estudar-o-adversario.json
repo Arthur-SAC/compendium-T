@@ -1,0 +1,17 @@
+{
+  "id": "estudar-o-adversario",
+  "tipo": "poder",
+  "nome": "Estudar o Adversário",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Int 1",
+    "descricao": "Na primeira vez na rodada em que erra um ataque, você recebe um bônus cumulativo de +2 em testes de ataque contra o mesmo alvo até o fim da cena."
+  }
+}

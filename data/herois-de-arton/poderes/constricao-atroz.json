@@ -1,0 +1,17 @@
+{
+  "id": "constricao-atroz",
+  "tipo": "poder",
+  "nome": "Constrição Atroz",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para expelir gavinhas de seu corpo. No início de cada um de seus turnos, qualquer inimigo em alcance curto deve fazer um teste de Reflexos (CD Sab). Se falhar, fica enredado. Um inimigo enredado pode escapar gastando uma ação padrão e passando em um teste de Acrobacia ou Atletismo (CD Sab), ou afastando-se 9m de você. Este poder tem duração sustentada."
+  }
+}

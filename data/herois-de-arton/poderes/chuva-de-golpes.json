@@ -1,0 +1,17 @@
+{
+  "id": "chuva-de-golpes",
+  "tipo": "poder",
+  "nome": "Chuva de Golpes",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Briga ou Estilo Desarmado, Estilo de Duas Armas",
+    "descricao": "Quando ataca com duas armas empunhadas usando o poder Estilo de Duas Armas, você pode fazer um ataque desarmado adicional."
+  }
+}

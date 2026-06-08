@@ -1,0 +1,17 @@
+{
+  "id": "chassi-gracioso",
+  "tipo": "poder",
+  "nome": "Chassi Gracioso",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Golem",
+    "descricao": "Seu corpo artificial foi feito com materiais leves e belos. Você recebe +2 em Diplomacia e não possui a penalidade de armadura da habilidade Chassi."
+  }
+}

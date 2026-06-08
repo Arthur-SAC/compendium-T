@@ -1,0 +1,16 @@
+{
+  "id": "alma-livre",
+  "tipo": "poder",
+  "nome": "Alma Livre",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Arton tem muitas maravilhas a serem exploradas, muitos caminhos a serem percorridos — e você não é louco de se prender a um só. Escolha uma classe. Você pode escolher um poder dessa classe como se pertencesse a ela (para efeitos de nível na classe desse poder, considere seu nível de personagem −4). Note que você não recebe o poder, apenas o direito de escolhê-lo mais tarde."
+  }
+}

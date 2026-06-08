@@ -1,0 +1,17 @@
+{
+  "id": "catafractario",
+  "tipo": "poder",
+  "nome": "Catafractário",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Encouraçado, Ginete",
+    "descricao": "Antigos guerreiros montados de Lamnor, os catafractários eram famosos por suas táticas defensivas. Embora suas unidades não existam mais, suas técnicas perduraram. Se estiver montado e vestindo armadura pesada, você recebe +1 na Defesa por nível de parceiro de sua montaria."
+  }
+}

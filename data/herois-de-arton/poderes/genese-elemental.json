@@ -1,0 +1,19 @@
+{
+  "id": "genese-elemental",
+  "tipo": "poder",
+  "nome": "Gênese Elemental",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 2° círculo",
+    "subtipo": "Aprimoramento",
+    "custo": "+3 PM",
+    "descricao": "Aprimoramento. Além do normal, a magia cria 1d4 (+1 por círculo) capangas elementais Pequenos em espaços desocupados adjacentes ao alvo ou dentro da área de efeito da magia (deslocamento 9m, Defesa 15, dano 1d6+1 do tipo da magia, imunidade a atordoamento, cansaço, dano do seu elemento, dano não letal, efeitos de metabolismo e paralisia). Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena."
+  }
+}

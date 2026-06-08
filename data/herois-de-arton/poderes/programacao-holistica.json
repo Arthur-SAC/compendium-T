@@ -1,0 +1,18 @@
+{
+  "id": "programacao-holistica",
+  "tipo": "poder",
+  "nome": "Programação Holística",
+  "resumo": "Gaste uma ação completa e 2 PM para se tornar treinado em uma perícia até o fim do dia. Role 1d4: em resultado 1, você fica frustrado e não pode mais usar este poder no dia.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Golem",
+    "descricao": "Você pode gastar uma ação completa e 2 PM para se tornar treinado em uma perícia a sua escolha até o fim do dia. Sempre que usa este poder, role 1d4. Em um resultado 1, você sobrecarrega seu cérebro artificial — até o fim do dia, você fica frustrado e não pode mais usar este poder."
+  }
+}

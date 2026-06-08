@@ -1,0 +1,17 @@
+{
+  "id": "magia-ofidica",
+  "tipo": "poder",
+  "nome": "Magia Ofídica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Medusa, Moreau da Serpente, Nagah; lançar magias",
+    "descricao": "Para cada círculo de magia que você é capaz de lançar, a CD para resistir a seus efeitos de veneno aumenta em +1 e esses venenos causam +1 ponto de perda de vida por dado. Pré-requisito: lançar magias."
+  }
+}

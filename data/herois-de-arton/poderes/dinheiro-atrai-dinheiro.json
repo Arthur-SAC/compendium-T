@@ -1,0 +1,17 @@
+{
+  "id": "dinheiro-atrai-dinheiro",
+  "tipo": "poder",
+  "nome": "Dinheiro Atrai Dinheiro",
+  "resumo": "Cada personagem com este poder adiciona 5% ao resultado das tabelas em todas as rolagens de tesouro do grupo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Cada um de vocês, sozinho, poderia fazer trabalhos lucrativos... Mas juntos vocês são uma mina de ouro! Cada personagem com este poder adiciona 5% ao resultado das tabelas em todas as rolagens de tesouro do grupo. Esse benefício só vale para tesouro rolado (não recompensas fixas) e só para tesouro encontrado por todo o grupo (não para algo que tenha surgido num momento em que só um personagem está presente)."
+  }
+}

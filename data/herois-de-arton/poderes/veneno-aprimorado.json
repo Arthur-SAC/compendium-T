@@ -1,0 +1,18 @@
+{
+  "id": "veneno-aprimorado",
+  "tipo": "poder",
+  "nome": "Veneno Aprimorado",
+  "resumo": "O veneno que você aplica com sua habilidade Natureza Venenosa passa a causar a perda de 2d12 PV.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 91
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Con 1; Medusa",
+    "descricao": "O veneno que você aplica com sua habilidade Natureza Venenosa passa a causar a perda de 2d12 PV."
+  }
+}

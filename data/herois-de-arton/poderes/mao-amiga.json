@@ -1,0 +1,17 @@
+{
+  "id": "mao-amiga",
+  "tipo": "poder",
+  "nome": "Mão Amiga",
+  "resumo": "Em ações que demoram mais de uma semana, aliados com este poder podem ajudar, cada um adicionando uma semana ao tempo da sua ação.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 94
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Você e seu grupo de aventureiros sabem assumir o papel de ajudantes uns para os outros, facilitando tarefas longas e maçantes. Sempre que você fizer uma ação que demora mais de uma semana, seus aliados com este poder podem ajudá-lo. Cada aliado que gastar uma semana ao mesmo tempo que você adiciona uma semana ao tempo de sua ação. Por exemplo, se você quiser fabricar um item superior (uma tarefa que exige um mês), três aliados com este poder podem gastar cada um uma semana, ao mesmo tempo que você. Assim, a fabricação demora apenas uma semana (pois quatro semanas equivalem a um mês)."
+  }
+}

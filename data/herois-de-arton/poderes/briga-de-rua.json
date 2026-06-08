@@ -1,0 +1,17 @@
+{
+  "id": "briga-de-rua",
+  "tipo": "poder",
+  "nome": "Briga de Rua",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Briga ou Estilo Desarmado",
+    "descricao": "Você sabe chutar áreas sensíveis dos inimigos e usar outros truques sujos. Uma vez por rodada, quando faz uma finta, você pode gastar 1 PM. Se fizer isso e vencer o teste oposto da finta, além dos efeitos de fintar, você pode fazer um ataque desarmado contra o alvo como uma ação livre. Se acertar esse ataque, causa +2d6 pontos de dano."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ataque-em-arco",
+  "tipo": "poder",
+  "nome": "Ataque em Arco",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Luta, 4º nível de personagem",
+    "descricao": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM. Se fizer isso, seu ataque pode acertar até três criaturas adjacentes entre si que estejam em seu alcance (faça um único teste de ataque e compare-o com a Defesa de cada criatura). Se você estiver atacando um bando, em vez disso seu ataque causa 50% a mais de dano."
+  }
+}

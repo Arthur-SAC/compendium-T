@@ -1,0 +1,17 @@
+{
+  "id": "corte-lacerante",
+  "tipo": "poder",
+  "nome": "Corte Lacerante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Luta",
+    "descricao": "Quando ataca com uma arma corpo a corpo de corte, você pode gastar 2 PM. Se acertar o ataque, você causa +1d10 pontos de dano e o alvo fica sangrando."
+  }
+}

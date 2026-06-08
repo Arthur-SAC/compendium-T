@@ -1,0 +1,17 @@
+{
+  "id": "arma-amada",
+  "tipo": "poder",
+  "nome": "Arma Amada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão, Hobgoblin",
+    "descricao": "Escolha uma arma. Com essa arma, você recebe +2 em rolagens de dano e +5 em testes de manobra para resistir a desarmar e quebrar."
+  }
+}

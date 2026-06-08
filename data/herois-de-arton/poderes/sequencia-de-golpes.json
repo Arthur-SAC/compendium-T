@@ -1,0 +1,16 @@
+{
+  "id": "sequencia-de-golpes",
+  "tipo": "poder",
+  "nome": "Sequência de Golpes",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "descricao": "Você desfere uma tempestade de golpes, usando a força de um movimento para impulsionar o outro, sem dar chance para sua vítima reagir. Quando você acerta um ataque corpo a corpo em uma criatura, recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano contra a mesma criatura nesse turno (limitado pela sua Força)."
+  }
+}

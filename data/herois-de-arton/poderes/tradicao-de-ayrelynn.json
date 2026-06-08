@@ -1,0 +1,18 @@
+{
+  "id": "tradicao-de-ayrelynn",
+  "tipo": "poder",
+  "nome": "Tradição de Ayrelynn",
+  "resumo": "Você recebe proficiência com armas de fogo e pode usar Sabedoria em vez de Destreza nos testes de ataque com essas armas (e nas rolagens de dano se possuir Estilo de Disparo).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão",
+    "descricao": "Você recebe proficiência com armas de fogo e pode usar Sabedoria em vez de Destreza nos testes de ataque com essas armas (e, caso possua o poder Estilo de Disparo, nas rolagens de dano)."
+  }
+}

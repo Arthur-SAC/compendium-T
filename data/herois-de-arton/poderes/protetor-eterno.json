@@ -1,0 +1,18 @@
+{
+  "id": "protetor-eterno",
+  "tipo": "poder",
+  "nome": "Protetor Eterno",
+  "resumo": "Enquanto tiver pelo menos um aliado adjacente, você continua consciente mesmo com 0 ou menos PV. Você ainda morre se seus PV chegarem no limite negativo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Protetor Táurico; Minotauro",
+    "descricao": "Enquanto tiver pelo menos um aliado adjacente, você continua consciente mesmo se estiver com 0 ou menos pontos de vida. Você ainda morre caso seus PV cheguem no limite negativo, como normal."
+  }
+}

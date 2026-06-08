@@ -1,0 +1,17 @@
+{
+  "id": "na-mosca",
+  "tipo": "poder",
+  "nome": "Na Mosca",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Estilo de Arremesso ou Estilo de Disparo",
+    "descricao": "Se fizer um ataque à distância, você pode gastar 1 PM. Se acertar o ataque, você causa um dado extra de dano do mesmo tipo (por exemplo, com uma besta pesada, causa +1d12)."
+  }
+}

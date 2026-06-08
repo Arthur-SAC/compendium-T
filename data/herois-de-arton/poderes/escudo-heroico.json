@@ -1,0 +1,17 @@
+{
+  "id": "escudo-heroico",
+  "tipo": "poder",
+  "nome": "Escudo Heroico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Ataque com Escudo",
+    "descricao": "Você pode empunhar e soltar seu escudo como ação livre e, quando ataca com ele, pode tratá-lo como uma arma de arremesso com alcance curto. Sempre que arremessa o escudo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o escudo ou errar um ataque."
+  }
+}

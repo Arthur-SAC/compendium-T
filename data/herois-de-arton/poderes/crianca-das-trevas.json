@@ -1,0 +1,17 @@
+{
+  "id": "crianca-das-trevas",
+  "tipo": "poder",
+  "nome": "Criança das Trevas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Sulfure",
+    "descricao": "O sangue extraplanar é mais forte em você. Seu bônus racial em Enganação e Furtividade aumenta para +5 e você recebe redução de fogo e trevas 5."
+  }
+}

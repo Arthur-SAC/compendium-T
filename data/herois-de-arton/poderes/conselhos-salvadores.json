@@ -1,0 +1,17 @@
+{
+  "id": "conselhos-salvadores",
+  "tipo": "poder",
+  "nome": "Conselhos Salvadores",
+  "resumo": "Você pode gastar 2 PM para fazer um teste de resistência usando o valor de perícia de um aliado em alcance curto com este poder.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Você e seu grupo sabem reconhecer as forças e fraquezas uns dos outros, e ouvem os especialistas quando suas vidas estão em jogo. Você pode gastar 2 PM para fazer um teste de resistência usando o valor de perícia de um aliado em alcance curto que tenha este poder."
+  }
+}

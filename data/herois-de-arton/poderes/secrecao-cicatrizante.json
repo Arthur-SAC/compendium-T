@@ -1,0 +1,16 @@
+{
+  "id": "secrecao-cicatrizante",
+  "tipo": "poder",
+  "nome": "Secreção Cicatrizante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 83
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Você pode gastar uma ação padrão e 2 PM para secretar um fluido rubro e viscoso sobre você mesmo ou uma criatura adjacente. O alvo recupera 2d6+2 PV mas fica enjoado por 1 rodada (Fort CD Con evita). Para cada dois outros poderes da Tormenta que você possui, a cura aumenta em +1d6+1 e a CD aumenta em +1."
+  }
+}

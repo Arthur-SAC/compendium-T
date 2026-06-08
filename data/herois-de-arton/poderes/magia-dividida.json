@@ -1,0 +1,19 @@
+{
+  "id": "magia-dividida",
+  "tipo": "poder",
+  "nome": "Magia Dividida",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 2° círculo",
+    "subtipo": "Aprimoramento",
+    "custo": "+2 PM",
+    "descricao": "Aprimoramento. A área da magia é dividida em duas, cada uma com metade do tamanho da original, que não podem se sobrepor. Por exemplo, uma Bola de Fogo (raio de 6m) pode ser dividida em duas áreas com 3m de raio."
+  }
+}

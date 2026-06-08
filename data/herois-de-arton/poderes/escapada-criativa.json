@@ -1,0 +1,17 @@
+{
+  "id": "escapada-criativa",
+  "tipo": "poder",
+  "nome": "Escapada Criativa",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Goblin, Meio-Elfo",
+    "descricao": "Quando faz um teste de resistência, você pode gastar 2 PM para somar sua Inteligência ao resultado do teste."
+  }
+}

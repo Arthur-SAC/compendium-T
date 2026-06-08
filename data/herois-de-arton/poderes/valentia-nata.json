@@ -1,0 +1,18 @@
+{
+  "id": "valentia-nata",
+  "tipo": "poder",
+  "nome": "Valentia Nata",
+  "resumo": "Seu povo não tem medo. Nem juízo. Você recebe imunidade a medo e +5 em Iniciativa.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Hynne",
+    "descricao": "Seu povo não tem medo. Nem juízo. Você recebe imunidade a medo e +5 em Iniciativa."
+  }
+}

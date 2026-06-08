@@ -1,0 +1,17 @@
+{
+  "id": "esoterismo",
+  "tipo": "poder",
+  "nome": "Esoterismo",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 2º círculo",
+    "descricao": "Quando lança uma magia, você pode pagar 2 PM para canalizá-la através de dois itens esotéricos diferentes simultaneamente, recebendo os benefícios de ambos."
+  }
+}

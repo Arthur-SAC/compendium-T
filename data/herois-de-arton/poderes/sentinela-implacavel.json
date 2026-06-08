@@ -1,0 +1,17 @@
+{
+  "id": "sentinela-implacavel",
+  "tipo": "poder",
+  "nome": "Sentinela Implacável",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Sab 1, treinado em Iniciativa e Percepção, Estilo de Disparo",
+    "descricao": "Uma vez por rodada, se você estiver empunhando uma arma de disparo carregada e um inimigo se mover dentro do alcance da arma, você pode gastar 2 PM para fazer um ataque contra essa criatura usando essa arma."
+  }
+}

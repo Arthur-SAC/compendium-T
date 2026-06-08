@@ -1,0 +1,17 @@
+{
+  "id": "impostor",
+  "tipo": "poder",
+  "nome": "Impostor",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 3, Foco em Perícia (Enganação)",
+    "descricao": "Graças a seu extremo charme e autoconfiança, você consegue convencer outras pessoas — e você mesmo! — de que tem certas habilidades que, na verdade, não possui. Uma vez por cena, quando faz um teste de perícia que exija no máximo uma ação completa para ser realizado, você pode gastar 2 PM para usar Enganação no lugar dessa perícia."
+  }
+}

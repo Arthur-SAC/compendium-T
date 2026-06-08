@@ -1,0 +1,17 @@
+{
+  "id": "ventriloquismo",
+  "tipo": "poder",
+  "nome": "Ventriloquismo",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "treinado em Atuação e Enganação",
+    "descricao": "Você pode gastar 1 PM para fazer sua voz parecer vir de outro lugar (como de outra criatura, de uma estátua, de trás de uma porta, do fim de um corredor...) por 1 rodada. De acordo com o mestre, se um uso deste poder gerar uma situação muito suspeita, você precisará fazer um teste de Enganação oposto pela Intuição de quem está tentando enganar. Se a criatura vencê-lo, percebe que o som vem de você."
+  }
+}

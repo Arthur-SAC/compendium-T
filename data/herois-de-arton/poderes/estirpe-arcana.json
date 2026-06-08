@@ -1,0 +1,17 @@
+{
+  "id": "estirpe-arcana",
+  "tipo": "poder",
+  "nome": "Estirpe Arcana",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Elfo, Eiradaan, Nagah (fêmea)",
+    "descricao": "Você recebe +2 pontos de mana por patamar e +2 em Misticismo."
+  }
+}

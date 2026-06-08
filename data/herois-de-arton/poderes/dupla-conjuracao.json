@@ -1,0 +1,17 @@
+{
+  "id": "dupla-conjuracao",
+  "tipo": "poder",
+  "nome": "Dupla Conjuração",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Gnoll, Kaijin, Lefou, Orc, Trog; Des 2, lançar magias, Dupla Inteligência",
+    "descricao": "Uma vez por rodada, quando lança uma magia usando uma ação padrão, você pode gastar 5 PM para lançar uma magia adicional (mas somente magias cuja execução seja ação de movimento ou padrão). Você precisa gesticular com duas mãos livres, em vez de uma, para isso. Pré-requisitos: Des 2, lançar magias, Dupla Inteligência."
+  }
+}

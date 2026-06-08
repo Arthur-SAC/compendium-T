@@ -1,0 +1,17 @@
+{
+  "id": "tempo-mistico",
+  "tipo": "poder",
+  "nome": "Tempo Místico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 83
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "prerequisito": "Dois poderes da Tormenta",
+    "descricao": "Você é capaz de acessar uma pequena parte do controle dos lefeu sobre o tempo. Uma vez por rodada, quando você lança uma magia com execução de movimento, padrão ou completa, pode gastar 2 PM e perder 1d6, 1d8 ou 1d12 PV para diminuir o tempo de execução da magia em um, dois ou três passos, respectivamente (até um mínimo de ação livre). Essa perda de vida só pode ser curada com descanso. Pré-requisito: dois outros poderes da Tormenta."
+  }
+}

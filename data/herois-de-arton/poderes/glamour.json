@@ -1,0 +1,17 @@
+{
+  "id": "glamour",
+  "tipo": "poder",
+  "nome": "Glamour",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Duende, Eiradaan, Sílfide",
+    "descricao": "O mais icônico dos poderes feéricos, glamour é uma ilusão tão poderosa que gera efeitos reais. Escolha três magias de 1º círculo, arcanas ou divinas. Você pode lançar essas magias (atributo-chave Carisma), com as seguintes mudanças: Elas contam como magias de ilusão além de seus tipos normais (por exemplo, um glamour de Explosão de Chamas conta como uma magia de evocação e de ilusão). Sempre que você lança uma magia de glamour que não pede testes de resistência, precisa rolar 1d6. Se rolar 1, a magia não funciona (mas você gasta os PM mesmo assim) e você não pode mais lançar magias de glamour até o fim da cena. Sempre que você lança uma magia de glamour que permite testes de resistência de Fortitude ou Reflexos, os alvos podem substituir os testes originais por Vontade. Além disso, se um alvo passar no teste de resistência, você não pode mais lançar magias de glamour até o fim da cena. Se você aprender uma magia de glamour novamente, pode lançá-la como uma magia normal ou de glamour — nesse caso, ela sofre as mudanças acima, mas seu custo diminui em –1 PM."
+  }
+}

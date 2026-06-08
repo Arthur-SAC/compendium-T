@@ -1,0 +1,17 @@
+{
+  "id": "bravura-indomita",
+  "tipo": "poder",
+  "nome": "Bravura Indômita",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Vontade",
+    "descricao": "Se estiver adjacente a dois ou mais inimigos aptos a atacá-lo, você recebe +2 em testes de ataque e na margem de ameaça."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "estocada-pungente",
+  "tipo": "poder",
+  "nome": "Estocada Pungente",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Luta",
+    "descricao": "Quando ataca com uma arma corpo a corpo de perfuração, você pode gastar 2 PM. Se acertar, o alvo sofre –5 em rolagens de dano por 1 rodada."
+  }
+}

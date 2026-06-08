@@ -1,0 +1,16 @@
+{
+  "id": "diligente",
+  "tipo": "poder",
+  "nome": "Diligente",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Você pode gastar uma ação de movimento para se concentrar na tarefa à frente. Se fizer isso, recebe +2 em um teste de perícia (exceto testes de ataque) que exija no máximo uma ação completa para ser realizado e que seja realizado até o fim do seu próximo turno."
+  }
+}
