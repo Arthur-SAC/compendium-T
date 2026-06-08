@@ -120,7 +120,7 @@ function TabelaEfeitos({ titulo, efeitos, registro, descricoes }: { titulo: stri
   );
 }
 
-export function FichaClasse({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
+export function FichaClasse({ entidade, registro, descricoes, poderesExtras = [] }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; poderesExtras?: { id: string; nome: string }[] }) {
   const m = entidade.mecanica as unknown as ClasseMecanica;
   const varianteDe = (entidade.mecanica as Partial<VarianteClasseMecanica>).varianteDe;
   const nomeBasica = varianteDe ? varianteDe.charAt(0).toUpperCase() + varianteDe.slice(1) : "";
@@ -290,6 +290,22 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                     )}
                     {(qAposPoder[i] ?? []).map((q, k) => renderQuadro(q, `qp-${i}-${k}`, true))}
                   </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {poderesExtras.length > 0 && (
+            <section style={{ marginBottom: 16 }}>
+              <h2 style={h2}>Novos Poderes de Classe</h2>
+              <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", margin: "0 0 8px" }}>
+                Opções adicionais para esta classe vindas de outros livros. Clique para ver a descrição completa.
+              </p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                {poderesExtras.map((p) => (
+                  <Link key={p.id} href={`/ficha/poder/${p.id}`} style={{ fontFamily: "var(--serifa)", fontSize: 13, color: "var(--carmesim)", padding: "3px 10px", borderRadius: 8, background: "var(--pergaminho-1)", border: "1px solid var(--borda)", textDecoration: "none" }}>
+                    {p.nome}
+                  </Link>
                 ))}
               </div>
             </section>
