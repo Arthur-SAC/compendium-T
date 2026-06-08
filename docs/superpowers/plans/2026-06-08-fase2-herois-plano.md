@@ -323,13 +323,24 @@ git commit -m "feat(fase2.3): registra fonte Herois de Arton (ordem 3)"
 
 ### Procedimento P — extração de um tipo (repetir para cada tipo desta onda e das próximas)
 
-1. **Render** das páginas impressas do tipo em 300 DPI:
-   `pdftoppm -r 300 -f <PDF> -l <PDF> -png "pdfs/T20-Herois-de-Arton-v1-1.pdf" extracao/cache/herois-<tipo>/p` (PDF = impressa + 2). Recortar colunas com PIL se necessário.
-2. **SPIKE DE SCHEMA (obrigatório, pedido do usuário):** extrair **1 exemplar** do tipo e conferir contra a imagem se **todo campo/linha do livro cabe no schema existente**. Se algo ficou de fora → **ajustar schema/ficha primeiro** (com teste), commitar, e só então seguir. Registrar o resultado do spike no commit/PROGRESSO.
-3. **Lote:** extrair os demais em blocos; 2 passadas (extrator + revisor independente, ambos com visão), comparando JSON × imagem célula a célula. Pular reprints do Básico/Ameaças (documentar).
-4. **Integrar:** validar `EntidadeSchema` (via build); acender auto-link dos novos nomes próprios.
-5. **Verde:** `cd site && npx tsc --noEmit && npm test && npm run build`.
-6. **Commit por bloco** (`git add data/herois-de-arton/<tipo>/ …`).
+> **Lições do spike (Onda 1 — Alquimista + Duende, 2026-06-08), agora obrigatórias:**
+> - **`pdftotext` é a FONTE DA VERDADE do texto.** Este PDF tem texto selecionável; a leitura por
+>   visão de página inteira **erra muito** em texto pequeno (números, palavras trocadas). Use
+>   `pdftotext -layout -f <PDF> -l <PDF>` para o texto e a **imagem só para layout, tabelas, conferência e arte**.
+> - **Conteúdo de uma entidade pode atravessar 2–3 páginas** (a descrição se separa da tabela). Sempre
+>   confira a página seguinte antes de fechar uma entidade.
+> - **Arte entra junto** (quando há figura isolada com máscara): `pdfimages -list` → `pdfimages -png`
+>   → identificar o par cor+`smask` por visão → compor com `comporComMascara` (`extracao/src/imagens.ts`)
+>   via script `.mts` rodado de `extracao/` → salvar em `site/public/<racas|classes|...>/<slug>.png` → `imagens:[...]`.
+>   Sidebars/distinções sem figura isolada ficam sem arte (`imagens:[]`).
+
+1. **Render + texto:** renderize as páginas em 300 DPI (`pdftoppm -r 300 …`, PDF = impressa + 2) **e** extraia o texto fiel (`pdftotext -layout …`). Caches em `extracao/cache/herois-<tipo>/`.
+2. **SPIKE DE COBERTURA DE SCHEMA (obrigatório):** extrair **1 exemplar** e conferir, contra `pdftotext`+imagem, se **todo campo/linha do livro cabe no schema**. Se algo ficou de fora → **ajustar schema/ficha primeiro** (com teste), commitar, e só então seguir. Registrar no commit/PROGRESSO. (Os tipos `variante-classe`, `raca` já validados no spike da Onda 1.)
+3. **Lote:** extrair em blocos, usando `pdftotext` como fonte do texto + imagem para conferir. 2 passadas (extrator + revisor independente). Pular reprints do Básico/Ameaças (documentar).
+4. **Arte:** para cada entidade com figura isolada, compor cor+`smask` e ligar em `imagens:[...]`.
+5. **Integrar:** validar `EntidadeSchema` (via build); acender auto-link dos novos nomes próprios.
+6. **Verde:** `cd site && npx tsc --noEmit && npm test && npm run build`.
+7. **Commit por bloco** (`git add data/herois-de-arton/<tipo>/ site/public/...`).
 
 ### Conteúdo da Onda 1 (impressas; PDF = +2)
 

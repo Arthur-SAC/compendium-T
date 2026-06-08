@@ -16,7 +16,11 @@ Offset PDF = impressa + 2. Tipos novos `distincao` e `variante-classe` já reser
 - **Decisões fixadas:** Distinções = poderes embutidos (estilo classe); Variantes = ficha completa composta (básica + substituições) com aviso. Tabela 1-2 (básica→variante) no spec.
 - **Política nova (pedido do usuário 2026-06-08):** antes de extrair em lote QUALQUER tipo (mesmo reusado), fazer **spike de cobertura de schema** (1 exemplar conferido vs página) — autores podem mudar o padrão.
 - **Backlog:** repensar a apresentação das Regras (opcionais e gerais) — formato a definir.
-- **➡️ PRÓXIMA: Onda 1 (dados, Cap. 1):** 5 raças, classe Treinador, 14 variantes, novas origens, novos poderes, tabelas. Seguir o "Procedimento P" do plano (render 300 DPI → spike → extração em blocos por visão + revisor independente → tsc/test/build → commit).
+### Fase 2.3 — Onda 1 (Cap. 1) — SPIKE de ponta a ponta ✅ (aprovado pelo usuário)
+- **Spike (1 variante + 1 raça):** **Alquimista** (variante de Inventor; ficha completa composta + aviso + quadro Emulsões) `94dd01b`; **Duende** (raça "montável" em 5 passos) `910bb1c`; **correção via `pdftotext`** `166454b`; **arte** (cor+smask) `5c3f4fd`. Build **1655 páginas**, tsc 0, suíte verde. Validado no dev server (HTTP 200, imagens servidas).
+- **Schema confirmado:** `variante-classe` e `raca` cobrem os casos sem mudança.
+- **🔑 LIÇÕES (agora no Procedimento P do plano):** (1) **`pdftotext` = fonte da verdade do texto** (visão de página inteira erra muito em texto pequeno — peguei dezenas de erros); imagem só p/ layout/tabelas/arte. (2) Conteúdo atravessa 2–3 páginas. (3) Arte via `pdfimages` cor+smask + `comporComMascara`.
+- **➡️ PRÓXIMA: continuar o lote do Cap. 1:** 4 raças restantes (Eiradaan p.12, Galokk p.13, Meio-Elfo p.14, Sátiro p.15), classe **Treinador** (p.16-21), **13 variantes** restantes (p.22-45: Necromante, Machado de Pedra, Magimarcialista, Duelista, Seteiro, Vassalo, Usurpador, Ermitão, Inovador, Ventanista, Atleta, Burguês, Santo), novas origens (p.46-53), novos poderes de classe (p.54-77) e gerais (p.78-95), tabelas de personagem (p.96-101). Seguir o Procedimento P (pdftotext + imagem + arte).
 
 ---
 (histórico Fase 1)
