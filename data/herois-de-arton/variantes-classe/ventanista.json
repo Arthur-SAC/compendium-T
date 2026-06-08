@@ -1,0 +1,220 @@
+{
+  "id": "ventanista",
+  "tipo": "variante-classe",
+  "nome": "Ventanista",
+  "resumo": "Variante do Ladino focada em furtividade, charme e larcenismo galante: usa magias simuladas de encantamento e ilusão, disfarces elaborados e provocação ousada para roubar com arte e precisão milimétrica, sem recorrer à violência.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 44 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "\"Ladrão, biltre, furtador, rapace, patife, velhaco, trapaceiro, escroque... Não me venha com esses insultos. Sou um ventanista e minha arte é nobre.\"\n\nO ladino que usa suas habilidades para lutar deveria ser guerreiro. Tudo que vale a pena ser feito exige sutileza e graça, incluindo roubar. Isso é o que pensa o ladino ventanista.\n\nA palavra designa um ladrão que entra pela janela, furtando sem usar violência. Assim, o ventanista é o mais silencioso, furtivo e galante dos ladinos. Para ele, força física não é só desnecessária — é uma desvantagem. O que importa é ter passos leves e mãos rápidas, entrar e sair sem ser visto, executar cada ardil com precisão milimétrica.\n\nO ventanista pode ser um verdadeiro \"ladrão de casaca\", participando da alta sociedade e encantando os nobres com seu charme, ou uma figura misteriosa, oculta nas sombras. Muitos enriquecem e não largam a vida de crime, roubando por esporte ou concentrando-se em obras de arte e outros tesouros que nunca irão vender. Muitos ventanistas têm alcunhas ou identidades secretas, deixando pequenos objetos como sua marca registrada na cena do crime. É um prazer testemunhar a confusão do conde ao ver que seu colar de safiras mágicas foi trocado por um cisne de cerâmica, cortesia do misterioso Cisne Azul…\n\nEsse é o ventanista: um mão-leve. Um gatuno. Um vivaz."
+    },
+    {
+      "titulo": "Magias Simuladas",
+      "texto": "Uma magia simulada é uma habilidade não mágica que reproduz os efeitos de uma magia, como os poderes Flagelo dos Mares e Truque de Mágica (Tormenta20, pp. 48 e 89).\n\nMagias simuladas seguem as mesmas regras de magias normais, exceto por não serem habilidades mágicas e não contarem como magias (não se beneficiam de efeitos que afetam magias, como itens esotéricos e catalisadores, e não exigem testes de concentração). Entretanto, elas não se acumulam com outras magias (simuladas ou não)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "ladino",
+    "atributoChave": "Destreza",
+    "pvInicial": 12,
+    "pvPorNivel": 3,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 8,
+      "fixas": ["Ladinagem (Des)", "Reflexos (Des)"],
+      "lista": ["Acrobacia (Des)", "Atletismo (For)", "Atuação (Car)", "Cavalgar (Des)", "Conhecimento (Int)", "Diplomacia (Car)", "Enganação (Car)", "Furtividade (Des)", "Iniciativa (Des)", "Intimidação (Car)", "Intuição (Sab)", "Investigação (Int)", "Jogatina (Car)", "Nobreza (Int)", "Ofício (Int)", "Percepção (Sab)", "Pilotagem (Des)"],
+      "texto": "Ladinagem (Des) e Reflexos (Des), mais 8 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Enganação (Car), Furtividade (Des), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Jogatina (Car), Nobreza (Int), Ofício (Int), Percepção (Sab) e Pilotagem (Des)."
+    },
+    "proficiencias": [],
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Charme", "Truques do ofício"] },
+      { "nivel": 2, "habilidades": ["Evasão", "Poder de ladino"] },
+      { "nivel": 3, "habilidades": ["Disfarce elaborado (1 poder)", "Poder de ladino"] },
+      { "nivel": 4, "habilidades": ["Esquiva sobrenatural", "Poder de ladino"] },
+      { "nivel": 5, "habilidades": ["Poder de ladino"] },
+      { "nivel": 6, "habilidades": ["Poder de ladino"] },
+      { "nivel": 7, "habilidades": ["Poder de ladino", "Virar a casaca"] },
+      { "nivel": 8, "habilidades": ["Olhos nas costas", "Poder de ladino"] },
+      { "nivel": 9, "habilidades": ["Disfarce elaborado (2 poderes)", "Poder de ladino"] },
+      { "nivel": 10, "habilidades": ["Evasão aprimorada", "Poder de ladino"] },
+      { "nivel": 11, "habilidades": ["Poder de ladino", "Provocação ousada"] },
+      { "nivel": 12, "habilidades": ["Poder de ladino"] },
+      { "nivel": 13, "habilidades": ["Poder de ladino"] },
+      { "nivel": 14, "habilidades": ["Poder de ladino"] },
+      { "nivel": 15, "habilidades": ["Disfarce elaborado (3 poderes)", "Poder de ladino"] },
+      { "nivel": 16, "habilidades": ["Poder de ladino"] },
+      { "nivel": 17, "habilidades": ["Poder de ladino"] },
+      { "nivel": 18, "habilidades": ["Poder de ladino"] },
+      { "nivel": 19, "habilidades": ["Poder de ladino"] },
+      { "nivel": 20, "habilidades": ["O grande golpe", "Poder de ladino"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Charme",
+        "nivel": 1,
+        "descricao": "Você soma seu Carisma em seu total de PM. Quando faz um teste de perícia (exceto testes de ataque), você pode gastar uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que gastar, recebe +2 no teste."
+      },
+      {
+        "nome": "Truques do Ofício",
+        "nivel": 1,
+        "descricao": "Você pode lançar magias arcanas de 1º círculo, mas apenas de encantamento e ilusão. Esta não é uma habilidade mágica e provém da sua capacidade de enganar outras pessoas (veja \"Magias Simuladas\", p. 44). À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível).\nVocê começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para lançar magias é Inteligência."
+      },
+      {
+        "nome": "Evasão",
+        "nivel": 2,
+        "descricao": "Como o ladino básico."
+      },
+      {
+        "nome": "Poder de Ladino",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o ladino básico."
+      },
+      {
+        "nome": "Disfarce Elaborado",
+        "nivel": 3,
+        "descricao": "No 3º nível, você aprende a simular habilidades práticas úteis para seus disfarces. Sempre que fizer um teste de Enganação para disfarce (Tormenta20, p. 118), você pode escolher um poder (exceto poderes da Tormenta) cujos pré-requisitos cumpra e que esteja relacionado a esse disfarce. Enquanto estiver disfarçado dessa forma, você sofre uma penalidade de –3 PM e pode usar o poder escolhido. A cada seis níveis, você pode assumir uma penalidade adicional de –3 PM ao se disfarçar para escolher um poder adicional."
+      },
+      {
+        "nome": "Esquiva Sobrenatural",
+        "nivel": 4,
+        "descricao": "No 4º nível, você recebe esta habilidade como o ladino básico."
+      },
+      {
+        "nome": "Virar a Casaca",
+        "nivel": 7,
+        "descricao": "No 7º nível, se estiver disfarçado, você pode gastar 1 PM para remover seu disfarce. Quando faz isso, você pode fazer um teste de esconder-se (Tormenta20, p. 119) usando Enganação no lugar de Furtividade, mesmo sem camuflagem ou cobertura disponível.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Olhos nas Costas",
+        "nivel": 8,
+        "descricao": "No 8º nível, você recebe esta habilidade como o ladino básico."
+      },
+      {
+        "nome": "Evasão Aprimorada",
+        "nivel": 10,
+        "descricao": "No 10º nível, você recebe esta habilidade como o ladino básico."
+      },
+      {
+        "nome": "Provocação Ousada",
+        "nivel": 11,
+        "descricao": "A partir do 11º nível, em seu primeiro turno em cada cena, você pode gastar uma ação completa para provocar seus inimigos. Você pode deixar um cartão de visitas visível, declarar seu plano ou fazer outra ação que alerte seus inimigos de sua presença e de suas intenções. Até o fim da cena, seus inimigos recebem +2 em testes de Percepção, Sobrevivência e Vontade contra você. Entretanto, no início de seus turnos você recupera 2 PM. Esta habilidade só tem efeito se houver um risco associado a declarar suas ações (a critério do mestre) e recupera um máximo de PM por cena igual ao seu nível."
+      },
+      {
+        "nome": "O Grande Golpe",
+        "nivel": 20,
+        "descricao": "No 20º nível, no início de cada aventura, você pode escolher uma quantidade de magias, arcanas ou divinas, igual à sua Inteligência (você pode escolher a mesma magia mais de uma vez). Para cada escolha feita, defina um tipo de cena entre ação, exploração e interpretação (Tormenta20, p. 252). Até o fim da aventura, para cada vez que uma magia foi escolhida, se estiver em uma cena do tipo definido para ela, você pode lançá-la sem gastar PM (limite de PM 20, atributo-chave Inteligência). Esta não é uma habilidade mágica e provém da sua capacidade de enganar outras pessoas (veja \"Magias Simuladas\", p. 44)."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Assassinar",
+        "descricao": "Você pode gastar uma ação de movimento e 3 PM para analisar uma criatura em alcance curto. Até o fim de seu próximo turno, seu primeiro Ataque Furtivo que causar dano a ela tem seus dados de dano extras dessa habilidade dobrados.",
+        "prerequisito": "5º nível de ladino",
+        "custo": "3 PM"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Contatos no Submundo",
+        "descricao": "Quando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, recebe +5 em testes de Investigação para interrogar, pode comprar itens mundanos, poções e pergaminhos com 20% de desconto (não cumulativo com barganha e outros descontos) e, de acordo com o mestre, tem acesso a itens e serviços proibidos (como armas de pólvora e venenos).",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Emboscar",
+        "descricao": "Na primeira rodada de cada combate, você pode gastar 2 PM para executar uma ação padrão adicional em seu turno.",
+        "prerequisito": "treinado em Furtividade",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Escapista",
+        "descricao": "Você recebe +5 em testes de Acrobacia para escapar, passar por espaço apertado e passar por inimigo e em testes para resistir a efeitos de movimento."
+      },
+      {
+        "nome": "Fuga Formidável",
+        "descricao": "Você pode gastar uma ação completa e 1 PM para analisar o lugar no qual está (um castelo, um porto, a praça de uma cidade...). Até o fim da cena, recebe +3m em seu deslocamento, +5 em Acrobacia e Atletismo e ignora penalidades em movimento por terreno difícil. Você perde esses benefícios se fizer uma ação que não seja diretamente relacionada a fugir. Por exemplo, você só pode atacar um inimigo se ele estiver bloqueando seu caminho, agarrando-o etc. Você pode fazer ações para ajudar seus aliados, mas apenas se eles estiverem tentando escapar.",
+        "prerequisito": "Int 1",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Gatuno",
+        "descricao": "Você recebe +2 em Atletismo. Quando escala, não fica desprevenido e avança seu deslocamento normal, em vez de metade dele."
+      },
+      {
+        "nome": "Ladrão Arcano",
+        "descricao": "Quando causa dano com um ataque furtivo em uma criatura capaz de lançar magias, você pode \"roubar\" uma magia que já a tenha visto lançar. Você precisa pagar 1 PM por círculo da magia e pode roubar magias de até 4º círculo. Até o fim da cena, você pode lançar a magia roubada (atributo-chave Inteligência).",
+        "prerequisito": "Roubo de Mana, 13º nível de ladino",
+        "custo": "1 PM por círculo da magia"
+      },
+      {
+        "nome": "Mão na Boca",
+        "descricao": "Você recebe +2 em testes de agarrar. Quando acerta um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada.",
+        "prerequisito": "treinado em Luta"
+      },
+      {
+        "nome": "Mãos Rápidas",
+        "descricao": "Uma vez por rodada, ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre.",
+        "prerequisito": "Des 2, treinado em Ladinagem",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Mente Criminosa",
+        "descricao": "Você soma sua Inteligência em Ladinagem e Furtividade.",
+        "prerequisito": "Int 1"
+      },
+      {
+        "nome": "Oportunismo",
+        "descricao": "Uma vez por rodada, quando um inimigo adjacente sofre dano de um de seus aliados, você pode gastar 2 PM para fazer um ataque corpo a corpo contra este inimigo.",
+        "prerequisito": "6º nível de ladino",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Rolamento Defensivo",
+        "descricao": "Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade. Após usar este poder, você fica caído.",
+        "prerequisito": "treinado em Reflexos",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Roubo de Mana",
+        "descricao": "Quando você causa dano com um ataque furtivo, para cada 1d6 de dano de seu ataque furtivo, você recebe 1 PM temporário e a criatura perde 1 ponto de mana (se tiver). Você só pode usar este poder uma vez por cena contra uma mesma criatura.",
+        "prerequisito": "Truque Mágico, 7º nível de ladino"
+      },
+      {
+        "nome": "Saqueador de Tumbas",
+        "descricao": "Você recebe +5 em testes de Investigação para encontrar armadilhas e em testes de resistência contra elas. Além disso, gasta uma ação padrão para desabilitar mecanismos, em vez de 1d4 rodadas (veja a perícia Ladinagem)."
+      },
+      {
+        "nome": "Sombra",
+        "descricao": "Você recebe +2 em Furtividade, não sofre penalidade em testes de Furtividade por se mover no seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10.",
+        "prerequisito": "treinado em Furtividade"
+      },
+      {
+        "nome": "Truque Mágico",
+        "descricao": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha, pagando seu custo normal em PM. Seu atributo-chave para esta magia é Inteligência. Você pode escolher este poder quantas vezes quiser.",
+        "prerequisito": "Int 1"
+      },
+      {
+        "nome": "Velocidade Ladina",
+        "descricao": "Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno.",
+        "prerequisito": "Des 2, treinado em Iniciativa",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Veneno Persistente",
+        "descricao": "Quando aplica uma dose de veneno a uma arma, este veneno dura por três ataques (em vez de apenas um).",
+        "prerequisito": "Veneno Potente, 8º nível de ladino"
+      },
+      {
+        "nome": "Veneno Potente",
+        "descricao": "A CD para resistir aos venenos que você usa aumenta em +5.",
+        "prerequisito": "treinado em Ofício (alquimista)"
+      }
+    ],
+    "caminhos": []
+  }
+}
