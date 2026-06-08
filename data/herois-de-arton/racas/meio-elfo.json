@@ -4,7 +4,7 @@
   "nome": "Meio-Elfo",
   "resumo": "Descendentes de humanos e elfos, os meios-elfos são um povo tolerante que busca sua própria identidade entre dois mundos, trazendo consigo ambição, sensibilidade mágica e longevidade aumentada.",
   "fonte": { "livro": "herois-de-arton", "pagina": 14 },
-  "imagens": [],
+  "imagens": ["/racas/meio-elfo.png"],
   "secoes": [
     {
       "titulo": "Descrição",

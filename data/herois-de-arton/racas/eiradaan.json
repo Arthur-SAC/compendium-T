@@ -4,7 +4,7 @@
   "nome": "Eiradaan",
   "resumo": "Seres féericos ancestrais criados pelo Panteão para proteger Vitalia, exilados de seu lar divino após uma tragédia e refugiados nas florestas profundas de Arton.",
   "fonte": { "livro": "herois-de-arton", "pagina": 12 },
-  "imagens": [],
+  "imagens": ["/racas/eiradaan.png"],
   "secoes": [
     {
       "titulo": "Descrição",

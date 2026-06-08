@@ -4,7 +4,7 @@
   "nome": "Galokk",
   "resumo": "Também chamados de meios-gigantes, galokk não são uma raça ou um povo, mas seres de origem não natural que nascem em famílias humanas e crescem até atingir proporções colossais sob a influência de Megalokk.",
   "fonte": { "livro": "herois-de-arton", "pagina": 13 },
-  "imagens": [],
+  "imagens": ["/racas/galokk.png"],
   "secoes": [
     {
       "titulo": "Descrição",
