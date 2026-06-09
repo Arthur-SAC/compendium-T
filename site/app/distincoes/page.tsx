@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { carregarEntidades } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
+import type { Entidade } from "@/lib/schema";
+
+// resumo do card: usa o `resumo`; se faltar, cai para o início da "Descrição".
+function resumoCard(e: Entidade): string {
+  if (e.resumo?.trim()) return e.resumo;
+  const desc = e.secoes.find((s) => /descri[çc][ãa]o/i.test(s.titulo))?.texto ?? e.secoes[0]?.texto ?? "";
+  const t = desc.trim();
+  return t.length > 160 ? t.slice(0, 160).trimEnd() + "…" : t;
+}
 
 export default function IndiceDistincoes() {
   const distincoes = carregarEntidades()
@@ -28,7 +37,7 @@ export default function IndiceDistincoes() {
                 </span>
                 <span className="indice-card-body">
                   <span className="indice-card-nome">{r.nome}</span>
-                  <span className="indice-card-resumo">{r.resumo}</span>
+                  <span className="indice-card-resumo">{resumoCard(r)}</span>
                 </span>
               </Link>
             );
