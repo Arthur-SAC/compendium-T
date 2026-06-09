@@ -4,7 +4,7 @@
   "nome": "Teurgista Hermético",
   "resumo": "Conjurador excepcional que desafia as fronteiras entre magia divina e arcana, combinando os dois tipos de magia com maestria como aspectos de um mesmo poder universal.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 133 },
-  "imagens": [],
+  "imagens": ["/distincoes/teurgista-hermetico.png"],
   "relacoes": [],
   "secoes": [
     {

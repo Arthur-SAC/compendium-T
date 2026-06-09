@@ -4,7 +4,7 @@
   "nome": "Forjador Litúrgico",
   "resumo": "Ferreiro sagrado da Ordem dos Forjadores Litúrgicos de Arsenal que forja e oferta armas abençoadas a combatentes dignos, testando-os em duelo.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 92 },
-  "imagens": [],
+  "imagens": ["/distincoes/forjador-liturgico.png"],
   "relacoes": [],
   "secoes": [
     {

@@ -4,7 +4,7 @@
   "nome": "Tirano do Terceiro",
   "resumo": "Guerreiro extraordinário com ligação mística com Kallyadranoch, o Deus dos Dragões, que domou um dragão como montaria e passa a manifestar traços do poder dracônico.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 139 },
-  "imagens": [],
+  "imagens": ["/distincoes/tirano-do-terceiro.png"],
   "relacoes": [],
   "secoes": [
     {

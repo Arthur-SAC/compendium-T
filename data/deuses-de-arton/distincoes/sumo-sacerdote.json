@@ -4,7 +4,7 @@
   "nome": "Sumo-Sacerdote",
   "resumo": "A figura singular que serve como elo entre uma divindade e seus devotos, a autoridade espiritual máxima de uma fé em Arton.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 127 },
-  "imagens": [],
+  "imagens": ["/distincoes/sumo-sacerdote.png"],
   "relacoes": [],
   "secoes": [
     {

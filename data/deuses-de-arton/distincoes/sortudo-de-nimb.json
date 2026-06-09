@@ -4,7 +4,7 @@
   "nome": "Sortudo de Nimb",
   "resumo": "Aventureiro medíocre abençoado pelo Deus do Caos que desliza pelas probabilidades com graça cômica, vencendo desafios não por habilidade ou planejamento, mas por pura sorte inconstante e milagrosa.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 124 },
-  "imagens": [],
+  "imagens": ["/distincoes/sortudo-de-nimb.png"],
   "relacoes": [],
   "secoes": [
     {

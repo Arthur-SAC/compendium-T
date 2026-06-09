@@ -4,7 +4,7 @@
   "nome": "Tibarita",
   "resumo": "Devoto de Tibar que compreende o aspecto transcendental do gasto, usando o dinheiro como ato de devoção sagrado e como ferramenta para moldar a própria realidade.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 136 },
-  "imagens": [],
+  "imagens": ["/distincoes/tibarita.png"],
   "relacoes": [],
   "secoes": [
     {

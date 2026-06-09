@@ -4,7 +4,7 @@
   "nome": "Cavaleiro de Khalmyr",
   "resumo": "Membro da ordem monástica e austera de Khalmyr, que abre mão de posses e títulos para servir ao bem puro em peregrinação constante.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 76 },
-  "imagens": [],
+  "imagens": ["/distincoes/cavaleiro-de-khalmyr.png"],
   "relacoes": [],
   "secoes": [
     {

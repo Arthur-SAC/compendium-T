@@ -4,7 +4,7 @@
   "nome": "Bufão de Hyninn",
   "resumo": "Devoto de Hyninn que transforma tragédia e sofrimento em gargalhadas, zombando de tudo sem exceção.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 70 },
-  "imagens": [],
+  "imagens": ["/distincoes/bufao-de-hyninn.png"],
   "relacoes": [],
   "secoes": [
     {

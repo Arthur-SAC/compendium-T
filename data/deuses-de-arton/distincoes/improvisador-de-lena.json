@@ -4,7 +4,7 @@
   "nome": "Improvisador de Lena",
   "resumo": "Herói pacifista inspirado pela Deusa da Vida que domina todos os aspectos da aventura exceto o combate, vencendo qualquer obstáculo com engenhosidade, improvisação e criatividade.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 102 },
-  "imagens": [],
+  "imagens": ["/distincoes/improvisador-de-lena.png"],
   "relacoes": [],
   "secoes": [
     {

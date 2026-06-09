@@ -4,7 +4,7 @@
   "nome": "Pacificador",
   "resumo": "Combatente que possui a capacidade de matar, mas impõe a si mesmo o dever de nunca fazê-lo, vencendo inimigos sem derramar sangue como expressão de habilidade superior e respeito pela vida.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 115 },
-  "imagens": [],
+  "imagens": ["/distincoes/pacificador.png"],
   "relacoes": [],
   "secoes": [
     {

@@ -4,7 +4,7 @@
   "nome": "Pregador",
   "resumo": "Devoto real capaz de operar milagres, que nem sempre obedece todos os desígnios do deus patrono, levando a palavra dos deuses a comunidades remotas e fora da lei com interpretações flexíveis e pragmáticas dos dogmas.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 118 },
-  "imagens": [],
+  "imagens": ["/distincoes/pregador.png"],
   "relacoes": [],
   "secoes": [
     {

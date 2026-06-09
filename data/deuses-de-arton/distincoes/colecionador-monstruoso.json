@@ -4,7 +4,7 @@
   "nome": "Colecionador Monstruoso",
   "resumo": "Druida de Megalokk que rejeita totalmente a influência de Allihanna e caça monstros para devorar seus corpos e adquirir suas formas e capacidades.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 79 },
-  "imagens": [],
+  "imagens": ["/distincoes/colecionador-monstruoso.png"],
   "relacoes": [],
   "secoes": [
     {

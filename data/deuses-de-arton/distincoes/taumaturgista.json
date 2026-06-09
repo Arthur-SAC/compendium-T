@@ -4,7 +4,7 @@
   "nome": "Taumaturgista",
   "resumo": "Conjurador especializado em invocar criaturas de outros Planos por meio de pactos e barganha, utilizando os poderes de seres extraplanares para atingir seus objetivos.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 130 },
-  "imagens": [],
+  "imagens": ["/distincoes/taumaturgista.png"],
   "relacoes": [],
   "secoes": [
     {

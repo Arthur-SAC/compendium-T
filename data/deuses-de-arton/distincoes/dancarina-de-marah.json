@@ -4,7 +4,7 @@
   "nome": "Dançarina de Marah",
   "resumo": "Devota de Marah que combina dança sagrada e disciplina atlética extrema para transmitir paz, apaziguar conflitos e cativar aliados e inimigos.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 82 },
-  "imagens": [],
+  "imagens": ["/distincoes/dancarina-de-marah.png"],
   "relacoes": [],
   "secoes": [
     {

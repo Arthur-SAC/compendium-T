@@ -4,7 +4,7 @@
   "nome": "Sombra de Tenebra",
   "resumo": "Infiltrador, assassino e espião escolhido pela própria Tenebra, que encontra nas trevas um portal para o poder e enxerga o lado místico de cada sombra como reflexo de sua devoção à Deusa das Trevas.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 121 },
-  "imagens": [],
+  "imagens": ["/distincoes/sombra-de-tenebra.png"],
   "relacoes": [],
   "secoes": [
     {

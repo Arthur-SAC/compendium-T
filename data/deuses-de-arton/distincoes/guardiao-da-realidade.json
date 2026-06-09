@@ -4,7 +4,7 @@
   "nome": "Guardião da Realidade",
   "resumo": "Campeão raro que se coloca como muralha entre Arton e a Tormenta, possuindo poderes únicos para destruir lefeu e proteger toda a Criação da Anticriação.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 95 },
-  "imagens": [],
+  "imagens": ["/distincoes/guardiao-da-realidade.png"],
   "relacoes": [],
   "secoes": [
     {

@@ -4,7 +4,7 @@
   "nome": "Cavaleiro da Luz",
   "resumo": "Membro da mais gloriosa ordem de cavalaria de Arton, combatente honrado ligado à aristocracia de Bielefeld e aos ideais de justiça de Khalmyr.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 73 },
-  "imagens": [],
+  "imagens": ["/distincoes/cavaleiro-da-luz.png"],
   "relacoes": [],
   "secoes": [
     {

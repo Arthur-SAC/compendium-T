@@ -4,7 +4,7 @@
   "nome": "Inquisidor de Wynna",
   "resumo": "Paladino especialmente treinado para assegurar que a magia não seja usada para fins malignos, protegendo arcanistas e o livre acesso ao dom mágico da Deusa da Magia.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 105 },
-  "imagens": [],
+  "imagens": ["/distincoes/inquisidor-de-wynna.png"],
   "relacoes": [],
   "secoes": [
     {

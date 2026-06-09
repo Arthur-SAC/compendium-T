@@ -4,7 +4,7 @@
   "nome": "Herói Henshin",
   "resumo": "Campeão da justiça com identidade dupla que se transforma em uma figura majestosa ao ativar seu poder secreto, acompanhado por uma montaria ou veículo especial.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 98 },
-  "imagens": [],
+  "imagens": ["/distincoes/heroi-henshin.png"],
   "relacoes": [],
   "secoes": [
     {

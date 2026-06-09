@@ -4,7 +4,7 @@
   "nome": "Exegeta do Akzath",
   "resumo": "Estudioso supremo do Akzath duyshidakk capaz de compreender a realidade de forma profunda e até modificar o que 'já aconteceu' deslocando elementos no círculo da Criação.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 88 },
-  "imagens": [],
+  "imagens": ["/distincoes/exegeta-do-akzath.png"],
   "relacoes": [],
   "secoes": [
     {

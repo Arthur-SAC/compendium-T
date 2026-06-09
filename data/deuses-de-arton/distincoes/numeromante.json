@@ -4,7 +4,7 @@
   "nome": "Numeromante",
   "resumo": "Conjurador que transforma raciocínio matemático em poder arcano, utilizando números como chave para manipular as forças que regem a realidade.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 112 },
-  "imagens": [],
+  "imagens": ["/distincoes/numeromante.png"],
   "relacoes": [],
   "secoes": [
     {

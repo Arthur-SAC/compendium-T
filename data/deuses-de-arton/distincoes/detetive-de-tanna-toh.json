@@ -4,7 +4,7 @@
   "nome": "Detetive de Tanna-Toh",
   "resumo": "Devoto de Tanna-Toh especializado em solucionar crimes através de deduções lógicas rigorosas, tratando apenas fatos comprovados como verdade.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 85 },
-  "imagens": [],
+  "imagens": ["/distincoes/detetive-de-tanna-toh.png"],
   "relacoes": [],
   "secoes": [
     {
