@@ -1,0 +1,37 @@
+{
+  "id": "tilliann",
+  "tipo": "divindade",
+  "nome": "Tilliann, Deus dos Gnomos",
+  "resumo": "Deus criador dos gnomos e da criatividade, participou da Revolta dos Três ao criar os lefeu com Valkaria e Kallyadranoch; punido por Khalmyr e Nimb, perdeu tudo e hoje vaga como mendigo louco nas ruas de Valkaria, com um fio tênue de divindade recentemente restaurado.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 243 },
+  "imagens": ["/divindades/tilliann.png", "/divindades/tilliann-retrato.png"],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Criatividade ilimitada, curiosidade infinita, invenção e experimentação constante; os gnomos como experimentos eternos e a busca de todas as perguntas (sem necessariamente respondê-las).",
+    "simboloSagrado": "Uma engrenagem de cobre com raios em formato de shuriken e uma gema vermelha central, ornada com relâmpagos dourados na borda.",
+    "canalizaEnergia": "—",
+    "armaPreferida": "—",
+    "devotos": "Não há devotos conhecidos de Tilliann no mundo material. Nunca houve. Os kliren são descendentes dos gnomos de Skerry e representam o legado de seu povo. Tilliann pode, em situações excepcionais, conceder poder a aventureiros que tenham uma conexão especial com ele.",
+    "poderesConcedidos": [],
+    "obrigacoesRestricoes": "—",
+    "categoria": "antigo"
+  },
+  "secoes": [
+    {
+      "titulo": "Outros Nomes",
+      "texto": "Deus da Criatividade; o Primeiro Rebelde; Fizzlawack, entre os gnomos de outros mundos; Craere-Thei-Otita, entre os kliren."
+    },
+    {
+      "titulo": "Historia e os Gnomos",
+      "texto": "A origem e a história de Tilliann estão entre as mais misteriosas de todos os deuses. Pois este seria o deus criador dos gnomos — um povo sobre o qual nunca se ouviu falar em Arton. Ainda assim, evidências sobre a existência desses seres em outros mundos surgem de tempos em tempos. A primeira e mais irrefutável chama-se Lorde Niebling, 'o Único Gnomo de Arton', inventor estrangeiro genial pertencente à corte da Rainha-Imperatriz. A segunda são os kliren, povo humanoide de além-mundo com traços gnômicos.\n\nTilliann era a divindade de pensamento mais ligeiro e fervilhante, incapaz de conter a própria curiosidade. Quando ainda pertencia ao Panteão, era o mais inquisitivo entre os deuses. Buscava descobrir todas as perguntas, mesmo sem necessariamente respondê-las, apenas acumulando mais e mais questões. Amava possibilidades, mas não conseguia favorecer qualquer uma em detrimento de todas as outras. Por manter a mente poderosa sempre ocupada e jamais tomar decisões finais, não agia de fato.\n\nEmbora os elfos tenham sido o primeiro povo completo criado pelos deuses, os gnomos poderiam ter esse título se Tilliann mantivesse o foco. Muito antes que Glórienn desse vida a seus filhos, Tilliann planejava seu próprio povo — mas sempre havia algum ajuste a fazer. Por fim, depois dos elfos, das fadas, dos povos ofídicos, dos anões e de vários outros, os gnomos foram criados.\n\nEm Skerry, o Reino de Tilliann, os gnomos se transformavam espontaneamente, segundo as vontades e caprichos de seu deus. Uma geração nascia com enorme aptidão para magia, outra dotada de agilidade e graça. A única constante era sua engenhosidade. Tilliann lhes deu a capacidade de moldar seu mundo natal em níveis fundamentais. Eles criavam vida através de mecânica, construindo animais metálicos que, por sua vez, eram capazes de construir sua própria progênie. Skerry possuía um minério misterioso, conhecido apenas como 'cristal rosado', que os gnomos usavam em vários mecanismos de suas invenções."
+    },
+    {
+      "titulo": "A Revolta dos Tres e a Queda",
+      "texto": "Em seus eternos devaneios e jornadas, Tilliann explorava cada recanto da Criação ainda não povoada. Durante uma de suas expedições planares, teria encontrado um lugar maravilhoso — não era outro mundo, nem outro Plano, mas outra Criação. Um 'lugar' sequer tocado pela não existência do Nada e do Vazio. Tilliann então confidenciou sua descoberta a Valkaria, que considerava uma alma gêmea. A Deusa da Ambição não deixou de perceber ali uma oportunidade sem igual, a chance de realizar seu grande sonho — forjar um povo capaz de superar os próprios deuses. Reuniu-se a eles Kallyadranoch. Juntos, tinham o que era necessário: a fagulha criativa, a ambição desmedida, o poder supremo. Dessa união nasceram os seres abjetos que se tornariam os lefeu.\n\nOs Três povoaram essa nova Criação com suas crias e forjaram deuses falsos para guiá-las. No entanto, quando os visitaram de novo, descobriram algo terrível. Os 'deuses' deixados ali tinham sido assassinados. Os lefeu tinham destruído o tempo, o espaço, a vida, a morte, todas as limitações. Eram criatividade sem ética, ambição sem controle, poder sem limite. Eram horrendos, amorais e maravilhosos. Dizem que, após ver o que eles tinham se tornado, Tilliann enlouqueceu.\n\nEntão o ato dos Três foi descoberto. Khalmyr viu a ameaça que os lefeu representavam e decidiu que eles deviam ser exterminados. Mas Valkaria, Kallyadranoch e Tilliann se opuseram. Foi a Revolta dos Três. Os revoltosos foram derrotados e punidos. Valkaria foi aprisionada na célebre estátua. Kallyadranoch foi esquecido e soterrado no Monte do Dragão Adormecido. Mas Tilliann, considerado o mais imprevisível — pois sua curiosidade não tinha restrições —, foi privado de absolutamente tudo.\n\nNa região de Arton conhecida como Colinas Centrais, Khalmyr golpeou Tilliann com sua espada. A divindade do Deus dos Gnomos escorreu como sangue, marcando a região para sempre. Nimb o mastigou e o cuspiu, agora como um mortal. Depois que os lefeu foram exterminados, a essência divina de Tilliann foi usada para forjar uma barreira entre a Criação e a Anticriação. Por fim, a própria lembrança dos lefeu foi apagada."
+    },
+    {
+      "titulo": "Status Atual: o Heroi Louco",
+      "texto": "O destino de Tilliann foi a tragédia. Ele perambulou por algum tempo na região onde foi punido, recebendo o apelido de 'Herói Louco'. Atraído por aquela que considerava sua alma gêmea, vagou até a estátua de Valkaria, onde vive até hoje como um mendigo louco. Seu reino, Skerry, se tornou material quando ele perdeu a divindade — e então, aos poucos, se esfacelou. Os gnomos pereceram, seus inventos foram destruídos, sua criatividade se perdeu.\n\nO maior testemunho de sua resiliência e engenhosidade, contudo, é a existência da raça kliren: esses descendentes dos gnomos são a prova de que pelo menos alguns sobreviveram. E, em poucos séculos, criaram uma ciência que lhes permite existir em Skerry.\n\nNas últimas décadas, alguns mortais descobriram a verdade sobre os lefeu. Isso levou a eventos que devolveram a Tilliann um pouco de sua sanidade, um pouco de sua memória e, por fim, um pouco de sua divindade. Não se conhece devotos deste deus hoje em dia. Nunca se soube de algum milagre que ele tenha realizado. No entanto, talvez algum aventureiro que o tenha encontrado nas ruas de Valkaria seja testemunha de que até mesmo um deus caído pode ser capaz de conceder um poder a um herói que tenha com ele uma conexão especial. Os aventureiros terão a chance de interagir mais com ele, de formas muito significativas, em Fim dos Tempos Arco 2: Valkaria."
+    }
+  ]
+}

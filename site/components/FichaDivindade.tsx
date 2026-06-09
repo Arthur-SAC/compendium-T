@@ -29,7 +29,8 @@ type DivindadeExtras = {
 export function FichaDivindade({ entidade, registro, descricoes, extras }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; extras?: DivindadeExtras }) {
   const m = entidade.mecanica as unknown as DivindadeMecanica;
   const expansao = extras?.expansao;
-  const retrato = expansao?.imagens?.[0];
+  // Retrato: da expansão (Deuses de Arton) ou, p/ divindades sem expansão, a 2ª imagem (ex.: deuses antigos com símbolo + arte).
+  const retrato = expansao?.imagens?.[0] ?? entidade.imagens[1];
   const simbolo = expansao?.mecanica?.simboloAtualizado ?? entidade.imagens[0];
 
   return (

@@ -40,7 +40,10 @@ export default function IndiceDeuses() {
   const divindades = entidades.filter((e) => e.tipo === "divindade");
   // Deuses maiores (os 20 do Panteão, do Básico) vs menores (de expansões, ex.: Deuses de Arton).
   const maiores = divindades.filter((d) => d.fonte.livro !== "deuses-de-arton");
-  const menores = divindades.filter((d) => d.fonte.livro === "deuses-de-arton").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const ehAntigo = (d: Entidade) => String((d.mecanica as { categoria?: string }).categoria ?? "") === "antigo";
+  const expansaoDeuses = divindades.filter((d) => d.fonte.livro === "deuses-de-arton");
+  const menores = expansaoDeuses.filter((d) => !ehAntigo(d)).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const antigos = expansaoDeuses.filter(ehAntigo).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   const regra = entidades.find((e) => e.id === "devocao-como-funciona");
   const essaisMenores = entidades.find((e) => e.id === "deuses-menores-da");
   const antigosDeuses = entidades.find((e) => e.id === "os-antigos-deuses");
@@ -95,6 +98,18 @@ export default function IndiceDeuses() {
             <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Deuses Menores ({menores.length})</h3>
             <div className="indice-cards">
               {menores.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
+            </div>
+          </section>
+        )}
+
+        {antigos.length > 0 && (
+          <section style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Deuses Antigos ({antigos.length})</h3>
+            <p style={{ fontFamily: "var(--serifa)", color: "var(--tinta-suave)", fontSize: 13, margin: "2px 0 10px" }}>
+              Deuses que já fizeram parte do Panteão e caíram — hoje sem devotos ou poder ativo.
+            </p>
+            <div className="indice-cards">
+              {antigos.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
             </div>
           </section>
         )}

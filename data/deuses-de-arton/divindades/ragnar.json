@@ -1,0 +1,33 @@
+{
+  "id": "ragnar",
+  "tipo": "divindade",
+  "nome": "Ragnar, Deus da Morte",
+  "resumo": "Deus da Morte dos goblinoides que ascendeu ao Panteão após a Revolta dos Três e orquestrou uma profecia grandiosa, mas foi morto por um fragmento do próprio cometa que convocara, dando origem à Ossada de Ragnar.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 241 },
+  "imagens": ["/divindades/ragnar.png"],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "A Morte como poder absoluto; conquista e massacre goblinoide; sacrifícios em nome de Leen; supremacia dos duyshidakk sobre as demais raças.",
+    "simboloSagrado": "Uma esfera escura envolta por um anel de fogo alaranjado — como um eclipse solar com halo de brasa.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Foice (usada pelos Ceifeiros de Leen).",
+    "devotos": "Goblinoides (bugbears, hobgoblins, goblins) e cultistas humanos de Leen. Seitas remanescentes que continuam adorando Ragnar sem receber poderes, muitas vezes confundindo rituais de Ragnar com os de Thwor.",
+    "poderesConcedidos": [],
+    "obrigacoesRestricoes": "—",
+    "categoria": "antigo"
+  },
+  "secoes": [
+    {
+      "titulo": "Outros Nomes",
+      "texto": "Deus dos Bugbears; Deus da Morte dos Goblinoides; Leen, entre os humanos; Krogathar, entre os elfos; Rakur, entre os anões; Morkhul, entre os gnolls; Maz'korak, entre os trogs."
+    },
+    {
+      "titulo": "Historia e Queda",
+      "texto": "Ragnar era o Deus Menor dos Bugbears, os assassinos brutais também conhecidos como 'goblins gigantes'. Sua ascensão ao Panteão ocorreu quando Tilliann e Kallyadranoch foram expulsos, após a Revolta dos Três. Mesmo assim, era mais conhecido por outra faceta: Leen, uma divindade sombria e sutil. Foi apenas com a vitória da Aliança Negra dos goblinoides sobre os elfos de Lenórienn, sob a liderança do general bugbear Thwor Khoshkothruk, que o nome 'Ragnar' ganhou notoriedade entre outras raças.\n\nRagnar se tornaria então a divindade principal dos goblins, hobgoblins, bugbears e outros humanoides monstruosos, elevando muito seu status divino. Desfrutou da divindade maior por longos anos, refestelando-se nas conquistas e matanças perpetradas pelos duyshidakk.\n\nRagnar na verdade tinha um grande plano, elaborado sob a faceta de Leen — astúcia e brutalidade na mesma medida. Menos de um século após sua ascensão, procurou Thyatis para que ele escrevesse uma profecia que mudaria os rumos de Arton. Segundo o estratagema do Deus da Morte, chegaria o 'arauto da destruição' (mais tarde revelado como Thwor), que uniria os goblinoides e só seria morto pela 'Flecha de Fogo'. A Flecha, por sua vez, seria um cometa em rota de colisão com o continente de Lamnor. Sua queda devastaria os goblinoides, depois que esses já tivessem chacinado os demais povos do continente — o maior sacrifício da Criação, em nome de Ragnar.\n\nContudo, Thyatis, ao escrever a profecia, inseriu limitações. Usando a genialidade e a força bruta que haviam sido profetizadas, o Ayrrak de Lamnor foi capaz de alterar o curso dos eventos, colocando o próprio Ragnar numa armadilha. O Deus da Morte havia encarnado em Arton como um humano, para garantir que a profecia fosse cumprida. No ponto culminante dos eventos, os dois estavam lutando e um fragmento da Flecha de Fogo caiu sobre eles. Ragnar assim morreu — e Thwor ascendeu à divindade, como Deus dos Goblinoides."
+    },
+    {
+      "titulo": "Legado e Status Atual",
+      "texto": "Os fragmentos da Flecha de Fogo caíram não sobre Lamnor em sua maioria, mas sobre o antigo reino de Tyrondir. Parte do Istmo de Hangpharstyth, que conectava os continentes de Arton Norte e Lamnor, acabou despedaçada. A região dos destroços é hoje conhecida como a Ossada de Ragnar.\n\nA ausência do Deus da Morte causou um fenômeno bizarro — um período em que ninguém morreu em Arton. Hoje em dia, o ciclo de nascimento e morte voltou a existir em Arton de forma normal, mas a Morte não é um conceito cultuado por si só. Diz-se que Tenebra está tentando assumir esse portfólio.\n\nO culto a Ragnar era muito arraigado entre os goblinoides. Existem muitas seitas, principalmente entre os bugbears, que continuam adorando o Deus da Morte e praticando seus rituais, sem receber poderes por isso. Alguns se recusam a aceitar que Ragnar teve um fim — afinal, se ele governava sobre a Morte, como pode ter se dobrado a ela? Também existem cultistas humanos de Leen que, viram-se sem poderes subitamente, e muitos passaram a adorar outros deuses que aceitam sacrifícios, como Tenebra ou mesmo Kallyadranoch."
+    }
+  ]
+}
