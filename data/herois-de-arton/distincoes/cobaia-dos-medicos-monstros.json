@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 148
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/cobaia-dos-medicos-monstros.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

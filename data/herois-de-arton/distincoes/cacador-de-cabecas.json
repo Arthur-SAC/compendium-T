@@ -6,7 +6,9 @@
     "livro": "herois-de-arton",
     "pagina": 124
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/cacador-de-cabecas.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

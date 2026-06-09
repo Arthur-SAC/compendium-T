@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 130
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/campeao-de-dojo.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

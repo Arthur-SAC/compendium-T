@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 112
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/amazona.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

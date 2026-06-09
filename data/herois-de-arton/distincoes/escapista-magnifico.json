@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 160
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/escapista-magnifico.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

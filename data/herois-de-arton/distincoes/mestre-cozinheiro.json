@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 187
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/mestre-cozinheiro.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

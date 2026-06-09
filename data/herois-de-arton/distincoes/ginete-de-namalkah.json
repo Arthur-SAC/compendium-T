@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 166
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/ginete-de-namalkah.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

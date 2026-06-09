@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 145
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/chapeu-preto.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

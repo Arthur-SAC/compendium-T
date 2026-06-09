@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 181
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/medico-de-salistick.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

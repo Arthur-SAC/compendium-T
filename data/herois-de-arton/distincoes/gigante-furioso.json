@@ -6,7 +6,9 @@
     "livro": "herois-de-arton",
     "pagina": 163
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/gigante-furioso.png"
+  ],
   "secoes": [
     {
       "titulo": "Descrição",

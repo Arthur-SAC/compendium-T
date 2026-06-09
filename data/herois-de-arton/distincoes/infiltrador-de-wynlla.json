@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 172
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/infiltrador-de-wynlla.png"
+  ],
   "relacoes": [],
   "secoes": [
     {

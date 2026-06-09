@@ -7,7 +7,9 @@
     "livro": "herois-de-arton",
     "pagina": 157
   },
-  "imagens": [],
+  "imagens": [
+    "/distincoes/engenhoqueiro-goblin.png"
+  ],
   "relacoes": [],
   "secoes": [
     {
