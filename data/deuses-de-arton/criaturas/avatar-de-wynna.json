@@ -1,0 +1,75 @@
+{
+  "id": "avatar-de-wynna",
+  "tipo": "criatura",
+  "nome": "Avatar de Wynna",
+  "resumo": "A manifestação de Wynna em Arton: uma maga exuberante de cabelo esverdeado e olhos brilhantes de cores variadas, trajando fitas coloridas unidas por anéis metálicos ou vestidos elaborados.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 227 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "wynna", "rotulo": "Wynna" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Wynna visita Arton com razoável frequência. Ela pode ser vista em cerimônias e eventos especiais na Academia Arcana, nas maiores cidades de Wynlla e também na capital Valkaria — onde tem seu próprio camarote na luxuriosa casa de espetáculos Canção das Deusas. A Deusa da Magia se manifesta como uma maga exuberante de cabelo esverdeado e olhos brilhantes de cores variadas, diferentes a cada vez que são observados. Muitas vezes era representada trajando fitas coloridas unidas por anéis metálicos, que adornam escassamente seu corpo, mas tem sido mais comum vê-la em vestidos elaborados.\n\nPor sua vaidade, é raro que Wynna utilize outra aparência. Quando deseja passar despercebida, contudo, surge como uma bruxa em sua vassoura, um humano ilusionista gordo e bonachão, um jovem mago de chapéu pontudo ou outro conjurador arquetípico. Também houve vezes em que tomou emprestada a forma de Nielendorane de Lenórienn, arquimaga élfica lendária hoje residindo em seu reino divino.\n\nBelo Presente: A adaga empregada pelo Avatar de Wynna é mais um símbolo — e um poderoso amplificador mágico — do que uma arma. Ela conta como um orbe cristalino e uma varinha arcana, e permite que você sustente até três magias ao mesmo tempo. Além disso, ela armazena 20 PM (que são totalmente recuperados ao amanhecer) que podem ser usados apenas para sustentar habilidades mágicas. Artefato."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+26",
+    "percepcao": "+24",
+    "defesa": "63, Fort +22, Ref +36, Von +30, imunidade a efeitos mentais e itens mundanos, maior que a morte, redução de dano 10, resistência a magia +5",
+    "fortitude": "+22",
+    "reflexos": "+36",
+    "vontade": "+30",
+    "pontosDeVida": "1800",
+    "deslocamento": "9m (6q), voo 12m (9q)",
+    "ataques": [
+      "Corpo a Corpo Belo Presente +54 (1d4+11)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "8",
+      "constituicao": "6",
+      "inteligencia": "15",
+      "sabedoria": "6",
+      "carisma": "19"
+    },
+    "habilidades": [
+      {
+        "nome": "Carícia Mágica (Padrão)",
+        "descricao": "O Avatar de Wynna pode abençoar uma criatura em alcance curto. A criatura aprende e pode lançar uma magia qualquer de 1º círculo, à escolha do Avatar (atributo-chave escolhido pela criatura entre Inteligência e Carisma)."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia como um conjurador de 20º nível sem gastar PM (CD 55, limite de PM 30)."
+      },
+      {
+        "nome": "Conjuração Tríplice (Completa)",
+        "descricao": "O Avatar lança três magias de escolas e círculos diferentes que tenham tempo de conjuração de uma ação padrão ou menor."
+      },
+      {
+        "nome": "Metamagia Suprema (Reação)",
+        "descricao": "Uma vez por rodada, quando uma magia é lançada a partir de um ponto em alcance longo, o Avatar pode alterar algumas de suas características. Ele pode mudar o tipo de dano da magia, pode escolher se o dano será letal ou não letal e pode mudar o tipo de teste de resistência dela."
+      },
+      {
+        "nome": "Sem Atalhos (Completa)",
+        "descricao": "O Avatar dissipa todos os itens mágicos permanentes em alcance curto. Para cada item dissipado dessa forma, seu portador aprende uma magia de 1º círculo, arcana ou divina, à escolha do Avatar (atributo-chave escolhido pelo portador entre Inteligência e Carisma)."
+      },
+      {
+        "nome": "Visão da Magia",
+        "descricao": "O Avatar está sempre sob efeito de Visão Mística, com todos os aprimoramentos."
+      },
+      {
+        "nome": "Vivificar Magia (Reação)",
+        "descricao": "Uma vez por rodada, o Avatar pode anular uma magia lançada em alcance médio. No início do próximo turno do Avatar, essa magia se torna um capanga feitiço vivo que surge em um ponto à escolha do Avatar entre ele e a fonte da magia original. Um feitiço vivo tem Defesa 20, 1 PV, é imune a dano e falha automaticamente em qualquer teste de resistência ou oposto. O Avatar pode gastar uma ação de movimento para fazer todos os feitiços vivos andarem (eles têm deslocamento de voo 12m) ou para dissipá-los. Para cada feitiço vivo que se dissipa dessa forma, o Avatar lança a magia da qual o feitiço se originou (usando suas próprias características), tendo como ponto de origem o espaço onde o feitiço estava quando foi dissipado."
+      }
+    ],
+    "pericias": "Atuação +37, Diplomacia +37, Misticismo +41.",
+    "equipamento": "Belo Presente (adaga; conta como orbe cristalino e varinha arcana; permite sustentar até 3 magias ao mesmo tempo; armazena 20 PM recuperados ao amanhecer, usáveis apenas para sustentar habilidades mágicas. Artefato).",
+    "tesouro": "Nenhum.",
+    "tema": "Deuses & Avatares"
+  }
+}

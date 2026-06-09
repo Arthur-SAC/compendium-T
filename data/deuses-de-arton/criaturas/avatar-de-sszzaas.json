@@ -1,0 +1,74 @@
+{
+  "id": "avatar-de-sszzaas",
+  "tipo": "criatura",
+  "nome": "Avatar de Sszzaas",
+  "resumo": "A manifestação do Deus da Traição em Arton: assume formas variadas — conselheiro educado, viúva rica, menestrel fofoqueiro — carregando sempre a adaga de lâmina negra Inoculadora; quando deseja ser reconhecido, surge como imensa serpente de cinco olhos ou homem esguio de face encoberta em sombras.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 203 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "sszzaas", "rotulo": "Sszzaas" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Normalmente, Sszzaas não quer ser reconhecido. Para isso, assume formas diferentes — pode ser um conselheiro educado de fala mansa, uma viúva rica precisando de ajuda, um menestrel de língua afiada e fofoqueiro… O único ponto em comum de todas as formas é que elas carregam uma adaga mágica de lâmina negra, a Inoculadora. Já quando deseja ser reconhecido, Sszzaas surge na forma de uma imensa serpente com cinco olhos ou de um homem alto e esguio, de cabelos longos e face encoberta em sombras, exceto por seus cinco olhos brilhantes.\n\nA Inoculadora é a arma mágica do próprio Sszzaas. Esta arma de lâmina completamente negra é uma adaga precisa assassina magnífica venenosa. A lâmina está sempre carregada com uma dose de qualquer veneno conhecido pelo portador. Ele pode trocar esse veneno por outro conhecido com uma ação de movimento. Artefato."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+34",
+    "percepcao": "+30",
+    "sentidos": "visão no escuro",
+    "defesa": "59, Fort +26, Ref +30, Von +33, evasão aprimorada, imunidade a veneno, maior que a morte, não pode ser flanqueado ou surpreendido, redução de dano 10",
+    "pontosDeVida": "1.007",
+    "deslocamento": "12m (9q)",
+    "ataques": [
+      "Corpo a Corpo Inoculadora +52 (1d4+31, 15/x4, mais veneno).",
+      "Ataque Furtivo +10d8."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "14",
+      "constituicao": "6",
+      "inteligencia": "20",
+      "sabedoria": "10",
+      "carisma": "17"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Sszzaas pode lançar qualquer magia divina, ou magia arcana de ilusão, como um clérigo de 19º nível sem gastar PM (CD 49, limite de PM 20) usando apenas concentração (veja Magia Discreta em Tormenta20, p. 131). Outros personagens só percebem que ele lançou uma magia se passarem num teste de Misticismo (CD 40)."
+      },
+      {
+        "nome": "Falso Amigo",
+        "descricao": "Quando usa Disfarce Ilusório para mudar a própria aparência, o Avatar recebe um bônus adicional de +10 nos testes de Enganação. Alternativamente, se você tiver o suplemento Ameaças de Arton, ele pode agir como um falso amigo mestre de qualquer tipo (p. 327)."
+      },
+      {
+        "nome": "Manto do Traidor",
+        "descricao": "O Avatar pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para –5."
+      },
+      {
+        "nome": "Reviravolta",
+        "descricao": "O alvo do primeiro ataque do Avatar em cada cena é considerado desprevenido."
+      },
+      {
+        "nome": "Senhor da Intriga",
+        "descricao": "Quando faz um teste de uma perícia baseada em Inteligência ou Carisma, o Avatar rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Trocar de Pele (Reação)",
+        "descricao": "Uma vez por rodada, ao ser alvo de um efeito hostil, o Avatar pode trocar de lugar com uma criatura em alcance médio (Von CD 49 evita). A criatura trocada passa a ser o novo alvo da ação."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha anciã (perde 3d12 pontos de vida por rodada durante 3 rodadas, ignora imunidade a veneno, Fort CD 49 reduz a duração para 1 rodada)."
+      }
+    ],
+    "pericias": "Acrobacia +31, Conhecimento +40, Diplomacia +34, Enganação +37, Furtividade +31, Intuição +30, Investigação +37, Ladinagem +31, Misticismo +37, Ofício (alquimista) +37.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Inoculadora.",
+    "tema": "Deuses & Avatares"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "avatar-de-oceano",
+  "tipo": "criatura",
+  "nome": "Avatar do Oceano",
+  "resumo": "A manifestação do Deus dos Mares: um galante elfo-do-mar ricamente ornamentado com tesouros de naufrágios, portando o imenso tridente Dente do Leviatã, capaz de invocar tempestades e transformar-se em monstro marinho colossal.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 199 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "oceano", "rotulo": "Oceano" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando ainda decidia visitar o mundo material, Oceano adotava a aparência de um galante elfo-do-mar, ricamente ornamentado com tesouros de naufrágios — dizem, como forma de ostentar que riquezas perdidas em seus domínios jamais serão retornadas. Para aqueles dispostos a desafiá-lo, exibia o tridente imenso, uma das armas mais impressionantes entre aquelas portadas pelos deuses.\n\nConta-se também que, por vezes, Oceano se manifestou como um velho pirata cujo único olho refletia o infinito das profundezas. Ou como um imenso leão-marinho prateado. Ou ainda uma gigantesca água-viva com tentáculos de dezenas de quilômetros, capazes de envolver ilhas inteiras.\n\nDesde seu dramático sumiço, contudo, o avatar do Oceano ainda não voltou a ser visto. Caso isso aconteça, dependendo de suas motivações, talvez o deus decida eliminar quaisquer testemunhas para preservar seu segredo..."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+34",
+    "percepcao": "+28, percepção às cegas (longo)",
+    "defesa": "65, imunidade a acertos críticos, fogo, frio, queda e precipitações (Tormenta20, p. 267), redução de dano 20",
+    "fortitude": "+36",
+    "reflexos": "+30",
+    "vontade": "+22",
+    "pontosDeVida": "2500",
+    "deslocamento": "12m (8q), natação 36m (24q)",
+    "ataques": [
+      "Corpo a Corpo Dente do Leviatã x4 +58 (4d8+50, mais 4d12 frio).",
+      "À Distância Jato d'água x6 +58 (2d12+35 impacto mais 2d12 frio, alcance longo)."
+    ],
+    "atributos": {
+      "forca": "12",
+      "destreza": "8",
+      "constituicao": "16",
+      "inteligencia": "8",
+      "sabedoria": "12",
+      "carisma": "8"
+    },
+    "habilidades": [
+      {
+        "nome": "Caçador Submarino",
+        "descricao": "Quando faz um teste de perícia em um ambiente aquático, o Avatar do Oceano rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 51, limite de PM 20). Se estiver em terreno aquático, o custo de suas magias é reduzido em –4 PM e a CD para resistir a elas aumenta em +4."
+      },
+      {
+        "nome": "Dominar as Tempestades (Completa)",
+        "descricao": "O Avatar pode alterar o clima em uma esfera de 2 km ao seu redor (como o efeito básico da magia Controlar o Clima)."
+      },
+      {
+        "nome": "Forma Animal (Completa)",
+        "descricao": "O Avatar adquire a forma de um monstro marinho gigantesco. Ele recebe +5 em Força e na Defesa, seu ataque corpo a corpo muda para mordida +58 (4d12+25) e pancada x8 +54 (4d12+20) e seu tamanho muda para Colossal. Nessa forma, ele não pode falar, mas pode lançar magias."
+      },
+      {
+        "nome": "Golpe Tempestuoso (Livre)",
+        "descricao": "Uma criatura atingida por um ataque corpo a corpo do Avatar é empurrada 1,5m para cada 5 pontos de dano que sofrer (Fort CD 51 evita)."
+      },
+      {
+        "nome": "Mar em Fúria (Completa)",
+        "descricao": "Se estiver no mar, o Avatar invoca um maremoto em uma esfera de 30m de raio. Criaturas nessa área sofrem 15d10 pontos de dano, metade frio e metade impacto, e são tragadas para dentro do mar (Fort CD 51 reduz à metade e evita ser tragado). Uma criatura tragada afunda 1,5m para cada 5 pontos de dano sofrido. Recarga (movimento)."
+      },
+      {
+        "nome": "Onda Colossal (Completa)",
+        "descricao": "O Avatar inunda uma esfera com 15m de raio em alcance médio de uma fonte de água salgada em alcance longo. A área se torna um corpo de água salgada que conta como terreno difícil para criaturas sem deslocamento de natação."
+      },
+      {
+        "nome": "Voz das Marés",
+        "descricao": "O Avatar pode falar com animais, espíritos, humanoides e monstros marinhos (como o efeito da magia Voz Divina)."
+      }
+    ],
+    "pericias": "Adestramento +34, Atletismo +33, Diplomacia +29, Intimidação +29, Religião +33, Sobrevivência +38.",
+    "tesouro": "Dobro.",
+    "equipamento": "Dente do Leviatã.",
+    "tema": "Deuses & Avatares"
+  }
+}

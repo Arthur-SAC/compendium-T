@@ -1,0 +1,66 @@
+{
+  "id": "avatar-de-allihanna",
+  "tipo": "criatura",
+  "nome": "Avatar de Allihanna",
+  "resumo": "Uma fera quimérica enorme de muitas cabeças que pode assumir a forma de qualquer animal natural — sempre em versão maior e majestosa — ou aparecer como uma dama em vestes rústicas com cabeça de animal, manifestação da Deusa da Natureza em Arton.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 155 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "allihanna", "rotulo": "Allihanna" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Allihanna talvez seja a divindade mais variada em sua forma de avatar. Ainda que mais conhecida como uma fera quimérica de muitas cabeças (sua forma preferida quando espera entrar em combate), ela pode se manifestar como qualquer animal natural — sempre em versão maior e mais majestosa, embora também consiga passar despercebida como um espécime comum.\n\nA deusa também costuma surgir como uma dama trajada em vestes rústicas, campestres, com cabeça de animal. Dizem que o tipo de animal é escolhido conforme seu estado de espírito: um cervo quando está tranquila, um búfalo ou leão quando zangada, um pássaro ou macaco quando curiosa e assim por diante. Também há relatos sobre Allihanna se manifestar como uma dríade ou um sátiro, principalmente ao lidar com aventureiros.\n\nEm quase todos os casos, Allihanna prefere se comunicar através de uma linguagem especial sem palavras, usando apenas sons e cheiros da natureza."
+    }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Espírito",
+    "tamanho": "Enorme",
+    "iniciativa": "+26",
+    "percepcao": "+32, faro, visão no escuro",
+    "defesa": "61, não pode ser flanqueado, maior que a morte, redução de dano 20, resistência a magia +5",
+    "fortitude": "+20",
+    "reflexos": "+34",
+    "vontade": "+28",
+    "pontosDeVida": "1200",
+    "deslocamento": "15m (10q), escalada 15m (6q), escavação 15m (10q), natação 15m (10q), voo 15m (10q), sem redução por terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Arsenal natural x4 +54 (especial)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "8",
+      "constituicao": "10",
+      "inteligencia": "7",
+      "sabedoria": "14",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Arsenal Natural",
+        "descricao": "Quando faz cada um de seus ataques de Arsenal Natural, o Avatar de Allihanna escolhe uma das armas naturais a seguir. Ele pode escolher a mesma arma múltiplas vezes.\n• Cauda. Dano 8d12+29, alcance 6m.\n• Chifres. Dano 10d10+24, ignora 10 pontos de redução de dano do alvo.\n• Garra. Dano 6d12+31, 19, caso acerte dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 4d12 pontos de dano.\n• Mordida. Dano 8d12+28, x3, caso acerte, pode fazer a manobra derrubar como uma ação livre (teste +59).\n• Tentáculo. Dano 6d10+39, caso acerte, pode fazer a manobra agarrar como uma ação livre (teste +59)."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 49, limite de PM 20). Se estiver em terreno natural, o custo das magias do Avatar é reduzido em –4 PM e a CD para resistir a elas aumenta em +4."
+      },
+      {
+        "nome": "Deusa dos Animais (Padrão)",
+        "descricao": "Cada animal em alcance médio deve fazer um teste de Vontade (CD 49). Se falhar, fica sob controle do Avatar até o fim da cena. Se o animal for um parceiro, em vez disso o personagem que ele segue faz um teste de Adestramento (CD 40) para evitar o controle. Animais sob controle do Avatar funcionam como parceiros (se um animal não tiver um tipo de parceiro definido, o mestre escolhe o mais adequado), não contam em seu limite de parceiros e seus benefícios são cumulativos."
+      },
+      {
+        "nome": "Forma Natural (Completa)",
+        "descricao": "O Avatar assume a forma de um animal ou planta a sua escolha de tamanho entre Pequeno e Enorme. Ele recebe +10 em testes de Enganação para se passar por essa criatura, mas seu Arsenal Natural fica limitado às armas compatíveis com a forma escolhida. Suas demais estatísticas não mudam."
+      },
+      {
+        "nome": "Voz da Natureza",
+        "descricao": "O Avatar pode falar com animais (como o efeito da magia Voz Divina)."
+      }
+    ],
+    "pericias": "Adestramento +41, Atletismo +26, Furtividade +26, Intimidação +28, Intuição +32, Misticismo +25, Religião +32, Sobrevivência +35.",
+    "tesouro": "Nenhum.",
+    "tema": "Deuses & Avatares"
+  }
+}

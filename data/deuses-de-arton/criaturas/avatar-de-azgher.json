@@ -1,0 +1,72 @@
+{
+  "id": "avatar-de-azgher",
+  "tipo": "criatura",
+  "nome": "Avatar de Azgher",
+  "resumo": "Um guerreiro do deserto trajando couraça branca e máscara dourada, empunhando armas flamejantes e portando a visão absoluta que alcança todos os cantos de Arton — a manifestação do onisciente Deus-Sol.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 163 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "azgher", "rotulo": "Azgher" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Viajantes planares experientes afirmam que o astro-rei visto nos céus de Arton não é realmente Azgher, mas seu reino divino, Solaris, distante no firmamento. A maioria dos devotos, contudo, não acredita existir diferença.\n\nEventos que façam Azgher manifestar um avatar em Arton são mais frequentes do que se pensa — grandes festivais em sua honra podem fazê-lo se sentir obrigado a enviar um representante. Ele costuma usar a aparência tradicional de um guerreiro do deserto, sempre trazendo sua espada ou outro item flamejante nas mãos. Também usa algum tipo de máscara, para proteger os mortais de sua luz intensa. Em outros sentidos, lembra muito um beduíno comum, não se furtando de comer e beber durante as festividades.\n\nNão há notícias de que Azgher tenha se manifestado com qualquer outra aparência; encobrir-se com disfarces é contra a sua natureza. Ainda assim, existem lendas sobre uma feiticeira qareen tão radiante e poderosa que não poderia ser qualquer outra coisa, exceto um avatar do Deus-Sol.\n\nItens — As Armas do Sol:\n• Labareda. A arma principal do Avatar de Azgher é uma cimitarra atroz precisa ameaçadora anticriatura (morto-vivo) magnífica que causa +6d6 pontos de dano de fogo. Artefato.\n• Mensageiro do Deserto. Este arco curto magnífico veloz causa 6d6 pontos de dano de fogo a todas as criaturas a até 6m do alvo. Artefato.\n• Raio de Sol. Uma lança de arremesso energética magnífica que causa +2d12 pontos de dano de luz e deixa o alvo ofuscado. Artefato."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+25",
+    "percepcao": "+40, percepção às cegas (ilimitado)",
+    "defesa": "58, evasão aprimorada, imunidade a dano de luz, fogo e trevas, maior que a morte, redução de dano 20, resistência a magia +5",
+    "fortitude": "+36",
+    "reflexos": "+25",
+    "vontade": "+33",
+    "pontosDeVida": "2752",
+    "deslocamento": "18m (12q), sem redução por terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Labareda x2 +58 (3d6+38, 15/x3, mais 6d6 fogo) e Raio de Sol x2 +58 (4d8+38 mais 2d12 luz).",
+      "À Distância Mensageiro do Deserto x2 +58 (4d12+45 mais 6d6 fogo em todas as criaturas a até 6m do alvo)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "7",
+      "constituicao": "10",
+      "inteligencia": "10",
+      "sabedoria": "14",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Aquele-que-Tudo-Vê",
+        "descricao": "O Avatar de Azgher está sempre sob efeito de Visão da Verdade, com todos os aprimoramentos."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar lança qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 52, limite de PM 20) e pode lançar Cólera de Azgher uma vez por rodada como uma ação livre."
+      },
+      {
+        "nome": "Escaramuça Vigilante",
+        "descricao": "Quando se move 6m ou mais, o Avatar recebe +10 na Defesa e em Reflexos, e +3d8 nas rolagens de dano até o início do seu próximo turno. Além disso, pode fazer um ataque com Raio de Sol contra qualquer inimigo que saia do seu alcance."
+      },
+      {
+        "nome": "Presença Calorosa",
+        "descricao": "No início do turno do Avatar, criaturas à escolha dele em um raio de 30m sofrem 3d6 pontos de dano de fogo. Esse dano só pode ser curado fora dessa área. Metabolismo."
+      },
+      {
+        "nome": "Tempestade Solar (Completa)",
+        "descricao": "Todas as criaturas em uma esfera de 6m em alcance médio sofrem 100 pontos de dano de essência, todas as magias na área são automaticamente dissipadas e todos os itens mágicos na área, exceto artefatos, viram itens mundanos até o fim da cena (Fort CD 55 reduz à metade e evita o efeito sobre suas magias e itens mágicos). Recarga (movimento)."
+      },
+      {
+        "nome": "Todo Ouro Pertence a Azgher (Padrão)",
+        "descricao": "O Avatar absorve todo o ouro em um raio de 30m. Isso inclui tibares de ouro, itens banhados a ouro e quaisquer outros itens de ouro a critério do mestre (Ref CD 52 evita que seus itens sejam absorvidos, mas atrai a ira do Avatar)."
+      }
+    ],
+    "pericias": "Acrobacia +25, Diplomacia +31, Intimidação +31, Intuição +35, Misticismo +31, Religião +40, Sobrevivência +35.",
+    "equipamento": "Labareda, Mensageiro do Deserto e Raio de Sol.",
+    "tesouro": "Nenhum.",
+    "tema": "Deuses & Avatares"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "avatar-de-lena",
+  "tipo": "criatura",
+  "nome": "Avatar de Lena",
+  "resumo": "A manifestação da Deusa da Vida em Arton: outrora uma menina de 9 anos simbolizando a pureza da infância, hoje surge como uma mulher humana sorridente de formas generosas, exalando maternidade — mudança atribuída à ascensão de Aharadak.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 179 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "lena", "rotulo": "Lena" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Por muito tempo, dizia-se que Lena visitava Arton como uma menina de 9 anos. Muitas escrituras, de fato, a tratam por Deusa Criança — sua aparência de pouca idade relacionada à pureza da infância, a novas vidas. Várias histórias também mencionam que a deusa teria chorado em momentos de tragédia, ou que teria atuado como uma menina protegida de perigos por heróis. Ou outros deuses.\n\nEm tempos recentes, contudo (mais exatamente, desde a ascensão de Aharadak), Lena não tem sido vista assim. Ela agora surge como uma mulher humana sorridente, de formas generosas, exalando maternidade. Alguns dizem ser uma maneira de mostrar sua força plena. Para outros, essa sempre foi sua forma real, sendo a Deusa Criança apenas uma face secundária.\n\nDizem que Lena pode surgir sem aviso para auxiliar em partos difíceis, abençoar o nascimento de pessoas destinadas a grandes feitos ou ainda curar campeões em missões de grande importância."
+    }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+22",
+    "percepcao": "+34, visão no escuro",
+    "defesa": "59, cura acelerada 20, imunidade a cansaço, efeitos de metabolismo, medo, necromancia e trevas, redução de dano 20",
+    "fortitude": "+28",
+    "reflexos": "+20",
+    "vontade": "+34",
+    "pontosDeVida": "900",
+    "deslocamento": "12m (8q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "6",
+      "destreza": "6",
+      "constituicao": "12",
+      "inteligencia": "8",
+      "sabedoria": "18",
+      "carisma": "14"
+    },
+    "habilidades": [
+      {
+        "nome": "Abençoar a Chegada",
+        "descricao": "Se o Avatar de Lena estiver presente durante o nascimento de uma criatura, o parto transcorre sem nenhum problema. Além disso, ela chega a Arton sob as bênçãos de saúde e graça da deusa e recebe +1 em Constituição e Carisma."
+      },
+      {
+        "nome": "Aura de Vida",
+        "descricao": "O Avatar emite uma aura de luz de 30m. No início de cada turno dele, todas as criaturas nessa área curam 50 PV."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar lança qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 51, limite de PM 40). Ele jamais usa magias que causam dano ou perda de PV, nem magias que aumentem o dano letal de seus aliados."
+      },
+      {
+        "nome": "Transferir Vitalidade (Livre)",
+        "descricao": "Uma vez por rodada, o Avatar gasta qualquer quantidade dos seus pontos de vida para curar dano ou condições de criaturas em alcance curto, à taxa de 1 PV por 1 ponto de vida curado ou 3 PV por condição removida, entre abalado, apavorado, alquebrado, atordoado, cego, confuso, debilitado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, ofuscado, pasmo, sangrando, surdo ou vulnerável."
+      }
+    ],
+    "pericias": "Cura +39, Diplomacia +35, Intuição +34, Misticismo +26, Religião +39.",
+    "tesouro": "Nenhum.",
+    "equipamento": "",
+    "tema": "Deuses & Avatares"
+  }
+}
