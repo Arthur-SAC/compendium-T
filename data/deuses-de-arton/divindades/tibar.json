@@ -1,0 +1,37 @@
+{
+  "id": "tibar",
+  "tipo": "divindade",
+  "nome": "Tibar, o Deus do Comércio",
+  "resumo": "Mortal ascendido, ex-conselheiro real Quindogar Tolliannor que criou a moeda padrão de Arton e ascendeu a deus do comércio; sua face é a mesma cunhada nas moedas de prata, cobre e ouro do Reinado.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Realizar negócios. Completar transações comerciais. Incentivar a troca de bens e mercadorias. Criar e proteger caravanas comerciais. Vender e comprar itens. Fomentar a prosperidade.",
+    "simboloSagrado": "Um tibar (moeda de prata com 1,5cm de diâmetro).",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Não há. Devotos deste deus não podem usar a magia Arma Espiritual e similares.",
+    "devotos": "Anões, elfos, golens, hynne, kallyanach, kliren, minotauros, nagahs, qareen, arcanistas, bardos, bucaneiros, caçadores, guerreiros, inventores, nobres.",
+    "poderesConcedidos": [
+      "Incentivador da Economia"
+    ],
+    "obrigacoesRestricoes": "Um devoto de Tibar nunca pode deixar de comercializar! Ele sempre deve barganhar em qualquer transação financeira de que participar e, uma vez a cada semana, deve gastar pelo menos T$ 50 por patamar em itens ou serviços."
+  },
+  "secoes": [
+    {
+      "titulo": "Historia",
+      "texto": "Cerca de 400 anos atrás, para facilitar o comércio e regulamentar os valores de cada mercadoria, foi cunhada uma moeda de prata com 1,5cm de diâmetro. A moeda tinha, numa face, o retrato de um rei com uma coroa. Na outra, o mesmo rei, mas sem a coroa. Essa moeda foi criada por um humano chamado Quindogar Tolliannor, o primeiro conselheiro real de Deheon e grande adepto das artes da barganha e negociação. Tal moeda foi batizada de tibar e ficou tão popular tão rapidamente que seu criador começou a ser chamado pelo mesmo nome. Com o tempo, Quindogar ascendeu a Deus do Comércio, com o nome Tibar. Não se sabe mais como era a aparência original de Tibar, pois a crença dos fiéis foi tanta que hoje sua face é a mesma cunhada nas moedas de prata, cobre e ouro que circulam por todo o Reinado e além. Devotos do Deus do Comércio levam consigo sempre uma moeda de tibar, normalmente usada como um medalhão ao redor do pescoço. Alguns não devotos também costumam carregar uma moeda dessa forma, pois acredita-se que fazê-lo atrai a prosperidade financeira. Embora possa não parecer, Tibar é um deus poderoso. Toda e qualquer troca, seja um escambo, seja uma transação financeira, é domínio de Tibar e portanto uma forma de cultuá-lo."
+    },
+    {
+      "titulo": "Natureza e Status",
+      "texto": "Mortal ascendido, status divino 5."
+    },
+    {
+      "titulo": "Poder Concedido: Incentivador da Economia",
+      "texto": "A cada T$ 50 x seu nível que gastar em uma aventura, você recebe +1 PM cumulativo até o fim da aventura."
+    }
+  ]
+}

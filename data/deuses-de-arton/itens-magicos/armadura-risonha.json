@@ -1,0 +1,29 @@
+{
+  "id": "armadura-risonha",
+  "tipo": "item-magico",
+  "nome": "A Armadura Risonha",
+  "resumo": "Armadura completa artefato de Nimb, forjada com materiais planares do reino divino Al-Gazara em caos puro, que impõe desvantagem em todos os testes de criaturas próximas, exceto devotos do caos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 246 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "nimb", "rotulo": "Nimb" }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A origem deste artefato temível se confunde com a história de seu mais infame portador.\n\nMuitas décadas atrás, nascia a lenda do Cavaleiro Risonho. Sobre aquele atrás da máscara reluzente, nada se sabia — nome, origem, sequer sua raça. Ainda assim, sua aparência inconfundível e o impacto de suas ações logo o tornariam uma figura temida e fascinante. Trajava uma armadura prateada impecável, tão polida que refletia o mundo ao redor como um espelho distorcido, revestindo o corpo por completo, tornando-o algo mais que um simples mortal.\n\nA característica mais marcante na armadura-espelho era o elmo: uma cabeça humana perfeitamente moldada em metal, congelada em uma gargalhada insana. Cada mecha de cabelo, cada linha facial reproduzida com precisão assustadora. O sorriso fixo em permanente escárnio tornava o Cavaleiro Risonho um arauto do Caos, um reflexo cruel da loucura humana. Quando falava, a voz ecoava distorcida e enigmática, como se viesse de outro mundo.\n\nAs motivações do Cavaleiro Risonho eram tão incertas quanto sua identidade, mas muitos o consideravam um anarquista. Buscava perverter a nobreza e as instituições, pouco importando quantas vidas arruinava (ou encerrava). Semeava o caos, especialmente em famílias tradicionais, mas usando seus próprios métodos: era um exímio guerreiro, ótimo ginete, experiente em justas (saiu invicto em pelo menos um torneio importante em Bielefeld), além de habilidoso dançarino e sedutor.\n\nOnde houvesse tradição e ordem, o Cavaleiro Risonho podia atacar. Alguns poderiam vê-lo como um justiceiro do povo, mas estariam errados: nobres arrogantes ou opressores não eram suas únicas ou mesmo principais vítimas; qualquer infeliz em seu caminho podia acabar em desgraça. O louco cruel parecia ter compulsão por \"brincar\" com seus alvos, às vezes prestando alguma ajuda ou até deixando pistas para aqueles que ousavam caçá-lo.\n\nMais tarde, os aventureiros Ingram Brassbones e Zebediah Nash confirmariam o óbvio: o Cavaleiro Risonho era servo de Nimb e sua Armadura Risonha, um artefato lendário do Deus do Caos. Mais que simples proteção corporal, a couraça fora forjada com materiais planares encontrados no reino divino de Al-Gazara, sendo feita de caos puro! Concedida a grandes campeões de Nimb (ou a seus oponentes, ou a ambos...), transforma qualquer batalha em um espetáculo de loucura, instigando aqueles por perto a sucumbir ao caos."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "A Armadura Risonha é uma armadura completa guardiã reluzente que não restringe os movimentos do usuário — ele é considerado sem armadura e sob efeito de Libertação (Tormenta20, p. 196). Além disso, gera um efeito de caos e aleatoriedade. Sempre que uma criatura em alcance curto fizer um teste, deve rolar 2d20 e usar o pior resultado. A exceção são devotos de Nimb, Hyninn e outras criaturas especialmente caóticas (a critério do mestre); essas também rolam 2d20, mas usam o melhor resultado! Ao contrário do que alguns pensam, a armadura não afeta a mente ou as ações de seu usuário. Apenas torna o caos atraente.\n\nQuando encontrada, às vezes a armadura pode ser acompanhada por um escudo pesado guardião refletor. O encanto refletor não consome PM para ser utilizado (mas continua podendo ser usado apenas uma vez por rodada)."
+    },
+    {
+      "titulo": "Destino",
+      "texto": "Boatos dizem que o Cavaleiro Risonho original jaz morto, mas que hoje haveria outro campeão do Caos usando a armadura e cavalgando por Arton desafiando todo tipo de ordem e autoridade. Seria um grande vilão… Ou não."
+    }
+  ]
+}

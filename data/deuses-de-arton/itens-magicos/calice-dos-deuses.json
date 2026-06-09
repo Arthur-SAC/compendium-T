@@ -1,0 +1,25 @@
+{
+  "id": "calice-dos-deuses",
+  "tipo": "item-magico",
+  "nome": "O Cálice dos Deuses",
+  "resumo": "Cálice de metal de origem divina adornado com motivos do antigo Panteão, que transforma qualquer líquido em essência heroica, conferindo grandes bônus por 24 horas mas impondo imprudência extrema ao usuário.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 246 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "valkaria", "rotulo": "Valkaria" }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Moldado em metal reluzente de origem incerta (mas provavelmente extraído das montanhas planares de algum reino divino), este cálice tem superfícies adornadas com motivos intricados que representam as divindades do antigo Panteão, incluindo aquelas hoje ausentes: Glórienn, Keenn, Ragnar e Tauron. Embora alguns pontos estejam amassados e desgastados pelo tempo, tais imperfeições não diminuem seu esplendor. Pelo contrário, tornam-no ainda mais admirável, como se tivesse testemunhado eras de batalhas, celebrações e milagres.\n\nA origem do Cálice dos Deuses é desconhecida. Alguns acreditam que foi forjado por mãos divinas para inspirar heróis mortais em momentos críticos da história. Outros sugerem que habilidosos clérigos e magos criaram o artefato, desejando que sua magia fosse um catalisador para grandes feitos. Mas existem aqueles que acreditam que apenas Valkaria poderia produzir algo capaz de inspirar iguais quantidades de bravura e imprudência! De qualquer forma, uma verdade parece inegável: o cálice existe para moldar lendas, elevar mortais ao status de heróis, incitar ações dignas de canções e memórias eternas."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "O poder do cálice é ativado quando qualquer líquido é despejado em seu interior. Seja água simples ou o mais tóxico veneno (mas preferencialmente hidromel, a bebida dos heróis), seu conteúdo será transformado em uma versão límpida, potável e mágica da substância original. Assim, o cálice não apenas purifica e anula bebidas prejudiciais, mas também infunde coragem e ímpeto heroico em quem bebe de sua essência.\n\nAqueles que provam o licor abençoado pelo cálice recebem os seguintes benefícios:\n\n• +5 em todos os testes e rolagens de dano.\n• 50 pontos de vida temporários.\n• 20 pontos de mana temporários.\n• Imunidade a medo.\n\nOs efeitos duram 24 horas, acumulam-se com quaisquer outros efeitos de itens e não podem ser encerrados nem suprimidos. Contudo, trazem consigo um preço: aqueles que bebem do Cálice dos Deuses são tomados por confiança desmedida. Consideram-se invencíveis, levados a agir com entusiasmo, otimismo e imprudência extremos, ansiando por ação e aventura! Em termos de jogo, enquanto está sob efeito do Cálice, um personagem não pode usar Furtividade, preparar ações ou escolher 10 ou 20 em testes."
+    }
+  ]
+}
