@@ -3,8 +3,13 @@
   "tipo": "classe",
   "nome": "Frade",
   "resumo": "Conjurador divino focado em suporte, cura e conhecimento. Similar ao clérigo, mas prefere mantos esvoaçantes e poder mágico superior ao combate direto — um tipo de arcanista divino, conhecido em alguns círculos como 'mago sagrado'.",
-  "fonte": { "livro": "deuses-de-arton", "pagina": 38 },
-  "imagens": [],
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 38
+  },
+  "imagens": [
+    "/classes/frade.png"
+  ],
   "secoes": [
     {
       "titulo": "Descrição",
@@ -31,7 +36,10 @@
     "pmPorNivel": 6,
     "pericias": {
       "quantidade": 4,
-      "fixas": ["Religião (Sab)", "Vontade (Sab)"],
+      "fixas": [
+        "Religião (Sab)",
+        "Vontade (Sab)"
+      ],
       "lista": [
         "Adestramento (Car)",
         "Atuação (Car)",
@@ -53,26 +61,135 @@
     },
     "proficiencias": [],
     "progressao": [
-      { "nivel": 1,  "habilidades": ["Devoto fiel", "Erudição", "Magias (1º círculo)"] },
-      { "nivel": 2,  "habilidades": ["Poder de frade", "Versiculário"] },
-      { "nivel": 3,  "habilidades": ["Poder de frade"] },
-      { "nivel": 4,  "habilidades": ["Poder de frade"] },
-      { "nivel": 5,  "habilidades": ["Dádiva da fé", "Magias (2º círculo)", "Poder de frade"] },
-      { "nivel": 6,  "habilidades": ["Poder de frade"] },
-      { "nivel": 7,  "habilidades": ["Poder de frade"] },
-      { "nivel": 8,  "habilidades": ["Poder de frade"] },
-      { "nivel": 9,  "habilidades": ["Magias (3º círculo)", "Poder de frade"] },
-      { "nivel": 10, "habilidades": ["Poder de frade"] },
-      { "nivel": 11, "habilidades": ["Poder de frade"] },
-      { "nivel": 12, "habilidades": ["Poder de frade"] },
-      { "nivel": 13, "habilidades": ["Magias (4º círculo)", "Poder de frade"] },
-      { "nivel": 14, "habilidades": ["Poder de frade"] },
-      { "nivel": 15, "habilidades": ["Poder de frade"] },
-      { "nivel": 16, "habilidades": ["Poder de frade"] },
-      { "nivel": 17, "habilidades": ["Magias (5º círculo)", "Poder de frade"] },
-      { "nivel": 18, "habilidades": ["Poder de frade"] },
-      { "nivel": 19, "habilidades": ["Poder de frade"] },
-      { "nivel": 20, "habilidades": ["Poder de frade", "Solo santificado"] }
+      {
+        "nivel": 1,
+        "habilidades": [
+          "Devoto fiel",
+          "Erudição",
+          "Magias (1º círculo)"
+        ]
+      },
+      {
+        "nivel": 2,
+        "habilidades": [
+          "Poder de frade",
+          "Versiculário"
+        ]
+      },
+      {
+        "nivel": 3,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 4,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 5,
+        "habilidades": [
+          "Dádiva da fé",
+          "Magias (2º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 6,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 7,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 8,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 9,
+        "habilidades": [
+          "Magias (3º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 10,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 11,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 12,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 13,
+        "habilidades": [
+          "Magias (4º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 14,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 15,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 16,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 17,
+        "habilidades": [
+          "Magias (5º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 18,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 19,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 20,
+        "habilidades": [
+          "Poder de frade",
+          "Solo santificado"
+        ]
+      }
     ],
     "habilidades": [
       {
@@ -188,46 +305,62 @@
       {
         "nome": "Sacrário da Erudição",
         "descricao": "Quando lançam magias a partir de pergaminhos, você e seus aliados dentro do sacrário recebem +1 PM para gastar em aprimoramentos (mesmo que não conheçam a magia).",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário da Misericórdia",
         "descricao": "No início dos seus turnos, cada criatura a sua escolha dentro do sacrário recupera uma quantidade de PV igual a 5 + sua Sabedoria. Este sacrário tem duração sustentada.",
         "prerequisito": "5º nível de frade",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário da Resiliência",
         "descricao": "Você e seus aliados dentro do sacrário recebem +2 em testes de resistência e na Defesa. Quando cria este sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, o bônus concedido pelo sacrário aumenta em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar).",
         "prerequisito": "5º nível de frade",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário da Solenidade",
         "descricao": "Criaturas dentro da área ficam sob condição terrível para lançar magias e sofrem –2 na Defesa. Quando cria este sacrário você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, a penalidade causada pelo sacrário aumenta em 1 (penalidade máxima limitada pelo círculo máximo de magias que você pode lançar).",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário da Verdade",
         "descricao": "Sempre que uma criatura na área passa em um teste de Acrobacia, Enganação, Furtividade ou Ladinagem, ou acerta um ataque contra uma criatura sob efeito de uma ou mais condições, ela sofre 2d6 pontos de dano psíquico por círculo de magia a que você tem acesso.",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário das Sombras",
         "descricao": "A área do sacrário é coberta por sombras; criaturas dentro dela recebem camuflagem leve e, se forem mortos-vivos, também recebem +2 na Defesa e em testes de perícia.",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário do Compartilhamento",
         "descricao": "Este sacrário tem duração sustentada. Quando lança uma magia de 1º ou 2º círculo que tenha apenas você como alvo, se estiver em alcance curto deste sacrário você pode gastar 2 PM para que um aliado dentro dele receba o efeito básico dessa magia.",
         "prerequisito": "7º nível de frade",
         "custo": "2 PM",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sacrário do Ocaso",
         "descricao": "Este sacrário é criado com 60 pontos de ocaso. No início de seus turnos, o sacrário perde 1d10 pontos de ocaso, e cada criatura dentro dele perde esse valor em PV. A perda de PV aumenta em +1d10 para cada círculo de magia que você possa lançar além do 1º. Quando cria o sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada PM adicional gasto, o sacrário é criado com +20 pontos de ocaso. O sacrário desaparece quando seus pontos de ocaso terminam.",
-        "tags": ["sacrário"]
+        "tags": [
+          "sacrário"
+        ]
       },
       {
         "nome": "Sermão da Celeridade",
