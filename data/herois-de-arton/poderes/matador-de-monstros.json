@@ -1,0 +1,17 @@
+{
+  "id": "matador-de-monstros",
+  "tipo": "poder",
+  "nome": "Matador de Monstros",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "5º nível de personagem",
+    "descricao": "Você recebe +1d10 nas rolagens de dano contra criaturas de tamanho Grande ou maior, e essas criaturas não recebem bônus por tamanho em testes de manobras de combate contra você."
+  }
+}

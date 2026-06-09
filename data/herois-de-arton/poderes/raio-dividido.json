@@ -1,0 +1,17 @@
+{
+  "id": "raio-dividido",
+  "tipo": "poder",
+  "nome": "Raio Dividido",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Raio Arcano, 5º nível de arcanista",
+    "descricao": "Você pode usar Raio Arcano como uma ação completa, em vez de padrão. Se fizer isso, ele afeta um número de alvos igual ao seu atributo-chave."
+  }
+}

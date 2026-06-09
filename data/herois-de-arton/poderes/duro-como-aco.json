@@ -1,0 +1,17 @@
+{
+  "id": "duro-como-aco",
+  "tipo": "poder",
+  "nome": "Duro Como Aço",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão; 11º nível de personagem",
+    "descricao": "Se estiver usando armadura pesada, você pode somar sua Constituição na Defesa. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso. Pré-requisito: 11º nível de personagem."
+  }
+}

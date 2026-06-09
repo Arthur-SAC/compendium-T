@@ -1,0 +1,23 @@
+{
+  "id": "cao-de-briga",
+  "tipo": "origem",
+  "nome": "Cão de Briga",
+  "resumo": "Lutador de torneios clandestinos no submundo do Reinado, brutal e sem glamour, que trocou as lutas ilegais pela vida aventureira.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 48 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nem todas as lutas com plateia envolvem gladiadores glamorosos em coliseus imponentes. Existe no Reinado um vasto submundo de torneios clandestinos, com poucas ou nenhuma regra, muito mais sangrentos. São sediados em tavernas suspeitas, galpões escuros, câmaras de esgotos ou mesmo masmorras, onde capangas armados garantem acesso a um público seleto. Sem carisma suficiente para as grandes arenas, mas com brutalidade de sobra, você foi um desses lutadores. O que teria acontecido para levá-lo a abandonar essa vida, juntando-se a um grupo de aventureiros?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Manoplas ou uma arma marcial.",
+    "beneficios": {
+      "pericias": [],
+      "texto": "Na primeira vez a cada cena em que você faz a ação agredir, pode fazer um ataque extra."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "truque-do-chapeu",
+  "tipo": "poder",
+  "nome": "Truque do Chapéu",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Enganação",
+    "descricao": "Uma vez por rodada, você pode gastar uma ação de movimento para tirar e arremessar um item que esteja vestindo em uma criatura em alcance curto. Se fizer isso, você pode fazer um ataque com uma arma de arremesso, ou arremessar um preparado alquímico ou poção contra ela como parte dessa ação."
+  }
+}

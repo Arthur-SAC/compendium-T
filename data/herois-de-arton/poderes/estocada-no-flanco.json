@@ -1,0 +1,17 @@
+{
+  "id": "estocada-no-flanco",
+  "tipo": "poder",
+  "nome": "Estocada no Flanco",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Cortejo de Espadas",
+    "descricao": "Uma vez por rodada, quando vence um teste oposto para passar por um inimigo, você pode gastar 2 PM para fazer um ataque contra ele. Se você acertar o ataque e causar dano de corte ou perfuração, o inimigo fica sangrando."
+  }
+}

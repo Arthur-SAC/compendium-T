@@ -1,0 +1,17 @@
+{
+  "id": "xadrez-de-batalha",
+  "tipo": "poder",
+  "nome": "Xadrez de Batalha",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "treinado em Guerra",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para analisar um oponente em alcance curto. Se fizer isso, você recebe +2 na Defesa e em testes de Reflexos contra essa criatura até o fim da cena. Esse bônus aumenta em +1 para cada outro poder que você possua que tenha Xadrez de Batalha como pré-requisito."
+  }
+}

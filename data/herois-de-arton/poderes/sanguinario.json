@@ -1,0 +1,16 @@
+{
+  "id": "sanguinario",
+  "tipo": "poder",
+  "nome": "Sanguinário",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "descricao": "Sempre que você causar 10 ou mais pontos de dano em um ou mais inimigos, recebe um bônus cumulativo de +1 em rolagens de dano até o fim da cena (limitado pela sua Força)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "galvanizacao",
+  "tipo": "poder",
+  "nome": "Galvanização",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 70
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "treinado em Ofício (artesão)",
+    "descricao": "Você pode gastar uma ação padrão para adicionar um material especial a um item adequado (isso não conta no limite de melhorias do item e se acumula com outros materiais especiais). O preço do material é reduzido a 5% do normal e você não precisa fazer o teste de Ofício para aplicá-lo, mas ele só dura até o fim da cena."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ajuda-do-amador",
+  "tipo": "poder",
+  "nome": "Ajuda do Amador",
+  "resumo": "Você pode usar qualquer perícia para atrapalhar um inimigo e conceder o bônus de ajuda a aliados com este poder.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 92
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Num bom grupo de aventureiros, nem todos precisam ser combatentes letais. Alguns podem apenas auxiliar em combate, então brilhar em outras áreas. Você pode gastar uma ação padrão e fazer um teste para ajudar, mas para atrapalhar um inimigo em alcance curto, usando qualquer perícia que possa justificar e que seja aprovada pelo mestre. Se fizer isso, seus aliados com este poder aplicam o bônus da ajuda em seus testes de ataque contra esse inimigo por 1 rodada."
+  }
+}

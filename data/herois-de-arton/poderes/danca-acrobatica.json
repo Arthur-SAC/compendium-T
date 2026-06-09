@@ -1,0 +1,16 @@
+{
+  "id": "danca-acrobatica",
+  "tipo": "poder",
+  "nome": "Dança Acrobática",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Você pode substituir testes de Acrobacia por Atuação. Quando você faz isso para passar por um inimigo, ele só pode usar Acrobacia ou Iniciativa no teste oposto."
+  }
+}

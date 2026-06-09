@@ -1,0 +1,17 @@
+{
+  "id": "cortejo-de-espadas",
+  "tipo": "poder",
+  "nome": "Cortejo de Espadas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "treinado em Acrobacia",
+    "descricao": "Quando você faz um teste de Acrobacia para passar por um inimigo, o espaço ocupado por esse inimigo não conta como terreno difícil e ele só pode usar Iniciativa para o teste oposto. Se você vencer esse teste, recebe +2 na Defesa e em Reflexos contra esse inimigo por 1 rodada."
+  }
+}

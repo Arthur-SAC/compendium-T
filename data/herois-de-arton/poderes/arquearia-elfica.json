@@ -1,0 +1,17 @@
+{
+  "id": "arquearia-elfica",
+  "tipo": "poder",
+  "nome": "Arquearia Élfica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Elfo",
+    "descricao": "Para você, todos os arcos são armas simples. Além disso, você recebe +2 nas rolagens de dano com arcos."
+  }
+}

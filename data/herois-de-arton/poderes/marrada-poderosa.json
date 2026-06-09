@@ -1,0 +1,17 @@
+{
+  "id": "marrada-poderosa",
+  "tipo": "poder",
+  "nome": "Marrada Poderosa",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Minotauro, Sátiro",
+    "descricao": "Quando você faz uma investida com seus chifres e acerta o ataque, o dano deles aumenta em um passo e você pode gastar 1 PM para fazer um ataque corpo a corpo desarmado ou com uma arma que esteja empunhando. Esse ataque também recebe o bônus de +2 por investida."
+  }
+}

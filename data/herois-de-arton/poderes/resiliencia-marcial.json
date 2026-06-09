@@ -1,0 +1,17 @@
+{
+  "id": "resiliencia-marcial",
+  "tipo": "poder",
+  "nome": "Resiliência Marcial",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "4º nível de guerreiro",
+    "descricao": "Sempre que sofrer dano letal, você recebe redução de dano 1 cumulativa (limitada pelo seu nível). Esse efeito dura até o fim da cena ou até você recuperar pontos de vida de qualquer forma."
+  }
+}

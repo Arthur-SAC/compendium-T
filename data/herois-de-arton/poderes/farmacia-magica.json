@@ -1,0 +1,17 @@
+{
+  "id": "farmacia-magica",
+  "tipo": "poder",
+  "nome": "Farmácia Mágica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Alquimista Iniciado, Farmacêutico",
+    "descricao": "Você pode usar Farmacêutico em poções de cura."
+  }
+}

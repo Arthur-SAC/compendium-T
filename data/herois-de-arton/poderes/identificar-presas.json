@@ -1,0 +1,16 @@
+{
+  "id": "identificar-presas",
+  "tipo": "poder",
+  "nome": "Identificar Presas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "descricao": "Você pode identificar criaturas como uma ação de movimento. Além disso, se passar nesse teste, para cada informação obtida você recebe +1 em rolagens de dano contra criaturas dessa espécie até o fim da cena."
+  }
+}

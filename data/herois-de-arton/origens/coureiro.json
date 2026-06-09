@@ -1,0 +1,23 @@
+{
+  "id": "coureiro",
+  "tipo": "origem",
+  "nome": "Coureiro",
+  "resumo": "Artesão especializado no tratamento e modelagem de peles e couros, criando armaduras, vestimentas e acessórios essenciais para viajantes, caçadores e nobres.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 50 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você era um artesão especializado no tratamento e modelagem de peles e couros, criando armaduras, roupas, botas e acessórios essenciais para viajantes, caçadores e nobres. Após uma atenta seleção de peles, provenientes de animais comuns ou monstros, vinha o cuidadoso processo de curtição. Você trabalhava o material com precisão, usando facas, agulhas e moldes. Além de vestimentas, também fabricava itens de uso diário como algibeiras, bolsas, selas e cintos, que combinavam durabilidade e estilo. Aquele dia, quando aventureiros trouxeram couro de lagarto-trovão para confeccionar uma armadura, foi desafiador. E também interessante..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Faca de corte (como uma adaga, mas com dano de corte), instrumentos de coureiro, T$ 100 em itens alquímicos.",
+    "beneficios": {
+      "pericias": ["Fortitude", "Ofício (coureiro)"],
+      "texto": "Além disso, pode gastar 10 minutos e T$ 10 para trabalhar em uma armadura de couro (incluindo couro batido, gibão de peles e brunea), aumentar a Defesa dela em +1 e reduzir sua penalidade de armadura em –2 por um dia."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "investida-ricochete",
+  "tipo": "poder",
+  "nome": "Investida Ricochete",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "Bater e Correr, 5º nível de guerreiro",
+    "descricao": "Uma vez por rodada, quando faz uma investida e acerta o ataque, você pode gastar 2 PM para atacar outra criatura que você consiga alcançar como parte dessa investida."
+  }
+}

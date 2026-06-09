@@ -1,0 +1,17 @@
+{
+  "id": "devocao-iluminada",
+  "tipo": "poder",
+  "nome": "Devoção Iluminada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Várias; sensibilidade a luz como habilidade racial, devoto de uma divindade que canalize energia positiva",
+    "descricao": "Você recebe +2 em Vontade, perde a sensibilidade a luz causada por sua raça e não pode mais ser ofuscado. Pré-requisitos: sensibilidade a luz como habilidade racial, devoto de uma divindade que canalize energia positiva."
+  }
+}

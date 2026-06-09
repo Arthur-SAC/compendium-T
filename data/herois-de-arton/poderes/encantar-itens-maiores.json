@@ -1,0 +1,17 @@
+{
+  "id": "encantar-itens-maiores",
+  "tipo": "poder",
+  "nome": "Encantar Itens Maiores",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 5º círculo, Encantar Itens Médios",
+    "descricao": "Como Encantar Itens Menores, mas você pode encantar itens maiores."
+  }
+}

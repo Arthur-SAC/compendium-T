@@ -1,0 +1,50 @@
+{
+  "id": "galokk",
+  "tipo": "raca",
+  "nome": "Galokk",
+  "resumo": "Também chamados de meios-gigantes, galokk não são uma raça ou um povo, mas seres de origem não natural que nascem em famílias humanas e crescem até atingir proporções colossais sob a influência de Megalokk.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 13 },
+  "imagens": ["/racas/galokk.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A Era de Megalokk foi um período de violência e carnificina, dominado por feras colossais. Khalmyr, então líder do Panteão, pôs fim a essa época terrível confinando essas criaturas medonhas a lugares remotos, permitindo à vida natural florescer. Enfurecido pelo domínio dos povos civilizados, o Deus dos Monstros criou os gigantes, raças humanoides, mas monstruosas, que assolam Arton.\n\nGigantes são os humanos de Megalokk. São opostos aos filhos de Valkaria por serem estagnados: não buscam, não evoluem, não ambicionam. A Deusa da Ambição os despreza, não teve nenhuma participação em sua gênese. Ou teve? Xamãs do Deus dos Monstros provocam, gargalham que ele derrotou a deusa em um combate brutal e a forçou a partilhar a humanidade com Megalokk. Devotos de Valkaria renegam tal absurdo, mas a existência dos galokk pode ser evidência de que a Deusa da Ambição teve, sim, algum envolvimento na origem desses monstros.\n\nTambém chamados de meios-gigantes, galokk não são uma raça ou um povo. Não surgem de cruzamentos entre humanos e gigantes, mas de formas não naturais: nascem em famílias humanas, mas crescem muito mais do que o normal. Outros são devotos de Megalokk, recompensados e transformados por aprazê-lo. Outros ainda são vítimas de acidentes alquímicos ou maldições.\n\nApós a manifestação do poder de Megalokk, os galokk podem chegar a três metros de altura, grandes como ogros. Diferente desses, contudo, seus corpos têm proporções humanas, mas são duros feito rocha.\n\nMeios-gigantes raramente encontram lugar em cidades feitas para seres menores. Também não existem em número suficiente para formar suas próprias comunidades. Muitos acabam como capangas, guarda-costas, gladiadores ou soldados. Mas existem aqueles que desafiam suas naturezas e adotam carreiras inesperadas como arcanistas, bardos e inventores. Afinal, galokk são gigantes… mas também humanos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Força", "valor": 1 },
+      { "atributo": "Constituição", "valor": 1 },
+      { "valor": 1, "escolha": true, "observacao": "+1 em um atributo à escolha" },
+      { "atributo": "Carisma", "valor": -1 }
+    ],
+    "tamanho": "Grande",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Força dos Titãs",
+        "descricao": "Quando acerta um ataque corpo a corpo ou de arremesso, você pode gastar 1 PM. Se fizer isso, sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra, até um limite de dados extras igual à sua Força."
+      },
+      {
+        "nome": "Meio-Gigante",
+        "descricao": "Você é uma criatura do tipo humanoide (gigante). Seu tamanho é Grande e você pode usar Força como atributo-chave de Intimidação."
+      },
+      {
+        "nome": "Infância entre os Pequenos",
+        "descricao": "Você se torna treinado em uma perícia a sua escolha."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devoção",
+        "descricao": "Allihanna, Arsenal, Megalokk."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Arsenal, Megalokk"
+  }
+}

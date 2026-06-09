@@ -1,0 +1,18 @@
+{
+  "id": "pirata-oceanico",
+  "tipo": "poder",
+  "nome": "Pirata Oceânico",
+  "resumo": "Sua habilidade Mestre do Tridente passa a afetar também arpões. Você recebe +2 em testes de ataque com todas as armas afetadas por essa habilidade e as considera armas ágeis.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Sereia/Tritão",
+    "descricao": "Sua habilidade Mestre do Tridente passa a afetar também arpões. Além disso, você recebe +2 em testes de ataque com todas as armas afetadas por essa habilidade e as considera armas ágeis."
+  }
+}

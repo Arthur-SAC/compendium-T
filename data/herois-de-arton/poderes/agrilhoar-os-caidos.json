@@ -1,0 +1,17 @@
+{
+  "id": "agrilhoar-os-caidos",
+  "tipo": "poder",
+  "nome": "Agrilhoar os Caídos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "3º nível de arcanista",
+    "descricao": "Quando uma de suas magias de necromancia reduz os PV de um inimigo vivo a 0 ou menos, você pode aprisionar uma parte de seu espírito, que então fica flutuando ao seu redor. Para cada espírito, você recebe +2 na Defesa e em testes de resistência. Quando lança uma magia de dano, você pode libertar um espírito para causar +2d6 pontos de dano de trevas. Você pode acumular um máximo de espíritos simultâneos igual ao seu atributo-chave e eles permanecem ao seu redor até serem libertados ou até o fim do dia."
+  }
+}

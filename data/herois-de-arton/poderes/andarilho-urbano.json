@@ -1,0 +1,16 @@
+{
+  "id": "andarilho-urbano",
+  "tipo": "poder",
+  "nome": "Andarilho Urbano",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Nas tavernas mais sujas e nos becos mais escuros... você está em casa. Se estiver em uma cidade, você recebe +2 na Defesa, em Enganação e em Investigação."
+  }
+}

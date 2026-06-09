@@ -1,0 +1,17 @@
+{
+  "id": "egide-da-fe",
+  "tipo": "poder",
+  "nome": "Égide da Fé",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Escudo da Fé",
+    "descricao": "Quando você lança Escudo da Fé, a magia também fornece 5 PV temporários para cada +1 na Defesa. Esses PV temporários duram até o fim da cena."
+  }
+}

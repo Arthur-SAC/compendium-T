@@ -1,0 +1,17 @@
+{
+  "id": "forma-esqueletica",
+  "tipo": "poder",
+  "nome": "Forma Esquelética",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "druida de Tenebra, Forma Selvagem",
+    "descricao": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma esquelética. Seu tipo muda para morto-vivo e você recebe redução de corte, frio e perfuração 5 e imunidade a efeitos de cansaço, metabólicos e de veneno. Por fim, você sofre dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recupera PV com dano de trevas."
+  }
+}

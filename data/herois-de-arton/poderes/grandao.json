@@ -1,0 +1,17 @@
+{
+  "id": "grandao",
+  "tipo": "poder",
+  "nome": "Grandão",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Con 2",
+    "descricao": "Você conta como uma categoria de tamanho maior para propósitos do modificador de Furtividade e manobras, espaço ocupado e alcance natural. Além disso, sua capacidade de carga aumenta em 5 espaços."
+  }
+}

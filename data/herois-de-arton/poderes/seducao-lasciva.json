@@ -1,0 +1,17 @@
+{
+  "id": "seducao-lasciva",
+  "tipo": "poder",
+  "nome": "Sedução Lasciva",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 1, treinado em Enganação",
+    "descricao": "Você pode seduzir pessoas com olhares, palavras, dança… Faça um teste de Enganação oposto pelo teste de Vontade de seu alvo. Se você vencer, o alvo fica enfeitiçado por 1 dia (se voce falhar, não pode mais tentar com esse alvo nessa cena). Usar este poder gasta alguns minutos de interação e 3 PM."
+  }
+}

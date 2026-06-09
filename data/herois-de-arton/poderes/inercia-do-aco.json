@@ -1,0 +1,17 @@
+{
+  "id": "inercia-do-aco",
+  "tipo": "poder",
+  "nome": "Inércia do Aço",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 63
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro, Guerreiro",
+    "prerequisito": "5º nível de cavaleiro ou 5º nível de guerreiro",
+    "descricao": "Quando acerta um ataque com uma arma de duas mãos em uma criatura, você pode gastar 3 PM para causar metade do dano desse ataque a cada inimigo adjacente a essa criatura."
+  }
+}

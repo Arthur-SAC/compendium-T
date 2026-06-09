@@ -1,0 +1,16 @@
+{
+  "id": "sabotagem-corrosiva",
+  "tipo": "poder",
+  "nome": "Sabotagem Corrosiva",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "descricao": "Quando faz um teste de Ladinagem para abrir fechaduras ou sabotar, você pode gastar um ácido para receber um bônus de +5 nesse teste. Além disso, pode gastar uma ação de movimento e um ácido para fazer um teste de Ladinagem oposto ao teste de Reflexos de uma criatura em alcance curto. Se você vencer o teste oposto, a criatura fica desprevenida e sofre –5 em testes de ataque por 1 rodada."
+  }
+}

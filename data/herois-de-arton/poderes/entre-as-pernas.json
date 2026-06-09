@@ -1,0 +1,17 @@
+{
+  "id": "entre-as-pernas",
+  "tipo": "poder",
+  "nome": "Entre as Pernas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Goblin, Hynne, Kobolds; treinado em Acrobacia",
+    "descricao": "Você pode ocupar o mesmo espaço de criaturas duas categorias de tamanho maiores que você (em vez de três). Enquanto estiver ocupando o mesmo espaço que uma criatura maior que você, ataques contra você têm 25% de chance de acertar a criatura maior (inclusive ataques feitos pela própria criatura!). Pré-requisito: treinado em Acrobacia."
+  }
+}

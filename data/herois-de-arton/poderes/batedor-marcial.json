@@ -1,0 +1,16 @@
+{
+  "id": "batedor-marcial",
+  "tipo": "poder",
+  "nome": "Batedor Marcial",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "descricao": "Você pode usar testes de Sobrevivência no lugar de testes de Guerra. Além disso, se passar em um teste para analisar terreno, além de quaisquer benefícios encontrados, na próxima vez que usar Marca da Presa nessa cena você recupera 1 PM."
+  }
+}

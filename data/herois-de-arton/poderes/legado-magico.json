@@ -1,0 +1,17 @@
+{
+  "id": "legado-magico",
+  "tipo": "poder",
+  "nome": "Legado Mágico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "11º nível de nobre",
+    "descricao": "Você recebe um item mágico menor a sua escolha, como um presente ou uma herança de família. No início de cada aventura, você pode substituir esse item por outro. A partir do 14º nível, quando substitui o item pode escolher um item mágico médio e, a partir do 17º nível, um item mágico maior."
+  }
+}

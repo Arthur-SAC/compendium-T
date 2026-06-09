@@ -1,0 +1,58 @@
+{
+  "id": "medico-de-salistick",
+  "tipo": "distincao",
+  "nome": "Médico de Salistick",
+  "resumo": "Especialistas na cura mundana formados pelo Colégio Real de Médicos de Salistick, que utilizam ciência e conhecimento — jamais magia divina — para tratar doenças, curar ferimentos e realizar cirurgias delicadas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 181
+  },
+  "imagens": [
+    "/distincoes/medico-de-salistick.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A história da medicina salistiense se confunde com a do próprio reino. As famílias fundadoras passaram por provações que as fizeram duvidar da própria existência dos deuses. Esse ceticismo as levou a uma terra onde magia divina não funcionava. Lá, sem milagres para cuidar de doenças e ferimentos, começaram a surgir alternativas.\n\nO desenvolvimento da medicina foi demorado. Os primeiros médicos se esforçavam, mas muitas vezes não conseguiam salvar seus pacientes. Seu aspecto era assustador, com roupas fúnebres, máscaras parecidas com bicos de pássaros usadas tanto como filtros quanto para esconder sua identidade. Às vezes eram perseguidos pelas famílias dos pacientes, tidos como culpados por mortes que tentaram evitar. Contudo, quando a medicina salvou uma rainha, logo se tornou tesouro nacional. O reino passou a ser conhecido pelo nome de uma erva medicinal — Salistick. Então foi fundado o Colégio Real de Médicos de Salistick, uma instituição que viria a mudar a maneira como os artonianos compreendem as artes da cura.\n\nHoje, as máscaras não são mais necessárias para esconder o rosto, mas são usadas como proteção contra contaminação ou por mera tradição. Aparatos médicos avançados, como instrumentos para auscultar o coração e os pulmões de pacientes, são exibidos com orgulho mesmo quando não estão em uso. No reino, ser um médico é motivo de honra e orgulho. Eles ostentam um de quatro títulos, de acordo com a profundidade de seus estudos: em ordem crescente, \"esculápio\", \"médico\", \"doutor\" e \"doutor filósofo\", sendo esse último necessário para integrar o corpo docente do Colégio Real de Médicos.\n\nO Colégio Real forma especialistas na cura mundana. Embora qualquer pessoa possa ser treinada em medicina, não há em Arton curandeiros melhores que os de Salistick — ao menos não sem recorrer a \"milagres\". Um médico de Salistick utiliza ciência e conhecimento para tratar de doenças, amenizar a dor, curar ferimentos, preparar remédios e realizar outros procedimentos incomuns, como cirurgias delicadas, exames específicos e cuidados preventivos. Muitas vezes, isso supera a efetividade de qualquer magia divina, promovendo saúde em longo prazo. Enquanto um sacerdote pode trazer alguém das portas da morte, um médico pode impedir que o paciente chegue a esse estado crítico!\n\nO Colégio Real é tanto um centro de formação quanto um foco de desenvolvimento do conhecimento. Sua postura cética e natureza secular (além da falta de magia divina em Salistick) fazem com que inovações e descobertas sejam necessidades para a instituição. Professores e alunos estão constantemente realizando projetos de pesquisa, aproveitando as leis do reino, que permitem qualquer tipo de estudo, sem tabus. Algumas dessas pesquisas visam desvendar alguns dos piores males a afligir Arton, como a corrupção dos simbiontes da Tormenta ou a insidiosa Praga Coral.\n\nContudo, os médicos de Salistick não se limitam às paredes do Colégio Real, nem são apenas pesquisadores. Acreditam que a medicina deve ir aonde é necessária — incluindo zonas de guerra, territórios infestados de monstros, ruínas ancestrais e, é claro, grupos de aventureiros. Um dos mais famosos médicos foi o herói de guerra Zebediah Nash. Além de ser lembrado por seu papel na luta contra a Tormenta, em Salistick é celebrado pela força de caráter que o levou a morrer por recusar um pretenso milagre. Nash, um autoproclamado \"cavalheiro\", que dominava a esgrima, o pugilato, a magia arcana e várias outras disciplinas além da medicina, é citado pelos doutores como um exemplo da bravura e da versatilidade que um médico de Salistick deve almejar. Afinal, de nada adianta ser um bom curandeiro e não conseguir acompanhar seus colegas em situações de perigo.\n\nO mesmo ceticismo que guiou as famílias fundadoras até a região de Salistick dita a filosofia do Colégio Real e a postura geral de seus médicos. É vital para os doutores duvidar dos deuses — ou pelo menos desconfiar de seu interesse e benevolência. No momento em que um médico passa a confiar mais em milagres do que em ciência, seus pacientes sofrem. No instante em que acredita que uma \"força superior\" vai resolver tudo, abre mão da responsabilidade. Assim, estes são tipos orgulhosos e independentes. Mais do que isso, muitas vezes são arrogantes com relação a seu conhecimento.\n\nMas uma coisa é certa: se você precisar de ajuda, eles podem consertá-lo."
+    },
+    {
+      "titulo": "Citação",
+      "texto": "\"Um deus, se existir mesmo, pode ou não atender às suas preces, pode ou não ser caprichoso e egoísta. A medicina sempre funciona.\""
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um médico de Salistick precisa ser certificado pelo Colégio Real de Médicos de Salistick, um processo que normalmente leva quase uma década de estudo intenso. É possível que um candidato sem todo esse tempo (como um aventureiro) consiga a certificação, mas isso exige dedicação ainda maior. A certificação, mais do que um diploma, é o resultado do conhecimento acumulado do candidato — assim, não existem médicos de Salistick sem o diploma.\n\nO candidato não pode ser devoto de nenhum deus. Embora o Colégio Real não tente controlar a vida do candidato após deixar a instituição, não aceita aqueles que, de antemão, confiam em forças invisíveis. O candidato deve então se apresentar ao Colégio Real, em Salistick, e solicitar uma audiência de avaliação. A audiência custa T$ 5.000 e possui duas etapas. A primeira é uma série de provas teóricas e práticas, aplicadas ao longo de uma semana. O Colégio conduz duas audiências a cada ano, em Pomo e Contenda, que costumam reunir dezenas de candidatos.\n\nCandidatos que sejam aprovados são convidados à segunda etapa: a elaboração de um trabalho acadêmico relacionado a algum tópico médico de interesse do candidato. A elaboração desse trabalho geralmente envolve pesquisa teórica e viagens a campo, e muitas vezes se torna o centro de alguma aventura do candidato (e potencialmente de seus companheiros). Uma vez que o trabalho seja concluído, ele deve ser apresentado a uma banca de avaliação no Colégio, em uma data a ser combinada entre o candidato e a própria banca. Se o trabalho for aprovado, o candidato é aceito como aluno iniciante do Colégio Real, e pode começar a última etapa de seu processo de admissão.\n\nUm aluno iniciante deve frequentar um conjunto de disciplinas obrigatórias, que ocupam um semestre, ministradas presencialmente no Colégio Real, em Salistick. Durante esse período, o candidato vai passar a maior parte de seu tempo em salas de aula, laboratórios e hospitais, onde terá contato com as técnicas médicas científicas desenvolvidas pelo Colégio Real. O candidato pode se ausentar por breves períodos para atender a assuntos pessoais, incluindo missões curtas, mas deverá obter uma autorização formal do corpo docente. Muitas vezes, a carga de trabalho é tão avassaladora que mesmo candidatos aventureiros não conseguem se afastar dos estudos. Afinal, estão tentando concentrar quase dez anos de informações, prática e familiaridade com a medicina em apenas seis meses!\n\nNo fim desse semestre vem uma das maiores provações da vida do candidato: a semana de provas. Descrita como \"mais terrível que uma eternidade num Plano infernal\", \"a razão pela qual uma batalha contra um lich parece divertida\" e \"uma área de Tormenta\" por médicos veteranos, a semana de provas é uma série de testes incrivelmente difíceis, que medem o que o candidato aprendeu ao longo do semestre. Caso o candidato não passe em uma única prova, deve repetir o semestre inteiro. Candidatos que falhem duas vezes perdem a opção de fazer todo o curso em um semestre: devem passar o período normal de quase dez anos no Colégio Real ou procurar uma profissão menos exigente, como arquimago.\n\nContudo, aqueles que emergem vitoriosos da semana de provas ostentam algo além de trauma: a certificação de um médico de Salistick.",
+    "marca": {
+      "nome": "Ciências Médicas",
+      "descricao": "Para aqueles formados no Colégio Real, a medicina é uma ciência fundamentada na lógica e na razão.\n\nVocê pode usar Inteligência como atributo-chave de Cura (em vez de Sabedoria). Se já faz isso por outro efeito, em vez disso recebe +2 nessa perícia."
+    },
+    "poderes": [
+      {
+        "nome": "Medicina Avançada",
+        "descricao": "Aplicando estudo e ciência a seus procedimentos, os membros do Colégio Real alcançam além das fronteiras da medicina artoniana.\n\nCada dado de cura de seu poder Medicina aumenta para d10. Além disso, para cada dois outros poderes da distinção que você possui, pode usar esse poder mais uma vez por criatura a cada dia.",
+        "prerequisito": "Foco em Perícia (Cura), Medicina"
+      },
+      {
+        "nome": "Acompanhamento Médico",
+        "descricao": "Acostumado a praticar seu ofício sob pressão, um médico de Salistick aprende a agir rapidamente.\n\nPara você, a ação necessária para prestar primeiros socorros e usar itens alquímicos que recuperam PV, PM ou condições é reduzida em um passo (até um mínimo de ação de movimento). Além disso, você pode gastar 5 PM e uma ação completa para fazer um teste de Cura (CD 30) em uma criatura adjacente que tenha morrido há até uma rodada. Se você passar, a criatura é ressuscitada com 1 PV. Você pode usar esse efeito uma vez por dia por criatura.",
+        "prerequisito": "Medicina Avançada"
+      },
+      {
+        "nome": "Medicina Preventiva",
+        "descricao": "Melhor que curar doenças é impedir que elas surjam.\n\nVocê pode gastar 1 hora para cuidar da saúde de um número de pessoas igual ao seu nível. Para cada poder da distinção que você possui, cada pessoa atendida recebe 5 PV temporários e +1 em testes de resistência por 1 dia. Este poder pode ser usado ao mesmo tempo que cuidados prolongados (veja Cura, Tormenta20, p. 117) se você aplicar ambos às mesmas pessoas.",
+        "prerequisito": "Medicina Avançada"
+      },
+      {
+        "nome": "Remédios",
+        "descricao": "Um médico de Salistick estuda princípios científicos para a fabricação e o uso dos mais variados fármacos.\n\nQuando você usa um preparado alquímico que fornece PV ou PM (temporários ou por cura), esse efeito aumenta em +1 por dado. Além disso, você pode fabricar preparados com esses efeitos em 10 minutos (em vez de 1 dia), mas eles duram apenas até o fim da cena.",
+        "prerequisito": "treinado em Ofício (alquimista), Medicina Avançada"
+      },
+      {
+        "nome": "Saúde Perfeita",
+        "descricao": "Um bom médico sabe cuidar de si mesmo (ou assim esperamos).\n\nVocê recebe +1 em Constituição e imunidade a veneno. Além disso, recebe +2 PM por poder da distinção que possui.",
+        "prerequisito": "treinado em Fortitude, Acompanhamento Médico"
+      }
+    ]
+  }
+}

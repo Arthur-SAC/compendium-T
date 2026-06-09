@@ -1,0 +1,17 @@
+{
+  "id": "fulgor-ardente",
+  "tipo": "poder",
+  "nome": "Fulgor Ardente",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "Fulgor Divino",
+    "descricao": "Quando usa Golpe Divino, você pode gastar +1 PM. Se fizer isso e acertar o ataque, todos os inimigos a até 6m do alvo do ataque sofrem dano de luz igual ao dano extra causado por essa habilidade."
+  }
+}

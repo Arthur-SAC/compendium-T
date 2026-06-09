@@ -1,0 +1,16 @@
+{
+  "id": "investida-rasteira",
+  "tipo": "poder",
+  "nome": "Investida Rasteira",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "descricao": "Se você acertar um ataque corpo a corpo contra uma criatura que sofreu uma investida desde a última rodada, ela fica desprevenida por 1 rodada e caída (Reflexos CD Des evita)."
+  }
+}

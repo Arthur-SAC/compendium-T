@@ -1,0 +1,17 @@
+{
+  "id": "citadino",
+  "tipo": "poder",
+  "nome": "Citadino",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Humano, Hynne, Kliren, Meio-Elfo",
+    "descricao": "Você foi criado em uma metrópole, onde se acostumou a lidar com várias pessoas — mas também às facilidades da civilização. Você recebe +2 em testes de perícias baseadas em Carisma (exceto Adestramento)."
+  }
+}

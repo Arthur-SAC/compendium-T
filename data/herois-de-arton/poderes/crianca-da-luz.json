@@ -1,0 +1,17 @@
+{
+  "id": "crianca-da-luz",
+  "tipo": "poder",
+  "nome": "Criança da Luz",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Aggelus",
+    "descricao": "O sangue extraplanar é mais forte em você. Seu bônus racial em Diplomacia e Intuição aumenta para +5 e você recebe redução de eletricidade e frio 5."
+  }
+}

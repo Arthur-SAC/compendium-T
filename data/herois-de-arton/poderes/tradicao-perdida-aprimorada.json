@@ -1,0 +1,18 @@
+{
+  "id": "tradicao-perdida-aprimorada",
+  "tipo": "poder",
+  "nome": "Tradição Perdida Aprimorada",
+  "resumo": "Seu atributo-chave para lançar magias para a classe escolhida em Tradição Perdida passa a ser o atributo escolhido para esse poder (sujeito aos mesmos limites).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 91
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Tradição Perdida; Várias",
+    "descricao": "Seu atributo-chave para lançar magias para a classe escolhida para Tradição Perdida passa a ser o atributo escolhido para esse poder (sujeito aos mesmos limites desse poder)."
+  }
+}

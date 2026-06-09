@@ -1,0 +1,63 @@
+{
+  "id": "pistoleiro-de-smokestone",
+  "tipo": "distincao",
+  "nome": "Pistoleiro de Smokestone",
+  "resumo": "Durões independentes e rápidos no gatilho, forjados na cidade dos fora da lei, que fazem das armas de fogo seu único modo de vida e se recusam a se curvar a qualquer autoridade.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 202
+  },
+  "imagens": [
+    "/distincoes/pistoleiro-de-smokestone.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Alguns locais em Arton são sinônimos de certas especialidades de aventureiros. Existem magos por toda parte, mas os maiores passam pela Academia Arcana, ou são nativos de Wynlla ou Ubani. Quase todo reino tem cavaleiros, mas os mais gloriosos pertencem a Bielefeld. Caçar monstros é uma atividade comum, mas os maiores caçadores de monstros mais cedo ou mais tarde acabam nas Sanguinárias.\n\nPara quem tem a ambição de ser um matador frio e rápido no gatilho, um durão capaz de encarar a morte nos olhos e fazê-la desviar o rosto, um rebelde que não se curva a ninguém e resolve qualquer disputa com um duelo, não basta ser um pistoleiro.\n\nÉ preciso ser um pistoleiro de Smokestone.\n\nSmokestone, o Covil dos Pistoleiros, foi erguida sobre os maiores veios de pedra-de-fumaça do mundo conhecido. Cercada por minas e habitada por todo tipo de fora da lei orgulhoso, a cidade fabrica a melhor pólvora e as melhores armas de fogo de Arton. Sua postura de desafio a todas as formas de autoridade, seu status independente e sua localização desconhecida tornaram este o berço dos maiores pistoleiros, um local onde a arte precisa de sacar rápido e acertar um desafeto em cheio antes que ele o acerte se desenvolveu mais do que em qualquer outro. Esta é a terra dos duelos ao meio-dia, dos tiroteios por honra, dos desafios letais apenas para provar quem é o mais ligeiro. Smokestone acolhe todos que respeitarem suas regras não escritas — mas também costuma ser “pequena demais” para dois inimigos que se encontram lá por acaso...\n\nO pistoleiro de Smokestone é o maior exemplo de um durão das planícies, o tipo de aventureiro que só pode ser forjado nesta cidade. Ele não vê as armas de pólvora como mera ferramenta: elas representam todo um estilo de vida. Pólvora é o único meio de matar grandes números de pessoas rapidamente e à distância sem precisar de treinamento longo, estudo arcano, bênção dos deuses ou sangue azul. Em suma, é a única forma de fazer isso quando você é uma pessoa simples, um renegado ou desgarrado.\n\nMesmo sendo armas relativamente raras em Arton, pistolas são muito mais baratas que uma armadura completa, por exemplo. Um plebeu comum quase nunca conseguirá economizar o suficiente para comprar uma dessas armaduras. Aprender a usá-la vai exigir treino com outros que já conheçam essas técnicas — em geral cavaleiros, aventureiros ou aristocratas, exatamente o tipo de gente que não costuma interagir com plebeus. Escolhendo se especializar em combate corpo a corpo, ele sempre estará em desvantagem. Se não for naturalmente grande e forte, a desvantagem é ainda maior!\n\nEm comparação, o mesmo plebeu pode economizar por muito menos tempo e comprar uma pistola. Pode praticar sozinho, aperfeiçoando seus reflexos e sua pontaria. Mesmo se for pobre, fraco e mirrado, estará à altura de brutamontes e ricaços. Por isso a pólvora é considerada por muitos o grande equalizador, uma arma capaz de destruir vários privilégios de nascença apenas por ser empunhada. Não admira que armas de fogo sejam proibidas no Reinado e no Império de Tauron...\n\nIncorporando essa mentalidade, o pistoleiro de Smokestone torna as pistolas o centro de sua vida. Não usa armaduras, preferindo permanecer leve e não desperdiçar tibares. Não reconhece a autoridade de nobres e agentes da lei. Recusa-se a lutar com espadas, machados e outras “armas selvagens”. Dá as costas à magia arcana e aos deuses. Confia mais em outros durões e em seu cavalo do que em instituições ou “heróis”. Em suma, é um tipo independente e implacável, que exige ser respeitado e respeita apenas quem conquista esse direito.\n\nIsso não significa que pistoleiros de Smokestone sejam pessoas muito admiráveis. Todos têm uma coleção de cadáveres em seu passado. Dependendo apenas de si mesmos, não toleram qualquer dúvida sobre sua palavra ou ofensa a sua honra — ao ouvir um mero comentário descuidado, estes durões podem chamar o responsável para um duelo até a morte. Embora alguns sejam aventureiros que se esforçam para usar suas habilidades contra facínoras ainda piores, a maioria não passa de bandidos perigosos. Isso leva muitos a acreditar que, quando o problema é um pistoleiro de Smokestone, apenas outro pistoleiro de Smokestone pode resolvê-lo... E a solução é sempre uma bala."
+    },
+    {
+      "titulo": "O Código do Pistoleiro",
+      "texto": "Há muitos tipos de pistoleiros no mundo, cada um com suas próprias crenças e costumes. Mas todos, sem exceção, acreditam em duas coisas: honra e pólvora. Certo, eles também acreditam que um verdadeiro pistoleiro não se rende a certas firulas, cultos e subordinações. Enfim, um pistoleiro não usa armaduras pesadas e escudos, nem armas que não sejam pistolas ou outras armas de fogo leves ou de uma mão (uma honrosa exceção é feita para versões híbridas dessas armas e adagas). Você pode mentir e trapacear à vontade, mas uma vez que tenha dado sua palavra ou feito uma promessa, ela é lei. Por fim, nada de cultuar deuses, seguir organizações formais ou ter qualquer tipo de título ou honraria oficial. Ah, e nada de lançar magias! Seus disparos são toda a mágica de que você precisa.\n\nA essa altura você já sabe como a banda toca, certo? Se pisar fora da linha e violar o código, seus PM vão-se embora mais rápido que uma bala e você só vai vê-los no dia seguinte."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Para se tornar um pistoleiro de Smokestone, o primeiro passo é encontrar Smokestone. Candidatos que nasceram na Cidade dos Fora da Lei e sobreviveram até agora já passaram por desgraças suficientes para estarem liberados desse requisito. Se você acha isso injusto, problema seu. Todo mundo sabe que pessoas de Smokestone são melhores, em todos os aspectos, do que todos os outros. Nasça no lugar certo da próxima vez!\n\nCerto, o candidato chegou a Smokestone. E agora?\n\nSua tarefa é permanecer vivo por pelo menos um ou dois meses na cidade e ser aceito pelos locais. Isso inclui conhecer e respeitar as leis não escritas de Smokestone. Não sabe que leis são essas? Aprender sobre elas faz parte da admissão! O candidato não precisa se preocupar. Caso ele descumpra alguma lei, mesmo sem saber, alguém vai educá-lo por meio de um duelo até a morte, ou então uma multidão vai prendê-lo num barril cheio de pólvora na praça central, para apedrejá-lo até que o infeliz exploda e pare de incomodar. Se nada disso acontecer, o candidato vai saber que está sendo aceito pelos locais quando começar a reclamar sobre forasteiros e não levar uns sopapos pela audácia.\n\nÉ claro, nem todo mundo pode sequer tentar se tornar um pistoleiro de Smokestone. O candidato não pode usar armaduras pesadas ou armas idiotas como espadas, lanças e arcos. Não pode usar magia arcana. Não pode ter um título de nobreza ou qualquer posição de autoridade — incluindo aquela condecoração que a baronesa concedeu como prêmio por uma missão bem-sucedida e que abre certas portas na corte. Smokestone não trata esses tipinhos com gentileza. Não pode cultuar nenhum deus. Candidatos que já tenham cometido o erro de ter títulos ou cultuar deuses devem renegá-los de forma pública e absoluta para ter chance de se tornar pistoleiros de Smokestone.\n\nPor fim, o candidato deve desafiar outro pistoleiro tão ou mais experiente que ele mesmo para um duelo e vencer. Repare que, segundo as leis de Smokestone, um duelo só é válido segundo certos parâmetros. Não sabe quais são? Passe mais tempo em Smokestone até aprender! Neste caso, “vencer o duelo” significa “matar o desgraçado”. Desnecessário dizer, o duelo deve ser travado com pistolas e nenhuma outra arma.\n\nCandidatos que encontram algum truque para burlar as limitações de um duelo logo acabam no barril, explodindo para a felicidade geral do povo.\n\nDizem que, na noite após esse duelo, há um requisito adicional. Há séculos corre o boato de que a invenção das armas de fogo tem influência demoníaca, e que o fundador de Smokestone fez um pacto com abissais. A última exigência viria na forma de um estranho que visita o candidato, pedindo para que ele assine um contrato com sangue. Ninguém sabe o que esse contrato diz, e o estranho nunca mais surge. Mas é claro que os pistoleiros de Smokestone não vendem a própria alma em troca de mira certeira e rapidez no gatilho…\n\nOu vendem?",
+    "marca": {
+      "nome": "Honra do Pistoleiro",
+      "descricao": "“Em Smokestone, a honra é fundamental. Você é respeitado de acordo com seus atos e todos acreditam naquilo que você os faz acreditar.”\n\nVocê recebe +2 em rolagens de dano com armas de fogo leves e de uma mão. Contudo, você passa a seguir o Código do Pistoleiro (veja quadro)."
+    },
+    "poderes": [
+      {
+        "nome": "Rápido no Gatilho",
+        "descricao": "“Você chama o infeliz para um duelo, olha bem nos olhos, saca primeiro e manda ele para o reino dos pés-juntos.”\n\nVocê recebe +2 em Iniciativa para cada poder da distinção que possui e, se for o primeiro na iniciativa, seus inimigos ficam desprevenidos contra você nessa rodada. Além disso, seu multiplicador de crítico contra criaturas desprevenidas aumenta em +1.",
+        "prerequisito": "proficiência com armas de fogo, Saque Rápido"
+      },
+      {
+        "nome": "Buscar Cobertura",
+        "descricao": "“Um pistoleiro sabe a hora de atirar e a hora de correr.”\n\nUma vez por rodada, você pode gastar 1 PM para se mover até uma cobertura que possa alcançar com seu deslocamento (desde que tenha um caminho desimpedido até ela).",
+        "prerequisito": "Rápido no Gatilho"
+      },
+      {
+        "nome": "Fornecedor de Smokestone",
+        "descricao": "“Eu conheço um cara…”\n\nQuando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, pode comprar armas de fogo de qualquer tipo e suas munições com 20% de desconto (não cumulativo com barganha e outros descontos) e pode conseguir qualquer cuidado ou manutenção necessários para essas armas.",
+        "prerequisito": "Rápido no Gatilho"
+      },
+      {
+        "nome": "Morrer não é Muita Vida",
+        "descricao": "“A vida é dura, mas eu sou mais.”\n\nVocê aprendeu a se defender com o que tem. Quando se move 6m ou mais, você recebe +2 na Defesa e em Reflexos. Além disso, carrega um amuleto da sorte, como um tibar ou uma garrafinha de metal, que já salvou sua vida mais de uma vez. Uma vez por cena, quando sofre dano que o levaria a 0 PV ou menos, você pode ignorar esse dano.",
+        "prerequisito": "Buscar Cobertura"
+      },
+      {
+        "nome": "Viajante das planícies",
+        "descricao": "“Você não trouxe um cavalo a menos, trouxe dois a mais…”\n\nVocê recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro vigilante iniciante. Em ambos os casos, nessa montaria você não sofre a penalidade em testes de ataque à distância enquanto montado. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho.",
+        "prerequisito": "treinado em Cavalgar, Rápido no Gatilho"
+      },
+      {
+        "nome": "Balada do Pistoleiro",
+        "descricao": "“Vou dar a vocês uma última chance de desistir...”\n\nSe estiver empunhando uma ou mais armas de fogo, você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitada pela quantidade de munição dessas armas) para desferir uma série de disparos com elas. Faça um ataque à distância contra cada inimigo a sua escolha, até um limite de inimigos igual ao total de PM gastos. Então faça uma única rolagem de dano com um dado extra de dano do mesmo tipo e aplique-a em cada inimigo atingido.",
+        "prerequisito": "Morrer Não É Muita Vida"
+      }
+    ]
+  }
+}

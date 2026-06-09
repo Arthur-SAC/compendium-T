@@ -1,0 +1,17 @@
+{
+  "id": "magia-comunitaria",
+  "tipo": "poder",
+  "nome": "Magia Comunitária",
+  "resumo": "Uma vez por rodada, ao lançar magia com alvo você ou 1 criatura, pague o custo novamente para cada aliado com este poder em alcance curto.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 94
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Você e seu grupo são tão íntimos que sua magia trata seus companheiros como se fossem você mesmo. Uma vez por rodada, quando você lança uma magia com alvo você ou 1 criatura, para cada aliado em alcance curto com este poder você pode pagar o custo da magia novamente para que ele também se beneficie do efeito. Se o efeito tiver duração sustentada, cada personagem afetado precisa pagar seu custo individualmente."
+  }
+}

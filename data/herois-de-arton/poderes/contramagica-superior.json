@@ -1,0 +1,17 @@
+{
+  "id": "contramagica-superior",
+  "tipo": "poder",
+  "nome": "Contramágica Superior",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Contramágica Aprimorada, 9º nível de arcanista",
+    "descricao": "Quando anula uma magia com uma contramágica, você recebe uma quantidade de PM temporários igual ao círculo da magia anulada (limitada pelos PM que gastou para anular)."
+  }
+}

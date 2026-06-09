@@ -1,0 +1,53 @@
+{
+  "id": "satiro",
+  "tipo": "raca",
+  "nome": "Sátiro",
+  "resumo": "Humanoides feéricos de baixa estatura com tronco humano e pernas de bode, conhecidos por sua jovialidade, habilidade com instrumentos musicais e inclinação irresistível para prazeres e travessuras.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 15 },
+  "imagens": ["/racas/satiro.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sátiros são humanoides feéricos de baixa estatura com tronco, cabeça e braços humanos, mas também chifres recurvados, pele coberta de pelagem castanha e pernas de bode, com cascos. Muitos carregam um arco às costas e uma aljava de flechas na cintura, sendo essa a arma preferida da raça. Quase todos usam cavanhaque e trazem no rosto um sorriso divertido, mas também selvagem.\n\nDiferente de outras fadas, sátiros costumam ter aparência masculina — embora existam exceções. São bem-humorados, joviais, apreciadores dos prazeres da vida: comida, bebida, dança e romance… especialmente romance. Parecem motivados puramente pela busca da próxima diversão, assim que descansam da anterior. E, infelizmente para os demais povos, nem todas as diversões de um sátiro são inofensivas.\n\nSátiros costumam ser arqueiros exímios, apreciando caçar por esporte; muitos se contentam apenas com pássaros ou coelhos, enquanto os mais devassos flecham humanos e outras raças, para seu prazer perverso. Felizmente para a vítima perseguida, existe uma chance certa de escapar: basta evitar o caçador até que ele fique cansado e perca o interesse. Preguiçosos, sátiros nunca se esforçam muito para alcançar coisa alguma.\n\nAssim, quando indispostos a caçadas cansativas, sátiros muitas vezes preferem enfeitiçar suas vítimas com música de flauta ou harpa — que eles utilizam para seduzir interesses românticos ou fazer adormecer viajantes para roubar seus pertences. Com seus sentidos aguçados e sua agilidade natural, é simples para um sátiro se aproximar sem ser percebido.\n\nQuando forçados a lutar, sátiros usam arco e flechas; em combate corpo a corpo, podem contar com a cabeçada poderosa. Mas é possível negociar com sátiros: eles conhecem bem as regiões onde vivem, podendo apontar o caminho para qualquer lugar. Contudo, só aceitam fazer isso quando são derrotados em alguma disputa, ou subornados com algo que apreciem.\n\nO sátiro que escolhe viver em uma comunidade humana é extremamente raro — seus modos desordeiros não combinam com a vida em sociedade. Mas há aqueles que moderam (um pouco) seu comportamento indisciplinado e acabam unidos a grupos de aventureiros, considerando cada aventura uma grande diversão. Quase todos os sátiros se tornam caçadores ou ladinos, embora outros insistam em seguir os caminhos mais inesperados ou impróprios, como clérigos, inventores, paladinos e até nobres."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Carisma", "valor": 2 },
+      { "atributo": "Destreza", "valor": 1 },
+      { "atributo": "Sabedoria", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 12,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Festeiro Feérico",
+        "descricao": "Você é uma criatura do tipo espírito, recebe visão na penumbra e +2 em Atuação e Fortitude."
+      },
+      {
+        "nome": "Instrumentista Mágico",
+        "descricao": "Se estiver empunhando um instrumento musical, você pode lançar as magias Amedrontar, Enfeitiçar, Hipnotismo e Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+      },
+      {
+        "nome": "Marrada",
+        "descricao": "Você possui uma arma natural de marrada (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a marrada."
+      },
+      {
+        "nome": "Pernas Caprinas",
+        "descricao": "Seu deslocamento é 12m e você pode usar Destreza como atributo-chave de Atletismo (em vez de Força)."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "Normal."
+      },
+      {
+        "nome": "Devoção",
+        "descricao": "Allihanna, Hyninn, Marah, Nimb, Wynna."
+      }
+    ],
+    "longevidade": "Normal",
+    "devocao": "Allihanna, Hyninn, Marah, Nimb, Wynna"
+  }
+}

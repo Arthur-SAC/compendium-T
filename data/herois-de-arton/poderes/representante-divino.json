@@ -1,0 +1,17 @@
+{
+  "id": "representante-divino",
+  "tipo": "poder",
+  "nome": "Representante Divino",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "17º nível de clérigo",
+    "descricao": "Você fala com a autoridade de seu deus. Escolha uma magia divina que possa lançar com tempo de execução de ação padrão ou completa. Você pode lançar essa magia como uma ação de movimento, sem precisar gesticular ou se concentrar (mas ainda precisa falar)."
+  }
+}

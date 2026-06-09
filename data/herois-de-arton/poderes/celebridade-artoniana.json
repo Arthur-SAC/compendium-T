@@ -1,0 +1,17 @@
+{
+  "id": "celebridade-artoniana",
+  "tipo": "poder",
+  "nome": "Celebridade Artoniana",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "Estrelato, 17º nível de bardo",
+    "descricao": "No início de cada cena, você pode gastar 3 PM para fazer um teste de Atuação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) que possa ver. Se você vencer, a criatura se revela sua fã. Você recebe +5 em todos os testes de perícia contra ela e ela sofre –5 em todos os testes dela contra você até o fim da aventura. Quem vai querer agredir seu ídolo?"
+  }
+}

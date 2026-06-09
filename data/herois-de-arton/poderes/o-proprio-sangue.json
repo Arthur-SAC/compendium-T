@@ -1,0 +1,17 @@
+{
+  "id": "o-proprio-sangue",
+  "tipo": "poder",
+  "nome": "O Próprio Sangue",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Feiticeiro",
+    "descricao": "Se você aprender novamente como feiticeiro uma magia que já possa lançar por uma habilidade qualquer (como uma habilidade de raça ou um poder concedido), a CD para resistir a ela aumenta em +2."
+  }
+}

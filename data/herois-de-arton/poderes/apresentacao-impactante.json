@@ -1,0 +1,16 @@
+{
+  "id": "apresentacao-impactante",
+  "tipo": "poder",
+  "nome": "Apresentação Impactante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Quando usa Inspiração, você impacta também os inimigos dentro do alcance. Na próxima vez que um inimigo fizer um teste de ataque ou de resistência nessa cena, ele rola dois dados e usa o pior resultado (apenas uma vez por cena)."
+  }
+}

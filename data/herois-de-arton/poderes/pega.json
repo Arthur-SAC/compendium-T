@@ -1,0 +1,18 @@
+{
+  "id": "pega",
+  "tipo": "poder",
+  "nome": "Pega!",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Companheiro Animal",
+    "custo": "1 PM",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para fazer a manobra agarrar contra uma criatura em alcance curto usando Adestramento em vez de Luta, usando seu companheiro animal para isso. Se o alvo estiver sob efeito de sua Marca da Presa, você soma os dados dessa habilidade como um bônus no teste. A criatura permanece agarrada até vencer um teste de manobra contra seu companheiro animal (como acima) ou até você mandar seu animal soltá-la (uma ação livre)."
+  }
+}

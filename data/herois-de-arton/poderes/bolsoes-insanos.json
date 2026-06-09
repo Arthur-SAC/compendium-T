@@ -1,0 +1,16 @@
+{
+  "id": "bolsoes-insanos",
+  "tipo": "poder",
+  "nome": "Bolsões Insanos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 83
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "tormenta",
+    "descricao": "Seu corpo possui espaços vazios sob sua pele ou carapaça, possibilitando que você carregue mais itens, em lugares nos quais eles dificilmente serão achados. Seu limite de carga aumenta em 2 espaços, mais 1 espaço para cada outro poder da Tormenta que você possui, e você recebe +5 em testes de Ladinagem para ocultar itens nesses espaços."
+  }
+}

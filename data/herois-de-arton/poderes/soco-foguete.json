@@ -1,0 +1,18 @@
+{
+  "id": "soco-foguete",
+  "tipo": "poder",
+  "nome": "Soco Foguete",
+  "resumo": "Quando faz um ataque corpo a corpo, gaste 1 PM para disparar seu punho e atingir um alvo em alcance curto. Após o ataque, sua mão volta para você. Não pode ser usado para agarrar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Golem",
+    "descricao": "Quando faz um ataque corpo a corpo, você pode gastar 1 PM para disparar seu punho e atingir um alvo em alcance curto. Após o ataque, sua mão volta voando para você. Esse ataque não pode ser usado para agarrar."
+  }
+}

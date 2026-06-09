@@ -1,0 +1,17 @@
+{
+  "id": "passo-das-ondas",
+  "tipo": "poder",
+  "nome": "Passo Das Ondas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Pernas do Mar",
+    "descricao": "Uma vez por rodada, quando acerta um ataque em um inimigo, você pode gastar 2 PM para se mover até a metade do seu deslocamento. Esse deslocamento ignora terreno difícil e não ativa reações dos inimigos (como pelo poder Ataque Reflexo)."
+  }
+}

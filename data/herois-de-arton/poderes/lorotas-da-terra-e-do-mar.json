@@ -1,0 +1,17 @@
+{
+  "id": "lorotas-da-terra-e-do-mar",
+  "tipo": "poder",
+  "nome": "Lorotas da Terra e do Mar",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "treinado em Enganação, 11º nível de bucaneiro",
+    "descricao": "Você pode gastar 10 minutos para contar uma mentira sobre seu passado. Escolha uma cena de uma de suas aventuras e reconte-a de forma \"criativa\" para um NPC que não a testemunhou. Então faça um teste de Enganação (CD 15 + 5 para cada vez que usou este poder na mesma aventura). Se passar, pode usar um poder qualquer cujos pré-requisitos cumpra e que seja relacionado à sua mentira (a critério do mestre), até o fim do dia ou até usar este efeito novamente. Se falhar, não pode mais usar este efeito até o fim da aventura."
+  }
+}

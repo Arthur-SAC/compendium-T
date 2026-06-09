@@ -1,0 +1,17 @@
+{
+  "id": "metamorfose-instantanea",
+  "tipo": "poder",
+  "nome": "Metamorfose Instantânea",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Forma Selvagem, 11º nível de druida",
+    "descricao": "Uma vez por rodada, quando usa Forma Selvagem, você pode gastar +2 PM para usar essa habilidade como ação livre."
+  }
+}

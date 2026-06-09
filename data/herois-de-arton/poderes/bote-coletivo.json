@@ -1,0 +1,18 @@
+{
+  "id": "bote-coletivo",
+  "tipo": "poder",
+  "nome": "Bote Coletivo",
+  "resumo": "Recebe bônus de Iniciativa igual ao número de aliados com este poder e bônus na primeira rodada de combate.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "prerequisito": "treinado em Iniciativa",
+    "descricao": "Seu grupo é especialista em saltar para a ação como um só, surpreendendo os inimigos com uma saraivada de ataques antes que eles consigam se preparar. Você recebe um bônus igual ao número de aliados com este poder em testes de Iniciativa e, na primeira rodada de cada combate, em testes de perícia e na CD de suas habilidades. Pré-requisito: treinado em Iniciativa."
+  }
+}

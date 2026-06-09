@@ -1,0 +1,17 @@
+{
+  "id": "primeiro-sangue",
+  "tipo": "poder",
+  "nome": "Primeiro Sangue",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Emboscar",
+    "descricao": "Na primeira rodada de cada combate, você recebe +2 em testes de ataque e todos os seus dados de dano aumentam em dois passos."
+  }
+}

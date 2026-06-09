@@ -1,0 +1,23 @@
+{
+  "id": "ferreiro-militar",
+  "tipo": "origem",
+  "nome": "Ferreiro Militar",
+  "resumo": "Forjador de armas e armaduras para soldados e oficiais durante guerras em Arton, trabalhando com materiais comuns e raros como adamante e mitral.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 51 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você participou de uma das guerras na história recente de Arton, mas não como combatente. Você forjava armas e armaduras para soldados e oficiais. Sua rotina começava antes de o sol nascer, acendendo a forja e moldando o metal incandescente com golpes precisos de seu martelo. Às vezes você lidava com materiais raros, como adamante, mitral ou aço-rubi. Entre faíscas e o som do metal sendo trabalhado, você não produzia apenas instrumentos de combate, mas também itens cotidianos como ferraduras e pregos, que também salvam vidas e podem decidir batalhas. Muitas vezes também foi visitado por heróis, que pediam informações sobre armas lendárias ou reparos em seus equipamentos. Até que, um dia, decidiu acompanhá-los."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Instrumentos de armeiro, martelo leve (p. 221).",
+    "beneficios": {
+      "pericias": ["Ofício (armeiro)"],
+      "texto": "Além disso, recebe +2 em rolagens de dano com martelos e marretas de qualquer tipo."
+    },
+    "poderesUnicos": []
+  }
+}

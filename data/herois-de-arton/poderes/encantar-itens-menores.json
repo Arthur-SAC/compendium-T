@@ -1,0 +1,17 @@
+{
+  "id": "encantar-itens-menores",
+  "tipo": "poder",
+  "nome": "Encantar Itens Menores",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 3º círculo, treinado em Misticismo ou Religião",
+    "descricao": "Você pode encantar itens mágicos menores permanentes. Fazer isso segue as mesmas regras para fabricar esses itens, mas você usa Misticismo (se lança magias arcanas) ou Religião (se lança magias divinas) no lugar de Ofício e precisa já possuir o item base (você não fabrica o item, apenas adiciona os efeitos mágicos a ele)."
+  }
+}

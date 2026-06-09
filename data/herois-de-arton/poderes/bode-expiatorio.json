@@ -1,0 +1,17 @@
+{
+  "id": "bode-expiatorio",
+  "tipo": "poder",
+  "nome": "Bode Expiatório",
+  "resumo": "Quando a atitude de um NPC piora em relação a um aliado com este poder, você pode assumir a culpa automaticamente.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Você e seu grupo estão sempre dispostos a assumir a culpa uns pelos outros, mesmo que precisem \"forçar os limites da verdade\" para isso. Sempre que a categoria de atitude de um NPC piorar em relação a um personagem com este poder, você pode automaticamente assumir a culpa por qualquer evento ou interação que tenha causado isso. A categoria de atitude do NPC piora para você, permanecendo a mesma para seu aliado."
+  }
+}

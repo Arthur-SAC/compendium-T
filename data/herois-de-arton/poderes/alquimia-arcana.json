@@ -1,0 +1,17 @@
+{
+  "id": "alquimia-arcana",
+  "tipo": "poder",
+  "nome": "Alquimia Arcana",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "treinado em Ofício (alquimista)",
+    "descricao": "A CD para resistir aos preparados alquímicos e poções que você usa aumenta em +1 para cada círculo de magia a que você tiver acesso."
+  }
+}

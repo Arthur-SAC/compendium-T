@@ -1,0 +1,17 @@
+{
+  "id": "encantar-itens-medios",
+  "tipo": "poder",
+  "nome": "Encantar Itens Médios",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 4º círculo, Encantar Itens Menores",
+    "descricao": "Como Encantar Itens Menores, mas você pode encantar itens médios."
+  }
+}

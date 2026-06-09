@@ -1,0 +1,17 @@
+{
+  "id": "mestre-envenenador",
+  "tipo": "poder",
+  "nome": "Mestre Envenenador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Cura, Veneno Persistente, 11º nível de ladino",
+    "descricao": "Quando afeta uma criatura com um veneno, você pode gastar +2 PM para: aumentar quaisquer efeitos do veneno em mais um dado do mesmo tipo; aumentar a CD para resistir ao veneno em +5; ou ignorar a imunidade a venenos da criatura. Você pode usar quantos desses modificadores quiser."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "truque-de-palco",
+  "tipo": "poder",
+  "nome": "Truque de Palco",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Atuação",
+    "descricao": "Escolha três magias arcanas de 1º círculo que possuam o aprimoramento truque. Você aprende e pode lançar essas magias (atributo-chave Inteligência), mas apenas com esse aprimoramento. Esta não é uma habilidade mágica — os efeitos provêm de prestidigitação (veja \"Magias Simuladas\", p. 44)."
+  }
+}

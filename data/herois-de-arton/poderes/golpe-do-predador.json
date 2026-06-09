@@ -1,0 +1,16 @@
+{
+  "id": "golpe-do-predador",
+  "tipo": "poder",
+  "nome": "Golpe do Predador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "descricao": "Se você causar dano em uma criatura analisada por sua Marca da Presa, ela fica sangrando. Se ela já estiver sangrando, a perda de vida por sangramento aumenta em um passo (cumulativo até um máximo de d12) e ela falha automaticamente em seu próximo teste de Constituição para remover essa condição."
+  }
+}

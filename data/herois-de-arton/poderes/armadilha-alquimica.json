@@ -1,0 +1,17 @@
+{
+  "id": "armadilha-alquimica",
+  "tipo": "poder",
+  "nome": "Armadilha Alquímica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Armadilheiro",
+    "descricao": "Quando prepara uma armadilha, você pode gastar uma dose de um preparado alquímico. Se fizer isso, as criaturas afetadas pela armadilha também sofrem os efeitos desse preparado automaticamente."
+  }
+}

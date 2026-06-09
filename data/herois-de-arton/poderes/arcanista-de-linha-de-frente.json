@@ -1,0 +1,16 @@
+{
+  "id": "arcanista-de-linha-de-frente",
+  "tipo": "poder",
+  "nome": "Arcanista de Linha de Frente",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "descricao": "Quando você lança uma magia, criaturas adjacentes sofrem –2 em seus testes de resistência contra ela e, se ela causar dano, causa um dado extra do mesmo tipo."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comandar-aprimorado",
+  "tipo": "poder",
+  "nome": "Comandar Aprimorado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Humano; Car 2, Comandar",
+    "descricao": "Quando usa Comandar, você pode gastar +2 PM para aumentar o bônus fornecido pelo poder em +1. Pré-requisitos: Car 2, Comandar."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "heranca-erudita",
+  "tipo": "poder",
+  "nome": "Herança Erudita",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Eiradaan, Elfo, Kallyanach",
+    "descricao": "Seu sangue não carrega apenas a fagulha mágica que lhe dá poder, mas também conhecimento ancestral. Escolha uma perícia originalmente baseada em Inteligência. Você soma seu Carisma nessa perícia."
+  }
+}

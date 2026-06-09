@@ -1,0 +1,17 @@
+{
+  "id": "solo-profanado",
+  "tipo": "poder",
+  "nome": "Solo Profanado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Profanar",
+    "descricao": "Quando você lança uma magia de dano de trevas dentro de uma área de Profanar, criaturas que falhem no teste de resistência da magia não podem curar PV por um número de rodadas igual ao círculo da magia."
+  }
+}

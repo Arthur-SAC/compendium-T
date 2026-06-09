@@ -1,0 +1,23 @@
+{
+  "id": "interrogador",
+  "tipo": "origem",
+  "nome": "Interrogador",
+  "resumo": "Servidor de um poder maligno de Arton que cometeu atos terríveis no passado e agora busca redenção tornando-se um aventureiro heroico.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 51 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Na verdade, você foi algo bem pior — e fez coisas bem piores — que um simples \"interrogador\". Coisas cruéis que tiram seu sono à noite, coisas que você gostaria de deixar no passado, mas que sempre voltam para assombrá-lo. Você serviu a um dos poderes malignos de Arton, como os finntroll, os sszzaazitas ou mesmo a Tormenta. Ser um aventureiro heroico, proteger os reinos, salvar o mundo... talvez isso ajude a compensar todos aqueles atos terríveis perante os deuses. Você ora a esses mesmos deuses para nunca reencontrar alguém que tenha \"interrogado\", ainda que muitos não estejam mais neste mundo. Mas, pensando bem, existem os osteon..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Um ou mais itens somando T$ 100 que pertenciam a antigas vítim... ahem, interrogados.",
+    "beneficios": {
+      "pericias": ["Intimidação", "Investigação"],
+      "texto": "Recebe +1 na margem de ameaça contra criaturas feridas (PV abaixo do total), pois aprendeu a bater onde mais dói."
+    },
+    "poderesUnicos": []
+  }
+}

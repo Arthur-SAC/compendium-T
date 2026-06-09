@@ -1,0 +1,18 @@
+{
+  "id": "abrir-a-guarda",
+  "tipo": "poder",
+  "nome": "Abrir a Guarda",
+  "resumo": "Quando você agarra ou derruba um inimigo, aliados com este poder podem gastar 2 PM para atacá-lo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 92
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "prerequisito": "treinado em Luta ou Pontaria",
+    "descricao": "Numa luta individual, as mãos e pés de um combatente agem em conjunto, bloqueando, fintando e golpeando. Seu grupo é como um só corpo: em combate, cada um assume um papel, de forma perfeitamente coordenada. Quando você agarra ou derruba um inimigo, aliados com este poder em alcance curto desse inimigo podem gastar 2 PM para fazer um ataque contra ele. Cada personagem só pode fazer um ataque dessa forma por rodada. Pré-requisito: treinado em Luta ou Pontaria."
+  }
+}

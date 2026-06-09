@@ -1,0 +1,16 @@
+{
+  "id": "paixao-lealdade",
+  "tipo": "poder",
+  "nome": "Paixão: Lealdade",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Ao escolher esta Paixão, decida a quem sua lealdade será dedicada. Pode ser um nobre, uma organização, uma região etc. Você pode evocar esta Paixão para buscar forças nesse compromisso de fidelidade. Se passar, você recebe um bônus em testes de ataque e rolagens de dano igual ao bônus máximo que sua habilidade Duelo pode fornecer."
+  }
+}

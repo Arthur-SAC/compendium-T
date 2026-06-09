@@ -1,0 +1,17 @@
+{
+  "id": "estilista",
+  "tipo": "poder",
+  "nome": "Estilista",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Car 1, treinado em Ofício (alfaiate)",
+    "descricao": "Se estiver vestindo um item de vestuário feito por você mesmo, o bônus em perícias fornecido por ele aumenta em +1 e se aplica também a testes de Diplomacia e Enganação com criaturas inteligentes (Int –3 ou maior)."
+  }
+}

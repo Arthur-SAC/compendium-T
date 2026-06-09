@@ -1,0 +1,17 @@
+{
+  "id": "arsenal-de-lisandra",
+  "tipo": "poder",
+  "nome": "Arsenal de Lisandra",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan",
+    "descricao": "Você aprende e pode lançar Armamento da Natureza. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, ao usar sua habilidade Armadura de Allihanna, você recebe um bônus na Defesa adicional de +1 por patamar (ou seja, Defesa +3 no patamar iniciante, +4 no veterano e assim por diante)."
+  }
+}

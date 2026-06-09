@@ -1,0 +1,17 @@
+{
+  "id": "olhar-petrificante",
+  "tipo": "poder",
+  "nome": "Olhar Petrificante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Medusa; 9º nível de personagem",
+    "descricao": "Você pode gastar uma ação padrão e 3 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica lenta por 1d4 rodadas. Se já estiver lenta por este efeito, em vez disso é petrificada permanentemente — ela e seu equipamento se transformam em uma estátua inerte e sem consciência, com RD 8 e os mesmos PV que ela tinha em vida. Se a estátua for quebrada, a criatura morrerá. Pré-requisito: 9º nível de personagem."
+  }
+}

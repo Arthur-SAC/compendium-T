@@ -1,0 +1,17 @@
+{
+  "id": "transformacao-repugnante",
+  "tipo": "poder",
+  "nome": "Transformação Repugnante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Forma Aberrante",
+    "descricao": "Quando usa Forma Selvagem, você pode gastar +2 PM. Se fizer isso, inimigos em alcance curto sofrem 1d6 pontos de dano psíquico para cada poder da Tormenta que você possui e ficam alquebrados e frustrados (Vontade CD Sab reduz à metade e evita as condições)."
+  }
+}

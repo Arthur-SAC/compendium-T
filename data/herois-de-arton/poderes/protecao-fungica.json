@@ -1,0 +1,20 @@
+{
+  "id": "protecao-fungica",
+  "tipo": "poder",
+  "nome": "Proteção Fúngica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Coração da Selva",
+    "descricao": "Você pode gastar 1 PM para cobrir seu corpo de esporos com duração sustentada. Nesse estado, sempre que você sofrer um ataque corpo a corpo de uma criatura adjacente, ela perde 1d8 PV. A cada quatro níveis acima do 1º, você pode gastar +1 PM quando usa este poder para aumentar a perda de vida em +1d8. Veneno.",
+    "tags": [
+      "veneno"
+    ]
+  }
+}

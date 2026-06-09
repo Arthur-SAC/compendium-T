@@ -1,0 +1,17 @@
+{
+  "id": "canalizar-abencoado",
+  "tipo": "poder",
+  "nome": "Canalizar Abençoado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Clérigo",
+    "prerequisito": "Canalizar Energia Positiva, 11° nível de clérigo",
+    "descricao": "Quando você usa Canalizar Energia Positiva, pode gastar 1 PM. Se fizer isso, além do normal, as criaturas afetadas recebem 10 PV temporários."
+  }
+}

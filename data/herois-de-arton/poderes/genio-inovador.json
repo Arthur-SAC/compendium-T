@@ -1,0 +1,17 @@
+{
+  "id": "genio-inovador",
+  "tipo": "poder",
+  "nome": "Gênio Inovador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 70
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "17º nível de inventor",
+    "descricao": "Você entende o mundo de forma diferente, e sua capacidade de inovar é quase ilimitada. Você pode usar Inteligência como atributo-chave de até duas perícias a sua escolha (em vez do atributo normal). Além disso, quando fabrica um item superior, você pode adicionar uma melhoria extra gratuita, que não conta no limite (por exemplo, por T$ +6.000, adiciona cinco melhorias, em vez de quatro). Por fim, os itens que você fabrica podem ter dois materiais especiais diferentes (em vez de apenas um)."
+  }
+}

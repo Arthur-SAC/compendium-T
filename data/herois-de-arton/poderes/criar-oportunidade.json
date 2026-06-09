@@ -1,0 +1,17 @@
+{
+  "id": "criar-oportunidade",
+  "tipo": "poder",
+  "nome": "Criar Oportunidade",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "Xadrez de Batalha",
+    "descricao": "Quando você ou um aliado em alcance curto atacar uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 1 PM para que esse ataque cause +1d10 pontos de dano."
+  }
+}

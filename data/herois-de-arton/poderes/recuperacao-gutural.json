@@ -1,0 +1,17 @@
+{
+  "id": "recuperacao-gutural",
+  "tipo": "poder",
+  "nome": "Recuperação Gutural",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Alma de Bronze, um poder de brado",
+    "descricao": "Quando usa um brado enquanto está em fúria, você recebe uma quantidade de PV temporários igual à metade do seu nível + sua Força."
+  }
+}

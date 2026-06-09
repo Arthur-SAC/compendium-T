@@ -1,0 +1,51 @@
+{
+  "id": "eiradaan",
+  "tipo": "raca",
+  "nome": "Eiradaan",
+  "resumo": "Seres féericos ancestrais criados pelo Panteão para proteger Vitalia, exilados de seu lar divino após uma tragédia e refugiados nas florestas profundas de Arton.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 12 },
+  "imagens": ["/racas/eiradaan.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Seres féericos ancestrais, os eiradaan foram criados pelo Panteão para proteger Vitalia, o Reino de Lena, de todo o mal da Criação, e chegaram a Arton após um evento que trouxe grande tristeza à Deusa da Vida. Não há registros acurados sobre o que teria exatamente acontecido; sabe-se apenas que os eiradaan falharam em sua tarefa sagrada, sendo expulsos de seu lar divino.\n\nEm Arton, os eiradaan se refugiaram nas florestas mais densas e profundas. Lendas dizem que, nesses locais secretos, ergueram reinos mágicos que governam conforme seus caprichos. De fato, muitos nobres na corte de Thantalla-Dhaedelin, a Rainha da Pondsmânia, são eiradaan.\n\nFisicamente, o eiradaan lembra um elfo, com as mesmas orelhas pontiagudas, olhos amendoados e traços delicados. Mas seu corpo ostenta a exuberância do mundo natural, com galhadas ramificando-se na cabeça. Nos olhos, exibe grande inteligência, mas também certo resquício de tristeza profunda.\n\nEiradaan entregam-se a longos períodos de melancolia, ou então buscam se manter ocupados para afastar a tristeza (mas nunca se dedicam a um mesmo projeto por muito tempo). Apesar de seu poder mágico fenomenal, eiradaan ainda são fadas: vulneráveis a emoções fortes, tornando-se perigosos quando algo desperta sua antiga mágoa.\n\nEntre os eiradaan, muitos são arcanistas, mas também há nobres e cavaleiros — em sua maioria, atuam como guardiões e soldados de elite da Rainha das Fadas. Esses são especialmente imponentes e dignos, vivendo conforme códigos e tabus de honra e glória, duelando (entre si ou com mortais) e protegendo locais sagrados. Suas montarias são grandes gamos celestiais presenteados por Allihanna; dizem que a deusa, às vezes, também oferta essas montarias sagradas a outros devotos valorosos.\n\nAlguns eiradaan aceitam acompanhar grupos de aventureiros, seja para aplacar a melancolia ancestral, seja para procurar pistas sobre o mistério de seu banimento divino."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Sabedoria", "valor": 2 },
+      { "atributo": "Carisma", "valor": 1 },
+      { "atributo": "Força", "valor": -1 }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Essência Feérica",
+        "descricao": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente."
+      },
+      {
+        "nome": "Magia Instintiva",
+        "descricao": "Você pode usar Sabedoria no lugar de seu atributo-chave de magias arcanas e Misticismo. Além disso, quando lança uma magia, você recebe +1 PM para gastar em seus aprimoramentos (não cumulativo com outros efeitos que fornecem PM para aprimoramentos, como bolsa de pó; Tormenta20, p. 159)."
+      },
+      {
+        "nome": "Sentidos Místicos",
+        "descricao": "Você está sempre sob o efeito básico da magia Visão Mística."
+      },
+      {
+        "nome": "Canção da Melancolia",
+        "descricao": "Quando faz um teste de Vontade contra efeitos mentais, você rola dois dados e usa o pior resultado."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "x5."
+      },
+      {
+        "nome": "Devoção",
+        "descricao": "Allihanna, Lena, Thyatis, Wynna."
+      }
+    ]
+  }
+}

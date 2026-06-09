@@ -1,0 +1,17 @@
+{
+  "id": "papo-furado",
+  "tipo": "poder",
+  "nome": "Papo Furado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Diplomacia e Enganação",
+    "descricao": "Quando você passa em um teste de Diplomacia contra uma criatura, se passar também em um teste de Enganação contra ela até o fim do seu próximo turno, a atitude da criatura em relação a você melhora em uma categoria."
+  }
+}

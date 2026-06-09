@@ -1,0 +1,23 @@
+{
+  "id": "naufrago",
+  "tipo": "origem",
+  "nome": "Náufrago",
+  "resumo": "Sobrevivente de um naufrágio que ficou isolado em terra remota e aprendeu a subsistir com recursos mínimos até ser resgatado por aventureiros.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 52 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi passageiro, tripulante ou capitão a bordo de uma embarcação — até que, durante uma longa viagem, ela naufragou. Teria sido uma tempestade, abordagem de piratas, ataque de elfos-do-mar, ou mesmo um kaiju? Você sobreviveu, mas acabou isolado em alguma terra remota. Praticamente sem recursos exceto por alguns detritos do naufrágio, precisou achar maneiras de obter sustento e abrigo, além de evitar predadores e bandos selvagens. Não foram tempos fáceis, mas você viveu o bastante para ser encontrado e resgatado. Graças aos deuses, aqueles aventureiros apareceram! Quem sabe, usando as habilidades que aprendeu, você também poderia ser um...?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Arco curto, 20 flechas, uma bola (ou outro objeto simples) com uma cara pintada e nome de gente.",
+    "beneficios": {
+      "pericias": [],
+      "texto": "Recebe +5 PV e +2 PM. Além disso, uma vez por cena pode gastar 2 PM para receber um dos seguintes benefícios até o fim da cena: treinamento em uma perícia; proficiência com uma arma, armadura ou escudo; usar uma ferramenta no lugar de outra."
+    },
+    "poderesUnicos": []
+  }
+}

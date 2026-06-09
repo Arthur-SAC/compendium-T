@@ -1,0 +1,18 @@
+{
+  "id": "sequencia-dilaceradora",
+  "tipo": "poder",
+  "nome": "Sequência Dilaceradora",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Ambidestria, 11° nível de caçador",
+    "custo": "1 PM",
+    "descricao": "Quando usa Ambidestria, se acertar ambos os ataques, você pode gastar 1 PM para causar +2d8 pontos de dano no segundo ataque."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "estrategista-inspirador",
+  "tipo": "poder",
+  "nome": "Estrategista Inspirador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "treinado em Guerra",
+    "descricao": "Em seu primeiro turno de um combate, você pode gastar uma ação padrão e fazer um teste de Guerra. Se fizer isso, para cada 10 pontos no resultado do teste, você e seus aliados em alcance curto recebem 1 PM temporário. Esses PM temporários desaparecem no fim da cena."
+  }
+}

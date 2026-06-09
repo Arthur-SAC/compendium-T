@@ -1,0 +1,17 @@
+{
+  "id": "arma-tradicional",
+  "tipo": "poder",
+  "nome": "Arma Tradicional",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "druida de Arton, 5º nível de druida",
+    "descricao": "Quando faz um ataque com uma foice, você pode gastar 2 PM para lançar uma magia de ácido, eletricidade, fogo ou frio com execução de movimento, padrão ou completa como ação livre. Considere que a mão da arma está livre para lançar essa magia."
+  }
+}

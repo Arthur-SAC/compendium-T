@@ -1,0 +1,18 @@
+{
+  "id": "tradicao-perdida",
+  "tipo": "poder",
+  "nome": "Tradição Perdida",
+  "resumo": "Escolha um atributo e uma classe com a habilidade Magias. Para essa classe, some o atributo escolhido no total de PM em vez do atributo determinado por ela, até um limite de 6 pontos de atributo (+2 por patamar acima de iniciante). Aumentos temporários não fornecem PM adicionais.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 91
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "não humano; habilidade de classe Magias; Várias",
+    "descricao": "Membros de sua raça sabem lançar magias de uma forma diferente das conhecidas. Escolha um atributo (Força, Destreza, Constituição, Inteligência, Sabedoria ou Carisma) e uma de suas classes com a habilidade Magias. Para essa classe, você soma o atributo escolhido no seu total de PM, em vez do atributo determinado por ela, até um limite de 6 pontos de atributo, +2 pontos por patamar acima de iniciante — com parte de seu conhecimento perdido, as tradições mais antigas possuem certas limitações. Aumentos temporários nesse atributo não fornecem PM adicionais."
+  }
+}

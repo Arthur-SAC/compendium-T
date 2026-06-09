@@ -1,0 +1,278 @@
+{
+  "id": "alquimista",
+  "tipo": "variante-classe",
+  "nome": "Alquimista",
+  "resumo": "Variante do Inventor focada em alquimia transcendental, usando emulsões mágicas, odores alquímicos e a busca pela Pedra Filosofal para transformar a realidade.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 22 },
+  "imagens": ["/classes/alquimista.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Inventores são artesãos versáteis, capazes de fabricar, consertar e aprimorar vários tipos de itens. Contudo, alguns pensam que os únicos itens que merecem tamanho esmero são aqueles que elevam Arton de forma física e espiritual. O único ofício verdadeiramente transcendente é a alquimia.\n\nO alquimista é um inventor que busca mais do que criar objetos mundanos: cada preparado teria um componente místico, afetando a alma de quem o usa. Assim, ácido não seria apenas uma maneira de causar dano, mas um modo de destruir o que é velho, para que possa ser substituído pelo novo. Essência de mana não seria apenas um elixir de ervas, mas energia materializada, capaz de elevar a mente. Para o alquimista, o verdadeiro ofício é compreender como Arton está conectada a outras dimensões, outros mundos, outras realidades — e imbuir seus preparados com essa compreensão transcendental.\n\nUm ditado comum entre alquimistas é \"Assim acima como abaixo\": todo ato em Arton teria um reflexo nos reinos dos deuses e todo item alquímico seria uma metáfora para algum processo de transformação espiritual. Dizem que os maiores alquimistas podem transformar chumbo em ouro... Mas apenas os aprendizes pensam que isso é sobre riqueza."
+    },
+    {
+      "titulo": "Emulsões",
+      "texto": "Uma emulsão é um óleo que concede propriedades mágicas a um item. Usá-la é uma ação padrão e fornece um ou mais encantos para um item até o fim da cena. Conceder um encanto através de uma emulsão não tem custo adicional (além do gasto do óleo) e conta no limite de encantos do item.\n\nExistem emulsões com um, dois e três encantos. Se um encanto contido em uma emulsão tiver outro como pré-requisito, a emulsão deve incluir também esse pré-requisito. Fabricar uma emulsão segue as mesmas regras para itens alquímicos, mas o custo e a CD dependem da quantidade de encantos contidos no óleo.\n\nTabela de Emulsões:\n| Encantos | Custo de Fabricação | CD |\n|----------|--------------------|----|  \n| 1 | T$ 250 | 25 |\n| 2 | T$ 750 | 30 |\n| 3 | T$ 1.500 | 35 |\n\nPor sua volatilidade, que exige do criador manutenção constante, além da necessidade de supervisão em sua aplicação, emulsões não são comercializadas."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "inventor",
+    "atributoChave": "Inteligência",
+    "pvInicial": 12,
+    "pvPorNivel": 3,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 4,
+      "fixas": ["Ofício (alquimista) (Int)", "Vontade (Sab)"],
+      "lista": ["Conhecimento (Int)", "Cura (Sab)", "Diplomacia (Car)", "Fortitude (Con)", "Iniciativa (Des)", "Investigação (Int)", "Luta (For)", "Misticismo (Int)", "Ofício (Int)", "Pilotagem (Des)", "Percepção (Sab)", "Pontaria (Des)"],
+      "texto": "Como o inventor básico, mas seu Ofício inicial é alquimista."
+    },
+    "proficiencias": [],
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Engenhosidade", "Laboratório pessoal"] },
+      { "nivel": 2, "habilidades": ["Alquimista iniciado", "Poder de inventor"] },
+      { "nivel": 3, "habilidades": ["Mistura básica", "Poder de inventor"] },
+      { "nivel": 4, "habilidades": ["Poder de inventor"] },
+      { "nivel": 5, "habilidades": ["Aplicação rápida", "Poder de inventor"] },
+      { "nivel": 6, "habilidades": ["Poder de inventor"] },
+      { "nivel": 7, "habilidades": ["Magia engarrafada", "Poder de inventor"] },
+      { "nivel": 8, "habilidades": ["Odores alquímicos", "Poder de inventor"] },
+      { "nivel": 9, "habilidades": ["Fabricar emulsão (1 encanto)", "Poder de inventor"] },
+      { "nivel": 10, "habilidades": ["Mestre alquimista", "Poder de inventor"] },
+      { "nivel": 11, "habilidades": ["Bombardeio eficiente", "Poder de inventor"] },
+      { "nivel": 12, "habilidades": ["Poder de inventor"] },
+      { "nivel": 13, "habilidades": ["Fabricar emulsão (2 encantos)", "Poder de inventor"] },
+      { "nivel": 14, "habilidades": ["Poder de inventor"] },
+      { "nivel": 15, "habilidades": ["Poder de inventor"] },
+      { "nivel": 16, "habilidades": ["Poder de inventor"] },
+      { "nivel": 17, "habilidades": ["Fabricar emulsão (3 encantos)", "Poder de inventor"] },
+      { "nivel": 18, "habilidades": ["Poder de inventor"] },
+      { "nivel": 19, "habilidades": ["Poder de inventor"] },
+      { "nivel": 20, "habilidades": ["Pedra filosofal", "Poder de inventor"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Engenhosidade",
+        "nivel": 1,
+        "descricao": "Como o inventor básico.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Laboratório Pessoal",
+        "nivel": 1,
+        "descricao": "Você começa o jogo com instrumentos de alquimista aprimorados e 10 itens alquímicos com preço total de até T$ 300."
+      },
+      {
+        "nome": "Alquimista Iniciado",
+        "nivel": 2,
+        "descricao": "No 2º nível, você recebe o poder Alquimista Iniciado (veja Tormenta20, p. 68)."
+      },
+      {
+        "nome": "Poder de Inventor",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o inventor básico."
+      },
+      {
+        "nome": "Mistura Básica",
+        "nivel": 3,
+        "descricao": "A partir do 3º nível, você pode usar catalisadores em itens alquímicos como se fossem magias."
+      },
+      {
+        "nome": "Aplicação Rápida",
+        "nivel": 5,
+        "descricao": "No 5º nível, você pode gastar uma ação completa e 2 PM para usar dois preparados alquímicos ao mesmo tempo. Você precisa ter ambos em suas mãos ou ser capaz de sacá-los como ação livre.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Magia Engarrafada",
+        "nivel": 7,
+        "descricao": "No 7º nível, você pode usar Mistura Básica e Aplicação Rápida em poções."
+      },
+      {
+        "nome": "Odores Alquímicos",
+        "nivel": 8,
+        "descricao": "A partir do 8º nível, você pode gastar uma ação completa para detectar a presença de itens alquímicos e poções em alcance médio. No caso de itens alquímicos, você descobre seu tipo (preparado, veneno etc.) e uso geral (curar, fornecer bônus etc.). Para poções, você identifica qual magia ela emula e com quantos pontos de mana foi fabricada."
+      },
+      {
+        "nome": "Fabricar Emulsão",
+        "nivel": 9,
+        "descricao": "No 9º nível, você aprende a fabricar emulsões com um encanto (veja o quadro). Nos níveis 13 e 17, você aprende a fabricar emulsões com respectivamente dois e três encantos."
+      },
+      {
+        "nome": "Mestre Alquimista",
+        "nivel": 10,
+        "descricao": "No 10º nível, você recebe o poder Mestre Alquimista (veja Tormenta20, p. 69)."
+      },
+      {
+        "nome": "Bombardeio Eficiente",
+        "nivel": 11,
+        "descricao": "A partir do 11º nível, quando usa um preparado alquímico ou uma poção que causa dano, você pode gastar 1 PM para que esse item ignore 10 pontos da redução de dano das criaturas atingidas.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Pedra Filosofal",
+        "nivel": 20,
+        "descricao": "No 20º nível, você recebe uma pedra filosofal, um material que combina alquimia, magia e sua própria energia vital em uma fórmula única. Enquanto estiver de posse de sua pedra filosofal, você tem Cura Acelerada 10 e, quando faz um teste de Fortitude, rola dois dados e usa o melhor resultado. Além disso, se você ou um aliado em alcance curto for reduzido a 0 PV ou morrer, você pode sacrificar sua pedra filosofal para salvar essa criatura. A pedra se estilhaça em uma explosão de energia positiva que fornece ao alvo o efeito básico da magia Segunda Chance (com o efeito adicional de reconstruir o corpo do alvo, caso tenha sido destruído ou desintegrado). Você só pode ter uma pedra filosofal por vez; se perdê-la, pode fabricar outra com uma semana de trabalho e o gasto de T$ 18.000."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Agite Antes de Usar",
+        "descricao": "Quando usa um preparado alquímico que cause dano, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item causa um dado extra de dano do mesmo tipo.",
+        "prerequisito": "treinado em Ofício (alquimista)"
+      },
+      {
+        "nome": "Ajuste de Mira",
+        "descricao": "Você pode gastar uma ação padrão e uma quantidade de PM a sua escolha (limitado pela sua Inteligência) para aprimorar uma arma de ataque à distância. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena.",
+        "prerequisito": "Balística"
+      },
+      {
+        "nome": "Alquimista de Batalha",
+        "descricao": "Quando usa um preparado alquímico ou poção que cause dano, você soma sua Inteligência na rolagem de dano.",
+        "prerequisito": "Alquimista Iniciado"
+      },
+      {
+        "nome": "Alquimista Iniciado",
+        "descricao": "Você recebe um livro de fórmulas e pode fabricar poções com fórmulas que conheça de 1º e 2º círculos. Veja as páginas 333 e 341 para as regras de poções.",
+        "prerequisito": "Int 1, Sab 1, treinado em Ofício (alquimista)"
+      },
+      {
+        "nome": "Armeiro",
+        "descricao": "Você recebe proficiência com armas marciais corpo a corpo. Quando empunha uma arma corpo a corpo, pode usar sua Inteligência em vez de Força nos testes de ataque e rolagens de dano.",
+        "prerequisito": "treinado em Luta e Ofício (armeiro)"
+      },
+      {
+        "nome": "Ativação Rápida",
+        "descricao": "Ao ativar uma engenhoca com ação padrão, você pode pagar 2 PM para ativá-la com uma ação de movimento, em vez disto.",
+        "prerequisito": "Engenhoqueiro, 7º nível de inventor",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Autômato",
+        "descricao": "Você fabrica um autômato, um construto que obedece a seus comandos. Ele é um parceiro iniciante de um tipo a sua escolha entre ajudante, assassino, atirador, combatente, guardião, montaria ou vigilante. No 7º nível, ele muda para veterano e, no 15º nível, para mestre. Se o autômato for destruído, você pode fabricar um novo com uma semana de trabalho e T$ 100.",
+        "prerequisito": "Engenhoqueiro"
+      },
+      {
+        "nome": "Autômato Prototipado",
+        "descricao": "Você pode gastar uma ação padrão e 2 PM para ativar uma melhoria experimental em seu autômato. Role 1d6. Em um resultado 2 a 6, você aumenta o nível de parceiro do autômato em um passo (até mestre), ou concede a ele a habilidade iniciante de outro de seus tipos, até o fim da cena. Em um resultado 1, o autômato enguiça como uma engenhoca.",
+        "prerequisito": "Autômato",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Balística",
+        "descricao": "Você recebe proficiência com armas marciais de ataque à distância ou com armas de fogo. Quando usa uma arma de ataque à distância, pode usar sua Inteligência em vez de Destreza nos testes de ataque (e, caso possua o poder Estilo de Disparo, nas rolagens de dano).",
+        "prerequisito": "treinado em Pontaria e Ofício (armeiro)"
+      },
+      {
+        "nome": "Blindagem",
+        "descricao": "Você pode usar sua Inteligência na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso.",
+        "prerequisito": "Couraceiro, 8º nível de inventor"
+      },
+      {
+        "nome": "Cano Raiado",
+        "descricao": "Quando usa uma arma de disparo feita por você mesmo, ela recebe +1 na margem de ameaça.",
+        "prerequisito": "Balística, 5º nível de inventor"
+      },
+      {
+        "nome": "Catalisador Instável",
+        "descricao": "Você pode gastar uma ação completa e 3 PM para fabricar um preparado alquímico ou poção cuja fórmula conheça instantaneamente. O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas ele só dura até o fim da cena.",
+        "prerequisito": "Alquimista Iniciado",
+        "custo": "3 PM"
+      },
+      {
+        "nome": "Chutes e Palavrões",
+        "descricao": "Uma vez por rodada, você pode pagar 1 PM para repetir um teste de Ofício (engenhoqueiro) recém realizado para ativar uma engenhoca.",
+        "prerequisito": "Engenhoqueiro",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Conhecimento de Fórmulas",
+        "descricao": "Você aprende três fórmulas de quaisquer círculos que possa aprender. Você pode escolher este poder quantas vezes quiser.",
+        "prerequisito": "Alquimista Iniciado"
+      },
+      {
+        "nome": "Couraceiro",
+        "descricao": "Você recebe proficiência com armaduras pesadas e escudos. Quando usa armadura, pode usar sua Inteligência em vez de Destreza na Defesa (mas continua não podendo somar um atributo na Defesa quando usa armadura pesada).",
+        "prerequisito": "treinado em Ofício (armeiro)"
+      },
+      {
+        "nome": "Engenhoqueiro",
+        "descricao": "Você pode fabricar engenhocas. Veja as regras para isso na página 70.",
+        "prerequisito": "Int 3, treinado em Ofício (engenhoqueiro)"
+      },
+      {
+        "nome": "Farmacêutico",
+        "descricao": "Quando usa um item alquímico que cure pontos de vida, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item cura um dado extra do mesmo tipo.",
+        "prerequisito": "Sab 1, treinado em Ofício (alquimista)"
+      },
+      {
+        "nome": "Ferreiro",
+        "descricao": "Quando usa uma arma corpo a corpo feita por você mesmo, o dano dela aumenta em um passo.",
+        "prerequisito": "Armeiro, 5º nível de inventor"
+      },
+      {
+        "nome": "Granadeiro",
+        "descricao": "Você pode arremessar itens alquímicos e poções em alcance médio. Você pode usar sua Inteligência em vez de Destreza para calcular a CD do teste de resistência desses itens.",
+        "prerequisito": "Alquimista de Batalha"
+      },
+      {
+        "nome": "Homúnculo",
+        "descricao": "Você possui um homúnculo, uma criatura Minúscula feita de alquimia. Vocês podem se comunicar telepaticamente em alcance longo e ele obedece a suas ordens, mas ainda está limitado ao que uma criatura de seu tamanho pode fazer. Um homúnculo é um parceiro ajudante iniciante. Você pode perder 1d6 pontos de vida para seu homúnculo assumir uma forma capaz de protegê-lo e se tornar também um parceiro guardião iniciante até o fim da cena.",
+        "prerequisito": "Alquimista Iniciado"
+      },
+      {
+        "nome": "Invenção Potente",
+        "descricao": "Quando usa um item ou engenhoca fabricado por você mesmo, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ele.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Maestria em Perícia",
+        "descricao": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Com essas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Manutenção Eficiente",
+        "descricao": "A quantidade de engenhocas que você pode manter aumenta em +3. Além disso, cada engenhoca passa a ocupar meio espaço.",
+        "prerequisito": "Engenhoqueiro, 5º nível de inventor"
+      },
+      {
+        "nome": "Mestre Alquimista",
+        "descricao": "Você pode fabricar poções com fórmulas que conheça de qualquer círculo.",
+        "prerequisito": "Int 3, Sab 3, Alquimista Iniciado, 10º nível de inventor"
+      },
+      {
+        "nome": "Mestre Cuca",
+        "descricao": "Todas as comidas que você cozinha têm seu bônus numérico aumentado em +1.",
+        "prerequisito": "treinado em Ofício (cozinheiro)"
+      },
+      {
+        "nome": "Mistura Fervilhante",
+        "descricao": "Quando usa um item alquímico ou poção, você pode gastar 2 PM para dobrar a área de efeito dele.",
+        "prerequisito": "Alquimista Iniciado, 5º nível de inventor",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Oficina de Campo",
+        "descricao": "Você pode gastar uma hora e 2 PM para fazer a manutenção do equipamento de seu grupo. Cada membro do grupo escolhe uma arma, armadura ou escudo para manutenção. Armas recebem +1 em testes de ataque, armaduras e escudos aumentam seu bônus na Defesa em +1. Os benefícios duram um dia.",
+        "prerequisito": "treinado em Ofício (armeiro)",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Pedra de Amolar",
+        "descricao": "Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitado por sua Inteligência) para aprimorar uma arma corpo a corpo que esteja empunhando. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena.",
+        "prerequisito": "Armeiro"
+      },
+      {
+        "nome": "Síntese Rápida",
+        "descricao": "Quando fabrica um item alquímico ou poção, você pode fabricar o dobro de doses no mesmo tempo (pagando o custo de matéria-prima de cada uma).",
+        "prerequisito": "Alquimista Iniciado"
+      }
+    ],
+    "caminhos": []
+  }
+}

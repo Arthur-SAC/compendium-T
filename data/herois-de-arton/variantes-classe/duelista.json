@@ -1,0 +1,236 @@
+{
+  "id": "duelista",
+  "tipo": "variante-classe",
+  "nome": "Duelista",
+  "resumo": "Variante do Bucaneiro que encarna o esgrimista austero e honrado, sempre pronto para defender grandes causas nos salões e ruelas de Arton com sua escola de duelo pessoal.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 27 },
+  "imagens": ["/classes/bucaneiro.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O duelista é o mais austero e dedicado dos bucaneiros, um esgrimista orgulhoso e honrado, sempre pronto para dedicar sua vida a grandes causas. Um paladino (ou algoz) entre os fanfarrões, está sempre procurando problemas, mas por um ideal maior. Quando ouve alguém falar mal da Rainha-Imperatriz numa taverna, logo chama o biltre para um duelo. Quando nota um guarda intimidando um aldeão, intercede sem pensar duas vezes. Quando há alguém em perigo, corre para socorrê-lo. Ou então, como um vilão megalomaníaco, viaja pelos reinos, derrotando os melhores espadachins de cada local apenas para espalhar sua fama.\n\nDe qualquer forma, o duelista é qualquer coisa, menos avoado. Para ele, tudo é exagerado e muito sério: apaixona-se perdidamente por alguém que viu de relance numa festa. Toma porres épicos, durante os quais jura embarcar em alguma missão heroica... E cumpre o juramento! Odeia seus inimigos com fervor apavorante e faz questão de enfrentá-los de frente, para que os poltrões vejam a justiça chegando.\n\nDuelistas muitas vezes não têm grande relação com o mar. Seu terreno são os salões de baile, as ruelas de capitais, os corredores de palácios imponentes. Nesses lugares, sua honra espalhafatosa pode brilhar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "bucaneiro",
+    "atributoChave": "Destreza",
+    "pvInicial": 16,
+    "pvPorNivel": 4,
+    "pmPorNivel": 3,
+    "pericias": {
+      "quantidade": 2,
+      "fixas": ["Luta (For) ou Pontaria (Des)", "Reflexos (Des)"],
+      "lista": ["Acrobacia (Des)", "Atletismo (For)", "Atuação (Car)", "Diplomacia (Car)", "Fortitude (Con)", "Iniciativa (Des)", "Intimidação (Car)", "Luta (For)", "Ofício (Int)", "Percepção (Sab)", "Pilotagem (Des)", "Pontaria (Des)"],
+      "texto": "Luta (For) ou Pontaria (Des) e Reflexos (Des), mais 2 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Diplomacia (Car), Fortitude (Con), Iniciativa (Des), Intimidação (Car), Luta (For), Ofício (Int), Percepção (Sab), Pilotagem (Des) e Pontaria (Des)."
+    },
+    "proficiencias": ["armas marciais"],
+    "progressao": [
+      { "nivel": 1,  "habilidades": ["Duelo +2", "Insolência"] },
+      { "nivel": 2,  "habilidades": ["Escola de duelo", "Poder de bucaneiro"] },
+      { "nivel": 3,  "habilidades": ["Esquiva sagaz +1", "Poder de bucaneiro"] },
+      { "nivel": 4,  "habilidades": ["Poder de bucaneiro", "Truques de capa"] },
+      { "nivel": 5,  "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 6,  "habilidades": ["Duelo +3", "Poder de bucaneiro"] },
+      { "nivel": 7,  "habilidades": ["Esquiva sagaz +2", "Poder de bucaneiro"] },
+      { "nivel": 8,  "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 9,  "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 10, "habilidades": ["Poder de bucaneiro", "Técnica avançada"] },
+      { "nivel": 11, "habilidades": ["Duelo +4", "Esquiva sagaz +3", "Poder de bucaneiro"] },
+      { "nivel": 12, "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 13, "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 14, "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 15, "habilidades": ["Esquiva sagaz +4", "Poder de bucaneiro"] },
+      { "nivel": 16, "habilidades": ["Duelo +5", "Poder de bucaneiro"] },
+      { "nivel": 17, "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 18, "habilidades": ["Poder de bucaneiro"] },
+      { "nivel": 19, "habilidades": ["Esquiva sagaz +5", "Poder de bucaneiro"] },
+      { "nivel": 20, "habilidades": ["Duelista lendário", "Poder de bucaneiro"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Duelo",
+        "nivel": 1,
+        "descricao": "Você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1.",
+        "custo": "2 PM",
+        "observacao": "O bônus de Duelo progride: +2 no 1º nível, +3 no 6º, +4 no 11º, +5 no 16º."
+      },
+      {
+        "nome": "Insolência",
+        "nivel": 1,
+        "descricao": "Como o bucaneiro básico.",
+        "referencia": "bucaneiro.habilidades.Insolência"
+      },
+      {
+        "nome": "Escola de Duelo",
+        "nivel": 2,
+        "descricao": "No 2º nível, escolha uma escola de duelo entre as seguintes. Uma vez feita, essa escolha não pode ser mudada.\n\n• Escola Ambidestra. Se estiver empunhando duas armas (e pelo menos uma delas for leve), você recebe +2 na Defesa e em Reflexos.\n\n• Escola Clássica. Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 em rolagens de dano com essa arma.\n\n• Escola de Tiro. Você recebe proficiência com armas de fogo leves e de uma mão. Caso receba essa proficiência novamente, com essas armas você pode usar suas habilidades de bucaneiro normalmente usadas com armas corpo a corpo leves ou ágeis.",
+        "escolas": [
+          {
+            "nome": "Escola Ambidestra",
+            "descricao": "Se estiver empunhando duas armas (e pelo menos uma delas for leve), você recebe +2 na Defesa e em Reflexos."
+          },
+          {
+            "nome": "Escola Clássica",
+            "descricao": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 em rolagens de dano com essa arma."
+          },
+          {
+            "nome": "Escola de Tiro",
+            "descricao": "Você recebe proficiência com armas de fogo leves e de uma mão. Caso receba essa proficiência novamente, com essas armas você pode usar suas habilidades de bucaneiro normalmente usadas com armas corpo a corpo leves ou ágeis."
+          }
+        ]
+      },
+      {
+        "nome": "Poder de Bucaneiro",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o bucaneiro básico.",
+        "referencia": "bucaneiro.habilidades.Poder de Bucaneiro"
+      },
+      {
+        "nome": "Esquiva Sagaz",
+        "nivel": 3,
+        "descricao": "No 3º nível, você recebe esta habilidade como o bucaneiro básico.",
+        "referencia": "bucaneiro.habilidades.Esquiva Sagaz",
+        "observacao": "O bônus progride: +1 no 3º, +2 no 7º, +3 no 11º, +4 no 15º, +5 no 19º."
+      },
+      {
+        "nome": "Truques de Capa",
+        "nivel": 4,
+        "descricao": "A partir do 4º nível, se estiver usando uma capa esvoaçante (ou outro item semelhante aprovado pelo mestre), você pode gastar 2 PM e a ação indicada para gerar um dos efeitos a seguir.\n\n• Capa Inoportuna (Livre). Reduz a ação necessária para fintar em um passo até o fim do seu turno.\n\n• Distração Oportuna (Reação). Quando faz um teste de Reflexos ou Vontade, você recebe +5 nesse teste.\n\n• Efeito Dramático (Livre). Você recebe +5 em um teste de perícia baseada em Carisma feito nesse turno.\n\n• Impulso (Livre). Você recebe deslocamento +9m e +5 em Acrobacia e Atletismo por 1 rodada.\n\n• Paraquedas (Reação). Quando cai, você reduz o dano da queda em 6d6.\n\n• Rasgar a Capa (Reação). Quando sofre dano, você reduz esse dano à metade. Fazer isso destrói a capa.",
+        "custo": "2 PM",
+        "acoes": [
+          { "nome": "Capa Inoportuna", "acao": "Livre", "descricao": "Reduz a ação necessária para fintar em um passo até o fim do seu turno." },
+          { "nome": "Distração Oportuna", "acao": "Reação", "descricao": "Quando faz um teste de Reflexos ou Vontade, você recebe +5 nesse teste." },
+          { "nome": "Efeito Dramático", "acao": "Livre", "descricao": "Você recebe +5 em um teste de perícia baseada em Carisma feito nesse turno." },
+          { "nome": "Impulso", "acao": "Livre", "descricao": "Você recebe deslocamento +9m e +5 em Acrobacia e Atletismo por 1 rodada." },
+          { "nome": "Paraquedas", "acao": "Reação", "descricao": "Quando cai, você reduz o dano da queda em 6d6." },
+          { "nome": "Rasgar a Capa", "acao": "Reação", "descricao": "Quando sofre dano, você reduz esse dano à metade. Fazer isso destrói a capa." }
+        ]
+      },
+      {
+        "nome": "Técnica Avançada",
+        "nivel": 10,
+        "descricao": "No 10º nível, você aprende uma técnica de combate conforme sua escola de duelo. Você só pode usar esta habilidade se estiver usando sua escola.\n\n• Escola Ambidestra. Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer um ataque corpo a corpo contra essa criatura (desde que ela esteja em seu alcance).\n\n• Escola Clássica. O dano de sua escola aumenta para +5. Além disso, uma vez por rodada, quando usa a ação agredir, você pode gastar 1 PM. Se fizer isso e pelo menos um de seus ataques for um acerto crítico, você pode fazer um ataque adicional nessa ação.\n\n• Escola de Tiro. Seu dano com armas de fogo aumenta em um passo e seu alcance com essas armas aumenta em uma categoria (de curto para médio, de médio para longo).",
+        "custo": "1 PM (Ambidestra e Clássica)",
+        "tecnicas": [
+          {
+            "escola": "Escola Ambidestra",
+            "descricao": "Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer um ataque corpo a corpo contra essa criatura (desde que ela esteja em seu alcance).",
+            "custo": "1 PM"
+          },
+          {
+            "escola": "Escola Clássica",
+            "descricao": "O dano de sua escola aumenta para +5. Além disso, uma vez por rodada, quando usa a ação agredir, você pode gastar 1 PM. Se fizer isso e pelo menos um de seus ataques for um acerto crítico, você pode fazer um ataque adicional nessa ação.",
+            "custo": "1 PM"
+          },
+          {
+            "escola": "Escola de Tiro",
+            "descricao": "Seu dano com armas de fogo aumenta em um passo e seu alcance com essas armas aumenta em uma categoria (de curto para médio, de médio para longo)."
+          }
+        ]
+      },
+      {
+        "nome": "Duelista Lendário",
+        "nivel": 20,
+        "descricao": "No 20º nível, seu domínio de sua escola atinge o ápice. Quando faz um ataque utilizando sua escola de duelo, você pode gastar 1 PM para rolá-lo novamente. Quando um oponente o ataca enquanto você está usando sua escola de duelo, você pode gastar 1 PM para forçá-lo a rolar o teste novamente (apenas uma vez por ataque).",
+        "custo": "1 PM"
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Abusar dos Fracos",
+        "descricao": "Quando ataca uma criatura sob efeito de uma condição de medo, seu dano aumenta em um passo.",
+        "prerequisito": "Flagelo dos Mares"
+      },
+      {
+        "nome": "Amigos no Porto",
+        "descricao": "Quando chega em uma comunidade portuária, você pode fazer um teste de Carisma (CD 10). Se passar, encontra um amigo para o qual pode pedir um favor ou que pode ajudá-lo como parceiro veterano de um tipo a sua escolha por um dia.",
+        "prerequisito": "Car 1, 6º nível de bucaneiro"
+      },
+      {
+        "nome": "Aparar",
+        "descricao": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 1 PM para fazer um teste de ataque com bônus igual ao seu nível (além do normal). Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma corpo a corpo leve ou ágil.",
+        "prerequisito": "Esgrimista",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Apostador",
+        "descricao": "Você pode gastar um dia para encontrar e participar de uma mesa de wyrt ou outro jogo de azar. Escolha um valor e faça um teste de Jogatina contra a CD correspondente: T$ 100 (CD 15), T$ 200 (CD 20), T$ 400 (CD 25), T$ 800 (CD 30), T$ 1.600 (CD 35) e assim por diante. Se passar, você ganha o valor escolhido (ou um item ou favor equivalente, a critério do mestre). Se falhar, perde esse mesmo o valor. A critério do mestre, o lugar onde você está pode limitar ou impossibilitar o uso deste poder.",
+        "prerequisito": "treinado em Jogatina"
+      },
+      {
+        "nome": "Ataque Acrobático",
+        "descricao": "Quando se aproxima de um inimigo com um salto ou pirueta (em termos de jogo, usando Atletismo ou Acrobacia para se mover) e o ataca no mesmo turno, você recebe +2 nesse teste de ataque e na rolagem de dano."
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Aventureiro Ávido",
+        "descricao": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional. Se possuir o poder Surto Heroico, em vez disso seu custo diminui em –2 PM.",
+        "custo": "5 PM"
+      },
+      {
+        "nome": "Bravata Audaz",
+        "descricao": "Você jura fazer uma façanha específica, como roubar o tesouro de Sckhar ou ganhar um beijo do príncipe e da princesa até o fim do baile. Se cumprir a bravata, seus PM aumentam em +2 por nível de bucaneiro até o fim da aventura."
+      },
+      {
+        "nome": "Bravata Imprudente",
+        "descricao": "Na primeira rodada de um combate, você pode jurar derrotar seus inimigos com uma restrição a sua escolha, como lutar com uma mão nas costas, de guarda aberta (em termos de jogo, desprevenido), de olhos vendados (cego) etc. Uma restrição só é válida se prejudicá-lo (por exemplo, lutar com uma mão nas costas só vale como restrição se você luta com duas armas). O mestre tem a palavra final sobre a validade de uma restrição. Você sofre a penalidade durante todo o combate, mas, se vencer, recebe +2 nos testes de ataque e na margem de ameaça até o fim da aventura."
+      },
+      {
+        "nome": "En Garde",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para assumir postura de luta. Até o fim da cena, se estiver usando uma arma corpo a corpo leve ou ágil, você recebe +2 na margem de ameaça com essas armas e +2 na Defesa.",
+        "prerequisito": "Esgrimista",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Esgrimista",
+        "descricao": "Quando usa uma arma corpo a corpo leve ou ágil, você soma sua Inteligência nas rolagens de dano (limitado pelo seu nível).",
+        "prerequisito": "Int 1"
+      },
+      {
+        "nome": "Flagelo dos Mares",
+        "descricao": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma). Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos.",
+        "prerequisito": "treinado em Intimidação"
+      },
+      {
+        "nome": "Folião",
+        "descricao": "Você sabe fazer amizades durante festas, de noitadas em tavernas a bailes na corte. Nesses locais, você recebe +2 em testes de perícias de Carisma e a atitude de todas as pessoas em relação a você melhora em uma categoria.",
+        "prerequisito": "Car 1"
+      },
+      {
+        "nome": "Grudar o Cano",
+        "descricao": "Quando faz um ataque à distância com uma arma de fogo contra um oponente adjacente, você não sofre a penalidade de –5 no teste de ataque e aumenta seu dano em um passo.",
+        "prerequisito": "treinado em Luta, Pistoleiro"
+      },
+      {
+        "nome": "Pernas do Mar",
+        "descricao": "Você recebe +2 em Acrobacia e Atletismo. Além disso, quando está se equilibrando ou escalando, você não fica desprevenido e seu deslocamento não é reduzido à metade."
+      },
+      {
+        "nome": "Pistoleiro",
+        "descricao": "Você recebe proficiência com armas de fogo e +2 nas rolagens de dano com essas armas."
+      },
+      {
+        "nome": "Presença Paralisante",
+        "descricao": "Você soma seu Carisma em Iniciativa e, se for o primeiro na iniciativa, ganha uma ação padrão extra na primeira rodada.",
+        "prerequisito": "Car 1, 4º nível de bucaneiro"
+      },
+      {
+        "nome": "Ripostar",
+        "descricao": "Quando usa a habilidade aparar e evita o ataque, você pode gastar 1 PM. Se fizer isso, pode fazer um ataque corpo a corpo imediato contra o inimigo que o atacou (se ele estiver em alcance).",
+        "prerequisito": "Aparar, 12º nível de bucaneiro",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Touché",
+        "descricao": "Quando se aproxima de um inimigo e o ataca com uma arma corpo a corpo leve ou ágil no mesmo turno, você pode gastar 2 PM para aumentar seu dano em um passo e receber +5 na margem de ameaça neste ataque.",
+        "prerequisito": "Esgrimista, 10º nível de bucaneiro",
+        "custo": "2 PM"
+      }
+    ],
+    "caminhos": []
+  }
+}

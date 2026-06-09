@@ -1,0 +1,58 @@
+{
+  "id": "guerreiro-magico",
+  "tipo": "distincao",
+  "nome": "Guerreiro Mágico",
+  "resumo": "Especialistas incomuns que unem treinamento marcial e poder arcano, capazes de canalizar feitiços através de suas armas e lançar magias usando armaduras.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 169
+  },
+  "imagens": [
+    "/distincoes/guerreiro-magico.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Para a maioria dos arcanistas, magia e armadura são incompatíveis: o peso de uma vestimenta metálica interfere com os gestos delicados e precisos necessários à conjuração. Eles também não costumam ser muito afeitos às armas — dedicando-se ao estudo e à pesquisa de forma intensa, não têm tempo, disposição ou aptidão para treinar o corpo. Porém, alguns conjuradores são impulsionados pelo desejo de unir o poder arcano à força protetiva de placas e cota de malha, a dádiva de Wynna ao aço afiado das lâminas. Estes são os guerreiros mágicos.\n\nUm guerreiro mágico é um especialista incomum. Embora unir magia arcana e treinamento marcial possa parecer algo simples, nada poderia estar mais longe da verdade. Ambas as disciplinas são exigentes. Armaduras não atrapalham um arcanista apenas por seu peso, uma arma faz mais do que ocupar as mãos. A magia precisa fluir pela mente e também pelo corpo, os movimentos de cada feitiço presumem que não haja nada mais volumoso que tecido recobrindo o conjurador. Da mesma forma, o uso de armas e armaduras exige mais que músculos: é preciso ter mãos calejadas, condicionadas para segurar o cabo de uma espada sem fraquejar. É preciso aprender sobre como armaduras se comportam em combate, ou não passarão de placas incômodas atrapalhando o usuário. Combinar esses elementos é transformar duas práticas opostas em uma terceira, mais complexa que ambas.\n\nPor isso, guerreiros mágicos não são autodidatas. A maioria treina na Academia Arcana, em turmas específicas, atuando como uma guilda não oficial dentro da instituição. Ubani também é uma fonte de guerreiros mágicos, mas eles estão espalhados em várias cidades e centros de ensino. Wynlla possui guerreiros mágicos, mas eles não são tão valorizados quanto os famosos Magos de Batalha do reino. Venham de onde vierem, guerreiros mágicos reconhecem um ao outro como colegas, praticantes de um estilo específico que poucos sequer imaginam. Alguns teóricos radicais afirmam que as magias lançadas por guerreiros mágicos são fundamentalmente diferentes, constituindo uma escola de magia única.\n\nIsso não significa que sejam admirados. Na Academia Arcana, onde circulam em armaduras brilhantes e adornadas, guerreiros mágicos desafiam preconceitos. Muitos arcanistas presos a tradições rígidas consideram a combinação de aço e magia como uma afronta. Dizem que, embora usem a dádiva de Wynna, guerreiros mágicos são meros amadores, tão levianos quanto bardos ou certos ladinos. Os mais extremados pedem a expulsão dos professores desta técnica. No entanto, aqueles que compreendem o esforço necessário sabem ser um caminho ainda mais complexo do que o da magia pura. Apenas os muito disciplinados e determinados conseguem equilibrar destreza física e sensibilidade mágica.\n\nSer um guerreiro mágico exige força de vontade e dedicação excepcionais, além do aprendizado de uma teoria mágica única. A ligação que guerreiros mágicos forjam entre magia e aço é tamanha que desenvolveram uma técnica peculiar: canalizar feitiços diretamente por meio de suas armas. Isso, por si só, é fruto de uma compreensão profunda do funcionamento da magia, fazendo com que a energia arcana reconheça objetos como parte do corpo do arcanista.\n\nEstranhamente, ninguém sabe de onde se origina esta disciplina — sendo um campo de estudo e estilo marcial único, seria de se esperar que seus pioneiros fossem conhecidos. Também não se sabe como a mesma teoria, os mesmos golpes, teriam surgido no Reinado e em Ubani, sem que houvesse comunicação entre ambos por séculos. Contudo, há duas hipóteses igualmente grandiosas para a origem dos guerreiros mágicos. A primeira afirma que a técnica foi mais um dos estratagemas de Kallyadranoch. O Deus do Poder teria plantado na mente de certos arcanistas este conhecimento, em troca de servidão. O pacto teria sido anulado quando Kally foi esquecido. A segunda diz que Wynna e Keenn, o antigo Deus da Guerra, tiveram uma paixão momentânea. O fruto dessa união não teria sido um povo, mas uma nova forma de magia!\n\nSeja como for, o caminho do guerreiro mágico é para poucos. Para este arcanista bélico, cada combate é uma oportunidade de provar o potencial do aço e da magia unidos. Ele demonstra que tradições existem para ser vencidas, que não há limites reais para a determinação marcial e o poder arcano. Ao desafiar as regras estabelecidas, torna-se algo novo e indomável: um mestre da magia em meio à batalha."
+    },
+    {
+      "titulo": "Magia ou espada?",
+      "texto": "Por que não ambas?"
+    }
+  ],
+  "mecanica": {
+    "admissao": "O caminho para se tornar um guerreiro mágico deve começar cedo. É impossível para um arcanista que nunca tenha empunhado uma arma ou para um guerreiro que nunca tenha lançado uma magia aprender esta disciplina. Assim, o candidato deve primeiro ser um arcanista experiente e um guerreiro capaz. Muitos descobrem que não há como burlar esse passo — não basta que um candidato tenha adquirido as capacidades de um bardo, por exemplo, ou desenvolvido um golpe pessoal que utiliza magia arcana. É preciso, em separado, estudar os caminhos arcanos e os caminhos da guerra, cada um de forma pura, sem combiná-los. Só então se pode começar o aprendizado.\n\nO candidato deve achar uma instituição de ensino. Isso não é tão difícil, já que algumas das mais prestigiosas escolas de magia de Arton formam guerreiros mágicos. Se escolher a Academia Arcana, o candidato deve passar pelos processos seletivos e cursar disciplinas introdutórias. Se optar por Wynlla ou Ubani, deve cumprir os requisitos para ser aceito em suas respectivas instituições. Então começa o treinamento.\n\nO curso básico não é demorado. Em geral, um mês na instituição de ensino basta. Contudo, é um mês extremamente intenso. Todo guerreiro mágico fala sobre a complexidade da matéria, o rigor do treino físico. As provas são tão difíceis que menos de um quarto dos alunos consegue passar na primeira tentativa. Caso o candidato falhe, deve ficar mais um mês na instituição, e mais um mês se for preciso, até finalmente ser aprovado. Aqueles que desistem nunca se tornam guerreiros mágicos — não porque não possuem um diploma ou título, mas porque as provas realmente medem sua compreensão da técnica.\n\nEmergindo do outro lado dessa educação avassaladora, o candidato finalmente consegue unir os dois lados do que aprendeu no início de sua carreira. Tudo finalmente faz sentido. Ele é um guerreiro mágico... Pronto para suportar golpes de inimigos e desprezo de tradicionalistas com igual empáfia.",
+    "marca": {
+      "nome": "Arma Arcana",
+      "descricao": "Para o guerreiro mágico, esgrima e magia se unem no mesmo movimento.\n\nQuando lança uma magia empunhando uma arma corpo a corpo, você recebe +2 na rolagem de dano da magia e pode usar a mão que empunha a arma para executar os gestos dela."
+    },
+    "poderes": [
+      {
+        "nome": "Estilo de Combate Arcano",
+        "descricao": "Leves ou pesadas, armaduras fazem parte do treinamento de um guerreiro mágico.\n\nEscolha um estilo de combate entre Encouraçado Místico e Dançarino Marcial. Uma vez feita, essa escolha não pode ser mudada. Se escolher Encouraçado Místico, você pode lançar magias arcanas vestindo armaduras sem precisar de testes de Misticismo e recebe +1 em testes de resistência se estiver de armadura. Se escolher Dançarino Marcial, você recebe +1 na Defesa e em rolagens de dano com armas. Em ambos os casos, os bônus aumentam em +1 para cada outro poder da distinção que você tiver.",
+        "prerequisito": "habilidade de classe Magias, treinado em Luta"
+      },
+      {
+        "nome": "Aparar Magia",
+        "descricao": "Com um golpe, o guerreiro mágico corta o fluxo da magia.\n\nUma vez por rodada, quando falha em um teste de resistência contra uma habilidade mágica, você pode gastar 2 PM para fazer um teste de ataque e usar seu resultado como o valor do teste de resistência. Se o resultado do ataque superar a CD do efeito por 10 ou mais, você evita totalmente o efeito e o reflete contra a fonte, que passa a ser afetada em seu lugar (outras partes do efeito, como outros alvos ou o resto de sua área, não são afetadas).",
+        "prerequisito": "Fogo e Aço"
+      },
+      {
+        "nome": "Ataque Arcano",
+        "descricao": "A magia flui através dos golpes do guerreiro mágico.\n\nUma vez por rodada, quando faz um ataque corpo a corpo, você pode gastar 2 PM para desferir um ataque arcano. Se fizer isso e acertar o ataque, você pode lançar uma magia que tenha como alvo uma criatura ou que afete uma área como ação livre, tendo como alvo ou centro de sua área a criatura atingida. Apenas magias com execução de movimento ou padrão podem ser lançadas dessa forma.",
+        "prerequisito": "Fogo e Aço"
+      },
+      {
+        "nome": "Fogo e Aço",
+        "descricao": "Armas servem à magia, magia serve às armas.\n\nQuando lança uma magia, você recebe um bônus em testes de ataque e rolagens de dano com armas igual ao círculo da magia lançada até o fim do seu próximo turno.",
+        "prerequisito": "Estilo de Combate Arcano"
+      },
+      {
+        "nome": "Preparação Veloz",
+        "descricao": "De seu treinamento marcial, o guerreiro mágico desenvolveu sua prontidão arcana.\n\nNa primeira rodada de um combate, você pode lançar uma magia com alcance pessoal como uma ação livre.",
+        "prerequisito": "Fogo e Aço"
+      }
+    ]
+  }
+}

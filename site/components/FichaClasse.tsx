@@ -1,10 +1,11 @@
 import type { ReactNode } from "react";
-import type { Entidade, ClasseMecanica, ProgressaoNivel, EfeitoPoder } from "@/lib/schema";
+import type { Entidade, ClasseMecanica, ProgressaoNivel, EfeitoPoder, VarianteClasseMecanica } from "@/lib/schema";
 import { type Registro } from "@/lib/autolink";
 import { TextoRico } from "./TextoRico";
 import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
+import Link from "next/link";
 
 const h2 = { fontSize: 13, textTransform: "uppercase" as const, letterSpacing: 2, color: "var(--vermelho)", borderBottom: "1px solid var(--borda)", paddingBottom: 4, margin: "0 0 8px" };
 const cartaoAside = { background: "var(--pergaminho-stat)", border: "1px solid var(--borda)", borderRadius: 12, padding: "12px 14px" };
@@ -119,8 +120,10 @@ function TabelaEfeitos({ titulo, efeitos, registro, descricoes }: { titulo: stri
   );
 }
 
-export function FichaClasse({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
+export function FichaClasse({ entidade, registro, descricoes, poderesExtras = [] }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; poderesExtras?: { id: string; nome: string; prerequisito?: string }[] }) {
   const m = entidade.mecanica as unknown as ClasseMecanica;
+  const varianteDe = (entidade.mecanica as Partial<VarianteClasseMecanica>).varianteDe;
+  const nomeBasica = varianteDe ? varianteDe.charAt(0).toUpperCase() + varianteDe.slice(1) : "";
   const imagem = entidade.imagens[0];
   const metade = Math.ceil(m.progressao.length / 2);
   const progPrimeira = m.progressao.slice(0, metade);
@@ -169,6 +172,17 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
+      {varianteDe && (
+        <div style={{ background: "var(--vermelho)", color: "#fff", padding: "10px 18px", fontFamily: "var(--serifa)", fontSize: 13.5, textAlign: "center" }}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ verticalAlign: "-2px", marginRight: 6 }} aria-hidden="true">
+            <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
+            <line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          <strong>Classe Variante</strong> — variante de{" "}
+          <Link href={`/ficha/classe/${varianteDe}`} style={{ color: "#fff", textDecoration: "underline" }}>{nomeBasica}</Link>.
+          {" "}Substitui características da classe básica e <strong>não faz multiclasse</strong> com ela (são a mesma classe).
+        </div>
+      )}
       <header style={{ background: "transparent", padding: "20px 24px 14px", textAlign: "center" }}>
         <div style={{ fontSize: 11, letterSpacing: 5, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>Classe</div>
         <h1 className="titulo-grimorio" style={{ fontSize: 50, margin: "4px 0 0", lineHeight: 1 }}>{entidade.nome}</h1>
@@ -223,9 +237,9 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                   <div key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.6, padding: "10px 0", borderBottom: i < m.caminhos!.length - 1 ? "1px solid var(--borda)" : "none" }}>
                     <div style={{ color: "var(--carmesim)", fontWeight: 800, fontSize: 16 }}>{c.nome}</div>
                     <div style={{ marginTop: 2 }}><TextoRico texto={c.descricao} registro={registro} descricoes={descricoes} /></div>
-                    {c.habilidades.length > 0 && (
+                    {(c.habilidades?.length ?? 0) > 0 && (
                       <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 8 }}>
-                        {c.habilidades.map((h, j) => (
+                        {(c.habilidades ?? []).map((h, j) => (
                           <div key={j}>
                             <span style={{ color: "var(--carmesim)", fontWeight: 800 }}>{h.nome}{h.nivel ? ` (${h.nivel}º)` : ""}{h.custo ? ` — ${h.custo}` : ""}.</span>{" "}
                             <TextoRico texto={h.descricao} registro={registro} descricoes={descricoes} />
@@ -275,6 +289,23 @@ export function FichaClasse({ entidade, registro, descricoes }: { entidade: Enti
                       </>
                     )}
                     {(qAposPoder[i] ?? []).map((q, k) => renderQuadro(q, `qp-${i}-${k}`, true))}
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {poderesExtras.length > 0 && (
+            <section style={{ marginBottom: 16 }}>
+              <h2 style={h2}>Novos Poderes de Classe</h2>
+              <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", margin: "0 0 8px" }}>
+                Opções adicionais para esta classe vindas de outros livros. Clique para ver a descrição completa.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                {poderesExtras.map((p) => (
+                  <div key={p.id} style={{ fontFamily: "var(--serifa)", fontSize: 13.5, lineHeight: 1.5 }}>
+                    <Link href={`/ficha/poder/${p.id}`} style={{ color: "var(--carmesim)", fontWeight: 700, textDecoration: "none" }}>{p.nome}</Link>
+                    {p.prerequisito && <span style={{ color: "var(--tinta-suave)", fontStyle: "italic" }}> — Pré-requisito: {p.prerequisito}</span>}
                   </div>
                 ))}
               </div>

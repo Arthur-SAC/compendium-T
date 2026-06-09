@@ -1,0 +1,17 @@
+{
+  "id": "automato-alquimico",
+  "tipo": "poder",
+  "nome": "Autômato Alquímico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Autômato",
+    "descricao": "Seu autômato pode armazenar itens alquímicos e poções, com uma capacidade de carga igual à sua Inteligência. Além disso, uma vez por rodada, você pode gastar 1 PM para usar um desses itens como uma ação livre."
+  }
+}

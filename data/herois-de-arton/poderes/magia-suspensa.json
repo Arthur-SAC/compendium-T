@@ -1,0 +1,17 @@
+{
+  "id": "magia-suspensa",
+  "tipo": "poder",
+  "nome": "Magia Suspensa",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias de 2º círculo",
+    "descricao": "Quando lança uma magia com execução de ação de movimento ou padrão, você pode aumentar sua execução para uma ação completa ou para 2 ou 3 rodadas. Se fizer isso, a CD para resistir à magia aumenta respectivamente em +1, +2 ou +5."
+  }
+}

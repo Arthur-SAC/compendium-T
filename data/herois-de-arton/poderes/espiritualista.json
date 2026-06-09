@@ -1,0 +1,17 @@
+{
+  "id": "espiritualista",
+  "tipo": "poder",
+  "nome": "Espiritualista",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Sab 2, Totem Espiritual, 6º nível de bárbaro",
+    "descricao": "Você recebe +1 PM a cada nível ímpar. Além disso, aprende e pode lançar uma magia adicional definida pelo seu animal totêmico (atributo-chave Sabedoria) e pode lançá-la e sustentá-la mesmo em fúria. As magias são: Coruja (Augúrio), Corvo (Voz Divina), Falcão (Mapear), Grifo (Físico Divino), Lobo (Localização), Raposa (Camuflagem Ilusória), Tartaruga (Vestimenta da Fé), Urso (Soco de Arsenal)."
+  }
+}

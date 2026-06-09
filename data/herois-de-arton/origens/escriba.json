@@ -1,0 +1,24 @@
+{
+  "id": "escriba",
+  "tipo": "origem",
+  "nome": "Escriba",
+  "resumo": "Copista dedicado à preservação de textos religiosos, literários, científicos e legais, que após ler tantas histórias de aventura decidiu ser protagonista.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 50 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Seu antigo trabalho era copiar documentos para preservar textos religiosos, literários, científicos e legais — em Arton, escribas são essenciais para a disseminação de conhecimento e cultura, incentivados pela Igreja de Tanna-Toh. Trabalhando em um mosteiro, uma biblioteca ou na corte de um nobre, você transcrevia manuscritos com precisão e habilidade, além de embelezá-los com iluminuras e decorações. Você também tratava pergaminhos e papiros, corrigia erros e traduzia obras para diferentes línguas, mostrando atenção aos detalhes, paciência e profundo conhecimento de língua e caligrafia. Um dia, após ler muitas histórias de aventura, decidiu ser protagonista em vez de apenas um figurante."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Instrumentos de escriba, organizador de pergaminhos, uma coleção de livros a sua escolha.",
+    "beneficios": {
+      "pericias": ["Conhecimento", "Ofício (escriba)"],
+      "poderes": ["Lendas e Histórias"],
+      "texto": "Recebe o poder de bardo Lendas e Histórias (Tormenta20, p. 45). Se receber esse poder novamente, em seu lugar recebe um bônus de +5 ao rolar novamente um teste usando seu efeito."
+    },
+    "poderesUnicos": []
+  }
+}

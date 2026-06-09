@@ -1,0 +1,17 @@
+{
+  "id": "manipulacao-esqueletica",
+  "tipo": "poder",
+  "nome": "Manipulação Esquelética",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Osteon",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para estender seus braços e aumentar seu alcance natural em +1,5m, para estender suas pernas e aumentar seu deslocamento terrestre em +3m ou para se transformar numa pilha de ossos que fornece +5 em Furtividade (nessa forma você só pode fazer reações ou cancelar esse efeito). A manipulação dura até o fim da cena, até você usar outra manipulação ou até você cancelar o efeito (uma ação livre)."
+  }
+}

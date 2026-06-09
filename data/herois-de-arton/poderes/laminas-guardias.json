@@ -1,0 +1,17 @@
+{
+  "id": "laminas-guardias",
+  "tipo": "poder",
+  "nome": "Lâminas Guardiãs",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Ambidestria, 5° nível de caçador",
+    "descricao": "Enquanto você estiver empunhando duas armas corpo a corpo, recebe +2 na Defesa e em testes de resistência contra inimigos em seu alcance natural."
+  }
+}

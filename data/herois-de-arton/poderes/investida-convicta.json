@@ -1,0 +1,16 @@
+{
+  "id": "investida-convicta",
+  "tipo": "poder",
+  "nome": "Investida Convicta",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 63
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Quando faz uma investida, você pode gastar 1 PM para somar seu Carisma nos testes de ataque e rolagens de dano dela."
+  }
+}

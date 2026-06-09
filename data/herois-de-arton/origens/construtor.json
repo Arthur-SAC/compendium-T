@@ -1,0 +1,23 @@
+{
+  "id": "construtor",
+  "tipo": "origem",
+  "nome": "Construtor",
+  "resumo": "Trabalhador habilidoso que erguia casas, castelos, estradas e muralhas, liderando obras e usando suas mãos para tornar vidas melhores.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 49 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nem tudo construído em Arton foi obra de algum inventor aventureiro, capaz de produzir engenhocas miraculosas que rivalizam com a própria magia. Para empreendimentos mais comuns, porém importantes — casas, castelos, estradas, pontes, muralhas... —, bastam construtores bem treinados e esforçados. Você estava satisfeito labutando com as próprias mãos ou liderando outros trabalhadores, erguendo edificações, gerenciando obras, usando suas habilidades para tornar vidas melhores. Poderia fazer isso para sempre, feliz e produtivo. O que aconteceu? Um gigante derrubou sua muralha? Um dragão destruiu seu castelo? Como você acabou em um grupo de aventureiros?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Instrumentos de pedreiro ou uma ferramenta pesada (mesmas estatísticas de uma maça ou lança, a sua escolha).",
+    "beneficios": {
+      "pericias": ["Fortitude", "Ofício (pedreiro)"],
+      "texto": "Além disso, sabe encontrar pontos fracos em construções e estruturas. Pode pagar 2 PM para que você ou um aliado em alcance curto ignore 5 pontos da redução de dano de uma criatura ou objeto em alcance curto por uma cena."
+    },
+    "poderesUnicos": []
+  }
+}

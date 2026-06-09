@@ -1,0 +1,17 @@
+{
+  "id": "arma-juramentada",
+  "tipo": "poder",
+  "nome": "Arma Juramentada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "devoto de uma divindade",
+    "descricao": "Se você estiver empunhando a arma preferida de sua divindade, ela recebe uma fração do poder divino. Em suas mãos, ela é considerada mágica e recebe os benefícios de uma melhoria (escolhido ao receber este poder, exceto material especial), cujos pré-requisitos ela cumpra. Essa melhoria não conta no limite da arma. Se você descumprir as Obrigações & Restrições da divindade, este efeito deixa de funcionar até você recuperar seus PM."
+  }
+}

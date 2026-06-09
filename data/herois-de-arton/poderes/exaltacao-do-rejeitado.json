@@ -1,0 +1,17 @@
+{
+  "id": "exaltacao-do-rejeitado",
+  "tipo": "poder",
+  "nome": "Exaltação do Rejeitado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Kaijin, Lefou; lançar magias divinas",
+    "descricao": "Muitos acreditam que você não merece sua divindade, mas ela prova o contrário. Quando lança uma magia divina, você recebe um bônus em testes de resistência igual ao círculo da magia lançada, até o início do seu próximo turno. Pré-requisito: lançar magias divinas."
+  }
+}

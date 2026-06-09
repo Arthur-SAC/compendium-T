@@ -1,0 +1,17 @@
+{
+  "id": "arma-natural-aprimorada",
+  "tipo": "poder",
+  "nome": "Arma Natural Aprimorada",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Várias; arma natural fornecida por uma habilidade de raça",
+    "descricao": "Escolha uma de suas armas naturais fornecidas por raça. O dano dessa arma aumenta em um passo e sua margem de ameaça aumenta em +1. Você pode escolher este poder outras vezes para armas naturais diferentes. Pré-requisito: arma natural fornecida por uma habilidade de raça."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fender-defesas",
+  "tipo": "poder",
+  "nome": "Fender Defesas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "descricao": "Quando você acerta um ataque usando Ataque Especial, a criatura sofre uma penalidade na Defesa igual ao total de PM gastos nessa habilidade por 1 rodada."
+  }
+}

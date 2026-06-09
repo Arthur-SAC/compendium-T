@@ -1,0 +1,17 @@
+{
+  "id": "precisao-furtiva",
+  "tipo": "poder",
+  "nome": "Precisão Furtiva",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Pontaria, Ataque Furtivo",
+    "descricao": "O alcance do seu Ataque Furtivo aumenta em uma categoria (de curto para médio e de médio para longo). Além disso, quando você ataca uma criatura desprevenida ou que você esteja flanqueando, sua margem de ameaça aumenta em +2."
+  }
+}

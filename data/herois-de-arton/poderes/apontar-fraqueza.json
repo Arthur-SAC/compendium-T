@@ -1,0 +1,17 @@
+{
+  "id": "apontar-fraqueza",
+  "tipo": "poder",
+  "nome": "Apontar Fraqueza",
+  "resumo": "Quando você faz um acerto crítico, aliados com este poder podem gastar 2 PM para também fazer um acerto crítico nessa rodada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 92
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Alguns membros do grupo são curandeiros, outros são diplomatas, outros são furtivos… E outros sabem bater onde dói. Vocês estão acostumados a seguir o exemplo deles — ainda bem que esses desgraçados estão do seu lado! Quando você faz um acerto crítico, cada aliado com este poder pode gastar 2 PM em seu primeiro ataque contra o mesmo alvo nessa rodada. Se acertar, o ataque é um crítico. Cada personagem só pode fazer um acerto crítico dessa forma por cena."
+  }
+}

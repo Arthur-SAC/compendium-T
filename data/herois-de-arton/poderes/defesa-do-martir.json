@@ -1,0 +1,17 @@
+{
+  "id": "defesa-do-martir",
+  "tipo": "poder",
+  "nome": "Defesa do Mártir",
+  "resumo": "Uma vez por rodada, quando um aliado com este poder em alcance curto sofrer dano, você pode gastar 2 PM para sofrer esse dano no lugar dele.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Lutando juntos há muito tempo, você e seu grupo aprenderam a defender uns aos outros em momentos de necessidade. Uma vez por rodada, quando um aliado em alcance curto que também tenha este poder sofrer dano, você pode gastar 2 PM para sofrer esse dano no lugar dele."
+  }
+}

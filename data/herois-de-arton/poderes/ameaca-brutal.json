@@ -1,0 +1,16 @@
+{
+  "id": "ameaca-brutal",
+  "tipo": "poder",
+  "nome": "Ameaça Brutal",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "descricao": "Se fizer um teste de Intimidação para assustar uma criatura na qual tenha causado dano desde a última rodada, você recebe +5 no teste e ela fica apavorada se você passar por 5 ou mais (em vez de 10 ou mais)."
+  }
+}

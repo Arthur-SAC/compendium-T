@@ -1,0 +1,16 @@
+{
+  "id": "luz-purificadora",
+  "tipo": "poder",
+  "nome": "Luz Purificadora",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "descricao": "Quando usa Golpe Divino, você pode gastar +1 PM para converter todo o dano causado para luz e ignorar 10 pontos de redução de dano do alvo."
+  }
+}

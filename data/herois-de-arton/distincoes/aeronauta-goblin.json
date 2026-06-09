@@ -1,0 +1,63 @@
+{
+  "id": "aeronauta-goblin",
+  "tipo": "distincao",
+  "nome": "Aeronauta Goblin",
+  "resumo": "Inventores e pilotos goblins obcecados em conquistar os céus, que constroem e aperfeiçoam máquinas voadoras cada vez mais ousadas e se tornam ases do combate aéreo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 106
+  },
+  "imagens": [
+    "/distincoes/aeronauta-goblin.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Mesmo que as paisagens de grandes cidades às vezes exibam veículos aéreos, o sonho de voar é realizado por poucos artonianos. Em geral, utilizam balões goblins, a forma mais acessível — embora não a mais segura — de transporte aéreo. Nos últimos anos, não só balões: ornitópteros, engenhos propelidos por hélices, máquinas voadoras de todos os tipos. Por isso, quando imagina voar, o artoniano médio pensa num ás tresloucado e temerário, criativo e inovador: o aeronauta goblin.\n\nEm Lamnor, os duyshidakk têm ojeriza a estagnação, anseiam por movimento. E esse movimento não precisa ser restrito ao solo. Um goblin do norte pode se aventurar nas alturas, mas o goblin do sul é capaz de conquistá-las. No norte, aeronautas goblins são encarados como lunáticos perigosos. No sul, são vistos como heróis pioneiros… e também lunáticos perigosos.\n\nPara os aeronautas goblins, não importa onde vivam, um balão é apenas um ponto de partida. Suas mentes e vidas são dedicadas à criação de máquinas voadoras muito mais avançadas. Asas móveis, turbinas a pólvora, hélices rodopiantes; tudo é uma possibilidade. A combinação de ideias avançadas e desejo incontrolável de voar catapulta (às vezes literalmente) os aeronautas goblins a inovações constantes.\n\nNão existe um aeronauta goblin típico; cada um possui uma visão individual. Quem os vê de fora, contudo, costuma notar certas coisas. São visionários, caminhando na tênue linha entre pioneiro e imprudente. Admiram os animais alados, enxergam o céu como uma fronteira a ser vencida. Possuem coragem intensa — ou, diriam alguns, absoluta falta de medo. E, acima de tudo, são inquietos e inconformados. Não existe uma ligação intrínseca entre goblins e céus. Mas, justamente porque isso era impossível, alguns goblins decidiram que iriam voar... enquanto ainda eram vistos como pestes na maior parte do mundo!\n\nEngana-se quem considera os aeronautas meros sonhadores românticos. Por trás de suas máquinas voadoras existe muito estudo e trabalho duro, meses projetando, construindo e aperfeiçoando os mais improváveis aparatos alados. Esses dispositivos devem então ser testados, com lançamentos sequenciais das mais variadas alturas, nas mais perigosas condições. Um ornitóptero funcional apenas em dias de céu claro e vento forte pode ser impressionante para muitos inventores, mas nunca para um aeronauta goblin.\n\nCom tantos experimentos arriscados, quedas desastrosas são parte da vida. Nunca são vistas como sinal de fracasso: cada queda é uma possibilidade eliminada, um defeito descoberto. Às vezes, pode ser incorporada à funcionalidade de uma aeronave, se isso puder ser compensado de outra forma!\n\nA Revoada Carnívora de Lamnor é a maior concentração de aeronautas goblins no mundo conhecido. Essa esquadrilha é uma liderança no continente, ora auxiliando seus irmãos duyshidakk, ora enfrentando-os em disputas internas. Os aeronautas da Revoada são respeitados e temidos em igual medida, retratos do ideal duyshidakk. Oyteyrehnn, o Porto dos Desbravadores, é o maior centro de produção de ornitópteros do mundo, uma gigantesca oficina onde dezenas de aeronautas começam (mas nunca terminam) suas jornadas todos os dias.\n\nJá em Arton Norte os aeronautas não se reúnem em organizações, exceto guildas de baloeiros que fazem transporte até Vectora. Muitas vezes, essas guildas estão em competição direta (ou guerra aberta) umas contra as outras, priorizando armamentos acima de segurança e velocidade pelos ares.\n\nAeronautas enfatizam sua individualidade, desenvolvendo seus próprios métodos e técnicas para construir e operar suas aeronaves, pintando seus mecanismos com cores e símbolos personalizados e batizando-os com nomes chamativos. Impõem a si mesmos desafios cada vez mais exigentes, desde acrobacias e piruetas entre obstáculos até atos heroicos como levar remédios e suprimentos a lugares sitiados.\n\nMovidos por sua audácia, aeronautas goblins são aventureiros habilidosos e confiáveis... ainda que o mesmo nem sempre se aplique às suas criações."
+    },
+    {
+      "titulo": "Ornitópteros Goblins",
+      "texto": "Independente de sua forma, todo ornitóptero é um veículo Grande capaz de transportar uma criatura Pequena e 10 espaços. Ele tem deslocamento de voo 15m, Defesa 15 (+ Des do piloto), RD 5 e PV iguais à metade dos pontos de vida de seu criador. Dentro do ornitóptero, o piloto recebe cobertura leve e pode executar investidas montadas como se estivesse sobre uma montaria.\n\nOrnitópteros são fabricados com Ofício (artesão) com CD 20, uma semana de trabalho e custo de fabricação T$ 300. São mecanismos únicos e complexos, que só podem ser operados por seu criador. Para mais informações sobre veículos, veja a p. 241."
+    },
+    {
+      "titulo": "Melhorias para ornitópteros",
+      "texto": "Se possuir o poder Engenharia Aeronáutica, você pode construir ornitópteros superiores (Tormenta20, p. 164) com uma ou mais melhorias da lista a seguir.\n\nArmado. Suporte para acoplar uma arma de fogo, que pode ser usada pelo piloto como se ele a estivesse empunhando. Inclui espaço para 20 munições. Acoplar ou remover a arma de fogo é uma ação completa.\n\nBlindado. +10 na Defesa.\n\nBombardeiro. Compartimento para quatro preparados alquímicos ou poções. Você pode arremessar esses itens a partir do ornitóptero gastando as ações normais; se fizer isso, seu alcance aumenta em uma categoria (de curto para médio e de médio para longo) e você soma +2 na CD para resistir a eles. Recarregar o compartimento exige uma ação completa e os itens com os quais você quiser carregá-lo.\n\nCamuflado. Fornece +10 em Furtividade e, se estiver voando, você pode se esconder mesmo sem camuflagem ou cobertura disponível.\n\nDobrável. O ornitóptero pode ser dobrado para virar um veículo Médio com deslocamento 12m que não pode voar. Você pode gastar uma ação completa para dobrar ou desdobrar o ornitóptero, mesmo dentro dele.\n\nDurável. Mecanismos redundantes e manutenção regular aumentam a durabilidade do ornitóptero. Ele passa a ter pontos de vida iguais aos do criador (em vez de metade).\n\nEspaçoso. Além do piloto, o ornitóptero pode transportar um passageiro Pequeno ou 10 espaços de carga adicionais.\n\nEstável. Cabos de seda e um manche mais preciso tornam o ornitóptero mais estável, fornecendo +5 nos testes de Pilotagem.\n\nMaterial Especial. Os materiais especiais que podem ser empregados em ornitópteros, bem como seu custo adicional, são descritos a seguir.\n• Aço-rubi. Fortificação 50%. +T$ 6.000.\n• Adamante. RD 5, –2 em Pilotagem devido ao peso. +T$ 18.000.\n• Casco de monstro*. +2 na Defesa. +T$ 6.000.\n• Cristal de sol*. Redução de frio 10. Especial.\n• Couro de bulette*. Redução de ácido 10. Especial.\n• Couraça de kaiju*. RD 10/mágico. Especial.\n• Gelo eterno. Redução de fogo 10. +T$ 3.000.\n• Lanajuste*. Redução de corte 5. +T$ 3.000.\n• Madeira Tollon. Resistência a magia +5. +T$ 3.000.\n• Matéria vermelha. Camuflagem leve, –2 nas perícias baseadas em Carisma do piloto (exceto Intimidação). +T$ 18.000.\n• Mitral. +2 em Pilotagem. +T$ 12.000.\n• Prata*. Redução de trevas 10. +T$ 3.000.\n• Pena de kraken*. Quando uma criatura erra um ataque contra o ornitóptero, perde 10 PV. Especial.\n*Materiais especiais descritos em Ameaças de Arton.\n\nResistente. Reforços na fuselagem e doses extras de cola deixam o ornitóptero mais robusto. Aumenta a RD em +5.\n\nVeloz. Deslocamento de voo +6m."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Para se tornar um aeronauta goblin, primeiramente é preciso... ser um goblin. Embora membros de outras raças possam aprender a construir e operar máquinas voadoras, a combinação de audácia, capacidade de improviso e mentalidade caótica necessária para ser um aeronautas só pode ser encontrada entre os goblins.\n\nUm goblin que deseje ser um aeronauta deve começar construindo uma máquina voadora. De início, pode ser simples — um balão, um planador —, mas deve ser feita com suas próprias mãos. O candidato deve testar a aeronave. Se ela voar da maneira que ele visualizou, o verdadeiro processo para se tornar um aeronauta goblin pode começar. A partir daqui, as coisas ficam divertidas!\n\nO candidato já aprendeu o básico, agora precisa inovar. Ele deve projetar e construir mais três máquinas voadoras, testando cada uma pessoalmente. As aeronaves precisam aumentar em complexidade e funcionalidade a cada nova criação — por exemplo, sendo mais rápidas, capazes de manobras mais arrojadas, com um teto de voo mais alto... É importante que todas essas três máquinas falhem enquanto o candidato as está testando, provocando quedas, explosões e outros desastres! Isso porque o candidato não deve ir pelo caminho seguro, mas levar suas aeronaves até o limite, aprendendo até onde pode forçar suas criações.\n\nDepois de construir, testar e destruir as três máquinas, o candidato deve criar sua aeronave definitiva (pelo menos por enquanto). Deve incorporar todas as inovações das máquinas anteriores: a velocidade da primeira, a manobrabilidade da segunda, a resistência da terceira... Deve levar todas as inovações até o limite, testar a nova aeronave... e dessa vez não cair.\n\nApenas através de um processo de aprendizado, pilotagem, quedas e aperfeiçoamento na prática o candidato pode aprender. Quando estiver singrando os céus com sua obra-prima, desafiando toda a lógica dos povos presos ao chão, ele terá se tornado um legítimo aeronauta goblin.",
+    "marca": {
+      "nome": "Combate Aéreo",
+      "descricao": "O aeronauta goblin sabe se virar contra inimigos nas alturas.\n\nVocê recebe uma ação de movimento extra por rodada, que só pode ser usada para pilotar sua aeronave, e não sofre penalidades para atacar à distância ou lançar magias por estar a bordo de uma aeronave."
+    },
+    "poderes": [
+      {
+        "nome": "Cabeça nas Nuvens",
+        "descricao": "O aeronauta goblin se sente em casa nos céus, sua mente inspirada pela liberdade de voar.\n\nQuando está pilotando uma aeronave, você recebe +1 em testes de perícia, rolagens de dano e na CD das suas habilidades e itens. Esse bônus aumenta em +1 para cada dois outros poderes da distinção que você possui.",
+        "prerequisito": "Int 2, treinado em Ofício (artesão) e Pilotagem"
+      },
+      {
+        "nome": "Engenharia Aeronáutica",
+        "descricao": "Tendo \"dominado\" a fabricação de aeronaves, é hora de aprimorar o ornitóptero.\n\nVocê pode fabricar ornitópteros superiores (veja adiante) e acoplar até duas engenhocas neles, seguindo as regras normais de engenhocas. Elas não contam em seu limite de engenhocas e não precisam ser empunhadas ou vestidas, mas só podem ser ativadas se você estiver pilotando o ornitóptero.",
+        "prerequisito": "Cabeça nas Nuvens, Engenhoqueiro"
+      },
+      {
+        "nome": "Estou Bem, Pessoal!",
+        "descricao": "Mais do que aprender a pilotar, um bom aeronauta aprende a se acidentar.\n\nVocê recebe redução de fogo e impacto 5 e sofre apenas metade do dano de quedas.",
+        "prerequisito": "Cabeça nas Nuvens"
+      },
+      {
+        "nome": "Manobras Defensivas",
+        "descricao": "Às vezes, mais importante que preservar a própria vida é proteger a aeronave!\n\nVocê soma sua Inteligência na Defesa de qualquer aeronave que estiver pilotando. Além disso, quando você ou a aeronave que você está pilotando sofre dano, você pode gastar 2 PM para fazer um teste de Pilotagem e subtrair o resultado do dano sofrido.",
+        "prerequisito": "treinado em Reflexos, Estou Bem, Pessoal!"
+      },
+      {
+        "nome": "Senhor dos Céus",
+        "descricao": "Tendo derrotado inimigos suficientes, o aeronauta se tornou um verdadeiro ás.\n\nUma vez por rodada, enquanto está pilotando uma aeronave, você pode gastar 3 PM para realizar uma ação padrão adicional.",
+        "prerequisito": "Manobras Defensivas, derrotar cinco aeronaves e/ou inimigos voadores enquanto pilota uma aeronave"
+      }
+    ],
+    "beneficioAdicional": "Cabeça nas Nuvens concede +1 adicional em testes de perícia, rolagens de dano e na CD das habilidades e itens para cada dois outros poderes da distinção que o personagem possua."
+  }
+}

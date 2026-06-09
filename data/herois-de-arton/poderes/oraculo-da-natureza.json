@@ -1,0 +1,17 @@
+{
+  "id": "oraculo-da-natureza",
+  "tipo": "poder",
+  "nome": "Oráculo da Natureza",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Xamã Místico, 11º nível de druida",
+    "descricao": "Você pode gastar uma ação de movimento para se conectar com as energias naturais do mundo. Enquanto você permanecer no mesmo lugar, a CD para resistir a suas magias aumenta em +2 e, sempre que você lança uma magia, recebe 2 PM para gastar em aprimoramentos. Se você estiver em um ambiente urbano, a ação necessária para usar este poder muda para completa."
+  }
+}

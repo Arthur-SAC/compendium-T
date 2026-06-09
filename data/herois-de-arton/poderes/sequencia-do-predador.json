@@ -1,0 +1,18 @@
+{
+  "id": "sequencia-do-predador",
+  "tipo": "poder",
+  "nome": "Sequência do Predador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Ambidestria, 8° nível de caçador",
+    "custo": "1 PM",
+    "descricao": "Quando usa Ambidestria com armas que causam tipos de dano diferentes, se acertar ambos os ataques, você pode gastar 1 PM para fazer uma manobra entre desarmar, derrubar ou quebrar contra o mesmo alvo."
+  }
+}

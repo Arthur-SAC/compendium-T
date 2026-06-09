@@ -1,0 +1,21 @@
+{
+  "id": "introducao-calorosa",
+  "tipo": "poder",
+  "nome": "Introdução Calorosa",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Tabela 1-17: Introdução Calorosa",
+      "texto": "| Apresentação                  | Ação       | Benefício                                          | Exemplo                                         |\n|-------------------------------|------------|----------------------------------------------------|-------------------------------------------------|\n| Saudação educada              | Livre      | 1 PM temporário                                    | \"Olá!\"                                          |\n| Apresentar o próprio nome     | Movimento  | +2 em perícias baseadas em Carisma                 | \"Meu nome é Lorthan.\"                           |\n| Declarar uma ligação pessoal  | Padrão     | +2 em rolagens de dano                             | \"Vocês roubaram a colheita dos camponeses.\"     |\n| Revelar seu objetivo na cena  | Completa   | Pode rolar novamente um único teste de perícia recém-feito | \"Eu vim aqui para puni-los!\"        |"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Na primeira rodada de um combate, você pode gastar uma ação para se apresentar. Veja a Tabela 1-17 acima para os tipos de ação que você pode gastar e seus respectivos benefícios. Você recebe todos os benefícios das ações anteriores e eles duram até o fim da cena."
+  }
+}

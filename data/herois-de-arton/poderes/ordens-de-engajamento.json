@@ -1,0 +1,17 @@
+{
+  "id": "ordens-de-engajamento",
+  "tipo": "poder",
+  "nome": "Ordens de Engajamento",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "Criar Oportunidade, 11º nível de guerreiro",
+    "descricao": "Uma vez por rodada, quando acerta um ataque em uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 2 PM para que um aliado em alcance curto possa fazer um ataque contra essa criatura."
+  }
+}

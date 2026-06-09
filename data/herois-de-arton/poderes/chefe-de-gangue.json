@@ -1,0 +1,17 @@
+{
+  "id": "chefe-de-gangue",
+  "tipo": "poder",
+  "nome": "Chefe de Gangue",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 71
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "5º nível de ladino",
+    "descricao": "Seus capangas podem usar Ataque Furtivo +1d6 e Evasão, e podem fazer testes de Reflexos usando o seu valor nessa perícia."
+  }
+}

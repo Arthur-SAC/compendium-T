@@ -1,0 +1,17 @@
+{
+  "id": "julgamento-divino-desafio",
+  "tipo": "poder",
+  "nome": "Julgamento Divino: Desafio",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "subgrupo": "Julgamento Divino",
+    "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Sempre que esse inimigo ataca um de seus aliados, ele recebe uma penalidade cumulativa de –1 em testes de ataque (limitado pelo seu Carisma). Essa penalidade acaba se ele atacar você ou se você terminar seu turno além do alcance corpo a corpo dele."
+  }
+}

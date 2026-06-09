@@ -1,0 +1,17 @@
+{
+  "id": "faro-aprimorado",
+  "tipo": "poder",
+  "nome": "Faro Aprimorado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Minotauro, Moreau do Lobo",
+    "descricao": "Seu olfato é ainda mais apurado que o padrão de sua raça. Você recebe +2 em Intuição, Investigação e Percepção, +5 em testes de Sobrevivência para rastrear e percebe automaticamente a presença de criaturas em alcance curto (mas não sua localização). De acordo com o mestre, criaturas sem cheiro (como alguns construtos ou seres incorpóreos) podem ser indetectáveis ao seu faro."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "aura-vingadora",
+  "tipo": "poder",
+  "nome": "Aura Vingadora",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 76
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "8º nível de paladino",
+    "descricao": "Enquanto sua aura estiver ativa, você e cada aliado dentro dela recebem +1d6 de luz em uma rolagem de dano corpo a corpo uma vez por rodada."
+  }
+}

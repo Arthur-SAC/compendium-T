@@ -1,0 +1,17 @@
+{
+  "id": "cavaleiro-sagrado",
+  "tipo": "poder",
+  "nome": "Cavaleiro Sagrado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "prerequisito": "treinado em Religião, devoto de uma divindade que aceite paladinos",
+    "descricao": "Você recebe um poder de paladino cujos pré-requisitos cumpra, usando seu nível de cavaleiro como nível de paladino."
+  }
+}

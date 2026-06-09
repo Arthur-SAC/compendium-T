@@ -1,0 +1,16 @@
+{
+  "id": "inspiracao-revigorante",
+  "tipo": "poder",
+  "nome": "Inspiração Revigorante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Quando você usa Inspiração, você e seus aliados recebem uma quantidade de PV temporários igual a 5 vezes o bônus fornecido."
+  }
+}

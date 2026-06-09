@@ -1,0 +1,17 @@
+{
+  "id": "bloqueio-brutal",
+  "tipo": "poder",
+  "nome": "Bloqueio Brutal",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "prerequisito": "For 5",
+    "descricao": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 2 PM para fazer uma rolagem de dano corpo a corpo e subtrair o resultado dessa rolagem do dano causado pelo ataque."
+  }
+}

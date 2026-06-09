@@ -1,0 +1,17 @@
+{
+  "id": "falatorio-criativo",
+  "tipo": "poder",
+  "nome": "Falatório Criativo",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Goblin",
+    "descricao": "Escolha uma perícia originalmente baseada em Carisma. Você pode usar Inteligência como atributo-chave dessa perícia."
+  }
+}

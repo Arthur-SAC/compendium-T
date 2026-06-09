@@ -1,0 +1,23 @@
+{
+  "id": "servo",
+  "tipo": "origem",
+  "nome": "Servo",
+  "resumo": "Servidor em castelos e palácios que percebia intrigas e perigos antes de qualquer um, protegendo seus mestres com lealdade e argúcia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 53 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi um servo em algum castelo ou palácio nas áreas mais tradicionais de Arton, atendendo às necessidades de nobres, magos e cavaleiros. Suas funções variavam desde a limpeza e manutenção dos aposentos até a preparação de refeições e o cuidado com animais. Mas houve vezes em que você foi incumbido de missões mais perigosas, como acompanhar seu senhor em viagens ou buscar ingredientes raros em florestas. Também era frequentemente o primeiro a perceber intrigas, segredos e perigos iminentes, assim protegendo seus mestres. Então esses tais aventureiros pensam que são muito fortes? Hora de mostrar a eles!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Balde e vassoura (mesmas estatísticas de um bordão), tabardo de seu patrono.",
+    "beneficios": {
+      "pericias": ["Diplomacia", "Ofício (serviçal)"],
+      "texto": "Além disso, recebe +2 em testes de Diplomacia e Enganação contra alvos que tenham status ou posição superior à sua (ou que acreditam ter), e pode substituir testes de Nobreza por testes de Ofício (serviçal)."
+    },
+    "poderesUnicos": []
+  }
+}

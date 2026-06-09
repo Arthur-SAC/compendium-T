@@ -1,0 +1,17 @@
+{
+  "id": "estilo-classico",
+  "tipo": "poder",
+  "nome": "Estilo Clássico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Humano",
+    "descricao": "Enquanto estiver empunhando uma espada e um escudo, você recebe +2 nas rolagens de dano com sua arma e +2 na Defesa."
+  }
+}

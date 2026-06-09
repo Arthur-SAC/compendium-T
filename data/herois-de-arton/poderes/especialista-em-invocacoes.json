@@ -1,0 +1,16 @@
+{
+  "id": "especialista-em-invocacoes",
+  "tipo": "poder",
+  "nome": "Especialista em Invocações",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "descricao": "Você soma seu atributo-chave na Defesa de suas criaturas conjuradas por habilidades mágicas (incluindo capangas) e a ação necessária para comandá-las diminui em um passo (de padrão para movimento e de movimento para livre). Contudo, cada comando só pode ser executado uma vez por rodada."
+  }
+}

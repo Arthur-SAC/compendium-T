@@ -1,0 +1,17 @@
+{
+  "id": "gp-carregado",
+  "tipo": "poder",
+  "nome": "GP: Carregado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "+1 PM",
+    "descricao": "Você pode gastar uma ação padrão para energizar seu ataque. Se você fizer isso e atacar até a próxima rodada, seu ataque causa +2d8 pontos de dano."
+  }
+}

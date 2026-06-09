@@ -1,0 +1,19 @@
+{
+  "id": "explosao-fulgente",
+  "tipo": "poder",
+  "nome": "Explosão Fulgente",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 82
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "magia",
+    "prerequisito": "lançar magias",
+    "subtipo": "Aprimoramento",
+    "custo": "+1 PM",
+    "descricao": "Aprimoramento. Suas chamas mágicas emitem um brilho intenso. Um alvo que falhe no teste de resistência fica cego por 1 rodada (ou ofuscado, se já ficou cego por este aprimoramento nessa cena). Este aprimoramento só pode ser aplicado em magias que causam dano de fogo e permitem testes de resistência."
+  }
+}

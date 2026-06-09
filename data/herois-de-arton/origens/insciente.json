@@ -1,0 +1,23 @@
+{
+  "id": "insciente",
+  "tipo": "origem",
+  "nome": "Insciente",
+  "resumo": "Nascido em Wynlla sem capacidade de conjurar, considerado cidadão de segunda categoria no Reino da Magia, aprendeu a sobreviver sem auxílio mágico.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 51 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu em Wynlla, mas sem nenhuma capacidade de conjurar — um grande problema para aqueles que vivem no Reino da Magia. Considerado cidadão de segunda categoria por alguns (e menos que isso por muitos outros), você costumava viver na parte baixa da capital Sophand ou em guetos similares de outras cidades, ou ainda arriscando a sorte nos ermos infestados de elementais. De qualquer modo, você teve que aprender a viver sem qualquer auxílio mágico. Mas e depois? Seria um insciente para sempre, brandindo aço ou criando inventos? Ou superou essa limitação e agora sabe conjurar?"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Uma arma simples ou ferramenta a sua escolha de até T$ 100.",
+    "beneficios": {
+      "pericias": ["Sobrevivência"],
+      "texto": "Recebe resistência a magia +5."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "catalisador-experimental",
+  "tipo": "poder",
+  "nome": "Catalisador Experimental",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Engenhoqueiro, 5º nível de inventor",
+    "descricao": "Quando ativa uma engenhoca, você pode usar um catalisador e aplicar seus efeitos a ela."
+  }
+}

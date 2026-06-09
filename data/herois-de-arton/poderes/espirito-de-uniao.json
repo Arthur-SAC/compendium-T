@@ -1,0 +1,18 @@
+{
+  "id": "espirito-de-uniao",
+  "tipo": "poder",
+  "nome": "Espírito de União",
+  "resumo": "Todos compartilham um total de PV igual à soma dos PV de cada um enquanto o efeito durar; pré-requisitos: Exército de Um Grupo Só e outro poder de grupo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 93
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "prerequisito": "Exército de Um Grupo Só, outro poder de grupo",
+    "descricao": "Seu grupo luta junto até o fim! Este poder é diferente de outros poderes de grupo — ele só funciona se todos os membros do grupo o tiverem escolhido, independente de quantos sejam. No início da rodada, cada personagem com este poder pode gastar 2 PM. Se fizerem isso, até o fim da cena, em vez de pontos de vida individuais, esses personagens compartilham de um total de PV igual à soma dos PV de cada um. Dano, recuperação e perda de vida são todos aplicados a esse total (após aplicar quaisquer habilidades, como RD do alvo original do efeito). Entretanto, se o total de PV acabar, todos os personagens sofrem os efeitos de serem reduzidos a 0 PV ou menos (cada um ainda morre no seu limite individual de pontos de vida). No fim da cena, divida os PV restantes igualmente entre os personagens. Pré-requisitos: Exército de Um Grupo Só, outro poder de grupo."
+  }
+}

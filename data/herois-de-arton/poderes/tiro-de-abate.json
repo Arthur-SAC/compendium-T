@@ -1,0 +1,17 @@
+{
+  "id": "tiro-de-abate",
+  "tipo": "poder",
+  "nome": "Tiro de Abate",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 62
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Sab 1, Espreitar",
+    "descricao": "Quando usa a ação mirar, até o fim do turno você recebe +2 em testes de ataque e na margem de ameaça com ataques à distância, e os dados extras de sua habilidade Marca da Presa também são multiplicados em caso de acerto crítico."
+  }
+}

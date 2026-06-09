@@ -1,0 +1,23 @@
+{
+  "id": "cocheiro",
+  "tipo": "origem",
+  "nome": "Cocheiro",
+  "resumo": "Condutor e mantenedor de carruagens e diligências, transportando passageiros e mercadorias pelos ermos de Arton enfrentando bandidos e predadores.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 49 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você costumava conduzir e manter carroças, carruagens, diligências e outros veículos puxados por animais, transportando passageiros e mercadorias através dos ermos. Além de garantir que os cavalos (ou trobos, ou outras bestas) estivessem bem alimentados e cuidados, cabia-lhe saber navegar por trilhas perigosas e enfrentar desafios como bandidos ou predadores, enquanto protegia seus passageiros. Sua habilidade de manejar as rédeas e seu conhecimento das rotas tornavam-no um guia confiável, essencial para o transporte (quase sempre) seguro nos reinos. Então houve aquele dia, quando você levou um bando de esquisitos até a entrada de uma masmorra..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Cavalo ou trobo, carroça.",
+    "beneficios": {
+      "pericias": ["Adestramento", "Pilotagem"],
+      "texto": "Quando está conduzindo um veículo, você e o veículo recebem +2 na Defesa e em testes de resistência."
+    },
+    "poderesUnicos": []
+  }
+}

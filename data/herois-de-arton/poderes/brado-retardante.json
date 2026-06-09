@@ -1,0 +1,16 @@
+{
+  "id": "brado-retardante",
+  "tipo": "poder",
+  "nome": "Brado: Retardante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "descricao": "Você dá um berro que faz seus inimigos hesitarem. Criaturas a sua escolha no alcance do brado ficam lentas por 1 rodada. Medo."
+  }
+}

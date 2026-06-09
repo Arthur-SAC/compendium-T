@@ -4,6 +4,7 @@ import { TextoRico } from "./TextoRico";
 import { TextoBlocos } from "./TextoBlocos";
 import { LinkEntidade } from "./LinkEntidade";
 import { Divisor } from "./Divisor";
+import Link from "next/link";
 
 function rotuloModificador(m: ModificadorAtributo): string {
   if (m.escolha) return `${m.valor > 0 ? "+" : ""}${m.valor} em ${m.quantidade ?? ""} atributos`;
@@ -19,7 +20,7 @@ function StatBox({ valor, rotulo }: { valor: string; rotulo: string }) {
   );
 }
 
-export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
+export function FichaRaca({ entidade, registro, descricoes, poderesExtras = [] }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string>; poderesExtras?: { id: string; nome: string; prerequisito?: string }[] }) {
   const m = entidade.mecanica as unknown as RacaMecanica;
   const imagem = entidade.imagens[0];
   const deslocamento = m.deslocamento != null ? `${m.deslocamento}${m.deslocamentoUnidade ?? ""}` : null;
@@ -71,6 +72,22 @@ export function FichaRaca({ entidade, registro, descricoes }: { entidade: Entida
                 <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
               </section>
             ))}
+            {poderesExtras.length > 0 && (
+              <section style={{ marginBottom: 16 }}>
+                <h2 style={h2}>Poderes de Raça</h2>
+                <p style={{ fontFamily: "var(--serifa)", fontSize: 12.5, color: "var(--tinta-suave)", margin: "0 0 8px" }}>
+                  Poderes (de qualquer fonte) disponíveis para esta raça. Clique para ver a descrição completa.
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                  {poderesExtras.map((p) => (
+                    <div key={p.id} style={{ fontFamily: "var(--serifa)", fontSize: 13.5, lineHeight: 1.5 }}>
+                      <Link href={`/ficha/poder/${p.id}`} style={{ color: "var(--carmesim)", fontWeight: 700, textDecoration: "none" }}>{p.nome}</Link>
+                      {p.prerequisito && <span style={{ color: "var(--tinta-suave)", fontStyle: "italic" }}> — Pré-requisito: {p.prerequisito}</span>}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
 
           <aside className="ficha-aside">

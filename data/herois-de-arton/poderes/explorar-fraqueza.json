@@ -1,0 +1,17 @@
+{
+  "id": "explorar-fraqueza",
+  "tipo": "poder",
+  "nome": "Explorar Fraqueza",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 69
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Encontrar Fraqueza",
+    "descricao": "Quando usa Encontrar Fraqueza em um inimigo, você também ignora 5 pontos da redução de dano dele até o fim da cena."
+  }
+}

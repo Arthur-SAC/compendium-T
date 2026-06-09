@@ -1,0 +1,17 @@
+{
+  "id": "coro-sibilante",
+  "tipo": "poder",
+  "nome": "Coro Sibilante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Medusa",
+    "descricao": "Você pode gastar 1 PM para fazer suas serpentes ecoarem suas palavras. Até o fim da cena, você recebe +2 em testes de perícias originalmente baseadas em Carisma (exceto testes de ataque)."
+  }
+}

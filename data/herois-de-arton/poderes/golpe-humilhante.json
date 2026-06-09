@@ -1,0 +1,16 @@
+{
+  "id": "golpe-humilhante",
+  "tipo": "poder",
+  "nome": "Golpe Humilhante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Você pode gastar 2 PM para humilhar uma criatura em alcance curto. Até o fim da cena, sempre que você acertar um ataque nessa criatura, ela sofre uma penalidade de –1 na Defesa. A penalidade é cumulativa, limitada pelo seu Carisma e dura até o fim da cena."
+  }
+}

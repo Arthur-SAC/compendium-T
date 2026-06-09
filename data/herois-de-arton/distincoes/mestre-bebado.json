@@ -1,0 +1,54 @@
+{
+  "id": "mestre-bebado",
+  "tipo": "distincao",
+  "nome": "Mestre Bêbado",
+  "resumo": "Artista marcial que abraça o caos aparente da embriaguez como arma mortal, usando movimentos imprevisíveis e aparente desordem para confundir, surpreender e desorientar inimigos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 184
+  },
+  "imagens": [
+    "/distincoes/mestre-bebado.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Artistas marciais costumam ser vistos como indivíduos sérios, disciplinados e centrados, dedicados ao rigor de um treinamento árduo e à busca por harmonia interior. Mosteiros e escolas de artes marciais são descritos como locais de serenidade e austeridade, onde cada movimento é estudado com precisão quase ascética. Contudo, há estilos que desafiam esse estereótipo. Um dos mais excêntricos e fascinantes é o caminho (literalmente) tortuoso seguido pelo mestre bêbado.\n\nO mestre bêbado é um artista marcial que abraça o caos aparente da embriaguez como uma arma mortal. Mais que um lutador desleixado, é um estrategista intuitivo, combinando movimentos imprevisíveis, improvisação e uma boa dose de humor para desarmar seus oponentes — tanto física quanto mentalmente. Seu estilo, inspirado pelos gestos descoordenados de alguém alcoolizado, é planejado para confundir, surpreender e desorientar. Cada passo trôpego, cada cambalear ou queda desajeitada é, na verdade, uma manobra calculada que resulta em golpes devastadores.\n\nPor isso, embora possam existir entre todos os povos, mestres bêbados são sempre treinados em escolas tamuranianas, ou por mentores que seguem a tradição tamuraniana. Outras tradições de luta desarmada já tentaram copiar os movimentos dos mestres bêbados — desde pugilistas do Império de Tauron até campeões das Uivantes e, é claro, brigões de taverna. Mas todos descobriram que é preciso compreender a maneira única como Tamu-ra aborda o combate desarmado, abraçar a parte artística dessa disciplina, para realmente obter os segredos desta especialidade.\n\nO poder oculto do mestre bêbado não se limita a movimentos. Este lutador é também um ator natural, usando expressões tolas, piadas irreverentes e aparente falta de foco para manipular as percepções de seus alvos. Em batalha, aparenta estar vulnerável ou fora de controle, apenas para virar a situação no momento mais oportuno. O que espectadores veem como desordem é, na realidade, uma coreografia complexa que exige talento e disciplina.\n\nDizem que Nimb admira o mestre bêbado por abraçar o caos, enquanto Hyninn e Sszzaas apreciam seus métodos de enganação. Muitos lutadores tradicionais desaprovam este estilo irreverente, consideram-no uma afronta à pureza das artes marciais e da vida ascética. O mestre bêbado apenas ignora tais críticas. Ele vive pela liberdade, pela diversão e, claro, pelo próximo gole. A vida é uma celebração e a luta, uma dança.\n\nNão é surpreendente, portanto, que a maioria dos mestres bêbados tenha origens humildes. Ser rejeitado ou oprimido por figuras austeras e tradicionalistas é um grande impulso para estudar estas técnicas. De fato, muitos mestres bêbados guardam dentro de si algum desejo de vingança ou justiça, mascarado pelo exterior de tolice e leviandade. Isso não significa, no entanto, que o mestre bêbado não possa beber de verdade às vezes... Ou, dependendo do indivíduo, quase sempre. Faz parte de seu estilo manter todos a sua volta na dúvida. Será que agora ele está mesmo embriagado? Ou só está fingindo? Até mesmo inimigos que já lutaram contra o mesmo mestre bêbado várias vezes são pegos de surpresa por essa imprevisibilidade.\n\nFrequentemente, o mestre bêbado parece um ator que nunca sai do personagem. Mesmo no acampamento, com apenas seu grupo em volta, pode falar e fazer bobagens, fingir que pegou no sono em seu turno de guarda, tentar comer as rações de seus colegas... Como um bobo da corte, ele introduz um elemento de irreverência, humor e caos na vida do paladino mais sisudo. Mas não costuma fazer troça com os outros: quem passa \"ridículo\" é sempre ele mesmo. Para os mais sábios e astutos, isso mostra a humildade e paz interior de um verdadeiro artista marcial.\n\nEntão tenha cuidado! Subestimar um mestre bêbado pode ser o último erro de sua vida. Sob a fachada descontraída e cômica reside um verdadeiro gênio das artes marciais, cujo maior ardil é parecer um idiota."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um candidato a mestre bêbado tem um longo e (mais uma vez) tortuoso caminho pela frente. Apenas pessoas hábeis em combate desarmado e acrobacias podem tentar aprender estas técnicas. Infelizmente, candidatos que não possam ficar bêbados (como osteon) não podem embarcar nesta jornada. Candidatos que não tenham sido treinados em uma escola tamuraniana precisam primeiro passar um mês numa dessas escolas, familiarizando-se com os métodos do Império de Jade. Então é preciso achar um mestre.\n\nEsse é o primeiro grande desafio, pois não existem escolas inteiras do estilo do bêbado. O mestre sempre é alguém isolado que parece um bêbado imprestável. O candidato deve de alguma forma descobrir, entre os incontáveis tipos alcoolizados em tavernas ou estradas por aí, quem está escondendo técnicas marciais sutis e poderosas. Boa sorte.\n\nO próximo passo é convencer o mestre a treiná-lo. Mesmo que o candidato tenha certeza de que seu pretenso mentor se trata de um mestre bêbado (e não de um bêbado comum), o mestre fará de tudo para convencê-lo do contrário. Vai fugir de combates, será roubado por bandoleiros, causará problemas para o candidato... Será impossível determinar se isso é realmente um teste ou apenas o comportamento de um bêbado impertinente e covarde.\n\nUma vez que o mestre esteja satisfeito com a perseverança do candidato, o treinamento começa. O que se segue é uma série de tarefas e treinos, ao longo de meses, que podem ou não ter função real. O candidato pode receber a ordem de escalar a montanha mais alta da região, apenas para descobrir que seu único objetivo lá era colher uma fruta que o mestre estava com vontade de comer. Ou pode passar um dia inteiro de cabeça para baixo, sentindo-se um imbecil, então descobrir que com isso aprendeu uma técnica nova. O treinamento dura meses e exige o foco total do candidato. É impossível se aventurar e ao mesmo tempo seguir as instruções de um mentor imprevisível.\n\nNo fim do período de treinamento, o candidato deve tomar três porres: um de cerveja anã, um de saquê de Tamu-ra e um de dilínio de Lamnor. Alguns mentores trocam essas exigências para outras bebidas — principalmente se eles mesmos quiserem um golinho...\n\nEntão o candidato deve vencer um combate desafiador, estando realmente bêbado! Depois de fazer isso, seu mentor vai olhá-lo com seriedade pela primeira vez... Então desatar a rir.\n\nE o candidato saberá que atingiu seu objetivo. É só um palhaço, só alguém embriagado e alvo de chacotas.\n\nUm verdadeiro mestre bêbado.",
+    "marca": {
+      "nome": "Felicidade Engarrafada",
+      "descricao": "O mestre bêbado nunca dispensa um traguinho.\n\nVocê possui um recipiente (uma garrafa, odre ou equivalente) que ocupa 0,5 espaço e comporta 5 goles de bebida, +2 goles para cada poder da distinção que você possuir. Se estiver empunhando o recipiente, você pode gastar uma ação de movimento para tomar um gole da bebida e ganhar 1 PM temporário. Seu recipiente recupera todos os goles de bebida ao amanhecer, apesar de você nunca se lembrar de como conseguiu mais bebida… Essa bebida não provoca penalidades, mas também não conta como água para saciar fome e sede (Tormenta20, p. 319). A critério do mestre, essa bebida pode ser compartilhada com outros personagens em situações de interpretação, mas não fornece nenhum bônus para eles e não pode ser alterada de nenhuma forma."
+    },
+    "poderes": [
+      {
+        "nome": "Lógica Alcoólica",
+        "descricao": "Quando o mestre bêbado entra em combate, ninguém sabe como ele vai lutar... Nem ele mesmo!\n\nNo início de cada rodada, você recebe um dos benefícios a seguir, que dura por 1 rodada. Role 1d6: 1) +2 em testes de ataque; 2) +2 em rolagens de dano; 3) +3m de deslocamento; 4) +2 na Defesa; 5) +2 na margem de ameaça com ataques desarmados; 6) +2 em testes de resistência. Para cada dois outros poderes da distinção, esses bônus aumentam em +1 (ou +1,5m).",
+        "prerequisito": "treinado em Fortitude e Luta, Briga ou Estilo Desarmado"
+      },
+      {
+        "nome": "Bafo de Dragão",
+        "descricao": "O hálito do mestre bêbado pode ser inflamável!\n\nUma vez por rodada, você pode gastar uma ação de movimento e beber um número de goles do seu recipiente (limitado pelo número de poderes da distinção que você possui) para desferir um sopro flamejante num cone de 9m. Criaturas na área sofrem 2d6 pontos de dano de fogo por gole e ficam em chamas (Reflexos CD Con + número de poderes da distinção que você possui reduz à metade e evita a condição).",
+        "prerequisito": "Con 3, Bafo de Troll"
+      },
+      {
+        "nome": "Bafo de Troll",
+        "descricao": "O hálito do mestre bêbado é capaz de fazer Megalokk perder o apetite.\n\nVocê pode gastar uma ação padrão e tomar um gole do seu recipiente para expelir um hálito horrível contra uma criatura adjacente. O alvo fica enjoado por 1d4+1 rodadas (Fort CD Con + número de poderes da distinção que você possui reduz para 1 rodada). Criaturas com Faro sofrem –5 no teste de Fortitude.",
+        "prerequisito": "Lógica Alcoólica"
+      },
+      {
+        "nome": "Bebida Revigorante",
+        "descricao": "\"Eu bebo pra ficar mal, se fosse pra ficar bem eu tomava remédio!\"\n\nVocê pode gastar uma ação de movimento e tomar um gole do seu recipiente para recuperar 4d6 PV ou remover uma condição entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Quando usa este poder, você pode beber goles adicionais (limitados pelo número de poderes da distinção que você possui) para remover uma condição adicional ou aumentar a cura em +2d6 PV.",
+        "prerequisito": "Lógica Alcoólica"
+      },
+      {
+        "nome": "Luta Ridícula",
+        "descricao": "É difícil levar a sério um inimigo que está caindo de bêbado.\n\nQuando passa em um teste para fintar contra uma criatura inteligente (Int –3 ou maior), além do normal, você faz essa criatura subestimá-lo por 1 rodada. Enquanto o está subestimando, a criatura não pode fazer ações hostis contra você, exceto a ação agredir — mas não pode fazer nenhum ataque adicional ao usá-la! Você pode beber um gole ao fintar para somar o número de poderes da distinção que possui no teste da finta.",
+        "prerequisito": "treinado em Enganação, Lógica Alcoólica"
+      }
+    ]
+  }
+}

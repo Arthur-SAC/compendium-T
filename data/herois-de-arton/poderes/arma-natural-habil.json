@@ -1,0 +1,17 @@
+{
+  "id": "arma-natural-habil",
+  "tipo": "poder",
+  "nome": "Arma Natural Hábil",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Várias; arma natural fornecida por uma habilidade de raça",
+    "descricao": "Escolha uma arma natural fornecida por raça com a qual você possa gastar 1 PM para fazer um ataque corpo a corpo extra quando faz a ação agredir. Você não precisa gastar pontos de mana para isso. Você continua só podendo fazer isso uma vez por rodada. Pré-requisito: arma natural fornecida por uma habilidade de raça."
+  }
+}

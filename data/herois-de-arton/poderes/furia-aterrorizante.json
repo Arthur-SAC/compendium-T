@@ -1,0 +1,17 @@
+{
+  "id": "furia-aterrorizante",
+  "tipo": "poder",
+  "nome": "Fúria Aterrorizante",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Galokk, Ogro; Fúria ou Fúria Divina",
+    "descricao": "Quando você entra em fúria, inimigos em alcance curto ficam abalados até o fim da cena (Von CD Con reduz para 1 rodada). Pré-requisito: Fúria ou Fúria Divina."
+  }
+}

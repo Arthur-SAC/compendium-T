@@ -1,0 +1,17 @@
+{
+  "id": "fragrancia-de-rosas",
+  "tipo": "poder",
+  "nome": "Fragrância de Rosas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan, Duende",
+    "descricao": "Você cheira bem. Você recebe +2 em Diplomacia e pode gastar uma ação padrão e 2 PM para forçar todas as criaturas em alcance curto a fazerem um teste de Fortitude (CD Car). Uma criatura que falhe fica pasma por 1 rodada (apenas uma vez por cena) como um efeito metabólico."
+  }
+}

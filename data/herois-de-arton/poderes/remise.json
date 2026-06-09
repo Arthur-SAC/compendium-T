@@ -1,0 +1,17 @@
+{
+  "id": "remise",
+  "tipo": "poder",
+  "nome": "Remise",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "En Garde, 7º nível de bucaneiro",
+    "descricao": "Enquanto está sob efeito de En Garde, uma vez por rodada, quando usa a ação agredir, você pode gastar 2 PM para realizar um ataque adicional."
+  }
+}

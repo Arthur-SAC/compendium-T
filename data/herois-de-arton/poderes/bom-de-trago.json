@@ -1,0 +1,16 @@
+{
+  "id": "bom-de-trago",
+  "tipo": "poder",
+  "nome": "Bom de Trago",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "descricao": "Uma vez por rodada, você pode ingerir uma bebida, preparado ou poção que esteja empunhando como uma ação livre."
+  }
+}

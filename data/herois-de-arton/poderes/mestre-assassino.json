@@ -1,0 +1,17 @@
+{
+  "id": "mestre-assassino",
+  "tipo": "poder",
+  "nome": "Mestre Assassino",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 72
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Ladino",
+    "prerequisito": "treinado em Cura e Percepção, Assassinar, Ataque Furtivo Letal, 11º nível de ladino",
+    "descricao": "Quando usa Assassinar, você pode gastar +2 PM para: usar esse poder como uma ação livre; rolar dois dados no teste de ataque contra a criatura analisada e usar o melhor resultado; ou ignorar a imunidade a acertos críticos da criatura analisada. Você pode usar quantos desses modificadores quiser (desde que pague por eles). Assim, se gastar +6 PM, você usa Assassinar como ação livre, rola dois dados no teste de ataque e afeta criaturas imunes."
+  }
+}

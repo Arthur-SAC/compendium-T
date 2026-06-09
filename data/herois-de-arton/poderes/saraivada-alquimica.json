@@ -1,0 +1,17 @@
+{
+  "id": "saraivada-alquimica",
+  "tipo": "poder",
+  "nome": "Saraivada Alquímica",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 70
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Inventor",
+    "prerequisito": "Granadeiro, 7º nível de inventor",
+    "descricao": "Quando usa um preparado alquímico ou uma poção de dano, você pode gastar 2 PM e uma dose extra do mesmo item para aumentar o dano causado em 50%."
+  }
+}

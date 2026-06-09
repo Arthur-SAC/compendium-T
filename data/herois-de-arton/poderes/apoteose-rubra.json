@@ -1,0 +1,17 @@
+{
+  "id": "apoteose-rubra",
+  "tipo": "poder",
+  "nome": "Apoteose Rubra",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Herança Superior (linhagem rubra), 17° nível de arcanista",
+    "descricao": "Você acolheu a corrupção rubra em seu ser — uma escolha que pode ser percebida por todos ao redor. Escolha uma magia que cause dano de cada círculo a que tem acesso. O tipo de dano dessas magias muda para psíquico. Além disso, quando lança uma magia de dano psíquico, você soma seu total de poderes da Tormenta na rolagem de dano. Este poder conta como um poder da Tormenta (exceto para perda de Carisma)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ginete-de-javali",
+  "tipo": "poder",
+  "nome": "Ginete de Javali",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão",
+    "descricao": "Você recebe um javali doherita (veja o quadro) iniciante, com o qual possui +2 em Adestramento e Cavalgar. Se perder seu javali, você pode obter outro com uma semana de busca e T$ 100."
+  }
+}

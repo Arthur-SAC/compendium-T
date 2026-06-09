@@ -1,0 +1,17 @@
+{
+  "id": "bebeirrao-selvagem",
+  "tipo": "poder",
+  "nome": "Beberrão Selvagem",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "prerequisito": "Con 3",
+    "descricao": "Você pode gastar uma ação de movimento para ingerir um preparado alquímico que cause dano e tenha uma criatura como alvo. Se fizer isso, armazena o equivalente a 3 cargas do preparado em sua boca. Até o fim da cena, sempre que acerta um ataque corpo a corpo, você pode gastar uma carga para que o ataque cause dano adicional igual ao do preparado."
+  }
+}

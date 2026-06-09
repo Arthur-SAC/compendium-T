@@ -1,0 +1,17 @@
+{
+  "id": "atracao-pela-polvora",
+  "tipo": "poder",
+  "nome": "Atração pela Pólvora",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 84
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Anão, Goblin, Hobgoblin, Kliren; treinado em Ofício (alquimista)",
+    "descricao": "Entre seu povo, existem aqueles que amam a pólvora. Você é um deles! Você recebe +1 em testes de ataque e +2 em rolagens de dano com armas de fogo. Com bombas e itens similares baseados em pólvora, você causa +1 de dano por dado de dano. Pré-requisito: treinado em Ofício (alquimista)."
+  }
+}

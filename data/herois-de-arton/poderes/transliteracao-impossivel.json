@@ -1,0 +1,17 @@
+{
+  "id": "transliteracao-impossivel",
+  "tipo": "poder",
+  "nome": "Transliteração Impossível",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Escriba Arcano",
+    "descricao": "Quando usa um pergaminho de uma magia que conheça, você recebe +2 PM para gastar em aprimoramentos e a magia não pode ser anulada por contramágica."
+  }
+}

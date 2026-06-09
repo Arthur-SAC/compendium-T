@@ -1,0 +1,17 @@
+{
+  "id": "cariccias-revigorantes",
+  "tipo": "poder",
+  "nome": "Carícias Revigorantes",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "prerequisito": "Car 2, Sedução Lasciva",
+    "descricao": "Você sabe como aliviar as dores e tristezas de uma pessoa. Você pode gastar 1 minuto e 2 PM para recuperar 2d4 PM de uma criatura adjacente. Uma mesma criatura só pode receber os benefícios deste poder uma vez por dia."
+  }
+}

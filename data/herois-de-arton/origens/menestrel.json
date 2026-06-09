@@ -1,0 +1,24 @@
+{
+  "id": "menestrel",
+  "tipo": "origem",
+  "nome": "Menestrel",
+  "resumo": "Músico contentado em alegrar trabalhadores e nobres, que se deixou encantar pelas histórias de aventureiros e decidiu segui-los por vontade própria.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 52 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nem todo aquele disposto a cantar e dedilhar instrumentos está também disposto a viajar aos confins de Arton, rastejar em masmorras perigosas e receber baforadas de dragões. Muitos ficam mais que satisfeitos ao alegrar trabalhadores cansados em tavernas, animar festividades coloridas ou entreter nobres entediados, sem riscos maiores do que uma ocasional fruta ou caneca arremessada. Isso é, assim você acreditava. Antes de conhecer aquele grupo de aventureiros, empolgar-se com suas histórias, encantar-se com a arcanista élfica de cabelos dourados como — ahem, enfim, você encontrou motivação para acompanhá-los. Como bardo? Talvez, talvez não. Brandir aquele machado não parece tão difícil..."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Um instrumento musical de até T$ 35 a sua escolha.",
+    "beneficios": {
+      "pericias": ["Atuação"],
+      "poderes": ["Balada Fascinante", "Canção Assustadora", "Melodia Curativa"],
+      "texto": "Recebe um poder de Música de bardo, escolhido entre Balada Fascinante, Canção Assustadora e Melodia Curativa."
+    },
+    "poderesUnicos": []
+  }
+}

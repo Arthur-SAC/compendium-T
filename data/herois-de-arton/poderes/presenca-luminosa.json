@@ -1,0 +1,17 @@
+{
+  "id": "presenca-luminosa",
+  "tipo": "poder",
+  "nome": "Presença Luminosa",
+  "resumo": "Personagens com este poder podem gastar 2 PM para, até o fim da cena, usar o maior valor de cada perícia baseada em Carisma de qualquer personagem com este poder.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 95
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "grupo",
+    "descricao": "Todo grupo de aventureiros pode ter um druida que não toma banho, um ladino que não sabe a hora de calar a boca, um paladino rígido demais... Mas os heróis carismáticos compensam por esses chatos. Todos os personagens com este poder podem gastar 2 PM. Se fizerem isso, até o fim da cena, cada personagem pode usar o maior valor de cada perícia baseada em Carisma de cada personagem com este poder em suas rolagens."
+  }
+}

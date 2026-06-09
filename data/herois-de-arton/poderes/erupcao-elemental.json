@@ -1,0 +1,17 @@
+{
+  "id": "erupcao-elemental",
+  "tipo": "poder",
+  "nome": "Erupção Elemental",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 66
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Forma Elemental",
+    "descricao": "Se você estiver em forma elemental, pode gastar uma ação de movimento e 2 PM. Se fizer isso, seu próximo ataque com uma arma natural realizado nessa cena afeta todas as criaturas em um cone de 6m (faça um único ataque corpo a corpo e compare o resultado com a Defesa de cada criatura na área) e causa dois dados de dano extras."
+  }
+}

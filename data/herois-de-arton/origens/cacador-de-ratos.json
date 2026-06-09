@@ -1,0 +1,23 @@
+{
+  "id": "cacador-de-ratos",
+  "tipo": "origem",
+  "nome": "Caçador de Ratos",
+  "resumo": "Especialista em livrar clientes de pragas usando armadilhas, venenos e golpes certeiros, até o dia em que os ratos ficaram grandes demais.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 47 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando o porão da taverna está infestado de ratos, morcegos ou glops, isso pode ser trabalho para heróis iniciantes — ou para um bom caçador de ratos, como você costumava ser! Recorrendo a armadilhas, venenos ou mesmo bons golpes de clava, você sempre soube como livrar seus clientes dessas pestes. Até aquele dia, quando os ratos pareciam um pouco grandes demais, com dentes demais e olhos vermelhos demais. Você escapou sem muitos pedaços faltando. Então vieram aventureiros e deram um jeito. Eram bem durões! Você resolveu que seria durão também. Nunca mais nenhum rato crescido levaria a melhor, nem pensar!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Clava, um gato (um parceiro perseguidor iniciante), T$ 50 (recompensa por sua última caçada).",
+    "beneficios": {
+      "pericias": ["Furtividade", "Investigação", "Sobrevivência"],
+      "texto": "Além disso, recebe +2 em testes de perícias contra criaturas de duas categorias de tamanho menor que a sua (mínimo Minúsculas)."
+    },
+    "poderesUnicos": []
+  }
+}

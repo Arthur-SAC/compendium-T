@@ -1,0 +1,17 @@
+{
+  "id": "gp-avanco",
+  "tipo": "poder",
+  "nome": "GP: Avanço",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "+1 PM",
+    "descricao": "Você pode percorrer até o seu deslocamento em linha reta antes de desferir o golpe."
+  }
+}

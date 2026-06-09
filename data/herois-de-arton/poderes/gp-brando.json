@@ -1,0 +1,17 @@
+{
+  "id": "gp-brando",
+  "tipo": "poder",
+  "nome": "GP: Brando",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "+0 PM",
+    "descricao": "Seu golpe causa dano não letal."
+  }
+}

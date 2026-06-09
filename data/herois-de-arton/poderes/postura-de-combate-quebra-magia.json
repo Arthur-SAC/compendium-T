@@ -1,0 +1,16 @@
+{
+  "id": "postura-de-combate-quebra-magia",
+  "tipo": "poder",
+  "nome": "Postura de Combate: Quebra-Magia",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 64
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "descricao": "Você recebe resistência a magia +2. Para cada PM adicional que você gastar quando assumir esta postura, esse bônus aumenta em +1. Além disso, uma vez por rodada, quando uma criatura em seu alcance usa uma habilidade mágica, você pode gastar 1 PM para fazer um ataque corpo a corpo contra ela."
+  }
+}

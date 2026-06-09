@@ -1,0 +1,16 @@
+{
+  "id": "rigidez-selvagem",
+  "tipo": "poder",
+  "nome": "Rigidez Selvagem",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 57
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bárbaro",
+    "descricao": "Enquanto está em fúria, você soma o bônus da fúria na Defesa, em Fortitude e em RD."
+  }
+}

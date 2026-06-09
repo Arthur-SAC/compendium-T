@@ -1,0 +1,18 @@
+{
+  "id": "instigar-violencia",
+  "tipo": "poder",
+  "nome": "Instigar Violência",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "treinado em Guerra, 11º nível de nobre",
+    "custo": "3 PM",
+    "descricao": "Uma vez por rodada por aliado, quando um aliado em alcance curto faz um acerto crítico em um inimigo, você pode gastar 3 PM para que esse aliado faça mais um ataque contra o mesmo inimigo."
+  }
+}

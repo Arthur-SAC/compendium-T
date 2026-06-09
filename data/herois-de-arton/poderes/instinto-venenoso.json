@@ -1,0 +1,17 @@
+{
+  "id": "instinto-venenoso",
+  "tipo": "poder",
+  "nome": "Instinto Venenoso",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 67
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Druida",
+    "prerequisito": "Coração da Selva",
+    "descricao": "Você pode usar Sab como atributo-chave de venenos (em vez de Int). Além disso, em Forma Selvagem, pode aplicar venenos de contato em suas armas naturais como ação livre."
+  }
+}

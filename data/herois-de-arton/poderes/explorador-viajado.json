@@ -1,0 +1,17 @@
+{
+  "id": "explorador-viajado",
+  "tipo": "poder",
+  "nome": "Explorador Viajado",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "5º nível de caçador",
+    "descricao": "Você pode escolher dois tipos de terrenos extras para sua habilidade Explorador. Você pode escolher este poder mais vezes para tipos de terrenos adicionais."
+  }
+}

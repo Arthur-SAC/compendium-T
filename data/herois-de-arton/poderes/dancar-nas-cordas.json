@@ -1,0 +1,17 @@
+{
+  "id": "dancar-nas-cordas",
+  "tipo": "poder",
+  "nome": "Dançar nas Cordas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "Ataque Acrobático",
+    "descricao": "Se você usar Ataque Acrobático tendo vencido um teste oposto para passar pelo espaço de um inimigo, os bônus fornecidos por esse poder aumentam para +5 e se aplicam a todos os seus ataques contra esse inimigo nessa rodada."
+  }
+}

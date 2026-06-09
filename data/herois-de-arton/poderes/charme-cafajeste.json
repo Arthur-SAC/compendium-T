@@ -1,0 +1,17 @@
+{
+  "id": "charme-cafajeste",
+  "tipo": "poder",
+  "nome": "Charme Cafajeste",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 59
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "treinado em Enganação, 3º nível de bucaneiro",
+    "descricao": "Você aprende e pode lançar Enfeitiçar (atributo-chave Carisma). A CD para resistir a esta habilidade aumenta em +2 para criaturas inamistosas e em +5 para criaturas hostis. Esta não é uma habilidade mágica e provém de sua habilidade de cativar seus adversários (veja \"Magias Simuladas\", p. 44)."
+  }
+}

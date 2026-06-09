@@ -1,0 +1,17 @@
+{
+  "id": "mestre-das-posturas",
+  "tipo": "poder",
+  "nome": "Mestre das Posturas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 63
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Cavaleiro",
+    "prerequisito": "dois poderes de postura, 11º nível de cavaleiro",
+    "descricao": "O custo para assumir uma postura de combate diminui em –1 PM e você pode assumir e manter duas posturas ao mesmo tempo."
+  }
+}

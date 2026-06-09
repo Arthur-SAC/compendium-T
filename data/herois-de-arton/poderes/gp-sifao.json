@@ -1,0 +1,17 @@
+{
+  "id": "gp-sifao",
+  "tipo": "poder",
+  "nome": "GP: Sifão",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "+2 PM",
+    "descricao": "Você recebe 1 PM temporário para cada 10 pontos da rolagem de dano. Você pode receber um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gp-de-abertura",
+  "tipo": "poder",
+  "nome": "GP: De Abertura",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "custo": "-2 PM",
+    "descricao": "Seu golpe só pode ser usado em seu primeiro turno do combate."
+  }
+}

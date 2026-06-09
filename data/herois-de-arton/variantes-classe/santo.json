@@ -1,0 +1,212 @@
+{
+  "id": "santo",
+  "tipo": "variante-classe",
+  "nome": "Santo",
+  "resumo": "Variante do Paladino que abre mão do livre-arbítrio para se tornar o veículo mais puro da vontade divina, canalizando a energia sagrada em ladainhas de combate e cura miraculosa.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 37 },
+  "imagens": ["/classes/paladino.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Paladinos são campeões do bem, mas ainda são pessoas. Têm ambições, desejos e fraquezas. Às vezes escorregam. Têm vontade própria e opiniões individuais.\n\nExceto o paladino santo.\n\nO santo é o mais altruísta dos paladinos. É menos uma pessoa e mais um veículo para a vontade de seu deus, abrindo mão de boa parte de seu livre arbítrio. Não hesita em sacrificar a própria vida para cumprir uma única ordem divina, mesmo que não a compreenda. O santo não quer nada, não realmente, e acha um pouco confusa a necessidade que as outras pessoas têm de bens materiais e satisfação mundana. Para o santo, Arton é apenas um estágio, o local onde ele cumpre seu dever, antes de partir para a próxima missão, nos reinos dos deuses.\n\nÀs vezes, o santo parece estar seguindo um roteiro, agindo como se sempre soubesse o que fazer. Não hesita, é seguro de si mesmo e tem fé cega na divindade. Isso pode ser irritante. Contudo, se souber que está irritando os outros, o santo faz de tudo para deixar de ser um incômodo.\n\nSim, o santo parece perfeito. E sim, isso pode ser odioso. Mas ele é a melhor arma de seu deus."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "varianteDe": "paladino",
+    "atributoChave": "Carisma",
+    "pvInicial": 20,
+    "pvPorNivel": 5,
+    "pmPorNivel": 4,
+    "pericias": {
+      "quantidade": 2,
+      "fixas": ["Religião (Sab)", "Vontade (Sab)"],
+      "lista": ["Adestramento (Car)", "Atletismo (For)", "Conhecimento (Int)", "Cura (Sab)", "Diplomacia (Car)", "Fortitude (Con)", "Guerra (Int)", "Iniciativa (Des)", "Intuição (Sab)", "Luta (For)", "Ofício (Int)", "Percepção (Sab)"],
+      "texto": "Religião (Sab) e Vontade (Sab), mais 2 a sua escolha entre Adestramento (Car), Atletismo (For), Conhecimento (Int), Cura (Sab), Diplomacia (Car), Fortitude (Con), Guerra (Int), Iniciativa (Des), Intuição (Sab), Luta (For) Ofício (Int) e Percepção (Sab)."
+    },
+    "proficiencias": ["armas marciais", "armaduras pesadas", "escudos"],
+    "progressao": [
+      { "nivel": 1, "habilidades": ["Abençoado", "Código do herói", "Ladainha de combate (+1)"] },
+      { "nivel": 2, "habilidades": ["Poder de paladino", "Santo curandeiro"] },
+      { "nivel": 3, "habilidades": ["Poder de paladino", "Vaso sagrado"] },
+      { "nivel": 4, "habilidades": ["Poder de paladino"] },
+      { "nivel": 5, "habilidades": ["Ladainha de combate (+2, sacra)", "Poder de paladino"] },
+      { "nivel": 6, "habilidades": ["Mártir", "Poder de paladino"] },
+      { "nivel": 7, "habilidades": ["Poder de paladino"] },
+      { "nivel": 8, "habilidades": ["Pira santa", "Poder de paladino"] },
+      { "nivel": 9, "habilidades": ["Ladainha de combate (+3, veloz)", "Poder de paladino"] },
+      { "nivel": 10, "habilidades": ["Poder de paladino"] },
+      { "nivel": 11, "habilidades": ["Poder de paladino"] },
+      { "nivel": 12, "habilidades": ["Poder de paladino"] },
+      { "nivel": 13, "habilidades": ["Ladainha de combate (+4)", "Poder de paladino"] },
+      { "nivel": 14, "habilidades": ["Poder de paladino"] },
+      { "nivel": 15, "habilidades": ["Poder de paladino"] },
+      { "nivel": 16, "habilidades": ["Poder de paladino"] },
+      { "nivel": 17, "habilidades": ["Ladainha de combate (+5)", "Poder de paladino"] },
+      { "nivel": 18, "habilidades": ["Poder de paladino"] },
+      { "nivel": 19, "habilidades": ["Poder de paladino"] },
+      { "nivel": 20, "habilidades": ["Poder de paladino", "Vingador santificado"] }
+    ],
+    "habilidades": [
+      {
+        "nome": "Abençoado",
+        "nivel": 1,
+        "descricao": "Como o paladino básico, mas você não pode escolher ser um santo do bem."
+      },
+      {
+        "nome": "Código do Herói",
+        "nivel": 1,
+        "descricao": "Como o paladino básico."
+      },
+      {
+        "nome": "Ladainha de Combate",
+        "nivel": 1,
+        "descricao": "Você pode gastar uma ação padrão e 2 PM para gerar uma aura de 9m de raio com duração sustentada. Você e os aliados dentro da aura recebem +1 em testes de ataque, rolagens de dano e na Defesa. A cada quatro níveis, você pode gastar +2 PM para aumentar esses bônus em +1. Sua ladainha conta como Aura Sagrada (veja Tormenta20, p. 84) para pré-requisitos e efeitos de poderes de paladino.\n\nNo 5º nível, você e os aliados dentro da aura causam +1d8 pontos de dano de luz com ataques contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre).\n\nNo 9º nível, suas armas e as dos aliados dentro da aura recebem o encanto veloz.",
+        "custo": "2 PM (+2 PM por +1 de bônus a cada quatro níveis)"
+      },
+      {
+        "nome": "Poder de Paladino",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você recebe esta habilidade como o paladino básico."
+      },
+      {
+        "nome": "Santo Curandeiro",
+        "nivel": 2,
+        "descricao": "A partir do 2º nível, você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que você gastar, o aliado em alcance médio com a maior redução em seus PV (por dano ou perda de vida) recupera 2d8 pontos de vida por luz.\n\nA partir do 6º nível, quando usa Santo Curandeiro, você também pode remover uma condição do alvo entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo.",
+        "custo": "X PM (limitado por Carisma)"
+      },
+      {
+        "nome": "Vaso do Espírito",
+        "nivel": 3,
+        "descricao": "A partir do 3º nível, quando faz um teste de resistência, você pode gastar 1 PM para somar seu Carisma nesse teste.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Mártir",
+        "nivel": 6,
+        "descricao": "A partir do 6º nível, quando um aliado em alcance médio faz um teste de resistência, você pode gastar 1 PM para conceder a ele um bônus nesse teste igual ao seu próprio Carisma. A partir do 12º nível, uma vez por cena, se ele ainda assim falhar, você pode sofrer o efeito no lugar dele (mas você é afetado mesmo que seja imune ao efeito).",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Pira Santa",
+        "nivel": 8,
+        "descricao": "No 8º nível, enquanto estiver sob efeito de Ladainha de Combate, você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que gastar, o inimigo de maior ND em alcance médio sofre 2d8 pontos de dano de luz e fica ofuscado por 1 rodada (Fort CD Car reduz à metade).",
+        "custo": "X PM (limitado por Carisma)"
+      },
+      {
+        "nome": "Vingador Santificado",
+        "nivel": 20,
+        "descricao": "No 20º nível, quando usa Ladainha de Combate, você pode gastar +5 PM. Se fizer isso, os bônus numéricos fornecidos por sua Ladainha dobram e você e os aliados dentro da aura recebem imunidade a acertos críticos e RD igual a 5 + seu Carisma.",
+        "custo": "+5 PM (ao usar Ladainha de Combate)"
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Arma Sagrada",
+        "descricao": "Quando usa Golpe Divino para atacar com a arma preferida de sua divindade, o dado de dano que você rola por Golpe Divino aumenta para d12.",
+        "prerequisito": "devoto de uma divindade (exceto Lena e Marah)"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Aura Antimagia",
+        "descricao": "Enquanto sua aura estiver ativa, você e os aliados dentro da aura podem rolar novamente qualquer teste de resistência contra magia recém realizado.",
+        "prerequisito": "14º nível de paladino"
+      },
+      {
+        "nome": "Aura Ardente",
+        "descricao": "Enquanto sua aura estiver ativa, no início de cada um de seus turnos, espíritos e mortos-vivos a sua escolha dentro dela sofrem dano de luz igual a 5 + seu Carisma.",
+        "prerequisito": "10º nível de paladino"
+      },
+      {
+        "nome": "Aura de Cura",
+        "descricao": "Enquanto sua aura estiver ativa, no início de seus turnos, você e os aliados a sua escolha dentro dela curam um número de PV igual a 5 + seu Carisma.",
+        "prerequisito": "6º nível de paladino"
+      },
+      {
+        "nome": "Aura de Invencibilidade",
+        "descricao": "Enquanto sua aura estiver ativa, você ignora o primeiro dano que sofrer na cena. O mesmo se aplica a seus aliados dentro da aura.",
+        "prerequisito": "18º nível de paladino"
+      },
+      {
+        "nome": "Aura Poderosa",
+        "descricao": "O raio da sua aura aumenta para 30m.",
+        "prerequisito": "6º nível de paladino"
+      },
+      {
+        "nome": "Fulgor Divino",
+        "descricao": "Quando usa Golpe Divino, todos os inimigos em alcance curto ficam ofuscados até o início do seu próximo turno."
+      },
+      {
+        "nome": "Julgamento Divino: Arrependimento",
+        "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Na próxima vez que esse inimigo acertar um ataque em você ou em um de seus aliados, deve fazer um teste de Vontade (CD Car). Se falhar, fica atordoado no próximo turno dele (apenas uma vez por cena).",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Autoridade",
+        "descricao": "Você pode gastar 1 PM para comandar uma criatura em alcance curto. Faça um teste de Diplomacia oposto pelo teste de Vontade do alvo. Se você vencer, ele obedece a um comando simples, como “pare” ou “largue a arma” (apenas uma vez por cena). Mental.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Coragem",
+        "descricao": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e recebe +2 em testes de ataque contra o inimigo com maior ND na cena.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Iluminação",
+        "descricao": "Você pode marcar um inimigo em alcance curto. Quando acerta um ataque corpo a corpo nesse inimigo, você recebe 2 PM temporários. Você só pode proferir este julgamento uma vez por cena."
+      },
+      {
+        "nome": "Julgamento Divino: Justiça",
+        "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. A próxima vez que esse inimigo causar dano em você ou em um de seus aliados, deve fazer um teste de Vontade (CD Car). Se falhar, sofre dano de luz igual à metade do dano que causou.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Libertação",
+        "descricao": "Você pode gastar 5 PM para cancelar uma condição negativa qualquer (como abalado, paralisado etc.) que esteja afetando uma criatura em alcance curto.",
+        "custo": "5 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Salvação",
+        "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Até o fim da cena, quando você acerta um ataque corpo a corpo nesse inimigo, recupera 5 pontos de vida.",
+        "custo": "2 PM"
+      },
+      {
+        "nome": "Julgamento Divino: Vindicação",
+        "descricao": "Você pode gastar 2 PM para marcar um inimigo que tenha causado dano a você ou a seus aliados na cena. Você recebe +1 em testes de ataque e +1d8 em rolagens de dano contra o inimigo escolhido, mas sofre –5 em testes de ataque contra quaisquer outros alvos. No 5º nível, e a cada cinco níveis seguintes, você pode pagar +1 PM para aumentar o bônus de ataque em +1 e o bônus de dano em +1d8. O efeito termina caso o alvo fique inconsciente.",
+        "custo": "2 PM (+1 PM no 5º nível e a cada cinco níveis seguintes)"
+      },
+      {
+        "nome": "Julgamento Divino: Zelo",
+        "descricao": "Você pode gastar 1 PM para marcar um alvo em alcance longo. Pelo restante da cena, sempre que se mover na direção desse alvo, você se move com o dobro de seu deslocamento.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Orar",
+        "descricao": "Você aprende e pode lançar uma magia divina de 1º círculo a sua escolha. Seu atributo-chave para esta magia é Sabedoria. Você pode escolher este poder quantas vezes quiser."
+      },
+      {
+        "nome": "Virtude Paladinesca: Caridade",
+        "descricao": "O custo de suas habilidades de paladino que tenham um aliado como alvo é reduzido em –1 PM."
+      },
+      {
+        "nome": "Virtude Paladinesca: Castidade",
+        "descricao": "Você se torna imune a efeitos de encantamento e recebe +5 em testes de Intuição para perceber blefes."
+      },
+      {
+        "nome": "Virtude Paladinesca: Compaixão",
+        "descricao": "Você pode usar Cura pelas Mãos em alcance curto e, para cada PM que gastar, cura 2d6+1 (em vez de 1d8+1)."
+      },
+      {
+        "nome": "Virtude Paladinesca: Humildade",
+        "descricao": "Na primeira rodada de um combate, você pode gastar uma ação completa para rezar e pedir orientação. Você recebe uma quantidade de PM temporários igual ao seu Carisma (duram até o fim da cena)."
+      },
+      {
+        "nome": "Virtude Paladinesca: Temperança",
+        "descricao": "Quando ingere um alimento, item alquímico ou poção, você consome apenas metade do item. Na prática, cada item desses rende duas “doses” para você."
+      }
+    ]
+  }
+}

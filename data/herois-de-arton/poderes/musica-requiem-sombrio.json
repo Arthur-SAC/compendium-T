@@ -1,0 +1,17 @@
+{
+  "id": "musica-requiem-sombrio",
+  "tipo": "poder",
+  "nome": "Música: Réquiem Sombrio",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "prerequisito": "necromancia como uma de suas escolas de magia",
+    "descricao": "Um cadáver de uma criatura Média ou menor dentro do alcance se ergue como um morto-vivo sob seu comando. Ele é um parceiro iniciante de um tipo a sua escolha aprovado pelo mestre que não conta em seu limite de parceiros. Você pode animar um máximo de cadáveres simultâneos igual ao seu Carisma. Os cadáveres se decompõem no fim da cena."
+  }
+}

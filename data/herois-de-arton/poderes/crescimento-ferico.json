@@ -1,0 +1,17 @@
+{
+  "id": "crescimento-ferico",
+  "tipo": "poder",
+  "nome": "Crescimento Férico",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 86
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Duende, Sílfide",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para aumentar uma categoria de tamanho e receber +1 em Força (máximo Grande). A partir do patamar veterano, você também pode gastar 3 PM para aumentar duas categorias de tamanho; nesse caso, recebe +2 em Força (máximo Enorme). Seu equipamento muda com você. A transformação dura pelo tempo que você quiser, mas você reverte ao tamanho normal se ficar inconsciente ou morrer. Voltar ao seu tamanho original é uma ação livre."
+  }
+}

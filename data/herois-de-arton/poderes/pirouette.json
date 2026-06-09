@@ -1,0 +1,17 @@
+{
+  "id": "pirouette",
+  "tipo": "poder",
+  "nome": "Pirouette",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 60
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bucaneiro",
+    "prerequisito": "En Garde",
+    "descricao": "Enquanto está sob efeito de En Garde, você pode gastar uma ação de movimento para receber +5 na Defesa por 1 rodada."
+  }
+}

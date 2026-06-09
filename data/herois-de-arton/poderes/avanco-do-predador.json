@@ -1,0 +1,18 @@
+{
+  "id": "avanco-do-predador",
+  "tipo": "poder",
+  "nome": "Avanço do Predador",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 61
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Caçador",
+    "prerequisito": "Ímpeto, 11° nível de caçador",
+    "custo": "1 PM",
+    "descricao": "Uma vez por rodada, quando uma criatura marcada por sua Marca da Presa se afasta voluntariamente de você, você pode gastar 1 PM para se mover na direção dela (até o limite do seu deslocamento)."
+  }
+}

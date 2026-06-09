@@ -1,0 +1,17 @@
+{
+  "id": "dupla-inteligencia",
+  "tipo": "poder",
+  "nome": "Dupla Inteligência",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 87
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Gnoll, Kaijin, Lefou, Orc, Trog; Int 2, Duas Cabeças",
+    "descricao": "Quando faz um teste de Inteligência ou de perícias baseadas nesse atributo, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado. Pré-requisitos: Int 2, Duas Cabeças."
+  }
+}

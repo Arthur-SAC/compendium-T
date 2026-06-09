@@ -1,0 +1,17 @@
+{
+  "id": "golpe-dos-titas",
+  "tipo": "poder",
+  "nome": "Golpe dos Titãs",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 89
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Galokk",
+    "descricao": "Quando você usa Força dos Titãs, resultados um ponto abaixo do máximo (por exemplo, 9 ao rolar 1d10) também permitem rolar o dado extra."
+  }
+}

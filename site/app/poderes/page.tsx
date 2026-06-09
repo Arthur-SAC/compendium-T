@@ -3,22 +3,71 @@ import { carregarEntidades } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
 import type { Entidade, PoderMecanica } from "@/lib/schema";
 
-const GRUPOS = [
+// Poderes "gerais" (qualquer personagem pode escolher). Os demais grupos são por classe.
+const GERAIS = [
   { slug: "combate", rotulo: "Combate" },
   { slug: "destino", rotulo: "Destino" },
   { slug: "magia", rotulo: "Magia" },
   { slug: "concedido", rotulo: "Concedidos" },
   { slug: "tormenta", rotulo: "Tormenta" },
+  { slug: "raca", rotulo: "Raça" },
+  { slug: "grupo", rotulo: "Grupo" },
 ];
+const GERAIS_SLUGS = new Set(GERAIS.map((g) => g.slug));
 
 function mec(p: Entidade): PoderMecanica {
   return p.mecanica as unknown as PoderMecanica;
 }
+function norm(s: string) {
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim();
+}
+// um poder pode pertencer a mais de um grupo (ex.: "Cavaleiro, Guerreiro")
+function tokens(p: Entidade) {
+  return String(mec(p).grupo).split(",").map((s) => norm(s)).filter(Boolean);
+}
+
+const tituloGrupo = {
+  fontSize: 12,
+  letterSpacing: 2,
+  textTransform: "uppercase" as const,
+  color: "var(--vermelho)",
+  fontWeight: 700,
+  margin: "0 0 8px",
+};
 
 export default function IndicePoderes() {
   const entidades = carregarEntidades();
   const poderes = entidades.filter((e) => e.tipo === "poder");
   const regra = entidades.find((e) => e.id === "poderes-como-funcionam");
+
+  // descobre dinamicamente os grupos de classe (tudo que não é geral)
+  const classeMap = new Map<string, string>();
+  for (const p of poderes) {
+    for (const tok of String(mec(p).grupo).split(",").map((s) => s.trim()).filter(Boolean)) {
+      const slug = norm(tok);
+      if (!GERAIS_SLUGS.has(slug)) classeMap.set(slug, tok);
+    }
+  }
+  const classes = [...classeMap.entries()]
+    .map(([slug, rotulo]) => ({ slug, rotulo }))
+    .sort((a, b) => a.rotulo.localeCompare(b.rotulo, "pt-BR"));
+
+  const contar = (slug: string) => poderes.filter((p) => tokens(p).includes(slug)).length;
+
+  const lista = (itens: { slug: string; rotulo: string }[]) => (
+    <div className="indice-lista">
+      {itens.map((g) => {
+        const n = contar(g.slug);
+        if (n === 0) return null;
+        return (
+          <Link key={g.slug} href={`/poderes/${g.slug}`} className="indice-linha">
+            <span className="indice-nome">{g.rotulo}</span>
+            <span className="indice-resumo">{n} {n === 1 ? "poder" : "poderes"}</span>
+          </Link>
+        );
+      })}
+    </div>
+  );
 
   return (
     <main className="folha-main">
@@ -26,7 +75,7 @@ export default function IndicePoderes() {
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Poderes</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 24px", fontFamily: "var(--serifa)" }}>
-          {poderes.length} poderes do Livro Básico — escolha um grupo
+          {poderes.length} poderes — escolha um grupo
         </p>
 
         {regra && (
@@ -43,18 +92,15 @@ export default function IndicePoderes() {
           </section>
         )}
 
-        <div className="indice-lista">
-          {GRUPOS.map((g) => {
-            const n = poderes.filter((p) => mec(p).grupo === g.slug).length;
-            if (n === 0) return null;
-            return (
-              <Link key={g.slug} href={`/poderes/${g.slug}`} className="indice-linha">
-                <span className="indice-nome">{g.rotulo}</span>
-                <span className="indice-resumo">{n} {n === 1 ? "poder" : "poderes"}</span>
-              </Link>
-            );
-          })}
-        </div>
+        <div style={tituloGrupo}>Poderes Gerais</div>
+        {lista(GERAIS)}
+
+        {classes.length > 0 && (
+          <>
+            <div style={{ ...tituloGrupo, marginTop: 26 }}>Poderes de Classe</div>
+            {lista(classes)}
+          </>
+        )}
       </div>
     </main>
   );

@@ -1,0 +1,18 @@
+{
+  "id": "ossos-afiados",
+  "tipo": "poder",
+  "nome": "Ossos Afiados",
+  "resumo": "Receba +2 em Intimidação e +2 em rolagens de dano com armas naturais e ataques desarmados.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Osteon",
+    "descricao": "Você recebe +2 em Intimidação e +2 em rolagens de dano com armas naturais e ataques desarmados."
+  }
+}

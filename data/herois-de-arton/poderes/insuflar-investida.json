@@ -1,0 +1,18 @@
+{
+  "id": "insuflar-investida",
+  "tipo": "poder",
+  "nome": "Insuflar Investida",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 75
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Nobre",
+    "prerequisito": "Estrategista",
+    "custo": "1 PM por aliado",
+    "descricao": "Quando faz uma investida, você pode gastar 1 PM por aliado a sua escolha em alcance curto. Se fizer isso, a próxima investida que cada um desses aliados fizer até o início do seu próximo turno causa +2d8 pontos de dano."
+  }
+}

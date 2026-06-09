@@ -1,0 +1,17 @@
+{
+  "id": "sifao-de-mana",
+  "tipo": "poder",
+  "nome": "Sifão de Mana",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 56
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "17° nível de arcanista",
+    "descricao": "Quando você lança uma magia e pelo menos um inimigo falha no teste de resistência contra ela, você recupera uma quantidade de pontos de mana igual ao círculo da magia (limitada pelo total de PM gastos nela)."
+  }
+}

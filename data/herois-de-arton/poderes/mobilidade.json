@@ -1,0 +1,17 @@
+{
+  "id": "mobilidade",
+  "tipo": "poder",
+  "nome": "Mobilidade",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 79
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "Esquiva",
+    "descricao": "Quando usa a ação movimentar-se e percorre pelo menos 6m, você recebe +2 em testes de ataque e na Defesa até o início do seu próximo turno."
+  }
+}

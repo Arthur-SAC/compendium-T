@@ -1,0 +1,17 @@
+{
+  "id": "coragem-aguerrida",
+  "tipo": "poder",
+  "nome": "Coragem Aguerrida",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 78
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "combate",
+    "prerequisito": "treinado em Vontade",
+    "descricao": "Quando estiver com metade ou menos de seus PV totais, você recebe +2 em testes de perícia e na Defesa."
+  }
+}

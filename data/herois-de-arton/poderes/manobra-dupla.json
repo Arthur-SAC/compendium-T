@@ -1,0 +1,16 @@
+{
+  "id": "manobra-dupla",
+  "tipo": "poder",
+  "nome": "Manobra Dupla",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 68
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Guerreiro",
+    "descricao": "Uma vez por rodada, quando faz uma manobra de combate usando uma arma versátil, você pode pagar 1 PM para executar uma manobra diferente extra."
+  }
+}

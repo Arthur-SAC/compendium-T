@@ -1,0 +1,17 @@
+{
+  "id": "manto-de-batalha",
+  "tipo": "poder",
+  "nome": "Manto de Batalha",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 77
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Paladino",
+    "prerequisito": "5º nível de paladino",
+    "descricao": "Você aprende e pode lançar Vestimenta da Fé, e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível."
+  }
+}

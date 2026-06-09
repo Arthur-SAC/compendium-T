@@ -1,0 +1,16 @@
+{
+  "id": "heroi-dos-sete-instrumentos",
+  "tipo": "poder",
+  "nome": "Herói dos Sete Instrumentos",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 80
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "destino",
+    "descricao": "Você aprendeu de tudo um pouco e um pouco de tudo. Você recebe um bônus de +1 em testes de perícias nas quais não é treinado. No 7º nível esse bônus aumenta para +2 e, no 15º nível, aumenta para +3."
+  }
+}

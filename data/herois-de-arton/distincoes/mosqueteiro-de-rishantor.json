@@ -1,0 +1,58 @@
+{
+  "id": "mosqueteiro-de-rishantor",
+  "tipo": "distincao",
+  "nome": "Mosqueteiro de Rishantor",
+  "resumo": "Espadachins orgulhosos, valentes e honestos do Palácio Rishantor, desprezados pela nobreza de Ahlen mas famosos por sua esgrima implacável, camaradagem e inflexível código de honra.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 196
+  },
+  "imagens": [
+    "/distincoes/mosqueteiro-de-rishantor.png"
+  ],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ahlen, o Reino da Intriga, é um dos locais mais perigosos de Arton. Na capital Thartann, o Palácio Rishantor é quase um reino por si só. Atrás de suas muralhas existe toda uma sociedade em que nobres travam seus jogos de poder, incriminam uns aos outros, firmam alianças e as quebram. Os únicos plebeus que podem adentrar Rishantor são servos que trabalham para os nobres residentes — e há muitos desses. Mais de uma guilda se dedica exclusivamente às necessidades do palácio. Contingentes de arcanos mantêm os golens que guardam seus corredores, incontáveis clérigos derramam bênçãos sombrias. E muitos, muitos guardas fazem a segurança da nobreza de Rishantor. Esses combatentes são peões nas intrigas dos aristocratas. Intimidam seus inimigos, capturam alvos valiosos, fazem algumas pessoas \"desaparecerem\". Diz-se que mesmo guardas honestos e cheios de intenções heroicas não permanecem assim depois de serem designados a Rishantor.\n\nO que não impede muitos de tentar.\n\nAssim, a coroa de Ahlen criou uma divisão dentro do Palácio Rishantor para os guardas e soldados inconvenientes. Aqueles que, apesar de todas as dificuldades, insistem em permanecer honestos. Combatentes que recusam subornos, rejeitam ordens ilegais, protegem os inocentes e os humildes. É um batalhão desprezado e odiado em Ahlen, mas grande motivo de orgulho para seus membros. Esses são os infames Mosqueteiros de Rishantor.\n\nO título pode parecer estranho. Afinal, armas de pólvora são proibidas e os Mosqueteiros não usam mosquetes! A explicação está no âmago desta divisão renegada. Séculos atrás, antes que todas as leis do Reinado estivessem codificadas, Ahlen tentou introduzir armas de pólvora em seus exércitos — ferramentas ideais numa nação pouco afeita a combates grandiosos. O monarca da época chegou a assinar um documento fundando o batalhão chamado \"Mosqueteiros de Rishantor\", mas a manobra foi vetada pelo Rei-Imperador de então. O assunto foi esquecido, mas os Mosqueteiros nunca foram oficialmente dissolvidos. Nunca tinha havido um único Mosqueteiro, mas no papel o batalhão ainda existia.\n\nQuando a coroa sentiu necessidade de se livrar dos guardas honestos sem transformá-los em mártires, a existência dessa antiga divisão se provou útil. Segundo as normas estabelecidas em sua fundação, os Mosqueteiros de Rishantor tinham equipamento limitado — apenas uma armadura leve, um tabardo, uma espada de esgrima e adereços pomposos, como chapéus emplumados e botas lustradas. Além, é claro, de mosquetes. Quando os guardas indesejáveis começaram a ser mandados para o batalhão, viram-se de mãos atadas, pois a única arma realmente poderosa de seu arsenal era ilegal. Essa era a intenção dos nobres: transformar os guardas inconvenientes em bufões enfeitados e desarmados. Eles seriam ótimos para desfiles e como \"provas\" da honestidade da nobreza, mas nunca mais incomodariam.\n\nContudo, os primeiros Mosqueteiros de Rishantor eram teimosos demais. Treinaram até se tornarem mestres da esgrima, capazes de vencer qualquer brutamontes com sua espada delgada. Em vez de armaduras, contavam com acrobacias. Sua coragem extrema os tornou orgulhosos e gerou uma intensa rivalidade com os demais guardas do palácio e soldados ahlenienses. Hoje em dia, ser um Mosqueteiro de Rishantor é tanto um castigo quanto uma marca de honra. Forasteiros vêm de todos os reinos e desafiam a rede de intrigas de Ahlen pelo direito de se alistar nesta tropa e aprender suas famosas técnicas. Para evitar o inchaço do clubinho impertinente, a coroa baixou um decreto permitindo que os Mosqueteiros se aventurassem fora de Rishantor e limitando o número destes espadachins dentro do palácio. Por isso hoje em dia é possível encontrar Mosqueteiros de Rishantor em vários grupos de aventureiros.\n\nUm Mosqueteiro de Rishantor é, acima de tudo, um espadachim orgulhoso, valente e honesto. Eles não toleram qualquer ofensa ao batalhão ou à causa que defendem e são famosos por suas bravatas. Um Mosqueteiro é tão correto, justo e inflexível quanto um paladino — de fato, muitos são também paladinos.\n\nA grande diferença está em seu equipamento e em sua falta de humildade. Onde quer que vão, os Mosqueteiros de Rishantor ostentam seu tabardo com o brasão das três raposas, cumprimentam todos com volteios de seus chapéus emplumados, fazem questão de anunciar seu nome e sobrenome, para que inimigos saibam quem vai derrotá-los. Talvez devido a tudo isso muitos têm vida curta... Mas qualquer Mosqueteiro prefere morrer como um herói do que viver como um covarde. Em guarda!"
+    },
+    {
+      "titulo": "Citação",
+      "texto": "\"Um por todos e todos contra essa corja de nobres corruptos!\""
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um candidato a Mosqueteiro de Rishantor deve se apresentar no palácio, requisitando treinamento e serviço no batalhão. Isso é mais difícil do que parece. Como os Mosqueteiros são desprezados em Rishantor, o candidato muitas vezes é levado ao local errado, ou escuta mentiras, dizendo que este grupo não existe mais. Alguns guardas inventam motivos para prender os candidatos ou mandam-nos esperar do lado de fora, em tavernas de baixa reputação, onde podem ser atacados por bandidos. Nenhum artifício é baixo demais para desencorajar um candidato a se alistar nos Mosqueteiros.\n\nQuando o candidato consegue desenredar essa teia de mentiras, ou quando um Mosqueteiro o encontra, ele então é levado aos alojamentos do batalhão — uma ala escura e pouco ventilada do palácio, que fede a mofo e é frequentemente usada como depósito de materiais tóxicos. Lá, é recebido pelos demais Mosqueteiros. Deve então se apresentar e aguardar o extenso processo de aprovação.\n\nAo longo dos anos, muitos capangas da nobreza já tentaram se infiltrar nos Mosqueteiros de Rishantor. Por isso, cada candidato passa por uma sabatina e diversos questionários destinados a testar sua ética e moral. Agentes são enviados a sua terra natal para avaliar sua reputação e desencavar quaisquer histórias de desonestidade. Apenas candidatos com histórico exemplar são aceitos. Já houve casos em que um candidato promissor foi rejeitado por ter pago a menos numa taverna cinco anos antes...\n\nEntão começa o treinamento em si: alguns meses de rotina excruciante em que o candidato serve como guarda nos corredores de Rishantor ao mesmo tempo em que realiza exercícios intensos e estuda esgrima, além de aprender sobre a orgulhosa história dos Mosqueteiros. Durante todo esse tempo, também há testes de honra e escolhas morais. Além disso, os guardas e nobres tentam a todo custo corromper um candidato a Mosqueteiro. Qualquer um que seja descoberto em conluio com esses facínoras é sumariamente expulso do programa.\n\nNo fim, o candidato deve duelar contra três Mosqueteiros experientes. A ideia não é que ele seja capaz de vencer os três duelos, mas avaliar sua coragem e postura frente a um desafio impossível. Candidatos que saibam se portar são então recebidos por todos os Mosqueteiros presentes, numa noite de festa e bebedeira. Na manhã seguinte, o novo Mosqueteiro faz seu juramento e recebe seu chapéu, seu tabardo e sua espada. A essa altura, está tão envolvido na cultura do batalhão que provavelmente nunca mais vai deixar de ostentar essa indumentária.",
+    "marca": {
+      "nome": "Equipamento Real",
+      "descricao": "O equipamento de um Mosqueteiro de Rishantor deveria ser um deboche. Mas é ostentado com orgulho.\n\nVocê recebe um tabardo, um florete ou rapieira e um chapéu emplumado (veja o Capítulo 3). Enquanto você estiver usando esses itens, recebe um bônus de +1 Diplomacia, testes de ataque, rolagens de dano e na Defesa. Você não pode ser devoto de divindades capazes de canalizar energia negativa e deve seguir algum código de conduta (como Código de Honra). Se violá-lo, além das consequências normais, não poderá usar seus poderes de mosqueteiro até recuperar seus PM."
+    },
+    "poderes": [
+      {
+        "nome": "Mestre Esgrimista",
+        "descricao": "Por suas restrições de equipamento, o Mosqueteiro treina sua esgrima mais que qualquer um.\n\nSeu multiplicador de crítico com florete e rapieira aumenta em +1. Além disso, quando faz um ataque com uma dessas armas, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado.",
+        "prerequisito": "proficiência com armas marciais, Estilo de Uma Arma"
+      },
+      {
+        "nome": "Heroísmo Galante",
+        "descricao": "Um Mosqueteiro não hesita em defender um inocente, mesmo que isso custe sua vida.\n\nQuando um aliado adjacente é alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente. Se você tiver todos os poderes da distinção, quando um aliado em alcance curto é alvo de um ataque, você pode gastar 3 PM para se deslocar até um espaço adjacente a ele e ao atacante (desde que tenha um caminho desimpedido) e se tornar o alvo do ataque. Você só pode usar este poder uma vez por rodada e ele requer liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou na condição imóvel.",
+        "prerequisito": "treinado em Reflexos, Mestre Esgrimista"
+      },
+      {
+        "nome": "Todos Por Um",
+        "descricao": "Quando podem confiar em seus aliados, os Mosqueteiros se tornam imbatíveis.\n\nQuando você usa Duelo, pode gastar +1 PM para cada aliado a sua escolha em alcance curto (limitado pelo seu Carisma). Aliados escolhidos também recebem os benefícios de Duelo contra o alvo (mas perdem-no se atacarem outro oponente).",
+        "prerequisito": "Duelo, Um por Todos"
+      },
+      {
+        "nome": "Um por Todos",
+        "descricao": "O Mosqueteiro sabe trabalhar em equipe como ninguém.\n\nQuando você faz um teste para ajudar (exceto para ataques), o bônus que você fornece aumenta em +2. Além disso, uma vez por rodada, quando acerta um ataque de florete ou rapieira em um inimigo, você pode usar o resultado desse ataque como um teste para ajudar um ataque de um aliado feito contra esse inimigo até a próxima rodada.",
+        "prerequisito": "Mestre Esgrimista"
+      },
+      {
+        "nome": "Valentia",
+        "descricao": "Um Mosqueteiro de Rishantor não teme nenhum perigo.\n\nVocê pode lançar Heroísmo, mas apenas sobre si mesmo. Esta não é uma habilidade mágica e provém de sua galanteria, panache e ousadia altaneira (veja \"Magias Simuladas\", p. 44).",
+        "prerequisito": "Mestre Esgrimista, dois outros poderes da distinção"
+      }
+    ]
+  }
+}

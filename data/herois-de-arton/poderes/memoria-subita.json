@@ -1,0 +1,17 @@
+{
+  "id": "memoria-subita",
+  "tipo": "poder",
+  "nome": "Memória Súbita",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 55
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Arcanista",
+    "prerequisito": "Mago",
+    "descricao": "Escolha uma de suas magias que não esteja memorizada. Você pode gastar uma ação de movimento para memorizar essa magia até o fim da cena. Se fizer isso, uma de suas outras magias memorizadas, a sua escolha, deixa de estar memorizada."
+  }
+}

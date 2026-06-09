@@ -1,0 +1,16 @@
+{
+  "id": "historia-de-acampamento",
+  "tipo": "poder",
+  "nome": "História de Acampamento",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 58
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "Bardo",
+    "descricao": "Você pode gastar 1 hora para entreter um número de pessoas igual ao seu nível com histórias e canções. A recuperação de PM por descanso dessas pessoas aumenta em +1 por nível nesse dia."
+  }
+}

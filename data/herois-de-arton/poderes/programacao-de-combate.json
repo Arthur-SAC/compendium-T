@@ -1,0 +1,18 @@
+{
+  "id": "programacao-de-combate",
+  "tipo": "poder",
+  "nome": "Programação de Combate",
+  "resumo": "Gaste uma ação de movimento e 3 PM para ativar modo de análise (duração sustentada): quando faz um ataque, role dois dados e use o melhor resultado.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 90
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Golem",
+    "descricao": "Você pode gastar uma ação de movimento e 3 PM para ativar um modo de análise de inimigos, com duração sustentada. Enquanto estiver com esse modo ativo, quando faz um ataque você rola dois dados e usa o melhor resultado."
+  }
+}

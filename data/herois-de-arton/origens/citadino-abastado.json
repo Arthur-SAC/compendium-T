@@ -1,0 +1,23 @@
+{
+  "id": "citadino-abastado",
+  "tipo": "origem",
+  "nome": "Citadino Abastado",
+  "resumo": "Nascido em família rica de comerciantes ou artesãos de uma grande cidade, sempre um degrau abaixo da nobreza, buscando provar seu valor.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 49 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu em uma família rica de comerciantes ou artesãos de uma grande cidade como Valkaria, Thartann ou Tiberus. Com acesso a boa educação, cresceu com preocupações diferentes de um aldeão ou trabalhador comum. Talvez tenha sido incentivado (ou forçado) por seus pais a honrar esses privilégios, treinando duro para ser alguém melhor — ou fez isso por iniciativa própria. Seja como for, esteve sempre apenas um degrau abaixo da nobreza, mas sendo lembrado o tempo todo de que não era um nobre verdadeiro. Agora você procura provar seu valor para sua família, para aqueles que o menosprezaram, para uma pessoa importante ou para si mesmo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "itensTexto": "Uma arma, armadura, ferramenta ou vestuário no valor de até T$ 500.",
+    "beneficios": {
+      "pericias": ["Nobreza"],
+      "texto": "Você é treinado em Nobreza e em um Ofício a sua escolha. Se estiver em uma cidade grande (a critério do mestre), pode gastar tibares para aprender algum conhecimento local útil. O custo é T$ 10 x seu nível. Se fizer isso, escolha um poder de combate, de destino ou de uma de suas classes cujos pré-requisitos você cumpra (o mestre determina se um poder está disponível na cidade). Até o fim da aventura, ou até usar esta habilidade novamente, você pode usar o poder escolhido por uma cena."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gavinhas",
+  "tipo": "poder",
+  "nome": "Gavinhas",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 88
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Dahllan; 5º nível de personagem",
+    "descricao": "Quando você usa Armadura de Allihanna, duas gavinhas crescem de suas costas. Cada gavinha é uma arma natural (dano 1d4 cada, crítico x2, impacto) com 3m de alcance e versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM por gavinha para fazer um ataque corpo a corpo extra com ela (desde que ela já não tenha sido usada na rodada). Pré-requisito: 5º nível de personagem."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "meio-elfo",
+  "tipo": "raca",
+  "nome": "Meio-Elfo",
+  "resumo": "Descendentes de humanos e elfos, os meios-elfos são um povo tolerante que busca sua própria identidade entre dois mundos, trazendo consigo ambição, sensibilidade mágica e longevidade aumentada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 14 },
+  "imagens": ["/racas/meio-elfo.png"],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Após a queda de Lenórienn e a dispersão dos elfos por Arton, muitos deles se viram obrigados a conviver nos reinos humanos e se misturar com outras raças. O orgulho e a arrogância ancestrais deram lugar a uma nova realidade, em que tais sentimentos foram esquecidos, enterrados ou, pelo menos, disfarçados.\n\nA interação com outras raças despertou nos elfos uma gama diversa de sentimentos. Alguns nutrem ódio profundo em seus corações. Outros descobriram nos humanos um povo apaixonante, intenso, que vive cada momento. E há aqueles que, como servos ou escravos, foram silenciados e obrigados a ocultar suas emoções. Assim, por amor ou resignação, humanos e elfos cruzam seus destinos, dando origem aos meios-elfos.\n\nÉ possível que existam meios-elfos desde a chegada dos próprios elfos a Arton, mais de um milênio atrás. Contudo, ficaram mais comuns apenas nas últimas décadas. Atualmente já estão se tornando mais numerosos que os elfos \"puros\", sendo agora a norma, não a exceção.\n\nEmbora elfos e humanos sejam parecidos fisicamente, os meios-elfos são um meio-termo. Têm a mesma altura e peso dos humanos, mas também olhos amendoados, orelhas pontudas e traços delicados. Sua cor de pele pode variar do escuro ao albino, passando por todos os intermediários. São mais robustos que os elfos e, como seus pais humanos, podem desenvolver barba.\n\nTolerantes por natureza, meios-elfos convivem bem com indivíduos de todas as raças, embora às vezes enfrentem o preconceito, principalmente por parte de elfos puros, que veem neles um sinal de decadência. São mais bem recebidos entre os humanos, devido a sua beleza e natureza amigável.\n\nMuitos, no entanto, não se sentem à vontade com nenhum povo. Assim, aventuram-se — não em busca de tesouros, fama ou renome, mas de sua própria identidade e seu lugar em Arton. Muitos abraçam as artes e se tornam bardos, viajando e coletando histórias. Bucaneiros, clérigos, druidas, guerreiros e ladinos também são comuns. E vários acabam como arcanistas, devido à natureza mágica de seus parentes élficos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "modificadores": [
+      { "atributo": "Inteligência", "valor": 1 },
+      { "valor": 1, "escolha": true, "quantidade": 2, "observacao": "+1 em dois atributos, exceto Constituição" }
+    ],
+    "tamanho": "Médio",
+    "deslocamento": 9,
+    "deslocamentoUnidade": "m",
+    "habilidades": [
+      {
+        "nome": "Ambição Herdada",
+        "descricao": "Você recebe um poder geral ou poder único de origem (Tormenta20, p. 85) a sua escolha."
+      },
+      {
+        "nome": "Entre Dois Mundos",
+        "descricao": "Você recebe +1 em perícias baseadas em Carisma."
+      },
+      {
+        "nome": "Sangue Élfico",
+        "descricao": "Você recebe visão na penumbra e +1 ponto de mana a cada nível ímpar (incluindo o 1º). Além disso, é considerado um elfo para efeitos relacionados a raça."
+      },
+      {
+        "nome": "Longevidade",
+        "descricao": "x2."
+      },
+      {
+        "nome": "Devoção",
+        "descricao": "Qualquer."
+      }
+    ],
+    "longevidade": "x2",
+    "devocao": "Qualquer"
+  }
+}
