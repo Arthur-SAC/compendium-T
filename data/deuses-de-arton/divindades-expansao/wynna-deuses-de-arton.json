@@ -4,7 +4,7 @@
   "nome": "Wynna (Deuses de Arton)",
   "resumo": "A Deusa da Magia, provedora da magia arcana e divina para todo Arton, amorosa com aqueles que acolhem sua dádiva e ressentida com os que a rejeitam em favor da tecnologia ou outros caminhos.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 224 },
-  "imagens": [],
+  "imagens": ["/divindades/wynna-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-wynna", "rotulo": "Avatar de Wynna" }
   ],

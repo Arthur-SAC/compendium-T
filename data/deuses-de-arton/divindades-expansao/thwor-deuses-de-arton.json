@@ -4,7 +4,7 @@
   "nome": "Thwor (Deuses de Arton)",
   "resumo": "O Deus dos Goblinoides, originalmente um bugbear que uniu as raças goblinoides nos duyshidakk, conquistou o continente de Lamnor e ascendeu à divindade. Pregador do Akzath e criador do ideal de \"O Mundo Como Deve Ser\" — uma utopia de liberdade anárquica.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 212 },
-  "imagens": [],
+  "imagens": ["/divindades/thwor-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-thwor", "rotulo": "Avatar de Thwor" }
   ],

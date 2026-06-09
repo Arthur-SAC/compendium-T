@@ -4,7 +4,7 @@
   "nome": "Aharadak (Deuses de Arton)",
   "resumo": "O Deus da Tormenta, antigo Lorde lefeu que assassinou Tauron e ascendeu ao Panteão, encarnando a corrupção, a loucura e a devoração que ameaçam transformar toda a Criação em Anticriação.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 148 },
-  "imagens": [],
+  "imagens": ["/divindades/aharadak-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-aharadak", "rotulo": "Avatar de Aharadak" }
   ],

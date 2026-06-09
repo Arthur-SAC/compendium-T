@@ -4,7 +4,7 @@
   "nome": "Hyninn (Deuses de Arton)",
   "resumo": "O Deus da Trapaça e dos Ladrões, patrono das masmorras, das armadilhas e da esperteza — um deus nem bom nem mau, para quem a existência é um jogo cuja maior recompensa é vencer sem ser o favorito.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 164 },
-  "imagens": [],
+  "imagens": ["/divindades/hyninn-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-hyninn", "rotulo": "Avatar de Hyninn" }
   ],

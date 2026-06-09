@@ -4,7 +4,7 @@
   "nome": "Sszzaas (Deuses de Arton)",
   "resumo": "O Deus da Traição, Senhor dos Segredos e do Conhecimento Oculto, patrono das serpentes e de tudo que é traiçoeiro e venenoso, um dos seres mais cruéis e perigosos da Criação.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 200 },
-  "imagens": [],
+  "imagens": ["/divindades/sszzaas-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-sszzaas", "rotulo": "Avatar de Sszzaas" }
   ],

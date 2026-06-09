@@ -4,7 +4,7 @@
   "nome": "Lena (Deuses de Arton)",
   "resumo": "A Deusa da Vida, da Cura e da Fertilidade — a mais misteriosa das divindades, que parece ter existido antes de todos os outros deuses, e cujo amor incondicional pela vida é reconhecido até pelos mais cruéis membros do Panteão.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 176 },
-  "imagens": [],
+  "imagens": ["/divindades/lena-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-lena", "rotulo": "Avatar de Lena" }
   ],

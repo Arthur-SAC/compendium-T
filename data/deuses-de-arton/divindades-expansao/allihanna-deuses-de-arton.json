@@ -4,7 +4,7 @@
   "nome": "Allihanna (Deuses de Arton)",
   "resumo": "A Deusa da Natureza e Mãe Natureza de Arton, guardiã de toda a vida selvagem, dos animais, das plantas e dos povos bárbaros, cuja benevolência se transforma em fúria feroz quando suas crias são ameaçadas.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 152 },
-  "imagens": [],
+  "imagens": ["/divindades/allihanna-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-allihanna", "rotulo": "Avatar de Allihanna" }
   ],

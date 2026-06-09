@@ -4,7 +4,7 @@
   "nome": "Lin-Wu (Deuses de Arton)",
   "resumo": "O Deus da Honra e de Tamu-ra — o Dragão Celestial, ser inabalável cujo presente aos mortais é a própria honra, sem a qual não há civilização nem humanidade.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 180 },
-  "imagens": [],
+  "imagens": ["/divindades/lin-wu-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-lin-wu", "rotulo": "Avatar de Lin-Wu" }
   ],

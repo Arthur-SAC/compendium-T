@@ -4,7 +4,7 @@
   "nome": "Arsenal (Deuses de Arton)",
   "resumo": "O Deus da Guerra, primeiro ser humano a ascender ao Panteão, um cavaleiro de máquina de outro mundo que derrotou Keenn e assumiu o domínio da guerra estratégica para preparar Arton contra a ameaça que espreita nos recônditos da existência.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 156 },
-  "imagens": [],
+  "imagens": ["/divindades/arsenal-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-arsenal", "rotulo": "Avatar de Arsenal" }
   ],

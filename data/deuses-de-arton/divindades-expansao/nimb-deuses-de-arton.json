@@ -4,7 +4,7 @@
   "nome": "Nimb (Deuses de Arton)",
   "resumo": "O Deus do Caos, da Sorte e do Azar, manifestação divina da incerteza e do acaso em eterna mutação, que governa o imprevisível, o acidental e o fortuito, talvez mais força cósmica que entidade consciente.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 192 },
-  "imagens": [],
+  "imagens": ["/divindades/nimb-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-nimb", "rotulo": "Avatar de Nimb" }
   ],

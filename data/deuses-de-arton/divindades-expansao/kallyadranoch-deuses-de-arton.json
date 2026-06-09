@@ -4,7 +4,7 @@
   "nome": "Kallyadranoch (Deuses de Arton)",
   "resumo": "O Deus dos Dragões e do Poder, o Dragão Tirano — um ser de orgulho e tirania que almeja um mundo onde todos são escravos dos deuses e os deuses, escravos dele mesmo.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 168 },
-  "imagens": [],
+  "imagens": ["/divindades/kallyadranoch-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-kallyadranoch", "rotulo": "Avatar de Kallyadranoch" }
   ],

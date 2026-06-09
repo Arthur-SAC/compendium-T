@@ -4,7 +4,7 @@
   "nome": "Azgher (Deuses de Arton)",
   "resumo": "O Deus-Sol, vigilante onisciente de Arton, senhor do dia, do fogo e da verdade, cujo eterno conflito com Tenebra moldou o ciclo de luz e trevas que rege toda a Criação.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 160 },
-  "imagens": [],
+  "imagens": ["/divindades/azgher-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-azgher", "rotulo": "Avatar de Azgher" }
   ],

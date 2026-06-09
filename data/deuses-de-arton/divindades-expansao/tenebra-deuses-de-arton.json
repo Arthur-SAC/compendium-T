@@ -4,7 +4,7 @@
   "nome": "Tenebra (Deuses de Arton)",
   "resumo": "A Deusa das Trevas e da Noite, mãe de tudo que anda, voa ou rasteja no escuro — morcegos, vampiros, mortos-vivos e criaturas subterrâneas. Rival de Azgher, mãe dos anões junto a Khalmyr, e uma tentadora suprema que prefere sutileza e sedução a arrogância.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 208 },
-  "imagens": [],
+  "imagens": ["/divindades/tenebra-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-tenebra", "rotulo": "Avatar de Tenebra" }
   ],

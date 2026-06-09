@@ -4,7 +4,7 @@
   "nome": "Marah (Deuses de Arton)",
   "resumo": "A Deusa da Paz e do Amor, conhecida como a Dama Branca e a Donzela Deslumbrante, busca um mundo sem violência usando apenas meios pacíficos, diálogo e amor em todos os seus aspectos.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 184 },
-  "imagens": [],
+  "imagens": ["/divindades/marah-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-marah", "rotulo": "Avatar de Marah" }
   ],

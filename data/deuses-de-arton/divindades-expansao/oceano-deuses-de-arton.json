@@ -4,7 +4,7 @@
   "nome": "Oceano (Deuses de Arton)",
   "resumo": "O antigo e insondável Deus dos Mares, guardião e soberano das águas desde os primórdios, misteriosamente desaparecido após um grande conselho, cuja ausência assola os mares com eventos estranhos e deixa seus devotos em busca de resposta.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 196 },
-  "imagens": [],
+  "imagens": ["/divindades/oceano-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-oceano", "rotulo": "Avatar do Oceano" }
   ],

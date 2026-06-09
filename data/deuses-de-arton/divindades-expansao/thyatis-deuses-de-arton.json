@@ -4,7 +4,7 @@
   "nome": "Thyatis (Deuses de Arton)",
   "resumo": "O Deus da Ressurreição e da Profecia, patrono dos aventureiros, estudiosos e sábios, portador da certeza inabalável de que todos os desafios podem ser vencidos e que todos merecem uma segunda chance.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 216 },
-  "imagens": [],
+  "imagens": ["/divindades/thyatis-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-thyatis", "rotulo": "Avatar de Thyatis" }
   ],

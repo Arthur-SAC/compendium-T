@@ -4,7 +4,7 @@
   "nome": "Megalokk (Deuses de Arton)",
   "resumo": "O Deus dos Monstros, entidade primordial que incorpora o ímpeto, a voracidade e a brutalidade dos seres vivos, criador das hordas monstruosas que desafiaram os povos de Arton desde a Era de Megalokk.",
   "fonte": { "livro": "deuses-de-arton", "pagina": 188 },
-  "imagens": [],
+  "imagens": ["/divindades/megalokk-retrato.png"],
   "relacoes": [
     { "tipo": "avatar", "alvoTipo": "criatura", "alvoId": "avatar-de-megalokk", "rotulo": "Avatar de Megalokk" }
   ],
