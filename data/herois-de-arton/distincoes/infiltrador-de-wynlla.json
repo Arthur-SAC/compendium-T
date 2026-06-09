@@ -1,0 +1,58 @@
+{
+  "id": "infiltrador-de-wynlla",
+  "tipo": "distincao",
+  "nome": "Infiltrador de Wynlla",
+  "resumo": "Espião arcano que une furtividade, charme, truques sujos e magia para conduzir guerras secretas no Reino da Magia e além.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 172
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Wynlla, o Reino da Magia. Essa terra é conhecida principalmente por seus arcanistas — intelectuais dedicados a avançar as artes arcanas acima de qualquer outro interesse, além de pesquisadores incansáveis, muitas vezes enfurnados em bibliotecas e laboratórios, onde aprendem e desenvolvem técnicas cada vez mais complexas. Pessoas mais familiarizadas com Wynlla sabem que seus arcanistas muitas vezes são também nobres em constantes disputas por posição social, e que seus Magos de Batalha são uma das forças militares mais impressionantes do continente.\n\nO que poucos sabem é que Wynlla também forma alguns dos melhores aventureiros de outra especialidade. Uma especialidade, por definição, discreta e camuflada: a espionagem. O Reino da Magia produz espiões arcanos que unem furtividade, charme, truques sujos, equipamento único e, é claro, magia. São os infiltradores de Wynlla.\n\nEntre aqueles que combinam os poderes assombrosos de um arcanista e as técnicas manhosas de um ladino, poucos se igualam ao infiltrador de Wynlla. Nessa nação onde poder mágico significa cidadania e soberania, os espiões utilizam suas habilidades para travar guerras secretas e navegar em meio aos jogos de intriga entre magocratas rivais. Quando os interesses do reino como um todo são ameaçados, infiltradores de Wynlla são enviados para fora das fronteiras pelo Conselho para descobrir segredos, sabotar artefatos, capturar ou eliminar inimigos e até mesmo interferir (ou colaborar!) com grupos de aventureiros.\n\nEste espião arcano supremo é treinado para aliar conjuração com furtividade e astúcia. Sua magia inclui encantamentos e ilusões próprias para desviar a atenção ou desorientar adversários, facilitando incursões sigilosas. Ele prefere magias de silêncio e invisibilidade, e possui conhecimento em poções e artifícios mágicos para desarmar ou criar armadilhas encantadas.\n\nAs habilidades arcanas do infiltrador somam-se a furtividade e técnicas mundanas. Enquanto o ladino comum usa maquiagem e o mago utiliza ilusões, o infiltrador de Wynlla mescla ambos para produzir disfarces tão perfeitos que enganariam um deus! O ladino se esconde nas sombras, o mago se torna invisível; o infiltrador simplesmente desaparece! O ladino vence portas trancadas, o mago atravessa paredes sólidas; o infiltrador invade a câmara do tesouro de um rei. Ou do próprio Dragão-Rei!\n\nDiz-se que infiltradores de Wynlla são ainda menos confiáveis que sszzaazitas. Muitos são agentes duplos, criando inimizades onde antes não havia nenhuma, apenas para obter vantagens no conflito: grande parte das animosidades na alta nobreza de Wynlla seria causada por eles. Sua lealdade é tão flexível quanto as magias que conjuram, eles trabalham para quem pagar mais — ou quem oferecer o desafio mais interessante. Contudo, existem alguns que adotam códigos de honra pessoais, ou usam suas habilidades para promover o bem.\n\nUma infiltradora de Wynlla \"bondosa\" (ou ao menos trabalhando para o lado certo) foi decisiva em um dos eventos mais importantes da história recente de Arton. Ylena Elohim, uma das únicas infiltradoras que se tornaram notórias e continuaram tão eficientes e mortais quanto seus colegas anônimos, participou da Operação Colosso, o esforço do Reinado para combater o avanço de Mestre Arsenal. Dizem que a agente secreta mágica é capaz de quebrar a banca em um cassino, engambelar um vilão, participar de um baile da corte e explodir uma base secreta com a mesma facilidade... talvez na mesma noite!\n\nDiferente de arcanistas convencionais, o infiltrador raramente recorre a magia para ataques diretos. Ele também não é forte como um guerreiro ou ágil como um ladino, mas compensa ambos com o uso estratégico de magias e ataques furtivos. Usa magia para criar vantagens sobre o inimigo, distraindo, cegando, atordoando, paralisando, antes de efetivamente lutar. Se tiver aliados, vai preferir alvos já envolvidos em combate, pois não faz nenhuma questão de lutar limpo.\n\nEmbora atuem principalmente no Reino da Magia, existem infiltradores em todo o Reinado e além. Muitos estão justamente em missões secretas para a magocracia de Wynlla — assegurando seus interesses políticos ou econômicos. Outros são agentes independentes, sozinhos ou em grupos de aventureiros, aceitando contratos de patronos poderosos. Em comum, todos têm um truque na manga, uma tirada espirituosa e uma capacidade inexplicável de sobreviver a perigos mantendo a elegância."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Infiltradores de Wynlla são treinados exclusivamente no Reino da Magia. Ali estão sediadas todo tipo organizações secretas, apadrinhadas por famílias nobres, guildas poderosas ou pelo próprio Conselho. Nenhuma dessas instituições existe oficialmente — na verdade, a maioria dos figurões da magocracia fingirá não saber nada sobre agentes secretos arcanos em sua terra.\n\nAssim, aqueles que não são naturais de Wynlla precisam, antes de mais nada, passar tempo suficiente no reino para conquistar a confiança de um desses patronos. Ser capaz de usar magia arcana é um requisito básico — um candidato nunca será respeitado se não possuir essa capacidade fundamental.\n\nDepois de estar bem-posicionado no Reino da Magia, o candidato deve efetivamente encontrar uma organização que esteja disposta a aceitar novos membros. Pode ser alguma casa nobre com quem já teve contato anteriormente, mas muitos candidatos acabam trocando suas lealdades durante essa fase. Afinal, depois de algum contato com Wynlla, podem ter uma noção melhor sobre as intrigas que acontecem no reino. Vários boatos e informações desconexas são espalhadas para qualquer um que tente descobrir sobre qualquer organização, tanto para proteção, quanto para filtrar apenas os candidatos realmente capazes. É necessário tanto uma investigação profunda para procurar pistas e interrogar pessoas quanto uma boa intuição para perceber as mentiras.\n\nApós encontrar uma organização, é necessário provar seus talentos, tanto nas artes mágicas quanto nas habilidades furtivas e de enganação. Os testes variam, mas geralmente envolvem invadir locais protegidos por armadilhas mágicas. O patrono da organização muitas vezes dita o tipo de teste: um candidato pode receber a ordem de assassinar um alvo inocente, enquanto outro pode apenas ter a tarefa de descobrir algum segredo. Às vezes outra organização aborda um candidato promissor durante os testes. Isso pode ou não ser mais um teste!\n\nUma vez que seja aceito, o candidato recebe um pequeno conjunto de missões, que devem ser cumpridas fora de Wynlla. Cada missão deve lhe ensinar um aspecto da vida de espionagem: trato social e etiqueta, furtividade, arrombamento, fuga... Todas as missões devem ser cumpridas usando magia arcana. O candidato pode ser acompanhado por colegas aventureiros, mas não é saudável revelar muito sobre seu patrono a eles. Afinal, as organizações podem decidir que eles sabem demais...\n\nQuando o candidato termina de cumprir todas as missões, deve se apresentar em Wynlla mais uma vez. Ele é reconhecido (em particular) como um novo infiltrador, leal a quem o treinou. O patrono, contudo, nunca vai admitir ter qualquer contato com o infiltrador, preferindo deixar que ele seja executado a admitir que emprega espiões. Em troca, o infiltrador tem liberdade para usar seus novos conhecimentos como quiser... Mas periodicamente receberá propostas de trabalhos lucrativos.",
+    "marca": {
+      "nome": "Ladinagem Mágica",
+      "descricao": "Tudo surge no lugar certo na hora certa... quando você dispõe da magia certa.\n\nVocê cria um fluxo de energia capaz de manipular pequenos itens próximos. Você pode gastar uma ação de movimento para mover um objeto em alcance curto até 9m em qualquer direção (você só pode mover objetos que poderia manusear com uma mão). Além disso, pode gastar 1 PM para fazer um teste de Ladinagem para abrir fechaduras, ocultar itens, punga ou sabotar em alcance curto."
+    },
+    "poderes": [
+      {
+        "nome": "Trapaça Arcana",
+        "descricao": "Você pode lançar magias arcanas de 1º círculo. Se tiver pelo menos três poderes da distinção, pode lançar também magias de 2º círculo. Você começa com duas magias de 1º círculo e, a cada outro poder da distinção, aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para essas magias é Inteligência.",
+        "prerequisito": "treinado em Enganação, Ladinagem e Misticismo, capacidade de lançar pelo menos uma magia arcana"
+      },
+      {
+        "nome": "Conjuração Furtiva",
+        "descricao": "Criaturas desprevenidas sofrem uma penalidade de –5 em testes de resistência contra suas habilidades mágicas.",
+        "prerequisito": "treinado em Furtividade, Magia Traiçoeira"
+      },
+      {
+        "nome": "Criar Armadilha Mágica",
+        "descricao": "Você aprende a magia Conjurar Armadilha (p. 252) como uma de suas magias arcanas. Se aprender essa magia novamente, seu custo diminui em –1 PM.",
+        "prerequisito": "Trapaça Arcana"
+      },
+      {
+        "nome": "Disfarce Mental",
+        "descricao": "Você pode usar Inteligência no lugar de Carisma para Enganação. Quando usa Disfarce Ilusório em si mesmo, você pode usar Inteligência no lugar do atributo-chave de uma perícia a sua escolha, adequada ao disfarce escolhido, e recebe +5 em testes de resistência contra efeitos mágicos de adivinhação.",
+        "prerequisito": "Trapaça Arcana, Disfarce Ilusório"
+      },
+      {
+        "nome": "Enganar Item Mágico",
+        "descricao": "Quando lança uma magia através de um item mágico que só permite o uso de aprimoramentos caso você conheça a magia, você pode usá-los mesmo sem conhecê-la. Além disso, pode ativar itens mágicos sem cumprir requisitos de raça, classe e devoção.",
+        "prerequisito": "Trapaça Arcana"
+      },
+      {
+        "nome": "Magia Traiçoeira",
+        "descricao": "Quando lança uma magia de dano em um ou mais alvos desprevenidos, você pode usar seu ataque furtivo com ela em um deles.",
+        "prerequisito": "Ataque Furtivo 3d6, Disfarce Mental",
+        "custo": "+2 PM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ginete-de-namalkah",
+  "tipo": "distincao",
+  "nome": "Ginete de Namalkah",
+  "resumo": "Cavaleiros nômades de Namalkah com vínculo quase sobrenatural com seus cavalos, que incorporam os valores de liberdade, lealdade e inquietude do reino e combatem ao lado de seu irmão equestre como se fossem um só ser.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 166
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Namalkah é um reino onde o vento impera, frio, correndo pelas planícies sem fim, abençoando seus orgulhosos cavaleiros em constante peregrinação pelos pagos de sua querência. E, se Namalkah é uma ideia na mente de seu povo, uma lembrança da qual não conseguem se livrar, os ginetes de Namalkah são os principais mensageiros dessa ideia.\n\nNessa terra onde já se nasce no lombo do cavalo, o ginete de Namalkah é o mais formidável dos cavaleiros. Sua bravura e ligação quase sobrenatural com seu irmão equestre são notáveis e fazem com que eles invariavelmente ocupem posições de liderança em seus tropéis — com efeito, na defesa de Hippiontar contra a Supremacia Purista, em 1412, enquanto um grupo de bravos heróis improvisou uma cavalaria alada, os ginetes foram os responsáveis por coordenar a maior parte do contra-ataque em terra.\n\nO ginete de Namalkah, assim, é uma personificação de seu próprio reino. Todos os valores de independência, lealdade, simplicidade, inquietude e respeito aos cavalos estão concentrados nestes tipos orgulhosos, que levam Namalkah consigo aonde quer que vão. De fato, muitos consideram que o ginete de Namalkah é um dos mais patrióticos e ferrenhos representantes de uma nação, ainda que não carreguem estandartes, ostentem sua linhagem ou proclamem sua origem. Com sua fala mansa, seus modos rústicos, um ginete de Namalkah leva o reino consigo até os confins do mundo e além. Para ele, cavalgar por uma planície não é muito diferente de galopar pelas ruas de uma metrópole ou mesmo nas vastidões desoladas de algum Plano infernal. Com um afago na crina de sua montaria, um ajuste no chapéu e um suspiro longo, o ginete encara qualquer desafio, como o namalkahniano que é.\n\nContudo, antes de verem a si mesmos como pertencentes a algum reino, cidade ou povoado, os namalkahnianos se consideram parte de grupos viajantes, como os centauros: os chamados tropéis. Com o pampa deserto sempre à frente e o céu fincado no chão, a peregrinação constante é seu estilo de vida. Por isso os cavalos são sagrados em Namalkah — muito mais que simples montarias, são verdadeiros irmãos com quem os ginetes partilham laços de lealdade até as portas da morte. Cavalo e cavaleiro falam em uma linguagem própria, de sussurros e gestos, incompreensível a forasteiros.\n\nEssa é uma das diferenças de um verdadeiro ginete de Namalkah em relação a outros tropeiros e viajantes do reino — sua conexão cada vez maior com seu cavalo, chegando ao ponto em que ambos lutam e se movem como um só. A ligação quase mística (ou literalmente mística!) entre ginete e montaria aumenta ainda mais a noção de que Namalkah acompanha este herói em qualquer lugar. Com o tempo, os dois seres se tornam inseparáveis, andando por corredores apertados de masmorras como se fossem coxilhas abertas, passando por sob portões baixos sem esforço, manobrando quatro patas como se fossem dois pés. Conta-se de um ginete de Namalkah que entrou montado num baile da aristocracia de Deheon... E, sobre o cavalo, foi o melhor dançarino!\n\nNenhum ginete de Namalkah (e nenhum namalkahniano com um pingo de honra e orgulho na alma) usa esporas. Essas ferramentas de \"incentivo\" ao cavalo são vistas como o desrespeito supremo, equivalente a cutucar um companheiro com uma arma para que ele cumpra seu papel no grupo. Apenas dizer a um namalkahniano que ele usa esporas é suficiente para gerar indignação. Dizer isso para um ginete de Namalkah é pedir um duelo.\n\nO típico ginete de Namalkah não se veste de forma diferente das calças acolchoadas, botas de couro, chapéus e ponchos quentes de seus conterrâneos, ostentando apenas o próprio rosto como símbolo de honra. Alguns ginetes chegam a rir dos tais \"cavaleiros\" de outros reinos, que parecem ligar mais para sobrenomes do que cavalos.\n\nE, além de tudo isso, o ginete de Namalkah ainda conquista uma tranquilidade incomum entre aventureiros. Embora seja um guerreiro bravio, nem sempre faz questão de viver aventuras épicas ou obter glórias. Muitos entre eles estão satisfeitos com a vida seminômade de tropeiro.\n\nPois o que faz a vida valer a pena não é lutar, não é conquistar ouro ou ser aclamado como herói. É ser livre e não estar sozinho. E, enquanto puder percorrer livremente as coxilhas, sobre o lombo de um cavalo, o ginete de Namalkah estará feliz."
+    },
+    {
+      "titulo": "Irmão Cavalo",
+      "texto": "Parte fundamental da cultura dos ginetes de Namalkah, um irmão cavalo é um parceiro montaria com quem o ginete possui um forte vínculo fraterno. Esse cavalo pode ter sido adquirido com uma habilidade (como Montaria ou Montaria Sagrada) ou como parte da história. A companhia do irmão cavalo é um elemento fundamental da admissão nesta distinção e, por isso, ele deve ser adquirido antes que o candidato possa cumpri-la.\n\nSe perder seu irmão cavalo, você pode transformar outro parceiro cavalo em seu irmão com uma ação entre aventuras."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Apenas nativos do reino de Namalkah ou pessoas que tenham passado seus anos formativos lá podem se tornar ginetes de Namalkah, recebendo seu irmão cavalo ainda na infância. Os próprios namalkahnianos consideram isso algo triste, mas a ligação profunda com o cavalo, desenvolvida desde a infância, é essencial para ser um verdadeiro ginete.\n\nUma vez que decida trilhar este caminho, o candidato deve encontrar um ginete mais experiente, que será seu mentor, e se juntar ao seu tropel, tornando-se um membro ativo da caravana, ajudando em sua proteção e sustento. Ele deve acompanhar o tropel enquanto cruza o território de Namalkah, e passar por todos os principais pontos de interesse do reino.\n\nTodo ginete é alguém profundamente ligado à liberdade e à ânsia de percorrer o mundo. O candidato também deve sair de Namalkah e, junto a seu cavalo, viver pelo menos uma longa aventura e passar por ao menos três outros reinos ou territórios além-Reinado, antes de voltar para sua terra.\n\nDurante o tempo em que percorre Namalkah e além, o candidato deve enfrentar três desafios: vencer uma corrida em cancha reta, domar um animal poderoso e xucro e derrotar um monstro poderoso. Em sua jornada, o candidato pode ser auxiliado por seus companheiros, mas é imprescindível que esteja com seu cavalo no percurso e em todos os desafios. Um grupo pode ajudá-lo a derrotar o monstro, mas o próprio candidato deve vencer a corrida e domar o animal, sem ajuda. Desnecessário falar, o irmão cavalo não pode morrer nesse processo.\n\nTendo cumprido esses requisitos, o candidato deve voltar a Namalkah, encontrar seu mentor e, em volta de uma fogueira, contar a ele sobre seus feitos. Não apenas os feitos do candidato serão avaliados, mas também sua postura. Um candidato que demonstre arrogância ou que não leve a sério tudo pelo que passou pode receber a instrução de começar de novo — ainda terá muito a amadurecer. Mas, se tudo estiver \"nos conformes\", o mentor apenas ouvirá em silêncio. Talvez com uma risada curta ou uma exclamação de \"Eia!\". Então, ao fim do relato, dará ao candidato um objeto mundano (geralmente um lenço) que representa o fim de seu ciclo formativo e sua ligação com as Veneráveis Hostes de Namalkah.",
+    "marca": {
+      "nome": "Amalkhan",
+      "descricao": "Esse termo é uma das palavras que forma o nome do reino dos cavalos, e descreve ao mesmo tempo saudade de casa e ânsia por explorar.\n\nVocê e seu irmão cavalo desenvolvem um profundo laço de irmandade. Ele passa a fornecer +1 na Defesa e em Reflexos, além de seus outros benefícios."
+    },
+    "poderes": [
+      {
+        "nome": "Irmão Campestre",
+        "descricao": "Nascido no lombo do cavalo, o ginete sabe contornar todos os problemas quando está junto de seu irmão.\n\nQuando faz um teste de perícia enquanto está montado em seu irmão cavalo, você pode gastar 1 PM para receber um bônus de +2 nesse teste. Para cada nível de parceiro da montaria acima de iniciante, você pode gastar +1 PM para aumentar esse bônus em +2.",
+        "prerequisito": "Ginete, ter um irmão cavalo (veja o quadro)"
+      },
+      {
+        "nome": "Cavaleiro Rústico",
+        "descricao": "Um verdadeiro ginete de Namalkah não teme nada e não precisa de um monte de metal para defendê-lo.\n\nVocê soma sua Sabedoria na Defesa e seu irmão cavalo recebe os benefícios de um parceiro guardião iniciante. Este poder exige liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou imóvel.",
+        "prerequisito": "Sab 1, Irmão Campestre"
+      },
+      {
+        "nome": "Caminho das Coxilhas",
+        "descricao": "O corredor é estreito demais, mal é possível um humano adulto passar andando normalmente. Espere... ele está passando por aqui com um cavalo!?\n\nO nível de parceiro de seu irmão cavalo aumenta em um (de iniciante para veterano ou de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, enquanto estiver montando seu irmão cavalo, você pode substituir testes de perícias originalmente baseadas em Destreza por testes de Cavalgar.",
+        "prerequisito": "Cavaleiro Rústico"
+      },
+      {
+        "nome": "Coice",
+        "descricao": "Quando lutam juntos, cavalo e ginete agem como se fossem um só — a fúria dos ventos encarnada.\n\nEnquanto estiver montado em seu irmão cavalo, você pode usar uma arma natural de cascos (1d8, crítico x2, impacto). Uma vez por rodada, quando usa as ações agredir ou investida montada para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com os cascos. O dano dos cascos aumenta em um passo para cada nível do irmão cavalo acima de iniciante.",
+        "prerequisito": "treinado em Luta ou Pontaria, Irmão Campestre"
+      },
+      {
+        "nome": "Irmãos Inseparáveis",
+        "descricao": "Um ginete de Namalkah não recebe uma montaria — recebe um irmão para toda a vida.\n\nO nível de parceiro de seu irmão cavalo aumenta em um (de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, a conexão entre vocês permite que se comuniquem telepaticamente enquanto estiverem em alcance longo um do outro.",
+        "prerequisito": "Caminho das Coxilhas"
+      }
+    ]
+  }
+}
