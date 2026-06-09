@@ -1,0 +1,20 @@
+{
+  "id": "cinto-da-flecha-veloz",
+  "tipo": "item-magico",
+  "nome": "Cinto da Flecha Veloz",
+  "resumo": "Cinto de couro que concede a habilidade Ataque Extra restrita a armas de disparo, ou reduz seu custo em –1 PM.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cinto de couro ajustável permite ao usuário acelerar seus movimentos com arcos e bestas. Você recebe a habilidade Ataque Extra (Tormenta20, p. 66), mas só pode usá-la com armas de disparo. Se já a possui, em vez disso o custo para usá-la com armas de disparo diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

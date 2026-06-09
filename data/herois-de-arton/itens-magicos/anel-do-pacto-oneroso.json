@@ -1,0 +1,20 @@
+{
+  "id": "anel-do-pacto-oneroso",
+  "tipo": "item-magico",
+  "nome": "Anel do Pacto Oneroso",
+  "resumo": "Anel de platina com acordo com entidade poderosa que permite lançar uma magia divina de até 4º círculo sem custo, exigindo penitência a cada uso.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este anel de platina contém inscrições sobre um acordo com uma entidade poderosa — talvez um espírito ancestral, um Dragão-Real ou mesmo um deus do Panteão. O anel permite lançar uma magia divina de até 4º círculo a sua escolha, sem custo em PM. Contudo, para cada utilização, você deve realizar uma penitência ou busca determinada pelo mestre. Você não pode lançar uma nova magia até que a penitência pela magia anterior tenha sido cumprida."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000"
+  }
+}

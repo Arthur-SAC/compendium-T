@@ -1,0 +1,20 @@
+{
+  "id": "armadura-do-dragao-anciao",
+  "tipo": "item-magico",
+  "nome": "Armadura do Dragão Ancião",
+  "resumo": "Armadura completa guardiã invulnerável de escamas douradas iridescentes com redução múltipla de elemento e rugido dracônico.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta armadura completa guardiã invulnerável feita de escamas douradas iridescentes é incrivelmente resistente. Você recebe redução de eletricidade, fogo e frio 10. Além disso, enquanto estiver com menos da metade dos seus pontos de vida, você pode emitir um rugido dracônico idêntico ao efeito de um item assustador (Tormenta20, p. 338)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 100.000"
+  }
+}

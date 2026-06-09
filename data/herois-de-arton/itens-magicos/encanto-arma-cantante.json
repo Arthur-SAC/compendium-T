@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-cantante",
+  "tipo": "item-magico",
+  "nome": "Cantante",
+  "resumo": "Encanto de arma que canta e concede bônus em Atuação e em testes de ataque para o portador e aliados.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma canta, ou entoa música. Você recebe +2 em Atuação enquanto a empunha. Você pode gastar 1 PM para que você e seus aliados em alcance curto recebam +1 em testes de ataque por 1 rodada (cumulativo com outros bônus de itens)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

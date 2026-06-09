@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-resiliente",
+  "tipo": "item-magico",
+  "nome": "Resiliente",
+  "resumo": "Encanto de armadura que concede resistência a atordoamento, paralisia e petrificação, além de permitir repetir testes contra essas condições.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe resistência a atordoamento, paralisia e petrificação +5. Além disso, pode gastar 1 PM para repetir um teste de resistência contra uma dessas condições que o esteja afetando. Se você passar, cancela o efeito. Você só pode usar essa habilidade uma vez por efeito."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

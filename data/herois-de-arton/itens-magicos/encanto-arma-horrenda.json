@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-horrenda",
+  "tipo": "item-magico",
+  "nome": "Horrenda",
+  "resumo": "Encanto de arma que exala aura de medo, concedendo bônus em Intimidação e reduzindo custo de habilidades de medo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma exala uma aura de medo. Você recebe +2 em Intimidação e o custo de suas habilidades de medo diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "botas-do-andarilho-das-sombras",
+  "tipo": "item-magico",
+  "nome": "Botas do Andarilho das Sombras",
+  "resumo": "Botas de couro escuro que concedem +5 em Furtividade em ambientes urbanos ou escuros e permitem usar Salto Dimensional via sombras.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Estas botas de couro escuro são incrivelmente silenciosas, permitindo ao usuário se mover sem emitir sons. Você recebe +5 em testes de Furtividade realizados em ambientes urbanos ou escuros. Além disso, uma vez por dia, você pode lançar Salto Dimensional — mas apenas se existir no destino uma sombra de tamanho suficiente para sua passagem."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000"
+  }
+}

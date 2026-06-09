@@ -1,0 +1,20 @@
+{
+  "id": "colar-da-furia-monstruosa",
+  "tipo": "item-magico",
+  "nome": "Colar da Fúria Monstruosa",
+  "resumo": "Colar rústico de ossos e presas que concede a habilidade Fúria do bárbaro ou aumenta seus bônus de ataque e dano em +1.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este colar rústico, feito com ossos e presas de monstros variados, invoca a fúria primeva de Megalokk. Você adquire a habilidade Fúria do bárbaro; caso já possua essa habilidade, seus bônus em testes de ataque e rolagens de dano aumentam em +1."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 21.000"
+  }
+}

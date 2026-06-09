@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-espreitadora",
+  "tipo": "item-magico",
+  "nome": "Espreitadora",
+  "resumo": "Encanto de arma translúcida que pode deixar oponentes desprevenidos ao atacar.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma pode assumir uma estrutura translúcida, quase invisível. Quando ataca, você pode gastar 2 PM para deixar o oponente desprevenido (apenas uma vez por cena por criatura; Von CD For ou Des evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

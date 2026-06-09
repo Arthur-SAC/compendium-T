@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-chama-dancante",
+  "tipo": "item-magico",
+  "nome": "Anel da Chama Dançante",
+  "resumo": "Anel de ouro com pequeno elemental de fogo que atua como parceiro veterano e permite lançar Controlar Fogo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Um anel de ouro com uma pequena chama mágica viva que nunca se apaga. A chama mágica — na verdade um pequeno elemental — atua como um parceiro vigilante veterano e permite que você lance Controlar Fogo (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

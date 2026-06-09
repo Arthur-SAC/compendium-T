@@ -1,0 +1,20 @@
+{
+  "id": "bracadeiras-da-forca-do-colosso",
+  "tipo": "item-magico",
+  "nome": "Braçadeiras da Força do Colosso",
+  "resumo": "Braçadeiras de ferro negro que concedem +4 em Força após um dia de uso, com opção de aumentar para +8 por 1 rodada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Estas braçadeiras de ferro negro são incrivelmente pesadas, mas fornecem um aumento massivo na força física do portador. Você recebe +4 em Força (somente após um dia de uso). Além disso, uma vez por cena, pode gastar 5 PM para aumentar esse bônus para +8 por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 120.000"
+  }
+}

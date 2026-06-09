@@ -1,0 +1,20 @@
+{
+  "id": "punhal-das-profundezas",
+  "tipo": "item-magico",
+  "nome": "Punhal das Profundezas",
+  "resumo": "Adaga formidável curva de material escuro e úmido com cheiro de sal que causa dano de ácido adicional.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Uma adaga formidável curva feita de um material escuro e úmido, com cheiro de sal. Quando ataca com este punhal, você pode gastar 1 PM para causar +3d6 pontos de dano de ácido."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 36.000"
+  }
+}

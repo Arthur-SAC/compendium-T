@@ -1,0 +1,20 @@
+{
+  "id": "papiro-das-estrelas",
+  "tipo": "item-magico",
+  "nome": "Papiro das Estrelas",
+  "resumo": "Pergaminho negro com constelações que revela localizações ocultas e perigos, concedendo +5 em Sobrevivência e Percepção nos ermos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Um pergaminho preto que parece conter constelações em sua superfície. Desenrolado, projeta um mapa celeste mágico que revela localizações ocultas, caminhos seguros ou perigos iminentes. Fornece +5 em testes de Sobrevivência para orientar-se e rastrear, e em testes de Percepção para evitar ser surpreendido por inimigos nos ermos."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 1.500"
+  }
+}

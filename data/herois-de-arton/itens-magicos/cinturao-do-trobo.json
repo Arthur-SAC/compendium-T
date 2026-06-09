@@ -1,0 +1,20 @@
+{
+  "id": "cinturao-do-trobo",
+  "tipo": "item-magico",
+  "nome": "Cinturão do Trobo",
+  "resumo": "Cinto de couro resistente que concede +5 em Atletismo para erguer peso e aumenta a capacidade de carga em 5 espaços.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cinto de couro resistente aumenta a força do usuário para erguer peso. Você recebe +5 em testes de Atletismo para erguer peso e sua capacidade de carga aumenta em 5 espaços."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

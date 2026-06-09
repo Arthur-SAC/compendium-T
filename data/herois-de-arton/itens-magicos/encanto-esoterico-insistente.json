@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-insistente",
+  "tipo": "item-magico",
+  "nome": "Insistente",
+  "resumo": "Encanto esotérico que estende efeitos de lançamento de magias de dano contínuas para a segunda rodada de dano.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico emite um pulsar constante e ritmado. Quando você lança uma magia que causa dano por mais de uma rodada (como Flecha Ácida), os efeitos que normalmente só se aplicariam quando a magia é lançada (como Arcano de Batalha) se aplicam também à segunda rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

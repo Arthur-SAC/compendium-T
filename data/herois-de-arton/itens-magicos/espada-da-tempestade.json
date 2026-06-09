@@ -1,0 +1,20 @@
+{
+  "id": "espada-da-tempestade",
+  "tipo": "item-magico",
+  "nome": "Espada da Tempestade",
+  "resumo": "Espada longa precisa formidável trovejante com lâmina azulada que alastra atordoamento em acertos críticos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta espada longa precisa formidável trovejante possui uma lâmina azulada, gravada com runas que brilham raivosas durante tempestades. Quando faz um acerto crítico, você pode gastar 2 PM para estender o efeito de atordoamento do encanto trovejante a todas as criaturas a sua escolha em alcance curto."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

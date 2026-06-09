@@ -1,0 +1,20 @@
+{
+  "id": "mascara-da-raposa",
+  "tipo": "item-magico",
+  "nome": "Máscara da Raposa",
+  "resumo": "Máscara de marfim ornada associada a Hyninn que permite lançar Imagem Espelhada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta máscara de marfim ornada com linhas em vermelho vivo é muitas vezes vista em representações recentes de Hyninn. Usando-a, você parece estar em vários lugares, e em nenhum. Você pode lançar Imagem Espelhada (se já puder lançar essa magia, pode lançá-la como uma ação de movimento e seu custo diminui em –1 PM)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 18.000"
+  }
+}

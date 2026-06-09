@@ -1,0 +1,33 @@
+{
+  "id": "viagem-onirica",
+  "tipo": "magia",
+  "nome": "Viagem Onírica",
+  "resumo": "Faz o conjurador adormecer e se tornar um espírito incorpóreo com voo, capaz de explorar sem interagir com o mundo material.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 255 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 2,
+    "descricao": "Lançar esta magia faz você adormecer e abandonar seu corpo físico. Você se torna um espírito incorpóreo com deslocamento de voo 18m. Você pode ver e ouvir, mas não falar ou emitir qualquer som — nem realizar ataques, lançar magias ou interagir de qualquer forma com criaturas e objetos materiais. Você ainda pode ser visto, em forma translúcida, e pode ser afetado por qualquer efeito que afete criaturas incorpóreas. Quando a magia acaba, você retorna imediatamente para seu corpo e desperta. A magia também é cancelada caso seu corpo físico seja perturbado de qualquer forma. Você sofre uma penalidade de –10 em testes de Percepção para notar ruídos próximos de seu corpo adormecido.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Você pode falar em sua forma incorpórea.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Você pode lançar magias em sua forma incorpórea.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

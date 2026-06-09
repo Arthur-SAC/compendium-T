@@ -1,0 +1,20 @@
+{
+  "id": "cristal-do-tempo-celere",
+  "tipo": "item-magico",
+  "nome": "Cristal do Tempo Célere",
+  "resumo": "Cristal azulado de uso único que, ao ser quebrado, permite realizar um intervalo entre aventuras de 1 dia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cristal azulado contém em seu interior uma pequena porção de gás mágico que afeta a passagem do tempo. Quando o cristal é quebrado, pode acelerar o tempo dentro de um aposento. Em termos de jogo, gastar o cristal permite um intervalo entre aventuras no tempo de 1 dia."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

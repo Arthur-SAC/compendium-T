@@ -1,0 +1,21 @@
+{
+  "id": "caixa-dos-ecos-perdidos",
+  "tipo": "item-magico",
+  "nome": "Caixa dos Ecos Perdidos",
+  "resumo": "Caixa de madeira que guarda memórias e fatos históricos, concedendo +10 em perícia de Inteligência relacionada ao passado.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta caixa de madeira pequena e simples não aparenta nada especial, sem adereços ou ornamentos. No entanto, quando é aberta, liberta ecos do passado: seus muitos compartimentos contêm partes de memórias antigas, diálogos e fatos históricos. Você pode gastar 3 PM para receber um bônus de +10 em um teste de perícia baseada em Inteligência que, a critério do mestre, se relacione a um evento passado."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 10.500",
+    "ativacao": "3 PM para receber o bônus no teste de perícia"
+  }
+}

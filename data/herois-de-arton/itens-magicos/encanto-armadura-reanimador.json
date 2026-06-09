@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-reanimador",
+  "tipo": "item-magico",
+  "nome": "Reanimador",
+  "resumo": "Encanto de armadura com brilho pulsante que permite lançar a magia Curar Ferimentos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O item possui um brilho pulsante que emana calor reconfortante. Você pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

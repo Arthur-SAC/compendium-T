@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-cristalina",
+  "tipo": "item-magico",
+  "nome": "Cristalina",
+  "resumo": "Encanto de arma feita de cristal prismático que causa dano de luz extra e pode ofuscar inimigos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma é feita de cristal, brilhando com cores prismáticas. Causa +1d6 de dano de luz. Uma vez por rodada, quando ataca, você pode gastar 1 PM. Se fizer isso e acertar o ataque, a criatura atingida fica ofuscada por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

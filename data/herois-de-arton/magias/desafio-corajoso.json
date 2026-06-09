@@ -1,0 +1,29 @@
+{
+  "id": "desafio-corajoso",
+  "tipo": "magia",
+  "nome": "Desafio Corajoso",
+  "resumo": "Cria uma aura de influência ao redor do alvo que força criaturas próximas a direcionar ações hostis contra ele.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura voluntária",
+    "duracao": "sustentada",
+    "resistencia": "Vontade anula",
+    "custoPM": 2,
+    "descricao": "Esta magia cria uma aura de influência de 9m ao redor do alvo. Outras criaturas que iniciarem seus turnos dentro da aura devem fazer um teste de Vontade. Se falharem, quaisquer ações hostis nesse turno devem ser feitas contra o alvo.",
+    "aprimoramentos": [
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda o alvo para 1 criatura ou objeto.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

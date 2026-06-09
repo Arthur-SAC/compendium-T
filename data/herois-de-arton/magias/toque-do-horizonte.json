@@ -1,0 +1,45 @@
+{
+  "id": "toque-do-horizonte",
+  "tipo": "magia",
+  "nome": "Toque do Horizonte",
+  "resumo": "Melhora a precisão de uma arma à distância, aumentando seu alcance em um passo e concedendo bônus em testes de ataque.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 255 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 arma de ataque à distância",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "A magia melhora a precisão da arma, aumentando seu alcance em um passo (de curto para médio e de médio para longo). Se o alcance da arma já é longo, ele é dobrado. Os efeitos desta magia contam como um bônus de encanto.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "A arma ignora camuflagem leve e penalidades por cobertura leve."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, a arma fornece +1 em testes de ataque e rolagens de dano feitos dentro do seu alcance original."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus do aprimoramento acima em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "A margem de ameaça da arma aumenta em +1.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alvo para uma arma de arremesso e a duração para sustentada. Em vez do normal, a arma recebe o benefício do encanto dançarina.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

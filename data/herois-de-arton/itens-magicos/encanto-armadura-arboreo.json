@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-arboreo",
+  "tipo": "item-magico",
+  "nome": "Arbóreo",
+  "resumo": "Encanto de armadura que concede resistência a magia divina e acesso à magia Controlar Plantas.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe resistência a magia divina +5. Além disso, pode lançar a magia Controlar Plantas (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "descobrir-fraqueza",
+  "tipo": "magia",
+  "nome": "Descobrir Fraqueza",
+  "resumo": "Analisa uma criatura para identificar pontos fracos, concedendo bônus em testes de identificação e de dano.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "movimento",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Vontade evita",
+    "custoPM": 1,
+    "descricao": "Você analisa uma criatura em busca de pontos fracos e outras características. Para isso, como parte do efeito da magia, você faz um teste de Misticismo para identificar criatura contra o alvo (independente do tipo dele) com um bônus de +10.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o bônus no teste em +5."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, sua próxima rolagem de dano contra a criatura nessa cena ignora 10 pontos da redução de dano dela.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, você recebe +2 em testes contra a criatura até o fim da cena.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

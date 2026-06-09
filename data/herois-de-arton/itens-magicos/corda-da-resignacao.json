@@ -1,0 +1,20 @@
+{
+  "id": "corda-da-resignacao",
+  "tipo": "item-magico",
+  "nome": "Corda da Resignação",
+  "resumo": "Corda de fibras mágicas que aumenta a CD para escapar em +20 e drena a força de vontade de quem estiver amarrado.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta corda feita de fibras mágicas possui um feitiço de aprisionamento. Quando é usada para amarrar alguém, a CD do teste de Acrobacia para escapar aumenta em +20. Além disso, uma vítima amarrada tem sua força de vontade drenada, e fica alquebrada e esmorecida."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 7.500"
+  }
+}

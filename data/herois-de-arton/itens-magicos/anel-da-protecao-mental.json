@@ -1,0 +1,20 @@
+{
+  "id": "anel-da-protecao-mental",
+  "tipo": "item-magico",
+  "nome": "Anel da Proteção Mental",
+  "resumo": "Anel de platina com pedra lunar que concede resistência a efeitos mentais +5.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este anel de platina contém uma pequena pedra lunar que brilha suavemente. Você recebe resistência a efeitos mentais +5."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

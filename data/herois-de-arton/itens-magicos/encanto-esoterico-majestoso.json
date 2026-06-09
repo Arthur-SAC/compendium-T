@@ -1,0 +1,19 @@
+{
+  "id": "encanto-esoterico-majestoso",
+  "tipo": "item-magico",
+  "nome": "Majestoso",
+  "resumo": "Encanto esotérico chamativo que aumenta a CD para resistir a magias arcanas em +1 ou +2.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico possui um ornamento chamativo, como uma grande gema na ponta. A CD para resistir a suas magias arcanas aumenta em +1. Se você tiver a habilidade de classe Magias, em vez disso aumenta em +2. Pré-requisito: outro encanto."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico",
+    "prerequisito": "outro encanto"
+  }
+}

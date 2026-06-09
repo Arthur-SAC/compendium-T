@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-retaliador",
+  "tipo": "item-magico",
+  "nome": "Retaliador",
+  "resumo": "Encanto esotérico que aumenta a CD da próxima magia de dano conforme o dano evitado por RD de magias anteriores.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando você evitar dano de um inimigo (na forma de RD) com o efeito de uma de suas magias, a CD da sua próxima magia de dano lançada até o fim do seu próximo turno aumenta em +1 para cada 10 pontos de dano evitado."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

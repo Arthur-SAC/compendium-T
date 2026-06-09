@@ -1,0 +1,20 @@
+{
+  "id": "cinto-da-leveza-graciosa",
+  "tipo": "item-magico",
+  "nome": "Cinto da Leveza Graciosa",
+  "resumo": "Cinto mágico que concede +5 em Acrobacia e mantém o usuário permanentemente sob efeito básico de Queda Suave.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cinto mágico reduz o peso do usuário, tornando-o mais ágil e permitindo saltos mais altos e movimentos mais suaves. Você recebe +5 em Acrobacia e está sempre sob o efeito básico de Queda Suave."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

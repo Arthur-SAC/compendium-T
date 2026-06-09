@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-inquisidor",
+  "tipo": "item-magico",
+  "nome": "Inquisidor",
+  "resumo": "Encanto esotérico marcado com símbolo sagrado que aumenta a CD de magias divinas contra criaturas não devotas da divindade.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico é marcado com o símbolo sagrado de um deus maior. Quando você lança uma magia divina contra uma criatura que não seja devota dessa divindade, a CD da magia aumenta em +1. Se possuir a habilidade de classe Devoto Fiel dessa divindade, em vez disso a CD aumenta em +2."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gaiola-dos-arcanos",
+  "tipo": "item-magico",
+  "nome": "Gaiola dos Arcanos",
+  "resumo": "Gaiola de prata com cristal que suga PM de criaturas que usam habilidades mágicas em raio de 9m.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este item é uma gaiola de prata pequena e robusta, com um pequeno cristal pulsante em seu interior. Quando uma criatura usa uma habilidade mágica em um raio de 9m da gaiola, o cristal suga 1 PM por círculo da magia lançada, ou 2 PM no caso de outras habilidades mágicas, dessa criatura. Os efeitos de várias gaiolas no mesmo aposento são cumulativos."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 6.000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-esmerico",
+  "tipo": "item-magico",
+  "nome": "Esmérico",
+  "resumo": "Encanto de armadura decorada com esmeraldas que concede redução de ácido e resistência a veneno, podendo estender a proteção para aliados.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O item é decorado com esmeraldas encantadas. Você recebe redução de ácido 10 e resistência a veneno +5. Além disso, você pode gastar 1 PM para criar um campo de energia esverdeada com duração sustentada que estende essa proteção para todos os aliados em alcance curto."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

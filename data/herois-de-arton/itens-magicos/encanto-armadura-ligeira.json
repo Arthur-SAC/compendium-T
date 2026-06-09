@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-ligeira",
+  "tipo": "item-magico",
+  "nome": "Ligeira",
+  "resumo": "Encanto de armadura que permite vesti-la ou removê-la com uma ação livre.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A armadura pode ser vestida ou removida com uma ação livre (acompanhada ou não de coreografia e música tema)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

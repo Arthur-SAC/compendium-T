@@ -1,0 +1,42 @@
+{
+  "id": "distracao-fugaz",
+  "tipo": "magia",
+  "nome": "Distração Fugaz",
+  "resumo": "Busca algo de interesse pessoal na memória do alvo e produz uma ilusão breve disso, deixando-o desprevenido.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 humanoide",
+    "duracao": "instantânea",
+    "resistencia": "Vontade anula",
+    "custoPM": 1,
+    "descricao": "Esta magia busca algo de grande interesse pessoal (uma pessoa, um item, uma lembrança...) na memória do alvo e produz uma breve ilusão disso, visível a todos os presentes. Não é necessário que você conheça o interesse do alvo, a própria magia faz essa revelação. A magia, entretanto, não é capaz de revelar detalhes minuciosos (como o nome de uma pessoa ou item desejado), produzindo uma versão 'genérica' do objeto de interesse. Não importando a natureza da distração, se falhar em seu teste de Vontade, o alvo fica desprevenido durante 1 rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, se falhar no teste de Vontade o alvo também sofre –5 em testes de Diplomacia e Intimidação até o fim da cena."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Em vez de desprevenido, o alvo fica atordoado (apenas uma vez por cena)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Afeta todos os alvos válidos a sua escolha dentro do alcance.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

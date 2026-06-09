@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-nimbico",
+  "tipo": "item-magico",
+  "nome": "Nímbico",
+  "resumo": "Encanto esotérico imbuído com o poder do Caos que permite rerolar dados de efeitos variáveis, com risco de perder PM.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico está imbuído com o poder delirante do Caos. Quando lança uma magia com efeito variável, você pode rolar novamente qualquer número de dados da rolagem original (limitado pelos seus PM atuais). Contudo, a cada resultado par numa dessas rolagens adicionais, você perde 1 PM. Um esotérico nímbico não pode ser khalmyrita."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

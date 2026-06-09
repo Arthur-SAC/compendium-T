@@ -1,0 +1,20 @@
+{
+  "id": "escudo-do-grifo",
+  "tipo": "item-magico",
+  "nome": "Escudo do Grifo",
+  "resumo": "Escudo pesado defensor forjado no formato de uma asa gigante com redução de dano à distância e a magia Sopro das Uivantes.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este escudo pesado defensor é forjado no formato de uma asa gigante. Você recebe redução de dano 10 contra ataques à distância e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

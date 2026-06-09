@@ -1,0 +1,21 @@
+{
+  "id": "pedra-da-passagem",
+  "tipo": "item-magico",
+  "nome": "Pedra da Passagem",
+  "resumo": "Pedra dourada que cria uma abertura de tamanho Médio em superfícies não mágicas com RD 8 ou menos ao custo de 3 PM.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Uma pequena pedra dourada que emite uma leve pulsação de luz. Você pode gastar uma ação padrão e 3 PM para segurá-la contra uma superfície sólida e produzir uma abertura de tamanho Médio. Afeta apenas superfícies não mágicas com RD 8 ou menos. Não abre buracos em seres vivos. Não abre buracos em golens ou osteon. Não abre buracos em armadilhas ou evita perigos complexos, mesmo que você ache as palavras \"porta\" ou \"parede\" em algum lugar da descrição. Não abre buracos em nada exceto portas e paredes. Francamente...!"
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000",
+    "ativacao": "ação padrão e 3 PM"
+  }
+}

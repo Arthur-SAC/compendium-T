@@ -1,0 +1,39 @@
+{
+  "id": "discricao",
+  "tipo": "magia",
+  "nome": "Discrição",
+  "resumo": "Torna a aparência do alvo desinteressante e difícil de perceber, desviando a atenção de observadores e inimigos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "pessoal ou toque",
+    "alvo": "você ou 1 objeto",
+    "duracao": "cena",
+    "resistencia": "Vontade anula",
+    "custoPM": 1,
+    "descricao": "Esta magia torna a aparência do alvo desinteressante, como se ele fosse parte da paisagem, algo perdido na bagunça ou mais um na multidão. O alvo não se torna invisível, ainda é percebido como uma criatura ou objeto; o encantamento apenas desvia a atenção dos observadores para outras pessoas ou elementos ao redor. Testes de Investigação e Percepção contra o alvo sofrem uma penalidade de –10. Em combate, enquanto Discrição estiver ativa, todos os inimigos que iniciarem seus turnos a até 9m do alvo devem fazer um teste de Vontade. Se falharem, qualquer ação hostil que realizarem ignora a criatura. Esta magia se dissipa se você causar dano a qualquer criatura.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a penalidade em testes para –15.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Além do normal, o alvo não pode ser detectado por magias de adivinhação.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

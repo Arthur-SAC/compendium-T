@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-rebote",
+  "tipo": "item-magico",
+  "nome": "Rebote",
+  "resumo": "Encanto de arma que acumula cargas de energia ao errar e libera dano extra ao acertar.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sempre que você erra um ataque em um inimigo, a arma ganha uma carga de energia (até um máximo de 3 cargas). Quando você acerta um ataque, a arma gasta todas as cargas de energia — para cada carga gasta, ela causa +1d6 pontos de dano."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

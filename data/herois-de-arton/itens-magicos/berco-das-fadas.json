@@ -1,0 +1,20 @@
+{
+  "id": "berco-das-fadas",
+  "tipo": "item-magico",
+  "nome": "Berço das Fadas",
+  "resumo": "Saco de dormir mágico que garante descanso confortável em qualquer lugar e coloca o usuário sob efeito de Suporte Ambiental.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este saco de dormir mágico é feito de tecido macio e aveludado, em um tom de azul profundo que lembra o céu noturno. Mesmo ao relento e sem um acampamento, oferece condição de descanso confortável. Além disso, enquanto está no saco de dormir, você é considerado sob efeito da magia Suporte Ambiental."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

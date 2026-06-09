@@ -1,0 +1,20 @@
+{
+  "id": "escudo-da-ira-vulcanica",
+  "tipo": "item-magico",
+  "nome": "Escudo da Ira Vulcânica",
+  "resumo": "Escudo pesado guardião de rocha vulcânica com runas de magma que fornece redução de fogo e lança Explosão de Chamas.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Feito de rocha vulcânica e gravado com runas de magma, este escudo pesado guardião fornece redução de fogo 10 e permite que você lance Explosão de Chamas como uma ação de movimento (Ref CD Car; se já puder lançar essa magia, sua área é dobrada)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 54.000"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "wakizashi-da-morte",
+  "tipo": "item-magico",
+  "nome": "Wakizashi da Morte",
+  "resumo": "Espada curta tamuraniana artefato abençoada pelo Deus da Honra. A lâmina reflete o momento exato da morte de quem a contempla, concedendo bônus defensivos à criatura marcada — mas tornando-a vulnerável quando o instante profetizado se aproxima.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 277 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta bela espada curta tamuraniana não é apenas uma arma, mas um arauto do inevitável. Forjada nos dias dourados de Tamu-ra, muito antes de sua destruição pela Tormenta, a espada, diz-se, foi abençoada pelo próprio Deus da Honra. Sua missão: ser empunhada pelo Executor Imperial, uma casta samurai destinada a eliminar aqueles apontados por seu senhor.\n\nEmbora o nome da espada soe agourento aos povos do Reinado, o Império de Jade tem postura diferente em relação à morte. Consideram-na algo natural e necessário, tão importante quanto a própria vida. Tudo que inicia deve terminar, tudo que nasce deve morrer. Em Tamu-ra, não existe aspiração maior que encontrar a morte com plenitude, dignidade e honra. Assim, o Executor Imperial com a Wakizashi da Morte na verdade tem a importante missão de proporcionar morte honrada aos escolhidos do Imperador.\n\nÉ interessante notar que o nome da arma tem significado especial no idioma tamuraniano. Uma espada curta normal, wakizashi, é escrita 脇差: algo como \"inserida lateralmente\", devido ao hábito tradicional de usá-la em uma faixa na cintura. A arma sagrada de execução tem a mesma pronúncia, /wakizashi/, mas é escrita com símbolos diferentes — 脇座死, que podem ser interpretados como \"morte ao lado\"."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "A Wakizashi da Morte é uma espada curta formidável. Qualquer criatura inteligente (Int –3 ou maior) que veja seu reflexo na lâmina enxerga o momento da própria morte. Essa criatura passa a receber +2 na Defesa e em testes de resistência. Contudo, quando o evento profetizado se aproxima, em vez disso ela sofre –10 na Defesa e em testes de resistência, e qualquer ataque que a acerte é um crítico automático. Tudo conspira para que a profecia se cumpra.\n\nQuando a morte prevista não envolve combate, os efeitos mudam. Por exemplo, um personagem marcado para morrer de doença recebe +5 em Fortitude, mas falha automaticamente ao entrar em contato com a peste que vai matá-lo.\n\nNem sempre o destino profetizado é inevitável. Caso o condenado consiga eliminar por completo a causa da morte (matando o assassino, erradicando a doença...), o futuro muda. Contudo, muitas vezes essa solução será ilusória: o assassino tinha um irmão gêmeo, ou a doença \"erradicada\" volta mais forte."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

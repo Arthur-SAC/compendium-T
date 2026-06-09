@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-brumosa",
+  "tipo": "item-magico",
+  "nome": "Brumosa",
+  "resumo": "Encanto de arma envolta em névoa mágica que confere camuflagem leve ao atacante após acertar.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma é envolta em névoa mágica que desorienta os oponentes. Toda vez que você acerta um ataque com a arma, recebe camuflagem leve por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bastao-da-grande-harmonia",
+  "tipo": "item-magico",
+  "nome": "Bastão da Grande Harmonia",
+  "resumo": "Bastão de carvalho que gera pulso tranquilizante, desarmando e pasmando inimigos, e permite lançar Guardião Divino.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este bastão de madeira de carvalho é gravado com símbolos antigos e irregulares que irradiam uma energia suave. Você pode gastar uma ação padrão e 3 PM para gerar um pulso de energia tranquilizante em um raio de 9m. Outras criaturas nessa área devem fazer um teste de Vontade (CD Sab); aquelas que falharem largam quaisquer armas que estejam empunhando e ficam pasmas por 1 rodada (apenas uma vez por cena). Além disso, você pode lançar Guardião Divino. Se já puder lançar essa magia, seu custo diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 25.500",
+    "ativacao": "ação padrão e 3 PM para o pulso tranquilizante"
+  }
+}

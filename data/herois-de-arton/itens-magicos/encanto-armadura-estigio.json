@@ -1,0 +1,19 @@
+{
+  "id": "encanto-armadura-estigio",
+  "tipo": "item-magico",
+  "nome": "Estígio",
+  "resumo": "Encanto de armadura que permite ao portador sobreviver com 1 PV ao ser reduzido a 0, uma vez por cena.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Uma vez por cena, se for reduzido a 0 PV ou menos, você pode gastar 5 PM para, em vez disso, ser reduzido a 1 PV. Pré-requisito: abençoado."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura",
+    "prerequisito": "abençoado"
+  }
+}

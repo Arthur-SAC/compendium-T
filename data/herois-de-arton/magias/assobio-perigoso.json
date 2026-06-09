@@ -1,0 +1,23 @@
+{
+  "id": "assobio-perigoso",
+  "tipo": "magia",
+  "nome": "Assobio Perigoso",
+  "resumo": "Conjura um grupo de criaturas agressivas que atacam todos ao redor, incluindo o conjurador e seus aliados.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "efeito": "grupo de criaturas conjuradas",
+    "duracao": "especial",
+    "custoPM": 1,
+    "custoEspecial": "Componente Material: miniaturas em metal de criaturas (T$ 25 por nível do conjurador).",
+    "descricao": "Esta estranha magia conjura um grupo de criaturas agressivas que imediatamente atacam quem está por perto… Inclusive o conjurador e seus aliados! As criaturas são feitas de energia e representam um encontro, preparado pelo mestre, de ND igual ao nível do conjurador. Elas surgem em alcance curto e agem imediatamente após o turno do conjurador, atacando quem estiver por perto (decida aleatoriamente). As criaturas lutam até a morte ou até 1 minuto, quando então desaparecem, e não deixam corpos nem tesouro. A função original da magia é incerta. Estudiosos acreditam ser fruto de um experimento falho, ou uma tentativa de conjurar alguma criatura específica. De qualquer forma, hoje é utilizada para treinar aventureiros ou causar distrações em situações específicas.",
+    "aprimoramentos": []
+  }
+}

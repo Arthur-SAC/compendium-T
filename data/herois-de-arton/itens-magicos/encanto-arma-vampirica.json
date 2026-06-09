@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-vampirica",
+  "tipo": "item-magico",
+  "nome": "Vampírica",
+  "resumo": "Encanto de arma que causa dano de trevas extra e recupera pontos de vida iguais ao dano de trevas causado.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso, ela causa +2d6 pontos de dano de trevas e você recupera vida igual ao dano de trevas que esse efeito causar."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

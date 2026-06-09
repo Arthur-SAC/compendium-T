@@ -1,0 +1,20 @@
+{
+  "id": "armadura-do-inverno-perene",
+  "tipo": "item-magico",
+  "nome": "Armadura do Inverno Perene",
+  "resumo": "Couraça defensora gélida coberta por névoa gelada que potencializa o encanto gélido e permite lançar Área Escorregadia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta couraça defensora gélida de gelo eterno é coberta por névoa gelada. Quando você usa a habilidade ativada do encanto gélido, recebe 20 PV (em vez de 10). Além disso, pode lançar Área Escorregadia (CD Sab) como uma ação de movimento — o efeito assume a forma de uma fina camada de gelo escorregadio. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 40.500"
+  }
+}

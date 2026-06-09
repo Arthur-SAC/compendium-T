@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-chocante",
+  "tipo": "item-magico",
+  "nome": "Chocante",
+  "resumo": "Encanto esotérico adornado com topázios que aumenta o dano de eletricidade das magias e ofusca alvos por 1 rodada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico é adornado com topázios e emite o som de estalos elétricos. Suas magias que causam dano de eletricidade causam um dado extra de dano do mesmo tipo e deixam o alvo ofuscado por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

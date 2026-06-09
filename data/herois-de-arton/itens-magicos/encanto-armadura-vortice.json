@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-vortice",
+  "tipo": "item-magico",
+  "nome": "Vórtice",
+  "resumo": "Encanto de armadura que permite criar um redemoinho para puxar criaturas próximas até uma posição adjacente.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você pode gastar 1 PM para criar um redemoinho que puxa uma criatura em alcance curto até um ponto adjacente a você (Fort CD For evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

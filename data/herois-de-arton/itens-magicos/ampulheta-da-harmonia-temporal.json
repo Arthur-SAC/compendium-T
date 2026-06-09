@@ -1,0 +1,20 @@
+{
+  "id": "ampulheta-da-harmonia-temporal",
+  "tipo": "item-magico",
+  "nome": "Ampulheta da Harmonia Temporal",
+  "resumo": "Ampulheta dourada que permite realizar tarefas demoradas como ação completa, uma vez por dia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Uma ampulheta dourada com areia prateada que parece flutuar em ciclos irregulares. Quando invertida, permite que você manipule levemente o fluxo do tempo ao redor, desacelerando ou acelerando pequenos eventos. Uma vez por dia, você pode realizar uma tarefa que normalmente consome de 1 minuto a 1 hora como uma ação completa."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 10.500"
+  }
+}

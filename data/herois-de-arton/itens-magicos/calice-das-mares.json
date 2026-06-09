@@ -1,0 +1,20 @@
+{
+  "id": "calice-das-mares",
+  "tipo": "item-magico",
+  "nome": "Cálice das Marés",
+  "resumo": "Cálice de prata que permite ao portador lançar Controlar Água.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cálice de prata oferece ao portador o poder de comandar as águas. Você pode lançar Controlar Água (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000"
+  }
+}

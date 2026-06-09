@@ -1,0 +1,20 @@
+{
+  "id": "armadura-das-sombras-profundas",
+  "tipo": "item-magico",
+  "nome": "Armadura das Sombras Profundas",
+  "resumo": "Cota de malha defensora sombria negra e translúcida que concede redução de luz e a magia Invisibilidade.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta cota de malha sob medida defensora sombria negra e translúcida parece feita de pura escuridão. Você recebe redução de luz 10 e pode lançar Invisibilidade. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Maior",
+    "preco": "T$ 40.500"
+  }
+}

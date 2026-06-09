@@ -1,0 +1,20 @@
+{
+  "id": "escudo-da-luz-estelar",
+  "tipo": "item-magico",
+  "nome": "Escudo da Luz Estelar",
+  "resumo": "Escudo leve defensor de cristal que brilha como estrelas, concede bônus em Percepção e acesso à magia Luz.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este escudo leve defensor parece feito de cristal e brilha com a luz das estrelas. Você recebe +5 em Percepção. Além disso, pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível (CD Int). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

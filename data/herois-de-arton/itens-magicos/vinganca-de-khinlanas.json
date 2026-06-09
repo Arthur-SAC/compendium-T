@@ -1,0 +1,23 @@
+{
+  "id": "vinganca-de-khinlanas",
+  "tipo": "item-magico",
+  "nome": "Vingança de Khinlanas",
+  "resumo": "Arco longo artefato ofertado pela própria Glórienn ao último rei élfico de Lenórienn. Contém a fúria reprimida de Khinlanas e concede bônus adicionais a elfos e/ou devotos de Glórienn, além de somar Carisma ao dano.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 277 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A queda da cidade-estado de Lenórienn é bem conhecida. Contudo, nem todos sabem sobre o último rei élfico e seu arco encantado.\n\nNo coração da grande tragédia élfica, destaca-se a figura imponente do Rei Khinlanas. Orgulhoso e intransigente, portava-se como um símbolo vivo da superioridade élfica, governando com políticas de isolamento absoluto. A crença de Khinlanas na perfeição de seu próprio povo se tornou um muro, separando Lenórienn do restante de Lamnor, até mesmo de aliados em potencial.\n\nMesmo quando a Aliança Negra marchou sobre o continente, liderada pelo cruel Thwor Khoshkothruk, o altivo Khinlanas se recusou a buscar ajuda das \"raças inferiores\". A captura de sua filha Tanya pelas mãos do líder bugbear deveria ter sido um alerta, mas seu orgulho inabalável o manteve obstinado. Enquanto as torres delicadas de Lenórienn ardiam, nenhum reforço humano veio em socorro. O destino da cidade foi selado, sangue élfico regou as ruínas. Quanto a Khinlanas, seu cadáver acabou transformado em parte de um trono para o general bugbear.\n\nA lenda, no entanto, não termina com sua morte. Seu arco pessoal sagrado, ofertado pela própria Glórienn, acabaria resgatado por aventureiros. Feito de madeira verde-oliva e banhado em séculos de magia, ficaria conhecido como Vingança de Khinlanas. Um artefato que evoca a arrogância do monarca, mas também uma promessa de justiça para os elfos.\n\nDiz-se que o arco contém a fúria reprimida de Khinlanas, amplificando a força do portador, especialmente se for elfo ou devoto de Glórienn. Em batalha, seu poder é nutrido pela determinação do arqueiro e, paradoxalmente, pela fama — ou infâmia — que o acompanha."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "Vingança de Khinlanas é um arco longo atroz preciso pungente magnífico. Se você for elfo e/ou devoto de Glórienn, recebe um bônus adicional cumulativo de +1 em testes de ataque e rolagens de dano (ou seja, +2 se for ambos). Além disso, por pertencer ao rei de uma raça orgulhosa, reage à personalidade de seu portador: você soma seu Carisma ao dano."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

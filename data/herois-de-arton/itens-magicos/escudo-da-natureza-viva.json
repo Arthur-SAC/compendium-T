@@ -1,0 +1,20 @@
+{
+  "id": "escudo-da-natureza-viva",
+  "tipo": "item-magico",
+  "nome": "Escudo da Natureza Viva",
+  "resumo": "Escudo leve defensor de madeira Tollon viva que florece constantemente, concede bônus em Fortitude e a magia Curar Ferimentos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este escudo leve defensor de madeira Tollon é feito de madeira viva e constantemente floresce com plantas. Você recebe +2 em Fortitude e pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

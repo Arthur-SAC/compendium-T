@@ -1,0 +1,35 @@
+{
+  "id": "coracao-imortal",
+  "tipo": "magia",
+  "nome": "Coração Imortal",
+  "resumo": "Concentra energia necromântica no corpo do conjurador, concedendo fortificação 100% e imunidade a sangramento.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 3,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 3,
+    "descricao": "Manipulando energias necromânticas, você concentra sua força vital em uma parte específica do seu corpo. Você recebe fortificação 100% e imunidade a sangramento.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a duração para 1 dia."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a cura do aprimoramento abaixo para +10 PV."
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Adiciona componente material (um coração de pedra no valor de T$ 100). Além do normal, quando seus pontos de vida são reduzidos a 0 ou menos, você cura 30 PV e a magia se encerra. Você só pode ser curado por este aprimoramento uma vez por dia."
+      }
+    ]
+  }
+}

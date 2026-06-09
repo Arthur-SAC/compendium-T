@@ -1,0 +1,23 @@
+{
+  "id": "armadura-de-cranio-negro",
+  "tipo": "item-magico",
+  "nome": "A Armadura de Crânio Negro",
+  "resumo": "Armadura completa e artefato lendário do primeiro algoz da Tormenta, o temível Crânio Negro. Conta como armadura leve (penalidade 0) mas bombardeia o usuário com memórias de um membro do Esquadrão do Inferno.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 274 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este artefato é tão conhecido quanto a figura sinistra que o trajava: o primeiro algoz da Tormenta. O temível e mortal Crânio Negro — caçador e assassino forjado em sombras rubras, servindo aos até então desconhecidos Lordes da Tormenta.\n\nDizem que, ao cruzar as terras corrompidas de Trebuck, ele se curvou aos invasores lefeu e recebeu bênçãos macabras que o marcariam para sempre. Sob o comando de Gatzvalith, um dos poderosos senhores lefeu, Crânio Negro seria enviado em missões de assassinato por toda Arton, matando nobres e plebeus com igual impiedade. Seu rosto, sempre oculto sob o elmo em forma de caveira, logo lhe conferiu a alcunha. E essa alcunha logo se tornou sinônimo de morte.\n\nDizia-se que a armadura escura não era de metal, mas feita de uma liga tão forte e misteriosa que nada podia perfurá-la. Movia-se como se fosse viva, suas placas deslizando para facilitar movimentos e bloquear lâminas. Mas o mais aterrador em Crânio Negro era sua imortalidade, sua habilidade de retornar da morte. Não importava quantas vezes fosse derrotado, em quantos pedaços fosse separado, ele surgia novamente. Implacável e inevitável como a própria Tormenta.\n\nSua identidade foi um mistério profundo. Acredita-se que ele próprio ignorava seu passado, ou que isso fora apagado de sua mente por Gatzvalith. Assolado por fragmentos de lembranças de antigos heróis, conhecidos como o Esquadrão do Inferno, ele lutava sem saber quem realmente era, mesclando seus poderes com aqueles de aventureiros esquecidos. Mas a verdade, conhecida por poucos, é que suas memórias foram utilizadas por diabretes negociantes para forjar a própria armadura negra.\n\nCrânio Negro travou combates épicos contra alguns dos maiores heróis de Arton, liderando as forças lefeu. Acabou se tornado ele próprio um Lorde da Tormenta. Mas terminou derrotado e destruído em definitivo, sua verdadeira identidade conhecida apenas por aqueles presentes na batalha final. Quanto à armadura, dizem ser cobiçada por outros algozes da Tormenta, talvez aguardando em alguma masmorra sinistra para ser encontrada."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "A Armadura de Crânio Negro é uma armadura completa fortificada guardiã macabra que parece se mover sozinha (suas placas deslizam para manter o usuário protegido e defendê-lo). Apesar de seu peso e rigidez, não atrapalha os movimentos, permitindo saltos e acrobacias em meio ao combate: conta como uma armadura leve com penalidade de armadura 0. Contudo, tem um efeito colateral: bombardeia o usuário com pensamentos da pessoa cujas memórias foram usadas em sua confecção, um membro do Esquadrão do Inferno. No início de cada combate, você deve fazer um teste de Vontade (CD 25) ou fica atordoado por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

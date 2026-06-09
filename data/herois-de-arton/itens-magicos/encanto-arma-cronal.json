@@ -1,0 +1,19 @@
+{
+  "id": "encanto-arma-cronal",
+  "tipo": "item-magico",
+  "nome": "Cronal",
+  "resumo": "Encanto de arma que permite prever o futuro ao atacar, rolando dois dados e usando o melhor ou o pior.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando ataca, você pode gastar 3 PM para prever o futuro. Se fizer isso, você rola dois dados e usa o melhor resultado, e no próximo ataque que você sofrer até seu próximo turno, o atacante rola dois dados e usa o pior resultado. Pré-requisito: formidável."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma",
+    "prerequisito": "formidável"
+  }
+}

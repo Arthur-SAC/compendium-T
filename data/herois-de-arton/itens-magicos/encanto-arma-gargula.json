@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-gargula",
+  "tipo": "item-magico",
+  "nome": "Gárgula",
+  "resumo": "Encanto de arma ornamentada com gárgulas que permite convocar uma pequena gárgula como parceiro combatente.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma é ornamentada com figuras de gárgulas que ganham vida temporariamente. Você pode gastar 2 PM para convocar uma pequena gárgula que atua como um parceiro combatente iniciante até o fim da cena."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

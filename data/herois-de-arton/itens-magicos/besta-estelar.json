@@ -1,0 +1,20 @@
+{
+  "id": "besta-estelar",
+  "tipo": "item-magico",
+  "nome": "Besta Estelar",
+  "resumo": "Besta leve cravejada de gemas formidável que pode disparar um projétil de luz para fascinar inimigos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Incrustada com gemas que brilham como estrelas, esta é uma besta leve cravejada de gemas formidável. Você pode gastar 3 PM para disparar um projétil mágico que não causa dano, mas emite luzes coloridas, deixando inimigos em um raio de 9m do ponto de impacto fascinados por 1d4 rodadas (Von CD Des evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

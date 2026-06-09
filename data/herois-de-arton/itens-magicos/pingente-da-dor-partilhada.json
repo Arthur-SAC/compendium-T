@@ -1,0 +1,21 @@
+{
+  "id": "pingente-da-dor-partilhada",
+  "tipo": "item-magico",
+  "nome": "Pingente da Dor Partilhada",
+  "resumo": "Joia de prata com rubi que permite absorver o dano de um aliado em alcance curto, transferindo-o para o portador ao custo de 2 PM.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta joia delicada, feita de prata escurecida, é ornamentada com um pequeno rubi em formato de lágrima, pulsando suavemente no ritmo do coração de seu portador. Quando um aliado em alcance curto se fere, você pode gastar 2 PM. Se fizer isso, o aliado não sofre o dano, mas você perde PV em quantidade igual ao dano que ele teria sofrido (após quaisquer efeitos que reduzam dano que seu aliado possua ou use, como RD ou Durão)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000",
+    "ativacao": "2 PM (reação)"
+  }
+}

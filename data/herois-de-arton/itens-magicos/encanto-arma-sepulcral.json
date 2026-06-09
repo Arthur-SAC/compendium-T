@@ -1,0 +1,19 @@
+{
+  "id": "encanto-arma-sepulcral",
+  "tipo": "item-magico",
+  "nome": "Sepulcral",
+  "resumo": "Encanto de arma que emana energia negativa e impede a recuperação de PV ao usar o efeito de tumular.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma emana energia negativa. Quando gasta PM para ativar o efeito de tumular, se você acertar o ataque, a criatura não pode recuperar pontos de vida por 1d4 rodadas. Pré-requisito: tumular."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma",
+    "prerequisito": "tumular"
+  }
+}

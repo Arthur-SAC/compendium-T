@@ -1,0 +1,20 @@
+{
+  "id": "gema-da-purificacao",
+  "tipo": "item-magico",
+  "nome": "Gema da Purificação",
+  "resumo": "Gema abençoada por divindades piedosas que permite lançar Purificação, com custo reduzido para devotos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta gema preciosa foi abençoada por Lena, Marah, Thyatis ou outra divindade piedosa. Você pode lançar a magia Purificação. Caso seja devoto de uma divindade que canaliza energia positiva e/ou já conheça essa magia, seu custo diminui em –1 PM (essas reduções são cumulativas entre si)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 18.000"
+  }
+}

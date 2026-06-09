@@ -1,0 +1,37 @@
+{
+  "id": "transposicao",
+  "tipo": "magia",
+  "nome": "Transposição",
+  "resumo": "Teletransporta duas criaturas voluntárias, fazendo com que troquem de lugar instantaneamente.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 255 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "2 criaturas voluntárias",
+    "duracao": "instantânea",
+    "custoPM": 2,
+    "descricao": "Esta magia teletransporta duas criaturas, incluindo seu equipamento, fazendo com que troquem de lugar imediatamente.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +2. Você determina com quais criaturas cada alvo troca de lugar."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "A troca não exige linha de efeito, mas os alvos ainda devem estar dentro do alcance.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alvo para 2 criaturas do tipo lacaio e adiciona resistência (Vontade anula).",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}
