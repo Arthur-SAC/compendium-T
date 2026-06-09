@@ -96,7 +96,9 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
       (e) => e.tipo === "divindade-expansao" && norm(String((e.mecanica as { expandeDivindade?: string }).expandeDivindade ?? "")) === idDeus,
     );
     const apontaPraDeus = (e: typeof entidade) => e.relacoes.some((r) => r.alvoTipo === "divindade" && norm(r.alvoId) === idDeus);
-    const avatares = entidades.filter((e) => e.tipo === "criatura" && apontaPraDeus(e)).map((e) => ({ id: e.id, nome: e.nome }));
+    const avataresRaw = entidades.filter((e) => e.tipo === "criatura" && apontaPraDeus(e));
+    // Quando há mais de um avatar (ex.: versão de Ameaças e de Deuses de Arton), distingue pela fonte.
+    const avatares = avataresRaw.map((e) => ({ id: e.id, nome: avataresRaw.length > 1 ? `${e.nome} (${tituloFonte(e.fonte.livro)})` : e.nome }));
     const artefatos = entidades.filter((e) => e.tipo === "item-magico" && apontaPraDeus(e)).map((e) => ({ id: e.id, nome: e.nome }));
     const poderesConcedidos = ordenar(
       todosPoderes

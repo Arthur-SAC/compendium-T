@@ -1,0 +1,87 @@
+{
+  "id": "avatar-de-aharadak-deuses-de-arton",
+  "tipo": "criatura",
+  "nome": "Avatar de Aharadak",
+  "resumo": "A manifestação do Deus da Tormenta em Arton: uma monstruosidade do tamanho de um castelo, coberta de carapaça, pedaços de carne esponjosa e bocarras cheias de dentes afiados, com um único e imenso olho vermelho. Também assume outras formas — guerreiro em couraça vermelha, feiticeiro sem rosto, barda com a boca costurada.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 148
+  },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "divindade",
+      "alvoTipo": "divindade",
+      "alvoId": "aharadak",
+      "rotulo": "Aharadak"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O avatar mais comum de Aharadak é uma monstruosidade do tamanho de um castelo, coberta de carapaça, pedaços de carne esponjosa e bocarras cheias de dentes afiados. Em meio a esse caos, um único e imenso olho vermelho.\n\nNo entanto, correm boatos de que Aharadak possui outros avatares — um guerreiro trajado em couraça vermelha, um feiticeiro sem rosto, uma barda com a boca costurada. Também já teria assumido formas inofensivas, até mesmo nascido em uma família humana humilde, crescendo como uma criança-prodígio da degradação. Nenhuma tática é perversa demais para o Devorador."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Monstro (lekael)",
+    "tamanho": "Colossal",
+    "iniciativa": "+22",
+    "percepcao": "+31, percepção às cegas (longo)",
+    "defesa": "73, Fort +37, Ref +27, Von +31, imunidade a efeitos mentais e medo, maior que a morte, redução de dano 20",
+    "pontosDeVida": "2.477",
+    "deslocamento": "3m (2q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Sete garras +67 (4d10+31, 19)."
+    ],
+    "atributos": {
+      "forca": "18",
+      "destreza": "6",
+      "constituicao": "12",
+      "inteligencia": "16",
+      "sabedoria": "10",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Carapaça Suprema",
+        "descricao": "O Avatar de Aharadak sofre apenas metade do dano de fontes mundanas, exceto aço-rubi."
+      },
+      {
+        "nome": "Domínio sobre o Tempo",
+        "descricao": "O Avatar pode fazer duas ações padrão e duas ações de movimento a cada turno."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d20 PM (Von CD 51 evita). Esta habilidade pode afetar mesmo criaturas que já foram afetadas pela Insanidade da Tormenta de outras criaturas nesse dia."
+      },
+      {
+        "nome": "Invocar Lefeu (Completa)",
+        "descricao": "Uma vez por cena, o Avatar invoca um ou mais lefeu a sua escolha, cujo ND total somado seja igual a 20. Eles surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas."
+      },
+      {
+        "nome": "Poder sobre a Realidade",
+        "descricao": "O Avatar pode lançar qualquer magia simulada de até 4º círculo como um conjurador de 20º nível sem gastar PM (CD 51, limite de PM 20) e pode lançar Momento de Tormenta uma vez por rodada como uma ação livre."
+      },
+      {
+        "nome": "Percepção Perfeita",
+        "descricao": "O Avatar está sempre sob efeito de Visão da Verdade, com todos os aprimoramentos."
+      },
+      {
+        "nome": "Presentes Rubros (Completa)",
+        "descricao": "O Avatar fornece suas bênçãos a uma criatura voluntária em alcance curto. O alvo recebe dois poderes da Tormenta a sua escolha (alternativamente, se você tiver o suplemento Ameaças de Arton, ele pode receber um dos simbiontes descritos na p. 61). Uma criatura só pode ser alvo desta habilidade uma vez. Uma criatura que tenha recebido uma bênção dessa forma irá inevitavelmente ao mundo de Aharadak após sua morte e não pode ser revivida de nenhuma forma."
+      },
+      {
+        "nome": "Telepatia",
+        "descricao": "O Avatar pode se comunicar com qualquer criatura inteligente (Int –3 ou mais) dentro de uma área de Tormenta ou a até 1km dela."
+      },
+      {
+        "nome": "Terror Absoluto",
+        "descricao": "O Avatar emana uma aura de medo de 30m de raio. Criaturas à escolha dele que entrem ou comecem seus turnos na aura ficam abaladas (CD 51 evita). Se já estiverem abaladas, ficam apavoradas (a condição máxima que esta habilidade pode causar). Uma criatura apavorada dessa forma sofre os efeitos de falhar no teste de resistência contra a Insanidade da Tormenta do Avatar (mesmo que já tenha sido afetada por essa habilidade nesse dia). Criaturas imunes a medo ainda são afetadas pela aura mas recebem +5 nos testes de resistência contra ela. Medo."
+      }
+    ],
+    "pericias": "Atletismo +34, Conhecimento +34, Diplomacia +36, Enganação +36, Intimidação +36, Intuição +36, Misticismo +34, Religião +28.",
+    "tesouro": "2d6 peças rubras (CD 35 para extrair, cada peça vale T$ 1.500 para fabricar itens de matéria vermelha).",
+    "tema": "Avatares dos Deuses"
+  }
+}
