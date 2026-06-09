@@ -2,6 +2,7 @@
   "fontes": [
     { "slug": "livro-basico", "titulo": "Livro Básico", "arquivo": "T20 - Livro Básico.pdf", "ordem": 1 },
     { "slug": "ameacas-de-arton", "titulo": "Ameaças de Arton", "arquivo": "Ameacas-de-Arton-v1.0-17-11-2023.pdf", "ordem": 2 },
-    { "slug": "herois-de-arton", "titulo": "Heróis de Arton", "arquivo": "T20-Herois-de-Arton-v1-1.pdf", "ordem": 3 }
+    { "slug": "herois-de-arton", "titulo": "Heróis de Arton", "arquivo": "T20-Herois-de-Arton-v1-1.pdf", "ordem": 3 },
+    { "slug": "deuses-de-arton", "titulo": "Deuses de Arton", "arquivo": "T20-Deuses-de-Arton-v1-1.pdf", "ordem": 4 }
   ]
 }
