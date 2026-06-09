@@ -1,0 +1,21 @@
+{
+  "id": "perola-da-nulificacao",
+  "tipo": "item-magico",
+  "nome": "Pérola da Nulificação",
+  "resumo": "Pérola multicolorida de uso único que, ativada, gera o efeito básico de Campo Antimagia por uma cena ao redor do portador.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando é ativada (uma ação de movimento), esta pequena pérola multicolorida produz o efeito básico da magia Campo Antimagia ao redor de seu portador, com duração de cena (em vez de sustentada). Contudo, o item tem apenas uma utilização; quando o efeito termina, a pérola adquire tom acinzentado, perdendo seu poder."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000",
+    "ativacao": "ação de movimento"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "capangas",
+  "tipo": "regra",
+  "nome": "Capangas",
+  "resumo": "Capangas são criaturas simplificadas que agem em grupo — individualmente fracos, mas perigosos em número. Inclui regras gerais, grupos pré-definidos e a caixa sobre capangas convocados.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 240 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Regras Gerais",
+      "texto": "Capangas são criaturas simplificadas que agem em grupo. Individualmente, são fracos, mas graças aos números, tornam-se perigosos. Eles usam as seguintes regras.\n\n• Para usar um grupo de capangas em combate, primeiro você deve posicioná-los. Para isso, você gasta uma ação completa e posiciona cada capanga do grupo em um espaço desocupado em alcance curto.\n\n• Você pode usar uma ação de movimento para fazer quaisquer capangas já posicionados se mover ao deslocamento deles, ou uma ação padrão para fazê-los causar dano automático a criaturas adjacentes (apenas uma vez por rodada). Capangas não agem sem receber ordens.\n\n• Exceto quando dito o contrário, capangas têm 1 PV e falham automaticamente em qualquer teste oposto. Um capanga reduzido a 0 PV não pode ser usado pelo restante da cena.\n\n• Se o tamanho de um capanga não for indicado em sua descrição, ele é Médio.\n\n• Cada grupo de capangas conta como um parceiro para o limite de parceiros que você pode ter.\n\n• Usos criativos para capangas fora de combate ficam a critério do mestre.\n\n• Capangas são criaturas simplificadas e não se beneficiam de alguns efeitos (por exemplo, não recebem bônus em testes de ataque, pois causam dano automático)."
+    },
+    {
+      "titulo": "Bando Duyshidakk",
+      "texto": "Um grupo de combatentes duyshidakk.\n\nIniciante: cinco duyshidakk (deslocamento 9m, Defesa 15, dano 1d6+1 de corte cada).\nVeterano: o grupo aumenta para seis duyshidakk infantes.\nMestre: o grupo aumenta para sete duyshidakk e o dano deles se torna 2d4+2."
+    },
+    {
+      "titulo": "Esqueletos Animados",
+      "texto": "Um punhado de esqueletos de várias criaturas, reanimados como mortos-vivos sem mente.\n\nIniciante: quatro esqueletos (deslocamento 9m, Defesa 18, dano 1d6+1 de corte cada).\nVeterano: o grupo aumenta para cinco esqueletos e eles recebem redução de corte, frio e perfuração 5.\nMestre: o grupo aumenta para seis esqueletos e o dano deles se torna 1d8+2."
+    },
+    {
+      "titulo": "Pelotão de Infantaria",
+      "texto": "Um grupo de soldados com treinamento e equipamento básicos.\n\nIniciante: quatro infantes (deslocamento 9m, Defesa 16, dano 2d4+1 de corte cada).\nVeterano: o grupo aumenta para cinco infantes.\nMestre: o grupo aumenta para seis infantes e a Defesa deles aumenta para 18."
+    },
+    {
+      "titulo": "Tripulação",
+      "texto": "Uma equipe de tripulantes acostumados a operar as mais diversas embarcações, e a lutar em sua defesa.\n\nIniciante: quatro tripulantes (deslocamento 9m, Defesa 14, dano 1d6 de corte cada; fornecem +1 em Pilotagem).\nVeterano: a equipe aumenta para cinco tripulantes e o bônus em Pilotagem aumenta para +2.\nMestre: a equipe aumenta para seis tripulantes, o dano deles se torna 1d8 e o bônus em Pilotagem aumenta para +5."
+    },
+    {
+      "titulo": "Turba de Camponeses",
+      "texto": "Um grupo de camponeses. Numerosos, mas sem treinamento ou equipamento.\n\nIniciante: seis camponeses (deslocamento 9m, Defesa 10, dano 1d6 de perfuração cada).\nVeterano: o grupo aumenta para oito camponeses.\nMestre: o grupo aumenta para dez camponeses e o dano deles se torna 1d6+1."
+    },
+    {
+      "titulo": "Unidade de Arqueiros",
+      "texto": "Um grupamento de arqueiros com treinamento e equipamento básicos. Ao contrário de outros capangas, eles podem causar dano a inimigos em alcance curto que não tenham cobertura.\n\nIniciante: quatro arqueiros (deslocamento 9m, Defesa 14, dano 1d6 de perfuração cada).\nVeterano: o grupo aumenta para cinco arqueiros.\nMestre: o grupo aumenta para seis arqueiros e o dano deles se torna 1d8."
+    },
+    {
+      "titulo": "Capangas Convocados",
+      "texto": "As criaturas convocadas pelas seguintes habilidades são capangas, e são afetadas por quaisquer efeitos que afetem especificamente capangas: Conjurar Mortos-Vivos, Servos do Dragão, Tropas Duyshidakk (Tormenta20), o aprimoramento que conjura kobolds de Conjurar Monstro (Ameaças de Arton) e Legião Tapistana (Jornada Heroica: Guerra Artoniana e Jornada Heroica: A Libertação de Valkaria). Em especial, um efeito que aumente a quantidade de capangas que você recebe, como Comandante de Campo (veja p. 75), aumenta a quantidade de capangas convocados. Da mesma forma, um efeito que reduza a ação necessária para posicionar seus capangas também reduz a ação necessária para usar essas habilidades (exceto para magias).\n\nCapangas convocados não contam em seu limite de parceiros."
+    }
+  ]
+}

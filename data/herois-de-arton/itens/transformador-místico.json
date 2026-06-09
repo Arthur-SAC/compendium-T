@@ -1,0 +1,19 @@
+{
+  "id": "transformador-místico",
+  "tipo": "item",
+  "nome": "Transformador Místico",
+  "resumo": "Aparato de cristais que permite acoplar um item esotérico à engenhoca para que forneça seus benefícios à magia simulada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 600",
+    "espacos": "*",
+    "especial": "Um conjunto de cristais ligados a mecanismos complexos, capaz de captar a energia mágica inerente a certos objetos e convertê-la para que possa ser usada em engenhocas. Permite acoplar um item esotérico à engenhoca, que fornece seus benefícios à magia simulada por ela (sem necessidade de ser empunhado). Acoplar ou remover o esotérico exige 1 hora de trabalho."
+  }
+}

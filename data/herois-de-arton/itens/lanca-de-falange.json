@@ -1,0 +1,35 @@
+{
+  "id": "lanca-de-falange",
+  "tipo": "item",
+  "nome": "Lança de Falange",
+  "resumo": "Lança de infantaria para lutar em formação fechada; pode ser arremessada. Arma alongada e exótica (pode ser usada como marcial de duas mãos).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta lança de infantaria é muito empregada por tropas treinadas para lutar em formação fechada. Ela é uma arma alongada que pode ser arremessada. Entretanto, é muito grande para ser usada com uma mão sem treinamento especial, por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d8",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Alongada"
+      ]
+    },
+    "especial": "Pode ser arremessada (alcance curto). Pode ser usada como arma marcial de duas mãos."
+  }
+}

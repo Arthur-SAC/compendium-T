@@ -1,0 +1,19 @@
+{
+  "id": "marionetes",
+  "tipo": "item",
+  "nome": "Marionetes",
+  "resumo": "Conjunto de bonecos articulados usado como instrumento musical. Fornece +2 no teste oposto de Atuação e na CD dos poderes Fascinar/Manipular.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 90",
+    "espacos": "1",
+    "especial": "Embora não produza nenhum som, pode ser empregado como instrumento musical. Você recebe +2 no teste oposto de Atuação para usar os poderes Música: Balada Fascinante e Fascinar em Massa, e na CD dos poderes Manipular e Manipular em Massa."
+  }
+}

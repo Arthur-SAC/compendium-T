@@ -1,0 +1,20 @@
+{
+  "id": "azagaia-fantasma",
+  "tipo": "item-magico",
+  "nome": "Azagaia Fantasma",
+  "resumo": "Azagaia caçadora de material translúcido que ignora a RD do alvo e retorna ao portador.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta azagaia caçadora é feita de um material transparente como cristal. Quando a arremessa, você pode gastar 1 PM para que ela ignore a RD do alvo. Ela volta para você no fim do turno."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 30.000"
+  }
+}

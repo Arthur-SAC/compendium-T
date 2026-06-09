@@ -1,0 +1,19 @@
+{
+  "id": "avental-de-forja",
+  "tipo": "item",
+  "nome": "Avental de Forja",
+  "resumo": "Avental de couro tratado alquimicamente. Protege contra faíscas e metal derretido, permitindo arriscar mais ao trabalhar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 75",
+    "espacos": "1",
+    "especial": "Se estiver usando um avental de forja, você pode perder 1d6 PV para receber +1 em um teste de Ofício (cumulativo com outros itens)."
+  }
+}

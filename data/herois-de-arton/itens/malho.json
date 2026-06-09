@@ -1,0 +1,34 @@
+{
+  "id": "malho",
+  "tipo": "item",
+  "nome": "Malho",
+  "resumo": "Martelo de construção com cabeça de madeira pesada; arma versátil que fornece +2 em derrubar e empurrar. Pode ser feito de madeira Tollon.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma ferramenta para uso em construções, este martelo possui uma cabeça de madeira dura e pesada, que o torna apropriado para enterrar estacas no chão. Não é tão eficiente quanto os martelos projetados para guerra, mas seu peso excessivo pode desequilibrar os oponentes. O malho é uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar. Por ser feito basicamente de madeira, pode ser fabricado de madeira Tollon."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 8",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "1d10",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": [
+        "Versátil"
+      ]
+    },
+    "especial": "Fornece +2 em testes para derrubar ou empurrar. Pode ser fabricado de madeira Tollon."
+  }
+}

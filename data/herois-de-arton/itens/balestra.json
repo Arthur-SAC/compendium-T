@@ -1,0 +1,32 @@
+{
+  "id": "balestra",
+  "tipo": "item",
+  "nome": "Balestra",
+  "resumo": "Besta pesada com sistema de catracas; aplica Força ao dano. Arma exótica — recarregar é ação padrão.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma versão mais robusta da besta pesada, que utiliza um sistema de catracas reguláveis para armar seu arco. Esse sistema permite que usuários mais fortes apliquem mais tensão à arma; ao contrário de outras armas de disparo, você aplica sua Força às rolagens de dano com uma balestra. Esta arma é muito pesada e complexa para ser usada sem treinamento especial, por isso é uma arma exótica. Recarregar uma balestra é uma ação padrão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 180",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d12",
+      "critico": "19",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Aplica Força às rolagens de dano. Recarregar: ação padrão. Requer munição: virotes."
+  }
+}

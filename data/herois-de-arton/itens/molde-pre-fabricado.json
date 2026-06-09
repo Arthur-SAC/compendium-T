@@ -1,0 +1,19 @@
+{
+  "id": "molde-pre-fabricado",
+  "tipo": "item",
+  "nome": "Molde Pré-Fabricado",
+  "resumo": "Conjunto de peças já montadas para engenhocas, um molde por escola de magias. Reduz o tempo de fabricação de engenhoca que simule magia da respectiva escola para três dias.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 500",
+    "espacos": "1",
+    "especial": "Existe um molde para cada escola de magias. Usar um molde pré-fabricado diminui o tempo de fabricação de uma engenhoca que simule uma magia da respectiva escola para três dias."
+  }
+}

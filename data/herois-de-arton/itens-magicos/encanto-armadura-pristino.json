@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-pristino",
+  "tipo": "item-magico",
+  "nome": "Prístino",
+  "resumo": "Encanto de armadura que concede resistência a necromancia e veneno, além de permitir remover condições de criaturas adjacentes.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe resistência a necromancia e veneno +5. Além disso, pode gastar 2 PM para remover uma condição entre doente, enjoado ou envenenado de uma criatura adjacente."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

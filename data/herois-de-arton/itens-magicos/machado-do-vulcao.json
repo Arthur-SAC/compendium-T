@@ -1,0 +1,20 @@
+{
+  "id": "machado-do-vulcao",
+  "tipo": "item-magico",
+  "nome": "Machado do Vulcão",
+  "resumo": "Machado de guerra maciço flamejante formidável com magma no interior que provoca detonações vulcânicas.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este machado de guerra maciço flamejante formidável tem textura vítrea, com magma rodopiando em seu interior. Você pode gastar uma ação de movimento e 3 PM para causar uma detonação vulcânica em um quadrado de 3m em alcance médio. Criaturas nessa área sofrem 3d10 pontos de dano de fogo e ficam em chamas (Ref CD For ou Des reduz à metade e evita a condição)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 54.000"
+  }
+}

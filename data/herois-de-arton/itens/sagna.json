@@ -1,0 +1,26 @@
+{
+  "id": "sagna",
+  "tipo": "item",
+  "nome": "Sagna",
+  "resumo": "Grande escudo de madeira desenvolvido por devotos de Oceano, muito comum em regiões praianas. Também pode ser usado para deslizar pelas ondas, anulando a penalidade de armadura para natação.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 226
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "escudo",
+    "preco": "T$ 20",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "pesado",
+      "bonusDefesa": 2,
+      "penalidadeArmadura": -3,
+      "rd": 5,
+      "pv": 10
+    },
+    "especial": "Enquanto usado para deslizar pelas ondas, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade). Se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Pode ser usado para atacar como um escudo pesado."
+  }
+}

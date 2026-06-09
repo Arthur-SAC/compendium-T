@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-indignada",
+  "tipo": "item-magico",
+  "nome": "Indignada",
+  "resumo": "Encanto de arma que grunhe ao errar ataques, concedendo bônus cumulativo no próximo teste de ataque.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sempre que você erra um ataque, a arma emite um grunhido irritado que o incomoda e concede um bônus de +2 no próximo teste de ataque que você fizer até o fim da cena (cumulativo com outros bônus de itens)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

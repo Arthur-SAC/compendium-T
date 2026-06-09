@@ -1,0 +1,16 @@
+{
+  "id": "mercenários",
+  "tipo": "regra",
+  "nome": "Mercenários (Regras Gerais)",
+  "resumo": "Regras para contratar mercenários como parceiros por cena, com custo para aventura inteira pelo triplo do preço.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 238 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Mercenários",
+      "texto": "Você pode contratar mercenários como parceiros (Tormenta20, p. 260). O valor listado representa o preço para contratar o NPC por uma cena. Ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios, até que você peça sua ajuda. Então fornece seu benefício até o fim da cena. Após ajudá-lo, o mercenário vai embora. De acordo com o mestre, pode ser possível contratar um mercenário para uma aventura inteira pelo triplo do preço listado. A descrição de cada mercenário indica seu tipo e nível."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

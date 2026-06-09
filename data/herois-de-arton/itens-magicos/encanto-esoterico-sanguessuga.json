@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-sanguessuga",
+  "tipo": "item-magico",
+  "nome": "Sanguessuga",
+  "resumo": "Encanto esotérico que concede PV temporários ao lançar magias quando inimigos falham em testes de resistência.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico possui entalhes de marfim pontiagudos, semelhantes a dentes caninos. Se você lançar uma magia e um ou mais inimigos falharem no teste de resistência contra ela, você recebe 10 PV temporários."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

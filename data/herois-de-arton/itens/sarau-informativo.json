@@ -1,0 +1,19 @@
+{
+  "id": "sarau-informativo",
+  "tipo": "item",
+  "nome": "Sarau Informativo",
+  "resumo": "Serviço de reunião de viajantes que fornece 1d4 dados de auxílio para testes de Conhecimento ou Nobreza até o fim da aventura.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 150",
+    "espacos": "—",
+    "especial": "Em alguns lugares, é comum viajantes ou eruditos se reunirem para compartilhar as notícias da região. Passar algumas horas em um destes encontros permite se manter informado a respeito dos últimos acontecimentos. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de Conhecimento ou Nobreza, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens)."
+  }
+}

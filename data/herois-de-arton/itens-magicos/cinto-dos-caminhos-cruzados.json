@@ -1,0 +1,21 @@
+{
+  "id": "cinto-dos-caminhos-cruzados",
+  "tipo": "item-magico",
+  "nome": "Cinto dos Caminhos Cruzados",
+  "resumo": "Cinto de couro com fivelas mágicas que permite trocar de lugar com um aliado em alcance curto, uma vez por cena.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cinto de couro possui fivelas de metal intrincadas que brilham com energia mágica. Uma vez por cena, você pode gastar uma ação de movimento e 3 PM para trocar de lugar com um aliado em alcance curto — vocês dois se teletransportam para onde o outro está."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 15.000",
+    "ativacao": "ação de movimento e 3 PM"
+  }
+}

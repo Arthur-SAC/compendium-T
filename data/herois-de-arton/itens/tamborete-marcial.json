@@ -1,0 +1,19 @@
+{
+  "id": "tamborete-marcial",
+  "tipo": "item",
+  "nome": "Tamborete Marcial",
+  "resumo": "Tambor pequeno tocado com baquetas. Produz som rápido e cadenciado. Criaturas sob efeito de Inspiração recebem +3m em deslocamento.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 80",
+    "espacos": "1",
+    "especial": "Criaturas a sua escolha sob efeito de sua Inspiração recebem +3m em deslocamento."
+  }
+}

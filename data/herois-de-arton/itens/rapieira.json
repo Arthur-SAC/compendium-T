@@ -1,0 +1,33 @@
+{
+  "id": "rapieira",
+  "tipo": "item",
+  "nome": "Rapieira",
+  "resumo": "Espada de lâmina fina e um gume, mais precisa mas que exige treinamento especial para manuseio equilibrado. Arma ágil.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A lâmina fina e alongada desta espada de um gume a torna mais precisa, mas exige treinamento especial para ser manuseada de forma equilibrada. A rapieira é uma arma ágil."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "18",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Ágil"
+      ]
+    }
+  }
+}

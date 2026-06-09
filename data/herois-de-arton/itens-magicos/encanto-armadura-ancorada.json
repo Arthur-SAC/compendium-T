@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-ancorada",
+  "tipo": "item-magico",
+  "nome": "Ancorada",
+  "resumo": "Encanto de armadura que permite fixar-se em superfícies, concedendo bônus em Atletismo e deslocamento de escalada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta armadura permite que você se fixe em superfícies. Você recebe +5 em testes de Atletismo para escalar e pode gastar 1 PM para receber deslocamento de escalada 12m com duração sustentada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

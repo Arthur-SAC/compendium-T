@@ -1,0 +1,19 @@
+{
+  "id": "mascara-de-baile",
+  "tipo": "item",
+  "nome": "Máscara de Baile",
+  "resumo": "Máscara que cobre olhos, testa e às vezes o nariz. Uma vez por cena, em situação social apropriada, permite repetir um teste de Diplomacia ou Enganação.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Uma vez por cena, se estiver em um baile, festa ou outra situação apropriada (de acordo com o mestre), você pode colocar uma máscara de baile (ou trocar de máscara) para repetir um teste de Diplomacia ou Enganação."
+  }
+}

@@ -34,6 +34,7 @@ const TIPO_PARA_AREA: Record<string, string> = {
   criatura: "bestiario",
   regiao: "mundo",
   "regra-de-criacao": "regras",
+  regra: "regras",
 };
 
 /** Deriva a área (id de categoria) a partir do pathname. "" se nenhuma. */

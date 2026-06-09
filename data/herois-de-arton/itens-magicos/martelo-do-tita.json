@@ -1,0 +1,20 @@
+{
+  "id": "martelo-do-tita",
+  "tipo": "item-magico",
+  "nome": "Martelo do Titã",
+  "resumo": "Martelo de guerra formidável de rochas negras que empurra o alvo 6m em acertos críticos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este martelo de guerra formidável, feito de rochas negras e pesadas, tem aparência robusta. Sempre que você faz um acerto crítico com ele, pode gastar 2 PM para empurrar o alvo 6m para trás."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 22.500"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "leque",
+  "tipo": "item",
+  "nome": "Leque",
+  "resumo": "Permite que damas e cavalheiros se abanem ou fofocem em paz. Pode substituir Sabedoria por Carisma em testes de Vontade uma vez por cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 3",
+    "espacos": "1",
+    "especial": "Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste."
+  }
+}

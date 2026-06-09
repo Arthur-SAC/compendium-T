@@ -1,0 +1,19 @@
+{
+  "id": "peruca",
+  "tipo": "item",
+  "nome": "Peruca",
+  "resumo": "Peruca para penteados extravagantes. Permite que personagem com Carisma menor que 0 seja tratado como Carisma 0 para fins de perícias. Precisa de manutenção de 1 hora após cada cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Permite que um personagem com Carisma menor que 0 seja considerado como se tivesse Carisma 0 para fins de perícias originalmente baseadas nesse atributo (exceto Adestramento) durante uma cena. Após a cena, a peruca deve ser penteada, limpa e recolocada, um processo que demora 1 hora e gasta T$ 10."
+  }
+}

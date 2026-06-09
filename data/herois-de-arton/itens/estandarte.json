@@ -1,0 +1,19 @@
+{
+  "id": "estandarte",
+  "tipo": "item",
+  "nome": "Estandarte",
+  "resumo": "Pedaço de tecido com brasão ou símbolo, montado em estrutura de madeira reforçada. Empunhado com uma mão, fornece +1 na Defesa e em rolagens de dano aos seus capangas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Precisa ser empunhado com uma mão. Se você estiver empunhando um estandarte, seus capangas recebem +1 na Defesa e em rolagens de dano."
+  }
+}

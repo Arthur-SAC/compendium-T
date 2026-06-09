@@ -1,0 +1,20 @@
+{
+  "id": "saco-dos-ventos-silenciosos",
+  "tipo": "item-magico",
+  "nome": "Saco dos Ventos Silenciosos",
+  "resumo": "Saco de algodão com brisa constante que permite lançar Criar Elementos (ar), Queda Suave e Suporte Ambiental (calor).",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este saco de algodão cru parece conter uma brisa constante. Quando aberto, libera um vento silencioso que pode ser usado para purificar ambientes, suavizar quedas ou aliviar calor extremo. Você pode lançar Criar Elementos (apenas ar), Queda Suave e Suporte Ambiental (apenas contra calor). Se já puder lançar qualquer dessas magias, seu custo diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

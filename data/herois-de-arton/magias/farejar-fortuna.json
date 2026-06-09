@@ -1,0 +1,35 @@
+{
+  "id": "farejar-fortuna",
+  "tipo": "magia",
+  "nome": "Farejar Fortuna",
+  "resumo": "Detecta a presença de tesouros em alcance longo, sem revelar localização ou detalhes.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Ao lançar esta magia, você descobre se existe algum tesouro em alcance longo. Para este efeito, 'tesouro' é qualquer acúmulo de itens valiosos (acima do dinheiro inicial de um personagem do seu nível) que não estejam sendo carregados ou vestidos por uma criatura inteligente. Você sabe se há tesouros na área, mas não recebe nenhuma outra informação a respeito, como a direção ou localização do tesouro, seu valor exato, obstáculos no caminho... nada disso é informado pela magia.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para toque, o alvo para um item recém-encontrado e a duração para instantânea. Em vez do normal, você recebe +5 em testes de perícia para identificar o item."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, você recebe +5 em testes de perícia para localizar o tesouro."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Em vez do normal, quando você rola qualquer dado para definir um tesouro, pode rolar dois dados e escolher qual resultado usar."
+      }
+    ]
+  }
+}

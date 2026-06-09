@@ -1,0 +1,23 @@
+{
+  "id": "escudo-impervio",
+  "tipo": "item-magico",
+  "nome": "O Escudo Impérvio",
+  "resumo": "Escudo pesado artefato de adamante e mitral conquistado por Mestre Arsenal, fornece +8 na Defesa, +5 em testes de resistência e redução de dano 30.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 274 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "No coração das ruínas esquecidas de um templo sszzaazita, jaziam tesouros ocultos que sussurravam histórias de poder e perdição. Entre eles, erguia-se o Escudo Impérvio, obra-prima de mistério e magia. Moldado a partir de uma liga impossível de adamante e mitral, o artefato parecia desafiar todas as leis conhecidas da forja mortal. Muitos estão certos de que sua criação só pode envolver interferência direta de forças divinas, tamanha sua resistência e perfeição. De fato, até mesmo um deus teria dificuldade para quebrá-lo.\n\nImenso e adornado com uma carranca monstruosa, este escudo teria sido um dos primeiros artefatos conquistados por Mestre Arsenal em suas jornadas por Arton. Alguns sussurram que tudo sobre o escudo seria mentira sszzaazita, simples armadilha para atrair desavisados; outros dizem que foi o prêmio de uma batalha épica no templo, contra o próprio avatar rastejante de Sszzaas. A única certeza é que, em posse de Arsenal, o Escudo Impérvio se tornou sinônimo de invencibilidade.\n\nDiz-se que o escudo não apenas protege fisicamente, mas reflete a força de vontade de quem o empunha. Nas mãos de Arsenal, cuja determinação é descrita como infinita, o Escudo Impérvio acabaria se tornando a mais impenetrável muralha, capaz de repelir o fogo dos dragões e a fúria de tempestades. Muitos o viram resistir a explosões que destruíram exércitos inteiros, incólume como o próprio aço do destino."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "O Escudo Impérvio é um escudo pesado que fornece +8 na Defesa, +5 em testes de resistência e redução de dano 30."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

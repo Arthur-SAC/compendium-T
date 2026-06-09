@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-caridoso",
+  "tipo": "item-magico",
+  "nome": "Caridoso",
+  "resumo": "Encanto esotérico que concede PM temporário ao lançar magias em aliados, para usar em aprimoramentos da próxima magia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico emana uma sensação de conforto e união. Quando você lança uma magia em um aliado e gasta pelo menos 1 PM, recebe 1 PM temporário para gastar em aprimoramentos na próxima magia que lançar nessa cena. Esse PM não conta no limite de gasto de pontos de mana."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

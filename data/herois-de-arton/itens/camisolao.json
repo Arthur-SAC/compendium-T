@@ -1,0 +1,19 @@
+{
+  "id": "camisolao",
+  "tipo": "item",
+  "nome": "Camisolão",
+  "resumo": "Roupa de dormir confortável com gorro de pompom. Dormir com camisolão e nenhum outro item vestido transforma condições de descanso confortáveis em luxuosas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 12",
+    "espacos": "1",
+    "especial": "Dormir com um camisolão e nenhum outro item vestido transforma condições de descanso confortáveis em luxuosas."
+  }
+}

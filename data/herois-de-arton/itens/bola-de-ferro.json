@@ -1,0 +1,19 @@
+{
+  "id": "bola-de-ferro",
+  "tipo": "item",
+  "nome": "Bola de Ferro",
+  "resumo": "Esferas metálicas com pólvora, munição de canhões portáteis. Diferente de outras munições, são vendidas individualmente.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 5",
+    "espacos": "0,5",
+    "especial": "Munição de canhões portáteis. Vendida individualmente (unidade), não em pacote."
+  }
+}

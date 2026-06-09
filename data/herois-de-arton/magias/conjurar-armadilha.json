@@ -1,0 +1,45 @@
+{
+  "id": "conjurar-armadilha",
+  "tipo": "magia",
+  "nome": "Conjurar Armadilha",
+  "resumo": "Transforma um ponto no alcance em uma armadilha de caçador permanente, cuja CD é a da magia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "completa",
+    "alcance": "curto",
+    "efeito": "1 armadilha conjurada",
+    "duracao": "permanente",
+    "custoPM": 2,
+    "descricao": "Esta magia modifica o terreno e/ou a arquitetura de um ponto no alcance, transformando-o em uma armadilha de caçador (Tormenta20, p. 50) a sua escolha. A armadilha criada segue as mesmas regras de armadilhas, mas a CD dos testes para encontrá-la e resistir a ela é a da magia. Embora seja produzida por magia, a armadilha ainda pode ser superada por meios mundanos normais. Depois de ativada, seja bem-sucedida ou não, a armadilha não volta a se reativar: fica inerte e inofensiva, devendo ser conjurada outra vez.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Seus poderes que afetam armadilhas também afetam a armadilha criada pela magia."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Quando lança a magia, você pode escolher qualquer número de criaturas no alcance para não serem afetadas pela armadilha.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda a execução para padrão. A armadilha pode ser conjurada diretamente em uma área ocupada por uma criatura, o que a aciona imediatamente.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+1 PM (Apenas Armadilheiros Mestres e Caçadores)",
+        "efeito": "Reduz o tempo de execução para movimento."
+      },
+      {
+        "custo": "+4 PM (Apenas Armadilheiros Mestres)",
+        "efeito": "Em vez do normal, você pode conjurar uma das suas armadilhas de armadilheiro mestre."
+      }
+    ]
+  }
+}

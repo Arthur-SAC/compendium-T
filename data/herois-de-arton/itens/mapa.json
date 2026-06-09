@@ -1,0 +1,19 @@
+{
+  "id": "mapa",
+  "tipo": "item",
+  "nome": "Mapa",
+  "resumo": "Mapa de uma região determinada pelo mestre. Fornece +5 em testes de Sobrevivência para orientar-se nessa região.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Fornece +5 em testes de Sobrevivência para orientar-se na região representada (determinada pelo mestre ao ser adquirido)."
+  }
+}

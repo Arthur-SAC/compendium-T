@@ -1,0 +1,20 @@
+{
+  "id": "adaga-da-bruma",
+  "tipo": "item-magico",
+  "nome": "Adaga da Bruma",
+  "resumo": "Adaga formidável envolta em névoa suave que concede invisibilidade após um ataque bem-sucedido.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta lâmina fina, que parece estar sempre envolta em névoa suave, é uma adaga formidável. Se acertar um ataque com esta arma, você pode gastar 2 PM para se tornar invisível por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

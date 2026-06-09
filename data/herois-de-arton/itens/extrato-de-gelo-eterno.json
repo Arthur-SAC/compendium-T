@@ -1,0 +1,19 @@
+{
+  "id": "extrato-de-gelo-eterno",
+  "tipo": "item",
+  "nome": "Extrato de Gelo Eterno",
+  "resumo": "Frasco com líquido congelante. A criatura alvo sofre 2d12 de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Gaste uma ação padrão e escolha uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada. Reflexos CD Des reduz à metade e evita a condição."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "besta-dupla",
+  "tipo": "item",
+  "nome": "Besta Dupla",
+  "resumo": "Besta com dois arcos sobrepostos que permite usar Disparo Rápido; recarregar é ação completa.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta besta possui dois arcos sobrepostos, cada um capaz de armazenar um virote. Isso permite que você use o poder Disparo Rápido. Se já o possui, em vez disso você pode usá-lo sem penalidade nos testes de ataque. Recarregar uma besta dupla é uma ação completa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 125",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d8",
+      "critico": "19",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Dois arcos, cada um armazena um virote. Permite usar o poder Disparo Rápido. Se já o possui, pode usá-lo sem penalidade nos testes de ataque. Recarregar: ação completa. Requer munição: virotes."
+  }
+}

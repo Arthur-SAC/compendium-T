@@ -1,0 +1,35 @@
+{
+  "id": "maquina-de-combate",
+  "tipo": "magia",
+  "nome": "Máquina de Combate",
+  "resumo": "Sobrecarrega a fonte de energia de um construto, concedendo bônus em Atletismo e Luta em troca de perda de PV por turno.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "toque",
+    "alvo": "1 construto",
+    "duracao": "cena",
+    "custoPM": 2,
+    "descricao": "Esta magia energiza a fonte de energia de um golem ou outro construto, sobrecarregando-a temporariamente. O alvo recebe +5 em Atletismo e Luta, mas perde 1d4 pontos de vida no fim de cada turno em que executar uma ação padrão.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, os ataques corpo a corpo do alvo causam +1d6 pontos de dano."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, o alvo recebe +2 na Defesa."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus na Defesa em +1."
+      }
+    ]
+  }
+}

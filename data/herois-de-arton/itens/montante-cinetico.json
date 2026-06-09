@@ -1,0 +1,31 @@
+{
+  "id": "montante-cinetico",
+  "tipo": "item",
+  "nome": "Montante Cinético",
+  "resumo": "Espada com esferas de adamante que amplificam o impacto; pode ser usada como arma marcial, mas resultado 1 ou 2 no ataque causa dano ao próprio usuário.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada tem minúsculas esferas de adamante untadas com óleo no interior de sua lâmina. O movimento das esferas faz com que a espada tenha seu peso e impacto aumentados várias vezes, mas a torna imprevisível para um combatente destreinado. Você pode usar um montante cinético como uma arma marcial, mas, nesse caso, se rolar um resultado 1 ou 2 em um teste de ataque com esta arma, erra e atinge a si mesmo, sofrendo o dano do ataque."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 3.000",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "dano": "2d6",
+      "critico": "19/x4",
+      "tipoDano": "Corte"
+    },
+    "especial": "Pode ser usado como arma marcial, mas nesse caso, resultado 1 ou 2 no teste de ataque = erra e atinge a si mesmo sofrendo o dano."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "besta-de-repeticao",
+  "tipo": "item",
+  "nome": "Besta de Repetição",
+  "resumo": "Besta com caixa para 10 virotes e recarga automática; proficientes recarregam como ação livre e podem disparar saraivada gastando 5 virotes.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta besta possui uma caixa acoplada com espaço para armazenar até 10 virotes e um sistema de recarga automática. Por seu funcionamento complexo, a besta de repetição é uma arma exótica. Porém, se você for proficiente com esta arma, pode recarregar cada virote como uma ação livre (carregar toda a caixa demora 1 minuto) e, sempre que fizer um ataque com ela, pode gastar 5 virotes para disparar uma saraivada. Se fizer isso, pode atacar até três alvos adjacentes (faça um único teste de ataque e compare com a Defesa de cada alvo) ou causar um dado de dano extra em único alvo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 250",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d8",
+      "critico": "19",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Caixa para 10 virotes. Se proficiente: recarregar cada virote = ação livre (caixa completa = 1 minuto). Saraivada: gaste 5 virotes para atacar até 3 alvos adjacentes (1 teste, compara com cada Defesa) ou causar +1 dado de dano em um alvo."
+  }
+}

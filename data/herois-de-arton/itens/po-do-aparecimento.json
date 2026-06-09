@@ -1,0 +1,19 @@
+{
+  "id": "po-do-aparecimento",
+  "tipo": "item",
+  "nome": "Pó do Aparecimento",
+  "resumo": "Pó grudento e berrante. Criaturas invisíveis a 3m de um ponto em alcance curto deixam de estar invisíveis e passam a ter apenas camuflagem leve. Remover demora 1 minuto.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Gaste uma ação padrão e escolha um ponto em alcance curto. Criaturas invisíveis a até 3m desse ponto deixam de estar invisíveis e passam a ter apenas camuflagem leve. Remover o pó do aparecimento demora 1 minuto."
+  }
+}

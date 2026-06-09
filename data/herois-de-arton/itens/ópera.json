@@ -1,0 +1,19 @@
+{
+  "id": "ópera",
+  "tipo": "item",
+  "nome": "Ópera",
+  "resumo": "Serviço cultural que aumenta o total de PM em +1d4 até o fim da aventura para quem é treinado em Atuação ou Conhecimento.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 200",
+    "espacos": "—",
+    "especial": "Disponíveis em grandes cidades onde a cultura seja valorizada e apreciada, as óperas têm um impacto profundo naqueles que possuem uma compreensão artística apurada. Se você for treinado em Atuação ou Conhecimento e assistir a uma ópera, seu total de PM aumenta em +1d4 até o fim da aventura."
+  }
+}

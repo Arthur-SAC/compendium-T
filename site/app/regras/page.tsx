@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { carregarEntidades } from "@/lib/dados";
+import { carregarEntidades, carregarFontes, tituloFonte } from "@/lib/dados";
 import { Divisor } from "@/components/Divisor";
 import type { Entidade } from "@/lib/schema";
 
@@ -28,7 +28,10 @@ function LinhaRegra({ regra }: { regra: Entidade }) {
 
 export default function IndiceRegras() {
   const entidades = carregarEntidades();
-  const regras = entidades.filter((e) => e.tipo === "regra-de-criacao");
+  // Inclui tanto as regras de criação do Básico ("regra-de-criacao") quanto as
+  // regras de subsistema das expansões ("regra"). As do Básico seguem os GRUPOS
+  // temáticos; as de expansão são agrupadas por livro de origem.
+  const regras = entidades.filter((e) => e.tipo === "regra-de-criacao" || e.tipo === "regra");
   const porId = new Map(regras.map((r) => [r.id, r]));
   const usados = new Set<string>();
 
@@ -38,8 +41,22 @@ export default function IndiceRegras() {
     return { titulo: g.titulo, itens };
   }).filter((g) => g.itens.length > 0);
 
-  const outras = regras.filter((r) => !usados.has(r.id)).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-  if (outras.length > 0) grupos.push({ titulo: "Outras Regras", itens: outras });
+  // Regras não cobertas pelos GRUPOS do Básico: agrupar por fonte (ordem do manifesto).
+  const ordemFonte = new Map(carregarFontes().map((f, i) => [f.slug, i]));
+  const restantes = regras.filter((r) => !usados.has(r.id));
+  const porFonte = new Map<string, Entidade[]>();
+  for (const r of restantes) {
+    const slug = r.fonte.livro;
+    if (!porFonte.has(slug)) porFonte.set(slug, []);
+    porFonte.get(slug)!.push(r);
+  }
+  const gruposFonte = [...porFonte.entries()]
+    .sort((a, b) => (ordemFonte.get(a[0]) ?? 99) - (ordemFonte.get(b[0]) ?? 99))
+    .map(([slug, itens]) => ({
+      titulo: tituloFonte(slug),
+      itens: itens.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR")),
+    }));
+  grupos.push(...gruposFonte);
 
   return (
     <main className="folha-main">
@@ -47,7 +64,7 @@ export default function IndiceRegras() {
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Regras</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 28px", fontFamily: "var(--serifa)" }}>
-          Todas as regras do Livro Básico reunidas — da criação de personagem ao combate. {regras.length} regras.
+          Todas as regras reunidas — da criação de personagem ao combate, mais os subsistemas das expansões. {regras.length} regras.
         </p>
 
         {grupos.map((g) => (

@@ -1,0 +1,23 @@
+{
+  "id": "kailash",
+  "tipo": "item-magico",
+  "nome": "O Kailash",
+  "resumo": "Boleadeira artefato do ladino Sandro Galtran. \"Grande matador\" em idioma hynne — arma pequena e de aspecto inofensivo com habilidades variadas e grande poder destrutivo, incluindo captura, arrastar e transformação de forma.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 275 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta é a icônica arma do notório (não) ladino Sandro Galtran, que teria atuado na derrota do Paladino de Arton. \"Kailash\" significa \"grande matador\" num antigo idioma hynne; assim como os hynne, esta é uma arma pequena e de aspecto quase inofensivo. Lembra uma esfera metálica com cravos, com um cordão de suporte para arremesso. No entanto, uma vez dominada, tem habilidades variadas e grande poder destrutivo.\n\nSendo improvável que os próprios hynne tenham forjado o artefato, sua verdadeira origem é misteriosa. Talvez tenha sido ofertado a algum aventureiro hynne do passado por Hyninn ou outra divindade. Sabe-se apenas que o Kailash ressurgiu em tempos relativamente recentes — o célebre ladino Leon Galtran e seus companheiros teriam sido contratados por um rico fazendeiro de Deheon para salvar sua filha desaparecida, Karin (que mais tarde se tornaria esposa de Leon e mãe de Sandro). Para ajudá-los na empreitada, todos receberam itens mágicos diversos. A Leon coube esta estranha e improvável arma mágica, cujo potencial completo não havia ainda sido revelado até então."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "O Kailash é uma boleadeira precisa de arremesso dilacerante flamejante magnífica, com as seguintes habilidades:\n\n• **Captura.** Quando o Kailash é arremessado para agarrar à distância, seu cordão cresce e forma um laço ou rede, fornecendo +5 no teste de manobra. Além disso, se for usada para agarrar uma criatura Pequena ou menor, pode agarrar criaturas desses tamanhos adjacentes ao alvo principal (você faz um único teste e compara o resultado com os testes de cada criatura).\n\n• **Arrastar.** Se você tiver agarrado uma ou mais criaturas com o Kailash, pode gastar uma ação de movimento para fazer um novo teste de agarrar contra essas criaturas. Se vencer, arrasta-as até 9m em qualquer direção.\n\n• **Nova Arma.** Sob um comando do usuário, o Kailash pode distender um ou mais de seus espigões, que então funcionam como empunhaduras ou extremidades agressivas, mudando a forma e os poderes da arma. O artefato se transforma em uma maça-estrela anticriatura (mortos-vivos), uma picareta anticriatura (gigantes) ou uma lança anticriatura (dragões). O artefato mantém seus demais encantos e poderes."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

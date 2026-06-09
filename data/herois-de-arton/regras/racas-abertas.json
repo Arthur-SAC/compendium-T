@@ -1,0 +1,23 @@
+{
+  "id": "racas-abertas",
+  "tipo": "regra",
+  "nome": "Raças Abertas",
+  "resumo": "Variante opcional que permite aplicar os modificadores de atributo de qualquer raça em quaisquer atributos, em vez dos atributos fixos definidos pela raça.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 281
+  },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Raças Abertas",
+      "texto": "Pela regra padrão, cada raça possui modificadores de atributos que representam as tendências desse povo. Por exemplo, os meios-gigantes galokk tendem a ser mais fortes que os pequeninos hynne, por isso a primeira raça tem um bônus de Força e a segunda, uma penalidade. Mas heróis artonianos são tudo, menos “padrão”! Com esta variante, você pode usar cada modificador de atributo de sua raça em qualquer atributo. Por exemplo, um anão (normalmente Con +2, Sab +1, Des –1) terá os modificadores +2, +1 e –1 para aplicar nos atributos que quiser, enquanto um aggelus (normalmente Sab +2 e Car +1) terá os modificadores +2 e +1. Você não pode aplicar mais de um modificador no mesmo atributo."
+    },
+    {
+      "titulo": "Variantes Abertas: Usar ou Não? (sidebar)",
+      "texto": "No geral, sugerimos o uso das regras como apresentadas nos livros, pois ter certas “travas” garante que os personagens sejam diferentes entre si. Hynne e galokk terem a mesma Força não é apenas estranho em termos de história, é também mais pobre em termos mecânicos, pois facilita certas combinações. Isso pode parecer bom à primeira vista, mas faz com que você não precise pensar em soluções criativas. Devido à penalidade em Força de um hynne, construir um bárbaro dessa raça pode ser um desafio — mas, se você conseguir, terá um personagem único! Se puder simplesmente colocar um bônus de Força nele, terá um bárbaro eficaz… Mas será que ele vai ser memorável?"
+    }
+  ]
+}

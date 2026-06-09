@@ -1,0 +1,34 @@
+{
+  "id": "tan-korak",
+  "tipo": "item",
+  "nome": "Tan-Korak",
+  "resumo": "Bastão metálico com ganchos e anel usado pela milícia de Gorendill; versátil (+2 em derrubar e desarmar), causa dano letal ou não letal à escolha.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 222
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta curiosa arma de duas mãos é raríssima em Arton, usada apenas pela milícia da cidade de Gorendill, em Deheon. O fundador da milícia, Marcus Dubeau, afirma que aprendeu a usá-la com um monge nativo de Tamu-ra — mas, estranhamente, não há notícias de nenhum tamu-raniano usando esta arma. Um tan-korak é um bastão metálico de formato peculiar, com ganchos e reentrâncias, e um anel na extremidade. É uma arma versátil, fornecendo +2 em testes para derrubar ou desarmar, e pode ser usada para causar dano letal ou não letal, a sua escolha."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 40",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": [
+        "Versátil"
+      ]
+    },
+    "especial": "Fornece +2 em testes para derrubar ou desarmar. Pode causar dano letal ou não letal, a escolha do usuário."
+  }
+}

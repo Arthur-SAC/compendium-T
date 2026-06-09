@@ -1,0 +1,19 @@
+{
+  "id": "visco-persistente",
+  "tipo": "item",
+  "nome": "Visco Persistente",
+  "resumo": "Líquido leitoso que vira gosma corrosiva ao contato com o ar. Uma criatura em alcance curto sofre 4d4 de dano de ácido e fica enredada (Fortitude CD Des reduz à metade e evita).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 25",
+    "espacos": "0,5",
+    "especial": "Gaste uma ação padrão e escolha uma criatura em alcance curto. Essa criatura sofre 4d4 pontos de dano de ácido e fica enredada. Fortitude CD Des reduz à metade e evita a condição. Uma criatura enredada pode se soltar com uma ação padrão e um teste de Atletismo contra a CD do visco."
+  }
+}

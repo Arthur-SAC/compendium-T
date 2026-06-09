@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-abissal",
+  "tipo": "item-magico",
+  "nome": "Abissal",
+  "resumo": "Encanto de armadura com gravuras demoníacas que concede redução de ácido e fogo e permite causar dano a criaturas adjacentes.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O item possui gravuras de demônios e tentáculos. Você recebe redução de ácido e fogo 10 e, uma vez por rodada, pode gastar 1 PM para causar 2d6 pontos de dano de ácido ou fogo a uma criatura adjacente."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

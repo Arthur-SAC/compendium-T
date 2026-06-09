@@ -1,0 +1,32 @@
+{
+  "id": "sifao-caustico",
+  "tipo": "item",
+  "nome": "Sifão Cáustico",
+  "resumo": "Cilindro metálico conectado a mochila reservatório que dispersa ácido em cone de 6m. Ocupa espaço de item vestido.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 222
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A origem deste estranho engenho é controversa. Há quem diga que foi criado por um inventor anão para combater os finntroll, enquanto outros alegam que veio de algum lugar distante, como Moreania. Um sifão cáustico é formado por um cilindro metálico conectado por uma mangueira a uma mochila (que armazena sua munição). Quando acionado, o cilindro dispersa ácido em um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. O sifão usa ácido como munição (Tormenta20, p. 160); seu reservatório pode armazenar duas doses de ácido, cada uma suficiente para 5 ataques, e carregá-lo é uma ação completa. Se você possuir habilidades que forneçam bônus em rolagens de dano com itens alquímicos, pode aplicar esse bônus com o sifão cáustico. Pela forma como é carregado, o sifão cáustico ocupa também o espaço de um item vestido."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 600",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "arma de fogo",
+      "empunhadura": "duas mãos",
+      "alcance": "especial",
+      "dano": "4d6",
+      "critico": "x2",
+      "tipoDano": "Ácido"
+    },
+    "especial": "Dispersa ácido em cone de 6m. Ataque à distância comparado com Defesa de cada criatura na área. Reservatório: 2 doses de ácido (5 ataques cada). Carregar: ação completa. Bônus de itens alquímicos se aplicam. Ocupa também o espaço de um item vestido."
+  }
+}

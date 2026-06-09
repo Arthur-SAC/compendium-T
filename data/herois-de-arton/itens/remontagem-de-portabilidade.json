@@ -1,0 +1,19 @@
+{
+  "id": "remontagem-de-portabilidade",
+  "tipo": "item",
+  "nome": "Remontagem de Portabilidade",
+  "resumo": "Aparato que permite \"desmontar\" e unir a engenhoca a um item de vestuário, sem ocupar espaços enquanto vestida.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 300",
+    "espacos": "*",
+    "especial": "Este aparato é na verdade uma modificação total da engenhoca: uma série de molas, hastes e fios que permite que a engenhoca seja \"desmontada\" e unida a um item de vestuário. A engenhoca não ocupa nenhum espaço e, enquanto o item estiver vestido, conta como se também estivesse vestida (sem contar no limite de itens vestidos). Contudo, ela modifica drasticamente o item de vestuário. Qualquer um que o veja pode notar que há uma engenhoca mesclada ao item. Você só pode ter uma engenhoca vestida desta forma por vez."
+  }
+}

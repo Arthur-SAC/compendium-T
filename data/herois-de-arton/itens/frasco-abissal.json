@@ -1,0 +1,19 @@
+{
+  "id": "frasco-abissal",
+  "tipo": "item",
+  "nome": "Frasco Abissal",
+  "resumo": "Preparado proibido no Reinado — faz o próprio ar pegar fogo. Criaturas a 3m sofrem 6d6 de fogo e ficam em chamas (2d6/rodada, ação completa + Reflexos CD 20 ou água para apagar).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 300",
+    "espacos": "0,5",
+    "especial": "Gaste uma ação padrão e arremesse em um ponto em alcance curto. Todas as criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de fogo e ficam em chamas. Reflexos CD Des reduz à metade e evita a condição. As chamas causam 2d6 pontos de dano de fogo por rodada e exigem que a vítima gaste uma ação completa e passe em Reflexos CD 20 ou mergulhe em água para apagá-las."
+  }
+}

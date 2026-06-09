@@ -1,0 +1,19 @@
+{
+  "id": "luva-de-falcoaria",
+  "tipo": "item",
+  "nome": "Luva de Falcoaria",
+  "resumo": "Luva que recobre o antebraço, permitindo que aves de rapina pousem sem machucar. Fornece +2 em testes de Adestramento com pássaros e criaturas semelhantes.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Concede +2 em testes de Adestramento com pássaros e criaturas semelhantes (a critério do mestre)."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "encanto-esoterico-implacavel",
+  "tipo": "item-magico",
+  "nome": "Implacável",
+  "resumo": "Encanto esotérico que permite afetar alvos sem linha de efeito ao gastar +2 PM extra.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando você lança uma magia, pode gastar +2 PM para afetar um alvo contra o qual você não tenha linha de efeito. Você deve estar vendo o alvo ou tê-lo visto em seu último turno, e ele ainda precisa estar no alcance. Pré-requisito: outro encanto."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico",
+    "prerequisito": "outro encanto"
+  }
+}

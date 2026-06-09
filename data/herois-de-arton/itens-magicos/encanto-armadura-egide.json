@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-egide",
+  "tipo": "item-magico",
+  "nome": "Égide",
+  "resumo": "Encanto de armadura que aumenta o bônus na Defesa contra ataques à distância e permite ignorar um dano à distância por cena.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O bônus na Defesa do item contra ataques à distância aumenta em +5. Além disso, uma vez por cena, quando sofre dano de um ataque à distância, você pode gastar 3 PM para ignorar esse dano."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

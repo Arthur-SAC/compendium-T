@@ -1,0 +1,19 @@
+{
+  "id": "analgesico",
+  "tipo": "item",
+  "nome": "Analgésico",
+  "resumo": "Mascara ferimentos permitindo lutar por força de vontade. Ao usá-lo (ação padrão), role 2d4 — esse é o máximo de PM que você pode gastar com a dose. Enquanto durar, ao sofrer dano pode gastar 1 PM para reduzir em 5.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Usar um analgésico é uma ação padrão. Ao usá-lo, role 2d4 — esse é o máximo de pontos de mana que você poderá gastar com essa dose. Até o fim da cena, ou até atingir esse máximo de PM, sempre que sofrer dano você pode gastar 1 PM para reduzir esse dano em 5."
+  }
+}

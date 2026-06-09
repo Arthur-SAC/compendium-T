@@ -1,0 +1,19 @@
+{
+  "id": "conversor-alimentador",
+  "tipo": "item",
+  "nome": "Conversor-Alimentador",
+  "resumo": "Aparato que armazena três doses de essência de mana para pagar custo de aprimoramentos e sustentar engenhocas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 300",
+    "espacos": "*",
+    "especial": "Este frasco de vidro é ligado a tubos de metal e estranhos mecanismos em forma de antena. Comporta três doses de essência de mana (ou outros preparados alquímicos que forneçam PM). Quando ativa a engenhoca, você pode gastar um preparado alquímico que forneça PM e usar os PM fornecidos para pagar seu custo de aprimoramentos e para sustentá-la (caso se aplique)."
+  }
+}

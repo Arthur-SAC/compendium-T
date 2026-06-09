@@ -1,0 +1,19 @@
+{
+  "id": "pandeiro-das-estradas",
+  "tipo": "item",
+  "nome": "Pandeiro das Estradas",
+  "resumo": "Instrumento de ritmos populares. Permite manter a concentração em uma Música de bardo com ação de movimento em vez de padrão.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 200",
+    "espacos": "1",
+    "especial": "Você pode gastar uma ação de movimento, em vez de uma ação padrão, para manter a concentração em uma Música de bardo que exija isso."
+  }
+}

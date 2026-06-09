@@ -1,0 +1,19 @@
+{
+  "id": "estribos",
+  "tipo": "item",
+  "nome": "Estribos",
+  "resumo": "Apoios para os pés que representam grande inovação na tecnologia artoniana. Vestidos pela montaria. Quando você faz uma investida montada, causa +1d8 pontos de dano.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Animal",
+    "preco": "T$ 60",
+    "espacos": "1",
+    "especial": "Deve ser vestido pela montaria. Quando você faz uma investida montada, causa +1d8 pontos de dano."
+  }
+}

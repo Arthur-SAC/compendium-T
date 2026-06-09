@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-belico",
+  "tipo": "item-magico",
+  "nome": "Bélico",
+  "resumo": "Encanto esotérico que parece uma arma e causa dano de essência extra ao lançar magias de dano.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico se parece com uma arma. Por exemplo, se for uma varinha, pode ser comprido e pontiagudo como uma espada curta. Quando lança uma magia de dano, você causa +1d10 pontos de dano de essência."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

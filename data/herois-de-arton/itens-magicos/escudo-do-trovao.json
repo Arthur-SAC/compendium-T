@@ -1,0 +1,20 @@
+{
+  "id": "escudo-do-trovao",
+  "tipo": "item-magico",
+  "nome": "Escudo do Trovão",
+  "resumo": "Escudo pesado guardião de mitral decorado com raios que libera estrondos sônicos para empurrar inimigos ao sofrer dano.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este escudo pesado guardião de mitral é decorado com raios em alto-relevo. Sempre que você sofre dano de um ataque corpo a corpo, pode gastar 2 PM para liberar um estrondo sônico que empurra inimigos adjacentes 3m para trás (Fort CD Car evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Escudo Específico",
+    "categoria": "Maior",
+    "preco": "T$ 54.000"
+  }
+}

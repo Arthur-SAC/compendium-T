@@ -1,0 +1,19 @@
+{
+  "id": "violino-soprano",
+  "tipo": "item",
+  "nome": "Violino Soprano",
+  "resumo": "Instrumento difícil de dominar. Cada criatura sob efeito de Inspiração recebe +1d4 em seu próximo teste de perícia (exceto testes de ataque).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Cada criatura a sua escolha sob efeito de sua Inspiração recebe um bônus adicional de +1d4 em seu próximo teste de perícia (exceto testes de ataque)."
+  }
+}

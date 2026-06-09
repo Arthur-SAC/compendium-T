@@ -1,0 +1,19 @@
+{
+  "id": "mascara-completa",
+  "tipo": "item",
+  "nome": "Máscara Completa",
+  "resumo": "Máscara que cobre totalmente o rosto, geralmente com forma de criatura ou entidade. Escolha uma perícia baseada em Carisma: a máscara concede +1 de acordo com sua forma.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Escolha uma perícia baseada em Carisma. A máscara concede +1 em testes dessa perícia, de acordo com sua forma (uma máscara de demônio pode ajudar em Intimidação, por exemplo)."
+  }
+}

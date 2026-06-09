@@ -1,0 +1,19 @@
+{
+  "id": "asas-do-texugo",
+  "tipo": "item",
+  "nome": "Asas do Texugo",
+  "resumo": "Mochila com asas retráteis movidas por pedais, manivelas e roldanas, criada por kobolds. Permite voo irregular mas controlável.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 200",
+    "espacos": "2",
+    "especial": "Para voar, gaste uma ação de movimento para estender as asas (você passa a ocupar o espaço de uma criatura uma categoria de tamanho maior). Para sair do chão, faça um teste de Atletismo para saltar (CD 15). Se passar, recebe deslocamento de voo 12m por 1 rodada, +1 rodada para cada 5 pontos pelos quais o resultado superar a CD. Saltar de um ponto elevado fornece +5 no teste. Ao fim do voo, você plana (como Queda Suave). Enquanto voa, fica vulnerável e em condição ruim para lançar magias (ignoradas se for treinado em Pilotagem)."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-luminescente",
+  "tipo": "item-magico",
+  "nome": "Luminescente",
+  "resumo": "Encanto de armadura que permite lançar Luz com aprimoramentos de clérigo e cegar criaturas com sensibilidade à luz.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM. Além disso, quando você lança essa magia, além de seus efeitos normais, criaturas com sensibilidade a luz devem passar em um teste de Vontade ou ficam cegas por 1 rodada (apenas uma vez por cena)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

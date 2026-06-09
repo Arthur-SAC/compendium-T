@@ -1,0 +1,32 @@
+{
+  "id": "ossos-de-adamante",
+  "tipo": "magia",
+  "nome": "Ossos de Adamante",
+  "resumo": "Confere redução de impacto 5 e fortificação 25% ao alvo, mas impede mudanças de forma enquanto estiver ativo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Esta magia confere resistência extraordinária ao esqueleto, evitando ataques que causam fraturas graves. O alvo recebe redução de impacto 5 e fortificação 25%. Devido à rigidez do esqueleto, o corpo do alvo se torna incapaz de mudar de forma (como usar ou encerrar a habilidade Forma Selvagem). Se sofrer um efeito de metamorfose, em vez de mudar de forma o alvo perde 1d6 PV por PM gasto no efeito e fica lento. Essa condição não pode ser removida enquanto Ossos de Adamante estiver em efeito. Esta magia não afeta construtos.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a redução de impacto para RD 5 e a fortificação para 50%.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura viva."
+      }
+    ]
+  }
+}

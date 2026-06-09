@@ -1,0 +1,19 @@
+{
+  "id": "flechas-assobiadoras",
+  "tipo": "item",
+  "nome": "Flechas Assobiadoras",
+  "resumo": "Flechas que simulam o canto de um pássaro quando disparadas. Artesãos élficos criavam versões com sons específicos para comunicação entre sentinelas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Pacote com 20 flechas. Um grupo pode usar estas flechas para se comunicar à distância (de forma rudimentar). O som distrativo desta flecha permite usá-la para fazer uma finta contra qualquer alvo dentro do alcance dela (normalmente, uma finta só pode ser feita contra alvos em alcance curto)."
+  }
+}

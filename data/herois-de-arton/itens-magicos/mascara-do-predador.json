@@ -1,0 +1,20 @@
+{
+  "id": "mascara-do-predador",
+  "tipo": "item-magico",
+  "nome": "Máscara do Predador",
+  "resumo": "Máscara metálica que amplifica os sentidos, concede bônus em Investigação e Sobrevivência, e fornece a habilidade Marca da Presa.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta máscara metálica rústica amplifica os sentidos do caçador, facilitando o rastreio de sua presa. Você recebe +5 em testes de Investigação para procurar e em testes de Sobrevivência para rastrear. Você também recebe a habilidade Marca da Presa do caçador. Se já a possui, o custo para usá-la diminui em –1 PM (essa redução não conta para suas habilidades baseadas no total de PM gastos em Marca da Presa)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 22.500"
+  }
+}

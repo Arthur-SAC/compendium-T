@@ -1,0 +1,19 @@
+{
+  "id": "estrepes",
+  "tipo": "item",
+  "nome": "Estrepes",
+  "resumo": "Pequenas peças de metal com pontas afiadas. Cobrem uma área causando dano e deixando lenta qualquer criatura que pisar nela.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Bolsa para cobrir 3m de lado. Gaste uma ação padrão para cobrir com estrepes um quadrado de até 3m de lado adjacente a você. Causam 1d4 pontos de dano de perfuração em qualquer criatura que pise na área. Uma criatura que sofra dano fica lenta até o fim do próximo turno dela."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "braceletes-da-amizade-intensa",
+  "tipo": "item-magico",
+  "nome": "Braceletes da Amizade Intensa",
+  "resumo": "Par de braceletes de prata que ligam dois usuários por telepatia, percepção mútua e compartilhamento de efeitos de cura. Vendido aos pares.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Estes dois braceletes de prata são gravados com símbolos antigos de união e lealdade. Quando colocados (cada um numa pessoa diferente), estabelecem uma ligação poderosa entre seus usuários. Em alcance médio, ambos podem se comunicar por telepatia — podendo ver, ouvir e sentir tudo que o outro vê, ouve e sente. Também podem sempre sentir em que direção e distância o outro está. Por fim, quando um usuário recebe cura mágica ou outro efeito mágico benéfico, o outro também é afetado se estiver em alcance curto. O preço do item é pelo par!"
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 36.000"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "encanto-arma-manafaga",
+  "tipo": "item-magico",
+  "nome": "Manáfaga",
+  "resumo": "Encanto de arma que suga energia mágica do alvo ao acertar, transferindo PM temporário ao portador.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma suga energia mágica do alvo. Quando você acerta um ataque com a arma em um inimigo, ele deve fazer um teste de Vontade (CD For ou Des). Se ele falhar, você recebe 1 PM temporário e ele perde 1d4 PM. Pré-requisito: formidável."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma",
+    "prerequisito": "formidável"
+  }
+}

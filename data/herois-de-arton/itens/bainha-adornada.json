@@ -1,0 +1,19 @@
+{
+  "id": "bainha-adornada",
+  "tipo": "item",
+  "nome": "Bainha Adornada",
+  "resumo": "Bainha coberta de fios de ouro, gemas e ornamentos. Permite portar armas em trajes da corte sem chamar atenção.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Permite que você use armas como parte de um traje da corte (Tormenta20, p. 159). Com isso você pode participar de bailes, festas e encontros da nobreza devidamente armado, sem chamar atenção."
+  }
+}

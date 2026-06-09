@@ -1,0 +1,19 @@
+{
+  "id": "jaqueta-de-couro",
+  "tipo": "item",
+  "nome": "Jaqueta de Couro",
+  "resumo": "Jaqueta de couro aberta na frente. Popular entre exploradores e ladinos. Você recebe +1 em testes de Investigação para interrogar e gasta metade do dinheiro neles.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Você recebe +1 em testes de Investigação para interrogar e gasta apenas metade do dinheiro (arredondado para cima) neles."
+  }
+}

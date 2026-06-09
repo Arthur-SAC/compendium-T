@@ -1,0 +1,19 @@
+{
+  "id": "hidromel-uivante",
+  "tipo": "item",
+  "nome": "Hidromel Uivante",
+  "resumo": "Bebida das montanhas geladas que aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 21",
+    "espacos": "0,5",
+    "especial": "Fornece +2 em rolagens de dano corpo a corpo. CD 20."
+  }
+}

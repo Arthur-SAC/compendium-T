@@ -1,0 +1,19 @@
+{
+  "id": "bussola",
+  "tipo": "item",
+  "nome": "Bússola",
+  "resumo": "Instrumento de navegação que usa um ímã para sempre apontar para o norte. Melhora testes de orientação.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 45",
+    "espacos": "1",
+    "especial": "Quando faz um teste de Sobrevivência para orientar-se, você rola dois dados e usa o melhor resultado."
+  }
+}

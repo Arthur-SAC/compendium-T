@@ -1,0 +1,19 @@
+{
+  "id": "manjar-de-sombras",
+  "tipo": "item",
+  "nome": "Manjar de Sombras",
+  "resumo": "Manjar com ingredientes de terras próximas a cemitérios. Você ignora os próximos 10 pontos de dano de trevas que sofrer.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Prato Especial",
+    "preco": "T$ 20",
+    "espacos": "—",
+    "especial": "Você ignora os próximos 10 pontos de dano de trevas que sofrer."
+  }
+}

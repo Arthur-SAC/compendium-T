@@ -1,0 +1,19 @@
+{
+  "id": "sapatos-confortaveis",
+  "tipo": "item",
+  "nome": "Sapatos Confortáveis",
+  "resumo": "Calçados para jornadas longas. Ignora o primeiro teste de Fortitude para marcha forçada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 6",
+    "espacos": "1",
+    "especial": "Se estiver vestindo sapatos confortáveis, você ignora o primeiro teste de Fortitude para marcha forçada (Tormenta20, p. 270). A critério do mestre, esse benefício pode se aplicar em outros testes de Fortitude para situações semelhantes."
+  }
+}

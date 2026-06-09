@@ -1,0 +1,20 @@
+{
+  "id": "cota-da-serpente-marinha",
+  "tipo": "item-magico",
+  "nome": "Cota da Serpente Marinha",
+  "resumo": "Cota de malha ajustada guardiã feita de escamas de monstros marinhos que concede natação e a magia Sopro das Uivantes.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta cota de malha ajustada guardiã azul-esverdeada é feita com escamas de monstros marinhos. Você recebe deslocamento de natação 12m e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Armadura Específica",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

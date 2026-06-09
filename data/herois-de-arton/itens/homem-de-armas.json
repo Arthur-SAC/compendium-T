@@ -1,0 +1,19 @@
+{
+  "id": "homem-de-armas",
+  "tipo": "item",
+  "nome": "Homem de Armas",
+  "resumo": "Mercenário soldado treinado em armas corpo a corpo. Fortão iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um soldado treinado em armas corpo a corpo, como espadas e machados. Fortão iniciante."
+  }
+}

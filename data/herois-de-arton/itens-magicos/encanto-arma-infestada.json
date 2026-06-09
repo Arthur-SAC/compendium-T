@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-infestada",
+  "tipo": "item-magico",
+  "nome": "Infestada",
+  "resumo": "Encanto de arma habitada por insetos mágicos que pode liberar um enxame sobre inimigos causando dano e enjoo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma é habitada por insetos mágicos. Sempre que você acerta um ataque em um inimigo, pode gastar 2 PM para liberar um enxame sobre ele — o alvo perde 2d6 pontos de vida por veneno e fica enjoado por 1d4 rodadas (Fort CD For ou Des evita a condição)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

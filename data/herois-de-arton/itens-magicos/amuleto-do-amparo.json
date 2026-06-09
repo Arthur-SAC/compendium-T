@@ -1,0 +1,20 @@
+{
+  "id": "amuleto-do-amparo",
+  "tipo": "item-magico",
+  "nome": "Amuleto do Amparo",
+  "resumo": "Medalhão de prata com mão aberta que aumenta em +2 o bônus fornecido ao ajudar aliados.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este medalhão forjado em prata traz a figura de uma mão aberta. Quando você faz um teste para ajudar, o bônus que fornece aumenta em +2."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 10.500"
+  }
+}

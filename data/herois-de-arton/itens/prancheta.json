@@ -1,0 +1,19 @@
+{
+  "id": "prancheta",
+  "tipo": "item",
+  "nome": "Prancheta",
+  "resumo": "Tabuleta de madeira com pergaminho para fingir escrever. Identifica o portador como figura de autoridade, permitindo testes de Nobreza sem treinamento.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "especial": "Alguém que carrega uma prancheta é imediatamente identificado como uma figura de autoridade. Você pode fazer testes de Nobreza para etiqueta mesmo sem ser treinado."
+  }
+}

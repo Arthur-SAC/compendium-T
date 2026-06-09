@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-imperioso",
+  "tipo": "item-magico",
+  "nome": "Imperioso",
+  "resumo": "Encanto esotérico que reduz em uma categoria a ação necessária para comandar efeitos de magias como Conjurar Monstro.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico impõe sua vontade sobre suas criações. Quando você lança uma magia que exige que você gaste ações para comandar o efeito dela, como Conjurar Monstro ou Mão Poderosa de Talude, a ação que você gasta para emitir esse comando diminui em uma categoria (de ação completa para padrão, de padrão para movimento, de movimento para livre). Se a ação for reduzida para livre, você pode emitir apenas um comando como ação livre por rodada; os demais gastam ações de movimento."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

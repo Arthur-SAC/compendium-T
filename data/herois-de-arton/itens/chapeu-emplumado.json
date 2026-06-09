@@ -1,0 +1,19 @@
+{
+  "id": "chapeu-emplumado",
+  "tipo": "item",
+  "nome": "Chapéu Emplumado",
+  "resumo": "Chapéu enorme com abas largas e gigantesca pluma. Na primeira rodada do combate, pode gastar uma ação de movimento para saudar inimigos e receber 1 PM temporário.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Na primeira rodada de um combate, você pode gastar uma ação de movimento para saudar seus inimigos. Se fizer isso, você recebe 1 PM temporário que dura até o fim da cena."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "colar-das-bolas-de-fogo",
+  "tipo": "item-magico",
+  "nome": "Colar das Bolas de Fogo",
+  "resumo": "Colar de ouro com rubis que concede redução de fogo 10, permite lançar Bola de Fogo e amplifica a magia ao quebrar rubis.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este colar de ouro possui cinco pequenos rubis incrustados (ou 1d4+1 rubis, se for encontrado num tesouro). Você recebe redução de fogo 10 e pode lançar Bola de Fogo (CD Int ou Car; se já puder lançar essa magia, você recebe 2 PM para gastar em aprimoramentos dela). Quando lança Bola de Fogo, você pode gastar uma ação de movimento para arrancar e quebrar um dos rubis. Se fizer isso, aumenta a CD para resistir a magia em +2 e todos os dados de dano dela em um passo (ambos os efeitos são cumulativos com bônus de outros itens). Se quebrar todos os rubis, o colar perde seus poderes."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 12.000"
+  }
+}

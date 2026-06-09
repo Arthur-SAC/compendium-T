@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-sombria",
+  "tipo": "item-magico",
+  "nome": "Sombria",
+  "resumo": "Encanto de arma envolta em trevas que concede bônus em Furtividade e acesso à magia Escuridão.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma é envolta em trevas que obscurecem sua presença. Você recebe +2 em testes de Furtividade enquanto empunha esta arma (cumulativo com outros bônus de itens) e pode lançar a magia Escuridão (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

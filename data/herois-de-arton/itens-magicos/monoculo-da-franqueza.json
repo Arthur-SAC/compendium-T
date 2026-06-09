@@ -1,0 +1,20 @@
+{
+  "id": "monoculo-da-franqueza",
+  "tipo": "item-magico",
+  "nome": "Monóculo da Franqueza",
+  "resumo": "Lente de prata que revela intenções e pensamentos ocultos, concedendo +10 em Intuição para perceber mentiras.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta lente emoldurada em prata revela intenções e pensamentos ocultos. Observando alguém em alcance curto através do monóculo, o usuário recebe uma leitura superficial de sua mente, discernindo mentiras ou intenções escusas. Você recebe +10 em testes de Intuição para perceber mentiras."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 4.500"
+  }
+}

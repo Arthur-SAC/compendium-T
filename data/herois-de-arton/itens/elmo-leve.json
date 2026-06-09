@@ -1,0 +1,19 @@
+{
+  "id": "elmo-leve",
+  "tipo": "item",
+  "nome": "Elmo Leve",
+  "resumo": "Capuz de couro/peles ou capacete aberto. Fornece fortificação 25%, mas impõe –2 em Iniciativa e Percepção (anulado com proficiência em armaduras pesadas).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Fornece fortificação 25%, mas impõe –2 em Iniciativa e Percepção. Se você tiver proficiência com armaduras pesadas, anula essa penalidade."
+  }
+}

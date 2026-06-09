@@ -1,0 +1,35 @@
+{
+  "id": "canhao-portatil",
+  "tipo": "item",
+  "nome": "Canhão Portátil",
+  "resumo": "Versão menor dos canhões navais, carregada ao lado do corpo. Arma desbalanceada — usuários com Força menor que 4 são arrastados 3m ao atirar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma versão menor dos canhões utilizados em embarcações, esta arma possui uma grossa alça de couro que permite carregá-la ao lado do corpo. Um canhão portátil é uma arma desbalanceada. Além disso, se sua Força for menor que 4, sempre que faz um ataque com esta arma você é arrastado 3m para trás. O canhão usa bolas de ferro como munição; recarregá-lo é uma ação completa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 3.000",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "arma de fogo",
+      "empunhadura": "duas mãos",
+      "alcance": "curto",
+      "dano": "4d10",
+      "critico": "19/x3",
+      "tipoDano": "Impacto",
+      "habilidades": [
+        "Desbalanceada"
+      ]
+    },
+    "especial": "Se Força menor que 4, é arrastado 3m para trás a cada ataque. Recarregar: ação completa. Requer munição: bola de ferro."
+  }
+}

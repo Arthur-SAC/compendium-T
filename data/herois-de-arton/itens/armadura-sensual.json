@@ -1,0 +1,24 @@
+{
+  "id": "armadura-sensual",
+  "tipo": "item",
+  "nome": "Armadura Sensual",
+  "resumo": "Armadura feita de pedaços minúsculos de cota de malha, pouquíssimas escamas ou tiras extremamente finas de metal. Oferece pouca proteção, mas permite usar o poder Atraente.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 225
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 55",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 1,
+      "penalidadeArmadura": 0
+    },
+    "especial": "Permite usar o poder Atraente. Se você já tiver esse poder, em vez disso o bônus fornecido por ele aumenta para +5. Em muitos lugares de Arton, não é um traje apropriado para bailes, reuniões diplomáticas ou andar na rua — o usuário pode ser barrado ou o bônus pode se tornar penalidade de –2, a critério do mestre. Esses bônus nunca são anulados em combates."
+  }
+}

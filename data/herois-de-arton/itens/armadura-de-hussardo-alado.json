@@ -1,0 +1,24 @@
+{
+  "id": "armadura-de-hussardo-alado",
+  "tipo": "item",
+  "nome": "Armadura de Hussardo Alado",
+  "resumo": "Armadura completa vistosa e impressionante usada por cavaleiros de reinos avançados. Possui duas hastes longas nas costas, cobertas de penas, que parecem asas. Quando o cavaleiro avança a galope, as asas zunem ao vento criando um som amedrontador.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 4.500",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 10,
+      "penalidadeArmadura": -6
+    },
+    "especial": "Quando faz uma investida montada, você pode fazer um teste de Intimidação para assustar o alvo de sua investida. Esse efeito só funciona uma vez por cena com cada oponente."
+  }
+}

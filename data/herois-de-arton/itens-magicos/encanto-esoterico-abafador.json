@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-abafador",
+  "tipo": "item-magico",
+  "nome": "Abafador",
+  "resumo": "Encanto esotérico que reduz a CD das habilidades mágicas de criaturas que falham em testes de resistência contra suas magias.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico ergue uma barreira permeável ao redor do alvo da magia, diminuindo as capacidades dele. Se uma criatura falhar num teste de resistência contra uma magia sua, a CD das habilidades dela diminui em –2 por uma rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

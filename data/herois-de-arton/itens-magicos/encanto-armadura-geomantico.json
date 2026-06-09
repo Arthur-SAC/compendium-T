@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-geomantico",
+  "tipo": "item-magico",
+  "nome": "Geomântico",
+  "resumo": "Encanto de armadura que concede RD 10/impacto e fortificação 25%, além de acesso à magia Controlar Terra.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe redução de dano 10/impacto e fortificação 25%. Além disso, você pode lançar a magia Controlar Terra (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "clarim-deheoni",
+  "tipo": "item",
+  "nome": "Clarim Deheoni",
+  "resumo": "Clarim de metal fino com som marcial, associado a chamados às armas. Criaturas sob efeito de Inspiração recebem +1 em testes de resistência.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 150",
+    "espacos": "1",
+    "especial": "Criaturas a sua escolha sob efeito de sua Inspiração recebem um bônus adicional de +1 em testes de resistência."
+  }
+}

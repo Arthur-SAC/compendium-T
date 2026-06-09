@@ -1,0 +1,20 @@
+{
+  "id": "cinto-da-desmaterializacao",
+  "tipo": "item-magico",
+  "nome": "Cinto da Desmaterialização",
+  "resumo": "Cinto de couro e metal que permite lançar Forma Etérea, mas apenas em si mesmo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cinto feito de couro e metal possui um fecho especial que permite ao usuário desmaterializar seu corpo por um curto período. Você pode lançar Forma Etérea, mas apenas em você mesmo."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

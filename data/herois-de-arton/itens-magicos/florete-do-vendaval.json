@@ -1,0 +1,20 @@
+{
+  "id": "florete-do-vendaval",
+  "tipo": "item-magico",
+  "nome": "Florete do Vendaval",
+  "resumo": "Florete leve formidável de mitral ornamentado com penas que concede voo e bônus de Defesa contra ataques à distância.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe +5 na Defesa contra ataques à distância."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

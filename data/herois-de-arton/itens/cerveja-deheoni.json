@@ -1,0 +1,19 @@
+{
+  "id": "cerveja-deheoni",
+  "tipo": "item",
+  "nome": "Cerveja Deheoni",
+  "resumo": "A bebida mais comum nas tavernas do Reinado. Fornece +1 em testes de resistência. CD 15.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 15",
+    "espacos": "0,5",
+    "especial": "Fornece +1 em testes de resistência. CD 15."
+  }
+}

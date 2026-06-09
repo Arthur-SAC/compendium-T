@@ -1,0 +1,35 @@
+{
+  "id": "arco-de-guerra",
+  "tipo": "item",
+  "nome": "Arco de Guerra",
+  "resumo": "Arco robusto que aplica Força ao dano como o arco longo; arma desbalanceada — não pode ser usado montado. Exótico.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este arco robusto possui braços grossos e resistentes, capazes de disparos poderosos. Como um arco longo, permite que você aplique sua Força às rolagens de dano e não pode ser usado se você estiver montado. A força exigida para puxar o arco de guerra o torna uma arma desbalanceada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 200",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d12",
+      "critico": "x3",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Desbalanceada"
+      ]
+    },
+    "especial": "Aplica Força às rolagens de dano. Não pode ser usado montado. Requer munição: flechas."
+  }
+}

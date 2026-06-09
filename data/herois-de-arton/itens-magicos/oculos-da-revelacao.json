@@ -1,0 +1,20 @@
+{
+  "id": "oculos-da-revelacao",
+  "tipo": "item-magico",
+  "nome": "Óculos da Revelação",
+  "resumo": "Lentes que permitem lançar a magia Lendas e Histórias ao invocar seu poder.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando invoca o poder destas lentes, você pode lançar a magia Lendas e Histórias."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 10.500"
+  }
+}

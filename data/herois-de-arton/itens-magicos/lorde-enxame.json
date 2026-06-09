@@ -1,0 +1,23 @@
+{
+  "id": "lorde-enxame",
+  "tipo": "item-magico",
+  "nome": "Lorde Enxame",
+  "resumo": "Espada longa artefato senciente forjada por civilização desaparecida. A inteligência maligna do Lorde Enxame aloja-se na própria lâmina. Anticriatura (humanoides), capaz de comandar insetos e lançar Legião.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 275 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nos confins de Arton, uma lenda sinistra se espalhou como uma literal nuvem de gafanhotos.\n\nFala sobre o monstruoso Lorde Enxame, vilão cujo corpo enganosamente humanoide era formado por milhares de insetos densamente agrupados — a mão composta empunhando uma reluzente espada mágica. Lorde Enxame se mostrava capaz de comandar todos os insetos presentes em regiões inteiras, lançando pragas voadoras e rastejantes contra os reinos, reduzindo batalhões a ossos. Seu propósito: exterminar as criaturas de sangue vermelho, transformar o mundo em um império rastejante, dominado por insetos. Sua presença aterrorizou vilarejos e causou grande pânico, até que corajosos aventureiros — auxiliados pela maga Raven Blackmoon e por ninguém menos que Mestre Arsenal — desvendaram o segredo do estranho conquistador.\n\nDescobriu-se que Lorde Enxame não era o que aparentava: o \"corpo\" feito de praga compacta não representava sua forma real. A inteligência maligna na verdade se alojava na própria espada, um raro artefato senciente, com vontade e objetivos próprios. Forjada por alguma civilização há muito desaparecida, ou mesmo em algum ponto longínquo no vazio entre mundos. Caprichosa, a arma até mesmo projetava sua voz zumbidora para sustentar a ilusão do corpo falso empunhando-a.\n\nPor muitos anos a espada esteve armazenada em um cofre metálico, trancado e protegido por poderosas magias, uma prisão edificada por mãos desconhecidas. Porém, um tremor de terra causou o rompimento da tranca — e Lorde Enxame escapou, convocando uma legião de insetos para realizar sua fuga. O artefato, mais tarde sob a posse de Mestre Arsenal, teria sido novamente trancado em segurança. Contudo, após sua ascensão divina, estará Lorde Enxame ainda seguro? Correm rumores de que o vilão insetoide foi novamente libertado, já planejando trazer novos horrores a Arton.\n\nAquele capaz de dominar a perigosa espada também poderá reescrever o destino de Arton. Exterminar populações, destruir lavouras, dizimar florestas, debelar exércitos. É imperativo que Lorde Enxame jamais retorne."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "Lorde Enxame é uma espada longa certeira cruel anticriatura (humanoides) magnífica venenosa. Seu usuário pode lançar a magia Legião (CD Car), mas apenas em criaturas que, a critério do mestre, tenham natureza insetoide (inclui alguns kaiju). Por fim, ela é uma arma inteligente com as seguintes características: Artefato (nível 20); Ego 39, Int 5, Sab 2, Car 4 e 31 PM; Perícias Conhecimento +21, Enganação +20, Percepção +18; Magias Compreensão, Enxame de Pestes, Visão Mística (CD 25, atributo-chave Inteligência). Ele é capaz de falar e tem percepção às cegas (médio)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

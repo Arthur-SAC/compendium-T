@@ -1,0 +1,20 @@
+{
+  "id": "coroa-da-majestade-distorcida",
+  "tipo": "item-magico",
+  "nome": "Coroa da Majestade Distorcida",
+  "resumo": "Coroa de prata escura com obsidiana que concede +1 Carisma e permite lançar Comando com bônus, mas quem resistir fica imune.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não podem mais ser afetados — talvez explicando algumas prisões ou banimentos sem motivo aparente..."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 25.500"
+  }
+}

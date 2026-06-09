@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-verdugo",
+  "tipo": "item-magico",
+  "nome": "Verdugo",
+  "resumo": "Encanto esotérico que aumenta permanentemente o dano das magias por dado ao eliminar o primeiro inimigo por cena.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico retira poder da morte de seus inimigos. Na primeira vez em cada cena que você reduz um inimigo a 0 PV ou menos com uma magia lançada com este esotérico, o dano causado por suas magias aumenta em +1 por dado até o fim da cena."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

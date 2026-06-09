@@ -1,0 +1,20 @@
+{
+  "id": "chapeu-dos-truques-infinitos",
+  "tipo": "item-magico",
+  "nome": "Chapéu dos Truques Infinitos",
+  "resumo": "Cartola ornamentada que permite lançar livremente qualquer versão truque de magia de 1º círculo, mesmo desconhecidas.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta cartola ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode lançar livremente qualquer versão truque de qualquer magia de 1º círculo que ofereça esse aprimoramento, mesmo que não a conheça."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "broquel",
+  "tipo": "item",
+  "nome": "Broquel",
+  "resumo": "Escudo pequeno que protege apenas a mão e o pulso. Diferente de outros escudos, não atua como barreira fixa — ajuda a bloquear ataques ativamente. Pode ser usado para atacar como um escudo leve.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 225
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "escudo",
+    "preco": "T$ 25",
+    "espacos": "0,5",
+    "protecao": {
+      "subcategoria": "broquel",
+      "bonusDefesa": 0,
+      "penalidadeArmadura": -1,
+      "rd": 5,
+      "pv": 10
+    },
+    "especial": "Você não recebe bônus na Defesa por um broquel normalmente. Em vez disso, uma vez por rodada, quando é atingido por um ataque, você pode fazer um teste de ataque corpo a corpo. Para cada 10 pontos do resultado desse teste, você reduz o dano sofrido em 2 pontos. Impede o uso da mão que o empunha. Pode ser usado para atacar como um escudo leve."
+  }
+}

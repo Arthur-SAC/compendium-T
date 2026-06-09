@@ -1,0 +1,60 @@
+{
+  "id": "itens-inteligentes",
+  "tipo": "regra",
+  "nome": "Itens Inteligentes",
+  "resumo": "Sistema para criar e gerenciar itens mágicos que adquiriram consciência, personalidade e objetivos próprios por meio de eventos únicos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 269 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Introdução",
+      "texto": "Itens inteligentes são itens mágicos que, através de um evento específico, adquiriram consciência e capacidade de raciocínio alimentadas por magia. Mais do que simples objetos encantados, tornaram-se indivíduos únicos, dotados de personalidade e, muitas vezes, objetivos próprios. A inteligência de um item não pode ser fabricada como um mero encanto: cada um adquire suas faculdades mentais por meio de um evento único, específico de suas histórias particulares.\n\nObjetos sencientes são raríssimos — menos de 1% dos itens mágicos são inteligentes. Eles pensam e agem como seres vivos, e devem ser tratados como NPCs, em vez de meras anotações nas fichas dos heróis. Assim, o mestre deve pensar com cuidado antes de colocar um item mágico inteligente na campanha.\n\nEm termos de regras, um item inteligente é um item mágico único, com um conjunto de características adicionais que representam suas capacidades mentais — nível, atributos, sentidos, comunicação, poderes secundários e pontos de mana. Tornar-se inteligente não muda a categoria de poder do item — ele segue sendo menor, médio, maior ou artefato, como antes de adquirir consciência."
+    },
+    {
+      "titulo": "Criando um Item Mágico Inteligente",
+      "texto": "Para criar um item mágico inteligente, primeiro gere um item mágico normal. Então leia as instruções a seguir para definir suas características adicionais."
+    },
+    {
+      "titulo": "Nível",
+      "texto": "O nível do item inteligente é determinado por sua categoria de item mágico: menor, 9º; médio, 13º; maior, 17º; e artefato, 20º."
+    },
+    {
+      "titulo": "Atributos",
+      "texto": "Itens mágicos inteligentes possuem apenas valores de atributos mentais — sua Força, Destreza e Constituição são nulas. Para definir os atributos do item, role 3d6 e converta o resultado rolado em um valor de atributo usando a Tabela 1-1 (Tormenta20, p. 17). Esta será a Inteligência do item. Repita o processo duas vezes para gerar sua Sabedoria e seu Carisma. Então, role 1d% na Tabela 3-12 (na página a seguir) e aplique os modificadores da coluna \"Atributos\"."
+    },
+    {
+      "titulo": "Sentidos",
+      "texto": "Itens mágicos inteligentes podem ver e ouvir como seres humanos. Alguns, além dos sentidos comuns, possuem também visão no escuro e percepção às cegas. Para definir os sentidos do item, role 1d% na Tabela 3-12."
+    },
+    {
+      "titulo": "Comunicação",
+      "texto": "Itens mágicos inteligentes podem se comunicar com seus usuários. Esta comunicação é rudimentar — o item pode apenas transmitir impulsos que incentivam (ou não) certas ações. O que um item específico incentiva depende de sua personalidade. Alguns itens mágicos podem falar ou comunicar-se telepaticamente (apenas com o usuário). Para definir as capacidades de comunicação do item, role 1d% na Tabela 3-12."
+    },
+    {
+      "titulo": "Poderes Secundários",
+      "texto": "Além de seus encantos, itens mágicos inteligentes possuem um ou mais poderes secundários. Poderes secundários são divididos em menores e maiores. Para definir quantos poderes o item possui e de quais tipos, role 1d% na Tabela 3-12 (sim, ela de novo… e pela última vez).\n\n• Treinamento em Perícia. O item é treinado nas perícias indicadas. Ele faz testes usando seu próprio nível e atributo e, a menos que esteja sendo empunhado para outra ação (como uma arma sendo usada para atacar), pode fazer testes usando suas próprias ações.\n\n• Magias. O item pode lançar as magias indicadas. Ele usa seu próprio nível e atributo e gasta seus próprios PM para isso. Ele gasta sua própria ação, a menos que esteja sendo empunhado para outra ação. O mestre define o atributo-chave dos poderes do item (em geral Carisma)."
+    },
+    {
+      "titulo": "Pontos de Mana",
+      "texto": "Um item inteligente possui sua própria reserva de PM, que é igual à soma do nível dele mais seus atributos mentais. Esses PM podem ser usados pelo item para ativar seus poderes, ou podem ser gastos pelo usuário para habilidades do próprio usuário. Nesse caso, cada PM gasto custa 2 PM do item. Itens inteligentes precisam ficar inertes por 8 horas por dia para recuperar seus PM. Quando fazem isso, recuperam 1 PM por nível (veja abaixo, eles não são afetados por condições de descanso)."
+    },
+    {
+      "titulo": "Ego",
+      "texto": "O ego mede a força de vontade do item e a probabilidade de ele influenciar (ou até mesmo dominar) seu usuário. O ego de um item é igual à soma de seus atributos, mais os modificadores apresentados na Tabela 3-14. Assim, um item mágico maior (ego 15) com três poderes menores (+3), um poder maior (+2), Int 3, Sab 4, Car 0 (+7) e comunicação por fala (+1) tem ego 28.\n\nSempre que você tentar fazer algo contrário aos interesses do item, deve fazer um teste de Vontade (CD igual ao ego do item). Se falhar, não consegue fazer a ação e não pode tentar novamente por 1 dia. Se falhar por 10 ou mais, o item controla suas ações por 1 dia."
+    },
+    {
+      "titulo": "Tabela 3-13: Capacidades de Itens Mágicos Inteligentes",
+      "texto": "| d%     | Atributos              | Sentidos                       | Comunicação | Poderes Secundários          |\n|--------|------------------------|--------------------------------|-------------|------------------------------|\n| 01-25  | Int -1, Sab +0, Car -2 | Visão e audição normais        | Empatia     | Um menor                     |\n| 26-50  | Int +0, Sab +1, Car -1 | Visão e audição normais        | Empatia     | Dois menores                 |\n| 51-75  | Int +1, Sab +2, Car +0 | Visão no escuro                | Fala        | Dois menores e um maior      |\n| 76-90  | Int +2, Sab +3, Car +1 | Percepção às cegas (curto)     | Fala        | Três menores e um maior      |\n| 91-100 | Int +3, Sab +4, Car +2 | Percepção às cegas (médio)     | Telepatia   | Três menores e dois maiores  |"
+    },
+    {
+      "titulo": "Tabela 3-14: Poderes de Itens Mágicos Inteligentes",
+      "texto": "| d%     | Poder Menor                                        | d%     | Poder Maior                                              |\n|--------|----------------------------------------------------|--------|----------------------------------------------------------|\n| 01-10  | Pode lançar Adaga Mental                           | 01-08  | Pode lançar Augúrio                                      |\n| 11-15  | Pode lançar Bênção (apenas no usuário)             | 09-14  | Pode lançar Campo de Força                               |\n| 16-19  | Pode lançar Compreensão                            | 15-20  | Pode lançar Círculo da Justiça                           |\n| 20-22  | Pode lançar Controlar Plantas                      | 21-26  | Pode lançar Condição                                     |\n| 23-26  | Pode lançar Criar Ilusão                           | 27-31  | Pode lançar Controlar Fogo                               |\n| 27-31  | Pode lançar Disfarce Ilusório                      | 32-40  | Pode lançar Curar Ferimentos                             |\n| 32-33  | Pode lançar Escuridão                              | 41-45  | Pode lançar Desespero Esmagador                          |\n| 34-36  | Pode lançar Hipnotismo                             | 46-50  | Pode lançar Globo da Verdade de Gwen                     |\n| 37-40  | Pode lançar Visão Mística                          | 51-55  | Pode lançar Ligação Telepática                           |\n| 41-45  | Pode lançar Vitalidade Fantasma                    | 56-60  | Pode lançar Localização                                  |\n| 46-55  | Treinado em Conhecimento e Religião                | 61-65  | Pode lançar Purificação                                  |\n| 56-65  | Treinado em Diplomacia e Nobreza                   | 66-75  | Pode lançar Raio Solar                                   |\n| 66-75  | Treinado em Enganação e Jogatina                   | 76-80  | Pode lançar Soco de Arsenal                              |\n| 76-80  | Treinado em Intimidação e Sobrevivência            | 81-85  | Pode lançar Sopro das Uivantes                           |\n| 81-90  | Treinado em Intuição e Percepção                   | 86-90  | Pode lançar Velocidade                                   |\n| 91-100 | Treinado em Misticismo                             | 91-100 | Fornece +1 em um atributo do usuário (defina aleatoriamente) |\n\nSe um mesmo poder for rolado mais de uma vez, ignore e role novamente."
+    },
+    {
+      "titulo": "Tabela 3-15: Ego",
+      "texto": "| Característica do Item         | Pontos de Ego |\n|--------------------------------|---------------|\n| Item menor                     | 5             |\n| Item médio                     | 10            |\n| Item maior                     | 15            |\n| Artefato                       | 20            |\n| Cada ponto de atributo         | +1            |\n| Cada poder menor               | +1            |\n| Cada poder maior               | +2            |\n| Comunicação por fala           | +1            |\n| Comunicação por telepatia      | +2            |"
+    }
+  ]
+}

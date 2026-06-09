@@ -1,0 +1,20 @@
+{
+  "id": "arco-do-crepusculo",
+  "tipo": "item-magico",
+  "nome": "Arco do Crepúsculo",
+  "resumo": "Arco longo formidável que muda de cor ao anoitecer e pode ofuscar o alvo atingido.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Um arco longo formidável que muda de cor conforme o sol se põe. Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o alvo fica ofuscado por 1d4 rodadas."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 22.500"
+  }
+}

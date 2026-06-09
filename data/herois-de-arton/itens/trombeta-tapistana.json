@@ -1,0 +1,19 @@
+{
+  "id": "trombeta-tapistana",
+  "tipo": "item",
+  "nome": "Trombeta Tapistana",
+  "resumo": "Instrumento marcial histórico. Ao usar Inspiração, cada criatura escolhida sob seu efeito recebe uma ação de movimento extra em seu próximo turno.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando você usa Inspiração, cada criatura a sua escolha sob efeito dessa habilidade recebe uma ação de movimento extra em seu próximo turno."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "espirito-balistico",
+  "tipo": "magia",
+  "nome": "Espírito Balístico",
+  "resumo": "Invoca um espírito fixo que dispara projéteis mágicos automaticamente contra inimigos a cada turno.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "efeito": "1 criatura conjurada",
+    "duracao": "sustentada",
+    "custoPM": 1,
+    "descricao": "Esta magia invoca um pequeno espírito feito de energia com aparência a sua escolha em um espaço desocupado. O espírito é fixo, permanecendo no lugar onde foi invocado. No começo dos seus turnos, o espírito dispara um projétil mágico contra o inimigo mais próximo em alcance médio, causando 1d6+1 pontos de dano de perfuração. O espírito não realiza outras ações e dispara projéteis a cada rodada, até que a magia termine, não existam mais inimigos no alcance ou o espírito seja destruído. O espírito tem Defesa igual à sua e 20 pontos de vida. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade e falha automaticamente em testes de Reflexos.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em um dado do mesmo tipo (total de dados limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o número de espíritos para dois.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o número de espíritos para três.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+3 PM (Apenas Golem [energia elemental], Qareen ou Kallyanach)",
+        "efeito": "Muda o dado de dano para d8 e o tipo de dano para o tipo escolhido para sua habilidade racial elemental."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bico-de-corvo",
+  "tipo": "item",
+  "nome": "Bico de Corvo",
+  "resumo": "Também chamado 'martelo sambur'; haste de 2m com ponta de lança, gancho e cabeça quadrada. Versátil, fornece +2 em testes para derrubar e quebrar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também chamada de 'martelo sambur', esta arma consiste em uma haste de madeira de 2m de comprimento com uma ponta de lança em sua extremidade. Na base da ponta de lança há um gancho afiado de um lado e uma cabeça quadrada do outro. O bico de corvo é um martelo alongado e versátil, que fornece +2 em testes para derrubar e quebrar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 15",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "1d8",
+      "critico": "x3",
+      "tipoDano": "Impacto/Perfuração",
+      "habilidades": [
+        "Alongada",
+        "Versátil"
+      ]
+    },
+    "especial": "Fornece +2 em testes para derrubar e quebrar."
+  }
+}

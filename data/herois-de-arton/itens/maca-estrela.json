@@ -1,0 +1,30 @@
+{
+  "id": "maca-estrela",
+  "tipo": "item",
+  "nome": "Maça-Estrela",
+  "resumo": "Maça com cravos que causa dano de impacto e perfuração simultaneamente; exige mais treinamento para ser empunhada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma maça com cravos, esta arma exige mais treinamento para ser empunhada, mas desfere golpes mais perigosos. Por seu peso e pontas proeminentes, causa dano de impacto e perfuração ao mesmo tempo."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "2d4",
+      "critico": "x2",
+      "tipoDano": "Impacto e Perfuração"
+    }
+  }
+}

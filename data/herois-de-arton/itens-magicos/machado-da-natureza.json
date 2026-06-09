@@ -1,0 +1,20 @@
+{
+  "id": "machado-da-natureza",
+  "tipo": "item-magico",
+  "nome": "Machado da Natureza",
+  "resumo": "Machado de batalha preciso formidável coberto por musgos e vinhas que cura o portador em acertos críticos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este machado de batalha preciso formidável tem aparência rústica, coberto por musgos e vinhas. Sempre que você faz um acerto crítico com ele, recupera 1d12+1 PV."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 22.500"
+  }
+}

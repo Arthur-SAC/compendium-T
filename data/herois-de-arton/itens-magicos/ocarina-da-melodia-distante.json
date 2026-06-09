@@ -1,0 +1,20 @@
+{
+  "id": "ocarina-da-melodia-distante",
+  "tipo": "item-magico",
+  "nome": "Ocarina da Melodia Distante",
+  "resumo": "Instrumento de porcelana que fornece +2 em Atuação (ou +5 e alcance ampliado de Músicas para bardos).",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este instrumento musical feito de porcelana fornece +2 em Atuação. Contudo, seu verdadeiro potencial só é revelado quando é tocado por um bardo — o bônus em Atuação aumenta para +5 e o alcance de suas Músicas de bardo aumenta em um passo (de curto para médio e de médio para longo)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

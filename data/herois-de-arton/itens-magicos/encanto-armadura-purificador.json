@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-purificador",
+  "tipo": "item-magico",
+  "nome": "Purificador",
+  "resumo": "Encanto de armadura que concede resistência a medo e mental e permite que aliados repitam testes de resistência contra esses efeitos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe resistência a medo e mental +5 e pode gastar 2 PM para permitir que um aliado em alcance curto repita um teste de resistência contra um desses efeitos que o esteja afetando. Se ele passar, cancela o efeito. Você só pode usar essa habilidade uma vez por efeito."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

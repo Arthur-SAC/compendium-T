@@ -1,0 +1,20 @@
+{
+  "id": "clava-de-lava",
+  "tipo": "item-magico",
+  "nome": "Clava de Lava",
+  "resumo": "Clava maciça flamejante formidável de madeira escura com fendas de calor que ampliam o dano de fogo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta clava de madeira escura apresenta fendas que emitem calor e luz alaranjada. É uma clava maciça flamejante formidável; quando acerta um ataque com ela, você pode gastar 1 PM para aumentar o dano de fogo para +3d6."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

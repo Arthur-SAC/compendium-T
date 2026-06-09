@@ -1,0 +1,19 @@
+{
+  "id": "sombra",
+  "tipo": "item",
+  "nome": "Sombra",
+  "resumo": "Mercenário acostumado a agir discretamente e desvendar segredos. Ajudante (Enganação, Furtividade e Investigação) veterano.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 150",
+    "espacos": "—",
+    "especial": "Um mercenário acostumado a agir discretamente e desvendar segredos bem guardados. Ajudante (Enganação, Furtividade e Investigação) veterano."
+  }
+}

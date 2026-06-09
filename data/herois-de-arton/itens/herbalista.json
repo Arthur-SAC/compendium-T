@@ -1,0 +1,19 @@
+{
+  "id": "herbalista",
+  "tipo": "item",
+  "nome": "Herbalista",
+  "resumo": "Mercenário conhecedor de ervas e unguentos medicinais. Médico iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um conhecedor de ervas e unguentos medicinais. Médico iniciante."
+  }
+}

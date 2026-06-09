@@ -1,0 +1,19 @@
+{
+  "id": "ampulheta",
+  "tipo": "item",
+  "nome": "Ampulheta",
+  "resumo": "Objeto delicado para medir o tempo (um ciclo equivale a uma hora). Útil para alquimistas e nobres.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 45",
+    "espacos": "1",
+    "especial": "Quando escolhe 10 em um teste de Ofício (alquimista), você considera o resultado do d20 como um 12 automático."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sequenciador-de-ativação",
+  "tipo": "item",
+  "nome": "Sequenciador de Ativação",
+  "resumo": "Aparato acoplado a três engenhocas que as ativa em sequência como ação livre no início de cada turno.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 600",
+    "espacos": "*",
+    "especial": "Este mecanismo complexo, cheio de partes móveis, alavancas e engrenagens, é acoplado simultaneamente a três engenhocas. Uma vez por cena, você pode gastar uma ação completa para ativar o sequenciador. No início de cada um dos seus próximos turnos, uma das engenhocas acopladas ao sequenciador é ativada como uma ação livre, em uma ordem definida ao acoplá-las ao aparato. Não é possível diminuir a ação necessária para ativar o sequenciador. Você faz os testes de Ofício (engenhoqueiro) normalmente para cada engenhoca. Se algum dos testes falhar, além de essa engenhoca não ser ativada, a sequência de ativação termina (as próximas não serão mais ativadas como ação livre)."
+  }
+}

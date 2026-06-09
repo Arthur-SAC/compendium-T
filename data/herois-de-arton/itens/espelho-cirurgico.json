@@ -1,0 +1,19 @@
+{
+  "id": "espelho-cirurgico",
+  "tipo": "item",
+  "nome": "Espelho Cirúrgico",
+  "resumo": "Haste com espelho de ângulo controlável, usada por médicos de campo. Elimina a penalidade de –5 em testes de Cura em si mesmo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 12",
+    "espacos": "1",
+    "especial": "Se estiver usando um espelho cirúrgico, você não sofre a penalidade de –5 em testes de Cura em si mesmo."
+  }
+}

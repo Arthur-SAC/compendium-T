@@ -1,0 +1,19 @@
+{
+  "id": "mecanismo-de-mola",
+  "tipo": "item",
+  "nome": "Mecanismo de Mola",
+  "resumo": "Estrutura de metal com molas presa ao antebraço. Mantém uma arma leve ocultável e a saca como ação livre, conferindo a qualidade surpreendente.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Você pode manter uma arma leve com a qualidade ocultável no mecanismo de mola. Ao ativá-lo (movimento do pulso), saca essa arma como uma ação livre e ela recebe a qualidade surpreendente para esse ataque."
+  }
+}

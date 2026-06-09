@@ -1,0 +1,31 @@
+{
+  "id": "serrilheira",
+  "tipo": "item",
+  "nome": "Serrilheira",
+  "resumo": "Facão de gume serrilhado que deixa a vítima vulnerável e sangrando; sua aparência agressiva penaliza testes sociais.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este facão possui gume serrilhado e várias rebarbas dispostas ao longo de sua lâmina. Sempre que acerta um ataque com um resultado que ultrapassa a Defesa do alvo por 5 ou mais, você deixa a vítima vulnerável por 1 rodada e sangrando. A aparência agressiva da serrilheira, mesmo para uma arma, impõe –2 em Diplomacia e Enganação, cumulativo com outros efeitos de itens."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "19",
+      "tipoDano": "Corte"
+    },
+    "especial": "Se o ataque superar a Defesa do alvo por 5 ou mais, deixa a vítima vulnerável por 1 rodada e sangrando. Impõe –2 em Diplomacia e Enganação (cumulativo com outros efeitos de itens)."
+  }
+}

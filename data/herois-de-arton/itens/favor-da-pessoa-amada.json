@@ -1,0 +1,19 @@
+{
+  "id": "favor-da-pessoa-amada",
+  "tipo": "item",
+  "nome": "Favor da Pessoa Amada",
+  "resumo": "Mecha de cabelo, lenço perfumado, bilhete de amor ou outro item pessoal dado espontaneamente por alguém querido. Fornece +2 PM, mas para de funcionar se houver desavença.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "—",
+    "espacos": "1",
+    "especial": "Não pode ser comprado nem fabricado — deve ser dado espontaneamente para ter efeito. Fornece +2 PM, cumulativo com bônus de outros itens. Se você e sua pessoa amada tiverem uma desavença ou decepcionarem um ao outro de alguma forma, este item para de funcionar."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "virotes-pesados",
+  "tipo": "item",
+  "nome": "Virotes Pesados",
+  "resumo": "Versões de ponta mais pesada e afiada dos virotes normais. Penalizam o ataque mas ignoram parte da Redução de Dano dos alvos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Pacote com 20 virotes. Você sofre –2 em testes de ataque com estes virotes, mas ignora 5 pontos da RD dos alvos."
+  }
+}

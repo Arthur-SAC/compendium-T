@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-ciclonica",
+  "tipo": "item-magico",
+  "nome": "Ciclônica",
+  "resumo": "Encanto de arma que cria correntes de ar, conferindo resistência a manobras e permitindo criar rajadas de vento.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma cria fortes correntes de ar ao redor do portador. Você recebe +2 em testes contra manobras. Além disso, uma vez por rodada, pode gastar 1 PM para criar uma rajada de vento em um cone de 9m que empurra todas as criaturas 3m na direção oposta (Fort CD For ou Des evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

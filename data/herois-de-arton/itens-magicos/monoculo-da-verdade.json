@@ -1,0 +1,23 @@
+{
+  "id": "monoculo-da-verdade",
+  "tipo": "item-magico",
+  "nome": "O Monóculo da Verdade",
+  "resumo": "Artefato do monarca Orestes Rigaud, o Longevo, forjado nos salões ocultos dos magos de Ahlen. Fornece +10 PM, +10 em Iniciativa, Intuição e Percepção, além de acesso a magias de verdade e círculos de clérigo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 276 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Entre os tesouros mais enigmáticos de Arton, o Monóculo da Verdade carrega a lenda de um soberano cuja astúcia rivalizava com qualquer deus.\n\nEste artefato teria sido forjado nos salões ocultos dos magos de Ahlen e pertenceu a Orestes Rigaud, o Longevo — monarca que desafiou tanto o tempo quanto as intrigas de seus inimigos. Com armação de prata ornada e lente escura como a noite, o monóculo brilhava em arcos coloridos ao capturar a luz, como se revelasse fragmentos da verdade universal.\n\nA obsessão de Orestes por desmascarar mentiras e traições se tornou lendária. Com o monóculo, enxergava através de ilusões e reconhecia venenos ocultos, frustrando assassinos e desarmando conspirações. Sob sua vigília severa, o reino de Ahlen permaneceu estável e sua coroa, segura. Contudo, nenhum monarca vive para sempre. Após décadas de reinado, Orestes sucumbiu à morte natural, e o monóculo desapareceu misteriosamente.\n\nA história conta que um clérigo de Hyninn, enviado para destruir o artefato por ordem divina, foi seduzido por sua cobiça. Substituindo-o por uma imitação, vendeu o original a Mestre Arsenal por uma fortuna exorbitante, traindo tanto sua missão quanto seu deus. Transformado de relíquia de justiça em ferramenta de engano, hoje o Monóculo da Verdade está nas mãos de algum novo dono, ou em meio aos tesouros de alguma masmorra. Seu brilho colorido não revela apenas verdades ocultas, mas também reflete as escolhas sombrias daqueles que ousam possuí-lo."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "O usuário do Monóculo da Verdade recebe +10 PM (apenas após um dia de uso) e +10 em Iniciativa, Intuição e Percepção. Além disso, pode lançar as magias Orientação e Visão da Verdade e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

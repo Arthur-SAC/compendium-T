@@ -1,0 +1,20 @@
+{
+  "id": "olhos-do-corvo",
+  "tipo": "item-magico",
+  "nome": "Olhos do Corvo",
+  "resumo": "Venda que cega em ambientes iluminados, mas confere visão normal em escuridão e imunidade às condições cego e ofuscado.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta tira de tecido deve ser amarrada sobre os olhos como uma venda, cobrindo-os com desenhos que imitam olhos de ave. Enquanto usa o item, você fica cego em ambientes iluminados, mas em ambientes escuros (escuridão leve ou total, mundana ou mágica) enxerga normalmente e fica imune às condições cego e ofuscado."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-densa",
+  "tipo": "item-magico",
+  "nome": "Densa",
+  "resumo": "Encanto de armadura que gera aura de peso, reduzindo o deslocamento de inimigos próximos e podendo deixá-los abalados e lentos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A armadura gera uma aura de peso e lentidão. Isso reduz o deslocamento de inimigos em alcance curto em –3m. Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para deixar todos os inimigos em alcance curto abalados e lentos por 1d4 rodadas (CD For ou Des evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

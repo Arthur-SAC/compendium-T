@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-anatema",
+  "tipo": "item-magico",
+  "nome": "Anátema",
+  "resumo": "Encanto de arma que enfraquece a magia do adversário ao atingi-lo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma enfraquece a magia do adversário. Quando uma criatura é atingida, a CD para resistir às habilidades mágicas dela diminui em –2 por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

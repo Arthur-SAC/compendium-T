@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-clemente",
+  "tipo": "item-magico",
+  "nome": "Clemente",
+  "resumo": "Encanto esotérico que faz as magias de cura curarem um dado extra do mesmo tipo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico vibra com energia positiva, como se estivesse ansioso para salvar vidas. Suas magias de cura curam um dado extra do mesmo tipo."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

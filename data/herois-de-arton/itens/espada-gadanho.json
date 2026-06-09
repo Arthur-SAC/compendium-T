@@ -1,0 +1,34 @@
+{
+  "id": "espada-gadanho",
+  "tipo": "item",
+  "nome": "Espada-Gadanho",
+  "resumo": "Espada de gume invertido (afiada por dentro), ágil e surpreendente. Exótica por seu manuseio especial.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "À primeira vista, esta espada parece um sabre, talvez com lâmina um pouco mais recurvada que o normal. Contudo, o grande truque da espada-gadanho está em seu fio: ela é afiada na parte de dentro, não de fora, pegando muitos inimigos de surpresa. Ela é uma arma ágil e surpreendente. Devido ao seu gume invertido, a espada-gadanho exige treinamento especial para ser empunhada, por isso é uma arma exótica."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 40",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "18",
+      "tipoDano": "Corte",
+      "habilidades": [
+        "Ágil",
+        "Surpreendente"
+      ]
+    }
+  }
+}

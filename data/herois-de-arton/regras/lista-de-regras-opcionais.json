@@ -1,0 +1,36 @@
+{
+  "id": "lista-de-regras-opcionais",
+  "tipo": "regra",
+  "nome": "Lista de Regras Opcionais",
+  "resumo": "Checklist resumo de todas as regras opcionais do Capítulo 4 de Heróis de Arton, com páginas de referência e sugestões de combinações por estilo de jogo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 328 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Introdução",
+      "texto": "Use esta seção para indicar quais regras opcionais estão sendo usadas na campanha."
+    },
+    {
+      "titulo": "Geração de Atributos (p. 280)",
+      "texto": "**Por Rolagens:**\n- Heroica (padrão)\n- Clássica\n- Épica\n\n**Por Pontos:**\n- 10 pontos (padrão)\n- 5 pontos\n- 15 pontos\n\n**Divindade:**\n- Valkaria\n- Nimb\n- Khalmyr\n- Outro"
+    },
+    {
+      "titulo": "Personagens",
+      "texto": "| Regra Opcional | Página |\n|---|---|\n| Raças Abertas | p. 281 |\n| Devoções Abertas | p. 281 |\n| Complicações | p. 282 |\n| Idades Variadas / Morte por Velhice | p. 288 |\n| Objetivos Heroicos | p. 292 |\n| Papéis no Grupo | p. 294 |"
+    },
+    {
+      "titulo": "Combate",
+      "texto": "| Regra Opcional | Página |\n|---|---|\n| Ações Rápidas | p. 296 |\n| Armas Leves e Ágeis | p. 296 |\n| Ataques de Oportunidade | p. 296 |\n| Ataques Mirados | p. 297 |\n| Cobertura Leve e Efeitos | p. 297 |\n| Defesa Épica | p. 297 |\n| Desafiando a Morte | p. 297 |\n| Efeitos Críticos | p. 298 |\n| Escalando Criaturas | p. 300 |\n| Falhas Críticas | p. 300 |\n| Morte Alternativa / Ferimentos Permanentes | p. 300 |\n| Lancinante Revisado | p. 304 |\n| Lesões / Ferimentos Permanentes | p. 304 |\n| Mais Armas Ágeis | p. 304 |\n| Movimento Intercalado | p. 304 |\n| Posicionamento | p. 304 |\n| RD Combinada | p. 304 |\n| Saque Rápido Limitado | p. 304 |"
+    },
+    {
+      "titulo": "Gerais",
+      "texto": "| Regra Opcional | Página |\n|---|---|\n| Culinária Avançada | p. 305 |\n| Exploração de Masmorras | p. 310 |\n| Domínios | p. 314 |"
+    },
+    {
+      "titulo": "Estilos de Jogo",
+      "texto": "Tormenta20 é um RPG de fantasia, mas este gênero pode ser visto de diversas formas. Pode ser leve e aventuresco ou sombrio e violento. Engraçado ou sisudo. Mais realista (relativamente falando…) ou mais exagerado. As próprias obras oficiais do cenário trazem visões diferentes de Arton! Assim, trazemos aqui algumas combinações de regras opcionais que você pode usar para emular estilos mais específicos. Fique à vontade para seguir nossas sugestões ou fazer sua própria \"mistura\". Afinal, seja qual for a visão que você tem dele, Arton é o seu mundo.\n\n**Tática** — Para quem gosta das minúcias do combate.\n- Ações Rápidas\n- Ataques de Oportunidade\n- Ataques Mirados\n- Cobertura Leve e Efeitos\n- Efeitos Críticos\n- Escalando Criaturas\n- Falhas Críticas\n- Morte Alternativa (sem Ferimentos Permanentes)\n- Lancinante Revisado\n- Movimento Intercalado\n- Posicionamento\n- RD Combinada\n- Saque Rápido Limitado\n\n**Épica** — O mais exagerado que temos a oferecer. Enfrente dragões, deuses e a própria Tormenta!\n- Geração de Atributos: Épica (ou 15 pontos)\n- Defesa Épica\n- Desafiando a Morte\n- Escalando Criaturas\n- RD Combinada\n\n**Velha Guarda** — Inspirada em RPGs clássicos, esta será uma campanha com baixo nível de poder e bastante punitiva. Para quem gosta de desafios… ou de sofrer!\n- Geração de Atributos: Rolagem Clássica\n- Papéis no Grupo\n- Efeitos Críticos\n- Falhas Críticas\n- Lesões e Ferimentos Permanentes\n- Exploração de Masmorras"
+    }
+  ]
+}

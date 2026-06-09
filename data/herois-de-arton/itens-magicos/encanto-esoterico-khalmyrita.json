@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-khalmyrita",
+  "tipo": "item-magico",
+  "nome": "Khalmyrita",
+  "resumo": "Encanto esotérico imbuído com a estabilidade da Ordem que permite escolher a média em vez de rolar dados para efeitos variáveis.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico está imbuído com a presença estável da Ordem. Quando lança uma magia com efeito variável, em vez de rolar os dados você pode escolher um valor igual à média da rolagem. Um esotérico khalmyrita não pode ser nímbico."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

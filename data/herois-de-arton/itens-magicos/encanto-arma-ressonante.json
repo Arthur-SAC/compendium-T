@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-ressonante",
+  "tipo": "item-magico",
+  "nome": "Ressonante",
+  "resumo": "Encanto de arma que vibra harmonicamente e pode emitir ondas de choque para atingir criaturas próximas.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma vibra com uma frequência harmônica. Quando você acerta um ataque, pode gastar 2 PM para emitir uma onda de choque em outra criatura em alcance curto. Compare o resultado desse ataque com a Defesa da criatura. Se for suficiente para acertar a criatura, ela sofre uma quantidade de dano psíquico igual à metade do dano causado pelo ataque."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

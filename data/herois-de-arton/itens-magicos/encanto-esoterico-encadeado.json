@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-encadeado",
+  "tipo": "item-magico",
+  "nome": "Encadeado",
+  "resumo": "Encanto esotérico que faz o dano de magias saltar para um segundo inimigo ao reduzir um alvo a 0 PV.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico impulsiona a energia mágica de seus feitiços, fazendo-a saltar para outros alvos. Uma vez por cena, quando você reduz os PV de um inimigo a 0 ou menos com uma magia, você pode causar metade do dano da magia a outro inimigo dentro do alcance original dela. O inimigo tem direito ao mesmo teste de resistência original e não sofre qualquer outro efeito da magia, apenas o dano."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

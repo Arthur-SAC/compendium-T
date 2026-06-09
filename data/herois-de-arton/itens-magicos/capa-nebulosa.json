@@ -1,0 +1,20 @@
+{
+  "id": "capa-nebulosa",
+  "tipo": "item-magico",
+  "nome": "Capa Nebulosa",
+  "resumo": "Capa feita de névoa mágica que transforma camuflagem leve por escuridão ou neblina em camuflagem total.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Feita com finos fios de névoa mágica, esta capa permite ao usuário desaparecer em nevoeiros ou escuridão, como se fizesse parte da névoa ou das trevas. Sempre que você estiver sob camuflagem leve por escuridão ou neblina, essa camuflagem se torna total."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 16.500"
+  }
+}

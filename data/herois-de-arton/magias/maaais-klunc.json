@@ -1,0 +1,33 @@
+{
+  "id": "maaais-klunc",
+  "tipo": "magia",
+  "nome": "Maaais Klunc",
+  "resumo": "Aumenta drasticamente a Força do conjurador em +10, mas reduz sua Inteligência para –3 pelo tempo da magia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Esta magia surgiu com o objetivo de invocar a força estupenda e estapafúrdia de certo bárbaro lendário, capaz de alcançar dimensões colossais. Infelizmente (ou talvez felizmente) seus efeitos reais são muito mais brandos, pouco se aproximando do poder descomunal e descabido do bruto em questão. Melhor assim. Ao lançar a magia, você adquire uma fantástica Força +10. Um relevante efeito colateral, contudo, é que sua Inteligência cai para acachapantes –3. Não, não uma penalidade de –3; um valor –3! Penalidades no atributo são aplicadas após isso. Pela duração de Maaais Klunc, você não pode lançar magias, nem é capaz de interromper esta magia de forma voluntária — nem mesmo soletrar essa palavra. O mestre pode (vai) exigir testes de Inteligência mesmo para as tarefas mentais mais simplórias, como achar a saída de um aposento vazio, diferenciar aliados de inimigos ou determinar qual extremidade da arma vai na direção do adversário.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura voluntária (por que alguém seria voluntário?).",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura involuntária (Vontade evita). Espera, o quê!?",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

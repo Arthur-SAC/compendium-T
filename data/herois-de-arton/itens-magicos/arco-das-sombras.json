@@ -1,0 +1,20 @@
+{
+  "id": "arco-das-sombras",
+  "tipo": "item-magico",
+  "nome": "Arco das Sombras",
+  "resumo": "Arco curto sombrio de madeira negra que pode cegar o alvo atingido.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Feito de madeira negra e fosca, que dizem provir do Reino de Tenebra, este arco curto sombrio parece absorver a luz ao redor. Quando ataca com esta arma, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o alvo fica cego por 1 rodada (Fort CD Des evita)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Arma Específica",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

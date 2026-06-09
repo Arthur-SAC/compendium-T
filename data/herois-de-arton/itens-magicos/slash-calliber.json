@@ -1,0 +1,23 @@
+{
+  "id": "slash-calliber",
+  "tipo": "item-magico",
+  "nome": "Slash Calliber",
+  "resumo": "Espada longa artefato senciente com personalidade das mais inconvenientes — transforma encontros pacíficos em batalhas sangrentas com insultos espontâneos. Certeira, cruel, elétrica e formidável, capaz de lançar Relâmpago.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 276 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Os artefatos de Arton acompanham grandes campeões ou figuram em aventuras épicas. Quase sempre.\n\nEra uma vez uma espada mágica chamada Slash Calliber, cujas histórias enchiam tavernas de incredulidade. Mais que uma arma encantada consciente, era uma personalidade — e das mais inconvenientes. Forjada como uma combinação improvável de magia divina e sarcasmo puro, a espada tinha um talento singular: transformar qualquer encontro pacífico em uma batalha sangrenta (ou, no mínimo, desastrosa).\n\nDizia-se que Slash Calliber podia ler os pensamentos mais sombrios e proibidos de seu portador e de quem mais estivesse por perto. \"Meu dono acha que você fede mais que um cadáver de orc\", proclamava a espada para um bárbaro que até então era aliado de seu portador. Quando o bárbaro inevitavelmente se enfurecia e decidia mostrar quem seria o cadáver agora, o portador de Slash Calliber só podia tentar desmentir (e escapar).\n\nOutras histórias mencionam sua incapacidade completa de ficar calada. Quando um ladino tentou utilizá-la durante uma infiltração no palácio imperial, percebeu tarde demais ser impossível percorrer dois metros sem que o artefato disparasse sonoros insultos contra cada progenitora de cada guarda, nobre ou regente. Conta-se que o infeliz acabou capturado e sentenciado a dezessete prisões perpétuas. Quanto à arma, agora integrando o tesouro do palácio, teria sido parcialmente responsável por incitar a Guerra Artoniana. Exagero, é claro. Ou não.\n\nMas o ápice de sua infâmia teria ocorrido séculos antes, durante a Guerra dos Seis Reinos, evento sem registros oficiais na história de Arton — mencionado apenas em causos de credibilidade escassa. Durante uma reunião de paz, Slash Calliber, então na bainha de um nobre distraído, decidiu fazer uma piada sobre a cintura avantajada do rei anão. A tensão aumentou, culminando em uma peleja tão grandiosa quanto catastrófica. A espada ficaria conhecida nos antigos reinos de Lamnor como \"a Iniciadora de Guerras\".\n\nMas nem tudo é desastre. Uma vez satisfeita com o caos obtido, diz-se que esta arma compensa seu portador com relâmpagos destruidores e habilidades de combate dignas de um guerreiro veterano. O segredo é evitar que ela fique entediada: quando esse evento terrível acontece, Slash Calliber é capaz de qualquer coisa!"
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "Slash Calliber é uma espada longa certeira cruel elétrica formidável. Você pode lançar Relâmpago (se já puder lançar essa magia, seu custo diminui em –1 PM). Ela é uma arma inteligente com as seguintes características: artefato (nível 20); Ego 31, Int 1, Sab –1, Car 5 e 25 PM; Perícias Enganação +21, Intimidação +21, Intuição +18, Percepção +18; Magias Compreensão, Relâmpago (CD 25, atributo-chave Carisma). Ela é capaz de falar (mais do que devia) e tem visão no escuro."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "algibeira-mordedora",
+  "tipo": "item-magico",
+  "nome": "Algibeira Mordedora",
+  "resumo": "Bolsa que morde quem tentar furtá-la, agarrando a mão do ladrão.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Possivelmente concebida por algum arcanista cansado de ser furtado por punguistas, esta bolsa transforma sua abertura em uma bocarra de dentes atrozes, travando mandíbulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão. Quando uma criatura faz um teste de Ladinagem para punga contra você, sofre 6d6 pontos de dano de corte e fica agarrada pela algibeira. Para se soltar, a criatura precisa gastar uma ação padrão e passar em um teste de Acrobacia (CD do item) — você pode liberar a criatura proferindo uma palavra de comando (uma ação livre)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 1.000"
+  }
+}

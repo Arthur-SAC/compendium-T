@@ -1,0 +1,19 @@
+{
+  "id": "estetoscopio",
+  "tipo": "item",
+  "nome": "Estetoscópio",
+  "resumo": "Aparato sofisticado para auscultar corações, mas também usado por ladrões para ouvir mecanismos de fechaduras. Permite ajudar a si mesmo em testes de Cura ou Ladinagem.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 60",
+    "espacos": "1",
+    "especial": "Você pode gastar uma ação padrão para fazer um teste de Investigação para ajudar a si mesmo e aplicar o bônus a um teste de Cura, ou de Ladinagem para abrir fechadura ou sabotar, que você realize até o fim do seu próximo turno."
+  }
+}

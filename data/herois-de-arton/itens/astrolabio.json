@@ -1,0 +1,19 @@
+{
+  "id": "astrolabio",
+  "tipo": "item",
+  "nome": "Astrolábio",
+  "resumo": "Avançado instrumento de navegação que usa a posição relativa das estrelas. Requer educação avançada para ser usado.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 90",
+    "espacos": "1",
+    "especial": "Você pode usar Conhecimento no lugar de Sobrevivência para orientar-se."
+  }
+}

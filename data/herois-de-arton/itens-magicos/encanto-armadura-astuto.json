@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-astuto",
+  "tipo": "item-magico",
+  "nome": "Astuto",
+  "resumo": "Encanto de armadura que concede bônus em Intuição e Percepção e permite detectar criaturas ocultas automaticamente.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você recebe +5 em Intuição e Percepção. Uma vez por rodada, pode gastar 3 PM para detectar automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

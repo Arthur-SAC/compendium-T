@@ -1,0 +1,19 @@
+{
+  "id": "aprendiz-de-guilda",
+  "tipo": "item",
+  "nome": "Aprendiz de Guilda",
+  "resumo": "Mercenário auxiliar treinado em Conhecimento e Ofício. Ajudante (Conhecimento e Ofício) iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um auxiliar treinado, capaz de ajudá-lo em seu ofício. Ajudante (Conhecimento e Ofício) iniciante."
+  }
+}

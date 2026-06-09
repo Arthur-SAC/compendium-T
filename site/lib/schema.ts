@@ -216,6 +216,7 @@ export const ItemMagicoMecanicaSchema = z.object({
   preco: z.string().optional(),       // "T$ 30.000" (encantos: preço vem da Tabela 8-7)
   espacos: z.string().optional(),
   ativacao: z.string().optional(),    // ex.: "ação padrão", quando relevante
+  prerequisito: z.string().optional(), // encantos podem exigir outro encanto (ex.: "Reflexiva" exige "cristalina")
 });
 export type ItemMagicoMecanica = z.infer<typeof ItemMagicoMecanicaSchema>;
 

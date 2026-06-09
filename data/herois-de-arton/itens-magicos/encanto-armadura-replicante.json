@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-replicante",
+  "tipo": "item-magico",
+  "nome": "Replicante",
+  "resumo": "Encanto de armadura com pontas afiadas que devolve dano ao atacante e reduz o dano recebido ao ser atingido.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O item possui pontas afiadas. Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para causar 2d6 pontos de dano do mesmo tipo sofrido ao atacante e reduzir essa mesma quantidade do dano sofrido."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

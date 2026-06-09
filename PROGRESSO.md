@@ -7,8 +7,28 @@
 **Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
 `docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
 
-**Status (2026-06-09): Onda 1 (Cap.1) ✅ · Onda B (código distincao) ✅ · Onda 2 (Cap.2 — 36 distinções, com arte) ✅.**
-Branch já com push pro GitHub. **Próximo: Onda 3 (Cap.3 Arsenal) e Onda 4 (Cap.4 Regras Opcionais).** Build ~2192 páginas, tsc 0.
+**Status (2026-06-09): ✅✅ HERÓIS DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4).** Onda 1 (Cap.1) · Onda B+2 (distinções) · Onda 3 (Cap.3 Arsenal) · Onda 4 (Cap.4 Regras Opcionais) — todas ✅.
+**Totais Heróis:** 5 raças · 1 classe (Treinador) + 14 variantes · 30 origens · 428 poderes · 36 distinções · 202 itens · 167 itens mágicos · 22 magias · 33 regras = **938 entidades**. Build **2607 páginas**, tsc 0, **160 testes**.
+**Tudo commitado LOCAL (não subido pro GitHub** — subir quando o usuário pedir). **Próximo:** revisão por visão por amostragem do Cap.3/4 + arte dos itens mágicos (pendente) + decidir push/PR; depois, próximo livro da Fase 2.
+
+### Fase 2.3 — Onda 4 (Cap. 4 Regras Opcionais) ✅ (`725118f`)
+12 regras (`tipo: "regra"`, grupo "Heróis de Arton" no `/regras`), offset PDF=impressa+2, tabelas em formato pipe:
+- **atributos-variados** (métodos alternativos, inclui valores negativos −3), **racas-abertas**, **devocoes-abertas**.
+- **complicacoes** (Tabela 4-1; 32 gerais + 22 de classe + regra opcional Superação).
+- **idades-variadas** (Tabela 4-2 Faixas Etárias + 18 complicações de idade + Idades das Raças), **objetivos-heroicos** (7 categorias), **papeis-no-grupo** (9 papéis).
+- **combate-avancado** (Tabelas 4-3 Localização, 4-4 Acertos Críticos, 4-5 Teste de Morte, 4-6 Falhas Críticas d% completa; ~20 subtópicos).
+- **culinaria-avancada** (Tabela 4-7 20 ingredientes + 4-8 27 pratos + poderes Ás da Cozinha/Bom de Garfo), **exploracao-de-masmorras**.
+- **dominios** (regência: Tabelas 4-9 Terrenos, 4-10 Construções ~60, 4-11 Unidades Militares, 4-12 Impostos, 4-13 Eventos Aleatórios; Turnos de Domínio, Domínios Místicos, Batalhas Simplificadas), **lista-de-regras-opcionais** (checklist p.328).
+- **Devoção expandida do Druida — RESOLVIDO:** "Devoções Abertas" é uma regra GENÉRICA ("devoto de qualquer divindade, independente de raça ou classe"). Não nomeia classes → `relacoes` vazio (fiel). O jogador descobre como pegar os poderes "druida de Tenebra/Aharadak" pelo pré-requisito já exibido na ficha da classe (lookup dinâmico) + esta regra opcional discoverable em `/regras`. Não foi preciso editar fichas do Básico.
+- **Dívida leve:** aspas tipográficas do PDF normalizadas; revisão por visão do Cap.3/4 foi por amostragem; itens mágicos do Heróis sem arte.
+
+### Fase 2.3 — Onda 3 (Cap. 3 Arsenal dos Heróis) ✅
+Offset PDF = impressa + 2. Spike de schema por tipo conferido (item-magico ganhou campo `prerequisito` `efd4f84`; magia conferida no exemplar Armadura Elemental — couber sem campo novo).
+- **Equipamentos (`6dea0c1`):** **202 itens** (`tipo` item) — 38 armas, 19 armaduras/munições/escudos, ~145 itens gerais/esotéricos/alquímicos/serviços/aparatos. Dedup de 7 itens (slug com-acento vs sem-acento entre 2 subagentes). + regras `novas-habilidades-de-armas`, `aparatos`, `regras-de-bebidas`, `mercenários`, `montarias-e-itens-vestidos`.
+- **Itens mágicos + magias + subsistemas (`0380d4d`):** **22 magias** (arcanas; 4 marcadas "universal" pelo próprio livro — fiel) em `data/herois-de-arton/magias/`. **166 itens mágicos** (`tipo` item-magico) em `data/herois-de-arton/itens-magicos/`: 68 encantos (arma/armadura/escudo/esotérico, com `prerequisito`), 27 específicos nomeados (armas/armaduras/escudos, com preço/categoria), 64 acessórios (Tabela 3-12, categoria Menor/Médio/Maior + preço), 7 artefatos (Kailash, Monóculo da Verdade, Vingança de Khinlanas, Slash Calliber, Lorde Enxame, Armadura de Crânio Negro, Escudo Impérvio). **6 regras de subsistema:** `capangas` (grupos Iniciante/Veterano/Mestre), `veiculos`, `bases` (cômodos+mobílias), `novas-melhorias-de-itens`, `itens-inteligentes`, `itens-amaldicoados`.
+- **Decisão de modelagem registrada:** Capangas/Veículos/Bases = `regra` (subsistemas com tabelas embutidas), não criaturas/itens. Itens Inteligentes/Amaldiçoados = `regra` (sistemas); Artefatos = `item-magico`.
+- **Fix de descoberta (`3d5df71`):** o índice `/regras` filtrava só `tipo: "regra-de-criacao"`, deixando **67 regras órfãs** (47 de Ameaças + 20 de Heróis, todas `tipo: "regra"`). Agora lista os dois tipos, agrupando as de expansão por livro de origem; `navegacao.ts` mapeia `regra`→área "regras". (Backlog do usuário "repensar apresentação das Regras" continua aberto — este foi só o fix mínimo de descoberta, sem redesenho.)
+- **Dívida leve:** nomes divergentes tabela×corpo preservados (ex.: Pérola da Nulificação); "Domo Protetor"/"cúpula protetora" inconsistência da fonte mantida; revisão por visão das magias/itens mágicos foi por amostragem (extração via pdftotext+imagem). Itens mágicos do Heróis ainda sem arte.
 - **Onda 2 ✅ — 36 distinções** (`data/herois-de-arton/distincoes/`, tipo `distincao`): admissão + marca + poderes embutidos + benefício adicional + quadros, todas com **arte** (cor+smask em lote via `extracao/cache/herois-distincoes/arte-lote.mts`; fix manual do Professor de Magia que pegara a lousa). Área `/distincoes` (índice com miniaturas + ficha com arte na lateral, ordem Descrição→Admissão→Marca→Quadros→Benefício→Poderes); categoria "Distinções" no menu. **Fichas de classe/raça** mostram poderes de outras fontes com pré-requisito (lookup dinâmico). Índice `/poderes` dinâmico (abas Gerais + por Classe).
 - **Dívida leve Onda 2:** alguns subagentes omitiram citações de abertura de poder (escape de aspas) e legendas de arte — flavor, não mecânica; revisar no polimento. Campos extras inertes (`escolas`, `acoes`, etc.) ignorados pelo schema.
 

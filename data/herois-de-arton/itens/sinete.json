@@ -1,0 +1,19 @@
+{
+  "id": "sinete",
+  "tipo": "item",
+  "nome": "Sinete",
+  "resumo": "Estojo com cera, papéis e anel ou carimbo com símbolo pessoal. Reduz em –1 PM o custo das habilidades Autoridade Feudal, Favor e outras onde o símbolo pessoal tenha peso.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Reduz em –1 PM o custo das habilidades Autoridade Feudal e Favor e de outras habilidades em que, a critério do mestre, seu símbolo pessoal tenha algum peso."
+  }
+}

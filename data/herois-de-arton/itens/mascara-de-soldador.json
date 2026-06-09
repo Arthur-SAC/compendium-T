@@ -1,0 +1,19 @@
+{
+  "id": "mascara-de-soldador",
+  "tipo": "item",
+  "nome": "Máscara de Soldador",
+  "resumo": "Chapa metálica com visor de lente grossa e escurecida. Permite fazer teste de Percepção para ajudar a si mesmo e aplicar bônus em testes de Ofício.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Quando faz um teste de Ofício, você pode fazer um teste de Percepção para ajudar a si mesmo e aplicar o bônus a esse teste."
+  }
+}

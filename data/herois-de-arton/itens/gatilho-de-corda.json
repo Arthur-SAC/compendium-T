@@ -1,0 +1,19 @@
+{
+  "id": "gatilho-de-corda",
+  "tipo": "item",
+  "nome": "Gatilho de Corda",
+  "resumo": "Aparato que permite ativar a engenhoca com ação de movimento; após uso, requer ação completa para recarregar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 1.500",
+    "espacos": "*",
+    "especial": "Um mecanismo simples, com algumas engrenagens e uma chave. Este aparato só pode ser instalado em engenhocas que simulem magias com execução de ação padrão, e permite que você ative a engenhoca com uma ação de movimento. Contudo, uma vez que a engenhoca seja ativada, você só poderá ativá-la novamente após dar corda no gatilho, o que exige uma ação completa."
+  }
+}

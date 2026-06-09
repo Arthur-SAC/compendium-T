@@ -1,0 +1,18 @@
+{
+  "id": "encanto-armadura-etereo",
+  "tipo": "item-magico",
+  "nome": "Etéreo",
+  "resumo": "Encanto de armadura que permite tornar-se incorpóreo por 1 rodada, ignorando ataques e efeitos não mágicos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 259 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Uma vez por cena você pode gastar 3 PM para se tornar incorpóreo por 1 rodada. Nessa forma, você ignora ataques e efeitos não mágicos e pode atravessar paredes e objetos sólidos, mas não manipulá-los (você tem Força nula). Se terminar sua rodada dentro de um objeto sólido, você é expelido para o espaço vazio mais próximo e perde 1d12 PV para cada 1,5m pelo qual for expelido."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Armadura"
+  }
+}

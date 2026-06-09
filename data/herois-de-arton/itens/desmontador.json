@@ -1,0 +1,35 @@
+{
+  "id": "desmontador",
+  "tipo": "item",
+  "nome": "Desmontador",
+  "resumo": "Haste com garras de mola usada para agarrar e puxar inimigos de montarias. Arma alongada e versátil, +2 em agarrar, derrubar e empurrar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "À primeira vista, o desmontador pode nem parecer uma arma. É uma haste longa, com dois pedaços de metal recurvados na ponta. As partes metálicas possuem um mecanismo de mola, abrindo-se quando as extremidades são pressionadas contra algo, então se fechando. O desmontador é usado para prender pescoços de inimigos, então puxá-los de uma montaria (daí o nome), mantê-los presos à distância ou derrubá-los ao chão. Por isso pode ser usado para agarrar. Um desmontador é uma arma alongada e versátil, fornecendo +2 em testes para agarrar, derrubar e empurrar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 20",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "—",
+      "critico": "—",
+      "tipoDano": "—",
+      "habilidades": [
+        "Alongada",
+        "Versátil"
+      ]
+    },
+    "especial": "Pode ser usada para agarrar. Fornece +2 em testes para agarrar, derrubar e empurrar. A tabela não apresenta dano próprio — a arma é usada principalmente para manobras."
+  }
+}

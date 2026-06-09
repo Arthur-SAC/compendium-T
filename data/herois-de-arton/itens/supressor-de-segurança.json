@@ -1,0 +1,19 @@
+{
+  "id": "supressor-de-segurança",
+  "tipo": "item",
+  "nome": "Supressor de Segurança",
+  "resumo": "Aparato de contingência que permite à engenhoca não enguiçar uma vez por cena em caso de falha na ativação.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 300",
+    "espacos": "*",
+    "especial": "Este sistema de mecanismos de contingência é instalado dentro da engenhoca e interrompe a operação do item em caso de mau funcionamento. Uma vez por cena, a engenhoca não enguiça com uma falha no teste de ativação (ela não ativa seu efeito, mas a CD para o próximo teste não aumenta e ela continua funcionando sem precisar ser consertada)."
+  }
+}

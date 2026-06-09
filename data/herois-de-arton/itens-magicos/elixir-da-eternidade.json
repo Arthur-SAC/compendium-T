@@ -1,0 +1,20 @@
+{
+  "id": "elixir-da-eternidade",
+  "tipo": "item-magico",
+  "nome": "Elixir da Eternidade",
+  "resumo": "Elixir dourado que, ingerido, impede o envelhecimento e concede resistência a trevas +5 e imunidade a envelhecimento mágico até o fim da aventura.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este elixir dourado, guardado em uma ampola de vidro de alta qualidade, é capaz de preservar a vitalidade de uma criatura viva por um longo período. Quando ingerido, evita que o usuário envelheça. Até o fim da aventura, você recebe resistência a trevas +5, torna-se imune a efeitos mágicos de envelhecimento e, se estiver usando a regra opcional de idades variadas (p. 288), ignora todas as suas complicações de idade."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

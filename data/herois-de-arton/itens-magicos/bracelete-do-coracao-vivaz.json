@@ -1,0 +1,20 @@
+{
+  "id": "bracelete-do-coracao-vivaz",
+  "tipo": "item-magico",
+  "nome": "Bracelete do Coração Vivaz",
+  "resumo": "Bracelete de ouro com coração que fornece +10 PV e permite curar 2d8+2 PV ao ser reduzido a 0.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este bracelete de ouro adornado com um coração fornece +10 PV (somente após um dia de uso). Além disso, quando você é reduzido a 0 PV ou menos, pode gastar 2 PM para curar 2d8+2 PV por luz."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 27.000"
+  }
+}

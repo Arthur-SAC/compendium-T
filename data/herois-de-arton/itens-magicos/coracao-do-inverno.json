@@ -1,0 +1,20 @@
+{
+  "id": "coracao-do-inverno",
+  "tipo": "item-magico",
+  "nome": "Coração do Inverno",
+  "resumo": "Cristal azul gelado que permite lançar Raio Polar e pode congelar ambientes fechados abaixo de –10°C.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 265 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este cristal azul claro é muito frio ao toque, parecendo emitir uma aura gélida. Se estiver empunhando o cristal, você pode lançar Raio Polar (CD Int ou Car; se já puder lançar essa magia, seus dados de dano aumentam em um passo). Deixado em um aposento fechado e pequeno (equivalente a no máximo uma área de 9m de raio), faz com que seu interior se torne muito frio (abaixo de –10ºC)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  }
+}

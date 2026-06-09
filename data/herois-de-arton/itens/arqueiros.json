@@ -1,0 +1,19 @@
+{
+  "id": "arqueiros",
+  "tipo": "item",
+  "nome": "Arqueiros",
+  "resumo": "Mercenário: grupamento de arqueiros ou caçadores. Requer treinamento em Guerra para contratar. Unidade de arqueiros veterana.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 300",
+    "espacos": "—",
+    "especial": "Um grupamento de arqueiros, soldados irregulares ou caçadores em busca de algum soldo. Você precisa ser treinado em Guerra para contratar e comandar os arqueiros. Unidade de arqueiros veterana (veja Capangas)."
+  }
+}

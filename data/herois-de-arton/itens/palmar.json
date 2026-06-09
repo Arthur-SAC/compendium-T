@@ -1,0 +1,19 @@
+{
+  "id": "palmar",
+  "tipo": "item",
+  "nome": "Palmar",
+  "resumo": "Equipamento nas mãos semelhante a leques ou pequenas pranchas. Impede empunhar qualquer coisa, mas permite avançar deslocamento inteiro em natação ao passar no teste de Atletismo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 12",
+    "espacos": "1",
+    "especial": "Um personagem usando palmares não pode empunhar nada em nenhuma das mãos. Contudo, quando passa em um teste de Atletismo para natação, avança seu deslocamento inteiro (em vez de metade)."
+  }
+}

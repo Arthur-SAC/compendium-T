@@ -1,0 +1,33 @@
+{
+  "id": "martelo-longo",
+  "tipo": "item",
+  "nome": "Martelo Longo",
+  "resumo": "Haste de 2m com ponta de metal afiada e cabeça densa; combina alcance de alabarda com contundência de martelo. Arma alongada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma haste de madeira com 2m de comprimento, esta arma possui uma ponta de metal afiada ao lado de uma cabeça densa e pesada. Combinando o alcance de uma alabarda com a contundência de um martelo, é uma arma alongada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 12",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "2d4",
+      "critico": "x4",
+      "tipoDano": "Impacto/Perfuração",
+      "habilidades": [
+        "Alongada"
+      ]
+    }
+  }
+}

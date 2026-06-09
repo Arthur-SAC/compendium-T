@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-escultor",
+  "tipo": "item-magico",
+  "nome": "Escultor",
+  "resumo": "Encanto esotérico que permite converter a área de magias de cone para linha ou vice-versa por 1 PM.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico está sempre vertendo um pouco de argila. Quando você lança uma magia com efeito de cone ou linha, pode gastar 1 PM para mudar a área dessa magia de cone para linha ou vice-versa. O comprimento de um cone que se torna linha dobra e o de uma linha que se torna cone é reduzido a um terço (arredonde para baixo, como o normal; por exemplo, 9m se era 30m)."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

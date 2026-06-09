@@ -1,0 +1,19 @@
+{
+  "id": "acido-concentrado",
+  "tipo": "item",
+  "nome": "Ácido Concentrado",
+  "resumo": "Como ácido, mas o alvo sofre 4d8 de dano de ácido e fica vulnerável até o fim da cena (Reflexos CD Des reduz à metade e evita a condição).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "O alvo sofre 4d8 pontos de dano de ácido e fica vulnerável até o fim da cena. Reflexos CD Des reduz à metade e evita a condição."
+  }
+}

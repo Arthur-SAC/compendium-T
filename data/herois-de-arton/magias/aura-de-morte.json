@@ -1,0 +1,33 @@
+{
+  "id": "aura-de-morte",
+  "tipo": "magia",
+  "nome": "Aura de Morte",
+  "resumo": "Aura de frio necrótico que drena a vida do conjurador e das criaturas ao redor a cada turno.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 2,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "esfera com 6m de raio",
+    "duracao": "cena",
+    "custoPM": 2,
+    "descricao": "Uma aura de frio necrótico emana a partir do seu corpo, alimentando-se de sua própria força vital. Quando você lança a magia, e no início de cada um dos seus turnos, você perde 1d6 pontos de vida e cada outra criatura na área perde 2d8 pontos de vida.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta a perda de vida para outras criaturas em +1d8 (número de dados de perda de vida máximos limitados pelo círculo máximo de magia que você pode lançar).",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Adiciona resistência (Fortitude parcial). Além do normal, outras criaturas que percam pontos de vida pela magia devem fazer um teste de Fortitude. Se falharem, não podem recuperar PV por 1 rodada.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

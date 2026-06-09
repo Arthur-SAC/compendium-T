@@ -1,0 +1,27 @@
+{
+  "id": "emular-magia",
+  "tipo": "magia",
+  "nome": "Emular Magia",
+  "resumo": "Permite lançar uma única magia que o conjurador viu ser lançada recentemente, dentro do seu nível de acesso.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "universal",
+    "circulo": 2,
+    "escola": "Evocação",
+    "execucao": "movimento",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 2,
+    "descricao": "Pela duração de Emular Magia, você pode lançar uma única magia que tenha visto ser lançada em alcance curto desde sua última rodada. A magia deve ser de um tipo (arcana ou divina) e de um círculo a que você tenha acesso.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "A magia emulada pode ser de qualquer tipo, arcana ou divina."
+      }
+    ]
+  }
+}

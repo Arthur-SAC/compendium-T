@@ -1,0 +1,25 @@
+{
+  "id": "armadura-de-engenhoqueiro-goblin",
+  "tipo": "item",
+  "nome": "Armadura de Engenhoqueiro Goblin",
+  "resumo": "Armadura peculiar feita de pedaços desencontrados de couro, rebites e cota de malha, com incontáveis ganchos, bolsos e tiras para guardar equipamentos. Desenvolvida originalmente por engenhoqueiros goblins.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 85",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 3,
+      "penalidadeArmadura": -2,
+      "penalidadeMaxima": -10
+    },
+    "especial": "Você pode levar até 2 espaços em itens guardados na armadura, em vez de em sua carga normal. Além disso, pode levar até mais 8 espaços dessa forma (total de 10), mas cada espaço extra aumenta a penalidade de armadura em –1 (até –10). Não aplica penalidade em testes para ativar engenhocas. Por sua natureza enjambrada, a penalidade não pode ser reduzida por quaisquer efeitos (como a melhoria ajustada) e causa –5 em testes de Furtividade."
+  }
+}

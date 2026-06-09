@@ -1,0 +1,18 @@
+{
+  "id": "encanto-esoterico-glacial",
+  "tipo": "item-magico",
+  "nome": "Glacial",
+  "resumo": "Encanto esotérico adornado com safiras que aumenta o dano de frio das magias e deixa alvos vulneráveis por 1 rodada.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 261 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O esotérico é adornado com safiras e frio ao toque. Suas magias que causam dano de frio causam um dado extra de dano do mesmo tipo e deixam os alvos vulneráveis por 1 rodada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Esotérico"
+  }
+}

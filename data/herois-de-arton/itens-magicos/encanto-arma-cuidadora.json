@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-cuidadora",
+  "tipo": "item-magico",
+  "nome": "Cuidadora",
+  "resumo": "Encanto de arma que acumula energia de ataques falhos para proteger o portador, concedendo bônus na Defesa e RD.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta arma acumula a energia de ataques falhos para protegê-lo. Quando você erra um ataque, recebe +2 na Defesa por 1 rodada. Uma vez por rodada, quando sofre dano, você pode gastar 2 PM para receber RD 10 contra esse dano."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

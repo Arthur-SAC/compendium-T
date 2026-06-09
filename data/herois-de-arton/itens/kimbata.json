@@ -1,0 +1,35 @@
+{
+  "id": "kimbata",
+  "tipo": "item",
+  "nome": "Kimbata",
+  "resumo": "Faca em formato de meia-lua com argola no cabo; ocultável e surpreendente. Permite usar Furtividade no lugar de Luta contra desprevenidos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 219
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta faca em formato de meia-lua possui uma pequena argola na extremidade do cabo. Essa argola permite movimentos rápidos, capazes de surpreender qualquer oponente. A kimbata é uma arma ocultável e surpreendente, mas é muito pequena para ser usada efetivamente sem treinamento adequado, por isso é uma arma exótica. Quando ataca uma criatura desprevenida com esta arma, você pode usar Furtividade no lugar de Luta para o teste de ataque."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 12",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "leve",
+      "dano": "1d4",
+      "critico": "18",
+      "tipoDano": "Corte",
+      "habilidades": [
+        "Ocultável",
+        "Surpreendente"
+      ]
+    },
+    "especial": "Quando ataca criatura desprevenida, pode usar Furtividade no lugar de Luta para o teste de ataque."
+  }
+}

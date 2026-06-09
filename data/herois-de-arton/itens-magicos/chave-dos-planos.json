@@ -1,0 +1,20 @@
+{
+  "id": "chave-dos-planos",
+  "tipo": "item-magico",
+  "nome": "Chave dos Planos",
+  "resumo": "Chave mágica que, inserida em uma fechadura, permite lançar Teletransporte ou Viagem Planar sem componente material.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Esta pequena chave de metal parece comum à primeira vista, mas é capaz de abrir portas para lugares distantes. Inserida na fechadura de uma porta comum, permite que você lance Teletransporte ou Viagem Planar, sem necessidade de componente material, desde que também exista uma porta de qualquer tipo no local de chegada."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 60.000"
+  }
+}

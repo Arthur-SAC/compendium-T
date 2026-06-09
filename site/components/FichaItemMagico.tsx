@@ -22,6 +22,7 @@ export function FichaItemMagico({ entidade, registro, descricoes }: { entidade: 
           {m.preco && <span>Preço: <strong>{m.preco}</strong></span>}
           {m.espacos && <span>Espaços: <strong>{m.espacos}</strong></span>}
           {m.ativacao && <span>Ativação: <strong>{m.ativacao}</strong></span>}
+          {m.prerequisito && <span>Pré-requisito: <strong>{m.prerequisito}</strong></span>}
         </div>
         <Divisor />
       </header>

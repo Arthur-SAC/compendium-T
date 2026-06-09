@@ -1,0 +1,19 @@
+{
+  "id": "guarda-costas",
+  "tipo": "item",
+  "nome": "Guarda-Costas",
+  "resumo": "Mercenário especializado em proteger o contratante. Guardião iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um mercenário especializado em proteger seu contratante e enfrentar seus inimigos. Guardião iniciante."
+  }
+}

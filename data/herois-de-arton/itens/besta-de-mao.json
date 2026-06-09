@@ -1,0 +1,35 @@
+{
+  "id": "besta-de-mao",
+  "tipo": "item",
+  "nome": "Besta de Mão",
+  "resumo": "Besta pequena e discreta, popular entre assassinos; arma surpreendente que recarrega como ação de movimento.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta besta pequena e discreta é bastante popular entre assassinos de várias partes do Reinado e além. Ela é uma arma surpreendente e recarregá-la é uma ação de movimento."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d6",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Surpreendente"
+      ]
+    },
+    "especial": "Recarregar é uma ação de movimento. Requer munição: virotes."
+  }
+}

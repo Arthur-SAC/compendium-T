@@ -1,0 +1,20 @@
+{
+  "id": "colar-da-perseveranca",
+  "tipo": "item-magico",
+  "nome": "Colar da Perseverança",
+  "resumo": "Colar de âmbar que concede +5 em Vontade e +2 em todos os testes estendidos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 263 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este colar de âmbar proporciona ao usuário um aumento considerável em sua determinação. Você recebe +5 em Vontade e +2 em todos os testes estendidos."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Média",
+    "preco": "T$ 10.500"
+  }
+}

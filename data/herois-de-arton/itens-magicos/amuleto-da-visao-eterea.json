@@ -1,0 +1,20 @@
+{
+  "id": "amuleto-da-visao-eterea",
+  "tipo": "item-magico",
+  "nome": "Amuleto da Visão Etérea",
+  "resumo": "Amuleto de cristal translúcido que concede resistência a ilusões e permite lançar Visão Mística.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 262 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Este amuleto de cristal translúcido é preso a uma corrente de prata e brilha quando exposto à luz. Você recebe resistência a ilusões +5 e pode lançar Visão Mística. Caso já conheça essa magia, pode lançá-la como uma ação livre."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Menor",
+    "preco": "T$ 3.000"
+  }
+}

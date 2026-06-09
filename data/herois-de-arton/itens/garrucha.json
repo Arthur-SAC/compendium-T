@@ -1,0 +1,36 @@
+{
+  "id": "garrucha",
+  "tipo": "item",
+  "nome": "Garrucha",
+  "resumo": "Pequena arma de fogo do tamanho de uma mão espalmada; ocultável e surpreendente. Recarregar é ação padrão.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 222
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta pequena arma de fogo, do tamanho de uma mão espalmada, pode ser facilmente escondida em uma manga ou nas dobras de uma veste. Uma garrucha é uma arma ocultável e surpreendente; recarregá-la é uma ação padrão."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 250",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "arma de fogo",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "2d4",
+      "critico": "19/x3",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Ocultável",
+        "Surpreendente"
+      ]
+    },
+    "especial": "Recarregar: ação padrão. Requer munição: balas."
+  }
+}

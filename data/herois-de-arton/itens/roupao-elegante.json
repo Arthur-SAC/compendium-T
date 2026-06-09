@@ -1,0 +1,19 @@
+{
+  "id": "roupao-elegante",
+  "tipo": "item",
+  "nome": "Roupão Elegante",
+  "resumo": "Traje de veludo refinado e casual. Fornece +5 em testes de Diplomacia dentro de suas próprias estruturas. Não funciona com armadura ou itens de Força/Destreza/Constituição.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 150",
+    "espacos": "1",
+    "especial": "Você recebe +5 em testes de Diplomacia dentro de uma de suas estruturas (como sua base, negócio ou domínio). Contudo, você não recebe seu benefício se estiver vestindo um item que forneça algum bônus em perícias baseadas em Força, Destreza ou Constituição, ou uma armadura."
+  }
+}

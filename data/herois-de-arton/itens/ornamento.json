@@ -1,0 +1,19 @@
+{
+  "id": "ornamento",
+  "tipo": "item",
+  "nome": "Ornamento",
+  "resumo": "Decoração para desfiles e justas. Uma vez por cena, montado e treinado em Cavalgar, pode se exibir com a montaria para receber +1d4 em um teste de perícia baseada em Carisma.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Animal",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Uma vez por cena, se você estiver montado e for treinado em Cavalgar, pode se exibir com sua montaria para receber +1d4 em um teste de perícia baseada em Carisma."
+  }
+}

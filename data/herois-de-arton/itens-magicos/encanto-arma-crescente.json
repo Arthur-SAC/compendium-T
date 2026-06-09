@@ -1,0 +1,18 @@
+{
+  "id": "encanto-arma-crescente",
+  "tipo": "item-magico",
+  "nome": "Crescente",
+  "resumo": "Encanto de arma corpo a corpo que permite aumentar o tamanho da arma temporariamente, aumentando dano e alcance.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você pode gastar 2 PM para fazer a arma aumentar de tamanho até o fim de seu turno. O dano dela aumenta em um passo e o alcance aumenta em +1,5m. Este encanto só pode ser aplicado a armas de combate corpo a corpo."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "encanto-arma-reflexiva",
+  "tipo": "item-magico",
+  "nome": "Reflexiva",
+  "resumo": "Encanto de arma com superfície brilhante que pode refletir magias de volta ao conjurador.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 257 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A arma tem uma superfície brilhante. Uma vez por rodada, quando é alvo de uma magia, você pode gastar uma quantidade de PM igual ao círculo da magia para refleti-la de volta ao conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela. Pré-requisito: cristalina."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma",
+    "prerequisito": "cristalina"
+  }
+}

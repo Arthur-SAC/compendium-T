@@ -1,0 +1,21 @@
+{
+  "id": "tomo-dos-companheiros",
+  "tipo": "item-magico",
+  "nome": "Tomo dos Companheiros",
+  "resumo": "Livro volumoso da Biblioteca de Tanna-Toh que permite convocar um parceiro veterano de qualquer tipo até o fim do dia.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 267 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Diz-se que este livro volumoso veio da própria Biblioteca de Tanna-Toh, em seu reino divino. De tão poderosas suas histórias, os personagens às vezes escapam para a vida real. Você pode gastar uma ação completa e 3 PM para ler um trecho do livro e convocar um parceiro veterano de um tipo a sua escolha, que surge em um espaço desocupado adjacente. O parceiro dura até o fim do dia ou até você conjurar outro parceiro com o tomo."
+    }
+  ],
+  "mecanica": {
+    "tipoItem": "Acessório",
+    "categoria": "Maior",
+    "preco": "T$ 45.000",
+    "ativacao": "ação completa e 3 PM"
+  }
+}
