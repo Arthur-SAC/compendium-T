@@ -1,0 +1,57 @@
+{
+  "id": "cavaleiro-feerico",
+  "tipo": "distincao",
+  "nome": "Cavaleiro Feérico",
+  "resumo": "Guardiões das tradições élficas de guerra, arte, magia e harmonia com a natureza que elevam o combate a níveis artísticos, sobreviventes da Ordem Perene de Lenórienn.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 142
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Os elfos foram o primeiro povo criado pelos deuses. Assim, sua cultura se refletiu em muitas outras. Um povo ligado aos elfos, ainda que nenhum de seus deuses criadores seja Glórienn, são as fadas. Por coincidência ou reverberação de conceitos élficos na Criação, algumas fadas acabaram se assemelhando aos elfos. Seus nobres, principalmente, lembram elfos esguios e graciosos. Por sua vez, o povo élfico nem sempre ignorou aquilo que, por sua influência, raças mais jovens criaram. Assim, alguns de seus maiores combatentes, guardiões das tradições élficas de guerra, arte, magia e harmonia com a natureza carregam o toque feérico. São chamados, apropriadamente, de cavaleiros feéricos.\n\nCavaleiros feéricos não são uma ordem de cavalaria como o termo é definido no Reinado. Essa é uma tradição humana, com seus próprios ritos. São, isso sim, exemplos de como a nobreza élfica combatia no passado, trupes de luta e orquestras de guerra que dominavam os campos de batalha como artistas. Respeitados pelos animais, abraçados pela floresta, defendiam seu povo e sua deusa como um misto de guerreiros, magos, artistas e aristocratas. As semelhanças superficiais com a cavalaria humana poderiam resultar em intensos debates… se a Ordem Perene dos Cavaleiros Feéricos ainda existisse.\n\nNo auge de Lenórienn, havia um castelo arbóreo esplendoroso — a Morada do Eterno Valor. Lá, jovens aprendiam a devotar sua vida a uma combinação única de arte, magia e espada. Integravam-se à natureza, trajados em verde vívido. Os floreios de suas espadas eram como pinceladas na tela de um artista. Seus passos, elegantes como os de dançarinos. Sua ordem era perene e sua morada era eterna, pois suas sementes residiam nos corações de seus membros.\n\nInfelizmente, quase todos esses corações foram triturados pelas máquinas de guerra dos hobgoblins.\n\nComo se por um pequeno capricho, alguns cavaleiros feéricos sobreviveram ao fim de Lenórienn — não mais como uma ordem, mas como indivíduos. Eles entendem a gravidade da derrota, mas se recusam a permanecer derrotados. Cabe a eles restabelecer sua instituição, uma morada eterna, para que no futuro brilhante do povo élfico esse período sombrio sob as botas enlameadas dos seguidores de Thwor seja uma mera nota de rodapé.\n\nÉ uma tarefa árdua, pois os cavaleiros feéricos são poucos. Costumam viajar pelo mundo em uma eterna busca por heroísmo e vingança, competindo amigavelmente com os arqueiros de Lenórienn por discípulos adequados. Não se apegam à origem dos candidatos, procurando apenas as qualidades celebradas por sua ordem extinta.\n\nA Pondsmânia é lar de uma facção de cavaleiros feéricos. Depois da guerra, esses guerreiros élficos procuraram abrigo e consolo entre as fadas. Foram abraçados pela casa Aghmawor e integraram as cortes dos nobres. Embora imbuídos com as tradições mais antigas da Ordem Perene e envolvidos nos mistérios das cortes das fadas, abandonaram a noção élfica de superioridade e perfeição, abraçando o que sua ordem foi no início. São, talvez mais do que todos, feéricos.\n\nContudo, muitos cavaleiros feéricos agem como se ainda estivessem em Lenórienn, em uma espécie de delírio funcional. São amargurados, vivem em locais isolados, exibindo as cicatrizes de seu corpo e escondendo as de sua alma. Podem enxergar nos inimigos — e até nos amigos — os hobgoblins que um dia enfrentaram e deflagrar banhos de sangue por meros mal-entendidos.\n\nIndependente de sua mentalidade, cavaleiros feéricos elevam o combate a níveis artísticos. São tão letais quanto delicados, tão cheios de protocolos quanto eficientes. Encontrar um deles no campo de batalha é ter um vislumbre de uma época que há muito já acabou, e que provavelmente nunca mais voltará… Mas que ainda está presente em algumas tradições, alguns povos, alguns campeões.\n\nNo passado, a influência élfica sobre as fadas criou os cavaleiros feéricos. No futuro, a influência dos cavaleiros feéricos sobre fadas e mortais pode mudar o mundo.\n\nE os cavaleiros estão dispostos a matar e morrer para provar isso."
+    }
+  ],
+  "mecanica": {
+    "admissao": "No auge do povo élfico, a honra e o dever de se tornar um cavaleiro feérico eram entregues pessoalmente por Glórienn em um sonho. Após receber essa convocação onírica, o candidato precisava visitar a Morada do Eterno Valor e treinar entre seus pares por oito invernos. Durante esse período, era iniciado nos caminhos da espada e entrava em harmonia com a floresta, trabalhando diligentemente até que a semente de sua perfeição germinasse.\n\nNão existindo mais uma ordem formal, um candidato a cavaleiro feérico precisa encontrar um mestre. As circunstâncias encurtam o período de treinamento, mas ainda é necessário um inverno inteiro. Durante essa estação, o candidato é educado nas artes da guerra, na história dos elfos e nos caminhos das fadas. O treinamento ocorre sempre em um local isolado, onde mestre e discípulo convivem apenas um com o outro e com a floresta. Na Pondsmânia, isso pode significar que o candidato tem contato com animais falantes, árvores inteligentes e outras maravilhas. Em terras mais mundanas, a solidão é ainda maior. De qualquer forma, ao fim do treinamento o candidato deve dominar as técnicas e conhecimentos que estudou, além de demonstrar harmonia com a natureza.\n\nContudo, ainda está longe de ser admitido.\n\nO candidato deve retornar a seu mentor no próximo inverno, trazendo uma oferenda digna — a cabeça de um inimigo poderoso, no caso de mentores vingativos; uma armadura élfica, no caso de mentores saudosistas; uma flor única, no caso de mentores que valorizam a beleza... Cabe ao candidato escolher a oferenda. O mentor pode ou não aceitá-la. Caso ela seja recusada, o candidato deve voltar no inverno seguinte e tentar de novo.\n\nCom a oferenda aceita, uma cerimônia de iniciação é conduzida em uma clareira na floresta. O candidato coloca sua oferenda no centro de um círculo de flores. Enquanto isso, seu mentor prepara e bebe um chá tradicional feito com ervas de Lamnor, oferecendo ao candidato uma xícara. A cada gole do aprendiz, o mestre faz uma pergunta.\n\n\"Sua espada é tão elegante quanto o trote de um gamo?\"\n\"Sua magia é tão refinada quanto o canto de um pássaro?\"\n\"Sua arte é tão poderosa quanto o clamor do trovão?\"\n\nO candidato deve beber o chá em três goles e responder a todas as perguntas com \"Ainda não, mas sigo em busca da perfeição\". Caso o faça, o cavaleiro o chama pelo nome e o abraça como um igual, declarando-o um cavaleiro feérico, \"Em nome de Glórienn e Lenórienn, por este inverno e por todos os outros que estão por vir\".",
+    "marca": {
+      "nome": "Conexão Feérica",
+      "descricao": "O cavaleiro feérico vive em harmonia com o mundo natural.\n\nVocê recebe a habilidade Empatia Selvagem (Tormenta20, p. 21) e +1 PM para cada poder da distinção que possuir."
+    },
+    "poderes": [
+      {
+        "nome": "Arte Élfica",
+        "descricao": "Cada tinir da espada é um acorde. Cada rugido de batalha é um verso. O esplendor de cada vitória é uma canção.\n\nUma vez por rodada, quando acerta um ataque com espada longa ou florete, você pode gastar 2 PM para ativar uma Música de bardo ou lançar uma magia arcana com execução de ação de movimento ou padrão como uma ação livre. O círculo máximo de magias que você pode lançar com este poder é limitado pela quantidade de poderes da distinção que possui.",
+        "prerequisito": "habilidade de classe Magias, treinado em Atuação e Luta, Foco em Arma (espada longa ou florete)"
+      },
+      {
+        "nome": "Arma da Floresta",
+        "descricao": "Os espíritos da natureza tornam a elegante lâmina do cavaleiro feérico ainda mais letal.\n\nVocê pode gastar 1 PM para invocar elementos naturais, como madeira, folhas ou pólen, para cobrir uma espada longa ou florete. O dano da arma é considerado mágico e aumenta em um passo até o fim da cena. Caso você use este poder em uma floresta, o efeito dura 1 dia — ou até você sair dela.",
+        "prerequisito": "Arte Élfica"
+      },
+      {
+        "nome": "Armadura da Floresta",
+        "descricao": "O tributo do candidato retorna ao cavaleiro na forma da mais magnífica das armaduras.\n\nVocê recebe uma armadura completa feita de madeira levíssima, folhas e flores. Essa armadura não reduz seu deslocamento, e com ela você pode somar sua Destreza na Defesa e lançar magias arcanas sem necessidade de testes de Misticismo. A cada dois outros poderes da distinção que você possui, a armadura recebe uma melhoria a sua escolha, cujos pré-requisitos ela cumpra (exceto material especial). Se outra criatura tentar vestir essa armadura, ela murcha e morre em instantes. Se a armadura for destruída, renasce ao seu redor em 1 dia.",
+        "prerequisito": "Arte Élfica"
+      },
+      {
+        "nome": "Flagelo dos Duyshidakk",
+        "descricao": "Dez deles por um dos nossos.\n\nVocê soma seu total de poderes da distinção em rolagens de dano contra bandos, enxames e duyshidakk. Além disso, uma vez por rodada, quando reduz um oponente a 0 PV ou menos com um ataque corpo a corpo, você pode gastar 2 PM para percorrer até o seu deslocamento e fazer um ataque corpo a corpo contra outro inimigo.",
+        "prerequisito": "Arte Élfica"
+      },
+      {
+        "nome": "Lâminas Feéricas",
+        "descricao": "As tradicionais armas élficas são a base do treinamento de um cavaleiro feérico.\n\nPara você, espadas longas são armas ágeis. Além disso, quando usa uma espada longa ou um florete, você soma o círculo máximo de magias que pode lançar ao dano e aumenta sua margem de ameaça em +1 para cada dois poderes da distinção.",
+        "prerequisito": "Arte Élfica"
+      },
+      {
+        "nome": "Montaria Feérica",
+        "descricao": "O respeito do cavaleiro feérico pela natureza é recompensado na forma de um aliado leal.\n\nVocê recebe um parceiro montaria veterano, escolhido entre cavalo de guerra, trobo ou outra criatura que, a critério do mestre, tenha uma natureza feérica. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro combatente iniciante. Você recebe +5 em testes de Cavalgar para correr e saltar com sua montaria. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho.",
+        "prerequisito": "treinado em Cavalgar, Arte Élfica"
+      }
+    ]
+  }
+}

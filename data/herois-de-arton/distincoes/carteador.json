@@ -1,0 +1,56 @@
+{
+  "id": "carteador",
+  "tipo": "distincao",
+  "nome": "Carteador",
+  "resumo": "Artista dos jogos de azar que aprende a distorcer a própria realidade, trapaceando as leis dos mortais e dos deuses por meio de sua maestria na jogatina e na sorte.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 136
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nas terras e águas fora da lei, vive-se de violência, roubo, contrabando... E jogo.\n\nO carteador é um artista dos jogos de azar, desde o Wyrt dos nobres ahlenienses até os jogos de dados mais simples, conhecidos por todos os marinheiros e vaqueiros. Ele ganha a vida apostando todo o dinheiro que tem — e muitas vezes o que não tem. Nada é sagrado para um carteador, tudo pode ser apostado: suas armas, suas roupas, seus itens mágicos, sua vida, as vidas de seus amigos...\n\nO carteador não apenas sabe jogar, mas também blefar e trapacear. Pode vencer uma partida por planejamento cuidadoso, pura sorte ou por desonestidade completa com a mesma facilidade. Vivendo ao sabor do destino, pode estar rico em um dia e miserável na manhã seguinte, bebendo com reis hoje e escapulindo de piratas amanhã. Para o carteador, a vida é um jogo.\n\nAqueles corajosos (ou loucos... ou ambos!) o bastante para se entregar à aleatoriedade da vida recebem poderes especiais sobre a sorte. Dedicando-se aos jogos de azar com tanta intensidade, o carteador passa a enxergar a Criação com outros olhos. Compreende que nada é fixo ou imutável, nada é improvável demais, nada é garantido. Afinal, durante muito tempo em Arton pensava-se que Khalmyr sempre seria o líder do Panteão. Que o Reinado nunca enfrentaria uma guerra em larga escala. Que a identidade do Terceiro nunca seria revelada. Que a Flecha de Fogo sempre permaneceria um mistério. Para um carteador, nenhum desses eventos monumentais parecia impossível, assim como não parece impossível que um dia os artonianos possam destruir a Tormenta, ou que a magia seja extinta e substituída pela ciência, ou que os humanos deixem de ser a raça mais numerosa. Tudo pode acontecer.\n\nO carteador considera que tudo é um jogo. A realidade é apenas um conjunto de regras complexas que, como todas as regras, podem sofrer abusos, ser reescritas e, é claro, ser burladas. Aplicando sua maestria na jogatina a todas as situações, o carteador arrisca tudo em resultados improváveis, blefa frente a inimigos poderosos e trapaceia as próprias leis do mundo físico.\n\nEmbora carteadores não pertençam a uma organização formal, existem alguns pontos em comum entre eles. Quase todos são naturais de locais onde a honestidade é pouco valorizada, como Ahlen, os Três Mares ou Smokestone. Os poucos sábios que já se dedicaram a estudar a maneira como esses apostadores distorcem a realidade especulam que apenas pessoas que aprenderam desde muito cedo a desprezar normas rígidas podem desenvolver as capacidades de um carteador. Também existem carteadores oriundos da província de Fortuna, no Império de Tauron, anteriormente conhecida como \"o Reino da Boa Sorte\". A energia mística que distorce probabilidades nessa terra talvez também seja capaz de moldar a mente de um jogador a ponto de fazê-lo enxergar as brechas nas regras da Criação.\n\nPor colocar o próprio destino nas mãos do acaso, o carteador e bastante querido por Nimb, o Deus da Sorte e do Azar. Mas o carteador não é devotado a nenhum deus: sua única preocupação é com as cartas em sua mão naquele instante, e com aquelas escondidas na manga da casaca. No próximo instante ele pode enriquecer. Ou morrer.\n\nEm algum momento na carreira da maioria dos carteadores, surge um candidato a carteador que o desafia para um jogo de azar. Isso faz parte do processo de adquirir essas capacidades. Caso o carteador seja derrotado, perde seus poderes e deve começar de novo."
+    },
+    {
+      "titulo": "Magias Simuladas",
+      "texto": "Uma magia simulada é uma habilidade não mágica que reproduz os efeitos de uma magia, como os poderes Flagelo dos Mares e Truque de Mágica (Tormenta20, pp. 48 e 89).\n\nMagias simuladas seguem as mesmas regras de magias normais, exceto por não serem habilidades mágicas e não contarem como magias (não se beneficiam de efeitos que afetam magias, como itens esotéricos e catalisadores, e não exigem testes de concentração). Entretanto, elas não se acumulam com outras magias (simuladas ou não)."
+    }
+  ],
+  "mecanica": {
+    "admissao": "O primeiro passo para se tornar um carteador é adquirir a mentalidade fora da lei que permite trapacear qualquer regra dos mortais e dos deuses. Assim, qualquer candidato que não seja natural de Ahlen, dos Três Mares, de Smokestone, de Fortuna ou de locais semelhantes deve passar um período extenso num desses lugares, até que comece a pensar como alguém que tenha nascido lá. Esse tempo pode envolver aventuras, desde que elas ensinem ao candidato que nada é improvável demais e que toda lei está sujeita a trapaças.\n\nAlém disso, o carteador precisa dominar ao menos três jogos de azar diferentes. Em geral, o Wyrt, o Cavillan e o Dhagn'dir são os preferidos, mas qualquer jogo que envolva apostas, aleatoriedade e habilidade pode ser usado. A definição exata sobre o que significa \"dominar\" um jogo varia de carteador para carteador. Contudo, em geral um candidato considera que dominou um jogo quando pode sentar em uma mesa de altas apostas e disputar uma partida em qualquer lugar, sem medo dos outros jogadores, quem quer que sejam.\n\nSe o candidato já cumpriu esses requisitos, começa o desafio real.\n\nUm candidato a carteador tem que vencer no mínimo três partidas diferentes de jogos de azar, em condições específicas. Numa delas, precisa contar com sua habilidade, quando a sorte o trai completamente. Na outra, precisa depender apenas da sorte, abrindo mão de qualquer técnica mais avançada do que o conhecimento das regras básicas, confiando que as cartas ou dados certos simplesmente irão se mostrar. Por fim, precisa vencer uma partida trapaceando do início ao fim, quebrando pelo menos uma vez cada regra básica do jogo, sem que os outros jogadores percebam.\n\nAs três partidas também precisam envolver três apostas diferentes. Qualquer partida pode ser combinada com qualquer aposta, desde que todas as apostas sejam feitas e todas as condições de vitória sejam cumpridas. A primeira aposta é uma quantidade de dinheiro que vai afundá-lo em dívidas que levarão anos ou décadas para ser pagas. A segunda é sua própria vida. Por fim, a terceira é sua alma. Cabe ao candidato encontrar mesas de jogos onde as apostas sejam tão altas, assim como jogadores capazes de fazer uso de sua vida ou de sua alma.\n\nObviamente, todas as três partidas devem envolver oponentes que também dominam os jogos de azar em questão. Nenhum dos oponentes pode ser um amigo ou aliado do candidato. Qualquer tentativa de manter a segurança nessas partidas significa que o candidato ainda não é capaz de se entregar à sorte e ao azar. Assim, ainda não está pronto.\n\nDepois que o candidato vence as três partidas, deve procurar um outro carteador e desafiá-lo para um jogo de azar. O prêmio são as capacidades do carteador. Cada carteador decide se vai aceitar o desafio e o que exigirá como aposta em troca de seus poderes. Caso o candidato vença a partida, torna-se um carteador. Seu oponente agora não é mais um carteador e, se quiser voltar a sê-lo, deve passar pela admissão mais uma vez.",
+    "marca": {
+      "nome": "Sorte de Principiante",
+      "descricao": "Sorte grande, não é?\n\nVocê aprende e pode lançar Orientação, mas apenas em você mesmo e apenas para testes de Jogatina. Alternativamente, se possuir o suplemento Deuses de Arton, você aprende e pode lançar Sorriso da Fortuna (atributo-chave Carisma, p. 64) e pode usá-la em jogos mágicos. Em ambos os casos, esta não é uma habilidade mágica e provém de sua capacidade de… sutilmente torcer as regras do jogo a seu favor (veja \"Magias Simuladas\", p. 44)."
+    },
+    "poderes": [
+      {
+        "nome": "Dado Viciado",
+        "descricao": "A realidade é só mais uma mesa de jogo, onde vence quem tem os melhores dados.\n\nNo início de cada cena, você recebe 1d6 como dado de auxílio, +1d6 para cada outros dois poderes da distinção que possua. Quando faz um teste de perícia, você pode pagar 1 PM para cada dado de auxílio que quiser gastar, e soma o resultado deles como bônus no teste. Além disso, sempre que rolar mais de um dado de auxílio e o resultado de pelo menos dois deles for igual, você ganha 1 PM temporário por dado igual.",
+        "prerequisito": "treinado em Jogatina"
+      },
+      {
+        "nome": "Ás na Manga",
+        "descricao": "O arsenal de trapaças de um carteador é praticamente infinito.\n\nQuando você faz um teste de perícia, pode gastar 2 PM para usar Jogatina no lugar dessa perícia. Você só pode fazer isso uma vez para cada perícia a cada cena.",
+        "prerequisito": "Dado Viciado"
+      },
+      {
+        "nome": "Jogo Perigoso",
+        "descricao": "Só um tolo joga com as cartas que lhe foram dadas.\n\nVocê pode gastar uma ação completa para fazer uma aposta com uma entidade sobrenatural. Escolha uma magia de 1º círculo, arcana ou divina, e faça um teste de Jogatina (CD 20 + o custo em PM da magia). Se passar, até o fim da cena, ou até usar este poder novamente, você pode lançar essa magia (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um bardo do seu nível. Se falhar, você perde 2 PM para cada círculo da magia. A cada dois outros poderes da distinção, você pode escolher magias de um círculo acima do 1º.",
+        "prerequisito": "treinado em Misticismo, Ás na Manga"
+      },
+      {
+        "nome": "Resultado Destinado",
+        "descricao": "Um carteador é capaz de trapacear com seus inimigos, com os deuses e com o próprio destino.\n\nUma vez por cena, você pode pagar 5 PM. Escolha uma habilidade de classe de até 5° nível de uma classe que não seja a sua. Você recebe essa habilidade e pode usá-la como se tivesse 5 níveis nessa classe (se escolher a habilidade Magias, você aprende uma única magia, mas não soma o atributo-chave da habilidade em seu total de PM) até o fim da cena. Seu atributo-chave para a habilidade é Carisma. Você não pode escolher a mesma habilidade de classe duas vezes na mesma aventura.",
+        "prerequisito": "Jogo Perigoso, 17° nível de personagem"
+      },
+      {
+        "nome": "Seduzir a Sorte",
+        "descricao": "Contam-se histórias sobre um carteador capaz de rolar um 7 num dado de 6 faces.\n\nQuando rola um ou mais dados de auxílio, você pode pagar 1 PM para fazer uma aposta com o mestre. Você rola os seus dados de auxílio e soma o resultado, enquanto o mestre rola a mesma quantidade do mesmo tipo de dados em segredo. Após rolar seus dados, você deve adivinhar qual o maior resultado total (entre a sua rolagem e a do mestre). Se adivinhar corretamente, você recupera os dados de auxílio gastos. Se perder, fica frustrado.",
+        "prerequisito": "Dado Viciado"
+      }
+    ]
+  }
+}

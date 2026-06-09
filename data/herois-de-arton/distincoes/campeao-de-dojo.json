@@ -1,0 +1,52 @@
+{
+  "id": "campeao-de-dojo",
+  "tipo": "distincao",
+  "nome": "Campeão de Dojo",
+  "resumo": "Artistas marciais extremos de tradição tamuraniana, que dedicam suas vidas à perfeição do corpo e da mente, honrando mestre, escola e estilo com cada golpe.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 130
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Arton possui aventureiros tão estranhos quanto variados. Muitos não recorrem a espadas pesadas ou armaduras imponentes, nem confiam apenas em força bruta. Dominam técnicas antigas de combate desarmado, com movimentos acrobáticos, profunda dedicação e um enorme respeito por seus colegas e — principalmente — por seus oponentes.\n\nA maioria dessas técnicas vem de Tamu-ra. Essa terra de tradições arraigadas educa seus lutadores de formas únicas. Embora haja em Tamu-ra simples brigões que aprendem batendo e apanhando, como em qualquer lugar, no Império de Jade dojos ou escolas de artes marciais são instituições respeitadas. A linhagem de mestres e discípulos é algo tão solene quanto sua linhagem familiar. Um estudante das artes marciais tradicionais tamuranianas pode recitar quem é seu mestre, o mestre de seu mestre e assim por diante, até a origem (muitas vezes mítica) de seu estilo.\n\nUm artista marcial tradicional tamuraniano também não aprende qualquer técnica, usando as manobras mais eficientes, independente de sua procedência. Isso é o caminho mais rápido, mais prático, sim. Mas, para os adeptos dessas tradições, luta não é apenas sobre machucar um oponente. Cada movimento tem um significado espiritual, uma lição a passar. Assim, esses artistas utilizam apenas as técnicas codificadas por seu estilo. Sua evolução não é medida segundo os inimigos que derrota, mas avaliada por seu mestre, que lhe confere graduações sucessivas quando acha que ele merece.\n\nContudo, apesar de toda essa tradição, toda essa disciplina, a maioria dos estudantes de um dojo nunca chega ao ápice do que essas escolas podem ensinar. Mesmo que alcancem a maior graduação, partem em aventuras, ou se desgarram dos ensinamentos, ou usam técnicas de outros estilos... Ou apenas encaram seu aprendizado como uma ferramenta poderosa.\n\nPoucos, muito poucos, continuam no dojo após aprender tudo que ele pode ensinar. Esses são os verdadeiros escolásticos de um estilo marcial tamuraniano, que vivem seus ensinamentos a cada dia, para quem a escola é mais importante que qualquer feudo, o treino estruturado é mais emocionante que qualquer aventura. Cada um deles é o melhor aluno de seu mestre, o exemplo que todos os outros devem seguir, talvez destinado a herdar a escola e continuar sua tradição.\n\nO campeão de dojo.\n\nO campeão de dojo é um artista marcial extremo, combinando destreza, disciplina e coragem em estilos de combate espantosos, com habilidades que parecem mágicas. Inspirados por histórias de heróis lendários e mestres invencíveis dos antigos salões de treinamento, dedicam suas vidas à perfeição do corpo e da mente. Não apenas lutam de mãos vazias, mas também manejam com maestria armas tradicionais tamuranianas, como bastões, nunchakus e lanças. Cada golpe é uma dança; cada movimento, uma obra de arte. Para eles, batalha não é apenas questão de força, mas de equilíbrio, precisão e estratégia.\n\nCampeões de dojo são conhecidos por sua impressionante habilidade atlética. Podem correr pelas paredes, saltar sobre obstáculos impossíveis e mover-se com a leveza de uma folha ao vento. Muitos utilizam tais habilidades não apenas para lutar, mas também para explorar ruínas esquecidas, atravessar abismos traiçoeiros, derrotar armadilhas letais ou escapar de situações desesperadoras. Seu corpo é um templo e uma arma, aprimorado continuamente — o campeão de dojo não luta apenas contra inimigos, mas contra seus próprios limites. Não busca apenas vitória, mas honrar seu mestre, sua escola e seu estilo.\n\nApesar de sua dedicação às artes marciais, campeões de dojo nem sempre são monges reclusos. Embora o dojo possa ser um mosteiro, uma fortaleza oculta ou outro local isolado, também pode ser um centro de treinamento em uma aldeia ou área urbana, aberto a todos que estejam dispostos a se esforçar. Frequentando uma mesma escola durante a vida toda, muitos campeões se tornam protetores de suas comunidades, heróis que defendem os fracos e enfrentam o mal que ameaça seu lar. Outros partem em aventuras, buscando testar suas habilidades contra oponentes fortes, levar o legado de seu dojo por toda Arton. Mas voltam de tempos em tempos para honrar suas responsabilidades. Afinal, cada dojo só pode ter um campeão, e aceitar este título significa carregar o fardo que ele impõe.\n\nTodo dojo tem origem tamuraniana — ou seja, localiza-se em Tamu-ra, Nitamu-ra ou em alguma outra comunidade de imigrantes. Contudo, existem campeões de todas as raças e etnias. A disciplina, afinal, pode se manifestar em pessoas de qualquer origem."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Ao contrário de outras especializações de aventureiros, esta começa desde muito cedo. Para se tornar um campeão de dojo, o candidato deve ter treinado em um dojo tradicional tamuraniano durante toda sua vida (ou ao menos boa parte dela), sem se desviar do caminho do estilo ou aprender técnicas que não sejam ensinadas no dojo.\n\nMesmo que seja um aventureiro errante, o candidato deve, de tempos em tempos, voltar ao dojo, relatar a seu mestre suas façanhas, treinar com os demais alunos. Cada dojo exige uma regularidade mínima de visitas para que alguém continue sendo considerado um discípulo, mas candidatos honrados não costumam ter problemas. Seus atos trazem orgulho ao dojo.\n\nAo longo de sua carreira, o candidato não pode avaliar a si mesmo quanto ao domínio do seu estilo. Apenas o mestre pode fazer isso, nas visitas do candidato ao dojo. Quando o candidato alcança a graduação máxima no estilo, pode finalmente tentar ser um campeão de dojo.\n\nO processo para se tornar um campeão de dojo é exatamente o que parece: vencer um campeonato contra todos os alunos graduados do dojo. O candidato deve se apresentar ao mestre e pedir permissão de desafiar o dojo inteiro. Se o mestre concordar, o desafio começa imediatamente. Em um mesmo dia, com uma pausa de poucos minutos entre cada luta, o candidato deve vencer todos os seus colegas (desde que tenham habilidade comparável a ele mesmo), usando apenas as técnicas do estilo. Ao fim de cada luta, depois de cumprimentar e agradecer ao oponente, deve relatar ao mestre uma lição que aprendeu durante o embate. Por exemplo, um colega pode ser lento demais para fazer frente ao candidato, mas sua tenacidade e espírito guerreiro podem ensinar a ele sobre perseverança.\n\nUma vez que todos os colegas sejam vencidos e todas as lições sejam aprendidas, o candidato deve vencer seu próprio mestre. Essa costuma ser a luta mais feroz da vida do mestre — nenhum deles deseja que o campeão de seu dojo tenha conquistado o título sem merecer. Se o dojo já tiver um campeão, o candidato deve vencê-lo também.\n\nUma vez que todos os adversários tenham sido vencidos, o mestre confere o título de campeão de dojo ao candidato. Então os colegas aplaudem e o abraçam, iniciando uma imensa comemoração que pode se estender noite adentro.\n\nContudo, sempre é preciso defender o título de campeão de dojo. O campeão deve continuar visitando o dojo regularmente e, se um novo candidato desafiá-lo, deve vencer a luta. Caso contrário, deixa de ser um campeão de dojo.",
+    "marca": {
+      "nome": "Foco Marcial",
+      "descricao": "O campeão de dojo aprende a concentrar sua mente em um único ataque.\n\nVocê pode gastar uma ação de movimento para receber +1d8 na rolagem de dano de seu próximo ataque desarmado feito nessa rodada."
+    },
+    "poderes": [
+      {
+        "nome": "Golpe Concentrado",
+        "descricao": "A primeira técnica dominada pelo campeão é canalizar sua energia em seus golpes.\n\nVocê pode gastar uma ação de movimento e 2 PM para se concentrar em seus golpes. Quando faz isso, até o fim da cena você recebe +1d8 em suas rolagens de dano desarmado.",
+        "prerequisito": "Sab 2, Briga"
+      },
+      {
+        "nome": "Caminho da Mão Armada",
+        "descricao": "O treinamento de um campeão por vezes envolve dominar as armas tradicionais de seu dojo.\n\nEscolha três armas corpo a corpo com as quais tenha proficiência. Para você, essas armas contam como ataques desarmados para efeitos que interagem com eles de qualquer forma e, quando ataca com uma delas, você pode usar o dano básico da arma ou seu dano desarmado, o que for melhor.",
+        "prerequisito": "Golpe Concentrado"
+      },
+      {
+        "nome": "Caminhar do Dragão",
+        "descricao": "O treinamento do campeão de dojo torna seus passos mais leves que o ar.\n\nVocê recebe +5 em Atletismo e pode gastar 1 PM para \"correr no ar\" por 1 rodada, como se tivesse deslocamento de voo igual ao seu deslocamento base. Você deve terminar seu movimento sobre o chão ou outra superfície firme, ou cairá ao solo.",
+        "prerequisito": "treinado em Atletismo, Golpe Concentrado"
+      },
+      {
+        "nome": "Controlar a Respiração",
+        "descricao": "Graças a seu treinamento intenso, o campeão de dojo se torna mestre do próprio corpo.\n\nVocê pode gastar uma ação de movimento e uma quantidade de PM limitada por sua Sabedoria. Para cada PM que gastar, recupera 2d6 pontos de vida. Para cada dois outros poderes da distinção que você possui, cada dado de cura aumenta em um passo.",
+        "prerequisito": "Golpe Concentrado"
+      },
+      {
+        "nome": "Sentidos do Tigre",
+        "descricao": "Aprimorados por anos de treinamento, os sentidos do campeão protegem-no de qualquer ameaça.\n\nVocê soma sua Sabedoria na Defesa e em Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+        "prerequisito": "Golpe Concentrado"
+      }
+    ]
+  }
+}
