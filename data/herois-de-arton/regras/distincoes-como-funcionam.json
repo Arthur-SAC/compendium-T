@@ -1,0 +1,44 @@
+{
+  "id": "distincoes-como-funcionam",
+  "tipo": "regra-de-criacao",
+  "nome": "Como Funcionam as Distinções",
+  "resumo": "Distinções são caminhos especiais ligados a organizações, filosofias ou eventos. Conquistá-las exige uma admissão narrativa (a partir do patamar veterano) e concede a marca da distinção e acesso a seus poderes exclusivos.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 104 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Distinções",
+      "texto": "Arton é um mundo de aventureiros que perseguem os mais diversos caminhos. Entretanto, há aqueles para os quais o trivial não é suficiente — não importa quanto poder venha disso. O sinistro e implacável Cavaleiro do Corvo. O orgulhoso e melancólico arqueiro de Lenórienn. São exemplos de aventureiros que desejam pertencer a algo maior. Eles buscam uma distinção.\n\nDistinções são um novo conjunto de regras para Tormenta20. São ligadas a algum elemento específico, como uma organização militar, um grupo de estudiosos, os adeptos de uma filosofia e assim por diante. Os bruxos da Tormenta, os mutagenistas e os médicos de Salistick são ótimos exemplos. Distinções também podem representar o resultado de eventos ou escolhas específicas na história de um personagem. Isso inclui, por exemplo, o chapéu-preto e o gigante furioso.\n\nConquistar uma distinção transforma o personagem, aproxima-o de Arton — de suas organizações, ideologias, divindades... Mais do que cumprir requisitos mecânicos e receber bônus, obter uma distinção é parte da história do aventureiro."
+    },
+    {
+      "titulo": "Distinções em Jogo",
+      "texto": "Em termos de regras, uma distinção é um conjunto de poderes exclusivos, disponíveis apenas para personagens que sejam admitidos entre seus membros. Cada distinção é formada por três elementos: admissão, marca da distinção e poderes da distinção. Algumas oferecem um benefício adicional para personagens que obtenham uma certa quantidade de poderes da distinção.\n\nO caminho de uma distinção é árduo — apenas aventureiros com certa bagagem conseguem dominar este tipo de conhecimento. Assim, embora qualquer personagem possa tentar realizar os passos necessários para cumprir os critérios de admissão de uma distinção, apenas aqueles de patamar veterano (ou seja, a partir do 5º nível) ou acima podem obter seus poderes."
+    },
+    {
+      "titulo": "Admissão",
+      "texto": "Admissão é o conjunto de tarefas e requisitos necessários para conquistar uma distinção. De forma geral, envolve ações dentro da história e não critérios puramente mecânicos. Assim, para se tornar um dracomante real é preciso, em jogo, ter contato com um Dragão-Real. A capacidade mecânica de lançar magias não basta.\n\nUma admissão não acontece no passado do personagem. Começar o jogo com um personagem em nível avançado não dá direito a distinções automáticas. Da mesma forma, admissões nunca acontecem “fora de cena”, nos intervalos entre as sessões. Ocorrem estritamente na mesa de jogo.\n\nEscolher e ingressar em uma distinção deve ser algo especial, um momento-chave na vida de cada personagem. Por isso, cada admissão é descrita de forma a permitir que o mestre a transforme em parte de sua história, como uma aventura para o grupo ou um interlúdio individual. O mestre tem a palavra final sobre como aplicar os critérios de admissão.\n\nCumpridos os critérios de admissão, o candidato passa a fazer parte da distinção. Como isso ocorre varia, mas o personagem recebe sempre a marca da distinção correspondente e ganha acesso a seus poderes."
+    },
+    {
+      "titulo": "Marca da Distinção",
+      "texto": "Uma habilidade especial recebida automaticamente quando o personagem conquista a distinção."
+    },
+    {
+      "titulo": "Poderes de Distinção",
+      "texto": "Uma lista de poderes exclusivos que podem ser escolhidos como poderes gerais e, assim como esses, podem possuir outros pré-requisitos mecânicos. Poderes de distinção seguem todas as regras para poderes.\n\nMuitas distinções têm poderes ou habilidades com efeitos que variam de acordo com o número de “poderes da distinção” que você possui. Quando isso acontece, refere-se apenas aos poderes da distinção específica que fornece esse poder ou habilidade. Mesmo que você tenha mais de uma distinção, esses efeitos nunca contam os poderes das outras. Algumas distinções possuem poderes que podem ser escolhidos mais de uma vez. A cada vez que o poder é escolhido, conta como um poder separado para efeitos baseados na quantidade de poderes da distinção que você possui."
+    },
+    {
+      "titulo": "Usando Distinções",
+      "texto": "Além de oferecer novas opções para personagens, as distinções criam novas oportunidades narrativas para mestres e jogadores. Isso é o principal ao usar distinções em uma campanha: a história!\n\nA disponibilidade de cada distinção depende do tema da campanha e de como a história transcorre. Uma jornada ambientada em Halak-Tûr dificilmente oferecerá uma chance de visitar o Ninho do Corvo, tornando praticamente impossível conquistar a distinção Cavaleiro do Corvo. Por outro lado, os jogadores são encorajados a conversar com o mestre e apresentar seus objetivos de antemão.\n\nO que nos leva a outro ponto. Diferente de muitos outros recursos de regras, distinções não são garantidas. Uma distinção não é um direito do personagem, é algo a ser conquistado. E esse processo de conquista ocorre essencialmente através de ideias e ações dentro da narrativa. Uma distinção deve ser a recompensa por esforço, criatividade e construção da história."
+    },
+    {
+      "titulo": "Aplicando Admissões",
+      "texto": "Os critérios de admissão são propositalmente descritos em termos narrativos, não exclusivamente sob a forma de requisitos mecânicos (como ter ou não determinada perícia ou poder). O mestre tem liberdade para aplicá-los da forma que melhor funcionar para seu grupo e campanha.\n\nAventuras de admissão. Certas admissões podem ser resolvidas como uma aventura completa, ou parte de uma aventura. O navio que um capitão do Conclave Pirata deve obter, por exemplo, pode ser conquistado após uma luta contra uma tripulação purista que assolava a costa. Assim, ainda que o teste seja o objetivo de um personagem, o grupo todo poderá participar. Diversas distinções indicarão que há partes da admissão possíveis de serem realizadas pelo grupo todo.\n\nTempo entre aventuras e testes estendidos. Sempre que possível, as etapas de uma admissão devem ser resolvidas como parte de uma aventura. Entretanto, em alguns casos, a tarefa pode ser exclusiva do candidato, ou pode ser algo em que só alguém com conhecimento apropriado poderia ajudar (como construir a máquina voadora de um aeronauta goblin). Nesses casos, usar uma ação de tempo entre aventuras pode funcionar, mas com moderação. Testes estendidos podem ser usados em casos semelhantes, como para resolver desafios propostos por um mentor ou examinador.\n\nHistória e ideias. O processo de admissão deve ser resolvido dentro da história. Isso inclui a boa e velha interpretação. É preciso visitar locais ligados à distinção, investigar boatos... Como principal interessado em conquistar uma distinção, o jogador é o responsável por dedicar todo o esforço necessário.\n\nMentores de distinções. Algumas distinções exigem a orientação de um mentor. Em termos de regras, um mentor deve ser um NPC de pelo menos patamar veterano e possuir no mínimo três poderes da distinção. Distinções que representam organizações formais podem possuir critérios adicionais para que alguém seja considerado um mentor. Em todos os casos, o mestre tem a palavra final."
+    },
+    {
+      "titulo": "E Agora?",
+      "texto": "Conquistar uma distinção sempre será um marco na história do personagem. Em alguns casos, isso será acompanhado de uma cerimônia formal (como a iniciação de um Cavaleiro do Corvo), enquanto em outros será simplesmente um sentimento de realização profunda. Por fim, algumas distinções promovem verdadeiras transformações físicas no candidato, como o processo de se tornar um gigante furioso.\n\nEm suma, conquistar uma distinção não significa apenas ter acesso a um novo conjunto de poderes. Ao receber uma distinção, o personagem se torna algo diferente e especial."
+    }
+  ]
+}
