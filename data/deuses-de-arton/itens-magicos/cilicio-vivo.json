@@ -1,0 +1,22 @@
+{
+  "id": "cilicio-vivo",
+  "tipo": "item-magico",
+  "nome": "Cilício Vivo",
+  "resumo": "Cinta de couro com anzóis enferrujados de Aharadak que bebe do sangue do usuário, reduzindo PV máximos em 1 por nível mas concedendo +1 (ou +2 para devotos) em todos os testes.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "aharadak", "rotulo": "Aharadak" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Maior",
+    "preco": "T$ 37.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta cinta de couro possui anzóis enferrujados e afiados. Para usar o cilício vivo, você deve amarrá-lo em sua coxa ou braço (ele conta como um item vestido), de forma a cravar os anzóis em sua carne. O cilício então bebe de seu sangue, adquirindo uma consistência úmida e pulsante. Isso reduz seus PV máximos em 1 por nível. Porém, a dor constante o mantém vigilante, fornecendo um bônus de +1 em todos os seus testes (cumulativo com outros bônus de itens). Se você for um devoto de Aharadak, o bônus aumenta para +2. Se for um devoto de Aharadak de patamar campeão ou superior, o cilício vivo também aumenta seus PM máximos em +1 por nível. Acessório maior, preço T$ 37.000."
+    }
+  ]
+}

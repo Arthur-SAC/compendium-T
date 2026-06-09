@@ -1,0 +1,15 @@
+{
+  "id": "resplendor-divino",
+  "tipo": "poder",
+  "nome": "Resplendor Divino",
+  "resumo": "Gasta 2 PM para criar aura de luz solar de 9m: criaturas na aura perdem camuflagem por escuridão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "azgher",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para gerar uma aura de luz solar com 9m de raio que dura até o fim da cena. Além de sofrer os efeitos de exposição à luz, criaturas dentro da aura perdem toda camuflagem por escuridão e efeitos semelhantes (como da cobertura de sombras do aprimoramento da magia Escuridão)."
+  }
+}

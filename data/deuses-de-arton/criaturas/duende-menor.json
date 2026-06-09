@@ -1,0 +1,56 @@
+{
+  "id": "duende-menor",
+  "tipo": "criatura",
+  "nome": "Duende Menor",
+  "resumo": "Pequena fada de aparência infantil com um tabu secreto que governa sua existência. Brincalhão ou maléfico, entrega-se a tarefas que parecem sem sentido para os outros mas são muito importantes para ele.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 287 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Duendes podem ter quase qualquer aparência imaginável. São geralmente pequenos, não excedendo a altura de um anão, embora existam alguns grandalhões e desajeitados. Em comum, todos parecem personagens de histórias infantis, até mesmo tolos aos olhos de adultos.\n\nDuendes costumam se entregar a tarefas que parecem bobas e sem sentido para outros povos, mas muito importantes para eles próprios. Como outras fadas, duendes podem ser apenas brincalhões, ou então maléficos: alguns realizam trabalhos domésticos em troca de leite e biscoitos, outros pregam peças perigosas e comem carne crua.\n\nTodo duende tem um tabu, um ato que ele nunca pode fazer — ou deixar de fazer. Um duende nunca diz qual é seu tabu. Quando impedido de cumprir seu tabu, um duende morre em poucos dias."
+    }
+  ],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Espírito",
+    "tamanho": "Pequeno",
+    "tema": "Fadas",
+    "iniciativa": "+4",
+    "percepcao": "+6",
+    "sentidos": "visão no escuro",
+    "defesa": "14, Fort +1, Ref +6, Von +10, evasão",
+    "pontosDeVida": "22",
+    "pontosDeMana": "9",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +7 (1d4+4, 19)."
+    ],
+    "atributos": {
+      "forca": "-1",
+      "destreza": "2",
+      "constituicao": "-1",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "3"
+    },
+    "pericias": "Conhecimento +2, Enganação +5, Furtividade +6.",
+    "equipamento": "Adaga.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Sortudo (Reação, 3 PM)",
+        "descricao": "Quando faz um teste, o duende menor o rola novamente."
+      },
+      {
+        "nome": "Tabu",
+        "descricao": "Todo duende possui um tabu, que pode ser descoberto com um teste de Conhecimento (CD 30) ou com um teste de Investigação (CD 20) para interrogar os plebeus da região — muitos tabus são conhecidos pelo folclore popular. Um personagem que conheça o tabu de um duende pode forçá-lo a ajudar em algo com um teste de Enganação oposto a um teste de Vontade. Quando impedido de cumprir seu tabu, um duende morre em 1d4+1 dias."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um conjurador arcano de 1º nível (CD 16).\n• Enfeitiçar (Padrão, 1 PM) Um humanoide em alcance curto fica enfeitiçado (Vontade evita).\n• Criar Ilusão (Padrão, 1 PM) O duende cria uma ilusão com imagens em alcance médio, que ocupa até 4 cubos de 1,5m. Criaturas e objetos atravessam a ilusão sem sofrer dano (Von desacredita).\n• Sono (Padrão, 1 PM) Um humanoide em alcance curto fica inconsciente e caído ou, se estiver envolvido em uma situação perigosa, fica exausto por 1 rodada, depois fatigado (Von reduz para fatigado por 1d4 rodadas)."
+      }
+    ]
+  }
+}

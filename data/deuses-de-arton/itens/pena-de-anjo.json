@@ -1,0 +1,20 @@
+{
+  "id": "pena-de-anjo",
+  "tipo": "item",
+  "nome": "Pena de Anjo",
+  "resumo": "Presente sagrado de deus ou comprado em templos, que faz os alvos de uma magia divina recuperarem 1d8 PV além dos efeitos normais da magia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Os alvos de uma magia divina lançada com uma pena de anjo recuperam 1d8 PV (além dos efeitos da magia)."
+  }
+}

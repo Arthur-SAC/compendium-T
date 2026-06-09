@@ -1,0 +1,57 @@
+{
+  "id": "silfide-travessa",
+  "tipo": "criatura",
+  "nome": "Sílfide Travessa",
+  "resumo": "Minúscula fada humanóide de não mais de 30cm, com orelhas pontiagudas e asas de inseto translúcidas. Brincalhona e traiçoeira, tem fraqueza especial para nomes verdadeiros e usa raios arcanos e magias ilusórias.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 293 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Sílfides são o povo-fada de Arton. Sua aparência pode variar, mas em geral são pequenos humanoides medindo não mais de 30cm de altura. Têm orelhas pontiagudas (parecem elfos em miniatura), um ou dois pares de asas translúcidas de inseto e olhinhos totalmente negros feito olhos de lagartixa. Algumas têm antenas.\n\nPor serem as fadas mais diminutas, numerosas e conhecidas, é comum acreditar que sílfides e silfos sejam amigáveis, confiáveis e inofensivos. Grande erro. Como os humanos e outras raças, sílfides podem ser movidas por bondade ou maldade, e mesmo aquelas mais bondosas recorrem a trapaças e truques para alcançar seus objetivos.\n\nEm estado selvagem, sílfides podem ser encontradas em grandes comunidades silvestres. Quando algum forasteiro surge, primeiramente elas não se sentem ameaçadas, vendo ali uma oportunidade para brincar ou pregar peças."
+    }
+  ],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Espírito (sílfide)",
+    "tamanho": "Minúsculo",
+    "tema": "Fadas",
+    "iniciativa": "+3",
+    "percepcao": "+0",
+    "sentidos": "visão no escuro",
+    "defesa": "10, Fort +0, Ref +11, Von +5",
+    "pontosDeVida": "40",
+    "pontosDeMana": "18",
+    "deslocamento": "9m (6q), voo 12m (8q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "-2",
+      "destreza": "2",
+      "constituicao": "0",
+      "inteligencia": "1",
+      "sabedoria": "-1",
+      "carisma": "3"
+    },
+    "pericias": "Diplomacia +7, Enganação +7, Furtividade +9.",
+    "tesouro": "Nenhum.",
+    "habilidades": [
+      {
+        "nome": "\"Eu Não Acredito em Fadas.\"",
+        "descricao": "Quando um inimigo passa em um teste de Vontade contra a sílfide travessa, ela perde 5 PV."
+      },
+      {
+        "nome": "\"Oi, Qual o Seu Nome?\"",
+        "descricao": "Uma criatura que de alguma forma revele seu nome verdadeiro à sílfide sofre –2 em testes de resistência contra ela."
+      },
+      {
+        "nome": "Raio Arcano (Padrão)",
+        "descricao": "Uma criatura em alcance curto sofre 2d12 pontos de dano de essência (Ref CD 16 reduz à metade)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma feiticeira de 3º nível (CD 16, limite de PM 3).\n• Adaga Mental (Padrão, 1 PM) Uma criatura em alcance curto sofre 2d6 pontos de dano psíquico e fica atordoada por 1 rodada (Von reduz o dano à metade e evita a condição). Uma criatura só pode ser atordoada por esta magia uma vez por cena.\n• Criar Ilusão (Padrão, 1 PM) A sílfide cria uma ilusão com imagens em alcance médio, que ocupa até 4 cubos de 1,5m. Criaturas e objetos atravessam a ilusão sem sofrer dano (Von desacredita).\n• Disfarce Ilusório (Padrão, 3 PM) Até o fim da cena, a sílfide muda a própria aparência, incluindo seu equipamento, os odores e as sensações que ela transmite. Isso afeta altura, peso, tom de pele, cor de cabelo, timbre de voz etc. Ela recebe +20 em testes de Enganação para disfarce (Von desacredita).\n• Luz (Padrão, 1 PM) Uma criatura fica ofuscada pela cena (Von evita)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "fitilho-consagrado",
+  "tipo": "item",
+  "nome": "Fitilho Consagrado",
+  "resumo": "Pequena fita amarrada ao pulso que concede +1 PM para gastar em um aprimoramento ao lançar uma magia divina.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Amarrado ao pulso (não precisa ser empunhado, nem conta como um item vestido). Quando lança uma magia divina, você pode gastar o fitilho para receber +1 PM para gastar em um aprimoramento."
+  }
+}

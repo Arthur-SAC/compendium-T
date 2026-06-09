@@ -1,0 +1,33 @@
+{
+  "id": "keenn",
+  "tipo": "divindade",
+  "nome": "Keenn, Deus da Guerra",
+  "resumo": "Deus da Guerra brutal e popular que reinou por séculos inflamando conflitos, até ser derrotado em duelo por seu próprio sumo-sacerdote Mestre Arsenal, transmitindo o posto e morrendo com nobreza.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 239 },
+  "imagens": ["/divindades/keenn.png"],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "A guerra como força primordial e inevitável; glória no combate; sem compaixão e sem curas — apenas força bruta e vitória.",
+    "simboloSagrado": "Um medalhão circular de pedra cinza com espada, machado e martelo roxos cruzados, ornado com esferas roxas.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "—",
+    "devotos": "Soldados, nações guerreiras (como o antigo Reino de Yudennach), mercenários, bárbaros. Devotos remanescentes em número cada vez menor; muitos converteram-se a Arsenal após a derrota de Keenn.",
+    "poderesConcedidos": [],
+    "obrigacoesRestricoes": "Devotos de Keenn não podiam desfrutar de curas mágicas.",
+    "categoria": "antigo"
+  },
+  "secoes": [
+    {
+      "titulo": "Outros Nomes",
+      "texto": "Hullaim, entre os anões; Glada, entre os minotauros; Hrumork, entre os orcs; Gorak, entre certos povos bárbaros."
+    },
+    {
+      "titulo": "Historia e Queda",
+      "texto": "Desde tempos ancestrais, Keenn teria sido o responsável por inflamar conflagrações entre os povos de Arton. Violento e selvagem, quase tanto quanto o próprio Megalokk. Ainda assim, muito popular entre as grandes nações, algumas chegando a acolhê-lo como sua divindade principal — como o antigo Reino de Yudennach, que erguia templos em sua honra. Seus clérigos não apenas brandiam armas no campo de batalha, mas também atuavam como conselheiros, instigando regentes a travar conflitos.\n\nEntre os deuses, Keenn nem sempre era respeitado, considerado um bárbaro cruel e sanguinário, deliciando-se com massacres, sequer permitindo que seus devotos desfrutassem de curas mágicas. Rivalizava em suas áreas de influência com Khalmyr, também um deus da guerra, mas justo e piedoso. Em resposta a olhares reprovadores, Keenn apenas gargalhava, arrogante. Era muitas coisas, mas não covarde.\n\nFoi assim por séculos, até que um infame clérigo da guerra ousou desafiá-lo. O vilão Mestre Arsenal — escolhido como sumo-sacerdote de Keenn — amealhou armamentos mágicos poderosos durante longas campanhas. Por considerar o Deus da Guerra falho, inadequado para confrontar os inimigos por vir, Arsenal decidiu que tomaria seu lugar. Graças a um pacto com Sszzaas, obteve a espada mágica Holy Avenger, tão poderosa que podia matar deuses. Confrontou então o patrono em seu próprio torneio planar, cujo vencedor seria declarado o próximo Deus da Guerra. E assim aconteceu.\n\nAs escrituras sagradas da Igreja de Arsenal revelam que Keenn, secretamente, sabia de suas próprias falhas. Sabia ser impotente contra um perigo futuro que se aproximava, o mesmo adversário misterioso que dizimou o mundo nativo de Arsenal. Uma vez que deuses são incapazes de mudar, Keenn orquestrou a própria derrota em duelo, sacrificando-se pelo futuro de Arton. Talvez fosse mesmo um bárbaro sanguinário e cruel. Mas morreu com a nobreza de um deus."
+    },
+    {
+      "titulo": "Status Atual",
+      "texto": "A morte de Keenn é ainda muito recente. Vários de seus devotos ainda não tiveram tempo de mudar seu modo de viver — o que inclui cultuar o deus. Entre fiéis que não possuíam poder divino, pode-se achar batalhões inteiros que ainda praticam os mesmos rituais, entoam a mesma litania, sussurram as mesmas orações. Para eles, a devoção sempre foi mais uma ferramenta de união entre soldados do que uma relação pessoal com a divindade. Assim, a existência do deus não faz tanta diferença.\n\nMuitos clérigos e devotos converteram-se a Arsenal imediatamente, pois sendo fiéis de um deus de tática e estratégia, notaram que o melhor curso de ação era se aliar ao vencedor. Devotos de Keenn existem em número cada vez menor. Em geral, aqueles que restam nutrem grande inveja de Arsenal, consideram que deveriam eles mesmos ter ascendido."
+    }
+  ]
+}

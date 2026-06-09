@@ -1,0 +1,85 @@
+{
+  "id": "avatar-de-hyninn",
+  "tipo": "criatura",
+  "nome": "Avatar de Hyninn",
+  "resumo": "A manifestação mortal do Deus da Trapaça: um ladrão hynne, um bobo da corte humano ou um macaco falante — qualquer mortal aparentemente indefeso pode ser Hyninn testando aventureiros.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 165 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "hyninn", "rotulo": "Hyninn" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A forma mundana de Hyninn varia dependendo da missão a ser confiada e da peça a ser pregada. Suas formas preferidas, entretanto, são um ladrão hynne, um bobo da corte humano e um macaco falante.\n\nDizem que qualquer mortal muito fraco ou aparentemente indefeso encontrado na estrada pode ser um avatar de Hyninn testando aventureiros poderosos. E aqueles que abusam desses pobres-coitados muitas vezes se veem vítimas de décadas infindáveis de peças, truques, mentiras e trapaças, tudo obra de alguém oculto nas sombras..."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+35",
+    "percepcao": "+23",
+    "defesa": "57, evasão aprimorada, maior que a morte, não pode ser flanqueado ou surpreendido",
+    "fortitude": "+19",
+    "reflexos": "+32",
+    "vontade": "+26",
+    "pontosDeVida": "798",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Falso Amigo x2 +50 (1d4+30, 19).",
+      "À Distância Falso Amigo +50 (1d4+30, 19).",
+      "Ataque Furtivo +10d8."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "18",
+      "constituicao": "6",
+      "inteligencia": "13",
+      "sabedoria": "6",
+      "carisma": "16"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Hyninn pode lançar qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 49, limite de PM 19)."
+      },
+      {
+        "nome": "Falso Amigo",
+        "descricao": "A arma preferida de Hyninn, Falso Amigo é uma adaga formidável assassina de arremesso. Você recebe a habilidade Assassinar, do ladino, mas só pode usá-la com esta arma. Se já a possui, em vez disso o custo para usá-la com esta arma diminui em –1 PM. Além disso, enquanto estiver empunhando esta arma, você pode fazer um ataque furtivo adicional por rodada. Artefato."
+      },
+      {
+        "nome": "Ferramentas Ladinas",
+        "descricao": "O Avatar conta como se sempre estivesse empunhando quaisquer ferramentas necessárias para usar suas perícias, como estojo de disfarces, gazuas etc."
+      },
+      {
+        "nome": "Forma de Macaco (Completa)",
+        "descricao": "O Avatar se transforma em um macaco. Ele adquire tamanho Minúsculo (+5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalada 9m. Seu equipamento desaparece (e ele perde seus benefícios) até ele voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso ele faça um ataque, lance uma magia ou gaste uma ação livre para encerrá-la."
+      },
+      {
+        "nome": "Ladrão Divino",
+        "descricao": "O Avatar não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal ou por atacar e fazer outras ações chamativas, e pode fazer duas ações de movimento por turno."
+      },
+      {
+        "nome": "No Bolso Dói Mais",
+        "descricao": "Quando acerta um ataque em corpo a corpo, para cada 1 ponto de dano causado, o Avatar rouba T$ 10 da vítima. Mesmo que o Avatar seja derrotado, há 90% de chance de que esses tibares tenham desaparecido para sempre, pela graça dele mesmo."
+      },
+      {
+        "nome": "Roubar Essência (Padrão)",
+        "descricao": "O Avatar faz um teste de Ladinagem oposto à Vontade de uma criatura adjacente que não possa percebê-lo. Se passar, rouba uma habilidade do alvo. A habilidade assume a forma de uma moeda. O alvo não pode usar a habilidade roubada até recuperar a moeda. O Avatar não pode roubar mais de uma habilidade por criatura por vez."
+      },
+      {
+        "nome": "Roubo Descarado (Reação)",
+        "descricao": "Uma vez por criatura por cena, quando uma criatura em alcance curto faz um teste de perícia, o Avatar pode roubar o resultado desse teste. Caso ele faça isso, o teste se torna uma falha e, até o fim da cena, o Avatar pode substituir o resultado do d20 de um dos seus próprios testes pelo resultado do teste roubado."
+      },
+      {
+        "nome": "O Deus Certo Para o Trabalho",
+        "descricao": "Uma vez por rodada, quando faz um ataque furtivo ou usa uma perícia da lista do ladino (Tormenta20, p. 73), o Avatar recebe +20 nesse teste."
+      }
+    ],
+    "pericias": "Atletismo +35, Acrobacia +35, Diplomacia +31, Enganação +41, Furtividade +38, Intuição +21, Investigação +28, Jogatina +31, Ladinagem +38, Ofício (artesão) +33.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Falso Amigo.",
+    "tema": "Deuses & Avatares"
+  }
+}

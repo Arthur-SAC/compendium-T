@@ -1,0 +1,15 @@
+{
+  "id": "golpe-tempestuoso",
+  "tipo": "poder",
+  "nome": "Golpe Tempestuoso",
+  "resumo": "Ao acertar ataque corpo a corpo, gasta 2 PM para empurrar a criatura 3m e deixá-la desprevenida por 1 rodada.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "oceano",
+    "prerequisito": "",
+    "descricao": "Quando acerta um ataque corpo a corpo, você pode gastar 2 PM. Se fizer isso, a criatura é empurrada 3m em uma direção a sua escolha e fica desprevenida por 1 rodada."
+  }
+}

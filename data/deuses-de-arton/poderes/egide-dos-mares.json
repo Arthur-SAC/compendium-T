@@ -1,0 +1,15 @@
+{
+  "id": "egide-dos-mares",
+  "tipo": "poder",
+  "nome": "Égide dos Mares",
+  "resumo": "Possui um espírito das águas como parceiro guardião iniciante (ou escudeiro com Ameaças de Arton).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "oceano",
+    "prerequisito": "",
+    "descricao": "Você possui um espírito das águas que o acompanha como um parceiro guardião iniciante. Alternativamente, se você tiver o suplemento Ameaças de Arton, pode receber um escudeiro iniciante (p. 191). Em ambos os casos, se perder esse parceiro, você pode receber outro com uma cerimônia que exige 1 dia e T$ 100 em oferendas."
+  }
+}

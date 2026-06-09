@@ -1,0 +1,15 @@
+{
+  "id": "vitoria-a-qualquer-custo",
+  "tipo": "poder",
+  "nome": "Vitória a Qualquer Custo",
+  "resumo": "Gasta 2 PM para rolar novamente teste de ataque, resistência ou Guerra; cada novo uso aumenta o custo em +1 PM.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 47 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "arsenal",
+    "prerequisito": "",
+    "descricao": "Quando faz um teste de ataque, de resistência ou de Guerra, você pode gastar 2 PM para rolar novamente esse teste. Você pode fazer isso várias vezes no mesmo teste, mas cada novo uso aumenta o custo em +1 PM."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dragonete",
+  "tipo": "criatura",
+  "nome": "Dragonete",
+  "resumo": "Fada com aparência de dragão em miniatura, do tamanho de um gato, com asas translúcidas semelhantes a de inseto. Brincalhona e ilusionista, cobiçada por conjuradores como familiar por potencializar magias de encantamento e ilusão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 288 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também conhecidas como 'dragões-fadas', estas criaturinhas não são dragões verdadeiros, nem têm qualquer parentesco com os grandes répteis. Sua aparência lembra um dragão em miniatura. Suas asas, em vez de coriáceas, parecem asas de inseto — translúcidas e com nervuras como nas libélulas, ou coloridas como nas borboletas. Dragonetes são também multicoloridos, com padrões de manchas e listras que lembram pássaros ou peixes tropicais.\n\nNa natureza, formam pequenos bandos, sendo raramente encontrados sozinhos. Dragonetes são, acima de tudo, brincalhões: gostam de usar invisibilidade ou magia ilusória para enganar aqueles que se aventuram em suas florestas. Diante de alguma ameaça, sempre preferem fugir a lutar.\n\nDragonetes são cobiçados por conjuradores, por sua capacidade de potencializar certas magias. Assegurar a obediência da criaturinha marota, contudo, exige boa dose de serenidade; apenas os muito calmos e gentis conseguem mantê-los como familiares."
+    }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Espírito",
+    "tamanho": "Pequeno",
+    "tema": "Fadas",
+    "iniciativa": "+11",
+    "percepcao": "+6",
+    "sentidos": "visão no escuro",
+    "defesa": "21, Fort +6, Ref +14, Von +10, resistência a magia +2",
+    "pontosDeVida": "100",
+    "deslocamento": "9m (6q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Garras +14 (1d8+8) e mordida +14 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "-1",
+      "sabedoria": "2",
+      "carisma": "4"
+    },
+    "pericias": "Furtividade +12, Intuição +8, Misticismo +5.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Baforada Iridescente (Padrão)",
+        "descricao": "O dragonete sopra um pó iridescente. Criaturas em um cone de 4,5m ficam atordoadas por 1 rodada e ofuscadas (Von CD 20 evita). Uma criatura só pode ficar atordoada por esta habilidade uma vez por cena. Recarga (movimento)."
+      },
+      {
+        "nome": "Ladrão de Magias (Reação)",
+        "descricao": "Uma vez por rodada, quando uma criatura em alcance curto se torna o alvo de uma magia, o dragonete 'rouba' seu efeito para si mesmo. A magia funciona normalmente, mas o dragonete se torna seu novo alvo."
+      },
+      {
+        "nome": "Sumiço (Padrão)",
+        "descricao": "O dragonete fica invisível como pela magia Invisibilidade."
+      },
+      {
+        "nome": "Visão Arcana",
+        "descricao": "O dragonete está sempre sob o efeito básico de Visão Mística."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Um dragonete parceiro fornece os benefícios a seguir. Iniciante: diminui o custo de magias de encantamento e ilusão em –1 PM. Veterano: aumenta o alcance de magias de encantamento e ilusão em um passo (de curto para médio e de médio para longo). Mestre: a redução de custo em magias de encantamento e ilusão se torna cumulativa com outras reduções e você fica sempre sob o efeito básico da magia Visão Mística."
+      }
+    ]
+  }
+}

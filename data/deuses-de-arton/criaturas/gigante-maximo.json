@@ -1,0 +1,54 @@
+{
+  "id": "gigante-maximo",
+  "tipo": "criatura",
+  "nome": "Gigante Máximo",
+  "resumo": "Também chamado gigante das nuvens ou kiojin em Tamu-ra. Um humanoide tão colossal que sua cabeça alcança as nuvens. Vasto como uma montanha, com vegetação e até construções em seu corpanzil. Considerado um mito, mas talvez adormecido em algum ponto de Arton. Combatê-lo exige escalar seu corpo como uma masmorra.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 314 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O gigante máximo, ou gigante das nuvens, é um mito persistente na história de Arton. Tão persistente que sua veracidade talvez precise ser considerada.\n\nConforme descrito nas lendas, o gigante máximo é uma criatura impensável. Tem milênios de idade, não se conhecendo seu tempo de vida natural. Quando dorme, seu sono dura décadas ou séculos — tempo suficiente para que acabe coberto de vegetação e detritos, ou para que povos desavisados construam aldeias em seu corpo. E, quando desperta, sua fome é igualmente gigantesca: pode devorar todos os rebanhos de uma região, ou mesmo todos os seus habitantes.\n\nQuando em atividade, o gigante máximo busca apenas ser deixado em paz, pelo menos até ter fome. Às vezes recorda-se de algo ou alguém que existia antes de seu sono, partindo em busca desse objetivo.\n\nCombater este gigante é muito diferente de matar outros monstros, por maiores que sejam; ele é simplesmente grande demais para que qualquer dano direto tenha algum efeito. Existem histórias sobre heróis do passado que escalaram e exploraram a criatura, como se fosse uma masmorra, combatendo seus parasitas e alcançando os centros nervosos que são seus únicos pontos fracos.\n\nAté onde se sabe, o gigante máximo existe apenas em lendas. Nenhuma aparição foi registrada nos últimos séculos, nem há qualquer pista sobre sua origem. Se o monstro existe, deve estar adormecido em algum ponto de Arton, e seu despertar será um desafio extremo para os heróis de hoje."
+    }
+  ],
+  "mecanica": {
+    "nd": "S+",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Colossal",
+    "iniciativa": "+7",
+    "percepcao": "+16",
+    "sentidos": "visão na penumbra",
+    "defesa": "70, Fort +38, Ref +25, Von +33, imunidade a atordoamento, encantamento, dano mental (exceto cabeça), metamorfose e efeitos de movimento",
+    "pontosDeVida": "Especial (veja Grande Demais)",
+    "deslocamento": "45m (30q), sem redução por terreno difícil",
+    "ataques": [
+      "Ataques Colossais (Padrão): o gigante máximo usa duas habilidades diferentes entre: Agarrar, Apertar, Arremessar, Chute, Pisotear, Safanão ou Tapa."
+    ],
+    "atributos": {
+      "forca": "20",
+      "destreza": "-3",
+      "constituicao": "20",
+      "inteligencia": "-2",
+      "sabedoria": "0",
+      "carisma": "-2"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataques Colossais (Padrão)",
+        "descricao": "O gigante máximo usa duas habilidades diferentes entre as seguintes. Agarrar (braço): o gigante agarra uma criatura em seu alcance (teste +75). Uma criatura agarrada pode se soltar com uma ação padrão e um teste de manobra ou Acrobacia oposto ao gigante, ou causando 100 pontos de dano contra o braço. Apertar (braço): o gigante causa 1d100+50 pontos de dano de impacto a uma criatura que esteja agarrando. Arremessar (braço): o gigante arremessa uma criatura que esteja agarrando em um ponto em alcance longo. O alvo sofre 30d6 pontos de dano de impacto e fica caído (Acrobacia ou Ref CD 55 reduz à metade). Chute (perna): criaturas em um quadrado de 9m em alcance curto sofrem 3d20+25 pontos de dano de impacto, são arremessadas 30m na direção oposta e ficam caídas (Fort CD 55 reduz à metade e evita o empurrão e a condição). Pisotear (perna): o gigante gera o efeito básico da magia Terremoto (Tormenta20, p. 209) em um raio de 90m ao seu redor. Este não é um efeito mágico e não afeta o gigante. Safanão (braço): o gigante derruba uma criatura que o esteja escalando (Ref CD 55 evita). Se falhar no teste, a criatura é arremessada ao chão, fica caída e sofre dano de queda de acordo com a etapa em que estava (veja Grande Demais). Tapa (braço): o gigante faz um ataque corpo a corpo (teste +65, dano 1d100+100 impacto). O gigante pode fazer esta ação mesmo com braços derrotados, mas sofre –10 no teste de ataque e causa metade do dano."
+      },
+      {
+        "nome": "Grande Demais",
+        "descricao": "O gigante é muito grande para ser derrotado de uma só vez. Em vez disso, é necessário escalá-lo e derrotar cada parte de seu corpo individualmente. Cada uma dessas partes conta como uma criatura individual, com seus próprios PV. Escalar uma parte exige uma ação completa e um teste de Atletismo (CD conforme a etapa). Se falhar, o personagem não avança e sofre 8d6 pontos de dano de impacto. Se falhar por 5 ou mais, sofre 16d6 pontos de dano de impacto e cai para a parte anterior. Por fim, se falhar por 10 ou mais, cai no chão e sofre dano de queda de acordo com a parte em que estava. Personagens com deslocamento de escalada ou de voo recebem +10 nos testes de Atletismo e personagens usando um veículo ou montaria capaz de voar ou escalar podem substituir Atletismo por Cavalgar ou Pilotagem. 1) Duas Pernas CD 20, dano de queda 10d6, 750 PV cada. Cada perna derrotada reduz o deslocamento do gigante em 15m e o número de Ataques Colossais de perna que ele pode usar em 1. 2) Tronco CD 25, dano de queda 20d6, 3.000 PV. 3) Dois Braços CD 30, dano de queda 30d6, 750 PV cada. Cada braço derrotado reduz em 1 o número de Ataques Colossais de braço (exceto Tapa) que ele pode usar. 4) Cabeça CD 40, dano de queda 40d6, 1.000 PV. A cabeça possui Cura Acelerada 500; para cada outra parte do corpo derrotada, esse valor é reduzido em 100. Quando a cabeça é derrotada, o gigante cai inconsciente."
+      },
+      {
+        "nome": "Titânico",
+        "descricao": "O gigante é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 20d8 pontos de dano de impacto (uma vez por rodada por criatura, Ref CD 55 reduz à metade). Além disso, ele ignora redução de dano e seus ataques atingem todas as criaturas em um quadrado de 6m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)."
+      }
+    ],
+    "pericias": "",
+    "tesouro": "Dobro.",
+    "tema": "Gigantes"
+  }
+}

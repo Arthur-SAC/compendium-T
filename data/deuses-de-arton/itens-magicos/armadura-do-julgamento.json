@@ -1,0 +1,22 @@
+{
+  "id": "armadura-do-julgamento",
+  "tipo": "item-magico",
+  "nome": "Armadura do Julgamento",
+  "resumo": "Armadura completa polida reforçada de Khalmyr que torna-se defensora para devotos e permite gastar 2 PM para deixar atacantes pasmos por 1 rodada ao ver seus pecados refletidos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 54.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta armadura completa polida reforçada é feita de aço reluzente quase tão reflexivo quanto um espelho. Se você for um devoto de Khalmyr, ela se torna uma armadura completa polida reforçada defensora. Sempre que uma criatura atacá-lo, você pode gastar 2 PM para fazê-la ver seus pecados refletidos na armadura. A criatura fica pasma por 1 rodada (apenas uma vez por cena) e frustrada (Von CD Sab reduz para apenas frustrada). Note que a penalidade em testes mentais imposta pela frustração pode tornar mais fácil convencer a criatura a abandonar a luta através de Diplomacia ou outros efeitos que exijam testes de Vontade — um caminho digno para devotos do Deus da Justiça que queiram julgar seus inimigos em vez de apenas executá-los sumariamente! Se você for um devoto de patamar campeão ou superior, a armadura se torna uma armadura completa polida reforçada guardiã. Armadura específica média, preço T$ 54.000."
+    }
+  ]
+}

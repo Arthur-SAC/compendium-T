@@ -1,0 +1,79 @@
+{
+  "id": "avatar-de-thyatis",
+  "tipo": "criatura",
+  "nome": "Avatar de Thyatis",
+  "resumo": "A manifestação de Thyatis em Arton: uma enorme fênix flamejante. Avistar o Avatar de Thyatis é dito ser garantia de morte — seguida ou não de ressurreição.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 219 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "thyatis", "rotulo": "Thyatis" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Muitos dizem que avistar um avatar de Thyatis é garantia de morte — seguida ou não de ressurreição. Assim, existe a crença de que este deus raramente se manifesta como avatar. Quando escolhe vir a Arton, Thyatis toma a forma de uma enorme fênix flamejante.\n\nTesouro: Pena flamejante (se o portador da pena morrer, ela é automaticamente consumida e ele é ressuscitado após 1d6 rodadas). Em raras ocasiões, o Avatar pode presentear um aliado com uma dessas penas."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Espírito",
+    "tamanho": "Enorme",
+    "iniciativa": "+25",
+    "percepcao": "+36",
+    "sentidos": "visão no escuro",
+    "defesa": "59, Fort +19, Ref +32, Von +26, evasão, imunidade a doenças, fogo e medo, maior que a morte, redução de dano 10/trevas",
+    "fortitude": "+19",
+    "reflexos": "+32",
+    "vontade": "+26",
+    "pontosDeVida": "1140",
+    "deslocamento": "Voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +52 (5d10+30 mais 20d6+30 fogo) e duas garras +52 (5d8+30)."
+    ],
+    "atributos": {
+      "forca": "12",
+      "destreza": "8",
+      "constituicao": "12",
+      "inteligencia": "11",
+      "sabedoria": "16",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Armas Abençoadas",
+        "descricao": "As armas naturais do Avatar de Thyatis são consideradas mágicas e sagradas; elas causam +4d8 pontos de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre)."
+      },
+      {
+        "nome": "Canto da Fênix (Reação)",
+        "descricao": "Quando o Avatar chega a 0 PV ou menos, seu corpo explode. Todas as criaturas em um raio de 30m sofrem 300 pontos de dano de fogo (Fort CD 47 reduz à metade)."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 47, limite de PM 19). Uma vez por rodada, ele pode lançar Alterar Destino ou Segunda Chance como uma ação livre."
+      },
+      {
+        "nome": "Destino Reescrito",
+        "descricao": "Uma criatura que morra na presença do Avatar é ressuscitada 1d6 rodadas após sua morte. Pelas próximas 24 horas essa criatura ficará inconsciente, imersa em um sono profundo permeado por visões enviadas por Thyatis. As visões revelam o motivo da presença do Avatar e carregam um comando que deve ser obedecido pela criatura (geralmente, uma missão em nome de Thyatis, definida pelo mestre). Até que a missão seja cumprida, a cada semana em que a criatura não estiver ativamente buscando cumprir a missão, ela recebe uma penalidade cumulativa de –2 em todos os testes."
+      },
+      {
+        "nome": "Fogo Purificador",
+        "descricao": "Dano de fogo causado pelo Avatar ignora RD, e imunidade a fogo apenas o reduz à metade."
+      },
+      {
+        "nome": "Não Há Morte",
+        "descricao": "Quando Avatar explode por sua habilidade Canto da Fênix, ressurge no mesmo local, 1d6 rodadas depois. Ele retorna completamente restaurado, mas com apenas metade dos seus pontos de vida iniciais. Ele não pode usar esta habilidade novamente até recuperar todos os seus PV."
+      },
+      {
+        "nome": "Telepatia Inata",
+        "descricao": "O Avatar pode se comunicar telepaticamente com qualquer criatura em alcance longo."
+      },
+      {
+        "nome": "Visão Flamejante",
+        "descricao": "O Avatar está permanentemente sob efeito das magias Visão Mística, com o aprimoramento que permite enxergar criaturas e objetos invisíveis, e Visão da Verdade."
+      }
+    ],
+    "pericias": "Conhecimento +31, Diplomacia +30, Intuição +36, Religião +33.",
+    "tesouro": "Pena flamejante (se o portador da pena morrer, ela é automaticamente consumida e ele é ressuscitado após 1d6 rodadas). Em raras ocasiões, o Avatar pode presentear um aliado com uma dessas penas.",
+    "tema": "Deuses & Avatares"
+  }
+}

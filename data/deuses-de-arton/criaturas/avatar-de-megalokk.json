@@ -1,0 +1,79 @@
+{
+  "id": "avatar-de-megalokk",
+  "tipo": "criatura",
+  "nome": "Avatar de Megalokk",
+  "resumo": "A manifestação do Deus dos Monstros: um colosso monstruoso humanoide alado com várias cabeças de monstros diferentes, encarnação da fúria e da destruição, capaz de engolir criaturas e devastar reinos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 191 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "megalokk", "rotulo": "Megalokk" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Devido à relativa facilidade em enfurecer este deus, o avatar de Megalokk pode às vezes ser invocado por seus clérigos e outros conjuradores contra inimigos — ainda que sem qualquer controle, podendo inclusive atacar seus próprios invocadores. Apenas aqueles com extrema habilidade diplomática, ou outros meios para lidar com feras sanguinárias, conseguem dissuadir a criatura de matar à primeira vista.\n\nEm outras ocasiões, Megalokk pode surgir na forma de algum monstro híbrido, como uma esfinge, quimera ou mantícora, para lidar com heróis. Ele aprecia atraí-los até covis de monstros, por acreditar que suas crias serão sempre vitoriosas. Quando esse plano falha, contudo, já houve vezes em que ele próprio ressurgiu cheio de ódio, dizimando os aventureiros já combalidos.\n\nSua forma mais conhecida e poderosa tem corpo humanoide alado robusto e várias cabeças de monstros, diferentes em cada manifestação."
+    }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Monstro (kaiju)",
+    "tamanho": "Colossal",
+    "iniciativa": "+26",
+    "percepcao": "+27, visão no escuro, faro",
+    "defesa": "57, cura acelerada 100/kaiju, imunidade a efeitos de metabolismo e mentais, medo, metamorfose, paralisia e veneno, maior que a morte, redução de dano 50",
+    "fortitude": "+40",
+    "reflexos": "+29",
+    "vontade": "+18",
+    "pontosDeVida": "1800",
+    "deslocamento": "18m (12q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Mordida x4 +54 (4d20+20, 17/x3) e duas garras +54 (2d20+20, 19/x3)."
+    ],
+    "atributos": {
+      "forca": "18",
+      "destreza": "8",
+      "constituicao": "20",
+      "inteligencia": "3",
+      "sabedoria": "6",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Mordida (teste +64)."
+      },
+      {
+        "nome": "Engolir",
+        "descricao": "Se o Avatar de Megalokk começar seu turno agarrando uma criatura menor que ele, pode fazer um teste de agarrar contra ela. Se vencer, engole a criatura. Uma criatura engolida continua agarrada, fica cega, tem cobertura total contra efeitos vindos do lado de fora do Avatar (e vice-versa) e sofre 6d12+20 pontos de dano de impacto no início de cada turno do Avatar. O Avatar pode manter quantas criaturas engolidas quiser. Uma criatura engolida pode escapar causando 100 pontos de dano ao estômago do Avatar (Defesa 30). Isso faz com que ela seja regurgitada e fique caída na frente do monstro."
+      },
+      {
+        "nome": "Incontível",
+        "descricao": "Sempre que falha em um teste de resistência contra um efeito com duração maior que instantânea, o Avatar pode fazer um novo teste contra esse efeito no início do seu próximo turno. A cada novo teste de resistência contra o mesmo efeito, o Avatar recebe um bônus cumulativo de +5 no teste."
+      },
+      {
+        "nome": "Presas Monstruosas",
+        "descricao": "Cada vez que o Avatar acerta um ataque com suas Presas Monstruosas, ele gera um dos efeitos abaixo, definido aleatoriamente.\n1) Basilisco: A criatura atingida fica lenta (Fort CD 48 reduz a duração para 1 rodada). Caso uma criatura lenta dessa forma seja atingida novamente e falhe no teste de Fortitude, fica petrificada.\n2) Dragão: A criatura atingida sofre 4d12 pontos de dano fogo e sua armadura ou escudo (à escolha dela) fica avariado (Ref CD 48 reduz à metade e evita a condição).\n3) Lobo Atroz: A criatura atingida fica sangrando (Ref CD 48 evita). Esse sangramento causa a perda de 2d6 PV, em vez do normal.\n4) Serpe: O ataque inocula veneno de serpe divina."
+      },
+      {
+        "nome": "Presença Selvagem",
+        "descricao": "O Avatar emana uma aura de violência de 30m de raio. No início de seus turnos, cada criatura nessa área deve fazer um teste de Vontade (CD 48). Se falhar, fica esmorecida. Se já estiver esmorecida, em vez disso entra em um frenesi selvagem por 1 rodada; em seu próximo turno, ela deve atacar a criatura mais próxima, mesmo que seja um aliado."
+      },
+      {
+        "nome": "Rasgar Montanhas (Completa)",
+        "descricao": "O Avatar desfere um golpe concentrado que atinge todas as criaturas em um cubo de 15m de lado adjacente a ele. Criaturas nessa área sofrem 10d20+70 pontos de dano de corte e ficam caídas (Ref CD 48 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Titânico",
+        "descricao": "O Avatar é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de efeitos que não sejam de outra criatura Titânica. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 20d6 pontos de dano de impacto (uma vez por rodada por criatura, Ref CD 48 reduz à metade). Além disso, ele ignora redução de dano e seus ataques atingem todas as criaturas em um quadrado de 6m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)."
+      },
+      {
+        "nome": "Veneno — Peçonha de Serpe Divina",
+        "descricao": "Fica fraco e perde 4d12 pontos de vida por rodada durante 10 rodadas (Fort CD 48 reduz para 1 rodada). Este veneno ignora qualquer imunidade a venenos."
+      }
+    ],
+    "pericias": "Atletismo +39, Intimidação +32, Sobrevivência +32.",
+    "tesouro": "Nenhum.",
+    "equipamento": "",
+    "tema": "Deuses & Avatares"
+  }
+}

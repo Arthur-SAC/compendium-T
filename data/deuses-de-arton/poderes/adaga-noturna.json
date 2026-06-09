@@ -1,0 +1,15 @@
+{
+  "id": "adaga-noturna",
+  "tipo": "poder",
+  "nome": "Adaga Noturna",
+  "resumo": "Gasta 1 PM para fazer arma de perfuração causar +1d6 de dano de frio até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tenebra",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 1 PM para fazer uma arma de perfuração que esteja usando causar +1d6 pontos de dano de frio até o fim da cena."
+  }
+}

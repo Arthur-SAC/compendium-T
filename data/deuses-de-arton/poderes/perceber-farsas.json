@@ -1,0 +1,15 @@
+{
+  "id": "perceber-farsas",
+  "tipo": "poder",
+  "nome": "Perceber Farsas",
+  "resumo": "+5 em Intuição e imunidade a efeitos de ilusão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tanna-toh",
+    "prerequisito": "",
+    "descricao": "Você recebe +5 em Intuição e se torna imune a efeitos de ilusão."
+  }
+}

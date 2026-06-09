@@ -1,0 +1,22 @@
+{
+  "id": "lucidilico",
+  "tipo": "item",
+  "nome": "Lucidílico",
+  "resumo": "Líquido alquímico atribuído a devotos de Nimb, de cores variadas em movimento, que oscila entre perder 1 PM ou ganhar ações de movimento adicionais a cada turno.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "nimb", "rotulo": "Nimb" }
+  ],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Preparado",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Bebê-lo é uma ação padrão; ao fazer isso, e no início de cada um dos seus turnos, role um dado. Em um resultado ímpar, você perde 1 PM. Em um resultado par, você pode executar uma ação de movimento adicional nesse turno. A cada três resultados pares em sequência, a ação adicional pode ser padrão. O efeito do lucidílico dura até o fim da cena ou até você ficar sem PM."
+  }
+}

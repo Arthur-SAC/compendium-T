@@ -1,0 +1,22 @@
+{
+  "id": "veu-diafano",
+  "tipo": "item-magico",
+  "nome": "Véu Diáfano",
+  "resumo": "Roupa leve e semitransparente de Marah que conta como veste de seda aprimorada. Para devotos, concede +1 em Carisma e +2 na Defesa.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "marah", "rotulo": "Marah" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 13.500"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta roupa leve e semitransparente conta como uma veste de seda aprimorada. Se você for um devoto de Marah, o véu diáfano torna sua aparência misteriosa e sedutora, fornecendo +1 em Carisma (apenas após 1 dia de uso) e +2 na Defesa (cumulativo com outros bônus de itens). Acessório médio, preço T$ 13.500."
+    }
+  ]
+}

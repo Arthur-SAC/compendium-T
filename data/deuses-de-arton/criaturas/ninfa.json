@@ -1,0 +1,55 @@
+{
+  "id": "ninfa",
+  "tipo": "criatura",
+  "nome": "Ninfa",
+  "resumo": "Fada que materializa a beleza, com uma aura mágica de sedução que distorce a percepção dos observadores. Sua nudez pode literalmente matar quem a contemple. Vive para atrair e aprisionar mortais que a admirem.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 291 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ninfas são fadas que materializam a beleza. Muitas histórias as retratam como lindas mulheres humanas ou élficas, mas essa é apenas sua descrição mais conhecida. Ninfas exalam uma aura mágica de sedução e fascínio que distorce a percepção dos observadores, sendo quase impossível enxergar sua aparência ou gênero verdadeiros.\n\nUma ninfa tem movimentos calmos e deliberados, aparentemente displicentes, mas sempre realçando sua perfeição. Uma ninfa sempre diz, faz e aparenta aquilo que é mais atrativo para quem a observa.\n\nNinfas vivem para atrair mortais e aprisioná-los, sem motivo aparente, exceto deixar que a admirem. Em seus corações, não acreditam estar cometendo nenhuma maldade — pelo contrário, permitem que seus cativos experimentem a felicidade plena por observá-las.\n\nA beleza de uma ninfa pode literalmente matar. Ver uma ninfa nua é algo tão intenso que o observador pode morrer ali mesmo, como se a própria vida perdesse qualquer sentido após vislumbrar o que existe de mais perfeito."
+    }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+8",
+    "percepcao": "+6",
+    "sentidos": "visão no escuro",
+    "defesa": "22, Fort +6, Ref +12, Von +18, imunidade a encantamento, redução de dano 5/adamante, resistência a magia +5",
+    "pontosDeVida": "144",
+    "pontosDeMana": "42",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Pancada +18 (1d3+6)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "3",
+      "sabedoria": "3",
+      "carisma": "7"
+    },
+    "pericias": "Adestramento +17, Diplomacia +17, Enganação +17, Intuição +10, Sobrevivência +10.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Beleza Insuportável",
+        "descricao": "No início de cada turno da ninfa, se ela estiver nua, cada criatura em alcance médio deve fazer um teste de Vontade (CD 24). Se passar, desvia o olhar. Se falhar, fica paralisada e esmorecida. Se já estiver esmorecida, perde 1 ponto cumulativo de Constituição permanentemente. Se falhar por 3 rodadas sucessivas, morre. Uma criatura pode fechar os olhos como uma reação para ficar imune a esta habilidade, mas sofrerá os efeitos de estar cega por 1 rodada."
+      },
+      {
+        "nome": "Coração Aprisionado (Padrão, 3 PM)",
+        "descricao": "A ninfa aprisiona o coração de uma criatura em alcance curto (Von CD 24 evita e a criatura não pode mais ser afetada por esta habilidade por um dia). Uma criatura cujo coração seja aprisionado recebe +2 em testes de perícia, mas é incapaz de contrariar as ordens da ninfa ou se afastar mais de 30m dela. O coração permanece aprisionado até que a ninfa o liberte ou seja morta."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora arcana de 6º nível (CD 24).\n• Curar Ferimentos (Padrão, 5 PM) Uma criatura adjacente cura 6d8+6 PV.\n• Marca da Obediência (Padrão, 6 PM) A ninfa ordena que uma criatura adjacente não ataque ela ou seus aliados até o fim da cena (Von evita). A criatura pode repetir o teste de Vontade em cada um de seus turnos subsequentes mas, se falhar, sofre 3d6 pontos de dano psíquico.\n• Santuário (Padrão, 1 PM) A ninfa toca uma criatura. Até o fim da cena, ou até que essa criatura faça uma ação hostil, qualquer criatura que tente fazer uma ação hostil contra ela perde a ação (Von evita)."
+      }
+    ]
+  }
+}

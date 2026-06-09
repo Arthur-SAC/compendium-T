@@ -1,0 +1,15 @@
+{
+  "id": "pilar-de-heredrimm",
+  "tipo": "poder",
+  "nome": "Pilar de Heredrimm",
+  "resumo": "Gasta 2 PM para receber +2 Defesa e redução de dano 5, mas com deslocamento reduzido à metade.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "khalmyr",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para receber +2 na Defesa e redução de dano 5 até o fim da cena ou até encerrar este poder (uma ação livre). Enquanto esse efeito estiver ativo, seu deslocamento é reduzido à metade."
+  }
+}

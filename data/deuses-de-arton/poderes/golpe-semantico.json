@@ -1,0 +1,15 @@
+{
+  "id": "golpe-semantico",
+  "tipo": "poder",
+  "nome": "Golpe Semântico",
+  "resumo": "Pode substituir testes de Diplomacia e Intimidação por Conhecimento.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tanna-toh",
+    "prerequisito": "",
+    "descricao": "Você pode substituir testes de Diplomacia e Intimidação por Conhecimento."
+  }
+}

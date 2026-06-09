@@ -1,0 +1,18 @@
+{
+  "id": "melhoria-devotado",
+  "tipo": "item",
+  "nome": "Melhoria: Devotado",
+  "resumo": "Melhoria de item banhado em água benta e sintonizado com o usuário, que reduz em –1 PM o custo de um poder concedido escolhido. Pré-requisito: Inscrito.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Itens Superiores",
+    "tipoItem": "Melhoria",
+    "especial": "O item foi banhado em água abençoada e sintonizado com o espírito de seu usuário. Escolha um poder concedido com custo em PM. Esse custo é reduzido em –1. Pré-requisito: Inscrito. Aplicável a armas, armaduras, escudos, ferramentas e vestuários."
+  }
+}

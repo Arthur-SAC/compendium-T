@@ -1,0 +1,22 @@
+{
+  "id": "machado-lamnoriano",
+  "tipo": "item-magico",
+  "nome": "Machado Lamnoriano",
+  "resumo": "Machado de guerra atroz de Thwor com cabo de madeira milenar sul que, para devotos, torna-se formidável e aumenta o dano em um passo ao entrar em fúria (dois para campeões).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 59 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "thwor", "rotulo": "Thwor" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 22.500"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este machado de guerra atroz possui cabo feito da madeira de árvores milenares, que nascem apenas no continente sul, e lâmina de aço regado pelo sangue dos incontáveis massacres que já ocorreram nessa terra bestial. Se você for um devoto de Thwor, ele se torna um machado de guerra atroz formidável. Sempre que você entrar em fúria, o machado lamnoriano se retorce e cresce, energizado pela sua raiva, e seu dano aumenta em um passo. Se você for de patamar campeão ou superior, o dano aumenta em mais um passo (dois passos ao todo). Arma específica menor, preço T$ 22.500."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "poder-de-kallyadranoch",
+  "tipo": "magia",
+  "nome": "Poder de Kallyadranoch",
+  "resumo": "Manifesta brevemente a força dracônica, aumentando a CD das habilidades mágicas que causam dano elemental até o fim do turno.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 63 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "movimento",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "1 turno",
+    "custoPM": 1,
+    "descricao": "Por um breve momento, você manifesta uma pequena parte da força e majestade das grandes feras dracônicas: a capacidade de criar elementos em sua forma mais pura. Até o fim do seu turno, a CD para resistir às suas habilidades mágicas que causam dano de ácido, eletricidade, fogo ou frio aumenta em +2.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a CD em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar).",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Kallyadranoch: além do normal, criaturas que falhem nos testes de resistência contra suas habilidades mágicas sofrem uma condição baseada no tipo de dano. Ácido: vulnerável até o fim da cena. Eletricidade: atordoado por 1 rodada (apenas uma vez por cena). Fogo: em chamas e vulnerável enquanto estiver em chamas. Frio: lento até o fim da cena.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

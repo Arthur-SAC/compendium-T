@@ -1,0 +1,19 @@
+{
+  "id": "tunica-do-virtuoso",
+  "tipo": "item",
+  "nome": "Túnica do Virtuoso",
+  "resumo": "Túnica de algodão simples e prática que conta como uma Virtude Paladinesca para cálculo de PM adicionais.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Conta como uma Virtude Paladinesca (Tormenta20, p. 84) para cálculo dos PM adicionais que você recebe por esses poderes (somente após um dia de uso)."
+  }
+}

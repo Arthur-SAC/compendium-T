@@ -1,0 +1,36 @@
+{
+  "id": "paixao-de-marah",
+  "tipo": "magia",
+  "nome": "Paixão de Marah",
+  "resumo": "Emana aura de magnetismo pessoal, concedendo bônus em todas as perícias baseadas em Carisma (exceto Intimidação).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Você é cercado por uma aura de magnetismo pessoal que o torna mais interessante e atraente aos olhos dos demais. Você recebe +2 em perícias originalmente baseadas em Carisma (exceto Intimidação).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Marah: além do normal, o alvo recebe +1 em Carisma. Esse aumento não oferece PV ou PM adicionais."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Apenas Devotos de Marah: muda a duração para 1 dia.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

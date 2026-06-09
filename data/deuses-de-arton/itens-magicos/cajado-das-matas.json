@@ -1,0 +1,22 @@
+{
+  "id": "cajado-das-matas",
+  "tipo": "item-magico",
+  "nome": "Cajado das Matas",
+  "resumo": "Bordão de galhos retorcidos e couro de Allihanna que, ao ar livre sobre terra, torna-se formidável e concede +2 na Defesa. Torna-se magnífico para devotos de patamar campeão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "allihanna", "rotulo": "Allihanna" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 27.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este bordão é feito com galhos retorcidos e trançados com couro. Se você for devoto de Allihanna, ele se torna um bordão formidável e, enquanto você estiver ao ar livre e pisando sobre terra, fornece +2 na Defesa (cumulativo com outros bônus de itens). Se for um devoto de patamar campeão ou superior, a arma se torna um bordão magnífico. Arma específica menor, preço T$ 27.000."
+    }
+  ]
+}

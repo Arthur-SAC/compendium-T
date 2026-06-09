@@ -1,0 +1,44 @@
+{
+  "id": "forjador-liturgico",
+  "tipo": "distincao",
+  "nome": "Forjador Litúrgico",
+  "resumo": "Ferreiro sagrado da Ordem dos Forjadores Litúrgicos de Arsenal que forja e oferta armas abençoadas a combatentes dignos, testando-os em duelo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 92 },
+  "imagens": ["/distincoes/forjador-liturgico.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Dentro da igreja do novo Deus da Guerra se formou a Ordem dos Forjadores Litúrgicos, com a missão de ofertar armas dignas a portadores dignos.\n\nEste culto de Arsenal é dedicado a assegurar que todo aquele com disposição e capacidade de lutar tenha meios próprios para fazê-lo. Membros são vistos vagando em pequenos grupos, trajando mantos escuros, armaduras pesadas e grandes elmos fechados, que exibem o símbolo sagrado da espada e do martelo cruzados. E portam armas — numerosas, excelentes armas.\n\nO forjador litúrgico é um ferreiro, um armeiro, mas também um guerreiro exímio, perito em lutar com as armas que ele mesmo produz. O propósito de sua existência é testar combatentes diante de Arsenal. Sua missão é ofertar suas peças aos que se mostram portadores aceitáveis.\n\nQuando um grupo de forjadores encontra um ou mais candidatos viáveis, eles são desafiados em combate por um número igual de forjadores. Aqueles que vencem são premiados com uma arma sagrada. Perdedores, contudo, são pilhados de suas próprias armas — considerados indignos de mantê-las. Recusa é punida com a morte.\n\nEmbora esse propósito obstinado seja o motivo da existência dos forjadores litúrgicos, a ordem não prende seus membros. A maioria escolhe viajar em pequenos grupos de iguais, mas não todos. Eles são livres para se aventurar, encontrar e vencer seus próprios desafios. Devem, contudo, manter o dogma da seita: se encontrarem oponentes armados que possam se mostrar dignos, devem duelar. E, se forem vencidos, devem presenteá-los com armas adequadas.\n\nComo aventureiros, os forjadores litúrgicos também cuidam das armas de seus colegas com esmero e maestria, afiando-as e abençoando-as. Desejam vitórias gloriosas — até para tomar dos inimigos suas preciosas armas. E, seguindo os dogmas mais básicos de Arsenal, encontram meios de vencer. Pois, se existe algo que agrada ao Deus da Guerra ainda mais que armas, são vitórias."
+    }
+  ],
+  "mecanica": {
+    "admissao": "O candidato deve ser devoto de Arsenal, além de um ferreiro e armeiro exímio. Deve procurar a Ordem dos Forjadores Litúrgicos (encontrada em grandes templos de Arsenal ou peregrinando em campos de batalha). Ao encontrar um forjador, o combate é inevitável; o candidato deve ser considerado digno e concordar com os termos do duelo. Se aprovado, é enviado ao templo secreto da ordem, onde passa seis meses e forja seis armas (cada uma melhor que a anterior). O teste final é enfrentar um professor usando apenas as armas que forjou. Ao vencer, passa por uma cerimônia de iniciação e recebe seu elmo.",
+    "marca": {
+      "nome": "Ferreiro Sagrado",
+      "descricao": "Nos primeiros passos de seu ofício divino, o forjador litúrgico aprimora suas habilidades com armas. Você recebe +2 em Ofício (armeiro) e em rolagens de dano com armas que tenha fabricado."
+    },
+    "poderes": [
+      {
+        "nome": "Virtude do Forjador",
+        "descricao": "Aço é meu corpo e fogo é meu sangue. Você pode fabricar armas superiores com uma melhoria. Para cada outro poder da distinção que possuir, pode fabricar armas com uma melhoria adicional (até um máximo de 4 melhorias). Se aprender a fabricar armas superiores por outra habilidade, gasta metade do tempo para fabricá-las. Pré-requisitos: treinado em Luta e Ofício (armeiro), um poder concedido de Arsenal."
+      },
+      {
+        "nome": "Armamento Sagrado",
+        "descricao": "Aos olhos de Arsenal, todas as armas que seus forjadores fabricam são preferidas. O custo do seu poder Abençoar Arma diminui em –1 PM e você pode usá-lo com qualquer arma que tenha fabricado. Pré-requisitos: Abençoar Arma, Virtude do Forjador."
+      },
+      {
+        "nome": "Armamento Trabalhado",
+        "descricao": "Um forjador litúrgico consegue moldar até mesmo os presentes de seu deus. Quando usa Conjurar Arma, você pode gastar uma quantidade de PM adicionais igual ao dobro do total de poderes da distinção que possui. Para cada 2 PM gastos dessa forma, a arma recebe uma melhoria a sua escolha (até o máximo de 4 melhorias). Se pagar um total de 10 PM adicionais, além das melhorias a arma recebe um encanto a sua escolha. Pré-requisitos: Conjurar Arma, Forja Devocional."
+      },
+      {
+        "nome": "Desprezo pelo Ordinário",
+        "descricao": "Não será o simples artesanato dos plebeus, nem as mundanas garras de uma fera, que irá ferir o corpo de um forjador litúrgico. Sempre que sofre dano não mágico, você pode gastar 2 PM para reduzir esse dano à metade. Pré-requisito: Forja Devocional."
+      },
+      {
+        "nome": "Forja Devocional",
+        "descricao": "Unindo forjaria e ritual, o forjador litúrgico consegue transferir magia para suas criações. Você consegue transplantar encantos de outras armas para aquelas que você fabricou. Para isso, gaste metade do tempo necessário para fabricar a arma mágica e faça um teste de Ofício (armeiro) com a CD de fabricação dela. Se passar, a arma perde seus encantos e eles são transferidos para uma arma que você tenha fabricado (essa arma deve atender aos pré-requisitos dos encantos e respeitar o limite de encantos que pode ter). Pré-requisito: Virtude do Forjador."
+      }
+    ]
+  }
+}

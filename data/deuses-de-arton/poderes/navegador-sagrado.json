@@ -1,0 +1,15 @@
+{
+  "id": "navegador-sagrado",
+  "tipo": "poder",
+  "nome": "Navegador Sagrado",
+  "resumo": "Usa Sabedoria para Pilotagem e magias divinas custam –2 PM em embarcação aquática.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "oceano",
+    "prerequisito": "",
+    "descricao": "Você pode usar Sabedoria para Pilotagem (em vez de Destreza) e, enquanto estiver em uma embarcação aquática, suas magias divinas custam –2 PM."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "futuro-melhor",
+  "tipo": "magia",
+  "nome": "Futuro Melhor",
+  "resumo": "Permite enxergar possibilidades de um evento recente, concedendo +2 em um teste cujo dado já rolou mas cujo resultado o mestre ainda não declarou.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Adivinhação",
+    "execucao": "reação",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Esta magia permite enxergar todas as possibilidades e consequências de um evento muito recente, ainda a tempo de escolher o melhor caminho. O alvo recebe +2 em um teste cujo dado já rolou, mas cujo resultado o mestre ainda não tenha declarado.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Thyatis: muda o bônus para 1d4+2."
+      }
+    ]
+  }
+}

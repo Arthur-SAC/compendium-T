@@ -1,0 +1,15 @@
+{
+  "id": "remorso-do-belicista",
+  "tipo": "poder",
+  "nome": "Remorso do Belicista",
+  "resumo": "Uma vez por rodada, ao sofrer dano de inimigo, gasta 1 PM para impor penalidade cumulativa de –2 nos testes de ataque e dano dele.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "marah",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, quando sofre dano de um inimigo, você pode gastar 1 PM. Se fizer isso, ele sofre uma penalidade cumulativa de –2 em testes de ataque e rolagens de dano até o fim da cena. Mental."
+  }
+}

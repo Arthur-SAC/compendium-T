@@ -1,0 +1,39 @@
+{
+  "id": "gwendolynn",
+  "tipo": "divindade",
+  "nome": "Gwendolynn, a Deusa da Liberdade",
+  "resumo": "Elfa mortal ascendida, ex-clériga de Tanna-Toh que libertou os minotauros da escravidão e se tornou deusa menor da liberdade ao proteger Tiberus da Tormenta.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 231
+  },
+  "imagens": [
+    "/divindades/gwendolynn.png"
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Libertar escravos. Libertar mentes. Transformar sistemas rígidos e antiquados. Lutar contra qualquer submissão involuntária. Pregar a independência.",
+    "simboloSagrado": "Um elo de corrente partido ao meio.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Cajado de batalha (Guia de NPCs, p. 17).",
+    "devotos": "Dahllan, duendes, elfos, elfos-do-mar, eiradaan, galokk, goblins, lefou, minotauros, qareen, kliren, sátiros, sílfides, velocis, bardos, bucaneiros, inventores, ladinos, paladino (único).",
+    "poderesConcedidos": [
+      "Liberdade Irrestrita"
+    ],
+    "obrigacoesRestricoes": "Devotos de Gwendolynn jamais podem recusar uma missão que envolva a libertação de escravos, exceto quando isso significa a morte ou a ruína de seus próprios aliados."
+  },
+  "secoes": [
+    {
+      "titulo": "Historia",
+      "texto": "Uma elfa de longas tranças loiras, quase sempre de armadura e carregando um bordão. Ex-aventureira, participou de várias buscas que pareciam missões simples, mas acabaram mudando o destino de Arton. Gwen libertou o feudo de Adhurian de monstros conjurados a partir da Joia da Alma, um dos artefatos mais antigos da Criação. Envolveu-se com os organizadores da Revolta da Lavoura, sendo uma das principais responsáveis por acabar com o escravagismo no Império de Tauron. Então ainda uma clériga de Tanna-Toh, Gwen se mostrou um símbolo de força, esperança e resistência, expondo ao mundo a traição de Glórienn e tornando-se um foco de devoção. Finalmente, ascendeu a divindade menor protegendo a cidade de Tiberus da destruição pela Tormenta. Gwen prega liberdade de todo tipo de escravidão. Isso inclui escravidão física (como era praticada no Império de Tauron) e mental (como a crença na inferioridade dos goblinoides)."
+    },
+    {
+      "titulo": "Natureza e Status",
+      "texto": "Mortal ascendida, status divino 3."
+    },
+    {
+      "titulo": "Poder Concedido: Liberdade Irrestrita",
+      "texto": "Você recebe +2 em testes de manobra para evitar ser agarrado e de resistência contra efeitos mentais, de medo, de metamorfose e de movimento. Além disso, se falhar num desses testes, pode rolá-lo novamente. Se ainda assim falhar, no início de cada um de seus turnos pode rolar esse teste novamente, como uma ação livre e com um bônus cumulativo de +2, até se libertar."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "traicao-da-lamina",
+  "tipo": "magia",
+  "nome": "Traição da Lâmina",
+  "resumo": "Amaldiçoa uma arma contra seu usuário: quando ele ataca, deve passar em Vontade ou a arma se volta contra ele.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 64 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 2,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 arma em posse de uma criatura",
+    "duracao": "cena, até ser descarregada",
+    "resistencia": "Vontade (veja texto)",
+    "custoPM": 2,
+    "descricao": "Provavelmente ofertada por Sszzaas, esta magia amaldiçoa uma arma contra seu usuário. Quando faz um ataque com a arma, o usuário deve passar em um teste de Vontade. Se falhar, a arma se retoce como uma serpente, ou muda sua trajetória em pleno voo; o agressor se torna o alvo do próprio ataque! Após esse ataque, bem-sucedido ou não, a magia descarrega e a arma volta ao normal.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Em vez do usuário, a arma se volta para outra criatura em alcance curto que você possa perceber, a sua escolha."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alvo para 1 arma e a duração para 1 dia, até ser descarregada.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Adiciona componente material (uma dose de veneno). Além do normal, o ataque envenena o usuário com o veneno utilizado como componente (a CD desse veneno é a CD da própria magia)."
+      }
+    ]
+  }
+}

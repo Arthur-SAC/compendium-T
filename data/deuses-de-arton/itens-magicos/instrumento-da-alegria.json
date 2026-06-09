@@ -1,0 +1,22 @@
+{
+  "id": "instrumento-da-alegria",
+  "tipo": "item-magico",
+  "nome": "Instrumento da Alegria",
+  "resumo": "Instrumento musical aprimorado de Marah que, ao gastar 1 PM, toca música envolvente concedendo +2 em perícias a aliados em alcance médio. Devotos de Marah podem ativar com poderes de Música.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "marah", "rotulo": "Marah" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 10.500"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Um instrumento musical comum, como um bandolim, flauta ou tambor, aprimorado (+1 em Atuação). Se você for treinado em Atuação e estiver empunhando o instrumento da alegria, pode gastar uma ação padrão e 1 PM para tocar uma música envolvente, que fornece +2 em testes de perícia para você e seus aliados em alcance médio até o fim da cena (cumulativo com outros bônus de itens). Se você for devoto de Marah e usar um poder de Música, pode ativar o efeito do item com uma ação livre. Acessório médio, preço T$ 10.500."
+    }
+  ]
+}

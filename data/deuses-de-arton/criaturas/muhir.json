@@ -1,0 +1,73 @@
+{
+  "id": "muhir",
+  "tipo": "criatura",
+  "nome": "Muhir",
+  "resumo": "Entre os maiores guerreiros celestiais, os muhir não servem diretamente aos deuses. São como cavaleiros errantes, viajando pelos mundos sem destino, combatendo o mal onde o encontram. Preferem lutar abertamente com seus melhores ataques.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 282 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O recém-chegado passaria por um elfo de linhagem nobre, mas parece ser muito mais. A armadura e a espada magníficas por certo não foram forjadas neste mundo. Os olhos brilham com tonalidades metálicas. O cabelo longo e luminoso esvoaça mesmo sem vento, as orelhas se alongam quase como antenas.\n\nEmbora estejam entre os maiores guerreiros celestiais em todos os Planos, os muhir não servem diretamente aos deuses — ou, pelo menos, não seguem seus comandos. Muhir são como cavaleiros errantes, viajando pelos mundos sem destino, combatendo o mal onde o encontram. Suas existências são inconstantes e repletas de aventuras. Nunca permanecem muito tempo na mesma cidade, ou sequer no mesmo mundo! Não têm metas, objetivos ou missões, apenas se deixando levar pelo acaso, surgindo quando menos se espera.\n\nAssim, um muhir não vai necessariamente perseguir a maior ameaça na região, nem investigar em busca de inimigos secretos, preferindo lidar com problemas que estejam bem à vista. Um muhir não tem apreço por sutileza e furtividade, sempre lutando abertamente e com os melhores ataques à disposição — tipicamente uma espada bastarda sagrada. Ele também utiliza um par de pistolas celestiais, surpreendendo adversários em fuga."
+    }
+  ],
+  "mecanica": {
+    "nd": "15",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Médio",
+    "iniciativa": "+20",
+    "percepcao": "+9",
+    "sentidos": "visão no escuro",
+    "defesa": "50, Fort +22, Ref +28, Von +15, evasão aprimorada, imunidade a eletricidade, encantamento, dano de luz e fogo, redução de dano 10, vulnerabilidade a trevas",
+    "pontosDeVida": "750",
+    "deslocamento": "12m (8q)",
+    "pontosDeMana": "77",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x2 +41 (4d8+25, 17, mais 1d6 fogo).",
+      "À Distância Duas pistolas +39 (2d6+20, 18/x4, mais 1d6 fogo)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "7",
+      "constituicao": "6",
+      "inteligencia": "3",
+      "sabedoria": "2",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Armas Divinas",
+        "descricao": "Qualquer arma empunhada pelo muhir causa +1d6 pontos de dano de fogo (já contabilizado) e se torna sagrada (Tormenta20, p. 336)."
+      },
+      {
+        "nome": "Foco Momentâneo (Movimento)",
+        "descricao": "O muhir escolhe uma perícia. Até o fim da cena, ou até usar esta habilidade novamente, ele recebe +10 nessa perícia, mas sofre –5 em todas as demais perícias."
+      },
+      {
+        "nome": "Golpe Pessoal (Reação, 3 PM)",
+        "descricao": "Uma vez por rodada, quando acerta uma criatura com um ataque corpo a corpo, o muhir também causa 10d6 pontos de dano de eletricidade em criaturas a sua escolha em alcance médio da criatura atingida."
+      },
+      {
+        "nome": "Investida Surpreendente (Reação)",
+        "descricao": "Quando o muhir faz uma investida, a criatura que ele ataca fica surpreendida contra esse ataque. Uma criatura só é surpreendida por esta habilidade uma vez por cena."
+      },
+      {
+        "nome": "Não Tão Rápido! (Reação)",
+        "descricao": "Uma vez por rodada, quando uma criatura em alcance natural do muhir se move voluntariamente para fora desse alcance, ele faz um ataque à distância com uma de suas pistolas contra ela. O muhir não sofre a penalidade de –5 por fazer um ataque à distância contra um oponente envolvido em combate corpo a corpo nesse ataque."
+      },
+      {
+        "nome": "Saque Rápido",
+        "descricao": "O muhir pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um conjurador divino de 15º nível (CD 40). • Heroísmo (Padrão, 12 PM): Uma criatura adjacente fica imune a medo, recebe 40 PV temporários e +6 em testes de ataque e rolagens de dano contra o inimigo de maior ND na cena. • Libertação (Padrão, 15 PM): Cinco criaturas em alcance curto ficam imunes a efeitos de movimento, e ignoram qualquer efeito que impeça ou restrinja seu deslocamento. • Sopro da Salvação (Padrão, 14 PM): O muhir sopra um cone de 9m que cura 4d8+4 PV e remove todas as seguintes condições dos aliados na área: abalado, atordoado, apavorado, alquebrado, cego, confuso, debilitado, enfeitiçado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, paralisado, pasmo e surdo."
+      }
+    ],
+    "pericias": "Atuação +19, Cura +15, Intimidação +19, Religião +15.",
+    "equipamento": "Armadura dos Neladriel, balas x20, espada bastarda certeira precisa, pistola certeira maciça x2.",
+    "tesouro": "Metade.",
+    "tema": "Celestiais"
+  }
+}

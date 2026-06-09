@@ -1,0 +1,19 @@
+{
+  "id": "rede-de-almas",
+  "tipo": "item",
+  "nome": "Rede de Almas",
+  "resumo": "Pequena rede decorada com ossos usada por devotos de deuses de energia negativa, que concede PV temporários ao rolar dados máximos em magias divinas de trevas.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 600",
+    "espacos": "1",
+    "especial": "Só pode ser usada por devotos de divindades que canalizam energia negativa. Quando lança uma magia divina de trevas, para cada resultado máximo nos dados de dano da magia (incluindo dados maximizados), você recebe 1 PV temporário cumulativo."
+  }
+}

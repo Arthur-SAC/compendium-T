@@ -1,0 +1,21 @@
+{
+  "id": "amuleto-de-khalmyr",
+  "tipo": "item",
+  "nome": "Amuleto de Khalmyr",
+  "resumo": "Amuleto em formato de balança que permite escolher 10 em um teste de perícia, mas perde o poder após esse uso.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Não é mágico. Quando faz um teste de perícia, você pode fazer um teste de Sabedoria (CD 10). Se passar, pode escolher 10 para esse teste de perícia (em vez de usar o valor rolado no d20). Uma vez que você use este efeito em um teste, o amuleto perde seus poderes, tornando-se inútil."
+  }
+}

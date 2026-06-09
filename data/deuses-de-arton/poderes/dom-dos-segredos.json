@@ -1,0 +1,15 @@
+{
+  "id": "dom-dos-segredos",
+  "tipo": "poder",
+  "nome": "Dom dos Segredos",
+  "resumo": "Gasta ação padrão e 2 PM para suplicar a Sszzaas por um segredo: ao passar em teste de Carisma, aprende uma magia de 1º círculo até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "sszzaas",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 2 PM para suplicar a Sszzaas por um segredo místico. Faça um teste de Carisma (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, você aprende e pode lançar uma magia de 1º círculo até o fim da cena (atributo-chave Car ou o seu atributo de conjuração, se houver)."
+  }
+}

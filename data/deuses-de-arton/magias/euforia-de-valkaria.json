@@ -1,0 +1,41 @@
+{
+  "id": "euforia-de-valkaria",
+  "tipo": "magia",
+  "nome": "Euforia de Valkaria",
+  "resumo": "Torna o alvo imune a medo e concede bônus em testes de ataque quando luta em desvantagem numérica.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 61 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Esta magia enche o alvo de disposição, apagando o medo (e bom senso) em seu coração e impedindo-o de ser intimidado por desafios árduos. O alvo se torna imune a medo e recebe +1 em testes de ataque quando luta em desvantagem (um encontro contra o dobro de inimigos que seu grupo, ou com ND maior que o do grupo).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus em testes de ataque em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a execução para reação e a duração para 1 rodada. Em vez do normal, o alvo recebe imunidade a medo e +5 em Vontade.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para área de esfera com 3m de raio. Você e todos os aliados na área são afetados pela magia.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Valkaria: muda o alcance para toque e o alvo para 1 criatura."
+      }
+    ]
+  }
+}

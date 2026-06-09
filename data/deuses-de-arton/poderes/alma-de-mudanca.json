@@ -1,0 +1,15 @@
+{
+  "id": "alma-de-mudanca",
+  "tipo": "poder",
+  "nome": "Alma de Mudança",
+  "resumo": "No início de cada aventura, pode trocar poderes (limitados pela Sabedoria) por outros cujos pré-requisitos cumpra.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "thwor",
+    "prerequisito": "",
+    "descricao": "No início de cada aventura, você pode trocar uma quantidade de poderes (limitada por sua Sabedoria) por poderes diferentes cujos pré-requisitos cumpra. Você não pode trocar este poder. (Concedido também por Valkaria.)"
+  }
+}

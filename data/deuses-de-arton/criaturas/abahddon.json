@@ -1,0 +1,75 @@
+{
+  "id": "abahddon",
+  "tipo": "criatura",
+  "nome": "Abahddon, Lorde das Profundezas",
+  "resumo": "O demônio mais ardiloso em todos os mundos. Corpo massivo com grandes chifres anelados, garras negras e asas de couro. Tece planos sobre planos, manipula e serve a inúmeros deuses malignos simultaneamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 260 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O demônio tem corpo massivo e poderoso, inchado de músculos, com partes segmentadas ou ornamentadas com espinhos. Tem um par de grandes chifres anelados, retorcidos, e um terceiro chifre aflorando no centro. Garras longas e negras afloram nas mãos e na cauda, asas de couro produzem fumaça e enxofre com seus movimentos. Ainda assim, apesar da aparência monstruosa, os olhos flamejantes brilham com sagacidade e malícia infernais. Este talvez seja o demônio mais ardiloso em todos os mundos. Diz-se que todos os grandes planos, todos os esquemas seguidos e executados por abissais, foram concebidos pela mente assustadoramente genial de Abahddon, Lorde das Profundezas. Tamanha sua engenhosidade, seu talento para executar planos complexos, que Abahddon tem o privilégio de servir a inúmeros deuses — não há divindade maligna que não utilize seus serviços. Completamente oposto a Lamashtu, raramente recorre a violência ou força bruta. Prefere manipular, mentir e enganar para que outros lutem."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Grande",
+    "tema": "Abissais",
+    "iniciativa": "+19",
+    "percepcao": "+22, visão no escuro",
+    "defesa": "64, Fort +29, Ref +21, Von +36, imunidade a ácido, adivinhação, efeitos mentais, fogo e veneno, maior que a morte, redução de dano 20/luz, resistência a magia +5",
+    "pontosDeVida": "2.555",
+    "deslocamento": "12m (8q), voo 18m (12q)",
+    "pontosDeMana": "156",
+    "ataques": [
+      "Corpo a Corpo Kazidhaan +64 (6d12+92, 19, mais 2d8 contra devotos de deuses que canalizam apenas energia positiva e criaturas que, a critério do mestre, sejam bondosas), mordida +58 (8d6+44) e cauda +58 (8d8+36 corte)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "3",
+      "constituicao": "5",
+      "inteligencia": "16",
+      "sabedoria": "6",
+      "carisma": "12"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Cauda (teste +60)."
+      },
+      {
+        "nome": "Concentração Abissal",
+        "descricao": "Abahddon pode lançar magias mesmo com as mãos presas ou amordaçado (como se estivesse sob efeito do poder Magia Discreta) e, quando faz um teste de Vontade para concentração, rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Constrição (Livre)",
+        "descricao": "No início de cada um de seus turnos, Abahddon causa 8d8+36 pontos de dano de impacto em qualquer criatura que esteja agarrando."
+      },
+      {
+        "nome": "Dádiva Abissal (Completa)",
+        "descricao": "Abahddon transfere uma fração de seu poder para outra criatura em alcance curto. Essa criatura pode escolher um dos benefícios a seguir. Uma mesma criatura só pode receber uma dádiva de Abahddon: a criatura aprende e pode lançar uma magia de até 3º círculo (atributo-chave Carisma); um atributo da criatura, à escolha dela, aumenta em +1; a criatura recebe um poder qualquer (exceto concedido ou da Tormenta), cujos pré-requisitos cumpra."
+      },
+      {
+        "nome": "Pacto Maculado (Movimento)",
+        "descricao": "Uma criatura em alcance médio ouve 'conselhos' de uma voz suave; comandos simples como 'vá até aquele lugar', 'solte esse item' etc. A cada vez que segue um desses conselhos, a criatura recebe +2 em rolagens de dano por 1 rodada e 2 PM temporários."
+      },
+      {
+        "nome": "Por Trás das Cortinas",
+        "descricao": "Quando faz um teste de Diplomacia, Enganação, Intimidação, Intuição ou Percepção, Abahddon rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Preço do Pacto",
+        "descricao": "Quando Abahddon usa Desejo, Dádiva Abissal ou Pacto Maculado para conceder um efeito benéfico a uma criatura, essa criatura sofre uma penalidade cumulativa de –5 em testes de perícia e rolagens de dano contra Abahddon. A penalidade tem a mesma duração que o efeito benéfico correspondente."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um conjurador arcano de 20º nível (CD 51, limite de PM 36). Chuva de Meteoros (Completa, 15 PM): meteoros caem em um quadrado de 36m em alcance longo. Criaturas na área sofrem 15d6 pontos de dano de impacto, 15d6 pontos de dano de fogo e ficam caídas e presas (agarradas) sob os escombros (Ref reduz o dano à metade e evita a condição; veja Tormenta20, p. 183). Desejo (Padrão, 15 PM): Abahddon molda a realidade a sua vontade. Ele pode dissipar os efeitos de qualquer magia de 4º círculo ou menor, transportar até 10 criaturas voluntárias em alcance longo para qualquer outro plano ou fazer algo ainda mais poderoso (nesse caso, exige o sacrifício de 2 PM). Desespero Esmagador (Padrão, 8 PM): criaturas num cone de 6m ficam debilitadas e esmorecidas (Von reduz para 1 rodada). Dissipar Magia (Padrão, 3 PM): Abahddon escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas. Legião (Padrão, 15 PM, sustentada): até 10 criaturas em alcance médio obedecem cegamente aos comandos de Abahddon, exceto ordens claramente suicidas. Uma criatura tem direito a um teste de Vontade no fim de cada um de seus turnos para se livrar do efeito. Criaturas que passem no teste ficam abaladas por 1 rodada enquanto recuperam a consciência. Marionete (Padrão, 10 PM, sustentada): Abahddon controla as ações físicas de uma criatura em alcance médio. Ao sofrer a magia, e no início de cada um de seus turnos, a vítima faz um teste de Fortitude. Se passar, a magia é anulada. Rogar Maldição (Padrão, 10 PM): uma criatura em alcance curto fica esmorecida e não pode se comunicar ou lançar magias permanentemente (Fort evita)."
+      }
+    ],
+    "pericias": "Atletismo +24, Diplomacia +33, Enganação +38, Intimidação +33, Intuição +27, Misticismo +32.",
+    "equipamento": "Kazidhaan.",
+    "tesouro": "Triplo."
+  }
+}

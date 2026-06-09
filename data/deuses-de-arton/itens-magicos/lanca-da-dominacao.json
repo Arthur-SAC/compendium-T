@@ -1,0 +1,22 @@
+{
+  "id": "lanca-da-dominacao",
+  "tipo": "item-magico",
+  "nome": "Lança da Dominação",
+  "resumo": "Lança maciça de metal cinza de Kallyadranoch que, para seu devoto, causa +1d10 de dano elemental por acerto e cresce com o personagem, mas enfraquece se separada dele.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 56 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "kallyadranoch", "rotulo": "Kallyadranoch" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 45.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta lança maciça é feita de uma única haste de metal cinza escuro, e tem um tênue brilho alaranjado. Se você for um devoto de Kallyadranoch, torna-se uma lança maciça que fornece +1 em testes de ataque e rolagens de dano e, a cada acerto, causa +1d10 pontos de dano de ácido, eletricidade, fogo ou frio (a escolha do usuário a cada golpe). Cada vez que você sobe de nível enquanto estiver com a lança, os bônus que ela fornece em ataque e dano aumentam em +1 (até um máximo de +6). Entretanto, a cada mês que você passar separado da lança da dominação, os bônus dela diminuem em –1 (até um mínimo de +1). Arma específica média, preço T$ 45.000."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "avatar-de-marah",
+  "tipo": "criatura",
+  "nome": "Avatar de Marah",
+  "resumo": "A manifestação da Deusa da Paz e do Amor: uma dançarina sorridente e cheia de vida que emana uma aura de calmaria tornando criaturas mortais incapazes de atos agressivos em sua presença.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 187 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "marah", "rotulo": "Marah" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Antigamente, Marah era representada como uma mulher solene, em vestes brancas que brilhavam com luz própria. Hoje, porém, é mais vista na figura de uma dançarina sorridente e cheia de vida. Em qualquer forma, Marah nunca porta armas ou mostra quaisquer capacidades combativas. Não que isso seja necessário — em sua presença, criaturas mortais são incapazes de quaisquer atos agressivos. Animais ferozes ficam mansos, soldados deixam cair suas armas. Dos corações de todos na presença da deusa a violência desaparece, sendo substituída pelo desejo de amar."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+27",
+    "percepcao": "+29, visão no escuro",
+    "defesa": "48, imunidade a atordoamento, efeitos mentais e medo, maior que a morte, redução de dano 10, resistência a magia +5",
+    "fortitude": "+29",
+    "reflexos": "+36",
+    "vontade": "+42",
+    "pontosDeVida": "789",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "6",
+      "destreza": "10",
+      "constituicao": "8",
+      "inteligencia": "8",
+      "sabedoria": "12",
+      "carisma": "20"
+    },
+    "habilidades": [
+      {
+        "nome": "Bênção da Calmaria",
+        "descricao": "O Avatar de Marah emana uma aura de calmaria de 30m. Qualquer criatura nessa área que tente executar uma ação hostil deve fazer um teste de Vontade (CD 53). Se falhar, perde a ação. Se passar, pode agir normalmente, mas perde 2d6 PM ao fim do seu turno. Caso os PM da criatura sejam reduzidos a 0 por esta habilidade, ela fica enfeitiçada e perde a vontade de lutar por 1 dia."
+      },
+      {
+        "nome": "Coração Gentil",
+        "descricao": "Quando faz um teste de uma perícia baseada em Sabedoria ou Carisma, o Avatar rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 49, 53 para encantamento e ilusão, limite de PM 20). Uma vez por rodada, ele pode lançar Enfeitiçar como ação livre."
+      },
+      {
+        "nome": "Faça Amor, Não Faça Guerra",
+        "descricao": "Qualquer criatura dentro da Bênção da Calmaria do Avatar que aceitar encerrar um conflito de maneira pacífica recebe +3 PM por nível até o fim da aventura. Esses bônus desaparecem caso a criatura execute qualquer ação hostil."
+      },
+      {
+        "nome": "Incitar Paixão (Padrão)",
+        "descricao": "O Avatar e todos os seus aliados em alcance médio recebem +5 em testes de perícia e 40 PM temporários até o fim da cena. Qualquer criatura que executar uma ação hostil perde esses bônus."
+      },
+      {
+        "nome": "Música da Calmaria",
+        "descricao": "O Avatar possui todos os poderes de Música de Bardo e pode usá-los sem gastar PM."
+      }
+    ],
+    "pericias": "Acrobacia +27, Atuação +45, Conhecimento +25, Diplomacia +40, Enganação +35, Intuição +29, Misticismo +25, Religião +29.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Pandeiro aprimorado, Véu do Desejo.",
+    "tema": "Deuses & Avatares"
+  }
+}

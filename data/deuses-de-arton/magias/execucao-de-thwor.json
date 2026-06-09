@@ -1,0 +1,48 @@
+{
+  "id": "execucao-de-thwor",
+  "tipo": "magia",
+  "nome": "Execução de Thwor",
+  "resumo": "Garante que o próximo ataque contra um humanoide com condição de medo seja acerto crítico, ou aumenta o multiplicador se já for crítico.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 61 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "movimento",
+    "alcance": "curto",
+    "alvo": "1 humanoide sob efeito de uma condição de medo",
+    "duracao": "1 rodada",
+    "resistencia": "Vontade anula",
+    "custoPM": 1,
+    "descricao": "Se acertar seu próximo ataque no alvo, ele se torna um acerto crítico. Se for um crítico naturalmente, em vez disso seu multiplicador aumenta em +1.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Em vez do normal, a magia afeta 1 alvo sob efeito de uma condição mental.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Apenas Devotos de Thwor: se o ataque for um acerto crítico naturalmente, em vez do normal ele causa o efeito de um golpe de misericórdia (Tormenta20, p. 235).",
+        "requisitoCirculo": 5
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Elfos: muda o alvo para 1 duyshidakk ou 1 devoto de Aharadak, Tauron ou Thwor. Muda os dados de dano para d10."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Divinos: além do normal, para cada alvo que falhar na resistência, o próximo aliado que causar dano a ele recebe uma quantidade de PV temporários igual à metade do dano causado pela magia.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

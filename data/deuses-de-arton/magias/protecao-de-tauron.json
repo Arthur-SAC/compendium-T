@@ -1,0 +1,36 @@
+{
+  "id": "protecao-de-tauron",
+  "tipo": "magia",
+  "nome": "Proteção de Tauron",
+  "resumo": "Marca um aliado como protegido, concedendo-lhe bônus de Defesa e deslocamento dobrado quando se move em direção a você, além de permitir monitorar sua condição.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 63 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "movimento",
+    "alcance": "curto",
+    "alvo": "1 criatura que não você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Esta antiga magia ofertada pelo Deus da Força ainda pode ser lançada mesmo após sua morte, preservada por divindades simpatizantes em honra a seu aspecto como protetor dos fracos. Quando a magia é lançada, luz sagrada envolve o alvo, que se torna um 'protegido'; ele recebe +2 na Defesa e, quando se move em sua direção, o deslocamento dele é dobrado. Além disso, você sabe a direção e distância do alvo, e também se ele está ferido ou afetado por qualquer condição, independentemente da distância. Você não pode lançar esta magia enquanto for o 'protegido' de outra criatura.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, você pode usar habilidades mágicas com alcance de toque no alvo como se elas tivessem alcance curto."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o bônus na Defesa em +2 (bônus máximo limitado ao dobro do círculo máximo de magia que você pode lançar).",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Minotauros: além do normal, uma vez por rodada, quando uma criatura faz uma ação hostil contra o protegido, você pode gastar 1 PM para fazer um ataque corpo a corpo contra ela, desde que ela esteja em seu alcance pessoal."
+      }
+    ]
+  }
+}

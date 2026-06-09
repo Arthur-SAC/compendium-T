@@ -1,0 +1,15 @@
+{
+  "id": "expurgar-a-derrota",
+  "tipo": "poder",
+  "nome": "Expurgar a Derrota",
+  "resumo": "Com 0 PM, pode gastar PV no lugar de mana à taxa de 3 PV por 1 PM.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "arsenal",
+    "prerequisito": "",
+    "descricao": "Se estiver com 0 PM, você pode gastar seus pontos de vida (exceto PV temporários) no lugar de mana, à taxa de 3 PV por 1 PM. Você não pode reduzir seus PV a 0 ou menos dessa forma e não pode usar este poder se estiver sob efeito de ter descumprido suas Obrigações & Restrições. Pontos de vida gastos dessa forma só podem ser recuperados com descanso."
+  }
+}

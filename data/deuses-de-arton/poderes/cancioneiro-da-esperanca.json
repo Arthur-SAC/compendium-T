@@ -1,0 +1,15 @@
+{
+  "id": "cancioneiro-da-esperanca",
+  "tipo": "poder",
+  "nome": "Cancioneiro da Esperança",
+  "resumo": "Gasta ação padrão e 2 PM para entoar canção: aliados recebem +2 em testes e +3m de deslocamento até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "marah",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 2 PM para entoar uma canção de superação e paz. Criaturas escolhidas (limitadas por seu Carisma) em alcance curto recebem +2 em testes (exceto testes de ataque) e +3m de deslocamento até o fim da cena. Se uma criatura afetada for executar uma ação hostil, perde esses bônus."
+  }
+}

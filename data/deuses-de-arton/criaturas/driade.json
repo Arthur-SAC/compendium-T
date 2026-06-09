@@ -1,0 +1,53 @@
+{
+  "id": "driade",
+  "tipo": "criatura",
+  "nome": "Dríade",
+  "resumo": "Fada de pele esverdeada magicamente ligada a uma floresta, cuja alma repousa em uma árvore ancestral. Pacífica, prefere enganar e enfeitiçar a combater, e pode renascer indefinidamente enquanto sua árvore permanecer intacta.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 286 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dríades são fadas magicamente ligadas a bosques e florestas. Elas defendem as árvores, algumas vezes entrando em conflito com lenhadores e desbravadores, pois são capazes de tudo para evitar que a vida natural nas redondezas seja destruída.\n\nEmbora todas as fadas amem a natureza, uma dríade também tem outra razão para protegê-la: sua alma fica abrigada em uma árvore muito antiga, com séculos de idade. Não importa quantas vezes o corpo humanoide da dríade seja destruído, ela sempre voltará, renascida como um grande fruto em sua árvore poucos dias depois. A única forma de matar uma dríade é destruindo essa árvore.\n\nDríades são pacíficas, preferindo enganar e despistar em vez de lutar. Quando forçadas a isso, sua tática preferida é enfeitiçar ou seduzir inimigos para que lutem em sua defesa.\n\nNão é incomum que dríades se apaixonem por seres de outras raças, e vice-versa — pois podem alterar livremente sua aparência, entre um ser vegetal e uma forma humana ou élfica. Acabam cativadas por pessoas de boa aparência, personalidade distinta ou grande nobreza. Tais relacionamentos também produzem as dahllan, ou meias-dríades."
+    }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+7",
+    "percepcao": "+12",
+    "sentidos": "visão no escuro",
+    "defesa": "21, Fort +4, Ref +11, Von +15, imunidade a efeitos mentais, redução de dano 5/adamante",
+    "pontosDeVida": "98",
+    "pontosDeMana": "24",
+    "deslocamento": "9m (6q), sem redução por terreno difícil natural",
+    "ataques": [],
+    "atributos": {
+      "forca": "-1",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "1",
+      "sabedoria": "5",
+      "carisma": "6"
+    },
+    "pericias": "Adestramento +12, Diplomacia +12, Intuição +9, Furtividade +9 (+14 em florestas), Misticismo +6, Sobrevivência +15.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Caminhar em Árvores (Completa)",
+        "descricao": "A dríade entra em uma árvore adjacente que seja maior do que ela, e pode permanecer dentro da árvore livremente, percebendo os arredores de forma normal (mas sem poder executar outras ações). Também pode sair na mesma árvore ou em qualquer outra árvore em um raio de 1km como uma ação livre. Se estiver dentro de uma árvore que seja destruída, a dríade reaparece e perde 10d6 pontos de vida."
+      },
+      {
+        "nome": "Simbiose",
+        "descricao": "A verdadeira forma de uma dríade é uma enorme árvore. Quando sua forma humanoide é destruída, outra surge em poucos dias nessa árvore. A forma humanoide de uma dríade não pode se afastar mais de 1km da floresta onde repousa sua árvore, ou perde 8d6 pontos de vida por hora. Essa perda de vida só pode ser curada após a dríade retornar para sua árvore. A única forma de matar uma dríade é destruir sua árvore."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora de 4º nível (CD 20).\n• Comando (Padrão, 4 PM) No início do seu próximo turno, duas criaturas em alcance curto ficam pasmas por 1 rodada (Von evita; cada criatura só pode ficar pasma por esta magia uma vez por cena).\n• Controlar Plantas (Padrão, 2 PM) Um quadrado de 9m de vegetação em alcance curto se torna terreno difícil. Criaturas na área quando a magia é lançada ou no início de seus próprios turnos ficam enredadas e imóveis (Ref evita). Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo.\n• Enfeitiçar (Padrão, 1 PM) Um humanoide em alcance curto fica enfeitiçado (Von anula). Ações hostis contra o alvo ou seus aliados dissipam a magia.\n• Tranquilidade (Padrão, 2 PM) Até o fim da cena, uma criatura em alcance curto tem sua atitude mudada para indiferente e não pode atacar ou realizar qualquer ação hostil (Von reduz para penalidade de –2 em testes de ataque). Ações hostis contra o alvo ou seus aliados dissipam a magia."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "melhoria-conduite",
+  "tipo": "item",
+  "nome": "Melhoria: Conduíte",
+  "resumo": "Melhoria de arma com medalha ou objeto minúsculo de significado religioso na empunhadura, que reduz em –1 PM o custo de usar o poder Abençoar Arma nela.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Itens Superiores",
+    "tipoItem": "Melhoria",
+    "especial": "A empunhadura da arma é ornamentada com uma medalha ou outro objeto minúsculo de significado religioso. O custo para usar o poder Abençoar Arma nela é reduzido em –1 PM. Aplicável a armas."
+  }
+}

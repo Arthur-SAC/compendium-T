@@ -1,0 +1,46 @@
+{
+  "id": "gigante-das-colinas",
+  "tipo": "criatura",
+  "nome": "Gigante das Colinas",
+  "resumo": "O menor e mais numeroso dos gigantes. Bruto, primitivo e selvagem, vaga próximo a rotas comerciais atacando caravanas. Instinto de esmagar inimigos com clavas ou pedras arremessadas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 308 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Duas ou três vezes mais alto que um humano, este é o menor e mais numeroso dos gigantes. Aquele que mais frequentemente pode ser visto vagando próximo a rotas comerciais, atacando pequenos povoados ou mesmo formando aldeias e tribos nas áreas inexploradas do Reinado. Gigantes das colinas se organizam de formas simples, liderados pelo mais forte. Não constroem habitações, vivendo em cavernas ou como nômades.\n\nEm combate, gigantes das colinas buscam simplesmente esmagar os inimigos com suas clavas, ou arremessando pedras. Às vezes podem ser encontrados como guardas para vilões que sejam poderosos o bastante para controlá-los.\n\nDizem que os membros da mítica sociedade gigante Ked'Rach pertenciam a camadas sociais condizentes com seu tamanho — sendo os gigantes das colinas a classe mais baixa. Eles atuariam como servos e soldados, apenas seguindo ordens, não importando assim sua inteligência limitada."
+    }
+  ],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+2",
+    "percepcao": "+2",
+    "sentidos": "",
+    "defesa": "31, Fort +20, Ref +14, Von +7",
+    "pontosDeVida": "280",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Clava x2 +24 (1d10+24)."
+    ],
+    "atributos": {
+      "forca": "9",
+      "destreza": "-1",
+      "constituicao": "3",
+      "inteligencia": "-2",
+      "sabedoria": "-1",
+      "carisma": "-1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arremessar Rochas (Completa)",
+        "descricao": "O gigante das colinas arremessa uma rocha em um quadrado de 3m em alcance curto. Criaturas nessa área sofrem 6d12 pontos de dano de impacto (Ref CD 24 reduz à metade)."
+      }
+    ],
+    "pericias": "Atletismo +16, Intimidação +8, Sobrevivência +6.",
+    "tesouro": "Bolsa de gigante.",
+    "tema": "Gigantes"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "deleite-magico",
+  "tipo": "item",
+  "nome": "Deleite Mágico",
+  "resumo": "Folhado místico de Wynna que permite lançar uma magia de 1º círculo escolhida uma única vez pelo resto do dia gastando 2 PM.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "wynna", "rotulo": "Wynna" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 18",
+    "espacos": "0",
+    "especial": "Prato especial de Wynna. Ao consumir este folhado místico, escolha uma magia de 1º círculo. Até o fim do dia, você pode lançá-la uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria)."
+  }
+}

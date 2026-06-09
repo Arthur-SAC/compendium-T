@@ -1,0 +1,58 @@
+{
+  "id": "margharon",
+  "tipo": "criatura",
+  "nome": "Margharon",
+  "resumo": "Mercador de almas dos reinos divinos: aberração gigantesca com tentáculos e bocarra, que usa poderes mágicos para assumir forma de nobre humano ou elfo. Oferece contratos que aprisionam a alma da vítima.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 256 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O que parece ser sua forma verdadeira é uma aberração gigantesca, como um amontoado de carne inchada, alta e cônica como uma torre de castelo. Uma miríade de tentáculos aflora da base, espalhando-se em volta como raízes de uma grande árvore. No topo, uma bocarra repleta de dentes afiados. Margharon estão entre os mais poderosos abissais — são os mercadores de almas dos reinos divinos. Eles negociam os espíritos falecidos que seus mestres, os próprios deuses, mais cobiçam. Embora sua aparência real seja aterradora, os margharon usam poderes mágicos para assumir um aspecto ilustre na sociedade mortal, tipicamente como um nobre humano, elfo ou qareen."
+    }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Enorme",
+    "tema": "Abissais",
+    "iniciativa": "+9",
+    "percepcao": "+12, visão no escuro",
+    "defesa": "44, Fort +28, Ref +14, Von +22, fortificação 50%, imunidade a ácido, atordoamento, eletricidade e veneno, redução de dano 20, resistência a magia +4",
+    "pontosDeVida": "490",
+    "deslocamento": "9m (6q)",
+    "pontosDeMana": "70",
+    "ataques": [
+      "Corpo a Corpo Quatro tentáculos +37 (2d8+28) e mordida +37 (2d6+22)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "0",
+      "constituicao": "4",
+      "inteligencia": "6",
+      "sabedoria": "3",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado Tentáculo",
+        "descricao": "Teste +39."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o margharon muda a execução dela para livre."
+      },
+      {
+        "nome": "Mudar Forma (Padrão)",
+        "descricao": "O margharon assume a forma de qualquer humanoide de tamanho Pequeno a Enorme, como o efeito da magia Metamorfose. Ele pode permanecer na forma escolhida por tempo indeterminado, mas, se morrer, reverte à forma natural."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 14º nível (CD 40). Dissipar Magia (Padrão, 3 PM): o margharon escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas. Muralha Elemental (Padrão, 14 PM): uma muralha de fogo de até 30m de comprimento e 3m de altura se eleva da terra, em alcance médio. Um lado da muralha emite ondas de calor que causam 2d8 pontos de dano de fogo em criaturas a até 6m quando a magia é lançada e no início dos turnos do margharon. Atravessar a muralha causa 16d6 pontos de dano de fogo. Relâmpago (Padrão, 12 PM): o margharon lança um relâmpago em cada criatura escolhida em alcance médio, causando 12d6 pontos de dano de eletricidade (Ref reduz à metade). Teletransporte (Padrão, 6 PM): o margharon se teleporta para um lugar a sua escolha a até 1.000 km. Precisa passar em um teste de Misticismo (CD 20 para lugares que visita com frequência, CD 30 para lugares em que já esteve ao menos uma vez ou CD 40 para lugares onde nunca esteve). Se falhar no teste, surge a 1d10 x 10 km afastado em qualquer direção e, se rolar 1 natural, fica atordoado por 1d4 rodadas."
+      }
+    ],
+    "pericias": "Diplomacia +17, Enganação +22, Misticismo +19, Intimidação +17, Intuição +16, Investigação +17.",
+    "tesouro": "Padrão."
+  }
+}

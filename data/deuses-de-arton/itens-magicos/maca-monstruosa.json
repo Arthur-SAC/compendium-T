@@ -1,0 +1,22 @@
+{
+  "id": "maca-monstruosa",
+  "tipo": "item-magico",
+  "nome": "Maça Monstruosa",
+  "resumo": "Maça atroz de rocha vulcânica de Megalokk que, para devotos, torna-se formidável com dano aumentado em dois passos (quatro para campeões).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "megalokk", "rotulo": "Megalokk" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 27.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta maça atroz é feita de rocha vulcânica pontiaguda e afiada. Se você for um devoto de Megalokk, ela se torna uma arma formidável e seu dano aumenta em dois passos. Se você for de patamar campeão ou superior, seu dano aumenta em mais dois passos (para um total de quatro). Arma específica menor, preço T$ 27.000."
+    }
+  ]
+}

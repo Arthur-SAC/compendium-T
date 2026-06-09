@@ -1,0 +1,72 @@
+{
+  "id": "avatar-de-valkaria",
+  "tipo": "criatura",
+  "nome": "Avatar de Valkaria",
+  "resumo": "A manifestação de Valkaria em Arton: sempre uma mulher humana, podendo variar em altura, compleição e etnia. Surge às vezes como a célebre estátua, às vezes como barda jovial ou guerreira mercenária, e quando deseja ser reconhecida, usa sua forma esplendorosa em armadura resplandecente como líder do Panteão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 222 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "valkaria", "rotulo": "Valkaria" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Exceto talvez por Nimb, nenhuma outra divindade usa aparências tão variadas quanto Valkaria. Quando visita o mundo mortal (o que ela faz muito mais vezes do que seria prudente), a deusa pode surgir como alguém alta ou baixa, esbelta ou robusta, de qualquer etnia. Como única constante, será uma mulher humana.\n\nMas a deusa tem algumas personas favoritas. Algumas vezes surge como a célebre estátua, invocando a imagem da dama em apuros, inspirando heróis a salvá-la. Em outras, será uma barda jovial ou uma guerreira mercenária (como fez muitas vezes quando estava em cativeiro, exclusivamente nos limites da cidade). Ou, quando deseja ser reconhecida, usa sua forma esplendorosa em armadura resplandecente, como líder do Panteão.\n\nValkaria quase nunca entra em combate como avatar — porque isso significa roubar de seus amados heróis uma oportunidade de vitória. Mas houve a ocasião em que enfrentou seus próprios Libertadores, como a última guardiã no Labirinto de Valkaria, com toda a sua força.\n\nA Exploradora: A espada empregada pelo Avatar de Valkaria é uma arma poderosa que, assim como a própria deusa, desafia os limites do possível. Ela é uma espada longa ameaçadora defensora lancinante magnífica precisa veloz. Artefato. Em suas mãos apenas, esta arma causa dano dobrado (já contabilizado no ataque). O Avatar de Valkaria também usa trajes mágicos com as mesmas propriedades de uma cota de malha fortificada guardiã que não reduz seu deslocamento e não tem penalidade de armadura.\n\nNota: O mangual Desbravador, artefato usado anteriormente pela deusa, foi entregue como prêmio a seus Libertadores (detalhado na Jornada Heroica A Libertação de Valkaria)."
+    }
+  ],
+  "mecanica": {
+    "nd": "S+",
+    "tipo": "Espírito",
+    "subtipo": "humano",
+    "tamanho": "Médio",
+    "iniciativa": "+32",
+    "percepcao": "+24",
+    "defesa": "68, Fort +33, Ref +25, Von +38, imunidade a efeitos mentais e de movimento e a medo, maior que a morte, redução de dano 20, resistência a magia +5",
+    "fortitude": "+33",
+    "reflexos": "+25",
+    "vontade": "+38",
+    "pontosDeVida": "3800",
+    "deslocamento": "18m (12q), sem redução por terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Exploradora x4 +65 (8d8+35, 16, mais 6d8 luz)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "14",
+      "constituicao": "12",
+      "inteligencia": "10",
+      "sabedoria": "6",
+      "carisma": "15"
+    },
+    "habilidades": [
+      {
+        "nome": "Alcançar o Infinito",
+        "descricao": "Quando o Avatar de Valkaria faz um teste de perícia, um resultado de 17 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado."
+      },
+      {
+        "nome": "Aventureira Mística (Livre)",
+        "descricao": "Uma vez por rodada, quando executa uma ação padrão, o Avatar lança uma de suas magias."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 55, limite de PM 20)."
+      },
+      {
+        "nome": "Livre Como a Ambição",
+        "descricao": "O Avatar pode atravessar objetos sólidos, como paredes, como se fosse intangível."
+      },
+      {
+        "nome": "Passo Divino (Livre)",
+        "descricao": "Uma vez por rodada, o avatar se move 3m."
+      },
+      {
+        "nome": "Mudança Encarnada",
+        "descricao": "O Avatar começa cada cena com três habilidades escolhidas entre as descritas a seguir. Ele pode gastar uma ação padrão para trocar uma de suas habilidades por outra que não tenha usado durante a cena, mas apenas se tiver usado cada uma de suas habilidades iniciais pelo menos uma vez na cena.\n• Aventureira Completa. O Avatar recebe +5 em testes de perícia.\n• Desafiante Sagrada (Livre, sustentada). O Avatar gera uma aura de 18m ao seu redor. Cada criatura na aura fica intoxicada pelo desejo de aventura e deve escolher entre combater ousadamente (a criatura escolhe uma restrição como no poder Bravata Imprudente; Tormenta20, p. 48) ou sofrer –5 em testes de perícia e dano enquanto estiver dentro da aura. Se combater ousadamente, a criatura recebe 1 PM temporário cumulativo no início de cada turno em que estiver dentro da aura.\n• Intervenção Direta (Completa). Uma vez por cena, o Avatar lança até três de suas magias. Após usar esta habilidade, ele fica incapacitado de lançar magias pelas próximas 1d4 rodadas.\n• Mais Além! (Reação). Uma vez por rodada, quando rola 17 ou mais num d20, o Avatar recebe uma ação completa, mesmo que não seja seu turno.\n• Mestra Exploradora. Quando se move 12m ou mais, o Avatar recebe +5 na margem de ameaça e +2d10 de dano contra criaturas não humanas.\n• Realeza Divina (Reação). Uma vez por rodada, o Avatar rola novamente um teste recém-realizado. Ele escolhe qual dos resultados utilizar.\n• Resiliência Heroica (Reação). Uma vez por cena, quando sofre dano, o Avatar evita esse dano."
+      }
+    ],
+    "pericias": "Acrobacia +32, Atletismo +32, Atuação +33, Diplomacia +33, Intuição +27.",
+    "equipamento": "Exploradora (espada longa ameaçadora defensora lancinante magnífica precisa veloz; em suas mãos causa dano dobrado, já contabilizado). Trajes mágicos com propriedades de cota de malha fortificada guardiã sem penalidades de deslocamento.",
+    "tesouro": "Nenhum.",
+    "tema": "Deuses & Avatares"
+  }
+}

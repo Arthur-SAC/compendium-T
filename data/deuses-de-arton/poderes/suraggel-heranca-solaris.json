@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-solaris",
+  "tipo": "poder",
+  "nome": "Herança de Solaris",
+  "resumo": "O poder de Azgher concede +1 em todos os testes de perícia durante o dia (+2 sob luz solar direta).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Pelo poder de Azgher, durante o dia você recebe +1 em todos os testes de perícia. Se estiver diretamente sob a luz do sol, esse bônus aumenta para +2."
+  }
+}

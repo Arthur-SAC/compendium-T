@@ -1,0 +1,45 @@
+{
+  "id": "bofetada-de-nimb",
+  "tipo": "magia",
+  "nome": "Bofetada de Nimb",
+  "resumo": "Uma mão mágica esbofeteia o alvo, deixando-o desprevenido e vulnerável; se passar na resistência, fica apenas vulnerável.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 60 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 humanoide",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 1,
+    "descricao": "Uma mão mágica surge diante do alvo e o esbofeteia na face, ou em outra parte vulnerável, desaparecendo em seguida. O golpe não causa dano, mas é bastante humilhante. Se o alvo falhar na resistência, fica desprevenido por 1 rodada e vulnerável; se passar, fica apenas vulnerável por 1 rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Alvos que falhem na resistência ficam vulneráveis pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alvo para 1 criatura."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Em vez do normal, a mão dá leves tapinhas que acalmam os alvos e anulam uma condição entre abalado, alquebrado, apavorado e frustrado.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Alvos que falhem na resistência ficam desprevenidos por 1d4+1 rodadas, em vez de apenas 1."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Apenas Devotos de Nimb: afeta todos os alvos válidos a sua escolha dentro do alcance."
+      }
+    ]
+  }
+}

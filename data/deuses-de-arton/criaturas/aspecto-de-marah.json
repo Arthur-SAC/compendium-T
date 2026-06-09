@@ -1,0 +1,64 @@
+{
+  "id": "aspecto-de-marah",
+  "tipo": "criatura",
+  "nome": "Aspecto de Marah",
+  "resumo": "Dançarina aggelus em vestes sumárias e ousadas que irradia magnetismo irresistível. Fará qualquer coisa para evitar um conflito, mas é incapaz de ser serena ou discreta — e mostra interesse romântico por quem pareça mais tímido.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 271 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "marah", "rotulo": "Marah" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Trajada em vestes sumárias e ousadas, capazes de envergonhar o mais desbocado menestrel, a dançarina aggelus irradia um magnetismo envolvente e cativante. O corpo esculpido e flexível se contorce conforme a música que ressoa de parte alguma. Sua presença aprisiona os olhares, impedindo os presentes de fazer ou desejar qualquer coisa exceto apreciá-la.\n\nInvocar este ser pode ser mais perigoso do que se imagina! Aparentando ser uma mulher belíssima de qualquer raça (embora também exista em outras versões, conforme as preferências dos presentes), o aspecto de Marah será capaz de qualquer coisa — absolutamente qualquer coisa — para evitar um conflito. Vai encantar, seduzir, enganar, suplicar aos presentes. Vai fazer promessas ou oferecer recompensas irrecusáveis, mesmo sem possibilidade ou intenção real de cumpri-las, mas sem hesitar em realizar favores que estejam a seu alcance. Em último caso, chegará ao extremo de sacrificar a própria vida (o que, considerando sua existência breve, não chega a ser sacrifício tão grande assim).\n\nHá quem acredite ser sensato conjurar um aspecto de Marah durante negociações delicadas, para evitar ataques traiçoeiros de qualquer um dos lados. Infelizmente, a bailarina celestial pode ser muitas coisas, exceto serena ou discreta. Não raras vezes, acaba mostrando interesse romântico por qualquer alvo presente, sempre preferindo aquele que pareça mais tímido ou indisposto.\n\nEm situações de combate, pode atuar como excelente distração — mas também fará seu melhor para evitar feridos em qualquer dos lados do conflito, curando-os, bloqueando ataques, criando ilusões para distrair atacantes. Usará seus poderes para facilitar a fuga daqueles que desejarem fazê-lo. Também tentará atrair ataques inimigos para si mesma, o que infelizmente pode tornar sua presença breve demais."
+    }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Espírito (aggelus)",
+    "tamanho": "Médio",
+    "iniciativa": "+6",
+    "percepcao": "+13",
+    "sentidos": "visão no escuro",
+    "defesa": "21, Fort +5, Ref +12, Von +17, evasão",
+    "pontosDeVida": "132",
+    "deslocamento": "9m (6q)",
+    "pontosDeMana": "25",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "1",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura de Marah",
+        "descricao": "O aspecto de Marah emana uma aura de calmaria de 9m de raio. Criaturas nessa área sofrem –5 em testes de ataque e em rolagens de dano."
+      },
+      {
+        "nome": "Eclético (Reação, 1 PM)",
+        "descricao": "Quando vai fazer um teste de perícia, o aspecto recebe os benefícios de ser treinado nessa perícia para esse teste."
+      },
+      {
+        "nome": "Presença Divina",
+        "descricao": "No início de seu turno, cada personagem em alcance curto do aspecto deve fazer um teste de Reflexos (CD 20). Se passar, desvia o olhar. Se falhar, fica fascinado. Se já estiver fascinado, fica enfeitiçado. Um personagem pode fechar os olhos como uma reação para ficar imune a esta habilidade, mas sofrerá os efeitos de estar cego por uma rodada."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma barda de 5º nível (CD 22). O custo de Luz é reduzido em –1 PM (já contabilizado). Criar Ilusão (Padrão, 5 PM): o aspecto pode criar ilusões com imagens e sons combinados em alcance médio. As ilusões podem ocupar até 6 cubos de 1,5m e também podem criar sensações táteis, como texturas. Criaturas que não saibam que essas são ilusões não conseguem atravessá-las. As ilusões ainda são incapazes de causar e sofrer dano (Von desacredita e permite atravessar as ilusões). Curar Ferimentos (Padrão, 4 PM): uma criatura adjacente cura 5d8+5 PV. Luz (Padrão, 5 PM): uma criatura adjacente é envolta por um halo de luz e recebe +10 em testes de Diplomacia e redução de trevas 10 até o fim da cena. Tranquilidade (Padrão, 4 PM): até três criaturas em alcance curto têm sua atitude mudada para indiferente e não podem atacar ou realizar qualquer ação hostil (Von reduz para penalidade de –2 em testes de ataque) até o fim da cena. Ações hostis contra um alvo dissipam a magia."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O aspecto de Marah é um parceiro veterano que fornece +2 em Atuação e Diplomacia e na CD de suas habilidades que causem as condições enfeitiçado, fascinado e pasmo sem causar dano. Também permite que você utilize Músicas de bardo sem precisar empunhar um instrumento. Caso você viole as Obrigações & Restrições de Marah, o aspecto deixa de apoiá-lo."
+      }
+    ],
+    "pericias": "Acrobacia +12, Atuação +16, Conhecimento +6, Diplomacia +13, Enganação +11, Intuição +9, Misticismo +6.",
+    "equipamento": "Camisa bufante aprimorada, capa esvoaçante aprimorada, instrumento musical (varia por aspecto) aprimorado, sapatos de camurça aprimorados.",
+    "tesouro": "Padrão.",
+    "tema": "Aspectos dos Deuses"
+  }
+}

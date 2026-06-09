@@ -1,0 +1,58 @@
+{
+  "id": "gigante-do-fogo",
+  "tipo": "criatura",
+  "nome": "Gigante do Fogo",
+  "resumo": "Gigante com corpo queimando de energia elemental interna. Os mais militarizados dos gigantes, combatem com tática e estratégia, muitas vezes servindo a vilões e senhores da guerra.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 309 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Enquanto outros gigantes lembram humanos, gigantes do fogo parecem de alguma forma relacionados aos anões. Este monstro lembra um anão, mas duas vezes mais alto que um humano. Seu corpo queima com energia elemental interna, como acontece com os dragões. De fato, alguns sábios especulam que a origem destes seres esteja ligada aos dragões, ou mesmo ao próprio Sckhar, o Dragão-Rei do Fogo. Na suposta nação gigante Ked'Rach, estes gigantes seriam cavaleiros de elite, patrulhando a região em montarias voadoras dracônicas.\n\nGigantes do fogo são os mais militarizados destes seres. Já usavam boas armas e armaduras antes que os anões pudessem fabricá-las, embora nunca tenham evoluído em suas técnicas. Combatem com tática e estratégia, muitas vezes servindo a vilões e senhores da guerra, e até ao próprio Sckhar."
+    }
+  ],
+  "mecanica": {
+    "nd": "11",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+7",
+    "percepcao": "+9",
+    "sentidos": "visão no escuro",
+    "defesa": "36, Fort +24, Ref +9, Von +15, imunidade a fogo, redução de dano 10",
+    "pontosDeVida": "390",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x3 +27 (3d6+16, x3, mais 2d6 fogo)."
+    ],
+    "atributos": {
+      "forca": "12",
+      "destreza": "-2",
+      "constituicao": "4",
+      "inteligencia": "3",
+      "sabedoria": "-1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arremessar Bigorna (Padrão)",
+        "descricao": "O gigante do fogo arremessa sua bigorna em um quadrado de 4,5m em alcance curto. Criaturas nessa área sofrem 10d12 pontos de dano, metade impacto e metade fogo, e ficam em chamas (Ref CD 33 reduz à metade e evita a condição). Recarga (recuperar a bigorna)."
+      },
+      {
+        "nome": "Bigorna Flamejante (Padrão)",
+        "descricao": "O gigante faz com que uma arma adjacente cause +2d6 pontos de dano de fogo até o fim da cena. Ele não pode utilizar esta habilidade se usar Arremessar Bigorna (por motivos óbvios)."
+      },
+      {
+        "nome": "Falange de Fogo",
+        "descricao": "Aliados adjacentes ao gigante recebem redução de dano 5."
+      },
+      {
+        "nome": "Ponto de Forja",
+        "descricao": "Criaturas que causem dano corpo a corpo contra o gigante ou contra um dos aliados adjacentes a ele sofrem 4d6 pontos de dano e ficam com suas armas avariadas (Fort CD 33 evita a avaria)."
+      }
+    ],
+    "pericias": "Atletismo +23, Guerra +12, Oficio (armeiro) +14.",
+    "tesouro": "Padrão.",
+    "tema": "Gigantes"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-drashantyr",
+  "tipo": "poder",
+  "nome": "Herança de Drashantyr",
+  "resumo": "O poder elemental dos dragões concede +1 PM e redução 5 a ácido, eletricidade, fogo, frio, luz e trevas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Graças ao poder elemental dos dragões, você recebe +1 PM e redução de ácido, eletricidade, fogo, frio, luz e trevas 5."
+  }
+}

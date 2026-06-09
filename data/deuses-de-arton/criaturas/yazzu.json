@@ -1,0 +1,76 @@
+{
+  "id": "yazzu",
+  "tipo": "criatura",
+  "nome": "Yazzu",
+  "resumo": "Gênio da água: alto e vigoroso como um minotauro, com pele azulada e tatuagens claras, cabelo e barba longos e esverdeados como algas marinhas. Empunha um tridente dourado de cabo perolado. Bondoso mas ávido por liberdade, comanda as forças das águas em combate.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 298 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Alto e vigoroso como um minotauro, o recém-chegado tem pele azulada com tatuagens claras, cabelo e barba longos, escuros e esverdeados como algas marinhas. Exibe braços musculosos e cheios de braceletes, pulseiras e anéis dourados. Sobre o peito nu, um imponente colar de conchas. Empunha um tridente também dourado, de cabo perolado. Sem muita surpresa, gênios da água — também chamados de yazzu — podem ser encontrados mais facilmente perto dos mares e grandes rios. Não faltam histórias de bucaneiros que ficaram muito ricos, ou se tornaram quase invencíveis, pela existência de um gênio em sua tripulação. Fala-se também de aldeias nas profundezas onde yazzu atuam como guardiões. Yazzu são bondosos e generosos como os outros gênios, mas também são aqueles que mais clamam por liberdade. Não ficam presos a um único amo por muito tempo, exceto quando se afeiçoam — ou quando são forçados por seus códigos, então buscando formas de escapar. São também mais combativos, não raras vezes empunhando o tridente mágico em batalha para proteger seus mestres. Em combate, yazzu usam as forças das águas a seu favor. Expelem ondas avassaladoras para derrubar os inimigos e jatos de água fervente para escaldá-los. Refugiam-se entre os vagalhões para dificultar a visão dos oponentes, dali comandando a fúria dos oceanos."
+    }
+  ],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Espírito (gênio)",
+    "tamanho": "Grande",
+    "tema": "Gênios",
+    "iniciativa": "+14",
+    "percepcao": "+5",
+    "defesa": "31, Fort +23, Ref +18, Von +10, imunidade a encantamento e frio",
+    "pontosDeVida": "292",
+    "deslocamento": "9m (6q), natação 12m (8q), voo 12m (8q)",
+    "pontosDeMana": "72",
+    "ataques": [
+      "Corpo a Corpo Tridente x2 +25 (1d10+18 mais 1d6 frio).",
+      "À Distância Tridente +23 (1d10+18 mais 1d6 frio)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "5",
+      "constituicao": "2",
+      "inteligencia": "1",
+      "sabedoria": "0",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Dentro de uma Lampadazinha (habilidade de gênio)",
+        "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se for reduzido a 0 PM dessa forma, ele sofre um efeito debilitante, diferente para cada gênio. O efeito debilitante e a perda de PM são revertidos quando o gênio firma um pacto com um amo."
+      },
+      {
+        "nome": "Poderes Cósmicos Fenomenais (Completa) (habilidade de gênio)",
+        "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int –3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto estiver presente na cena, o custo de suas próprias habilidades mágicas é reduzido em –1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa."
+      },
+      {
+        "nome": "Servo dos Deuses (habilidade de gênio)",
+        "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos."
+      },
+      {
+        "nome": "Contracorrente (Reação, 3 PM)",
+        "descricao": "Quando faz um ataque à distância com seu tridente, o yazzu se teleporta para um espaço livre adjacente ao alvo."
+      },
+      {
+        "nome": "Onda Poderosa (Padrão)",
+        "descricao": "O yazzu cria uma onda que ocupa um quadrado de 6m de lado em alcance médio. Criaturas na área são empurradas 6m em uma direção à escolha do yazzu e sofrem 8d10 pontos de dano de impacto (Fort CD 32 reduz à metade e evita o empurrão)."
+      },
+      {
+        "nome": "Turbilhão (Padrão)",
+        "descricao": "O yazzu faz uma manobra derrubar com seu tridente (teste +29) contra todas as criaturas adjacentes a ele."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 12º nível (CD 32). Área Escorregadia (Padrão, 1 PM): Criaturas numa área de 3m de lado em alcance curto devem passar em um teste de Reflexos (CD 32) para não cair. Nas rodadas seguintes, criaturas que tentem se movimentar pela área devem fazer testes de Acrobacia para equilíbrio (CD 15). Controlar Água (Padrão, 6 PM): Até o fim da cena, o yazzu controla a água em uma esfera de 30m em alcance longo (Tormenta20, p. 186). Criar Elementos (Padrão, 6 PM): O yazzu preenche um espaço Colossal com água, ou cria um cubo Colossal de gelo. Alternativamente, ele pode criar objetos simples feitos de gelo. Dardo Gélido (Padrão, 7 PM): Uma criatura em alcance curto sofre 8d6 pontos de dano de frio e fica lenta por 1 rodada (Fort reduz à metade e evita a condição). Salto Dimensional (Reação, 5 PM): O yazzu recebe +5 na Defesa e em testes de Reflexos contra um ataque ou efeito que esteja prestes a atingi-lo. Após a resolução do efeito, ele salta para um espaço adjacente desocupado."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O yazzu é um parceiro que fornece os benefícios a seguir. Iniciante: você recebe +2 em testes contra manobras de combate e efeitos de movimento. Veterano: uma vez por rodada, você pode gastar uma ação de movimento e 4 PM para criar uma onda mágica de água em um cubo de 4,5m em alcance curto. Criaturas nessa área sofrem 4d4 pontos de dano de impacto e ficam caídas. Mestre: como acima, mas o bônus em testes aumenta para +4 e o dano da onda aumenta para 4d6."
+      }
+    ],
+    "pericias": "Atletismo +12, Diplomacia +18, Furtividade +14, Ladinagem +14, Misticismo +12.",
+    "equipamento": "Tridente aumentado banhado a ouro.",
+    "tesouro": "Padrão."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "orbe-do-oceano",
+  "tipo": "magia",
+  "nome": "Orbe do Oceano",
+  "resumo": "Cria um globo protetor de água salgada que fornece camuflagem leve e cobertura leve ao conjurador.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "sustentada",
+    "custoPM": 1,
+    "descricao": "O suposto desaparecimento do Oceano se mostra particularmente misterioso pelo fato de que seus devotos ainda podem lançar magias. Você cria um globo protetor de água salgada que ocupa 1 quadrado e o acompanha, fornecendo a você camuflagem leve e cobertura leve.",
+    "aprimoramentos": [
+      {
+        "custo": "+4 PM",
+        "efeito": "Muda a duração para cena.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Oceano: além do normal, você é considerado submerso. Isso exige que você prenda a respiração (a menos que possa respirar debaixo d'água), mas faz com que sofra apenas a metade do dano de armas de corte e impacto que não sejam armas naturais e é considerado submerso para benefícios de suas habilidades que dependem dessa situação."
+      }
+    ]
+  }
+}

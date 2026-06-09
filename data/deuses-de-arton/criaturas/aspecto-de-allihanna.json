@@ -1,0 +1,52 @@
+{
+  "id": "aspecto-de-allihanna",
+  "tipo": "criatura",
+  "nome": "Aspecto de Allihanna",
+  "resumo": "Manifestação de Allihanna como um animal composto de várias espécies selvagens — corpo de felino, galhada de alce, cauda de garanhão. Caprichoso e temperamental, pode ser domado com comida, elogios ou afagos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 264 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "allihanna", "rotulo": "Allihanna" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A criatura estranha, porém bela, lembra uma mescla de vários animais selvagens. Tem o corpo poderoso de um grande felino, a galhada orgulhosa de um alce, a cauda volumosa de um garanhão. O rosnado sugere uma horda inteira de feras diversas.\n\nUm aspecto de Allihanna pode surgir como qualquer animal natural ou criatura-planta, mas quase sempre apresenta partes combinadas de várias espécies vivas — reunindo as características mais adequadas para a missão. Sentidos aguçados para atuar nas trevas, traços piscianos para ação subaquática, asas para movimentação nas nuvens e assim por diante. Pode ser ligeiro para atacar inimigos numerosos, ou robusto para dar cobertura a aliados, ou provedor de frutos com qualidades curativas. Não há limites para os atributos que os reinos animal e vegetal podem oferecer.\n\nEste aspecto pode certamente lutar, mas também prover sustento ou sobrevivência nos ermos de várias formas, guiando aventureiros por terras selvagens, ou rastreando seus alvos, ou até mesmo atuando como montaria ou besta de carga. Algumas vezes também surge como um animal humanoide, um membro do povo moreau, que seja treinado em habilidades úteis.\n\nQuanto à personalidade, o aspecto de Allihanna costuma se comportar como um animal caprichoso, por vezes temperamental e indócil, precisando ser domado. Ou subornado com comida. Ou com elogios adocicados e afagos no pescoço."
+    }
+  ],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "iniciativa": "+6",
+    "percepcao": "+6",
+    "sentidos": "faro, visão na penumbra",
+    "defesa": "24, Fort +17, Ref +11, Von +5",
+    "pontosDeVida": "200",
+    "deslocamento": "12m (8q), sem redução por terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Galhada +17 (1d8+9, x3) e duas garras +17 (1d8+9, 18)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "-4",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Rugido de Centenas (Padrão)",
+        "descricao": "O aspecto de Allihanna emite um poderoso rugido. Todas as criaturas em um raio de 9m ficam paralisadas por 1 rodada e abaladas (Von CD 20 evita). Uma criatura só pode ser paralisada por esta habilidade uma vez por cena. Medo. Recarga (padrão)."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O aspecto de Allihanna é um parceiro veterano que fornece os benefícios de dois tipos de parceiro, escolhidos entre os disponíveis para companheiros animais (Tormenta20, p. 62). Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para mudar os tipos escolhidos. Um aspecto de Allihanna só irá seguir um devoto de Allihanna."
+      }
+    ],
+    "pericias": "Atletismo +8, Sobrevivência +10.",
+    "tesouro": "3d4 rações de viagem (CD 20 para extrair).",
+    "tema": "Aspectos dos Deuses"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "armas-da-destruicao",
+  "tipo": "poder",
+  "nome": "Armas da Destruição",
+  "resumo": "Recebe +1 nas rolagens de dano e no multiplicador de crítico com armas em que é proficiente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "arsenal",
+    "prerequisito": "",
+    "descricao": "Você recebe +1 nas rolagens de dano e no multiplicador de crítico com armas nas quais é proficiente."
+  }
+}

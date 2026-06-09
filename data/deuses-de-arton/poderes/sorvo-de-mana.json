@@ -1,0 +1,15 @@
+{
+  "id": "sorvo-de-mana",
+  "tipo": "poder",
+  "nome": "Sorvo de Mana",
+  "resumo": "Ao falhar em resistência contra magia inimiga, recupera PM iguais ao círculo da magia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "wynna",
+    "prerequisito": "",
+    "descricao": "Sempre que falhar no teste de resistência contra uma magia de um inimigo, você recupera uma quantidade de PM igual ao círculo dela."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mestre-de-armearia",
+  "tipo": "distincao",
+  "nome": "Mestre de Armearia",
+  "resumo": "Armeiro especialista em armas de fogo que domina as técnicas anãs de criação, aprimoramento e inovação de pólvora, combinando ofício artesanal com combate.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 108
+  },
+  "imagens": ["/distincoes/mestre-de-armearia.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O mestre de armearia é um armeiro que, pertencendo ou não à raça dos anões, domina as técnicas anãs de criação e aprimoramento de armas de fogo. É um artista da forja e da pólvora, alguém que se dedica a seu ofício quase como uma religião. Possui sua própria armearia, uma oficina e loja onde trabalha incansavelmente em seus inventos explosivos, mas sai a campo para testar cada uma de suas armas. Um misto de combatente, artesão, cientista e mercador, o mestre de armearia transforma cada etapa do processo de fabricação, da escolha de matérias-primas à venda do produto final, em um ato de devoção à arte.\n\nArmearias são ilegais no Reinado e no Império de Tauron, pois suas mercadorias são proibidas. Assim, todo mestre de armearia é um fora da lei ou, no mínimo, alguém que desafia tabus. É impossível ser um mestre de armearia sem cultivar um desprezo saudável por dogmas inquestionáveis ou autoridades monolíticas. Nisso, mestres de armearias se parecem com o povo de Smokestone — de fato, existem várias armearias no Covil dos Pistoleiros. Nas terras onde a pólvora é ilegal, esses tipos criam fachadas para seus negócios, atraindo clientes através de boatos e redes de contatos no submundo. O clero de Tenebra ajuda a espalhar esse conhecimento. Embora a pólvora não seja domínio da Deusa das Trevas, em Doherimm ambas estão ligadas e são símbolos de rebeldia.\n\nMestres de armearias podem valorizar mais o lado comercial de seu ofício, fornecendo suas armas para quem puder pagar mais, ou sua faceta guerreira, viajando com grupos de aventureiros para colocar suas criações em uso. Alguns desprezam tanto ouro quanto aventura, dedicando-se unicamente à criação e aperfeiçoamento das armas, recusando-se a vendê-las para quem \"não merece\". De qualquer forma, cada peça construída por um mestre de armearia é única e exige treinamento especial de todos além do próprio mestre. Esses artistas nunca poderiam equipar um exército inteiro... Mas podem conceder a um único indivíduo o poder destrutivo de um exército."
+    },
+    {
+      "titulo": "Inovações",
+      "texto": "Inovações são técnicas experimentais, desenvolvidas de forma independente por mestres de armearia em todo mundo. Cada inovação é única; seu funcionamento e uso são conhecidos apenas por seu criador. Nas mãos de qualquer outra pessoa, a inovação simplesmente não funciona. Mestres de armearia generosos podem aplicar essas modificações às armas de seus aliados, mas elas sempre dependerão de seus cuidados e manutenção (em termos de regras, inovações não têm valor comercial).\n\nInovações funcionam de forma semelhante à melhorias; uma arma pode ter até quatro inovações, e a CD e o preço para aplicá-las seguem a Tabela 3-7 (Tormenta20, p. 164). Inovações só podem ser aplicadas a armas de fogo e armas híbridas (nesse caso, afetam apenas ataques em modo arma de fogo) e às suas munições.\n\n**Câmara de Bala** (Arma). Esta inovação pode ser aplicada a qualquer arma. A arma recebe uma câmara e um mecanismo especial, que armazena uma bala. Quando faz um ataque corpo a corpo com a arma, você pode acionar esse mecanismo para disparar a bala; se acertar o ataque, causa +2d6 pontos de dano. Uma arma com esta inovação conta como uma arma de fogo para seus poderes de mestre de armearia. Recarregar a câmara é uma ação padrão.\n\n**Cano Duplo** (Arma). A arma possui dois canos, cada um com seu carregador. Cada cano pode ser disparado e recarregado individualmente. Além disso, você pode disparar ambos os canos como se tivesse o poder Disparo Rápido. Caso tenha esse poder, em vez disso você não sofre a penalidade em testes de ataque ao usá-lo com a arma.\n\n**Cano Serrado** (Arma). O cano da arma é mais curto, o que diminui sua precisão mas torna mais fácil manuseá-la em corpo a corpo. Quando faz um ataque à distância com a arma contra um oponente adjacente, você causa um dado de dano extra do mesmo tipo. Entretanto, você sofre –2 em testes de ataque contra alvos que não estejam adjacentes.\n\n**Empunhadura de Segurança** (Arma). A arma possui um mecanismo na empunhadura que torna mais difícil removê-la de sua mão. Você recebe +5 nos testes para resistir às manobras desarmar e quebrar contra a arma (cumulativo com outros bônus da arma).\n\n**Explosiva** (Munição). A munição é detonada com o impacto. Se você acertar um ataque, todas as criaturas adjacentes ao alvo sofrem o dano do ataque (Reflexos CD Int reduz à metade). Pré-requisito: Pólvora de Smokestone. Pré-requisito: Pólvora de Smokestone.\n\n**Fragmentável** (Munição). Esta bala se estilhaça ao atingir o alvo, potencialmente causando ferimentos terríveis. Sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra.\n\n**Mira Calibrável** (Arma). A arma possui um sistema de mira regulável que permite maior precisão. Quando usa a ação mirar, você recebe +2 em testes de ataque e na margem de ameaça com a arma até o fim do turno. Pré-requisito: Mira Telescópica. Pré-requisito: Mira Telescópica.\n\n**Pólvora de Smokestone** (Munição). Uma arma de fogo usando esta munição causa +1 ponto de dano por dado (exceto dados extras).\n\n**Tambor** (Arma). A arma possui um tambor giratório que armazena 4 munições. Recarregar uma arma com tambor é uma ação completa. Pré-requisito: outra inovação qualquer. Pré-requisito: outra inovação qualquer.\n\n**Tanque Flamejante** (Arma). A arma tem um compartimento com uma mistura de pedra-de-fumaça e fogo alquímico. Isso muda o tipo de dano para fogo e, quando a arma é disparada, espalha a munição em uma linha de 6m. Para atacar, faça um ataque à distância e compare com a Defesa de cada criatura na área. Recarregar a arma exige uma ação completa, 1 bala e 1 fogo alquímico."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Para se tornar um mestre de armearia é preciso se empregar numa armearia, sendo primeiro um aprendiz, depois um companheiro e por fim um mestre. O candidato deve achar um mestre de armearia e ser aceito como aprendiz. Em Doherimm isso é relativamente fácil, exigindo apenas achar uma filial da Guilda dos Armeiros. Na superfície, pode envolver contatos criminosos ou favores para tipos suspeitos. Não é obrigatório ser anão, mas candidatos de outras raças devem provar seu valor antes de fazer o primeiro teste. O processo tem três testes: (1) forjar uma arma de fogo básica sob as vistas do mestre — tornando-se aprendiz; (2) após no mínimo seis meses, forjar uma arma de fogo com melhorias — tornando-se companheiro; (3) após mais seis meses, forjar uma arma de fogo totalmente nova — tornando-se mestre. O último passo é abrir sua própria armearia (pode ser itinerante), dominando todo o processo de fabricação, uso e venda.",
+    "marca": {
+      "nome": "Domínio da Pólvora",
+      "descricao": "Insatisfeito com o que já existe, o mestre de armearia imagina novas maneiras de destruir. Você recebe +2 em testes de perícia (exceto de ataque) relacionados a armas de fogo e suas munições, incluindo testes para esconder, fabricar, identificar e negociar."
+    },
+    "poderes": [
+      {
+        "nome": "Prata da Casa",
+        "prerequisitos": "Balística",
+        "descricao": "O primeiro trabalho do mestre de armearia é se livrar das velharias e criar suas próprias armas. Você pode fabricar armas de fogo não mágicas em uma semana, em vez de um mês, e recebe +1 em testes de ataque e rolagens de dano com armas de fogo que tenha fabricado. A cada dois outros poderes da distinção, esses bônus aumentam em +1. Pré-requisito: Balística."
+      },
+      {
+        "nome": "Arma de Estimação",
+        "prerequisitos": "Profissional Completo, ter feito três acertos críticos no mesmo combate com a arma escolhida",
+        "descricao": "Um mestre de armearia trata suas armas como bichos de estimação — ou filhos! Escolha uma arma de fogo que tenha fabricado para receber uma habilidade de classe de 1º nível de uma classe que não seja a sua. Você só pode escolher uma habilidade que seja ativada ao se fazer um ataque ou usar a ação agredir (como Ataque Especial) ou que afete testes de ataque e/ou rolagens de dano e possa ser usada com a arma escolhida (como Duelo ou Marca da Presa). Você pode escolher a habilidade Magias, mas aprende uma única magia (que possa ser usada na arma ou com ela), com as mesmas limitações descritas, e não soma o atributo-chave da habilidade em seu total de PM. Você pode usar a habilidade como se tivesse 1 nível naquela classe, mas apenas com a arma escolhida. Pré-requisitos: Profissional Completo, ter feito três acertos críticos no mesmo combate com a arma escolhida."
+      },
+      {
+        "nome": "Improvisar o Progresso",
+        "prerequisitos": "Inovação Tecnológica, ter construído pelo menos três armas com melhorias exclusivas",
+        "descricao": "Um mestre de armearia aprende a fazer modificações rápidas para qualquer situação. Você pode gastar uma ação completa e 2 PM para aplicar uma melhoria (exceto material especial) em uma arma de fogo que esteja empunhando. Você não precisa pagar o custo nem fazer o teste de Ofício (armeiro), mas a melhoria só dura até o fim da cena. Você também pode gastar +2 PM para aplicar também uma inovação. A melhoria e a inovação não contam nos limites da arma. Pré-requisitos: Inovação Tecnológica, ter construído pelo menos três armas com melhorias exclusivas."
+      },
+      {
+        "nome": "Inovação Tecnológica",
+        "prerequisitos": "Prata da Casa",
+        "descricao": "Insatisfeito com suas próprias armas e as de seus companheiros, o mestre de armearia desenvolve formas de aprimorá-las. Você adiciona uma inovação a uma arma de fogo que possua e passa a poder fabricar armas de fogo superiores com inovações (veja o quadro). Pré-requisito: Prata da Casa."
+      },
+      {
+        "nome": "Profissional Completo",
+        "prerequisitos": "Prata da Casa, Maestria em Perícia (Ofício [armeiro])",
+        "descricao": "O mestre de armearia não depende de treinamento para lutar, valendo-se de seu conhecimento e olhar de artesão. Quando ataca com uma arma de fogo que tenha fabricado, você pode substituir testes de Pontaria por testes de Ofício (armeiro), e pode usar Maestria em Perícia nos ataques com ela. Pré-requisitos: Prata da Casa, Maestria em Perícia (Ofício [armeiro])."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jubilo-na-dor",
+  "tipo": "poder",
+  "nome": "Júbilo na Dor",
+  "resumo": "Ao causar ou sofrer dano, recebe redução de dano 1 cumulativa (limitada pela Sabedoria) até passar 1 rodada sem dano.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "aharadak",
+    "prerequisito": "",
+    "descricao": "Quando causa ou sofre dano, você recebe redução de dano 1. Esse efeito é cumulativo e limitado por sua Sabedoria e termina se você passar 1 rodada sem causar ou sofrer dano."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "glorienn",
+  "tipo": "divindade",
+  "nome": "Glórienn, Deusa dos Elfos",
+  "resumo": "Divindade maior dos elfos e da perfeição, cuja vaidade e desespero a levaram a trazer a Tormenta para Arton; após trair Tauron, perdeu até o status de deusa menor e hoje vaga como mortal.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 238 },
+  "imagens": ["/divindades/glorienn.png", "/divindades/glorienn-retrato.png"],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Perfeição absoluta; superioridade élfica; devoção incondicional à deusa; ódio aos goblinoides e vingança pela destruição de Lenórienn.",
+    "simboloSagrado": "Um arco e uma flecha dourados sobre um medalhão circular com folhagens verdes esculpidas.",
+    "canalizaEnergia": "—",
+    "armaPreferida": "Espada e arco.",
+    "devotos": "Quase exclusivamente elfos — em sua maioria fanáticos ou saudosistas que acreditam poder restaurar a deusa. Autoproclamados 'últimos paladinos' que não recebem poderes divinos.",
+    "poderesConcedidos": [],
+    "obrigacoesRestricoes": "—",
+    "categoria": "antigo"
+  },
+  "secoes": [
+    {
+      "titulo": "Outros Nomes",
+      "texto": "Deusa dos Elfos e da Perfeição; Sylvara, entre as fadas; Nimriel, a Dama de Olhos Tristes, entre os elfos-do-mar; Vaelyndra, a Princesa dos Cânticos, entre os dragões; Elariel, entre os gnolls; Thutrialda, entre os hobgoblins (um insulto intraduzível)."
+    },
+    {
+      "titulo": "Historia e Queda",
+      "texto": "Entre as divindades antigas, Glórienn era uma das mais orgulhosas e vaidosas. Considerava-se não apenas perfeita por ser uma deusa, mas a mais perfeita entre os deuses. Diz-se que teria sido a última das vinte divindades moldadas pelo Nada e pelo Vazio — portanto, aquela mais finamente esculpida, a mais esmerada e galante. Agraciada não apenas com beleza insuperável, mas também magia esplendorosa e maestria nas artes da guerra. Duelista graciosa e feroz, exímia em suas armas preferidas: a espada e o arco.\n\nComo tal, considerava-se digna de criar os mais sublimes entre os seres mortais. Dedicou-se a conceber em seus domínios — o paradisíaco reino divino de Nivenciuén — o primeiro dos grandes povos: os elfos. Belos, fortes e sagazes. Mestres nas artes arcanas e guerreiras. Ilimitados em sua longevidade. Devotados a amá-la e cultuá-la como sua diva absoluta por toda a eternidade.\n\nOs primeiros elfos desembarcaram no continente de Lamnor, estabelecendo na floresta de Myrvallar a grandiosa cidade-estado de Lenórienn. Ao fazê-lo, imediatamente despertaram a inimizade dos hobgoblins, iniciando a assim chamada Infinita Guerra, que durou mais de 1.300 anos, até que o líder guerreiro Thwor Khoshkothruk criou a Aliança Negra dos Goblinoides.\n\nUltrajada, a própria Glórienn veio a Arton em forma de avatar para confrontar o general bugbear, mas ele se mostrou tão poderoso que abateu a guerreira élfica. A derrota humilhante, somada à queda de Lenórienn e à matança de boa parte dos elfos, abalou a deusa como nunca antes. Cega de ódio, ela buscaria vingança — e acabaria, inadvertidamente, trazendo a Tormenta para Arton.\n\nGlórienn não sabia o que era a Tormenta. Sabia apenas que havia a possibilidade de que 'uma tempestade' viesse a Arton, um poder ainda maior que a Aliança Negra. Em seu orgulho e desespero, acreditava ser capaz de domá-la. Uma área de Tormenta se formou em seu reino divino. Vendo as tragédias que se abatiam sobre seu povo e sobre ela mesma, a deusa se retraiu cada vez mais, abandonando seus deveres e passando a viver sob uma mortalha de tristeza e autopiedade.\n\nFoi então que mortais servindo à Tormenta invadiram Nivenciuén. Lá, Glórienn era onipotente — poderia vencê-los com um mero pensamento. Mas, em sua tristeza atroz, não era capaz de reunir iniciativa para fazer isso. Enviou legiões de seus filhos para morrer em sua defesa, em vez de fazer o mínimo esforço para defender a si mesma. No final, fugiu de seu reino, abandonando seus habitantes.\n\nIsso foi suficiente para causar sua queda. Glórienn se tornou uma deusa menor. Tauron, então o Deus da Força, ofereceu a ela um posto como escrava, em troca de proteção. A Deusa Menor dos Elfos aceitou. Mais tarde, quando a Tormenta se abateu sobre o Império de Tauron, Glórienn traiu seu senhor e Aharadak, o Deus da Tormenta, o matou. Ela mais uma vez estava livre, mas sofreria a derradeira humilhação: perdeu até mesmo o status de deusa menor."
+    },
+    {
+      "titulo": "Status Atual",
+      "texto": "Outrora a mais perfeita entre os deuses, hoje em dia Glórienn é mortal. Não se sabe o paradeiro exato de Glórienn após esses eventos, ou se ela tem algum plano para retomar sua divindade. Sua passividade anterior parece ter diminuído, mas nada indica que ela tenha abandonado completamente a amargura.\n\nEnquanto isso, ainda existem mortais devotos da antiga Deusa dos Elfos, na crença de que podem restaurar seu esplendor passado. São quase todos elfos, muitos ainda com memórias de quando essa raça parecia superior a todas as outras. Não faltam pretensos 'últimos paladinos' de Glórienn. Esses guerreiros não recebem nenhum poder divino, mas acreditam que são defensores santos da deusa e serão seus campeões quando ela voltar a seu antigo posto. Ostentam com orgulho o antigo símbolo sagrado (um arco e uma flecha dourados) e demonstram ódio fervoroso por goblinoides.\n\nA maior parte dos elfos, contudo, já percebeu que não pode contar com Glórienn. Os mais jovens cresceram com a realidade de que a deusa não podia protegê-los. Os mais velhos encontraram outras divindades — incluindo a elfa Gwen, a Deusa Menor da Liberdade."
+    }
+  ]
+}

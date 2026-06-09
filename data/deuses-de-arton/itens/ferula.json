@@ -1,0 +1,19 @@
+{
+  "id": "ferula",
+  "tipo": "item",
+  "nome": "Férula",
+  "resumo": "Cajado luxuoso com símbolo sagrado no topo, usado em procissões e sacramentos. Aumenta o efeito de Canalizar Energia em +1d6 e pode ser usado como maça.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "O efeito de sua habilidade Canalizar Energia aumenta em +1d6. Uma férula pode ser usada como arma, com as estatísticas de uma maça."
+  }
+}

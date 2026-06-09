@@ -1,0 +1,41 @@
+{
+  "id": "instante-estoico",
+  "tipo": "magia",
+  "nome": "Instante Estoico",
+  "resumo": "Ao sofrer dano não mágico, concede redução de dano 10 contra aquele dano instantaneamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "reação",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Invocando a proteção de Khalmyr, você resiste a agressões potencialmente perigosas. Quando sofre dano não mágico, você recebe RD 10 contra esse dano.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda a RD para 20.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Além do normal, para cada 10 pontos de dano que a magia reduzir em um turno, sua próxima rolagem de dano feita até a próxima rodada causa +1d6 pontos de dano de essência."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Khalmyr: muda a execução para padrão e a duração para cena, até ser descarregada. Em vez do normal, quando sofre dano não mágico, você pode receber RD 10 contra esse dano. A magia é descarregada após você usar este efeito pela terceira vez.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Khalmyr: muda o alcance para toque e o alvo para 1 criatura."
+      }
+    ]
+  }
+}

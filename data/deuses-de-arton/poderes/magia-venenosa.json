@@ -1,0 +1,15 @@
+{
+  "id": "magia-venenosa",
+  "tipo": "poder",
+  "nome": "Magia Venenosa",
+  "resumo": "Magias com resistência Fortitude recebem aprimoramento: +1 PM para causar 1d12 PV de veneno (ou 1d6 se passar na resistência).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "sszzaas",
+    "prerequisito": "",
+    "descricao": "Suas magias com resistência Fortitude recebem o seguinte aprimoramento. +1 PM: além do normal, criaturas que falharem perdem 1d12 PV por veneno, ou 1d6 se passarem na resistência."
+  }
+}

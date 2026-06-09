@@ -1,0 +1,15 @@
+{
+  "id": "abraco-da-fenix",
+  "tipo": "poder",
+  "nome": "Abraço da Fênix",
+  "resumo": "Imunidade a fogo; dano mágico de fogo vira cura de PV.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "thyatis",
+    "prerequisito": "",
+    "descricao": "Você se torna imune a fogo. Se fosse sofrer dano mágico de fogo, em vez disso cura PV em quantidade igual à metade desse dano (se já faz isso por outro efeito, cura a quantidade completa)."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tapecaria-da-guerra",
+  "tipo": "item-magico",
+  "nome": "Tapeçaria da Guerra",
+  "resumo": "Tapeçaria velha e manchada de Arsenal que funciona como ferramenta aprimorada para Guerra (+2). Em combate, ao analisar, pode estender o bônus a todos ou conceder ação padrão adicional.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "arsenal", "rotulo": "Arsenal" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Maior",
+    "preco": "T$ 35.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta tapeçaria velha e manchada de sangue mostra um campo de batalha, com imagens representando terreno, tropas e objetivos. Analisar a tapeçaria aguça a sua percepção estratégica — ela funciona como uma ferramenta aprimorada, fornecendo +2 em Guerra. Se você for um devoto de Arsenal, estiver em combate e gastar uma ação completa para analisar a tapeçaria, a magia do item se revela, com as imagens se movendo para representar a batalha na qual você está. Como parte da ação completa, você faz um teste de Guerra (CD 20). Se você passar, o bônus em Guerra se estende para todos os testes de perícia, seus e de seus aliados em alcance curto, até o fim da cena. Se passar por 20 ou mais (ou seja, se somar 40 ou mais no teste de Guerra), você e seus aliados em alcance curto recebem uma ação padrão adicional, cada um em seu próximo turno (apenas uma vez por cena). Analisar a tapeçaria requer as duas mãos. Acessório maior, preço T$ 35.000."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-ordine",
+  "tipo": "poder",
+  "nome": "Herança de Ordine",
+  "resumo": "As forças de Khalmyr concede +2 em Intuição, Investigação e testes sem rolagem de dados (0, 10 ou 20).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "As forças da lei e ordem de Khalmyr afetam suas ações. Você recebe +2 em Intuição, em Investigação e em testes sem rolagens de dados (ao escolher 0, 10 ou 20)."
+  }
+}

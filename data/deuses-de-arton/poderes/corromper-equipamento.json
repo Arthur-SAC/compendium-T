@@ -1,0 +1,15 @@
+{
+  "id": "corromper-equipamento",
+  "tipo": "poder",
+  "nome": "Corromper Equipamento",
+  "resumo": "Gasta 2 PM para cobrir arma, escudo ou esotérico com carapaça quitinosa concedendo benefícios de matéria vermelha.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "aharadak",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para cobrir uma arma, um escudo ou um esotérico que esteja empunhando com carapaça quitinosa. Até o fim da cena, o item recebe os benefícios de matéria vermelha (Tormenta20, p. 167), cumulativo com outros materiais especiais. Se usar este poder em uma arma produzida com Armamento Aberrante, seu custo é reduzido em –1 PM."
+  }
+}

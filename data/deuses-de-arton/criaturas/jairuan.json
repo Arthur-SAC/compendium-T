@@ -1,0 +1,68 @@
+{
+  "id": "jairuan",
+  "tipo": "criatura",
+  "nome": "Jairuan",
+  "resumo": "Gênio do ar: jovem de pele bronzeada e tatuada, forte e atlético como um gladiador, com largo sorriso e pequeno cavanhaque. O mais amistoso e sociável dos gênios; pacifista por natureza, prefere encantamentos e ilusões ao combate direto.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 300 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Maior que o mais alto dos humanos, o rapaz de pele bronzeada e tatuada é também forte, atlético, como um gladiador. Veste um colete diminuto, calças folgadas, uma larga faixa vermelha na cintura e sapatos de pontas recurvadas. Traz um largo sorriso acima do pequeno cavanhaque. Também conhecidos como jairuan, estes são os mais amistosos e sociáveis entre os gênios — e isso significa que são muito, muito amistosos e sociáveis. De fato, são os únicos que às vezes formam pequenas comunidades, com estruturas sociais complexas, existindo algumas no Deserto da Perdição. Outros encontram lugar nas grandes cidades humanas, servindo a amos escolhidos ou atuando como artistas de palco para entreter multidões. Outros mais, é claro, acompanham e protegem grupos de heróis. Enquanto todos os outros gênios são rígidos em seu comportamento e códigos, gênios do ar costumam ser mais informais, mais displicentes em suas regras. Podem abrir exceções para aqueles por quem se afeiçoam muito. Todos sabem voar, mas é comum que utilizem tapetes voadores — para assim transportar outros que necessitem. Jairuan são pacifistas por natureza, buscam solucionar desavenças com diálogo, quase nunca recorrem à violência. Quando confrontados, preferem influenciar seus oponentes com encantamentos ou enganá-los com ilusões; são mestres em fazer com que seus oponentes destruam a si mesmos, atacando aliados ou caindo em armadilhas. Grandes sacerdotes de Wynna, assim como arcanistas e bardos que tenham agradado à deusa, são às vezes agraciados com um gênio do ar como aliado."
+    }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Espírito (gênio)",
+    "tamanho": "Grande",
+    "tema": "Gênios",
+    "iniciativa": "+10",
+    "percepcao": "+5, visão no escuro",
+    "sentidos": "visão no escuro",
+    "defesa": "21, Fort +12, Ref +16, Von +8, imunidade a encantamento e eletricidade",
+    "pontosDeVida": "158",
+    "deslocamento": "9m (6q), voo 12m (8q)",
+    "pontosDeMana": "41",
+    "ataques": [
+      "Corpo a Corpo Cimitarra x2 +18 (1d8+10, 18)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "5",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Dentro de uma Lampadazinha (habilidade de gênio)",
+        "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se for reduzido a 0 PM dessa forma, ele sofre um efeito debilitante, diferente para cada gênio. O efeito debilitante e a perda de PM são revertidos quando o gênio firma um pacto com um amo."
+      },
+      {
+        "nome": "Poderes Cósmicos Fenomenais (Completa) (habilidade de gênio)",
+        "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int –3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto estiver presente na cena, o custo de suas próprias habilidades mágicas é reduzido em –1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa."
+      },
+      {
+        "nome": "Servo dos Deuses (habilidade de gênio)",
+        "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos."
+      },
+      {
+        "nome": "Vendaval (Movimento)",
+        "descricao": "Criaturas em uma área de 3m em alcance médio sofrem 4d8+25 pontos de dano de impacto (Ref CD 22 reduz à metade). Recarga (movimento)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 6º nível (CD 22). Enfeitiçar (Padrão, 1 PM): Um humanoide em alcance curto fica enfeitiçado (Von evita). Invisibilidade (Padrão, 5 PM): O jairuan fica invisível até o fim da cena ou até realizar uma ação hostil. Ele recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques. Relâmpago (Padrão, 5 PM): O jairuan causa 8d6 pontos de dano de eletricidade em todas as criaturas em uma linha de 30m (Ref reduz à metade)."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O jairuan é um parceiro que fornece os benefícios a seguir. Iniciante: você pode lançar uma magia de encantamento ou ilusão de 1º círculo (definida pelo jairuan; atributo-chave Carisma). Veterano: seu deslocamento muda para 12m (normal e de voo). Mestre: seu deslocamento normal e de voo muda para 18m e, quando voa, você pode carregar uma criatura Média ou menor sem penalidades por carga."
+      }
+    ],
+    "pericias": "Atletismo +14, Intimidação +9, Misticismo +9.",
+    "equipamento": "Cimitarra.",
+    "tesouro": "Padrão."
+  }
+}

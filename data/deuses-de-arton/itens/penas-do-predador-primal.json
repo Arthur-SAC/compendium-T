@@ -1,0 +1,19 @@
+{
+  "id": "penas-do-predador-primal",
+  "tipo": "item",
+  "nome": "Penas do Predador Primal",
+  "resumo": "Capa ou capuz de penas de animal ou monstro, que concede +2 em Atletismo e +3m de deslocamento ao adquirir forma selvagem.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), enquanto estiver nessa forma você recebe +2 em Atletismo e seu deslocamento aumenta em +3m."
+  }
+}

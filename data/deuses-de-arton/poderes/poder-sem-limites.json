@@ -1,0 +1,15 @@
+{
+  "id": "poder-sem-limites",
+  "tipo": "poder",
+  "nome": "Poder sem Limites",
+  "resumo": "CD e limites de PM das habilidades (exceto magias) aumentam pelo valor do patamar.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "kallyadranoch",
+    "prerequisito": "",
+    "descricao": "A CD e os limites de PM de suas habilidades (exceto magias e habilidades que as simulem) aumentam em um valor igual ao seu patamar."
+  }
+}

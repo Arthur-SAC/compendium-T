@@ -1,0 +1,75 @@
+{
+  "id": "avatar-de-lin-wu",
+  "tipo": "criatura",
+  "nome": "Avatar de Lin-Wu",
+  "resumo": "A manifestação do Deus da Honra em Arton: um imenso dragão celestial serpenteando nos céus ou um poderoso samurai em armadura escarlate empunhando a katana trovejante Kaminari — considerado o mais perigoso espadachim entre os deuses.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 182 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "lin-wu", "rotulo": "Lin-Wu" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "No Império de Jade, Lin-Wu costuma assumir uma entre duas aparências: um imenso dragão celestial, serpenteando nos céus em cores brilhantes, belo e colorido como as quatro estações; ou um poderoso samurai em armadura cerimonial escarlate, empunhando uma katana faiscante de relâmpagos (dizem ser ele o mais perigoso espadachim entre os deuses). Muitos questionam por qual razão essas formas tão combativas não foram empregadas para proteger Tamu-ra da Tormenta. Seus devotos afirmam que, sendo algo honrado, Lin-Wu com certeza o faria. A honra traz mistérios que apenas os deuses conhecem.\n\nO grande samurai e o dragão celestial são figuras familiares aos tamuranianos; eles não as temem. Poderiam, no entanto, intimidar o povo do Reinado. Quando visita essas terras, por gentileza e cortesia, Lin-Wu recorre a uma aparência bem mais aprazível — um galante meio-dragão de Tamu-ra, ou ryuujin, em vestes de seda esvoaçantes. Suas habilidades de combate, no entanto, seguem idênticas à versão samurai."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Espírito (dragão)",
+    "tamanho": "Enorme",
+    "iniciativa": "+29",
+    "percepcao": "+35, visão no escuro",
+    "defesa": "56, imunidade a atordoamento, efeitos de metabolismo, eletricidade, ilusão, medo, metamorfose e paralisia, redução de dano 30, resistência a magia +5",
+    "fortitude": "+19",
+    "reflexos": "+27",
+    "vontade": "+33",
+    "pontosDeVida": "1284",
+    "deslocamento": "15m (10q), voo 30m (20q)",
+    "ataques": [
+      "Corpo a Corpo Kaminari x2 +54 (36+36 corte, 17/x3, mais 30 eletricidade) e duas garras +52 (24+16, 18)."
+    ],
+    "atributos": {
+      "forca": "12",
+      "destreza": "12",
+      "constituicao": "10",
+      "inteligencia": "8",
+      "sabedoria": "18",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Lin-Wu lança qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 48, limite de PM 19). Uma vez por rodada, ele pode lançar Fúria do Panteão como uma ação livre. Alternativamente, se você tiver o suplemento Ameaças de Arton, em vez disso ele lança Katana Celestial (p. 404)."
+      },
+      {
+        "nome": "Dragão Divino",
+        "descricao": "O Avatar tem todas as habilidades de dragões celestiais (p. 272)."
+      },
+      {
+        "nome": "Explosão de Relâmpagos",
+        "descricao": "Quando o Avatar acerta um ataque com Kaminari, outras criaturas a 6m do alvo desse ataque sofrem 30 pontos de dano de eletricidade (Ref CD 49 reduz à metade)."
+      },
+      {
+        "nome": "Kiai Celestial",
+        "descricao": "O Avatar sempre causa dano máximo, sem necessidade de rolar dados (já contabilizado)."
+      },
+      {
+        "nome": "Mil Cortes (Completa)",
+        "descricao": "O Avatar faz um ataque com Kaminari em um cone de 30m. Ele faz um único ataque e compara o resultado com a Defesa de todas as criaturas na área. Então faz uma única rolagem de dano e aplica-a em cada inimigo atingido. Caso o ataque seja um acerto crítico, o Avatar pode usar esta habilidade uma segunda vez. Recarga (movimento)."
+      },
+      {
+        "nome": "Punir a Desonra",
+        "descricao": "Quando ataca uma criatura que possui um código de conduta (como Código de Honra ou devoção a alguma divindade) e que, a critério do mestre, não esteja obedecendo a esse código, o Avatar rola dois dados e escolhe o melhor resultado."
+      },
+      {
+        "nome": "Kaminari",
+        "descricao": "A espada do Deus da Honra é uma katana precisa pungente trovejante veloz. Apenas devotos de Lin-Wu ou criaturas que obedeçam a algum código de conduta (como Código de Honra ou similares) podem utilizar esta espada; nas mãos de qualquer outra pessoa, ela se torna uma katana sem habilidades que impõe –2 em testes de ataque e rolagens de dano. Enquanto empunhar Kaminari, você pode gastar uma ação completa e 5 PM para atacar todas as criaturas em um cone de 30m. Você faz um único ataque e compara o resultado com a Defesa de todas as criaturas na área. Então faz uma única rolagem de dano e aplica-a em cada inimigo atingido. Caso o ataque seja um acerto crítico, você pode gastar 5 PM para usar essa habilidade uma segunda vez. Se uma criatura chegar a 0 PV ou menos por um golpe desta arma, ela é fulminada por eletricidade e completamente destruída. Artefato."
+      }
+    ],
+    "pericias": "Atletismo +29, Conhecimento +28, Guerra +28, Intimidação +27, Intuição +35, Nobreza +33, Religião +38.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Kaminari.",
+    "tema": "Deuses & Avatares"
+  }
+}

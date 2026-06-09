@@ -1,0 +1,15 @@
+{
+  "id": "mediador-da-tempestade",
+  "tipo": "poder",
+  "nome": "Mediador da Tempestade",
+  "resumo": "Comunicação livre com lefeu inteligentes e +5 em Diplomacia e Intuição com criaturas da Tormenta e devotos de Aharadak.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "aharadak",
+    "prerequisito": "",
+    "descricao": "Você pode se comunicar com lefeu inteligentes (Int –3 ou maior) livremente e recebe +5 em testes de Diplomacia e Intuição com criaturas da Tormenta e devotos de Aharadak."
+  }
+}

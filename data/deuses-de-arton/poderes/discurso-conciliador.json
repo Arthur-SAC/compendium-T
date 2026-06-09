@@ -1,0 +1,15 @@
+{
+  "id": "discurso-conciliador",
+  "tipo": "poder",
+  "nome": "Discurso Conciliador",
+  "resumo": "Em testes de Diplomacia para mudar atitude, rola dois dados usando o melhor ou ambos; se passar em ambos, bônus cumulativos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "marah",
+    "prerequisito": "",
+    "descricao": "Quando faz um teste de Diplomacia para mudar atitude, você pode rolar dois dados e usar o melhor resultado ou ambos (como se tivesse usado mudar atitude duas vezes). Se passar em ambos, as mudanças de atitude são cumulativas."
+  }
+}

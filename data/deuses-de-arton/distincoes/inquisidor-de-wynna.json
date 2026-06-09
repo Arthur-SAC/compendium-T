@@ -1,0 +1,44 @@
+{
+  "id": "inquisidor-de-wynna",
+  "tipo": "distincao",
+  "nome": "Inquisidor de Wynna",
+  "resumo": "Paladino especialmente treinado para assegurar que a magia não seja usada para fins malignos, protegendo arcanistas e o livre acesso ao dom mágico da Deusa da Magia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 105 },
+  "imagens": ["/distincoes/inquisidor-de-wynna.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O inquisidor de Wynna é um paladino que toma para si um importante dever: assegurar que a magia não seja usada para fins malignos. Enquanto alguns servos dos deuses desejam limitar as artes arcanas, o inquisidor ama a magia, defende seu uso — desde que inocentes não sofram por causa disso. Assim, ele abraça a Deusa da Magia como divindade padroeira, recebendo novos poderes e buscando obedecer a seus dogmas.\n\nEstes campeões divinos das artes arcanas são raros, sendo especialmente treinados em alguns templos de Wynna espalhados pelo continente. Embora todos vejam uns aos outros como irmãos de uma mesma causa e colaborem quando há alguma ameaça mágica muito perigosa, todos garantem que não existe uma 'Inquisição de Wynna' organizada. Os inquisidores não se consideram uma única ordem, nem obedecem a um único líder.\n\nInquisidores de Wynna costumam formar tribunais quando existe alguma dúvida sobre o bom ou mau uso de magia arcana. Esses tribunais não têm autoridade real e não podem efetivamente fazer nada, a não ser que os inquisidores estejam sendo atacados ou combatendo alguma ameaça óbvia. No entanto, usam de sua presença e postura para 'sugerir' cursos de ação — como enviar uma criança com poderes mágicos descontrolados para a Academia Arcana, ou confiscar um artefato que esteja causando problemas.\n\nO verdadeiro inquisidor de Wynna não é intolerante ou truculento. É um protetor sagrado dos estudantes arcanos, um defensor dos arcanistas. Ele combate apenas aqueles que, por seus próprios fins egoístas, estariam limitando o acesso à magia. Enfim, o inquisidor protege o direito e liberdade de conjurar magia, assim como seus praticantes. Protege aqueles que a deusa ama.\n\nNo final das contas, ninguém que utiliza magia tem nada a temer dos inquisidores de Wynna. Desde que esteja em paz com a própria consciência."
+    }
+  ],
+  "mecanica": {
+    "admissao": "O candidato precisa ser um paladino e conhecer o básico sobre magia arcana. Deve se apresentar em um dos templos dos inquisidores de Wynna (existe um na Academia Arcana e pelo menos um em Wynlla, o Reino da Magia). Uma vez aceito, é designado a um único instrutor. O candidato deve seguir o mestre por um período indefinido de tempo. Não pode reclamar nem desistir — caso o faça, o treinamento é interrompido para sempre. Durante o treinamento, o instrutor impõe incontáveis desafios e dilemas arbitrários; o candidato deve, após cada desafio, explicar ao mestre o que aprendeu. Quando o mestre considera o treinamento concluído, o candidato deve identificar um local com um problema arcano e presidir um tribunal como juiz. O mestre observa e dá sua própria sentença; se ambas coincidirem, o candidato é iniciado como verdadeiro inquisidor de Wynna.",
+    "marca": {
+      "nome": "Padroeira Adotiva",
+      "descricao": "Wynna não é sua deusa, mas acha-o muito simpático. Você recebe o poder Centelha Mágica, mas continua sendo um paladino e devoto de sua divindade original. Além disso, quando escolhe o poder Orar, você pode aprender também magias arcanas de 1º círculo como se fossem divinas."
+    },
+    "poderes": [
+      {
+        "nome": "Golpe Purificador",
+        "descricao": "O poder divino do inquisidor pode encerrar o mau uso da magia. Quando usa Golpe Divino, você pode gastar 2 PM para transformá-lo em um golpe purificador. Se acertar o ataque, além do dano, você causa um efeito semelhante à magia Dissipar Magia sobre o alvo, usando o resultado do teste de ataque no lugar do teste de Misticismo. Pré-requisitos: Abençoado, Golpe Divino."
+      },
+      {
+        "nome": "Magia Sagrada",
+        "descricao": "O inquisidor de Wynna é capaz de emprestar poder destruidor a suas magias. Quando lança uma magia que causa dano, você pode gastar 2 PM para receber +2 na CD e +1d8 na rolagem de dano da magia. Para cada outro poder da distinção que possuir, você pode gastar +1 PM para aumentar o dano em +1d8. Pré-requisitos: Golpe Purificador, Orar."
+      },
+      {
+        "nome": "Pira da Inquisição",
+        "descricao": "O inquisidor pode punir o mau uso da magia com a chama essencial de Wynna. Enquanto sua Aura Sagrada estiver ativa, no início de seus turnos, você gera um efeito semelhante a Dissipar Magia (usando Vontade no lugar de Misticismo) em criaturas e objetos a sua escolha na área. Para cada círculo de magia dissipada dessa forma, seu conjurador sofre 1d8+1 pontos de dano de essência. Pré-requisitos: Aura Sagrada, Golpe Purificador."
+      },
+      {
+        "nome": "Refletir Magia",
+        "descricao": "Os inquisidores se esforçam para aproveitar ao máximo o dom de Wynna, redirecionando energia arcana mal utilizada de volta para quem a emitiu. Quando passa em um teste de resistência contra uma habilidade mágica, você pode gastar 6 PM para refletir esse efeito de volta à sua fonte. Você não sofre nenhum efeito da habilidade (outros alvos são afetados normalmente) e a fonte é afetada por ela como se fosse um dos alvos originais (a fonte ainda tem direito a quaisquer testes de resistência contra a habilidade). Pré-requisitos: outros dois poderes da distinção."
+      },
+      {
+        "nome": "Veredito Inquisitorial",
+        "descricao": "Os inquisidores de Wynna podem remover as bênçãos da Deusa daqueles que as empregam para o mal. Quando usa Golpe Purificador, você pode gastar +6 PM. Se fizer isso e acertar o ataque, você atrapalha o fluxo de mana do alvo: até o fim da cena, a próxima vez que ele for executar uma ação com um custo em PM, deve fazer um teste de Vontade oposto ao resultado do seu teste de ataque. Se falhar, a ação não tem efeito (mas os PM são gastos mesmo assim). Pré-requisitos: quatro outros poderes da distinção."
+      }
+    ]
+  }
+}

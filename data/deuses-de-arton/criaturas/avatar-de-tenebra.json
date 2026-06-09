@@ -1,0 +1,80 @@
+{
+  "id": "avatar-de-tenebra",
+  "tipo": "criatura",
+  "nome": "Avatar de Tenebra",
+  "resumo": "A manifestação da Deusa das Trevas em Arton: surge como uma vampira extremamente atraente, ou disfarçada de velha bruxa ou anã. Pode se manifestar também como uma sombra que nenhuma luz é capaz de dissipar. Nunca visita Arton durante o dia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 211 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "tenebra", "rotulo": "Tenebra" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando vem a este mundo, Tenebra surge como uma vampira extremamente atraente ou, se não quiser ser reconhecida, adota a forma de uma velha bruxa ou de uma anã. Também pode se manifestar como uma sombra que nenhuma luz é capaz de dissipar, ou como uma presença oculta, sempre logo fora da visão. Ela nunca visita Arton durante o dia."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Morto-vivo",
+    "tamanho": "Médio",
+    "iniciativa": "+30",
+    "percepcao": "+28",
+    "sentidos": "visão no escuro",
+    "defesa": "63, Fort +22, Ref +30, Von +36, cura acelerada 50, imunidade a efeitos de sentidos, encantamento, escuridão e dano de luz e trevas, maior que a morte, redução de dano 20, resistência a magia +5",
+    "pontosDeVida": "1.750",
+    "deslocamento": "18m (8q), voo 24m (16q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +55 (3d8+35, x4, mais 2d12 trevas) e garra x4 +52 (3d10+30, 18, mais 2d12 trevas)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "12",
+      "constituicao": "8",
+      "inteligencia": "15",
+      "sabedoria": "10",
+      "carisma": "16"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Tenebra pode lançar qualquer magia como um clérigo de 20º nível sem gastar PM (CD 51, limite de PM 20). Para magias de necromancia, o Avatar recebe +4 na CD e no limite de PM."
+      },
+      {
+        "nome": "Deusa das Trevas",
+        "descricao": "Todo dano de trevas causado pelo Avatar ignora redução de dano e, contra criaturas imunes a trevas, ainda causa metade do dano."
+      },
+      {
+        "nome": "Dominação Sombria (Padrão)",
+        "descricao": "O Avatar sussurra palavras de controle para criaturas a sua escolha em alcance curto. Cada criatura fica confusa, enfeitiçada ou fascinada até o fim da cena, ou perde suas memórias da última hora, à escolha do Avatar (Von CD 51 evita). Uma criatura só pode ser alvo desta habilidade uma vez por cena."
+      },
+      {
+        "nome": "Drenar Sangue (Padrão)",
+        "descricao": "O Avatar causa 13d8 pontos de dano de trevas em uma criatura viva em alcance curto (Fort CD 51 reduz à metade) e recupera PV em valor igual ao dano causado. Uma criatura morta dessa forma se erguerá como um vampiro na próxima noite e deverá vencer um teste de Vontade oposto contra o Avatar ou ficará sob o controle dele até ser libertada ou destruída."
+      },
+      {
+        "nome": "Filhos da Trevas (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, o Avatar transfere esse dano para outro morto-vivo em alcance longo."
+      },
+      {
+        "nome": "Hordas dos Mortos (Completa)",
+        "descricao": "O Avatar invoca um ou mais mortos-vivos a sua escolha, cujo ND total somado seja igual a 20. Eles surgem em um espaço desocupado em alcance curto, obedecem aos comandos do Avatar e agem a partir da próxima rodada, em suas iniciativas. O Avatar só pode usar esta habilidade novamente quando todos os mortos-vivos forem eliminados."
+      },
+      {
+        "nome": "Manto da Noite",
+        "descricao": "O Avatar emana uma aura de 30m de raio de escuridão total, que fornece camuflagem total e bloqueia a visão na área e através dela. Qualquer criatura que tente usar uma habilidade mágica de luz dentro da aura deve passar em um teste de Vontade (CD 51). Se falhar, a habilidade não tem efeito, mas quaisquer custos são pagos."
+      },
+      {
+        "nome": "Olhos Sombrios",
+        "descricao": "O Avatar está permanentemente sob o efeito básico da magia Visão da Verdade."
+      },
+      {
+        "nome": "Presença Majestosa",
+        "descricao": "Qualquer criatura que tente executar uma ação hostil contra o Avatar deve fazer um teste de Vontade (CD 51). Se falhar, perde a ação (apenas uma vez por cena)."
+      }
+    ],
+    "pericias": "Acrobacia +30, Atuação +34, Diplomacia +34, Enganação +34, Furtividade +33, Intimidação +34, Misticismo +36, Religião +31.",
+    "tesouro": "Nenhum.",
+    "tema": "Deuses & Avatares"
+  }
+}

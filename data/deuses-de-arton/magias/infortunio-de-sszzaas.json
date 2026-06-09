@@ -1,0 +1,38 @@
+{
+  "id": "infortunio-de-sszzaas",
+  "tipo": "magia",
+  "nome": "Infortúnio de Sszzaas",
+  "resumo": "Maldição menor que impõe penalidade na resistência originalmente mais baixa do alvo pela duração da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Necromancia",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "cena",
+    "resistencia": "Vontade anula",
+    "custoPM": 1,
+    "descricao": "Esta maldição menor reduz a resiliência da vítima, tornando-a mais suscetível a efeitos nocivos. O alvo sofre –2 em testes de sua resistência originalmente mais baixa.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Além do normal, a vítima perde imunidade a venenos até o fim da próxima rodada.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta a penalidade em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Apenas Devotos de Sszzaas: além do normal, quando o alvo morre, deixa para trás um pequeno cristal com memórias e segredos. Ao resolver uma busca (Tormenta20, p. 278), um personagem pode quebrar um desses cristais para receber +2 em um teste de perícia.",
+        "requisitoCirculo": 3
+      }
+    ]
+  }
+}

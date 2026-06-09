@@ -1,0 +1,19 @@
+{
+  "id": "apanhador-de-sonhos",
+  "tipo": "item",
+  "nome": "Apanhador de Sonhos",
+  "resumo": "Pequena estrutura de madeira, cordões, contas e penas feita por um sacerdote para proteger o descanso dos fiéis, concedendo +2 em testes de resistência enquanto dorme.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 40",
+    "espacos": "1",
+    "especial": "Se estiver em posse de um apanhador de sonhos, recebe +2 em testes de resistência quando estiver dormindo."
+  }
+}

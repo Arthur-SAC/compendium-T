@@ -1,0 +1,66 @@
+{
+  "id": "silfide-encantadora",
+  "tipo": "criatura",
+  "nome": "Sílfide Encantadora",
+  "resumo": "Sílfide poderosa que lidera comunidades feéricas. Mestre em redirecionamento de ações hostis, onomancia e raios arcanos devastadores. Usa nomes verdadeiros como arma.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 293 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma sílfide encantadora pode às vezes ser encontrada no comando de uma grande comunidade sílfide (isso é, até onde essas fadas travessas podem ser comandadas)."
+    }
+  ],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Espírito (sílfide)",
+    "tamanho": "Minúsculo",
+    "tema": "Fadas",
+    "iniciativa": "+9",
+    "percepcao": "+5",
+    "sentidos": "visão no escuro",
+    "defesa": "25, Fort +7, Ref +21, Von +15, imunidade a encantamento",
+    "pontosDeVida": "211",
+    "pontosDeMana": "60",
+    "deslocamento": "voo 12m (8q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "-2",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "1",
+      "sabedoria": "-1",
+      "carisma": "6"
+    },
+    "pericias": "Diplomacia +16, Enganação +16, Furtividade +17.",
+    "equipamento": "Bolsa de pó canalizadora, gorro de ervas.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Enganadora Nata (Reação, 3 PM)",
+        "descricao": "Quando é alvo de uma ação hostil, a sílfide encantadora muda o alvo da ação para uma criatura em alcance médio cujo nome ela conheça."
+      },
+      {
+        "nome": "\"Eu Não Acredito em Fadas.\"",
+        "descricao": "Quando um inimigo passa em um teste de Vontade contra a sílfide, ela perde 5 PV."
+      },
+      {
+        "nome": "\"Oi, Qual o Seu Nome?\"",
+        "descricao": "Uma criatura que de alguma forma revele seu nome verdadeiro à sílfide sofre –2 em testes de resistência contra ela."
+      },
+      {
+        "nome": "Onomancia Feérica (Livre)",
+        "descricao": "Uma vez por rodada, a sílfide dá uma ordem, como o efeito básico da magia Comando, a uma criatura em alcance médio que tenha revelado seu nome a ela em algum momento."
+      },
+      {
+        "nome": "Raio Arcano (Padrão)",
+        "descricao": "Uma criatura em alcance curto sofre 4d12+12 pontos de dano de essência (Ref CD 28 reduz à metade)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma feiticeira de 9º nível (CD 28, limite de PM 9).\n• Adaga Mental (Padrão, 6 PM) Uma criatura em alcance curto sofre 4d6 pontos de dano psíquico e fica atordoada por 1 rodada (Von reduz à metade e evita a condição). Se falhar no teste de resistência, a criatura não percebe que a sílfide lançou a magia. Uma criatura só pode ser atordoada por esta magia uma vez por cena.\n• Criar Ilusão (Padrão, 4 PM, sustentada) A sílfide cria uma ilusão com imagens e sons combinados em alcance médio, que ocupa até 6 cubos de 1,5m. Criaturas e objetos atravessam a ilusão sem sofrer dano (Von desacredita).\n• Disfarce Ilusório (Padrão, 3 PM) Até o fim da cena, a sílfide muda a própria aparência, incluindo seu equipamento, e ainda os odores e as sensações que transmite. Isso afeta altura, peso, tom de pele, cor de cabelo, timbre de voz etc. Ela recebe +20 em testes de Enganação para disfarce (Von desacredita).\n• Imobilizar (Padrão, 6 PM) Um animal ou humanoide em alcance curto fica paralisado (Von reduz para lento). A cada rodada, a vítima pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, liberta-se do efeito.\n• Invisibilidade (Padrão, 4 PM) A sílfide fica invisível até o fim da cena ou até realizar uma ação hostil. Ela recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-la ficam desprevenidas contra seus ataques."
+      }
+    ]
+  }
+}

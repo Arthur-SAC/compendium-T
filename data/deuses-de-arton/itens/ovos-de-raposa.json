@@ -1,0 +1,22 @@
+{
+  "id": "ovos-de-raposa",
+  "tipo": "item",
+  "nome": "Ovos de Raposa",
+  "resumo": "Ovos recheados com sabor sempre diferente, temperados pelo Deus dos Ladrões, que permitem rolar novamente um teste de Enganação ou Ladinagem uma vez por dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "hyninn", "rotulo": "Hyninn" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 3",
+    "espacos": "0",
+    "especial": "Prato especial de Hyninn. Uma vez nesse dia, você pode rolar novamente um teste de Enganação ou Ladinagem recém-feito."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ossos-draconicos",
+  "tipo": "item-magico",
+  "nome": "Ossos Dracônicos",
+  "resumo": "Acessório de ossos de dragão de Kallyadranoch que concede +4 em Intimidação e –2 em Diplomacia; para devotos, também +2 em Força, Carisma e na CD de todas as habilidades.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 56 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "kallyadranoch", "rotulo": "Kallyadranoch" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Maior",
+    "preco": "T$ 90.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este item possui a forma de um acessório — como um colar, máscara, colete ou par de brincos — feito de ossos especialmente densos e duros. Qualquer um que toque nos ossos dracônicos sente que eles emanam uma tênue energia — calor, frio, estática ou outra, conforme a natureza do dragão a partir do qual foram feitos. A energia é desconfortável, mas não a ponto de causar dano ou impor qualquer penalidade. Se forem vestidos, os ossos dracônicos fornecem +4 em Intimidação e –2 em Diplomacia. Se forem vestidos por um devoto de Kallyadranoch, emprestam o poder armazenado neles, fornecendo também +2 em Força, +2 em Carisma e +2 na CD de todas as habilidades do devoto. Acessório maior, preço T$ 90.000."
+    }
+  ]
+}

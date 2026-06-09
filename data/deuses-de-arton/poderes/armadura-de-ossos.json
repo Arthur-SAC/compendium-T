@@ -1,0 +1,15 @@
+{
+  "id": "armadura-de-ossos",
+  "tipo": "poder",
+  "nome": "Armadura de Ossos",
+  "resumo": "Gasta ação de movimento e 2 PM para receber +2 Defesa e Intimidação, mais redução de corte, frio e trevas 5.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tenebra",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 2 PM para receber +2 na Defesa e em Intimidação, e redução de corte, frio e trevas 5 até o fim da cena."
+  }
+}

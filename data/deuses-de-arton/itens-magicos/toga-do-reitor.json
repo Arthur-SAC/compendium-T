@@ -1,0 +1,25 @@
+{
+  "id": "toga-do-reitor",
+  "tipo": "item-magico",
+  "nome": "A Toga do Reitor",
+  "resumo": "Manto artefato ofertado pela Deusa Wynna ao arquimago Talude, fundador da Grande Academia Arcana, que concede proteção extraordinária e amplifica o poder arcano de seu usuário.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 248 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "wynna", "rotulo": "Wynna" }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  },
+  "secoes": [
+    {
+      "titulo": "História",
+      "texto": "Esta relíquia remete à história de seu portador mais ilustre: Talude, um dos maiores arquimagos de Arton.\n\nDevido a um acidente arcano na infância, Talude acabou transportado para o próprio reino divino de Wynna — lugar onde seres mágicos e conjuradores eram extremamente comuns. Acolhido como protegido de um gênio muito poderoso, aprendeu os maiores mistérios das artes místicas com rapidez espantosa, mesmo para os padrões locais. Chegando à maioridade, decidiu se aventurar através da Criação, visitando diferentes mundos. Tornou-se um mago aventureiro.\n\nApós participar de aventuras cósmicas, nas quais a existência da realidade esteve em jogo, Talude foi convocado pela própria Deusa da Magia. Seria confiada a ele uma missão que até hoje permanece em segredo. Uma vez concluída com sucesso, Wynna ofereceu ao querido devoto uma recompensa: permanecer a seu lado pela eternidade, privilégio concedido pelos deuses a poucos eleitos. Ainda que imensamente honrado, Talude declinou — pediu à deusa para seguir espalhando sua dádiva, pregando a prática da magia arcana entre os povos. Desnecessário dizer que Wynna o amou ainda mais.\n\nAssim, a Grande Academia Arcana seria erigida por gênios. Permanecendo ali, como seu mestre máximo, Talude não apenas teria vida eterna — também seria agraciado com a Toga do Reitor, artefato ofertado pela própria deusa. Trajando a peça, o arquimago se tornava praticamente invencível.\n\nAo longo dos anos, a Academia se tornaria uma das instituições mais nobres e respeitadas de Arton. Grandes arcanistas poderiam estudar ali, sem a necessidade de conquistar seus poderes rastejando em masmorras perigosas ou fazendo pactos com entidades traiçoeiras. Contudo, enquanto buscava proteger seus pupilos, Talude se fechava para os problemas do mundo. Guerras aconteciam por toda volta. Regentes exigiam ação por parte dos magos poderosos que lecionavam na instituição, bem como seus formandos.\n\nA neutralidade da Academia seria enfim encerrada com a assinatura do Tratado da Centelha, criando uma coligação entre as três grandes potências mágicas do Reinado: a Academia Arcana, o reino de Wynlla e a cidade voadora de Vectora. Contrariado com o envolvimento de seus estudantes em guerras mundanas, Talude desapareceu. Seu sucessor seria o prestigiado necromante Vladislav Tpish.\n\nQuanto à valiosa e poderosa Toga do Reitor, pouco é sabido. Alguns dizem que o Mestre Máximo levou-a consigo, onde quer que esteja. Outros dizem que ela agora pertence a Vlad, que afinal ocupa esse cargo. Outros, ainda, acreditam que o artefato acabou nas profundezas de alguma masmorra, ou aguarda para ser ofertado ao próximo escolhido de Wynna."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "A Toga do Reitor é um manto elaborado, de tecido comprido e pesado. Conta como um robe místico aprimorado que fornece +10 na Defesa, +5 em testes de resistência e redução de ácido, eletricidade, essência, fogo, frio, luz, psíquico e trevas 20. Além disso, sempre que seu usuário é alvo de uma magia de até 3º círculo, não sofre nenhum efeito; em vez disso, recebe um número de PM temporários igual ao custo da magia. Por fim, sempre que seu usuário lança uma magia, recebe +5 PM para gastar em aprimoramentos nela.\n\nOs poderes da Toga do Reitor funcionam apenas se o usuário for treinado em Conhecimento e Misticismo e puder lançar magias arcanas de 4º círculo ou superior. Para outros usuários, ela é apenas um robe místico aprimorado mundano."
+    }
+  ]
+}

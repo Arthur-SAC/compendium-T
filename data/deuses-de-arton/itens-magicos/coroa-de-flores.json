@@ -1,0 +1,22 @@
+{
+  "id": "coroa-de-flores",
+  "tipo": "item-magico",
+  "nome": "Coroa de Flores",
+  "resumo": "Adereço de ramos verdejantes e flores de Allihanna, sempre vistoso, que concede +1 em Sabedoria e aumenta efeitos numéricos variáveis de magias em +1 por dado.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "allihanna", "rotulo": "Allihanna" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este adereço é feito com ramos verdejantes e flores brancas, rosas, amarelas e lilases e, abençoado pela magia da natureza, permanece sempre vistoso. Se você for um devoto de Allihanna e vestir a coroa de flores, recebe +1 em Sabedoria (apenas após 1 dia de uso) e suas magias com efeitos numéricos variáveis recebem um bônus de +1 por dado (por exemplo, Curar Ferimentos lançada para curar 4d8+4 PV irá curar 4d8+8 PV). Acessório menor, preço T$ 9.000."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aventureiro-inquieto",
+  "tipo": "poder",
+  "nome": "Aventureiro Inquieto",
+  "resumo": "Uma vez por busca pode rolar novamente um teste; nas recompensas/castigos aleatórios de busca, rola dois dados e escolhe.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "valkaria",
+    "prerequisito": "",
+    "descricao": "Uma vez por busca (Tormenta20, p. 278), você pode rolar novamente um teste recém-realizado (mas deve aceitar o novo resultado) e, quando recebe uma recompensa ou um castigo aleatório por uma busca (incluindo rolagens na Tabela 8-1; Tormenta20, p. 328), rola dois dados e escolhe entre os dois resultados."
+  }
+}

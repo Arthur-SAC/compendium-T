@@ -1,0 +1,58 @@
+{
+  "id": "gigante-do-gelo",
+  "tipo": "criatura",
+  "nome": "Gigante do Gelo",
+  "resumo": "Variante regional do gigante das rochas, encontrada nas Uivantes. Possui resistência ao frio e, quando em fúria, emana uma aura de frio e ventos fortes ao redor.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 311 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Existem variantes regionais do gigante das rochas, nomeadas conforme o ambiente em que vivem. Nas Uivantes são chamados gigantes do gelo. Embora tenham diferenças culturais e até habilidades próprias, são essencialmente as mesmas criaturas."
+    }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+6",
+    "percepcao": "+5",
+    "sentidos": "",
+    "defesa": "33, Fort +21, Ref +9, Von +14, redução de frio 15",
+    "pontosDeVida": "380",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +26 (4d12+8, x3, mais 1d6 gelo)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "-1",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "-1",
+      "carisma": "-1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arremessar Geleira (Completa)",
+        "descricao": "O gigante arremessa um pedaço de geleira em um quadrado de 4,5m em alcance curto. Criaturas nessa área sofrem 8d12 pontos de dano de frio e ficam lentas (Ref CD 28 reduz à metade e evita a condição)."
+      },
+      {
+        "nome": "Barril Gigante de... (Completa)",
+        "descricao": "O gigante usa uma dose da bebida de seu barril gigante (CD 28)."
+      },
+      {
+        "nome": "Fúria Gélida",
+        "descricao": "Enquanto está sob efeito de Pavio Curto, o gigante emana uma aura de 9m de frio e ventos fortes. Ele recebe camuflagem leve contra ataques à distância feitos fora da aura e, no início dos seus turnos, criaturas dentro da aura sofrem 4d6 pontos de dano de frio (Fort CD 28 reduz à metade)."
+      },
+      {
+        "nome": "Pavio Curto (Reação)",
+        "descricao": "Quando é ofendido ou sofre dano de um inimigo, o gigante entra em fúria. Ele recebe +3 em testes de ataque e rolagens de dano, e seus ataques deixam as vítimas sangrando, mas ele deve sempre atacar a criatura mais próxima. A fúria termina se, ao fim da rodada, ele não tiver atacado nem sido alvo de um efeito hostil."
+      }
+    ],
+    "pericias": "Atletismo +21, Intuição +7, Oficio (cozinheiro) +11, Sobrevivência +7.",
+    "tesouro": "Metade.",
+    "tema": "Gigantes"
+  }
+}

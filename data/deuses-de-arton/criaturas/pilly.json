@@ -1,0 +1,52 @@
+{
+  "id": "pilly",
+  "tipo": "criatura",
+  "nome": "Pilly",
+  "resumo": "Minúsculos celestiais com aparência de fada, de asas iridescentes de inseto e cabelo metálico. Não existem para lutar, mas para alegrar e divertir aqueles em desalento. São encontrados nos reinos de Allihanna, Marah e Lena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 274 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Em um primeiro momento, a criaturinha lembra uma fada, com suas quatro finas asas de inseto que brilham ao sol com as cores do arco-íris. Tem cabelo farto, em tons metálicos de prata e ouro. Veste uma toga simples, mas graciosa, feita de folhas e pétalas.\n\nPilly estão entre os menores celestiais conhecidos, e também entre os mais fracos. Eram muito comuns e numerosos no antigo Reino de Glórienn; hoje são poucos, encontrados nos reinos de Allihanna, Marah e Lena, além de alguns pontos de Arton. Não existem para lutar, mas para alegrar e divertir: percorrem o mundo procurando aqueles em desalento, como crianças assustadas, sonhadores frustrados, artistas deprimidos, parentes ou amantes saudosos, e outros que poderiam se beneficiar de um sorriso ou risada.\n\nPor seu tamanho e fragilidade, os pilly costumam evitar qualquer confronto: diante de algum perigo, fogem o mais rápido possível para tentar alertar celestiais mais poderosos. São às vezes empregados por clérigos ou por outros celestiais como mensageiros, embora seja necessário ter certa paciência, pois os pilly tendem a perder o foco e esquecer suas tarefas. Alguns também aceitam acompanhar conjuradores divinos para ajudá-los (ou tentar diverti-los quando os consideram sérios demais)."
+    }
+  ],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Minúsculo",
+    "iniciativa": "+7",
+    "percepcao": "+3",
+    "sentidos": "visão no escuro",
+    "defesa": "18, Fort +8, Ref +14, Von +5",
+    "pontosDeVida": "22",
+    "deslocamento": "Voo 18m (12q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "–3",
+      "destreza": "4",
+      "constituicao": "–1",
+      "inteligencia": "1",
+      "sabedoria": "0",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Raio Iridescente (Padrão)",
+        "descricao": "O pilly dispara um raio colorido em criaturas em alcance médio a sua escolha. Cada criatura sofre 2d4+6 pontos de dano de eletricidade (Ref CD 18 reduz à metade)."
+      },
+      {
+        "nome": "Sono Tranquilo (Padrão)",
+        "descricao": "O pilly emana um pó fino de suas asas, que cobre um raio de 9m. Criaturas à escolha dele nessa área ficam inconscientes e caídas (Fort CD 18 reduz para exaustas por 1d4 rodadas). Cansaço."
+      },
+      {
+        "nome": "Velocidade Celestial (Livre)",
+        "descricao": "O pilly aumenta seu deslocamento para 24m por 1 rodada, mas nesse turno só pode executar ações de movimento. Ele só pode usar esta habilidade no início do seu turno."
+      }
+    ],
+    "pericias": "Acrobacia +9, Conhecimento +6, Diplomacia +8.",
+    "tesouro": "Metade.",
+    "tema": "Celestiais"
+  }
+}

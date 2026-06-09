@@ -1,0 +1,74 @@
+{
+  "id": "allaraz",
+  "tipo": "criatura",
+  "nome": "Allaraz",
+  "resumo": "Gênio da luz: guerreira élfica alta e vigorosa como uma árvore, com cabelo prateado em rabo de cavalo muito longo, toga curta, joias douradas e sinais luminosos pelo corpo. Criado para combater os dabbus e proteger as obras dos deuses.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 302 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ela lembra uma guerreira élfica, mas alta e vigorosa como uma árvore, o cabelo prateado preso em rabo de cavalo muito longo. Veste uma toga curta, exibindo braços e pernas fortes, além de joias douradas. Por todo o corpo, sinais luminosos. No olhar, luz de bondade e pureza. Embora os gênios tenham sido criados para atuar em harmonia durante a criação do mundo, existe inimizade entre eles — afinal, alguns são obra de deuses bondosos e outros, de deuses malignos. Naqueles tempos imemoriais de gênese, quando Arton estava sendo forjada, a harmonia não era total. Houve diferença, houve conflito, cada divindade tinha sua própria visão de um mundo perfeito. Criações de um deus eram atacadas, vandalizadas, destruídas por outros. Os gênios da luz, ou allaraz, são facilmente confundidos com celestiais — pode-se dizer que são suas versões arcanas. Assim como celestiais combatem os abissais, allaraz têm a missão de combater os destruidores dabbus, não sendo incomum que allaraz e celestiais acabem aliados a aventureiros em grandes batalhas contra demônios e gênios das trevas. Gênios da luz anseiam por proteger as obras dos deuses, escolhendo seus amos entre aqueles que abraçam tal devoção. São também aqueles que se regozijam com o uso da magia arcana para promover o bem."
+    }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Espírito (gênio)",
+    "tamanho": "Grande",
+    "tema": "Gênios",
+    "iniciativa": "+17",
+    "percepcao": "+11",
+    "defesa": "44, Fort +14, Ref +22, Von +28, imunidade a dano de luz, resistência a magia +5",
+    "pontosDeVida": "490",
+    "deslocamento": "12m (8q), voo 15m (10q)",
+    "pontosDeMana": "113",
+    "ataques": [
+      "Corpo a Corpo Pancada x2 +37 (4d8+25, mais 2d6 luz)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "4",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "4",
+      "carisma": "8"
+    },
+    "habilidades": [
+      {
+        "nome": "Dentro de uma Lampadazinha (habilidade de gênio)",
+        "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se for reduzido a 0 PM dessa forma, ele sofre um efeito debilitante, diferente para cada gênio. O efeito debilitante e a perda de PM são revertidos quando o gênio firma um pacto com um amo."
+      },
+      {
+        "nome": "Poderes Cósmicos Fenomenais (Completa) (habilidade de gênio)",
+        "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int –3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto estiver presente na cena, o custo de suas próprias habilidades mágicas é reduzido em –1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa."
+      },
+      {
+        "nome": "Servo dos Deuses (habilidade de gênio)",
+        "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos."
+      },
+      {
+        "nome": "Contramágica Aprimorada (Reação)",
+        "descricao": "Uma vez por rodada, o allaraz faz uma contramágica."
+      },
+      {
+        "nome": "Proteger Criação (Reação, 10 PM)",
+        "descricao": "Uma vez por rodada, quando uma criatura em alcance curto do allaraz sofre dano, ele concede RD 50 a ela contra esse dano."
+      },
+      {
+        "nome": "Reverter Destruição (Completa, 5 PM)",
+        "descricao": "Criaturas em alcance curto à escolha do allaraz que tenham sofrido dano nessa cena recuperam 6d8+6 PV."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 14º nível (CD 40, limite de PM 22). Dissipar Magia (Padrão, 3 PM): O allaraz escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas. Explosão Caleidoscópica (Padrão, 10 PM): Criaturas numa área de 6m de raio em alcance curto ficam atordoadas por 1 rodada e enjoadas por 1d4 rodadas (Fort muda para desprevenidas e enjoadas por 1 rodada). Criaturas com menos de 10 níveis sofrem efeitos variados (Tormenta20, p. 193). Uma criatura só pode ser atordoada por esta magia uma vez por cena. Flecha de Luz (Padrão, 16 PM): Duas criaturas em alcance médio sofrem 6d8+6 pontos de dano de luz e ficam cegas por 1d4 rodadas, então ofuscadas. Globo de Invulnerabilidade (Padrão, 10 PM, sustentada): O allaraz é envolto por uma esfera mágica de 3m que detém qualquer magia de 3º círculo ou menor. Leque Cromático (Padrão, 8 PM): Criaturas em um cone de 4,5m ficam atordoadas por 1 rodada (apenas uma vez por cena, Von anula), ofuscadas e vulneráveis. Raio Solar (Padrão, 18 PM): Criaturas em uma linha de 30m a partir do allaraz sofrem 10d8 (ou 10d12 se forem mortos-vivos) pontos de dano de luz, ficam cegas por 1d4 rodadas e ofuscadas por uma rodada (Ref reduz à metade e evita as condições). Selo de Mana (Padrão, 10 PM): Um selo mágico se manifesta em criaturas escolhidas em alcance curto até o fim da cena. Sempre que elas fizerem qualquer ação que gaste PM, devem fazer um teste de Vontade. Se passarem, a ação funciona. Se falharem, a ação não tem efeito, mas os PM são gastos mesmo assim."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O allaraz é um parceiro que fornece os benefícios a seguir. Iniciante: você pode lançar uma magia de ilusão ou evocação de 1º círculo (definida pelo allaraz; atributo-chave Carisma). Veterano: você pode lançar Campo de Força. Mestre: uma vez por rodada, você pode gastar 4 PM para curar 5d8+5 PV em uma criatura em alcance curto."
+      }
+    ],
+    "pericias": "Conhecimento +15, Diplomacia +20, Misticismo +20, Religião +17.",
+    "tesouro": "Padrão."
+  }
+}

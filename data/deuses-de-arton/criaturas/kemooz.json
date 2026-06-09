@@ -1,0 +1,67 @@
+{
+  "id": "kemooz",
+  "tipo": "criatura",
+  "nome": "Kemooz",
+  "resumo": "Gênio da terra: mulher incrivelmente robusta com pele marrom e símbolos místicos, colete curto, calças bufantes, braçadeiras massivas e um pequeno chapéu cilíndrico. Engenheiro e arquiteto dos deuses; construiu palácios, cordilheiras e fortalezas planares de Arton.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 303 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Bem maior que um ogro, a mulher inacreditavelmente robusta cruza os braços imensos sobre o peito. Tem pele marrom, com símbolos místicos em tom mais claro. Usa um colete curto, calças bufantes, botas pesadas, cinto largo e braçadeiras massivas, tudo com adereços de ouro. Na cabeça nua e brilhante, traz um pequenino e curioso chapéu cilíndrico. Tem olhar firme e expressão dura. Embora as lendas digam que gênios construíram Arton, nenhum parece mais digno dessa atribuição que os gênios da terra — ou kemooz, como também são chamados. Eles são os engenheiros, arquitetos e construtores entre os gênios. São os mais devotados a erguer estruturas gigantescas, construíram os palácios de quase todos os deuses do Panteão. Em Arton, além de incontáveis fortalezas (e masmorras), teriam erguido as próprias Lannestul, Sanguinárias, Uivantes e outras cordilheiras. Há rumores sobre brigadas trabalhando nessas cadeias montanhosas até hoje, pois ainda não teriam sido concluídas. A expressão sempre austera pode levar a pensar que estes gênios são sérios, mal-humorados, mas não é o caso. Mesmo que não sorriam tanto, kemooz têm o mesmo coração bondoso e generoso de seus irmãos. Têm imenso prazer em concluir uma obra que será desfrutada, que traga alegria a outros. São honrados, sinceros e bastante literais ao atender a desejos, o que algumas vezes leva a erros de interpretação que podem ser divertidos ou trágicos. Não é comum que gênios da terra aceitem aventureiros como amos, mas alguns se afeiçoam a anões e medusas."
+    }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Espírito (gênio)",
+    "tamanho": "Grande",
+    "tema": "Gênios",
+    "iniciativa": "+10",
+    "percepcao": "+14, visão no escuro",
+    "sentidos": "visão no escuro",
+    "defesa": "34, Fort +21, Ref +6, Von +15, imunidade a encantamento e ácido, redução de dano 10",
+    "pontosDeVida": "280",
+    "deslocamento": "9m (6q), escavação 9m (6q)",
+    "pontosDeMana": "57",
+    "ataques": [
+      "Corpo a Corpo Pancada +25 (2d8+42 mais 6d8 ácido)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "1",
+      "constituicao": "5",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Dentro de uma Lampadazinha (habilidade de gênio)",
+        "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se for reduzido a 0 PM dessa forma, ele sofre um efeito debilitante, diferente para cada gênio. O efeito debilitante e a perda de PM são revertidos quando o gênio firma um pacto com um amo."
+      },
+      {
+        "nome": "Poderes Cósmicos Fenomenais (Completa) (habilidade de gênio)",
+        "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int –3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto estiver presente na cena, o custo de suas próprias habilidades mágicas é reduzido em –1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa."
+      },
+      {
+        "nome": "Servo dos Deuses (habilidade de gênio)",
+        "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos."
+      },
+      {
+        "nome": "Terraformista",
+        "descricao": "Se o kemooz estiver em contato com o solo, o custo de sua magia Controlar Terra é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam seu custo)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 9º nível (CD 30). Amarras Etéreas (Padrão, 6 PM): Três laços de energia surgem e se enroscam em uma criatura em alcance médio, deixando-a agarrada (Ref evita). A vítima pode tentar se livrar, gastando uma ação padrão para fazer um teste de Atletismo. Se passar, destrói um laço, mais um laço adicional para cada 5 pontos pelos quais superou a CD. Cada laço também pode ser atacado e destruído (Defesa 10, 10 PV, RD 5 e imunidade a dano mágico). Um laço destruído causa 1d8+1 pontos de dano de essência na criatura amarrada. Se todos os laços forem destruídos, a magia é dissipada. Os laços afetam criaturas incorpóreas. Controlar Terra (Padrão, 9 PM): O kemooz transforma 9 cubos de terra com 1,5m de lado em alcance longo em uma parede (RD 8 e 50 PV) que fornece cobertura total. Ele pode aplicar outros efeitos aos cubos (Tormenta20, p. 188). Jato Corrosivo (Padrão, 9 PM): O kemooz projeta uma linha corrosiva de 9m. Criaturas nessa área sofrem 10d6 pontos de dano de ácido, enquanto construtos e objetos soltos sofrem 10d6+4 pontos de dano (Ref reduz à metade)."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O kemooz é um parceiro que fornece os benefícios a seguir. Iniciante: uma vez por rodada, você pode criar um cubo de terra de 1,5m de lado em um espaço desocupado a até 9m. O cubo tem RD 5 e 30 PV e dura até o fim da cena ou até você acumular 4 cubos. Veterano: você recebe +2 na Defesa. Mestre: você pode lançar Controlar Terra (atributo-chave Carisma)."
+      }
+    ],
+    "pericias": "Atletismo +14, Misticismo +12.",
+    "tesouro": "Padrão."
+  }
+}

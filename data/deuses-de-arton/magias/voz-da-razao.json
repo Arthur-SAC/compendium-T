@@ -1,0 +1,32 @@
+{
+  "id": "voz-da-razao",
+  "tipo": "magia",
+  "nome": "Voz da Razão",
+  "resumo": "A mente transborda de argumentos e informações, concedendo bônus em Conhecimento, Diplomacia e Intimidação.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 65 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Encantamento",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Iluminada por Tanna-Toh, sua mente transborda de argumentos e informações. Você recebe +5 em Conhecimento, Diplomacia e Intimidação.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o bônus para +10.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Tanna-Toh: além do normal, você recebe +5 em Intuição e em testes de Investigação para interrogar."
+      }
+    ]
+  }
+}

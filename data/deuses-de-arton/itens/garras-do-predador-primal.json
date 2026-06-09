@@ -1,0 +1,19 @@
+{
+  "id": "garras-do-predador-primal",
+  "tipo": "item",
+  "nome": "Garras do Predador Primal",
+  "resumo": "Colar ou par de braceletes feito de garras de animal ou monstro, que concede +1 nas rolagens de dano com armas naturais ao adquirir forma selvagem.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), você recebe +1 nas rolagens de dano com armas naturais."
+  }
+}

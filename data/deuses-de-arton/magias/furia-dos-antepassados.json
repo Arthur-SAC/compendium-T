@@ -1,0 +1,37 @@
+{
+  "id": "furia-dos-antepassados",
+  "tipo": "magia",
+  "nome": "Fúria dos Antepassados",
+  "resumo": "Invoca a alma de um ancestral da vítima para puni-la, causando dano psíquico e de luz, e deixando-a pasma.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 61 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 humanoide",
+    "duracao": "instantânea",
+    "resistencia": "Vontade parcial",
+    "custoPM": 1,
+    "descricao": "Para aqueles devotados a Lin-Wu, respeito aos ancestrais é algo levado muito a sério — pois no além-vida, eles podem julgar suas ações e trazer fortuna ou desgraça. Esta magia invoca a alma de um antepassado da vítima para acusá-la de erros passados e trazer punição. O alvo sofre 1d6 pontos de dano psíquico e 1d6 pontos de dano de luz e fica pasmo por 1 rodada (apenas na primeira vez que é alvo desta magia na cena). Se passar no teste de resistência, sofre apenas metade do dano e evita a condição.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o número de alvos em +1.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+4 PM",
+        "efeito": "Aumenta o dano psíquico e de luz em +1d6 cada."
+      },
+      {
+        "custo": "+0 PM",
+        "efeito": "Apenas Devotos de Lin-Wu: muda o alvo para 1 criatura inteligente (Int –3 ou maior)."
+      }
+    ]
+  }
+}

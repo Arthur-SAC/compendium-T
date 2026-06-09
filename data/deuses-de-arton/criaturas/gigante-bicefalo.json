@@ -1,0 +1,58 @@
+{
+  "id": "gigante-bicefalo",
+  "tipo": "criatura",
+  "nome": "Gigante Bicéfalo",
+  "resumo": "Versão monstruosa e mutante do gigante das rochas com duas cabeças de mentes e personalidades independentes. Solitário e desajeitado, mas extremamente perigoso quando as duas cabeças entram em acordo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 307 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este gigante é uma versão mais massiva e monstruosa do gigante das rochas, com as mesmas dimensões aproximadas. Conforme observado por estudiosos, cada cabeça tem mente e personalidade individuais, controlando uma metade do corpo. Por isso, embora muito forte, o monstro também é desajeitado — agindo normalmente apenas durante os raros momentos em que ambas as cabeças buscam um mesmo objetivo.\n\nSempre cheio de rancor, e capaz de golpear com duas clavas ao mesmo tempo, o gigante bicéfalo pode ser um adversário muito difícil. Em combate, será vantajoso para seus oponentes que as cabeças entrem em desacordo, tornando o adversário menos efetivo; uma tática várias vezes tentada por aventureiros é enganar uma das cabeças, fazendo com que discorde da outra.\n\nSe este monstro é uma mutação do gigante das rochas ou algum experimento de arcanistas loucos, ninguém sabe. Considerado bizarro até mesmo por seus primos, o gigante bicéfalo não tem lugar em suas aldeias, perambulando sozinho pelos ermos."
+    }
+  ],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+10",
+    "percepcao": "+17",
+    "sentidos": "",
+    "defesa": "44, Fort +26, Ref +11, Von +20",
+    "pontosDeVida": "680",
+    "deslocamento": "12m (9q)",
+    "ataques": [
+      "Corpo a Corpo Duas clavas +38 (4d10+40)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "-1",
+      "constituicao": "10",
+      "inteligencia": "-2",
+      "sabedoria": "1",
+      "carisma": "-2"
+    },
+    "habilidades": [
+      {
+        "nome": "Arremessar Duas Rochas (Completa)",
+        "descricao": "O gigante bicéfalo arremessa duas rochas, cada uma em um quadrado de 3m em alcance curto. Criaturas nessas áreas sofrem 6d12 pontos de dano de impacto (Ref CD 35 reduz à metade)."
+      },
+      {
+        "nome": "Atropelamento (Completa)",
+        "descricao": "O gigante percorre até o dobro de seu deslocamento. Ele pode passar pelos espaços de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas dessa forma sofrem 6d10+40 pontos de dano de impacto e ficam caídas (Ref CD 35 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Duas Cabeças...",
+        "descricao": "Quando faz um teste de Intuição ou Vontade, o gigante faz dois testes e usa o melhor resultado."
+      },
+      {
+        "nome": "...Brigam Mais do que Uma",
+        "descricao": "Quando usa Duas Cabeças... em um teste contra uma perícia baseada em Carisma ou contra um efeito de encantamento, se passar em apenas um dos testes, o gigante fica pasmo por uma rodada. Ele só pode ficar pasmo dessa forma uma vez por cena para a mesma perícia ou o mesmo efeito."
+      }
+    ],
+    "pericias": "Atletismo +26, Intimidação +13.",
+    "tesouro": "Dobro.",
+    "tema": "Gigantes"
+  }
+}

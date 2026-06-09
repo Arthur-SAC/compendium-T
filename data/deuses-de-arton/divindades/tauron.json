@@ -1,0 +1,33 @@
+{
+  "id": "tauron",
+  "tipo": "divindade",
+  "nome": "Tauron, Deus da Força",
+  "resumo": "Deus da Força dos minotauros que liderou o Panteão durante o Império de Tauron e morreu combatendo Aharadak, o Lorde da Tormenta; seu corpo colossal ainda jaz nos escombros de Tiberus.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 242 },
+  "imagens": ["/divindades/tauron.png"],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Bravura, determinação, força física e interior; dominação dos fortes sobre os fracos e proteção dos fracos pelos fortes; coragem acima de tudo.",
+    "simboloSagrado": "Um medalhão circular com a face de um touro negro envolto em chamas douradas e vermelhas, com olhos rubis.",
+    "canalizaEnergia": "—",
+    "armaPreferida": "—",
+    "devotos": "Minotauros, orcs, gigantes, trogs. A religião de Tauron continua existindo em muitos lugares integrada à cultura tapistana; sacerdotes estoicos adoram o deus sem receber poderes como prova máxima de força e lealdade.",
+    "poderesConcedidos": [],
+    "obrigacoesRestricoes": "—",
+    "categoria": "antigo"
+  },
+  "secoes": [
+    {
+      "titulo": "Outros Nomes",
+      "texto": "Deus dos Minotauros; Deus da Coragem; Grande Rei Horkkon, entre os orcs e os gigantes; Li-Chak, entre os trogs."
+    },
+    {
+      "titulo": "Historia e Queda",
+      "texto": "Presente desde a criação do Panteão, este deus táurico concebeu um povo guerreiro e orgulhoso — os minotauros —, que ergueria uma das maiores civilizações na história de Arton. Tapista seria uma força militar vasta e influente no Reinado. Tão poderosos eram os minotauros que praticavam abertamente a escravidão de outras raças. Os reinos humanos se viam forçados a fechar os olhos para tais abusos. As legiões dos minotauros avançariam sobre as nações humanas, deflagrando as temíveis Guerras Táuricas, conquistando e anexando os reinos vizinhos do oeste. Foi o início do Império de Tauron.\n\nDiz-se que, incapaz de impedir essa grande injustiça, Khalmyr teria renunciado à liderança do Panteão. O próprio Tauron, agora mais influente, tomaria seu lugar. Nenhum outro deus o desafiou.\n\nTauron seguiu no comando dos deuses por longos anos. Seus devotos o consideravam orgulhoso e corajoso, senhor da dominação dos fortes sobre os fracos, e da proteção dos fracos pelos fortes. Esses dogmas, ainda que opostos, levavam Tauron a aceitar devotos bondosos que protegiam — e malignos que escravizavam. Acima de tudo, era um deus de bravura, determinação, força física e interior.\n\nEm sua compulsão por dominar e proteger os fracos, Tauron acolheu Glórienn, a derrotada Deusa dos Elfos, como uma prisioneira escravizada. Espelhando seu patrono, o Império de Tauron também acolheu elfos refugiados de Lenórienn em sua sociedade, como 'escravos de elite'. Muitos acabaram nas legiões tapistanas como arqueiros.\n\nEssa situação mudaria com a chegada de Gwendolynn, uma clériga de Tanna-Toh determinada a colocar fim à escravidão de sua gente. Após atuar na Revolta da Lavoura, a elfa testemunhou o titânico combate final entre Tauron e Aharadak, o Lorde da Tormenta, na capital imperial. Flechado por Glórienn, o Deus da Força caiu morto, enquanto o Deus da Tormenta ascendia, para o horror de toda Arton."
+    },
+    {
+      "titulo": "Legado e Status Atual",
+      "texto": "O corpo gigantesco de Tauron ainda jaz entre os escombros de Tiberus. Dizem que sua presença mantém a Tormenta afastada no horizonte, mas é incerto por quanto tempo. Aparições fantasmagóricas conhecidas como fúrias de Tauron rondam as vizinhanças — diz-se que clérigos podem controlar esses mortos-vivos.\n\nPor ser tão mesclada à cultura do Império, a religião de Tauron continua existindo em muitos lugares. Vários sacerdotes e filósofos dizem que adorar o deus sem receber poderes é a maior prova de força e lealdade possível, o verdadeiro teste de seus dogmas. Segundo esses estoicos, apenas se mostrando fortes e independentes, sem precisar de nenhuma 'recompensa', podem honrar o sacrifício de seu senhor.\n\nPor outro lado, muitos minotauros malignos encararam a morte do Deus da Força como o fim de todas as limitações, o início de uma era de anarquia, a permissão tácita para cometer qualquer crime. Esses renegados se recusam a admitir que outros deuses importam."
+    }
+  ]
+}

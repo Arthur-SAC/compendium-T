@@ -1,0 +1,25 @@
+{
+  "id": "holy-avenger",
+  "nome": "Holy Avenger",
+  "tipo": "item-magico",
+  "resumo": "A espada mágica mais poderosa de toda a Criação, forjada com os vinte e um Rubis da Virtude dos deuses e capaz de destruir completamente qualquer ser, inclusive divindades maiores em seus próprios reinos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 247 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "arsenal", "rotulo": "Arsenal" }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  },
+  "secoes": [
+    {
+      "titulo": "História",
+      "texto": "Holy Avenger. A espada mágica mais poderosa em toda a Criação.\n\nAntes do surgimento da vida mortal, conflitos entre os deuses não eram incomuns. Muitos milênios mais tarde, com os povos artonianos já estabelecidos, as possíveis consequências de uma guerra entre deuses seriam catastróficas. Para evitar devastação em Arton e destruição mútua, os deuses fizeram um pacto: cada um depositou sua essência em uma gema chamada Rubi da Virtude. Cada Rubi seria confiado a outro deus, assim impedindo qualquer agressão. Essa paz durou por séculos.\n\nMas o traiçoeiro Sszzaas não compartilhou dessa harmonia. Com astúcia, o Senhor dos Segredos manipulou os deuses e apoderou-se de todos os Rubis. Descoberto por Khalmyr, o Deus da Justiça, Sszzaas foi punido, condenado a viver como mortal. Antes disso, porém, ele escondeu os Rubis em Arton, longe do alcance divino (veja mais sobre os Rubis da Virtude em Tormenta20, p. 349).\n\nSéculos depois, um paladino caído foi encontrado em um tesouro de dragão, junto aos Rubis. Um necromante tentou restaurá-lo, fundindo as gemas em seu corpo. Assim surgiu o Paladino de Arton, um ser poderoso e justo como nenhum outro antes — até acabar corrompido por tanto poder. Enlouquecido, voltou-se contra os próprios deuses.\n\nPara detê-lo, o Panteão teve que reerguer Sszzaas. Era o plano do Deus Serpente desde o início: manipular eventos para criar o Paladino e forçar sua reinstauração. Mestre Arsenal, então sumo-sacerdote de Keenn, teria participado desse esquema. Ajudou a fortalecer o Paladino para que os deuses forjassem a Holy Avenger, a espada mágica suprema.\n\nApós a derrota final do Paladino de Arton, Arsenal tomou a espada para si. Incrustada com um vigésimo primeiro Rubi, criado pelo próprio Paladino, a Holy Avenger é capaz de matar até mesmo deuses. Por seu poder incomparável, Arsenal confiou o artefato a Valkaria, a única deusa em quem acreditava. Unida a ele por um passado e um objetivo comum — provar que um humano pode superar um deus —, ela manteve a espada segura. Até a chegada do Torneio do Deus Guerreiro, quando Arsenal usou a Holy Avenger para abater Keenn e tornar-se o novo Deus da Guerra.\n\nHoje, a Holy Avenger pode ser vista no símbolo sagrado de Arsenal, cruzada com seu Martelo dos Trovões. Tornou-se sua arma mais preciosa, empunhada quando o Deus da Guerra tem assuntos pessoais a resolver. Retomá-la seria façanha digna dos maiores aventureiros de Arton. Por outro lado, Arsenal é um deus pragmático — capaz de ofertar o artefato a devotos envolvidos em alguma missão sagrada de grande importância."
+    },
+    {
+      "titulo": "Habilidades",
+      "texto": "A Holy Avenger é uma espada bastarda que fornece +10 em testes de ataque e causa +4d12 pontos de dano de essência. Seu usuário recebe +5 em testes de resistência e pode gastar uma ação padrão para lançar Dissipar Magia (apenas o efeito básico; use um teste de Luta no lugar de Misticismo). Por fim, quando ataca com a espada, seu usuário pode gastar 20 PM. Se fizer isso e atingir seu alvo, ele é completamente destruído, sem direito a teste de resistência. Esse efeito pode destruir até mesmo um deus maior, mesmo se for atingido em seu próprio reino divino."
+    }
+  ]
+}

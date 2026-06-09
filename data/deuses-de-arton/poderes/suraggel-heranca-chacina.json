@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-chacina",
+  "tipo": "poder",
+  "nome": "Herança de Chacina",
+  "resumo": "A ferocidade de Megalokk concede uma forma de Forma Selvagem (Feroz ou Resistente), com custo reduzido se aprendida novamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Pela ferocidade de Megalokk, você recebe a habilidade Forma Selvagem para uma única forma, escolhida entre Feroz e Resistente. Caso adquira essa habilidade novamente, o custo dessa forma diminui em –1 PM."
+  }
+}

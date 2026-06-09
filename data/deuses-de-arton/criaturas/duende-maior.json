@@ -1,0 +1,60 @@
+{
+  "id": "duende-maior",
+  "tipo": "criatura",
+  "nome": "Duende Maior",
+  "resumo": "Fada de aparência infantil com poderes de encantamento e ilusão mais desenvolvidos, capaz de lançar magias discretamente. Governa sua existência por um tabu secreto.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 288 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Duendes podem ter quase qualquer aparência imaginável. São geralmente pequenos, não excedendo a altura de um anão, embora existam alguns grandalhões e desajeitados. Em comum, todos parecem personagens de histórias infantis, até mesmo tolos aos olhos de adultos.\n\nTodo duende tem um tabu, um ato que ele nunca pode fazer — ou deixar de fazer. Um duende nunca diz qual é seu tabu. Quando impedido de cumprir seu tabu, um duende morre em poucos dias."
+    }
+  ],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+6",
+    "percepcao": "+8",
+    "sentidos": "visão no escuro",
+    "defesa": "22, Fort +6, Ref +12, Von +16, evasão",
+    "pontosDeVida": "127",
+    "pontosDeMana": "34",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +15 (1d4+8, 19)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "2",
+      "constituicao": "2",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "4"
+    },
+    "pericias": "Conhecimento +8, Enganação +10, Furtividade +8, Misticismo +8.",
+    "equipamento": "Adaga.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Sortudo (Reação, 3 PM)",
+        "descricao": "Quando faz um teste, o duende maior o rola novamente."
+      },
+      {
+        "nome": "Tabu",
+        "descricao": "Todo duende possui um tabu, que pode ser descoberto com um teste de Conhecimento (CD 30) ou perguntando aos plebeus da região (Investigação CD 20) — muitos tabus são conhecidos pelo folclore popular. Um personagem que conheça o tabu de um duende pode forçá-lo a ajudar em algo com um teste de Enganação oposto a um teste de Vontade. Quando impedido de cumprir seu tabu, um duende morre em 1d4+1 dias."
+      },
+      {
+        "nome": "Magia Discreta (Livre, +2 PM)",
+        "descricao": "Quando lança uma magia, o duende não precisa gesticular ou falar e pode lançar a magia com as mãos presas, amordaçado etc. Perceber que ele lançou uma magia exige passar em um teste de Misticismo (CD 20)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um conjurador arcano de 5º nível (CD 22).\n• Enfeitiçar (Padrão, 1 PM) Um humanoide em alcance curto fica enfeitiçado (Vontade evita).\n• Dissipar Magia (Padrão, 3 PM) O duende escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Invisibilidade (Padrão, 5 PM) O duende fica invisível até o fim da cena ou até realizar uma ação hostil. Ele recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques.\n• Sussurros Insanos (Padrão, 3 PM) Um humanoide em alcance curto fica confuso (Von anula)."
+      }
+    ]
+  }
+}

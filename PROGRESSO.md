@@ -7,7 +7,29 @@
 **Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
 `docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
 
-**Status (2026-06-09): ✅✅ HERÓIS DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4).** Onda 1 (Cap.1) · Onda B+2 (distinções) · Onda 3 (Cap.3 Arsenal) · Onda 4 (Cap.4 Regras Opcionais) — todas ✅.
+**Status (2026-06-09): ✅✅ DEUSES DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4)** (branch `fase2.4-deuses-de-arton`). Ondas A · 1 · 2 · 3 · 4 todas ✅.
+**Totais Deuses (374 entidades):** 1 classe (Frade) · 1 linhagem (Abençoada) · 20 divindade-expansão (os 20 deuses maiores enriquecidos, com retrato) · 8 divindades novas (3 menores + 5 antigos) · 75 criaturas (20 avatares + 55 Ameaças Divinas) · 23 distinções (com arte) · 75 itens · 41 itens mágicos · 26 magias divinas · 97 poderes (22 heranças Suraggel + 75 concedidos) · 7 regras. Build **3009 páginas**, tsc 0, 166 testes. Spec/plano em `docs/superpowers/`.
+**Dívida pendente:** arte das 55 criaturas do Cap.4 (Ameaças Divinas) ainda NÃO extraída (fichas sem imagem — como parte do bestiário de Ameaças que também foi por etapas). Avatares/deuses/distinções/Frade já têm arte. Símbolos atualizados dos 20 deuses maiores também pendentes (usam o do Básico via fallback).
+- **Onda 2 (Cap.1 `a1b11d0`,`94da343`):** Frade (classe+arte `cfb3e03`), Abençoada (linhagem — 1ª do projeto; área racas), 22 heranças de Suraggel (poder grupo raca → ficha do Suraggel), 75 Novos Poderes Concedidos (grupo=deus → painel "Em Deuses de Arton"), 75 equipamentos religiosos + 35 itens litúrgicos, 26 magias divinas, 3 regras (Ser Devoto, Autoridades Divinas, Outros Devotos). Colisão `agua-benta` resolvida (catalisador → `agua-benta-catalisador`).
+- **Deuses Menores/Antigos + imagens (`b9fc62f`,`8edb92f`,`d1229ac`):** 3 menores (Gwendolynn/Mauziell/Tibar, imagens fornecidas pelo usuário) + 5 antigos (Glórienn/Keenn/Ragnar/Tauron/Tilliann como `divindade` com `categoria:"antigo"`, símbolos extraídos + retratos de Glórienn/Tilliann; branco removido dos símbolos de Keenn/Ragnar/Tauron). Índice `/deuses` com 3 divisórias (maiores por energia · Menores · Antigos) + links p/ regras. `FichaDivindade` mostra retrato de `imagens[1]`.
+- **Onda 3 (Cap.2 `64fc401`,`8cbccbe`):** 23 distinções (incl. Mestre de Armearia, que faltava no sumário) com arte (cor+smask).
+- **Onda 4 (Cap.4 `37ad3d7`):** 55 criaturas (Abissais 9, Aspectos dos Deuses 6, Celestiais 12, Fadas 12, Gênios 6, Gigantes 10) + 2 regras (Perigos Complexos, Ameaças por ND). Dedup: Súcubo e Carvarel pulados (reprints). Aspectos ligados aos deuses por relação.
+
+### Fase 2.4 — Deuses de Arton — Onda A (código) ✅
+- **Tipo novo `divindade-expansao`** (id `<deus>-deuses-de-arton`, `mecanica.expandeDivindade` + `simboloAtualizado?`): enriquece os 20 deuses do Básico SEM editá-los (agregação por lookup, como os poderes de classe/raça). Schema + superRefine + teste `schema-divindade-expansao`.
+- **`FichaDivindade`** agrega por lookup (dispatcher calcula `divindadeExtras`): **retrato** grande (de `expansao.imagens[0]`), **símbolo** preferindo `simboloAtualizado` senão o do Básico, e painel **"Em Deuses de Arton"** (lore + devotos + link pro Avatar/artefatos/poderes concedidos). Teste `fichadivindade` (5 casos).
+- **Tipo `linhagem`** ganhou área (`navegacao` → racas) + listagem em `/racas`; renderiza pelo `Ficha` genérico (sem componente novo). 1ª linhagem virá na Onda 2 (Abençoada).
+- **Fonte `deuses-de-arton` (ordem 4)** no manifesto. **Spike Khalmyr** validou o padrão ponta a ponta (expansão + avatar + artefato Rhumnam + retrato).
+
+### Fase 2.4 — Onda 1 (Cap. 3 Deuses e Avatares) ✅
+- **20 deuses maiores expandidos** (`divindade-expansao`): lore estendido + blocos de devoto (Sacerdote/Druida/Paladino de cada deus, vindos do Cap.1) + **retrato** (arte cor+smask, conferida por visão) ligado. Os 20 com imagem.
+- **18 Avatares** (`criatura`, ligados à divindade por relação) + **Aharadak e Kallyadranoch reusam os avatares de Ameaças** (canônicos, já no bestiário) — adicionei a relação à divindade neles. ⚠️ **Discrepância a decidir:** as versões de Deuses diferem das de Ameaças (Aharadak 9 vs 6 habs; **Kallyadranoch ND 20/Médio em Deuses vs ND S/Colossal em Ameaças** — podem ser manifestações diferentes). Mantive Ameaças; perguntar ao usuário se quer trocar pela versão de Deuses.
+- **3 Deuses Menores** (`divindade`: Gwendolynn, Mauziell, Tibar) + regra `deuses-menores-da` (ensaio/sistema). **Os Antigos Deuses** → regra `os-antigos-deuses` (5 ex-deuses como lore). **5 Artefatos Divinos** (`item-magico`: Armadura Risonha, Cálice dos Deuses, Holy Avenger, Toga do Reitor, Coroa da União Púrpura) + Rhumnam (do spike).
+- **Índice `/deuses`** multi-fonte: marca "✦ Deuses de Arton" nos deuses expandidos + inclui os menores.
+- **Dívida leve:** símbolos atualizados de Deuses de Arton NÃO extraídos (fichas usam o símbolo do Básico via fallback); revisão por visão dos avatares foi por amostragem; arte verificada pelos subagentes (descrições conferem).
+
+### Fase 2.3 — Heróis de Arton (histórico)
+**Status anterior: ✅✅ HERÓIS DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4).** Onda 1 (Cap.1) · Onda B+2 (distinções) · Onda 3 (Cap.3 Arsenal) · Onda 4 (Cap.4 Regras Opcionais) — todas ✅.
 **Totais Heróis:** 5 raças · 1 classe (Treinador) + 14 variantes · 30 origens · 428 poderes · 36 distinções · 202 itens · 167 itens mágicos · 22 magias · 33 regras = **938 entidades**. Build **2607 páginas**, tsc 0, **160 testes**.
 **Tudo commitado LOCAL (não subido pro GitHub** — subir quando o usuário pedir). **Próximo:** revisão por visão por amostragem do Cap.3/4 + arte dos itens mágicos (pendente) + decidir push/PR; depois, próximo livro da Fase 2.
 

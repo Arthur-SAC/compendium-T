@@ -1,0 +1,19 @@
+{
+  "id": "habito-monastico",
+  "tipo": "item",
+  "nome": "Hábito Monástico",
+  "resumo": "Vestimenta simples de tecido cru com cinto de corda, símbolo de humildade religiosa. Concede +2 em Vontade contra efeitos mentais mas impõe penalidades sociais.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Fornece +2 em Vontade contra efeitos mentais e aumenta em +2 a CD da magia Tranquilidade. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas ricas, nobres ou arrogantes."
+  }
+}

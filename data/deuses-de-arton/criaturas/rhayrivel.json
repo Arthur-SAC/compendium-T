@@ -1,0 +1,53 @@
+{
+  "id": "rhayrivel",
+  "tipo": "criatura",
+  "nome": "Rhayrivel",
+  "resumo": "Legionário sádico com o corpo coberto de lâminas, correntes e ganchos de aço farpado. Obcecado por infligir dor e sofrimento; ataca com cimitarras e correntes farpadas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 258 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A criatura tem o aspecto de um humano muito forte, careca, de olhos vermelhos e língua bifurcada. Tem o corpo todo coberto de lâminas, correntes e ganchos de aço farpado. O metal enxertado em sua carne, por certo, causa muita dor — mas não tanta quanto ele parece disposto a infligir em seus inimigos. Rhayrivel são legionários sádicos, amedrontando aliados e inimigos com a mesma intensidade. Muitos servem a demônios mais poderosos, enquanto outros invadem Arton para matar, angariando almas para seus patronos. Por seu sadismo obsessivo, estão entre os abissais mais propensos a escapar de seus mestres, em busca de liberdade para torturar e flagelar à vontade."
+    }
+  ],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Médio",
+    "tema": "Abissais",
+    "iniciativa": "+9",
+    "percepcao": "+7, visão no escuro",
+    "defesa": "31, Fort +19, Ref +15, Von +7, imunidade a ácido e veneno, redução de dano 5, redução de fogo e frio 10",
+    "pontosDeVida": "280",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas cimitarras +24 (2d8+20, 18)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "0",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Correntes Farpadas (Padrão)",
+        "descricao": "O rhayrivel projeta suas correntes contra uma criatura em alcance curto. A vítima sofre 3d6+26 pontos de dano de corte e é acometida por uma dor profunda, que causa uma penalidade de –5 em testes de perícia até o fim da cena (Fort CD 24 reduz à metade e evita a dor e a penalidade). Um efeito capaz de remover uma condição de fadiga remove a dor e a penalidade."
+      },
+      {
+        "nome": "Sadismo",
+        "descricao": "O rhayrivel recebe +5 em testes de ataque e rolagens de dano contra criaturas que estejam sangrando."
+      },
+      {
+        "nome": "Talho Atroz",
+        "descricao": "Uma criatura atingida por um ataque de cimitarra do rhayrivel fica sangrando (Fort CD 24 evita)."
+      }
+    ],
+    "pericias": "Intimidação +14.",
+    "tesouro": "Padrão."
+  }
+}

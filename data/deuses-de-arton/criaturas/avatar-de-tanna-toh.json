@@ -1,0 +1,69 @@
+{
+  "id": "avatar-de-tanna-toh",
+  "tipo": "criatura",
+  "nome": "Avatar de Tanna-Toh",
+  "resumo": "A manifestação da Deusa do Conhecimento em Arton: uma anciã munida de várias bolsas pesadas de pergaminhos, portando um cajado do poder e o Robe Professoral. Nunca disfarça ou oculta sua verdadeira identidade.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 207 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "tanna-toh", "rotulo": "Tanna-Toh" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A aparência favorita de Tanna-Toh ao visitar Arton é a de uma anciã munida de várias bolsas pesadas de pergaminhos. O avatar de Tanna-Toh não costuma portar armas, com exceção de um eventual bordão, que usa mais para se apoiar na caminhada do que para atacar. Tanna-Toh já foi vista também na forma de uma barda tocando uma harpa e de uma cientista que parece dominar todos os campos do conhecimento. Ao contrário de outros deuses, Tanna-Toh nunca disfarça ou oculta sua verdadeira identidade.\n\nO Robe Professoral é um robe de aparência comum e desgastada que fornece +10 na Defesa, +5 em testes de resistência e redução de dano 10. Artefato."
+    }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+23",
+    "percepcao": "+35",
+    "sentidos": "visão no escuro",
+    "defesa": "57, Fort +27, Ref +35, Von +41, imunidade a efeitos mentais e ilusão, maior que a morte, resistência a dano 10",
+    "pontosDeVida": "953",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Cajado do poder +54 (1d6+20)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "6",
+      "constituicao": "6",
+      "inteligencia": "20",
+      "sabedoria": "14",
+      "carisma": "8"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Tanna-Toh pode lançar qualquer magia arcana ou divina como um conjurador de 19º nível sem gastar PM (CD 51, limite de PM 20). Uma vez por rodada, pode lançar a magia Comando como ação livre."
+      },
+      {
+        "nome": "Compartilhar Conhecimento (Movimento)",
+        "descricao": "Uma criatura em alcance curto se torna treinada em uma perícia em que não era treinada. Este efeito dura até o fim do dia."
+      },
+      {
+        "nome": "Golpe Semântico",
+        "descricao": "O Avatar pode substituir testes de Diplomacia e Intimidação por testes de Conhecimento."
+      },
+      {
+        "nome": "Mestra da Verdade",
+        "descricao": "O Avatar sempre sabe quando alguém está mentindo. Além disso, quando faz um teste de uma perícia baseada em Inteligência ou Sabedoria, ele rola dois dados e escolhe o melhor resultado."
+      },
+      {
+        "nome": "Plantar Curiosidade (Padrão)",
+        "descricao": "Uma criatura adjacente é infundida de imensa curiosidade e necessidade de cumprir uma tarefa à escolha do Avatar pela próxima semana. Enquanto está nessa missão, o alvo recebe +2 em testes de perícia. O Avatar não pode escolher missões suicidas ou que contrariem as Obrigações & Restrições de Tanna-Toh. A criatura pode recusar a missão — mas, no fim de cada dia em que não se esforçar para cumprir a tarefa, deve fazer um teste de Vontade (CD 51); se falhar, sofre uma penalidade cumulativa de –2 em todos os testes e rolagens."
+      },
+      {
+        "nome": "Poder das Histórias (Completa)",
+        "descricao": "O Avatar retira de sua bolsa um livro da Biblioteca de Tanna-Toh, com histórias tão poderosas que seus personagens escapam das páginas. O Avatar invoca uma ou mais criaturas em alcance curto, cujo ND total somado seja igual ao seu (o mestre pode escolher essas criaturas ou usar as tabelas de encontros aleatórios em Ameaças de Arton, gerando encontros até atingir o ND adequado). As criaturas surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas."
+      }
+    ],
+    "pericias": "Atuação +29, Conhecimento +41, Cura +32, Intuição +35, Misticismo +38, Nobreza +38, Religião +35.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Cajado do poder, Robe Professoral.",
+    "tema": "Deuses & Avatares"
+  }
+}

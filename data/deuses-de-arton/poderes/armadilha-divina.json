@@ -1,0 +1,15 @@
+{
+  "id": "armadilha-divina",
+  "tipo": "poder",
+  "nome": "Armadilha Divina",
+  "resumo": "Recebe um poder de Armadilha do caçador; por ser divina, pode ser preparada sem materiais.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hyninn",
+    "prerequisito": "",
+    "descricao": "Você recebe um poder de Armadilha do caçador (Tormenta20, p. 50) a sua escolha. Por ser criada a partir de energia divina, essa armadilha pode ser preparada em locais sem os materiais propícios."
+  }
+}

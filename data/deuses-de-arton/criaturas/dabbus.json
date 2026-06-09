@@ -1,0 +1,75 @@
+{
+  "id": "dabbus",
+  "tipo": "criatura",
+  "nome": "Dabbus",
+  "resumo": "Gênio das trevas: homem careca com rabo de cavalo escuro como trevas, calças, botas e braçadeiras negras com adereços dourados, e tatuagens púrpuras pelo corpo. Criado por deuses malignos para destruir as obras de seus rivais; egoísta, astuto e perigoso como servo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 304 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Difícil discernir a forma da criatura, diluída nas sombras ao redor. Quando elas se afastam, revelam um homem careca, exceto pelo rabo de cavalo longo e escuro, como se feito de trevas. Suas calças, botas, cinto e braçadeiras são igualmente negros, com adereços dourados. Tatuagens púrpuras, misteriosas e intrincadas, revestem todo o seu corpo. Assim como os allaraz lembram celestiais em sua bondade e desejo de fazer o bem, gênios das trevas — ou dabbus — são muito semelhantes a demônios. Foram criados por deuses malignos para conspurcar e destruir as obras de seus rivais durante a criação do mundo. Assim, se existem lugares terríveis e desolados em Arton, é porque os dabbus foram parcialmente bem-sucedidos em sua missão. Dabbus são egoístas e odeiam quaisquer outros seres na existência, mas — como todos os gênios — estão presos à obrigação de servir a mestres. Diferente dos gizzehi, que tentam trair e destruir seus amos, dabbus consideram-se mais astutos, aceitando apenas amos que praticam o mal. Mesmo como servos, regozijam-se em espalhar destruição, alcançando a antiga e tão desejada vingança. Por esse motivo é comum que grandes vilões tenham estes seres como servos poderosos. É muito perigoso, contudo, possuir um gênio das trevas como servo. Quando o amo se torna fraco ou clemente, quando demonstra um mínimo de piedade, um dabbus pode decidir que não deseja mais ser seu lacaio. Talvez o mate, ou talvez rogue uma maldição terrível, antes de procurar um novo e impiedoso senhor."
+    }
+  ],
+  "mecanica": {
+    "nd": "15",
+    "tipo": "Espírito (gênio)",
+    "tamanho": "Grande",
+    "tema": "Gênios",
+    "iniciativa": "+18",
+    "percepcao": "+9, visão no escuro",
+    "sentidos": "visão no escuro",
+    "defesa": "48, Fort +15, Ref +22, Von +28, imunidade a trevas, resistência a magia arcana +10",
+    "pontosDeVida": "525",
+    "deslocamento": "12m (8q), voo 15m (10q)",
+    "pontosDeMana": "98",
+    "ataques": [
+      "Corpo a Corpo Pancada x2 +41 (3d10+25 mais 2d8 trevas)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "5",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "8"
+    },
+    "habilidades": [
+      {
+        "nome": "Dentro de uma Lampadazinha (habilidade de gênio)",
+        "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se for reduzido a 0 PM dessa forma, ele sofre um efeito debilitante, diferente para cada gênio. O efeito debilitante e a perda de PM são revertidos quando o gênio firma um pacto com um amo."
+      },
+      {
+        "nome": "Poderes Cósmicos Fenomenais (Completa) (habilidade de gênio)",
+        "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int –3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto estiver presente na cena, o custo de suas próprias habilidades mágicas é reduzido em –1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa."
+      },
+      {
+        "nome": "Servo dos Deuses (habilidade de gênio)",
+        "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos."
+      },
+      {
+        "nome": "Conduta Dabbus",
+        "descricao": "Um dabbus só aceita amos malignos (a critério do mestre) ou devotos de deuses que canalizam apenas energia negativa. Por aceitarem apenas os amos mais cruéis, normalmente não servem a personagens jogadores."
+      },
+      {
+        "nome": "Devorar Magia (Reação)",
+        "descricao": "Quando passa no teste de resistência contra uma magia da qual foi alvo, o dabbus não sofre nenhum efeito da magia e recupera uma quantidade de PM igual ao valor gasto nela."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dabbus muda a execução dela para livre."
+      },
+      {
+        "nome": "Ódio Ancestral",
+        "descricao": "Quando o dabbus reduz os PV de um inimigo a 0 ou menos, recupera metade do dano que causou a esse inimigo."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 15º nível (CD 42). Crânio Voador de Vladislav (Padrão, 9 PM): Dois crânios de energia negativa causam 6d8+6 pontos de dano de trevas em duas criaturas em alcance médio e deixa os alvos e todas as criaturas a 3m deles abaladas (Fort reduz à metade e evita a condição). Desintegrar (Padrão, 14 PM): Uma criatura ou objeto em alcance médio sofre 12d12 pontos de dano de essência (Fort reduz para 3d12). Se for reduzido a 0 PV, o alvo vira pó. Manto das Trevas (Padrão, 6 PM, sustentada): O dabbus se torna incorpóreo e pode gastar uma ação de movimento e 1 PM para entrar em uma sombra e se teletransportar para outra sombra em alcance médio. Se for exposto à luz solar, sofre 1 ponto de dano por rodada. Tentáculos de Trevas (Padrão, 10 PM): Até o fim da cena, tentáculos surgem em uma esfera de 6m em alcance médio e tentam agarrar todas as criaturas na área. Ao lançar a magia, e no início de cada um de seus turnos, o dabbus faz um teste da manobra agarrar (usando Misticismo) contra cada criatura na área. Se ele passar, a criatura é agarrada; se a vítima já está agarrada, é esmagada, sofrendo 8d6 pontos de dano de trevas (cada tentáculo recebe +15 em sua primeira rolagem de dano). A área conta como terreno difícil e os tentáculos são imunes a dano. Toque Vampírico (Padrão, 15 PM): O dabbus faz um ataque corpo a corpo. Se acertar, além do dano normal, causa 15d6 pontos de dano de trevas e recupera pontos de vida iguais à metade desse dano de trevas. Transformação de Guerra (Padrão, 6 PM, sustentada): O dabbus recebe +6 na Defesa, em testes de ataque e em rolagens de dano corpo a corpo, e 30 PV temporários, mas não pode lançar outras magias. Velocidade (Padrão, 10 PM, sustentada): O dabbus pode executar uma ação padrão adicional por turno. Vitalidade Fantasma (Padrão, 10 PM): Criaturas vivas em uma esfera com 6m de raio centrada no dabbus sofrem 3d10 pontos de dano de trevas (Fort reduz à metade). O dabbus recebe PV temporários iguais ao dano total causado."
+      }
+    ],
+    "pericias": "Enganação +21, Intimidação +21, Misticismo +17.",
+    "tesouro": "Padrão."
+  }
+}

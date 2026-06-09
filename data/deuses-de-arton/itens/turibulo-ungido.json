@@ -1,0 +1,19 @@
+{
+  "id": "turibulo-ungido",
+  "tipo": "item",
+  "nome": "Turíbulo Ungido",
+  "resumo": "Incensário em corrente onde se queimam ervas e incensos sagrados, que aumenta a área de magias em +1,5m.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Aumenta a área de suas magias em +1,5m (uma magia que afeta um raio de 3m passa a afetar um raio de 4,5m, por exemplo)."
+  }
+}

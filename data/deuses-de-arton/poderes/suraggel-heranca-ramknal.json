@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-ramknal",
+  "tipo": "poder",
+  "nome": "Herança de Ramknal",
+  "resumo": "Gaste 2 PM para receber +5 em testes de duas perícias ladinas escolhidas (Acrobacia, Enganação, Furtividade, Jogatina ou Ladinagem).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Escolha duas perícias entre Acrobacia, Enganação, Furtividade, Jogatina e Ladinagem. Quando faz um teste da perícia escolhida, você pode gastar 2 PM para receber +5 nesse teste."
+  }
+}

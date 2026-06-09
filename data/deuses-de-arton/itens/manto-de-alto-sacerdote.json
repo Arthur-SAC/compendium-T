@@ -1,0 +1,19 @@
+{
+  "id": "manto-de-alto-sacerdote",
+  "tipo": "item",
+  "nome": "Manto de Alto Sacerdote",
+  "resumo": "Manto longo e ricamente adornado de tecidos finos, que concede PM adicionais por patamar a portadores do poder Autoridade Eclesiástica.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Se você possuir o poder Autoridade Eclesiástica, recebe +1 PM por patamar acima de iniciante (somente após um dia de uso)."
+  }
+}

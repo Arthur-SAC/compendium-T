@@ -1,0 +1,69 @@
+{
+  "id": "avatar-de-thwor",
+  "tipo": "criatura",
+  "nome": "Avatar de Thwor",
+  "resumo": "A manifestação especulada do Deus dos Goblinoides em Arton: nenhum avatar de Thwor foi ainda registrado, mas acredita-se que surgirá como uma versão ainda mais impressionante do que o Ayrrak era em vida — um bugbear enorme, muito forte e inteligente, armado com um grande machado de adamante.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 215 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "thwor", "rotulo": "Thwor" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Não se tem notícia de um avatar de Thwor. No entanto, muitos especulam que, quando surgir, será uma versão ainda mais impressionante do que o Ayrrak era em vida: um bugbear muito forte e inteligente, armado com um grande machado."
+    }
+  ],
+  "mecanica": {
+    "nd": "18",
+    "tipo": "Humanoide (bugbear)",
+    "tamanho": "Enorme",
+    "iniciativa": "+25",
+    "percepcao": "+27",
+    "sentidos": "faro, visão no escuro",
+    "defesa": "56, Fort +32, Ref +22, Von +22, imunidade a cansaço, efeitos mentais e de metabolismo, paralisia e veneno, redução de dano 20/adamante, resistência a magia +10",
+    "pontosDeVida": "1.100",
+    "deslocamento": "15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra x3 +49 (4d10+20, 15/x3, mais 2d8 em não duyshidakk)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "8",
+      "constituicao": "12",
+      "inteligencia": "10",
+      "sabedoria": "10",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Thwor lança qualquer magia divina como um clérigo de 18º nível, sem gastar PM (CD 47, limite de PM 18)."
+      },
+      {
+        "nome": "Discurso Impactante (Completa)",
+        "descricao": "Uma vez por cena, o Avatar faz um discurso que leva todas as criaturas em um raio de 30m a questionarem suas próprias crenças. Devotos de outros deuses perdem seus PM e ficam abalados, enquanto criaturas inteligentes (Int –3 ou mais) sem devoção passam a obedecer às Obrigações & Restrições de Thwor até o fim da cena (Von CD 47 evita). Devotos de Thwor na área afetada recuperam todos os seus PM e recebem +2 em testes de perícia até o fim da cena. Mental."
+      },
+      {
+        "nome": "Encarnação do Mundo Como Deve Ser",
+        "descricao": "O Avatar começa com todos os poderes abaixo. Para cada 100 pontos de vida que ele tiver abaixo de seu máximo de PV, perde um desses poderes em ordem a partir de Vida (ele recupera os poderes se recuperar seus PV).\n• Luz. Quando fosse sofrer dano de luz, em vez disso o Avatar causa essa mesma quantidade de dano em uma criatura em alcance curto e a deixa ofuscada (Ref CD 47 reduz à metade e evita a condição).\n• Início (Padrão). Todas as criaturas em um raio de 30m voltam ao início do turno anterior do Avatar. Todas as ações a partir desse ponto são desfeitas (isso inclui as consequências dessas ações, como perda de PV e PM). Com exceção do Avatar, nenhuma outra criatura sabe o que vai acontecer e todas devem executar as mesmas ações que realizaram originalmente (mas quaisquer dados devem ser rolados novamente).\n• Movimento. O Avatar executa uma ação padrão adicional por turno.\n• Continuidade. Quando um inimigo em alcance médio faz um teste de resistência contra uma magia do Avatar, se um sucesso nesse teste reduziria a duração do efeito, o inimigo faz o teste duas vezes e usa o pior resultado.\n• Eles. Inimigos do Avatar em um raio de 30m não são considerados aliados uns dos outros para efeitos de suas próprias habilidades.\n• Conhecimento. O Avatar recebe +10 em sua resistência a magia.\n• Fora. Quando um inimigo em alcance médio usa uma habilidade em área ou que afeta vários aliados, esse inimigo não é incluído na própria habilidade.\n• Vida. O Avatar recebe cura acelerada 20."
+      },
+      {
+        "nome": "O Ayrrak (Reação)",
+        "descricao": "Uma vez por rodada, quando o Avatar sofre uma condição ou dano, ele os transfere para um outro duyshidakk em alcance longo."
+      },
+      {
+        "nome": "Ordens de Ataque (Livre)",
+        "descricao": "Uma vez por rodada, o Avatar ordena um aliado duyshidakk em alcance médio a fazer uma ação agredir como uma reação, imediatamente."
+      },
+      {
+        "nome": "Presença Motivadora",
+        "descricao": "O Avatar emana uma aura de euforia em um raio de 30m. Aliados duyshidakk nessa área recebem +5 na Defesa e em testes de perícia."
+      }
+    ],
+    "pericias": "Atletismo +34, Diplomacia +30, Guerra +35, Intimidação +30, Religião +30.",
+    "tesouro": "Dobro.",
+    "equipamento": "Machado de guerra magnífico gigante atroz de adamante.",
+    "tema": "Deuses & Avatares"
+  }
+}

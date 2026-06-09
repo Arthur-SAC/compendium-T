@@ -1,0 +1,39 @@
+{
+  "id": "mauziell",
+  "tipo": "divindade",
+  "nome": "Mauziell, a Deusa das Avós",
+  "resumo": "Entidade primordial de aparência de velhinha que mora numa cabana em Tollon; tem idade para ser avó de qualquer criatura e sempre guarda coisas perdidas para que não se percam.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 231
+  },
+  "imagens": [
+    "/divindades/mauziell.png"
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "crencasObjetivos": "Cuidar dos outros como se fossem netos. Guardar coisas para que não se percam. Instigar pessoas a agir de forma adequada. Servir como exemplo.",
+    "simboloSagrado": "Uma cesta de piquenique.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Bengala (conta como uma clava; Tormenta20, p. 147).",
+    "devotos": "Anões, centauros, duendes, elfos, gnolls, lefou, qareen, hynne, sátiros, tengu, arcanistas, bardos, caçadores, cavaleiros, guerreiros, nobres, paladino (único).",
+    "poderesConcedidos": [
+      "Guardei para Você"
+    ],
+    "obrigacoesRestricoes": "Um devoto de Mauziell é, para todos os efeitos, uma avó, e portanto precisa da ajuda de seus 'netos' para realizar tarefas, como abrir potes de geleia ou carregar coisas pesadas. O devoto deve pedir a ajuda de uma criatura para realizar alguma tarefa pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais), como forma de honrar sua divindade. Em termos de jogo, a criatura deve passar em um teste de perícia aplicável ao pedido com CD mínima 15 + metade do seu nível."
+  },
+  "secoes": [
+    {
+      "titulo": "Historia",
+      "texto": "Uma velhinha enrugada e de aparência frágil, que mora em uma cabana no meio da floresta em Tollon. É impossível chegar a essa cabana por meios mágicos; de fato, existem apenas dois caminhos pela floresta para chegar lá — um longo e iluminado, que não chega a lugar nenhum, e outro estreito e escuro, cercado por olhos na sombra: o verdadeiro caminho. Mauziell afirma que vive ali para que seus netos tenham que vencer perigos para levar-lhe cestas de doces, e sua casa é abarrotada de enfeites e crochês. Mauziell tem idade para ser a avó de qualquer criatura (deuses inclusos) e sempre tem informações e objetos que apenas uma avó teria — o que inclui itens e memórias há muito perdidos ou esquecidos. Todos são netos de Mauziell, e por isso seus devotos são instigados a agir como ela, cuidando dos outros como apenas avós são capazes. Apesar de não parecer, Mauziell teve grande participação na empreitada de Orion Drake para libertar o Império de Jade da Tormenta. Ela ajudou a recrutar vários deuses para o exército do antigo cavaleiro da Luz e, na batalha na área de Tormenta de Tamu-ra, foi quem derrotou Andaluzia, a Bruxa sem Rosto que transportava os exércitos corrompidos de Crânio Negro por toda Arton, devolvendo a ela seu rosto, suas memórias e sua sanidade."
+    },
+    {
+      "titulo": "Natureza e Status",
+      "texto": "Entidade primordial, status divino 4."
+    },
+    {
+      "titulo": "Poder Concedido: Guardei para Você",
+      "texto": "Você pode gastar uma ação de movimento e 1 PM para produzir uma lembrança, na forma de uma memória ou de um objeto, para um aliado em alcance curto. Uma memória fornece +1d4 em um teste de perícia feito até o fim da cena, enquanto um objeto é uma versão mundana e não superior de um item não consumível a sua escolha, que dura até o fim da cena ou até ser largado pelo aliado. Você só pode produzir uma lembrança para cada aliado na mesma cena."
+    }
+  ]
+}

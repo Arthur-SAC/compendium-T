@@ -22,6 +22,7 @@ export const CATEGORIAS: Categoria[] = [
 // Mapa de tipo de entidade → área (para fichas /ficha/<tipo>/<id>).
 const TIPO_PARA_AREA: Record<string, string> = {
   raca: "racas",
+  linhagem: "racas",
   classe: "classes",
   origem: "origens",
   pericia: "pericias",

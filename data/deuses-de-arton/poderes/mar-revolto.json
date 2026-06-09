@@ -1,0 +1,15 @@
+{
+  "id": "mar-revolto",
+  "tipo": "poder",
+  "nome": "Mar Revolto",
+  "resumo": "Gasta 1 PM para criar aura de 6m: criaturas escolhidas devem passar em Acrobacia ou cair a cada início de turno.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "oceano",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 1 PM para gerar uma aura de 6m de raio com duração sustentada. No início de seus turnos, criaturas a sua escolha na área devem passar em um teste de Acrobacia (CD Sab, +5 se a criatura estiver dentro da água) para não cair."
+  }
+}

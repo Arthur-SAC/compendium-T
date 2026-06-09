@@ -1,0 +1,22 @@
+{
+  "id": "machado-da-bravura",
+  "tipo": "item-magico",
+  "nome": "Machado da Bravura",
+  "resumo": "Machado de batalha certeiro cruel de Arsenal que, nas mãos de seu devoto, torna-se formidável e concede 1 PM temporário cumulativo a cada investida (máximo igual à Sabedoria por dia).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "arsenal", "rotulo": "Arsenal" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 25.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este machado de batalha certeiro e cruel tem cabo de madeira marrom escura com um reforço de metal nas laterais e lâmina única, feita de aço com muitos entalhes representando batalhas e monstros. Se você for um devoto de Arsenal, ele se torna um machado de batalha certeiro cruel formidável. Sempre que você fizer uma investida, recebe 1 PM temporário cumulativo. Você pode ganhar um número máximo de PM temporários por dia igual a sua Sabedoria. Arma específica menor, preço T$ 25.000."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nimb",
+  "tipo": "poder",
+  "nome": "Nimb",
+  "resumo": "Gasta ação padrão e 2 PM para gerar uma habilidade única aleatória rolando 1d6 em cada coluna de área/alvo e efeito.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "nimb",
+    "prerequisito": "",
+    "descricao": "Você é Nimb. Ou um filho ou filha dele. Ou uma casca de banana na qual ele escorregou certa vez. Você pode gastar uma ação padrão e 2 PM para gerar uma habilidade única. Para isso, role 1d6 em cada coluna abaixo.\n\n| 1d6 | Área/Alvo | Efeito |\n|-----|-----------|--------|\n| 1 | Criaturas em um cone de 6m. | Ficam verdes por 1 dia; sofrem –2 em testes baseados em Carisma. |\n| 2 | Até 1d3 criaturas em alcance médio. | Curam 3d6 PV. |\n| 3 | Criaturas em um raio de 9m. | Em seu próximo teste, rolam 2 dados e você escolhe o resultado. |\n| 4 | Criaturas em uma esfera com 6m de raio em alcance curto. | Perdem 3d6+3 pontos de vida. |\n| 5 | Criaturas em 1d3 linhas de 15m. | Recebem 1d4 PM temporários que duram 1 rodada. |\n| 6 | Criaturas escolhidas em alcance curto. | Podem usar Poder Oculto (Tormenta20, p. 134) até o fim da cena. |"
+  }
+}

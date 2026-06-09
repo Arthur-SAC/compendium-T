@@ -1,0 +1,399 @@
+{
+  "id": "frade",
+  "tipo": "classe",
+  "nome": "Frade",
+  "resumo": "Conjurador divino focado em suporte, cura e conhecimento. Similar ao clérigo, mas prefere mantos esvoaçantes e poder mágico superior ao combate direto — um tipo de arcanista divino, conhecido em alguns círculos como 'mago sagrado'.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 38
+  },
+  "imagens": [
+    "/classes/frade.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Um tipo de sacerdote, o frade é um conjurador divino focado em suporte, cura e conhecimento. É similar ao clérigo, mas enquanto este é mais combativo, valendo-se de armas e armaduras, o frade prefere mantos esvoaçantes e ostenta poder mágico superior. Como se fosse um tipo de arcanista divino, costuma ser conhecido em alguns círculos como 'mago sagrado'.\n\nClérigos e frades servem aos mesmos deuses, mas agem de formas diferentes — na verdade, eles se complementam. O clérigo de Arsenal abençoa soldados no campo de batalha e luta a seu lado, enquanto o frade do Deus da Guerra atua no templo-quartel analisando mapas e criando estratégias militares. Um clérigo de Khalmyr persegue criminosos para levá-los à justiça; o frade do mesmo deus trava suas batalhas nos tribunais, defendendo inocentes e punindo culpados.\n\nEm suas respectivas igrejas e cultos, frades alcançam posições de liderança com mais frequência que clérigos. Também é comum encontrá-los como líderes de comunidades; seu vasto conhecimento e sabedoria costumam ser mais valiosos nessa função que habilidades de combate. O xamã de Allihanna que comanda uma pequena aldeia de bárbaros muito provavelmente será um frade, em vez de um clérigo. O mesmo vale para a professora de Tanna-Toh que ensina escrita e aritmética às crianças do povoado, bem como o capelão do Oceano conduzindo serviços religiosos a bordo da nau capitânia de uma frota pirata.\n\nAssim, é pouco comum que frades sejam aventureiros — mas não impossível. Apesar de sua maior afinidade com funções burocráticas, frades também podem ser compelidos a grandes missões. Em vez de lutar na linha de frente, juntam-se aos arcanistas na retaguarda, provendo suporte e proteção — não apenas com seu acervo superior de magias, mas também com astúcia e estratégia. O frade é, além disso, um investigador ferrenho, tendo na solução de mistérios uma frequente motivação para se aventurar. É valioso decifrando escrituras e identificando maldições.\n\nAlém de suas habilidades milagrosas, frades são conhecidos por sua grande erudição. São dedicados ao estudo das artes, da história e da filosofia, que consideram tão essencial quanto a prática de magias. Acumulam conhecimento sobre civilizações antigas, tradições culturais e segredos místicos, tornando-se conselheiros valiosos, diplomatas hábeis e sábios estrategistas. São procurados por regentes e líderes, que valorizam sua sabedoria, perspicácia e perícia em negociação.\n\nEmbora sejam encontrados servindo a todo o Panteão, frades têm mais afinidade com certas divindades. Por valorizarem a magia acima do combate, muitos são devotados a Lena, Marah e Thyatis. Um grande número também serve a Tanna-Toh, buscando seu conhecimento sagrado. Muitos oram pela esperteza de Hyninn e pela sagacidade de Sszzaas, perseverando através de trapaça e traição. Wynna também é bem servida por frades — esses talvez estejam entre os conjuradores mais versáteis de Arton, igualmente dominando magia arcana e divina. De fato, mesmo entre devotos de deuses combativos ou violentos, sempre haverá aqueles buscando superar desafios não com armas, mas com magia e inteligência."
+    },
+    {
+      "titulo": "Frades Famosos",
+      "texto": "Belinda Arting, Khorr'benn An-ug'atz, Nekapeth, Nichaela, Tella Andoren."
+    },
+    {
+      "titulo": "Sacrários (quadro)",
+      "texto": "Alguns poderes de frade são sacrários — uma área consagrada pelo poder divino. Esses poderes compartilham das seguintes regras.\n• Criar um sacrário gasta uma ação padrão e 3 PM.\n• Um sacrário ocupa uma esfera de 3m de raio em alcance curto.\n• Um sacrário dura até o fim da cena, a menos que sua descrição diga o contrário.\n• Você pode ter um número de sacrários ativos simultâneos igual à sua Sabedoria.\n• Um sacrário não pode ser criado em uma área afetada por outro sacrário ou onde haja um símbolo visível de uma divindade diferente da sua.\n• Para ser afetada, uma criatura precisa estar inteiramente dentro da área do sacrário."
+    },
+    {
+      "titulo": "Dom da Ressurreição e Frades (quadro)",
+      "texto": "O poder concedido Dom da Ressurreição (Tormenta20, p. 133), originalmente limitado a clérigos, também pode ser escolhido por frades de Thyatis."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "atributoChave": "Sabedoria",
+    "pvInicial": 12,
+    "pvPorNivel": 3,
+    "pmPorNivel": 6,
+    "pericias": {
+      "quantidade": 4,
+      "fixas": [
+        "Religião (Sab)",
+        "Vontade (Sab)"
+      ],
+      "lista": [
+        "Adestramento (Car)",
+        "Atuação (Car)",
+        "Conhecimento (Int)",
+        "Cura (Sab)",
+        "Diplomacia (Car)",
+        "Fortitude (Con)",
+        "Guerra (Int)",
+        "Iniciativa (Des)",
+        "Intimidação (Car)",
+        "Intuição (Sab)",
+        "Investigação (Int)",
+        "Misticismo (Int)",
+        "Nobreza (Int)",
+        "Ofício (Int)",
+        "Percepção (Sab)"
+      ],
+      "texto": "Religião (Sab) e Vontade (Sab), mais 4 a sua escolha entre Adestramento (Car), Atuação (Car), Conhecimento (Int), Cura (Sab), Diplomacia (Car), Fortitude (Con), Guerra (Int), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Misticismo (Int), Nobreza (Int), Ofício (Int) e Percepção (Sab)."
+    },
+    "proficiencias": [],
+    "progressao": [
+      {
+        "nivel": 1,
+        "habilidades": [
+          "Devoto fiel",
+          "Erudição",
+          "Magias (1º círculo)"
+        ]
+      },
+      {
+        "nivel": 2,
+        "habilidades": [
+          "Poder de frade",
+          "Versiculário"
+        ]
+      },
+      {
+        "nivel": 3,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 4,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 5,
+        "habilidades": [
+          "Dádiva da fé",
+          "Magias (2º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 6,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 7,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 8,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 9,
+        "habilidades": [
+          "Magias (3º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 10,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 11,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 12,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 13,
+        "habilidades": [
+          "Magias (4º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 14,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 15,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 16,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 17,
+        "habilidades": [
+          "Magias (5º círculo)",
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 18,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 19,
+        "habilidades": [
+          "Poder de frade"
+        ]
+      },
+      {
+        "nivel": 20,
+        "habilidades": [
+          "Poder de frade",
+          "Solo santificado"
+        ]
+      }
+    ],
+    "habilidades": [
+      {
+        "nome": "Devoto Fiel",
+        "nivel": 1,
+        "descricao": "Você se torna devoto de um deus maior. Veja as regras de devotos em Tormenta20, p. 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um.\n\nComo alternativa, você pode cultuar o Panteão como um todo. Não recebe nenhum Poder Concedido, mas sua única obrigação e restrição é não usar armas cortantes ou perfurantes (porque derramam sangue, algo que frades do Panteão consideram proibido). Sua arma preferida é a maça e você pode canalizar energia positiva ou negativa a sua escolha (uma vez feita, essa escolha não pode ser mudada). Cultuar o Panteão conta como sua devoção."
+      },
+      {
+        "nome": "Erudição",
+        "nivel": 1,
+        "descricao": "Quando faz um teste de perícia (exceto de ataque), você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Inteligência). Para cada PM que gastar, recebe +2 no teste."
+      },
+      {
+        "nome": "Magias",
+        "nivel": 1,
+        "descricao": "Você pode lançar magias divinas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante).\n\nVocê começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves mas, se estiver usando armadura pesada, precisará fazer um teste de Misticismo como se fosse um conjurador arcano (veja 'Armaduras e Magia Arcana', em Tormenta20, p. 171).\n\nSeu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o Capítulo 4 de Tormenta20 para as regras de magia."
+      },
+      {
+        "nome": "Versiculário",
+        "nivel": 2,
+        "descricao": "No 2º nível, você recebe um versiculário, um livro de anotações religiosas pessoais. Uma vez por dia, você pode gastar 1 hora estudando suas anotações no versiculário. Quando faz isso, escolha uma quantidade de magias igual à sua Inteligência (limitada pelo seu nível). Até o próximo dia, quando lança uma dessas magias, você recebe +1 PM para gastar em aprimoramentos. Se perder seu versiculário, você pode escrever outro com 1 semana de trabalho e o gasto de T$ 100."
+      },
+      {
+        "nome": "Dádiva da Fé",
+        "nivel": 5,
+        "descricao": "No 5º nível, você recebe Proteção Sagrada (se sua divindade canaliza energia positiva) ou Cólera Divina (se canaliza energia negativa).\n\n• Proteção Sagrada. Você pode gastar uma ação de movimento e até 2 PM por círculo de magia a que tem acesso para energizar seu símbolo sagrado até o fim da cena. Enquanto você estiver empunhando o símbolo, ele projeta uma aura com 9m de raio. Criaturas a sua escolha dentro dessa aura recebem redução de dano igual à metade do total de PM gastos.\n\n• Cólera Divina. Você pode gastar uma ação de movimento e até 2 PM por círculo de magia a que tem acesso para energizar seu símbolo sagrado até o fim da cena. Enquanto você estiver empunhando o símbolo, ele projeta uma aura com 9m de raio. Criaturas a sua escolha dentro dessa aura recebem um bônus em suas rolagens de dano igual à metade do total de PM gastos."
+      },
+      {
+        "nome": "Solo Santificado",
+        "nivel": 20,
+        "descricao": "No 20º nível, o raio de sua Dádiva da Fé muda para 30m e criaturas afetadas por ela também somam o bônus concedido pela habilidade na CD de suas próprias habilidades."
+      }
+    ],
+    "poderes": [
+      {
+        "nome": "Acelerar Sacrário",
+        "descricao": "Quando cria um sacrário, você pode gastar +2 PM para criá-lo como uma ação de movimento (em vez de uma ação padrão).",
+        "prerequisito": "5º nível de frade",
+        "custo": "+2 PM"
+      },
+      {
+        "nome": "Ampliar Sacrário",
+        "descricao": "Você pode criar sacrários em alcance médio e eles passam a ocupar uma esfera de 6m de raio.",
+        "prerequisito": "10º nível de frade"
+      },
+      {
+        "nome": "Aumento de Atributo",
+        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      },
+      {
+        "nome": "Autoridade Eclesiástica",
+        "descricao": "Você possui uma posição formal em uma igreja reconhecida pelos outros membros de sua fé. Os efeitos deste poder variam de acordo com sua divindade (veja a p. 22).",
+        "prerequisito": "5º nível de frade, devoto de um deus maior"
+      },
+      {
+        "nome": "Bênção Fortalecedora",
+        "descricao": "Quando você lança Bênção, os aliados abençoados recebem uma quantidade de PV temporários igual a 5 vezes o bônus em testes de ataque fornecido pela magia. Esses PV temporários duram enquanto a magia durar.",
+        "prerequisito": "Bênção"
+      },
+      {
+        "nome": "Canto Monástico",
+        "descricao": "Você pode gastar uma ação padrão e 1 PM para entoar um cântico religioso. Faça um teste de Atuação para ajudar (Tormenta20, p. 221). Seus aliados em alcance curto recebem um bônus igual ao bônus de ajuda em um teste de perícia feito até o fim da cena ou na CD para resistir a uma de suas habilidades usada até o fim da cena.",
+        "prerequisito": "treinado em Atuação",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Comunhão Vital",
+        "descricao": "Quando lança uma magia que cure uma criatura, você pode pagar +2 PM para que outra criatura em alcance curto (incluindo você mesmo) recupere uma quantidade de pontos de vida igual à metade dos PV da cura original.",
+        "custo": "+2 PM"
+      },
+      {
+        "nome": "Copista",
+        "descricao": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, pode fabricar o dobro de pergaminhos ao mesmo tempo (pagando o custo de matéria-prima de ambos).",
+        "prerequisito": "treinado em Ofício (escriba)"
+      },
+      {
+        "nome": "Conhecimento Mágico",
+        "descricao": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
+      },
+      {
+        "nome": "Cozinheiro da Abadia",
+        "descricao": "Quando prepara um prato especial, você pode combinar os efeitos de dois pratos. Você faz apenas um teste de Ofício, mas paga o custo de ambos.",
+        "prerequisito": "treinado em Ofício (cozinheiro)"
+      },
+      {
+        "nome": "Estudante Diligente",
+        "descricao": "No começo do dia você pode escolher uma perícia em que não seja treinado. Se fizer isso, até o fim do dia você sofre uma penalidade de –2 PM, mas pode fazer testes da perícia escolhida como se fosse treinado nela."
+      },
+      {
+        "nome": "Fé e Razão",
+        "descricao": "Quando usa uma habilidade de frade, você pode gastar uma quantidade de PM limitada por sua Inteligência. Se fizer isso, a CD dessa habilidade aumenta em +1 por PM gasto."
+      },
+      {
+        "nome": "Mago Branco",
+        "descricao": "Suas magias de cura de luz custam –1 PM e curam +1 PV por dado de cura.",
+        "prerequisito": "3º nível de frade"
+      },
+      {
+        "nome": "Memorizar Liturgia",
+        "descricao": "Uma vez por dia, você pode gastar 1 hora de estudo e um número de pergaminhos que contenham magias divinas igual ou menor que sua Inteligência. Até o fim do dia, você pode lançar as magias contidas nesses pergaminhos como se as conhecesse ou, se já conhecia a magia, você soma sua Inteligência no limite de PM para lançá-la.",
+        "prerequisito": "Copista, 8º nível de frade"
+      },
+      {
+        "nome": "Ofício do Mosteiro",
+        "descricao": "Você pode fabricar itens de vestuário com Ofício (artesão) e pode usar essa perícia para fabricar itens com uma melhoria.",
+        "prerequisito": "treinado em Ofício (artesão)"
+      },
+      {
+        "nome": "Psicografia",
+        "descricao": "Seus textos recebem inspiração divina. Você pode fabricar pergaminhos de qualquer magia divina (mesmo uma que não conheça) de quaisquer círculos a que tenha acesso. A CD para fabricar um desses pergaminhos aumenta em +5.",
+        "prerequisito": "Copista, 5º nível de frade"
+      },
+      {
+        "nome": "Sacrário da Erudição",
+        "descricao": "Quando lançam magias a partir de pergaminhos, você e seus aliados dentro do sacrário recebem +1 PM para gastar em aprimoramentos (mesmo que não conheçam a magia).",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário da Misericórdia",
+        "descricao": "No início dos seus turnos, cada criatura a sua escolha dentro do sacrário recupera uma quantidade de PV igual a 5 + sua Sabedoria. Este sacrário tem duração sustentada.",
+        "prerequisito": "5º nível de frade",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário da Resiliência",
+        "descricao": "Você e seus aliados dentro do sacrário recebem +2 em testes de resistência e na Defesa. Quando cria este sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, o bônus concedido pelo sacrário aumenta em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar).",
+        "prerequisito": "5º nível de frade",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário da Solenidade",
+        "descricao": "Criaturas dentro da área ficam sob condição terrível para lançar magias e sofrem –2 na Defesa. Quando cria este sacrário você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, a penalidade causada pelo sacrário aumenta em 1 (penalidade máxima limitada pelo círculo máximo de magias que você pode lançar).",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário da Verdade",
+        "descricao": "Sempre que uma criatura na área passa em um teste de Acrobacia, Enganação, Furtividade ou Ladinagem, ou acerta um ataque contra uma criatura sob efeito de uma ou mais condições, ela sofre 2d6 pontos de dano psíquico por círculo de magia a que você tem acesso.",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário das Sombras",
+        "descricao": "A área do sacrário é coberta por sombras; criaturas dentro dela recebem camuflagem leve e, se forem mortos-vivos, também recebem +2 na Defesa e em testes de perícia.",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário do Compartilhamento",
+        "descricao": "Este sacrário tem duração sustentada. Quando lança uma magia de 1º ou 2º círculo que tenha apenas você como alvo, se estiver em alcance curto deste sacrário você pode gastar 2 PM para que um aliado dentro dele receba o efeito básico dessa magia.",
+        "prerequisito": "7º nível de frade",
+        "custo": "2 PM",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sacrário do Ocaso",
+        "descricao": "Este sacrário é criado com 60 pontos de ocaso. No início de seus turnos, o sacrário perde 1d10 pontos de ocaso, e cada criatura dentro dele perde esse valor em PV. A perda de PV aumenta em +1d10 para cada círculo de magia que você possa lançar além do 1º. Quando cria o sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada PM adicional gasto, o sacrário é criado com +20 pontos de ocaso. O sacrário desaparece quando seus pontos de ocaso terminam.",
+        "tags": [
+          "sacrário"
+        ]
+      },
+      {
+        "nome": "Sermão da Celeridade",
+        "descricao": "Uma vez por rodada, você pode gastar 5 PM para fazer um aliado em alcance curto ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado.",
+        "prerequisito": "8º nível de frade",
+        "custo": "5 PM"
+      },
+      {
+        "nome": "Sermão da Égide",
+        "descricao": "Você pode gastar uma ação padrão e 3 PM para orar por proteção para uma criatura em alcance curto. Até o seu próximo turno, quando essa criatura sofrer dano, ela pode gastar essa proteção para reduzir esse dano à metade.",
+        "custo": "3 PM"
+      },
+      {
+        "nome": "Teologia Aplicada",
+        "descricao": "Escolha duas perícias. Quando faz um teste de uma dessas perícias (exceto testes de ataque), você pode gastar 1 PM para rolar novamente esse teste, usando Religião. Você pode escolher este poder outras vezes para perícias diferentes.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Transferir Sacrário",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para transferir um de seus sacrários no alcance em que você pode criá-lo para outro ponto no mesmo alcance.",
+        "custo": "1 PM"
+      },
+      {
+        "nome": "Zelador dos Vinhedos",
+        "descricao": "Você pode usar Ofício (cozinheiro) para preparar poções de magias que você conheça e cujo alvo seja 1 criatura. As poções tomam a forma de bebidas e seguem as regras desses itens (Heróis de Arton, Capítulo 3), exceto que ingeri-las é uma ação padrão. A bebida pode ser comum ou especial. No segundo caso, a CD para fabricá-la aumenta em +5 e o custo aumenta conforme a bebida especial, mas consumi-la gera ambos os efeitos (da poção e da bebida especial).",
+        "prerequisito": "treinado em Ofício (cozinheiro)"
+      }
+    ],
+    "conjuracao": {
+      "tipo": "Divina",
+      "atributoChave": "Sabedoria",
+      "descricao": "O frade lança magias divinas. Começa com três magias de 1º círculo e aprende uma magia nova por nível. A cada quatro níveis acessa um círculo superior (2º no 5º nível, 3º no 9º, 4º no 13º, 5º no 17º). Sabedoria é o atributo-chave e é somada ao total de PM. Pode lançar magias vestindo armaduras leves; armadura pesada exige teste de Misticismo como conjurador arcano."
+    },
+    "caminhos": []
+  }
+}

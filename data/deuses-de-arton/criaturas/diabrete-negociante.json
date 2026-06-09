@@ -1,0 +1,54 @@
+{
+  "id": "diabrete-negociante",
+  "tipo": "criatura",
+  "nome": "Diabrete Negociante",
+  "resumo": "Variante mais inteligente e perigosa de diabrete: faz acordos tomando algo valioso e imaterial da vítima (amor, coragem, juventude...) para forjar itens. Não têm interesse em lucro, apenas em espalhar miséria e sofrimento.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Além do diabrete comum, existem variedades mais inteligentes e muito mais perigosas. Um exemplo terrível são os diabretes negociantes: quando fazem um acordo, tomam da vítima alguma coisa valiosa (alma, força, juventude, lembranças, futuro...) e usam como material para forjar um item poderoso, que podem entregar ou guardar para si. Não têm interesse em lucro, apenas em espalhar miséria e sofrimento."
+    }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Pequeno",
+    "tema": "Abissais",
+    "iniciativa": "+7",
+    "percepcao": "+6, visão no escuro",
+    "defesa": "21, Fort +4, Ref +15, Von +11, imunidade a ácido e veneno, redução de fogo e frio 5",
+    "pontosDeVida": "120",
+    "deslocamento": "6m (4q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Martelo de forja +15 (1d8+8, x3) e mordida +15 (1d6+8)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "6",
+      "sabedoria": "2",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Barganha",
+        "descricao": "O diabrete negociante pode conceder um Desejo a uma criatura. Em troca, a criatura dá algo muito importante e imaterial. Exemplos de pagamentos: Amor (um dos parceiros do personagem o abandona e seu limite de parceiros diminui em –1); Coragem (o personagem falha automaticamente em testes de resistência contra medo e sofre –5 em Iniciativa); Felicidade (o personagem perde o prazer pela vida: não recebe benefícios de itens de alimentação e, independentemente de suas condições de descanso, sua recuperação nunca é melhor que normal); Juventude (o personagem perde 1 ponto de Constituição e falha automaticamente em testes contra efeitos de cansaço — ou envelhece uma categoria de idade, sem receber os benefícios da nova categoria). As penalidades não podem ser evitadas por nenhum efeito. Não se sabe de nenhuma forma de devolver o que foi perdido aos requerentes."
+      },
+      {
+        "nome": "Confundir (Padrão)",
+        "descricao": "Uma criatura em alcance curto fica confusa (Von CD 18 evita e a criatura fica imune a esta habilidade por um dia). Recarga (movimento)."
+      },
+      {
+        "nome": "Risada Enervante",
+        "descricao": "Criaturas a até 9m do diabrete sofrem –2 em Intuição e Vontade."
+      }
+    ],
+    "pericias": "Enganação +14, Intuição +11, Ofício (armeiro) +13, Ofício (artesão) +13.",
+    "equipamento": "Instrumentos de Ofício (armeiro, artesão) aprimorados.",
+    "tesouro": "Padrão e 1d4–1 itens feitos dos sentimentos de alguém."
+  }
+}

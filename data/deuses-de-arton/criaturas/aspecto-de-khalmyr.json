@@ -1,0 +1,66 @@
+{
+  "id": "aspecto-de-khalmyr",
+  "tipo": "criatura",
+  "nome": "Aspecto de Khalmyr",
+  "resumo": "Anão em armadura brilhante de mitral empunhando escudo com o símbolo sagrado de Khalmyr. Voz poderosa e determinada, mas intolerante com qualquer mínima infração da lei. Bravo e valoroso em batalha.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 268 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O anão em armadura brilhante de mitral emana nobreza, empunhando um volumoso escudo com o símbolo sagrado de Khalmyr. Quando decide falar, a voz é poderosa e determinada, mas suas palavras também soam intolerantes e um tanto teimosas.\n\nUm aspecto de Khalmyr quase sempre tem a aparência de um paladino humano, anão ou suraggel — tão galante e brilhante em sua armadura completa que é quase impossível não reconhecê-lo como um soldado santo. A balança da justiça em seu símbolo sagrado estará em grande evidência no escudo ou na placa peitoral. Sua arma quase sempre é uma réplica da espada Rumnamm, seja em sua forma tradicional antiga, seja na versão mais recente combinada com arma de fogo.\n\nAinda que o aspecto de Khalmyr se comporte sempre com retidão, às vezes falta-lhe a bondade e generosidade do Deus da Justiça. Será intolerante e inclemente com o menor ato criminoso, sempre apressado em julgar e proibir qualquer mínima infração da lei. Algo que aventureiros achariam normal e necessário, como subornar um guarda corrupto para que revele o cativeiro de uma vítima raptada, não será admitido em hipótese alguma. Pense em um paladino iniciante, ainda sem sabedoria para usar sua autoridade, e poderá ter uma ideia.\n\nApesar de seu comportamento por vezes tacanho, o aspecto de Khalmyr será sempre bravo e valoroso em batalha, não hesitando em sacrificar a própria curta existência para garantir mais alguns momentos de segurança a seus aliados."
+    }
+  ],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (anão)",
+    "tamanho": "Médio",
+    "iniciativa": "+4",
+    "percepcao": "+6 (+8 em subterrâneo)",
+    "sentidos": "visão no escuro",
+    "defesa": "24, Fort +11, Ref +5, Von +17, imunidade a acertos críticos e medo, redução de dano 5",
+    "pontosDeVida": "200",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada-calibre +17 x2 (15, 19).",
+      "À Distância Espada-calibre +17 (7, 19/x3)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "0",
+      "constituicao": "5",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Cura pelas Mãos (Movimento)",
+        "descricao": "O aspecto de Khalmyr cura 5 pontos de vida por luz de uma criatura adjacente."
+      },
+      {
+        "nome": "Destruir o Crime (Livre)",
+        "descricao": "Uma vez por rodada, quando o aspecto ataca em corpo a corpo um devoto que, a critério do mestre, seja culpado de um crime, ele recebe +5 no teste de ataque e +9 na rolagem de dano."
+      },
+      {
+        "nome": "Espada-Calibre (Livre)",
+        "descricao": "Quando ataca em corpo a corpo com sua espada-calibre, o aspecto pode disparar sua bala para causar +7 pontos de dano de perfuração. Recarga (movimento)."
+      },
+      {
+        "nome": "Ordenar Sorte",
+        "descricao": "Uma vez por rodada, o aspecto pode escolher 10 em um teste qualquer."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O aspecto de Khalmyr é um parceiro veterano que fornece +3 na Defesa e imunidade a acertos críticos e medo. Ele apoia apenas personagens que considere dignos e que não tenham cometido crimes."
+      }
+    ],
+    "pericias": "Atletismo +9, Diplomacia +11, Intuição +11, Nobreza +6, Religião +11.",
+    "equipamento": "Armadura completa, balas x20, escudo pesado, espada-calibre.",
+    "tesouro": "Padrão.",
+    "tema": "Aspectos dos Deuses"
+  }
+}

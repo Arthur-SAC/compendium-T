@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-sora",
+  "tipo": "poder",
+  "nome": "Herança de Sora",
+  "resumo": "Os espíritos ancestrais de Lin-Wu concedem +2 em Nobreza e Vontade, e bônus em testes de perícia estendidos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Os honrados espíritos ancestrais de Lin-Wu abençoam sua perseverança. Você recebe +2 em Nobreza, Vontade e em testes de perícia estendidos (incluindo contra perigos complexos)."
+  }
+}

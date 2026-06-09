@@ -1,0 +1,46 @@
+{
+  "id": "trio-de-carvarel",
+  "tipo": "criatura",
+  "nome": "Trio de Carvarel",
+  "resumo": "Bando de três carvarel (guerreiros de chifres) atuando como unidade. Formam tropas de infantaria nos exércitos dos deuses malignos, violentos e brutais, sempre ansiosos para ferir e matar com seus machados.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 253 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A criatura abissal tem corpo humanoide robusto, coberto de pelos, com cabeça de bode, chifres e cascos. Empunha um grande machado e bufa em antecipação ao combate. Também conhecidos apenas como 'guerreiro de chifres', são o tipo mais comum de abissal. Nos reinos divinos, formam as tropas de infantaria nos exércitos dos deuses malignos, em vastos números. Carvarel são violentos, brutais, sempre ansiosos para ferir e matar com seus machados. Em Arton, carvarel podem ser encontrados em pequenos bandos errantes ou servindo a devotos do mal."
+    }
+  ],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Grande",
+    "tema": "Abissais",
+    "iniciativa": "+6",
+    "percepcao": "+3, faro, visão no escuro",
+    "defesa": "33, Fort +19, Ref +16, Von +15, imunidade a ácido e venenos, redução de dano 5, redução de fogo e frio 10",
+    "pontosDeVida": "305",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo [Bando] Machado de guerra x2 +26 (1d12+16, x3) ou chifres x2 +26 (2d6+10 impacto)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "3",
+      "constituicao": "4",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Marrada Infernal (Completa)",
+        "descricao": "O trio de carvarel faz uma investida e desfere todos os seus ataques de machado de guerra e de chifres contra quaisquer criaturas em alcance. Todos os ataques recebem o bônus de +2 da investida, mas o trio não pode fazer mais de dois ataques contra a mesma criatura."
+      }
+    ],
+    "pericias": "Atletismo +13, Intimidação +9.",
+    "equipamento": "Machado de guerra cruel x3.",
+    "tesouro": "Padrão."
+  }
+}

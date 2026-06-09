@@ -1,0 +1,22 @@
+{
+  "id": "frescor-de-nimb",
+  "tipo": "item",
+  "nome": "Frescor de Nimb",
+  "resumo": "Prato de sabor indescritível de Nimb que ao ser ingerido concede o benefício de um prato especial de um deus escolhido aleatoriamente.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "nimb", "rotulo": "Nimb" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 1",
+    "espacos": "0",
+    "especial": "Prato especial de Nimb. Ao ingerir este prato, escolha um deus aleatoriamente. Você recebe o benefício do prato desse deus (se for Nimb, role novamente duas vezes, repetindo isso sempre que rolar o Deus do Caos)."
+  }
+}

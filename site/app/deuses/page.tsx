@@ -14,7 +14,7 @@ function mec(d: Entidade): DivindadeMecanica {
   return d.mecanica as unknown as DivindadeMecanica;
 }
 
-function CardDivindade({ divindade }: { divindade: Entidade }) {
+function CardDivindade({ divindade, expandido }: { divindade: Entidade; expandido?: boolean }) {
   const simbolo = divindade.imagens[0];
   return (
     <Link href={`/ficha/divindade/${divindade.id}`} className="indice-card">
@@ -27,6 +27,9 @@ function CardDivindade({ divindade }: { divindade: Entidade }) {
       <span className="indice-card-body">
         <span className="indice-card-nome">{divindade.nome}</span>
         <span className="indice-card-resumo">{divindade.resumo}</span>
+        {expandido && (
+          <span style={{ marginTop: 4, fontSize: 10, letterSpacing: 1, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>✦ Deuses de Arton</span>
+        )}
       </span>
     </Link>
   );
@@ -35,8 +38,22 @@ function CardDivindade({ divindade }: { divindade: Entidade }) {
 export default function IndiceDeuses() {
   const entidades = carregarEntidades();
   const divindades = entidades.filter((e) => e.tipo === "divindade");
+  // Deuses maiores (os 20 do Panteão, do Básico) vs menores (de expansões, ex.: Deuses de Arton).
+  const maiores = divindades.filter((d) => d.fonte.livro !== "deuses-de-arton");
+  const ehAntigo = (d: Entidade) => String((d.mecanica as { categoria?: string }).categoria ?? "") === "antigo";
+  const expansaoDeuses = divindades.filter((d) => d.fonte.livro === "deuses-de-arton");
+  const menores = expansaoDeuses.filter((d) => !ehAntigo(d)).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const antigos = expansaoDeuses.filter(ehAntigo).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   const regra = entidades.find((e) => e.id === "devocao-como-funciona");
+  const essaisMenores = entidades.find((e) => e.id === "deuses-menores-da");
+  const antigosDeuses = entidades.find((e) => e.id === "os-antigos-deuses");
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
+  // Deuses com expansão em Deuses de Arton (lore/avatar/artefatos via lookup).
+  const expandidos = new Set(
+    entidades
+      .filter((e) => e.tipo === "divindade-expansao")
+      .map((e) => String((e.mecanica as { expandeDivindade?: string }).expandeDivindade ?? "")),
+  );
 
   return (
     <main className="folha-main">
@@ -44,7 +61,7 @@ export default function IndiceDeuses() {
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Deuses</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>
-          {divindades.length} {divindades.length === 1 ? "divindade do Panteão" : "divindades do Panteão"} — Livro Básico
+          {divindades.length} divindades — os 20 deuses maiores do Panteão (vários expandidos em Deuses de Arton) e deuses menores
         </p>
 
         {regra && (
@@ -62,7 +79,7 @@ export default function IndiceDeuses() {
         )}
 
         {ORDEM_ENERGIA.map(({ chave, rotulo }) => {
-          const sublista = divindades.filter((d) => mec(d).canalizaEnergia === chave).sort(ordenar);
+          const sublista = maiores.filter((d) => mec(d).canalizaEnergia === chave).sort(ordenar);
           if (sublista.length === 0) return null;
           return (
             <section key={chave} style={{ marginBottom: 8 }}>
@@ -70,11 +87,47 @@ export default function IndiceDeuses() {
                 {rotulo} ({sublista.length})
               </h3>
               <div className="indice-cards">
-                {sublista.map((d) => <CardDivindade key={d.id} divindade={d} />)}
+                {sublista.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
               </div>
             </section>
           );
         })}
+
+        {menores.length > 0 && (
+          <section style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Deuses Menores ({menores.length})</h3>
+            <div className="indice-cards">
+              {menores.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
+            </div>
+          </section>
+        )}
+
+        {antigos.length > 0 && (
+          <section style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Deuses Antigos ({antigos.length})</h3>
+            <p style={{ fontFamily: "var(--serifa)", color: "var(--tinta-suave)", fontSize: 13, margin: "2px 0 10px" }}>
+              Deuses que já fizeram parte do Panteão e caíram — hoje sem devotos ou poder ativo.
+            </p>
+            <div className="indice-cards">
+              {antigos.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
+            </div>
+          </section>
+        )}
+
+        {(essaisMenores || antigosDeuses) && (
+          <section style={{ marginTop: 18, display: "flex", flexWrap: "wrap", gap: 16, fontFamily: "var(--serifa)", fontSize: 13 }}>
+            {essaisMenores && (
+              <Link href={`/ficha/${essaisMenores.tipo}/${essaisMenores.id}`} style={{ color: "var(--carmesim)", textDecoration: "none", borderBottom: "1px solid var(--borda-suave)" }}>
+                Sobre os Deuses Menores (como surgem, status) →
+              </Link>
+            )}
+            {antigosDeuses && (
+              <Link href={`/ficha/${antigosDeuses.tipo}/${antigosDeuses.id}`} style={{ color: "var(--carmesim)", textDecoration: "none", borderBottom: "1px solid var(--borda-suave)" }}>
+                Os Antigos Deuses (deuses caídos do Panteão) →
+              </Link>
+            )}
+          </section>
+        )}
       </div>
     </main>
   );

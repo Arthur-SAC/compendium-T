@@ -1,0 +1,52 @@
+{
+  "id": "satiro-arqueiro",
+  "tipo": "criatura",
+  "nome": "Sátiro Arqueiro",
+  "resumo": "Fada de aparência masculina com tronco humano e pernas de bode. Arqueiro exímio e tocador de flauta mágica, movido pela busca por diversão, caça esportiva e romance. Preguiçoso, prefere enfeitiçar a perseguir.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 292 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Diferentes de outras fadas, sátiros costumam ter aparência masculina — embora existam exceções. São bem-humorados, joviais, apreciadores dos prazeres da vida: comida, bebida, dança e romance. Parecem motivados puramente pela busca da próxima diversão.\n\nSátiros são arqueiros exímios, apreciando caçar por esporte. Muitos se contentam apenas com pássaros ou coelhos, enquanto os mais devassos flecham humanos e outras raças. Felizmente para a vítima perseguida, existe uma chance certa de escapar: basta evitar o caçador até que ele fique cansado e perca o interesse. Preguiçosos, sátiros nunca se esforçam muito em alcançar coisa alguma.\n\nÉ possível negociar com sátiros: eles conhecem bem as regiões onde vivem, podendo apontar o caminho para qualquer lugar. Contudo, só aceitam fazer isso quando são derrotados em alguma disputa, ou subornados com algo que apreciem."
+    }
+  ],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Espírito (sátiro)",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+6",
+    "percepcao": "+2",
+    "sentidos": "visão na penumbra",
+    "defesa": "18, Fort +7, Ref +12, Von +3",
+    "pontosDeVida": "13",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Chifres +9 (1d6+1).",
+      "À Distância Arco curto +14 (1d6+3, x3)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "3",
+      "constituicao": "1",
+      "inteligencia": "0",
+      "sabedoria": "-1",
+      "carisma": "2"
+    },
+    "pericias": "Atletismo +6, Atuação +7.",
+    "equipamento": "Arco curto, armadura de couro, flechas x10, instrumento musical (flauta).",
+    "tesouro": "Nenhum.",
+    "habilidades": [
+      {
+        "nome": "Disparo Rápido (Completa)",
+        "descricao": "O sátiro arqueiro faz dois ataques de arco curto com uma penalidade de –2 em cada teste."
+      },
+      {
+        "nome": "Flautista Mágico (Padrão)",
+        "descricao": "O sátiro lança uma das seguintes magias como um bardo, com os efeitos descritos mas sem gastar PM (CD 16). Ele só pode usar esta habilidade se estiver empunhando sua flauta.\n• Amedrontar Um animal ou humanoide em alcance curto fica apavorado por 1 rodada e depois abalado (Von reduz para abalado por 1d4 rodadas).\n• Enfeitiçar Um animal ou humanoide em alcance curto fica enfeitiçado (Von anula).\n• Hipnotismo Um animal ou humanoide em alcance curto fica fascinado (Von anula e deixa imune por 1 dia).\n• Sono Um humanoide em alcance curto fica inconsciente e caído ou, se estiver em combate, exausto por 1 rodada e então fatigado (Von reduz para fatigado por 1d4 rodadas em ambos os casos)."
+      }
+    ]
+  }
+}

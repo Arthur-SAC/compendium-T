@@ -1,0 +1,44 @@
+{
+  "id": "sumo-sacerdote",
+  "tipo": "distincao",
+  "nome": "Sumo-Sacerdote",
+  "resumo": "A figura singular que serve como elo entre uma divindade e seus devotos, a autoridade espiritual máxima de uma fé em Arton.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 127 },
+  "imagens": ["/distincoes/sumo-sacerdote.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Em Arton, cada um dos vinte deuses do Panteão tem um sumo-sacerdote — uma figura singular que serve como elo entre a divindade e seus devotos. Esses líderes espirituais são reverenciados como representantes máximos dos deuses no mundo material, carregando a responsabilidade de orientar fiéis e proteger os princípios sagrados de sua fé.\n\nO sumo-sacerdote é mais que apenas um líder religioso; é a personificação da vontade do deus. Desobedecer a suas ordens equivale a desafiar a própria divindade, um ato que pode resultar em consequências severas, incluindo a perda de poderes divinos. Embora seja incontestavelmente um mortal, o sumo-sacerdote tem poderes únicos, advindos de sua ligação com o deus. Muitas vezes apenas o sumo-sacerdote conhece as verdadeiras intenções de uma divindade, aquilo que motiva atos que parecem irracionais ou sem sentido.\n\nTambém existem casos em que o sumo-sacerdote atua no sentido contrário: tendo contato direto com os mortais, torna-se seu porta-voz, transmite seus anseios à divindade. Afinal, os vinte deuses são poderosos, mas não onipotentes em Arton; são sábios, mas não oniscientes. Ainda, o sumo-sacerdote pode ter objetivos próprios, que não parecem condizer com os de seu patrono ou dos devotos.\n\nEmbora muitas vezes o sumo-sacerdote seja também o clérigo mais poderoso de sua fé, o título nem sempre está ligado diretamente a experiência ou poder. Ele pode ser conquistado por meio de atos extraordinários de devoção, derrotando o antigo detentor do posto ou realizando façanhas incomparáveis em nome do deus.\n\nPoucos títulos em Arton carregam consigo maior respeito e glória. Tornar-se sumo-sacerdote não é um feito menor que conquistar a coroa de um grande reino, ou que derrotar um dos maiores vilões do mundo. É a jornada de uma vida inteira, um objetivo grandioso que deve ocupar cada ato, cada decisão do candidato."
+    }
+  ],
+  "mecanica": {
+    "admissao": "A escolha de um sumo-sacerdote é envolta em mistério. O candidato deve chamar a atenção da divindade com um ato ou vários de extrema relevância para as crenças da religião. Isso pode significar um desafio ao atual sumo-sacerdote, em combate ou outra forma de disputa, ou a resolução de algum conflito que o atual sumo-sacerdote falhou em resolver. Exceto em casos muito raros, apenas uma pessoa pode ocupar o cargo por vez. Qualquer ato que motive um deus a escolher um novo sumo-sacerdote será sentido por toda Arton.",
+    "marca": {
+      "nome": "Autoridade Divina",
+      "descricao": "Você é a autoridade máxima em uma igreja reconhecida pelos outros membros de sua fé. Você recebe o poder Autoridade Eclesiástica para sua divindade. Se já tiver esse poder, em vez disso recebe +2 em Religião e na CD de suas magias divinas."
+    },
+    "poderes": [
+      {
+        "nome": "Proteção Divina",
+        "descricao": "Ofensas de devotos menores não afetam o sumo; ele é o escolhido de seu deus. Você passa automaticamente em testes de resistência contra magias divinas lançadas por devotos de sua divindade. Pré-requisitos: treinado em Religião, devoto de um deus maior."
+      },
+      {
+        "nome": "Bênção do Patrono",
+        "descricao": "Os deuses olham por seus principais mensageiros. Você recebe um poder concedido de seu deus, desde que cumpra seus pré-requisitos. Além disso, pode gastar uma ação de movimento para trocar um de seus poderes concedidos por outro. Para cada outro poder da distinção, você recebe um novo poder concedido. Este poder afeta apenas poderes recebidos por sua devoção. Pré-requisito: Proteção Divina."
+      },
+      {
+        "nome": "Evolução Espiritual",
+        "descricao": "Para melhor representar seu deus, o sumo-sacerdote é abençoado com seu poder divino. Para cada poder da distinção, você recebe +5 PV e +2 PM, e a CD de suas magias divinas e de seus poderes concedidos por sua divindade aumenta em +1. Pré-requisito: Proteção Divina."
+      },
+      {
+        "nome": "Presente dos Deuses",
+        "descricao": "Qualquer que seja sua origem, todo sumo-sacerdote é um canal para os milagres divinos. Você recebe a habilidade Magias, como um clérigo de nível igual ao dobro dos poderes da distinção que você possui. Se já possui essa habilidade, em vez disso soma sua Sabedoria no limite de PM que pode gastar em magias divinas e em seu total de PM (cumulativo com efeitos que já o fazem). Pré-requisito: Bênção do Patrono."
+      },
+      {
+        "nome": "Punição Divina",
+        "descricao": "O sumo-sacerdote é um instrumento da ira de seu deus. O sumo-sacerdote pode gastar uma ação padrão para cancelar as magias divinas e os poderes concedidos de um devoto de sua divindade em sua linha de visão (Von CD Sab, +1 por poder da distinção, evita e o devoto não pode mais ser punido por 1 dia). A punição pode ser revertida com uma ação padrão do sumo-sacerdote ou com uma missão sagrada realizada como parte de um rito (veja Religião em Tormenta20, p. 122). Pré-requisito: Bênção do Patrono."
+      }
+    ]
+  }
+}

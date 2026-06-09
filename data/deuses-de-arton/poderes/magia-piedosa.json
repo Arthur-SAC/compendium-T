@@ -1,0 +1,15 @@
+{
+  "id": "magia-piedosa",
+  "tipo": "poder",
+  "nome": "Magia Piedosa",
+  "resumo": "Ao lançar magia que causa dano, pode fazer com que ela cause dano não letal.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lena",
+    "prerequisito": "",
+    "descricao": "Quando lança uma magia que causa dano, você pode fazer com que ela cause dano não letal. (Concedido também por Thyatis.)"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "coragem-de-sangue",
+  "tipo": "item",
+  "nome": "Coragem de Sangue",
+  "resumo": "Receita forte e pungente servida em chamas que desperta o instinto de luta, concedendo um ataque extra ao fazer a ação agredir uma vez por dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "arsenal", "rotulo": "Arsenal" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 4",
+    "espacos": "0",
+    "especial": "Prato especial de Arsenal. Uma vez até o fim do dia, quando faz a ação agredir, você pode executar um ataque extra."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "os-antigos-deuses",
+  "tipo": "regra",
+  "nome": "Os Antigos Deuses",
+  "resumo": "Conceito e regras sobre os cinco deuses maiores que caíram antes ou durante os eventos atuais de Arton, e como jogar com devotos de divindades caídas.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "deus-caido",
+      "alvoTipo": "divindade",
+      "alvoId": "glorienn",
+      "rotulo": "Glórienn"
+    },
+    {
+      "tipo": "deus-caido",
+      "alvoTipo": "divindade",
+      "alvoId": "keenn",
+      "rotulo": "Keenn"
+    },
+    {
+      "tipo": "deus-caido",
+      "alvoTipo": "divindade",
+      "alvoId": "ragnar",
+      "rotulo": "Ragnar"
+    },
+    {
+      "tipo": "deus-caido",
+      "alvoTipo": "divindade",
+      "alvoId": "tauron",
+      "rotulo": "Tauron"
+    },
+    {
+      "tipo": "deus-caido",
+      "alvoTipo": "divindade",
+      "alvoId": "tilliann",
+      "rotulo": "Tilliann"
+    }
+  ],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Introducao",
+      "texto": "Quando foram criados pelo Nada e pelo Vazio, em tempos imemoriais, os deuses eram vinte. Esse número sagrado deveria ser sempre mantido. Uma única ausência colocaria em risco o equilíbrio delicado que preserva a própria realidade como a conhecemos. Assim, tal como uma família, os vinte seguiram superando suas desavenças em nome de um bem maior.\n\nPelo menos até onde se sabe. Pois os deuses que conhecemos talvez não sejam os mesmos presentes no início da Criação. Talvez uma ou mais divindades originais tenham caído antes mesmo do surgimento dos primeiros povos. Se isso aconteceu, ninguém jamais poderá saber ou provar; apenas os próprios deuses sabem. A única certeza é que essa harmonia não duraria para sempre.\n\nOs próprios deuses buscariam formas de manter o Panteão coeso, evitar o apocalipse. Os Rubis da Virtude exerceram esse papel por algum tempo, até que Sszzaas os perverteu em ferramentas de manipulação. Ainda assim, embora descoberto e banido por seu crime, o Deus da Traição teve sua posição preservada — pois deve haver vinte. A decisão extrema de expulsar definitivamente um membro seria tomada raríssimas vezes, apenas quando houvesse substitutos viáveis.\n\nArton passou por tempos conturbados. Entre os antigos deuses maiores, cinco caíram. Mortos ou privados de seu status, reduzidos a criaturas diferentes. Esses ex-deuses são: Glórienn (Deusa dos Elfos), Keenn (Deus da Guerra), Ragnar (Deus da Morte), Tauron (Deus da Força) e Tilliann (Deus dos Gnomos)."
+    },
+    {
+      "titulo": "Jogando com os Deuses Caidos",
+      "texto": "Glórienn, Keenn, Ragnar, Tauron e Tilliann não existem mais como deuses maiores na época atual de Tormenta20. Suas quedas foram grandes eventos históricos. Este livro apresenta o Panteão em seu estado atual, com os deuses ativos no ano de 1420. Regras para devotos dos deuses caídos estão em materiais que apresentam épocas anteriores de Arton, como Guerra Artoniana e A Libertação de Valkaria. Tilliann é a exceção: nunca houve devotos do Deus dos Gnomos no mundo material. No entanto, os aventureiros terão a chance de interagir mais com ele, de formas muito significativas, em Fim dos Tempos Arco 2: Valkaria.\n\nSe o mestre decidir manter esses deuses ativos, encontrando explicações para evitar seu declínio, estará criando uma versão alternativa de Arton. O que não é, de forma alguma, algo ruim. Um deus maior não desaparece por completo com facilidade. Como visto em A Deusa no Labirinto, Glórienn não morreu, mas se tornou algo diferente — e o cadáver imenso de Tauron ainda jaz na capital Tiberus. Ragnar e Keenn, também derrotados em batalha (respectivamente em A Flecha de Fogo e Deus da Guerra), devem ter deixado vestígios. Quanto a Tilliann, apesar de sua obliteração quase completa, existem vestígios de sua antiga presença.\n\nCaso seu grupo opte por essa versão, você tem a chance de ser, literalmente, o último campeão de sua divindade. Você ainda se lembra? Recusa-se a aceitar sua queda? Ainda apregoa seu nome e seus objetivos? Busca uma forma de restaurar seu patrono ao Panteão? Você ouve sua voz, ou será apenas loucura?\n\nAlém disso, talvez qualquer presença residual possa oferecer poder divino… e restringir esse poder em caso de desobediência aos objetivos originais do deus. Nesse caso, não se trataria de simples energia ou combustível de magias — seria a própria essência de um ser cósmico feito de ideais e conceitos. As convicções de alguém tão poderoso não são apenas pensamentos que se apagam com sua morte, são energia pura. Então, assim como uma semente não germina sem luz, um milagre divino não acontece sem fidelidade sincera ao deus, vivo ou morto."
+    }
+  ]
+}

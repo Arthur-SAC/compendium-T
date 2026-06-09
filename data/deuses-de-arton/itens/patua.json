@@ -1,0 +1,19 @@
+{
+  "id": "patua",
+  "tipo": "item",
+  "nome": "Patuá",
+  "resumo": "Pequeno saco com ervas, substâncias sagradas e orações, usado como amuleto. Concede redução de dano 2/mundano e resistência a magia +1 para devotos.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Se tiver uma devoção, você recebe redução de dano 2/mundano e resistência a magia +1."
+  }
+}

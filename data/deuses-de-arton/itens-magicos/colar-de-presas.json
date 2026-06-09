@@ -1,0 +1,22 @@
+{
+  "id": "colar-de-presas",
+  "tipo": "item-magico",
+  "nome": "Colar de Presas",
+  "resumo": "Adereço de dentes e garras de Megalokk que concede +2 em Intimidação e –2 em Diplomacia. Para devotos, também +2 em ataque e dano com armas naturais.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "megalokk", "rotulo": "Megalokk" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este adereço é feito com dentes e garras de monstros unidos por tendões. Se for vestido, fornece +2 em Intimidação, mas impõe –2 em Diplomacia. Mais do que isso, carrega em seu âmago o instinto brutal das feras e, se você for um devoto de Megalokk, fornece também +2 em testes de ataque e rolagens de dano com armas naturais. Acessório médio, preço T$ 21.000."
+    }
+  ]
+}

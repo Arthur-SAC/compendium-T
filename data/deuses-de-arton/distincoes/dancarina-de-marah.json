@@ -1,0 +1,44 @@
+{
+  "id": "dancarina-de-marah",
+  "tipo": "distincao",
+  "nome": "Dançarina de Marah",
+  "resumo": "Devota de Marah que combina dança sagrada e disciplina atlética extrema para transmitir paz, apaziguar conflitos e cativar aliados e inimigos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 82 },
+  "imagens": ["/distincoes/dancarina-de-marah.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Como sabem seus devotos, Marah não é apenas a Deusa da Paz. É também uma divindade do amor, da paixão ardente, das festividades coloridas e dos espetáculos contagiantes.\n\nDançarinas de Marah são personificações da graça, beleza e compaixão. Combinam movimentos encantadores e charme magnético para transmitir harmonia e apaziguar corações inquietos. Sua dança não apenas acalma a violência, mas também desperta sentimentos profundos de alegria e admiração, cada movimento uma oferenda divina que seduz a alma e enleva o espírito.\n\nEstas artistas sagradas treinam para transformar o corpo em um veículo do amor divino, capaz de expressar a força e delicadeza da paz. Em tempos de conflito, a presença da dançarina de Marah é um bálsamo de conforto. Seus passos fluidos desfazem a obstinação do guerreiro mais furioso, pacificam mentes e interrompem batalhas. Ela não luta com armas; usa sua arte para se esquivar de ataques, desarmar hostilidades, imobilizar agressores e inspirar aliados.\n\nFora dos campos de batalha, são estrelas em festivais e celebrações. Nos templos de Marah, suas danças embelezam rituais para guiar fiéis em experiências transcendentes. Embora muitos sejam atraídos por sua aparência encantadora, dançarinas de Marah não são apenas musas, mas também líderes espirituais e até mártires que se sacrificam para exaurir toda a violência que existe num ambiente.\n\nToda a harmonia, alegria e amor que uma dançarina de Marah espalha escondem uma disciplina rígida e um físico fortalecido a níveis espantosos. Toda dançarina de Marah é uma atleta, alguém que treina incansavelmente para realizar os movimentos mais extenuantes. As dançarinas pertencem a ordens específicas de Marah, considerando-se irmãs e cúmplices num rito privativo. Possuem códigos e sinais secretos que usam entre si, para comunicar sobre perigos ou oportunidades.\n\nEmbora a tradição da dança de Marah seja primariamente feminina, a técnica pode ser dominada por devotos de todos os sexos e gêneros. Sozinhas ou em companhias, dançarinas de Marah percorrem Arton como portadoras do amor, deixando harmonia por onde passam. Não importa a qual convento pertençam, não importa onde tenham sido treinadas, todas têm a obrigação de sair ao mundo espalhando sua dádiva."
+    }
+  ],
+  "mecanica": {
+    "admissao": "O processo para se tornar uma dançarina de Marah é exigente, extenuante e rigoroso. A candidata precisa ser devota de Marah. Algumas dançarinas já experientes vagam por tavernas e cortes em todo o continente, buscando devotas que demonstrem potencial para a dança extenuante. Também é comum que uma candidata procure um convento e se apresente, pedindo para ser treinada.\n\nO que se segue é um teste que a maioria das ordens de cavalaria acharia exagerado e excessivamente punitivo. A candidata deve dançar para uma banca de juízes, precisando ser capaz de mudar sua coreografia para se adequar a diferentes estilos de dança que a banca exige. Essa performance pode durar vários minutos, ou até mais de uma hora! Segue-se uma prova de cultura (focada em arte e religião), além de uma sabatina sobre os preceitos de Marah. O fim do teste é uma prova de resistência: a candidata deve ser capaz de sustentar o próprio corpo em posições difíceis ou desconfortáveis por bastante tempo, sem fraquejar.\n\nSe passar no teste, a candidata deve se mudar imediatamente para o convento — que é um misto de templo, internato e academia de dança. A candidata permanece no convento por uma estação inteira, sem contato com o mundo exterior. Ao fim da estação, a candidata deve empreender uma grande missão a sua escolha: resolver algum conflito significativo com uma apresentação de dança.\n\nPor fim, ela deve voltar ao convento e se apresentar para seus mestres com uma coreografia de sua autoria, que conte a história do conflito que ela resolveu. Dependendo da nota que a banca dê a sua performance, a candidata é aprovada, tornando-se então uma verdadeira dançarina de Marah.",
+    "marca": {
+      "nome": "Graça de Marah",
+      "descricao": "Para a dançarina de Marah, a arte é uma linguagem universal. Você soma sua Sabedoria em Atuação. Além disso, pode substituir testes de Diplomacia por testes de Atuação."
+    },
+    "poderes": [
+      {
+        "nome": "Transe Dançante",
+        "descricao": "A beleza dos movimentos da dançarina de Marah transcende a realidade. Você pode gastar 3 PM para entrar em um transe dançante que gera uma aura de 9m de raio. Para manter esse transe, em cada um dos seus turnos você precisa se deslocar pelo menos 6m, sem passar pelos mesmos quadrados. Você e seus aliados dentro da aura podem executar uma ação de movimento adicional por turno e recebem +2 em testes de resistência e na Defesa. Para cada dois outros poderes da distinção que você possui, esse bônus aumenta em +1. Pré-requisitos: Foco em Perícia (Atuação), dois poderes concedidos de Marah."
+      },
+      {
+        "nome": "Contrapasso do Espírito",
+        "descricao": "Mais do que entreter, a arte da dançarina de Marah guia os espíritos de seus aliados. Enquanto estiver em Transe Dançante, no início de cada um dos seus turnos, você e seus aliados dentro da aura recebem uma quantidade de PV temporários igual a 5 + seu Carisma. Pré-requisito: Transe Dançante."
+      },
+      {
+        "nome": "Dança Hipnótica",
+        "descricao": "Os passos da dançarina induzem, incitam e movem de uma forma que não pode ser recusada. Se estiver em Transe Dançante, no início de cada um dos seus turnos, a categoria de atitude de cada inimigo dentro da aura melhora em um passo (apenas uma vez por cena) e ele fica fascinado (Vontade CD Car evita os efeitos e a criatura fica imune a esta habilidade até o fim da cena). Pré-requisitos: Êxtase da Dançarina, três poderes concedidos de Marah."
+      },
+      {
+        "nome": "Êxtase da Dançarina",
+        "descricao": "Os passos da dançarina de Marah cativam até seus inimigos. Enquanto estiver em Transe Dançante, você soma o bônus do seu Transe na CD dos testes de Vontade das suas habilidades contra criaturas dentro da aura. Pré-requisito: Transe Dançante."
+      },
+      {
+        "nome": "No Ritmo da Magia",
+        "descricao": "Os passos da dançarina de Marah são carregados de magia. Enquanto está em Transe Dançante, você pode lançar a magia Salto Dimensional (Tormenta20, p. 205). Caso aprenda essa magia, durante o Transe o custo dela diminui em –1 PM. Pré-requisito: Transe Dançante."
+      }
+    ]
+  }
+}

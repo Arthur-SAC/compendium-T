@@ -1,0 +1,22 @@
+{
+  "id": "coracao-corrompido",
+  "tipo": "item-magico",
+  "nome": "Coração Corrompido",
+  "resumo": "Pequeno baú com coração ressequido de Aharadak que, revigorado com sangue de criaturas inteligentes, absorve dano e condições sofridos pelo devoto, até 100 PV e três condições.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 55 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "aharadak", "rotulo": "Aharadak" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Maior",
+    "preco": "T$ 45.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este pequeno baú de madeira esconde um coração cinzento e ressequido. Se um devoto de Aharadak matar uma criatura inteligente e derramar um pouco do sangue dela no coração, ele volta à 'vida', ficando vermelho e pulsante. Enquanto o coração corrompido estiver vivo, qualquer dano ou condição causado ao devoto será absorvido pelo item. O coração pode absorver até 100 pontos de dano e três condições. Quando isso acontecer, volta ao seu estado 'morto'... até um novo sacrifício ser feito. O devoto não precisa estar em posse do coração para o efeito funcionar, apenas saber onde ele está. Isso significa que o devoto pode deixar o item escondido, mas, claro, quanto mais longe ele estiver, mais difícil será 'revivê-lo' se necessário. Acessório maior, T$ 45.000."
+    }
+  ]
+}

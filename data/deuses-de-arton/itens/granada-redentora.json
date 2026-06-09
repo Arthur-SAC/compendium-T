@@ -1,0 +1,20 @@
+{
+  "id": "granada-redentora",
+  "tipo": "item",
+  "nome": "Granada Redentora",
+  "resumo": "Dispositivo alquímico santificado que cura 6d4 PV por luz a criaturas em raio de 3m. Só pode ser fabricado por devotos de deuses de energia positiva.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Preparado",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Para usar a granada redentora, você precisa empunhá-la e gastar uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto recuperam 6d4 pontos de vida por luz. Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva."
+  }
+}

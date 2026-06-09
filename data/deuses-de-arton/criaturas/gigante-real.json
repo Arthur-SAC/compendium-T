@@ -1,0 +1,58 @@
+{
+  "id": "gigante-real",
+  "tipo": "criatura",
+  "nome": "Gigante Real",
+  "resumo": "Os maiores gigantes existentes — a versão humanoide dos kaiju. Também chamados kiojin em Tamu-ra. Vivem isolados, criados por Megalokk no passado remoto, extremamente irritadiços mas também curiosos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 312 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também chamados de kiojin em Tamu-ra, estes são os maiores gigantes existentes — a versão humanoide dos kaiju das Sanguinárias, figurando entre os maiores seres vivos na face de Arton. Diz-se que, antes de avançar contra o Reinado, Mestre Arsenal testou seu Kishinauros em batalha contra estes seres.\n\nGigantes reais vivem isolados, não formando comunidades, nem mesmo casais. Como também acontece com os kaiju, eles não se reproduzem de formas naturais; foram criados por Megalokk no passado remoto, sem que outros tenham nascido desde então. Muitos podem, inclusive, estar hibernantes em pontos remotos do mundo.\n\nEstes gigantes, como os demais, são extremamente irritadiços — mas também curiosos. Não toleram outras criaturas em seu território, mas buscam observar os povos menores em suas vilas, o que sempre causa pânico geral. Essa reação acaba por deixá-los zangados, levando a ímpetos de fúria e destruição."
+    }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Colossal",
+    "iniciativa": "+14",
+    "percepcao": "+9",
+    "sentidos": "",
+    "defesa": "59, Fort +32, Ref +26, Von +19, fortificação 50%, redução de dano 20",
+    "pontosDeVida": "1.140",
+    "deslocamento": "15m (10q), sem redução por terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Clava x3 +52 (5d20+40, x3)."
+    ],
+    "atributos": {
+      "forca": "17",
+      "destreza": "-1",
+      "constituicao": "15",
+      "inteligencia": "-1",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Arremessar Descomunal (Completa)",
+        "descricao": "O gigante arremessa uma criatura que esteja agarrando ou um objeto Enorme ou menor em um ponto em alcance longo, atingindo uma área equivalente ao espaço da criatura ou objeto arremessado. Criaturas nessa área (e a criatura arremessada, se for o caso) sofrem 20d10+40 pontos de dano de impacto e ficam atordoadas por 1 rodada e caídas (Ref CD 47 reduz à metade e evita as condições; uma criatura só pode ser atordoada por esta habilidade uma vez por cena)."
+      },
+      {
+        "nome": "Golpe Racha-Montanha (Completa)",
+        "descricao": "O gigante faz um único ataque corpo a corpo com +5 na margem de ameaça e no multiplicador de crítico. Recarga (movimento)."
+      },
+      {
+        "nome": "Pisotear o Solo (Completa)",
+        "descricao": "O gigante gera uma onda de choque que afeta um raio de 30m. Criaturas na área em contato com o solo sofrem 25d12 pontos de dano de impacto e ficam caídas (Ref CD 47 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Titânico",
+        "descricao": "O gigante é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 18d6 pontos de dano de impacto (uma vez por rodada por criatura, Ref CD 47 reduz à metade). Além disso, seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)."
+      }
+    ],
+    "pericias": "Atletismo +34, Intimidação +34.",
+    "tesouro": "Padrão.",
+    "tema": "Gigantes"
+  }
+}

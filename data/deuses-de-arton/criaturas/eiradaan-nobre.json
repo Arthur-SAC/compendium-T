@@ -1,0 +1,72 @@
+{
+  "id": "eiradaan-nobre",
+  "tipo": "criatura",
+  "nome": "Eiradaan Nobre",
+  "resumo": "Cavaleiro feérico de elite da Rainha das Fadas, com código de honra rígido e montaria celestial (gamo presenteado por Allihanna). Combatente e conjurador formidável que nunca ataca inimigos em desvantagem.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 296 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Os assim chamados eiradaan nobres são cavaleiros feéricos — guardiões, guerreiros e soldados de elite da Rainha das Fadas. São imponentes e dignos, vivendo conforme códigos e tabus de honra e glória, duelando (entre si ou com mortais) ou protegendo locais sagrados. Suas montarias são grandes gamos celestiais presenteados por Allihanna; dizem que a deusa, às vezes, também oferta essas montarias sagradas a outros devotos valorosos."
+    }
+  ],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Espírito (eiradaan)",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+16",
+    "percepcao": "+14",
+    "sentidos": "visão no escuro",
+    "defesa": "41, Fort +14, Ref +19, Von +26, resistência a magia +4, redução de dano 5",
+    "pontosDeVida": "470",
+    "pontosDeMana": "65",
+    "deslocamento": "12m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa de mitral x2 +35 (4d8+52, 18)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "4",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "4",
+      "carisma": "6"
+    },
+    "pericias": "Cavalgar +16, Conhecimento +14, Diplomacia +18, Intuição +14, Misticismo +14, Sobrevivência +14.",
+    "equipamento": "Espada longa de mitral.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Canção da Melancolia",
+        "descricao": "Quando faz um teste de Vontade contra efeitos mentais, o eiradaan nobre rola dois dados e usa o pior resultado. Quando um oponente ataca o eiradaan nobre, rola dois dados e usa o pior resultado."
+      },
+      {
+        "nome": "Código de Honra",
+        "descricao": "O eiradaan não pode atacar um oponente pelas costas (em termos de jogo, não pode se beneficiar do bônus de flanquear), caído, desprevenido ou incapaz de lutar."
+      },
+      {
+        "nome": "Duelo (Livre, 2 PM)",
+        "descricao": "O eiradaan escolhe um oponente em alcance curto e recebe +2 em testes de ataque e rolagens de dano contra ele até o fim da cena ou até atacar outro oponente."
+      },
+      {
+        "nome": "Montaria Celestial",
+        "descricao": "O eiradaan cavalga um gamo celestial, um parceiro montaria Grande. Enquanto estiver montado, seu deslocamento se torna 15m e ele recebe uma ação de movimento extra (apenas para se deslocar)."
+      },
+      {
+        "nome": "Sentidos Místicos",
+        "descricao": "O eiradaan está sempre sob o efeito básico de Visão Mística."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 13º nível (CD 37). Ele pode lançar magias montado sem precisar de testes de concentração e o custo total dos aprimoramentos de suas magias diminui em –1 PM (já contabilizado).\n• Concentração de Combate (Padrão, 7 PM) Até o fim da cena, quando faz um ataque, o eiradaan rola dois dados e usa o melhor resultado.\n• Libertação (Padrão, 9 PM) O eiradaan fica imune a efeitos de movimento e ignora qualquer efeito que impeça ou restrinja seu deslocamento.\n• Relâmpago (Padrão, 15 PM) O eiradaan lança um relâmpago em cada criatura escolhida em alcance médio, causando 16d8 pontos de dano de eletricidade (Ref reduz à metade).\n• Selo de Mana (Padrão, 6 PM) Um selo mágico se manifesta em uma criatura adjacente até o fim da cena. Sempre que ela fizer qualquer ação que gaste PM, deve fazer um teste de Vontade. Se passar, a ação funciona. Se falhar, a ação não tem efeito, mas os PM são gastos mesmo assim.\n• Velocidade (Padrão, 3 PM, sustentada) O eiradaan pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      },
+      {
+        "nome": "Parceiro (Gamo Celestial)",
+        "descricao": "O gamo é um parceiro montaria (Grande) que fornece os benefícios a seguir. Iniciante: seu deslocamento muda para 12m e você ignora terreno difícil. Veterano: você ganha deslocamento de voo 12m. Mestre: você pode gastar uma ação completa e 10 PM para transportar você e o gamo para o Plano etéreo (como o efeito básico da magia Forma Etérea), com duração sustentada. O efeito acaba se você desmontar do gamo."
+      }
+    ]
+  }
+}

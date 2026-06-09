@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-pyra",
+  "tipo": "poder",
+  "nome": "Herança de Pyra",
+  "resumo": "Uma segunda chance: gaste 2 PM para rolar novamente um teste de resistência ou de atributo para remover condição.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Em algum lugar dentro de você, sempre existe uma segunda chance. Quando faz um teste de resistência ou um teste de atributo para remover uma condição, você pode gastar 2 PM para rolá-lo novamente."
+  }
+}

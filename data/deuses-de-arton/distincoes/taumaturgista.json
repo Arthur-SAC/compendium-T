@@ -1,0 +1,44 @@
+{
+  "id": "taumaturgista",
+  "tipo": "distincao",
+  "nome": "Taumaturgista",
+  "resumo": "Conjurador especializado em invocar criaturas de outros Planos por meio de pactos e barganha, utilizando os poderes de seres extraplanares para atingir seus objetivos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 130 },
+  "imagens": ["/distincoes/taumaturgista.png"],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O taumaturgista é um conjurador singular, especializado em técnicas de invocação de criaturas de outros Planos para auxiliá-lo em seus objetivos. Entre os usuários de magia, é alguém especialmente ousado, talvez temerário — apresenta a vinda a Arton como grande prêmio para entidades muito mais poderosas que ele mesmo, atua como conduíte para suas ambições neste mundo. Por meio de pactos cuidadosamente selados, pela força de sua magia ou até mesmo por amizades genuínas, o taumaturgista utiliza os poderes de seres extraplanares para influenciar o destino de Arton e atingir suas próprias ambições.\n\nSua habilidade para barganhar com criaturas de outros Planos é extraordinária. Taumaturgistas conseguem acordos vantajosos e extraem a cooperação de seus \"sócios\" por custos mínimos. Os mais experientes podem conquistar a lealdade de um seguidor extraplanar permanente, obtendo um aliado poderoso que compartilha de seus ideais e objetivos — ou um servo fiel, preso por obrigação ou respeito.\n\nPor seu envolvimento e aparente desafio aos deuses, os taumaturgistas são considerados hereges ou apóstatas por vários religiosos. Nenhuma escola de magia ensina estas técnicas em aberto, nenhuma congregação aceita que se reúnam, exceto em segredo. A taumaturgia é uma prática oculta, cheia de diagramas e fórmulas guardados de forma egoísta — um jogo eterno entre taumaturgista e extraplanar, que ambos pensam estar vencendo."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Nunca se deve falar abertamente sobre o desejo de ser um taumaturgista. O caminho é solitário, soturno e macabro. O candidato deve obter tomos raríssimos de origem nardmyr — o primeiro império humano, que existiu em Lamnor —, o que exige uma expedição a Lamnor para explorar ruínas. Depois de estudar esses tomos, o candidato deve invocar um extraplanar de poder considerável e firmar um acordo com ele, levando a melhor na negociação. Por fim, deve visitar o Plano do extraplanar e negociar com seu superior em território alheio, trazendo o extraplanar menos poderoso a Arton como servo ou aliado. Se fizer o extraplanar assinar o contrato que o prejudica, o candidato conquista o título de taumaturgista.",
+    "marca": {
+      "nome": "Auxiliar Divino",
+      "descricao": "As primeiras conjurações do taumaturgista envolvem pequenos seres dos mundos divinos. Você aprende e pode lançar uma das magias a seguir como uma de suas magias divinas: Conjurar Monstro, Montaria Arcana ou Servos Invisíveis. A cada dois poderes da distinção, você aprende e pode lançar outra dessas magias (caso aprenda novamente uma delas, seu custo diminui em –1 PM)."
+    },
+    "poderes": [
+      {
+        "nome": "Amigo de Outro Mundo",
+        "descricao": "Ninguém nunca teve um amigo assim. Você tem um amigo de outro mundo, uma criatura extraplanar que você pode invocar em momentos de necessidade. Escolha um parceiro entre os parceiros básicos (Tormenta20, p. 260) ou entre um pilly, luminar, pégaso ou dragonete (veja o Capítulo 4). Uma vez feita, essa escolha não pode ser mudada. Você pode gastar uma ação de movimento e 2 PM para invocar seu amigo de outro mundo, que aparece com um brilho de luz mágica ao seu lado e permanece até o fim da cena ou até ser destruído (um amigo destruído não pode ser invocado novamente por 1 dia). Seu amigo é um parceiro iniciante mas, para cada dois outros poderes da distinção, sobe um nível (de iniciante para veterano, de veterano para mestre). Pré-requisitos: treinado em Religião, capacidade de lançar magias divinas de 3° círculo, Servo Divino."
+      },
+      {
+        "nome": "Barganha Planar",
+        "descricao": "O pacto do taumaturgista infunde suas invocações com poder planar. Escolha um dos efeitos a seguir (uma vez feita, essa escolha não pode ser alterada). Quando invoca seu amigo de outro mundo ele traz uma fração de poder extraplanar do tipo escolhido.\n• Abissal: Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem 2d8+2 pontos de dano de trevas e ficam abaladas por 1 rodada (Vontade CD Sab reduz à metade e evita a condição).\n• Celestial: Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele recebem 4d8+4 PV temporários.\n• Elemental: Escolha um elemento entre ácido, eletricidade, fogo ou frio. Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem 2d12+2 pontos de dano do tipo escolhido (Reflexos CD Sab reduz à metade).\n• Feérico: Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem –2 em testes de Vontade por 1 rodada.\nPré-requisito: Amigo de Outro Mundo."
+      },
+      {
+        "nome": "Contrato Planar",
+        "descricao": "Um taumaturgista habilidoso mantém mais de um contrato planar ativo, sempre. Você tem um segundo amigo de outro mundo. Escolha um efeito de Barganha Planar para esse segundo amigo. Se escolher um igual, ele é cumulativo. Pré-requisito: Barganha Planar."
+      },
+      {
+        "nome": "Invocação Corrompida",
+        "descricao": "Em suas pesquisas, o taumaturgista pode encontrar coisas terríveis… que podem ser invocadas. Um ou mais dos seus amigos de outro mundo se tornam corrompidos pela Tormenta. Quando esse amigo é invocado, criaturas a sua escolha em um raio de 6m dele perdem 2d4 PM (CD Sab reduz à metade). Se isso zerar seus PM, a criatura fica confusa. Além disso, enquanto esse amigo estiver presente, você recebe +5 em Percepção e não pode ser flanqueado. Pré-requisitos: Amigo de Outro Mundo, dois poderes da Tormenta."
+      },
+      {
+        "nome": "Titereiro Planar",
+        "descricao": "Para o taumaturgista, controlar convocações menores se torna um ato banal. Quando lança Conjurar Monstro, você pode dar ordens ao monstro como uma ação de movimento (em vez de uma ação padrão) e a magia não conta no limite de magias que você pode sustentar em um turno. Pré-requisitos: Conjurar Monstro, Amigo de Outro Mundo."
+      }
+    ]
+  }
+}

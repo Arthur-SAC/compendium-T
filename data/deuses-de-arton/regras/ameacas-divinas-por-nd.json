@@ -1,0 +1,16 @@
+{
+  "id": "ameacas-divinas-por-nd",
+  "tipo": "regra",
+  "nome": "Ameaças Divinas por Nível de Desafio",
+  "resumo": "Tabela com todas as criaturas e perigos do Capítulo 4 de Deuses de Arton organizados por Nível de Desafio.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 319 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Tabela 4-1: Ameaças por Nível de Desafio",
+      "texto": "| Criatura | Grupo | ND |\n|---|---|---|\n| Luminar | Celestiais | ? |\n| Duende Menor | Fadas | 1 |\n| Sílfide Travessa | Fadas | 1 |\n| Diabrete | Abissais | 2 |\n| Sátiro Arqueiro | Fadas | 2 |\n| Pilly | Celestiais | 3 |\n| Pégaso | Celestiais | 3 |\n| Vento Abrasador | Perigos | 3 |\n| Náiade | Fadas | 3 |\n| Diabrete Negociante | Abissais | 4 |\n| Aspecto de Lin-Wu | Aspectos | 4 |\n| Aspecto de Marah | Aspectos | 4 |\n| Dríade | Fadas | 4 |\n| Dragonete | Fadas | 4 |\n| Súcubo | Abissais | 5 |\n| Aspecto de Allihanna | Aspectos | 5 |\n| Aspecto de Khalmyr | Aspectos | 5 |\n| Aspecto de Valkaria | Aspectos | 5 |\n| Pântano Amaldiçoado | Perigos | 5 |\n| Duende Maior | Fadas | 5 |\n| Aucharai | Abissais | 6 |\n| Aspecto de Kallyadranoch | Aspectos | 6 |\n| Ninfa | Fadas | 6 |\n| Jairuan | Gênios | 6 |\n| Galokk Capanga | Gigantes | 6 |\n| Rhayrivel | Abissais | 7 |\n| Protetor | Celestiais | 7 |\n| Shiradi | Celestiais | 7 |\n| Eiradaan Guardião | Fadas | 7 |\n| Gigante das Colinas | Gigantes | 7 |\n| Trio de Carvarel | Abissais | 8 |\n| Fado | Celestiais | 8 |\n| Sílfide Encantadora | Fadas | 8 |\n| Velha Bruxa | Fadas | 9 |\n| Kemooz | Gênios | 9 |\n| Gigante das Rochas | Gigantes | 9 |\n| Gigante do Gelo | Gigantes | 9 |\n| Gigante dos Mares | Gigantes | 9 |\n| Jhumariel | Abissais | 10 |\n| Yazzu | Gênios | 10 |\n| Galokk Guarda-Costas | Gigantes | 10 |\n| Probo | Celestiais | 11 |\n| Gigante do Fogo | Gigantes | 11 |\n| Gizzehi | Gênios | 12 |\n| Eiradaan Nobre | Fadas | 13 |\n| Gigante Bicéfalo | Gigantes | 13 |\n| Margharon | Abissais | 14 |\n| Parcus | Celestiais | 14 |\n| Allaraz | Gênios | 14 |\n| Pégaso de Khalmyr | Celestiais | 15 |\n| Muhir | Celestiais | 15 |\n| Dabbus | Gênios | 15 |\n| Orel | Celestiais | 16 |\n| Cataclismo | Perigos | 17 |\n| Avatar de Arsenal | Avatares | 18 |\n| Avatar de Thwor | Avatares | 18 |\n| Avatar de Hyninn | Avatares | 19 |\n| Avatar de Lin-Wu | Avatares | 19 |\n| Avatar de Marah | Avatares | 19 |\n| Avatar de Sszzaas | Avatares | 19 |\n| Avatar de Thyatis | Avatares | 19 |\n| Gigante Real | Gigantes | 19 |\n| Avatar de Allihanna | Avatares | 20 |\n| Avatar de Kallyadranoch | Avatares | 20 |\n| Avatar de Lena | Avatares | 20 |\n| Avatar de Megalokk | Avatares | 20 |\n| Avatar de Tanna-Toh | Avatares | 20 |\n| Fúria Extrema | Celestiais | 20 |\n| Abahddon | Abissais | S |\n| Lamashtu | Abissais | S |\n| Avatar de Aharadak | Avatares | S |\n| Avatar de Azgher | Avatares | S |\n| Avatar de Khalmyr | Avatares | S |\n| Avatar do Oceano | Avatares | S |\n| Avatar de Tenebra | Avatares | S |\n| Avatar de Wynna | Avatares | S |\n| Avatar de Nimb | Avatares | S+ |\n| Avatar de Valkaria | Avatares | S+ |\n| Gigante Máximo | Gigantes | S+ |"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "avatar-de-arsenal",
+  "tipo": "criatura",
+  "nome": "Avatar de Arsenal",
+  "resumo": "O Deus da Guerra visita Arton com a aparência que tinha quando mortal: a característica couraça púrpura e capa esverdeada, empunhando o Martelo dos Trovões e a espada Holy Avenger, utilizando o Kishinauros quando necessário.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 159 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "arsenal", "rotulo": "Arsenal" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Arsenal compreende que sua ascensão é ainda recente e precária, adotando posturas cautelosas em suas intervenções no mundo mortal. Até o momento, há pouquíssimas notícias sobre manifestações de seu avatar. Quando necessário, ele utiliza o Kishinauros com esse objetivo (veja Ameaças de Arton, p. 142).\n\nDiz-se que Vanessa Drake, antiga clériga de Keenn e primeira clériga de Arsenal, foi também a primeira testemunha a vislumbrar sua forma de avatar. O Deus da Guerra visita Arton com a aparência que tinha quando mortal, trajando a característica couraça púrpura e capa esverdeada. Algumas vezes usa o sinistro elmo fechado, em outras exibe a antiga face humana — cheia de cicatrizes adquiridas durante a luta decisiva contra Keenn. Ele também empunha suas armas mais poderosas e icônicas, o Martelo dos Trovões e a espada Holy Avenger.\n\nItens do Arsenal de Arsenal:\n• Armadura de Arsenal. Esta é uma armadura completa de adamante guardiã invulnerável protetora capaz de assimilar até três itens mágicos vestidos. Itens armazenados dessa forma fornecem seus benefícios normalmente, não podem ser desarmados e não contam no limite de itens vestidos do personagem. Artefato.\n• Martelo dos Trovões. Esta poderosa arma é um martelo de guerra cruel pungente magnífico elétrico de arremesso. Se acertar um ataque de arremesso com este martelo, além de causar dano você empurra o alvo 4,5m na direção oposta. Artefato."
+    }
+  ],
+  "mecanica": {
+    "nd": "18",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+23",
+    "percepcao": "+25",
+    "defesa": "60, cura acelerada 5, imunidade a efeitos mentais e medo, maior que a morte, redução de dano 10, resistência a aventureiros +5",
+    "fortitude": "+32",
+    "reflexos": "+17",
+    "vontade": "+30",
+    "pontosDeVida": "1080",
+    "deslocamento": "12m (8q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Martelo dos Trovões +49 (8d8+36, 19/x3, mais 8d6 eletricidade), Holy Avenger x2 +49 (6d12+36, 18)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "6",
+      "constituicao": "12",
+      "inteligencia": "9",
+      "sabedoria": "8",
+      "carisma": "8"
+    },
+    "habilidades": [
+      {
+        "nome": "Acessar Arsenal (Padrão)",
+        "descricao": "O Avatar de Arsenal troca um dos itens equipados de sua Algibeira Infinita por outro item mágico qualquer (exceto itens únicos, como artefatos). Acessórios fornecem seus benefícios normalmente e surgem acoplados à armadura; eles não precisam ser vestidos ou empunhados. Armas e armaduras substituem as que o avatar estiver usando; substitua apenas os efeitos mágicos dos itens. Se um item tiver uma habilidade com custo em pontos de mana, o Avatar pode usá-la sem gastar PM (limite de PM 18)."
+      },
+      {
+        "nome": "Algibeira Infinita",
+        "descricao": "O Avatar tem acesso à imensa coleção de itens mágicos de Arsenal e começa cada cena equipado com um elmo do teletransporte, botas aladas e um anel do sustento (Tormenta20, Capítulo 8)."
+      },
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 18º nível sem gastar PM (CD 47, limite de PM 18) e pode lançar a magia Soco de Arsenal como ação livre uma vez por rodada."
+      },
+      {
+        "nome": "Extinção (Padrão)",
+        "descricao": "Uma vez por cena, o Avatar faz um ataque com a Holy Avenger contra uma criatura. Se acertar, a criatura é completamente destruída."
+      },
+      {
+        "nome": "Plano de Contingência (Reação)",
+        "descricao": "Uma vez por rodada, quando é alvo de um acerto crítico, manobra de combate ou habilidade mágica, o Avatar recebe +10 nos testes para resistir a esse efeito e redução de dano 50 contra qualquer dano que ele cause."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o Avatar faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Atletismo +31, Guerra +39, Intimidação +28, Misticismo +26, Pilotagem +23, Religião +25.",
+    "equipamento": "Armadura de Arsenal, Holy Avenger (veja p. 247), Martelo dos Trovões. Tesouro Padrão, mais quaisquer itens equipados por Algibeira Infinita.",
+    "tema": "Deuses & Avatares"
+  }
+}

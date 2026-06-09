@@ -1,0 +1,21 @@
+{
+  "id": "piercing-de-umbigo",
+  "tipo": "item",
+  "nome": "Piercing de Umbigo",
+  "resumo": "Joia apreciada por devotos de Marah, usada em parte visível e sensual do corpo, que aumenta a CD de habilidades que causam condições quando sem armadura.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "marah", "rotulo": "Marah" }
+  ],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "A CD para resistir às suas habilidades que causam as condições enfeitiçado, fascinado ou pasmo aumenta em +1, mas apenas se você estiver sem armadura ou usando uma armadura sensual (Heróis de Arton, Capítulo 3: Arsenal dos Heróis)."
+  }
+}

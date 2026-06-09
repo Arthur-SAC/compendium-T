@@ -1,0 +1,15 @@
+{
+  "id": "estouro-da-trobada",
+  "tipo": "poder",
+  "nome": "Estouro da Trobada",
+  "resumo": "Gasta ação completa e 2 PM para convocar manada Enorme de trobos que causa 3d6 de dano e derruba criaturas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "allihanna",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação completa e 2 PM para convocar uma manada de trobos (ou outro animal da região) em um ponto desocupado a sua escolha em alcance curto com duração sustentada. A manada é Enorme e pode passar pelo espaço de outras criaturas. Você pode gastar uma ação de movimento para mover a manada 12m em linha reta. Criaturas pelas quais ela passar sofrem 3d6 pontos de dano de impacto e ficam caídas (Fort CD Sab reduz à metade e evita a condição)."
+  }
+}

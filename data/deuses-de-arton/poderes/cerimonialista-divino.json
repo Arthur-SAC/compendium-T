@@ -1,0 +1,15 @@
+{
+  "id": "cerimonialista-divino",
+  "tipo": "poder",
+  "nome": "Cerimonialista Divino",
+  "resumo": "Uma vez por dia pode gastar 1 hora para executar cerimônia que concede dados de auxílio em testes a criaturas afetadas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lin-wu",
+    "prerequisito": "",
+    "descricao": "Uma vez por dia, você pode gastar 1 hora para executar uma cerimônia tradicional que afeta até 1 + seu Carisma criaturas por 1 dia. Faça um teste de Religião com um bônus igual ao seu Carisma. Para cada 10 pontos do resultado, cada criatura afetada recebe um dado de auxílio. Quando faz um teste de atributo ou perícia (exceto Enganação, Furtividade e Ladinagem), a criatura pode gastar um deles para receber +1d6 de bônus no teste. Para criaturas que gastarem T$ 25 em oferendas no ritual, esse bônus muda para +1d8."
+  }
+}

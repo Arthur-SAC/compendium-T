@@ -1,0 +1,22 @@
+{
+  "id": "adaga-ofidia",
+  "tipo": "item-magico",
+  "nome": "Adaga Ofídica",
+  "resumo": "Adaga cruel feita da presa de serpente gigantesca de Sszzaas, com veneno magicamente reposto a cada golpe. Para devotos, torna-se formidável e ignora resistência/imunidade a veneno.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "sszzaas", "rotulo": "Sszzaas" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 36.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta adaga cruel é feita da presa de uma serpente gigantesca. Possui um compartimento oco no cabo com veneno (peçonha concentrada) que é magicamente reposto a cada golpe. Se você for um devoto de Sszzaas, ela se torna uma adaga cruel formidável que ignora qualquer resistência ou imunidade a veneno de uma criatura atingida. Se você for de patamar campeão ou superior, o veneno vira peçonha potente. Arma específica média, preço T$ 36.000."
+    }
+  ]
+}

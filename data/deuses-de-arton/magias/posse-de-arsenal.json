@@ -1,0 +1,27 @@
+{
+  "id": "posse-de-arsenal",
+  "tipo": "magia",
+  "nome": "Posse de Arsenal",
+  "resumo": "Cria vínculo entre você e um item empunhado, dificultando seu roubo ou perda e permitindo invocá-lo a distância.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 63 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Convocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "1 item empunhado",
+    "duracao": "1 dia",
+    "custoPM": 1,
+    "descricao": "Esta magia cria um vínculo poderoso entre você e seus pertences, dificultando sua perda ou roubo. Você recebe +5 em testes contra as manobras desarmar e quebrar, e de Percepção contra punga (veja Ladinagem) para roubá-lo. Além disso, se tiver o item tirado de você involuntariamente e ele estiver em alcance curto, você pode invocá-lo às suas mãos com uma ação livre.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Arsenal: além do normal, você também pode convocar uma arma à sua mão mesmo se ela tiver sido arremessada voluntariamente."
+      }
+    ]
+  }
+}

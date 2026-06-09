@@ -1,0 +1,20 @@
+{
+  "id": "agua-benta-catalisador",
+  "tipo": "item",
+  "nome": "Água Benta (Catalisador)",
+  "resumo": "Catalisador sagrado que inflige –2 em testes de resistência e 2 dados extras de dano a abissais e mortos-vivos afetados pela magia divina lançada com ela.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 10",
+    "espacos": "0,5",
+    "especial": "Abissais e mortos-vivos afetados por uma magia divina lançada com água benta como catalisador sofrem –2 em testes de resistência e 2 dados extras de dano (se aplicável)."
+  }
+}
