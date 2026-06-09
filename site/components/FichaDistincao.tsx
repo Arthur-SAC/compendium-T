@@ -49,14 +49,6 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
               </p>
             </section>
 
-            {/* Quadros/sidebars (ex.: "A Língua dos Corvos") — após a Admissão */}
-            {quadros.map((s, i) => (
-              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
-                <h2 style={h2}>{s.titulo}</h2>
-                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
-              </section>
-            ))}
-
             {/* 3) Marca da Distinção */}
             <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
               <h2 style={h2}>Marca da Distinção: {m.marca.nome}</h2>
@@ -64,6 +56,14 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
                 <TextoRico texto={m.marca.descricao} registro={registro} descricoes={descricoes} />
               </p>
             </section>
+
+            {/* Quadros/sidebars (ex.: "A Língua dos Corvos") — após a Marca */}
+            {quadros.map((s, i) => (
+              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
+                <h2 style={h2}>{s.titulo}</h2>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
+              </section>
+            ))}
 
             {/* 4) Benefício Adicional */}
             {m.beneficioAdicional && (
