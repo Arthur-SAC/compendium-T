@@ -1,0 +1,30 @@
+{
+  "id": "chakram",
+  "tipo": "item",
+  "nome": "Chakram",
+  "resumo": "Disco de metal com bordas afiadas usado para arremesso; pode ricochetear em múltiplos alvos ou retornar à mão do usuário.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 217 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um disco de metal com bordas afiadas, usado para arremesso. Sempre que acerta um ataque com o chakram, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o chakram ou errar um ataque. Por seu desenho e forma de manuseio, o chakram exige treinamento especial, sendo uma arma exótica."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d6",
+      "critico": "x3",
+      "tipoDano": "Corte",
+      "habilidades": []
+    },
+    "especial": "Ao acertar, pode retornar à mão (reação) ou ricochetear em outro alvo (–5 cumulativo por ataque adicional). Pode continuar atacando até recuperar a arma ou errar."
+  }
+}

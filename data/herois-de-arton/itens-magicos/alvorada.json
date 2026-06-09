@@ -1,0 +1,18 @@
+{
+  "id": "alvorada",
+  "tipo": "item-magico",
+  "nome": "Alvorada",
+  "resumo": "A arma brilha como o sol matinal, causando dano extra de luz contra mortos-vivos e criaturas sensíveis à luz.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 256 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A arma brilha como o sol matinal. Ela causa +1d8 de dano de luz contra mortos-vivos e criaturas com sensibilidade a luz. Uma vez por rodada, quando ataca, você pode gastar 2 PM para cegar uma criatura em alcance curto por 1 rodada (apenas uma vez por cena por criatura, Fort CD For ou Des evita)."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "tipoItem": "Encanto de Arma"
+  }
+}

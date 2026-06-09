@@ -1,0 +1,38 @@
+{
+  "id": "armadura-elemental",
+  "tipo": "magia",
+  "nome": "Armadura Elemental",
+  "resumo": "Aura de energia elemental emana do conjurador, danificando criaturas adjacentes que o acertam em corpo a corpo.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 252 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "tipo": "arcana",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Escolha um tipo de energia entre ácido, eletricidade, fogo ou frio. Uma aura faiscante dessa energia emana de seu corpo — sempre que uma criatura adjacente acertar um ataque corpo a corpo em você, ela sofre 2d6 pontos de dano do tipo escolhido.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta o dano em +1d6 (total de dados limitado pelo círculo máximo de magia que você pode lançar).",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Muda a energia para essência.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}
