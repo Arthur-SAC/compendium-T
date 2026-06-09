@@ -1,0 +1,56 @@
+{
+  "id": "escapista-magnifico",
+  "tipo": "distincao",
+  "nome": "Escapista Magnífico",
+  "resumo": "Mestres da ação invisível treinados pela Guilda sem Nome, especialistas em passar despercebidos, escapar de prisões e agir à vista de todos sem ser notados.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 160
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Em Arton, nem sempre a profissão de \"ladino\" é vista com maus olhos. Entre aventureiros, essa palavra designa infiltradores, espiões e outros tipos matreiros. Os ladinos muitas vezes pensam ser os maiores reis da atividade furtiva, capazes de escapar a qualquer perigo, derrotar qualquer armadilha, esfaquear pelas costas qualquer inimigo.\n\nE os escapistas magníficos querem que os ladinos continuem acreditando nessa ilusão.\n\nO escapista magnífico é o verdadeiro mestre da ação invisível, o espião supremo, o mais safo entre os sobreviventes. Escapistas são treinados para passar despercebidos, agir à vista de todos sem ser notados, descobrir grandes segredos enquanto parecem tolos ou insignificantes. São também insuperáveis quando se trata de lidar com armadilhas, escapulir de prisões, esgueirar-se por espaços apertados, enganar vigias e carcereiros. Um escapista pode ser muitas coisas, mas nunca famoso. Suas façanhas são lembradas apenas como coincidências inexplicáveis, acasos do destino ou vontade dos deuses: \"Foi muito azar todos os guardas morrerem de indigestão\" ou \"A maldição ancestral fez a joia sumir\" ou ainda \"Isso só pode ser coisa de Nimb!\".\n\nQuando uma missão se mostra delicada e exige um toque de invisibilidade — não apenas em sentido literal —, o escapista magnífico é a solução. De fato, um mago diria que escapistas conseguem ficar invisíveis (isso é, se esse mago souber sobre sua existência em primeiro lugar), mas estaria errado. Escapistas podem ser vistos e ouvidos, mas quase nunca percebidos. Você os vê, mas acha que não viu nada relevante. O escapista é tão chamativo quanto a brisa suave ou a pedra no calçamento.\n\nIsso porque todo escapista magnífico é, antes de mais nada, alguém subestimado. Os poucos artonianos que conhecem esta especialidade só ouviram falar de uma organização que os treina: a Guilda sem Nome, em Valkaria, que só aceita alunos com ferimentos antigos, posições subalternas ou outras características que os fazem ser descartados pela sociedade. Apenas esses podem conhecer os segredos que lhes permitem fugir de qualquer lugar, roubar qualquer coisa, evitar qualquer perigo. Todos os outros são \"perfeitos demais\".\n\nA Guilda sem Nome é um grupo de espiões, assassinos, ladrões e infiltradores com uma hierarquia frouxa, sendo liderados pela anciã conhecida apenas como \"Mendiga\" — embora possa haver algum líder acima dela. Os objetivos da guilda são simples: seus membros querem dinheiro. Podem ser contratados por qualquer pessoa rica o bastante. No entanto, ninguém os procura: eles oferecem seus serviços a quem acham que pode pagar. Nem mesmo seus clientes conhecem sua verdadeira natureza; julgam estar contratando espiões ou ladrões independentes, e nem sequer sonham com a existência da Guilda sem Nome.\n\nEmbora sejam sempre treinados pela Guilda, nem todos os escapistas magníficos escolhem fazer parte dela após o treinamento. A maioria apenas paga o preço exorbitante, então nunca mais tem contato com seus professores. Na verdade, nenhum escapista magnífico sequer conhece o nome de seus mestres: todos eles adotam epítetos referentes a seu \"disfarce\" na sociedade. Por exemplo, o Menino é um adulto com aparência e jeito de criança, a Malabarista é, bem, uma malabarista... Assim, mesmo que um escapista tente trair a Guilda, só saberá dizer que foi treinado \"pelo Menino\", que a líder é \"a Mendiga\"...\n\nDevido a seu treinamento e sua especialidade, a maioria dos escapistas magníficos acaba adotando a autopreservação (e, alguns diriam, a covardia) como um modo de vida. Eles experimentam todo dia o desprezo das pessoas a seu redor, são focados em apenas escapar dos perigos, não necessariamente vencê-los. Assim, em geral passam a considerar qualquer noção de heroísmo ou altruísmo como coisa de tolos iludidos.\n\nMas isso não é sempre verdade: embora quase nenhum artoniano vivo saiba disso, o aventureiro Ashlen Ironsmith foi um escapista magnífico, treinado pela Guilda sem Nome. E foi seu sacrifício abnegado, entre outros fatores, que possibilitou a primeira vitória de Arton contra a Tormenta.\n\nDe qualquer forma, essa é uma exceção. Os feitos de um escapista magnifico raramente são registrados. Se houver um deles em um grupo de aventureiros, será o \"plebeu\" que carrega a tocha, o escudeiro desajeitado, ou mesmo o pobre-coitado que pede ajuda. Escapistas magníficos nunca parecem perfeitos. São ordinários e comuns, ou mutilados, aparentemente \"deficientes\" de alguma forma. Impossível, para o olho destreinado, acreditar que sejam especiais.\n\nOu perigosos."
+    },
+    {
+      "titulo": "\"Você nem me viu entrando e eu já saí!\"",
+      "texto": "\"Você nem me viu entrando e eu já saí!\""
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um candidato a escapista não escolhe ser treinado. Pelo menos não sem ser ele mesmo escolhido. A Guilda sem Nome, uma sociedade secreta de infiltradores e ladrões de Valkaria, seleciona candidatos a escapistas com base em seus próprios parâmetros. Não basta o candidato ser furtivo, engenhoso ou habilidoso: ele deve possuir algum tipo de \"defeito\" muito evidente, algo que o torne comum, ordinário e discreto. Isso pode ser um ferimento permanente, uma categoria de idade (como criança ou velho) ou apenas algo muito incômodo (como uma roupa com guizos).\n\nUma vez que um candidato com essas características atraia a atenção da Guilda, recebe a oportunidade de ser treinado. Se aceitar, será acolhido por um grupo de instrutores, um mais excêntrico que o outro, e passará por um longo e exaustivo treinamento, que poderá exigir um grande pagamento em dinheiro ou serviços.\n\nO treinamento completo é muito longo — talvez mais de dez anos! Contudo, para aprender o básico sobre ser um escapista magnífico, o candidato precisa passar apenas seis meses na sede da Guilda, em Valkaria. Além disso, esses seis meses podem ser divididos. O mais importante (além do pagamento, do \"defeito\" e de ser escolhido) é que o candidato nunca revele a ninguém seu treinamento. Nem mesmo seus companheiros de grupo podem ficar sabendo da existência da Guilda sem Nome ou que o candidato está aprendendo a ser \"invisível\". Ninguém sabe como a Guilda sem Nome mantém vigilância sobre os candidatos. O fato é que, se o treinamento for descoberto por terceiros, será imediatamente interrompido (e o dinheiro não será devolvido). O candidato nunca mais vai encontrar a sede da Guilda ou seus antigos professores. Em caso de traições mais graves, o candidato pode \"sofrer um acidente\" e acabar morto, coitado...\n\nAlém disso, o candidato nunca pode \"corrigir\" seu aparente defeito. Se tiver um ferimento permanente, não pode buscar uma cura. Se for muito pobre, não pode usar equipamento caro. Se usar uma roupa com guizos, deve usá-la sempre. Abrir mão do \"defeito\" significa perder automaticamente todas as capacidades já adquiridas. Não se sabe se isso é alguma maldição ou apenas efeito da mentalidade necessária para ser um escapista magnífico.",
+    "marca": {
+      "nome": "Vantagem Secreta",
+      "descricao": "Escolha uma de suas fontes de penalidades (como uma habilidade racial, um poder da Tormenta ou uma complicação). Você não sofre as penalidades da fonte escolhida."
+    },
+    "poderes": [
+      {
+        "nome": "Não Há Ninguém Aqui",
+        "descricao": "Até mesmo os inimigos do escapista esquecem que ele existe.\n\nVocê pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível. Se tiver o poder Camuflagem, além disso a penalidade em Furtividade para se esconder quando realiza uma ação chamativa é reduzida à metade (aplicado depois de outras reduções).",
+        "prerequisito": "Aparência Inofensiva, Escapista"
+      },
+      {
+        "nome": "Aparência Insignificante",
+        "descricao": "\"Eu queria atacar o escapista, mas só estou vendo esse garotinho...\"\n\nVocê soma seu total de poderes da distinção na CD para resistir ao seu poder Aparência Inofensiva. Além disso, a cada cena, pode usar esse poder uma vez contra cada inimigo (em vez de apenas uma vez).",
+        "prerequisito": "Não Há Ninguém Aqui"
+      },
+      {
+        "nome": "Fujão",
+        "descricao": "A maior proeza de um escapista é nunca estar onde seus inimigos esperam.\n\nQuando é atingido por um ataque ou um efeito que exija um teste de resistência, você pode gastar 2 PM para fazer uma pirueta defensiva. Faça um teste de Acrobacia para escapar e use esse resultado no lugar de sua Defesa contra esse ataque, ou do teste de resistência contra o efeito.",
+        "prerequisito": "treinado em Acrobacia, Não Há Ninguém Aqui"
+      },
+      {
+        "nome": "Mão Leve",
+        "descricao": "Um escapista afana até mesmo itens nas mãos de seus oponentes!\n\nQuando faz a manobra desarmar, você pode gastar 2 PM para substituir o teste de Luta por Ladinagem. Se vencer o teste de manobra e estiver com ao menos uma mão livre, pode ficar com o item na mão.",
+        "prerequisito": "Não Há Ninguém Aqui"
+      },
+      {
+        "nome": "Peguei um Bobo",
+        "descricao": "Os inimigos do escapista ficam tão confusos e enervados que acabam agindo como ele quer.\n\nVocê pode gastar uma ação padrão e 2 PM para gerar o efeito da magia Comando (CD Car, +1 para cada dois outros poderes da distinção), ignorando a restrição de tipo de criatura. Este não é um efeito de encantamento ou mental, nem uma habilidade mágica, e provém da sua capacidade de enganar outras pessoas (veja \"Magias Simuladas\", p. 44).",
+        "prerequisito": "Aparência Insignificante"
+      }
+    ]
+  }
+}

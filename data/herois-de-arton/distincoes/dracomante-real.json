@@ -1,0 +1,56 @@
+{
+  "id": "dracomante-real",
+  "tipo": "distincao",
+  "nome": "Dracomante Real",
+  "resumo": "Arcanistas obcecados em dominar os segredos mágicos dos maiores dragões de Arton, transformando-se parcialmente em dragões em busca de poder absoluto.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 151
+  },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Magia arcana é um dom da generosa deusa Wynna. Contudo, Kallyadranoch, o Deus dos Dragões, clama para si muito da tradição mágica. Grimórios são escritos em idioma dracônico. Dragões são inerentemente mágicos. Muitos arcanistas que buscam mais poder se voltam aos mistérios dessas criaturas. Até mesmo a orgulhosa nação de Ubani fundou sua tradição arcana sobre as bases deixadas por Kally.\n\nMas dragões não costumam cultuar o deus que os criou. Arrogantes e egoístas, muitas vezes não se curvam a ninguém. Isso é especialmente verdadeiro no caso dos Dragões-Reais, os mais antigos e poderosos dragões de Arton. Sendo eles mesmos deuses menores servidos por populações inteiras, os Dragões-Reais são gigantescos além da compreensão dos mortais.\n\nSegundo alguns, mais impressionante do que tudo isso é seu poder mágico. Dragões-Reais dominam segredos arcanos que nenhum outro ser conhece. Sua magia é equivalente (ou superior!) à dos maiores arquimagos. Assim, alguns arcanistas sedentos de poder não se contentam com aprender técnicas mágicas de qualquer dragão... Para satisfazer sua ambição desenfreada, dedicam-se a aprender o que apenas os maiores dragões sabem. Não são meros dracomantes.\n\nSão dracomantes reais.\n\nO dracomante real é um mago em busca do poder absoluto, diretamente da fonte. Não é necessariamente um devoto de um Dragão-Real — seguindo o exemplo dos próprios Dragões-Reais, muitos resistem a se curvar ante qualquer criatura, mesmo aquelas que detêm os segredos que eles buscam. Enquanto um devoto vê sua divindade como inerentemente superior, a maioria dos dracomantes reais tem como grande sonho igualar ou superar os maiores dragões, aprendendo tudo que eles sabem. Nenhum dracomante real já chegou perto desse objetivo megalomaníaco. Mas, se algum deles conseguisse superar seu mestre, talvez nem isso o deixasse satisfeito. Talvez seu próximo alvo fosse o próprio Kally.\n\nSó pode haver um mago no topo — assim, não existe qualquer colaboração entre dracomantes reais. Eles não formam nenhum tipo de organização, não compartilham pesquisas ou segredos. Pelo contrário: se dois dracomantes reais se encontram, o resultado mais provável é uma luta até a morte. Por isso a vida de um destes estudiosos é repleta de paranoia e desconfiança. Eles protegem seus grimórios a todo custo, evitam até mesmo lançar magias na frente de rivais que possam imitar um único gesto, uma única palavra. Em outras ocasiões, contudo, adoram exibir seu poder, deixando clara a todos os mortais (principalmente arcanistas menos ambiciosos) sua superioridade.\n\nTodo dracomante real tem um mestre, um Dragão-Real cujo poder ele almeja. Contudo, obviamente esses seres ancestrais não se rebaixam a ponto de tomar bípedes como discípulos. Assim, o dracomante real precisa aprender indiretamente. Estuda os efeitos das magias de seu mestre, lê relatos históricos de seus feitos, analisa qualquer objeto que o Dragão-Real possa ter deixado para trás. Para o dracomante real, uma escama de seu mestre é o maior dos tesouros, uma fonte de conhecimento que será estudada até entregar cada segredo que esconde.\n\nO Dragão-Real é uma obsessão para o dracomante que o estuda. É ao mesmo tempo fonte de assombro, admiração, inveja e ódio. Um dos maiores desafios para o dracomante real é chegar o mais próximo possível de seu mestre, sem ser destruído por isso. Muitos descartam a proximidade física, considerando que a fúria de um Dragão-Real é imprevisível e incontrolável. Assim, ficam mais próximos ao se transformar parcialmente em dragões. Dracomantes reais poderosos parecem um misto de sua antiga raça e do dragão que estudam, muitas vezes adquirindo características de personalidade semelhantes a ele.\n\nPara o dracomante real, o poder arcano tem nome e rosto — ou focinho reptiliano. Tem forma física e voz — ou rugido ensurdecedor. Tem presença material em Arton. Mesmo que um dia um Dragão-Real decida apadrinhar um destes arcanistas, não seria suficiente, pois o que o dracomante real deseja não é a aprovação ou confiança dessa criatura. No fim, nada pode satisfazer o dracomante real exceto ser seu mestre."
+    },
+    {
+      "titulo": "Benthos e a Magia",
+      "texto": "Benthos, o Dragão-Rei dos Mares, não domina a magia arcana — pelo menos até onde se sabe. Mesmo assim, o poder de um Dragão-Real é tamanho que um dracomante pode se dedicar a ele, e assim adquirir suas capacidades. Contudo, isso leva a uma pergunta: como um candidato pode \"ter contato direto\" com uma magia de Benthos, se elas não existem?\n\nA admissão para dracomante real do Dragão-Rei dos Mares é ao mesmo tempo mais simples e mais desafiadora. O candidato precisa invocar Benthos de seu covil subaquático — um feito que aconteceu apenas algumas vezes na história de Arton — e lidar com as consequências disso. Se o candidato vai convencer os xamãs de Khubar a realizar o ritual que chama Benthos ou vencer essa etapa de alguma outra forma, cabe a ele mesmo descobrir."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um candidato a dracomante real deve antes de mais nada ser um mago. Não importa como aprendeu sua magia ou o que fez até agora. Seu objetivo é poder, e ele deve ter algum poder arcano para sequer começar a trilhar o caminho.\n\nComo nenhum dracomante real ensina outro, é preciso esconder essa ambição de ouvidos curiosos, principalmente daqueles que têm alguma proximidade com este caminho. Um dracomante real que fique sabendo de um candidato tentando seguir esta trilha fará de tudo para matá-lo, mesmo que esteja estudando um Dragão-Real diferente. Na verdade, a mera sugestão de que alguém poderia seguir outro Dragão-Real é um insulto digno de retaliação! Todo dracomante real acha que seu mestre é superior a todos os outros, e é tomado por fúria ao imaginar que possa ter desperdiçado seu tempo estudando uma criatura que não seja suprema.\n\nExceto por isso, o caminho de um candidato a dracomante real é simples. Simples, mas nada fácil.\n\nEm primeiro lugar, o candidato precisa ter contato direto com um efeito de uma magia do Dragão-Real que deseja estudar. Não basta ver ela ser lançada: ele precisa analisar o dano causado, coletar resíduos, pesquisar a fundo tudo que ficou para trás dessa conjuração. Por exemplo, um dracomante real que busca estudar Sckhar poderia viajar até uma aldeia devastada por uma Bola de Fogo do Dragão-Rei (não de sua baforada), então coletar amostras do solo calcinado, recolher ossos de vítimas, sentir a aura mágica deixada para trás...\n\nO segundo e último passo é ter contato direto com o próprio Dragão-Real. Isso mata a maior parte dos candidatos.\n\n\"Contato direto\" significa estar a poucos passos do Dragão-Real, enquanto o mestre está na forma dracônica. O candidato não precisa necessariamente ser notado pelo mestre (na verdade, é melhor para sua saúde passar despercebido), mas precisa enxergar suas escamas com clareza, sentir seu cheiro, vislumbrar sua glória. Candidatos a dracomantes reais de Beluhga podem ter contato com seu esquife nas Uivantes, mas não basta apenas ver o corpo da Dragoa-Rainha e prestar seus respeitos. É preciso ter contato com alguma presença viva dela — sua voz espiritual, algum efeito mágico que ela manifeste ou um elemento parecido.\n\nCumprindo esses dois requisitos, o candidato se torna um dracomante real. Mas, com forças poderosas querendo seu fracasso e sua morte, poucos chegam a trilhar este caminho.",
+    "marca": {
+      "nome": "Mestre Dracônico",
+      "descricao": "Um dracomante real não serve, ele almeja.\n\nEscolha um Dragão-Real para ser seu mestre, entre Behluga (escolha entre frio ou luz), Benthos (ácido), Hydora (eletricidade), Mzzileyn (trevas), Sckhar (fogo), Tarso (trevas) e Zadbblein (ácido). Uma vez feita, essa escolha não pode ser mudada. Quando você lança uma magia de dano ou perda de PV do mesmo tipo da essência de seu mestre, ela causa +2 pontos de dano ou perda de PV."
+    },
+    "poderes": [
+      {
+        "nome": "Afinidade Dracônica",
+        "descricao": "O primeiro passo de um dracomante real é dominar o elemento regido por seu mestre.\n\nVocê recebe +2 na CD de suas magias que causam dano do tipo da essência dracônica do seu mestre e, para cada poder da distinção, recebe redução 3 contra esse tipo de dano.",
+        "prerequisito": "5º nível de Mago"
+      },
+      {
+        "nome": "Dracomancia",
+        "descricao": "Ao usar seu poder, o dracomante real se aproxima da forma de seu mestre.\n\nQuando lança uma magia, você recebe redução de dano 5 e resistência a magia +5 até o início de seu próximo turno.",
+        "prerequisito": "Afinidade Dracônica"
+      },
+      {
+        "nome": "Majestade Elemental",
+        "descricao": "Assim como a fúria de um Dragão-Real, o poder do dracomante não pode ser detido.\n\nSuas magias que causam dano do mesmo tipo da essência dracônica do seu mestre ignoram até 20 pontos de RD e, contra criaturas imunes, ainda causam metade do dano.",
+        "prerequisito": "lançar magias arcanas de 3º círculo, Dracomancia"
+      },
+      {
+        "nome": "Memória Dracônica",
+        "descricao": "Assim como um verdadeiro dragão, o dracomante usa seu elemento de forma natural e instintiva.\n\nVocê pode memorizar um número de magias adicionais por dia igual ao total de poderes da distinção que possui, mas só pode memorizar dessa forma magias que causam dano do mesmo tipo que a essência dracônica de seu mestre.",
+        "prerequisito": "Dracomancia"
+      },
+      {
+        "nome": "Verdadeiro Poder",
+        "descricao": "O ápice do poder dracônico é se tornar um dragão.\n\nVocê aprende e pode lançar Metamorfose e, enquanto estiver sob efeito dessa magia, pode lançar magias normalmente. Alternativamente, se tiver o suplemento Ameaças de Arton, em vez disso aprende e pode lançar Transformação em Dragão (p. 405) e não precisa de componente material para se transformar em um dragão do tipo da essência dracônica de seu mestre. Se você aprender a magia fornecida por este poder novamente, seu custo diminui em –1 PM.",
+        "prerequisito": "lançar magias arcanas de 4º círculo, quatro poderes da distinção"
+      }
+    ]
+  }
+}
