@@ -38,7 +38,12 @@ function CardDivindade({ divindade, expandido }: { divindade: Entidade; expandid
 export default function IndiceDeuses() {
   const entidades = carregarEntidades();
   const divindades = entidades.filter((e) => e.tipo === "divindade");
+  // Deuses maiores (os 20 do Panteão, do Básico) vs menores (de expansões, ex.: Deuses de Arton).
+  const maiores = divindades.filter((d) => d.fonte.livro !== "deuses-de-arton");
+  const menores = divindades.filter((d) => d.fonte.livro === "deuses-de-arton").sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   const regra = entidades.find((e) => e.id === "devocao-como-funciona");
+  const essaisMenores = entidades.find((e) => e.id === "deuses-menores-da");
+  const antigosDeuses = entidades.find((e) => e.id === "os-antigos-deuses");
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
   // Deuses com expansão em Deuses de Arton (lore/avatar/artefatos via lookup).
   const expandidos = new Set(
@@ -71,7 +76,7 @@ export default function IndiceDeuses() {
         )}
 
         {ORDEM_ENERGIA.map(({ chave, rotulo }) => {
-          const sublista = divindades.filter((d) => mec(d).canalizaEnergia === chave).sort(ordenar);
+          const sublista = maiores.filter((d) => mec(d).canalizaEnergia === chave).sort(ordenar);
           if (sublista.length === 0) return null;
           return (
             <section key={chave} style={{ marginBottom: 8 }}>
@@ -84,6 +89,30 @@ export default function IndiceDeuses() {
             </section>
           );
         })}
+
+        {menores.length > 0 && (
+          <section style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Deuses Menores ({menores.length})</h3>
+            <div className="indice-cards">
+              {menores.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
+            </div>
+          </section>
+        )}
+
+        {(essaisMenores || antigosDeuses) && (
+          <section style={{ marginTop: 18, display: "flex", flexWrap: "wrap", gap: 16, fontFamily: "var(--serifa)", fontSize: 13 }}>
+            {essaisMenores && (
+              <Link href={`/ficha/${essaisMenores.tipo}/${essaisMenores.id}`} style={{ color: "var(--carmesim)", textDecoration: "none", borderBottom: "1px solid var(--borda-suave)" }}>
+                Sobre os Deuses Menores (como surgem, status) →
+              </Link>
+            )}
+            {antigosDeuses && (
+              <Link href={`/ficha/${antigosDeuses.tipo}/${antigosDeuses.id}`} style={{ color: "var(--carmesim)", textDecoration: "none", borderBottom: "1px solid var(--borda-suave)" }}>
+                Os Antigos Deuses (deuses caídos do Panteão) →
+              </Link>
+            )}
+          </section>
+        )}
       </div>
     </main>
   );

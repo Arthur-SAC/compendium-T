@@ -7,7 +7,9 @@
     "livro": "deuses-de-arton",
     "pagina": 231
   },
-  "imagens": [],
+  "imagens": [
+    "/divindades/mauziell.png"
+  ],
   "relacoes": [],
   "mecanica": {
     "crencasObjetivos": "Cuidar dos outros como se fossem netos. Guardar coisas para que não se percam. Instigar pessoas a agir de forma adequada. Servir como exemplo.",

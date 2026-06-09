@@ -7,7 +7,9 @@
     "livro": "deuses-de-arton",
     "pagina": 233
   },
-  "imagens": [],
+  "imagens": [
+    "/divindades/tibar.png"
+  ],
   "relacoes": [],
   "mecanica": {
     "crencasObjetivos": "Realizar negócios. Completar transações comerciais. Incentivar a troca de bens e mercadorias. Criar e proteger caravanas comerciais. Vender e comprar itens. Fomentar a prosperidade.",
