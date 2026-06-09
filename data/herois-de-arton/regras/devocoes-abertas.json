@@ -1,0 +1,16 @@
+{
+  "id": "devocoes-abertas",
+  "tipo": "regra",
+  "nome": "Devoções Abertas",
+  "resumo": "Variante opcional que permite a qualquer personagem ser devoto de qualquer divindade, independente de sua raça ou classe, removendo as restrições de devoção do Livro Básico.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 281 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Devoções Abertas",
+      "texto": "Esta variante é simples: um personagem pode ser devoto de qualquer divindade, independente de sua raça ou classe. O Panteão está sempre imerso em conflitos, e faz sentido que um deus aceite qualquer devoto para ganhar poder sobre seus irmãos."
+    }
+  ]
+}

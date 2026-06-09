@@ -1,0 +1,43 @@
+{
+  "id": "atributos-variados",
+  "tipo": "regra",
+  "nome": "Atributos Variados",
+  "resumo": "Seis métodos opcionais de geração de atributos, além das opções padrão do Livro Básico (pontos ou rolagem), variando de personagens fracos e realistas a heróis épicos ou caóticos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 280
+  },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Atributos Variados",
+      "texto": "O livro básico traz duas opções para definir seus atributos: pontos ou rolagem. A seguir estão seis opções novas. Para todas que envolvem rolagens, consulte a tabela em Tormenta20, p. 17, para converter os resultados das rolagens em atributos."
+    },
+    {
+      "titulo": "Clássica",
+      "texto": "Como a rolagem padrão, mas rolando apenas 3d6 (em vez de 4d6 menos o menor). Este método gera personagens fracos — a maior parte dos atributos ficará entre –1 e 2, com valores 3 e 4 sendo raros — e desequilibrados entre si. É indicado para histórias mais realistas, com clima brutal, nas quais os heróis surgem do povo comum. Se quiser ser muito “raiz”, role os valores em ordem (ou seja, a primeira rolagem será sua Força, a segunda sua Destreza e assim por diante) e dê um jeito de jogar com o que sair!"
+    },
+    {
+      "titulo": "Épica",
+      "texto": "Como a rolagem padrão, mas rolando 3d6+6 menos o menor. O oposto do anterior, este método gera personagens mais poderosos, quase certamente sem nenhum ponto fraco e com menos desequilíbrio entre si. É útil para emular histórias nas quais os heróis são “escolhidos” de algum tipo."
+    },
+    {
+      "titulo": "Valkaria",
+      "texto": "Cada atributo começa em 8 (calma! esse valor será convertido no final). Role 7d6 e aplique cada dado como quiser nos seis atributos. Converta o resultado final para gerar seus atributos, da mesma forma que outros métodos de rolagem, usando a tabela de Tormenta20, p. 17. Você só pode aplicar os dados inteiros (não pode “quebrá-los” em diferentes atributos) e, conforme a tabela, o valor máximo convertido de um atributo é 4, mesmo que o valor inicial seja maior que 18.\n\nExemplo: você rola 7d6 e obtém os resultados 2, 2, 3, 3, 4, 5 e 5. Você decide montar um bárbaro fortão, então aplica os dois 5 em sua Força, para somar 18. Aplica o 4 e o 2 em sua Destreza, para somar 14. Aplica dois 3 em sua Constituição, para somar 14. Por fim, aplica o segundo 2 em sua Sabedoria, para somar 10. Como seus dados acabaram, seus valores de Inteligência e Carisma ficam sendo apenas os 8 iniciais. Assim, seu personagem fica com Força 18 (valor convertido 4), Destreza 14 (2), Constituição 14 (2), Inteligência 8 (–1), Sabedoria 10 (0) e Carisma 8 (–1). Este método pode parecer maluco, mas dá boas chance de o jogador construir um personagem heroico e do jeito que ele quiser."
+    },
+    {
+      "titulo": "Khalmyr",
+      "texto": "Distribua os seguintes valores em seus atributos, sem rolar nada: 3, 3, 2, 1, 0 e –1. Isso gera personagens interessantes (com pontos fortes e fracos), mas completamente equilibrados entre si, já que todos do grupo terão os mesmos valores."
+    },
+    {
+      "titulo": "Nimb",
+      "texto": "Se o método Valkaria parecia maluco, este de fato é. Role 7d20 e descarte o menor. Então aplique cada um dos seis valores restantes em um atributo e converta-os usando a tabela, com as seguintes adições: resultados 1, 2 ou 3 geram um atributo –3 (sim, você será muito ruim em alguma coisa); resultados 18 ou 19 geram um atributo 4, e um resultado 20 gera um espantoso atributo 5 — um valor impossível de ser gerado em qualquer outro método. Este método pode gerar personagens muito poderosos (ou muito fracos!) e praticamente garante que o grupo será desequilibrado entre si. Use por sua conta e risco."
+    },
+    {
+      "titulo": "Pontos Variados",
+      "texto": "Por fim, você pode usar o método de pontos do livro básico, mas aumentando ou diminuindo a pontuação, para gerar personagens mais ou menos poderosos. Para campanhas “pé no chão”, use 5 pontos. Já para campanhas épicas e exageradas, 15 pontos."
+    }
+  ]
+}
