@@ -7,8 +7,20 @@
 **Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
 `docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
 
-**Status (2026-06-09): Onda 1 (Cap.1) ✅ · Onda B (código distincao) ✅ · Onda 2 (Cap.2 — 36 distinções) ✅ · Onda 3 (Cap.3 Arsenal) ✅.**
-**Próximo: Onda 4 (Cap.4 Regras Opcionais).** Build **2595 páginas**, tsc 0, **160 testes**. (Onda 3 ainda NÃO commitada no GitHub — local; subir quando o usuário pedir.)
+**Status (2026-06-09): ✅✅ HERÓIS DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4).** Onda 1 (Cap.1) · Onda B+2 (distinções) · Onda 3 (Cap.3 Arsenal) · Onda 4 (Cap.4 Regras Opcionais) — todas ✅.
+**Totais Heróis:** 5 raças · 1 classe (Treinador) + 14 variantes · 30 origens · 428 poderes · 36 distinções · 202 itens · 167 itens mágicos · 22 magias · 33 regras = **938 entidades**. Build **2607 páginas**, tsc 0, **160 testes**.
+**Tudo commitado LOCAL (não subido pro GitHub** — subir quando o usuário pedir). **Próximo:** revisão por visão por amostragem do Cap.3/4 + arte dos itens mágicos (pendente) + decidir push/PR; depois, próximo livro da Fase 2.
+
+### Fase 2.3 — Onda 4 (Cap. 4 Regras Opcionais) ✅ (`725118f`)
+12 regras (`tipo: "regra"`, grupo "Heróis de Arton" no `/regras`), offset PDF=impressa+2, tabelas em formato pipe:
+- **atributos-variados** (métodos alternativos, inclui valores negativos −3), **racas-abertas**, **devocoes-abertas**.
+- **complicacoes** (Tabela 4-1; 32 gerais + 22 de classe + regra opcional Superação).
+- **idades-variadas** (Tabela 4-2 Faixas Etárias + 18 complicações de idade + Idades das Raças), **objetivos-heroicos** (7 categorias), **papeis-no-grupo** (9 papéis).
+- **combate-avancado** (Tabelas 4-3 Localização, 4-4 Acertos Críticos, 4-5 Teste de Morte, 4-6 Falhas Críticas d% completa; ~20 subtópicos).
+- **culinaria-avancada** (Tabela 4-7 20 ingredientes + 4-8 27 pratos + poderes Ás da Cozinha/Bom de Garfo), **exploracao-de-masmorras**.
+- **dominios** (regência: Tabelas 4-9 Terrenos, 4-10 Construções ~60, 4-11 Unidades Militares, 4-12 Impostos, 4-13 Eventos Aleatórios; Turnos de Domínio, Domínios Místicos, Batalhas Simplificadas), **lista-de-regras-opcionais** (checklist p.328).
+- **Devoção expandida do Druida — RESOLVIDO:** "Devoções Abertas" é uma regra GENÉRICA ("devoto de qualquer divindade, independente de raça ou classe"). Não nomeia classes → `relacoes` vazio (fiel). O jogador descobre como pegar os poderes "druida de Tenebra/Aharadak" pelo pré-requisito já exibido na ficha da classe (lookup dinâmico) + esta regra opcional discoverable em `/regras`. Não foi preciso editar fichas do Básico.
+- **Dívida leve:** aspas tipográficas do PDF normalizadas; revisão por visão do Cap.3/4 foi por amostragem; itens mágicos do Heróis sem arte.
 
 ### Fase 2.3 — Onda 3 (Cap. 3 Arsenal dos Heróis) ✅
 Offset PDF = impressa + 2. Spike de schema por tipo conferido (item-magico ganhou campo `prerequisito` `efd4f84`; magia conferida no exemplar Armadura Elemental — couber sem campo novo).
