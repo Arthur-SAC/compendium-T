@@ -1,0 +1,19 @@
+{
+  "id": "baralho-marcado",
+  "tipo": "item",
+  "nome": "Baralho Marcado",
+  "resumo": "Baralho com marcações sutis reconhecíveis apenas pelo usuário. Fornece +2 em testes de Jogatina com cartas, mas um 1 natural o expõe.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Você recebe +2 em testes de Jogatina com cartas. Contudo, se rolar 1 natural em um teste de Jogatina com este baralho, você é descoberto, o que pode levar a uma bela briga de taverna."
+  }
+}

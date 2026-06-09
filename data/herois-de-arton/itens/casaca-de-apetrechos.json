@@ -1,0 +1,19 @@
+{
+  "id": "casaca-de-apetrechos",
+  "tipo": "item",
+  "nome": "Casaca de Apetrechos",
+  "resumo": "Casacão pesado forrado de bolsos para dentro e para fora. Aumenta capacidade de carga em 4 espaços, mas impõe –2 de penalidade de armadura e não pode ser usada com armadura.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 75",
+    "espacos": "—",
+    "especial": "Aumenta sua capacidade de carga em 4 espaços (ela própria não gasta um espaço). Por ser volumosa e desajeitada, impõe uma penalidade de armadura de –2 e não pode ser usada com armadura."
+  }
+}

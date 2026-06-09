@@ -1,0 +1,31 @@
+{
+  "id": "lanca-de-justa",
+  "tipo": "item",
+  "nome": "Lança de Justa",
+  "resumo": "Lança esportiva para torneios de justa; causa dano não letal, permite manobra derrubar em investida montada, e quebra ao acertar (50% de chance).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta lança montada é feita para esporte, não combate real. Teoricamente, justas deveriam ser disputadas sempre com estas lanças, nunca com as versões de batalha — mas nem todos os torneios exigem tanto espírito esportivo. Além disso, alguns cavaleiros encontram bons usos para lanças de justa em combate real. Uma lança de justa funciona como uma lança montada (Tormenta20, p. 148), mas causa dano não letal. Em compensação, se fizer uma investida montada com esta arma e acertar o ataque, você pode fazer a manobra derrubar como uma ação livre. A lança de justa é feita para se estilhaçar com grande impacto, para delírio da torcida; se você acertar o alvo, há 50% de chance de que ela se quebre."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 3",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "1d8",
+      "critico": "x2",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Funciona como lança montada, mas causa dano não letal. Em investida montada bem-sucedida, pode fazer manobra derrubar como ação livre. Se acertar, há 50% de chance de a lança se quebrar."
+  }
+}

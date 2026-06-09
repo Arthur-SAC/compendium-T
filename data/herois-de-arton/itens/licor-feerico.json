@@ -1,0 +1,19 @@
+{
+  "id": "licor-feerico",
+  "tipo": "item",
+  "nome": "Licor Feérico",
+  "resumo": "Bebida enevoada de origem lendária que reduz em –1 PM o custo de uma habilidade à escolha. CD 25.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Bebida",
+    "preco": "T$ 450",
+    "espacos": "0,5",
+    "especial": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25."
+  }
+}

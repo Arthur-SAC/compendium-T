@@ -1,0 +1,19 @@
+{
+  "id": "vinho-elfico",
+  "tipo": "item",
+  "nome": "Vinho Élfico",
+  "resumo": "Vinho de sabor complexo que fornece +1 na CD para resistir às habilidades do personagem. CD 20.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Bebida",
+    "preco": "T$ 90",
+    "espacos": "0,5",
+    "especial": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas habilidades. CD 20."
+  }
+}

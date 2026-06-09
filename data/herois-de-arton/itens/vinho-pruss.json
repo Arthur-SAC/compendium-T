@@ -1,0 +1,19 @@
+{
+  "id": "vinho-pruss",
+  "tipo": "item",
+  "nome": "Vinho Pruss",
+  "resumo": "Batizado em homenagem ao Rei-Imperador Thormy — seu favorito. Fornece 3 PM temporários. CD 15.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Fornece 3 PM temporários. CD 15."
+  }
+}

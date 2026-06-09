@@ -1,0 +1,19 @@
+{
+  "id": "capa-com-dragonas",
+  "tipo": "item",
+  "nome": "Capa com Dragonas",
+  "resumo": "Capa elegante com ombreiras, parte de uniformes. Enquanto vestida, sua armadura conta como traje da corte para bailes e encontros da nobreza.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Enquanto você estiver vestindo esta capa, sua armadura conta como um traje da corte e pode ser usada em bailes, festas e encontros da nobreza sem chamar atenção."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cota-de-moedas",
+  "tipo": "item",
+  "nome": "Cota de Moedas",
+  "resumo": "O cúmulo da ostentação: armadura semelhante a uma brunea, mas em vez de discos metálicos a malha é formada por tibares entrelaçados.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 226
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 350",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 4,
+      "penalidadeArmadura": -3
+    },
+    "especial": "Você recebe +2 em Diplomacia (cumulativo com melhorias da armadura). O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação."
+  }
+}

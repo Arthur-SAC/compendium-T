@@ -1,0 +1,19 @@
+{
+  "id": "diagrama-anatomico",
+  "tipo": "item",
+  "nome": "Diagrama Anatômico",
+  "resumo": "Pergaminho com esquemas das regiões mais vulneráveis dos corpos de humanoides e as melhores formas de atacá-las. Amplia a margem de ameaça ao usar Ataque Furtivo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 230
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 75",
+    "espacos": "1",
+    "especial": "Quando usa Ataque Furtivo, você recebe +1 na margem de ameaça."
+  }
+}

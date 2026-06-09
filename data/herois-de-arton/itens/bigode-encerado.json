@@ -1,0 +1,19 @@
+{
+  "id": "bigode-encerado",
+  "tipo": "item",
+  "nome": "Bigode Encerado",
+  "resumo": "Serviço de barbeiro que aparar e moldar bigode com cera, fazendo a primeira criatura inteligente que usar efeito de Vontade contra o personagem fazer um teste de Vontade (CD Car) ou perder a ação. Dura 1 dia.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 20",
+    "espacos": "—",
+    "especial": "Um barbeiro especializado, além de extrair dentes e realizar pequenas cirurgias, pode aparar e moldar com cera a barba e (principalmente) o bigode de um cliente. Um bigode de respeito impõe esse respeito a todos. A primeira criatura inteligente (Int –3 ou maior) que usar um efeito que exija um teste de Vontade contra você em uma cena deve fazer ela própria um teste de Vontade (CD Car). Se falhar, perde sua ação. O efeito do bigode só funciona uma vez por cena. Um bigode encerado dura 1 dia. Um personagem treinado em Ofício (barbeiro) pode gastar 1 hora de trabalho e T$ 2 para encerar o bigode de alguém (incluindo o seu)."
+  }
+}

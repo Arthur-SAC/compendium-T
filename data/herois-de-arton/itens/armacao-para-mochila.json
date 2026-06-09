@@ -1,0 +1,19 @@
+{
+  "id": "armacao-para-mochila",
+  "tipo": "item",
+  "nome": "Armação para Mochila",
+  "resumo": "Estrutura de metal amarrada aos ombros, tórax e cintura. Distribui melhor o peso da mochila de aventureiro, ampliando a capacidade de carga.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 50",
+    "espacos": "—",
+    "especial": "Com uma armação, uma mochila de aventureiro passa a aumentar sua capacidade de carga em 6 espaços (em vez de 2). Entretanto, a ação necessária para sacar seus itens aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa)."
+  }
+}

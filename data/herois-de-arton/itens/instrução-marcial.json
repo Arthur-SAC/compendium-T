@@ -1,0 +1,19 @@
+{
+  "id": "instrução-marcial",
+  "tipo": "item",
+  "nome": "Instrução Marcial",
+  "resumo": "Serviço de treino com mestre de armas que fornece 1d4 de dados de auxílio para testes de ataque até o fim da aventura.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 300",
+    "espacos": "—",
+    "especial": "Algumas horas de treino com um mestre de armas custam caro, mas afiam as habilidades de qualquer um. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de ataque, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens)."
+  }
+}

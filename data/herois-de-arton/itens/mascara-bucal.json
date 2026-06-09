@@ -1,0 +1,19 @@
+{
+  "id": "mascara-bucal",
+  "tipo": "item",
+  "nome": "Máscara Bucal",
+  "resumo": "Pano que cobre nariz e boca, escondendo as feições. Quem vê o usuário deve passar em Percepção CD 25 para descrevê-lo mais tarde.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 3",
+    "espacos": "1",
+    "especial": "Qualquer pessoa que veja um personagem usando uma máscara bucal deve passar em um teste de Percepção (CD 25) para ser capaz de descrevê-lo mais tarde."
+  }
+}

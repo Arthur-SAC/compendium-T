@@ -1,0 +1,24 @@
+{
+  "id": "brigantina",
+  "tipo": "item",
+  "nome": "Brigantina",
+  "resumo": "Também chamada de brigandina. Vestimenta de couro com pequenas placas metálicas rebitadas, mais flexível que armaduras metálicas comuns. Porém, armas de perfuração penetram facilmente entre as placas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 225
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 75",
+    "espacos": "5",
+    "protecao": {
+      "subcategoria": "pesada",
+      "bonusDefesa": 6,
+      "penalidadeArmadura": 0
+    },
+    "especial": "Contra armas de perfuração, o bônus na Defesa de uma brigantina diminui em –2."
+  }
+}

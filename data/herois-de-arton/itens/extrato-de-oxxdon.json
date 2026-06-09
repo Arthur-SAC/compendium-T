@@ -1,0 +1,19 @@
+{
+  "id": "extrato-de-oxxdon",
+  "tipo": "item",
+  "nome": "Extrato de Oxxdon",
+  "resumo": "Extrato da substância do oxxdon que arruína objetos metálicos. Objetos não mágicos de metal são destruídos; criaturas de metal ficam fatigadas. Fortitude CD Des evita.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 180",
+    "espacos": "0,5",
+    "especial": "Gaste uma ação padrão e arremesse em um quadrado de 1,5m em alcance curto. Objetos não mágicos de metal na área são destruídos e criaturas de metal ficam fatigadas, mesmo que imunes a essa condição. Fortitude CD Des para cada item ou criatura evita o efeito. Remover a fadiga exige 1 hora de trabalho, T$ 50 em materiais e teste de Ofício (artesão) CD 20."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "apito-de-caca",
+  "tipo": "item",
+  "nome": "Apito de Caça",
+  "resumo": "Pequeno apito que fornece +1 em Adestramento e permite manejar animais não inteligentes como ação livre uma vez por rodada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 6",
+    "espacos": "1",
+    "especial": "Fornece +1 em Adestramento e permite usar manejar animal com um parceiro não inteligente (Int –4 ou –5) como ação livre uma vez por rodada."
+  }
+}

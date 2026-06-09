@@ -1,0 +1,34 @@
+{
+  "id": "khopesh",
+  "tipo": "item",
+  "nome": "Khopesh",
+  "resumo": "Espada curva de eras antigas usada nos impérios de Zarkhass e Nardmyr; gancho na lâmina fornece +2 em testes para derrubar. Arma versátil.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 219
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Usada em eras antigas, especialmente nos impérios de Zarkhass e Nardmyr, esta espada curva sobreviveu ao teste do tempo e pode ser encontrada até hoje, sobretudo entre mercenários oriundos do Deserto da Perdição. A curvatura de sua lâmina forma um gancho que pode ser usado para desestabilizar os oponentes. A khopesh é uma arma versátil, fornecendo +2 em testes para derrubar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "19/x3",
+      "tipoDano": "Corte",
+      "habilidades": [
+        "Versátil"
+      ]
+    },
+    "especial": "Fornece +2 em testes para derrubar."
+  }
+}

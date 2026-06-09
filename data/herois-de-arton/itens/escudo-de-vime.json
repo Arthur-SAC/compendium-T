@@ -1,0 +1,26 @@
+{
+  "id": "escudo-de-vime",
+  "tipo": "item",
+  "nome": "Escudo de Vime",
+  "resumo": "Escudo grande e desajeitado, mas extremamente leve. Possui pequenas falhas entre as fibras de vime. Não é preso ao braço — precisa ser empunhado com as duas mãos. Pode ser movido com facilidade para confundir os inimigos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 226
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "escudo",
+    "preco": "T$ 15",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "pesado",
+      "bonusDefesa": 2,
+      "penalidadeArmadura": -2,
+      "rd": 2,
+      "pv": 20
+    },
+    "especial": "Precisa ser empunhado com as duas mãos (impede empunhar arma ou qualquer outro item). Um parceiro capaz de empunhar escudos pode segurá-lo por você, mas não fornecerá seus benefícios enquanto faz isso. Não pode ser empunhado montado nem usado para atacar. Fornece camuflagem leve. Em seu turno, se estiver usando o escudo, você pode escolher um aliado adjacente para fornecer a ele seu bônus na Defesa e camuflagem. Caso você ou o aliado sofram um acerto crítico, o escudo é destruído."
+  }
+}

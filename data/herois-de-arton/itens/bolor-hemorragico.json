@@ -1,0 +1,19 @@
+{
+  "id": "bolor-hemorragico",
+  "tipo": "item",
+  "nome": "Bolor Hemorrágico",
+  "resumo": "Pasta venosa por contato que faz a vítima sangrar e aumenta em +5 a CD para remover essa condição.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Veneno",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Esta pasta marrom reduz a capacidade de cicatrização. Contato, vítima fica sangrando e a CD para remover essa condição aumenta em +5 (fica sangrando)."
+  }
+}

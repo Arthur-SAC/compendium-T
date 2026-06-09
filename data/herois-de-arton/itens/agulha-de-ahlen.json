@@ -1,0 +1,31 @@
+{
+  "id": "agulha-de-ahlen",
+  "tipo": "item",
+  "nome": "Agulha de Ahlen",
+  "resumo": "Adaga com lâmina oca que armazena veneno de contato; o veneno dura até acertar um ataque e tem CD aumentada em +2.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta arma covarde só poderia ter sido inventada no Reino da Intriga. Consiste em uma adaga com ponta fina e lâmina oca, que pode armazenar uma dose de veneno de contato. Aplicar um veneno nesta arma segue as regras de venenos (Tormenta20, p. 161), mas o veneno permanece até você acertar um ataque (não acaba ao fim da cena) e a CD para resistir a ele aumenta em +2."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "leve",
+      "dano": "1d4",
+      "critico": "19",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Pode armazenar uma dose de veneno de contato. O veneno permanece até acertar um ataque (não expira no fim da cena) e a CD para resistir aumenta em +2."
+  }
+}

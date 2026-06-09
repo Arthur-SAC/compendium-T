@@ -1,0 +1,33 @@
+{
+  "id": "marrao",
+  "tipo": "item",
+  "nome": "Marrão",
+  "resumo": "Versão maior e mais pesada da marreta de guerra com cabeça capaz de partir pedra e aço. Arma exótica e desbalanceada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma versão mais pesada da marreta de guerra, esta arma possui uma cabeça de metal capaz de partir pedra, aço e ossos. Um marrão é muito grande para ser usado sem treinamento especial, por isso é uma arma exótica. Além disso, por seu peso, também é uma arma desbalanceada."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "duas mãos",
+      "dano": "4d4",
+      "critico": "x2",
+      "tipoDano": "Impacto",
+      "habilidades": [
+        "Desbalanceada"
+      ]
+    }
+  }
+}

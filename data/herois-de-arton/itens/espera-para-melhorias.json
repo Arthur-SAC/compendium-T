@@ -1,0 +1,19 @@
+{
+  "id": "espera-para-melhorias",
+  "tipo": "item",
+  "nome": "Espera para Melhorias",
+  "resumo": "Aparato adaptador que permite instalar melhorias de outros itens na engenhoca, uma melhoria por espera.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 150",
+    "espacos": "*",
+    "especial": "Este aparato funciona como um adaptador que permite instalar melhorias de outros itens na engenhoca. Fazer isso segue as mesmas regras e custos para aplicar melhorias em itens convencionais. De forma geral, se uma melhoria afeta uma característica da magia simulada pela engenhoca, ela pode ser aplicada. Para materiais especiais, o custo da melhoria é baseado no tipo de efeito que ela vai gerar (arma, armadura ou esotérico — se mais de um for aplicável, você deve escolher apenas uma). Uma engenhoca pode receber mais de uma espera, e cada uma permite instalar uma melhoria (mas efeitos iguais não se acumulam, como normal). A critério do mestre, melhorias que não se apliquem naturalmente a engenhocas ainda podem ser aplicadas."
+  }
+}

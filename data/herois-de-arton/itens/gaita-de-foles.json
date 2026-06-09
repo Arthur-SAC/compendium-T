@@ -1,0 +1,19 @@
+{
+  "id": "gaita-de-foles",
+  "tipo": "item",
+  "nome": "Gaita de Foles",
+  "resumo": "Instrumento polêmico — algumas culturas adoram, a maioria odeia. Ao usar Inspiração, faça teste de Atuação CD 20+PM: se passar, o bônus aumenta em +1; se falhar, a habilidade não tem efeito.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 500",
+    "espacos": "1",
+    "especial": "Ao usar Inspiração, faça um teste de Atuação (CD 20 + total de PM gastos na habilidade). Se passar, o bônus concedido pela Inspiração aumenta em +1. Se falhar, a habilidade não tem efeito, mas os PM são gastos da mesma forma."
+  }
+}

@@ -3,7 +3,10 @@
   "tipo": "item",
   "nome": "Chakram",
   "resumo": "Disco de metal com bordas afiadas usado para arremesso; pode ricochetear em múltiplos alvos ou retornar à mão do usuário.",
-  "fonte": { "livro": "herois-de-arton", "pagina": 217 },
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
   "imagens": [],
   "secoes": [
     {

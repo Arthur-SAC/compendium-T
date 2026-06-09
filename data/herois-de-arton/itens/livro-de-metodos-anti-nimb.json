@@ -1,0 +1,19 @@
+{
+  "id": "livro-de-metodos-anti-nimb",
+  "tipo": "item",
+  "nome": "Livro de Métodos Anti-Nimb",
+  "resumo": "Livro com cálculos de estatísticas, contagem de cartas e projeções de ganhos. Permite substituir testes de Jogatina por Conhecimento gastando 1 PM.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Você pode gastar 1 minuto consultando o livro e 1 PM para substituir testes de Jogatina por testes de Conhecimento até o fim da cena. Certos cassinos, tavernas e grupos de jogadores que notem alguém consultando um destes livros podem bani-lo do jogo (ou fazer coisa bem pior)."
+  }
+}

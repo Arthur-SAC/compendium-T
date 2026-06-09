@@ -1,0 +1,32 @@
+{
+  "id": "regras-de-bebidas",
+  "tipo": "regra",
+  "nome": "Eu Bebo Sim — Regras de Bebidas",
+  "resumo": "Regras para fabricação, consumo e efeitos de bebidas alcoólicas, incluindo testes de Fortitude, condições de embriaguez e interação com imunidades.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 237 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Fabricação",
+      "texto": "Fabricar uma bebida exige um teste de Ofício (cozinheiro) com CD 20 e segue as regras normais de fabricação de itens consumíveis (com 1 dia você faz uma bebida, ou duas se aceitar uma penalidade de –5 no teste)."
+    },
+    {
+      "titulo": "Consumo",
+      "texto": "Consumir uma bebida leva alguns minutos — embora seja possível tomar alguns goles rapidamente, para receber os benefícios dela você precisa ingeri-la com calma! Benefícios de bebida duram 1 dia e se acumulam com outros benefícios de alimentação (incluindo de bebidas diferentes)."
+    },
+    {
+      "titulo": "Bebidas Alcoólicas",
+      "texto": "Quando você ingere uma bebida alcoólica, deve fazer um teste de Fortitude (CD indicada no item; cada dose adicional no mesmo dia aumenta a CD em +5). Se falhar, fica embriagado (–2 em testes baseados em Destreza e Carisma). Se já estava embriagado, fica bebum (desprevenido, –5 em testes baseados em Destreza e Carisma). Por fim, se já estava bebum, cai inconsciente. Todas as condições duram até o fim do dia."
+    },
+    {
+      "titulo": "Efeitos e Imunidade",
+      "texto": "Efeitos que evitem penalidades impostas por bebidas também anulam seus benefícios, pois eles andam lado a lado. Afinal, um personagem só recebe redução de dano ou bônus em perícias sociais ao beber por estar levemente embriagado! Um personagem com imunidade a efeitos prejudiciais de itens ingeríveis (como pelo poder Vida Rústica) pode abrir mão dessa imunidade ao beber para receber os benefícios da bebida. Nesse caso, ele recebe +5 em seu teste de Fortitude."
+    },
+    {
+      "titulo": "Aviso",
+      "texto": "Use estas regras apenas se todos os membros do grupo forem maiores de idade. E, por mais que tavernas e bebidas alcoólicas sejam comuns em obras de fantasia, não custa lembrar: na vida real, consuma com moderação!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

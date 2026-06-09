@@ -1,0 +1,16 @@
+{
+  "id": "aparatos",
+  "tipo": "regra",
+  "nome": "Aparatos (Regras Gerais)",
+  "resumo": "Regras gerais para aparatos: itens de inventor acoplados a engenhocas que modificam seu funcionamento.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 235 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Aparatos",
+      "texto": "Aparatos são itens utilizados por inventores para modificar o funcionamento de suas engenhocas. Um aparato é acoplado a uma engenhoca e, enquanto estiver acoplado, não ocupa espaços. Cada engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2. Usar dois aparatos aumenta em +5. Certos aparatos podem ser acoplados a mais de uma engenhoca. Nesses casos, você paga o custo de um único aparato, mas ele conta no limite (e no modificador da CD de ativação) de cada uma das engenhocas às quais estiver acoplado. Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro) e a CD para fabricá-los é 20."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

@@ -1,0 +1,19 @@
+{
+  "id": "baba-de-troll",
+  "tipo": "item",
+  "nome": "Baba de Troll",
+  "resumo": "Bebida sem álcool à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não exige teste de Fortitude.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude."
+  }
+}

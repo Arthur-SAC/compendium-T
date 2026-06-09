@@ -1,0 +1,19 @@
+{
+  "id": "novas-habilidades-de-armas",
+  "tipo": "regra",
+  "nome": "Novas Habilidades de Armas",
+  "resumo": "Definições das novas habilidades especiais de armas introduzidas em Heróis de Arton.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 216 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Ocultável",
+      "texto": "O tamanho e/ou formato da arma tornam mais fácil escondê-la. Ela fornece +5 em testes de Ladinagem para ocultá-la. A adaga (Tormenta20, p. 146) é uma arma ocultável."
+    },
+    {
+      "titulo": "Surpreendente",
+      "texto": "Uma vez por cena, se você sacar a arma como ação livre e usá-la para atacar no mesmo turno, o oponente fica desprevenido contra esse ataque."
+    }
+  ],
+  "relacoes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "aprendiz-de-mago",
+  "tipo": "item",
+  "nome": "Aprendiz de Mago",
+  "resumo": "Mercenário estudioso das artes arcanas. Magivocador iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um estudioso das artes arcanas, o aprendiz pode ajudá-lo com as suas magias (embora ainda não consiga lançar feitiços por si só). Magivocador iniciante."
+  }
+}

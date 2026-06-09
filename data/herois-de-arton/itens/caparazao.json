@@ -1,0 +1,19 @@
+{
+  "id": "caparazao",
+  "tipo": "item",
+  "nome": "Caparazão",
+  "resumo": "Cobertura de tecido finamente decorado que adorna e protege a montaria. Fornece +1 em Diplomacia e Intimidação para a montaria.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Animal",
+    "preco": "T$ 75",
+    "espacos": "1",
+    "especial": "Uma montaria vestindo um caparazão fornece +1 em Diplomacia e Intimidação (além de seus benefícios usuais)."
+  }
+}

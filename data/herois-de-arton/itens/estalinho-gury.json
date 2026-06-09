@@ -1,0 +1,19 @@
+{
+  "id": "estalinho-gury",
+  "tipo": "item",
+  "nome": "Estalinho Gury",
+  "resumo": "Preparado do alquimista Jozhen Gury. Gera onda de choque e barulho enorme: criaturas a 3m sofrem 4d6 de dano de impacto e ficam surdas (Fortitude CD Des reduz à metade e evita).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 234
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Preparado",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Empunhe e gaste uma ação padrão para arremessá-lo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 4d6 pontos de dano de impacto e ficam surdas. Fortitude CD Des reduz à metade e evita a condição."
+  }
+}

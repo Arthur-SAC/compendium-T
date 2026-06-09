@@ -1,0 +1,19 @@
+{
+  "id": "maquiagem-profissional",
+  "tipo": "item",
+  "nome": "Maquiagem Profissional",
+  "resumo": "Serviço de maquiagem que permite rolar dois dados e usar o melhor no primeiro teste de Diplomacia para mudar atitude por cena. Dura 1 dia.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um maquiador especializado, além de criar disfarces e ouvir os últimos boatos da corte, pode realizar uma verdadeira transformação no rosto de um cliente, ressaltando seus olhos, afinando seu nariz, escondendo cicatrizes etc. Com uma maquiagem profissional, você causa uma primeira impressão mais impactante. Quando faz seu primeiro teste de Diplomacia para mudar atitude em cada cena, você rola dois dados e usa o melhor resultado. Uma maquiagem profissional dura 1 dia."
+  }
+}

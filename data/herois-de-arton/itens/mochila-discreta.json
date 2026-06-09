@@ -1,0 +1,19 @@
+{
+  "id": "mochila-discreta",
+  "tipo": "item",
+  "nome": "Mochila Discreta",
+  "resumo": "Mochila com compartimento oculto para até 1 espaço de objetos. Fornece +5 em testes de Ladinagem para ocultá-los. Não ocupa espaço de carga.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Tem um compartimento oculto onde o usuário pode esconder objetos equivalentes a 1 espaço. Esses itens contam em sua capacidade de carga, mas você recebe +5 em testes de Ladinagem para ocultá-los (cumulativo com qualquer bônus concedido pelo próprio item). Deve ser vestida, mas não ocupa espaço de carga do personagem."
+  }
+}

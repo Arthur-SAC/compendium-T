@@ -1,0 +1,16 @@
+{
+  "id": "montarias-e-itens-vestidos",
+  "tipo": "regra",
+  "nome": "Nova Regra: Montarias e Itens Vestidos",
+  "resumo": "Regra que define quantos itens vestidos uma montaria pode usar e como os novos itens para animais se encaixam nesse limite.",
+  "fonte": { "livro": "herois-de-arton", "pagina": 238 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Montarias e Itens Vestidos",
+      "texto": "A menos que algo seja especificado em contrário em sua descrição, uma montaria pode ser equipada com dois itens vestidos, como uma sela ou um alforje (Tormenta20, pp. 158 e 162) ou outro dos itens para animais descritos aqui."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

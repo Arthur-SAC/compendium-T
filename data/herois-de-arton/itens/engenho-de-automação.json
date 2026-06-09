@@ -1,0 +1,19 @@
+{
+  "id": "engenho-de-automação",
+  "tipo": "item",
+  "nome": "Engenho de Automação",
+  "resumo": "Aparato com cartões perfurados que permite sustentar uma engenhoca sem contar no limite de magias sustentadas. Pré-requisito: conversor-alimentador.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 600",
+    "espacos": "*",
+    "especial": "Este aparato envolve dezenas de engrenagens e pistões que funcionam sob a instrução de cartões perfurados, agindo por si só segundo um padrão programado. Acoplado a uma engenhoca que simula uma magia com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Você só pode ter uma engenhoca sustentada adicional dessa forma por vez. Pré-requisito: conversor-alimentador."
+  }
+}

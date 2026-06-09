@@ -1,0 +1,19 @@
+{
+  "id": "lampiao-de-foco",
+  "tipo": "item",
+  "nome": "Lampião de Foco",
+  "resumo": "Lanterna sofisticada com cobertura e espelhos que concentram a luz em um cone de 24m.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 15",
+    "espacos": "1",
+    "especial": "Funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m."
+  }
+}

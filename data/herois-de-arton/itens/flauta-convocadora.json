@@ -1,0 +1,19 @@
+{
+  "id": "flauta-convocadora",
+  "tipo": "item",
+  "nome": "Flauta Convocadora",
+  "resumo": "Réplica de flauta esculpida em cristal. Ao lançar magia que conjura capangas, conjura um capanga adicional do mesmo tipo.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotérico",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando lança uma magia que conjura capangas, você conjura um capanga adicional do mesmo tipo."
+  }
+}

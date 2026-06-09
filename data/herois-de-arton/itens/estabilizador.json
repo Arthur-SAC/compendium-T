@@ -1,0 +1,19 @@
+{
+  "id": "estabilizador",
+  "tipo": "item",
+  "nome": "Estabilizador",
+  "resumo": "Aparato de gaiola de arame fino que aumenta em +2 a CD para resistir ao efeito da engenhoca.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 900",
+    "espacos": "*",
+    "especial": "Uma gaiola de arame fino que envolve uma engenhoca. Aumenta a CD para resistir ao efeito da engenhoca em +2."
+  }
+}

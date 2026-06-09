@@ -1,0 +1,32 @@
+{
+  "id": "arco-montado",
+  "tipo": "item",
+  "nome": "Arco Montado",
+  "resumo": "Arco compacto para arqueiros montados; elimina penalidade pelo balanço da montaria (ou +2 no dano se já possuir habilidade similar).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este arco combina materiais resistentes em uma estrutura mais curta, tornando-o próprio para ser disparado por um arqueiro montado. Você não sofre a penalidade em ataques à distância devido ao balanço de sua montaria (Tormenta20, p. 262). Se você já possui uma habilidade que elimina essa penalidade, em vez disso ela fornece +2 nas rolagens de dano com este arco enquanto você está montado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 45",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "alcance": "médio",
+      "dano": "1d6",
+      "critico": "x3",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Elimina penalidade em ataques à distância pelo balanço da montaria. Se já possuir habilidade que elimina essa penalidade, fornece +2 nas rolagens de dano enquanto montado. Requer munição: flechas."
+  }
+}

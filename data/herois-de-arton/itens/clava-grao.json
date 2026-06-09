@@ -1,0 +1,31 @@
+{
+  "id": "clava-grao",
+  "tipo": "item",
+  "nome": "Clava-Grão",
+  "resumo": "Arma cultivada por druidas com energia natural; permite aplicar Sabedoria no dano. Druidas podem usá-la como arma simples.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta arma possui cabo fino e delgado e uma extremidade larga e arredondada. Clavas-grão não são 'fabricadas', mas cultivadas por druidas a partir de sementes específicas que emitem uma energia natural. Essa energia, por sua vez, permite que o usuário da clava-grão estabeleça um elo com a arma. Quando ataca com uma clava-grão, você pode aplicar sua Sabedoria às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 nas rolagens de dano, cumulativo com outros efeitos de itens). Por sua afinidade natural, druidas podem usar a clava-grão como uma arma simples."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 90",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "x2",
+      "tipoDano": "Impacto"
+    },
+    "especial": "Pode aplicar Sabedoria às rolagens de dano. Se já aplica Sabedoria por outra habilidade, recebe +2 no dano (cumulativo). Druidas podem usá-la como arma simples."
+  }
+}

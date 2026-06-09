@@ -1,0 +1,19 @@
+{
+  "id": "barba-queimada",
+  "tipo": "item",
+  "nome": "Barba Queimada",
+  "resumo": "Cerveja anã forte e amarga que fortalece corpo e espírito. Fornece redução de dano 2. CD 20.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Fornece redução de dano 2. CD 20."
+  }
+}

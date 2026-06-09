@@ -1,0 +1,19 @@
+{
+  "id": "presa-de-hyninn",
+  "tipo": "item",
+  "nome": "Presa de Hyninn",
+  "resumo": "Presa extraída dos tigres-de-Hyninn. Concede 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Catalisador",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Você recebe 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada."
+  }
+}

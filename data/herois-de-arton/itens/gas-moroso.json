@@ -1,0 +1,19 @@
+{
+  "id": "gas-moroso",
+  "tipo": "item",
+  "nome": "Gás Moroso",
+  "resumo": "Gás azulado que inibe as reações, reduzindo capacidades de defesa. Inalação: vítima fica vulnerável por 1 rodada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Veneno",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Inalação. Vítima fica vulnerável por 1 rodada."
+  }
+}

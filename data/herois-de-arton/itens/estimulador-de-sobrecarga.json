@@ -1,0 +1,19 @@
+{
+  "id": "estimulador-de-sobrecarga",
+  "tipo": "item",
+  "nome": "Estimulador de Sobrecarga",
+  "resumo": "Aparato agressivo com engrenagens barulhentas que aumenta o dano da engenhoca em +1 dado.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 750",
+    "espacos": "*",
+    "especial": "Um mecanismo de aparência agressiva, com engrenagens barulhentas que giram de forma independente. Aumenta o dano provocado pela engenhoca em +1 dado. Funciona apenas em engenhocas que causam dano."
+  }
+}

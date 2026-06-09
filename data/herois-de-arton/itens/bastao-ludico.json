@@ -1,0 +1,31 @@
+{
+  "id": "bastao-ludico",
+  "tipo": "item",
+  "nome": "Bastão Lúdico",
+  "resumo": "Bastão esportivo usado em jogos populares da aristocracia de Deheon e Namalkah; causa dano não letal e pode rebater armas de arremesso.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A aristocracia de Deheon, Namalkah e outros reinos vem recentemente redescobindo um esporte dos povos originais do continente, que consiste em arremessar e rebater bolas duras. Existem variações: em algumas modalidades, é preciso derrubar alvos no chão; em outras, o objetivo é correr até um marco antes que o adversário consiga devolver a bola ao ponto de origem. Seja como for, os bastões usados nesses jogos vêm se tornando populares como armas elegantes, ainda que simples. Um bastão lúdico causa dano não letal. Além disso, se for proficiente com armas marciais, você pode usar o bastão para rebater objetos arremessados em sua direção. Uma vez por rodada, quando é atingido por uma arma de arremesso, você pode fazer um teste de ataque com o bastão lúdico. Se o resultado desse teste for maior que o do oponente, você evita o ataque."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 5",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "simples",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "x2",
+      "tipoDano": "Impacto"
+    },
+    "especial": "Causa dano não letal. Se proficiente com armas marciais, pode rebater armas de arremesso: uma vez por rodada, ao ser atingido por arma de arremesso, faça um teste de ataque com o bastão lúdico — se superar o teste do oponente, evita o ataque."
+  }
+}

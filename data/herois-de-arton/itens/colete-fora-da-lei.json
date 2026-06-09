@@ -1,0 +1,24 @@
+{
+  "id": "colete-fora-da-lei",
+  "tipo": "item",
+  "nome": "Colete Fora da Lei",
+  "resumo": "Colete metálico desenvolvido por uma quadrilha de Smokestone. A forma arredondada e as ranhuras em sua superfície redirecionam projéteis, tornando-o ideal contra balas e flechas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 226
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "armadura",
+    "preco": "T$ 750",
+    "espacos": "2",
+    "protecao": {
+      "subcategoria": "leve",
+      "bonusDefesa": 5,
+      "penalidadeArmadura": -5
+    },
+    "especial": "Contra armas de disparo, o bônus na Defesa de um colete fora da lei aumenta em +2."
+  }
+}

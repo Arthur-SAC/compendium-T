@@ -1,0 +1,19 @@
+{
+  "id": "flechas-pesadas",
+  "tipo": "item",
+  "nome": "Flechas Pesadas",
+  "resumo": "Versões de ponta mais pesada e afiada das flechas normais. Penalizam o ataque mas ignoram parte da Redução de Dano dos alvos.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Pacote com 20 flechas. Você sofre –2 em testes de ataque com estas flechas, mas ignora 5 pontos da RD dos alvos."
+  }
+}

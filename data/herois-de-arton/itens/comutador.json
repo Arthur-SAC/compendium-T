@@ -1,0 +1,19 @@
+{
+  "id": "comutador",
+  "tipo": "item",
+  "nome": "Comutador",
+  "resumo": "Aparato de bobina de metal místico que diminui em –1 PM o custo total dos aprimoramentos da engenhoca.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 300",
+    "espacos": "*",
+    "especial": "Uma bobina de metal místico, capaz de captar e potencializar a energia do ambiente. Diminui o custo total dos aprimoramentos da engenhoca em –1 PM."
+  }
+}

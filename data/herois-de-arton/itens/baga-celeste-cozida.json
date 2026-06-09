@@ -1,0 +1,19 @@
+{
+  "id": "baga-celeste-cozida",
+  "tipo": "item",
+  "nome": "Baga Celeste Cozida",
+  "resumo": "Bagas de Vectora preparadas adequadamente. Todo dano de queda sofrido é reduzido em -1d6.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Prato Especial",
+    "preco": "T$ 15",
+    "espacos": "—",
+    "especial": "Todo dano de queda que você sofre é reduzido em −1d6."
+  }
+}

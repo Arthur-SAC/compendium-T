@@ -1,0 +1,34 @@
+{
+  "id": "espada-canora",
+  "tipo": "item",
+  "nome": "Espada Canora",
+  "resumo": "Espada com frestas na lâmina que produz som gracioso ao ser brandida; conta como instrumento musical para bardos. Arma ágil.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta arma possui frestas na lâmina que produzem um som gracioso quando ela é brandida. Conta como um instrumento musical para bardos. Uma espada canora é uma arma ágil."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "dano": "1d6",
+      "critico": "19",
+      "tipoDano": "Perfuração",
+      "habilidades": [
+        "Ágil"
+      ]
+    },
+    "especial": "Conta como instrumento musical para bardos."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sistema-de-refrigeração",
+  "tipo": "item",
+  "nome": "Sistema de Refrigeração",
+  "resumo": "Aparato de ventoinhas e tubos que permite, uma vez por dia, reduzir a CD de ativação da engenhoca em –5.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 900",
+    "espacos": "*",
+    "especial": "Um conjunto de ventoinhas que fazem ar fresco circular entre os componentes da engenhoca e tubos cheios d'água, que dissipam calor por sua correnteza interna. Uma vez por dia, você pode gastar uma ação completa e 1 PM para acionar as ventoinhas e resfriar a engenhoca. Fazer isso reduz a CD de ativação da engenhoca em –5."
+  }
+}

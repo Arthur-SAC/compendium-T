@@ -1,0 +1,31 @@
+{
+  "id": "cinquedea",
+  "tipo": "item",
+  "nome": "Cinquedea",
+  "resumo": "Conhecida como 'adaga língua de vaca'; lâmina triangular feita apenas para estocar, causa dano extra contra alvos desprevenidos ou flanqueados.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também conhecida como 'adaga língua de vaca', esta arma é um meio-termo entre uma espada curta e uma adaga. Sua lâmina triangular, que termina numa ponta muito fina, é feita apenas para estocar, nunca cortar, e causa ferimentos graves. Contra uma criatura desprevenida ou que você esteja flanqueando, a cinquedea causa um dado de dano extra do mesmo tipo. Dizem que o apelido se originou entre os rebeldes do Império de Tauron, que usam esta arma para apunhalar seus senhores e deixá-los estrebuchando com a língua para fora…"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 18",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "leve",
+      "dano": "1d4",
+      "critico": "19",
+      "tipoDano": "Perfuração"
+    },
+    "especial": "Contra criatura desprevenida ou flanqueada, causa um dado de dano extra do mesmo tipo."
+  }
+}

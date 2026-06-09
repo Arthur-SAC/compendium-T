@@ -1,0 +1,31 @@
+{
+  "id": "espada-de-execucao",
+  "tipo": "item",
+  "nome": "Espada de Execução",
+  "resumo": "Espada pesada para decapitar condenados; sofre –5 em ataques a menos que gaste ação de movimento para preparar. Crítico devastador.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada pesada não foi projetada para combate, mas para decapitar condenados à morte — presumivelmente parados. Sua lâmina é muito afiada, mas é difícil usá-la em batalha: você sofre –5 em testes de ataque com esta arma, a menos que gaste uma ação de movimento para prepará-la (isso elimina essa penalidade em seu próximo ataque feito nesse turno). Contudo, um golpe certeiro pode significar uma execução, mesmo em combate…"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 75",
+    "espacos": "2",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "duas mãos",
+      "dano": "2d6",
+      "critico": "18/x4",
+      "tipoDano": "Corte"
+    },
+    "especial": "Sofre –5 em testes de ataque, a menos que gaste uma ação de movimento para preparar (elimina a penalidade no próximo ataque desse turno)."
+  }
+}

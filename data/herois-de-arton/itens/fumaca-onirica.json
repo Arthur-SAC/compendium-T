@@ -1,0 +1,19 @@
+{
+  "id": "fumaca-onirica",
+  "tipo": "item",
+  "nome": "Fumaça Onírica",
+  "resumo": "Gás de cores variadas por inalação que fascina a vítima por 3 rodadas (uma vez por cena). Resistido com Vontade.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Veneno",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Este gás de cores variadas afeta a mente, fazendo a vítima experimentar ilusões encantadoras. Inalação, vítima fica fascinada por 3 rodadas, apenas uma vez por cena (ofuscada por 1 rodada). Este veneno é resistido com Vontade."
+  }
+}

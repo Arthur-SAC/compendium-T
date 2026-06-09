@@ -1,0 +1,19 @@
+{
+  "id": "giroscópio",
+  "tipo": "item",
+  "nome": "Giroscópio",
+  "resumo": "Aparato de contrapesos e roldanas que elimina a penalidade de armadura nos testes de ativação da engenhoca.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 450",
+    "espacos": "*",
+    "especial": "Este sistema de contrapesos, amortecedores e roldanas é instalado ao redor da engenhoca, deixando-a sempre estável. Você não aplica sua penalidade de armadura por armadura nos testes de ativação da engenhoca (mas aplica penalidades de armadura de outras fontes)."
+  }
+}

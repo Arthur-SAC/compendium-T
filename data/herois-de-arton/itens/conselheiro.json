@@ -1,0 +1,19 @@
+{
+  "id": "conselheiro",
+  "tipo": "item",
+  "nome": "Conselheiro",
+  "resumo": "Mercenário estudioso de diversos assuntos. Ajudante (Conhecimento, Misticismo e Nobreza) veterano.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 150",
+    "espacos": "—",
+    "especial": "Um estudioso de diversos assuntos. Ajudante (Conhecimento, Misticismo e Nobreza) veterano."
+  }
+}

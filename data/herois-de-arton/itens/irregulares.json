@@ -1,0 +1,19 @@
+{
+  "id": "irregulares",
+  "tipo": "item",
+  "nome": "Irregulares",
+  "resumo": "Mercenário: soldados sem exército formal. Requer treinamento em Guerra. Pelotão de infantaria veterano.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 300",
+    "espacos": "—",
+    "especial": "Soldados que não fazem parte de nenhum exército ou companhia mercenária regular, com pouco treinamento e equipamento díspar. Você precisa ser treinado em Guerra para contratar e comandar os irregulares. Pelotão de infantaria veterano (veja Capangas)."
+  }
+}

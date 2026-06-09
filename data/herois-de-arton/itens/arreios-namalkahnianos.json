@@ -1,0 +1,19 @@
+{
+  "id": "arreios-namalkahnianos",
+  "tipo": "item",
+  "nome": "Arreios Namalkahnianos",
+  "resumo": "Arreios de couro com nós e fivelas de precisão. Contam como item vestido do animal e aumentam o deslocamento de um veículo de tração animal em +3m.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Animal",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Contam como um item vestido do animal e aumentam o deslocamento de um veículo de tração animal em +3m."
+  }
+}

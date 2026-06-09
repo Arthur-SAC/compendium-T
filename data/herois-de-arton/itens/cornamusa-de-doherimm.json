@@ -1,0 +1,19 @@
+{
+  "id": "cornamusa-de-doherimm",
+  "tipo": "item",
+  "nome": "Cornamusa de Doherimm",
+  "resumo": "Instrumento anão para acústica de cavernas, similar a gaita de foles com roncões imensos. Vestida (não empunhada): reduz custo da Inspiração em –1 PM, mas impõe –2 na Defesa.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 750",
+    "espacos": "2",
+    "especial": "A cornamusa é vestida e não empunhada (mas você ainda precisa ter pelo menos uma mão livre para usá-la). Enquanto você estiver vestindo a cornamusa, o custo de sua Inspiração é reduzido em –1 PM, mas você sofre –2 na Defesa."
+  }
+}

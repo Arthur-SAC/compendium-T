@@ -1,0 +1,19 @@
+{
+  "id": "sapatos-de-salto-alto",
+  "tipo": "item",
+  "nome": "Sapatos de Salto Alto",
+  "resumo": "Elegantes mas desconfortáveis. Reduzem deslocamento em –1,5m e causam falha automática em marcha forçada. Em compensação, permitem usar poder Atraente uma vez por cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 18",
+    "espacos": "1",
+    "especial": "Seu deslocamento é reduzido em –1,5m e você falha automaticamente em testes de Fortitude para marcha forçada. Em compensação, uma vez por cena você pode escolher uma criatura e caminhar na frente dela (uma ação completa). Se fizer isso, você pode usar o poder Atraente pelo restante da cena contra essa criatura (se já tiver esse poder, o bônus que ele fornece contra essa criatura aumenta para +5)."
+  }
+}

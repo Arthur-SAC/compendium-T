@@ -1,0 +1,19 @@
+{
+  "id": "captador-de-luz",
+  "tipo": "item",
+  "nome": "Captador de Luz",
+  "resumo": "Aparato de lentes e cristais que aumenta em +1 por dado toda cura de luz fornecida por engenhocas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 450",
+    "espacos": "*",
+    "especial": "Um conjunto de lentes e cristais adaptado à engenhoca, capaz de não apenas captar a luz mundana do ambiente, mas também a energia positiva presente nela. Toda cura de luz fornecida pela engenhoca aumenta em +1 por dado. Funciona apenas com engenhocas com efeitos de cura de luz."
+  }
+}

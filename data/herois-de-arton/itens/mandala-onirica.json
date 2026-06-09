@@ -1,0 +1,19 @@
+{
+  "id": "mandala-onirica",
+  "tipo": "item",
+  "nome": "Mandala Onírica",
+  "resumo": "Mandala de delicados fios metálicos entrelaçados. Quando um inimigo falha no teste de Vontade de uma de suas magias, você recebe 1 PM temporário (limitado pelo PM gasto na magia).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotérico",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Quando ao menos um inimigo falha no teste de Vontade de uma de suas magias, você recebe 1 PM temporário (limitado pelo total de PM gasto na magia)."
+  }
+}

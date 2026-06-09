@@ -1,0 +1,30 @@
+{
+  "id": "espada-larga",
+  "tipo": "item",
+  "nome": "Espada Larga",
+  "resumo": "Espada de bárbaros e mercenários com lâmina menos afiada, mais larga e pesada que a espada longa.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta arma usada por bárbaros e mercenários tem a lâmina menos afiada, mas mais larga e pesada, que a da espada longa."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 8",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "2d4",
+      "critico": "x2",
+      "tipoDano": "Corte"
+    }
+  }
+}

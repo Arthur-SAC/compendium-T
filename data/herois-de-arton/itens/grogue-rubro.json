@@ -1,0 +1,19 @@
+{
+  "id": "grogue-rubro",
+  "tipo": "item",
+  "nome": "Grogue Rubro",
+  "resumo": "Variação do grogue negro com especiarias picantes. Permite usar Audácia para testes de ataque. CD 20.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 237
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alimentação — Bebida",
+    "preco": "T$ 45",
+    "espacos": "0,5",
+    "especial": "Você pode usar Audácia para testes de ataque. CD 20."
+  }
+}

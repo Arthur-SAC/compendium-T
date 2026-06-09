@@ -1,0 +1,32 @@
+{
+  "id": "boleadeira",
+  "tipo": "item",
+  "nome": "Boleadeira",
+  "resumo": "Arma de arremesso típica de Namalkah que pode derrubar inimigos; permite executar manobra derrubar à distância.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 216
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta arma de arremesso típica de Namalkah pode se enrolar nos tornozelos de um inimigo, derrubando-o. A boleadeira pode ser usada para executar uma manobra derrubar à distância."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 12",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "exótica",
+      "empunhadura": "uma mão",
+      "alcance": "curto",
+      "dano": "1d4",
+      "critico": "x2",
+      "tipoDano": "Impacto"
+    },
+    "especial": "Pode ser usada para executar a manobra derrubar à distância."
+  }
+}

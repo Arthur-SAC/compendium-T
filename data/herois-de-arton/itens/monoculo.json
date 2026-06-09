@@ -1,0 +1,19 @@
+{
+  "id": "monoculo",
+  "tipo": "item",
+  "nome": "Monóculo",
+  "resumo": "Lente corretiva encaixada na órbita ocular — símbolo de dignidade e empáfia. Quando usa Orgulho em teste de Vontade, o bônus fornecido aumenta em +2.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 232
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Quando você usa a habilidade Orgulho em um teste de Vontade, o bônus fornecido por ela aumenta em +2."
+  }
+}

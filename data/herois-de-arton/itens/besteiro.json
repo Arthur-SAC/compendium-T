@@ -1,0 +1,19 @@
+{
+  "id": "besteiro",
+  "tipo": "item",
+  "nome": "Besteiro",
+  "resumo": "Mercenário combatente especializado em armas de disparo. Atirador iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 30",
+    "espacos": "—",
+    "especial": "Um combatente especializado em armas de disparo. Atirador iniciante."
+  }
+}

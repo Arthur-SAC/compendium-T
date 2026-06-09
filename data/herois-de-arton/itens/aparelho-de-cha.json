@@ -1,0 +1,19 @@
+{
+  "id": "aparelho-de-cha",
+  "tipo": "item",
+  "nome": "Aparelho de Chá",
+  "resumo": "Conjunto de xícaras delicadas, pires e bule. Deixa qualquer um mais predisposto a conversar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Uma vez por cena, você recebe +1d4 em um teste de Diplomacia ou Enganação feito com alguém que esteja tomando chá com você."
+  }
+}

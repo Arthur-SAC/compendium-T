@@ -1,0 +1,19 @@
+{
+  "id": "essencia-fantasmal",
+  "tipo": "item",
+  "nome": "Essência Fantasmal",
+  "resumo": "Pasta de ectoplasma de locais de aparições. A magia ignora 5 pontos da RD de todas as criaturas afetadas.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímico — Catalisador",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "A magia ignora 5 pontos da RD de todas as criaturas afetadas."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "espelho-refletor",
+  "tipo": "item",
+  "nome": "Espelho Refletor",
+  "resumo": "Pequeno espelho que reflete luz nos olhos de inimigos, cegando-os temporariamente. Pode ser usado uma vez por cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 45",
+    "espacos": "1",
+    "especial": "Gaste uma ação de movimento para fazer um teste de Ladinagem oposto a um teste de Reflexos de uma criatura em alcance curto. Se vencer, ela fica desprevenida contra seu próximo ataque até o fim do seu próximo turno. Pode ser usado apenas uma vez por cena."
+  }
+}

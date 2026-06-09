@@ -1,0 +1,19 @@
+{
+  "id": "bando-de-aldeões",
+  "tipo": "item",
+  "nome": "Bando de Aldeões",
+  "resumo": "Mercenário: grupo de camponeses com armas improvisadas. Requer treinamento em Guerra. Turba de camponeses iniciante.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 238
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 90",
+    "espacos": "—",
+    "especial": "Um grupo de esfarrapados descalços portando ancinhos, porretes e outras armas improvisadas. Você precisa ser treinado em Guerra para contratar e comandar um bando de aldeões. Turba de camponeses iniciante (veja Capangas)."
+  }
+}

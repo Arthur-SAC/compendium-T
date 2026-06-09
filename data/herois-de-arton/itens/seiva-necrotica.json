@@ -1,0 +1,19 @@
+{
+  "id": "seiva-necrotica",
+  "tipo": "item",
+  "nome": "Seiva Necrótica",
+  "resumo": "Veneno por contato que causa 2d6 PV por rodada durante 3 rodadas; PV perdidos só recuperam com magia de luz.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Veneno",
+    "preco": "T$ 120",
+    "espacos": "0,5",
+    "especial": "Preparada a partir da seiva de plantas impregnadas de energia negativa, esta substância causa ferimentos que não cicatrizam naturalmente. Contato, perde 2d6 PV por rodada durante 3 rodadas (perde 2d6 PV). Pontos de vida perdidos por seiva necrótica só podem ser recuperados com efeitos mágicos de luz."
+  }
+}

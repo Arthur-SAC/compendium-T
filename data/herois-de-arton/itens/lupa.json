@@ -1,0 +1,19 @@
+{
+  "id": "lupa",
+  "tipo": "item",
+  "nome": "Lupa",
+  "resumo": "Lente de aumento em armação metálica com cabo de madeira. Equipamento indispensável para detetives. Permite rolar dois dados em testes de Investigação para procurar.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 227
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Quando faz um teste de Investigação para procurar usando uma lupa, você pode rolar dois dados e usar o melhor resultado."
+  }
+}

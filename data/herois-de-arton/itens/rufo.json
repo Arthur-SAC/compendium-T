@@ -1,0 +1,19 @@
+{
+  "id": "rufo",
+  "tipo": "item",
+  "nome": "Rufo",
+  "resumo": "Gola adornada e apertada ao redor do pescoço. Usado com traje da corte, o traje passa a fornecer +1 em Diplomacia (cumulativo com quaisquer bônus do próprio traje).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 233
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 25",
+    "espacos": "1",
+    "especial": "Se você usar um traje da corte em conjunto com um rufo, o traje passa a fornecer +1 em Diplomacia (cumulativo com quaisquer bônus do próprio traje)."
+  }
+}

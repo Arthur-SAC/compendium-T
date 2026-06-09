@@ -1,0 +1,19 @@
+{
+  "id": "banho-quente",
+  "tipo": "item",
+  "nome": "Banho Quente",
+  "resumo": "Serviço relaxante disponível em casas de banho que fornece +1d6 no próximo teste de resistência até o fim do próximo dia.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 239
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviço",
+    "preco": "T$ 10",
+    "espacos": "—",
+    "especial": "Disponível em casas de banho e algumas estalagens, um bom banho é relaxante, limpa o corpo e fortalece a imunidade. Você recebe +1d6 em seu próximo teste de resistência feito até o fim do próximo dia (cumulativo com bônus de outros itens)."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "estandarte-portatil",
+  "tipo": "item",
+  "nome": "Estandarte Portátil",
+  "resumo": "Como o estandarte, mas usado nas costas ou preso à sela, deixando as mãos livres. Impõe penalidade de armadura de –2 (costas) ou conta como item vestido da montaria (sela).",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Ferramenta",
+    "preco": "T$ 20",
+    "espacos": "1",
+    "especial": "Igual ao estandarte (capangas recebem +1 na Defesa e em rolagens de dano), mas feito para ser usado nas costas ou preso à sela de uma montaria, deixando as mãos livres. Se estiver preso às costas, impõe penalidade de armadura de –2; se preso à montaria, conta como um item vestido dela."
+  }
+}

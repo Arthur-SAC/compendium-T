@@ -1,0 +1,19 @@
+{
+  "id": "flechas-de-caca",
+  "tipo": "item",
+  "nome": "Flechas de Caça",
+  "resumo": "Flechas com cabeças chatas e pesadas, criadas para atordoar presas pequenas em vez de destruí-las completamente.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 223
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "municao",
+    "preco": "T$ 10",
+    "espacos": "1",
+    "especial": "Pacote com 20 flechas. Uma flecha de caça causa dano de impacto não letal."
+  }
+}

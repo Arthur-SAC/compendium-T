@@ -1,0 +1,19 @@
+{
+  "id": "lira-de-casco-de-tartaruga",
+  "tipo": "item",
+  "nome": "Lira de Casco de Tartaruga",
+  "resumo": "Instrumento suave e pacífico. Músicas e magias de bardo de cura recuperam +1 PV por dado de cura.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 231
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Instrumento Musical",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Suas Músicas e magias de bardo de cura recuperam +1 PV por dado de cura."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "espadim",
+  "tipo": "item",
+  "nome": "Espadim",
+  "resumo": "Espada cerimonial de nobres usada como símbolo de status marcial; treinados em Nobreza recebem +1 em ataques e dano com ela.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 217
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta espada cerimonial é usada entre os nobres de algumas nações como um símbolo de status marcial e, frequentemente, é a primeira arma com a qual têm contato em seus treinos de esgrima. Se for treinado em Nobreza, você recebe +1 em testes de ataque e rolagens de dano com um espadim, cumulativo com outros efeitos de itens."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "uma mão",
+      "dano": "1d8",
+      "critico": "20",
+      "tipoDano": "Corte"
+    },
+    "especial": "Se treinado em Nobreza, recebe +1 em testes de ataque e rolagens de dano (cumulativo com outros efeitos de itens)."
+  }
+}

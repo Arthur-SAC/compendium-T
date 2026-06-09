@@ -1,0 +1,32 @@
+{
+  "id": "martelo-leve",
+  "tipo": "item",
+  "nome": "Martelo Leve",
+  "resumo": "Martelo de uma peça de metal apreciado por anões como arma secundária; pode ser arremessado.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 221
+  },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Geralmente fabricado de uma única peça de metal, este martelo é muito apreciado por anões como arma secundária. Pode ser arremessado."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "arma",
+    "preco": "T$ 2",
+    "espacos": "1",
+    "arma": {
+      "proficiencia": "marcial",
+      "empunhadura": "leve",
+      "alcance": "curto",
+      "dano": "1d4",
+      "critico": "x4",
+      "tipoDano": "Impacto"
+    },
+    "especial": "Pode ser arremessado (alcance curto)."
+  }
+}

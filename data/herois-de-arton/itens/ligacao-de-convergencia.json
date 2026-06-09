@@ -1,0 +1,19 @@
+{
+  "id": "ligacao-de-convergencia",
+  "tipo": "item",
+  "nome": "Ligação de Convergência",
+  "resumo": "Aparato que une duas engenhocas em uma; ativada uma, a outra não pode ser ativada na mesma cena.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 236
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Aparato",
+    "preco": "T$ 300",
+    "espacos": "*",
+    "especial": "Este aparato deve ser acoplado a duas engenhocas (nem mais, nem menos), transformando ambas em uma. As duas engenhocas contam como uma só para efeitos do limite de engenhocas que você pode manter ao mesmo tempo. Contudo, uma vez que uma delas seja ativada, a outra não pode ser ativada na mesma cena. Nas cenas seguintes, é possível ativar a outra engenhoca, mas se o efeito da anterior ainda estiver ativo (como por durar 1 dia), ele é dissipado."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "compasso-mistico",
+  "tipo": "item",
+  "nome": "Compasso Místico",
+  "resumo": "Compasso com marcações geométricas e símbolos arcanos. Ao lançar magia com efeito em área, permite excluir um alvo da área afetada.",
+  "fonte": {
+    "livro": "herois-de-arton",
+    "pagina": 235
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotérico",
+    "preco": "T$ 600",
+    "espacos": "1",
+    "especial": "Quando lança uma magia com efeito em área, você pode excluir um alvo da área afetada."
+  }
+}
