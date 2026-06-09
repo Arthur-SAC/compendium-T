@@ -4,8 +4,12 @@ import { Divisor } from "@/components/Divisor";
 import { SeloFonte } from "@/components/SeloFonte";
 
 export default function IndiceRacas() {
-  const racas = carregarEntidades()
+  const entidades = carregarEntidades();
+  const racas = entidades
     .filter((e) => e.tipo === "raca")
+    .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  const linhagens = entidades
+    .filter((e) => e.tipo === "linhagem")
     .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
 
   return (
@@ -36,6 +40,19 @@ export default function IndiceRacas() {
             );
           })}
         </div>
+        {linhagens.length > 0 && (
+          <section style={{ marginBottom: 8 }}>
+            <h3 className="indice-grupo-titulo" style={{ fontSize: 14 }}>Linhagens ({linhagens.length})</h3>
+            <div className="indice-lista">
+              {linhagens.map((l) => (
+                <Link key={l.id} href={`/ficha/linhagem/${l.id}`} className="indice-linha">
+                  <span className="indice-nome">{l.nome}</span>
+                  {l.resumo && <span className="indice-resumo">{l.resumo}</span>}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </main>
   );
