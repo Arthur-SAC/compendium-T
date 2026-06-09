@@ -1,0 +1,48 @@
+{
+  "id": "improvisador-de-lena",
+  "tipo": "distincao",
+  "nome": "Improvisador de Lena",
+  "resumo": "Herói pacifista inspirado pela Deusa da Vida que domina todos os aspectos da aventura exceto o combate, vencendo qualquer obstáculo com engenhosidade, improvisação e criatividade.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 102 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O improvisador é um herói que domina todos os aspectos da vida de aventureiro — exceto o combate! Sem jamais empunhar uma arma ou recorrer a violência, encontra soluções inovadoras para qualquer obstáculo; improvisa equipamentos, máquinas e dispositivos variados no calor do momento; aproveita conhecimentos pouco comuns e engana adversários.\n\nO improvisador de Lena vê Arton inteira como sua mochila de equipamentos! Tudo a seu redor tem algum uso: as pétalas daquela flor contêm um componente que simula essência de mana; os besouros desta região andam em círculos quando um relâmpago está para cair; aquele tecido, ao interagir com cera, é capaz de filtrar gases venenosos...\n\nApesar de estar alinhado com a Deusa da Vida, o improvisador não é necessariamente um devoto. Ele não é impedido de lutar; simplesmente escolhe não fazê-lo, confiando que engenhosidade é mais eficaz que qualquer arma ou feitiço. Sabe ser possível derrotar inimigos sem ferir ou matar; sempre há outra maneira.\n\nO que mais define o improvisador de Lena é sua vasta gama de conhecimentos. Um misto de cientista, inventor, sabotador, místico, naturalista e outros, o improvisador está longe de ser um especialista — mas sabe o suficiente para ser útil.\n\nCuriosamente, até onde se sabe apenas sociedades humanas dão origem a estes aventureiros pacíficos. Membros de outras raças devem passar pelo menos seis meses em uma comunidade humana para entender como essas criaturas apressadas e ambiciosas pensam."
+    },
+    {
+      "titulo": "Código da Paz",
+      "texto": "O improvisador segue o Código da Paz (Deuses de Arton, p. 116), que define as limitações e princípios de sua escolha pela não-violência."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Apenas humanos podem se tornar improvisadores de Lena sem restrições. Membros de outras raças devem passar pelo menos seis meses imersos em uma comunidade humana. O candidato deve ser um artesão, pesquisador, engenheiro ou coisa parecida. É necessário algum evento que o faça rejeitar o uso de armas (algo na infância, algo recente ou uma experiência marcante). Depois, o candidato deve vencer dois combates desafiadores sem ferir ninguém — e sem que seus companheiros usem violência. Por fim, deve resolver uma situação de vida ou morte que exija equipamentos... sem equipamentos, usando apenas criatividade.",
+    "marca": {
+      "nome": "Código do Improvisador",
+      "descricao": "O improvisador aprende como usar materiais ao seu redor para improvisar soluções. Você segue o Código da Paz (p. 116). Além disso, uma vez por cena, pode gastar uma ação de movimento para, a partir de itens do ambiente, improvisar uma ferramenta especial que ocupa 1 espaço. Até o fim da cena, você pode gastar essa ferramenta para receber +2 em um teste de perícia ou para reduzir em –1 PM o custo de uma de suas habilidades."
+    },
+    "poderes": [
+      {
+        "nome": "Gambiarra Mestra",
+        "descricao": "Uma pena, dois botões e o resto do jantar de ontem serão o suficiente… Você pode gastar uma ação de movimento e 3 PM para improvisar algum tipo de gambiarra para uma tarefa específica. Escolha uma perícia. Até o fim da cena, você pode usar sua gambiarra para substituir testes da perícia escolhida por testes de Ofício. Pré-requisitos: treinado em Investigação e Ofício."
+      },
+      {
+        "nome": "Efeito Cenográfico",
+        "descricao": "Um bom improvisador encontra formas de vencer sem violência. Quando causa dano não letal a uma criatura viva, você pode gastar 2 PM para desferir um golpe cenográfico. A vítima deve fazer um teste de Fortitude (CD Int, +1 por poder da distinção que você possui). Se falhar, ela fica inconsciente (se for um capanga) ou atordoada por 1 rodada (apenas uma vez por cena) se for de outro tipo. Pré-requisito: Poder Improvisado."
+      },
+      {
+        "nome": "Habilidade Improvisada",
+        "descricao": "Intrometendo-se nos campos de outros aventureiros, o improvisador adquire uma versatilidade impressionante. Você pode gastar uma ação padrão e 3 PM para improvisar uma forma de executar uma tarefa. Escolha uma habilidade de uma classe (exceto Magias) que não seja a sua. Até o fim da cena, ou até usar este poder novamente, você pode utilizar essa habilidade como um personagem de nível igual ao seu total de poderes da distinção. Pré-requisito: Poder Improvisado."
+      },
+      {
+        "nome": "Magia Improvisada",
+        "descricao": "Usando uma corda, uma luneta e um esquilo desatento, o improvisador cria um aparato mágico útil para a ocasião. Você pode gastar uma ação completa para improvisar uma forma de simular um feito místico. Escolha uma magia de 1º círculo e faça um teste de Inteligência (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, até o fim da cena, você pode lançar a magia escolhida uma única vez, pagando seu custo normal (atributo-chave Inteligência). Esta não é uma habilidade mágica e provém de sua elevada capacidade de improvisação (veja 'Magias Simuladas', em Heróis de Arton, Capítulo 1: Campeões de Arton). Pré-requisitos: treinado em Misticismo, Poder Improvisado."
+      },
+      {
+        "nome": "Poder Improvisado",
+        "descricao": "O improvisador é um indivíduo de muitos talentos, vários dos quais nem ele sabe que possui... Você pode gastar uma ação padrão e 3 PM para pensar em uma solução criativa para um problema a sua frente. Escolha um poder de classe ou geral (exceto poderes concedidos e da Tormenta) cujos pré-requisitos você cumpra. Para efeitos desse poder, considere que seu nível em qualquer classe é igual ao seu total de poderes da distinção. Até o fim da cena, ou até usar este poder novamente, você pode utilizar o poder escolhido. Pré-requisito: Gambiarra Mestra."
+      }
+    ]
+  }
+}

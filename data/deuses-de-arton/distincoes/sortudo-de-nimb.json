@@ -1,0 +1,48 @@
+{
+  "id": "sortudo-de-nimb",
+  "tipo": "distincao",
+  "nome": "Sortudo de Nimb",
+  "resumo": "Aventureiro medíocre abençoado pelo Deus do Caos que desliza pelas probabilidades com graça cômica, vencendo desafios não por habilidade ou planejamento, mas por pura sorte inconstante e milagrosa.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 124 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Em Arton, alguns confiam na força para vencer. Outros, no intelecto. Outros ainda, em seu charme e magnetismo natural, ou em agilidade e graça. Também existem aqueles que depositam todas as esperanças nos deuses, acreditando que nenhuma capacidade dos mortais pode fazer frente ao que as divindades desejam. E existem pessoas que simplesmente confiam que irão vencer sem estratégia, sem nenhuma competência especial, sem nem mesmo tentar. Por pura sorte.\n\nPara o sortudo de Nimb, todo planejamento se resume a um sorriso no rosto e a bênção do Deus do Caos. A própria sorte — inconstante, caprichosa e milagrosa — é sua maior arma, seu maior escudo e guia.\n\nO sortudo de Nimb parece, de fato, alguém abençoado por poderes superiores. Ele atravessa o campo de batalha e sai ileso, enquanto flechas e espadas passam a um milímetro de distância, errando-o de forma quase cômica. Nas masmorras, armadilhas travam e falham ante sua passagem; monstros estão sempre afastados, adormecidos ou com dor de barriga quando ele chega perto. Guardas tropeçam nos próprios cintos ao tentar capturá-lo, portas revelam estar destrancadas na hora exata, itens necessários naquele instante são casualmente achados no chão.\n\nSua sorte pode tomar formas ainda mais impressionantes e inexplicáveis. Quando o grupo se depara com um enigma ancestral que nenhum sábio jamais resolveu, o sortudo dá de ombros e sugere uma resposta: \"pudim de ameixa\". Incrivelmente, era essa a solução que os maiores estudiosos nunca conseguiram encontrar.\n\nEste aventureiro é talvez o maior exemplo do humor peculiar de Nimb, que adota poucos escolhidos para desfrutar de seu favor. O sortudo de Nimb viajando no deserto vai sempre descobrir algum oásis escondido. Em combate, não será incomum o inimigo escorregar em esterco de trobo ou ser distraído por um pássaro assustado no momento decisivo.\n\nO sortudo de Nimb pode ser um excelente companheiro de aventuras. No entanto, tem um defeito grave, que provoca sua expulsão de vários grupos: ele é... medíocre. Não treina, não tem talento especial, não se esforça. Tudo apenas dá certo com o desgraçado! Muitos enxergam o sortudo de Nimb como um tolo (parcialmente verdade) que confia demais no acaso (verdade completa). Estes aventureiros, contudo, são gratos a Nimb por sua dádiva caótica, seu dom que transforma qualquer evento em oportunidade para brilhar. São a personificação do ditado \"É melhor ter sorte que ser bom\"."
+    }
+  ],
+  "mecanica": {
+    "admissao": "Um candidato a sortudo de Nimb não pode ser muito bom em nada. Se ele se destacar de qualquer forma, se houver grande planejamento em sua carreira de aventureiro, se ele aprender as técnicas certas para se tornar mais poderoso, nunca vai conseguir ser um sortudo. Em termos de regras: o jogador não pode fazer um personagem poderoso ou muito eficiente — nada de combos (o mestre tem a palavra final sobre o que constitui um \"combo\"). Além disso, deve manter a ficha assim, \"malfeita\", até que seja tarde demais para mudar de ideia e começar a escolher poderes com sinergia entre si. Depois disso, o candidato deve vencer três desafios que possam matar seu personagem usando apenas sorte — ou seja, rolando os dados \"secos\", sem modificadores, sem alterar o resultado com nenhuma habilidade. Por fim, o jogador faz uma aposta com o mestre: ambos rolam um d20 três vezes. Se o mestre rolar mais alto duas vezes, a distinção é perdida. Se o jogador vencer, pode pegar a distinção. No exato instante em que o jogador planejar sua ficha, perde a distinção.",
+    "marca": {
+      "nome": "Sorte Boba",
+      "descricao": "Até mesmo a sua sorte tem sorte. Quando usa uma habilidade que permite rolar qualquer dado novamente, você rola dois dados desse tipo e usa o melhor resultado."
+    },
+    "poderes": [
+      {
+        "nome": "Sorte Visitante",
+        "descricao": "Para o sortudo de Nimb, a sorte é uma visita frequente. No início de cada cena, role 1d8. Em um resultado 1, até o fim da cena você pode rolar novamente qualquer teste recém-feito. A cada dois outros poderes da distinção, esse d8 diminui em um passo. Pré-requisitos: Sortudo ou Sorte dos Loucos, devoto de Nimb."
+      },
+      {
+        "nome": "Bênção de Nimb",
+        "descricao": "É melhor ser sortudo do que ser bom. Sempre que faz um teste ou rola um dado em uma tabela ou para determinar a ocorrência de um evento (como o dado de confusão das Obrigações & Restrições de Nimb), você rola duas vezes e escolhe qual resultado usar. A critério do mestre, este poder pode se aplicar a outras rolagens de eventos aleatórios, como a chance de ocorrer um encontro. Pré-requisito: Sorte Visitante."
+      },
+      {
+        "nome": "Caminhada Descuidada",
+        "descricao": "Com sorte você atravessa o mundo, sem sorte você não atravessa a rua. Quando um ataque ou habilidade causa dano a você, você pode gastar 2 PM para fazer um teste de Vontade com CD igual ao resultado do teste de ataque ou à CD para resistir à habilidade. Se passar nesse teste, você não sofre dano e, se passar por 10 ou mais, uma criatura a sua escolha dentro do alcance do ataque ou da habilidade sofre o dano que seria causado. Pré-requisito: Bênção de Nimb."
+      },
+      {
+        "nome": "50/50",
+        "descricao": "Na vida tudo acontece. Ou não. Você pode gastar 5 PM e uma ação de movimento para gerar uma aura com 9m de raio de sorte e azar absolutos, com duração sustentada. Dentro dessa aura, todos os testes são resolvidos com uma rolagem de 1d2; resultados 1 são falhas e 2 são sucessos. Sempre que um teste dentro da aura for um sucesso, você recupera 2 PM e, sempre que for uma falha, você perde 2 PM. Pré-requisito: Sorte É o Que Se Faz."
+      },
+      {
+        "nome": "Olha Só, Quem Diria?",
+        "descricao": "Não é todo dia que se encontra uma vingadora sagrada no chão... Uma vez por cena, você pode gastar uma ação completa e 6 PM para fazer um item mágico menor, a sua escolha, surgir em um espaço desocupado em alcance curto. Você não pode escolher itens únicos ou artefatos. O item desaparece ao fim da cena, ou se passar ao controle de outra pessoa. Quando isso acontece, quaisquer benefícios concedidos pelo item desaparecem. Pré-requisito: 50/50."
+      },
+      {
+        "nome": "Sorte é o Que Se Faz",
+        "descricao": "Até a sorte pode receber um empurrãozinho. Uma vez por rodada, quando uma criatura em alcance curto faz um teste de perícia, você pode gastar 3 PM para influenciar a sorte, ou o azar, dela. Se fizer isso, role 1d20. Você pode trocar os resultados das duas rolagens (a criatura usa o resultado do seu d20 e você fica com o resultado do d20 dela). Até o fim da cena, você pode usar o resultado trocado como a rolagem de um de seus testes de perícia. Você só pode usar este poder uma vez por teste de perícia na mesma cena para cada criatura. Pré-requisito: Bênção de Nimb."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pacificador",
+  "tipo": "distincao",
+  "nome": "Pacificador",
+  "resumo": "Combatente que possui a capacidade de matar, mas impõe a si mesmo o dever de nunca fazê-lo, vencendo inimigos sem derramar sangue como expressão de habilidade superior e respeito pela vida.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 115 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Bondade verdadeira requer respeito pela vida. Não apenas a vida de aliados, companheiros ou vítimas, mas também a vida do oponente. Mata-se apenas quando não existe outra escolha. Em alguns casos, especialmente entre servos de deuses pacifistas, matar nunca é uma opção — é preferível perder a vida a tirá-la de outros. Aquele ansioso por matar, ainda que coberto de justificativas, não é realmente bom.\n\nO caminho do pacificador é seguido por aqueles que lutam, mas não matam. Matar é apenas a forma mais simples, vulgar e estúpida de derrotar um oponente. O lutador habilidoso pode recorrer a um sem-número de técnicas e recursos para subjugar o inimigo sem derramar uma gota de sangue.\n\nEsta não é uma ordem ou um estilo de luta; não é uma honraria ou um conjunto de técnicas. O caminho do pacificador é uma filosofia de vida. Segundo este modo de pensar, respeitar a vida deve ser uma escolha ativa, feita a cada hora de cada dia. O pacificador deve necessariamente ser um combatente — deve ter a capacidade de matar, mas optar por não fazê-lo. Um mero aldeão preocupado em alimentar sua família, um mago perdido em seus alfarrábios ou uma alquimista trancada em seu laboratório não podem ser pacificadores, pois não poderiam matar se quisessem. Este herói treina para matar e impõe a si mesmo o dever de nunca fazê-lo, acreditando que não se pode preservar aquilo que nunca esteve em risco.\n\nEsta filosofia surge principalmente entre devotos de Thyatis, Khalmyr e outros deuses bondosos. Pacificadores também surgem entre devotos de Lena. Normalmente fiéis dessa divindade não combatem. Contudo, nada impede que treinem sem ferir oponentes, usando bonecos e outras ferramentas. Assim, acreditam eles, podem pôr à prova sua devoção, mostrando às divindades que suas convicções permanecem mesmo quando há a chance de traí-las.\n\nMas não apenas devotos seguem o caminho do pacificador. Em Salistick, muitas vezes o estudo da medicina leva a uma profunda admiração pela máquina perfeita que é o corpo mortal. Pugilistas também podem chegar a esta filosofia ao encarar a luta como um embate desprovido de ódio — apenas uma competição, depois da qual os adversários devem se cumprimentar.\n\nNão importa sua origem ou histórico, o pacificador é alguém que vive por um código. Muitas vezes introspectivo, sério, perplexo com a violência que existe a seu redor, é um herói contemplativo e focado. Alguém que pode ser letal — mas nunca é. Alguém para quem matar é a maior das derrotas."
+    },
+    {
+      "titulo": "Código da Paz",
+      "texto": "Você não acredita na morte como solução de conflitos. Por isso, não aceita matar, nem empregar violência verdadeira (em termos de jogo, causar dano letal). Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+    }
+  ],
+  "mecanica": {
+    "admissao": "A jornada para se tornar um pacificador é feita de autoconhecimento. Ninguém ensina outra pessoa a ser um pacificador. Tudo começa com uma decisão: o candidato deve anunciar a seus companheiros, ou a alguém de sua confiança, que está embarcando nessa jornada. A partir desse momento, o candidato tem um compromisso consigo mesmo. Deve passar pelo menos algumas horas a cada dia treinando seu corpo e sua mente para o combate. Durante o período de treinamento, o candidato deve participar de dez combates sob certas condições: deve estar na linha de frente, golpeando os inimigos e sofrendo golpes, sem nunca recuar; não deve acabar o combate desacordado, caído, preso ou fora de ação; deve ter a opção de matar um inimigo (ou seja, desferir o golpe final) e não fazê-lo, poupando sua vida; e ninguém, aliado ou inimigo, deve morrer nesses combates. Quando cumpre esse requisito, o candidato deve se retirar para uma meditação profunda de pelo menos doze horas. No fim desse período, caso seu corpo tenha aguentado o esforço e sua mente tenha absorvido os ensinamentos, ele se torna um pacificador.",
+    "marca": {
+      "nome": "Armas da Paz",
+      "descricao": "Qualquer um pode matar. Podemos ser melhores que isso. Você adota o Código da Paz (veja o quadro) e se torna proficiente com qualquer arma que não cause dano ou que tenha a habilidade inata de causar dano não letal. Além disso, recebe +1 em testes de ataque e rolagens de dano com ataques que causam dano não letal."
+    },
+    "poderes": [
+      {
+        "nome": "Combate Pacífico",
+        "descricao": "O pacificador acredita que existem várias maneiras de se derrotar alguém sem matar. Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para fazer um teste de manobra. Se o resultado do seu teste for maior que o do atacante, você evita o ataque. Além disso, quando uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer uma manobra contra essa criatura (desde que ela esteja em seu alcance). Você pode usar cada um desses efeitos uma vez por rodada. Pré-requisito: treinado em Luta."
+      },
+      {
+        "nome": "Dor sem Morte",
+        "descricao": "Você domina técnicas complexas e elaboradas para não matar. Quando faz um ataque que causa dano não letal, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o oponente sofre uma condição a sua escolha entre fraco, frustrado ou lento (Fortitude CD For ou Des evita). Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1. Pré-requisito: Combate Pacífico."
+      },
+      {
+        "nome": "Golpe Paralisante",
+        "descricao": "O melhor jeito de não matar em uma batalha é evitar que ela aconteça. Você pode gastar uma ação padrão e 3 PM para interromper o fluxo de energia corporal de uma criatura adjacente. A vítima fica paralisada (Fortitude CD For ou Des reduz para lenta). A cada rodada, a criatura pode gastar uma ação completa para fazer um novo teste de Fortitude. Se passar, liberta-se do efeito. Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1. Metabolismo. Pré-requisito: Dor sem Morte."
+      },
+      {
+        "nome": "Pacificação",
+        "descricao": "\"Ninguém precisa morrer aqui hoje. Nem nós, nem vocês.\" Sempre que derrotar um inimigo sem matá-lo, você recebe +10 PV e +2 PM cumulativos até o fim da aventura. A cada aventura, você pode receber esse benefício um número de vezes igual ao total de poderes da distinção que possui. Pré-requisito: Presença do Bem."
+      },
+      {
+        "nome": "Presença do Bem",
+        "descricao": "Tão importante quanto não matar seus inimigos é garantir que seus amigos não morram. Você pode gastar uma ação de movimento e 1 PM para fornecer +2 na Defesa e em testes de resistência a você e todos os aliados adjacentes até o fim da cena. O bônus se encerra para uma criatura se ela causar dano letal. Pré-requisito: Combate Pacífico."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "guardiao-da-realidade",
+  "tipo": "distincao",
+  "nome": "Guardião da Realidade",
+  "resumo": "Campeão raro que se coloca como muralha entre Arton e a Tormenta, possuindo poderes únicos para destruir lefeu e proteger toda a Criação da Anticriação.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 95 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O guardião da realidade é um protetor de tudo que Arton é, um baluarte que se coloca entre nosso mundo e a Tormenta, combatendo todas as suas formas de manifestação. Todos são combatentes, acreditando que não se pode vencer os lefeu com artimanhas ou meias-palavras — é necessário destruí-los. São forças do bem, guiados pela inspiração divina, muitas vezes começando como paladinos de Khalmyr, Thyatis, Azgher ou Valkaria. Contudo, diferentes de guerreiros santos 'normais', os guardiões da realidade protegem toda Arton. Quase todas as divindades os veem como valorosos — ou ao menos como uma ferramenta útil.\n\nO guardião da realidade é moralmente rígido. Sabe que, se contrariar os preceitos de sua divindade ou de seu código de ética, se começar a achar brechas para 'negociar' consigo mesmo, estará se abrindo para a corrupção aberrante.\n\nNão existe uma ordem organizada de guardiões da realidade. Reunidos, provavelmente não encheriam o salão comunal de uma taverna. Talvez o mais proeminente deles seja Vallen Drake, filho dos heróis Orion e Vanessa Drake, atualmente um dos comandantes do Exército de Arton.\n\nSe existe algo que os lefeu temem são estes soldados, cujos poderes são capazes de romper mesmo as mais sólidas defesas dos invasores rubros. Sua própria existência, seus poderes assombrosos, revelam que os deuses não deram as costas a Arton — e que a salvação está em nossas mãos, pois cada herói tem potencial infinito."
+    },
+    {
+      "titulo": "Efeitos da Tormenta",
+      "texto": "Certas habilidades do guardião da realidade, bem como outras habilidades em Tormenta20, mencionam 'efeitos da Tormenta'. Isso significa qualquer efeito gerado por áreas de Tormenta e suas criaturas, lefeu, lefou e tanto devotos quanto templos de Aharadak."
+    }
+  ],
+  "mecanica": {
+    "admissao": "O primeiro requisito é estar completamente livre da mácula da Tormenta. Não se sabe de nenhum lefou ou pessoa tocada pela Tempestade Rubra que tenha se tornado um destes heróis. O candidato precisa conquistar uma vitória significativa contra os lefeu (participando ativamente como protetor, sofrendo ataques na linha de frente e destruindo com suas próprias mãos o lefeu mais poderoso). Originalmente, também peregrinava em templos de todas as divindades jurando dar sua vida, alma e honra para proteger Arton — hoje, com Aharadak no Panteão, o apoio do vigésimo deus pode ser substituído por outras demonstrações como remover corrupção da Tormenta de um inocente ou eliminar uma célula de culto a Aharadak.",
+    "marca": {
+      "nome": "Escudo da Realidade",
+      "descricao": "Você encontra abrigo na força da realidade. Você recebe +5 em testes de resistência. Contra efeitos da Tormenta, esse bônus aumenta em +1 por poder da distinção."
+    },
+    "poderes": [
+      {
+        "nome": "Destruir Anticriação",
+        "descricao": "O poder da realidade pode ser canalizado para destruir tudo aquilo que é antinatural. Quando faz um ataque corpo a corpo, você pode gastar 2 PM para canalizar a realidade em seu golpe. Você soma seu Carisma ao teste de ataque e +1d8 à rolagem de dano e, se o alvo for uma criatura da Tormenta, ignora sua imunidade a acertos críticos. Se possuir a habilidade Golpe Divino, em vez disso ela causa dois dados extras de dano e ignora a imunidade a acertos críticos de criaturas da Tormenta. Pré-requisitos: treinado em Luta, Vontade de Ferro."
+      },
+      {
+        "nome": "Detectar Anticriação",
+        "descricao": "Você sabe instintivamente o que é ou não real. Você soma seu Carisma em Intuição e Percepção. Além disso, está permanentemente sob o efeito da magia Detectar Ameaças, com todos os seus aprimoramentos, mas apenas para efeitos da Tormenta. Pré-requisitos: treinado em Percepção, Destruir Anticriação."
+      },
+      {
+        "nome": "Herói de Arton",
+        "descricao": "O guardião da realidade não luta por um povo, um reino ou mesmo uma causa. Ele luta por toda Arton. Uma vez por rodada, você pode gastar 2 PM para transformar um acerto crítico que tenha recém sofrido em um acerto normal, para repetir um teste de resistência recém realizado, ou para reduzir à metade o dano causado por uma fonte da Tormenta. Pré-requisito: Herói dos Reinos."
+      },
+      {
+        "nome": "Herói dos Reinos",
+        "descricao": "Por saber que seu dever é o mais exigente de todos, o guardião da realidade desenvolve uma reserva de força de vontade que nenhum outro herói possui. Na primeira rodada de cada combate, você recebe uma quantidade de PM temporários igual ao seu Carisma. Além disso, uma vez por rodada, quando você usa uma habilidade contra um efeito da Tormenta, o custo dessa habilidade é reduzido em –1 PM (cumulativo com outras reduções). Pré-requisito: Detectar Anticriação."
+      },
+      {
+        "nome": "Herói da Realidade",
+        "descricao": "Após tantas lutas, o guardião da realidade enfim compreende que não defende apenas um mundo, mas toda a Criação. Você projeta uma aura de realidade constante com 9m de raio. Criaturas a sua escolha nessa aura são protegidas dos seguintes efeitos de áreas de Tormenta e de templos de Aharadak (Ameaças de Arton, p. 60): ao entrar nesses locais elas não ficam frustradas e seus itens mágicos encantados não perdem encantos. O aumento de custo de suas habilidades por estar nesses locais diminui em 1 (+0 PM para templos e +1 PM para áreas). Por fim, dano contra criaturas da Tormenta a sua escolha dentro da aura ignora uma quantidade de RD igual ao seu Carisma e dentro da aura elas sofrem uma penalidade em rolagens de dano igual ao seu Carisma. Pré-requisito: Herói de Arton."
+      }
+    ]
+  }
+}
