@@ -1,0 +1,80 @@
+{
+  "id": "avatar-de-khalmyr",
+  "tipo": "criatura",
+  "nome": "Avatar de Khalmyr",
+  "resumo": "A manifestação direta do Deus da Justiça em Arton: um imenso guerreiro humano ou anão de rosto severo em armadura completa, portando a lendária espada-pistola Rhumnam.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 175 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O avatar mais comum de Khalmyr lembra sua representação habitual: um imenso e poderoso guerreiro humano ou anão, de rosto severo, vestindo uma armadura completa, sem elmo. Suas feições podem variar, mas sempre carrega uma enorme espada mágica de duas mãos. Ele também pode se apresentar como um juiz sábio ou como um objeto simples e \"ordeiro\", como um cubo ou uma esfera de aço.\n\nOutras Armas do Avatar: Nem sempre o avatar do Deus da Justiça decide usar sua arma mais poderosa, o artefato Rhumnam (veja Rhumnam, a Espada-Pistola), guardando-a apenas para os julgamentos mais severos. Em outras ocasiões, o avatar pode ser visto portando uma montante mágica. Para representar isso, use as mesmas estatísticas de combate corpo a corpo do avatar, mas sem o ataque à distância e os efeitos de Rhumnam."
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "iniciativa": "+22",
+    "percepcao": "+32",
+    "defesa": "66, imunidade a acertos críticos, efeitos mentais e medo, redução de dano 20, resistência a magia +5, maior que a morte",
+    "fortitude": "+30",
+    "reflexos": "+22",
+    "vontade": "+38",
+    "pontosDeVida": "2500",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Rhumnam x4 +58 (6d6+40, 18, mais 6d8 luz).",
+      "À Distância Rhumnam +58 (6d6+40, x4, mais 6d8 luz, alcance médio)."
+    ],
+    "atributos": {
+      "forca": "14",
+      "destreza": "6",
+      "constituicao": "16",
+      "inteligencia": "8",
+      "sabedoria": "16",
+      "carisma": "12"
+    },
+    "habilidades": [
+      {
+        "nome": "Centelha Divina",
+        "descricao": "O Avatar de Khalmyr pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 52, limite de PM 20). Uma vez por rodada, ele pode lançar Círculo da Justiça como ação livre."
+      },
+      {
+        "nome": "Cura Pelas Mãos (Movimento)",
+        "descricao": "O Avatar cura 10d6+10 pontos de vida por luz de uma criatura em alcance curto e remove dela as condições abalado, apavorado, atordoado, cego, doente, exausto, fatigado e surdo."
+      },
+      {
+        "nome": "\"Eu Tenho o Tabuleiro.\"",
+        "descricao": "O Avatar emana uma aura de ordem de 30m de raio. Cada criatura que comece seu turno dentro da aura deve fazer um teste de Vontade (CD 52). Se falhar, até o fim do seu turno todas as suas rolagens de d20 para testes de perícia são automaticamente 10. Se passar no teste de Vontade, a criatura fica imune a esta habilidade pelo resto da cena."
+      },
+      {
+        "nome": "Julgamento dos Culpados",
+        "descricao": "Uma criatura culpada de crimes graves ou maligna (a critério do mestre) que comece seu turno na aura de ordem do Avatar fica paralisada (Vontade CD 52 muda para apavorada e a criatura não pode mais ser paralisada por esta habilidade pelo resto da cena). Esta habilidade afeta mesmo criaturas imunes a efeitos de medo e de movimento."
+      },
+      {
+        "nome": "Julgamento dos Inocentes",
+        "descricao": "Uma criatura que, a critério do mestre, seja bondosa ou inocente que comece seu turno na aura de ordem do Avatar recebe +6 em testes de ataque e na Defesa, e redução de dano 10."
+      },
+      {
+        "nome": "Pilar da Criação (Livre)",
+        "descricao": "O Avatar recebe +6 na Defesa e redução de dano 30 até o fim da cena ou até encerrar esta habilidade (uma ação livre), mas seu deslocamento é reduzido à metade e ele não pode correr ou fazer investidas."
+      },
+      {
+        "nome": "Rhumnam",
+        "descricao": "Quando o Avatar acerta um ataque com Rhumnam em uma criatura culpada de crimes graves ou maligna (a critério do mestre), a criatura é completamente destruída. Contra inocentes, os ataques do Avatar com Rhumnam não causam dano. Além disso, enquanto estiver empunhando Rhumnam, o Avatar recebe imunidade a magias arcanas."
+      },
+      {
+        "nome": "Ver Além da Mentira",
+        "descricao": "O Avatar está permanentemente sob o efeito básico da magia Visão da Verdade."
+      }
+    ],
+    "pericias": "Cavalgar +24, Conhecimento +30, Diplomacia +38, Guerra +34, Intuição +40, Investigação +34, Nobreza +34, Religião +40.",
+    "tesouro": "Nenhum.",
+    "equipamento": "Balas x20, baluarte anão, Rhumnam.",
+    "tema": "Deuses & Avatares"
+  }
+}

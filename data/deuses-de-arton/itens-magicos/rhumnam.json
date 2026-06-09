@@ -1,0 +1,25 @@
+{
+  "id": "rhumnam",
+  "tipo": "item-magico",
+  "nome": "Rhumnam, a Espada-Pistola",
+  "resumo": "A lendária arma de Khalmyr, artefato supremo do bem e da lei, forjada como espada de duas mãos e depois transformada em espada-pistola por um armeiro anão usando uma forja divina de Tenebra.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 248 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": {
+    "tipoItem": "Artefato",
+    "categoria": "Artefato"
+  },
+  "secoes": [
+    {
+      "titulo": "Habilidades",
+      "texto": "Rhumnam é uma espada-calibre aumentada pungente defensora magnífica. No modo arma corpo a corpo ela tem o encanto energética e, no modo pistola, caçadora. Ela é uma arma inteligente com as seguintes características: Artefato (nível 20); Ego 40, Int 3, Sab 5, Car 4 e 31 PM; Perícias: Conhecimento +19, Intuição +21, Percepção +21; Magias: Compreensão, Círculo da Justiça, Visão Mística (CD 25, atributo-chave Sabedoria). Rhumnam é capaz de falar todos os idiomas de Arton e tem percepção às cegas (médio).\n\nNas mãos de um portador indigno (alguém maligno ou culpado de crimes graves), Rhumnam se reduz a uma espada-calibre aumentada mundana (sem encantos) que causa pesadelos terríveis (como o aprimoramento da magia Sonho que causa pesadelos, Vontade CD 49). Contudo, empunhada por alguém digno (a critério do mestre), torna o portador imune a magias arcanas e, ao acertar um ataque contra alvos malignos ou culpados de crimes graves, causa dano dobrado. Rhumnam não causa dano a criaturas que, a critério do mestre, sejam inocentes."
+    },
+    {
+      "titulo": "História",
+      "texto": "A lendária espada de Khalmyr, o Deus da Justiça, já foi considerada a arma mais poderosa de Arton. Um artefato do bem e da lei supremo, esteve envolvido em numerosos eventos notáveis. Foi confiada aos anões de Doherimm, seus protegidos, mas acabaria roubada de seu cofre nas profundezas. Então, após uma espetacular série de aventuras, acabaria transformada para sempre.\n\nUm plano de Tenebra para popularizar seu culto em Doherimm, promovendo armas de pólvora, teve consequências. Embora Khalmyr continue sendo o deus principal dos anões e os armeiros de Tenebra tenham sido expulsos, a Deusa das Trevas deixou sua \"resposta\". Ingram Brassbones, armeiro anão lendário, usou uma forja divina de Tenebra — habitada por seres de calor, filhos de Azgher seduzidos pela deusa — para derreter e remodelar Rhumnam. O resultado foi um artefato único. A nova arma mantém seu formato de espada, mas agora possui um gatilho, um cano paralelo à lâmina e um compartimento para pólvora e balas.\n\nNinguém sabe se um dia a espada será roubada outra vez... Ou se um campeão em missão para Khalmyr receberá o privilégio de empunhá-la."
+    }
+  ]
+}
