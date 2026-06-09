@@ -14,7 +14,7 @@ function mec(d: Entidade): DivindadeMecanica {
   return d.mecanica as unknown as DivindadeMecanica;
 }
 
-function CardDivindade({ divindade }: { divindade: Entidade }) {
+function CardDivindade({ divindade, expandido }: { divindade: Entidade; expandido?: boolean }) {
   const simbolo = divindade.imagens[0];
   return (
     <Link href={`/ficha/divindade/${divindade.id}`} className="indice-card">
@@ -27,6 +27,9 @@ function CardDivindade({ divindade }: { divindade: Entidade }) {
       <span className="indice-card-body">
         <span className="indice-card-nome">{divindade.nome}</span>
         <span className="indice-card-resumo">{divindade.resumo}</span>
+        {expandido && (
+          <span style={{ marginTop: 4, fontSize: 10, letterSpacing: 1, textTransform: "uppercase", color: "var(--ouro)", fontWeight: 700 }}>✦ Deuses de Arton</span>
+        )}
       </span>
     </Link>
   );
@@ -37,6 +40,12 @@ export default function IndiceDeuses() {
   const divindades = entidades.filter((e) => e.tipo === "divindade");
   const regra = entidades.find((e) => e.id === "devocao-como-funciona");
   const ordenar = (a: Entidade, b: Entidade) => a.nome.localeCompare(b.nome, "pt-BR");
+  // Deuses com expansão em Deuses de Arton (lore/avatar/artefatos via lookup).
+  const expandidos = new Set(
+    entidades
+      .filter((e) => e.tipo === "divindade-expansao")
+      .map((e) => String((e.mecanica as { expandeDivindade?: string }).expandeDivindade ?? "")),
+  );
 
   return (
     <main className="folha-main">
@@ -44,7 +53,7 @@ export default function IndiceDeuses() {
         <h1 className="titulo-grimorio" style={{ fontSize: 46, textAlign: "center" }}>Deuses</h1>
         <Divisor />
         <p style={{ textAlign: "center", color: "var(--tinta-suave)", margin: "12px 0 12px", fontFamily: "var(--serifa)" }}>
-          {divindades.length} {divindades.length === 1 ? "divindade do Panteão" : "divindades do Panteão"} — Livro Básico
+          {divindades.length} divindades — os 20 deuses maiores do Panteão (vários expandidos em Deuses de Arton) e deuses menores
         </p>
 
         {regra && (
@@ -70,7 +79,7 @@ export default function IndiceDeuses() {
                 {rotulo} ({sublista.length})
               </h3>
               <div className="indice-cards">
-                {sublista.map((d) => <CardDivindade key={d.id} divindade={d} />)}
+                {sublista.map((d) => <CardDivindade key={d.id} divindade={d} expandido={expandidos.has(d.id)} />)}
               </div>
             </section>
           );
