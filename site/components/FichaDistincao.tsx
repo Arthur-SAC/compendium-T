@@ -11,6 +11,9 @@ const cartaoAside = { background: "var(--pergaminho-stat)", border: "1px solid v
 export function FichaDistincao({ entidade, registro, descricoes }: { entidade: Entidade; registro: Registro; descricoes: Record<string, string> }) {
   const m = entidade.mecanica as unknown as DistincaoMecanica;
   const imagem = entidade.imagens[0];
+  // separa a "Descrição" (flavor) dos demais quadros/sidebars
+  const secaoDescricao = entidade.secoes.find((s) => /descri[çc][ãa]o/i.test(s.titulo));
+  const quadros = entidade.secoes.filter((s) => s !== secaoDescricao);
 
   return (
     <article style={{ maxWidth: 1140, margin: "0 auto", border: "2px solid var(--borda)", borderRadius: 16, overflow: "hidden", boxShadow: "0 18px 55px rgba(0,0,0,.6)", background: "linear-gradient(180deg, var(--pergaminho-1), var(--pergaminho-2))" }}>
@@ -30,7 +33,23 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
         <div className="ficha-corpo">
           <div className="ficha-main">
 
-            {/* Admissão */}
+            {/* 1) Descrição (flavor) */}
+            {secaoDescricao && (
+              <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
+                <h2 style={h2}>Descrição</h2>
+                <TextoBlocos texto={secaoDescricao.texto} registro={registro} descricoes={descricoes} />
+              </section>
+            )}
+
+            {/* Quadros/sidebars (ex.: "A Língua dos Corvos") */}
+            {quadros.map((s, i) => (
+              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
+                <h2 style={h2}>{s.titulo}</h2>
+                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
+              </section>
+            ))}
+
+            {/* 2) Admissão */}
             <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
               <h2 style={h2}>Admissão</h2>
               <p style={{ margin: 0, lineHeight: 1.6 }}>
@@ -38,7 +57,7 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
               </p>
             </section>
 
-            {/* Marca da Distinção */}
+            {/* 3) Marca da Distinção */}
             <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
               <h2 style={h2}>Marca da Distinção: {m.marca.nome}</h2>
               <p style={{ margin: 0, lineHeight: 1.6 }}>
@@ -46,7 +65,17 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
               </p>
             </section>
 
-            {/* Poderes da Distinção */}
+            {/* 4) Benefício Adicional */}
+            {m.beneficioAdicional && (
+              <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
+                <h2 style={h2}>Benefício Adicional</h2>
+                <p style={{ margin: 0, lineHeight: 1.6 }}>
+                  <TextoRico texto={m.beneficioAdicional} registro={registro} descricoes={descricoes} />
+                </p>
+              </section>
+            )}
+
+            {/* 5) Poderes da Distinção (por último) */}
             {m.poderes.length > 0 && (
               <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
                 <h2 style={h2}>Poderes da Distinção</h2>
@@ -70,24 +99,6 @@ export function FichaDistincao({ entidade, registro, descricoes }: { entidade: E
                 </div>
               </section>
             )}
-
-            {/* Benefício Adicional */}
-            {m.beneficioAdicional && (
-              <section style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 16 }}>
-                <h2 style={h2}>Benefício Adicional</h2>
-                <p style={{ margin: 0, lineHeight: 1.6 }}>
-                  <TextoRico texto={m.beneficioAdicional} registro={registro} descricoes={descricoes} />
-                </p>
-              </section>
-            )}
-
-            {/* Seções de flavor */}
-            {entidade.secoes.map((s, i) => (
-              <section key={i} style={{ fontFamily: "var(--serifa)", lineHeight: 1.7, marginBottom: 12 }}>
-                <h2 style={h2}>{s.titulo}</h2>
-                <TextoBlocos texto={s.texto} registro={registro} descricoes={descricoes} />
-              </section>
-            ))}
 
             {/* Proveniência */}
             <p style={{ marginTop: 20, fontSize: 11, color: "var(--tinta-suave)", fontStyle: "italic" }}>
