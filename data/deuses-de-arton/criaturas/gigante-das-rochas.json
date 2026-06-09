@@ -1,0 +1,58 @@
+{
+  "id": "gigante-das-rochas",
+  "tipo": "criatura",
+  "nome": "Gigante das Rochas",
+  "resumo": "O gigante clássico das histórias de aventura. Maior e mais forte que o das colinas, não é estúpido nem excessivamente agressivo. Forma comunidades nos ermos, é fanfarrão e famoso por suas festas e bebidas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 310 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ainda que gigantes das colinas sejam mais comuns, o gigante das rochas é aquele mais conhecido pelos povos de Arton, o gigante clássico das histórias de aventura.\n\nAlém de ser maior e mais forte, o gigante das rochas não é estúpido ou selvagem como seu primo das colinas. Também não é especialmente agressivo, buscando um modo de vida muito semelhante ao dos bárbaros humanos. Gigantes das rochas formam comunidades nos ermos, vivendo de caça e coleta, praticando suas culturas e louvando seus deuses. Por outro lado, não é verdade que sejam exatamente pacíficos; ficam enfurecidos com facilidade e, quando encontram outros povos, sua primeira reação é lutar. Diálogo, apenas se surgir algum bom motivo.\n\nEstes gigantes se organizam em aldeias lideradas por um chefe, cujo posto é hereditário (embora possa ser tomado por um desafiante). Erguem habitações de pedra, forjam armas avantajadas, vestem armaduras simples e são famosos por suas bebidas, servidas em canecos generosos. Suas festas são lendárias, às vezes aceitando forasteiros que se mostrem merecedores. São também grandes fanfarrões, gostam muito de torneios.\n\nEm sua cultura, 'gigante' é um título de honra, que eles concedem a outros quando mostram valor."
+    }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+6",
+    "percepcao": "+5",
+    "sentidos": "",
+    "defesa": "33, Fort +21, Ref +9, Von +14, redução de dano 5",
+    "pontosDeVida": "380",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +26 (4d12+10, x4)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "-1",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "-1",
+      "carisma": "-1"
+    },
+    "habilidades": [
+      {
+        "nome": "Barril Gigante de... (Completa)",
+        "descricao": "O gigante das rochas usa uma dose da bebida de seu barril gigante (CD 28)."
+      },
+      {
+        "nome": "Arremessar Barris (Padrão)",
+        "descricao": "O gigante arremessa seu barril em um quadrado de 3m em alcance curto. Criaturas nessa área sofrem 7d12 pontos de dano de impacto (Ref CD 28 reduz à metade). Recarga (recuperar o barril)."
+      },
+      {
+        "nome": "Fúria Blindada",
+        "descricao": "Enquanto está sob efeito de Pavio Curto, o gigante sofre apenas metade do dano de corte, impacto e perfuração não mágico."
+      },
+      {
+        "nome": "Pavio Curto (Reação)",
+        "descricao": "Quando é ofendido ou sofre dano de um inimigo, o gigante entra em fúria. Ele recebe +3 em testes de ataque e rolagens de dano, e seus ataques deixam as vítimas sangrando, mas ele deve sempre atacar a criatura mais próxima. A fúria termina se, ao fim da rodada, ele não tiver atacado nem sido alvo de um efeito hostil."
+      }
+    ],
+    "pericias": "Atletismo +19, Intuição +7, Oficio (cervejeiro) +9, Sobrevivência +7.",
+    "tesouro": "Metade.",
+    "tema": "Gigantes"
+  }
+}

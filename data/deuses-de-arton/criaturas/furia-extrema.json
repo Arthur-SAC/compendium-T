@@ -1,0 +1,73 @@
+{
+  "id": "furia-extrema",
+  "tipo": "criatura",
+  "nome": "Fúria Extrema",
+  "resumo": "O mais poderoso dos celestiais. Ser colossal de aspecto humano com cabelos flamejantes, olhos como sóis e lâminas incandescentes no lugar de mãos. Surgem apenas durante eventos extraordinários, quando o próprio destino do mundo está em jogo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 284 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Sua chegada é anunciada pelo som celestial de gongos e trombetas. Surge uma criatura de aspecto humano, mas alta como uma casa. Tem cabelos longos e flamejantes, e olhos como sóis furiosos. Sobre os ombros, um grande manto feito de chamas esvoaçando em volta. Em vez de mãos, tem grandes espadas de metal incandescente.\n\nExtremos são os celestiais mais poderosos que existem — isso é, quando existem. Estes seres não ocorrem naturalmente. Surgem apenas durante eventos extraordinários, quando os deuses estão diretamente envolvidos, ou quando o próprio destino do mundo está em jogo. O lendário Paladino de Arton, quando se voltou contra os deuses e alcançou sua forma extraplanar final, tornou-se um celestial extremo.\n\nRelatos sobre outros extremos datam de antigas escrituras sagradas, anteriores à Grande Batalha. Dizem que, no passado remoto, havia celestiais extremos chamados fúrias — eram os soldados supremos dos deuses. Contudo, após incidentes graves como a Revolta dos Três e o roubo dos Rubis da Virtude, o Panteão teria se tornado conturbado demais para criá-los.\n\nFúrias são a expressão máxima do bem e da ordem, mas sua função não é proteger ou curar — é trazer punição e destruição ao mal e a seus asseclas. São apreciadores do combate, quando serve a propósitos divinos. Tão logo surgem, atacam seu alvo com força total, sem discursos ou ofertas de rendição. Sua tática preferida é usar o olhar fumegante para desestabilizar os oponentes, antes de investir com as espadas de fogo divino. Fúrias agem sozinhos; são simplesmente poderosos demais para precisar de ajuda."
+    }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Colossal",
+    "iniciativa": "+20",
+    "percepcao": "+20",
+    "sentidos": "percepção às cegas (longo)",
+    "defesa": "61, Fort +32, Ref +30, Von +20, imunidade a efeitos mentais, de metabolismo e de movimento e a medo, metamorfose e trevas, redução de dano 40",
+    "pontosDeVida": "1.200",
+    "deslocamento": "12m (8q), voo 15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Duas lâminas flamejantes +54 (5d8+20 fogo mais 5d8+20 luz)."
+    ],
+    "atributos": {
+      "forca": "15",
+      "destreza": "10",
+      "constituicao": "15",
+      "inteligencia": "0",
+      "sabedoria": "8",
+      "carisma": "10"
+    },
+    "habilidades": [
+      {
+        "nome": "Celeridade Divina",
+        "descricao": "O fúria extrema pode executar uma ação padrão adicional em cada um de seus turnos."
+      },
+      {
+        "nome": "Fogo Sagrado",
+        "descricao": "O dano de fogo e o dano de luz causados pelo fúria extrema ignoram 30 pontos da redução de dano cada e, contra criaturas imunes a fogo ou luz, ainda causam metade do dano. Além disso, quando sofre dano de fogo ou luz, o fúria recupera pontos de vida em vez de perdê-los."
+      },
+      {
+        "nome": "Halo de Terror Absoluto",
+        "descricao": "No início de cada turno do fúria, criaturas em um raio de 9m sofrem 6d8 pontos de dano de fogo e 6d8 pontos de dano de luz e ficam apavoradas (Von CD 49 reduz à metade e muda a condição para abalado). Uma criatura imune a medo ainda fica abalada se falhar na resistência, mas não se passar no teste."
+      },
+      {
+        "nome": "Liberar Essência Celestial (Reação)",
+        "descricao": "Caso o fúria seja reduzido a 0 PV ou menos, ele explode, causando 15d8 pontos de dano de fogo e 15d8 pontos de dano de luz em todas criaturas em um raio de 30m (Ref CD 49 reduz à metade)."
+      },
+      {
+        "nome": "Olhar Fumegante (Padrão)",
+        "descricao": "Uma criatura em alcance longo sofre 15d8 pontos de dano de fogo e 15d8 pontos de dano de luz, fica ofuscada por 1 rodada e em chamas (Ref CD 49 reduz à metade e evita as condições). Recarga (movimento)."
+      },
+      {
+        "nome": "Retribuição",
+        "descricao": "Quando uma criatura causa dano ao fúria, sofre a mesma quantidade de dano (Fort CD 49 reduz à metade)."
+      },
+      {
+        "nome": "Teletransporte (Movimento)",
+        "descricao": "O fúria se teletransporta para um espaço desocupado que ele possa perceber a até 30m."
+      },
+      {
+        "nome": "Ver Além da Mentira",
+        "descricao": "O fúria extrema está permanentemente sob o efeito básico da magia Visão da Verdade."
+      }
+    ],
+    "tesouro": "Lâmina flamejante (CD 35 para extrair, reduz em 1 PM o custo para fabricar uma vingadora sagrada).",
+    "tema": "Celestiais"
+  }
+}

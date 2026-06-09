@@ -1,0 +1,53 @@
+{
+  "id": "naiade",
+  "tipo": "criatura",
+  "nome": "Náiade",
+  "resumo": "Fada feita de água ligada a rios e córregos. Tímida e reclusa, pode ser perigosa quando seu ambiente é ameaçado: usa ilusões para atrair vítimas e as afoga com seu abraço encantado.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 290 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Náiades são fadas ligadas a rios e córregos. Vivem próximas a águas correntes, protegendo-as ou apenas usando-as como esconderijo. Em geral são tímidas e reclusas, evitando contato com humanoides; sua companhia são apenas os peixes e outros animais ribeirinhos, com quem conversam.\n\nMas náiades podem ser perigosas para os mortais, quando eles ameaçam seu ambiente — represando suas águas, contaminando-as ou apenas pescando. Uma náiade furiosa cria ilusões de tesouros brilhantes no fundo das águas e, quando a vítima se aproxima para ver melhor, é capturada e afogada.\n\nApesar de sua devoção protetora, uma náiade não é apegada a um único rio ou córrego, mudando-se para outro conforme seus caprichos."
+    }
+  ],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+7",
+    "percepcao": "+7",
+    "sentidos": "visão no escuro",
+    "defesa": "19, Fort +7, Ref +13, Von +9, imunidade a encantamento e frio",
+    "pontosDeVida": "74",
+    "pontosDeMana": "18",
+    "deslocamento": "9m (6q), natação 18m (12q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "4"
+    },
+    "pericias": "Conhecimento +6, Furtividade +9, Intuição +10, Sobrevivência +10.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Abraço das Águas (Movimento)",
+        "descricao": "A náiade faz um teste de Agarrar (bônus +12) oposto contra uma criatura adjacente. Uma criatura agarrada pela náiade deve fazer um teste de Fortitude por rodada (CD 19) para não se afogar. A cada falha, sofre 1 ponto de dano temporário de Constituição até morrer ou até respirar novamente. Uma criatura agarrada não percebe o que está acontecendo e se sente confortável no abraço da náiade. Para fazer qualquer ação em seu turno, deve ser bem-sucedida em um teste de Vontade (CD 19)."
+      },
+      {
+        "nome": "Linguagem Natural",
+        "descricao": "A náiade pode falar com animais livremente."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora arcana de 3º nível (CD 19).\n• Criar Ilusão (Padrão, 1 PM) A náiade cria uma ilusão com imagens em alcance médio, que ocupa até 4 cubos de 1,5m. Criaturas e objetos atravessam a ilusão sem sofrer dano (Von desacredita e permite atravessar as ilusões).\n• Dardo Gélido (Padrão, 3 PM) Uma criatura em alcance curto sofre 4d6 pontos de dano de frio e fica lenta por 1 rodada (Fort reduz à metade e evita a condição).\n• Imagem Espelhada (Padrão, 3 PM) Três cópias ilusórias da náiade surgem ao seu redor, concedendo +6 na Defesa. Cada vez que um ataque erra a náiade, uma das cópias desaparece e o bônus na Defesa diminui em 2."
+      }
+    ]
+  }
+}

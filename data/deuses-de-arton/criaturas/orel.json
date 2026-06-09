@@ -1,0 +1,62 @@
+{
+  "id": "orel",
+  "tipo": "criatura",
+  "nome": "Orel",
+  "resumo": "Poderoso celestial da ordem que se apresenta como conceito matemático e forma geométrica — retas, curvas e ângulos em constante mutação. Os maiores conjuradores arcanos entre os celestiais. Rastreiam cabalas de demônios escondidas entre mortais.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 283 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Não há dúvida de que aquele ser não pertence a este mundo, nem poderia existir por meios naturais. Não parece ser uma criatura feita de realidade: sua forma é metálica e geométrica, em retas, curvas e ângulos, mudando lenta e continuamente de uma configuração para outra. Em alguns momentos tem apenas duas dimensões, às vezes três, e provavelmente pode ter mais. Não tem olhos ou feições visíveis, mas sua geometria parece se ajustar conforme suas atitudes.\n\nOrel são poderosos celestiais da ordem que se apresentam como conceitos matemáticos e formas geométricas. Podem ser círculos, triângulos e quadrados, ou também trapézios, dodecaedros e outras formas, ou mais de uma. Alguns mantêm uma aparência fixa, outros ficam em constante mutação. Outros ainda são formados por conjuntos flutuantes de várias figuras.\n\nOrel têm a missão de rastrear cabalas de demônios escondidas entre a população mortal. Suas formas matemáticas causam náusea aos inimigos, pois personificam rigidez, precisão e ordem absolutas. Em combate, orel utilizam magia — são os maiores conjuradores arcanos entre os celestiais. Escolhem um oponente e atacam sem piedade, mas também podem retardar ou atrapalhar grandes grupos."
+    }
+  ],
+  "mecanica": {
+    "nd": "16",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Grande",
+    "iniciativa": "+8",
+    "percepcao": "+19",
+    "sentidos": "percepção às cegas (médio)",
+    "defesa": "51, Fort +24, Ref +16, Von +30, imunidade a eletricidade e encantamento, redução de dano 20, resistência a magia +5",
+    "pontosDeVida": "400",
+    "deslocamento": "Voo 18m (12q)",
+    "ataques": [
+      "À Distância Feixe luminoso x4 +44 (8d6+27 luz)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "5",
+      "sabedoria": "5",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura de Bondade",
+        "descricao": "O orel emana uma aura de bondade com 9m de raio. Aliados do orel dentro da aura recebem imunidade a encantamento e +5 na Defesa e em testes de resistência. Além disso, inimigos que comecem seus turnos na área ficam cegos (Von CD 44 evita)."
+      },
+      {
+        "nome": "Conjurador Angelical",
+        "descricao": "O orel pode lançar e sustentar qualquer magia arcana de 4º círculo ou menor sem gastar PM como um mago de 16º nível (CD 44)."
+      },
+      {
+        "nome": "Geometria Divina (Completa)",
+        "descricao": "O orel lança duas magias com execução de ação padrão ou menor."
+      },
+      {
+        "nome": "Recomposição Divina",
+        "descricao": "No início do seu turno, se não tiver sido reduzido a 0 PV ou menos, o orel volta a ter 400 PV."
+      },
+      {
+        "nome": "Sentidos Superiores",
+        "descricao": "O orel está sempre sob o efeito básico da magia Visão da Verdade."
+      }
+    ],
+    "pericias": "Conhecimento +19, Diplomacia +18, Intuição +19, Misticismo +19, Religião +21.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "pegaso",
+  "tipo": "criatura",
+  "nome": "Pégaso",
+  "resumo": "Cavalo celestial alado, branco e brilhante como a lua cheia. Criado por deuses de bondade e justiça, sobretudo Khalmyr. Inteligente e capaz de falar, aceita ser cavalgado apenas por devotos de deuses que tenham paladinos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 280 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Surge diante de vocês um magnífico cavalo mágico com asas, branco e brilhante como a lua cheia. Sua aura de nobreza e bondade deixa claro tratar-se de um animal sagrado.\n\nPégasos são cavalos celestiais criados por deuses de bondade e justiça, sobretudo Khalmyr. Apesar da aparência equina, pégasos são inteligentes e podem falar. Às vezes percorrem Arton para servir àqueles que provem ser dignos dessa honra — eles aceitam ser cavalgados apenas por devotos de deuses que tenham paladinos. Apesar de sua bravura em combate contra o mal, pégasos em estado selvagem são assustadiços e muito difíceis de amansar."
+    }
+  ],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Espírito",
+    "tamanho": "Grande",
+    "iniciativa": "+5",
+    "percepcao": "+3",
+    "sentidos": "faro, visão no escuro",
+    "defesa": "21, Fort +13, Ref +10, Von +4, imunidade a encantamento e medo, resistência a magia arcana +5",
+    "pontosDeVida": "105",
+    "deslocamento": "15m (10q), voo 24m (16q)",
+    "ataques": [
+      "Corpo a Corpo Cascos +14 (2d8+5)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Investida Aérea",
+        "descricao": "Quando faz uma investida alada, o pégaso causa +2d8 pontos de dano com seus cascos e pode continuar se movendo depois do ataque. Ele deve se mover no mesmo sentido e seu movimento máximo ainda é o dobro do seu deslocamento."
+      }
+    ],
+    "pericias": "Atletismo +11, Intuição +10.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

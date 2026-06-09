@@ -1,0 +1,64 @@
+{
+  "id": "aspecto-de-kallyadranoch",
+  "tipo": "criatura",
+  "nome": "Aspecto de Kallyadranoch",
+  "resumo": "Dragão não muito maior que um cavalo, revestido de escamas brilhantes como brasas ardentes, com espinhos atrás da cabeça e ao longo do dorso. Orgulhoso e arrogante, só ajuda mediante súplicas, adulação ou suborno.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 266 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "kallyadranoch", "rotulo": "Kallyadranoch" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Não muito maior que um cavalo, mas ainda aterrador, o dragão é revestido de escamas brilhantes como brasas ardentes. Sua figura maciça é adornada com espinhos afiados que abundam atrás da cabeça e percorrem o dorso rumo à cauda longa. Ele abre as imponentes asas coriáceas em um gesto majestoso enquanto chamas dançam em suas narinas. O olhar impaciente parece aguardar alguma demanda.\n\nUm aspecto de Kallyadranoch não aceitará ajudar seres que considere inferiores (ou seja, qualquer não dragão), exceto após súplicas ou oferendas adequadas. Em alguns casos, implorar será o bastante. Em outros, uma quantidade generosa de elogios deslavados a sua majestade. E quando tudo isso falhar, uma quantia razoável em ouro ou algum item precioso poderá atiçar sua ganância. Em geral, manter seu ego bem alimentado bastará para assegurar a obediência — ahem, a generosidade do dragão.\n\nOrgulhoso em demasia, o aspecto de Kallyadranoch normalmente não aceita ser cavalgado, não sem a devida adulação ou suborno. Em combate, considera aqueles que o tenham conjurado como seus servos, atacando e matando todos que ameaçam 'sua propriedade'."
+    }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Monstro (dragão)",
+    "tamanho": "Grande",
+    "iniciativa": "+10",
+    "percepcao": "+9",
+    "sentidos": "percepção às cegas, visão no escuro",
+    "defesa": "28, Fort +18, Ref +6, Von +12, redução de dano 5, resistência a magia +2",
+    "pontosDeVida": "280",
+    "deslocamento": "12m (8q), voo 18m (16q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +21 (2d6+14, 19) e duas garras +21 (1d8+14, 19)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "3",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Vontade CD 23 evita (Tormenta20, p. 311)."
+      },
+      {
+        "nome": "Escamas Multicor",
+        "descricao": "A essência dracônica do aspecto de Kallyadranoch muda constantemente. No início de cada rodada role 1d6 para determinar seu elemento. O aspecto é imune a dano do tipo de sua essência atual. 1) Ácido (vulnerável por 1d4 rodadas). 2) Eletricidade (ofuscado por 1d4 rodadas). 3) Fogo (em chamas). 4) Frio (lento por 1d4 rodadas). 5) Luz (cego por 1d4 rodadas). 6) Trevas (enjoado por 1d4 rodadas)."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "O aspecto usa um dos sopros abaixo; o dano e a condição causada pelo sopro são determinados pela essência dracônica atual do aspecto (Ref CD 23 reduz à metade e evita a condição). Recarga (movimento).\n• Cone. Todas as criaturas em um cone de 9m sofrem 6d12 pontos de dano e a condição correspondente.\n• Explosão. Criaturas em uma esfera de 6m de raio em alcance médio sofrem 6d12 pontos de dano e a condição correspondente.\n• Linha. Criaturas em uma linha de 12m sofrem 6d12 pontos de dano e a condição correspondente. Cada vez que um dado de dano do sopro rola o valor máximo, role um dado extra e some ao total.\n• Nuvem. Uma nuvem cobre um cubo de 6m de lado por 2 rodadas. Criaturas que comecem seus turnos na área sofrem 6d6 pontos de dano e a condição correspondente."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando o aspecto faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "No improvável caso de o aspecto considerar alguém digno de cavalgá-lo em combate, ele funciona como um parceiro dragão jovem mestre (veja p. 141)."
+      }
+    ],
+    "pericias": "Atletismo +13, Intimidação +11, Misticismo +9.",
+    "tesouro": "Dobro e 3 peças de couro de dragão de tipos definidos aleatoriamente (CD 21 para extrair, veja Tormenta20, p. 312).",
+    "tema": "Aspectos dos Deuses"
+  }
+}

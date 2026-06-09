@@ -1,0 +1,59 @@
+{
+  "id": "shiradi",
+  "tipo": "criatura",
+  "nome": "Shiradi",
+  "resumo": "Celestial campeão da liberdade com aparência de grande felino humanoide bípede — cabeça, garras e cauda de leão, pelagem dourada e grandes asas emplumadas. Guerreia contra tiranos, regimes ditatoriais e a escravidão.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 277 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Com o dobro da altura de um homem, a criatura lembra um grande felino humanoide — de postura bípede, mas com cabeça, garras e cauda de leão. Tem músculos poderosos, pelagem dourada que brilha como o sol e grandes asas emplumadas. Veste apenas calças de tecido e braçadeiras. Apesar do aspecto feral, tem porte majestoso e olhar de superioridade.\n\nShiradi são celestiais campeões da liberdade. Percorrem os planos guerreando contra tiranos, enfrentando regimes ditatoriais e combatendo a escravidão. Um de seus principais objetivos é libertar prisioneiros de demônios, dragões e outros monstros poderosos: com esse propósito, é bem possível que procurem aventureiros para ajudá-los.\n\nDiferente do que sua aparência animalesca sugere, shiradi são observadores e planejadores cautelosos, preferindo ter estratégias claras antes de agir. Escolhem táticas para surpreender e assustar seus oponentes, especialmente aqueles que esperam enfrentar \"apenas um celestial solitário\". Contudo, assim como os gatos, também têm certa tendência de \"brincar\" um pouco com suas presas antes de abatê-las. Costumam zombar dos inimigos encurralados, como uma forma de mostrar que estão em vantagem e oferecer rendição.\n\nShiradi também gostam de anunciar sua presença de lugares altos, da forma mais dramática e teatral possível."
+    }
+  ],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Grande",
+    "iniciativa": "+8",
+    "percepcao": "+10",
+    "sentidos": "faro, visão no escuro",
+    "defesa": "29, Fort +14, Ref +19, Von +7, evasão aprimorada, imunidade a efeitos de metabolismo e de movimento e surpreendido, redução de dano 10",
+    "pontosDeVida": "299",
+    "deslocamento": "9m (6q), voo 15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Garras x2 +26 (2d12+18, 19)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "3",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Brincar com a Comida (Padrão)",
+        "descricao": "O shiradi faz dois ataques de garra contra uma criatura. Esses ataques causam dano não letal e, se ambos acertarem, a criatura é arremessada 6m em uma direção à escolha do shiradi e fica confusa por 1 rodada (Fort CD 24 reduz o arremesso para 3m e evita a condição)."
+      },
+      {
+        "nome": "Entrada Majestosa",
+        "descricao": "Quando uma criatura vê o shiradi pela primeira vez na cena, fica fascinada por 1d4+1 rodadas (Von CD 24 reduz para 1 rodada)."
+      },
+      {
+        "nome": "Presença Libertadora",
+        "descricao": "Criaturas em alcance curto do shiradi recebem +5 em testes contra efeitos de movimento."
+      },
+      {
+        "nome": "Rugido Divino (Padrão)",
+        "descricao": "Criaturas em alcance curto do shiradi ficam apavoradas por 1d4 rodadas e depois abaladas (Von CD 24 reduz para abaladas por 1d4+1 rodadas). Recarga (movimento)."
+      }
+    ],
+    "pericias": "Atuação +13 (+23 em locais elevados), Furtividade +12, Investigação +9, Intimidação +13.",
+    "equipamento": "Símbolo sagrado de Valkaria.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

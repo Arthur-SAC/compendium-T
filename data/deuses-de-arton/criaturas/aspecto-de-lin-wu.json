@@ -1,0 +1,61 @@
+{
+  "id": "aspecto-de-lin-wu",
+  "tipo": "criatura",
+  "nome": "Aspecto de Lin-Wu",
+  "resumo": "Dragão celestial de corpo serpentino com escamas brilhantes, longas antenas como chifres e olhos cintilantes como pérolas. Comportamento de retidão absoluta guiado pela honra de Tamu-ra; prefere atuar como suporte.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 269 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "lin-wu", "rotulo": "Lin-Wu" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A criatura de corpo serpentino é adornada com escamas brilhantes que reluzem à luz do sol. Sua cabeça é coroada por longas antenas parecidas com chifres, enquanto grandes mandíbulas revelam fileiras de dentes afiados. Olhos cintilantes como pérolas emanam sabedoria ancestral. Garras perigosas contrastam com as cristas membranosas, que ondulam conforme o dragão flutua.\n\nEmbora às vezes adote a aparência de qualquer das raças nativas no Império de Jade, este aspecto quase sempre se manifesta como um dragão celestial, criatura sagrada no reino divino de Lin-Wu. Seu tamanho pode variar conforme a missão, podendo ser pequeno como um gato, quando sua tarefa é apenas guiar e dar conselhos, ou grande como um cavalo, quando atua como montaria.\n\nO aspecto de Lin-Wu se comporta com retidão absoluta e inflexível, guiado pelos fundamentos da honra praticada em Tamu-ra. Ele repreende a mínima falha de conduta, desde vestes desleixadas até gafes de etiqueta e demonstrações de desrespeito. Os desonrados são indignos de seu favor. Uma vez perdida, sua confiança só pode ser reconquistada com esforço extremo.\n\nEmbora seja capaz de lutar quando necessário, este aspecto prefere atuar como suporte, protegendo ou fortificando aqueles que considera mais honrados em batalha."
+    }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Espírito",
+    "tamanho": "Grande",
+    "iniciativa": "+6",
+    "percepcao": "+12",
+    "sentidos": "percepção às cegas, visão no escuro",
+    "defesa": "22, Fort +12, Ref +4, Von +16, imunidade a efeitos de atordoamento, eletricidade, medo, metabolismo, metamorfose e paralisia, redução de dano 5, resistência a magia +2, vulnerabilidade a ácido",
+    "pontosDeVida": "158",
+    "deslocamento": "12m (8q), voo 24m (16q)",
+    "pontosDeMana": "36",
+    "ataques": [
+      "Corpo a Corpo Mordida +14 (1d8+7, 18) e duas garras +14 (1d6+5, 18)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "2",
+      "constituicao": "6",
+      "inteligencia": "4",
+      "sabedoria": "6",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Conduta Honrosa",
+        "descricao": "O aspecto de Lin-Wu emana uma aura de honra de 9m de raio. Criaturas à escolha do aspecto nessa área recebem +2 em testes de perícia, desde que ajam de forma exemplar (em termos de jogo, devem obedecer ao Código de Honra do cavaleiro, Código do Herói do paladino e às Obrigações & Restrições de Lin-Wu). Uma criatura que viole qualquer um desses códigos perde o bônus da aura e só pode voltar a recebê-lo (de qualquer aspecto de Lin-Wu) se realizar um rito (veja Religião em Tormenta20, p. 122) em nome de Lin-Wu."
+      },
+      {
+        "nome": "Dragão Divino",
+        "descricao": "O aspecto possui todas as habilidades de dragões celestiais: Magia Celestial (podem lançar magias sem palavras mágicas, gestos, concentração ou componentes materiais); Metamorfose Celestial — Completa (podem se transformar em outras criaturas, como a magia Metamorfose, mas sem limitação para tamanhos menores que os seus; um dragão morto reverte a sua forma original); Presença Celestial (uma criatura que comece seu turno em alcance longo de um dragão celestial adulto ou mais velho fica apavorada, se tiver 4 níveis ou menos, ou abalada, se tiver 5 níveis ou mais, até o fim da cena; criaturas com um código de conduta ou devotos de Khalmyr ou Lin-Wu ficam fascinadas, independente de seu nível — Von evita em todos os casos; passar no teste de resistência deixa imune a esta habilidade por um dia)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de 6º nível (CD 20). Arma Mágica (Padrão, 5 PM): até o fim da cena, uma arma adjacente se torna mágica, fornecendo +1 nos testes de ataque e rolagens de dano, e causando +1d6 pontos de dano de eletricidade. Bênção (Padrão, 3 PM): aliados em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena. Curar Ferimentos (Padrão, 5 PM): uma criatura adjacente cura 6d8+6 PV. Oração (Padrão, 3 PM, sustentada): o aspecto e seus aliados em alcance curto recebem +2 em testes de perícias e rolagens de dano, e todos os inimigos em alcance curto recebem –2 em testes de perícias e rolagens de dano. Orientação (Padrão, 1 PM): uma criatura em alcance curto pode rolar dois dados e ficar com o melhor resultado no próximo teste de perícia que fizer."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O aspecto de Lin-Wu é um parceiro montaria (Grande) que fornece os benefícios a seguir. Seu deslocamento muda para voo 24m, você recebe +2 em Nobreza e Vontade e a habilidade Conduta Honrosa. Entretanto, se violar os códigos impostos por essa habilidade, você não pode mais usar esta montaria."
+      }
+    ],
+    "pericias": "Conhecimento +10, Diplomacia +11, Intuição +12, Misticismo +10, Religião +12.",
+    "tesouro": "Nenhum.",
+    "tema": "Aspectos dos Deuses"
+  }
+}

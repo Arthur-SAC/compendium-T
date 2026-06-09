@@ -1,0 +1,56 @@
+{
+  "id": "luminar",
+  "tipo": "criatura",
+  "nome": "Luminar",
+  "resumo": "Celestial que se manifesta como uma pequena esfera flutuante de luz branca e pura, mais brilhante que uma tocha. Fala com voz leve, musical e melodiosa. Muito amistoso e bem-intencionado, quase nunca entra em combate.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 275 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A manifestação divina se revela como uma pequena esfera flutuante de luz branca e pura, mais brilhante que uma tocha. Ela fala com voz leve, musical e melodiosa.\n\nLuminares são celestiais muito amistosos e bem-intencionados, sempre dispostos a ajudar da melhor forma que puderem. Normalmente fazem isso lançando bênçãos e magias de cura, ou trazendo inspiração e esperança. Falam todos os idiomas, sendo capazes de se comunicar com qualquer criatura.\n\nEmbora se esforcem para impedir os planos dos demônios, luminares quase nunca entram em combate — sua própria aura sagrada muitas vezes basta para desencorajar os malignos. Quando isso não basta, usam raios de luz contra os oponentes. E, em casos extremos, podem se sacrificar em uma detonação luminosa para proteger heróis valorosos."
+    }
+  ],
+  "mecanica": {
+    "nd": "–",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Minúsculo",
+    "iniciativa": "+12",
+    "percepcao": "+8",
+    "sentidos": "visão no escuro",
+    "defesa": "–, Fort –, Ref –, Von –, imunidade a dano (exceto trevas) e a efeitos de sentidos",
+    "pontosDeVida": "–",
+    "deslocamento": "Voo 9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "—",
+      "destreza": "5",
+      "constituicao": "—",
+      "inteligencia": "–2",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Abençoar (Padrão)",
+        "descricao": "Criaturas à escolha do luminar em alcance curto recebem +1 em testes de ataque e de resistência até o fim da cena."
+      },
+      {
+        "nome": "Aliviar (Padrão)",
+        "descricao": "O luminar emite uma luz suave que cura 2d8+2 PV de uma criatura em alcance curto."
+      },
+      {
+        "nome": "Sacrifício (Completa)",
+        "descricao": "O luminar se transforma em uma luz forte que aquece um raio de 9m. Criaturas escolhidas pelo luminar nessa área curam 6d8+6 pontos de vida. Após usar esta habilidade, o luminar desaparece para sempre."
+      },
+      {
+        "nome": "Ser de Luz",
+        "descricao": "O luminar não tem corpo físico e sua manifestação no plano material é apenas uma luz que varia de intensidade, mas que ilumina um raio de 9m. Ele é imune a todos os tipos de dano, exceto trevas, e é destruído quando sofre dano desse tipo."
+      }
+    ],
+    "pericias": "Diplomacia +8, Intuição +8.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

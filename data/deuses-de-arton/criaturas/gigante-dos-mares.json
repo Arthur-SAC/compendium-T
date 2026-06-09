@@ -1,0 +1,58 @@
+{
+  "id": "gigante-dos-mares",
+  "tipo": "criatura",
+  "nome": "Gigante dos Mares",
+  "resumo": "Variante regional do gigante das rochas, encontrada em ilhas e regiões costeiras. Possui natação nativa e habilidades de combate aquático, incluindo o devastador salto Dar um Tchibum.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 311 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Existem variantes regionais do gigante das rochas, nomeadas conforme o ambiente em que vivem. Em ilhas e regiões costeiras são gigantes do mar. Embora tenham diferenças culturais e até habilidades próprias, são essencialmente as mesmas criaturas."
+    }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Enorme",
+    "iniciativa": "+6",
+    "percepcao": "+5",
+    "sentidos": "visão na penumbra",
+    "defesa": "33, Fort +21, Ref +9, Von +14",
+    "pontosDeVida": "380",
+    "deslocamento": "12m (8q), natação 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +26 (4d12+10, x3)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "-1",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "-1",
+      "carisma": "-1"
+    },
+    "habilidades": [
+      {
+        "nome": "Barril Gigante de... (Completa)",
+        "descricao": "O gigante dos mares usa uma dose da bebida de seu barril gigante (CD 28)."
+      },
+      {
+        "nome": "Coquetel Praiano (Completa)",
+        "descricao": "Uma vez por cena, o gigante usa uma bebida que combina os efeitos de duas bebidas diferentes de Barril Gigante..."
+      },
+      {
+        "nome": "Dar um Tchibum (Padrão)",
+        "descricao": "O gigante salta em um quadrado de 4,5m em alcance curto e fica caído. Criaturas nessa área sofrem 9d12 pontos de dano de impacto e são empurradas 6m para fora da área (Ref CD 28 reduz à metade). Recarga (movimento)."
+      },
+      {
+        "nome": "Pavio Curto (Reação)",
+        "descricao": "Quando é ofendido ou sofre dano de um inimigo, o gigante entra em fúria. Ele recebe +3 em testes de ataque e rolagens de dano e seus ataques deixam as vítimas sangrando, mas ele deve sempre atacar a criatura mais próxima. A fúria termina se, ao fim da rodada, ele não tiver atacado nem sido alvo de um efeito hostil."
+      }
+    ],
+    "pericias": "Atletismo +19, Intuição +7, Oficio (pescador) +9, Sobrevivência +7.",
+    "tesouro": "Metade.",
+    "tema": "Gigantes"
+  }
+}

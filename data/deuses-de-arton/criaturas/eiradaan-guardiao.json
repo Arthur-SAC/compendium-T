@@ -1,0 +1,64 @@
+{
+  "id": "eiradaan-guardiao",
+  "tipo": "criatura",
+  "nome": "Eiradaan Guardião",
+  "resumo": "Elfos arcanos ancestrais, supostos ancestrais lendários dos elfos atuais, nascidos em Vitalia para proteger a Deusa da Vida. Guardiões e guerreiros feéricos com melancolia profunda, poderosos com espadas de mitral e magia arcana.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 296 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também chamados de 'elfos arcanos', os eiradaan seriam supostos ancestrais distantes, lendários, dos elfos atuais. Eles seriam, para os elfos, aquilo que os elfos são para os humanos: seres de graça, beleza e magia muito superiores.\n\nNascidos em Vitalia, o Reino de Lena, estes feéricos chegaram a Arton após um evento que trouxe grande tristeza, relacionado à sua função original: proteger a Deusa da Vida de todo o mal da Criação. Sabe-se apenas que os eiradaan falharam em sua tarefa, sendo assim expulsos de seu lar divino.\n\nOs assim chamados eiradaan nobres são cavaleiros feéricos — guardiões, guerreiros e soldados de elite da Rainha das Fadas. São imponentes e dignos, vivendo conforme códigos e tabus de honra e glória, duelando (entre si ou com mortais) ou protegendo locais sagrados.\n\nEiradaan entregam-se a longos momentos de melancolia, ou então buscam se manter ocupados para afastar a tristeza. Apesar de seu poder mágico fenomenal, eiradaan ainda são fadas: vulneráveis a emoções fortes, tornando-se perigosos quando algo desperta sua antiga mágoa."
+    }
+  ],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Espírito (eiradaan)",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+12",
+    "percepcao": "+10",
+    "sentidos": "visão no escuro",
+    "defesa": "28, Fort +7, Ref +14, Von +20, resistência a magia +2",
+    "pontosDeVida": "215",
+    "pontosDeMana": "35",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa de mitral x2 +22 (3d8+20, 18)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "pericias": "Atletismo +9, Conhecimento +8, Diplomacia +12, Intuição +10, Misticismo +10, Sobrevivência +10.",
+    "equipamento": "Espada longa de mitral.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Canção da Melancolia",
+        "descricao": "Quando faz um teste de Vontade contra efeitos mentais, o eiradaan guardião rola dois dados e usa o pior resultado."
+      },
+      {
+        "nome": "Essência Feérica",
+        "descricao": "O eiradaan pode falar com animais livremente."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o eiradaan muda a execução dela para livre."
+      },
+      {
+        "nome": "Sentidos Místicos",
+        "descricao": "O eiradaan está sempre sob o efeito básico de Visão Mística."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um feiticeiro de 7º nível (CD 26). O custo total dos aprimoramentos de suas magias diminui em –1 PM (já contabilizado).\n• Amarras Etéreas (Padrão, 5 PM) Três laços de energia surgem e se enroscam em uma criatura em alcance médio, deixando-a agarrada (Ref evita). A vítima pode tentar se livrar, gastando uma ação padrão para fazer um teste de Atletismo. Se passar, destrói um laço, mais um laço adicional para cada 5 pontos pelos quais superou a CD. Cada laço também pode ser atacado e destruído (Defesa 10, 10 PV, RD 5 e imunidade a dano mágico). Um laço destruído causa 1d8+1 pontos de dano de essência à criatura amarrada. Se todos os laços forem destruídos, a magia é dissipada. Os laços afetam criaturas incorpóreas.\n• Dissipar Magia (Padrão, 3 PM) O eiradaan escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Enfeitiçar (Padrão, 5 PM) Cada humanoide em alcance curto fica enfeitiçado pelo eiradaan até o fim da cena, ou até que ele ou um de seus aliados realize uma ação hostil contra a criatura (Von evita).\n• Relâmpago (Padrão, 6 PM) O eiradaan lança um relâmpago em cada criatura escolhida em alcance médio, causando 8d8 pontos de dano de eletricidade (Ref reduz à metade).\n• Velocidade (Padrão, 3 PM, sustentada) O eiradaan pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ]
+  }
+}

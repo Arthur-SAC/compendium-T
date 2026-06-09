@@ -1,0 +1,74 @@
+{
+  "id": "parcus",
+  "tipo": "criatura",
+  "nome": "Parcus",
+  "resumo": "O mais poderoso dos inevitáveis, construto celestial que caça aqueles que tentam trapacear a morte — necromantes, vampiros, liches e outros mortos-vivos. Emana aura de luz e aura antimagia constantes.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 279 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Inevitáveis são construtos celestiais forjados pelos deuses para encontrar e punir transgressores. Os poderosos parcus caçam aqueles que tentam trapacear a morte, como necromantes, vampiros, liches e outros mortos-vivos (sim, isso inclui osteon que venham a se tornar excessivamente notórios)."
+    }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Construto (inevitável)",
+    "tamanho": "Médio",
+    "iniciativa": "+10",
+    "percepcao": "+15",
+    "sentidos": "visão no escuro",
+    "defesa": "44, Fort +22, Ref +14, Von +28, cura acelerada 10, imunidade a eletricidade e trevas, resistência a magia +5, redução de dano 15",
+    "pontosDeVida": "700",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Dois punhos trovejantes x2 +34 (2d8+12 impacto, 19/x3, mais 2d8 eletricidade)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "3",
+      "constituicao": "4",
+      "inteligencia": "0",
+      "sabedoria": "4",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Encontrar o Culpado",
+        "descricao": "O inevitável sempre sabe a localização da criatura que deve caçar, como se estivesse permanentemente sob efeito da magia Localização com área equivalente a toda Arton."
+      },
+      {
+        "nome": "Investir a Culpa",
+        "descricao": "Cada inevitável é criado para caçar uma criatura específica. Contra essa criatura, ele recebe +5 em testes de perícia e seus ataques causam +2d6 pontos de dano de luz."
+      },
+      {
+        "nome": "Visão da Justiça",
+        "descricao": "O inevitável está permanentemente sob o efeito básico da magia Visão da Verdade."
+      },
+      {
+        "nome": "Aura de Luz",
+        "descricao": "No início de cada turno do parcus, todas as criaturas em um raio de 9m dele sofrem 8d6 pontos de dano de luz."
+      },
+      {
+        "nome": "Aura Antimagia",
+        "descricao": "O parcus está permanentemente cercado por uma aura de 9m de raio que gera um efeito semelhante ao da magia Campo Antimagia."
+      },
+      {
+        "nome": "Corrente de Relâmpagos (Padrão)",
+        "descricao": "Criaturas à escolha do parcus em alcance médio sofrem 8d8 pontos de dano de eletricidade e 8d8 pontos de dano de luz (Ref CD 37 reduz à metade). Recarga (movimento)."
+      },
+      {
+        "nome": "Sentença de Re-Morte (Padrão)",
+        "descricao": "Uma vez por cena, o parcus marca uma criatura em alcance curto. Até o fim da cena, essa criatura não pode curar pontos de vida nem receber PV temporários e, se for um morto-vivo, fica alquebrada (Fort CD 37 evita o efeito sobre pontos de vida e reduz a condição para esmorecido)."
+      },
+      {
+        "nome": "Vingador Celestial (Reação)",
+        "descricao": "Quando é reduzido a 350 PV ou menos, até o fim da cena o parcus recebe deslocamento de voo 12m, sua cura acelerada aumenta para 15, seu dano de luz se torna maximizado e a área de suas auras aumenta para 30m."
+      }
+    ],
+    "pericias": "Conhecimento +11, Intuição +20, Misticismo +11, Sobrevivência +15.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

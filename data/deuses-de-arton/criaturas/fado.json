@@ -1,0 +1,59 @@
+{
+  "id": "fado",
+  "tipo": "criatura",
+  "nome": "Fado",
+  "resumo": "Construto celestial inevitável com aparência de centauro dourado, criado pelos deuses para rastrear e punir criminosos fugitivos. Obcecado com completar sua tarefa, persegue o culpado com a paciência dos seres imortais.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 279 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Inevitáveis são construtos celestiais forjados pelos deuses para encontrar e punir transgressores. Existem para caçar aqueles que violam a ordem natural — sendo essa \"ordem natural\" diferente para cada divindade. Portanto, embora sejam mais frequentemente criados por Khalmyr, Tanna-Toh e Azgher, outros deuses também podem forjá-los de acordo com suas próprias metas e objetivos.\n\nDesde quando é criado até sua destruição, um inevitável é obcecado com completar sua tarefa, não importando o quão perigoso ou furtivo seja o infrator. O fado, o mais comum, lembra um centauro e costuma rastrear criminosos fugitivos."
+    }
+  ],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Construto (inevitável)",
+    "tamanho": "Grande",
+    "iniciativa": "+10",
+    "percepcao": "+13",
+    "sentidos": "visão no escuro",
+    "defesa": "31, Fort +21, Ref +8, Von +15, cura acelerada 5, resistência a dano 10, imunidade a fogo, resistência a magia +5",
+    "pontosDeVida": "330",
+    "deslocamento": "12m (8q), voo 24m (16q)",
+    "ataques": [
+      "Corpo a Corpo Corrente de espinhos sagrada x2 +23 (1d10+17, 19, mais 2d6 fogo)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "—",
+      "sabedoria": "3",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Encontrar o Culpado",
+        "descricao": "O inevitável sempre sabe a localização da criatura que deve caçar, como se estivesse permanentemente sob efeito da magia Localização com área equivalente a toda Arton."
+      },
+      {
+        "nome": "Investir a Culpa",
+        "descricao": "Cada inevitável é criado para caçar uma criatura específica. Contra essa criatura, ele recebe +5 em testes de perícia e seus ataques causam +2d6 pontos de dano de luz."
+      },
+      {
+        "nome": "Visão da Justiça",
+        "descricao": "O inevitável está permanentemente sob o efeito básico da magia Visão da Verdade."
+      },
+      {
+        "nome": "Derrubar e Desarmar (Livre)",
+        "descricao": "Se o fado acerta um ataque de corrente de espinhos, pode fazer a manobra derrubar ou a manobra desarmar (teste +29)."
+      }
+    ],
+    "pericias": "Religião +11, Sobrevivência +11.",
+    "equipamento": "Corrente de espinhos sagrada.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

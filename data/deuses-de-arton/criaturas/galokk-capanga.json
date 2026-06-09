@@ -1,0 +1,50 @@
+{
+  "id": "galokk-capanga",
+  "tipo": "criatura",
+  "nome": "Galokk Capanga",
+  "resumo": "Humanoide gigante de porte avantajado que serve como capanga musculoso. Grande e forte, com força devastadora em combate corpo a corpo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 306 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Galokk são grandes e fortes, mas também temidos, raramente encontrando lugar em cidades feitas para seres menores. Muitos acabam como capangas, guarda-costas, gladiadores, soldados ou bárbaros."
+    }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Grande",
+    "iniciativa": "+3",
+    "percepcao": "+3",
+    "sentidos": "",
+    "defesa": "26, Fort +17, Ref +7, Von +12",
+    "pontosDeVida": "50",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra x2 +24 (3d6+19, x3)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "0",
+      "constituicao": "2",
+      "inteligencia": "-1",
+      "sabedoria": "0",
+      "carisma": "-2"
+    },
+    "habilidades": [
+      {
+        "nome": "Força dos Titãs",
+        "descricao": "Quando acerta um ataque corpo a corpo, o galokk capanga pode rolar mais uma vez qualquer resultado máximo da rolagem de dano e adicionar o novo resultado ao dano causado."
+      },
+      {
+        "nome": "Forçar a Barra (Reação)",
+        "descricao": "Uma vez por rodada, quando faz um teste de resistência, o galokk soma sua Força (+4) nesse teste."
+      }
+    ],
+    "pericias": "Atletismo +9, Intimidação +5.",
+    "tesouro": "Nenhum.",
+    "tema": "Gigantes"
+  }
+}

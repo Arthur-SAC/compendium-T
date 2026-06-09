@@ -1,0 +1,60 @@
+{
+  "id": "velha-bruxa",
+  "tipo": "criatura",
+  "nome": "Velha Bruxa",
+  "resumo": "Fada com aparência de bruxa idosa exagerada ao ponto do impossível. Vive para amedrontar mortais e praticar o mal de forma caprichosa e excêntrica. Voa em instrumentos domésticos e é mestra em magias de controle e maldição.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 294 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A velha bruxa não é uma arcanista, mas um tipo de fada com a aparência de uma bruxa idosa — tão exagerada que beira o impossível. Estas fadas traiçoeiras vivem para amedrontar os mortais, disfarçando seus abusos com alguma necessidade fingida: comida, medicamento, ouro...\n\nComo muitas fadas, velhas bruxas têm comportamentos caprichosos e excêntricos, sem finalidade prática que não seja praticar o mal.\n\nTodas as velhas bruxas podem voar, cavalgando algum instrumento ordinário, como um caldeirão, pilão ou vassoura. Quase todas também vivem em alguma habitação mágica, como a casa de doces ou uma cabana com imensas pernas de galinha, capaz de se locomover."
+    }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Fadas",
+    "iniciativa": "+7",
+    "percepcao": "+10",
+    "sentidos": "visão no escuro",
+    "defesa": "31, Fort +16, Ref +9, Von +20, imunidade a doenças e encantamento, redução de dano 10/adamante",
+    "pontosDeVida": "270",
+    "pontosDeMana": "63",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas garras +25 (2d6+16) e mordida +25 (1d6+14)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "4",
+      "sabedoria": "1",
+      "carisma": "3"
+    },
+    "pericias": "Conhecimento +12, Enganação +13, Misticismo +14.",
+    "equipamento": "Uma vassoura, pilão ou outro instrumento doméstico.",
+    "tesouro": "Padrão.",
+    "habilidades": [
+      {
+        "nome": "Careta Horripilante (Movimento)",
+        "descricao": "Criaturas em alcance curto ficam abaladas (Von CD 30 evita e a criatura fica imune a esta habilidade por um dia)."
+      },
+      {
+        "nome": "Dê um Trocado para Esta Bruxa",
+        "descricao": "A velha bruxa para transeuntes pedindo algo: comida, dinheiro, objetos ou qualquer outra coisa. Quem se oferece para atender o pedido deve fazer um teste de Vontade (CD 30). Se falhar, fica enfeitiçado pela bruxa, seguindo-a aonde ela mandar (provavelmente para seu item voador, indo direto para a casa). Se passar, percebe a tramoia e fica imune a esta habilidade por um dia."
+      },
+      {
+        "nome": "Voar, Voar",
+        "descricao": "A bruxa pode voar usando um pilão, vassoura ou outro tipo de instrumento. Esse instrumento concede deslocamento voo 18m (12q), mas apenas para a bruxa."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma bruxa de 9º nível (CD 30). Seu foco arcano é o objeto que ela usa para voar.\n• Conjurar Monstro (Completa, 6 PM, sustentada) A bruxa conjura um monstro Grande em um espaço desocupado em alcance curto. Ele tem Defesa 31, imunidade a efeitos que exigem testes de Fortitude ou Vontade, For 7, Des 2, 75 PV, deslocamento 12m e pode fazer uma ação de movimento por rodada. A bruxa pode gastar uma ação padrão para que ele se desloque o dobro nessa rodada ou cause 4d6+10 pontos de dano de impacto em uma criatura a até 3m.\n• Muralha Elemental (Padrão, 9 PM) Uma muralha de fogo com até 30m de comprimento e 3m de altura se eleva da terra em alcance médio. Um lado da muralha emite ondas de calor, que causam 2d8 pontos de dano de fogo em criaturas a até 6m quando a magia é lançada e no início dos turnos da bruxa. Atravessar a muralha causa 12d8 pontos de dano de fogo.\n• Rogar Maldição (Padrão, 6 PM, sustentada) A bruxa amaldiçoa uma criatura em alcance curto. O alvo fica debilitado, lento e esmorecido. Além disso, não pode se comunicar ou lançar magias (Fort evita).\n• Vidência (Completa, 6 PM, sustentada) A bruxa pode ver e ouvir uma criatura a sua escolha e seus arredores em alcance ilimitado (Von evita). O teste de resistência é modificado de acordo com a familiaridade da bruxa com o alvo da magia."
+      }
+    ]
+  }
+}

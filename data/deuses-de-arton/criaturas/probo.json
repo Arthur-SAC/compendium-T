@@ -1,0 +1,72 @@
+{
+  "id": "probo",
+  "tipo": "criatura",
+  "nome": "Probo",
+  "resumo": "Construto celestial inevitável com aparência de guerreiro humanoide de loriga dourada. Persegue aqueles que descumprem grandes promessas, acordos e tratados. Capaz de se disfarçar e usar magia para deter o culpado.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 279 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Inevitáveis são construtos celestiais forjados pelos deuses para encontrar e punir transgressores. O probo, um soldado humanoide, persegue aqueles que descumprem grandes promessas, acordos e tratados."
+    }
+  ],
+  "mecanica": {
+    "nd": "11",
+    "tipo": "Construto (inevitável)",
+    "tamanho": "Médio",
+    "iniciativa": "+7",
+    "percepcao": "+13",
+    "sentidos": "visão no escuro",
+    "defesa": "40, Fort +16, Ref +9, Von +22, cura acelerada 5, imunidade a frio, redução de dano 10, resistência a magia +5",
+    "pontosDeVida": "550",
+    "deslocamento": "9m (6q)",
+    "pontosDeMana": "58",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda sagrada x3 +26 (1d10+23, 19, mais 2d6 frio)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "2",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "3",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Encontrar o Culpado",
+        "descricao": "O inevitável sempre sabe a localização da criatura que deve caçar, como se estivesse permanentemente sob efeito da magia Localização com área equivalente a toda Arton."
+      },
+      {
+        "nome": "Investir a Culpa",
+        "descricao": "Cada inevitável é criado para caçar uma criatura específica. Contra essa criatura, ele recebe +5 em testes de perícia e seus ataques causam +2d6 pontos de dano de luz."
+      },
+      {
+        "nome": "Visão da Justiça",
+        "descricao": "O inevitável está permanentemente sob o efeito básico da magia Visão da Verdade."
+      },
+      {
+        "nome": "Analisar Suspeito (Completa)",
+        "descricao": "O probo analisa uma criatura em alcance médio. Até o fim do dia, ele recebe +3 em testes de perícia contra ela."
+      },
+      {
+        "nome": "Ler Seus Direitos (Movimento, 3 PM)",
+        "descricao": "Uma criatura em alcance curto fica pasma por 1 rodada, ou atordoada por 1 rodada se for a criatura que o probo deve caçar (Fort CD 31 evita)."
+      },
+      {
+        "nome": "Negar Recurso (Movimento, 3 PM)",
+        "descricao": "Uma criatura em alcance médio do probo faz um teste de Vontade (CD 31). Se falhar, não pode utilizar uma habilidade à escolha do probo até o fim da cena (para esse efeito, cada magia da criatura conta como uma habilidade). Uma mesma criatura só pode ter uma habilidade negada por vez."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de 11º nível (CD 31). • Disfarce Ilusório (Padrão, 3 PM): Até o fim da cena, o probo muda a própria aparência, incluindo seu equipamento e os odores e as sensações que transmite. Isso afeta altura, peso, tom de pele, cor de cabelo, timbre de voz etc. Ele recebe +20 em testes de Enganação para disfarce (Von desacredita). • Dissipar Magia (Padrão, 3 PM): O probo escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas. • Imobilizar (Padrão, 7 PM): Uma criatura em alcance curto fica paralisada (Von muda para lenta). A cada rodada, a vítima pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, liberta-se do efeito. • Silêncio (Padrão, 3 PM, sustentada): O probo cria uma esfera de 6m em alcance médio. Criaturas nessa área ficam surdas e não podem lançar magias."
+      }
+    ],
+    "pericias": "Conhecimento +9, Diplomacia +10, Intuição +10, Misticismo +9, Nobreza +9, Religião +10.",
+    "equipamento": "Espada bastarda sagrada, loriga segmentada.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "protetor",
+  "tipo": "criatura",
+  "nome": "Protetor",
+  "resumo": "Celestial de aparência humanoide com grandes asas emplumadas brancas, também conhecido como 'anjo da guarda'. Combatente inflamado que defende os fracos e inocentes contra as forças do mal, sobretudo demônios.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 276 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ele tem a aparência de um humano, embora claramente não o seja. Sua aura transmite uma sensação de confiança e conforto. Veste uma toga longa e esvoaçante, presa na cintura por uma corda, deixando braços e pés nus. Empunha uma maça dourada e um escudo redondo, que exibe um símbolo sagrado. Mas são as grandes asas emplumadas, brancas e luminosas, que mais evidenciam sua verdadeira natureza.\n\nO celestial protetor, também conhecido como \"anjo da guarda\", tem aparência humanoide — podendo ser humano, elfo, anão, hynne ou outra raça, conforme aqueles que esteja protegendo.\n\nProtetores estão entre os anjos mais atuantes em Arton, buscando defender os fracos e inocentes contra as forças do mal, sobretudo demônios e outros seres malignos. Muitas vezes agem sozinhos, a mando de seus criadores, mas também podem se aliar a outros campeões do bem em momentos de necessidade. Não é raro um protetor recrutar heróis para ajudá-lo a enfrentar desafios que ele próprio não consiga vencer.\n\nProtetores são combatentes inflamados, avançando contra os inimigos com determinação. Quando atuam em grupo, formam grandes paredes de escudos em pleno ar, capazes de amedrontar o mais feroz adversário."
+    }
+  ],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Médio",
+    "iniciativa": "+9",
+    "percepcao": "+10",
+    "sentidos": "visão no escuro",
+    "defesa": "32, Fort +18, Ref +9, Von +14, redução de dano 10, resistência a magia +3",
+    "pontosDeVida": "280",
+    "deslocamento": "9m (6q), voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Maça +24 (2d8+20, 19, mais 4d6+10 luz)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Protetora (Movimento)",
+        "descricao": "Aliados do protetor em alcance curto recebem +2 na Defesa e em testes de resistência até o fim da cena."
+      },
+      {
+        "nome": "Rasante",
+        "descricao": "Quando um protetor executa uma investida voando contra um inimigo no solo, seu ataque causa +4d6 pontos de dano de luz."
+      },
+      {
+        "nome": "Voo em Formação",
+        "descricao": "Se dois ou mais protetores estiverem voando e adjacentes entre si, cada um deles recebe +2 em testes de ataque e na Defesa e não pode ser flanqueado."
+      }
+    ],
+    "pericias": "Diplomacia +13, Intuição +12, Religião +12.",
+    "equipamento": "Escudo pesado, maça banhada a ouro.",
+    "tesouro": "Padrão.",
+    "tema": "Celestiais"
+  }
+}

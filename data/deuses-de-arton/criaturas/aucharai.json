@@ -1,0 +1,61 @@
+{
+  "id": "aucharai",
+  "tipo": "criatura",
+  "nome": "Aucharai",
+  "resumo": "Demônio espião e assassino: alto e magro, pele negra como piche, rosto insano com presas. Especialista em rastrear, perseguir e eliminar alvos para seus mestres; prefere atacar a maior ameaça primeiro.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 252 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "É um demônio alto, maior que um humano, mas muito magro. Tem pele negra, lustrosa e sem pelos, como se coberto de piche. O rosto tem expressão insana e macabra, com presas pontudas projetando-se fora da boca e olhos ardendo como chamas. Entre os abissais, aucharai são espiões e assassinos, especializados em rastrear, perseguir e exterminar alvos para seus mestres. São astutos e perspicazes, estabelecendo planos maliciosos antes de começar uma missão. Furtivos e sorrateiros, preferem atacar primeiro o adversário que parece mais poderoso, esperando incapacitar a maior ameaça para então deliciar-se sem pressa com as mortes dos demais."
+    }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Médio",
+    "tema": "Abissais",
+    "iniciativa": "+10",
+    "percepcao": "+6, visão no escuro",
+    "defesa": "26, Fort +8, Ref +18, Von +10, evasão, imunidade a ácido e veneno, redução de dano 5",
+    "pontosDeVida": "240",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Duas espadas curtas +20 (2d6+18, 19)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "5",
+      "constituicao": "2",
+      "inteligencia": "3",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "+2d6."
+      },
+      {
+        "nome": "Detectar Pensamentos",
+        "descricao": "O aucharai detecta constantemente os pensamentos superficiais de todas as criaturas inteligentes em alcance curto. Ele não pode ser surpreendido por criaturas cujos pensamentos esteja detectando dessa forma e recebe +2 na Defesa e em testes de perícia contra elas. Uma criatura ciente desta habilidade pode gastar uma ação de movimento e fazer um teste de Vontade (CD 24). Se passar, esconde seus pensamentos até o fim da cena."
+      },
+      {
+        "nome": "Escurecer Olhos (Padrão)",
+        "descricao": "O aucharai invoca uma sombra mística sobre os olhos de uma criatura em alcance curto. A vítima fica cega (Fort CD 24 reduz para 1 rodada). Recarga (movimento)."
+      },
+      {
+        "nome": "Protegido pela Escuridão",
+        "descricao": "Se estiver em uma condição de pouca iluminação que forneça camuflagem leve, em vez disso o aucharai recebe camuflagem total."
+      },
+      {
+        "nome": "Visão Abissal",
+        "descricao": "O aucharai está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis."
+      }
+    ],
+    "pericias": "Acrobacia +10, Atletismo +9, Furtividade +15, Ladinagem +8.",
+    "tesouro": "Padrão."
+  }
+}

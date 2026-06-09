@@ -1,0 +1,69 @@
+{
+  "id": "aspecto-de-valkaria",
+  "tipo": "criatura",
+  "nome": "Aspecto de Valkaria",
+  "resumo": "Jovem duelista cheia de entusiasmo e confiança excessiva, ansiosa por aventura mas igualmente despreparada. Atira-se de cabeça em qualquer perigo, causa mais problemas do que resolve, e tem por missão transformar pessoas comuns em heróis.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 272 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aspecto", "alvoTipo": "divindade", "alvoId": "valkaria", "rotulo": "Valkaria" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A jovem parece cheia de entusiasmo, ansiosa por uma aventura, mas igualmente despreparada. Em qualquer situação de perigo, atira-se de cabeça sem medir riscos. Em batalha, ousa as manobras mais arriscadas sem preocupação com segurança. E, quando está entediada, que quaisquer outros deuses nos ajudem, porque ela fará qualquer coisa para acabar com a paz!\n\nO aspecto de Valkaria nem sempre surge como resposta aos apelos de um devoto — pelo contrário, suas missões muitas vezes envolvem arrancar algum coitado de sua vida pacata para viver uma grande aventura! Foi o caso de Mateo Dasinus, jovem pescador de Callistia, arrastado para uma trama envolvendo a Libertação de Valkaria e a própria Tormenta.\n\nEste aspecto costuma ter a aparência de uma garota afoita, em vestes que sugerem ser uma duelista ou mercenária urbana. Tem confiança total nas próprias capacidades — confiança que muitas vezes se mostra excessiva, não justificada... Suas habilidades equivalem as de um aventureiro humano mediano. Ainda assim, fala e age como se pudesse matar o maior dos dragões. Em situações exigindo furtividade, será quase impossível evitar que suas bravatas ruidosas destruam qualquer chance de ação sorrateira.\n\nCabe ao aspecto de Valkaria fomentar aventuras, transformando pessoas comuns em heróis e levando heróis aonde houver desafios. Mas não é raro vê-lo causando mais problemas do que ajuda a solucionar."
+    }
+  ],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Médio",
+    "iniciativa": "+12",
+    "percepcao": "+4",
+    "sentidos": "",
+    "defesa": "24, Fort +11, Ref +17, Von +5, evasão, imunidade a efeitos de movimento e medo, redução de dano 5, resistência a magia +2",
+    "pontosDeVida": "180",
+    "deslocamento": "12m (8q), sem redução por terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Florete x2 +18 (1d6+8, 15/x3)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "6",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "0",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Almejar o Impossível",
+        "descricao": "Quando o aspecto de Valkaria faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado."
+      },
+      {
+        "nome": "Arrumar Encrenca",
+        "descricao": "O aspecto pode passar por espaços ocupados por inimigos sem redução em seu deslocamento e sem necessidade de testes de Acrobacia."
+      },
+      {
+        "nome": "Bloqueio Contundente (Reação)",
+        "descricao": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, o aspecto pode fazer um teste de ataque. Se o resultado do teste for maior que o do oponente, evita o ataque e causa 2d6 pontos de dano de perfuração a ele."
+      },
+      {
+        "nome": "Esgrima Acrobática (Movimento)",
+        "descricao": "O aspecto percorre até metade de seu deslocamento e, até o final do turno, recebe +5 em testes de ataque, em rolagens de dano e na margem de ameaça."
+      },
+      {
+        "nome": "Estocada Oportunista (Livre)",
+        "descricao": "Uma vez por rodada, quando passa por um espaço ocupado por um inimigo, o aspecto pode fazer um ataque corpo a corpo contra ele."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O aspecto de Valkaria é um parceiro veterano que fornece +2 em Acrobacia e em testes opostos e de resistência contra efeitos de movimento. Também permite que você use a habilidade Bloqueio Contundente (se evitar o ataque, você causa dano igual ao dano básico de sua arma). Caso você viole as Obrigações & Restrições de Valkaria, o aspecto deixa de apoiá-lo."
+      }
+    ],
+    "pericias": "Acrobacia +12, Atletismo +8.",
+    "equipamento": "Couraça sob medida, florete certeiro preciso, sapato de camurça aprimorado.",
+    "tesouro": "Nenhum.",
+    "tema": "Aspectos dos Deuses"
+  }
+}

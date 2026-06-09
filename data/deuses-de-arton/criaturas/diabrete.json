@@ -1,0 +1,53 @@
+{
+  "id": "diabrete",
+  "tipo": "criatura",
+  "nome": "Diabrete",
+  "resumo": "Abissal menor de tamanho minúsculo, careca, com asas de couro e ferrão venenoso na cauda. Covarde, prefere agir em bandos; quando domesticado, torna-se familiar de arcanistas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 254 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O diminuto humanoide poderia ser confundido com um silfo, mas as diferenças logo se fazem óbvias. É careca, com asas de couro e uma cauda fina e comprida, que termina em um ferrão. Parece pequeno e fraco demais para ser perigoso, apesar dos olhos vermelhos e da expressão cruel. Diabretes são abissais menores, quase como bichos de estimação para outros demônios, ou mesmo humanos e outras raças. Em estado selvagem, gostam de travessuras que quase sempre envolvem alguma crueldade. São também conhecidos por roubar bebês ou devorá-los no berço. Diabretes são maus, mas também medrosos, sempre preferindo agir em bandos e fugir quando descobertos."
+    }
+  ],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Espírito (abissal)",
+    "tamanho": "Minúsculo",
+    "tema": "Abissais",
+    "iniciativa": "+5",
+    "percepcao": "+4, visão no escuro",
+    "defesa": "17, Fort +6, Ref +12, Von +4, imunidade a ácido e veneno",
+    "pontosDeVida": "20",
+    "deslocamento": "6m (4q), voo 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Ferrão +14 (1d6+8 mais veneno)."
+    ],
+    "atributos": {
+      "forca": "–2",
+      "destreza": "2",
+      "constituicao": "0",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Peste Invisível (Padrão)",
+        "descricao": "O diabrete se torna invisível (como na magia Invisibilidade) até o fim da cena ou até fazer um ataque."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha comum (perde 1d12 pontos de vida, Fort CD 16 evita)."
+      },
+      {
+        "nome": "Familiar",
+        "descricao": "Um diabrete fornece +1 PM para gastar em aprimoramentos sempre que você lança uma magia de ilusão ou veneno."
+      }
+    ],
+    "pericias": "Furtividade +10, Misticismo +7.",
+    "tesouro": "Nenhum."
+  }
+}

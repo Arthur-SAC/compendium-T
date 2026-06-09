@@ -1,0 +1,69 @@
+{
+  "id": "pegaso-de-khalmyr",
+  "tipo": "criatura",
+  "nome": "Pégaso de Khalmyr",
+  "resumo": "A lendária montaria sagrada de Khalmyr, o Deus da Justiça. Poderoso celestial equino com aura de ordem, capaz de usar magias de clérigo de 15º nível. Aceita ser montado apenas por personagens que julgue dignos ou devotos de Khalmyr.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 280 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Alguns dizem que o Pégaso de Khalmyr original se sacrificou para criar todos os outros. Outros afirmam que o cavalo alado primordial ainda vive, surgindo subitamente em momentos de grande necessidade para ajudar heróis empenhados em missões nobres."
+    }
+  ],
+  "mecanica": {
+    "nd": "15",
+    "tipo": "Espírito (celestial)",
+    "tamanho": "Grande",
+    "iniciativa": "+16",
+    "percepcao": "+19",
+    "sentidos": "faro, visão no escuro",
+    "defesa": "50, Fort +22, Ref +15, Von +28, imunidade a encantamento e medo, resistência a magia arcana +15",
+    "pontosDeVida": "750",
+    "deslocamento": "18m (12q), voo 36m (24q)",
+    "pontosDeMana": "50",
+    "ataques": [
+      "Corpo a Corpo Cascos x2 +39 (4d10+35)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "3",
+      "constituicao": "5",
+      "inteligencia": "1",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Asas Guardiãs",
+        "descricao": "As asas do Pégaso de Khalmyr funcionam como uma aura com 9m de raio. Aliados do pégaso nessa área recebem redução de dano 5."
+      },
+      {
+        "nome": "Aura de Ordem",
+        "descricao": "O Pégaso emana uma aura de ordem com 30m de raio. Criaturas que comecem seu turno dentro da aura sofrem –20 em Acrobacia, Enganação, Furtividade e Ladinagem e não podem mentir deliberadamente enquanto estiverem na área. Além disso, seus efeitos de encantamento, ilusão e transmutação são dissipados (Von CD 40 reduz a penalidade para –10, permite mentir e não dissipa os efeitos)."
+      },
+      {
+        "nome": "Cascos Sagrados",
+        "descricao": "Os cascos do Pégaso são armas mágicas que causam +2d8 de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre)."
+      },
+      {
+        "nome": "Meteoro (Completa)",
+        "descricao": "O Pégaso faz uma investida alada contra uma criatura e ataca com seus dois ataques de cascos. Ambos os ataques recebem o bônus de +2 da investida e causam +4d10 pontos de dano cada, mas devem ser feitos contra o mesmo alvo."
+      },
+      {
+        "nome": "Ver Além das Mentiras",
+        "descricao": "O Pégaso está permanentemente sob o efeito básico da magia Visão da Verdade."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de Khalmyr de 15º nível (CD 40). • Heroísmo (Padrão, 12 PM): Uma criatura adjacente fica imune a medo, recebe 40 PV temporários e +6 em testes de ataque e rolagens de dano contra o inimigo de maior ND na cena. • Sopro da Salvação (Padrão, 14 PM): O Pégaso sopra um cone de 9m que cura 4d8+4 PV e remove todas as seguintes condições dos aliados na área: abalado, atordoado, apavorado, alquebrado, cego, confuso, debilitado, enfeitiçado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, paralisado, pasmo e surdo. • Viagem Planar (Padrão, 12 PM): O Pégaso e até 5 criaturas voluntárias que ele esteja tocando viajam para outro Plano."
+      }
+    ],
+    "pericias": "Atletismo +21, Diplomacia +18, Guerra +14, Intuição +21, Nobreza +14, Religião +16.",
+    "tesouro": "Nenhum.",
+    "tema": "Celestiais"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "galokk-guarda-costas",
+  "tipo": "criatura",
+  "nome": "Galokk Guarda-Costas",
+  "resumo": "Versão mais poderosa do galokk, especializado em proteção com escudo pesado e capaz de fornecer cobertura a aliados menores.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 306 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Galokk são grandes e fortes, mas também temidos, raramente encontrando lugar em cidades feitas para seres menores. Muitos acabam como capangas, guarda-costas, gladiadores, soldados ou bárbaros."
+    }
+  ],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Grande",
+    "iniciativa": "+5",
+    "percepcao": "+7",
+    "sentidos": "",
+    "defesa": "35, Fort +21, Ref +11, Von +16",
+    "pontosDeVida": "80",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +34 (1d10+31, x3) e escudo pesado +34 (1d8+26)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "0",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "-2"
+    },
+    "habilidades": [
+      {
+        "nome": "Força dos Titãs",
+        "descricao": "Quando acerta um ataque corpo a corpo, o galokk guarda-costas pode rolar mais uma vez qualquer resultado máximo da rolagem de dano e adicionar o novo resultado ao dano causado."
+      },
+      {
+        "nome": "Forçar a Barra",
+        "descricao": "Uma vez por rodada, quando faz um teste de resistência, o galokk soma sua Força (+5) nesse teste."
+      },
+      {
+        "nome": "Grande Escudo",
+        "descricao": "O galokk guarda-costas fornece cobertura leve a aliados adjacentes menores que ele."
+      }
+    ],
+    "pericias": "Atletismo +14, Intimidação +9.",
+    "tesouro": "Metade.",
+    "tema": "Gigantes"
+  }
+}
