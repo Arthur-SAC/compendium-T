@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-arboria",
+  "tipo": "poder",
+  "nome": "Herança de Arbória",
+  "resumo": "O Grande Ciclo de Allihanna concede uma forma de Forma Selvagem (Ágil, Sorrateira ou Veloz), com custo reduzido se aprendida novamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Como parte do Grande Ciclo de Allihanna, você recebe a habilidade Forma Selvagem para uma única forma, escolhida entre Ágil, Sorrateira e Veloz. Caso adquira essa habilidade novamente, o custo dessa forma diminui em –1 PM."
+  }
+}

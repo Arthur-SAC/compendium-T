@@ -1,0 +1,22 @@
+{
+  "id": "jarro-das-profundezas",
+  "tipo": "item-magico",
+  "nome": "Jarro das Profundezas",
+  "resumo": "Vaso de madrepérola de Oceano que, para devotos, pode criar água salgada, derrubar criaturas em cone ou invocar um elemental da água como parceiro.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "oceano", "rotulo": "Oceano" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 9.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este vaso de madrepérola é coberto de imagens de animais marítimos. Se você for um devoto do Oceano e estiver empunhando o jarro das profundezas, pode gastar uma ação padrão e PM para gerar alguns efeitos. Por 1 PM, cria 2 litros de água salgada. Essa água não pode ser bebida pela maioria dos seres, mas serve para cumprir suas Obrigações & Restrições de se manter em contato com o mar. Também por 1 PM, dispara uma onda de água que se derrama em um cone de 6m à sua frente e derruba quaisquer criaturas na área (Ref CD Sab evita). Por fim, por 2 PM você invoca um elemental da água que atua como um parceiro destruidor (dano de frio) ou guardião veterano até o fim da cena. Acessório menor, preço T$ 9.000."
+    }
+  ]
+}

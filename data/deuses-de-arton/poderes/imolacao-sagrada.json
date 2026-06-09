@@ -1,0 +1,15 @@
+{
+  "id": "imolacao-sagrada",
+  "tipo": "poder",
+  "nome": "Imolação Sagrada",
+  "resumo": "Gasta ação padrão e 1 PM para cobrir braços com chamas: ataques corpo a corpo causam +1d6 de dano de fogo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "azgher",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 1 PM para cobrir seus braços com chamas com duração sustentada. Nesse estado, seus ataques corpo a corpo causam +1d6 pontos de dano de fogo. (Concedido também por Thyatis.)"
+  }
+}

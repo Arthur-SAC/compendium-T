@@ -1,0 +1,22 @@
+{
+  "id": "tridente-aquoso",
+  "tipo": "item-magico",
+  "nome": "Tridente Aquoso",
+  "resumo": "Tridente pungente de coral azulado de Oceano que, para devotos, torna-se congelante formidável e torna-se magnífico quando mergulhado em água até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "oceano", "rotulo": "Oceano" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 54.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este tridente pungente é feito de coral azulado, e suas três pontas emanam uma tênue névoa gelada. Se você for um devoto do Oceano, ele se torna um tridente pungente congelante formidável. Se o tridente aquoso for mergulhado em água (exige uma ação de movimento e um reservatório de água grande o suficiente, como uma tina, cocho, banheira, rio…), torna-se magnífico até o fim da cena. Arma específica média, preço T$ 54.000."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "santa-granada-de-mao",
+  "tipo": "item",
+  "nome": "Santa Granada de Mão",
+  "resumo": "Dispositivo alquímico explosivo que causa 6d12 de dano de luz a mortos-vivos e abissais em raio de 3m. Só pode ser fabricado por devotos de deuses de energia positiva.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Preparado",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "Para usar a granada, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Mortos-vivos e abissais a até 3m desse ponto sofrem 6d12 pontos de dano de luz (Reflexos CD Sab reduz à metade). Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva."
+  }
+}

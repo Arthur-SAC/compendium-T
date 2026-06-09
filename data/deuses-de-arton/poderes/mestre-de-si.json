@@ -1,0 +1,15 @@
+{
+  "id": "mestre-de-si",
+  "tipo": "poder",
+  "nome": "Mestre de Si",
+  "resumo": "Passa automaticamente no primeiro teste de Vontade contra efeito inimigo a cada cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lin-wu",
+    "prerequisito": "",
+    "descricao": "Você passa automaticamente no primeiro teste de Vontade contra um efeito de um inimigo que fizer a cada cena."
+  }
+}

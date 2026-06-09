@@ -1,0 +1,19 @@
+{
+  "id": "colar-do-suplicante",
+  "tipo": "item",
+  "nome": "Colar do Suplicante",
+  "resumo": "Colar simples com 10 contas de material ligado à divindade do devoto, que permite recuperar 1 PM por dia gastando uma conta.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Possui 10 contas de um material ligado à divindade (como jade para Lin-Wu ou cristal para Wynna). Se você estiver vestindo um colar do suplicante de um deus do qual é devoto, uma vez por dia você pode gastar uma ação de movimento e uma das contas para recuperar 1 PM. Uma vez que as contas sejam gastas, o colar perde seu efeito."
+  }
+}

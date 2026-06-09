@@ -1,0 +1,96 @@
+{
+  "id": "outros-devotos",
+  "tipo": "regra",
+  "nome": "Outros Devotos",
+  "resumo": "Regras sobre quais raças e classes podem ser devotos de cada divindade, incluindo listagem completa atualizada com raças de Ameaças de Arton e Heróis de Arton.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 34 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {},
+  "secoes": [
+    {
+      "titulo": "Outros Devotos",
+      "texto": "Devotos são todos os personagens, aventureiros ou não, que aceitam venerar uma divindade do Panteão, seguindo suas Obrigações & Restrições. Em troca, passam a ter acesso aos poderes concedidos. Um personagem pode se tornar devoto através de habilidade de classe (clérigo, druida, frade, paladino) ou pertencendo a uma raça ou classe permitida para cada deus.\n\nRaças. Humanos, meios-elfos, meios-orcs, minauros, moreau e finntroll (vistos em Ameaças de Arton) são livres para escolher qualquer divindade. Membros de outras raças podem se tornar devotos de certas divindades quando a raça aparece em sua lista de devotos, não importando a classe.\n\nExceção: suraggel sempre podem ser devotos da divindade relacionada a sua herança planar.\n\nClasses. Clérigos e frades são livres para escolher qualquer divindade como padroeira, não importando sua raça. Druidas e paladinos são restritos a certos deuses, listados em suas habilidades de classe. Membros de outras classes podem se tornar devotos de uma divindade quando a classe aparece em sua lista de devotos, não importando a raça.\n\nExceção: feiticeiros abençoados sempre podem ser devotos do deus de sua herança de linhagem.\n\nA seguir, listas atualizadas de raças e classes permitidas como devotos, incluindo aquelas em Ameaças de Arton e Heróis de Arton."
+    },
+    {
+      "titulo": "Aharadak",
+      "texto": "Raças/Classes. Todas."
+    },
+    {
+      "titulo": "Allihanna",
+      "texto": "Raças. Centauro, ceratops, dahllan, duende, eiradaan, elfo, elfo-do-mar, galokk, gnoll, nagah, ogro, orc, pteros, sátiro, sílfide, tabrachi, velocis, voracis.\n\nClasses. Bárbaro, caçador, druida, treinador."
+    },
+    {
+      "titulo": "Arsenal",
+      "texto": "Raças. Anão, bugbear, ceratops, elfo-do-mar, galokk, hobgoblin, kallyanach, kaijin, minotauro, nezumi, ogro, orc, tengu, voracis, yidishan.\n\nClasses. Bárbaro, cavaleiro, guerreiro, lutador."
+    },
+    {
+      "titulo": "Azgher",
+      "texto": "Raças. Aggelus, ceratops, qareen.\n\nClasses. Arcanista, bárbaro, caçador, cavaleiro, guerreiro, nobre, paladino."
+    },
+    {
+      "titulo": "Hyninn",
+      "texto": "Raças. Duende, elfo-do-mar, gnoll, goblin, harpia, hynne, kappa, nagah, naidora, sátiro, sílfide.\n\nClasses. Bardo, bucaneiro, ladino, inventor, nobre."
+    },
+    {
+      "titulo": "Kallyadranoch",
+      "texto": "Raças. Elfo, finntroll, kallyanach, kobolds, medusa, nagah, naidora, sulfure.\n\nClasses. Arcanista, cavaleiro, guerreiro, lutador, nobre."
+    },
+    {
+      "titulo": "Khalmyr",
+      "texto": "Raças. Aggelus, anão, kobolds, tengu.\n\nClasses. Cavaleiro, guerreiro, nobre, paladino."
+    },
+    {
+      "titulo": "Lena",
+      "texto": "Raças. Ceratops, dahllan, eiradaan, qareen, kappa, kobolds, pteros, velocis.\n\nClasses. Nobre, paladino."
+    },
+    {
+      "titulo": "Lin-Wu",
+      "texto": "Raças. Anão, kaijin, kappa, mashin, tengu.\n\nClasses. Cavaleiro, guerreiro, nobre, paladino."
+    },
+    {
+      "titulo": "Marah",
+      "texto": "Raças. Aggelus, elfo, gnoll, hynne, qareen, pteros, sátiro, velocis.\n\nClasses. Bardo, nobre, paladino."
+    },
+    {
+      "titulo": "Megalokk",
+      "texto": "Raças. Bugbear, centauro, ceratops, elfo-do-mar, finntroll, galokk, gnoll, goblin, harpia, hobgoblin, kallyanach, kobolds, medusa, minotauro, nagah, nezumi, ogro, orc, sulfure, tabrachi, trog, voracis, yidishan.\n\nClasses. Bárbaro, caçador, druida, lutador, treinador."
+    },
+    {
+      "titulo": "Nimb",
+      "texto": "Raças. Duende, gnoll, goblin, naidora, orc, qareen, sátiro, sílfide, tabrachi, yidishan.\n\nClasses. Arcanista, bárbaro, bardo, bucaneiro, inventor, ladino, treinador."
+    },
+    {
+      "titulo": "Oceano",
+      "texto": "Raças. Dahllan, elfo-do-mar, hynne, kappa, minotauro, sereia/tritão.\n\nClasses. Bárbaro, bucaneiro, caçador, druida, treinador."
+    },
+    {
+      "titulo": "Sszzaas",
+      "texto": "Raças. Finntroll, medusa, nagah, tabrachi.\n\nClasses. Arcanista, bardo, bucaneiro, inventor, ladino, nobre."
+    },
+    {
+      "titulo": "Tanna-Toh",
+      "texto": "Raças. Golem, kliren, mashin, tengu.\n\nClasses. Arcanista, bardo, inventor, nobre, paladino."
+    },
+    {
+      "titulo": "Tenebra",
+      "texto": "Raças. Anão, bugbear, finntroll, gnoll, harpia, hobgoblin, kobolds, medusa, nagah, nezumi, qareen, ogro, orc, osteon, sulfure, tabrachi, trog.\n\nClasses. Arcanista, bardo, druida, ladino, treinador."
+    },
+    {
+      "titulo": "Thwor",
+      "texto": "Raças/Classes. Todas duyshidakk, exceto aquelas com devoção específica que não inclui Thwor."
+    },
+    {
+      "titulo": "Thyatis",
+      "texto": "Raças. Aggelus, eiradaan.\n\nClasses. Cavaleiro, guerreiro, inventor, lutador, paladino."
+    },
+    {
+      "titulo": "Valkaria",
+      "texto": "Raças. Todas.\n\nClasses. Todas, exceto aquelas com devoção específica que não inclui Valkaria (como druida)."
+    },
+    {
+      "titulo": "Wynna",
+      "texto": "Raças. Duende, elfo, eiradaan, golem, kallyanach, mashin, nagah, pteros, qareen, sátiro, sílfide, tengu.\n\nClasses. Arcanista, bardo, treinador."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "adaga-sorrateira",
+  "tipo": "item-magico",
+  "nome": "Adaga Sorrateira",
+  "resumo": "Adaga de metal enferrujado de Hyninn que, nas mãos de seu devoto, torna-se formidável e concede +5 em um teste ou rolagem ao passar pela primeira vez em Enganação ou Furtividade por cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 56 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "hyninn", "rotulo": "Hyninn" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Menor",
+    "preco": "T$ 22.500"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta adaga é feita do que parece ser metal enferrujado. Se você for um devoto de Hyninn, ela se torna uma adaga formidável. Além disso, na primeira vez em que você passar em um teste de Enganação ou Furtividade em cada cena, você recebe +5 em um teste ou rolagem a sua escolha até o fim da cena (cumulativo com outros bônus de itens). Se você for de patamar campeão ou superior, a arma se torna uma adaga magnífica. Arma específica menor, preço T$ 22.500."
+    }
+  ]
+}

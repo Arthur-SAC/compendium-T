@@ -1,0 +1,19 @@
+{
+  "id": "medalhao-afiado",
+  "tipo": "item",
+  "nome": "Medalhão Afiado",
+  "resumo": "Pequeno medalhão com bordas afiadas e imagem de uma arma gravada, que aumenta a margem de ameaça de ataques beneficiados por magias de bônus em ataque.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 51
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 900",
+    "espacos": "1",
+    "especial": "Quando você lança uma magia que fornece um bônus em testes de ataque, ela também fornece +1 na margem de ameaça desses ataques."
+  }
+}

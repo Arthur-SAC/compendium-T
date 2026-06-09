@@ -1,0 +1,22 @@
+{
+  "id": "bolinho-de-jade",
+  "tipo": "item",
+  "nome": "Bolinho de Jade",
+  "resumo": "Bolinho de ervas símbolo da honra de Lin-Wu, que permite usar o poder Kiai Divino uma vez ou sem custo em PM se já possuído.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "lin-wu", "rotulo": "Lin-Wu" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 4",
+    "espacos": "0",
+    "especial": "Prato especial de Lin-Wu. Até o fim do dia, você pode usar o poder Kiai Divino uma vez. Se já o possui, pode usá-lo uma vez sem pagar seu custo em PM."
+  }
+}

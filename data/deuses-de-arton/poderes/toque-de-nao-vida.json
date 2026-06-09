@@ -1,0 +1,15 @@
+{
+  "id": "toque-de-nao-vida",
+  "tipo": "poder",
+  "nome": "Toque de Não Vida",
+  "resumo": "Gasta ação de movimento e 2 PM para fornecer 2d12 PV temporários (sempre os primeiros perdidos) e camuflagem leve.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tenebra",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 2 PM para fornecer a si mesmo ou a uma criatura adjacente 2d12 PV temporários (que são sempre os primeiros a serem perdidos) e, enquanto os PV temporários durarem, camuflagem leve."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "espada-monastica",
+  "tipo": "item-magico",
+  "nome": "Espada Monástica",
+  "resumo": "Espada longa certeira de Khalmyr com orações gravadas no cabo, que pode tornar-se formidável ou magnífica e gerar o efeito de Oração ao ler versículos (teste de Religião).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 54.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta espada longa certeira possui lâmina de aço reluzente e cabo de ouro com orações ao Deus da Justiça inscritas. Se você for um devoto de Khalmyr e estiver empunhando a espada monástica, pode gastar uma ação de movimento para ler um dos versículos inscritos nela e fazer um teste de Religião (CD 20). Se passar, a arma se torna formidável. Se passar por 10 ou mais, ela gera o efeito básico de Oração. Se passar por 20 ou mais, a arma se torna magnífica. Estes efeitos duram até o fim da cena. Arma específica média, preço T$ 54.000."
+    }
+  ]
+}

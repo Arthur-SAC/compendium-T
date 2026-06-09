@@ -1,0 +1,15 @@
+{
+  "id": "andarilho-carregado",
+  "tipo": "poder",
+  "nome": "Andarilho Carregado",
+  "resumo": "Mochila de aventureiro não conta no limite de itens vestidos; pode usar Sabedoria para o limite de carga.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "valkaria",
+    "prerequisito": "",
+    "descricao": "Sua mochila de aventureiro não conta no seu limite de itens vestidos e, se estiver vestindo uma dessas mochilas, você pode usar Sabedoria para estabelecer seu limite de carga (em vez de Força). A critério do mestre, este poder pode ser aplicado a outro item equivalente (como uma mochila de carga)."
+  }
+}

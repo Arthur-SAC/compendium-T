@@ -1,0 +1,19 @@
+{
+  "id": "cerimonia-religiosa",
+  "tipo": "item",
+  "nome": "Cerimônia Religiosa",
+  "resumo": "Rito celebrado em um templo da divindade do devoto, que fornece +1 em Religião e Vontade e +2 PM até o fim da aventura.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviços",
+    "preco": "T$ 20",
+    "espacos": "0",
+    "especial": "Assistir a uma cerimônia em um templo da divindade da qual você é devoto fornece +1 em Religião e Vontade e +2 PM até o fim da aventura."
+  }
+}

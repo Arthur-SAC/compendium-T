@@ -1,0 +1,15 @@
+{
+  "id": "chamado-monstruoso",
+  "tipo": "poder",
+  "nome": "Chamado Monstruoso",
+  "resumo": "Aprende e pode lançar Conjurar Monstro sem violar Obrigações e Restrições; custo diminui se aprender novamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "megalokk",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar Conjurar Monstro e pode lançar e sustentar essa magia sem violar suas Obrigações & Restrições. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

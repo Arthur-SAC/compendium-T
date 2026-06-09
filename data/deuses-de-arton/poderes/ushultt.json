@@ -1,0 +1,15 @@
+{
+  "id": "ushultt",
+  "tipo": "poder",
+  "nome": "Ushultt",
+  "resumo": "Escolhe um aliado como ushultt; ambos recebem +2 em ataque e dano em alcance curto (+3 se o ushultt também for duyshidakk).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 47 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "thwor",
+    "prerequisito": "",
+    "descricao": "Escolha um de seus aliados como seu ushultt. Enquanto estiverem em alcance curto um do outro, vocês recebem +2 em testes de ataque e rolagens de dano (esse bônus aumenta para +3 se o ushultt também for duyshidakk). Você pode trocar seu ushultt uma vez por aventura."
+  }
+}

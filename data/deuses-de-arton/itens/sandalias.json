@@ -1,0 +1,19 @@
+{
+  "id": "sandalias",
+  "tipo": "item",
+  "nome": "Sandálias",
+  "resumo": "Solado resistente símbolo de humildade religiosa. Impõe penalidades em testes climáticos e de equilíbrio, mas concede +1 PM a conjuradores divinos.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 9",
+    "espacos": "1",
+    "especial": "Impõem uma penalidade de –2 em testes para resistir a condições climáticas e para evitar ser derrubado no chão. Entretanto, fornecem +1 ponto de mana, mas apenas se você for um conjurador divino."
+  }
+}

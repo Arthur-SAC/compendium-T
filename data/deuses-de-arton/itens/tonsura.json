@@ -1,0 +1,19 @@
+{
+  "id": "tonsura",
+  "tipo": "item",
+  "nome": "Tonsura",
+  "resumo": "Estilo de cabelo sacerdotal que impõe –5 em Intimidação mas permite usar o poder Aparência Inofensiva contra mais criaturas.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 3",
+    "espacos": "0",
+    "especial": "Impõe –5 em Intimidação, mas permite usar o poder Aparência Inofensiva. Se já tiver este poder, em vez disso você pode usá-lo contra as duas primeiras criaturas inteligentes que o atacarem em uma cena. Uma tonsura conta como um item vestido porque você precisa deixar a cabeça à mostra, mas não ocupa um espaço."
+  }
+}

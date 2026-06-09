@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-kundali",
+  "tipo": "poder",
+  "nome": "Herança de Kundali",
+  "resumo": "O espírito protetor e opressor de Tauron concede +2 na Defesa e em testes de manobras de combate.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Pelo espírito protetor, mas também opressor, de Tauron, você recebe +2 na Defesa e em testes de manobras de combate."
+  }
+}

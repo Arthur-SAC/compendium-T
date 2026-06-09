@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-skerry",
+  "tipo": "poder",
+  "nome": "Herança de Skerry",
+  "resumo": "A força da criatividade permite gastar 1 PM em testes de Ofício para ser treinado na perícia ou rolar dois dados e usar o melhor.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Você carrega a força de criatividade. Quando faz um teste de Ofício, pode gastar 1 PM para ser treinado na perícia em questão ou para rolar dois dados e usar o melhor resultado."
+  }
+}

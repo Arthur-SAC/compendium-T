@@ -1,0 +1,19 @@
+{
+  "id": "emblema-religioso",
+  "tipo": "item",
+  "nome": "Emblema Religioso",
+  "resumo": "Chapa fina de cobre gravada com a imagem de uma figura religiosa, que permite ao devoto agir como se fosse treinado em Religião por uma cena.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Existem emblemas religiosos específicos para cada deus e eles só funcionam com devotos da divindade específica. Você pode gastar uma ação de movimento e 1 PM para receber os benefícios de ser treinado em Religião em um teste dessa perícia até o fim da cena."
+  }
+}

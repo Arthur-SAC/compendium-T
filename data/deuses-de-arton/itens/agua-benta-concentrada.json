@@ -1,0 +1,19 @@
+{
+  "id": "agua-benta-concentrada",
+  "tipo": "item",
+  "nome": "Água Benta Concentrada",
+  "resumo": "Versão aprimorada da água benta, criada com os mais puros ingredientes, que causa 4d10 pontos de dano a mortos-vivos e abissais.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Funciona como água benta (Tormenta20, p. 155), mas causa 4d10 pontos de dano. É fabricada com o mesmo aprimoramento de Abençoar Alimentos, mas seu componente material custa T$ 30."
+  }
+}

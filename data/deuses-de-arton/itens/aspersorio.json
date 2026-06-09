@@ -1,0 +1,19 @@
+{
+  "id": "aspersorio",
+  "tipo": "item",
+  "nome": "Aspersório",
+  "resumo": "Item semelhante a uma maça cuja cabeça é um reservatório de água benta perfurado, que dispersa doses de água benta em cone com CD aumentada.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Você pode gastar uma ação padrão para dispersar uma dose de água benta (normal ou concentrada) em um cone de 4,5m; a CD para resistir à água benta aumenta em +2. Um aspersório pode armazenar até 3 doses de água benta. Carregá-lo exige uma ação completa e o gasto das doses."
+  }
+}

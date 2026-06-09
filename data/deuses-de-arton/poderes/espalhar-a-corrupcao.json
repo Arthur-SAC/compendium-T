@@ -1,0 +1,15 @@
+{
+  "id": "espalhar-a-corrupcao",
+  "tipo": "poder",
+  "nome": "Espalhar a Corrupção",
+  "resumo": "Gasta um dia e faz teste de Religião (CD 20) ao chegar numa comunidade para deteriorar a atitude moral das pessoas por uma semana.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "aharadak",
+    "prerequisito": "",
+    "descricao": "Quando chega em uma comunidade, você pode gastar um dia e fazer um teste de Religião (CD 20). Se passar, você planta a semente da corrupção no coração das pessoas em uma área equivalente a uma aldeia, um castelo ou um bairro de uma cidade grande. Por uma semana, ou até você partir do lugar, a categoria de atitude dessas pessoas em relação umas às outras piora em um passo, à medida que o senso moral delas se deteriora e seus piores desejos vêm à tona. Isso pode ser útil para gerar conflitos entre elas, embora caiba a você descobrir exatamente como se aproveitar deles."
+  }
+}

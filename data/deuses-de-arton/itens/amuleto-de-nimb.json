@@ -1,0 +1,21 @@
+{
+  "id": "amuleto-de-nimb",
+  "tipo": "item",
+  "nome": "Amuleto de Nimb",
+  "resumo": "Amuleto em formato de dado que permite rolar novamente um teste de perícia e usar o melhor resultado, mas perde o poder após esse uso.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "nimb", "rotulo": "Nimb" }
+  ],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Não é mágico. Quando faz um teste de perícia, você pode fazer um teste de Inteligência (CD 10). Se fizer o teste de Inteligência e falhar nele, pode rolar novamente o teste de perícia e usar o melhor resultado. Uma vez que você use este efeito em um teste, o amuleto perde seus poderes, tornando-se inútil."
+  }
+}

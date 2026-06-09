@@ -1,0 +1,19 @@
+{
+  "id": "cajado-de-pastor",
+  "tipo": "item",
+  "nome": "Cajado de Pastor",
+  "resumo": "Cajado comprido com uma extremidade em semicírculo, símbolo de religiões pacíficas e campestres. Concede PV e PM temporários a participantes de uma Missa.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 12",
+    "espacos": "2",
+    "especial": "Se você rezar uma Missa (Tormenta20, p. 58) usando um cajado de pastor, cada participante recebe 5 PV e 1 PM temporários (cumulativos com os efeitos da missa)."
+  }
+}

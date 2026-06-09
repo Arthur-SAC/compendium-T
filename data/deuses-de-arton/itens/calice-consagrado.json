@@ -1,0 +1,19 @@
+{
+  "id": "calice-consagrado",
+  "tipo": "item",
+  "nome": "Cálice Consagrado",
+  "resumo": "Cálice santificado feito de material relacionado à divindade do devoto, que potencializa o efeito de poções consumidas ou aplicadas através dele.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 300",
+    "espacos": "1",
+    "especial": "Feito de um material relacionado ao deus (ouro para Azgher, madeira para Allihanna, obsidiana para Tenebra...). Se você for um devoto da divindade, pode usar o cálice para beber uma poção ou para aplicá-la em um aliado; se fizer isso, o efeito da poção aumenta em +1 dado do mesmo tipo. Para usar o cálice você precisa gastar uma ação de movimento derramando a poção em seu interior, além do tempo necessário para consumi-la ou aplicá-la. A critério do mestre, esse efeito pode não funcionar com devotos de um deus inimigo."
+  }
+}

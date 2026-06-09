@@ -1,0 +1,22 @@
+{
+  "id": "caldo-de-lena",
+  "tipo": "item",
+  "nome": "Caldo de Lena",
+  "resumo": "Sobremesa à base de milho de Lena, que concede +2 PV extras ao receber cura mágica de luz pelo resto do dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "lena", "rotulo": "Lena" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 3",
+    "espacos": "0",
+    "especial": "Prato especial de Lena. Quando recebe cura mágica de luz, você recupera +2 PV."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "armas-da-selvageria",
+  "tipo": "poder",
+  "nome": "Armas da Selvageria",
+  "resumo": "Armas naturais tornam-se favoritas de Megalokk; +2 no dano e pode usá-las com Abençoar Arma e Armamento da Natureza.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "megalokk",
+    "prerequisito": "",
+    "descricao": "Para você, armas naturais são armas favoritas de Megalokk. Você recebe +2 em rolagens de dano com elas, pode usar Abençoar Arma (Tormenta20, p. 57) nelas e, quando usa esse poder ou a magia Armamento da Natureza, pode aplicar seus benefícios a todas as suas armas naturais (sem custo adicional)."
+  }
+}

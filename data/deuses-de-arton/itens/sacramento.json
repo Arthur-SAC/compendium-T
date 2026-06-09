@@ -1,0 +1,19 @@
+{
+  "id": "sacramento",
+  "tipo": "item",
+  "nome": "Sacramento",
+  "resumo": "Rito religioso de alto poder divino que permite ao devoto lançar uma magia divina de 1º círculo escolhida uma única vez até o fim da aventura gastando 2 PM.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviços",
+    "preco": "T$ 50",
+    "espacos": "0",
+    "especial": "Reservado para aventureiros em missão de cunho divino. Escolha uma magia divina de 1º círculo; até o fim da aventura, você pode lançar essa magia uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria). Apenas devotos podem receber um sacramento e, obviamente, somente em templos de sua divindade."
+  }
+}

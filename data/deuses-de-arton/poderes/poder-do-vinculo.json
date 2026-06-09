@@ -1,0 +1,15 @@
+{
+  "id": "poder-do-vinculo",
+  "tipo": "poder",
+  "nome": "Poder do Vínculo",
+  "resumo": "Gasta ação de movimento e PM para tocar conjurador aliado, reduzindo o custo da próxima magia dele em PM gastos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "wynna",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e uma quantidade de PM (limitada ao círculo de magias a que tem acesso) para tocar em uma criatura capaz de lançar magias. O custo em PM da próxima magia que ela lançar diminui em um valor igual aos PM que você gastou."
+  }
+}

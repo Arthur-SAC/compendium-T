@@ -1,0 +1,15 @@
+{
+  "id": "espirito-animal",
+  "tipo": "poder",
+  "nome": "Espírito Animal",
+  "resumo": "Gasta ação de movimento e 2 PM para conjurar espírito animal: imunidade a flanquear, PV temporários, arma natural e ataque extra.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "allihanna",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 2 PM para conjurar um espírito animal que o envolve e luta com você. Até o fim da cena, você não pode ser flanqueado e recebe 10 PV temporários e uma arma natural (dano 1d6, crítico x2, tipo a sua escolha entre corte, impacto ou perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma. Quando usa este poder, você pode gastar PM adicionais (custo total limitado por sua Sabedoria). Para cada PM adicional, os PV temporários aumentam em +5."
+  }
+}

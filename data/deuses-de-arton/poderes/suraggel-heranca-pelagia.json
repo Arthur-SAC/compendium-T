@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-pelagia",
+  "tipo": "poder",
+  "nome": "Herança de Pelágia",
+  "resumo": "O espírito plácido do Oceano permite gastar 1 PM para escolher 10 em três perícias escolhidas (exceto testes de ataque).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Mesmo nas situações mais desesperadoras, seu espírito se mantém plácido e imperturbável como o próprio Oceano. Escolha três perícias. Com elas, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
+  }
+}

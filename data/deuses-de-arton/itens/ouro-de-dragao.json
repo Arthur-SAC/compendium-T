@@ -1,0 +1,22 @@
+{
+  "id": "ouro-de-dragao",
+  "tipo": "item",
+  "nome": "Ouro de Dragão",
+  "resumo": "Creme doce reservado aos maiores sacerdotes de Kallyadranoch, que concede +1 em testes de ataque por uma cena uma vez por dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "kallyadranoch", "rotulo": "Kallyadranoch" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 6",
+    "espacos": "0",
+    "especial": "Prato especial de Kallyadranoch. Uma vez até o fim do dia, você pode evocar a força de Kallyadranoch para receber +1 em testes de ataque por uma cena."
+  }
+}

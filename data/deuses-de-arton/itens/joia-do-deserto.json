@@ -1,0 +1,22 @@
+{
+  "id": "joia-do-deserto",
+  "tipo": "item",
+  "nome": "Joia do Deserto",
+  "resumo": "Doce à base de tâmaras de Azgher que permite cobrir uma arma corpo a corpo de corte com chamas, causando +1d6 (+2d6 contra mortos-vivos) por até três ataques.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "azgher", "rotulo": "Azgher" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 5",
+    "espacos": "0",
+    "especial": "Prato especial de Azgher. Uma vez até o fim do dia, você pode fazer uma arma corpo a corpo de corte que esteja empunhando se cobrir de chamas. Ela causa +1d6 pontos de dano de fogo (ou +2d6 contra mortos-vivos). As chamas duram até você acertar três ataques ou até o fim da cena (o que acontecer primeiro)."
+  }
+}

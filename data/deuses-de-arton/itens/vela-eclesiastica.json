@@ -1,0 +1,20 @@
+{
+  "id": "vela-eclesiastica",
+  "tipo": "item",
+  "nome": "Vela Eclesiástica",
+  "resumo": "Vela sagrada usada como catalisador em magia divina sustentada, que permite não contá-la no limite de magias sustentadas simultaneamente. Deve ser empunhada por toda a duração.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Usada como catalisador em uma magia divina com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. A vela é consumida lentamente enquanto a magia é sustentada e deve ser empunhada por toda a duração da magia. Você só pode ter uma magia sustentada adicional dessa forma por vez."
+  }
+}

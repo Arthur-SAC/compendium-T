@@ -1,0 +1,15 @@
+{
+  "id": "saque-celestial",
+  "tipo": "poder",
+  "nome": "Saque Celestial",
+  "resumo": "Gasta 1 PM para sacar/guardar arma como ação livre; ao sacar e atacar no mesmo turno, +2 no ataque e dano aumenta dois passos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lin-wu",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 1 PM para sacar ou guardar uma arma como uma ação livre. Se sacar sua arma e fizer um ataque corpo a corpo no mesmo turno, você recebe +2 nesse teste de ataque e seu dano aumenta em dois passos (apenas uma vez contra cada criatura por cena)."
+  }
+}

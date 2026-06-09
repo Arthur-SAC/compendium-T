@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-nivencuen",
+  "tipo": "poder",
+  "nome": "Herança de Nivenciuén",
+  "resumo": "A antiga soberania élfica concede +2 em Misticismo e uma habilidade racial elfa (Graça de Glórienn ou Sangue Mágico).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Mesmo que o Reino de Glórienn tenha sofrido um destino terrível, a antiga soberania élfica ainda permeia seu sangue. Você recebe +2 em Misticismo e uma habilidade racial dos elfos entre Graça de Glórienn e Sangue Mágico."
+  }
+}

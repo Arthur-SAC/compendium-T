@@ -1,0 +1,46 @@
+{
+  "id": "perturbacao-sombria",
+  "tipo": "magia",
+  "nome": "Perturbação Sombria",
+  "resumo": "Emana aura de sombras perturbadoras com 6m de raio que impõe penalidade em Percepção e causa condição Medo nas criaturas na área.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 63 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Ilusão",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Com a proteção de Tenebra, você emana uma aura de sombras com 6m de raio. As sombras se movem de formas estranhas, com rangidos e gemidos sem explicação, vultos fugidios nas janelas e faces macabras urrando para sumir no instante seguinte. As demais criaturas na área sofrem –5 em testes de Percepção. Medo.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o efeito para aura de 9m."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura ou objeto. O alvo emana a aura."
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Você pode escolher quais criaturas são afetadas pela aura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Muda o alcance para curto, o alvo para área (esfera de 6m de raio), a execução para 1 hora, a duração para permanente e adiciona componente material (incenso e óleos no valor de T$ 1.000).",
+        "requisitoCirculo": 5
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Tenebra: adiciona resistência (Vontade parcial). Além do normal, criaturas que comecem seu turno dentro da área ficam abaladas. Passar no teste de resistência evita a condição e impede que a criatura seja abalada por esta magia até o fim da cena.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

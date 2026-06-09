@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-magika",
+  "tipo": "poder",
+  "nome": "Herança de Magika",
+  "resumo": "Você aprende e pode lançar uma magia arcana de 1º círculo; se a aprender novamente, seu custo cai em –1 PM.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência ou Carisma, a sua escolha). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

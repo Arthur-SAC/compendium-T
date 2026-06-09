@@ -1,0 +1,15 @@
+{
+  "id": "proeminencia-solar",
+  "tipo": "poder",
+  "nome": "Proeminência Solar",
+  "resumo": "Magias de dano de fogo com resistência recebem aprimoramento: +1 PM para deixar criaturas em chamas e lentas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "azgher",
+    "prerequisito": "",
+    "descricao": "Suas magias que causam dano de fogo e que têm um teste de resistência recebem o seguinte aprimoramento: +1 PM: criaturas que falhem na resistência ficam em chamas e lentas até apagarem as chamas."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "afiador-solar",
+  "tipo": "item",
+  "nome": "Afiador Solar",
+  "resumo": "Pequena pedra de amolar que canaliza luz, permitindo mudar o tipo de dano adicional de magias que aprimoram armas para dano de luz.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Quando lança uma magia que tenha como alvo uma arma e que forneça dados adicionais de dano a ela, você pode mudar o tipo desse dano adicional para luz."
+  }
+}

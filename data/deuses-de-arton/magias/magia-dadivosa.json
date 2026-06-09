@@ -1,0 +1,27 @@
+{
+  "id": "magia-dadivosa",
+  "tipo": "magia",
+  "nome": "Magia Dadivosa",
+  "resumo": "A cada turno, role 1d4; em resultado 4 você recebe 1 PM temporário para usar em aprimoramentos de magias, até acumular 4 PM temporários.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 62 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "movimento",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena, até ser descarregada",
+    "custoPM": 1,
+    "descricao": "Não é comum descrever uma divindade maior do Panteão como 'maluquinha'. Contudo, há ocasiões em que Wynna faz por merecer — como quando oferece estas dádivas caóticas. No início de seu turno, role 1d4. Em um resultado 4, você recebe 1 PM temporário que só pode ser gasto em aprimoramentos de magias. A magia é descarregada quando você recebe um total de 4 PM temporários. Você só pode lançar esta magia uma vez por cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "efeito": "Apenas Devotos de Wynna: muda a execução para padrão, o ganho para +2 PM temporários e o limite para descarregar para +8 PM."
+      }
+    ]
+  }
+}

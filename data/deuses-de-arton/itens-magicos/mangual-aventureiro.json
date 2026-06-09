@@ -1,0 +1,22 @@
+{
+  "id": "mangual-aventureiro",
+  "tipo": "item-magico",
+  "nome": "Mangual Aventureiro",
+  "resumo": "Mangual certeiro e cruel de aço de Valkaria que, para devotos, torna-se dançarino formidável e aumenta o dano em dois passos ao lutar em um lugar onde nunca esteve.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 59 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "valkaria", "rotulo": "Valkaria" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 40.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este mangual certeiro e cruel tem o cabo e a cabeça feitos de aço, interligados por uma corrente folheada a ouro. Se você for um devoto de Valkaria, ele se torna um mangual dançarino formidável. Se você estiver lutando em um lugar no qual nunca esteve antes, o dano do mangual aventureiro aumenta em dois passos. Arma específica média, preço T$ 40.000."
+    }
+  ]
+}

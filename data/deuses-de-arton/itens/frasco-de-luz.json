@@ -1,0 +1,20 @@
+{
+  "id": "frasco-de-luz",
+  "tipo": "item",
+  "nome": "Frasco de Luz",
+  "resumo": "Pequeno frasco cristalino com uma gota de líquido luminoso que concede +2 na CD de magias de luz.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Fornece +2 na CD de magias de luz."
+  }
+}

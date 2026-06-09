@@ -1,0 +1,22 @@
+{
+  "id": "alabarda-da-coragem",
+  "tipo": "item-magico",
+  "nome": "Alabarda da Coragem",
+  "resumo": "Alabarda certeira precisa de Lin-Wu com fitas decorativas, que torna-se formidável para devotos, concede +5 em Iniciativa e 2 PM temporários por nível ao agir primeiro no combate.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 57 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "lin-wu", "rotulo": "Lin-Wu" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 36.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta alabarda certeira precisa possui fitas decorativas que dançam como a cauda de um dragão quando ela é usada em batalha. Se você for um devoto de Lin-Wu, ela se torna uma alabarda certeira precisa formidável que fornece +5 em Iniciativa. Sempre que você for o primeiro a agir em um combate, recebe 2 PM temporários por nível, que duram até o fim da cena. Arma específica média, preço T$ 36.000."
+    }
+  ]
+}

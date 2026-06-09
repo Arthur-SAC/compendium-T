@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-vitalia",
+  "tipo": "poder",
+  "nome": "Herança de Vitalia",
+  "resumo": "A força da vida concede +5 PV por patamar e melhora a recuperação de pontos de vida com descanso em uma categoria.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "A força da vida corre intensa em seu sangue. Você recebe +5 PV por patamar e sua recuperação de pontos de vida com descanso aumenta em uma categoria."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trilha-desimpedida",
+  "tipo": "poder",
+  "nome": "Trilha Desimpedida",
+  "resumo": "Aprende e pode lançar Caminhos da Natureza; custo diminui se aprender novamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 47 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "allihanna",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar a magia Caminhos da Natureza. Se aprender essa magia, o custo dela diminui em –1 PM."
+  }
+}

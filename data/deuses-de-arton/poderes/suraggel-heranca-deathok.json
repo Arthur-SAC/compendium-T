@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-deathok",
+  "tipo": "poder",
+  "nome": "Herança de Deathok",
+  "resumo": "A mudança constante permite trocar duas perícias bônus (+2 cada) a cada manhã.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "A mudança constante faz parte de sua alma. Você recebe +2 em duas perícias a sua escolha. A cada manhã, você pode trocar essas perícias."
+  }
+}

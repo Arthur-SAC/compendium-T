@@ -1,0 +1,19 @@
+{
+  "id": "ostensorio-santificado",
+  "tipo": "item",
+  "nome": "Ostensório Santificado",
+  "resumo": "Obra de arte dedicada ao deus, muitas vezes contendo uma relíquia, que reduz em 1 PM o custo de uma magia escolhida quando lançada em devotos do mesmo deus.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 51
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 750",
+    "espacos": "1",
+    "especial": "Escolha uma magia que você possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções), mas somente se for lançada em devotos do seu deus."
+  }
+}

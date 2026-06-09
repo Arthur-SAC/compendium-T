@@ -1,0 +1,15 @@
+{
+  "id": "magia-caotica",
+  "tipo": "poder",
+  "nome": "Magia Caótica",
+  "resumo": "Ao lançar uma magia, pode gastar +2 PM para calcular a CD com 1d20 + modificadores em vez de 10 + modificadores.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "nimb",
+    "prerequisito": "",
+    "descricao": "Quando lança uma magia, você pode gastar +2 PM. Se fizer isso, a CD para resistir a essa magia é calculada com 1d20 + seus modificadores, em vez de 10 + seus modificadores."
+  }
+}

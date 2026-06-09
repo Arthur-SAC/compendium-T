@@ -1,0 +1,22 @@
+{
+  "id": "justos-de-khalmyr",
+  "tipo": "item",
+  "nome": "Justos de Khalmyr",
+  "resumo": "Biscoitinho criado para chegar a todos, assim como a justiça. Permite escolher 10 em um teste de perícia uma vez por dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "khalmyr", "rotulo": "Khalmyr" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 2",
+    "espacos": "0",
+    "especial": "Prato especial de Khalmyr. Até o fim do dia, quando fizer um teste de perícia, você pode gastar o efeito deste prato para escolher 10 nesse teste (em vez de usar o valor rolado no d20)."
+  }
+}

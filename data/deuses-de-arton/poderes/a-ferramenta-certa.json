@@ -1,0 +1,15 @@
+{
+  "id": "a-ferramenta-certa",
+  "tipo": "poder",
+  "nome": "A Ferramenta Certa",
+  "resumo": "Gasta 1 PM para fazer aparecer uma ferramenta ou equipamento de aventura de até T$ 400 até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hyninn",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 1 PM para fazer uma ferramenta ou um equipamento de aventura de até T$ 400 aparecer na sua mão ou em um espaço adjacente. O item dura até o fim da cena, ou até deixar sua posse."
+  }
+}

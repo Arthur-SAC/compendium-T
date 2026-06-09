@@ -1,0 +1,18 @@
+{
+  "id": "melhoria-canonico",
+  "tipo": "item",
+  "nome": "Melhoria: Canônico",
+  "resumo": "Melhoria de item com inscrições sagradas de uma divindade específica, que aumenta em +1 a CD das habilidades mágicas do devoto dessa divindade.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Itens Superiores",
+    "tipoItem": "Melhoria",
+    "especial": "O item possui inscrições sagradas referentes a uma divindade específica. Se você for devoto dessa divindade, a CD de suas habilidades mágicas aumenta em +1. Aplicável a armas, armaduras, escudos, ferramentas e vestuários."
+  }
+}

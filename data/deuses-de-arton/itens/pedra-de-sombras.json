@@ -1,0 +1,20 @@
+{
+  "id": "pedra-de-sombras",
+  "tipo": "item",
+  "nome": "Pedra de Sombras",
+  "resumo": "Fragmento de escuridão sólida que reduz em –1 PM o custo de magias de trevas.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Catalisador",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Reduz em –1 PM o custo de magias de trevas."
+  }
+}

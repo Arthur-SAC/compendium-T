@@ -1,0 +1,18 @@
+{
+  "id": "melhoria-inscrito",
+  "tipo": "item",
+  "nome": "Melhoria: Inscrito",
+  "resumo": "Melhoria de item com inscrições religiosas de uma divindade específica, que faz o item contar como símbolo sagrado desse deus, incluindo o bônus de +1 em testes de resistência.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Itens Superiores",
+    "tipoItem": "Melhoria",
+    "especial": "O item possui inscrições religiosas de uma divindade específica e conta como um símbolo sagrado desse deus (inclusive fornecendo o bônus de +1 em testes de resistência). Aplicável a armas, armaduras, escudos, ferramentas e vestuários."
+  }
+}

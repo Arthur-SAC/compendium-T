@@ -1,0 +1,19 @@
+{
+  "id": "contas-de-oracao",
+  "tipo": "item",
+  "nome": "Contas de Oração",
+  "resumo": "Cordão com esferas, miçangas ou conchas que ajuda o devoto a contar orações e concentrar-se em suas preces, aumentando o limite de PM para magias divinas.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 50
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 500",
+    "espacos": "1",
+    "especial": "Aumenta seu limite de PM para magias divinas em +1."
+  }
+}

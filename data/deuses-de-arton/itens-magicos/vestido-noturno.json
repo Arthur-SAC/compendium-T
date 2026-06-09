@@ -1,0 +1,22 @@
+{
+  "id": "vestido-noturno",
+  "tipo": "item-magico",
+  "nome": "Vestido Noturno",
+  "resumo": "Vestido negro com diamantes de Tenebra que conta como veste de seda aprimorada cravejada, concedendo +2 em Enganação e Reflexos. Devotos podem gastar 5 PM para ficar invisíveis até o fim da cena.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "tenebra", "rotulo": "Tenebra" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 21.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este vestido negro possui pequenos diamantes costurados em seu tecido, que cintilam como as estrelas do céu noturno. Conta como uma veste de seda aprimorada cravejada de gemas, fornecendo +2 em Enganação e Reflexos. Se você for um devoto de Tenebra e vestir este item, pode gastar uma ação padrão e 5 PM para ficar invisível até o fim da cena (recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques). Esse efeito termina se você fizer uma ação hostil direta contra uma criatura (para mais detalhes, veja a magia Invisibilidade). Acessório médio, preço T$ 21.000."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "frasco-purificador",
+  "tipo": "item",
+  "nome": "Frasco Purificador",
+  "resumo": "Vasilhame com 10 doses de água e especiarias santificadas, que cura PV adicionais às criaturas alvo de magias divinas. Só pode ser usado por devotos de deuses de energia positiva.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 51
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 100",
+    "espacos": "1",
+    "especial": "Contém 10 doses. Quando lança uma magia que tenha uma criatura como alvo, você pode gastar uma quantidade dessas doses (limitada por sua Sabedoria); para cada dose gasta, o alvo da magia também recupera 1d4 PV. Recarregar um frasco purificador é uma ação completa e consome 2 doses de água benta. Só pode ser usado por devotos de divindades que canalizam energia positiva."
+  }
+}

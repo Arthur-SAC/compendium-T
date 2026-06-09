@@ -1,0 +1,37 @@
+{
+  "id": "sigilo-de-sszzaas",
+  "tipo": "magia",
+  "nome": "Sigilo de Sszzaas",
+  "resumo": "Penaliza todos os testes de perícia feitos para obter informações sobre você, incluindo Percepção, Conhecimento, Investigação e Intuição.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 64 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "1 dia",
+    "custoPM": 1,
+    "descricao": "Ofertada pelo Deus dos Segredos, esta magia é utilizada por todos que buscam preservar a própria privacidade. Pela duração da magia, quaisquer criaturas que fizerem testes de perícia para obter alguma informação a seu respeito sofrem –5 nesses testes. Isso inclui testes de Percepção para notá-lo, Conhecimento e Investigação para descobrir algo sobre você, Intuição para discernir suas mentiras e disfarces, e assim por diante.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque e o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Adiciona resistência (Vontade evita). Além do normal, criaturas que usem habilidades mágicas de detecção, como a magia Vidência, devem fazer um teste de Vontade. Se falharem, a habilidade não funciona e, pela duração da magia, novas tentativas de usar a mesma habilidade feitas pela mesma criatura falham automaticamente.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Apenas Devotos de Sszzaas: muda a penalidade para –10."
+      }
+    ]
+  }
+}

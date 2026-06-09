@@ -1,0 +1,19 @@
+{
+  "id": "estola",
+  "tipo": "item",
+  "nome": "Estola",
+  "resumo": "Faixa larga e comprida com símbolos de uma magia divina específica, que aumenta a CD para resistir à magia representada em +2. Pode ser vestida.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 51
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Esotéricos",
+    "preco": "T$ 150",
+    "espacos": "1",
+    "especial": "Cada estola é adornada com símbolos que remetem a uma magia divina específica. A CD para resistir à magia divina representada na estola aumenta em +2. Ao contrário de outros itens esotéricos, uma estola pode ser vestida em vez de empunhada."
+  }
+}

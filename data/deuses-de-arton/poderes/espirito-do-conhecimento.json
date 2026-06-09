@@ -1,0 +1,15 @@
+{
+  "id": "espirito-do-conhecimento",
+  "tipo": "poder",
+  "nome": "Espírito do Conhecimento",
+  "resumo": "Gasta ação padrão e 2 PM para invocar um espírito minúsculo que permite perceber tudo ao seu redor e lançar magias à distância.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tanna-toh",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 2 PM para invocar uma manifestação do saber em um espaço desocupado em alcance curto. Ela é um espírito Minúsculo que tem deslocamento de voo 6m, Força nula, Defesa 15, 1 PV, visão no escuro e falha em qualquer teste oposto. No início de seus turnos, ela pode usar a ação movimentar-se uma vez. Você pode perceber tudo que a manifestação for capaz de perceber e pode lançar magias a partir dela (exceto magias de alcance pessoal com alvo você). A manifestação desaparece quando morre ou no fim da cena."
+  }
+}

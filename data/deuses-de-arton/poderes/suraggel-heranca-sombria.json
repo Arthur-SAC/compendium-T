@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-sombria",
+  "tipo": "poder",
+  "nome": "Herança de Sombria",
+  "resumo": "O poder de Tenebra concede +1 em todos os testes de perícia durante a noite (+2 em locais sem iluminação artificial).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Pelo poder de Tenebra, durante a noite você recebe +1 em todos os testes de perícia. Se estiver num local sem nenhuma iluminação artificial (como tochas ou magia), esse bônus aumenta para +2."
+  }
+}

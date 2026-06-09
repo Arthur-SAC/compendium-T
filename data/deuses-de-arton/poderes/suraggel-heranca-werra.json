@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-werra",
+  "tipo": "poder",
+  "nome": "Herança de Werra",
+  "resumo": "Conhecimento intuitivo com armas: +1 em testes de ataque com armas e proficiência com armas marciais ou duas armas exóticas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Você possui um conhecimento intuitivo para armas. Você recebe +1 em testes de ataque com armas e proficiência com armas marciais ou com duas armas exóticas."
+  }
+}

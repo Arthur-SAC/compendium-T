@@ -1,0 +1,19 @@
+{
+  "id": "habito-sacerdotal",
+  "tipo": "item",
+  "nome": "Hábito Sacerdotal",
+  "resumo": "Batina sacerdotal confortável cuja aparência varia por religião, que concede +2 em perícias de Carisma com devotos da mesma divindade.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 30",
+    "espacos": "1",
+    "especial": "Concede +2 em testes de perícias baseadas em Carisma com devotos da mesma divindade."
+  }
+}

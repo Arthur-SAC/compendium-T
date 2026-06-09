@@ -1,0 +1,18 @@
+{
+  "id": "melhoria-diligente",
+  "tipo": "item",
+  "nome": "Melhoria: Diligente",
+  "resumo": "Melhoria de armadura, escudo, ferramenta ou vestuário com símbolos de aspectos divinos de combate, que reduz em –1 PM o custo do poder Prece de Combate.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Itens Superiores",
+    "tipoItem": "Melhoria",
+    "especial": "O item é decorado com símbolos que evocam aspectos divinos de combate ou proteção. Reduz o custo do poder Prece de Combate em –1 PM. Aplicável a armaduras, escudos, ferramentas e vestuários."
+  }
+}

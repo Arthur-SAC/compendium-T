@@ -1,0 +1,19 @@
+{
+  "id": "texto-sagrado",
+  "tipo": "item",
+  "nome": "Texto Sagrado",
+  "resumo": "Escritura, parábola ou relato histórico de uma religião artoniana, que permite remover condições psíquicas gastando PM.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 60",
+    "espacos": "1",
+    "especial": "Específico de um deus e só funciona com seus devotos. Se estiver abalado, alquebrado, apavorado, esmorecido ou frustrado, você pode gastar uma ação completa e 1 PM para remover uma dessas condições."
+  }
+}

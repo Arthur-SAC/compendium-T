@@ -1,0 +1,15 @@
+{
+  "id": "o-sol-que-nos-aquece",
+  "tipo": "poder",
+  "nome": "O Sol que nos Aquece",
+  "resumo": "Gasta ação padrão e 2 PM para projetar aura de luz solar de 6m que favorece magias de fogo/luz e prejudica mortos-vivos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "allihanna",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 2 PM para projetar uma aura de luz solar em um raio de 6m. Nessa área, habilidades mágicas de fogo ou luz e relacionadas a plantas (como Controlar Plantas) custam –1 PM (cumulativo com outras reduções) e criaturas com sensibilidade a luz e mortos-vivos ficam vulneráveis. (Concedido também por Azgher.)"
+  }
+}

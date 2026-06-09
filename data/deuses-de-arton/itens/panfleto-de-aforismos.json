@@ -1,0 +1,19 @@
+{
+  "id": "panfleto-de-aforismos",
+  "tipo": "item",
+  "nome": "Panfleto de Aforismos",
+  "resumo": "Tomo de fácil leitura com citações motivadoras e conselhos simples de uma religião específica, que permite remover condições de cansaço gastando PM.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 48
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Equipamento de Aventura",
+    "preco": "T$ 60",
+    "espacos": "1",
+    "especial": "Específico de um deus e só funciona com seus devotos. Se estiver debilitado, enjoado, exausto, fatigado, fraco ou vulnerável, você pode gastar uma ação completa e 1 PM para remover uma dessas condições."
+  }
+}

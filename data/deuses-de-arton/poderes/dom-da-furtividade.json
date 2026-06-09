@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-furtividade",
+  "tipo": "poder",
+  "nome": "Dom da Furtividade",
+  "resumo": "Soma Sabedoria em Furtividade e lançar magias reduz penalidade de esconder para –10.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hyninn",
+    "prerequisito": "",
+    "descricao": "Você soma sua Sabedoria em Furtividade e, para você, lançar magias é um ato pouco chamativo, o que reduz a penalidade para se esconder após conjurar para –10 (mas você ainda precisa de gestos e palavras)."
+  }
+}

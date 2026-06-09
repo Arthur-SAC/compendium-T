@@ -1,0 +1,22 @@
+{
+  "id": "varinha-da-generosidade",
+  "tipo": "item-magico",
+  "nome": "Varinha da Generosidade",
+  "resumo": "Varinha arcana poderosa de madeira Tollon de Wynna com runas púrpura que concede redução de dano 5 e transfere 1 PM temporário por círculo da magia lançada a um aliado em alcance curto.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 59 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "wynna", "rotulo": "Wynna" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 30.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta varinha arcana poderosa de madeira Tollon tem várias runas que emanam um brilho púrpura quando encontram a luz da lua. Se você for um devoto de Wynna, a varinha gera um campo de força que fornece redução de dano 5. Além disso, sempre que você lança uma magia, a mana usada na conjuração flui através da varinha para um aliado em alcance curto a sua escolha. Esse aliado recebe 1 PM temporário por círculo da magia lançada (limitado pelo total de PM gastos na magia). Cada aliado só pode receber mana de uma varinha da generosidade uma vez por dia. Acessório médio, preço T$ 30.000."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "palavra-de-poder",
+  "tipo": "poder",
+  "nome": "Palavra de Poder",
+  "resumo": "Aprende e pode lançar Comando; custo diminui se aprender novamente.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tanna-toh",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar Comando. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

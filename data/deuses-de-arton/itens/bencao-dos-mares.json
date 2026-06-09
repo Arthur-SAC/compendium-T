@@ -1,0 +1,22 @@
+{
+  "id": "bencao-dos-mares",
+  "tipo": "item",
+  "nome": "Bênção dos Mares",
+  "resumo": "Festival de ostras legendário entre as gentes do mar, que concede deslocamento de natação igual ao deslocamento por uma cena ou o aumenta em +3m.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 53
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "oceano", "rotulo": "Oceano" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 4",
+    "espacos": "0",
+    "especial": "Prato especial de Oceano. Até o fim do dia, você pode invocar o poder do Deus dos Mares para adquirir deslocamento de natação, igual ao seu deslocamento, por uma cena (se já possuir esse deslocamento, em vez disso ele aumenta em +3m)."
+  }
+}

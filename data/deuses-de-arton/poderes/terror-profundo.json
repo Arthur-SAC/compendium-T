@@ -1,0 +1,15 @@
+{
+  "id": "terror-profundo",
+  "tipo": "poder",
+  "nome": "Terror Profundo",
+  "resumo": "+2 em Intimidação e na CD dos efeitos de medo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "kallyadranoch",
+    "prerequisito": "",
+    "descricao": "Você recebe +2 em Intimidação e na CD de seus efeitos de medo. (Concedido também por Megalokk e Thwor.)"
+  }
+}

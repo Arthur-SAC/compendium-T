@@ -1,0 +1,37 @@
+{
+  "id": "toque-de-megalokk",
+  "tipo": "magia",
+  "nome": "Toque de Megalokk",
+  "resumo": "Transforma você em uma criatura do tipo monstro, concedendo arma natural e bônus em Intimidação ao custo de penalidade nas demais perícias de Carisma.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 64 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Transmutação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "cena",
+    "custoPM": 1,
+    "descricao": "Criaturas de Allihanna seguem leis naturais. Monstros existem para violar essas leis. Após deformações horrendas, você se transforma em uma criatura do tipo monstro. Nessa forma, você recebe +5 em Intimidação, mas sofre –5 nas demais perícias baseadas em Carisma. Além disso, recebe uma arma natural de um tipo a sua escolha entre chifre, ferrão e mordida (dano 1d6, crít. x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma natural.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "A margem de ameaça de suas armas naturais aumenta em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "O dano de suas armas naturais aumenta em um passo.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Apenas Devotos de Megalokk: além do normal, você recebe redução de dano 5.",
+        "requisitoCirculo": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "redirecionar-destino",
+  "tipo": "poder",
+  "nome": "Redirecionar Destino",
+  "resumo": "No início do dia rola d20 e anota; uma vez por rodada gasta 3 PM para substituir o d20 de uma criatura em alcance curto pelo valor anotado.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "thyatis",
+    "prerequisito": "",
+    "descricao": "No início de cada dia, role um d20 e anote seu valor. Uma vez por rodada, quando uma criatura em alcance curto faz um teste, você pode gastar 3 PM para substituir o resultado do d20 desse teste pelo último valor anotado para este poder. O resultado do d20 substituído se torna seu novo valor anotado."
+  }
+}

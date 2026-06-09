@@ -1,0 +1,19 @@
+{
+  "id": "carcaca-do-predador-primal",
+  "tipo": "item",
+  "nome": "Carcaça do Predador Primal",
+  "resumo": "Capa ou manto feito da carcaça de um animal ou monstro, que aumenta o bônus de Defesa concedido ao adquirir forma selvagem.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 150",
+    "espacos": "1",
+    "especial": "Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), o bônus na Defesa concedido pela forma aumenta em +1."
+  }
+}

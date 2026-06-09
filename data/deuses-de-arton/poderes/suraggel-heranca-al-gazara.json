@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-al-gazara",
+  "tipo": "poder",
+  "nome": "Herança de Al-Gazara",
+  "resumo": "O puro caos primordial de Nimb no sangue concede +1 em um atributo aleatório.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Devido à presença do puro caos primordial de Nimb em seu sangue, você recebe +1 em um atributo aleatório."
+  }
+}

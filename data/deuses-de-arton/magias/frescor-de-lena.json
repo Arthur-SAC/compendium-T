@@ -1,0 +1,42 @@
+{
+  "id": "frescor-de-lena",
+  "tipo": "magia",
+  "nome": "Frescor de Lena",
+  "resumo": "Emana aura refrescante que elimina fumaça, poeira, gases nocivos e venenos de inalação ao redor de você e seus aliados.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 61 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "area": "raio de 9m",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Você emana uma aura refrescante, que envolve você e aliados na área. A aura purifica o ar ao redor, eliminando todo tipo de fumaça, poeira, gás nocivo, nuvem ácida ou veneno de inalação, exceto se forem gerados por magias de 2º círculo ou maior.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta em 1 o círculo de magia afetado (limitado pelo círculo máximo de magia que você pode lançar)."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para toque, a área para alvo (1 criatura) e a duração para 1 dia. Em vez do normal, suprime uma doença do alvo.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Apenas Devotos de Lena: como o aprimoramento acima, mas quando faz o teste da doença nesse dia, o alvo recebe um bônus de +5.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+9 PM",
+        "efeito": "Apenas Devotos de Lena: muda o alcance para toque, a área para alvo (1 criatura) e adiciona componente material (ervas no valor de T$ 1.000). O alvo recupera 1 ponto de atributo perdido por uma doença.",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

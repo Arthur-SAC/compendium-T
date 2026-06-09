@@ -1,0 +1,15 @@
+{
+  "id": "suraggel-heranca-odisseia",
+  "tipo": "poder",
+  "nome": "Herança de Odisseia",
+  "resumo": "A alma tocada por Valkaria concede +2 em Iniciativa e Percepção, e +2 espaços de capacidade de carga.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "raca",
+    "prerequisito": "Suraggel (substitui Luz Sagrada ou Sombra Profana)",
+    "descricao": "Sua alma tocada por Valkaria está sempre preparada para problemas! Você recebe +2 em Iniciativa e Percepção, e sua capacidade de carga aumenta em 2 espaços."
+  }
+}

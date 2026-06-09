@@ -1,0 +1,15 @@
+{
+  "id": "biblioteca-divina",
+  "tipo": "poder",
+  "nome": "Biblioteca Divina",
+  "resumo": "Recebe uma perícia treinada e mais uma a cada patamar acima de iniciante.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tanna-toh",
+    "prerequisito": "",
+    "descricao": "Você recebe uma perícia treinada. A cada patamar de jogo (Tormenta20, p. 35) acima de iniciante, recebe mais uma perícia treinada."
+  }
+}

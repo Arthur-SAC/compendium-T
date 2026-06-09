@@ -1,0 +1,22 @@
+{
+  "id": "abraco-da-noite",
+  "tipo": "item",
+  "nome": "Abraço da Noite",
+  "resumo": "Doce gelado e aveludado criado por clérigos anões para homenagear Tenebra, que permite usar o poder Carícia Sombria uma vez (ou aprimorado se já possuir). Mortos-vivos também podem se beneficiar.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "tenebra", "rotulo": "Tenebra" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 3",
+    "espacos": "0",
+    "especial": "Prato especial de Tenebra. Até o fim do dia, você pode usar o poder Carícia Sombria uma vez. Se já o possui, pode usá-lo uma vez causando 4d6 pontos de dano de trevas (em vez de 2d6). Pela graça da Mãe Noite, mortos-vivos podem receber o benefício deste prato especial."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sorriso-da-fortuna",
+  "tipo": "magia",
+  "nome": "Sorriso da Fortuna",
+  "resumo": "Permite rolar dois dados e usar o melhor resultado em testes de Jogatina, com três usos antes de ser descarregada.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 64 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "1 dia, até ser descarregada",
+    "custoPM": 1,
+    "descricao": "Variantes desta magia, com diferentes nomes, são concedidas por Nimb, Hyninn, Sszzaas, Valkaria e até Thyatis. O objetivo, contudo, é sempre o mesmo: trapacear em jogos. Sorriso da Fortuna permite manipular os resultados de um jogo de azar. Quando fizer um teste de Jogatina (ou relacionado a algum jogo, a critério do mestre) você pode rolar dois dados e usar o melhor resultado. A magia é descarregada após você usar esse efeito três vezes. Esta magia afeta apenas jogos e itens mundanos, não mágicos. Além disso, embora funcione bem em pequenas tavernas, grandes cassinos empregam vigilantes atentos ao uso desta magia e suas variações.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Aumenta em +1 o total de usos antes de a magia ser descarregada."
+      },
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda a execução para reação, o alcance para curto e o alvo para 1 criatura. Além disso, você lança a magia usando apenas concentração (Tormenta20, p. 170). Em vez do normal, a magia confunde um dos jogadores presentes, que rola seu teste de Jogatina com dois dados e usa o pior resultado."
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Além do normal, você pode escolher um 'número da sorte'. Se o número da sorte for rolado em qualquer um dos dados, o resultado conta como um 20 natural.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Hyninn: muda a execução para reação e a duração para instantânea. Em vez do normal, quando faz seu primeiro teste de uma perícia em uma cena, você pode rolar dois dados e usar o melhor resultado."
+      }
+    ]
+  }
+}

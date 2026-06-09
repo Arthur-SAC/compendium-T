@@ -1,0 +1,42 @@
+{
+  "id": "escapatoria-de-hyninn",
+  "tipo": "magia",
+  "nome": "Escapatória de Hyninn",
+  "resumo": "Concede agilidade espantosa para esquivar de perigos súbitos, dando bônus em Ladinagem para desarmar armadilhas ou em Reflexos.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 61 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Abjuração",
+    "execucao": "reação",
+    "alcance": "pessoal",
+    "alvo": "você",
+    "duracao": "instantânea",
+    "custoPM": 1,
+    "descricao": "Por um breve instante, você adquire uma agilidade espantosa para se esquivar de algum perigo súbito. Você recebe +5 em um teste de Ladinagem para desarmar armadilhas ou de Reflexos.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "efeito": "Muda o alcance para curto e o alvo para 1 criatura.",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+5 PM",
+        "efeito": "Muda a execução para padrão e a duração para cena. Em vez do normal, o bônus se aplica a todos os testes destas perícias pela duração.",
+        "requisitoCirculo": 3
+      },
+      {
+        "custo": "+3 PM",
+        "efeito": "Apenas Devotos de Hyninn: além do normal, o alvo pode usar Evasão (Tormenta20, p. 73)."
+      },
+      {
+        "custo": "+7 PM",
+        "efeito": "Apenas Devotos de Hyninn: além do normal, o alvo pode usar Evasão Aprimorada (Tormenta20, p. 75).",
+        "requisitoCirculo": 4
+      }
+    ]
+  }
+}

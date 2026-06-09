@@ -1,0 +1,22 @@
+{
+  "id": "renascer-gentil",
+  "tipo": "item",
+  "nome": "Renascer Gentil",
+  "resumo": "Pastilha refrescante e ardida de Thyatis distribuída a pessoas em dificuldade, que evita que os PV sejam reduzidos abaixo de 1 uma vez por dia.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "thyatis", "rotulo": "Thyatis" }
+  ],
+  "mecanica": {
+    "categoria": "Alimentação",
+    "tipoItem": "Prato Especial",
+    "preco": "T$ 30",
+    "espacos": "0",
+    "especial": "Prato especial de Thyatis. A primeira vez até o fim do dia em que seus PV forem reduzidos a 0 ou menos por dano, em vez disso eles são reduzidos a 1."
+  }
+}

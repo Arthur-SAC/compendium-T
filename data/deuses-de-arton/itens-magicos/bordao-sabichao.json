@@ -1,0 +1,22 @@
+{
+  "id": "bordao-sabichao",
+  "tipo": "item-magico",
+  "nome": "Bordão Sabichão",
+  "resumo": "Bordão maciço de metal cravejado de gemas de Tanna-Toh que, para devotos, torna-se formidável piedoso e permite gastar 2 PM para somar Sabedoria a qualquer teste de perícia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 58 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "tanna-toh", "rotulo": "Tanna-Toh" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Maior",
+    "preco": "T$ 72.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Este bordão maciço é feito de metal e cravejado de gemas, todas da mesma cor (cada cajado individual tem sua cor). Se você for um devoto de Tanna-Toh, ele se torna um bordão maciço formidável piedoso. Além disso, sempre que você faz um teste de perícia, pode gastar 2 PM. Nesse caso, o item sussurra um conselho ou lembrete, permitindo que você some sua Sabedoria ao teste. Arma específica maior, preço T$ 72.000."
+    }
+  ]
+}

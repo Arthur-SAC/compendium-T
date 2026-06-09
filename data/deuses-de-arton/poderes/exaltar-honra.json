@@ -1,0 +1,15 @@
+{
+  "id": "exaltar-honra",
+  "tipo": "poder",
+  "nome": "Exaltar Honra",
+  "resumo": "Gasta 2 PM para criar aura de honradez de 9m: bônus em Diplomacia e Nobreza para devotos, penalidade em perícias desonradas.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lin-wu",
+    "prerequisito": "Abençoado ou Devoto Fiel",
+    "descricao": "Você pode gastar 2 PM para gerar uma aura de honradez de 9m de raio que dura até o fim da cena. Dentro dessa área, devotos de Lin-Wu e personagens que sigam algum código de conduta (como Código de Honra ou Código do Herói) recebem +5 em Diplomacia e Nobreza, e todas as criaturas na área sofrem –5 em perícias desonradas (Enganação, Furtividade e Ladinagem). Apenas personagens com a habilidade Abençoado ou Devoto Fiel podem escolher este poder."
+  }
+}

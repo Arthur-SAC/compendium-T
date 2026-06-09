@@ -1,0 +1,15 @@
+{
+  "id": "dom-da-vontade",
+  "tipo": "poder",
+  "nome": "Dom da Vontade",
+  "resumo": "+2 em Vontade e uma vez por cena, ao passar em teste de Vontade contra efeito inimigo, recebe 1d4 PM temporários.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "khalmyr",
+    "prerequisito": "",
+    "descricao": "Você recebe +2 em Vontade e, uma vez por cena, quando passa em um teste de Vontade contra um efeito de um inimigo ou de um perigo apresentado pelo mestre, recebe 1d4 PM temporários."
+  }
+}

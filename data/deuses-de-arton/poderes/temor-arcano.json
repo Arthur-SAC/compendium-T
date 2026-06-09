@@ -1,0 +1,15 @@
+{
+  "id": "temor-arcano",
+  "tipo": "poder",
+  "nome": "Temor Arcano",
+  "resumo": "Inimigo em alcance médio com medo que falha em resistência a magia concede 1 PM temporário cumulativo (máximo = nível).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "kallyadranoch",
+    "prerequisito": "",
+    "descricao": "Quando um inimigo em alcance médio sob efeito de uma condição de medo falha em um teste de resistência contra uma de suas magias, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível, e eles desaparecem no fim da cena."
+  }
+}

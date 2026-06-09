@@ -1,0 +1,22 @@
+{
+  "id": "pira-postera",
+  "tipo": "item-magico",
+  "nome": "Pira Póstera",
+  "resumo": "Pequena bacia de cerâmica negra de Thyatis que concede +1 em Sabedoria e permite ter visões de perigos futuros, além de rolar novamente um teste de Iniciativa, Percepção ou resistência por dia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 59 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "thyatis", "rotulo": "Thyatis" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 15.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta pequena bacia de cerâmica negra possui linhas rajadas vermelhas. Se você for um devoto de Thyatis e estiver em posse da pira póstera, recebe +1 em Sabedoria (apenas após 1 dia de posse). Além disso, uma vez por dia pode enchê-la de água e olhar dentro dela para ter visões de possíveis perigos futuros. Uma vez até o fim do dia, quando faz um teste de Iniciativa, Percepção ou de resistência, você pode rolar novamente esse teste. Acessório médio, preço T$ 15.000."
+    }
+  ]
+}

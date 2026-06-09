@@ -1,0 +1,15 @@
+{
+  "id": "jurista-divino",
+  "tipo": "poder",
+  "nome": "Jurista Divino",
+  "resumo": "Pode usar Sabedoria para Nobreza e usar essa perícia no lugar de Diplomacia e Intimidação.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lin-wu",
+    "prerequisito": "",
+    "descricao": "Você pode usar Sabedoria para Nobreza (em vez de Inteligência) e pode usar essa perícia no lugar de Diplomacia e Intimidação. (Concedido também por Khalmyr.)"
+  }
+}

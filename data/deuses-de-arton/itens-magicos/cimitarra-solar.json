@@ -1,0 +1,22 @@
+{
+  "id": "cimitarra-solar",
+  "tipo": "item-magico",
+  "nome": "Cimitarra Solar",
+  "resumo": "Cimitarra pungente de Azgher que, nas mãos de seu devoto, torna-se flamejante formidável e aumenta o dano da bola de fogo para 12d6 sob a luz do sol.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 56 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "azgher", "rotulo": "Azgher" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 54.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "Esta cimitarra pungente tem cabo de marfim e lâmina de aço reluzente. Quando reflete a luz do sol, o aço tem um brilho dourado. Se você for um devoto de Azgher, a arma se torna uma cimitarra pungente flamejante formidável. Sob a luz do sol, a cimitarra reluz mais forte, com um brilho dourado, e aumenta o dano da bola de fogo que dispara (pelo encanto flamejante) para 12d6. Se você for de patamar campeão ou superior, a arma se torna uma cimitarra precisa flamejante magnífica. Arma específica média, preço T$ 54.000."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "incenso",
+  "tipo": "item",
+  "nome": "Incenso",
+  "resumo": "Bastões ou grânulos aromáticos que, queimados como parte de uma Missa, concedem 2 PM temporários a cada participante.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 52
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Alquímicos",
+    "tipoItem": "Preparado",
+    "preco": "T$ 12",
+    "espacos": "0,5",
+    "especial": "Se gastar um incenso como parte de uma Missa, cada participante recebe 2 PM temporários (cumulativos com os efeitos da Missa)."
+  }
+}

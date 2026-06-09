@@ -1,0 +1,41 @@
+{
+  "id": "siroco-de-azgher",
+  "tipo": "magia",
+  "nome": "Siroco de Azgher",
+  "resumo": "Cria uma tempestade de areia focada que causa dano de corte baseado na proteção do alvo.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 64 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "tipo": "divina",
+    "circulo": 1,
+    "escola": "Evocação",
+    "execucao": "padrão",
+    "alcance": "curto",
+    "alvo": "1 criatura",
+    "duracao": "instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "custoPM": 1,
+    "descricao": "Invocando a fúria do Deus-Sol, você cria uma breve e focada tempestade de areia, capaz de esfolar a carne dos ossos! Criaturas afetadas sofrem dano de corte conforme seu grau de proteção: 3d6 se estiverem sem armadura, 2d6 se estiverem com armadura leve e 1d6 se estiverem com armadura pesada.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "efeito": "Aumenta o dano em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o tipo de dano para luz."
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Muda o alcance para pessoal e o alvo para área (cone de 9m).",
+        "requisitoCirculo": 2
+      },
+      {
+        "custo": "+1 PM",
+        "efeito": "Apenas Devotos de Azgher: além do normal, criaturas que falhem na resistência ficam em chamas e sangrando."
+      }
+    ]
+  }
+}

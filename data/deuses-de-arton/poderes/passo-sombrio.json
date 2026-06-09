@@ -1,0 +1,15 @@
+{
+  "id": "passo-sombrio",
+  "tipo": "poder",
+  "nome": "Passo Sombrio",
+  "resumo": "Uma vez por rodada, gasta 2 PM para teleportar-se para espaço desocupado em alcance curto (1 PM a menos na escuridão).",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tenebra",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, você pode gastar 2 PM para se teleportar para um espaço desocupado em alcance curto. Se tanto você quanto esse espaço estiverem sob escuridão, o custo deste poder diminui em –1 PM. Você não pode usar este poder se estiver imóvel."
+  }
+}

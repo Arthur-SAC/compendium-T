@@ -1,0 +1,19 @@
+{
+  "id": "anel-eclesiastico",
+  "tipo": "item",
+  "nome": "Anel Eclesiástico",
+  "resumo": "Símbolo de autoridade sacerdotal que concede +1 em Diplomacia e Intimidação a clérigos e frades.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 49
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Vestuário",
+    "preco": "T$ 50",
+    "espacos": "1",
+    "especial": "Se for um clérigo ou frade e estiver vestindo um anel eclesiástico, você recebe +1 em Diplomacia e Intimidação."
+  }
+}

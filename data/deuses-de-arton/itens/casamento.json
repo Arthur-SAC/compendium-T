@@ -1,0 +1,19 @@
+{
+  "id": "casamento",
+  "tipo": "item",
+  "nome": "Casamento",
+  "resumo": "Rito religioso que une duas ou mais pessoas. O poder do amor fornece aos cônjuges uma reserva conjunta de 3 PM que só pode ser usada quando em alcance curto um do outro.",
+  "fonte": {
+    "livro": "deuses-de-arton",
+    "pagina": 54
+  },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "Serviços",
+    "preco": "T$ 150",
+    "espacos": "0",
+    "especial": "Em geral, casamentos são entre duas pessoas, mas algumas religiões (notavelmente Marah) permitem a poligamia. O poder do amor fornece aos cônjuges uma reserva conjunta de 3 PM, que eles só podem usar se estiverem em alcance curto um do outro. Qualquer um deles pode recuperar esses PM (inclusive com descanso)."
+  }
+}

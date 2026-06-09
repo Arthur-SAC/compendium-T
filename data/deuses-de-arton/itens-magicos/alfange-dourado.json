@@ -1,0 +1,22 @@
+{
+  "id": "alfange-dourado",
+  "tipo": "item-magico",
+  "nome": "Alfange Dourado",
+  "resumo": "Alfange de ouro alquimicamente tratado de Azgher, com dano base 2d6 mas –2 em ataque. Devotos podem sacrificar ouro para remover a penalidade e ganhar bônus crescentes de +2 a +5.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 56 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "divindade", "alvoTipo": "divindade", "alvoId": "azgher", "rotulo": "Azgher" }
+  ],
+  "mecanica": {
+    "tipoItem": "Item Litúrgico",
+    "categoria": "Médio",
+    "preco": "T$ 36.000"
+  },
+  "secoes": [
+    {
+      "titulo": "Descrição e Habilidades",
+      "texto": "A lâmina deste alfange maciço é feita de ouro alquimicamente tratado para ser duro como aço. Isso o torna muito pesado (–2 em testes de ataque), mas muda seu dano base para 2d6. Se você for um devoto de Azgher, pode gastar uma ação completa para entoar palavras sagradas e encostar ouro (itens ou tibares) na lâmina do alfange dourado. Se fizer isso, o ouro derrete e a arma brilha com energia mágica. Até o fim do dia, o alfange dourado perde sua penalidade em testes de ataque e recebe um bônus em testes de ataque e rolagens de dano de acordo com o sacrifício: bônus de +2 para T$ 10, +3 para T$ 100, +4 para T$ 500 e +5 para T$ 1.000. Arma específica média, preço T$ 36.000."
+    }
+  ]
+}

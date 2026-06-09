@@ -1,0 +1,15 @@
+{
+  "id": "so-os-loucos-sabem",
+  "tipo": "poder",
+  "nome": "Só os Loucos Sabem",
+  "resumo": "Rola duas perícias aleatórias da Tabela 6-6 e se torna treinado nelas; pode rolar novas perícias por 3 PM no começo do dia.",
+  "fonte": { "livro": "deuses-de-arton", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "nimb",
+    "prerequisito": "",
+    "descricao": "Role duas perícias na Tabela 6-6 (Tormenta20, p. 279). Você se torna treinado nelas (se já for, recebe +3 nessa perícia). No começo de cada dia, você pode gastar 3 PM para rolar novas perícias."
+  }
+}
