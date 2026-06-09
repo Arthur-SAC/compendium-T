@@ -7,6 +7,11 @@
 **Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
 `docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
 
+**Status (2026-06-09): Onda 1 (Cap.1) ✅ · Onda B (código distincao) ✅ · Onda 2 (Cap.2 — 36 distinções, com arte) ✅.**
+Branch já com push pro GitHub. **Próximo: Onda 3 (Cap.3 Arsenal) e Onda 4 (Cap.4 Regras Opcionais).** Build ~2192 páginas, tsc 0.
+- **Onda 2 ✅ — 36 distinções** (`data/herois-de-arton/distincoes/`, tipo `distincao`): admissão + marca + poderes embutidos + benefício adicional + quadros, todas com **arte** (cor+smask em lote via `extracao/cache/herois-distincoes/arte-lote.mts`; fix manual do Professor de Magia que pegara a lousa). Área `/distincoes` (índice com miniaturas + ficha com arte na lateral, ordem Descrição→Admissão→Marca→Quadros→Benefício→Poderes); categoria "Distinções" no menu. **Fichas de classe/raça** mostram poderes de outras fontes com pré-requisito (lookup dinâmico). Índice `/poderes` dinâmico (abas Gerais + por Classe).
+- **Dívida leve Onda 2:** alguns subagentes omitiram citações de abertura de poder (escape de aspas) e legendas de arte — flavor, não mecânica; revisar no polimento. Campos extras inertes (`escolas`, `acoes`, etc.) ignorados pelo schema.
+
 ### Fase 2.3 — Heróis de Arton — Onda A (código) ✅ (branch `fase2.3-herois-de-arton`)
 Offset PDF = impressa + 2. Tipos novos `distincao` e `variante-classe` já reservados no enum desde a Fase 0.
 - **A1 (`64c3a1d`):** `VarianteClasseMecanicaSchema` (= `ClasseMecanicaSchema` + `varianteDe: string`) + ramo no `superRefine`. Teste `schema-variante-classe`.
