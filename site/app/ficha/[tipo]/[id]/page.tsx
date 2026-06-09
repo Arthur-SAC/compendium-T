@@ -86,6 +86,26 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
     );
   }
 
+  // Expansão de uma divindade (Deuses de Arton e futuros): agregação por lookup, sem editar o Básico.
+  let divindadeExtras:
+    | { expansao?: typeof entidade; avatares: { id: string; nome: string }[]; artefatos: { id: string; nome: string }[]; poderesConcedidos: { id: string; nome: string }[] }
+    | undefined;
+  if (entidade.tipo === "divindade") {
+    const idDeus = norm(entidade.id);
+    const expansao = entidades.find(
+      (e) => e.tipo === "divindade-expansao" && norm(String((e.mecanica as { expandeDivindade?: string }).expandeDivindade ?? "")) === idDeus,
+    );
+    const apontaPraDeus = (e: typeof entidade) => e.relacoes.some((r) => r.alvoTipo === "divindade" && norm(r.alvoId) === idDeus);
+    const avatares = entidades.filter((e) => e.tipo === "criatura" && apontaPraDeus(e)).map((e) => ({ id: e.id, nome: e.nome }));
+    const artefatos = entidades.filter((e) => e.tipo === "item-magico" && apontaPraDeus(e)).map((e) => ({ id: e.id, nome: e.nome }));
+    const poderesConcedidos = ordenar(
+      todosPoderes
+        .filter((e) => norm(String((e.mecanica as { grupo?: string }).grupo ?? "")) === idDeus)
+        .map((e) => ({ id: e.id, nome: e.nome })),
+    );
+    divindadeExtras = { expansao, avatares, artefatos, poderesConcedidos };
+  }
+
   return (
     <main style={{ padding: 40 }}>
       <div style={{ maxWidth: 1140, margin: "0 auto 10px", textAlign: "center" }}>
@@ -108,7 +128,7 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
       ) : entidade.tipo === "magia" ? (
         <FichaMagia entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "divindade" ? (
-        <FichaDivindade entidade={entidade} registro={registro} descricoes={descricoes} />
+        <FichaDivindade entidade={entidade} registro={registro} descricoes={descricoes} extras={divindadeExtras} />
       ) : entidade.tipo === "criatura" ? (
         <FichaCriatura entidade={entidade} registro={registro} descricoes={descricoes} />
       ) : entidade.tipo === "variante-classe" ? (
