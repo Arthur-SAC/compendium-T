@@ -1,0 +1,127 @@
+{
+  "id": "nova-malpetrim",
+  "tipo": "regiao-expansao",
+  "nome": "Nova Malpetrim",
+  "resumo": "O Atlas detalha Nova Malpetrim — a lendária Cidade dos Aventureiros, reconstruída no alto de uma formação rochosa após o maremoto que destruiu a Velha Malpetrim — descrevendo sua arquitetura vertical em patamares, o porto da Cidade Baixa dominado por piratas, os locais notáveis da Cidade Alta e os arredores repletos de perigos e expedições rumo a Galrasia.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 300 },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "pertence-a",
+      "alvoId": "petrynia",
+      "alvoTipo": "regiao",
+      "rotulo": "Petrynia — pequeno reino, hoje província do Império de Tauron, onde Nova Malpetrim está situada"
+    },
+    {
+      "tipo": "relacionada-a",
+      "alvoId": "imperio-de-tauron",
+      "alvoTipo": "regiao",
+      "rotulo": "Império de Tauron — potência dominante da região; Nova Malpetrim é capital da província de Petrynia"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Valkaria, Deusa da Humanidade/Ambição — principal divindade venerada"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "oceano",
+      "alvoTipo": "divindade",
+      "rotulo": "Oceano, Deus Menor do Mar — divindade importante na cidade costeira"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "marah",
+      "alvoTipo": "divindade",
+      "rotulo": "Marah, Deusa da Paz — divindade principal; a Grande Feira leva seu nome"
+    },
+    {
+      "tipo": "relacionada-a",
+      "alvoId": "galrasia",
+      "alvoTipo": "regiao",
+      "rotulo": "Galrasia (Mundo Perdido) — principal destino das expedições que partem de Nova Malpetrim"
+    },
+    {
+      "tipo": "relacionada-a",
+      "alvoId": "lysianassa",
+      "alvoTipo": "regiao",
+      "rotulo": "Lysianassa — primeira cidade humana em Galrasia, cuja fundação intensificou as expedições a partir de Nova Malpetrim"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Dados Gerais",
+      "texto": "Nome: Cidade de Nova Malpetrim.\nLema: \"Tesouro do Mar, Berço da Aventura\".\nBrasão: de azul um castelo de prata assente sobre um monte de verde sainte de uma campanha ondada do segundo carregada de duas faixas ondadas do primeiro.\nGentílico: malpetrino.\nRegente: George Ruud (prefeito).\nPopulação: 26.000.\nRaças Principais: humanos, sereias, tritões, anões, elfos, hynne.\nDivindades Principais: Valkaria, Oceano, Marah."
+    },
+    {
+      "titulo": "Introdução",
+      "texto": "Arton é um mundo de heróis. Eles existem em todos os lugares, habitam todas as cidades. Mas nenhuma tem maior reputação de hospedar aventureiros — e aventuras — que Malpetrim.\n\nEmbora situada no pequeno reino de Petrynia, hoje província do Império de Tauron, os eventos extraordinários ocorridos aqui sequer podem ser listados. Cidade costeira assolada por todo tipo de ameaça mundana ou mágica, não apenas foi ponto de partida para as mais fabulosas expedições, como também sediou batalhas e intrigas em seu próprio território.\n\nUma tradição de bardos consiste em desafiar o oponente a narrar a história de um grande herói sem que Malpetrim esteja em algum ponto do itinerário. (\"Oras, se não passou por Malpetrim, não é uma grande saga!\") Isso considerando apenas as histórias verdadeiras — pois, conforme a cultura do reino, para cada campeão lendário real que esteve aqui, outros dois foram inventados na imaginação popular. Ainda, existe o costume local de batizar filhos com nomes de grandes heróis, causando ainda mais confusão.\n\nDesperto de deus maligno. Cerco de minotauros. Ataque de monstro gigante. Marcha de fantasmas da Tormenta. Embates entre arquimagos, sumo-sacerdotes e Dragões-Reais. A cidade esteve em perigo tantas vezes, foi quase destruída em tantas ocasiões, que foi um choque para todos quando isso finalmente aconteceu.\n\nA chegada profetizada da Flecha de Fogo ao continente sul causaria um maremoto como nenhum outro; imprudentemente próxima ao nível do mar, Malpetrim acabou arrasada por completo. Heróis com poderes extremos se mobilizaram, cidadãos foram evacuados, vidas foram salvas. Até mesmo algumas construções, com seus ocupantes, foram magicamente transportadas a tempo. Mas nada restaria na área murada original, exceto ruínas inundadas."
+    },
+    {
+      "titulo": "A Cidade Renascida",
+      "texto": "Nova Malpetrim (ou apenas Malpetrim, como ainda é chamada) é tudo, menos horizontal. Mais que decididos a evitar qualquer vagalhão catastrófico futuro, seus habitantes optaram por reconstruir a cidade no alto de uma grande formação rochosa próxima, muito acima do nível do mar.\n\nPode-se dizer que, hoje, a cidade exige nervos e pernas fortes para ser percorrida; seus vários patamares, conectados por longas escadarias e pontes de vários tipos, desafiam aqueles que temem altura. Desnecessário dizer, o lugar também se tornou muito menos aprazível para minotauros — um planejamento urbano provavelmente intencional, considerando a tentativa de invasão por parte deste povo durante as Guerras Táuricas. Ainda assim, apesar de sua fobia de altura, membros do povo de Tauron teimosamente insistem em frequentar Nova Malpetrim, demonstrando orgulho e bravura enquanto evitam as beiradas."
+    },
+    {
+      "titulo": "O Porto",
+      "texto": "Com a reconstrução, muito se pensou em formas de livrar Malpetrim dos piratas que sempre a assolaram. Descobrindo ser inviável (pois importantes figuras locais estão ligadas à pirataria), apenas trataram de manter a nova área de atracagem tão afastada quanto possível, formando praticamente uma cidade própria ao nível do mar — hoje também conhecida como Cidade Baixa. Nesse literal submundo as guildas criminosas agem impunes e tudo que é proibido ou ilegal pode ser obtido. Ou, como diria o pirata Jude Silverbloom, uma das mais notórias figuras da Cidade Baixa: \"Na escolha entre o que é certo e o que é fácil, a escolha certa sempre será fácil…\". O isolamento também garante que feras capturadas em Galrasia causem menos estrago urbano à Cidade Alta quando escapam — o que acontece com alguma frequência."
+    },
+    {
+      "titulo": "Mansão do Prefeito",
+      "texto": "Administrar um desastre — ahem, uma cidade como Nova Malpetrim não é trabalho para qualquer um. Pouca gente em Arton sequer aceitaria tamanha dor de cabeça. Ainda assim, um improvável pretendente ao cargo insalubre acabou surgindo; o atual prefeito é ninguém menos que George Ruud, antigo proprietário da famosa Estalagem do Macaco Caolho. Depois de lidar com sua cota de druidas obcecadas, falsos ladinos, arquimagas élficas loucas e trogs rabugentos (e também após a perda de seu estabelecimento no maremoto), Ruud e a esposa Tadania optaram por uma carreira que consideram muito menos estressante. Além de governar, muitas vezes caberá ao próprio prefeito, à primeira-dama ou à secretária osteon Calirianne o papel de delegar missões a aventureiros."
+    },
+    {
+      "titulo": "A Grande Feira de Marah",
+      "texto": "Este tradicional evento comercial, que continuaria a ser celebrado anualmente na cidade nova, teve seu auge durante a dominação táurica. Como a cidade era considerada território neutro, figurava como uma oportunidade única para permutar itens do Reinado e do Império. Hoje em dia o festival retornou às suas dimensões originais, negociando principalmente iguarias, relíquias e criaturas trazidas de Galrasia — também existindo meios escusos de adquirir pólvora, artefatos da Tormenta e outros itens proibidos. Ainda, devido a um rumor persistente sobre a passagem de Thwor Khoshkothruk pela Feira, muito antes de sua ascensão à divindade, devotos de Thwor às vezes tentam imitar o antigo messias, infiltrando-se no evento sob disfarce. Outros, menos religiosos, fazem isso apenas para ludibriar os ingênuos. É o caso do bardo Amanph Leanm, que já convenceu muitos desinformados de que era Thwor em pessoa, apenas um pouco mais magro e abatido…"
+    },
+    {
+      "titulo": "A Arena de Gideon",
+      "texto": "Rumores e boatos sem fim cercam o maior e mais misterioso patrono dos jogos de arena em Nova Malpetrim. Antes de conquistar sua riqueza e fixar moradia aqui como uma de suas figuras mais ilustres, Lorde Gideon teria sido um herói desmemoriado, que em outra vida foi um tirano — então rejeitando o mal para viver como aventureiro. Hoje, Gideon e seu companheiro hynne Flappo comandam torneios e combates de arena em seu coliseu, que vem se tornando famoso no oeste de Arton. Em cada grande torneio, um item mágico de seu tesouro pessoal é oferecido ao campeão. O atual campeão é o hynne Jojo, conhecido pelo curioso epíteto \"Matador de Gigantes\"."
+    },
+    {
+      "titulo": "A Forja do Nanico",
+      "texto": "Sempre que um forasteiro procura alguém para consertar suas armas ou armadura, é costume local recomendar este estabelecimento pelo nome. Não por sua qualidade, nem por ser barato; apenas para testemunhar uma nova explosão de raiva do proprietário, um velho troglodita anão que odeia ser chamado de \"nanico\", expelindo seu óleo fedorento em todos que assim fazem! Este antigo guerreiro aposentado, cedendo à paixão racial dos trogs por itens de aço, acabaria abraçando o ofício como ferreiro. Dizem que o nome é também uma provocação (ou paródia) a uma rede de forjas existente em Valkaria, conhecida como Metais do Baixote."
+    },
+    {
+      "titulo": "A Águia Dourada",
+      "texto": "A estalagem mais extravagante da antiga Malpetrim foi reconstruída aqui, ainda mais chique e vistosa. Seu interior segue tão parecido com a original que mesmo frequentadores assíduos não notam diferença. De fato, arcanistas garantem que a reconstrução foi executada por poderosas magias. Talvez exista relação com uma antiga e ilustre hóspede, a falecida arquimaga élfica Nielendorane de Lenórienn; dizem que seu espírito está com Wynna, mas às vezes ainda assombra sua suíte favorita, quando alugada por hóspedes de espírito aventureiro. A gerência garante que nenhum deles sofreu danos permanentes. Quase nenhum."
+    },
+    {
+      "titulo": "O Polvo Canhoto",
+      "texto": "Taverna especializada em frutos do mar e pratos insanamente apimentados. O proprietário e cozinheiro é Mighel de Petrynia, homem grande como um ogro — e quase tão gentil, quando criticam a ardência de sua comida. Dizem que ele usa condimentos fortes por serem os favoritos da filha, uma paladina de Khalmyr em treinamento. Alguns suspeitam, no entanto, que Mighel exagera na pimenta para afastar os minotauros — mas o efeito acabou sendo contrário; estes, sentindo-se desafiados, fazem questão de ingerir os itens mais picantes no cardápio enquanto vertem lágrimas gordas. Seja como for, o lugar acabou famoso por sediar competições e brigas entre minotauros, humanos e quaisquer outros."
+    },
+    {
+      "titulo": "Expedições e Piratas",
+      "texto": "Embora Nova Malpetrim seja uma cidade costeira, sua economia não é especialmente baseada em comércio marítimo; devido às atribulações do Império de Tauron, a navegação comercial artoniana tem se concentrado no litoral sudeste do continente. Por ser situada a sudoeste, poucas rotas comerciais chegam aqui. Assim, seu abastecimento vem das terras cultivadas em volta, complementado com a pesca.\n\nNão significa, contudo, que exista pouca atividade portuária. Como no passado, o lugar segue como o mais importante ponto de partida para expedições até Galrasia, movimentando um mercado pequeno, mas rico. Iguarias, feras exóticas e relíquias circulam todos os dias, negociadas por fortunas. Pela mesma razão, piratas fervilham no Mar Negro para atacar aventureiros retornando cheios de valores.\n\nA recente fundação de Lysianassa, primeira cidade humana em Galrasia, intensificou as expedições. Agora contando com um porto seguro no próprio Mundo Perdido, navios cheios de aventureiros chegam e partem em números cada vez maiores. Aqueles que retornam (isto é, os que conseguem passar pelos piratas) deixam boa parte de seus tesouros em Nova Malpetrim, assegurando sua prosperidade. E, embora os piratas e bucaneiros tragam reputação ruim, também enriquecem a cidade com suas pilhagens, gastando fortunas em bebida e farra.\n\nPor tudo isso, Nova Malpetrim faz bom dinheiro oferecendo acomodações e suporte a aventureiros. Todo tipo de artesão especializado em armas e equipamentos de aventura pode ser encontrado aqui, assim como serviços de alquimistas e conjuradores. Ajudantes, batedores e escudeiros também estão disponíveis — são profissões populares entre jovens locais que tentam fazer dinheiro rápido, apesar dos riscos. Mercadores aguardam no porto da Cidade Baixa para adquirir tesouros recém-conquistados. E, como não poderia deixar de ser, clérigos e curandeiros estão sempre a postos para remendar heróis combalidos em seu retorno.\n\nOutra atividade importante é a construção e reparo de navios, sobretudo aqueles que chegam arruinados após ataques de piratas e monstros, sendo um milagre ainda flutuarem. Para os goblins locais, canibalizar partes de uma embarcação para consertar outra é praticamente uma tradição — qualquer navio no porto precisa ser mantido sob vigilância para continuar inteiro. O resultado é que muitos navios locais parecem feitos de partes desencontradas, marteladas juntas de qualquer jeito. Dizem que se você precisa de reparos urgentes em sua embarcação, mas sem ligar muito para a estética, Nova Malpetrim é o lugar."
+    },
+    {
+      "titulo": "Arredores de Aventura — Montanhas Kenora",
+      "texto": "Esta área montanhosa no nordeste de Petrynia pertence à mesma formação que inclui as Uivantes, bloqueando boa parte de sua glaciação. Numerosas passagens e desfiladeiros permitem fazer a travessia até a cordilheira gelada; uma delas teria sido usada pelo célebre herói Cyrandur Wallas em suas andanças. Aqui também se situam as Cavernas Escuras, onde seria encontrada uma das partes do mítico Disco dos Três. Especula-se que as cavernas escondem uma passagem para Doherimm; a teoria pode estar correta, porque as montanhas abrigam vários athrid, como são conhecidas as antigas edificações abandonadas dos anões."
+    },
+    {
+      "titulo": "Arredores de Aventura — Os Grandes Bosques",
+      "texto": "A extensa mata ao norte de Nova Malpetrim é composta por duas áreas florestais: os Bosques de Farn a noroeste e os Bosques de Allihanna a sudeste, separados pelo Rio Kaerunir. O nome vem da rivalidade entre dois antigos exploradores, cada um alegando ter descoberto e mapeado o lugar primeiro. Para apaziguar ambos, o regente da época decidiu separar a floresta em duas; por não existir \"meia-floresta\", cada metade foi declarada um grupo de bosques — um deles nomeado como um explorador, outro com a divindade padroeira do segundo. Ambos são habitados por animais selvagens, comunidades silvestres e monstros ocasionais."
+    },
+    {
+      "titulo": "Arredores de Aventura — Planície dos Centauros",
+      "texto": "A região descampada ao sul dos Bosques de Allihanna é território de um grande rebanho de centauros. Sua antiga líder, Odara de Allihanna, teve atuação importante durante a saga dos Rubis da Virtude. Após um incidente envolvendo a Tormenta, seu paradeiro é desconhecido; hoje o bando é liderado por sua aprendiz Hipólita. Diferente da antecessora, esta druida atrevida não se acanha em galopar até Nova Malpetrim e convocar aventureiros para matar monstros que eventualmente ameaçam a tribo."
+    },
+    {
+      "titulo": "Arredores de Aventura — Planalto dos Kobolds",
+      "texto": "Uma das maiores tribos de kobolds em Arton está em um planalto oculto nos Bosques de Allihanna, onde cavernas e túneis que atravessam o planalto escondem centenas, talvez milhares de criaturas. Como outros de seu tipo, estes também ficaram mais perigosos após o retorno de Kallyadranoch ao Panteão, mas ganharam ainda mais poder quando o dragão Xiuhdrake assumiu a liderança do bando. Sob comando do \"enviado\", os kobolds atacam aldeias e fazendas vizinhas, capturando vítimas — especialmente crianças — para sacrifícios rituais ao Deus dos Dragões. Um dos habitantes menos perigosos e mais curiosos do Planalto é o kobold Leopôncio, um espadachim (?) que diz ser matador de serpes (??) e herói de seu povo (??)."
+    },
+    {
+      "titulo": "Arredores de Aventura — Mansão de Zolkan",
+      "texto": "Situada à margem de um pântano próximo da Velha Malpetrim, pertenceu ao poderoso mago Zolkan, desaparecido há mais de 100 anos. Rumores dizem que a mansão é assombrada e maldita, algo atestado por heróis que a visitaram. Fantasmas e aparições infestam seus aposentos — que retornam magicamente ao normal logo após a passagem de aventureiros, não importando quanta coisa foi destruída ou quantas criaturas foram vencidas. Também dizem que Zolkan se tornou um monstro e devora todos que entram. Parte desse boato é verdade; o arcanista realmente se tornou \"algo\" graças a um experimento fracassado. Uma passagem mágica leva a um laboratório secreto longe dali, em uma caverna oculta, onde o monstro-Zolkan passa os dias tentando reverter seu atual estado."
+    },
+    {
+      "titulo": "Arredores de Aventura — Torre de Azazel",
+      "texto": "Situada em uma ilhota próxima à costa, esta grande torre pertence a Azazel, o Louco. Este velho de pele azulada — que muitos acreditam ser um tritão, embora não exista certeza sobre isso — mantém sua torre protegida por monstros marinhos, jamais tolerando a presença de invasores. Muitos navios foram afundados por suas criaturas porque se aproximaram demais. As histórias sobre a origem de Azazel seriam muitas; a mais conhecida diz que ele teria se apaixonado por uma sereia, mas foi rejeitado, e agora passa a vida pensando em formas de capturá-la e conquistar seu amor."
+    },
+    {
+      "titulo": "Velha Malpetrim",
+      "texto": "Hoje submersas, as ruínas da antiga Malpetrim foram rapidamente ocupadas por animais, monstros e até povos marinhos. Não apenas suas construções originais, mas também grandes navios empurrados pelo maremoto e encalhados ali — cada um escondendo seus próprios perigos e tesouros. Ainda, existem sob a cidade várias redes de túneis e câmaras, outrora esconderijos para guildas de ladrões, cultos profanos e movimentos de resistência contra os minotauros.\n\nPor ser uma masmorra vasta e ainda recente, há poucos mapas confiáveis e ainda menos informações sobre seus habitantes. Sabe-se de pelo menos um bando de elfos-do-mar extremamente hostis, que consideram a cidade agora seu território — qualquer explorador deve lidar com eles antes de adentrar as ruínas mais importantes e as partes mais profundas. Negociar a passagem diplomaticamente é possível, mas desafiador, considerando seu ódio e desconfiança contra aqueles que vivem no mundo seco. Seu cruel líder, chamado Deenar, tem apenas um braço — e também a habilidade mágica de se transformar em um monstro crustáceo demoníaco.\n\nUm fato importante é que, em toda a região inundada, estabeleceu-se uma área de \"ar molhado\" — o estranho fenômeno que ocorre em alguns pontos dos mares de Arton, permitindo a seres terrestres respirar livremente embaixo d'água. Dificuldades normais de movimentação subaquática ainda existem mas, ao menos, afogamento não é um problema com que lidar. Há, no entanto, trechos de masmorra onde a água é normal.\n\nMenos de uma hora distante da cidade reconstruída, Velha Malpetrim se tornaria uma masmorra bastante procurada, sobretudo por heróis iniciantes locais ainda sem meios de visitar Galrasia. Antigos proprietários contratam grupos para resgatar riquezas ou relíquias de família. Outros investigam rumores sobre tesouros mágicos poderosos, pertencentes a campeões veteranos que residiam na cidade. Um local especialmente visado são as ruínas da antiga Estalagem do Macaco Caolho; conforme boatos, o símio empalhado que dava nome ao lugar teria sido abençoado por Nimb, tornando-se um artefato muito poderoso. Ou maldito. Ou não."
+    }
+  ],
+  "mecanica": { "expandeRegiao": "nova-malpetrim" }
+}

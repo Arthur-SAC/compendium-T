@@ -1,0 +1,113 @@
+{
+  "id": "svalas",
+  "tipo": "regiao-expansao",
+  "nome": "Svalas",
+  "resumo": "O Atlas detalha Svalas — o Reino Renascido — com sua história de fundação, conquista e resistência secular sob o jugo de Yudennach/Supremacia Purista, até a restauração da independência durante a Guerra Artoniana, descrevendo seu território pequeno mas cosmopolita, sua tolerância racial singular, a misteriosa Floresta Svalas e as oportunidades para aventureiros iniciantes.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 230 },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "fronteira",
+      "alvoId": "supremacia-purista",
+      "alvoTipo": "regiao",
+      "rotulo": "Supremacia Purista — vizinha e inimiga histórica (antiga Yudennach)"
+    },
+    {
+      "tipo": "fronteira",
+      "alvoId": "ermos-purpuras",
+      "alvoTipo": "regiao",
+      "rotulo": "Ermos Púrpuras — a Floresta Svalas se estende até essa região"
+    },
+    {
+      "tipo": "membro",
+      "alvoId": "reinado",
+      "alvoTipo": "regiao",
+      "rotulo": "Reinado — independência decretada pela Rainha-Imperatriz Shivara I"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Khalmyr, Deus da Justiça — principal divindade venerada em Svalas"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "lena",
+      "alvoTipo": "divindade",
+      "rotulo": "Lena, Deusa da Vida — segunda divindade principal de Svalas"
+    },
+    {
+      "tipo": "governante",
+      "alvoId": "ayleth-karst",
+      "alvoTipo": "criatura",
+      "rotulo": "Rainha Ayleth Karst — fundadora e regente de Svalas Renascido"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "nargom",
+      "alvoTipo": "criatura",
+      "rotulo": "Nargom — pirata, Campeão de Svalas e marido da Rainha Ayleth"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "lothar-algherulff",
+      "alvoTipo": "criatura",
+      "rotulo": "Lothar Algherulff — Campeão de Svalas, herói da Guerra Artoniana"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "kadeen",
+      "alvoTipo": "criatura",
+      "rotulo": "Kadeen — Campeão de Svalas, herói da Guerra Artoniana"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "klunc",
+      "alvoTipo": "criatura",
+      "rotulo": "Klunc — Campeão de Svalas, herói da Guerra Artoniana"
+    }
+  ],
+  "mecanica": { "expandeRegiao": "svalas" },
+  "secoes": [
+    {
+      "titulo": "Dados Gerais",
+      "texto": "Nome Oficial: Reino de Svalas.\nLema: \"Díspares, Honrados, Livres\".\nBrasão: de vermelho uma banda engolida por duas cabeças de leões de ouro, sobre tudo um escudete de verde carregado de três barris de ouro, dois e um.\nGentílico: svalano.\nCapital: Cidade de Svalas.\nForma de Governo: monarquia eletiva.\nRegente: Rainha Ayleth Karst.\nPopulação: 80.000.\nRaças Principais: humanos, goblins, anões, elfos, hynne.\nDivindades Principais: Khalmyr, Lena."
+    },
+    {
+      "titulo": "Introdução",
+      "texto": "Quando um artoniano pensa em \"reino\", o que vem a sua mente é um lugar vasto e antigo, com um rei ou rainha poderosos e distantes. O sonho de muitos heróis é, com sorte e a bênção dos deuses, um dia salvar um reino inteiro.\n\nSvalas não é nada disso.\n\nEm Svalas, nobres lutam ao lado de cavaleiros e plebeus. A rainha conhece pessoalmente seus súditos e recebe em sua corte o mais reles estrangeiro recém-chegado. Um viajante pode cruzar todo o território em poucos dias. Sem a glória das grandes nações e fazendo fronteira com um inimigo, Svalas recorre a qualquer aventureiro disponível, mesmo os mais inexperientes, para se proteger de grandes ameaças. Svalas é um berço de heróis, um lugar onde uma espada afiada, uma magia preparada e bastante coragem podem ser a diferença entre triunfo e ruína."
+    },
+    {
+      "titulo": "História — Breve Glória",
+      "texto": "Talvez a única ideia preconcebida que se aplique a Svalas seja sua história longa. O reino foi fundado no ano 1024, sendo um dos primeiros a serem estabelecidos no continente norte. Na verdade, a fundação de Svalas foi anterior à de nações muito mais poderosas e notórias, como Wynlla ou Sambúrdia. É anterior até mesmo ao antigo Reino de Yudennach — o que representa uma humilhação nunca esquecida.\n\nA família nobre Svalas partiu de Valkaria pouco depois da fundação da cidade, em busca de um território onde construir seu novo lar. Era uma linhagem de guerreiros, mas com um forte senso de honra. Os Svalas não entraram em conflito com os povos de Ramnor e evitaram territórios ocupados, até encontrar o que buscavam: uma terra fértil em uma posição estratégica, com uma enorme e densa floresta. A região era assolada por monstros, mas os Svalas não temiam isso. As planícies podiam ser plantadas, a floresta podia fornecer madeira e isso era tudo que importava. Seguindo os costumes mais tradicionais, o reino e a floresta foram batizados com o nome da família. Em pouco tempo já havia um pequeno castelo e cavaleiros patrulhavam a terra.\n\nMas, se a honra importava aos Svalas, ela de nada valia para os Yudennach.\n\nO Reino de Yudennach se estabelecera nas proximidades de Svalas. Militarista e expansionista, Yudennach massacrou habitantes nativos e se espalhou até onde a diplomacia permitia. Nas décadas seguintes, Svalas começou a receber cada vez mais refugiados de raças não humanas — pessoas que fugiam das políticas intolerantes de Yudennach e vinham procurar abrigo. Ainda era época de construção, quando a liderança de Deheon era tênue e o Reinado era jovem. Por isso, ninguém pôde ajudar o pequeno reino quando ele foi invadido por Yudennach.\n\nSvalas lutou com bravura, mas não teve chance. Cerca de 50 anos após sua fundação, foi conquistado e desmantelado. A família fundadora foi caçada e massacrada até o último parente distante. Registros históricos foram queimados, crianças foram proibidas de aprender o nome do reino. Sob o domínio militar de Yudennach, a ordem era fingir que Svalas nunca existira, havia sido apenas um território a ser anexado ao reino maior. A única lembrança que restou foi a floresta, sempre conhecida como Floresta Svalas apesar dos esforços dos conquistadores.\n\nMas essa lembrança se provou suficiente."
+    },
+    {
+      "titulo": "História — Resistência Eterna",
+      "texto": "Por quase 400 anos, Svalas lembrou.\n\nNão havia a menor possibilidade de uma pequena região rural pegar em armas e conquistar sua independência. Mas o povo aguerrido manteve viva a memória dos fundadores e o nome do reino. Geração após geração, as crianças eram proibidas de aprender sobre sua verdadeira história — mas ouviam-na mesmo assim, à noite, em sussurros de seus pais. Os registros não mais existiam, mas a tradição oral foi repassada ao longo dos séculos.\n\nE o povo de Svalas foi inteligente. Eles agora eram membros do Exército com uma Nação. Faziam parte de uma cultura militarista e belicosa, que esperava que aprendessem a lutar. Assim, nobres de Svalas eram educados nas academias militares das grandes cidades de Yudennach e voltavam a suas terras para ensinar o que haviam aprendido. Aguçando seu pensamento estratégico, os senhores de Svalas silenciosamente transformaram a terra conquistada em um refúgio de não humanos. Em suas pequenas aldeias, castelos rústicos e fazendas tradicionais, pessoas das mais variadas raças eram acolhidas, passando a viver e trabalhar lado a lado com os humanos. Criou-se uma diversidade estonteante, contrastando com o modo de viver simples e antiquado. Quando enviados da capital se aproximavam, os não humanos eram escondidos e protegidos.\n\nO reino existira de forma independente por apenas 50 anos. Mas quatro séculos não foram capazes de destruí-lo por completo."
+    },
+    {
+      "titulo": "História — A Conquista da Liberdade",
+      "texto": "Quando os puristas se ergueram e deram o golpe de estado que transformaria Yudennach na Supremacia Purista, muitas lideranças resistiram. As movimentações foram vistas no pequeno Baronato de Karst. Essa terra, governada pelo Barão Abelard com auxílio de sua única filha, Lady Ayleth, por acaso abrigava alguns aventureiros iniciantes. Eles foram contratados pela herdeira para investigar as \"atividades estranhas\" e acabaram se envolvendo na resistência. O Barão Abelard se sacrificou durante uma batalha, deixando a espada de sua família para um dos heróis. Lady Ayleth assumiu o baronato e assim foi selada uma aliança e uma amizade cheia de percalços que resultaria na vitória.\n\nOs aventureiros viriam a se tornar os grandes heróis da Guerra Artoniana — Lothar Algherulff, Nargom, Kadeen e Klunc. Eles rumaram a Valkaria e comunicaram à Rainha-Imperatriz tudo que havia ocorrido. Como sanção às conspirações puristas, Shivara decretou a independência de Svalas. Os heróis então voltaram como arautos da liberdade, apenas para descobrir que os puristas estavam se retirando. No entanto, os conquistadores banidos deixaram para trás um último ato de covardia: despertaram a fúria de um gigante, que destruiu boa parte das terras mais civilizadas do reino.\n\nO gigante foi vencido, mas apenas a um custo terrível. Svalas foi quase totalmente devastado. Um elfo heroico tombou frente à criatura, sendo para sempre honrado no reino. Lady Ayleth, única nobre da região, ascendeu a rainha pelo decreto de Shivara. Auxiliada pelos heróis, agora chamados de Campeões de Svalas, ela se pôs a estabelecer uma capital e reerguer sua terra.\n\nMais de 400 anos depois, Svalas recomeçava. Mais uma vez, livre."
+    },
+    {
+      "titulo": "Povo & Costumes — Svalas Renascido",
+      "texto": "Hoje em dia, Svalas é um reino pequeno e cheio de paradoxos. É antiquado — preserva os costumes feudais ancestrais que mantiveram a chama acesa durante todo o período de conquista. Mas é também muito cosmopolita. Cidadãos das mais variadas raças podem ser vistos em qualquer vilarejo, coexistindo normalmente com os humanos mais simples. É uma terra de senhores feudais, fazendas e tavernas de beira de estrada, mas aqui o preconceito contra não humanos é o pior crime que se pode cometer. Praticamente qualquer pessoa, mesmo um velho fazendeiro armado com um ancinho, vai se erguer contra alguém que demonstre antipatia ou desconfiança por alguma raça. Em Svalas, os lefou podem andar sem medo, os osteon não precisam esconder o rosto e os sulfure podem falar sobre sua herança infernal.\n\nO grande influxo de refugiados também significa que quase todos têm uma história interessante. A mulher bebendo ao seu lado na estalagem não é apenas uma dahllan — ela é uma dahllan que nasceu de uma flor amaldiçoada num campo de batalha e tem cabelos feitos de pétalas cor de sangue. O velho kliren atrás do balcão não é apenas um kliren — ele é na verdade um jovem hynne que trocou de corpo por causa de uma magia desastrosa, e está em busca do danado que possui seu corpo verdadeiro! Não faltam exemplos. Gregorydantalas Wallgof, um elfo barbado que afirma ter viajado no tempo, pode ser visto diariamente em busca de remédios para seus diversos males. Aeon Nukeburn, um mago dahllan masculino especialista em artes marciais, conta para todos sobre como escapou de um Lorde da Tormenta apenas meditando. Enod o Done, um lefou, é ao mesmo tempo mago e clérigo de Wynna, e costuma divertir os aldeões quando suas duas cabeças de personalidades conflitantes discutem entre si. Alguns dizem que Svalas é um reino de histórias infantis, onde tudo que é fantástico ocorre num raio de poucos quilômetros.\n\nNão há espaço para pompa ou arrogância. Com raríssimas exceções, os nobres vivem em fortes e salões simples, sendo assessorados por três ou quatro conselheiros e tratando com aventureiros pessoalmente. A história do Barão Abelard Karst marcou o reino e solidificou a noção de que aqui todos devem lutar unidos. Se o barão não tivesse confiado em um grupo que incluía um pirata e um bárbaro, a independência nunca teria sido alcançada."
+    },
+    {
+      "titulo": "Governo",
+      "texto": "A Rainha Ayleth governa em sua capital, também chamada Svalas. Uma estátua do elfo que deu sua vida pela defesa do reino domina a paisagem, na praça central. Ayleth é uma nobre firme e decidida, com fama de rabugenta e cabeça-quente, mas valente, extremamente leal ao seu povo e dotada de um rígido senso de justiça. Ela acabou se casando com o pirata Nargom, seu aliado e desafeto ocasional durante a Guerra Artoniana. Nargom nem sempre está no castelo, continuando a singrar os mares, mas a capital toda entra em festa quando ele chega."
+    },
+    {
+      "titulo": "Geografia",
+      "texto": "A posição geográfica de Svalas faz com que quase qualquer tipo de perigo possa surgir. A enorme população de monstros que atraiu a primeira família nobre continua aqui: qualquer coisa que se esconda em ermos ou cavernas existe em Svalas. Além disso, a floresta continua misteriosa. Muitas vezes um mago ou sábio precisa de algum ingrediente que só existe em suas profundezas sombrias. Não é incomum que fanáticos da Supremacia façam alguma incursão clandestina, ou que pequenos nobres desafiem a autoridade de Ayleth.\n\nAo mesmo tempo, quase qualquer ameaça é uma ameaça ao reino todo. Um único gigante quase pôs fim ao ideal de liberdade. Uma infestação de kobolds, um portal mágico ou um feiticeiro com ideias megalomaníacas são perigos à própria existência do reino. Não há um exército formal, apenas nobres armados e plebeus recrutados às pressas — e heróis."
+    },
+    {
+      "titulo": "Locais Importantes — A Floresta Svalas",
+      "texto": "Praticamente metade do território de Svalas é coberto por uma floresta densa e escura, que se estende até os Ermos Púrpuras. Quando o Reino de Yudennach conquistou Svalas, séculos atrás, a floresta permaneceu intocada. Os recursos naturais de lá não interessavam aos conquistadores e, mais do que isso, rumores sombrios sobre o lugar logo começaram a se espalhar. Diziam que a floresta era assombrada pelos espíritos dos soldados svalanos que morreram durante a invasão. Amargurados por terem falhado com seu povo, não teriam conseguido descansar, virando mortos-vivos. Porém, por serem soldados de Svalas, ficaram confinados ao território do reino — após a invasão, apenas à floresta!\n\nAgora que Svalas recuperou seu antigo território, os mortos talvez possam deixar a orla da mata. Se voltarão para ajudar o povo ou se estarão enlouquecidos por séculos de amargura e sedentos pelo sangue dos vivos, só o tempo dirá…"
+    },
+    {
+      "titulo": "Aventuras",
+      "texto": "Aventureiros iniciantes serão aclamados e recebidos pela própria rainha. Não é difícil que recebam um feudo desabitado como recompensa por uma missão bem-sucedida.\n\nA posição geográfica de Svalas faz com que quase qualquer tipo de perigo possa surgir: monstros de ermos e cavernas, ingredientes raros nas profundezas da Floresta Svalas, incursões clandestinas de fanáticos da Supremacia Purista, pequenos nobres desafiando a autoridade de Ayleth. Não há um exército formal — apenas nobres armados, plebeus recrutados às pressas e heróis. Qualquer ameaça, por menor que pareça, pode ser uma ameaça à existência do próprio reino.\n\nMas nenhuma dessas ameaças pode fazer o povo desistir de seu reino. Isso eles foram capazes de provar, século após século."
+    }
+  ]
+}
