@@ -1,13 +1,26 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
 import { areaDoPath, regrasDaArea, rotuloRegra, CATEGORIAS, tiposDaArea, mostrarListaNaBarra, gruposNavDaArea } from "@/lib/navegacao";
 import { BuscaCompacta } from "./BuscaCompacta";
-import type { Indice } from "@/lib/busca";
+import { construirIndice, type ItemIndice } from "@/lib/busca";
 
-/** Coluna direita: busca (topo) + regras da área + lista navegável da seção. */
-export function BarraContexto({ indice }: { indice: Indice }) {
+/** Coluna direita: busca (topo) + regras da área + lista navegável da seção.
+ *  O índice de busca é carregado de /busca-indice.json sob demanda (fica FORA do payload
+ *  de cada página — antes era embutido no layout e inflava o export em ~14 GB). */
+export function BarraContexto() {
+  const [itens, setItens] = useState<ItemIndice[]>([]);
+  useEffect(() => {
+    let vivo = true;
+    fetch("/busca-indice.json")
+      .then((r) => r.json())
+      .then((dados: ItemIndice[]) => { if (vivo) setItens(dados); })
+      .catch(() => {});
+    return () => { vivo = false; };
+  }, []);
+  const indice = useMemo(() => construirIndice(itens), [itens]);
   const pathname = usePathname() ?? "/";
   const area = areaDoPath(pathname);
   const regras = regrasDaArea(area);

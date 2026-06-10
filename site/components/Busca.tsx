@@ -1,11 +1,21 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { buscar, type ItemIndice, type Indice } from "@/lib/busca";
+import { buscar, construirIndice, type ItemIndice } from "@/lib/busca";
 
-export function Busca({ indice }: { indice: Indice }) {
+export function Busca() {
   const [q, setQ] = useState("");
+  const [itens, setItens] = useState<ItemIndice[]>([]);
+  useEffect(() => {
+    let vivo = true;
+    fetch("/busca-indice.json")
+      .then((r) => r.json())
+      .then((dados: ItemIndice[]) => { if (vivo) setItens(dados); })
+      .catch(() => {});
+    return () => { vivo = false; };
+  }, []);
+  const indice = useMemo(() => construirIndice(itens), [itens]);
   const resultados = useMemo(() => buscar(q, indice).slice(0, 20), [q, indice]);
   return (
     <div style={{ maxWidth: 560, margin: "0 auto" }}>

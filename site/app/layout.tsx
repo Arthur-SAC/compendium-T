@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
-import { carregarEntidades } from "@/lib/dados";
-import { construirIndice } from "@/lib/busca";
 
 const tormenta = localFont({
   src: "./fonts/Tormenta20x.ttf",
@@ -20,14 +18,10 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const ents = carregarEntidades();
-  const indice = construirIndice(
-    ents.map((e) => ({ id: e.id, tipo: e.tipo, nome: e.nome, resumo: e.resumo })),
-  );
   return (
     <html lang="pt-br" className={`${tormenta.variable} h-full`}>
       <body className="min-h-full">
-        <AppShell indice={indice}>{children}</AppShell>
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );
