@@ -1,0 +1,55 @@
+{
+  "id": "vidente",
+  "tipo": "criatura",
+  "nome": "Vidente",
+  "resumo": "Misto de fonte de informações e arma de cerco mercenária — seus poderes de adivinhação mantêm a companhia informada enquanto suas magias de destruição asseguram vantagem no campo de batalha.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 79 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Espírito (sulfure)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+7",
+    "percepcao": "+5, visão no escuro",
+    "defesa": "22",
+    "fortitude": "+5",
+    "reflexos": "+11",
+    "vontade": "+17",
+    "pontosDeVida": "99",
+    "pontosDeMana": "39",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Diabretes Sombrios (Padrão)",
+        "descricao": "Uma vez por cena, o vidente invoca 1d4+1 diabretes sombrios em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do conjurador, têm deslocamento 9m (normal e de voo) e podem gastar uma ação padrão para causar 1d6+2 pontos de dano de trevas em uma criatura adjacente. Os diabretes sombrios são espíritos, têm For 2, Des 2, Defesa 14 e 1 PV, falham automaticamente em qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando usa seu Raio Arcano ou lança uma magia com execução de ação completa ou menor, o conjurador muda a execução dessa ação para livre."
+      },
+      {
+        "nome": "Raio Arcano (Padrão)",
+        "descricao": "Uma criatura em alcance médio sofre 2d12 pontos de dano de essência (Ref CD 28 reduz à metade)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um bruxo de 5º nível (CD 23, –1 PM no custo de Escuridão). Seu foco arcano é sua varinha arcana.\n• Escuridão (Padrão, 2 PM): Até o fim da cena, um objeto em alcance curto emana escuridão total em um raio de 6m, bloqueando a visão na área e através dela.\n• Imagem Espelhada (Padrão, 5 PM): O conjurador cria 4 cópias ilusórias de si mesmo que fornecem +8 na Defesa. Cada vez que um ataque contra ele erra, uma das imagens desaparece e o bônus na Defesa diminui em 2. Quando uma cópia é destruída, a criatura que a destruiu fica ofuscada por 1 rodada.\n• Relâmpago (Padrão, 5 PM): Criaturas em uma linha de 30m sofrem 8d6 pontos de dano de eletricidade (Ref reduz à metade).\n• Seta Infalível de Talude (Padrão, 5 PM): Dispara 5 setas de energia distribuídas em até 5 criaturas em alcance médio. Cada seta causa 1d4+1 pontos de dano de essência."
+      }
+    ],
+    "pericias": "Enganação +7, Furtividade +9, Guerra +8, Intuição +5, Misticismo +8.",
+    "equipamento": "Varinha arcana.",
+    "tesouro": "Padrão."
+  }
+}

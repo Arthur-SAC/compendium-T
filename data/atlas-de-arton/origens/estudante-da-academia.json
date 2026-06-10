@@ -1,0 +1,26 @@
+{
+  "id": "estudante-da-academia",
+  "tipo": "origem",
+  "nome": "Estudante da Academia",
+  "resumo": "Você frequentou a Academia Arcana e aprendeu a lançar magias e fazer testes de Misticismo.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você frequentou a Academia Arcana. Pode ou não ter se tornado um arcanista, mas com certeza aprendeu algo sobre lançar magias."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "academia-arcana", "alvoTipo": "regiao", "rotulo": "Origem regional de Academia Arcana" }
+  ],
+  "mecanica": {
+    "itens": ["Coleção de livros (uma qualquer)", "Essência de mana x2"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência). Além disso, pode fazer testes de Misticismo mesmo sem ser treinado nessa perícia. Se for treinado, recebe +2 em testes dela."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "polvora-sagrada",
+  "tipo": "poder",
+  "nome": "Pólvora Sagrada",
+  "resumo": "Ganhe proficiência com armas de fogo e abençoe até 10 balas por 1 PM, concedendo +1 na margem de ameaça e +2 nas rolagens de dano até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 21 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "garth",
+    "prerequisito": "",
+    "descricao": "Você recebe proficiência com armas de fogo. Além disso, pode gastar 1 PM para abençoar até 10 balas. Até o fim da cena, estas balas fornecem +1 na margem de ameaça e +2 nas rolagens de dano (cumulativo com outros bônus de itens)."
+  }
+}

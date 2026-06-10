@@ -1,0 +1,39 @@
+{
+  "id": "matuto",
+  "tipo": "criatura",
+  "nome": "Matuto",
+  "resumo": "Mais embrutecido que o camponês. São lenhadores, mineradores e outras pessoas habituadas a trabalho pesado ou perigoso. Use esta ficha também para camponeses de regiões hostis.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 66 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+3",
+    "percepcao": "+3",
+    "defesa": "14",
+    "fortitude": "+4",
+    "reflexos": "+1",
+    "vontade": "+3",
+    "pontosDeVida": "14",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de lenha +7 (1d6+5, x3)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [],
+    "pericias": "Atletismo +6, Ofício (lenhador) +4.",
+    "equipamento": "Gibão de peles, machado de lenha.",
+    "tesouro": "Nenhum."
+  }
+}

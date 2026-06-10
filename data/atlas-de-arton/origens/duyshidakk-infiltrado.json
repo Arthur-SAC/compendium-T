@@ -1,0 +1,26 @@
+{
+  "id": "duyshidakk-infiltrado",
+  "tipo": "origem",
+  "nome": "Duyshidakk Infiltrado",
+  "resumo": "Você viveu entre o povo do Reinado por muito tempo, absorvendo seu modo de vida, mas secretamente devotado a construir O Mundo Como Deve Ser.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você viveu entre o povo do Reinado por muito tempo, absorvendo seu modo de vida… mas secretamente devotado a construir O Mundo Como Deve Ser."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "ruinas-de-tyrondir", "alvoTipo": "regiao", "rotulo": "Origem regional de Ruínas de Tyrondir" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial", "Peças sobressalentes (T$ 100 para vender ou construir engenhocas)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +2 em Furtividade e Vontade e pode usar Sabedoria como atributo-chave de Enganação (em vez de Carisma)."
+    },
+    "poderesUnicos": []
+  }
+}

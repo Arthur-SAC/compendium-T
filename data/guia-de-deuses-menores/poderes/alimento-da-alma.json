@@ -1,0 +1,15 @@
+{
+  "id": "alimento-da-alma",
+  "tipo": "poder",
+  "nome": "Alimento da Alma",
+  "resumo": "Você recebe treinamento em Ofício (cozinheiro) e aprende Abençoar Alimentos; se aprender a magia novamente, seu custo diminui em –1 PM.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "sunnary",
+    "prerequisito": "",
+    "descricao": "Você recebe treinamento em Ofício (cozinheiro) e aprende e pode lançar Abençoar Alimentos. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

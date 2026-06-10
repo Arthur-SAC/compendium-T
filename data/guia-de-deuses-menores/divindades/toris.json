@@ -1,0 +1,26 @@
+{
+  "id": "toris",
+  "tipo": "divindade",
+  "nome": "Toris",
+  "resumo": "Entidade primordial paranoica que fundou e protege o minúsculo reino secreto de Jallar, lançando um feitiço para escondê-lo do mundo após perder seu paladino para um necromante.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 1",
+    "crencasObjetivos": "Proteger Jallar, seu povo e suas fronteiras. Conscientizar a população de que Jallar é seguro, e que o restante do mundo é perigoso e implacável.",
+    "simboloSagrado": "Um castelo dentro de um círculo.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Caçadores, cavaleiros, guerreiros, ladinos, nobres, paladino.",
+    "poderesConcedidos": ["Véu de Toris"],
+    "obrigacoesRestricoes": "Devotos de Toris jamais podem ignorar um pedido de ajuda de um cidadão de Jallar e devem proteger qualquer membro de seu povo até a morte, se preciso. Além disso, mesmo nas raras ocasiões em que deve sair do reino para realizar alguma missão a pedido de sua deusa, o devoto deve manter contato com ela, não podendo permanecer mais de 2d10+10 dias sem conversar com ela (por meios mundanos ou mágicos) nem passar 1d4+2 meses sem voltar a Jallar para se reportar pessoalmente. Toris é infame por seus ciúmes. Qualquer atenção demasiada que um devoto dê a qualquer outra pessoa, coisa ou entidade pode valer sua fúria (contando como um descumprimento das Obrigações & Restrições ou valendo um relâmpago na cabeça…).",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Pouquíssimas pessoas sabem da existência de Jallar, um minúsculo reino nos limites do Reinado. Isso se deve à paranoia de Toris, a deusa menor que fundou e protege o local desde sua origem. Seus devotos são praticamente toda a população do reino, seus clérigos são poucos e, anos atrás, ela possuía um paladino que era seu grande orgulho.\n\nO paladino passava os dias cavalgando e patrulhando as fronteiras do reino, e foi responsável por livrar Jallar da maioria dos monstros e animais perigosos que havia por lá. Entretanto, um dia esse homem santo passou uma noite com uma donzela que conhecia seus feitos e o admirava há muito tempo. Como recompensa, ao amanhecer foi fulminado por um relâmpago lançado por sua própria deusa.\n\nO corpo do paladino foi encontrado por um necromante e o resto é história. Quanto a Toris, após perder seu mais íntimo fiel, a deusa ficou ainda mais reclusa e paranoica. Com medo de perder fiéis para deuses mais poderosos ou para outros mortais, lançou um feitiço para esconder Jallar do restante do mundo.\n\nAlgumas pessoas duvidam da existência de Jallar e dizem que Toris não passa de uma lenda. De fato, ninguém sabe como esta deusa teria surgido (ela parece ser uma entidade que existe desde sempre) ou qual seria seu portfólio. É uma deusa do reino de Jallar, e Jallar é um reino que existe (será?) basicamente para adorar esta deusa. O tal feitiço que escondeu o reino teria sido lançado há algumas décadas, mas não existe registro de ninguém que tenha visitado Jallar, nem de nenhum habitante do reino fora de suas fronteiras, exceto pelo Paladino de Jallar. O destino desse paladino é ainda mais duvidoso. A história mais aceita do Paladino de Jallar envolve sua morte em um covil de Sckhar, não fulminado pela deusa. Será que o mesmo paladino morreu mais de uma vez? Se a história for falsa, por que ele se chamaria \"Paladino de Jallar\"? Teriam sido dois paladinos (talvez o mesmo guerreiro sagrado copiado magicamente de alguma forma)? Mas como uma deusa menor poderia ter dois paladinos? É possível que essas contradições e esse ceticismo sejam incentivados pela própria Toris. Afinal, ninguém pode tentar descobrir um reino que não acredita existir…"
+    }
+  ]
+}

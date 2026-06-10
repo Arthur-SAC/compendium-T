@@ -1,0 +1,26 @@
+{
+  "id": "descendente-colleniano",
+  "tipo": "origem",
+  "nome": "Descendente Colleniano",
+  "resumo": "Você descende do povo de Collen, antigo reino insular absorvido por Ahlen, e possui poderes mágicos ligados à visão.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 473 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você descende do povo de Collen, um antigo reino insular absorvido por Ahlen. Sua linhagem tem olhos de cores incomuns, com alguns poucos chegando a apresentar poderes mágicos ligados à visão. Você é um desses poucos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "ahlen", "alvoTipo": "regiao", "rotulo": "Origem regional de Ahlen" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples", "Estojo de disfarces", "Ração de viagem x5"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +2 em Percepção e pode lançar a magia Visão Mística. Caso aprenda essa magia novamente, seu custo diminui em –1 PM."
+    },
+    "poderesUnicos": []
+  }
+}

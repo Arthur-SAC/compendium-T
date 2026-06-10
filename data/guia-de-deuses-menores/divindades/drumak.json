@@ -1,0 +1,26 @@
+{
+  "id": "drumak",
+  "tipo": "divindade",
+  "nome": "Drumak",
+  "resumo": "Conceito vivo e título concedido ao vencedor do Torneio Deus do Duelo, divindade que encarna a honra e a arte do combate individual.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 16 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Conceito vivo, status divino 1",
+    "crencasObjetivos": "Honrar duelos individuais. Aventurar-se. Aperfeiçoar a arte do combate. Participar do Torneio Deus do Duelo. Ir ao encontro do mais forte.",
+    "simboloSagrado": "Duas espadas se cruzando.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Quaisquer \"combatentes\". A critério do mestre, qualquer personagem que use o combate físico como tática principal pode ser convidado para o Torneio Deus do Duelo e, assim, também pode ser devoto de Drumak.",
+    "obrigacoesRestricoes": "Devotos de Drumak devem competir no Torneio Deus do Duelo e não podem interromper ou recusar lutas justas entre dois oponentes.",
+    "poderesConcedidos": ["Um Contra Um"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Diferente da imensa maioria de deuses artonianos, o Deus do Duelo não é uma criatura, mas um título. A cada ano é realizado o Torneio Deus do Duelo, um campeonato secreto no qual lutadores de toda Arton desafiam uns aos outros em duelos formais, em diferentes arenas, muitas vezes mascarando essa competição como simples brigas de rua ou lutas entre aventureiros. O vencedor, que fica conhecido como o \"Guerreiro de Arton\", é então desafiado pelo Drumak atual. Se o Guerreiro de Arton vence o duelo, ele se torna o novo Deus do Duelo e parte da personalidade da divindade se une à do campeão.\n\nO segredo do Torneio Deus do Duelo é mantido para que só aqueles que são convidados (ou seja, apenas aventureiros considerados \"combatentes\" e que honrem a tradição das competições) saibam de sua existência. Os participantes do torneio formam uma grande confraria, respeitando-se ainda que sejam oponentes ferrenhos. Assim como o deus, seus devotos honram e respeitam duelos formais, jamais intrometendo-se na luta de outros — mas também nunca se acovardam, sempre resolvendo suas disputas pessoalmente. Nem todos os competidores do torneio são devotos de Drumak, mas todos os devotos do Deus do Duelo competem.\n\nO torneio é realizado no outono. Isso deriva das condições dos aventureiros no passado. A primavera e o verão eram considerados \"época de aventuras\", quando os grupos de heróis eram contratados para desbravar locais inexplorados e invadir covis de monstros, quando os exércitos marchavam e os reis faziam seus movimentos agressivos. Assim, as duas estações eram reservadas às missões importantes. No outono, os grupos de aventureiros costumavam estar menos ocupados. Assim, os combatentes desses grupos podiam se dedicar a sua competição secreta. Contudo, não há uma data definida para o início do torneio.\n\nAté hoje, nunca houve um caso em que a luta contra Drumak não tenha sido a mais difícil de todo o torneio. O deus menor usa todas as técnicas, truques e poderes a sua disposição, e poucos lutadores são capazes de fazer frente. Assim, é comum que o Guerreiro de Arton não chegue a sagrar-se Deus do Duelo, e o posto permaneça com o hospedeiro atual da divindade. Dizem que a atual Deusa do Duelo, a bárbara Drusilla, está desaparecida há muitos anos. Vários competidores do torneio têm como objetivo encontrá-la — por serem seus devotos ou apenas para poder desafiá-la!"
+    }
+  ]
+}

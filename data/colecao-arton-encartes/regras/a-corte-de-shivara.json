@@ -1,0 +1,38 @@
+{
+  "id": "a-corte-de-shivara",
+  "tipo": "regra",
+  "nome": "A Corte de Shivara",
+  "resumo": "Os conselheiros da Rainha-Imperatriz Shivara: Reynard (Mago Imperial), Kelandra (Mestra das Armas), Hennd Kalamar (Capelão da Corte), Leon Galtran (Ministro das Sombras), Lorde Niebling (Imaginador Imperial) e Trixya (Financista-Mor).",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 1 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Reynard — Mago Imperial",
+      "texto": "Arcanista impassível e aparentemente inabalável, Reynard era o líder do grupo de aventureiros épicos conhecido como a Companhia Rubra, notório por ser um dos primeiros a entrar nas profundezas de uma área de Tormenta e por fazer o primeiro contato com Aharadak, então o Lorde da Tormenta de Zakharov. Além de ser pioneiro na pesquisa da Tempestade Rubra, Reynard fez parte do grupo que derrotou o Dragão da Tormenta. Aposentado da vida de aventuras, auxilia a Rainha-Imperatriz em todos os assuntos arcanos e relativos à invasão aberrante. Diz-se que também implementou protocolos de segurança arcana para Sua Majestade Imperial."
+    },
+    {
+      "titulo": "Kelandra — Mestra das Armas",
+      "texto": "Uma meia-giganta que no passado foi clériga de Keenn, o antigo Deus da Guerra, Kelandra chegou a ser uma das principais inimigas do Reinado durante a Marcha de Arsenal. Contudo, abandonou seu deus patrono durante a Guerra Artoniana, por se opor à ideologia purista. Chegou a liderar um grupo de mercenários na luta contra a Supremacia, o que lhe valeu o perdão imperial por seus crimes passados — e a indicação ao posto de conselheira de guerra da Rainha-Imperatriz. Sua presença na corte gera desconfiança e boataria, mas a experiência de Kelandra junto aos inimigos de Shivara lhe proporciona uma perspectiva valiosa."
+    },
+    {
+      "titulo": "Hennd Kalamar — Capelão da Corte",
+      "texto": "O sumo-sacerdote de Valkaria recebe permissão especial da Deusa dos Aventureiros para permanecer na capital imperial e integrar a corte de Shivara. Um clérigo que fez fama ainda jovem por guiar os Libertadores na jornada épica que tirou a deusa de sua prisão, Hennd é tanto um planejador hábil quanto um teólogo sábio. É capaz de reconhecer potencial em grupos de aventureiros iniciantes e designá-los para missões que mais tarde se provarão essenciais para o Reinado. Diz-se que, através dele, Shivara mantém contato pessoal com Valkaria, na prática tendo um literal conselho divino."
+    },
+    {
+      "titulo": "Leon Galtran — Ministro das Sombras",
+      "texto": "Conhecido como \"o maior ladrão do mundo\", Leon figurou em vários momentos marcantes da história artoniana — fez parte do grupo que imbuiu o Paladino de Arton com os Rubis da Virtude e é pai do guerreiro Sandro Galtran. Contudo, poucos suspeitam de suas reais capacidades: mais do que apenas um ladrão excepcional, Leon possui uma vasta rede de contatos nas cortes de diversos reinos, nos covis de inúmeros vilões e principalmente no submundo das maiores cidades. Muitos desses contatos não sabem que estão trabalhando para Leon, mas através dele a Rainha-Imperatriz tem acesso a muitos dos planos mais nefastos que ameaçam o Reinado antes que sejam postos em prática. Além disso, possui uma posição extraoficial como \"adquiridor de itens\", trazendo a Shivara qualquer riqueza, objeto ou artefato de que Sua Majestade possa precisar."
+    },
+    {
+      "titulo": "Lorde Niebling — Imaginador Imperial",
+      "texto": "Nieblingscharphittlestonefingeralonefauchard, o \"único gnomo de Arton\", chegou a este mundo vindo de outro lugar — ninguém sabe qual. Um dos mundos dos deuses? Outro Plano? Ou algo ainda mais exótico? Fato é que, décadas atrás, Niebling chegou à capital imperial arrastando uma carroça cheia de engenhocas e se dizendo um \"inventor\". Em pouco tempo sua presença atraiu a atenção do antigo Rei-Imperador, que lhe propôs um desafio: através de seus inventos, solucionar um dos problemas de Valkaria. Foi assim que Niebling projetou e construiu o primeiro atracadouro de Vectora, revolucionando a forma como o Mercado nas Nuvens visita a capital. Desde então foi acolhido na corte, recebendo o título de lorde e alavancando o progresso artoniano. Algumas de suas contribuições são as naus aéreas valkarianas, o sistema de fechamento dos muros em volta do Palácio Imperial, a ciência da astrologia e o complexo de rodas d'água que abastece toda a capital. A explosão de aventureiros inventores nos últimos anos também é resultado de sua influência. Shivara manteve Lorde Niebling em seu conselho, embora alguns digam que ele causa tantos problemas quantos soluciona. O irrequieto gnomo não passa muito tempo na cidade, mas quando volta sempre traz alguma ideia inovadora ou avanço científico para o Reinado."
+    },
+    {
+      "titulo": "Trixya — Financista-Mor",
+      "texto": "Trixya é um caso talvez único em Arton: originalmente, não deveria ser um golem desperto, apenas uma máquina capaz de acelerar os cálculos de contadores em um templo de Tibar. Contudo, sua inteligência chegou à conclusão de que poderia aprimorar a si mesma para aumentar sua capacidade de cálculo, num ciclo infinito que o levou a despertar. Mais do que apenas um ábaco em forma de golem, Trixya se mostrou capaz de suas próprias opiniões e emoções — e até mesmo religião, sendo um fiel devoto de Tibar. Pouco depois de adquirir consciência, deixou o templo e entregou-se como um \"presente\" à Rainha-Imperatriz, sabendo que poderia auxiliar as finanças do Reinado. Desde então Shivara o mantém como conselheiro para todos os assuntos econômicos, o que resultou nos cofres imperiais mais cheios do que nunca. A inteligência de Trixya parece aumentar com o tempo. Na superfície, isso é algo puramente benéfico, mas alguns nobres já manifestaram preocupação com o ser artificial de cognição aparentemente ilimitada."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "serve_a", "alvoTipo": "criatura", "alvoId": "rainha-imperatriz-shivara", "rotulo": "Servem à Rainha-Imperatriz Shivara" }
+  ],
+  "mecanica": {}
+}

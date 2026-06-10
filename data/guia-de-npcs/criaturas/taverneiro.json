@@ -1,0 +1,48 @@
+{
+  "id": "taverneiro",
+  "tipo": "criatura",
+  "nome": "Taverneiro",
+  "resumo": "Trabalhando atrás de seu balcão, o taverneiro típico já viu muitas brigas de bar e não se assusta com qualquer coisa. Alguns possuem segurança ou podem ser aventureiros aposentados, com fichas mais poderosas.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 68 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Templo",
+    "iniciativa": "+3",
+    "percepcao": "+3",
+    "defesa": "14",
+    "fortitude": "+10",
+    "reflexos": "+7",
+    "vontade": "+5",
+    "pontosDeVida": "32",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Clava +10 (1d6+7)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "0",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Cerveja nos Olhos (Movimento)",
+        "descricao": "Uma vez por cena, o taverneiro atira cerveja nos olhos de uma criatura em alcance curto. A criatura fica atordoada por uma rodada (Ref CD 18 evita)."
+      },
+      {
+        "nome": "Fofoca",
+        "descricao": "O taverneiro fornece +5 em um teste de Investigação para interrogar (apenas uma vez por dia para a mesma informação). Receber esse benefício pode exigir conquistar a boa vontade do taverneiro, com diplomacia ou tibares."
+      }
+    ],
+    "pericias": "Intuição +9, Ofício (taverneiro) +8.",
+    "equipamento": "Caneco de cerveja, clava.",
+    "tesouro": "Padrão."
+  }
+}

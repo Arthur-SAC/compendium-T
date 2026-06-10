@@ -1,0 +1,26 @@
+{
+  "id": "amoque-purpura",
+  "tipo": "origem",
+  "nome": "Amoque Púrpura",
+  "resumo": "Você cresceu entre os lutadores imprevisíveis dos Ermos Púrpuras, onde a prática da raiva em combate é refinada ao limite.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Raiva compele os golpes de guerreiros por todo o mundo, mas nos Ermos Púrpuras a prática é refinada ao limite. Você cresceu entre esses lutadores imprevisíveis."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "ermos-purpuras", "alvoTipo": "regiao", "rotulo": "Origem regional de Ermos Púrpuras" }
+  ],
+  "mecanica": {
+    "itens": [],
+    "beneficios": {
+      "pericias": ["Intimidação"],
+      "poderes": [],
+      "texto": "Você é treinado em Intimidação e, quando está sob efeito de Fúria, Fúria Divina ou Poder Oculto, recebe +2 em rolagens de dano."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "legionario",
+  "tipo": "origem",
+  "nome": "Legionário",
+  "resumo": "Você serviu nas legiões do Império de Tauron, aprendendo a usar gládio e escudo com destreza tática.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você serviu nas legiões do Império de Tauron, onde aprendeu a usar o equipamento de um legionário. Agora que seu serviço terminou, você espera usar as técnicas aprendidas para dar um novo rumo a Tapista."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "imperio-de-tauron", "alvoTipo": "regiao", "rotulo": "Origem regional de Império de Tauron" }
+  ],
+  "mecanica": {
+    "itens": ["Brunea com símbolo de sua legião", "Escudo pesado", "Gládio", "Ração de viagem x10"],
+    "beneficios": {
+      "pericias": ["Guerra"],
+      "poderes": [],
+      "texto": "Você é treinado em Guerra e recebe proficiência com gládios (veja Ameaças de Arton) e escudos. Se estiver empunhando um gládio e um escudo pesado, recebe +1 na margem de ameaça e +1 na Defesa."
+    },
+    "poderesUnicos": []
+  }
+}

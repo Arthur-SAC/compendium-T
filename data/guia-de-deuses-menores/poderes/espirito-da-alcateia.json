@@ -1,0 +1,15 @@
+{
+  "id": "espirito-da-alcateia",
+  "tipo": "poder",
+  "nome": "Espírito da Alcateia",
+  "resumo": "Comunica-se com cães e lobos como Voz Divina e recebe +2 no dano ao flanquear.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 6 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "akok",
+    "prerequisito": "",
+    "descricao": "Você pode se comunicar livremente com todos os tipos de cães e lobos, como se estivesse sob efeito da magia Voz Divina. Além disso, quando ataca um inimigo que você esteja flanqueando, você recebe +2 na rolagem de dano."
+  }
+}

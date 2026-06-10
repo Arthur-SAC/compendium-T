@@ -1,0 +1,54 @@
+{
+  "id": "stridnix",
+  "tipo": "criatura",
+  "nome": "Stridnix",
+  "resumo": "Filha favorita do Dragão-Rei Sckhar, uma kallyanach jovem e ambiciosa que pode assumir a forma de dragão do fogo, cuja descendência potencial com o herói Lothar Algherulff alimenta intrigas dinásticas na corte dracônica.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 56
+  },
+  "imagens": [
+    "/criaturas/stridnix.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma das incontáveis filhas de Sckhar, Stridnix é a favorita do pai. Vive no palácio Shindarallur, cercada de luxos e sob o olhar zeloso do Dragão-Rei. O motivo de tal atenção é que teria sido Stridnix a escolhida para conceber um filho junto do cavaleiro Lothar Algherulff, durante as negociações que levaram Sckharshantallas a se unir ao esforço derradeiro contras os puristas na Guerra Artoniana — algo decisivo na resolução do conflito.\n\nAlém de ser um dos maiores heróis artonianos vivos, Lothar é cercado de rumores. Dizem que é filho bastardo da Rainha-Imperatriz Shivara. Sendo assim, seu sangue misturado à linhagem do Dragão-Rei tornaria Stridnix a mãe não apenas do herdeiro de Sckharshantallas, mas de alguém capaz de clamar o trono do próprio Reinado.\n\nStridnix veste tecidos dignos de uma princesa, com decotes e fendas que revelam seu corpo voluptuoso, e caminha com postura altiva. Sua ascendência é evidente nos chifres dracônicos que brotam de seus cabelos cor de fogo. Mais do que isso, Stridnix é capaz de assumir a forma de um dragão — embora, por ser jovem, ainda não seja muito grande ou poderosa.\n\nAmbiciosa, intimidadora e quase tão impiedosa quanto o próprio pai na busca de seus objetivos, Stridnix não possui um papel formal na burocracia dracônica, mas ainda assim carrega poder e prestígio na corte, e é respeitada (ou temida) por todos na capital. Contudo, isso não ocorre em todo o reino. A atenção que Stridnix tem recebido de Sckhar lhe valeu a rivalidade de Khirollandra, governante da cidade de Khershandallas. Uma de suas irmãs mais velhas, Khirollandra está disposta a tudo para que a caçula não usurpe o que lhe é de direito."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Monstro (kallyanach)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+7",
+    "percepcao": "+9, faro, visão no escuro",
+    "defesa": "27, imunidade a atordoamento, cansaço, fogo, metamorfose e paralisia, redução de dano 5, resistência a magia +2",
+    "fortitude": "+18",
+    "reflexos": "+7",
+    "vontade": "+16",
+    "pontosDeVida": "330",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga x2 +24 (2d4+10, 19)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "0",
+      "constituicao": "4",
+      "inteligencia": "3",
+      "sabedoria": "2",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Forma Dracônica (Movimento)",
+        "descricao": "Stridnix se transforma em um dragão do fogo. Nessa forma, suas estatísticas mudam para Defesa 35; deslocamento 12m (8q), voo 18m (12q); corpo a corpo: mordida +27 (2d6+16, 19) e duas garras +27 (1d8+16, 19); For 7. Além disso, ela recebe a habilidade a seguir.\n• Sopro (Padrão) Todas as criaturas em um cone de 9m sofrem 6d12+6 pontos de dano de fogo e ficam em chamas (Ref CD 26 reduz à metade e evita a condição). Recarga (movimento).\nStridnix pode voltar à forma kallyanach com uma ação de movimento. Contudo, ela ainda não controla totalmente sua transformação. Se rolar 1 natural em qualquer teste enquanto estiver na forma dracônica, ela reverte à forma kallyanach no final do turno e não pode se transformar novamente na mesma cena."
+      }
+    ],
+    "pericias": "Atuação +12, Diplomacia +12, Guerra +10, Intimidação +12, Nobreza +10.",
+    "equipamento": "Adaga formidável, traje da corte.",
+    "tesouro": "Dobro."
+  }
+}

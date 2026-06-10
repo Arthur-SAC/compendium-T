@@ -1,0 +1,90 @@
+{
+  "id": "gregor-vahn",
+  "tipo": "criatura",
+  "nome": "Gregor Vahn",
+  "resumo": "Paladino imortal de Thyatis, outrora membro do Esquadrão do Inferno, enlouquecido pela Tormenta e responsável pela queda de Glórienn, a Deusa dos Elfos.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 14
+  },
+  "imagens": [
+    "/criaturas/gregor-vahn.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Outrora um paladino imortal de Thyatis, Gregor Vahn nasceu em uma rica família mercante de Tyrondir, mas não se dedicou ao comércio — em vez disso, ouviu o chamado do Deus da Ressurreição, o que o levou a se juntar ao grupo de aventureiros mais tarde conhecido como o Esquadrão do Inferno. Contudo, a trajetória trágica desse bando levou Gregor a se envolver com a Tormenta.\n\nEnlouquecido e obcecado em descobrir qual era sua própria Morte Final, passou a colaborar com o caçador de recompensas Crânio Negro, num plano horrendo que levaria à queda de Glórienn, a Deusa dos Elfos. Curiosamente, mesmo praticando atos malignos, Gregor conseguia empunhar Rhumnam, a espada sagrada de Khalmyr. Talvez a própria confusão mental extrema do paladino (ou ex-paladino?) explique isso. O trauma que sofrera no passado o fazia acreditar que continuava praticando o bem.\n\nGregor carregava um escudo com a face do Deus-Sol, encontrado durante suas aventuras. Por muito tempo o item permaneceu perdido, mas hoje é carregado por um outro paladino de Thyatis, que estaria tentando redimir seu nome e legado."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "thyatis",
+      "alvoTipo": "divindade",
+      "rotulo": "Paladino de Thyatis"
+    }
+  ],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+11",
+    "defesa": "44, imunidade a adivinhação, efeitos mentais e medo",
+    "fortitude": "+26",
+    "reflexos": "+20",
+    "vontade": "+12",
+    "pontosDeVida": "600",
+    "pontosDeMana": "39",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x3 +36 (2d10+30 não letal, 17)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "1",
+      "sabedoria": "1",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Anular a Si",
+        "descricao": "Como um paladino devoto de Thyatis, Gregor segue o Código do Herói e as Obrigações & Restrições do Deus da Ressurreição (veja Tormenta20, pp. 82 e 104). Entretanto, quando justificado por sua própria insanidade, ele pode violar ambos sem penalidades."
+      },
+      {
+        "nome": "Aura Sagrada (Livre, 1 PM, sustentada)",
+        "descricao": "Gregor Vahn gera uma aura de luz com 9m de raio. Ele e seus aliados dentro da aura recebem +3 em testes de resistência."
+      },
+      {
+        "nome": "Cura pelas Mãos (Movimento, 3 PM)",
+        "descricao": "Gregor cura 3d8+3 pontos de vida de uma criatura adjacente. Quando usa esta habilidade, ele pode gastar +1 PM para anular uma condição do alvo entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo."
+      },
+      {
+        "nome": "Dom da Imortalidade",
+        "descricao": "Gregor é imortal. Sempre que morre, não importando o motivo, ele volta à vida após 3d6 dias."
+      },
+      {
+        "nome": "Duro de Matar (Reação)",
+        "descricao": "Uma vez por cena, se sofrer dano que fosse reduzir seus PV a 0 ou menos, em vez disso Gregor fica com 1 PV."
+      },
+      {
+        "nome": "Golpe Divino (Livre, 4 PM)",
+        "descricao": "Quando faz um ataque corpo a corpo, Gregor soma o Carisma no teste de ataque e +3d8 na rolagem de dano. Quando usa esta habilidade, Gregor ofusca todos os inimigos em um raio de 9m até o início do próximo turno dele."
+      },
+      {
+        "nome": "Orar",
+        "descricao": "Gregor pode lançar as seguintes magias divinas (CD 33).\n• Arma Mágica (Padrão, 3 PM): Até o fim da cena, uma arma adjacente se torna mágica, fornecendo +1 nos testes de ataque e rolagens de dano e +1d6 pontos de dano de fogo.\n• Escudo da Fé (Reação, 3 PM): Quando uma criatura em alcance curto sofre um ataque, ela recebe +3 na Defesa por 1 turno."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando Gregor faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Atletismo +15, Cavalgar +11, Cura +11, Diplomacia +15, Nobreza +11, Religião +11.",
+    "equipamento": "Armadura completa defensora, escudo de Azgher, espada bastarda certeira, manto do fascínio, símbolo sagrado de Thyatis, tabardo aprimorado.",
+    "tesouro": "Metade."
+  }
+}

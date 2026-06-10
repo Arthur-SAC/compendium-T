@@ -1,0 +1,26 @@
+{
+  "id": "aprendiz-de-dragoeiro",
+  "tipo": "origem",
+  "nome": "Aprendiz de Dragoeiro",
+  "resumo": "Você aprendeu técnicas para enfrentar dragões tolos a ponto de entrar em Sckharshantallas, certamente úteis contra outras feras.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você aprendeu técnicas para enfrentar dragões tolos a ponto de entrar em Sckharshantallas — o que certamente será útil contra outras feras."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "sckharshantallas", "alvoTipo": "regiao", "rotulo": "Origem regional de Sckharshantallas" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial à sua escolha", "Troféu de caça", "Treckod"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +2 na Defesa contra criaturas maiores que você e +2 em Reflexos. Além disso, se passar em um teste de Reflexos, seus ataques contra a fonte do efeito causam +1d8 pontos de dano até o final da cena."
+    },
+    "poderesUnicos": []
+  }
+}

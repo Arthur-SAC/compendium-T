@@ -1,0 +1,84 @@
+{
+  "id": "shiro-nomatsu",
+  "tipo": "criatura",
+  "nome": "Shiro Nomatsu",
+  "resumo": "Daimyo e sumo-sacerdote de Lin-Wu, guardião do imperador Tekametsu e último do clã Nomatsu, dedicado a preservar as tradições tamuranianas no exílio após a destruição do Império de Jade pela Tormenta.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 50
+  },
+  "imagens": [
+    "/criaturas/shiro-nomatsu.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O clã Nomatsu sempre foi leal a Tamu-ra, por gerações servindo a sua pátria na corte imperial.\n\nMas Shiro, o rebento mais jovem, virou as costas para as amarras dessa sociedade. Ainda criança, partiu em busca de aventura no continente, viajando clandestino a bordo de um navio. Fez célebres e poderosos amigos. Acumulou tesouros. Em uma de suas jornadas, derrotou um déspota nas Uivantes. Ao findar da batalha, deparou-se com um tamuraniano à beira da morte entre os prisioneiros libertos.\n\nUm homem que lhe perguntou se as cerejeiras ainda floresciam em sua terra.\n\nO encontro fez Shiro refletir profundamente sobre suas raízes. Ao tomar a decisão de regressar, porém, descobriu ser tarde demais. Vieram as notícias de que o Império de Jade fora devorado pelas abominações da Tormenta, no primeiro ataque da tempestade ao mundo de Arton. Ele então rumou para a cidade de Valkaria, onde encontrou o que restava de seu povo, reduzido a um único enclave — teletransportado até ali pelo esforço do Imperador Tekametsu.\n\nÚltimo sobrevivente de seu clã, Shiro Nomatsu emergiu como daimyo e sumo-sacerdote do deus Lin-Wu, guiando seu povo no exílio, tomando para si a missão de preservar as tradições tamuranianas.\n\nQuando o imperador milagrosamente renasceu, Nomatsu tornou-se sua sombra, seu guardião mais poderoso e leal. Vagaram pelos reinos, recrutando aventureiros para varrer de vez os resquícios da Tempestade Rubra, ainda assombrando sua ilha natal.\n\nApesar dos desafios, Nomatsu permanece firme em seu propósito de ser o guardião de Tamu-ra."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "lin-wu",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-sacerdote de Lin-Wu"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "imperador-tekametsu",
+      "alvoTipo": "criatura",
+      "rotulo": "Guardião do Imperador Tekametsu"
+    }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+22",
+    "percepcao": "+17",
+    "defesa": "45, fortificação 50%, imunidade a medo, proteção divina",
+    "fortitude": "+22",
+    "reflexos": "+14",
+    "vontade": "+28",
+    "pontosDeVida": "510",
+    "pontosDeMana": "164",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Katana x2 +37 (2d10+35, 15, mais 6d12 luz)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "5",
+      "constituicao": "2",
+      "inteligencia": "2",
+      "sabedoria": "4",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Iaijutsu",
+        "descricao": "Shiro Nomatsu pode sacar ou guardar armas como uma ação livre. Além disso, quando faz um teste de Iniciativa para agir, para cada 10 pontos no resultado desse teste, recebe +1 no ataque e +1d6 no dano de seu primeiro ataque com arma em seu primeiro turno."
+      },
+      {
+        "nome": "Kiai Divino Superior (Livre, 2 PM)",
+        "descricao": "Uma vez por rodada, quando faz um ataque corpo a corpo, Shiro desfere um grito de kiai. Ele recebe +5 na margem de ameaça desse ataque e, se acertá-lo, causa dano máximo."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Shiro muda a execução dela para livre."
+      },
+      {
+        "nome": "Punição Divina (Padrão)",
+        "descricao": "Von CD 40 evita."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de Lin-Wu de 9º nível (CD 40, limite de PM 13).\n• Comando (Padrão, 2 PM) No início do seu próximo turno, uma criatura em alcance curto larga os itens que está segurando e não pode pegá-los novamente até o início de seu turno seguinte (Von evita).\n• Curar Ferimentos (Padrão, 13 PM) Uma criatura adjacente cura 14d8+14 PV ou criaturas escolhidas em alcance curto curam 9d8+9.\n• Dispersar as Trevas (Padrão, 8 PM) Shiro faz um teste de Religião. Todas as magias de até 3º círculo com CD igual ou menor que o resultado em uma esfera de 6m ao redor de Shiro são dissipadas. Além disso, aliados na área recebem +5 em testes de resistência e redução de trevas 10 até o fim da cena e inimigos na área ficam cegos por 1d4 rodadas (apenas uma vez por cena).\n• Raio Solar (Padrão, 9 PM) Criaturas em uma linha de 30m sofrem 7d8 pontos de dano de luz (ou 7d12, se forem mortos-vivos) e ficam ofuscadas por 1 rodada (Ref reduz à metade e evita a condição)."
+      }
+    ],
+    "pericias": "Atletismo +14, Cavalgar +16, Diplomacia +14, Guerra +13, Intimidação +16, Intuição +15, Misticismo +13, Nobreza +13, Religião +22.",
+    "equipamento": "Armadura completa delicada fortificada, elmo do teletransporte, katana equilibrada harmonizada (Grito de Kiai Superior, já contabilizada), precisa magnífica, manto eclesiástico aprimorado, símbolo sagrado de Lin-Wu.",
+    "tesouro": "Padrão."
+  }
+}

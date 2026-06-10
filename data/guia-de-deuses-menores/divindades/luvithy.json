@@ -1,0 +1,28 @@
+{
+  "id": "luvithy",
+  "tipo": "divindade",
+  "nome": "Luvithy",
+  "resumo": "Bruxa humana de Lamnor que se tornou a Deusa da Peste ao salvar sua aldeia com uma praga devastadora, espalhando seu culto secreto por todo o continente entre aqueles que imploram piedade das doenças em vez de buscar sua cura.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 33 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "lamnor", "alvoTipo": "regiao", "rotulo": "Originária de uma aldeia de Lamnor, quando os nativos ainda não desbravavam Arton Norte" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Espalhar doenças. Trazer de volta a antiga glória de Luvithy.",
+    "simboloSagrado": "Um crânio encapuzado.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Gadanho.",
+    "devotos": "Dahllan, kobolds, nezumi, orcs, osteon, sulfure, trogs, arcanistas, bárbaros, caçadores, druidas, guerreiros, ladinos.",
+    "obrigacoesRestricoes": "Devotos de Luvithy devem contaminar pelo menos uma criatura Pequena ou maior com uma doença por semana. Na falta de uma vítima adequada, um devoto pode contaminar a si mesmo.",
+    "poderesConcedidos": ["Toque Pestilento"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma deusa de comunidades isoladas e nações hoje em dia quase esquecidas, Luvithy foi uma bruxa humana na época em que os nativos de Lamnor ainda não ousavam desbravar Arton Norte. Naquele período, a aldeia de Luvithy estava à beira da destruição devido à guerra com outros povos. Mas a bruxa lançou uma praga que adoeceu e matou todos os inimigos da região. Os povos que não estavam em confronto direto ficaram temerosos e prestaram respeito e devoção a Luvithy, que se tornou a Deusa Menor da Peste.\n\nAo longo dos séculos, o culto a Luvithy se espalhou por todo o continente e chegou também a Lamnor. Todos aqueles que, frente a uma grande peste, suplicavam pela piedade da doença em vez de procurar sua cura acabavam, mesmo sem saber, adorando esta deusa menor. A devoção a Luvithy é um segredo em várias famílias, uma religião praticada em particular por pais e mães que têm medo de perder seus filhos por doenças, por servos que tentam manter vivos senhores moribundos, por pessoas que temem adoecer.\n\nLuvithy ganhou muitos devotos depois do surgimento da Praga Coral em Lomatubar. Mesmo sem relação nenhuma com essa doença mágica, a Deusa da Peste passou a ouvir as preces de várias comunidades desesperadas, que imaginavam que a Praga só podia ser obra de uma entidade da pestilência. Com a morte de Ragnar e a ascensão de Thwor, o culto a Luvithy tem se renovado, com fé revigorada e a ambição de conquistar o título de Deusa da Morte para sua padroeira."
+    }
+  ]
+}

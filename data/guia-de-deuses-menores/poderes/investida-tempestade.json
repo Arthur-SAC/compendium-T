@@ -1,0 +1,15 @@
+{
+  "id": "investida-tempestade",
+  "tipo": "poder",
+  "nome": "Investida Tempestade",
+  "resumo": "Na investida, gaste 2 PM para cobrir o corpo com eletricidade: +2d8 de dano elétrico no alvo e 2d8 para criaturas adjacentes ao caminho (com ofuscamento).",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 11 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "benthos",
+    "prerequisito": "",
+    "descricao": "Quando faz uma investida, você pode gastar 2 PM para cobrir seu corpo com eletricidade. Se fizer isso, seu ataque causa +2d8 pontos de dano de eletricidade. Além disso, criaturas adjacentes ao caminho que você percorre na investida sofrem 2d8 pontos de dano de eletricidade e ficam ofuscadas por 1 rodada (Ref CD Sab reduz à metade e evita a condição)."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "um-contra-um",
+  "tipo": "poder",
+  "nome": "Um Contra Um",
+  "resumo": "Gaste 2 PM para receber +2 em ataques e dano contra um oponente escolhido até o fim da cena; custo reduzido se possuir a habilidade Duelo.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 17 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "drumak",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. Se tiver a habilidade Duelo, em vez disso seu custo diminui em –1 PM."
+  }
+}

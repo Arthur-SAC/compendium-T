@@ -1,0 +1,30 @@
+{
+  "id": "inghlblhpholstgt",
+  "tipo": "divindade",
+  "nome": "Inghlblhpholstgt",
+  "resumo": "A Grande Divindade Anfíbia, entidade primordial adorada pelos tabrachi como o Grande Deus Sapo, associada a uma profecia de inundação mundial que transformaria Arton em pântanos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 27 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "statBlock", "alvoId": "inghlblhpholtsgt", "alvoTipo": "criatura", "rotulo": "Ficha de combate (Guia de NPCs)" },
+    { "tipo": "relacionadoCom", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Parte das criaturas que atenderam ao chamado de Allihanna para migrar para o continente" },
+    { "tipo": "relacionadoCom", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Descrito em algumas versões como cria de Megalokk, o Deus dos Monstros" }
+  ],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 3",
+    "crencasObjetivos": "Reverenciar Inghlblhpholstgt. Proteger o povo-sapo e os demais anfíbios. Pregar a evolução e a transformação do mundo em um grande pântano. Auxiliar a vinda do grande dilúvio profetizado eras atrás.",
+    "simboloSagrado": "Um sapo sobre uma pirâmide.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Lança.",
+    "devotos": "Dahllan, goblins, lefou, sereias/tritões, tabrachi, trogs, arcanistas, bárbaros, caçadores, druidas, ladinos, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Inghlblhpholstgt devem espalhar sua fé com afinco, angariando pelo menos um novo devoto por mês. Além disso, devem ajudar e proteger criaturas anfíbias, desde que isso não prejudique seus aliados.",
+    "poderesConcedidos": ["Salto Anurídeo"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Esta divindade menor possui um nome impronunciável para a maioria dos mortais, sendo conhecida como o Grande Deus Sapo entre os povos tabrachi. Nos antigos murais, é retratado como o primeiro ser marinho a pisar em terra firme, parte das criaturas que atenderam ao chamado de Allihanna, a Mãe Natureza, para deixar as profundezas oceânicas e migrar para o continente. Outras retratações históricas o descrevem como uma das inúmeras crias de Megalokk, o Deus dos Monstros. Existem até relatos afirmando que sua semente veio do éter divino, entre os mundos, precedendo a própria existência da vida em Arton.\n\nO templo mais conhecido dedicado a esta divindade encontra-se no Pântano dos Juncos, em Deheon. O local é protegido por uma criatura chamada catoblepas, capaz de transformar qualquer criatura em um ser batráquio com um simples olhar. Diz-se que essa habilidade do monstro sagrado é responsável por aumentar lentamente, mas de forma constante, a população tabrachi na região, que vem crescendo desde os primeiros tempos de ocupação do continente norte.\n\nNão se sabe ao certo quais são as intenções de Inghlblhpholtsgt. Existem rumores sobre uma antiga profecia que fala de uma inundação em escala mundial, que transformará todas as terras de Arton em pântanos. Mas, como o culto à Grande Divindade Anfíbia não é especialmente organizado, nem possui grandes registros, isso pode ser apenas um boato.\n\nOs locais de adoração a Inghlblhpholstgt podem ser meros vestígios de uma era em que pântanos dominavam os continentes e libélulas gigantes voavam pelos céus, ou talvez o deus busque espalhar sua bênção anfíbia por todo o mundo. O fato é: mesmo após milênios, sua presença ainda persiste."
+    }
+  ]
+}

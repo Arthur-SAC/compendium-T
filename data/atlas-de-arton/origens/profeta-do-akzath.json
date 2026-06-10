@@ -1,0 +1,26 @@
+{
+  "id": "profeta-do-akzath",
+  "tipo": "origem",
+  "nome": "Profeta do Akzath",
+  "resumo": "Você conhece a verdade sobre o tempo e o destino pelo Akzath de Lamnor, e pode lançar magias mesmo sob Fúria Divina.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você conhece a verdade sobre o tempo e o destino, na forma do Akzath. Quem sabe será você a encontrar o novo Ayrrak?"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "lamnor", "alvoTipo": "regiao", "rotulo": "Origem regional de Lamnor" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial", "Bordão", "Pergaminho com diagrama do Akzath"],
+    "beneficios": {
+      "pericias": ["Religião"],
+      "poderes": [],
+      "texto": "Você é treinado em Religião e pode lançar magias mesmo sob o efeito de Fúria Divina."
+    },
+    "poderesUnicos": []
+  }
+}

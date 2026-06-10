@@ -1,0 +1,26 @@
+{
+  "id": "selvagem-sanguinario",
+  "tipo": "origem",
+  "nome": "Selvagem Sanguinário",
+  "resumo": "Criado nas brutais Montanhas Sanguinárias, você sobrevive pela força bruta, com dano extra e redução de dano sem armadura pesada.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu ou foi criado nas Montanhas Sanguinárias, um dos lugares mais brutais de Arton, onde aprendeu a sobreviver com base na determinação e força bruta."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "sanguinarias", "alvoTipo": "regiao", "rotulo": "Origem regional de Sanguinárias" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial", "Gibão de peles"],
+    "beneficios": {
+      "pericias": ["Sobrevivência"],
+      "poderes": [],
+      "texto": "Você é treinado em Sobrevivência e, se não estiver usando armadura pesada, recebe +1 em rolagens de dano com armas e redução de dano 1."
+    },
+    "poderesUnicos": []
+  }
+}

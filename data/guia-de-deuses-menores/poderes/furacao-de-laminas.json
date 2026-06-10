@@ -1,0 +1,15 @@
+{
+  "id": "furacao-de-laminas",
+  "tipo": "poder",
+  "nome": "Furacão de Lâminas",
+  "resumo": "Uma vez por rodada, ao errar um ataque corpo a corpo, gasta 2 PM para fazer um novo ataque com a mesma arma contra outra criatura ao alcance.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 32 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lamashtu",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, quando erra um ataque corpo a corpo, você pode gastar 2 PM para fazer um novo ataque (com a mesma arma) contra outra criatura ao seu alcance."
+  }
+}

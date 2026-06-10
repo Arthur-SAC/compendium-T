@@ -1,0 +1,26 @@
+{
+  "id": "aprendiz-de-drogadora",
+  "tipo": "origem",
+  "nome": "Aprendiz de Drogadora",
+  "resumo": "Você era discípula de uma voracis drogadora e estudou as artes de cura em Galrasia.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você era discípula de uma voracis drogadora e estudou as artes de cura em Galrasia."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "galrasia", "alvoTipo": "regiao", "rotulo": "Origem regional de Galrasia" }
+  ],
+  "mecanica": {
+    "itens": ["Bálsamo restaurador x2", "Poção de curar ferimentos x2", "Maleta de medicamentos"],
+    "beneficios": {
+      "pericias": ["Cura", "Ofício (alquimista)"],
+      "poderes": [],
+      "texto": "Você é treinada em Cura e Ofício (alquimista). Como usa partes de seu corpo para fabricar preparados alquímicos e poções, você gasta apenas 1/4 do preço dos itens em matérias-primas."
+    },
+    "poderesUnicos": []
+  }
+}

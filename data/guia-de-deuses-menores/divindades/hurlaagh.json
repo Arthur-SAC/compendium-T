@@ -1,0 +1,28 @@
+{
+  "id": "hurlaagh",
+  "tipo": "divindade",
+  "nome": "Hurlaagh",
+  "resumo": "Deus dos hobgoblins, entidade primordial irmã de Ragnar e Graolak, criador da raça hobgoblin e senhor da cultura militarista de Lamnor.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 25 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "ragnar", "alvoTipo": "divindade", "rotulo": "Irmão de Ragnar, Deus da Morte dos Goblinoides" }
+  ],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 3",
+    "crencasObjetivos": "Promover a guerra e o conflito. Vencer a qualquer custo, por força ou estratégia. Jamais oferecer ou aceitar rendição. Jamais demonstrar fraquezas. Proteger a cultura e o modo de vida hobgoblin a qualquer custo.",
+    "simboloSagrado": "Tambor de guerra hobgoblin.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Goblins, hobgoblins, minotauros, orcs, bárbaros, caçadores, cavaleiros, guerreiros.",
+    "obrigacoesRestricoes": "Devotos de Hurlaagh jamais podem desobedecer à ordem de um superior (devoto de Hurlaagh de nível maior ou hobgoblin de patente militar superior). Além disso, devem lutar contra \"o Mundo Como Deve Ser\" proposto por Thwor.",
+    "poderesConcedidos": ["Selvageria Marcial"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um hobgoblin imponente, com ares de nobreza e sempre trajado com roupas militares, Hurlaagh representa o auge da cultura militarista que ele mesmo ajudou a forjar. Ninguém sabe sua origem, mas era parte de um trio de entidades irmãs de guerra, conflito, violência e brutalidade — deuses menores antes mesmo que houvesse alguém para cultuá-los. Seus dois irmãos eram Ragnar, que mais tarde ascendeu a Deus da Morte, e Graolak. Cada um dos três criou uma raça mortal que encarnava seus valores e sua personalidade. Ragnar deu origem aos bugbears. Graolak fez os goblins. Hurlaagh forjou os hobgoblins.\n\nOs hobgoblins, embora por muito tempo tenham sido considerados meros monstros por grande parte dos povos do norte, são uma raça muito mais antiga que a humanidade (precedendo-a em dezenas de milhares de anos!). De fato, talvez sejam a primeira raça de Lamnor a estabelecer fronteiras e tomar terras como \"suas\". Pela influência de Hurlaagh, os hobgoblins seriam os conquistadores e donos por direito de grande parte do continente.\n\nCuriosamente, o culto a Hurlaagh aumentou em fervor e intensidade com a chegada dos elfos a Lamnor. Com o início da Infinita Guerra, um inimigo poderoso fez com que os hobgoblins se unissem ainda mais sob seu deus. A influência de Hurlaagh em Lamnor só diminuiu significativamente quando seu irmão Ragnar ascendeu a deus maior, dando início a um plano que o tornou a divindade principal de todos os povos goblinoides. Hurlaagh então travou uma aliança com um grupo de deuses menores que buscava destronar o Deus da Morte dos Goblinoides, para que um deles ocupasse seu posto. Diz-se que, antes da queda de Khalifor, alguns de seus cultistas estavam infiltrados no exército de Thwor, com a intenção de provocar um levante. No entanto, foram descobertos e detidos por Gaardalok, o sumo-sacerdote de Ragnar, que os desmantelou utilizando espiões de Khalifor.\n\nA queda da Flecha de Fogo frustrou todos os planos de Hurlaagh. Ninguém sabe ao certo se sua aliança de deuses menores ainda existe ou desistiu de sua tentativa de tomar o posto de Thwor.\n\nEmbora ainda seja adorado por algumas comunidades hobgoblins espalhadas pelo sul de Arton, há muito tempo Hurlaagh não lidera batalhões hobgoblins em campanhas militares ou incursões de guerra. O Deus dos Hobgoblins permanece uma figura distante da linha de frente das batalhas que tanto definiram seu passado."
+    }
+  ]
+}

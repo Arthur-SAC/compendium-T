@@ -1,0 +1,28 @@
+{
+  "id": "altair",
+  "tipo": "divindade",
+  "nome": "Altair",
+  "resumo": "Deus das Montanhas e padroeiro do modo de vida montanhês, da resiliência e dos povos que preservam seus costumes ancestrais nos picos de Arton.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 6 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aliado", "alvoId": "betsumial", "alvoTipo": "divindade", "rotulo": "Defendeu Betsumial, o Deus dos Vigias, na Batalha de Tamu-ra" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Reverenciar Altair e as cadeias montanhosas de Arton. Desafiar as montanhas e seus perigos. Proteger as montanhas. Nunca recuar perante as dificuldades da natureza.",
+    "simboloSagrado": "Uma montanha com um machado cravado.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Machado de guerra.",
+    "devotos": "Anões, minotauros, naidoras, trogs, bárbaros, caçadores, druidas, guerreiros, lutadores.",
+    "obrigacoesRestricoes": "Devotos de Altair nunca podem recusar uma missão que envolva escalar ou desbravar uma montanha. Além disso, a cada 1d4+2 meses o devoto deve escalar a maior montanha da região onde está e passar um dia meditando em seu cume, para se reconectar com a natureza e com sua divindade.",
+    "poderesConcedidos": ["Liberdade das Montanhas"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este deus bárbaro era um homem alto, forte e musculoso. Usava apenas uma tanga, exibia o corpo cheio de cicatrizes e a cabeleira escura que parecia a juba de uma fera. Padroeiro dos que desafiam o mundo selvagem, escalou e venceu desafios nas maiores montanhas de Arton, além de ser associado à caça e à sobrevivência.\n\nEmbora seja o Deus Menor das Montanhas, Altair é mais do que isso: é o padroeiro do modo de vida das montanhas, da resiliência necessária para sobreviver e prosperar nesse tipo de ambiente, dos povos que nunca se dobraram à necessidade de erguer cidades em terrenos planos, mas mantiveram seus costumes ancestrais. Para muitos, as montanhas são território de monstros ou algo a ser \"vencido\" em uma escalada. Para os devotos de Altair, as montanhas são um lar desafiador, que acolhe seus habitantes ao mesmo tempo em que exige muito deles.\n\nA ascensão de Altair já se perdeu no tempo. Ele surge como um herói folclórico em vários povos montanheses, desde as Lannestul até as Uivantes, e inclusive em algumas aldeias das Sanguinárias. Contudo, é consenso que não se trata de uma entidade, mas de um humano que ascendeu. Em todos os relatos, Altair aparece interagindo com a população, espreitando com bandos de caçadores e conversando com chefes. Mesmo entre seus devotos, parece ser uma pessoa quase comum. Existem inclusive histórias em que Altair obedece às ordens de um devoto, sendo mais um guerreiro em seu grupo!\n\nAltair foi encontrado pela última vez nas Montanhas Lannestul, quando Orion Drake reuniu seu Exército de Deuses. Contudo, seu machado enorme foi usado pela última vez defendendo Betsumial, o Deus dos Vigias, quando então um vulcão surgiu sob seus pés e a horda lefeu conseguiu sobrepujá-lo na Batalha de Tamu-ra, em 1405."
+    }
+  ]
+}

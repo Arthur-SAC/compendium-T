@@ -1,0 +1,15 @@
+{
+  "id": "armas-e-espolios",
+  "tipo": "poder",
+  "nome": "Armas e Espólios",
+  "resumo": "Ganhe uma proficiência extra à sua escolha e, ao rolar tesouros, role duas vezes em cada coluna e fique com o melhor resultado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 18 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "dunsark",
+    "prerequisito": "",
+    "descricao": "Você recebe uma proficiência a sua escolha entre armaduras pesadas, armas de fogo, armas marciais ou escudos. Se já tiver proficiência com armas marciais, pode escolher armas exóticas. Além disso, quando rolar um tesouro, como na tabela de Tesouro por Nível de Desafio (Tormenta20, p. 328), você pode rolar duas vezes para cada coluna apropriada e escolher entre os dois resultados."
+  }
+}

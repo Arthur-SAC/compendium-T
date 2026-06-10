@@ -1,0 +1,26 @@
+{
+  "id": "estudante-do-colegio-real",
+  "tipo": "origem",
+  "nome": "Estudante do Colégio Real",
+  "resumo": "Você estudou no Colégio Real de Médicos de Salistick, adquirindo rigor científico e habilidades de cura excepcionais.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você teve a oportunidade de estudar no ilustríssimo Colégio Real de Médicos de Salistick. Seu ceticismo e rigor científico o afastam dos deuses e o aproximam da compreensão da vida."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "salistick", "alvoTipo": "regiao", "rotulo": "Origem regional de Salistick" }
+  ],
+  "mecanica": {
+    "itens": ["Bálsamo restaurador x3", "Maleta de medicamentos"],
+    "beneficios": {
+      "pericias": ["Cura"],
+      "poderes": [],
+      "texto": "Você é treinado em Cura. Além disso, seus efeitos de cura recuperam +2 PV por dado. Você perde esse benefício caso se torne um devoto de qualquer tipo."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "urazyel",
+  "tipo": "criatura",
+  "nome": "Urazyel",
+  "resumo": "Lorde da Tormenta na forma de um castelo vivo colossal ancorado nas Sanguinárias, cujo corpo é uma cidadela completa habitada por lefeu e prisioneiros escravizados.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 60
+  },
+  "imagens": [
+    "/criaturas/urazyel.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Diferente de outros Lordes da Tormenta, que residem em suas fortalezas, esta entidade é um bastião em si mesma. Seu próprio corpo é uma estrutura da Tormenta, um vasto castelo ancorado no topo dos mais altos picos das Sanguinárias.\n    Conforme a natureza orgânica dessas construções, tem a aparência de uma cidadela monstruosa, grotesca e indubitavelmente viva — seus milhares de olhos, mandíbulas e tentáculos, sempre em movimento, não deixam dúvidas disso.\n    Alguns juram que as colunas em formato de patas sustentam a construção, sendo capazes de carregá-la através das montanhas. Outros afirmam que muda de posição através de poderes lefeu de manipulação da realidade.\n    O fato é que o Castelo Urazyel jamais é visto duas vezes no mesmo lugar.\n    Seu interior abriga uma cidadela completa, com numerosas estruturas menores e uma grande população de lefeu, bem como artonianos escravizados. Não se sabe se é apenas mais uma ilusão provocada pela loucura, mas ele parece ser maior por dentro que por fora, um semiplano completo, onde existiriam até mesmo outras cidades."
+    },
+    {
+      "titulo": "Estrutura da Tormenta",
+      "texto": "O corpo de Urazyel é uma gigantesca estrutura da Tormenta; grande o suficiente para abrigar uma cidade, com numerosas estruturas menores e uma grande população de lefeu e prisioneiros. Um personagem que queira entrar ou sair de Urazyel deve primeiro encontrar uma passagem. A maioria é guarnecida por lefeu, mas é possível encontrar passagens secretas com uma ação completa e um teste de Investigação ou Percepção (CD 30). Uma vez localizada, a passagem deve ser aberta; para isso, é necessário causar 120 pontos de dano a ela ou passar em um teste de Ladinagem ou Força (CD 30). Por fim, uma vez que a passagem esteja aberta, atravessá-la é uma ação de movimento.\n    Dentro de Urazyel, o personagem enfrentará os rigores de uma área de Tormenta (veja Tormenta20, p. 319), muito maior por dentro do que por fora. Além disso, continuará vulnerável aos ataques de tentáculos do lekael. Entretanto, Urazyel não é onisciente; ainda que seja muito difícil, um personagem pode tentar se esconder dentro dele, evitando assim seus ataques e as inúmeras patrulhas de lefeu."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "habitat",
+      "alvoId": "sanguinarias",
+      "alvoTipo": "regiao",
+      "rotulo": "Ancorado nas Sanguinárias"
+    }
+  ],
+  "mecanica": {
+    "nd": "S+",
+    "tipo": "Monstro (lekael)",
+    "tamanho": "Colossal",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+14",
+    "percepcao": "+23 (+33 em seu interior), percepção perfeita",
+    "defesa": "68, cura acelerada 50, imunidade a medo, redução de dano 30, resistência a magia +10",
+    "fortitude": "+45",
+    "reflexos": "+11",
+    "vontade": "+40",
+    "pontosDeVida": "6.000",
+    "deslocamento": "6m (4q), natação 6m (4q), ignora terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Infinitos tentáculos +65 (4d20+50)."
+    ],
+    "atributos": {
+      "forca": "20",
+      "destreza": "–2",
+      "constituicao": "20",
+      "inteligencia": "11",
+      "sabedoria": "7",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Tentáculo (teste +75)."
+      },
+      {
+        "nome": "Aprisionar (Livre)",
+        "descricao": "Se Urazyel começar seu turno agarrando uma criatura não Titânica, poderá fazer um teste de agarrar contra ela. Se vencer, aprisiona a criatura em uma câmara em seu interior. Uma criatura aprisionada continua agarrada, fica cega, tem cobertura total contra efeitos vindos do lado de fora de Urazyel (e vice-versa) e sofre 2d20+50 pontos de dano de impacto mais 2d20+50 pontos de dano de ácido no início de cada turno do lekael. Ela pode escapar vencendo um teste de agarrar ou de Acrobacia contra o valor de agarrar de Urazyel ou causando um total de 100 pontos de dano a ele. Isso faz com que a criatura se liberte da câmara, mas continue no interior de Urazyel (veja Estrutura da Tormenta). Urazyel mantém cada criatura aprisionada em uma câmara diferente, e pode manter qualquer número de criaturas aprisionadas por vez."
+      },
+      {
+        "nome": "Carapaça Suprema",
+        "descricao": "Urazyel sofre apenas metade do dano de fontes mundanas, exceto aço-rubi."
+      },
+      {
+        "nome": "Infinitos Tentáculos",
+        "descricao": "Urazyel possui infinitos tentáculos que saem de suas aberturas. A cada ação agredir, ele pode fazer um ataque de tentáculo contra cada criatura em seu alcance (ou dois ataques, se o alvo for Grande ou maior) ou dez ataques contra um único alvo."
+      },
+      {
+        "nome": "Insanidade da Tormenta",
+        "descricao": "2d20 PM (Von CD 55 evita). Esta habilidade pode afetar mesmo criaturas que já foram afetadas pela Insanidade da Tormenta de outras criaturas neste dia."
+      },
+      {
+        "nome": "Titânico",
+        "descricao": "Urazyel é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Ele ocupa um espaço de 90m de lado e, quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 20d6 pontos de dano de impacto (uma vez por rodada por criatura, Ref CD 55 reduz à metade). Além disso, seu alcance natural é 18m e seus ataques ignoram redução de dano."
+      }
+    ],
+    "pericias": "Atletismo +36 (+16 para saltar), Conhecimento +27, Diplomacia +22, Guerra +27, Intimidação +32, Intuição +25, Misticismo +27, Nobreza +27, Sobrevivência +23.",
+    "tesouro": "Triplo."
+  }
+}

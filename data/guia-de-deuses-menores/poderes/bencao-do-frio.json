@@ -1,0 +1,15 @@
+{
+  "id": "bencao-do-frio",
+  "tipo": "poder",
+  "nome": "Bênção do Frio",
+  "resumo": "Redução de frio 5 e, ao terminar o turno adjacente a inimigos, enreda-os por 1 rodada (ou os imobiliza se já estavam enredados, Fortitude evita).",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 10 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "beluhga",
+    "prerequisito": "",
+    "descricao": "Você recebe redução de frio 5. Além disso, se terminar o seu turno adjacente a um ou mais inimigos, eles ficam enredados por cristais de gelo por 1 rodada. Se já estavam enredados dessa forma, em vez disso ficam imóveis por 1 rodada (Fortitude evita a condição imóvel)."
+  }
+}

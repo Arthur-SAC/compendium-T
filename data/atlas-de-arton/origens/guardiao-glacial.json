@@ -1,0 +1,26 @@
+{
+  "id": "guardiao-glacial",
+  "tipo": "origem",
+  "nome": "Guardião Glacial",
+  "resumo": "Você treinou como protetor das Uivantes e aprendeu a resistir ao frio e a usar arco longo e machado de batalha.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "As Uivantes são inclementes, mas também precisam de seus protetores. Você treinou com eles e aprendeu como afugentar intrometidos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "uivantes", "alvoTipo": "regiao", "rotulo": "Origem regional de Uivantes" }
+  ],
+  "mecanica": {
+    "itens": ["Casaco longo", "Cavalo glacial"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe redução de frio 5 e proficiência em arco longo e machado de batalha. Caso já possua proficiência com essas armas, você recebe +2 em rolagens de dano com elas."
+    },
+    "poderesUnicos": []
+  }
+}

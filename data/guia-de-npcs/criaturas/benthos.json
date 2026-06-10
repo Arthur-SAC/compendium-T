@@ -1,0 +1,85 @@
+{
+  "id": "benthos",
+  "tipo": "criatura",
+  "nome": "Benthos, Dragão-Rei dos Mares",
+  "resumo": "Dragão colossal e divindade menor dos oceanos, guardião das ilhas e das profundezas marinhas, que afundou frotas inteiras e sobreviveu ao embate com o Dragão da Tormenta.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 6
+  },
+  "imagens": [
+    "/criaturas/benthos.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este magnífico dragão de poderes divinos quase nunca visita a terra firme. Suas intervenções são raras, mas quando acontecem deixam consequências que ecoam por séculos.\n    O povo de Khubar ainda lembra da ocasião, quatro séculos atrás, em que o desbravador Thomas Lendilkar tentou invadir o arquipélago a fim de expandir o recentemente fundado reino de Bielefeld. Na ocasião, convocado por um ritual dos ilhéus, o Dragão-Rei afundou cidades inteiras, junto com o conquistador e toda sua linhagem.\n    Outra aparição famosa do dragão do mar foi sua batalha contra o aberrante Dragão da Tormenta. Até hoje o incansável guardião marinho traz no corpo e na alma as cicatrizes do terrível embate.\n    Em sua forma humanoide, Benthos parece um tritão robusto de pele azulada, com roupas feitas de conchas e algas. Na forma de dragão, exibe um corpanzil esguio, com escamas brilhantes em tons de azul claro e verde-água, barbatanas emergindo ao longo do corpo e uma longa cauda bifurcada. As asas, em forma de leque, são utilizadas para voar e nadar.\n    O dragão vê o mundo seco como algo menor, mas considera como seu território as inúmeras ilhas que defende e a vastidão submersa que habita na maior parte do tempo, reinando sobre as criaturas do mar."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Monstro (dragão, deus menor)",
+    "tamanho": "Colossal",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+24",
+    "percepcao": "+31, percepção às cegas (longo), visão no escuro",
+    "defesa": "66, imunidade a ácido, eletricidade, encantamento e precipitações (veja Tormenta20, p. 267), redução de dano 20, resistência a magia +5",
+    "fortitude": "+22",
+    "reflexos": "+36",
+    "vontade": "+30",
+    "pontosDeVida": "3.200",
+    "deslocamento": "12m (8q), natação 36m (24q), voo 36m (24q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +57 (6d20+55, 16), duas garras +57 (6d20+55, 16) e cauda +57 (6d20+55, 16)."
+    ],
+    "atributos": {
+      "forca": "19",
+      "destreza": "2",
+      "constituicao": "12",
+      "inteligencia": "7",
+      "sabedoria": "9",
+      "carisma": "11"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Mordida (teste +67)."
+      },
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Vontade CD 51 evita. Uma criatura que falhe no teste de Vontade sofre 4d6 pontos de dano psíquico."
+      },
+      {
+        "nome": "Coração da Tempestade (Completa)",
+        "descricao": "Benthos gera uma aura de 90m de raio com os mesmos efeitos de uma tempestade (veja Tormenta20, p. 267) que dura até o fim da cena ou até ele dissipá-la (uma ação livre)."
+      },
+      {
+        "nome": "Dilacerar",
+        "descricao": "Se Benthos acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 1d100+55 pontos de dano."
+      },
+      {
+        "nome": "Golpe Avassalador (Livre)",
+        "descricao": "Quando acerta um ataque de cauda, Benthos arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fort CD 51 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada."
+      },
+      {
+        "nome": "Investida Relampejante (Completa)",
+        "descricao": "Benthos faz uma investida com sua mordida enquanto projeta relâmpagos por onde passa. Criaturas a até 9m do caminho percorrido por Benthos sofrem 10d12 pontos de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Ref CD 51 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Maremoto Vivo (Padrão)",
+        "descricao": "Se estiver no mar ou acima dele, Benthos invoca um maremoto que afeta todas as criaturas em um cilindro de 6m de raio e 30m de altura a partir da superfície da água. Criaturas nessa área sofrem 10d12 pontos de dano de impacto e são tragadas para dentro do mar (Fort CD 51 reduz à metade e evita ser tragado). Uma criatura tragada afunda 1,5m para cada 5 pontos de dano sofrido. Recarga (movimento)."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 24m sofrem 24d12 pontos de dano de ácido; além disso, suas armas e escudos empunhados, além de suas armaduras, são avariados (veja Ameaças de Arton, p. 375; Ref CD 51 reduz à metade e evita as condições). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando Benthos faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Conhecimento +23, Diplomacia +27, Enganação +27, Intimidação +32, Intuição +25, Misticismo +23, Sobrevivência +30.",
+    "tesouro": "Triplo mais 10 peças de couro de dragão (CD 35 para extrair)."
+  }
+}

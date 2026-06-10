@@ -1,0 +1,94 @@
+{
+  "id": "maryx-corta-sangue",
+  "tipo": "criatura",
+  "nome": "Maryx Corta-Sangue",
+  "resumo": "Hobgoblin caçadora de elite de Lamnor, atual líder de um dos maiores exércitos herdeiros de Thwor, marcada pela tragédia pessoal e determinada a unir os goblinoides para concretizar o sonho do Deus da Morte.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 35
+  },
+  "imagens": [
+    "/criaturas/maryx-corta-sangue.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Maryx Nat'uyzkk, conhecida como \"Corta-Sangue\" pelos humanos, nasceu entre os batalhões de hobgoblins de Lamnor e, se o destino tivesse seguido seu caminho normal, teria sido mais uma soldada como tantos, lutando contra os elfos num batalhão. Mas, segundo o Akzath, seu futuro determinou seu passado e vice-versa. A vida de Maryx nunca seria comum.\n\nHobgoblins não costumavam formar famílias, mas conviver em unidades militares, onde lutavam como um só, abrindo mão da individualidade. Mas uma hobgoblin mais velha, estranhamente parecida com ela mesma, tomou a iniciativa de treinar a guerreira num estilo de luta diferente. Maryx aprendeu a ser ágil e furtiva, a lutar sozinha, a assassinar alvos importantes. A ser um indivíduo. Maryx não pode ter certeza de que aquela foi sua mãe, pois tais laços eram proibidos no exército. Mas isso não impede que pense em sua mestra como tal.\n\nMaryx era jovem quando Thwor Khoshkothruk ascendeu e uniu os povos goblinoides na Aliança Negra. Ela participou da tomada de Lenórienn, o reino dos elfos, e escoltou a princesa Tanya até seu cativeiro, o que levou a prisioneira a enxergar o lado dos goblinoides na guerra contra os elfos e, depois de algum tempo, mudar de lado, tornando-se seguidora ferrenha de Thwor.\n\nSendo guerreira de confiança do Imperador, Maryx recebeu a permissão especial de casar com um de seus comandados, o soldado Vartax. O casal teve duas filhas que, também por concessão de Thwor, puderam ser criadas por eles mesmos, em vez de serem entregues aos sacerdotes do Deus da Morte. Com o tempo, Maryx se tornou uma guerreira solitária, atuando em missões individuais ou em grupos pequenos, enquanto Vartax virou um gladiador na capital da Aliança Negra.\n\nMas, assim como o passado de Maryx era manchado de sangue, também seria seu futuro. Durante os eventos que levaram à revelação da Flecha de Fogo e à ascensão de Thwor como um deus, Maryx perdeu sua família. Vartax e as duas meninas foram assassinados pelo Deus da Morte, na tentativa de separar a guerreira de seus aliados. O plano não deu certo, mas marcou a caçadora para sempre.\n\nDepois da queda da Flecha de Fogo e da fragmentação da Aliança Negra, Maryx passou a liderar um dos exércitos que afirmam ser os \"verdadeiros herdeiros\" das palavras de Thwor. Uma das maiores lideranças em Lamnor atualmente, a hobgoblin procura unir de novo o continente e concretizar o sonho de seu deus: O Mundo como Deve Ser, um futuro em que o caos reina, acabando com diferenças mesquinhas entre raças e reinos.\n\nMaryx tem o corpo coberto de pequenas e médias tatuagens individuais. Cada uma é a marca de uma vitória — exceto a tatuagem de caveira que cobre seu rosto, um símbolo de punição por ter desafiado o clero do Deus da Morte. Ela luta com o kum'shrak, um tipo de arma feita do osso de um animal nativo de Lamnor. Não é um objeto mágico, mas pela própria natureza de como as coisas funcionam no continente, fica mais afiado sempre que mata alguém. O kum'shrak de Maryx é imbuído de morte. Apenas tocar na parte plana da arma é suficiente para tirar sangue de alguém que não tenha experiência ou não seja duyshidakk."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "thwor",
+      "alvoTipo": "divindade",
+      "rotulo": "Guerreira de Thwor"
+    }
+  ],
+  "mecanica": {
+    "nd": "17",
+    "tipo": "Humanoide (hobgoblin)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+24",
+    "percepcao": "+18, visão no escuro",
+    "defesa": "54, evasão, resistência a medo +5",
+    "fortitude": "+24",
+    "reflexos": "+30",
+    "vontade": "+17",
+    "pontosDeVida": "660",
+    "deslocamento": "9m (6q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Kum'shrak x2 +47 (4d8+28, 19/x3, mais veneno) e foice x2 +47 (4d6+28, x4).",
+      "À Distância Adaga x2 +44 (2d4+15)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "8",
+      "constituicao": "7",
+      "inteligencia": "1",
+      "sabedoria": "4",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Camuflagem da Caçadora",
+        "descricao": "Quando Maryx está sob camuflagem, seus inimigos aplicam a chance de erro por camuflagem a qualquer efeito contra ela (não apenas ataques). Isso protege apenas Maryx, não outros alvos ou criaturas na área do efeito."
+      },
+      {
+        "nome": "Eclipse",
+        "descricao": "Durante os eventos da ascensão do Ayrrak, Maryx cavalgava Eclipse, um warg montaria especial. Enquanto Maryx está montada, seu deslocamento se torna 12m, ela recebe uma ação de movimento extra por turno (apenas para se deslocar), +2d6 em rolagens de dano corpo a corpo e, uma vez por rodada, quando acerta um ataque corpo a corpo, pode fazer a manobra derrubar como uma ação livre (teste +49). Eclipse carrega os equipamentos de Maryx entranhados em seu pelo, fazendo com que ela nunca fique sem munição."
+      },
+      {
+        "nome": "Emboscar (Livre)",
+        "descricao": "Maryx executa uma ação padrão adicional em seu turno. Ela só pode usar esta habilidade na primeira rodada de um combate."
+      },
+      {
+        "nome": "Granadeira Veterana",
+        "descricao": "Maryx pode arremessar bombas e outros preparados alquímicos em alcance médio e pode arremessar dois desses itens com a mesma ação padrão."
+      },
+      {
+        "nome": "Marca da Presa (Livre)",
+        "descricao": "Uma vez por rodada, Maryx analisa uma criatura em alcance longo. Até o fim da cena, ela recebe +5 em testes de perícia, +5 na margem de ameaça e +2d10 em rolagens de dano contra essa criatura (o bônus em dano é dobrado contra criaturas desprevenidas, e os bônus totais são dobrados contra elfos e humanos)."
+      },
+      {
+        "nome": "Predadora Alfa (Movimento)",
+        "descricao": "Maryx faz um teste de Furtividade oposto à Percepção de uma criatura em alcance curto. Se passar, \"surge\" adjacente ao alvo e é considerada invisível contra ele até o início de seu próximo turno."
+      },
+      {
+        "nome": "Saque Rápido",
+        "descricao": "Maryx pode sacar e guardar itens como uma ação livre."
+      },
+      {
+        "nome": "Terror de Lamnor",
+        "descricao": "Maryx pode se mover com seu deslocamento normal enquanto usa Furtividade sem sofrer penalidades no teste de perícia e pode se esconder mesmo sem cobertura ou camuflagem, sumindo em plena vista."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 1d6 pontos de vida."
+      }
+    ],
+    "pericias": "Adestramento +15, Atletismo +21, Furtividade +24, Intimidação +15, Sobrevivência +20.",
+    "equipamento": "Adaga x6, bomba x2, bomba de fumaça x2, couro batido reforçado sob medida, foice maciça, kum'shrak equilibrado peçonhento preciso. A CD para resistir às bombas de Maryx é 44.",
+    "tesouro": "Nenhum."
+  }
+}

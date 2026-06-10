@@ -1,0 +1,26 @@
+{
+  "id": "neruite",
+  "tipo": "divindade",
+  "nome": "Neruíte",
+  "resumo": "Deusa do sono de origem muito antiga, de voz suave e melodiosa, cujas canções de ninar são mágicas e cujos templos serenos acolhem todos em busca de descanso sagrado e sonhos reveladores.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Ensinar a importância de um bom sono. Auxiliar as pessoas a obterem o descanso adequado. Velar pelo sono alheio. Desvendar pesadelos. Interpretar sonhos. Sonhar.",
+    "simboloSagrado": "Uma vela apagada.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Maça.",
+    "devotos": "Aggelus, elfos, qareen, sereias/tritões, sílfides, arcanistas, bardos, caçadores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Neruíte jamais podem acordar intencionalmente alguém que esteja dormindo, ou permitir que outros o façam. Além disso, sempre que acorda, o devoto fica pasmo por 1 rodada, enquanto seu espírito lentamente desperta de seu sono sagrado.",
+    "poderesConcedidos": ["Sono Reparador"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Neruíte é uma deusa maternal, de voz suave e melodiosa, que convida todos a relaxar em um sono tranquilo e reparador. Sua presença de aparência inconstante traz uma paz inexplicável, envolvendo os corações aflitos com serenidade e aconchego. Suas canções de ninar são mágicas e possuem o poder de adormecer qualquer criatura, independente de seu tamanho ou natureza. Uma vez adormecida pela melodia de Neruíte, a criatura não acordará até ter um descanso adequado, segundo os ensinamentos da deusa.\n\nDevoto de Neruíte acreditam que o sono, quando adequado e tranquilo, é um ritual sagrado. São ensinados a respeitar o ciclo natural do descanso, evitando excessos e buscando sempre a harmonia entre o dia e a noite. Os sacerdotes de Neruíte, conhecidos como \"Sonhadores\", passam seus dias compartilhando as lições de equilíbrio e de cuidados com o corpo e a mente, realizando cerimônias que celebram a importância do descanso.\n\nNão se sabe a origem exata de Neruíte, apenas que a deusa é muito antiga. Certas histórias falam de uma princesa de um reino ancestral, que teria adormecido num sono de décadas, sem envelhecer ou sofrer qualquer efeito do tempo. Seus súditos teriam começado a peregrinar para velar seu sono, aos poucos transformando-se em seus devotos… Infelizmente, ninguém conhece o final da história, pois todos adormecem ao ouvi-la, então não se sabe se tem algum fundo de verdade.\n\nOs templos de Neruíte são conhecidos por sua atmosfera serena e acolhedora. Decorados com tecidos suaves, almofadas e velas perfumadas, esses santuários são considerados locais ideais para descansar e se reconectar com o divino."
+    }
+  ]
+}

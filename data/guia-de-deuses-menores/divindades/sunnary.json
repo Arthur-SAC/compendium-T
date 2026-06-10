@@ -1,0 +1,26 @@
+{
+  "id": "sunnary",
+  "tipo": "divindade",
+  "nome": "Sunnary",
+  "resumo": "Aldeã cozinheira que ascendeu a Deusa Menor da Culinária ao apaziguar um dragão com um banquete, sendo adorada por sua generosidade à mesa e sua habilidade como mediadora de conflitos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Reverenciar a arte da culinária. Alimentar os necessitados. Cozinhar com prazer. Criar novas receitas. Espalhar a palavra da boa culinária.",
+    "simboloSagrado": "Panela sobre uma fogueira.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Adaga.",
+    "devotos": "Aggelus, anões, elfos, hynne, qareen, bardos, druidas, nobres, paladino.",
+    "obrigacoesRestricoes": "Devotos de Sunnary não podem se negar a atender um pedido para cozinhar para alguém, e devem preparar pelo menos um prato especial por semana.",
+    "poderesConcedidos": ["Alimento da Alma"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dona Sunnary, como ficou conhecida, nasceu em uma pequena vila desconhecida, não se casou e nem teve filhos, mas adotou toda a vila como sua família. Sempre com uma refeição deliciosa e uma palavra amiga, resolvia todas as disputas e desavenças em torno da mesa farta. Era devota de Marah e representava muito bem o lado gentil e tranquilo da Deusa da Paz. Sua fama como cozinheira e mediadora de conflitos se espalhou pela região e logo a pequena vila recebia viajantes em busca da comida de Dona Sunnary.\n\nA vida transcorria tranquila até que o vilarejo foi ameaçado por um terrível dragão. Sem recursos para enfrentar a ameaça mortal, os aldeões entraram em pânico, rezando aos deuses por misericórdia e implorando por uma solução. No entanto, como a maioria dos artonianos sabe, os deuses não resolvem seus problemas diretamente, mas enviam campeões para isso. Nesse caso, a campeã não foi nenhuma aventureira.\n\nEmocionada pela situação e com fé inabalável nas próprias habilidades, a talentosa cozinheira decidiu intervir. Dona Sunnary escolheu suas melhores receitas e fez um banquete magnífico em honra ao seu \"convidado\" dragão, chamando-o para conversar e partilhar a refeição. Ao fim da sobremesa, o dragão já estava apaziguado e desistiu de destruir a vila. Adotou o vilarejo como seu protegido em troca de banquetes periódicos feitos pelas mãos divinas de Dona Sunnary. Curiosamente, logo a ameaça implícita nisso se dissipou. O dragão passou a ser apenas mais um conviva. A história se espalhou e logo começaram as peregrinações para conhecer a lendária cozinheira. E assim, Dona Sunnary, a simpática aldeã, ascendeu como divindade menor da culinária, abençoando a boa comida e aqueles que a produzem.\n\nComo deusa, Dona Sunnary costuma parecer uma senhora baixa de cabelos grisalhos, sempre presos em coque (para que seu cabelo não caia nas panelas), com olhos gentis, cintura roliça e nariz aquilino, sempre sorridente."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "betsumial",
+  "tipo": "divindade",
+  "nome": "Betsumial",
+  "resumo": "Deus dos Vigias, mortal petryniense de um único olho ciclópico que ascendeu à divindade por sua visão extraordinária e morreu na Batalha de Tamu-ra em 1405.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 11 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 1",
+    "crencasObjetivos": "Vigiar os arredores. Manter-se alerta. Preparar-se para os perigos e reagir a eles com antecipação. Proteger os mais fracos e indefesos.",
+    "simboloSagrado": "Um olho aberto.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Arco longo.",
+    "devotos": "Anões, elfos, hynne, kliren, naidoras, bárbaros, bucaneiros, caçadores, cavaleiros, guerreiros, ladinos, paladino.",
+    "poderesConcedidos": ["Olhos do Vigia"],
+    "obrigacoesRestricoes": "Devotos de Betsumial sempre se oferecem para vigiar um local, objeto ou criatura, se isso for necessário, e jamais se recusam a fazê-lo (mas não precisam permanecer em vigília por mais de 1 dia).",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Betsumial era uma divindade de pequena importância há cerca de 300 anos. Nasceu em Petrynia, marcado por ter um único enorme olho no meio da face, capaz de enxergar a enormes distâncias. Seu nariz era deformado, para dar espaço ao olho ciclópico, resultando em uma voz fanhosa. Devido a seus poderes, ainda na infância começou a ser cultuado por aqueles que dependiam da visão para sobreviver. Os primeiros devotos foram vigias. Logo vieram guardas, exploradores, patrulheiros e outros. Ainda jovem, como um aventureiro errante, era disputado por lordes que desejavam tê-lo a seu serviço e por cidades que o queriam como seu guardião. Assim, Betsumial ascendeu a deus menor.\n\nSeu culto foi sempre obscuro — dominado por uma irmandade de guardas e outros \"vigilantes\". Ele mesmo nunca se preocupou em angariar seguidores, mas sempre concedeu sua bênção a todos que vinham procurá-lo. Sua religião nunca teve um centro definido, até a queda de Glórienn, em 1405. Na época, formou-se uma espécie de sítio de peregrinação nas colinas próximas à antiga Malpetrim, onde seus devotos controlavam a chegada de novos seguidores, mas as peregrinações acabaram quando Betsumial encontrou seu fim na Batalha de Tamu-ra, mais tarde no mesmo ano. Suas representações póstumas mostram um jovem magriço que usava uma venda cobrindo seu único olho — mas essa venda, curiosamente, às vezes trazia um olho enorme pintado no tecido."
+    }
+  ]
+}

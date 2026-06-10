@@ -1,0 +1,15 @@
+{
+  "id": "cancao-divina",
+  "tipo": "poder",
+  "nome": "Canção Divina",
+  "resumo": "Use Sabedoria para Atuação e como atributo-chave de magias de bardo; aprende e pode lançar Despedaçar (–1 PM ao reaprender enquanto usar o poder).",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 14 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "canora",
+    "prerequisito": "",
+    "descricao": "Você pode usar Sabedoria para Atuação (em vez de Carisma) e como atributo-chave de suas magias de bardo (se as tiver). Além disso, aprende e pode lançar a magia Despedaçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

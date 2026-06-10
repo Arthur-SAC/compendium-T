@@ -1,0 +1,28 @@
+{
+  "id": "klangor",
+  "tipo": "divindade",
+  "nome": "Klangor",
+  "resumo": "Ferreiro anão que se tornou um deus ao dominar técnicas tão intrincadas que suas armaduras — mais resistentes que o aço e leves como seda — tornaram-no uma figura mítica ainda em vida; sobreviveu à batalha de Tamu-ra e agora forja proteções metafísicas para guerreiros que combatem o mal.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 29 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "doherimm", "alvoTipo": "regiao", "rotulo": "Origem em Doherimm, Reino dos Anões" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 4",
+    "crencasObjetivos": "Forjar as melhores armaduras. Honrar e proteger a raça, a cultura e as tradições anãs. Defender a vida de guerreiros e soldados, dando-lhes as ferramentas para se protegerem.",
+    "simboloSagrado": "Um elmo anão.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Martelo de guerra.",
+    "devotos": "Aggelus, anões, cavaleiros, guerreiros, inventores, paladino.",
+    "obrigacoesRestricoes": "Devotos de Klangor devem passar pelo menos uma hora por dia limpando, consertando ou polindo uma armadura, ou treinando enquanto trajam uma armadura. Além disso, pelo menos uma vez por aventura o devoto deve fabricar uma armadura qualquer.",
+    "poderesConcedidos": ["Manutenção Sagrada"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Klangor se destaca entre as várias divindades anãs como uma figura imponente e admirada. Ele não é apenas um deus de metais, mas um verdadeiro símbolo de resistência e resiliência. Seu corpo, recoberto por uma couraça de pedra e metal, desperta o temor e a admiração dos que o contemplam. É difícil discernir se essa armadura é uma construção criada pelo próprio Klangor ou se faz parte intrínseca de seu ser, um mistério que apenas ele pode responder.\n\nSua origem está nos primórdios de Doherimm. Klangor foi um dos primeiros membros da Guilda dos Armeiros do Reino dos Anões, responsável por muitas das inovações que há séculos fazem parte da arte tradicional da fabricação de armaduras entre essa raça. Contudo, ao longo dos séculos as técnicas de Klangor se tornaram tão precisas e intrincadas que ele não era mais capaz de ensiná-las a ninguém. Suas armaduras eram mais fortes que o aço, mas leves como seda. Assim, o ferreiro deixou de ser apenas um mestre e passou a ser considerado uma figura mítica, ainda em vida. Passou a ser cultuado e se tornou um deus.\n\nEm 1405, a resiliência de Klangor foi testada nas chamas da batalha mais sangrenta que já presenciou. Como sobrevivente do ataque devastador do exército de deuses menores à área de Tormenta de Tamu-ra, o Deus das Armaduras suportou os horrores dessa cataclísmica invasão que matou vários de seus companheiros. A batalha deixou cicatrizes profundas no mundo, mas Klangor se ergueu das cinzas.\n\nApós a batalha, o deus menor se dedica a um propósito nobre e altruísta: forjar armaduras metafísicas para aqueles que enfrentam as forças malignas que assolam Arton. Ele pode ser encontrado tanto no subterrâneo quanto na superfície, fabricando suas obras-primas para guerreiros valorosos."
+    }
+  ]
+}

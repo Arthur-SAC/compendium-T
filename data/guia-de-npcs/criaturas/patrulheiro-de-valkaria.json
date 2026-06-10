@@ -1,0 +1,49 @@
+{
+  "id": "patrulheiro-de-valkaria",
+  "tipo": "criatura",
+  "nome": "Patrulheiro de Valkaria",
+  "resumo": "A base da hierarquia da Guarda de Valkaria, com treinamento e equipamento de melhor qualidade que as demais cidades.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 71 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+5",
+    "percepcao": "+4",
+    "defesa": "18",
+    "fortitude": "+11",
+    "reflexos": "+7",
+    "vontade": "+4",
+    "pontosDeVida": "17",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +13 (1d8+5, 19) ou porrete x2 +13 (1d6+5 não letal).",
+      "À Distância Arco longo +13 (1d8+5, x3)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "2",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Guardião Urbano",
+        "descricao": "O patrulheiro recebe +2 em testes de ataque, Atletismo, Intuição e Percepção em Valkaria."
+      },
+      {
+        "nome": "Manter a Ordem",
+        "descricao": "O patrulheiro recebe +2 em testes para agarrar, derrubar ou desarmar."
+      }
+    ],
+    "pericias": "Atletismo +5, Intuição +4.",
+    "equipamento": "Arco longo, algemas, apito, couro batido reforçado, espada longa, flechas x20, lampião, porrete (veja Ameaças de Arton, p. 393).",
+    "tesouro": "Metade."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "querido-filho",
+  "tipo": "origem",
+  "nome": "Querido Filho",
+  "resumo": "Em Aslothia você abraçou a dádiva das trevas, ganhando redução de frio e trevas e visão no escuro.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você passou parte de sua juventude em Aslothia. Lá, por escolha ou imposição do destino, abraçou a dádiva das trevas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Origem regional de Aslothia" }
+  ],
+  "mecanica": {
+    "itens": ["Essência de sombra", "Manto camuflado (urbano)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você redução de frio e trevas 5 e visão no escuro. Se já possuir visão no escuro, em vez disso recebe +2 em Percepção."
+    },
+    "poderesUnicos": []
+  }
+}

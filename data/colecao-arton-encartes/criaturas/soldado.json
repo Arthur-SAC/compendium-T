@@ -1,0 +1,44 @@
+{
+  "id": "soldado",
+  "tipo": "criatura",
+  "nome": "Soldado",
+  "resumo": "Combatente humano de infantaria do Exército do Reinado, linha de defesa contra perigos mundanos.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 3 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Exército do Reinado",
+    "iniciativa": "+3",
+    "percepcao": "+2",
+    "defesa": "17",
+    "fortitude": "+10",
+    "reflexos": "+5",
+    "vontade": "+2",
+    "pontosDeVida": "15",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Alabarda +10 (1d10+9, x3)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Valentia",
+        "descricao": "Se um aliado do soldado em alcance curto for reduzido a 0 PV ou menos, o soldado recebe +2 em testes de ataque e rolagens de dano em seu próximo turno."
+      }
+    ],
+    "pericias": "Atletismo +5.",
+    "equipamento": "Alabarda, brunea.",
+    "tesouro": "Metade."
+  }
+}

@@ -34,6 +34,7 @@ const TIPO_PARA_AREA: Record<string, string> = {
   divindade: "deuses",
   criatura: "bestiario",
   regiao: "mundo",
+  "regiao-expansao": "mundo",
   "regra-de-criacao": "regras",
   regra: "regras",
 };

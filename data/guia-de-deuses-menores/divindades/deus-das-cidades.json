@@ -1,0 +1,26 @@
+{
+  "id": "deus-das-cidades",
+  "tipo": "divindade",
+  "nome": "O Deus das Cidades",
+  "resumo": "Conceito vivo formado por todos os centros urbanos de Arton, com infinitos nomes — um por cidade — cujo corpo é feito de ruas e prédios e que encarna o modo de vida urbano dos artonianos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Conceito vivo, status divino 4",
+    "crencasObjetivos": "Formar comunidades e ajudar a desenvolvê-las. Estabelecer caravanas em entrepostos comerciais. Proteger o modo de vida das pessoas nos grandes centros.",
+    "simboloSagrado": "Torres amontoadas atrás de um muro.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Martelo de guerra.",
+    "devotos": "Anões, elfos, goblins, hynne, kliren, minotauros, arcanistas, bardos, inventores, ladinos, lutadores, nobres.",
+    "obrigacoesRestricoes": "Devotos do Deus das Cidades jamais podem se manter afastados de um centro urbano por mais 2d10+10 dias, nem se recusar a auxiliar uma comunidade.",
+    "poderesConcedidos": ["Manha da Cidade"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "À primeira vista, esta divindade parece não ter nome. No entanto, o oposto é verdade: o Deus das Cidades tem infinitos nomes, batizado de novo e de novo sempre que uma nova comunidade é formada. Chama-se Nova Malpetrim, Smokestone, Norm, Roschfallen, Var Raan, Gallien, Ghallystryx… Chama-se até mesmo Valkaria e Rhond. O Deus Menor das Cidades é composto por todos os centros urbanos de Arton. Em parte, ele é cada cidade do mundo. Portanto, uma divindade de grande poder.\n\nHá quem diga que o Deus das Cidades já foi um mortal; um mendigo que vagava de comunidade em comunidade. No entanto, a corrente de pensamento mais aceita afirma que isso nunca ocorreu — o Deus das Cidades apenas se formou espontaneamente quando os grandes centros urbanos do continente floresceram (ou até mesmo antes). Ele é uma manifestação do modo de vida dos artonianos urbanos, uma coleção de tudo que significa viver em cidades.\n\nSeu corpo é formado por ruas, prédios, cercas e telhados. Embora seja uma criatura enorme, sua aparência é incongruente, pois não é tão grande a ponto de abrigar tudo isso dentro de si. Alguns afirmam que a forma física do deus é como um portal para várias comunidades em Arton. Além disso, seu corpanzil é avassalador em combate, capaz de fazer frente aos mais ferozes deuses guerreiros. Fica mais poderoso com a concentração urbana — o próprio ato de viver em comunidade é uma forma de adoração.\n\nO Deus das Cidades pode ser encontrado nos esgotos, subterrâneos ou outros lugares ocultos de metrópoles como Valkaria. Contudo, alguns dizem que ele está presente ao mesmo tempo em todas as cidades de Arton. Basta encontrá-lo."
+    }
+  ]
+}

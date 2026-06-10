@@ -1,0 +1,15 @@
+{
+  "id": "inspiracao-concedida",
+  "tipo": "poder",
+  "nome": "Inspiração Concedida",
+  "resumo": "Gasta 2 PM para acumular bônus crescente (+1, +2, +3…) em testes de perícia até o fim da cena, que zera ao repetir uma perícia já usada.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 7 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "anilatir",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para evocar o poder da criatividade. Até o fim da cena, sempre que fizer um teste de perícia, você recebe um bônus cumulativo de +1 nesse teste (ou seja, +1 no primeiro teste, +2 no segundo teste, +3 no terceiro e assim por diante). Esse bônus dura até o fim da cena ou até você fazer um teste de uma perícia que já tenha usado nesta cena."
+  }
+}

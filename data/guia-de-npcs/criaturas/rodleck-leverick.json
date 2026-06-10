@@ -1,0 +1,85 @@
+{
+  "id": "rodleck-leverick",
+  "tipo": "criatura",
+  "nome": "Rodleck Leverick",
+  "resumo": "Sumo-sacerdote hynne de Hyninn e arquiteto das Catacumbas de Leverick, labirinto mortal que se expande por Arton e outros mundos, considerado um dos maiores vilões do mundo conhecido.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 46
+  },
+  "imagens": [
+    "/criaturas/rodleck-leverick.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Filho de mãe artesã e pai com pretensões de inventor, Rodleck Leverick nasceu e cresceu em uma das várias comunidades nas colinas do antigo reino de Hongari. Ao contrário da maioria dos hynne, era magro e esguio, com longos cabelos castanhos, nariz adunco e sobrancelhas arqueadas.\n\nRodleck era atraído por enigmas e jogos. A curiosidade se transformou em ofício e ele começou a elaborar seus próprios quebra-cabeças, um mais complexo que o outro. Levava-os à taverna local e desafiava os frequentadores a solucioná-los, o que nunca acontecia. Rodleck se divertia com a sensação de superioridade. Era o hynne mais esperto da colina.\n\nMas e se pudesse ser mais? E se fosse o hynne mais esperto do reino? O mais esperto de Arton? Ou ainda, mais esperto que os humanos, elfos, minotauros e outros?\n\nCom essa meta, Rodleck juntou suas coisas e se mudou para uma cidade humana, onde retomou seus desafios. E com igual sucesso. Mesmo ali ninguém podia solucionar seus enigmas. Ou quase ninguém.\n\nCerto dia, Rodleck notou um homem que observava o espetáculo em silêncio, mas com olhar cínico. Suspeitando ser um espertinho a provocá-lo, o hynne apresentou-lhe um quebra-cabeça, esperando ver seu fracasso. Para sua surpresa, o humano cumpriu a tarefa rapidamente e sem esforço, saindo ainda com um sorriso matreiro. Iniciou-se assim a batalha dos quebra-cabeças, que durou semanas. Rodleck trazia novos enigmas, aperfeiçoava suas obras — mas o estranho vencia com facilidade.\n\nO hynne descobriu, então, que seu adversário era Hilben Calatori, um clérigo de Hyninn, o Deus da Trapaça. Fascinado, pediu para ser introduzido ao culto e iniciou seu treinamento. Tempos depois, agora clérigo, vingou-se de seu mentor com um último quebra-cabeça — um cubo mecânico que, ao ser resolvido, revelou lâminas que amputaram os dedos de Hilben.\n\nA fama do engenhoso hynne logo chegou a Lorde Filthen, um nobre entediado, que sonhava construir a masmorra mais mortal de Arton. Rodleck foi secretamente convidado a projetar um enorme complexo, repleto de armadilhas em suas câmaras e corredores. Dois anos depois, ao concluir sua obra, Rodleck enganou e matou seu empregador. Tomou o controle do labirinto, que batizou de Catacumbas de Leverick, e passou a atrair aventureiros para a masmorra, divertindo-se com suas mortes e tomando seus tesouros.\n\nMas e se pudesse ser mais? E se fosse o mais esperto dos clérigos? E se fosse o sumo-sacerdote?\n\nSeverus, na época o clérigo máximo de Hyninn, era vítima de uma poderosa maldição. Através de um plano intrincado, Rodleck plantou rumores e boatos sobre uma possível cura. Como resultado, o sacerdote acabou enganado e prisioneiro das Catacumbas de Leverick.\n\nImpressionado, o próprio Hyninn surgiu perante o hynne e, com um aperto de mão (elétrico), proclamou Rodleck Leverick seu sumo-sacerdote. Foi quando as catacumbas sob domínio do vilão se expandiram quase infinitamente, conectando-se a labirintos em Arton e outros mundos, graças a um fenômeno conhecido como \"espaço de masmorra\". Entretanto, surgem rumores sobre o interesse de outras forças neste labirinto infindável, indicando que um dia até mesmo este astuto hynne poderá ser passado para trás.\n\nRodleck empregou os últimos anos atraindo aventureiros cada vez mais poderosos para as Catacumbas — atualmente vastas como um mundo, com diversas populações residentes de humanoides e monstros. Entradas e armadilhas ocultas em toda Arton conduzem exploradores incautos ao labirinto mortal.\n\nA fortuna de Rodleck é incalculável, comparável ao tesouro de grandes dragões (na verdade, alguns deles habitam a masmorra). Uma legião de ladinos, assassinos, clérigos e outros devotos de Hyninn está a seu serviço. Rodleck confia que mesmo heróis lendários seriam vencidos por sua engenhosidade. Ele é, hoje, um dos maiores vilões de Arton.\n\nMas e se pudesse ser mais…?"
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "hyninn",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-sacerdote de Hyninn"
+    }
+  ],
+  "mecanica": {
+    "nd": "17",
+    "tipo": "Humanoide (hynne)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+20",
+    "percepcao": "+19",
+    "defesa": "52, cura acelerada 5, esquiva sobrenatural, evasão, imunidade a adivinhação, armadilhas, efeitos mentais e de movimento, proteção divina",
+    "fortitude": "+17",
+    "reflexos": "+30",
+    "vontade": "+24",
+    "pontosDeVida": "560",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +41 (1d4+17, 18)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "6",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Armadilhas Divinas (Padrão)",
+        "descricao": "Combinando sua genialidade com as bênçãos de Hyninn, Rodleck prepara uma das armadilhas a seguir. A CD dos testes para encontrar, desarmar e resistir às armadilhas é 46.\n• Arapucas Invisíveis. Rodleck conjura 2d4+1 arapucas que se espalham em um raio de 18m ao redor dele e constantemente mudam de posição dentro da área. Sempre que um inimigo de Rodleck se mover nessa área, deve rolar 1d20. Se o resultado for igual ou menor que o número de quadrados percorridos, a criatura ativa uma arapuca ao final do movimento; a vítima sofre 18d8 pontos de dano de um tipo à escolha de Rodleck e fica paralisada por 1 rodada (Ref reduz o dano à metade e evita a condição). Cada arapuca permanece na área até ser ativada ou até o fim da cena. Recarga (todas as arapucas serem ativadas).\n• Alçapão Dimensional. Rodleck prepara um alçapão dimensional que o acompanha até o fim da cena ou até ser ativado. Quando uma criatura erra um ataque corpo a corpo contra Rodleck, ele pode ativar o alçapão para enviá-la a um semiplano protegido contra teletransporte e viagens planares (Von evita). A criatura permanece nessa dimensão até o fim da cena ou até escapar; fazer isso requer gastar uma ação padrão e passar em um teste de Inteligência (CD 20). Se passar, a criatura retorna para seu espaço original ou, se isso não for possível, para um espaço adjacente desocupado. Uma criatura só pode ser afetada por esta habilidade uma vez por cena. Minotauros são imunes ao alçapão.\n• Artimanha Mística. Rodleck prepara uma armadilha pessoal, contendo uma magia divina ou de ilusão de até 5º círculo, que permanece até o fim da cena ou até ser ativada. Quando um inimigo em alcance curto falha em um teste de perícia, Rodleck pode ativar a armadilha para lançar a magia instantaneamente, como um clérigo de Hyninn de 17º nível, sem gastar PM (limite de PM 22).\n• Gerador de Ilusões. Rodleck cria uma ilusão que ocupa um cubo de 90m com duração sustentada. Quando a armadilha é ativada, cada criatura na área deve fazer um teste de Vontade; se falhar, acredita que a ilusão é real e sofre 12d6 pontos de dano psíquico não letal. Cada criatura que começar seu turno dentro da área e acreditar na ilusão deve repetir o teste de Vontade."
+      },
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "+6d6."
+      },
+      {
+        "nome": "Forma de Macaco (Completa)",
+        "descricao": "Uma vez por cena, Rodleck se transforma em um macaco. Ele adquire tamanho Minúsculo (+5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalada 9m. Seu equipamento desaparece (e ele perde seus benefícios) até ele voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso ele faça um ataque, lance uma magia ou sofra dano."
+      },
+      {
+        "nome": "Manto do Trapaceiro",
+        "descricao": "Rodleck ignora todos os efeitos de qualquer ataque contra ele em que o resultado do d20 de ataque seja um valor ímpar."
+      },
+      {
+        "nome": "Punição Divina (Padrão)",
+        "descricao": "Vont CD 46 evita."
+      },
+      {
+        "nome": "Sorte Salvadora (Reação)",
+        "descricao": "Uma vez por rodada, Rodleck pode rolar novamente um teste de resistência."
+      },
+      {
+        "nome": "Mestre das Catacumbas",
+        "descricao": "Rodleck possui controle absoluto sobre a famigerada masmorra conhecida como Catacumbas de Leverick. Dentro dela ele é considerado um rei da arena (veja Ameaças de Arton, p. 368). Além dos benefícios por ser um chefe final, ele não pode ser surpreendido, suas magias custam –2 PM (cumulativo com outras reduções) e ele soma sua Sabedoria na Defesa e nos testes de resistência, Enganação, Ladinagem, Misticismo e Religião."
+      }
+    ],
+    "pericias": "Acrobacia +18, Diplomacia +17, Enganação +26, Furtividade +20, Intimidação +17, Intuição +19, Investigação +20, Jogatina +24, Ladinagem +25 (+27 para abrir fechadura), Misticismo +20, Ofício (alquimista) +20, Ofício (armadilheiro) +25, Religião +19.",
+    "equipamento": "Adaga precisa dançarina formidável, anel da regeneração, anel do escudo mental, bola de cristal, dois instrumentos de Ofício (alquimista e armadilheiro) aprimorados, gazua aprimorada, símbolo sagrado de Hyninn.",
+    "tesouro": "Triplo."
+  }
+}

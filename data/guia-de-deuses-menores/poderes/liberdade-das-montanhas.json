@@ -1,0 +1,15 @@
+{
+  "id": "liberdade-das-montanhas",
+  "tipo": "poder",
+  "nome": "Liberdade das Montanhas",
+  "resumo": "Rola dois dados e usa o melhor em Atletismo para escalar; +2 em testes de perícia contra criaturas em terreno inferior quando em terreno elevado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 7 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "altair",
+    "prerequisito": "",
+    "descricao": "Quando faz um teste de Atletismo para escalar, você rola dois dados e usa o melhor resultado. Além disso, se você estiver em terreno elevado, recebe +2 em testes de perícia contra criaturas em terreno inferior."
+  }
+}

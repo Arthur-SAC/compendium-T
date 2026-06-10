@@ -1,0 +1,15 @@
+{
+  "id": "na-ponta-da-lingua",
+  "tipo": "poder",
+  "nome": "Na Ponta da Língua",
+  "resumo": "Gaste 2 PM para propor uma charada a uma criatura inteligente e substituir automaticamente seu teste de Vontade se vencer o teste de Enganação oposto.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 20 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "garanaam",
+    "prerequisito": "",
+    "descricao": "Sempre que fizer um teste de Vontade para resistir a uma habilidade de uma criatura inteligente (Int –3 ou maior), você pode gastar 2 PM para propor uma charada a ela. Faça um teste de Enganação, oposto pelo Conhecimento ou Intuição da criatura. Se você vencer o teste, passa automaticamente no teste de Vontade. Caso contrário, faça o teste de Vontade normalmente."
+  }
+}

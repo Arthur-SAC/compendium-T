@@ -1,0 +1,26 @@
+{
+  "id": "tamalu",
+  "tipo": "origem",
+  "nome": "Tamalu",
+  "resumo": "Você nasceu entre a casta política de Khubar, ostentando tatuagens mágicas que contam sua história e conferem benefícios.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu entre os tamalus, a casta política de Khubar que ostenta tatuagens mágicas mostrando sua história. Embora sua saga esteja apenas começando, você já conquistou sua primeira tatuagem."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "khubar", "alvoTipo": "regiao", "rotulo": "Origem regional de Khubar" }
+  ],
+  "mecanica": {
+    "itens": ["Traje da corte"],
+    "beneficios": {
+      "pericias": ["Diplomacia", "Nobreza"],
+      "poderes": [],
+      "texto": "Você é treinado em Diplomacia e Nobreza e recebe uma tatuagem mística à sua escolha."
+    },
+    "poderesUnicos": []
+  }
+}

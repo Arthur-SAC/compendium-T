@@ -1,0 +1,15 @@
+{
+  "id": "conjurar-cristal",
+  "tipo": "poder",
+  "nome": "Conjurar Cristal",
+  "resumo": "Gasta ação de movimento e 3 PM para conjurar cristal azul, verde ou vermelho; ao quebrá-lo, concede RD 20 contra dano, nova rolagem de TR, ou ação de movimento extra, respectivamente.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "deus-cristal-de-urielka",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 3 PM para conjurar um cristal azul, verde ou vermelho. Conforme a cor do cristal, você pode quebrá-lo para gerar um efeito: azul (recebe RD 20 contra um dano recém-sofrido); verde (rola novamente um teste de resistência recém-realizado); vermelho (ganha uma ação de movimento nesse turno). O cristal dura até o fim da cena, até ser usado ou até você conjurar outro cristal."
+  }
+}

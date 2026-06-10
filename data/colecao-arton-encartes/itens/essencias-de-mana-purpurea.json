@@ -1,0 +1,16 @@
+{
+  "id": "essencias-de-mana-purpurea",
+  "tipo": "item",
+  "nome": "Essências de mana (Empório Purpúrea)",
+  "resumo": "Três variações de essência de mana vendidas pelo Empório Purpúrea, recuperando de 1d4 a 3d4 PM.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30 a T$ 750",
+    "espacos": "0,5",
+    "especial": "Além de essência de mana comum, o Empório Purpúrea vende três variações. Todas exigem uma ação padrão para serem usadas, mas seus efeitos variam.\n\nAguada (T$ 30). Para aventureiros cansados de ter muita energia, esta essência de sabor leve e refrescante é ideal. Recupera 1d4 PM, mas se o valor rolado for 4, deve ser rolado novamente uma vez.\n\nConcentrada (T$ 150). Para veteranos exigentes, o Empório traz o que há de melhor. Recupera 2d4 PM.*\n\nPura (T$ 750). Fórmula exclusiva do Empório Purpúrea e mantida em segredo pela fundadora Aylarianna Purpúrea. Recupera impressionantes 3d4 PM!*\n\n*Como essências concentradas e puras recebem muitas encomendas e a logística de distribuição do Reinado é um tanto precária, eventuais erros de empacotamento e/ou distribuição podem ocorrer. Quando um desses itens é usado, seu usuário deve rolar 1d6. Em um resultado 1, ele gera os efeitos de uma essência aguada. O Empório Purpúrea não trabalha com reembolsos."
+  }
+}

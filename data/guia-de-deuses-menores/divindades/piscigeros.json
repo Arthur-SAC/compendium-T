@@ -1,0 +1,26 @@
+{
+  "id": "piscigeros",
+  "tipo": "divindade",
+  "nome": "Piscigeros",
+  "resumo": "Divindade dos homens-peixes nascida da crença popular instilada por thalassothan mentirosos, que pode ter tomado existência real nas profundezas marinhas.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 39 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Conceito vivo, status divino 1",
+    "crencasObjetivos": "Obedecer aos arautos do Pai Peixe acima de tudo. Vencer a qualquer custo, pela força ou estratégia. Proteger a cultura e o modo de vida dos homens-peixes. Dominar os mares e os seres sob as ondas.",
+    "simboloSagrado": "Um peixe imenso em um cardume de peixes menores.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Tridente.",
+    "devotos": "Dahllan, elfos-do-mar, hynne, kappa, minotauros, sereias/tritões, bárbaros, bucaneiros, caçadores, druidas, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Piscigeros jamais podem ignorar um pedido de ajuda de um homem-peixe e devem proteger qualquer membro de seu povo até a morte, se preciso. Além disso, devotos do Pai Peixe jamais podem desobedecer às ordens dos arautos de sua divindade ou causar dano letal ou perda de PV a eles (habilidades que forneçam bônus em dano letal ou em perda de vida para criaturas em combate contra eles também são proibidas). Esse último dogma vem sendo contestado por alguns sacerdotes de Piscigeros, mas não se sabe ainda as consequências de fazer isso.",
+    "poderesConcedidos": ["Bolha Hídrica"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Também chamado entre os homens-peixes de Pai Peixe, esta divindade possui uma história curiosa. Originalmente, o Pai Peixe não passava de uma mentira dos thalassothan, monstros aquáticos inteligentes e cruéis, capazes de herdar memórias de seus progenitores e absorvê-las de suas vítimas. Esses algozes das águas convenceram os homens-peixes da existência do deus Piscigeros para obter controle sobre eles, afirmando serem arautos dessa divindade.\n\nEntretanto, o poder da crença em Arton é tão forte — e a farsa durou tantas gerações — que há relatos de um indivíduo solto nas profundezas marítimas que afirma ser Piscigeros, e que está sendo cultuado pelos homens-peixes. Os thalassothan foram pegos desprevenidos por isso. Vários homens-peixes já se revoltaram contra seus mestres ao perceber que os \"arautos do Pai Peixe\" pareciam saber menos sobre o deus do que seus servos!\n\nSe o tal \"Piscigeros\" é um ser que tomou a identidade do Pai Peixe para si ou se de fato surgiu espontaneamente devido à crença dos fiéis, ninguém da superfície sabe ainda. O que se sabe é que a fé dos homens-peixes é genuína, e que seus devotos são os comandantes dessa raça submarina — alguns até mesmo desafiando o controle thalassothan."
+    }
+  ]
+}

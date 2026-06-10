@@ -1,0 +1,48 @@
+{
+  "id": "sabio",
+  "tipo": "criatura",
+  "nome": "Sábio",
+  "resumo": "Em pequenas comunidades onde não há burgomestre ou clérigo, muitas vezes esses papéis acabam nas mãos de um ancião ou anciã respeitados por sua sabedoria. Também há aqueles que vivem isolados, como eremitas… Ou aqueles que inesperadamente entram em tavernas à procura de aventureiros.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 67 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+1",
+    "percepcao": "+7",
+    "defesa": "9",
+    "fortitude": "+0",
+    "reflexos": "+2",
+    "vontade": "+7",
+    "pontosDeVida": "9",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bordão +2 (1d6–1)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "–1",
+      "constituicao": "0",
+      "inteligencia": "3",
+      "sabedoria": "3",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Conselho (Completa)",
+        "descricao": "Uma vez por cena por criatura, o sábio instrui uma criatura inteligente em alcance curto. Ela recebe +1d6 num teste à sua escolha em seu próximo turno."
+      },
+      {
+        "nome": "Eloquência (Completa)",
+        "descricao": "O sábio distrai uma criatura inteligente (Int –3 ou maior) em alcance curto, que fica pasma por 1 rodada (Vont CD 16 evita e a criatura não pode mais ficar pasma por esta habilidade até o fim do dia)."
+      }
+    ],
+    "pericias": "Conhecimento +10, Cura +10, Intuição +10, Misticismo +10, Nobreza +10, Ofício (alquimia) +10, Religião +10, Sobrevivência +10.",
+    "equipamento": "Bálsamo restaurador, bordão, gorro de ervas.",
+    "tesouro": "Padrão."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "alcaide-de-valkaria",
+  "tipo": "criatura",
+  "nome": "Alcaide de Valkaria",
+  "resumo": "Patrulheiros veteranos que operam liderando patrulhas ou alocados em postos importantes da cidade, como portões ou praças de mercados.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 70 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+6",
+    "percepcao": "+6",
+    "defesa": "23",
+    "fortitude": "+15",
+    "reflexos": "+10",
+    "vontade": "+6",
+    "pontosDeVida": "70",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +16 (1d8+8, 19).",
+      "À Distância Arco longo x2 +16 (1d8+8, x3)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "2",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Chamar Reforços (Padrão)",
+        "descricao": "O alcaide invoca 1d4 patrulheiros de Valkaria (veja p. 71) que surgem em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do alcaide. Recarga (1d4 rodadas)."
+      }
+    ],
+    "pericias": "Atletismo +7, Intuição +6.",
+    "equipamento": "Arco longo, algemas, apito, cota de malha reforçada, espada longa, flechas x20, lampião.",
+    "tesouro": "Metade."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "futura-lenda",
+  "tipo": "origem",
+  "nome": "Futura Lenda",
+  "resumo": "Nascido em Nova Malpetrim ouvindo histórias de heróis, você decidiu superá-los e recebe um poder de classe antecipado.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu ouvindo histórias sobre heróis, talvez tenha sido batizado com o nome de um deles e por fim decidiu fazer a única coisa que tinha sentido: superá-los!"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "nova-malpetrim", "alvoTipo": "regiao", "rotulo": "Origem regional de Nova Malpetrim" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial com nome pomposo (e nenhuma melhoria)", "Essência de mana x2"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Escolha um dos poderes de sua classe, normalmente disponíveis a partir do 2º nível. Você recebe esse poder."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "guarda-palaciano",
+  "tipo": "criatura",
+  "nome": "Guarda Palaciano",
+  "resumo": "Guarda de elite encarregado de proteger os portões e as muralhas de um castelo; pequenos grupos podem ser destacados para missões especiais sob o comando de um guarda real.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 71 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+6",
+    "percepcao": "+5",
+    "defesa": "21",
+    "fortitude": "+14",
+    "reflexos": "+4",
+    "vontade": "+9",
+    "pontosDeVida": "28",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +16 (1d8+8, 19).",
+      "À Distância Besta pesada +16 (1d12+4, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Sentinela Determinada",
+        "descricao": "O guarda palaciano recebe +2 em testes de perícia quando está lutando para defender seu posto (como um castelo, fortificação ou templo)."
+      }
+    ],
+    "pericias": "Atletismo +6, Intuição +5.",
+    "equipamento": "Besta pesada, escudo pesado, espada longa, meia armadura, virotes x20.",
+    "tesouro": "Metade."
+  }
+}

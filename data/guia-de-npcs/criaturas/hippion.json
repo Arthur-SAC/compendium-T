@@ -1,0 +1,68 @@
+{
+  "id": "hippion",
+  "tipo": "criatura",
+  "nome": "Hippion, o Deus menor dos Cavalos",
+  "resumo": "Corcel imortal venerado como o deus principal de Namalkah, montaria de heróis e pai espiritual dos tropeiros, ginetes e centauros.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 20
+  },
+  "imagens": [
+    "/criaturas/hippion.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este inigualável corcel é considerado a deus principal de Namalkah, sendo mais adorado até mesmo que as vinte divindades maiores.\n\nA história conta que, quando os primeiros povoadores vindos do sul chegaram, tiveram um encontro pacífico com os nativos. Isso influenciou muito a cultura rústica namalkahniana. Os locais já adoravam o deus, considerando-o a montaria imortal de inúmeros heróis ao longo da história. Alguns dos centauros mais antigos o tinham como seu próprio criador.\n\nCom o passar dos séculos a devoção a este ser só cresceu. Amazonas, ginetes e tropeiros faziam oferendas, chamando-o por uma longa lista de epítetos como \"o Indomável\", \"Pai dos Tropéis do Trovão\" e \"Trono das Rainhas Guerreiras\".\n\nDizem que às vezes o garanhão eterno viaja incógnito, permitindo apenas que pessoas verdadeiramente dignas o montem. Suas aparições causam um desejo irrefreável de correr pelas planícies e, geralmente, ele é seguido por um cortejo enorme de outros cavalos, todos parecendo meros potros ao seu lado.\n\nA forma mais retratada do deus tem pelos brancos, com uma crina longa e selvagem e olhos completamente claros, parecendo refletir o infinito. Entretanto, ele é conhecido por assumir inúmeros outros aspectos, mas todos mantendo as características pelas quais são renomados os cavalos: força, velocidade, selvageria e lealdade."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "habitat",
+      "alvoId": "namalkah",
+      "alvoTipo": "regiao",
+      "rotulo": "Deus principal de Namalkah"
+    }
+  ],
+  "mecanica": {
+    "nd": "16",
+    "tipo": "Animal (deus menor)",
+    "tamanho": "Grande",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+18",
+    "percepcao": "+21, faro, visão na penumbra",
+    "defesa": "54, imunidade a atordoamento, cansaço, efeitos de metabolismo e movimento, medo, metamorfose e veneno, redução de dano 15",
+    "fortitude": "+38",
+    "reflexos": "+24",
+    "vontade": "+26",
+    "pontosDeVida": "820",
+    "deslocamento": "24m (16q), ignora terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Cascos x2 +46 (4d8+36). Os cascos de Hippion são armas mágicas."
+    ],
+    "atributos": {
+      "forca": "10",
+      "destreza": "4",
+      "constituicao": "5",
+      "inteligencia": "1",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Atropelamento (Completa)",
+        "descricao": "Hippion percorre até o dobro do seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d8+18 pontos de dano de impacto e ficam caídas (Ref CD 42 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Velocidade do Vento (Livre)",
+        "descricao": "Até o fim da cena, Hippion pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias. Este efeito se encerra se Hippion passar uma rodada sem percorrer pelo menos 15m e só pode ser ativado uma vez por cena."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Hippion é um parceiro montaria Grande mestre que aceita ser montado apenas por personagens que julgue dignos e que tenham o poder Ginete. Ele fornece os seguintes benefícios: seu deslocamento muda para 24m, você recebe duas ações de movimento extras por turno (ambas apenas para se deslocar) e soma a Força de Hippion à sua (+10)."
+      }
+    ],
+    "pericias": "Atletismo +29 (+39 para corrida e saltar), Intuição +19, Sobrevivência +19.",
+    "tesouro": "Nenhum."
+  }
+}

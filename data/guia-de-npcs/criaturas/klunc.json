@@ -1,0 +1,70 @@
+{
+  "id": "klunc",
+  "tipo": "criatura",
+  "nome": "Klunc, o Bárbaro",
+  "resumo": "Bárbaro humano de força colossal que, ao devorar o coração de um gigante, ganhou o poder de crescer até o tamanho de um gigante quando enraivecido.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 29
+  },
+  "imagens": [
+    "/criaturas/klunc.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Pouco se sabe sobre este bárbaro conhecido apenas como Klunc, exceto tratar-se de um humano. Ainda que muitos duvidem.\n\nO auge de sua carreira ocorreu na companhia de heróis como o cavaleiro Lothar Algherulff, o pirata Nargom Mandíbula, o bardo qareen Kadeen e outros. Nesses tempos estranhos, teria se transformado não apenas em um mago inteligentíssimo, mas também em um frágil golem conjurador. Mais tarde, contudo, acabaria devolvido à forma \"normal\".\n\nKlunc seria apenas mais um bárbaro forte e estúpido, não fosse o poder fabuloso que adquiriu ao devorar o coração de um gigante derrotado. Quando se enfurece, Klunc cresce até tornar-se ele próprio um gigante — ou, como costuma dizer, \"Klunc fica maaais Klunc!\". Essa habilidade foi decisiva durante a Guerra Artoniana, quando o titã embrutecido e emburrecido causou danos incalculáveis aos batalhões puristas.\n\nIndivíduo de metas simples, Klunc ama presunto e seus amigos, nessa ordem. Chegou a atuar como gladiador patrocinado pela Guilda dos Presunteiros de Valkaria. Em sua matemática peculiar, \"dois\" é qualquer número acima de um; tal aritmética inovadora costuma levar a negociações conturbadas, sobretudo quando envolve presuntos.\n\nComo (falta de) tática de combate, Klunc tem predileção por quebrar a arma do adversário, em vez de (ou antes de) matá-lo. Teria despedaçado algumas das armas mágicas mais formidáveis de Arton. Por essa razão, muitos clérigos de Arsenal o consideram seu maior inimigo e pior pesadelo!"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Grande",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+13",
+    "defesa": "42, redução de dano 15",
+    "fortitude": "+26",
+    "reflexos": "+13",
+    "vontade": "+20",
+    "pontosDeVida": "410",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Presuntador x3 +38 (3d6+35 essência, x3)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "1",
+      "constituicao": "8",
+      "inteligencia": "–3",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Amigo de Klunc (Livre)",
+        "descricao": "Uma vez por dia, o espírito do bardo Kadeen surge e lança uma magia arcana de até 4º círculo para ajudar Klunc (CD para resistir 35)."
+      },
+      {
+        "nome": "Klunc Mais Klunc (Movimento)",
+        "descricao": "Klunc se torna Colossal até o fim da cena (essa mudança afeta seu equipamento também). Ele recebe Força +5 e seus ataques se tornam +43 (4d6+40 essência, x3)."
+      },
+      {
+        "nome": "Klunc Não Morre (Reação)",
+        "descricao": "Uma vez por cena, Klunc pode ignorar um dano recém-sofrido."
+      },
+      {
+        "nome": "Klunc Quebra",
+        "descricao": "Klunc recebe +5 em testes de ataque para quebrar e causa +2d8 pontos de dano em construtos e objetos."
+      },
+      {
+        "nome": "Klunk Quase Ogro",
+        "descricao": "Todo dano que Klunc sofre é reduzido à metade."
+      }
+    ],
+    "pericias": "Atletismo +26, Intimidação +14.",
+    "equipamento": "Armadura completa de adamante defensora, Presuntador.",
+    "tesouro": "Nenhum."
+  }
+}

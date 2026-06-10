@@ -1,0 +1,26 @@
+{
+  "id": "sckhar",
+  "tipo": "divindade",
+  "nome": "Sckhar",
+  "resumo": "Dragão-Rei do Fogo que governa Sckharshantallas com mão de ferro, venerado como deus oficial de todo o reino por sua força, influência e temperamento explosivo.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 5",
+    "crencasObjetivos": "Reverenciar a soberania de Sckhar. Reverenciar os filhos do Dragão-Rei do Fogo. Enfrentar heresia ou transgressão às leis, domínios e à honra de Sckhar. Combater as criaturas que ameacem os súditos de Sckharshantallas. Caçar quaisquer dragões que invadam o território sckharjagar.",
+    "simboloSagrado": "Chamas vermelhas com uma coroa dourada no centro.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Lança.",
+    "devotos": "Elfos, kallyanach, meios-elfos, arcanistas, bardos, cavaleiros, nobres, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Sckhar devem obedecer cegamente às ordens do seu Dragão-Rei, especialmente quando convocados para expulsar dragões e outras criaturas aparentadas do território de Sckharshantallas. Além disso, uma vez por mês, os devotos devem doar 20% de todo seu tesouro para os cofres de Sckhar. Essa doação deve ser feita em ouro.",
+    "poderesConcedidos": ["Ego"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "De várias formas, Sckhar representa tudo aquilo que define um dragão — força, influência, orgulho, perigo… —, sempre ao extremo. Sua expressão é intimidadora mesmo quando está calmo, e ele se enfurece com facilidade. Seus acessos de raiva são notórios, pois assassina seus servos, guardas e esposas diante da menor transgressão. Com uma nação inteira à sua disposição e nenhuma das preocupações \"mundanas\" de um regente (como intrigas, rivais ou ameaças de invasões), Sckhar devota grande parte do tempo e dos recursos de Sckharshantallas à sua adoração.\n\nExistem inúmeros relatos sobre Sckhar como um rei (ou tirano): sobre como considera todo o reino seu covil e tudo que está dentro de suas fronteiras como seu tesouro. Existem histórias sobre Sckhar como oponente: poucos sobrevivem a sua fúria, e ele teve papel decisivo na luta contra o Dragão da Tormenta. Existem até mesmo boatos sobre os sentimentos de Sckhar: ele teria se apaixonado por Beluhga no passado, sendo capaz de uma forma de amor. Teria também feito um pacto com o cavaleiro Lothar Algherulff, mostrando astúcia e dando ouvidos a uma \"criatura inferior\".\n\nSckhar é um dos deuses menores mais presentes nas vidas de seus devotos. Eles sentem o toque do deus sempre que acordam sob o calor escaldante do reino. Festivais são realizados em sua honra, sacrifícios ritualísticos de prisioneiros ocorrem todos os anos, no feriado do Dia da Execução, após o Sckharal (também um feriado em honra ao deus). O culto a Sckhar é a religião oficial de Sckharshantallas. A devoção faz parte da vida de qualquer sckharjagar, como são chamados os nativos do reino. Alguém que não seja devoto de Sckhar é visto com desconfiança, um esquisito que provavelmente está escondendo outras \"infrações\". Sckhar cobra pesados tributos, mas também lhes fornece uma fruta extremamente nutritiva, garantindo que seus súditos/devotos não passem fome. Sckhar é absoluto. Ao mesmo tempo, seus filhos ocupam quase todas as posições de alto poder, tornando a figura física do deus estranhamente próxima. Para um sckharjagar médio, Sckhar é muito mais poderoso (ou ao menos perigoso) que Khalmyr ou mesmo Valkaria!\n\nNa forma humanoide, Sckhar aparenta ser um elfo de cabelos vermelhos e porte altivo. Sempre usa vestimentas soberbas, em tons quentes como vermelho e dourado. Poderia ser confundido com um nobre elfo qualquer, não fosse um traço particular — seu olho esquerdo é cego, trazendo três cicatrizes alinhadas que cruzam sua extensão. Em sua forma dracônica, o Dragão-Rei é uma das mais impressionantes e aterradoras criaturas de Arton. Suas escamas são de um escarlate profundo, entremeadas com algumas douradas e cor de rubi, com garras enormes e poderosas, e a cabeça coroada com chifres espiralados."
+    }
+  ]
+}

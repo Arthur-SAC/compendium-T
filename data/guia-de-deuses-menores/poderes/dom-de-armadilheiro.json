@@ -1,0 +1,15 @@
+{
+  "id": "dom-de-armadilheiro",
+  "tipo": "poder",
+  "nome": "Dom de Armadilheiro",
+  "resumo": "Recebe um poder de Armadilha do caçador e +2 na CD de todas as armadilhas; pode aprender Conjurar Armadilha como magia divina.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 14 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "canastra",
+    "prerequisito": "",
+    "descricao": "Você recebe um poder de Armadilha do caçador a sua escolha e a CD de todas as suas armadilhas aumenta em +2. Além disso, você pode aprender Conjurar Armadilha (Heróis de Arton, p. 252) como uma magia divina."
+  }
+}

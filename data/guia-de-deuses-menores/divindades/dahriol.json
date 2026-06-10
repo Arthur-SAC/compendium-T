@@ -1,0 +1,29 @@
+{
+  "id": "dahriol",
+  "tipo": "divindade",
+  "nome": "Dahriol",
+  "resumo": "Herói mortal ascendido, deus dos selos e mensageiro fiel, que protege barreiras e informações secretas, servindo como guardião do que deve permanecer fechado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 16 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "serve", "alvoId": "tanna-toh", "alvoTipo": "divindade", "rotulo": "Mensageiro de Tanna-Toh, a Deusa do Conhecimento" },
+    { "tipo": "serve", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Mensageiro ocasional de Khalmyr" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 1",
+    "crencasObjetivos": "Proteger os selos. Impedir que ameaças seladas causem mal a Arton. Estudar selos místicos e manter o mal afastado através deles.",
+    "simboloSagrado": "Um selo de cera.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Bordão.",
+    "devotos": "Anões, elfos, qareen, arcanistas, bardos, cavaleiros, guerreiros, nobres, paladino.",
+    "obrigacoesRestricoes": "Devotos de Dahriol não podem recusar pedidos de ajuda para entregar mensagens ou impedir que selos sejam abertos. Além disso, não podem abrir selos trancados sem permissão. Para estes fins, um \"selo\" é qualquer barreira, como uma porta, tranca ou fechadura, mundana ou mágica.",
+    "poderesConcedidos": ["Selo Impedidor"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dahriol foi um grande herói eras atrás, responsável por atravessar verdadeiros infernos para entregar mensagens de suma importância que mudaram o destino de reinos inteiros. Qualquer um que quisesse garantir a entrega de sua carta buscava Dahriol e o herói nunca rompeu um selo que não devia — fosse o simples selo de cera de um pergaminho confidencial, fosse o selo místico de uma porta. Admirado por milhares, arrebanhou tanto poder que começou a ser considerado um deus por muitas pessoas ajudadas por seus feitos, além de ter inspirado outros mensageiros a se comportar da mesma forma.\n\nNum mundo em que vencer limites, quebrar barreiras e desvendar segredos são demonstrações de heroísmo valorizadas por quase todos, Dahriol é um defensor daquilo que deve ser mantido fechado, protegido e seguro. Desde entidades malignas que não podem escapar de suas prisões até informações sensíveis que não podem chegar aos olhos e ouvidos de inimigos, tudo que deve ficar selado é domínio de Dahriol. Assim, mesmo sem a fama de outros deuses menores, esta divindade carrega um grande fardo.\n\nComo recompensa por suas ações e seu senso de dever, Dahriol costuma servir como mensageiro de Tanna-Toh, a Deusa do Conhecimento, e ocasionalmente também de Khalmyr. Além disso, já foi enviado para Arton em missões envolvendo reunir aventureiros e garantir que selos amaldiçoados continuassem intactos. Durante sua participação na saga do Disco dos Três, ajudando a impedir que o deus menor Sartan viesse ao mundo, Dahriol foi o instigador de uma das primeiras expedições registradas de aventureiros do continente às proximidades de Galrasia. Assim, também é cultuado por alguns exploradores da ilha. Costuma se mostrar aos mortais como um homem velho com longos cabelos e barba branca, vestido com roupas simples e empunhando um cajado de madeira em uma das mãos."
+    }
+  ]
+}

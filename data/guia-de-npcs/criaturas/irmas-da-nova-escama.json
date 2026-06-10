@@ -1,0 +1,100 @@
+{
+  "id": "irmas-da-nova-escama",
+  "tipo": "criatura",
+  "nome": "Irmãs da Nova Escama (Hemera, Acteia e Ilítia)",
+  "resumo": "Tríade de medusas feiticeiras filhas de Kallyadranoch que, após séculos petrificadas para preservar a memória do pai, vagam por Arton em busca de discípulas para sua fé dracônica.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 25
+  },
+  "imagens": [
+    "/criaturas/irmas-da-nova-escama.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "Dragão Brasil 134",
+      "texto": "Esta tríade de medusas feiticeiras caminhou em Arton pela primeira vez há muito tempo, nascidas da união de Kallyadranoch com Acalântis, uma sábia que vivia em uma caverna na Floresta de Tollon.\n\nConforme seu poder mágico crescia, aumentava sua devoção ao pai. As trigêmeas chegaram até a criar uma ordem religiosa que, seguindo uma tradição na cultura das medusas, se organizava em trios.\n\nDurante o esquecimento do Deus dos Dragões, as poderosas irmãs fizeram a única coisa que podiam para guardar sua memória. Em um ato de desespero, usaram seus olhares amaldiçoados uma na outra, transformando-se em pedra. Ficariam assim preservadas, até o dia que ele retornasse.\n\nRetornaram à vida em uma Arton completamente diferente, na qual um perigo desconhecido, a Tormenta, ameaça toda a Criação. A ordem que fundaram não existe mais — seus únicos vestígios são alguns tesouros, na caverna em que elas foram encontradas por um grupo de aventureiros azarados.\n\nA tríade sabe do retorno do Terceiro e hoje vaga por Arton em busca de discípulas e seguidoras. Apesar de algumas semelhanças, as Irmãs da Nova Escama não são sszzaazitas. Elas reconhecem que sutilezas são úteis, mas acreditam que, como herdeiras de dragões, nasceram para governar."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "kallyadranoch",
+      "alvoTipo": "divindade",
+      "rotulo": "Filhas e devotas de Kallyadranoch"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "floresta-de-tollon",
+      "alvoTipo": "regiao",
+      "rotulo": "Nascidas de uma caverna na Floresta de Tollon"
+    }
+  ],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Monstro (medusa)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+13",
+    "percepcao": "+13, percepção às cegas, visão no escuro",
+    "defesa": "41, imunidade a atordoamento, cansaço, metamorfose e paralisia, redução de dano 5, resistência a veneno +5",
+    "fortitude": "+14",
+    "reflexos": "+21",
+    "vontade": "+26",
+    "pontosDeVida": "390",
+    "pontosDeMana": "96",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Punhal escarlate +35 (1d4+5, 19, mais 1d6 essência e veneno)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura de Medo (Livre, 2 PM)",
+        "descricao": "A irmã da Nova Escama gera uma aura de medo de 9m de raio que dura até o fim da cena. Todos os inimigos que entram na aura ficam abalados até o fim da cena (Von CD 37 evita e a criatura fica imune a esta habilidade por um dia)."
+      },
+      {
+        "nome": "Linhagem Dracônica",
+        "descricao": "Cada irmã herdou afinidade com um tipo de energia (fogo para Hemera, ácido para Acteia e eletricidade para Ilítia). Cada irmã tem imunidade a dano desse tipo e suas magias que causam dano desse tipo custam –1 PM e causam +1 ponto de dano por dado. Sempre que reduz um ou mais inimigos a 0 PV ou menos com uma magia do tipo escolhido, a irmã recebe uma quantidade de PM temporários igual ao círculo da magia."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a irmã muda a execução dela para livre."
+      },
+      {
+        "nome": "Olhar Atordoante (Movimento)",
+        "descricao": "Uma criatura em alcance curto fica atordoada por 1 rodada (apenas uma vez por cena; Fort CD 37 evita)."
+      },
+      {
+        "nome": "Serpentes Dracônicas (Livre, +1 PM)",
+        "descricao": "Quando usa seu Sopro ou lança uma magia que causa dano do tipo de sua linhagem dracônica, a irmã aumenta o dano dessa habilidade em +1d12."
+      },
+      {
+        "nome": "Servos do Dragão (Completa, 2 PM)",
+        "descricao": "A irmã invoca 2d4+1 kobolds em espaços desocupados em alcance curto. Eles agem a partir do próximo turno da irmã, têm deslocamento 9m e podem gastar uma ação padrão para causar 1d6-1 pontos de dano de corte em uma criatura adjacente. Os kobolds têm For –1, Des 4, Defesa 12 e 1 PV, falham automaticamente em qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 9m sofrem 4d12 pontos de dano de um tipo conforme a Linhagem Dracônica da irmã e ficam ofuscadas por 1d4 rodadas (se o dano for de eletricidade), em chamas (se o dano for de fogo) ou vulneráveis por 1d4 rodadas (se o dano for de ácido) (Ref CD 37 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 1d12 pontos de vida."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma feiticeira de linhagem dracônica de 13º nível (CD 37, limite de PM 18).\n• Armadura Arcana (Reação, 2 PM): A irmã recebe +5 na Defesa contra o próximo ataque que sofrer.\n• Bola de Fogo (Padrão, 17 PM): Uma explosão causa 20d6 pontos de dano de fogo em criaturas e objetos livres numa esfera de 6m em alcance médio (Ref reduz à metade).\n• Campo de Força (Reação, 7 PM): Quando sofre dano, a irmã recebe RD 50 contra esse dano.\n• Dissipar Magia (Padrão, 3 PM): A irmã escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Enfeitiçar (Padrão, 1 PM): Um humanoide em alcance curto fica enfeitiçado (Von evita).\n• Ferver Sangue (Padrão, 18 PM, sustentada): A irmã faz o sangue de uma criatura em alcance curto aquecer até entrar em ebulição. Quando a magia é lançada, e no início de cada um de seus turnos, o alvo sofre 10d8 pontos de dano de fogo e fica enjoado por 1 rodada (Fort reduz à metade e evita a condição). Se o alvo passar em dois testes de Fortitude seguidos, dissipa a magia. Se o alvo for reduzido a 0 PV pelo dano desta magia, seu corpo explode, matando-o e causando 6d6 pontos de dano de fogo em todas as criaturas a até 3m (Ref reduz à metade). Não afeta criaturas sem sangue, como construtos ou mortos-vivos.\n• Flecha Ácida (Padrão, 6 PM): Uma criatura ou objeto em alcance médio sofre 10d6 pontos de dano de ácido e fica coberta por um muco corrosivo, que causa mais 8d6 pontos de dano de ácido no início de seus 2 próximos turnos e reduz permanentemente o bônus na Defesa de sua armadura e escudo em –2 (Ref reduz à metade e evita o muco corrosivo). Contra objetos livres, a magia causa dano dobrado e ignora RD.\n• Marca da Obediência (Padrão, 6 PM): A irmã ordena que uma criatura adjacente não ataque ela ou seus aliados até o fim da cena (Von evita). A criatura pode repetir o teste de Vontade em cada um de seus turnos subsequentes mas, se falhar, sofre 3d6 pontos de dano psíquico.\n• Pele de Pedra (Padrão, 10 PM): A irmã recebe redução de dano 10 até o fim da cena.\n• Relâmpago (Padrão, 7 PM): A irmã lança um relâmpago em cada criatura escolhida em alcance médio, causando 8d8 pontos de dano de eletricidade (Ref reduz à metade).\n• Velocidade (Padrão, 10 PM, sustentada): A irmã pode executar uma ação padrão adicional por turno."
+      }
+    ],
+    "pericias": "Conhecimento +14, Diplomacia +15, Intimidação +17, Intuição +13, Misticismo +14, Ofício (artesão) +14, Religião +13.",
+    "equipamento": "Braceletes das escamas, face dracônica, instrumentos de Ofício (artesão) aprimorados, punhal escarlate, símbolo sagrado de Kallyadranoch, veste de seda aprimorada.",
+    "tesouro": "Padrão."
+  }
+}

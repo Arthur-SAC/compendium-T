@@ -1,0 +1,15 @@
+{
+  "id": "arsenal-do-oceano",
+  "tipo": "poder",
+  "nome": "Arsenal do Oceano",
+  "resumo": "Proficiência e bônus de ataque com tridente; se já proficiente, aumenta o dano.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tessalus",
+    "prerequisito": "",
+    "descricao": "Você recebe proficiência em tridente e recebe +1 em testes de ataque e na margem de ameaça com essa arma. Se já for proficiente em tridente, seu dano aumenta em um passo."
+  }
+}

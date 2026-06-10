@@ -1,0 +1,28 @@
+{
+  "id": "garanaam",
+  "tipo": "divindade",
+  "nome": "Garanaam",
+  "resumo": "Deus das Charadas de traços de esfinge, sobrevivente enlouquecido da Batalha de Tamu-ra, que se tornou ele mesmo um enigma em forma de divindade — mais elaborado e insondável do que nunca.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 20 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "recrutadoPor", "alvoId": "orion-drake", "alvoTipo": "criatura", "rotulo": "Recrutado por Orion Drake para o Exército de Deuses na Batalha de Tamu-ra" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Testar a inteligência dos artonianos. Jogar com as palavras. Compreender significados. Propor enigmas. Esconder o que é óbvio.",
+    "simboloSagrado": "Um ponto de interrogação.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Bordão.",
+    "devotos": "Goblins, kliren, qareen, arcanistas, bardos, bucaneiros, inventores, ladinos.",
+    "obrigacoesRestricoes": "Um devoto de Garanaam deve, pelo menos uma vez por cena, responder a uma pergunta com um enigma, uma charada ou um jogo de palavras que devem ser decifrados por quem perguntou.",
+    "poderesConcedidos": ["Na Ponta da Língua"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um homem com traços de esfinge, que sempre falava em metáforas, enigmas e perguntas, Garanaam pregava que as respostas só poderiam ser obtidas vendo as coisas por outro ponto de vista e que as mais importantes verdades se escondem da obviedade. Ao mesmo tempo, ensinava a seus devotos que só aqueles capazes de pensar fora dos padrões comuns e ver o que não é evidente eram dignos de suas bênçãos.\n\nDiz-se que, apesar de um dia ter sido um mortal, Garanaam não guarda nenhuma semelhança com a pessoa que era antes de ascender. Sua aparência, sotaque, maneirismos e até mesmo seu nome teriam sido totalmente diferentes. De fato, talvez haja uma charada no próprio nome de Garanaam, além de um prêmio místico para quem for capaz de decifrá-la. Ao se tornar um deus menor, Garanaam virou ele mesmo uma charada, um enigma em forma de divindade.\n\nGaranaam foi recrutado por Orion Drake para o Exército de Deuses e lutou na Batalha de Tamu-ra. Contudo, diferente da maioria das divindades menores que participaram desse conflito, o Deus das Charadas não está morto! Ao entrar na área de Tormenta de Tamu-ra, Garanaam se deparou com os lefeu e enlouqueceu. Em sua mente surgia a charada suprema: o que são aquelas criaturas? Qual a forma real dos demônios da Tormenta, meramente traduzidos pelos cérebros artonianos em quelíceras e carapaças rubras? O Deus das Charadas agarrou as têmporas e caiu de joelhos, gargalhando insanamente.\n\nQuando a batalha acabou e a Tormenta foi sugada de volta para a Anticriação, Garanaam foi resgatado e levado de volta ao continente junto com os deuses feridos, mas carregava em sua mente a loucura que vivenciou. Hoje se veste com panos sujos e puídos. Seu cajado com a forma de um ponto de interrogação está quebrado. No entanto, suas charadas são ainda mais elaboradas: por trás de sua loucura, Garanaam mantém uma lógica em seus enigmas."
+    }
+  ]
+}

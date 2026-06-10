@@ -1,0 +1,84 @@
+{
+  "id": "beluhga",
+  "tipo": "criatura",
+  "nome": "Beluhga, Dragoa-Rainha do Gelo",
+  "resumo": "Dragoa colossal e divindade menor das Montanhas Uivantes, outrora acorrentada por Khalmyr, morta pelo Paladino de Arton e agora reerguida da morte.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 4
+  },
+  "imagens": [
+    "/criaturas/beluhga.png"
+  ],
+  "secoes": [],
+  "relacoes": [
+    {
+      "tipo": "habitat",
+      "alvoId": "uivantes",
+      "alvoTipo": "regiao",
+      "rotulo": "Habita as Montanhas Uivantes"
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Monstro (dragão, deus menor)",
+    "tamanho": "Colossal",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+24",
+    "percepcao": "+35, percepção às cegas (longo), visão no escuro",
+    "defesa": "66, imunidade a encantamento e frio, redução de dano 20, resistência a magia +5, vulnerabilidade a fogo",
+    "fortitude": "+22",
+    "reflexos": "+36",
+    "vontade": "+30",
+    "pontosDeVida": "2.400",
+    "deslocamento": "12m (8q), escavação (apenas em gelo e neve) 12m (8q), voo 36m (24q)",
+    "pontosDeMana": "274",
+    "ataques": [
+      "Corpo a Corpo Mordida +57 (6d20+55, 16) e duas garras +57 (6d20+55, 16)."
+    ],
+    "atributos": {
+      "forca": "18",
+      "destreza": "3",
+      "constituicao": "13",
+      "inteligencia": "12",
+      "sabedoria": "13",
+      "carisma": "12"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Aterradora",
+        "descricao": "Vontade CD 51 evita. Uma criatura que falhe no teste de Vontade contra a Aura Aterradora de Beluhga sofre 6d6 pontos de dano psíquico."
+      },
+      {
+        "nome": "Escamas Refletoras",
+        "descricao": "Sempre que Beluhga passa em um teste de resistência contra um efeito mágico que tenha ela como um de seus alvos, o efeito é refletido para seu usuário. O efeito mantém suas características originais e afeta os demais alvos normalmente. O novo alvo tem direito a um teste de resistência como normal, se aplicável."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "Beluhga pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Beluhga muda a execução dela para livre."
+      },
+      {
+        "nome": "Senhora do Frio",
+        "descricao": "Beluhga emite uma aura de frio em um raio de 30m. Nessa área, efeitos que causam dano de frio custam –1 PM para serem usados e causam +1 ponto de dano por dado, e efeitos que causam dano de fogo custam +1 PM para serem usados e causam –1 ponto de dano por dado (já contabilizados nas magias e no sopro). Dano de frio causado por Beluhga nessa área ignora redução de dano e, contra criaturas imunes a frio, ainda causa metade do dano."
+      },
+      {
+        "nome": "Sopro (Padrão)",
+        "descricao": "Todas as criaturas em um cone de 24m sofrem 24d12+24 pontos de dano de frio e, se forem Grandes ou menores, ficam caídas e são empurradas 9m na direção oposta. Se houver uma parede ou outro objeto sólido (mas não uma criatura) no caminho, a criatura para de se mover, mas sofre 2d6 pontos de dano de impacto (Ref CD 51 reduz à metade e evita a condição e o empurrão). Recarga (movimento)."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando Beluhga faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora arcana de 20º nível (CD 51, limite de PM 32).\n• Campo de Força (Reação, 11 PM): Quando sofre dano, Beluhga recebe redução de dano 70 contra esse dano.\n• Dardo Gélido* (Padrão, 31 PM): Cinco criaturas em alcance curto sofrem 29d8+29 pontos de dano de frio e ficam lentas por 1 rodada (Fort reduz à metade e evita a condição).\n• Dissipar Magia (Padrão, 3 PM): Beluhga escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Globo de Invulnerabilidade (Padrão, 15 PM, sustentada): Beluhga é envolta por uma esfera mágica de 3m que detém qualquer magia de 4º círculo ou menor.\n• Imobilizar (Padrão, 9 PM): Uma criatura em alcance curto fica paralisada (Von reduz para lenta). A cada rodada, a vítima pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, liberta-se do efeito.\n• Muralha Elemental (Padrão, 6 PM, somente gelo): Uma muralha de gelo se eleva da terra. Pode ser um muro de até 30m de comprimento e 3m de altura (ou o contrário) ou uma cúpula de 6m de raio (veja Tormenta20, p. 200).\n• Sopro da Salvação (Padrão, 32 PM): Beluhga sopra um cone de luz de 9m. Aliados nessa área curam 13d8+26 PV e perdem todas as condições entre abalado, atordoado, apavorado, alquebrado, cego, confuso, debilitado, enfeitiçado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, paralisado, pasmo e surdo.\n• Velocidade (Padrão, 10 PM, sustentada): Beluhga pode executar uma ação padrão adicional por turno.\n\n* Veja Ameaças de Arton, p. 404."
+      }
+    ],
+    "pericias": "Acrobacia +19, Diplomacia +30, Enganação +28, Intimidação +28, Intuição +34, Misticismo +33, Sobrevivência +29.",
+    "tesouro": "Triplo mais 10 peças de couro de dragão (CD 35 para extrair)."
+  }
+}

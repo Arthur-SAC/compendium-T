@@ -1,0 +1,15 @@
+{
+  "id": "etiqueta-a-toda-hora",
+  "tipo": "poder",
+  "nome": "Etiqueta a Toda Hora",
+  "resumo": "Uma vez por cena, gasta ação de movimento e 1 PM para fazer teste de Nobreza para ajudar; o bônus pode ser usado por aliados em alcance curto em qualquer teste de perícia até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 29 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "jandra",
+    "prerequisito": "",
+    "descricao": "Uma vez por cena, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Nobreza para ajudar. Cada aliado em alcance curto pode usar o bônus de ajuda fornecido por este teste em um de seus testes de perícia feito até o fim da cena."
+  }
+}

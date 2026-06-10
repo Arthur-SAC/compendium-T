@@ -1,0 +1,95 @@
+{
+  "id": "sislach-vissanzi",
+  "tipo": "criatura",
+  "nome": "Sislach Vissanzi",
+  "resumo": "Mestra espiã de Aslothia, uma humana de pele cinzenta que oculta conspiração sob aparência amistosa, capaz de se transformar em abutre humanoide e principal conselheira e protetora do Arquilich Ferren Asloth.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 55
+  },
+  "imagens": [
+    "/criaturas/sislach-vissanzi.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "De todos os servos do Arquilich, esta talvez seja a mais temida. Isso pode soar estranho para quem a vê pela primeira vez, pois Vissanzi parece apenas uma jovem de pele cinzenta, cabelo negro como a mais escura das noites dividido em três tranças, e comportamento amistoso. Porém, essa fachada sociável esconde um fosso de conspirações e intrigas.\n\nEla é a mestra espiã de Aslothia, viajando pelo reino em busca de informações sobre detratores, rebeldes e aventureiros que ousam se opor à vontade do regente. Para isso, disfarça-se por meios arcanos e mundanos, infiltrando-se entre seus adversários e conquistando sua confiança até que revelem seus segredos. Nos períodos que passa no Castelo Erynia, está sempre ao lado do próprio Ferren, que a trata como sua principal conselheira e protetora.\n\nNos corredores do castelo, sua origem é questionada, já que seu surgimento é recente. Alguns sussurram que ela é filha adotiva do Arquilich, ou mesmo uma filha legítima escondida durante anos para evitar ataques de seus opositores. Outros afirmam que ela é uma criatura trazida durante a Noite da Ascensão Profana, capaz de se transformar em um enorme abutre humanoide devorador de carne — algo conveniente para garantir que certos segredos permaneçam na obscuridade."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "habitat",
+      "alvoId": "aslothia",
+      "alvoTipo": "regiao",
+      "rotulo": "Mestra espiã de Aslothia"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "ferren-asloth",
+      "alvoTipo": "criatura",
+      "rotulo": "Conselheira e protetora do Arquilich Ferren Asloth"
+    }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+15",
+    "percepcao": "+14, visão na penumbra",
+    "defesa": "43, esquiva sobrenatural, evasão, imunidade a metamorfose e trevas, resistência a veneno +5",
+    "fortitude": "+14",
+    "reflexos": "+28",
+    "vontade": "+22",
+    "pontosDeVida": "510",
+    "deslocamento": "12m (8q), sem redução por se deslocar furtivamente",
+    "ataques": [
+      "Corpo a Corpo Adaga x2 +37 (2d4+30, 16, mais 6d6 trevas, sangramento e veneno)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "4",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Assassinar (Movimento)",
+        "descricao": "Sislach Vissanzi analisa uma criatura em alcance curto. Até o fim de seu próximo turno, ela dobra os dados de dano extras por Ataque Furtivo em seu primeiro Ataque Furtivo que causar dano contra essa criatura."
+      },
+      {
+        "nome": "Ataque Furtivo +7d8",
+        "descricao": ""
+      },
+      {
+        "nome": "Disfarce Místico (Padrão)",
+        "descricao": "Vissanzi muda sua aparência, e a de seu equipamento, até o fim da cena, como o efeito básico da magia Disfarce Ilusório (CD 40)."
+      },
+      {
+        "nome": "Forma de Abutre (Completa)",
+        "descricao": "Vissanzi se transforma em um abutre humanoide. Ela adquire tamanho Grande (–2 em Furtividade e +2 em testes de manobra), recebe deslocamento de voo 12m e seus ataques mudam para corpo a corpo: mordida +37 (1d4+30 mais 6d6 trevas) e duas garras +37 (1d4+30 mais veneno). Seu equipamento desaparece até ela voltar ao normal, mas suas outras estatísticas não são alteradas. Ela pode encerrar a transformação com uma ação de movimento e reverte à forma humana caso morra ou fique inconsciente."
+      },
+      {
+        "nome": "Mil Olhos",
+        "descricao": "Vissanzi está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis."
+      },
+      {
+        "nome": "Oportunista (Reação)",
+        "descricao": "Uma vez por rodada, quando um inimigo adjacente sofre dano de um aliado de Vissanzi, ela faz um ataque corpo a corpo contra esse inimigo."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha potente (perde 2d12 PV por rodada durante 3 rodadas, Fort CD 40 reduz para 1 rodada)."
+      },
+      {
+        "nome": "Vontade de Ferren",
+        "descricao": "Enquanto está em Aslothia, Vissanzi pode realizar uma ação padrão adicional a cada rodada."
+      }
+    ],
+    "pericias": "Acrobacia +15, Conhecimento +15, Diplomacia +17, Enganação +23 (+25 para disfarces), Furtividade +20, Intimidação +16, Intuição +19, Investigação +20, Ladinagem +15 (+17 para abrir fechaduras), Misticismo +15, Nobreza +15.",
+    "equipamento": "Adaga precisa ameaçadora sanguinária, capa esvoaçante aprimorada, estojo de disfarces aprimorado, gazua aprimorada.",
+    "tesouro": "Padrão."
+  }
+}

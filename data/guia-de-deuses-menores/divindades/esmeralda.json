@@ -1,0 +1,26 @@
+{
+  "id": "esmeralda",
+  "tipo": "divindade",
+  "nome": "Esmeralda",
+  "resumo": "Ourives humana que retornou transformada com pele de diamante e olhos de gema, tornando-se Deusa das Joias e árbitro suprema da autenticidade e preciosidade de pedras e metais.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 19 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Fabricar joias. Identificar pedras preciosas. Usar as mais finas preciosidades. Exalar a nobreza. Exibir a riqueza dos minérios.",
+    "simboloSagrado": "Um colar de ouro com um pingente de esmeralda.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Picareta.",
+    "devotos": "Anões, elfos, qareen, sílfides, arcanistas, bardos, bucaneiros, inventores, ladinos, nobres.",
+    "obrigacoesRestricoes": "Devotos de Esmeralda devem usar um item na forma de uma joia — que sempre será considerado um item vestido. A joia deve estar exposta. Se não estiver usando uma joia por motivo justificável (se for furtado ou preso, por exemplo), o devoto tem um dia para voltar a usar uma joia antes de descumprir estas Obrigações & Restrições.",
+    "poderesConcedidos": ["Toque de Esmeralda"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Quando ainda era apenas humana, Esmeralda já atuava como uma excelente joalheira e ourives, procurada por especialistas em joias de todo o Reinado. Em meio à infindável batalha entre falsificadores de preciosidades e nobres exigentes, dizia-se que ninguém era mais confiável que Esmeralda para atestar a fidelidade de uma joia. Contudo, apesar de famosa, a ourives era misteriosa e enigmática; sabia que, se sua verdadeira identidade fosse descoberta por contrabandistas e falsificadores, sua vida estaria em risco.\n\nInevitavelmente, Esmeralda desapareceu e, na ausência de alguém igualmente competente, vários comerciantes e até mesmo nobres ergueram templos e passaram a orar por seu retorno — uma medida desesperada para evitar que suas joalherias fossem à falência, ou apenas para que não precisassem estar privados de suas obras. Aos poucos, as joias fabricadas enquanto Esmeralda estava desaparecida passaram a ser consideradas falsas, ou ao menos de qualidade inferior. Sem Esmeralda, nada podia ser realmente precioso. Todos desejavam a volta de Esmeralda que, inesperadamente, atendeu aos desejos daqueles que, a essa altura, já eram seus fiéis. Mas, quando retornou, não era mais a mesma.\n\nEla agora lembrava uma aristocrata humana, mas sua pele era feita de diamante e seus olhos eram gemas coloridas. Vendo nisso um sinal claro do significado transcendental da ourives, seus devotos passaram a espalhar sua palavra. Após seu retorno, podia haver mais uma vez joias \"verdadeiras\".\n\nOs devotos de Esmeralda aprendem as nuances dos metais valiosos e pedras preciosas, reconhecem o valor potencial de gemas brutas e honram sua deusa usando ou fabricando as mais deslumbrantes joias. Contudo, desprezam de forma quase irracional as joias fabricadas durante o curto período em que ela esteve desaparecida. Para eles, peças dessa época infeliz são como itens malditos."
+    }
+  ]
+}

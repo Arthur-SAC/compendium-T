@@ -1,0 +1,30 @@
+{
+  "id": "tocado-pelo-indomavel",
+  "tipo": "origem",
+  "nome": "Tocado pelo Indomável",
+  "resumo": "Nascido em Moreania, você foi agraciado com o poder dos monstros pelo Indomável — a face feroz e selvagem da natureza.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 479 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A face oposta da Dama Altiva, o Indomável é uma divindade de ferocidade e selvageria. Agraciado com o poder dos monstros, você tem dificuldade em se adequar às normas e restrições da sociedade."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "regiao",
+      "alvoId": "moregnia",
+      "alvoTipo": "regiao-expansao",
+      "rotulo": "Origem regional de Moreania"
+    }
+  ],
+  "mecanica": {
+    "itensTexto": "Trapos surrados, carcaça de couro de algum animal caçado por você (conta como um gibão de peles).",
+    "beneficios": {
+      "pericias": ["Atletismo"],
+      "texto": "Você é treinado em Atletismo e recebe +2 em rolagens de dano com armas naturais e ataques desarmados."
+    },
+    "poderesUnicos": []
+  }
+}

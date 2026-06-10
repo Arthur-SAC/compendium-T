@@ -1,0 +1,92 @@
+{
+  "id": "thantalla-dhaedelin",
+  "tipo": "criatura",
+  "nome": "Thantalla-Dhaedelin, A Rainha das Fadas",
+  "resumo": "Espírito Médio e governante imortal da Pondsmânia, ser de beleza devastadora que passa por cinco fases eternas e mantém uma rivalidade inexplicável com a Rainha Má de Sylarwy-Ciuthnach.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 58
+  },
+  "imagens": [
+    "/criaturas/thantalla-dhaedelin.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Como o próprio reino que governa, a história e a figura da Rainha das Fadas, Thantalla-Dhaedelin, é cercada de lendas e mistérios.\n    Uns acreditam que ela foi a primeira fada criada por Wynna, e que todas as outras nasceram de seu próprio poder, com o propósito de lhe fazer companhia. Outros afirmam que a Rainha foi criada muito depois, para colocar (alguma) ordem na Pondsmânia. Por fim, existe a teoria de que a Rainha atual foi eleita ainda criança para substituir a primeira governante ao vencer uma competição de arremesso de trevos e que, quando chegar a hora, ela própria escolherá sua sucessora da mesma forma.\n    Thantalla realmente assumiu o trono quando era criança, mas sempre foi a Rainha das Fadas. Isso confirma a lenda de que ela passará por cinco fases: a Criança, a Guerreira, a Donzela, a Dama e a Senhora. Alguns sábios dizem que as fases são cíclicas e, ao fim da última, o processo recomeça. Outros sustentam que, após a última fase, uma nova Rainha será escolhida.\n    Atualmente, Thantalla é a Donzela. É uma Rainha muito mais interessada nas intrigas da nobreza, em suas festas e frivolidades do que em governar. Todos os aspectos burocráticos são deixados por conta da corte — mas, na verdade, não há muito a governar. Boa parte do que acontece na Pondsmânia depende da vontade da Rainha, e o que não lhe agrada pode ser modificado com um suspiro.\n    Thantalla tem a aparência de uma jovem de cabelos longos, com mechas verdes e negras, e olhos quase dourados. Geralmente veste roupas luxuosas, decoradas com pedras preciosas de todos os tipos. É o ser mais belo da Pondsmânia, provavelmente de Arton. Inúmeros foram os nobres que enlouqueceram de paixão ao ver seu rosto, e muitas das tragédias escritas pelos bardos passadas na Pondsmânia giram em torno desse tema.\n    Impaciente, mimada e às vezes arrogante, Thantalla passa grande parte do tempo viajando com uma extensa comitiva. Quando resolve se estabelecer em algum lugar, cria uma pequena versão de seu castelo ou se hospeda em algum vilarejo humano. Às vezes, gosta de se divertir assumindo disfarces antes de entrar em vilas, causando inúmeras confusões."
+    },
+    {
+      "titulo": "",
+      "texto": "Embora pareça irresponsável, caprichosa e imatura, a Rainha costuma compensar por esses abusos. Quando parte, em geral corrige as mudanças que causou (a menos que elas pareçam muito estéticas). Deixa presentes àqueles que lhe agradaram, mas pune de forma implacável aqueles que a ofenderam de alguma forma (nem sempre evidente ao \"culpado\"). Também é uma exímia jogadora de xadrez, e gosta de desafiar nobres e viajantes. É costume jogar três partidas, cada uma valendo um pedido (embora o destino dos jogadores só seja decidido na última). Na fase atual, não lida muito bem com derrotas no xadrez…\n    Thantalla-Dhaedelin tem uma rival na Pondsmânia, uma criatura oposta a ela em quase tudo: a Rainha Má, que governa Sylarwy-Ciuthnach, território sombrio dos Cyruthnallach, as fadas malignas. Alguns acreditam que essas fadas foram criadas por Tenebra, invejosa da criação de Wynna. Outros dizem que se originaram da maldade das próprias fadas. Seja como for, a Rainha Má é um reflexo de Thantalla-Dhaedelin, tendo \"saído dela\". Ambas se odeiam, mas mantêm uma relação que parece a de duas irmãs rivais — ou de dois lados da mesma personalidade. Chamam uma a outra de \"eu\" e cada uma parece conhecer detalhes sobre a inimiga que só poderiam ser conhecidos por ela própria. Assim como tudo na Pondsmânia, não há uma explicação material e lógica para essa relação. A Rainha Má existe porque existe Thantalla, e Thantalla existe como Thantalla porque há uma Rainha Má que é sua contraparte."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "habitat",
+      "alvoId": "pondsmânia",
+      "alvoTipo": "regiao",
+      "rotulo": "Governa a Pondsmânia"
+    },
+    {
+      "tipo": "devota",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Criada por Wynna"
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Espírito",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+24",
+    "percepcao": "+35, visão no escuro",
+    "defesa": "70, imunidade a encantamento, efeitos de metabolismo, ilusão e metamorfose, redução de dano 40/adamante, resistência a magia +5",
+    "fortitude": "+20",
+    "reflexos": "+30",
+    "vontade": "+30",
+    "pontosDeVida": "1.999",
+    "pontosDeMana": "500",
+    "deslocamento": "9m (6q), voo 24m (16q)",
+    "ataques": [
+      "Corpo a Corpo Tapa +50 (1d4+5)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "7",
+      "constituicao": "7",
+      "inteligencia": "10",
+      "sabedoria": "5",
+      "carisma": "19"
+    },
+    "habilidades": [
+      {
+        "nome": "Beleza Inquietante",
+        "descricao": "Um humanoide que veja Thantalla fica fascinado, enfeitiçado e abalado (Von CD 50 evita). Uma mesma criatura só pode ser afetada por esta habilidade uma vez por dia."
+      },
+      {
+        "nome": "Capricho (Movimento)",
+        "descricao": "Thantalla toca uma criatura adjacente e profere uma ordem. A criatura tocada deve fazer um teste de Vontade (CD 50). Se falhar, em seu próximo turno deve obedecer à ordem cegamente, mesmo que vá contra seus princípios ou seja uma ordem suicida! Uma mesma criatura só pode ser afetada por esta habilidade uma vez por dia. Encantamento."
+      },
+      {
+        "nome": "Primeira de Wynna",
+        "descricao": "Thantalla lança magias como uma conjuradora arcana de 20º nível (CD 50, limite de PM 35), conhece todas as magias arcanas, pode lançar duas magias por ação padrão e pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)."
+      },
+      {
+        "nome": "Rajada Prismática (Movimento)",
+        "descricao": "Thantalla dispara uma rajada prismática da ponta de seus dedos em uma criatura qualquer em alcance longo. A vítima sofre dois dos efeitos a seguir (role 1d8 para cada efeito): 1) 100 pontos de dano de fogo (Ref reduz à metade). 2) 200 pontos de dano de frio (Ref reduz à metade). 3) 300 pontos de dano de eletricidade (Ref reduz à metade). 4) Envelhece muitos anos, ficando alquebrada, debilitada e lenta (Fort evita). 5) Encolhe até o tamanho de um inseto, ficando com tamanho Minúsculo, Força –5 e deslocamento padrão reduzido a 3m (Fort evita). 6) Enlouquece, ficando confusa (Von evita). 7) Vira uma flor, ficando com tamanho Minúsculo e paralisada (Von evita). 8) Atingida por dois efeitos (role mais duas vezes, ignorando resultados \"8\"). A CD dos testes de resistência é 50 e todas as condições são permanentes (embora possam ser removidas por efeitos capazes de fazer isso)."
+      },
+      {
+        "nome": "Visão Feérica",
+        "descricao": "Thantalla está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora arcana de 20º nível (CD 50, limite de PM 35).\n• Campo de Força (Reação, 11 PM): Quando sofre dano, Thantalla recebe redução de dano 70 contra esse dano.\n• Chuva de Meteoros (Completa, 25 PM): Meteoros caem em um quadrado de 18m em alcance longo. Criaturas na área sofrem 25d6 pontos de dano de impacto e 25d6 pontos de dano de fogo, e ficam caídas e presas (agarradas) sob os escombros (Ref reduz à metade e evita a condição).\n• Dissipar Magia (Padrão, 3 PM): Thantalla escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Globo de Invulnerabilidade (Padrão, 15 PM, sustentada): Thantalla é envolta por uma esfera mágica de 3m que detém qualquer magia de 4º círculo ou menor.\n• Miragem (Padrão, 10 PM): Muda a aparência do terreno e de todas as criaturas em um cubo de 90m de lado.\n• Muralha Elemental (Padrão, 10 PM, sustentada): Cria um muro de até 30m de comprimento e 3m de altura (ou o contrário) ou uma cúpula de 3m de raio. O muro ou cúpula é feito de essência invisível e indestrutível.\n• Sombra Assassina (Padrão, 25 PM): Cria duplicatas ilusórias de quaisquer criaturas escolhidas em alcance curto. Sempre que um dos alvos faz uma ação hostil, sua duplicata realiza a mesma ação contra o alvo, usando as mesmas estatísticas e rolagens. As duplicatas podem ser atacadas, têm as mesmas estatísticas das criaturas originais e são destruídas quando chegam a 0 PV. Os alvos têm direito a um teste de Vontade. Se um alvo passar, sua duplicata desaparece no final do turno do alvo, depois de copiar sua ação dessa rodada."
+      }
+    ],
+    "pericias": "Atuação +35, Conhecimento +26, Diplomacia +35, Enganação +35, Intuição +21, Jogatina +35, Misticismo +31, Nobreza +26.",
+    "equipamento": "Gemas Eternas.",
+    "tesouro": "Triplo."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "guardiao",
+  "tipo": "criatura",
+  "nome": "Guardião",
+  "resumo": "Combatente humano veterano do Exército do Reinado, mais resistente e treinado que o soldado comum.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 3 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Exército do Reinado",
+    "iniciativa": "+4",
+    "percepcao": "+4",
+    "defesa": "21",
+    "fortitude": "+14",
+    "reflexos": "+9",
+    "vontade": "+6",
+    "pontosDeVida": "20",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +16 (1d8+8, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Valentia",
+        "descricao": "Se um aliado do guardião em alcance curto for reduzido a 0 PV ou menos, o guardião recebe +2 em testes de ataque e rolagens de dano em seu próximo turno."
+      }
+    ],
+    "pericias": "Atletismo +6.",
+    "equipamento": "Escudo pesado, espada longa, meia armadura.",
+    "tesouro": "Metade."
+  }
+}

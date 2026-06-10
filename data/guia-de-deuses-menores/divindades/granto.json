@@ -1,0 +1,28 @@
+{
+  "id": "granto",
+  "tipo": "divindade",
+  "nome": "Granto",
+  "resumo": "Deus anão dos escultores, mortal ascendido cuja arte unia beleza e função; lutou no Exército de Deuses de Orion Drake e foi morto pelas forças lefeu na Batalha de Tamu-ra.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 22 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "orion-drake", "alvoTipo": "criatura", "rotulo": "Lutou no Exército de Deuses de Orion Drake" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 4",
+    "crencasObjetivos": "Esculpir as mais belas obras de arte. Valorizar e pregar a importância do trabalho duro. Honrar e proteger a cultura e as tradições dos escultores. Unir estética e função.",
+    "simboloSagrado": "Um cinzel e um martelo.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Martelo leve (Heróis de Arton, p. 221).",
+    "devotos": "Anões, golens, kliren, qareen, bárbaros, cavaleiros, guerreiros, inventores, lutadores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Granto devem fabricar ou consertar uma escultura (um item não consumível simples com preço de T$ 150 por patamar) pelo menos uma vez por aventura.",
+    "poderesConcedidos": ["Âmago de Escultor"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Granto era um anão robusto e entroncado, cuja presença impunha respeito e admiração. Sua figura era uma verdadeira representação da força e resiliência da raça anã, com músculos visíveis sob a pele áspera e firme. Sua barba era longa e espessa, de um cinza profundo, cuidadosamente moldada em formas minuciosas que narravam a grandiosa história de seu povo. Cada mecha carregava símbolos e figuras que representavam feitos heroicos, batalhas épicas e lendas passadas, desde os primeiros dias de sua civilização até os eventos mais recentes que marcaram sua história.\n\nAs cicatrizes que atravessavam seu corpo tinham um caráter especial, pois, observadas mais de perto, revelavam formas surpreendentemente belas, como se cada uma fosse testemunho da resistência e coragem que o anão acumulou ao longo da vida. Granto, embora fosse um anão (e não um golem ou outro construto), era uma escultura viva, mais estátua do que gente.\n\nTudo que Granto tocava tinha o potencial de assumir uma forma bela, incluindo o que golpeava com seu estonteante martelo, fosse um objeto ou uma criatura. Até mesmo rachaduras em superfícies que ele martelava adquiriam formas artísticas. Mas, verdadeiro ao espírito anão de praticidade e utilitarismo, tudo que Granto fazia também tinha um propósito. Quando fez parte do Exército de Deuses de Orion Drake, Granto propôs construir uma imensa ponte do continente até Tamu-ra, para que não precisassem usar navios. E, quando esse plano foi rejeitado, Granto esculpiu os acrostólios que o general requisitou para adornar as proas das naus.\n\nGranto foi morto pelas forças lefeu durante a Batalha de Tamu-ra. No entanto, muitas de suas obras continuam adornando os salões de Doherimm, além de vários lugares da superfície."
+    }
+  ]
+}

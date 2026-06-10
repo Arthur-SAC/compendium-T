@@ -1,0 +1,28 @@
+{
+  "id": "deus-cristal-de-urielka",
+  "tipo": "divindade",
+  "nome": "O Deus Cristal de Urielka",
+  "resumo": "Cristal inanimado da aldeia de Urielka, em Tyrondir, que despertou como deus menor pela fé espontânea de seus habitantes e viajantes, protegendo o local após a queda da Flecha de Fogo.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 37 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacao", "alvoId": "glorienn", "alvoTipo": "divindade", "rotulo": "Culto nasceu após a queda de Glórienn, Deusa dos Elfos" }
+  ],
+  "mecanica": {
+    "statusDivino": "Objeto desperto, status divino 1",
+    "crencasObjetivos": "Proteger a vila de Urielka e sua população. Abençoar viajantes e forasteiros que visitam o local. Espalhar a palavra e as bênçãos do Cristal.",
+    "simboloSagrado": "Um cristal.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Lança.",
+    "devotos": "Aggelus, elfos, hynne, qareen, bardos, caçadores, cavaleiros, nobres, paladino.",
+    "obrigacoesRestricoes": "Devotos do Deus Cristal de Urielka devem peregrinar até a aldeia pelo menos uma vez por aventura (ou tempo entre aventuras) e, pelo menos uma vez por ano, devem fazer essa peregrinação levando consigo um novo devoto convertido.",
+    "poderesConcedidos": ["Conjurar Cristal"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este foi um dos primeiros casos registrados de deuses criados a partir de objetos inanimados, apenas pela vontade dos mortais. A aldeia de Urielka, nos ermos de Tyrondir, antes que a região se tornasse uma devastação com a queda da Flecha de Fogo, nunca teve muito de que se orgulhar. No entanto, possuía um imenso cristal, que atraía viajantes de tempos em tempos. O cristal nunca demonstrou nenhum poder mágico até que uma aldeã elfa chamada Dealla notou que era estranho que ele não fosse divino.\n\nAfetada pela queda de Glórienn, a Deusa dos Elfos, Dealla procurava algo para cultuar. Começou a deixar oferendas para o cristal e a espalhar sua crença secreta. Os demais aldeões, também ansiosos por algo que preenchesse o vazio que sentiam, logo distorceram fatos do passado para que parecessem milagres realizados pelo cristal. O culto nasceu. Viajantes de passagem por Urielka se juntaram, espalharam a notícia e logo o objeto angariou muitos seguidores até despertar como um deus menor, brilhando e falando com seus protegidos.\n\nO Deus Cristal passou a proteger a vila de Urielka. Não fazia muito além de oferecer consolo, aceitar oferendas e tranquilizar o povo, mas era amado como se fosse o mais poderoso deus maior. Depois da queda da Flecha de Fogo, a aldeia de Urielka chegou perto de desaparecer do mapa, mas sobreviveu, e o Deus Cristal continuou intacto. Isso passou a atrair ainda mais peregrinos e devotos. Hoje em dia, muitos que ousam desbravar as Ruínas de Tyrondir encontram em Urielka um ponto de descanso, um local intocado pelo lodo negro, onde um deus pode curá-los e abençoá-los para que continuem a jornada. Talvez isso aumente ainda mais o poder e o culto deste estranho deus menor."
+    }
+  ]
+}

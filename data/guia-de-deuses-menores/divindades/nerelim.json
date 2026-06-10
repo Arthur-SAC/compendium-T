@@ -1,0 +1,28 @@
+{
+  "id": "nerelim",
+  "tipo": "divindade",
+  "nome": "Nerelim",
+  "resumo": "Deusa ancestral da água doce, filha de Oceano, que ensinou os primeiros habitantes de Callistia a pescar e respeitar os rios, e cujo culto se expandiu com a absorção desse reino pelas Repúblicas Livres de Sambúrdia.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 35 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "filhaDe", "alvoId": "oceano", "alvoTipo": "divindade", "rotulo": "Diz-se que é filha de Oceano" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Reverenciar e proteger os rios, os lagos e os seres que ali habitam. Promover harmonia entre os seres das águas e o mundo seco. Proteger os seres fluviais. Exigir devido respeito às águas correntes.",
+    "simboloSagrado": "Um rio cortando a várzea.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Arpão (Ameaças de Arton, p. 392).",
+    "devotos": "Elfos, elfos-do-mar, hynne, kappa, minotauros, qareen, sereias/tritões, bárbaros, bucaneiros, caçadores, druidas, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Nerelim não podem se manter afastados de um grande corpo de água doce (como um lago ou rio) por mais de um mês. Além disso, devem pescar em um rio ou outro corpo de água doce pelo menos uma vez por semana.",
+    "poderesConcedidos": ["Água da Vida"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma deusa de origem ancestral, cujo culto foi abraçado pelos colonos que fundaram o antigo reino de Callistia, Nerelim foi a divindade mais cultuada nessa nação, antes de ser absorvida pelas Repúblicas Livres de Sambúrdia. De fato, antigamente nenhuma família que não cultuasse Nerelim nesse reino era considerada \"respeitável\", ao menos na capital.\n\nNerelim costuma se apresentar na forma de uma mulher com cabelos imensos, trançados de modo a parecer uma rede de pesca. É também a padroeira dos rios e pescadores. Diz-se que é filha de Oceano e teria ensinado os primeiros habitantes da região que viria a ser Callistia a pescar e sobreviver dos inúmeros rios dessas terras. Os nerelitas (nome dado aos devotos da deusa) por sua vez ensinam a população a respeitar os rios e não poluí-los, além de pescar apenas nas épocas certas para que nunca falte alimento.\n\nDepois que Callistia passou a fazer parte das Repúblicas Livres de Sambúrdia, o culto a Nerelim se expandiu. O antigo reino era notoriamente provinciano e um pouco xenófobo. Assim, sua deusa não era especialmente difundida em outros lugares. Agora que os Príncipes Mercantes trafegam pelas águas da região, a proteção de Nerelim é ainda mais valorizada e sua religião, mais conhecida."
+    }
+  ]
+}

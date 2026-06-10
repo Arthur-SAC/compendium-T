@@ -1,0 +1,15 @@
+{
+  "id": "natureza-gloriosa",
+  "tipo": "poder",
+  "nome": "Natureza Gloriosa",
+  "resumo": "Gasta 2 PM para transformar parte do corpo em forma animalesca e escolher dois benefícios entre arma natural, bônus de dano, Defesa, deslocamento, natação, faro ou bônus em perícias.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 51 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "zadbblein",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 2 PM para que uma parte de seu corpo assuma uma forma animalesca até você ficar inconsciente ou escolher encerrá-la (uma ação livre). Quando faz isso, você recebe dois benefícios a sua escolha entre os seguintes: uma arma natural à sua escolha (dano 1d6, crítico x2, a sua escolha entre corte, impacto ou perfuração); +1 passo de dano em uma de suas armas naturais; +2 na Defesa; +6m de deslocamento; deslocamento de natação 9m; faro; ou +5 em Atletismo e Fortitude."
+  }
+}

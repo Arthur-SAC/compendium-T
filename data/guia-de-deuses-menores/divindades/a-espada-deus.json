@@ -1,0 +1,28 @@
+{
+  "id": "a-espada-deus",
+  "tipo": "divindade",
+  "nome": "A Espada-Deus",
+  "resumo": "Arma lendária e desperta, obra-prima de Rhond, que transcende seus portadores e é adorada por clérigos nômades como instigadora e protagonista de incontáveis histórias de batalha.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 5 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "criadaPor", "alvoId": "rhond", "alvoTipo": "divindade", "rotulo": "Obra-prima de Rhond, o Deus das Armas" }
+  ],
+  "mecanica": {
+    "statusDivino": "Objeto desperto, status divino 1",
+    "crencasObjetivos": "Estar pronto para cortar, perfurar e matar. Defender-se, defender aqueles que se ama, defender sua honra e orgulho. Estar sempre pronto para empunhar uma espada — e usá-la. Realizar grandes feitos. Provar-se digno.",
+    "simboloSagrado": "Uma espada.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Anões, elfos, minotauros, bárbaros, caçadores, cavaleiros, guerreiros.",
+    "poderesConcedidos": ["Espadachim Divino"],
+    "obrigacoesRestricoes": "As únicas armas empunhadas que o devoto da Espada-Deus pode usar são espadas. Além disso, para atacar com outras armas (como naturais), ele deve fazer ao menos um ataque com espada na rodada.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A Espada-Deus é a obra-prima de Rhond (ele próprio o Deus das Armas), uma arma lendária que transcende seus portadores. Já esteve nas mãos de guerreiros valentes, heróis gloriosos, assassinos astutos e santos devotos, mas os nomes desses mortais se perderam no tempo — pois a espada é maior que qualquer um deles. Sempre que cumpria seu propósito, acabava esquecida em locais remotos, esperando por um novo destino. Podia estar presa em algum lugar de onde só seria tirada por um mortal digno. Ou no fundo de um lago, sendo entregue por uma náiade, ou cravada em uma pedra, selecionando quem pode arrancá-la.\n\nAlém de guerreiros de uma aldeia no antigo Reino de Yudennach, a Espada-Deus tem poucos devotos em estruturas organizadas, sendo adorada mais comumente por clérigos nômades que migram de batalha em batalha. A Espada-Deus não rege um portfólio definido. Em vez disso, ela apenas é adorada, apenas é a ferramenta, a instigadora e a protagonista em inúmeras histórias de batalha e heroísmo. A última dessas foi a batalha em que Orion Drake liderou um exército de deuses menores para derrotar Crânio Negro e expulsar a Tormenta de Tamu-ra, conquistando a primeira vitória de Arton contra os lefeu. Até onde se sabe, a Espada-Deus ainda se encontra de posse do cavaleiro, mas a qualquer momento ela pode ser \"perdida\", para que seja encontrada por um novo campeão valoroso."
+    }
+  ]
+}

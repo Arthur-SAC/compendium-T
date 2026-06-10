@@ -1,0 +1,26 @@
+{
+  "id": "tocado-pela-dama-altiva",
+  "tipo": "origem",
+  "nome": "Tocado pela Dama Altiva",
+  "resumo": "Nascido em Moreania, você foi agraciado pela própria Mãe Natureza e pode convocar animais aliados de Allihanna.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Nascido em Moreania, você foi agraciado pela própria Mãe Natureza. Você consegue entender as vozes da natureza e pode invocar o auxílio dos filhos de Allihanna."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "moregnia", "alvoTipo": "regiao", "rotulo": "Origem regional de Moreania" }
+  ],
+  "mecanica": {
+    "itens": ["Bordão", "Ração de viagem x5"],
+    "beneficios": {
+      "pericias": ["Adestramento"],
+      "poderes": [],
+      "texto": "Você é treinado em Adestramento e pode gastar 1 minuto e 1 PM para convocar um animal Minúsculo a sua escolha, como um falcão ou gato, em seu auxílio. A criatura convocada fornece +2 nos seus testes de uma perícia específica, adequada às suas capacidades, e permanece auxiliando-o até o fim da cena, quando então retorna para os ermos. Você pode ter um número de criaturas convocadas simultâneas igual à sua Sabedoria (mínimo de 1). O mestre tem a palavra final sobre quais criaturas estão disponíveis e em quais perícias elas podem prestar auxílio."
+    },
+    "poderesUnicos": []
+  }
+}

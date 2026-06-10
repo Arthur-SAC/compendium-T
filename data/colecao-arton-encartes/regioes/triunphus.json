@@ -1,0 +1,55 @@
+{
+  "id": "triunphus",
+  "tipo": "regiao",
+  "nome": "Triunphus",
+  "resumo": "\"Um bom lugar para morrer\" — cidade fronteiriça que enfrenta os ataques da Horda Moóck, onde a morte é tão comum que a ressurreição tornou-se parte do cotidiano, sob a proteção da Guarda da Fênix e o culto de Thyatis.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 9 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Triunphus — Um bom lugar para morrer",
+      "texto": "Triunphus é conhecida pelo lema \"Um bom lugar para morrer\". A cidade é marcada pela presença constante de combates contra a Horda Moóck e pela cultura em torno da morte e do retorno à vida. O Rio Morqua corta a cidade, separando a Parte Velha da área central."
+    },
+    {
+      "titulo": "1 — Muralha Nordeste",
+      "texto": "Esta face imponente das muralhas de Triunphus, voltada para os ataques da Horda Moóck, destaca-se como a mais alta e robusta. Batalhas sangrentas ocorrem aqui, buscando perturbar o resto da cidade o mínimo possível."
+    },
+    {
+      "titulo": "2 — Parte Velha",
+      "texto": "A noroeste, além do Rio Morqua que corta Triunphus, encontra-se a pequena vila que deu origem à cidade, relativamente isolada. Habitada pela população mais humilde, suas casas antigas de madeira estão frequentemente em más condições. O crime prospera livre nas ruas estreitas e infestadas de bandidos, até mesmo a Guarda da Fênix evita adentrar este local temido. Nas tavernas certas, centros de jogo clandestinos oferecem várias formas de entretenimento ilegal, alimentando a crença de muitos em Triunphus de que a \"vida eterna\" deve ser vivida intensamente."
+    },
+    {
+      "titulo": "3 — Templo de Thyatis",
+      "texto": "Este é o local onde as gentis clérigas acolhem os mortos, cuidando deles até que o poder de Triunphus os traga de volta à vida. Além de Thyatis, divindades aliadas como Khalmyr, Lena, Valkaria e Tanna-Toh também são reverenciadas no complexo. Durante suas raras visitas à cidade, o sumo-sacerdote de Thyatis reside aqui."
+    },
+    {
+      "titulo": "4 — Mansão Alan",
+      "texto": "A suntuosa residência de veraneio do mago mercador Salini Alan é formada por vários casarões à volta de um fosso inundado. Os interiores luxuosos exibem tesouros incríveis em cada aposento. Apesar de tanta riqueza e ausência de muralhas, o lugar não é alvo de ladrões; todos temem suas terríveis proteções mágicas, incluindo a possível presença de um gênio vigilante."
+    },
+    {
+      "titulo": "5 — O Martelo de Ouro",
+      "texto": "Conhecido entre aventureiros, este estabelecimento é gerenciado pelo habilidoso ferreiro anão Gaius Denastonramm. Oferecendo armas e armaduras de qualidade a preços razoáveis, Gaius é uma figura querida e inofensiva. Sua loja é ponto de encontro para aquisição de conhecimento sobre itens mágicos, sendo procurado por heróis em busca de respostas."
+    },
+    {
+      "titulo": "6 — O Alquimista",
+      "texto": "Sob a administração de Draugin Enghatdynawsul, este pequeno empório oferece poções e ingredientes mágicos a preços acessíveis. Contudo, as experiências mágicas do mago élfico resultam em efeitos colaterais muitas vezes desastrosos. Draugin habitualmente recruta aventureiros para buscar ingredientes, oferecendo poções de fabricação própria como suporte (ainda que conhecidas por sua imprevisibilidade)."
+    },
+    {
+      "titulo": "7 — Palácio Municipal",
+      "texto": "No ponto mais alto da cidade, próximo à muralha nordeste, ergue-se o Palácio Municipal — que funciona como centro administrativo e residência do regente, corajosamente aberto às investidas do Moóck, cercado por quartéis da Guarda da Fênix. A linha entre a parte palaciana e civil é indistinta. Nas proximidades, palácios menores pertencentes a famílias nobres também se destacam."
+    },
+    {
+      "titulo": "8 — Avenida Central",
+      "texto": "Destinada a entreter o povo, esta vasta avenida circular atravessa o Rio Morqua com pontes. Palco de eventos e espetáculos, transforma-se em mercado quando não há programações específicas. Caçadores de monstros negociam aqui suas presas, enquanto corridas de bigas e lutas entre gladiadores oferecem diversão ao público."
+    },
+    {
+      "titulo": "9 — O Monólito",
+      "texto": "No centro da Avenida Central, um grande monólito existe desde antes da fundação da cidade. Sempre vigiado por clérigos de Thyatis, inscrições mágicas em sua base mudam periodicamente, sendo foco de visões proféticas para devotos da divindade que chegam de toda Arton."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "secao": "Coleção Arton — Encartes",
+    "epiteto": "Um bom lugar para morrer"
+  }
+}

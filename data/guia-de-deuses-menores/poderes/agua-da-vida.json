@@ -1,0 +1,15 @@
+{
+  "id": "agua-da-vida",
+  "tipo": "poder",
+  "nome": "Água da Vida",
+  "resumo": "Uma vez por dia, transforma um jarro de água doce em poção que recupera 2d8+2 PV e 1d4+1 PM ao ser bebida; dura 1 semana ou até ser consumida.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "nerelim",
+    "prerequisito": "",
+    "descricao": "Uma vez por dia, você pode transformar um jarro (ou outro recipiente equivalente que ocupe 0,5 espaço) de água doce em uma poção mágica. Beber essa água mágica é uma ação padrão e recupera 2d8+2 PV e 1d4+1 PM. A água mantém suas propriedades mágicas por 1 semana ou até ser bebida."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "delirio-verde",
+  "tipo": "item",
+  "nome": "Delírio verde",
+  "resumo": "Veneno caro e raro derivado do achbuld que deixa a vítima eufórica e obediente, podendo causar morte se o antídoto não for administrado em até um dia — e o antídoto é o próprio veneno.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 8 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "espacos": "0,5",
+    "especial": "Derivado do achbuld, o Delírio Verde é um veneno caro, raro e perigoso, com efeitos curiosos e devastadores. Em um primeiro momento, a vítima fica eufórica e fascinada por qualquer pessoa com quem esteja convivendo. Depois, sua mente fica turva e ela obedece a qualquer comando simples dado por essa pessoa. Por último, a vítima se sente doente e pode morrer se o antídoto não for administrado em no máximo um dia depois da dose inicial do veneno. A ironia? O antídoto é o próprio delírio verde!"
+  }
+}

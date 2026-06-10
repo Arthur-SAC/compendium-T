@@ -1,0 +1,40 @@
+{
+  "id": "mercador",
+  "tipo": "criatura",
+  "nome": "Mercador",
+  "resumo": "Comerciante comum, desde vendedores nos mercados das cidades até mascates viajantes nas estradas ou negociantes em entrepostos de fronteira.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 67 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+2",
+    "percepcao": "+5",
+    "defesa": "10",
+    "fortitude": "+1",
+    "reflexos": "+2",
+    "vontade": "+5",
+    "pontosDeVida": "11",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Clava +2 (1d6).",
+      "À Distância Besta leve +5 (1d8+2, 19)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "1",
+      "sabedoria": "1",
+      "carisma": "1"
+    },
+    "habilidades": [],
+    "pericias": "Diplomacia +5, Intuição +5, Ofício (mercador) +5.",
+    "equipamento": "Besta leve, clava, virotes x20.",
+    "tesouro": "Padrão."
+  }
+}

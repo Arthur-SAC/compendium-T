@@ -1,0 +1,15 @@
+{
+  "id": "ego",
+  "tipo": "poder",
+  "nome": "Ego",
+  "resumo": "Gaste 1 PM para receber +5 em um teste; se falhar, sofre –2 em testes até o fim da cena e não pode usar este poder novamente nela.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 43 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "sckhar",
+    "prerequisito": "",
+    "descricao": "Quando faz um teste, você pode gastar 1 PM para receber +5 nesse teste. Se fizer isso e falhar no teste, até o fim da cena você sofre uma penalidade de –2 em testes e não pode usar este poder."
+  }
+}

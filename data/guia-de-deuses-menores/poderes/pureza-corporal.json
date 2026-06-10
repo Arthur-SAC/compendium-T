@@ -1,0 +1,15 @@
+{
+  "id": "pureza-corporal",
+  "tipo": "poder",
+  "nome": "Pureza Corporal",
+  "resumo": "Ação de movimento + 1 PM: toque cura 2d6+2 PV em uma criatura; aprende e pode lançar Purificação (–1 PM se aprender novamente).",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 13 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "caerdellach",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para cobrir sua mão com luz e tocar uma criatura em alcance corpo a corpo. A criatura recupera 2d6+2 PV. Além disso, aprende e pode lançar a magia Purificação. Se aprender essa magia novamente, o custo dela diminui em –1 PM."
+  }
+}

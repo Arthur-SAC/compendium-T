@@ -1,0 +1,15 @@
+{
+  "id": "trilhas-das-arvores-antigas",
+  "tipo": "poder",
+  "nome": "Trilhas das Árvores Antigas",
+  "resumo": "Gasta 1 PM por rodada para se teletransportar entre árvores adjacentes e em alcance longo sem linha de visão.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 49 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "ur",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, você pode gastar 1 PM para entrar em uma árvore adjacente de tamanho igual ou maior que o seu e sair em outra árvore em alcance longo (também de tamanho igual ou maior que o seu). Você não precisa de linha de visão para a árvore de saída, mas deve estar ciente de sua existência."
+  }
+}

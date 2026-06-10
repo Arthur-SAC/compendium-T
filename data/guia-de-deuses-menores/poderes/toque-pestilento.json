@@ -1,0 +1,15 @@
+{
+  "id": "toque-pestilento",
+  "tipo": "poder",
+  "nome": "Toque Pestilento",
+  "resumo": "Aprende e lança Infligir Ferimentos; se o alvo falhar no teste de resistência, também é exposto à doença maldição pegajosa com efeito inicial imediato; aprender novamente reduz o custo em –1 PM.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 34 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "luvithy",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar Infligir Ferimentos e, quando você usa essa magia, se o alvo falhar no teste de resistência, ele também é exposto à doença maldição pegajosa (Tormenta20, p. 318) e sofre seu efeito inicial imediatamente. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

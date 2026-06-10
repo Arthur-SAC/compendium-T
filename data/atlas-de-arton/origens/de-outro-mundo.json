@@ -1,0 +1,26 @@
+{
+  "id": "de-outro-mundo",
+  "tipo": "origem",
+  "nome": "De Outro Mundo",
+  "resumo": "Você veio de outro mundo através do Éter Divino e possui uma habilidade ou tecnologia especial de sua origem.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você veio de outro mundo através do Éter Divino. Como alternativa, pode ter chegado a Arton por uma tempestade de areia do Deserto da Perdição, via uma viagem planar de Vectora ou por qualquer outra forma mágica ou maluca."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "eter-divino", "alvoTipo": "regiao", "rotulo": "Origem regional de Éter Divino" }
+  ],
+  "mecanica": {
+    "itens": ["Trajes exóticos", "Um item qualquer de até T$ 100 do seu mundo natal"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você possui uma habilidade ou tecnologia especial de seu mundo de origem. Para representar esse efeito, escolha uma magia de 1º círculo e um atributo-chave para ela. Se for uma habilidade, você pode lançar essa magia. Se for uma tecnologia, você recebe um item Minúsculo (RD 10, PV iguais à metade dos seus) que ocupa 1 espaço e deve ser empunhado para lançar a magia, mas seu limite de PM para ela aumenta em +2. Por fim, escolha se o efeito será mágico ou mundano (nesse caso, não contará como uma magia, exceto para fins de acúmulo). O mestre tem a palavra final sobre qualquer efeito e combinação."
+    },
+    "poderesUnicos": []
+  }
+}

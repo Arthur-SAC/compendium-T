@@ -1,0 +1,72 @@
+{
+  "id": "dok",
+  "tipo": "criatura",
+  "nome": "Dok",
+  "resumo": "Goblin inventor ex-salteador e desertora da Aliança Negra, hoje um dos maiores engenhoqueiros de Arton, capaz de transformar qualquer sucata em engenhocas barulhentas mas estranhamente eficientes.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 11
+  },
+  "imagens": [
+    "/criaturas/dok.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Muito se fala sobre o martírio dos elfos com a queda de Lenórienn, mas quando guerras explodem, o sofrimento se faz presente em todos os lados.\n    Dok começou sua vida como salteador no continente sul, transformando sucata em apetrechos para uso do bando. O barulho das geringonças, contudo, sempre alertava as vítimas e os ataques fracassavam. Expulso, o goblin passou a mendigar nas estradas.\n    Um dia, acordou à base de pontapés. Estava sendo \"recrutado\" para a Aliança Negra. Tornou-se um dos milhares de goblins a inchar as fileiras da horda de Thwor. Sua inventividade foi a única coisa capaz de mantê-lo vivo em meio a constantes batalhas, e por fim ofereceu meios para que fugisse do conflito.\n    Depois da deserção, conheceu sua companheira Mushna, com quem teve seu único filho e desfrutou de um pouco de felicidade. A guerra, porém, ainda tinha assuntos com ele. Capturado por elfos, escapou em meio à queda de Lenórienn para o continente norte junto com a elfa clériga Gwendolynn, que se tornaria sua melhor amiga.\n    Atualmente, Dok é um dos maiores inventores de Arton, transformando qualquer coisa em engenhocas barulhentas, mas estranhamente eficientes. Se seu antigo bando pudesse vê-lo agora…"
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+11, visão no escuro",
+    "defesa": "39",
+    "fortitude": "+14",
+    "reflexos": "+20",
+    "vontade": "+26",
+    "pontosDeVida": "173",
+    "pontosDeMana": "52",
+    "deslocamento": "9m (6q), escalada 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Chave de boca +27 (1d8+5 impacto).",
+      "À Distância Besta leve +34 (2d10+20, 18, mais injeção alquímica)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "5",
+      "constituicao": "1",
+      "inteligencia": "7",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Ativação Rápida (Livre, 2 PM)",
+        "descricao": "Quando ativa uma engenhoca com ativação de uma ação padrão, Dok muda sua ativação para uma ação de movimento."
+      },
+      {
+        "nome": "Chutes e Palavrões (Reação, 1 PM)",
+        "descricao": "Uma vez por rodada, Dok repete um teste de Ofício (engenhoqueiro) recém-realizado para ativar uma engenhoca."
+      },
+      {
+        "nome": "Engenhosidade (Reação, 2 PM)",
+        "descricao": "Quando faz um teste de perícia (exceto de ataque), Dok soma sua Inteligência no teste."
+      },
+      {
+        "nome": "Frontorrepulsor Experimental",
+        "descricao": "Dok possui um gerador de campo de força portátil que previne os primeiros 40 pontos de dano que ele sofre a cada turno."
+      },
+      {
+        "nome": "Engenhocas",
+        "descricao": "Dok possui as seguintes engenhocas que ele ativa como um inventor de 12º nível (a CD de ativação é indicada em cada engenhoca, e a CD para resistir a elas é 35).\n• Bazuca (Padrão, 6 PM, CD 24) Uma explosão causa 12d6 pontos de dano de fogo em todas as criaturas e objetos livres numa esfera de 6m em alcance médio (Ref reduz à metade). Bola de Fogo.\n• Capacete de Hélice (Padrão, 3 PM, CD 18) Dok recebe deslocamento de voo 12m até o fim da cena. Voo.\n• Colete Anti-Tudo (Padrão, 3 PM, CD 21) Dok recebe 50 pontos de vida temporários. Campo de Força.\n• Fogos de Artifício (Padrão, 4 PM, CD 21) Aliados em alcance curto recebem +3 em testes de ataque e rolagens de dano até o fim da cena. Bênção.\n• Motoca (Padrão, 3 PM, CD 21) Dok recebe uma montaria equivalente a um pônei mestre que pode atravessar terreno difícil sem redução em seu deslocamento. A montaria permanece por 1 dia e Dok usa Ofício (engenhoqueiro) no lugar de Cavalgar com ela. Montaria Arcana.\n• Pistola Enredadora (Padrão, CD 16) Dok cria um cubo de terreno difícil de 6m em alcance curto. Criaturas na área, ou que comecem seu turno em seu interior, ficam enredadas (Ref evita). Uma criatura pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo. Teia.\n• Potencializador Marcial (Padrão, 4 PM, CD 20) Até o fim da cena, uma arma adjacente se torna mágica, fornecendo +2 nos testes de ataque e rolagens de dano e +1d6 pontos de dano de ácido. Arma Mágica."
+      }
+    ],
+    "pericias": "Conhecimento +17, Cura +11, Diplomacia +9, Furtividade +17, Ladinagem +15 (+19 para abrir fechadura), Ofício (alquimista) +21, Ofício (armeiro) +21, Ofício (engenhoqueiro) +21, Pilotagem +16.",
+    "equipamento": "Ácido x2, bálsamo restaurador x2, besta leve precisa de injeção alquímica, bomba x2, chave de boca (equivalente a uma maça), couro batido ajustado, gazua aprimorada, instrumentos de Ofício (alquimista, armeiro e engenhoqueiro) aprimorados, virotes de adamante x20. A CD para resistir aos preparados de Dok é 35.",
+    "tesouro": "Padrão."
+  }
+}

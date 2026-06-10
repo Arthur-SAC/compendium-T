@@ -1,0 +1,15 @@
+{
+  "id": "jogada-decisiva",
+  "tipo": "poder",
+  "nome": "Jogada Decisiva",
+  "resumo": "Uma vez por dia, ao fazer um teste, gaste 1 PM para somar +2 por patamar no resultado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 16 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "champarr",
+    "prerequisito": "",
+    "descricao": "Uma vez por dia, quando faz um teste, você pode gastar 1 PM para somar +2 por patamar no teste."
+  }
+}

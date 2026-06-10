@@ -1,0 +1,26 @@
+{
+  "id": "insurgente-tapistano",
+  "tipo": "origem",
+  "nome": "Insurgente Tapistano",
+  "resumo": "Você luta pela punição dos antigos generais e escravagistas do Império de Tauron em ruínas, ganhando resiliência física.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O Império de Tauron está ruindo. O Deus da Força está morto. Para você, isso ainda não é suficiente. O povo só estará satisfeito quando todos os antigos generais e escravagistas forem punidos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "imperio-de-tauron", "alvoTipo": "regiao", "rotulo": "Origem regional de Império de Tauron" }
+  ],
+  "mecanica": {
+    "itens": ["Amuleto com um símbolo da resistência reconhecível por outros rebeldes", "Arma simples"],
+    "beneficios": {
+      "pericias": ["Fortitude", "Reflexos", "Vontade"],
+      "poderes": [],
+      "texto": "Você recebe +1 em Fortitude, Reflexos e Vontade. Além disso, recebe +3 pontos de vida no 1º nível e +1 PV por nível seguinte."
+    },
+    "poderesUnicos": []
+  }
+}

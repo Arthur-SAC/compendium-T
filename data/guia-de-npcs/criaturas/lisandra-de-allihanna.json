@@ -1,0 +1,94 @@
+{
+  "id": "lisandra-de-allihanna",
+  "tipo": "criatura",
+  "nome": "Lisandra de Allihanna",
+  "resumo": "Arquidruida suprema de Allihanna e sumo-sacerdotisa mais poderosa de Arton, filha de Mestre Arsenal e dahllan de Galrasia, guerreira invencível na linha de frente contra os lefeu.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 31
+  },
+  "imagens": [
+    "/criaturas/lisandra-de-allihanna.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nascida dahllan na remota Galrasia (o pai, ela saberia mais tarde, ninguém menos que Mestre Arsenal), Lisandra trazia no sangue a força de Allihanna antes de se tornar druida. Cresceu criada por lobos e \"educada\" por um trog anão.\n\nAcabou vítima de encanto poderoso de Sszzaas, então banido; foi levada a caçar os vinte Rubis da Virtude e ressuscitar um antigo herói caído, o Paladino de Arton — criando um ser extraplanar tão perigoso que apenas o poder combinado dos vinte deuses originais poderia derrotá-lo. Sem alternativa, o Panteão acolheu Sszzaas de volta. Lisandra casou-se com Sandro, ladrão aventureiro que a acompanhou nos piores momentos, e tiveram gêmeos. O chamado de Allihanna como sua sumo-sacerdotisa foi uma surpresa: havia sido abandonada pela deusa, até privada de magia divina. Mas, sendo tão poderosa, não poderia se manter neutra contra a Tormenta e outros perigos.\n\nLisandra vem atuando como uma quase invencível druida guerreira, verdadeira força da natureza, na linha de frente contra os lefeu. Acompanha grupos épicos que adentram território da Tormenta, exterminando até as aberrações mais perigosas. Especula-se que apenas os próprios Lordes da Tormenta podem superá-la em poder.\n\nApesar de tais vitórias, muitos são contrários ao envolvimento de Lisandra na guerra contra os lefeu. Primeiro, porque seu real nível druídico é modesto — Lisandra é muito mais poderosa como guerreira, não deveria comandar druidas mais sábios e experientes. Segundo, porque desafia abertamente a pena imposta pelo tribunal de Khalmyr, minando a já abalada autoridade do Deus da Justiça. E terceiro, porque isso pode ser muito perigoso: heróis épicos como Talude, Vectorius e outros já foram tentados pelos lordes lefeu, seduzidos a se juntar aos invasores. Felizmente, resistiram. Mas se isso acontecer com Lisandra, se ela for corrompida… Seria capaz de dizimar o Reinado sozinha!\n\nHoje, Lisandra não é apenas a arquidruida suprema de Allihanna — é a mais poderosa entre todos os sumo-sacerdotes. Desloca-se magicamente através das áreas florestais, alcançando qualquer ponto de Arton em minutos, para exercer autoridade e resolver assuntos ligados à deusa. Ao mesmo tempo, mantém imensas feras-vegetais conjuradas para proteger seus entes queridos.\n\nApós uma dramática reconciliação com o pai, Lisandra também o teria auxiliado contra Keenn em sua campanha para se tornar Deus da Guerra."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devoto",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-Sacerdotisa de Allihanna"
+    }
+  ],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Humanoide (dahllan)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+19",
+    "percepcao": "+26",
+    "defesa": "61, proteção divina, redução de dano 20, resistência a magia +5",
+    "fortitude": "+30",
+    "reflexos": "+22",
+    "vontade": "+36",
+    "pontosDeVida": "1.650",
+    "pontosDeMana": "98",
+    "deslocamento": "9m (6q), voo 12m (8q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x2 +55 (2d12+30, 17) e gavinhas x4 +55 (3d8+30 impacto, alcance 3m)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "3",
+      "constituicao": "5",
+      "inteligencia": "1",
+      "sabedoria": "8",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Chuva de Estacas (Movimento, 4 PM)",
+        "descricao": "Lisandra evoca uma chuva de estacas sobre uma área de 9m de raio em alcance médio. Criaturas na área sofrem 10d12 pontos de dano de corte e ficam sangrando (Ref CD 40 reduz à metade e evita a condição)."
+      },
+      {
+        "nome": "Criar Toscos (Movimento, 2 PM)",
+        "descricao": "Lisandra invoca 2d4+1 toscos capangas em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada de Lisandra, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d6+2 pontos de dano de corte em uma criatura adjacente. Os toscos têm For 4, Des 4, Defesa 55 e 1 PV, falham automaticamente em qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena."
+      },
+      {
+        "nome": "Empatia Selvagem",
+        "descricao": "Lisandra pode se comunicar com animais por meio de linguagem corporal e vocalizações. Ela pode usar Adestramento para mudar atitude e pedir favores de animais."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "Lisandra pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)."
+      },
+      {
+        "nome": "Força da Natureza",
+        "descricao": "O custo de todas as magias de Lisandra é reduzido em –2 PM e a CD para resistir a elas aumenta em +2 (já contabilizado). Esses bônus dobram (–4 PM e +4 na CD) se ela estiver em terrenos naturais."
+      },
+      {
+        "nome": "Forma de Madeira (Movimento)",
+        "descricao": "Uma camada de matéria vegetal cobre Lisandra até o fim da cena, formando uma armadura e dando a ela asas e gavinhas fortes e resistentes. Lisandra recebe +15 na Defesa, deslocamento de voo 12m (8q) e quatro ataques corpo a corpo com suas gavinhas. Ela também cria uma arma corpo a corpo qualquer, feita de madeira, ameaçadora e magnífica. As estatísticas da ficha consideram que esta habilidade está ativa."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Lisandra muda a execução dela para livre."
+      },
+      {
+        "nome": "Punição Divina (Padrão)",
+        "descricao": "Von CD 55 evita."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma druida de Allihanna de 20º nível (CD 55, limite de PM 28). Lisandra conhece todas as magias divinas, bem como todas as magias arcanas de convocação, evocação e transmutação.\n• Aura Divina (Padrão, 13 PM): Até o fim da cena, Lisandra emana uma aura com 9m de raio. Ela e aliados devotos de Allihanna na área ficam imunes a encantamento e recebem +10 na Defesa e em testes de resistência. Aliados não devotos recebem +5 na Defesa e em testes de resistência. Cada vez que um inimigo entra na área, fica lento até o fim da cena (Von evita).\n• Controlar Plantas (Padrão, 1 PM): Um quadrado de 9m de vegetação em alcance curto se torna terreno difícil. Criaturas na área quando a magia é lançada ou no início de seus próprios turnos ficam enredadas e imóveis (Ref evita). Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo.\n• Curar Ferimentos (Padrão, 28 PM): Uma criatura adjacente cura 31d8+30 PV ou criaturas escolhidas em alcance curto curam 26d8+26.\n• Dissipar Magia (Padrão, 1 PM): Lisandra escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Raio Polar (Padrão, 27 PM): Lisandra dispara uma esfera de 6m em alcance médio. Criaturas nessa área sofrem 18d8 pontos de dano de frio e ficam paralisadas em um bloco de gelo (Fort reduz o dano à metade e muda a condição para lento). É possível quebrar o gelo, que tem 20 PV, RD 10 e vulnerabilidade a fogo, para libertar uma criatura presa.\n• Libertação (Padrão, 8 PM): Até o fim da cena, uma criatura em alcance curto fica imune a efeitos de movimento e ignora qualquer efeito que impeça ou restrinja seu deslocamento, e pode usar habilidades que exigem liberdade de movimentos mesmo se estiver usando armadura ou escudo."
+      }
+    ],
+    "pericias": "Adestramento +24, Cura +26, Diplomacia +21, Intimidação +21, Misticismo +19, Religião +34, Sobrevivência +34.",
+    "equipamento": "Coroa de Allihanna, símbolo sagrado de Allihanna.",
+    "tesouro": "Nenhum."
+  }
+}

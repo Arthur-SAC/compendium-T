@@ -1,0 +1,51 @@
+{
+  "id": "falcao",
+  "tipo": "criatura",
+  "nome": "Falcão",
+  "resumo": "Ave treinada para auxiliar nobres a perseguir e abater pequenas presas, também encontrada como familiar de conjuradores ou companheiro de caçadores.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 75 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Animal",
+    "tamanho": "Minúsculo",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+5",
+    "percepcao": "+9, visão na penumbra",
+    "defesa": "13",
+    "fortitude": "+2",
+    "reflexos": "+5",
+    "vontade": "+2",
+    "pontosDeVida": "5",
+    "deslocamento": "3m (2q), voo 18m (12q)",
+    "ataques": [
+      "Corpo a Corpo Garras +6 (1d4, 18)."
+    ],
+    "atributos": {
+      "forca": "–2",
+      "destreza": "3",
+      "constituicao": "0",
+      "inteligencia": "–4",
+      "sabedoria": "2",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Mergulho",
+        "descricao": "O falcão pode continuar se movendo no mesmo sentido após atacar durante uma investida alada."
+      },
+      {
+        "nome": "Rasgar o Rosto",
+        "descricao": "Uma criatura que sofra dano de um acerto crítico das garras do falcão fica cega por 1d4 rodadas."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Um falcão é um parceiro especial (perseguidor) que fornece os benefícios a seguir. Iniciante: uma vez por cena, você pode gastar uma ação de movimento e fazer um teste de Adestramento (CD 10). Se passar, o falcão concede a você +1 em testes de ataque, Percepção e Sobrevivência até o fim da cena. Para cada 10 pontos pelos quais o resultado de seu teste passar a CD, esse bônus aumenta em +1. Veterano: você pode usar Sentidos Aguçados. Mestre: uma vez por rodada, você pode gastar 1 PM para fazer uma criatura em alcance médio ficar cega por 1d4 rodadas (Ref CD Car evita)."
+      }
+    ],
+    "pericias": "",
+    "tesouro": "Nenhum."
+  }
+}

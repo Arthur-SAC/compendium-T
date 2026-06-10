@@ -1,0 +1,28 @@
+{
+  "id": "benthos",
+  "tipo": "divindade",
+  "nome": "Benthos",
+  "resumo": "Dragão-Rei dos Mares, protetor supremo de Khubar e de suas ilhas, adorado pelos khubarianos quase tanto quanto os deuses do Panteão por sua proximidade e fisicalidade.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 11 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "statBlock", "alvoId": "benthos", "alvoTipo": "criatura", "rotulo": "Ficha de combate (Guia de NPCs)" }
+  ],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 4",
+    "crencasObjetivos": "Reverenciar a magnificência de Benthos. Promover harmonia entre Khubar e o domínio submerso do Dragão-Rei dos Mares. Respeitar as dádivas providas pelas criaturas marinhas, além de retribuí-las sempre que possível. Proclamar a superioridade do Mar do Dragão-Rei e de suas ilhas. Vingar transgressões contra Khubar.",
+    "simboloSagrado": "Uma coroa feita de conchas e pérolas.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Tridente.",
+    "devotos": "Elfos-do-mar, kallyanach, sereias/tritões, tabrachi, bucaneiros, caçadores, druidas, guerreiros, ladinos.",
+    "poderesConcedidos": ["Investida Tempestade"],
+    "obrigacoesRestricoes": "Devotos de Benthos não podem recusar pedidos de ajuda feitos por criaturas marinhas ou khubarianos inocentes. Além disso, não podem permanecer mais de um dia sem contato com água.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Pouco se sabe a respeito de Benthos, já que são raras suas visitas ao mundo seco. Para ele, nada importa além da vastidão submersa que habita e as inúmeras ilhas que defende. Quase nunca visto em terra firme, este Dragão-Rei interveio em um punhado de vezes na história dos bípedes do continente — e todas deixaram consequências que ecoam por séculos, como a retaliação contra Thomas Lendilkar e a batalha contra o Dragão da Tormenta.\n\nEmbora não seja uma figura benevolente, Benthos é o grande protetor de Khubar, o Reino Arquipélago. Os xamãs khubarianos possuem rituais secretos, capazes de invocar Benthos para combater ameaças às ilhas como um todo. Benthos é adorado em Khubar tanto quanto os deuses do Panteão, considerado por muitos a divindade principal, por sua proximidade e fisicalidade. Quase todos em Khubar lembram de alguma intervenção de Benthos, ou têm na família alguém que lembra. Assim, os ritos de adoração cotidiana ao Dragão-Rei têm um elemento de autopreservação e gratidão.\n\nEm sua forma humanoide, Benthos costuma aparecer como um tritão robusto de pele azulada, com roupas feitas de conchas e algas. Em forma dracônica, exibe um corpanzil esguio, com escamas brilhantes em tons de azul claro e verde-água, barbatanas emergindo ao longo do corpo e uma longa cauda bifurcada. As asas, em forma de leque, são utilizadas para voar e nadar."
+    }
+  ]
+}

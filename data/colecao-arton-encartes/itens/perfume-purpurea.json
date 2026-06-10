@@ -1,0 +1,16 @@
+{
+  "id": "perfume-purpurea",
+  "tipo": "item",
+  "nome": "Perfume purpúrea",
+  "resumo": "Líquido cheiroso que concede bônus em perícias de Carisma mas penalidade em Furtividade, com efeitos ampliados contra criaturas com Faro.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Este vidrinho possui um líquido cheiroso que pode ser aplicado em qualquer criatura adjacente com uma ação padrão. Fornece +2 em perícias baseadas em Carisma e –5 em Furtividade até o fim da cena. Contra criaturas com Faro, Sentidos Aguçados ou habilidades similares (a critério do mestre), os modificadores mudam para +5 e –10."
+  }
+}

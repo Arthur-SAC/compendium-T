@@ -1,0 +1,15 @@
+{
+  "id": "dominio-do-medo",
+  "tipo": "poder",
+  "nome": "Domínio do Medo",
+  "resumo": "+2 em Intimidação e na CD de efeitos de medo; pode escolher poderes de medo sem pré-requisitos de classe ou devoção; pode aprender magias de medo como magias divinas.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 39 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "deus-do-medo",
+    "prerequisito": "",
+    "descricao": "Você recebe +2 em Intimidação e na CD de seus efeitos de medo, e pode escolher poderes relacionados a efeitos de medo sem necessidade de cumprir pré-requisitos de classe ou devoção. Por fim, pode aprender magias de medo como magias divinas."
+  }
+}

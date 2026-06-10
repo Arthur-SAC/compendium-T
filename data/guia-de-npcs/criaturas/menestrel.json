@@ -1,0 +1,49 @@
+{
+  "id": "menestrel",
+  "tipo": "criatura",
+  "nome": "Menestrel",
+  "resumo": "Típico artista de rua, entoando canções populares por algumas moedas. Pode surgir em quase qualquer lugar, de tavernas a estradas. Dizem que matar um deles atrai azar terrível — principalmente para o menestrel!",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 66 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+4",
+    "percepcao": "+2",
+    "defesa": "12",
+    "fortitude": "+0",
+    "reflexos": "+6",
+    "vontade": "+2",
+    "pontosDeVida": "11",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +4 (1d4+2, 19).",
+      "À Distância Adaga +4 (1d4+4, 19)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "2",
+      "constituicao": "0",
+      "inteligencia": "1",
+      "sabedoria": "0",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Distrair (Padrão)",
+        "descricao": "O menestrel fascina uma criatura em alcance curto (Von CD 14 evita e a criatura não pode mais ser fascinada por esta habilidade por um dia). A criatura fica fascinada enquanto o menestrel se concentrar (uma ação padrão por rodada)."
+      },
+      {
+        "nome": "Estilo de Arremesso",
+        "descricao": "O menestrel pode sacar armas de arremesso como uma ação livre e recebe +2 nas rolagens de dano com elas (já contabilizado)."
+      }
+    ],
+    "pericias": "Atuação +6, Enganação +6, Diplomacia +6, Jogatina +6.",
+    "equipamento": "Adaga x2, instrumento musical.",
+    "tesouro": "Metade."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "presuntador",
+  "tipo": "criatura",
+  "nome": "Presuntador",
+  "resumo": "Machado de guerra sentiente feito de mana solidificado, dado a Klunc como recompensa por feito heroico; continua lutando sozinho quando Klunc fica inconsciente.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 29 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Feito de mana solidificado e dado a Klunc como recompensa por um ato especialmente heroico, o Presuntador é um machado de guerra aumentado energético magnífico. Se Klunc ficar inconsciente, o Presuntador continua lutando sozinho, com as mesmas estatísticas que teria se estivesse sendo empunhado. Quando ataca dessa forma, o Presuntador tem Defesa 35, RD 50 e 50 PV. Arma mágica específica maior, T$ 120.000."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "pertence", "alvoId": "klunc", "alvoTipo": "criatura", "rotulo": "Arma de Klunc" }
+  ],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Construto (arma animada)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+13",
+    "defesa": "35, redução de dano 50",
+    "fortitude": "+26",
+    "reflexos": "+13",
+    "vontade": "+20",
+    "pontosDeVida": "50",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Presuntador x3 +38 (3d6+35 essência, x3)."
+    ],
+    "atributos": {
+      "forca": "11",
+      "destreza": "1",
+      "constituicao": "8",
+      "inteligencia": "–3",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arma Autônoma",
+        "descricao": "Quando Klunc fica inconsciente, o Presuntador continua lutando sozinho, com as mesmas estatísticas que teria se estivesse sendo empunhado por Klunc. Nessa forma, tem Defesa 35, RD 50 e 50 PV."
+      }
+    ],
+    "pericias": "",
+    "tesouro": "Nenhum."
+  }
+}

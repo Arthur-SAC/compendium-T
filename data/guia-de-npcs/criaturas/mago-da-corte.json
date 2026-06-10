@@ -1,0 +1,57 @@
+{
+  "id": "mago-da-corte",
+  "tipo": "criatura",
+  "nome": "Mago da Corte",
+  "resumo": "Arcanista conselheiro de regente, sempre preparado para conjurar poderosos feitiços em defesa de seu senhor atuando em conjunto com os guardas reais.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 76 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+10",
+    "percepcao": "+11",
+    "defesa": "33, imunidade a desprevenido e surpreendido, redução de dano 5",
+    "fortitude": "+16",
+    "reflexos": "+10",
+    "vontade": "+22",
+    "pontosDeVida": "220",
+    "pontosDeMana": "77",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bordão +24 (1d6+5)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "5",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "O mago da corte soma sua Inteligência nas rolagens de dano com magias (já contabilizado)."
+      },
+      {
+        "nome": "Biblioteca Mágica (Padrão, 1 PM)",
+        "descricao": "O mago saca um pergaminho de uma magia arcana de até 3º círculo. Ele pode ativar o pergaminho (gastando a ação normal para isso) e lançar a magia contida nele como se a conhecesse."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o mago muda a execução dela para livre."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um mago de 10º nível (CD 32).\n• Bola de Fogo (Padrão, 10 PM): O mago causa 12d6+5 pontos de dano de fogo em todas as criaturas e objetos livres numa esfera de 6m em alcance médio (Ref reduz à metade).\n• Campo de Força (Reação, 7 PM): Quando sofre dano, o mago recebe redução de dano 50 contra esse dano.\n• Dissipar Magia (Padrão, 3 PM): O mago escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Lendas e Histórias (Padrão, 6 PM): Descobre informações sobre uma criatura, objeto ou local que esteja tocando.\n• Runa de Proteção (1 hora, 10 PM): Cria uma runa que protege uma passagem. Quando uma criatura entra na área afetada, a runa explode, causando 20d6 pontos de dano de fogo em todos os alvos até 6m.\n• Seta Infalível de Talude (Padrão, 7 PM): O mago projeta cinco setas de energia em até cinco criaturas em alcance médio. Cada seta causa 1d8+1 pontos de dano de essência (uma delas recebe +5 na rolagem de dano)."
+      }
+    ],
+    "pericias": "Conhecimento +14, Misticismo +18, Nobreza +14, Ofício (alquimista) +14.",
+    "equipamento": "Bordão, chapéu arcano, essência de mana, medalhão de prata, poção de curar ferimentos (7d8+7 PV), robe místico aprimorado.",
+    "tesouro": "Dobro."
+  }
+}

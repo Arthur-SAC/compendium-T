@@ -1,0 +1,16 @@
+{
+  "id": "pocao-da-coragem",
+  "tipo": "item",
+  "nome": "Poção da coragem",
+  "resumo": "Preparado placebo que concede bônus em perícias e testes de resistência contra medo, mas apenas se bebido após um discurso encorajador.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "O rótulo diz: \"Esta poderosa poção deve ser ingerida após se ouvir um discurso encorajador\". Se você beber a poção até uma rodada após outra pessoa ter feito um discurso (ação completa e teste de Atuação ou Diplomacia, CD 20), o efeito placebo fornece +1 em testes de perícia e +5 em testes de resistência contra medo até o fim da cena. Se você a beber em qualquer outra situação, nada acontece — afinal, a \"poderosa poção\" é apenas água."
+  }
+}

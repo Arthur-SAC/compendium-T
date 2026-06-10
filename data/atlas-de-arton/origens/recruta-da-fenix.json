@@ -1,0 +1,26 @@
+{
+  "id": "recruta-da-fenix",
+  "tipo": "origem",
+  "nome": "Recruta da Fênix",
+  "resumo": "Você iniciou o treinamento para combater a Horda Moóck montado em grifo em Triunphus, ganhando resistência a fogo e habilidades de cavalaria.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você começou o treinamento para combater a Horda Moóck montado em um majestoso grifo. Por vontade própria ou imposição, você saiu da cidade antes de completar o treinamento… ou morrer!"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "triunphus", "alvoTipo": "regiao", "rotulo": "Origem regional de Triunphus" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial", "Brunea", "Grifo iniciante"],
+    "beneficios": {
+      "pericias": ["Cavalgar"],
+      "poderes": [],
+      "texto": "Você recebe +1 PV por nível e redução de fogo 5, e é treinado em Cavalgar."
+    },
+    "poderesUnicos": []
+  }
+}

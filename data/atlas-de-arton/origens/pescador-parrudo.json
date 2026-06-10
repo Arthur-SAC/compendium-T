@@ -1,0 +1,26 @@
+{
+  "id": "pescador-parrudo",
+  "tipo": "origem",
+  "nome": "Pescador Parrudo",
+  "resumo": "Crescido pescando nas águas profundas de Khubar, seu corpo é forte e resistente, e você nada com destreza excepcional.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Desde criança, você pesca nas águas profundas de Khubar. Tal atividade deixou seu corpo forte e resistente."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "khubar", "alvoTipo": "regiao", "rotulo": "Origem regional de Khubar" }
+  ],
+  "mecanica": {
+    "itens": ["Vara de pesca (pode usar Sobrevivência para sustento)", "Peixes raros salgados para revenda (1 espaço, T$ 50)"],
+    "beneficios": {
+      "pericias": ["Atletismo", "Fortitude", "Sobrevivência"],
+      "poderes": [],
+      "texto": "Você recebe +2 em Atletismo, Fortitude e Sobrevivência e +3 PV. Além disso, quando faz um teste de Atletismo para nadar você avança seu deslocamento (em vez de apenas a metade)."
+    },
+    "poderesUnicos": []
+  }
+}

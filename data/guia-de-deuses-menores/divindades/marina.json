@@ -1,0 +1,28 @@
+{
+  "id": "marina",
+  "tipo": "divindade",
+  "nome": "Marina",
+  "resumo": "Deusa dos marinheiros, de origem misteriosa e múltiplas histórias, que abençoa todos que desbravam o mar — piratas, pescadores, oficiais — e foi decisiva na batalha contra a Tempestade Rubra.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 34 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "aliada", "alvoId": "oceano", "alvoTipo": "divindade", "rotulo": "Salva ou criada por Oceano, segundo algumas versões" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Explorar o mar. Desafiar as ondas. Desbravar o oceano. Enfrentar tempestades. Vencer limites. Desafiar o impossível. Construir, consertar e pilotar embarcações.",
+    "simboloSagrado": "Um redemoinho marinho.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Florete.",
+    "devotos": "Elfos, elfos-do-mar, hynne, kappa, minotauros, qareen, sereias/tritões, arcanistas, bárbaros, bucaneiros, caçadores, druidas, ladinos.",
+    "obrigacoesRestricoes": "Devotos de Marina devem sempre carregar consigo um recipiente fechado com água do mar (em termos de jogo, um item que ocupa 0,5 espaço). Além disso, uma vez por aventura, devem passar pelo menos uma noite em uma embarcação no mar.",
+    "poderesConcedidos": ["Mar Aberto"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "As histórias sobre a origem e a verdadeira aparência desta deusa são tão variadas quanto as histórias de pescadores, marinheiros e piratas. Uns dizem que ela foi uma sereia que se apaixonou por um marinheiro, abrindo mão de sua própria raça para ficar mais perto dele. Outros, que foi a maior capitã pirata do Mar Negro, conquistando a devoção de incontáveis tripulações. Há quem diga que foi uma jovem donzela capturada por piratas e jogada ao mar para morrer, mas que foi salva por Oceano. Outros ainda afirmam que ela foi um bebê que caiu no mar, mas sobreviveu ao ser levado para uma área de \"ar molhado\" (águas mágicas onde é possível respirar) e foi criada por peixes. Por fim, existem versões que afirmam que ela é a princesa de um antigo império submarino, e até mesmo aqueles que afirmam que Marina era um mero acrostólio (uma decoração de proa de navio) tão adorada pela tripulação que ganhou vida.\n\nQuando alguém pergunta diretamente à deusa qual das histórias é real, ela apenas responde: \"sim\".\n\nA verdadeira personificação das histórias de marinheiros, Marina abençoa oficiais respeitáveis, piratas, pescadores e exploradores sem distinção, pois é a deusa de todos que desbravam o mar. É capaz de invocar incontáveis navios de todos os tipos e tamanhos, mais rápidos, resistentes e poderosos do que qualquer embarcação já vista em Arton. Ninguém sabe de onde vêm esses navios — o que leva alguns a especular que ela realmente possui um império subaquático. Também é capaz de construir navios, sozinha ou com a ajuda de misteriosas equipes que surgem apenas à noite. No convés de uma nau capitânia, é capaz de guiar uma frota inteira, domando as ondas e fazendo soprar os ventos mais favoráveis. Marina recebe devoção absoluta porque não é uma deusa do mar ou de suas criaturas, mas dos homens e mulheres que o desbravam. Seus fiéis não precisam apaziguar uma deusa imprevisível como o próprio mar, não precisam implorar permissão para singrá-lo: sob Marina, o mar pertence a eles.\n\nÉ comum que navios sejam dedicados a Marina antes de sua primeira viagem. Esse costume ficou ainda mais arraigado depois do papel decisivo desta deusa no combate à Tempestade Rubra: foi nos navios de Marina que o exército de deuses menores de Orion Drake chegou à área de Tormenta de Tamu-ra em 1405, libertando o Império de Jade de sua corrupção."
+    }
+  ]
+}

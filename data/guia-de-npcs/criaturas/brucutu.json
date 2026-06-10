@@ -1,0 +1,48 @@
+{
+  "id": "brucutu",
+  "tipo": "criatura",
+  "nome": "Brucutu",
+  "resumo": "Trabalhador braçal ou capanga forte, porém não muito brilhante; frequenta tavernas, portos e outros lugares onde possa encontrar um empregador interessado em suas habilidades — carregar coisas ou bater nelas.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 72 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+2",
+    "percepcao": "+2",
+    "defesa": "13",
+    "fortitude": "+5",
+    "reflexos": "+3",
+    "vontade": "+0",
+    "pontosDeVida": "7",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Clava +9 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "0",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Valentão",
+        "descricao": "O brucutu recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, enredados, flanqueados ou indefesos."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "O brucutu é um parceiro que impõe uma penalidade de –2 em Diplomacia e fornece os benefícios a seguir. Iniciante: pode carregar 2 espaços de itens e, uma vez por rodada, você recebe +1d6 pontos de dano em uma rolagem de dano corpo a corpo. Veterano: a quantidade de espaços carregados aumenta para 5 e o bônus em rolagens de dano corpo a corpo aumenta para +1d8. Mestre: a quantidade de espaços carregados aumenta para 10 e o bônus em rolagens de dano corpo a corpo aumenta para +1d10."
+      }
+    ],
+    "pericias": "Atletismo +4, Intimidação +3.",
+    "equipamento": "Andrajos de aldeão, bandana, clava.",
+    "tesouro": "Nenhum."
+  }
+}

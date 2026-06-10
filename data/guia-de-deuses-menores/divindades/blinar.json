@@ -1,0 +1,26 @@
+{
+  "id": "blinar",
+  "tipo": "divindade",
+  "nome": "Blinar",
+  "resumo": "Deus das Máscaras, figura enigmática de rosto que muda constantemente, padroeiro dos bailes mascarados e dos espiões, especialmente venerado em Ahlen e no Palácio Rishantor de Thartann.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 12 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Nunca mostrar sua verdadeira face. Provar-se mais esperto do que os demais. Deixar todos imaginando quem você é. Fazer aquilo que só é possível com anonimato total.",
+    "simboloSagrado": "Uma máscara de baile.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Adaga.",
+    "devotos": "Goblins, hynne, medusas, osteon, sílfides, sulfure, bardos, bucaneiros, ladinos, nobres.",
+    "poderesConcedidos": ["Máscara Mística"],
+    "obrigacoesRestricoes": "Devotos de Blinar devem sempre usar máscaras em público (a máscara conta como um item vestido). Além disso, uma vez por semana devem fazer um estranho acreditar que sua identidade é outra.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um deus dissimulado, com rosto na forma de uma máscara de porcelana que se transforma constantemente, Blinar é uma figura enigmática e extravagante. Sempre veste roupas elaboradas que parecem fantasias — ou talvez também façam parte de seu corpo. Reverenciado em inúmeros bailes da corte e (secretamente) entre espiões, Blinar ensina seus devotos a jamais mostrar quem realmente são. Muito popular em Ahlen, é considerado por muitos o padroeiro da festa do Dia das Máscaras que acontece no Palácio Rishantor de Thartann, a capital do Reino da Intriga.\n\nBlinar governa sobre todos os aspectos das máscaras, desde sua função festiva e brincalhona até seu uso como disfarce e mesmo seu lado ritualístico. O deus ensina que, sob uma máscara, um mortal (ou mesmo uma divindade) pode ser qualquer um, ou qualquer coisa. A máscara seria a maior das defesas, pois protegeria a identidade, algo que engloba corpo, mente e alma. Paradoxalmente, as pessoas também mostram quem são de verdade ao usar uma máscara. Afinal, não há vergonha quando se usa um rosto que não é o seu próprio. Com sua identidade oculta, o que está em seu interior pode aflorar…"
+    }
+  ]
+}

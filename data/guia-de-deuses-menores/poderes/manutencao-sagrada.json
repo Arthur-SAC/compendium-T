@@ -1,0 +1,15 @@
+{
+  "id": "manutencao-sagrada",
+  "tipo": "poder",
+  "nome": "Manutenção Sagrada",
+  "resumo": "Uma vez por dia, ajusta a própria armadura em 10 minutos com teste de Ofício (armeiro); recebe bônus de Defesa igual ao bônus de ajuda, mas o bônus diminui em 1 a cada vez que for atingido.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 30 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "klangor",
+    "prerequisito": "",
+    "descricao": "Uma vez por dia, você pode gastar 10 minutos ajustando sua própria armadura. Faça um teste de Ofício (armeiro) para ajudar. Enquanto estiver trajando esta armadura, você recebe um bônus na Defesa igual ao bônus de ajuda fornecido pelo teste. Entretanto, a cada vez que você for atingido por um ataque, esse bônus diminui em 1 (até um mínimo de 0)."
+  }
+}

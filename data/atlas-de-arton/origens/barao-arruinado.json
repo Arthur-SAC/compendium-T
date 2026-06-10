@@ -1,0 +1,26 @@
+{
+  "id": "barao-arruinado",
+  "tipo": "origem",
+  "nome": "Barão Arruinado",
+  "resumo": "Você estava destinado a se tornar senhor de um feudo, mas seu título se perdeu — ao menos isso o ensinou a lidar com os reveses da vida.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você estava destinado a se tornar o senhor de um feudo, mas seu título se perdeu. Pelo menos isso o ensinou a lidar com os reveses da vida."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "feudos-de-trebuck", "alvoTipo": "regiao", "rotulo": "Origem regional de Feudos de Trebuck" }
+  ],
+  "mecanica": {
+    "itens": ["Anel com símbolo da família (T$ 200)", "Títulos de terras expirados (+2 em Diplomacia com nobres e burocratas)", "Traje da corte"],
+    "beneficios": {
+      "pericias": ["Nobreza"],
+      "poderes": [],
+      "texto": "Você é treinado em Nobreza. Sempre que falha em um teste de perícia e a falha acarreta uma consequência negativa (gastar uma ação, perder PV, sofrer um efeito etc.), você recebe +2 em testes da mesma perícia até o final da cena."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "manha-da-cidade",
+  "tipo": "poder",
+  "nome": "Manha da Cidade",
+  "resumo": "Em comunidades, soma Sabedoria (mín. 1) em Conhecimento, Investigação, Ladinagem e Nobreza, pode usar essas perícias sem treinamento e pode interrogar a própria cidade sem falar com pessoas ou gastar tibares.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 38 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "deus-das-cidades",
+    "prerequisito": "",
+    "descricao": "Quando está em uma comunidade, você soma sua Sabedoria (mínimo de 1) em testes de Conhecimento, Investigação, Ladinagem e Nobreza, e pode fazer testes dessas perícias mesmo sem ser treinado. Além disso, em comunidades pode fazer testes para interrogar sem precisar falar com pessoas ou gastar tibares, questionando a própria cidade."
+  }
+}

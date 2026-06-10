@@ -1,0 +1,66 @@
+{
+  "id": "goblin-do-cantinho",
+  "tipo": "criatura",
+  "nome": "Goblin do Cantinho",
+  "resumo": "Go Blinn, o goblin faxineiro da Academia Arcana, cuja astúcia e talento para simular a própria morte o salvaram de virar vítima de aventureiros e o colocaram ao lado de lendas de Arton.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 65
+  },
+  "imagens": [
+    "/criaturas/goblin-do-cantinho.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Infelizmente, ainda é costumeiro que goblins sejam tratados como simples monstros por aventureiros. Sendo assim, é possível que o simpático Go Blinn — nome criativo dado por seus pais — acabasse tendo sua existência literalmente apagada da face de Arton.\n    Porém, quis o destino que ele atravessasse o caminho de verdadeiros heróis. Vivendo onde hoje é a Supremacia Purista, acabou sendo recrutado para a tripulação do terrível pirata ogro Ordrogh. Do ponto de vista de Go Blinn, isso foi menos uma escolha e mais questão de sobrevivência. De fato, ele planejava se livrar dessa precarizada carreira de capanga de vilão assim que uma oportunidade surgisse…\n    E ela surgiu! Na forma de um raio mágico não letal disparado por Kadeen, um dos Campeões de Svalas, em meio a um combate desse célebre grupo contra o bando do ogro.\n    Atingido pelo feitiço, Go Blinn, ator nato, declarou a plenos pulmões ter sido \"mortalmente ferido!\". Escondeu-se num canto — surpreendentemente, com sucesso. Quando, mais tarde na mesma batalha, um dos heróis foi arremessado por Ordrogh no mesmo lugar, o goblin proferiu sua famosa (?) frase: \"Vá procurar seu próprio cantinho!\".\n    Essa passagem cômica é muito lembrada nas sagas cantadas sobre os Campeões, mas Go Blinn cruzaria o caminho de ainda outras personalidades famosas, depois de conseguir fugir para outro reino.\n    Em seu emprego mais recente, como faxineiro na Academia Arcana, teria participado dos eventos que levaram à ascensão de Vladislav Tpish como novo Mestre Máximo da Magia, atuando ao lado de lendas como Tork, o Troglodita Anão; o Doutor Zebediah Nash, e sir Philipp Donovan.\n    O fato de todos esses indivíduos singulares serem dados como mortos, entretanto, não facilita que outras pessoas acreditem nessa história."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+8",
+    "percepcao": "+2, visão no escuro",
+    "defesa": "16, evasão",
+    "fortitude": "+6",
+    "reflexos": "+9",
+    "vontade": "+3",
+    "pontosDeVida": "24",
+    "deslocamento": "9m (6q), escalar 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Vassoura +7 (1d8+4 impacto)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "6",
+      "constituicao": "2",
+      "inteligencia": "3",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Aparência Inofensiva",
+        "descricao": "A primeira criatura inteligente (Int –3 ou maior) que atacar Go Blinn em uma cena deve fazer um teste de Vontade (CD 18). Se falhar, perderá sua ação."
+      },
+      {
+        "nome": "Meu Cantinho",
+        "descricao": "Se estiver em qualquer canto (ou seja, adjacente a pelo menos duas paredes ou superfícies equivalentes), Go Blinn recebe cobertura e aplica seu bônus por cobertura em testes de resistência (além de na Defesa)."
+      },
+      {
+        "nome": "Solução Engenhosa (Reação)",
+        "descricao": "Uma vez por cena, quando faz um teste de perícia, Go Blinn soma sua Inteligência no teste."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Go Blinn é um parceiro iniciante que fornece +2 em Furtividade e permite que você use a habilidade Meu Cantinho."
+      }
+    ],
+    "pericias": "Acrobacia +8, Atuação +4, Furtividade +10, Ladinagem +8, Ofício (zelador) +5.",
+    "equipamento": "Andrajos de aldeão, gazua, vassoura (conta como uma maça e instrumentos de Ofício [zelador]).",
+    "tesouro": "Metade."
+  }
+}

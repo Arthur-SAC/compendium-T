@@ -1,0 +1,28 @@
+{
+  "id": "rhond",
+  "tipo": "divindade",
+  "nome": "Rhond",
+  "resumo": "Antigo clérigo de Keenn que ascendeu a Deus Menor das Armas após desafiar seu deus e ser punido com forma monstruosa e forja eterna, tornando-se o mais poderoso armeiro imortal de Arton.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 39 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "criouItem", "alvoId": "a-espada-deus", "alvoTipo": "divindade", "rotulo": "Criador da Espada-Deus" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Forjar e usar as melhores armas. Honrar e respeitar as armas como obras de arte. Vencer pela força ou estratégia. Realizar grandes feitos. Derrotar monstros e inimigos usando suas próprias criações.",
+    "simboloSagrado": "Uma espada, um machado de batalha e um martelo de guerra cruzados sobre uma bigorna.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Martelo de guerra.",
+    "devotos": "Anões, elfos, golens, minotauros, bárbaros, bucaneiros, caçadores, cavaleiros, guerreiros, inventores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Rhond devem passar pelo menos uma hora por dia limpando, consertando ou afiando uma arma, ou treinando com uma arma. Além disso, pelo menos uma vez por aventura o devoto deve fabricar uma arma qualquer.",
+    "poderesConcedidos": ["Artista das Armas"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Rhond é um dos deuses menores mais acessíveis — e sua história é uma das mais conhecidas. Ele reside na Cidade de Rhond, no reino de Zakharov, que também abriga seu templo mais importante e boa parte de seus clérigos.\n\nRhond teria sido um dos mais antigos clérigos de Keenn, o antigo Deus da Guerra. Tanto um armeiro supremo quanto um aventureiro poderoso, Rhond forjou incontáveis armas, transcendendo a mera habilidade mundana para fabricar verdadeiros itens mágicos. Acumulou tanto poder e artefatos de sua própria criação que acreditou ser capaz de vencer o próprio Deus da Guerra e ocupar seu posto. E efetivamente viajou até o Reino de Keenn para desafiá-lo, mas foi vencido.\n\nNo entanto, Keenn não puniu o desafiante. Orgulhoso da coragem de seu clérigo, recompensou-o com a imortalidade, o poder mágico de forjar as mais poderosas e magníficas ferramentas de morte. Contudo, também o puniu por sua arrogância: prendeu-o numa forma monstruosa de seis braços e obrigou-o a forjar armas pela eternidade. Assim, pensava Keenn, o poderoso desafiante estaria para sempre servindo a ele.\n\nContudo, Rhond viu a recompensa/castigo como uma grande injustiça, o capricho de um deus arbitrário. Perdeu a fé e abandonou o sacerdócio, continuando em sua tarefa eterna. Com o passar dos séculos, sua fama como armeiro se tornou tão grande que ele próprio começou a ser cultuado, ascendendo a Deus Menor das Armas.\n\nRhond trabalha sem cessar em uma caverna, na oficina que é também seu templo. A forja é um pequeno vulcão, borbulhando de lava, e todas as paredes são recobertas dos mais variados tipos de armamentos. Ao redor da caverna existe a Cidade de Rhond, onde o martelar incessante do deus pode ser ouvido dia e noite, em qualquer lugar.\n\nRhond não é conhecido por sua paciência ou generosidade, mas às vezes contribui com suas magníficas criações quando acredita que o objetivo é importante o bastante. Teve papel decisivo na Batalha de Tamu-ra, por exemplo. Vários outros deuses menores governam meros aspectos do portfólio de Rhond — o Deus da Pólvora e o Deus dos Machados são alguns exemplos. Rhond é um dos mais poderosos deuses menores, com um dos portfólios mais abrangentes."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "emissario-ubaneri",
+  "tipo": "origem",
+  "nome": "Emissário Ubaneri",
+  "resumo": "Você foi preparado para percorrer terras distantes e conhecer o mundo além da Savana, sempre acompanhado de um alikunhá.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi preparado para percorrer as terras distantes e conhecer mais sobre o mundo além da Savana. Você nunca fica solitário, pois está acompanhado de um alikunhá, um pequeno pedaço de Ubani."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "ubani", "alvoTipo": "regiao", "rotulo": "Origem regional de Ubani" }
+  ],
+  "mecanica": {
+    "itens": ["Essência de mana", "Mochila de aventureiro"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe um alikunhá, um parceiro iniciante que não conta em seu limite de parceiros (veja o quadro na página 471) e pode usar Sabedoria como atributo-chave de Misticismo (em vez de Inteligência)."
+    },
+    "poderesUnicos": []
+  }
+}

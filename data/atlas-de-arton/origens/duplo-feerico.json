@@ -1,0 +1,26 @@
+{
+  "id": "duplo-feerico",
+  "tipo": "origem",
+  "nome": "Duplo Feérico",
+  "resumo": "Em algum lugar de Arton há alguém igual a você — você é a cópia feita por uma fada, com acesso a habilidades de outra classe.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Em algum lugar de Arton, há alguém igual a você. Com a mesma aparência, as mesmas capacidades, os mesmos ideais. Talvez isso rendesse uma boa amizade, mas esse alguém veio primeiro. Você é apenas a cópia feita por uma fada."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "pondsmania", "alvoTipo": "regiao", "rotulo": "Origem regional de Pondsmânia" }
+  ],
+  "mecanica": {
+    "itens": ["Essência de mana", "Marca no corpo ou característica física não possuída pela sua versão original"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Escolha uma habilidade de classe de 1º nível de uma classe que não seja a sua. Você recebe essa habilidade e pode usá-la como se tivesse 1 nível naquela classe (se escolher a habilidade Magias, você aprende uma única magia e recebe +1 ponto de mana, mas não soma o atributo-chave da habilidade em seu total de PM)."
+    },
+    "poderesUnicos": []
+  }
+}

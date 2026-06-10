@@ -1,0 +1,15 @@
+{
+  "id": "toque-de-esmeralda",
+  "tipo": "poder",
+  "nome": "Toque de Esmeralda",
+  "resumo": "Aplique melhorias de joia em itens fabricados por T$ 100 sem aumentar a CD, e role duas vezes em tabelas de riqueza aleatória para ficar com o melhor valor.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 20 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "esmeralda",
+    "prerequisito": "",
+    "descricao": "Se fabricar um item que possa receber as melhorias banhado a ouro ou cravejado de joias, você pode gastar T$ 100 para aplicar uma dessas melhorias automaticamente, sem aumento na CD e sem que ela conte como uma melhoria. Sempre que você encontra uma riqueza aleatória (Tormenta20, p. 330), pode rolar duas vezes na tabela e escolher o melhor valor."
+  }
+}

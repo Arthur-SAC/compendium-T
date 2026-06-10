@@ -1,0 +1,26 @@
+{
+  "id": "catador-da-cidade-velha",
+  "tipo": "origem",
+  "nome": "Catador da Cidade Velha",
+  "resumo": "As ruínas inundadas da Velha Malpetrim guardam riquezas e perigos; você cresceu vasculhando essas profundezas em busca do almoço do dia seguinte.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "As ruínas inundadas da Velha Malpetrim guardam riquezas, segredos e incontáveis perigos. Você cresceu vasculhando essas profundezas em busca do almoço do dia seguinte."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "nova-malpetrim", "alvoTipo": "regiao", "rotulo": "Origem regional de Nova Malpetrim" }
+  ],
+  "mecanica": {
+    "itens": ["Luneta", "Luvas de pelica", "Tranqueiras resgatadas do mar (2 espaços, valor de venda T$ 100)"],
+    "beneficios": {
+      "pericias": ["Fortitude", "Percepção"],
+      "poderes": [],
+      "texto": "Você é treinado em Fortitude e Percepção e pode gastar 1 PM para receber deslocamento de natação igual ao seu deslocamento básico (se já tiver deslocamento de natação, em vez disso ele aumenta em +3m) por uma cena. Esse deslocamento não permite respirar debaixo d'água automaticamente, mas dobra o limite de tempo em que você pode segurar sua respiração."
+    },
+    "poderesUnicos": []
+  }
+}

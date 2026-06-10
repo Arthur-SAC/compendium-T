@@ -1,0 +1,16 @@
+{
+  "id": "lubrificante-de-ouvido",
+  "tipo": "item",
+  "nome": "Lubrificante de ouvido",
+  "resumo": "Preparado alquímico que melhora a audição, concedendo bônus em Iniciativa e Percepção, mas causando vulnerabilidade a impacto.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Com uma gota disto no ouvido, você escutará como nunca! Usar o lubrificante é uma ação completa e fornece +2 em Iniciativa e Percepção e vulnerabilidade a impacto (por conta de sua sensibilidade auricular) por 1 dia."
+  }
+}

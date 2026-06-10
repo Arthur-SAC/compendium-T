@@ -1,0 +1,26 @@
+{
+  "id": "sabio-matematico",
+  "tipo": "origem",
+  "nome": "Sábio Matemático",
+  "resumo": "Você estudou as equações dos sar-allan de Halak-Tûr e pode lançar Concentração de Combate e Orientação via matemática pura.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você estudou as complexas equações que os sar-allan usam para calcular a formação de portais no deserto. Talvez ainda não consiga prever esses eventos tão bem quanto seus mestres, mas sabe usar o poder da matemática para resolver diversos problemas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "halak-tur", "alvoTipo": "regiao", "rotulo": "Origem regional de Halak-Tûr" }
+  ],
+  "mecanica": {
+    "itens": ["Coleção de livros", "Luneta"],
+    "beneficios": {
+      "pericias": ["Conhecimento"],
+      "poderes": [],
+      "texto": "Você é treinado em Conhecimento. Além disso, aprende e pode lançar Concentração de Combate e Orientação. Estes efeitos não contam como magias (exceto para fins de acúmulo) e não são mágicos — eles provêm de sua habilidade de calcular resultados a partir de uma mistura de geometria, análise de probabilidades e outros campos da matemática."
+    },
+    "poderesUnicos": []
+  }
+}

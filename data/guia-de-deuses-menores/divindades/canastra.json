@@ -1,0 +1,28 @@
+{
+  "id": "canastra",
+  "tipo": "divindade",
+  "nome": "Canastra",
+  "resumo": "Deus das Armadilhas, divindade pequena e teatral que protege os espertos e astutos, reverenciado por caçadores, emboscadores e projetistas de masmorras em toda Arton.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 13 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "hyninn", "alvoTipo": "divindade", "rotulo": "Especula-se que Canastra seja fantoche ou rival de Hyninn, o Deus da Trapaça" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Planejar adiante. Estar sempre um passo à frente. Emboscar inimigos. Preparar armadilhas. Manipular outros a seu favor.",
+    "simboloSagrado": "Uma armadilha arataca.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Rede.",
+    "devotos": "Finntroll, gnolls, goblins, harpias, hynne, kliren, kobolds, nezumi, sílfides, trogs, bardos, caçadores, inventores, ladinos.",
+    "poderesConcedidos": ["Dom de Armadilheiro"],
+    "obrigacoesRestricoes": "Devotos de Canastra devem sempre estar um passo à frente de seus adversários. Uma vez por dia (ou por sessão de jogo, o que demorar mais), devem executar uma armadilha ou uma emboscada com sucesso.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um deus pequeno e esguio, com personalidade teatral, Canastra esconde sua inteligência e o perigo que representa, fingindo ser indefeso. Protege aqueles que usam de esperteza e artimanhas para vencer e diverte-se com devotos capazes de encontrar um jeitinho de se virar em situações perigosas. Embora possua muitos servos em palácios, também é reverenciado por todo tipo de caçadores, desde meros aldeões que usam de armadilhas para capturar pequenos animais até caçadores de monstros ou recompensas, que guiam suas presas para as mais mortais emboscadas.\n\nCanastra também tem outros devotos mais sofisticados… e mais perigosos. Em várias partes de Arton, projetistas de masmorras cultuam este deus, em busca de inspiração para suas criações mortíferas e engenhosas. De fato, alguns teólogos especulam que o próprio Hyninn possa sentir algum \"ciúme\" desse culto. Outros afirmam que Canastra é um fantoche de Hyninn, para que o Deus da Trapaça possa influenciar o mundo ainda mais, mantendo sua fachada \"inofensiva\"."
+    }
+  ]
+}

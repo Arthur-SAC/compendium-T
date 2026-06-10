@@ -1,0 +1,28 @@
+{
+  "id": "zakharov",
+  "tipo": "divindade",
+  "nome": "Zakharov",
+  "resumo": "Anão lendário de força e coragem inigualáveis que ascendeu à divindade como Deus da Bravura, e em cuja honra a nação humana de Zakharov e sua capital Zakharin receberam seus nomes.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 51 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "zakharov", "alvoTipo": "regiao", "rotulo": "Região homônima — nação humana nomeada em honra ao deus" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 4",
+    "crencasObjetivos": "Honrar e proteger a raça, a cultura e as tradições anãs. Combater os finntroll e quaisquer outros inimigos da raça anã. Lutar o bom combate. Demonstrar coragem. Não se proteger demais. Encarar desafios — quanto mais difíceis, melhor.",
+    "simboloSagrado": "Um braço segurando o machado Zakharin.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Machado anão.",
+    "devotos": "Anões, centauros, golens, minotauros, trogs, bárbaros, cavaleiros, guerreiros, lutadores, paladino.",
+    "poderesConcedidos": ["Irmão da Coragem"],
+    "obrigacoesRestricoes": "Devotos de Zakharov devem fazer pelo menos uma demonstração de coragem por aventura (ou por mês, de acordo com o mestre). Para este efeito, uma demonstração de coragem é qualquer ato no qual o personagem possa morrer ou sofrer uma consequência grave e/ou permanente, que seja realizado sem nenhuma preparação que garanta sua segurança. Por exemplo, lutar contra um ogro sozinho, tentar escalar uma montanha sem equipamento ou tomar para si um item mágico que provavelmente é amaldiçoado são demonstrações de coragem. Enfrentar o mesmo ogro com seu grupo, escalar a montanha devidamente equipado ou tomar para si um item mágico qualquer não são. O mestre tem a palavra final sobre o que configura uma demonstração de coragem.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma das várias divindades anãs, Zakharov era um anão imensamente forte e musculoso, com um corpo tão robusto e duro que parecia uma estátua esculpida em mármore. Sua pele dava a impressão de ser feita de pedra. Ao contrário dos demais anões, ele não costumava ser visto com armadura alguma protegendo seu torso. Os equipamentos de batalha deste herói lendário se resumem ao seu elmo aberto, que sempre revelava sua farta e cobreada barba, e ao seu inseparável machado mágico, o Zakharin. Enfrentando todos os desafios de peito aberto, sem demonstrar hesitação ou mesmo necessidade de autopreservação, Zakharov passou a ser mais do que admirado — tornou-se adorado. Ascendeu à divindade, como Deus da Bravura.\n\nSão muitas as histórias contadas sobre a coragem de Zakharov. Tantas, na verdade, que chegam a entrar em contradição: na mesma época Zakharov teria estado tanto vários níveis abaixo de Doherimm, enfrentando sozinho um clã de gigantes do fogo, quanto na superfície, caçando uma coluna finntroll. Teria olhado nos olhos da Rainha das Medusas (uma entidade que não existe exceto em algumas lendas), fazendo com que ela se transformasse em pedra, e desembaraçado suas serpentes, conquistando sua amizade eterna. Teria domado todos os javalis doheritas e criado ele mesmo essa espécie, ao desafiar um rinoceronte para que fosse mais compacto e adequado ao subterrâneo!\n\nSeja como for, algo é constante em quase todas as histórias: Zakharov é uma figura despojada e simples. Não seria nem um pouco apegado a seu lendário machado, às vezes esquecendo-o ao voltar para casa depois de mais uma aventura. Numa dessas ocasiões, quando mais uma vez uma comitiva de devotos veio lhe devolver a arma, Zakharov teria dito para que ficassem com ela e \"usassem para alguma coisa útil um dia\". Essa seria a razão pela qual Zakharin foi presenteado de forma tão livre e surpreendente pelos anões aos humanos que colonizaram o reino de Zakharov.\n\nÉ justamente em honra a este deus que a nação humana de Zakharov e sua capital, Zakharin, receberam seus nomes. No entanto, devido a uma desavença ocorrida décadas atrás, considerada pelos anões como um desrespeito à divindade, as relações entre o reino humano e o reino anão nunca mais foram as mesmas.\n\nNão se sabe o paradeiro atual de Zakharov. Alguns afirmam que ele está escavando um túnel para o outro lado do mundo, apenas porque isso é algo muito perigoso. Outros garantem que anda pela superfície em busca de desafios. Há quem diga que ele morreu na Batalha de Tamu-ra, em 1405, enquanto outros afirmam que está vivendo tranquilamente em Doher e pode ser visto bebendo cerveja em várias tavernas da cidade."
+    }
+  ]
+}

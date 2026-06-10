@@ -1,0 +1,30 @@
+{
+  "id": "trapaceiro-ahleniense",
+  "tipo": "origem",
+  "nome": "Trapaceiro Ahleniense",
+  "resumo": "Criado em Ahlen — onde todo dia saem de casa um malandro e um otário —, você definitivamente aprendeu como não ser o otário.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 479 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Há um ditado em Ahlen: todo dia saem de casa um malandro e um otário. Você definitivamente aprendeu como não ser o otário."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "regiao",
+      "alvoId": "ahlen",
+      "alvoTipo": "regiao-expansao",
+      "rotulo": "Origem regional de Ahlen"
+    }
+  ],
+  "mecanica": {
+    "itens": ["Essência de sombra", "Gazua", "Estojo de disfarces"],
+    "beneficios": {
+      "pericias": [],
+      "texto": "Você recebe +2 em Enganação e Furtividade e pode usar Carisma como atributo-chave de Ladinagem (em vez de Destreza)."
+    },
+    "poderesUnicos": []
+  }
+}

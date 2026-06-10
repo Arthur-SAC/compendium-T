@@ -1,0 +1,26 @@
+{
+  "id": "ur",
+  "tipo": "divindade",
+  "nome": "Ur",
+  "resumo": "Entidade primordial antiquíssima — possivelmente um carvalho que adquiriu consciência por ser adorado — que guardou memórias de Arton antes mesmo da Revolta dos Três e passa seus dias em contemplação silenciosa nas florestas de Tollon.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 48 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 3",
+    "crencasObjetivos": "Reverenciar Ur, as árvores e os seres da natureza. Proteger as florestas e a vida selvagem. Combater incêndios, desmatamentos desenfreados, monstros, mortos-vivos e outras situações ou criaturas que perturbam o equilíbrio natural das florestas. Peregrinar até Ur.",
+    "simboloSagrado": "Um carvalho com uma face.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Bordão.",
+    "devotos": "Anões, dahllan, eiradaan, elfos, sílfides, bárbaros, caçadores, druidas.",
+    "poderesConcedidos": ["Trilhas das Árvores Antigas"],
+    "obrigacoesRestricoes": "Devotos de Ur não podem causar dano de fogo direta ou indiretamente a nenhuma criatura. Além disso, não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana).",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ur é uma das criaturas mais antigas de Arton. Lembra-se do mundo antes da Revolta dos Três e até mesmo antes da chegada dos elfos. Não se sabe se era um carvalho que adquiriu consciência por ser adorado ou se é um ente. O próprio Ur diz que isso não importa — quando se é tão velho quanto ele, lembrar de pormenores do passado pode tomar o resto da vida.\n\nSe as árvores possuem consciência, as florestas de Tollon cultuam Ur. Os entes certamente são seus seguidores. Alguns sábios afirmam que todos os entes de Arton estão em uma peregrinação até Ur — mas são tão lentos e pacientes que os humanos (e até mesmo os elfos!) não notam seus movimentos vagarosos e deliberados.\n\nUr prefere passar seus dias em contemplação silenciosa. Mesmo quando é abordado por seus fiéis, passa longo tempo sem dizer nada, deixando que seu silêncio e placidez tragam as respostas. Apenas em casos de grande emergência (como um incêndio fora de controle) desloca-se e fala ativamente."
+    }
+  ]
+}

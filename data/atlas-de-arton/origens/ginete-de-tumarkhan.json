@@ -1,0 +1,26 @@
+{
+  "id": "ginete-de-tumarkhan",
+  "tipo": "origem",
+  "nome": "Ginete de Tumarkhân",
+  "resumo": "Você estabeleceu um elo com um lagarto tumarkhân de Khubar, que o acompanha como montaria.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "O povo de Khubar usa o lagarto tumarkhân como montaria. Você estabeleceu um elo com um desses animais, que o acompanha em suas jornadas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "khubar", "alvoTipo": "regiao", "rotulo": "Origem regional de Khubar" }
+  ],
+  "mecanica": {
+    "itens": ["Bálsamo restaurador", "Sela"],
+    "beneficios": {
+      "pericias": ["Cavalgar"],
+      "poderes": [],
+      "texto": "Você é treinado em Cavalgar e possui um parceiro tumarkhân iniciante, com quem recebe +2 em testes de Adestramento e Cavalgar. Se receber outra montaria especial (como pelos poderes Montaria ou Montaria Sagrada), você pode usar seu tumarkhân como essa montaria, acumulando o bônus em perícias com os benefícios da montaria especial."
+    },
+    "poderesUnicos": []
+  }
+}

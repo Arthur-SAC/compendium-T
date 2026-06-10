@@ -1,0 +1,49 @@
+{
+  "id": "milicia-arcana",
+  "tipo": "criatura",
+  "nome": "Milícia Arcana",
+  "resumo": "Arcanistas de combate presentes nas maiores cidades do Reinado que atuam como guardas, auxiliando demais guardas contra ameaças não mundanas ou acompanhando capitães em missões.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 71 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+7",
+    "percepcao": "+7",
+    "defesa": "21, imunidade a efeitos mentais",
+    "fortitude": "+11",
+    "reflexos": "+4",
+    "vontade": "+15",
+    "pontosDeVida": "70",
+    "pontosDeMana": "27",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +12 (1d8+7, 19)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "3",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "A milícia arcana soma sua Inteligência nas rolagens de dano com magias (já contabilizado)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um mago de 5º nível (CD 21).\n• Amarras Etéreas (Padrão, 3 PM): Três laços de energia surgem e se enroscam em uma criatura em alcance médio, deixando-a agarrada (Ref evita). A vítima pode tentar se livrar, gastando uma ação padrão para fazer um teste de Atletismo. Se passar, destrói um laço, mais um laço adicional para cada 5 pontos pelos quais superou a CD. Os laços podem ser atacados e destruídos: cada um tem Def 10, 10 PV, RD 5 e imunidade a dano mágico. Se todos os laços forem destruídos, a magia é dissipada.\n• Arma Mágica (Padrão, 3 PM): Uma arma empunhada em alcance de toque se torna mágica até o fim da cena. Ela fornece +1 em testes de ataque e rolagens de dano e causa +1d6 pontos de dano de fogo. Se estiver empunhando a arma, o membro da milícia usa sua Inteligência no lugar da Força nos testes de ataque (ataque total +14).\n• Dissipar Magia (Padrão, 3 PM): Escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Seta Infalível de Talude (Padrão, 3 PM): Projeta três setas de energia distribuídas em até três criaturas em alcance médio. Cada seta causa 1d4+1 pontos de dano de essência (uma delas recebe +3 na rolagem de dano).\n• Visão Mística (Padrão, 3 PM): Até o fim da cena, enxerga criaturas invisíveis e detecta todas as auras mágicas em alcance médio e recebe todas as informações sobre elas sem gastar ações. Pode gastar uma ação de movimento para descobrir se uma criatura em alcance médio é capaz de lançar magias e qual a aura gerada por suas magias."
+      }
+    ],
+    "pericias": "Atletismo +6, Intuição +7, Misticismo +10.",
+    "equipamento": "Essência de mana, espada longa, robe místico, varinha arcana.",
+    "tesouro": "Metade."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "acolito",
+  "tipo": "criatura",
+  "nome": "Acólito",
+  "resumo": "Devotos sem poderes divinos, acólitos formam a maior parte dos membros de uma igreja. Atuam como assistentes de sacerdotes e guardas de templos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 68 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Templo",
+    "iniciativa": "+1",
+    "percepcao": "+4",
+    "defesa": "11",
+    "fortitude": "+3",
+    "reflexos": "+0",
+    "vontade": "+5",
+    "pontosDeVida": "11",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Maça +5 (1d8+3)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Prece (Movimento)",
+        "descricao": "O acólito recebe +1d6 em seu próximo teste de perícia feito nesse turno. Esta habilidade só pode ser usada uma vez por cena."
+      }
+    ],
+    "pericias": "Religião +4.",
+    "equipamento": "Maça, símbolo sagrado.",
+    "tesouro": "Nenhum."
+  }
+}

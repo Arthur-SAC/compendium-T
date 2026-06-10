@@ -1,0 +1,70 @@
+{
+  "id": "danna-arantur",
+  "tipo": "criatura",
+  "nome": "Danna Arantur",
+  "resumo": "Filha bastarda do Rei Solast de Tollon, guerreira com machados que emergiu como líder popular após os ataques dos minotauros e governa o enclave de Arantur como Princesa Danna.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 10
+  },
+  "imagens": [
+    "/criaturas/danna-arantur.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A filha bastarda do Rei Solast Arantur nasceu sob a sombra da nobreza. Akane Odomo, líder da Guarda Real, sabia que a filha jamais seria uma princesa e assim dedicou-se a treiná-la na arte da luta com machados, para que viesse a substituí-la no posto. A garota cresceu sabendo de sua ascendência, pois tollonienses não são dados a sutilezas e segredos.\n    Danna cresceu na capital do antigo reino de Tollon, a cidade de Vallahim. Tinha como companheiros outros aprendizes e como lar as casernas da guarda. Tornou-se órfã de mãe muito cedo, mas o pai e o restante da guarnição nunca lhe deixaram faltar nada. Quando os minotauros atacaram Tollon, a garota lutou com bravura ao lado do rei e o viu cair defendendo seu povo. Em seus momentos finais, Solast declarou Danna sua herdeira real.\n    Cheia de ódio e sentimento de vingança, a guerreira estava preparada para morrer ao lado do pai, mas o senso de responsabilidade herdado de Solast a dominou. Adotando o sobrenome real, Danna emergiu como uma líder popular, escoltando sobreviventes da capital até um esconderijo seguro o bastante para se estabelecer em uma nova comunidade isolada, que batizou de Arantur.\n    Talvez seus pais desejassem que ela fosse criada entre o povo para uma situação como esta. Ainda que Tollon não fosse mais um reino, ela o governaria. Embora se recusasse a ter um título formal, acabou ficando conhecida como Princesa Danna onde quer que as notícias de seus feitos chegassem.\n    Hoje em dia, a princesa é renomada por seus discursos inspiradores clamando vingança contra os minotauros. Entretanto, é extremamente reticente em permitir que qualquer pessoa refugiada deixe os muros desse enclave protegido, que considera uma \"ilha de segurança\" em meio à floresta.\n    A guerreira tem em geral uma postura conciliadora quanto aos povos arborícolas, defendendo um novo Pacto da Semente. Contudo, desconfia das grandes instituições e coalizões, que não foram capazes de defender Tollon em sua hora de maior necessidade. Diz-se que Danna cultua o rei caído como um deus, e que tem planos de espalhar essa religião entre os membros da comunidade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+7",
+    "percepcao": "+8",
+    "defesa": "31, redução de dano 5, resistência a magia +2",
+    "fortitude": "+20",
+    "reflexos": "+10",
+    "vontade": "+15",
+    "pontosDeVida": "155",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x2 +24 (2d8+25, x4)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Corte em Arco (Padrão)",
+        "descricao": "Danna Arantur faz um ataque corpo a corpo que atinge todos os inimigos em seu alcance natural (ela faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área). Recarga (movimento)."
+      },
+      {
+        "nome": "Durona (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, Danna reduz esse dano à metade."
+      },
+      {
+        "nome": "Lenhadora Veterana",
+        "descricao": "Os ataques de machado de Danna ignoram 5 pontos da RD de seus alvos e causam +1d8 pontos de dano contra plantas e criaturas com natureza vegetal."
+      },
+      {
+        "nome": "Ordens (Movimento)",
+        "descricao": "Danna grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena."
+      },
+      {
+        "nome": "Orgulho (Reação)",
+        "descricao": "Uma vez por cena, quando faz um teste de perícia, Danna soma o dobro de seu Carisma (+8) nesse teste."
+      }
+    ],
+    "pericias": "Atletismo +10, Diplomacia +13, Guerra +9, Intuição +8, Nobreza +11, Ofício (lenhador) +11, Sobrevivência +8.",
+    "equipamento": "Cota de malha reforçada, escudo pesado reforçado de madeira Tollon, machado de batalha pungente maciço, tabardo aprimorado.",
+    "tesouro": "Padrão."
+  }
+}

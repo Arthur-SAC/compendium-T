@@ -1,0 +1,47 @@
+{
+  "id": "guarda-costas-de-elite",
+  "tipo": "criatura",
+  "nome": "Guarda-costas de elite",
+  "resumo": "Lacaio fanático de Hermann Von Krauser, treinado para se sacrificar protegendo o mestre.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 19 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "lacaio", "alvoId": "hermann-von-krauser", "alvoTipo": "criatura", "rotulo": "Lacaio de Hermann Von Krauser" }
+  ],
+  "mecanica": {
+    "nd": "–",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+12",
+    "percepcao": "+15, percepção às cegas",
+    "defesa": "50",
+    "fortitude": "–",
+    "reflexos": "–",
+    "vontade": "– (falha automaticamente em qualquer teste oposto ou de resistência)",
+    "pontosDeVida": "1",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda (1d12+25, acerto automático).",
+      "À Distância Besta pesada (1d12+20, acerto automático)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "2",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Sacrifício Fanático (Reação)",
+        "descricao": "Quando o guarda-costas de elite é afetado por um efeito de área, ele se posiciona de forma a proteger um aliado na mesma área. O guarda-costas é afetado (e não pode ser protegido por esta habilidade), mas faz com que seu aliado não seja."
+      }
+    ],
+    "pericias": "Intimidação +12, Intuição +13, Ofício (soldado) +12.",
+    "equipamento": "Armadura completa reforçada, besta pesada certeira, escudo pesado reforçado, espada bastarda aumentada certeira de adamante, virotes de adamante x20.",
+    "tesouro": "Nenhum."
+  }
+}

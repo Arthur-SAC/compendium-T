@@ -1,0 +1,27 @@
+{
+  "id": "amazona-de-hippion",
+  "tipo": "origem",
+  "nome": "Amazona de Hippion",
+  "resumo": "Você é uma das orgulhosas amazonas de Hippion, um dos povos nativos de Arton Norte.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você é uma das orgulhosas amazonas de Hippion, um dos povos nativos de Arton Norte."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "deheon", "alvoTipo": "regiao", "rotulo": "Origem regional de Deheon" },
+    { "tipo": "regiao", "alvoId": "namalkah", "alvoTipo": "regiao", "rotulo": "Origem regional de Namalkah" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial", "Cavalo de guerra"],
+    "beneficios": {
+      "pericias": ["Cavalgar"],
+      "poderes": [],
+      "texto": "Você é treinada em Cavalgar e, se não estiver usando armadura pesada, soma seu Carisma nos PM, limitado pelo seu nível (apenas após um dia)."
+    },
+    "poderesUnicos": []
+  }
+}

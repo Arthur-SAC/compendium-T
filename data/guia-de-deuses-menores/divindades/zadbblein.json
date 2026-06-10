@@ -1,0 +1,29 @@
+{
+  "id": "zadbblein",
+  "tipo": "divindade",
+  "nome": "Zadbblein",
+  "resumo": "Dragoa-Rainha das Florestas, irmã gêmea de Heart e nova Dragão-Real após sua morte, que protege e expande grandes áreas florestais enquanto busca \"aperfeiçoar\" a natureza com magia arcana.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 50 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Aliada de Megalokk, ao qual ofereceu magia e esperteza quando voltou" },
+    { "tipo": "relacionadoCom", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Allihanna nunca aceitaria Zadbblein, segundo Heart" }
+  ],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 4",
+    "crencasObjetivos": "Reverenciar Zadbblein. Promover harmonia entre todas as criaturas vivas nas florestas. Aperfeiçoar as criaturas das florestas. Reverenciar a superioridade dos dragões da terra. Combater quaisquer criaturas que invadam o território da Dragoa-Rainha das Florestas. Promover a expansão e a evolução dos domínios de Zadbblein.",
+    "simboloSagrado": "Árvore cujas folhas são escamas verdes.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Bordão.",
+    "devotos": "Centauros, dahllan, eiradann, elfos, kallyanach, sátiros, tabrachi, trogs, arcanistas, bárbaros, caçadores, druidas, guerreiros, treinadores.",
+    "poderesConcedidos": ["Natureza Gloriosa"],
+    "obrigacoesRestricoes": "Devotos de Zadbblein devem proteger a Floresta das Escamas Verdes e não podem ferir nenhum animal ou dragão nativo dessa floresta, ou de outras florestas que sejam território de Zadbblein. Além disso, uma vez por mês, devem expandir os domínios ou a influência da Dragoa-Rainha significativamente.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Havia outro Dragão-Real não muitos anos atrás — Heart, o Dragão-Rei das Montanhas. Depois de sua morte nas mãos do Paladino de Arton, muitos pensaram passaria a haver um Dragão-Real a menos. Não conheciam Zadbblein, a Dragoa-Rainha das Florestas.\n\nZadbblein é a irmã gêmea de Heart — fisicamente mais fraca, mas ardilosa e hábil na magia. Tem personalidade oposta à de seu irmão: enquanto Heart era pacato e preguiçoso, preferindo maldades menores como escravizar e torturar, Zadbblein sempre foi agressiva.\n\nCom a morte de Heart, Zadbblein voltou a se sentir à vontade para fazer suas aparições, principalmente na Floresta das Escamas Verdes, considerando essa e todas as florestas da região sua propriedade. Protege e defende grandes áreas florestais e seu equilíbrio natural.\n\nPara irritá-la, Heart costumava chamá-la de \"falsa druida\", lembrando que Allihanna nunca iria aceitá-la. No entanto, acredita-se que a energia vital de Zadbblein é tão poderosa que faz as florestas onde passa a maior parte de seu tempo espalharem-se com mais rapidez. Alguns druidas e xamãs deram boas-vindas à Dragoa-Rainha das Florestas, acreditando que poderia ser sinal de uma reconciliação entre Allihanna e seu irmão Megalokk. No entanto, outros apontam atos de destruição e crueldade praticados por Zadbblein contra qualquer criatura que pise em suas florestas — especialmente monstros e seres não naturais, como construtos e mortos-vivos. Podem ser atos de proteção ou vingança, ninguém sabe ao certo.\n\nE a própria Zadbblein, mesmo antes da volta de Kallyadranoch, sempre soube que Megalokk nunca poderia ser o deus criador dos dragões. Quando o Deus dos Dragões voltou, preso no corpo da elfa Yadallina, Zadbblein ofereceu a ele sua magia e sua esperteza.\n\nA aptidão de Zadbblein para a magia às vezes parece contradizer seu amor pela natureza — mas tudo fica claro quando lembramos que, como a maioria dos dragões, ela é acima de tudo maligna. Zadbblein odeia seres não naturais, mas acredita poder \"aperfeiçoar\" a natureza. Afinal, se a presença de um dragão pode impulsionar o crescimento das florestas, um pouco de intervenção arcana poderia beneficiar seus habitantes…\n\nZadbblein por vezes assume a forma de uma bela elfa com longos cabelos negros e olhos verdes. Usa roupas que lembram as escamas de sua forma natural, mas também pode ser vista vestindo folhagens, como uma dríade. Está quase sempre acompanhada por animais selvagens, que não a temem. Sua forma dracônica é graciosa. Comparativamente, é pequena (embora ainda impressionante). Tem escamas tão verdes quanto esmeraldas."
+    }
+  ]
+}

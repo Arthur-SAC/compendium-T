@@ -1,0 +1,58 @@
+{
+  "id": "molosso-deheoni",
+  "tipo": "criatura",
+  "nome": "Molosso deheoni",
+  "resumo": "Cão enorme originado de cruzamentos trazidos de Lamnor, especialista em rastrear e combater serpentes e sszzaazitas, popular como animal de guarda em templos e palácios do Reinado.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 45 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Resultado de cruzamentos entre várias raças domésticas trazidas de Lamnor na Caravana dos Exilados, o molosso deheoni é um cão enorme, destinado a proteger as habitações dos colonos e auxiliar em caçadas. Acabaria se tornando exímio no combate a serpentes, sendo resistente a seu veneno e hábil em rastreá-las. Essa perícia se tornaria valiosa mais tarde durante a inquisição contra os sszzaazitas, uma vez que o molosso podia farejá-los através de seus disfarces. Nos dias de hoje, o cão é popular como animal de guarda não apenas em aldeias e fazendas, mas também templos, palácios e quaisquer lugares onde devotos do Deus da Traição poderiam se infiltrar.\n\nShivara possui um molosso deheoni como animal de estimação e é comum ver o cachorro deitado perto do trono durante sessões da corte. Dizem que o molosso da Rainha-Imperatriz possui a capacidade de se transformar em um gigantesco lagarto-trovão, mas isso pode ser apenas fofoca de criados impressionáveis."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "montaria", "alvoId": "rainha-imperatriz-shivara", "alvoTipo": "criatura", "rotulo": "Montaria da Rainha-Imperatriz Shivara" }
+  ],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+4",
+    "percepcao": "+8, faro, visão na penumbra",
+    "defesa": "34, resistência a veneno +5",
+    "fortitude": "+14",
+    "reflexos": "+6",
+    "vontade": "+3",
+    "pontosDeVida": "80",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +13 (2d6+11)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "1",
+      "constituicao": "6",
+      "inteligencia": "–4",
+      "sabedoria": "3",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Farejar Traição (Reação)",
+        "descricao": "Quando chega em alcance curto de uma criatura ofídica (como uma serpente ou nagah) ou de um sszzaazita, o molosso deheoni faz um teste de Intuição (CD 20). Se passar, percebe qualquer intenção ruim da criatura, caso haja. Ele late em aviso, alertando qualquer aliado próximo, e recebe +2 em testes de ataque e rolagens de dano contra a criatura até o fim da cena. Esta habilidade funciona uma vez por dia contra cada criatura específica."
+      },
+      {
+        "nome": "Investida Pesada (Completa)",
+        "descricao": "O molosso faz uma investida e se atira em cima do alvo, usando seu peso para derrubá-lo. O molosso faz o ataque da investida, como normal, e uma manobra derrubar, como uma ação livre."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Um molosso é um parceiro especial (vigilante) que fornece os benefícios a seguir. Iniciante: você recebe +1 na Defesa e +2 em testes de Intuição e Percepção (contra seres ofídicos e sszzaazitas, o bônus nos testes de perícia muda para +5). Veterano: uma vez por rodada, você recebe +2d6 em uma rolagem de dano corpo a corpo. Mestre: muda o bônus na Defesa para +2 e, uma vez por rodada, quando faz uma investida, você pode fazer a manobra derrubar como uma ação livre."
+      }
+    ],
+    "pericias": "Atletismo +11, Intuição +8, Sobrevivência +8.",
+    "tesouro": "Nenhum."
+  }
+}

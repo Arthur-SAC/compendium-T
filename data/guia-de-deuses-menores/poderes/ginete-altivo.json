@@ -1,0 +1,15 @@
+{
+  "id": "ginete-altivo",
+  "tipo": "poder",
+  "nome": "Ginete Altivo",
+  "resumo": "+2 em testes de ataque e Cavalgar quando montado em cavalo; passa automaticamente para não cair; sem penalidade para ataques à distância ou magias; conta como poder Ginete para pré-requisitos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 25 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hippion",
+    "prerequisito": "",
+    "descricao": "Enquanto está montado sobre um cavalo, você recebe +2 em testes de ataque e em Cavalgar. Além disso, você passa automaticamente em testes de Cavalgar para não cair do cavalo quando sofre dano e não sofre penalidades para atacar à distância ou lançar magias quando montado em cavalos. Este poder conta como o poder Ginete para efeitos de pré-requisitos de outras habilidades.\n\nSe você é um centauro, os benefícios deste poder mudam para: você pode fazer investidas em terreno difícil e não sofre a penalidade de –2 na Defesa por fazer uma investida. Por fim, recebe +2 nas rolagens de dano com armas em investidas."
+  }
+}

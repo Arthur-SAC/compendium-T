@@ -1,0 +1,83 @@
+{
+  "id": "triunphus",
+  "tipo": "regiao-expansao",
+  "nome": "Triunphus",
+  "resumo": "Cidadela isolada nos Feudos de Trebuck, às margens do Rio Morqua, famosa por sua bênção/maldição de Thyatis: todos os que morrem em seus arredores ressuscitam em dias, mas ficam impedidos de abandonar a cidade para sempre. Regularmente atacada pela Horda Moóck — uma fênix bicéfala flamejante e suas crias elementais —, Triunphus forjou alguns dos maiores guerreiros de Arton e abriga um desafio místico que é a única saída conhecida de sua prisão divina.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 246 },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "localizacao-em",
+      "alvoId": "feudos-de-trebuck",
+      "alvoTipo": "regiao",
+      "rotulo": "Situada no leste dos Feudos de Trebuck"
+    },
+    {
+      "tipo": "fronteira-natural",
+      "alvoId": "sanguinarias",
+      "alvoTipo": "regiao",
+      "rotulo": "Montanhas Sanguinárias — origem da Horda Moóck e de seus elementais de fogo"
+    },
+    {
+      "tipo": "divindade-padroeira",
+      "alvoId": "thyatis",
+      "alvoTipo": "divindade",
+      "rotulo": "Thyatis, Deus das Segundas Chances — autor da bênção/maldição que sustenta a cidade"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Khalmyr, Deus da Justiça — segunda divindade mais venerada"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "lena",
+      "alvoTipo": "divindade",
+      "rotulo": "Lena, Deusa da Vida — cultuada junto a Thyatis"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Valkaria, Deusa da Humanidade — venerada ao lado de Thyatis no templo local"
+    },
+    {
+      "tipo": "mencionado-em",
+      "alvoId": "libertacao-de-valkaria",
+      "alvoTipo": "regra",
+      "rotulo": "Masmorra do Desafio de Thyatis tem nome idêntico à da Libertação de Valkaria"
+    }
+  ],
+  "mecanica": { "expandeRegiao": "triunphus" },
+  "secoes": [
+    {
+      "titulo": "Dados Gerais",
+      "texto": "Nome Oficial: Cidade de Triunphus.\nLema: \"Um Bom Lugar para Morrer\".\nBrasão: de ouro, um pano de muralha firmado, ameiado de cinco peças e duas meias-peças, cada uma rematada de uma bandeira hasteada e farpada de vermelho; sainte da muralha em chefe, uma águia estendida de duas cabeças e, sainte da muralha em ponta, duas cabeças e pescoços de serpente invertidas e adossadas de verde; os bicos da águia vertendo chamas do segundo.\nGentílico: triunphiano.\nRegente: Sulhon Therormas.\nPopulação: 55.000.\nRaças Principais: humanos, anões, elfos, hynne.\nDivindades Principais: Thyatis, Khalmyr, Lena, Valkaria."
+    },
+    {
+      "titulo": "Introdução",
+      "texto": "Triunphus. Lar de mistérios insondáveis, atrás das imponentes muralhas. Grandiosa metrópole, estranhamente afastada das principais rotas comerciais. Isolada em algum ponto no leste dos Feudos de Trebuck.\n\nInúmeros relatos são contados sobre Triunphus. Um deles sugere ser uma comunidade de mortos-vivos, sem que ninguém consiga deixar suas muralhas com vida. Em outra versão, seus habitantes descobriram o segredo da imortalidade, e aqueles que entram não desejam mais partir. Há também histórias de constantes ataques de monstros. Alguns até juram que a cidade sequer existe neste mundo.\n\nMas Triunphus é real. As torres da cidadela fortificada se erguem acima das copas das árvores, suas bandeirolas coloridas tremulando ao vento, contrastando com as escuras Sanguinárias ao longe. Estradas de terra batida cortam os bosques, onde fazendeiros e mercadores perambulam com suas carroças. \"Um lugar onde é bom morrer\", alguns afirmam, soando fatalistas aos recém-chegados. Aqueles que a visitam podem acabar confirmando isso, ao soar de suas trombetas. Quando as ruas esvaziam, os soldados tomam posições de combate nas muralhas e alguns cavalgam grifos. Quando a Horda Moóck ataca.\n\nA ave monstruosa de duas cabeças traz consigo o inferno em suas asas flamejantes, despejando explosões de fogo sobre a cidade murada. É seguida por outras bestas, menores, porém variadas e infinitas. O ataque implacável ocorre regularmente. Nenhuma outra comunidade seria capaz de sobreviver a essa provação.\n\nNo entanto, Triunphus sobrevive. Porque aqueles que aqui morrem retornam à vida."
+    },
+    {
+      "titulo": "Bênção ou Maldição?",
+      "texto": "O massacre perpetrado pelo Moóck traz pânico e destruição, embora poucas mortes reais ocorram. Mesmo quando centenas caem a cada passagem da ave incendiária e seu bando, as perdas efetivas são mínimas. Isso porque quem morre aqui revive.\n\nA estranha bênção/maldição foi rogada há tempos, quando a região ainda era um vilarejo modesto às margens do Rio Morqua, que corre das Sanguinárias. Poucas casas erguidas por colonos, sonhando com vida nova. Foi quando ocorreu o primeiro ataque dos monstros Moóck. Destruição total, quase todos os habitantes incinerados. Kriloskav Hal-kazar, clérigo e fundador do povoado, implorou aos deuses por uma nova chance para aquelas pessoas. Ofereceu a própria vida como sacrifício. O grito de sua alma alcançou Thyatis, o Deus das Segundas Chances.\n\nO próprio Krilos nunca voltaria à vida, pois seu sacrifício era legítimo e não poderia ser negado. No entanto, todas as outras vítimas do enxame Moóck miraculosamente ressuscitaram. Desde então, aqueles que morrem nas proximidades da cidade são trazidos de volta em poucos dias.\n\nMas os ataques do Moóck nunca cessaram. A fênix e seu exército (suas crias?) ressurgem de tempos em tempos, queimando tudo em seu caminho até cansarem ou serem repelidos. Os sobreviventes cogitaram abandonar a região, deixar as feras entregues à sua própria fúria, mas logo descobriram não ter mais essa escolha — pois Thyatis cobra um preço por sua dádiva. Os ressuscitados são impedidos de deixar Triunphus; quando tentam se afastar da região, sofrem dor e agonia que culminam em morte irreversível.\n\nAceitando a vontade de Thyatis, o povo permaneceu aqui. Construíram a desejada vida nova, ainda que cercada por muralhas imponentes.\n\nCom o passar dos anos, os locais se tornariam cada vez mais experientes no combate às feras elementais — afinal, podiam lutar sem medo da morte. Desenvolveram as melhores armas e táticas para enfrentar os monstros. Hoje, Triunphus é conhecida como lar de alguns dos maiores guerreiros de Arton.\n\nClérigos de Thyatis afirmam que a cidade existe com esse nobre propósito. Ser uma arena, uma academia de combate suprema, onde se pode receber treino que não existe em nenhum outro local. Aqui, ao brandir espadas ao lado de companheiros, não é necessário conter os golpes. Aqui você pode se lançar sem medo contra as criaturas mais perigosas.\n\nE então usar essa habilidade para tentar o teste final. Escapar de Triunphus."
+    },
+    {
+      "titulo": "Atrás das Muralhas",
+      "texto": "Apesar de sua condição fantástica, os habitantes de Triunphus se esforçam para levar uma vida relativamente normal. Conduzem seus negócios da melhor forma possível e tratam os forasteiros com cortesia, pois há sempre a possibilidade de se tornarem novos vizinhos. Falam do Moóck com uma casualidade impressionante, como se discutindo o preço do pão ou as últimas tendências de moda em Sambúrdia!\n\nAs incursões da Horda Moóck são consideradas parte inevitável da vida — nada agradável, mas também não há motivo para chorar. O povo é perseverante, não desanima diante da tragédia. Pessoas quase literalmente forjadas a ferro e fogo, acostumadas a cair, levantar-se e reconstruir. Podem ser altivos e resilientes, jamais se deixando abater; resignados e fleumáticos, não se impressionando com nada, ou cheios de atitude positiva, sempre enxergando o melhor da vida.\n\nA pequena vila que deu origem à cidade ainda existe, hoje conhecida como Parte Velha. Localizada no canto noroeste e relativamente isolada pelo Rio Morqua, abriga a população mais humilde, com casas antigas e precárias, em sua maioria feitas de madeira. O crime prospera, as ruas são estreitas e perigosas. Abrigam cassinos e outras formas de entretenimento ilegal: muitos em Triunphus acreditam que a vida eterna deve ser desfrutada ao máximo.\n\nAs três guildas criminosas estão sediadas na Parte Velha. Apesar de eventuais desentendimentos existe um pacto, cada uma controlando seu próprio segmento do crime: Gnaeus (apostas), Stefania (sequestro e escravidão) e Severus (contrabando e culto a Hyninn). Ladrões que atuam fora dessas guildas são perseguidos com igual determinação por todos os membros.\n\nNa assim chamada Parte Nova as estruturas são mais seguras, construídas em pedra. Há tavernas e pousadas, mas sem jogos de azar ou prostituição — as patrulhas da Guarda da Fênix se encarregam de restringir essas atividades à Parte Velha. O comércio floresce nesta parte da cidade e praticamente qualquer mercadoria pode ser encontrada, incluindo alguns itens mágicos, trazidos por aventureiros experientes."
+    },
+    {
+      "titulo": "Governo",
+      "texto": "O Deus da Ressurreição, como não poderia deixar de ser, é a divindade mais cultuada. No Templo de Thyatis, devotos zelam pelos mortos durante os dias necessários ao retorno. Não apenas Thyatis é reverenciado neste local, mas também divindades aliadas, como Khalmyr, Lena, Valkaria, Tanna-Toh e outras.\n\nNo coração da cidade encontra-se o imponente Palácio Municipal, residência do regente, além de palácios menores pertencentes às famílias nobres. Pouco se sabe sobre Sulhon Therormas, atual governante de Triunphus. Dizem ser um homem doente, com uma saúde frágil — morreu várias vezes devido a uma doença misteriosa, resultando na perda considerável de sua constituição física. Rumores sugerem que o regente não é mais humano e foi substituído por um demônio da Tormenta. Existe também a versão de que ele foi transformado em vampiro, sendo essa a razão de nunca mais ter sido visto à luz do dia.\n\nCercando as altas torres do palácio estão os quartéis da Guarda da Fênix, tornando difícil distinguir onde um termina e outro começa. Como defensores da cidade, a Guarda da Fênix recebe treinamento no combate a monstros — o que explica sua impaciência ao lidar com pessoas, julgando e punindo sem muita conversa. Recrutas são treinados em uma das guarnições localizadas junto às muralhas; os mais graduados têm a oportunidade de cavalgar grifos e outras bestas mágicas mantidas nos estábulos. A lei é implacável e eficiente: delitos menores, inclusive pequenos furtos, são punidos com a morte (o que pode assustar forasteiros desinformados). De forma reversa, apenas crimes muito graves recebem pena de prisão. O próprio conceito de \"crime grave\" é diferenciado aqui, visto que assassinato é apenas um aborrecimento temporário.\n\nA localização exata da cidade é tópico de debate. Muitos juram que ela ficava no reino de Hongari, antes de seu destino fatídico como parte de Aslothia, existindo até mapas que confirmariam essa posição. No entanto, tudo não passou de uma grande mentira propagada pelo infame bardo hynne Pimbo Froley — conhecido como um dos poucos aventureiros a escapar de Triunphus. As histórias exageradas de sua visita à cidade (ou A Grande Escapada de Pimbo Froley) foram espalhadas e coloridas por outros pequeninos, levando a uma crença generalizada de que Triunphus ficaria na antiga nação hynne. Por sua vez, Pimbo se aposentou como aventureiro e estabeleceu uma rede de charutarias nas Repúblicas Livres de Sambúrdia."
+    },
+    {
+      "titulo": "O Desafio de Thyatis",
+      "texto": "A verdade é que existe uma forma de escapar de Triunphus. Thyatis, como outras divindades de Arton, tem apreço por aventureiros. Aqueles que desejam ser livres da bênção/maldição devem, antes, ser bem-sucedidos em um desafio.\n\nUm monólito existente na Avenida Central é a chave. Ele tem inscrições planares que, em ordem correta, formam o nome \"Thyatis\". Pressionar os símbolos nessa sequência manifesta um efeito mágico, transportando aquele que decifra a charada e quaisquer aliados presentes para uma masmorra. Uma das masmorras mais perigosas em Arton, similar àquela que representava Thyatis durante a Libertação de Valkaria. Talvez por esse motivo tenham ambas o mesmo nome.\n\nEm todas as câmaras e corredores as paredes são feitas de rocha liquefeita, incandescente, sempre em movimento — como lagos verticais de lava vulcânica, contidos por alguma força invisível. O brilho cáustico oferece condições de luminosidade normais. O piso é escuro e coberto de cinzas. Não há teto, mas sim uma densa camada de fumaça flamejante, como uma eterna nuvem incendiária. Lutar aqui é perigosíssimo, pela possibilidade de ser empurrado ou cair de encontro às paredes, podendo até acabar imerso na escória quente. A masmorra também fortifica magias de fogo e enfraquece magias de frio ou água, de maneiras variáveis.\n\nO Desafio de Thyatis é povoado por todo tipo de criatura relacionada a fogo. Não apenas elementais, mas também cães infernais, golens de ferro, demônios e até dragões. Todos caçam e atacam intrusos assim que os encontram, muitas vezes emergindo das próprias paredes de rocha liquefeita para ataques-surpresa. Na verdade, diz-se que aventureiros podem reencontrar aqui seres abissais poderosos que tenham encontrado e destruído no passado, aprisionados em Triunphus pela eternidade como punição de Thyatis por seus crimes.\n\nAventureiros mortos aqui são magicamente transportados de volta à cidade, caídos perto do monólito. São então recolhidos por devotos de Thyatis e levados ao templo, onde revivem após alguns dias. Infelizmente nem sempre seus pertences retornam com eles, tornando-se parte dos tesouros a conquistar na masmorra.\n\nApenas heróis poderosos, ou especialmente preparados, têm chance de vencer a masmorra infernal. Aqueles que encontram o ponto de saída são transportados para além das fronteiras de Triunphus, livres da bênção/maldição. Mas nem todos os relatos são exatos e nem todos os desafios, iguais. Alguns grupos bem-sucedidos descrevem uma batalha final contra alguma criatura poderosa, antes da liberdade. Conforme alguns relatos, esse adversário final seria um serpentaar, imenso elemental do fogo que lembra uma serpente feita de piche. Para outros, a luta decisiva acontece contra o próprio Moóck. E outros ainda dizem que o último inimigo é ninguém menos que o avatar de Thyatis, na forma de uma invencível fênix."
+    },
+    {
+      "titulo": "A Horda Moóck",
+      "texto": "O Moóck lembra uma monstruosa águia gigante em chamas, intensamente vermelha, com duas cabeças e duas caudas de serpente. O nome foi dado pelos habitantes de Triunphus e vem do guincho horrendo da criatura.\n\nO nome também se refere à Horda Moóck, formada por numerosos outros monstros que acompanham a besta-líder. São criaturas variadas, desde kobolds até gigantes, mas principalmente elementais. Em comum, todos têm alguma ligação elemental com o fogo. Todos também se originam nas Sanguinárias, onde terras vulcânicas fazem brotar estes seres em vagalhões infindáveis.\n\nO Móock ataca a cidade — juntamente com a Horda, mas às vezes solitário — a cada poucos meses. O monstro bicéfalo luta até ficar muito ferido, cansado ou apenas sem interesse, então retornando a seu ninho vulcânico. As teorias sobre aquilo que motiva os ataques são muitas. A mais aceita alude à semelhança do monstro com o próprio Thyatis e diz que a fera teria sido enviada pelo Deus da Ressurreição como um tipo de provação para seus servos. Muitas vezes, são esses ataques que causam a morte de eventuais visitantes, agora prisioneiros aqui.\n\nAqueles que ouvem estas histórias muitas vezes se perguntam: como a população local poderia se alimentar, quando a região e suas lavouras são atacadas por enxames elementais flamejantes a intervalos curtos demais para qualquer colheita? De fato, a Horda causa prejuízos extensos aos fazendeiros em cada aparição — mas seus ataques são direcionados principalmente à cidade. Plantações e criações de gado em volta, exceto aquelas diretamente em seu caminho, são deixadas sem tantos danos.\n\nRastrear o Moóck até seu covil nas Sanguinárias para abater a fera, ou talvez solucionar seu mistério, pode ser uma das aventuras mais épicas possíveis a qualquer grupo de aventureiros. Suspeita-se que, enquanto não ataca, o monstro hiberna em uma caverna vulcânica descomunal — tão ou mais perigosa que o próprio Desafio de Thyatis. Alguns inclusive acreditam que ambas as masmorras são conectadas. De qualquer forma, se a bênção/maldição terminaria com a destruição da criatura é uma pergunta ainda a ser respondida."
+    }
+  ]
+}

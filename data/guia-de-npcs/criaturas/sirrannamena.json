@@ -1,0 +1,66 @@
+{
+  "id": "sirrannamena",
+  "tipo": "criatura",
+  "nome": "Sirrannamena, A Rainha Barda",
+  "resumo": "Rainha heroína de Nhardmaran, uma das primeiras heroínas humanas, que expulsou o deus-monstro K'Athanoa com sua voz encantada, introduziu a escrita ao mundo e fundou templos do saber, mas perdeu a própria voz na batalha.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 52
+  },
+  "imagens": [
+    "/criaturas/sirrannamena.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma das primeiras heroínas humanas, Sirrannamena nasceu na Cidade Dourada de Nhardmaran, civilização primordial na costa do continente sul.\n\nA cidadela-estado era ciclicamente destruída pelo deus-monstro K'Athanoa. Devastada de novo e de novo, era incapaz de preservar o próprio conhecimento, regredindo a cada ataque. Sirrannamena, sua rainha, esforçava-se para preservar a cultura nhardmar, mas só podia contar com sua maior arma: a voz.\n\nDotada de uma voz que tecia encantamentos capazes de acalmar os monstros mais selvagens, emergiu como um farol de esperança. Expulsou K'Athanoa de volta ao leito do oceano, salvando a cidade, mas não sem antes ser ferida no pescoço e perder a própria voz.\n\nIncapaz de falar, não poderia transferir seu conhecimento para a próxima geração. Diante disso, empenhou-se para buscar respostas. Sua devoção a Tanna-Toh, a Deusa do Conhecimento, a levou em uma jornada épica, da qual retornou com um pergaminho sussurrante contendo o dom da escrita.\n\nComprometida em garantir que o conhecimento resistisse às vicissitudes do tempo, a rainha ergueu templos dedicados ao saber, escolas e bibliotecas. Porém, seu legado também daria frutos amargos. A mistura de conhecimento com ambição humana geraria tiranos… E a semente de um império."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "devota",
+      "alvoId": "tanna-toh",
+      "alvoTipo": "divindade",
+      "rotulo": "Devota de Tanna-Toh"
+    }
+  ],
+  "mecanica": {
+    "nd": "17*",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+17",
+    "percepcao": "+19",
+    "defesa": "50",
+    "fortitude": "+18",
+    "reflexos": "+24",
+    "vontade": "+30",
+    "pontosDeVida": "450",
+    "pontosDeMana": "143",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x3 +47 (2d8+20, 18)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "5",
+      "sabedoria": "5",
+      "carisma": "7"
+    },
+    "habilidades": [
+      {
+        "nome": "Magias",
+        "descricao": "Como uma conjuradora arcana de 17º nível (CD 45, limite de PM 25).\n• Acalmar Animal (Padrão, 6 PM) Um animal, espírito ou monstro em alcance curto fica prestativo em relação a Sirrannamenna (Von anula; um alvo envolvido em combate recebe +5 em seu teste de resistência).\n• Arma Mágica (Padrão, 14 PM) Até o fim da cena, uma arma adjacente se torna mágica, fornecendo +5 nos testes de ataque e rolagens de dano e +2d6 pontos de dano de fogo. Sirrannamenna usa Carisma em vez de Força nos testes de ataque com ela (ataque total +57).\n• Camuflagem Ilusória (Padrão, 6 PM, sustentada) Sirrannamenna recebe camuflagem.\n• Curar Ferimentos (Padrão, 19 PM) Uma criatura adjacente cura 20d8+20 PV ou criaturas escolhidas em alcance curto curam 15d8+15.\n• Oração (Padrão, 22 PM, sustentada) Sirrannamenna e seus aliados em alcance médio recebem +5 em testes de perícia e rolagens de dano, e todos os inimigos no alcance sofrem –5 em testes de perícia e rolagens de dano.\n• Pele de Pedra (Padrão, 9 PM) Sirrannamenna recebe redução de dano 10 até o fim da cena.\n• Raio Polar (Padrão, 25 PM) Uma criatura em alcance médio sofre 20d8 pontos de dano de frio e fica presa em um bloco de gelo (paralisada; Fort reduz à metade e evita a condição). É possível quebrar o gelo para libertar a criatura presa: o bloco tem 20 PV, RD 10 e é vulnerável a fogo. Uma criatura presa pode gastar uma ação completa para fazer um teste de Atletismo; cada vez que passar no teste causa 10 pontos de dano ao bloco, ignorando a RD.\n• Toque Chocante (Padrão, 25 PM) Sirrannamenna faz um ataque corpo a corpo. Se acertar, além do dano normal, causa 24d8+24 pontos de dano de eletricidade."
+      },
+      {
+        "nome": "Voz Mítica (Movimento)",
+        "descricao": "Sirrannamenna começa a entoar uma canção mágica. Enquanto continuar cantando, uma vez por rodada pode lançar uma de suas magias como uma ação livre e sem gastar PM, e pode manter uma segunda magia sustentada, sem pagar PM por ela. É possível impedi-la de cantar agarrando-a e então vencendo outro teste de manobra para cobrir a boca dela (ou então com um efeito como a magia Silêncio)."
+      }
+    ],
+    "pericias": "Acrobacia +17, Atletismo +16, Atuação +31, Conhecimento +19, Diplomacia +21, Furtividade +17, Guerra +21, Intuição +19, Investigação +19, Misticismo +19, Nobreza +19, Religião +19, Sobrevivência +19.",
+    "equipamento": "Espada longa precisa magnífica trovejante.",
+    "tesouro": "Padrão."
+  }
+}

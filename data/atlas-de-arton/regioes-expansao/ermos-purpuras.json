@@ -1,0 +1,123 @@
+{
+  "id": "ermos-purpuras",
+  "tipo": "regiao-expansao",
+  "nome": "Ermos Púrpuras",
+  "resumo": "O Atlas detalha os Ermos Púrpuras — a terra de ninguém habitada por tribos bárbaras que migraram durante a colonização de Arton Sul, sobreviventes da corrupção lefeu e da marcha dos simbiontes liderada pelo Rei Artorius, descrevendo sua geografia traiçoeira, seus costumes tribais, os locais notáveis e as cinco principais tribos que ainda ocupam a região.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 272 },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "fronteira",
+      "alvoId": "supremacia-purista",
+      "alvoTipo": "regiao",
+      "rotulo": "Supremacia Purista — territórios da origem das tribos antes da migração"
+    },
+    {
+      "tipo": "fronteira",
+      "alvoId": "bielefeld",
+      "alvoTipo": "regiao",
+      "rotulo": "Bielefeld — fronteira sul; alvo histórico de ataques bárbaros"
+    },
+    {
+      "tipo": "fronteira",
+      "alvoId": "aslothia",
+      "alvoTipo": "regiao",
+      "rotulo": "Aslothia — fronteira leste; área montanhosa dificulta acesso"
+    },
+    {
+      "tipo": "fronteira",
+      "alvoId": "salistick",
+      "alvoTipo": "regiao",
+      "rotulo": "Salistick — fronteira noroeste; separada por cordilheira"
+    },
+    {
+      "tipo": "fronteira",
+      "alvoId": "republicas-livres-de-samburdia",
+      "alvoTipo": "regiao",
+      "rotulo": "Repúblicas Livres de Sambúrdia — fronteira oeste; o rio Zuur Gathan marca o limite da floresta"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Allihanna, Deusa da Natureza — reverenciada pelas tribos originais e druidas da Clareira dos Mistérios"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "nimb",
+      "alvoTipo": "divindade",
+      "rotulo": "Nimb, Deus do Acaso — culto forte na região; origem da fúria amoque"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "aharadak",
+      "alvoTipo": "divindade",
+      "rotulo": "Aharadak, o Devorador — venerado pelos Zallar e cultistas da Trilha Vermelha"
+    },
+    {
+      "tipo": "divindade-cultuada",
+      "alvoId": "megalokk",
+      "alvoTipo": "divindade",
+      "rotulo": "Megalokk — ritual na Clareira dos Mistérios criou a coroa da União Púrpura"
+    }
+  ],
+  "mecanica": { "expandeRegiao": "ermos-purpuras" },
+  "secoes": [
+    {
+      "titulo": "Introdução",
+      "texto": "Os Ermos Púrpuras não existem. São uma invenção moderna, pouco mais que uma mentira bonita para preencher um vazio nos mapas. É o nome dado à região de Arton para onde várias tribos bárbaras migraram durante a chegada da caravana de Arton Sul. Os povos dos Ermos são sobreviventes, não apenas lutando para manter seu modo de vida ao longo dos séculos como sofrendo as consequências da corrupção lefeu sem nem mesmo ter uma área de Tormenta em seu território.\n\nEquilibrando orgulho e vingança, raiva e esquecimento, caos e lealdade, os bárbaros dos Ermos Púrpuras estão dispostos a fazer qualquer coisa para continuar existindo.\n\nOs povos que formam os Ermos Púrpuras ocupavam a região que abrangia territórios rurais hoje pertencentes à Supremacia Purista, a Bielefeld e a Aslothia. Embora separados em diversas tribos e representando muitas etnias, compartilhavam traços culturais como vestimentas e rituais. Com a chegada dos colonos, migraram de suas terras, recuando até a atual região dos Ermos, na época considerada parte do reino de Bielefeld."
+    },
+    {
+      "titulo": "História",
+      "texto": "Após a migração, os bárbaros se reuniram em Grael, uma região neutra entre as tribos, o ponto de encontro a partir de onde podiam cooperar. Frequentemente sob a liderança dos Gurka Kahn, começaram a atacar as terras vizinhas como forma de se impor, principalmente contra o reino de Bielefeld.\n\nOs conflitos entre bárbaros e cavaleiros se seguiram de forma constante e sangrenta até 1289, quando Deheon decidiu intervir."
+    },
+    {
+      "titulo": "A Marcha dos Simbiontes",
+      "texto": "Em 1403, Crânio Negro chegou à região então chamada União Púrpura, oferecendo poder e oportunidade de vingança. Esse poder, porém, chegava na forma da corrupção lefeu. Vários chefes, incluindo o regente Guryann, se renderam às promessas aberrantes.\n\nO minotauro Artorius assumiu a liderança da tribo Zallar e se tornou Chefe Artorius. Desafiou o regente, venceu, decretou o fim das tribos e jurou fazer o mundo se curvar diante da União Púrpura e de Aharadak, o Devorador, o Deus da Tormenta — na época, ainda uma divindade menor. O Rei Artorius espalhou sua corrupção por todo o reino. Marchou com seu exército corrompido, inchando as fileiras dos lefeu. Até hoje esse percurso permanece temido e maculado, uma Trilha Vermelha atravessando os ermos.\n\nConvertidos em fantoches dos lefeu, ainda lutando mesmo depois de seu rei ser morto pelo próprio Crânio Negro, as tribos formaram a vanguarda de um exército da Tormenta, que marchou através do continente com um propósito que apenas seus líderes conheciam. O ressentimento de séculos impulsionava os machados dos bárbaros por trás de suas cascas insetoides. O orgulho ancestral se esvaía, substituído pela submissão lefeu.\n\nA União Púrpura corrompida enfrentou as forças do Reinado, um poder militar jamais reunido na história de Arton. E foi derrotada."
+    },
+    {
+      "titulo": "O Caos Depois da Ordem",
+      "texto": "A estrutura da União Púrpura continuou existindo nominalmente depois da derrota. A maior parte dos guerreiros locais havia morrido no embate. Aos olhos de muitos líderes, a vergonha da corrupção parecia doer mais do que a derrota.\n\nQuando o Reinado sofreu convulsões políticas devido à Guerra Artoniana, não havia quem pudesse responder pela União Púrpura. Sem liderança e sem um consenso, a verdade já decretada anos atrás foi finalmente sacramentada: a União Púrpura não existia mais. A região, agora muito mais esparsamente povoada, se tornava ainda mais erma. Passava a ser terra de ninguém.\n\nTamanho foi o caos da Guerra Artoniana que alguns grupos desgarrados chegaram aos Ermos desejando abraçar o modo de vida bárbaro. Alguns foram assimilados por clãs existentes, outros fundaram os seus próprios, mas nenhum foi rejeitado. Afinal, o que não é de ninguém também é de todos."
+    },
+    {
+      "titulo": "Viagens Traiçoeiras e um Povo de Tradições",
+      "texto": "As terras dos Ermos Púrpuras apresentam muitas áreas florestais, com algumas colinas, planaltos e montanhas de pequeno porte. Algumas análises sugerem que as florestas da região são uma extensão da Floresta de Greenaria, mas os mapas oficiais indicam que a grande floresta se encerra no rio Zuur Gathan, que também serve como fronteira com as Repúblicas Livres de Sambúrdia. Na região sul, as florestas são menos densas, especialmente na fronteira com Bielefeld, apresentando terrenos mais planos. Já ao leste existe uma área mais montanhosa, dificultando o acesso a Aslothia. Além disso, outra cordilheira, situada no noroeste, separa os Ermos de Salistick.\n\nViagens por entre os territórios das diversas tribos são traiçoeiras para estrangeiros. Quase não há estradas, apenas trilhas camufladas, conhecidas apenas pelos habitantes. Além disso, o território de cada tribo é marcado de formas que muitos visitantes não notam. Assim, é fácil que um estrangeiro invada sem querer o terreno de uma tribo, contrariando seus costumes, levando consigo algum objeto proibido ou realizando algum ato considerado hostil.\n\nOs Ermos são ocupados principalmente por humanos. Ainda assim, devido à corrupção semeada por Crânio Negro, há uma considerável população de lefou. Aqui os corrompidos pela Tormenta são tolerados, desde que consigam contribuir. Na última década, mais e mais trogloditas têm aparecido nos Ermos. Acredita-se que tenham saído dos subterrâneos por conflitos com os finntroll. Seus encontros com as tribos locais são imprevisíveis."
+    },
+    {
+      "titulo": "Povo & Costumes",
+      "texto": "Embora muitos grupos étnicos estejam presentes nos Ermos, a maior influência cultural é dos povos que já ocupavam a região antes mesmo da caravana causar migração. Costumavam ser um povo temente a Allihanna, reverente à terra e à força, organizando sua sociedade em unidades cada vez menores: tribos divididas em clãs, clãs divididos em famílias. Parte dessa estrutura sobrevive até hoje, com a diferença entre tribo, clã e família parecendo cada vez mais confusa. A quantidade de tribos é enorme, na casa das centenas. Tanto tribos quanto clãs costumam escolher como seus estandartes os maiores predadores da região, frequentemente ursos e lobos.\n\nDepois de perder terras para os colonos e seus próprios filhos para os lefeu, os bárbaros passaram a ter uma visão muito particular da propriedade privada. Embora muitas tribos sejam nômades, tudo aquilo que carregam é levado muito a sério. Roubo é considerado um crime mais grave que assassinato em muitas tribos. Entende-se que a posse é uma manifestação de individualidade. Se algo não pertence a alguém, pertence a todos — e pode ser tomado por qualquer um. Desde os tempos da União Púrpura, a única constante em todo o território era o caos. O culto de Nimb é forte na região, seja na aceitação fatalista da imprevisibilidade do destino, seja na esperança de uma súbita maré de boa sorte. Mesmo em combate existe a prática da fúria amoque, uma combinação da dádiva de Nimb com o costumeiro transe raivoso dos bárbaros. Os adeptos dessa vertente são conhecidos como amoucos e temidos tanto por seus inimigos quanto por seus aliados.\n\nO poder político está nas mãos dos chefes. Essas lideranças, definidas por mérito e passíveis de desafio em combate ritual, são responsáveis por tribos, clãs ou famílias, por vezes respondendo a chefes acima deles.\n\nAinda existe a lenda da coroa da União Púrpura. Revelada após um ritual de Megalokk, essa manifestação de força e autoridade foi invocada por Artorius para unir as tribos como uma e marchar contra o Reinado. Acredita-se que possa ser invocada novamente por um chefe com o objetivo de unir as tribos, mas apenas os Zallar têm interesse nisso atualmente.\n\nOs povos dos Ermos vivem em um delicado equilíbrio entre o orgulho e a vergonha. Valorizam suas raízes e mantêm o modo de vida de seus ancestrais, mas se dividem quando se trata da Tormenta. A maioria vê com desagrado a marcha dos simbiontes, mas aceita relutantemente suas consequências — como a presença de lefou ou o próprio estado do território. Uma minoria crescente prefere abraçar a Tormenta, enxergando na campanha militar de Crânio Negro o maior sucesso de seu povo nos últimos séculos. Esse pensamento é particularmente comum entre os Zallar."
+    },
+    {
+      "titulo": "Locais Importantes — A Cidade Vermelha de Baakan",
+      "texto": "A antiga capital do reino de Baarkalar hoje abriga a tribo Zallar, representando o maior centro de corrupção fora de uma área de Tormenta. A cidade nunca foi grande, pouco mais que uma coleção de prédios baixos rodeada por paliçadas de madeira, mas hoje se apresenta decadente. O fedor é insuportável; não há nenhum pudor ou cuidado com higiene, com baldes cheios de excrementos jogados nas ruas, corpos desfalecidos pendurados nas janelas para atrair carniceiros e humanos se juntando a cavalos em suas baias para se alimentar. O sangue vermelho de inimigos e aliados é usado como tinta para escrever obscenidades em nome de Aharadak. Baakan não é mais uma cidade, apenas um ponto de descanso para os cultistas ensandecidos repousarem, realizarem sacrifícios e se tornarem ainda mais depravados.\n\nA estrutura mais chamativa da cidade é a catedral da Tormenta, um prédio de pedra de dois andares decorado com cadáveres e sempre cheio de bárbaros corrompidos em júbilo."
+    },
+    {
+      "titulo": "Locais Importantes — Os Dólmens da Clareira dos Mistérios",
+      "texto": "No extremo norte dos Ermos, dentro de uma floresta particularmente densa, fica a Clareira dos Mistérios, contendo um estranho monumento erguido em louvor à Deusa da Natureza. Enormes pedras (dólmens) estão dispostas em uma complicada formação retangular, com pedras maiores nas linhas mais exteriores e dólmens menores no centro. Os maiores dólmens chegam a ter oito metros de altura.\n\nA clareira e os dólmens são sagrados, servindo de palco para muitos rituais. Aqui Artorius realizou o ritual profano em nome de Megalokk que criou a coroa da União Púrpura. Também é aqui que se realiza o ritual das peles púrpuras, quando um guerreiro se enterra voluntariamente e se ergue transformado, de pele púrpura e conectado à natureza de forma única, cerca de uma semana depois. Druidas de Allihanna e de Megalokk disputam a posse da Clareira, com confrontos frequentes e nenhum sinal de resolução."
+    },
+    {
+      "titulo": "Locais Importantes — Grael, a Cidade Proibida",
+      "texto": "Localizada bem no centro dos reinos, Grael foi o ponto de partida da procissão de bárbaros corrompidos que rumou à guerra, sendo o ponto inicial da Trilha Vermelha. Hoje, pouco resta nessa cidade desprezada e menos ainda desejam viver nela. Tornou-se conhecida como a Cidade Proibida.\n\nA antiga Arena do Torneio, onde o regente era desafiado de quatro em quatro anos, está abandonada. Duas estalagens ainda permanecem no local, a Punho de Aço e a Lebre Assada. Ambos os estabelecimentos sobrevivem às custas de exploradores (ou cultistas) que desejam desbravar a Trilha Vermelha. A Punho é gerida pelo golem Iarann, proprietário e único funcionário, último remanescente de uma expedição da Academia Arcana. Iarann atende tanto exploradores quanto cultistas com a mesma polidez distante. A Lebre é propriedade da família Saleiro, um bando de hynne rechonchudos de cabelos castanhos cacheados, muito parecidos uns com os outros. Mesmo quando não há hóspedes, sua estalagem é animada e barulhenta. A comida é saborosa, mas os visitantes não gostariam de saber o que entra no caldeirão, já que os Saleiros são secretamente devotos de Aharadak e tentam eliminar pesquisadores enquanto dormem."
+    },
+    {
+      "titulo": "Locais Importantes — A Trilha Vermelha",
+      "texto": "Muitas regiões têm marcas vergonhosas em seu passado, mas talvez nenhuma seja tão evidente quanto a Trilha Vermelha nos Ermos Púrpuras. É um lembrete permanente e vivo dos erros cometidos pelos chefes das tribos e do quão baixo a obsessão pela força fez as tribos caírem.\n\nA Trilha Vermelha é o caminho feito pelas tribos bárbaras em sua marcha dos simbiontes, saindo de Grael para avançar contra o Reinado. Mataram todos que ficaram em seu caminho, corromperam-nos e por vezes nem mesmo os mortos foram poupados da mácula lefeu. Essa depravação continua marcada até hoje. A estrada precária é uma das poucas presentes na região e acaba sendo a primeira escolha de viajantes desavisados, mas deve ser evitada a todo custo. O próprio solo foi corrompido, com veias vermelhas surgindo no meio da terra como se a trilha inteira estivesse viva.\n\nDevotos de Aharadak consideram a Trilha Vermelha um local profano importante, visitando-o em peregrinação para adorar o Devorador. Para pesquisadores, a Trilha Vermelha representa a melhor opção para encontrar simbiontes lefeu fora de uma área de Tormenta."
+    },
+    {
+      "titulo": "As Tribos — Baarkalark",
+      "texto": "Até recentemente, Baarkalar era o orgulhoso reino da tribo Zallar. Foi fundado por refugiados de Svalas, optando por tentar vida nova em uma terra estranha a serem destratados e desrespeitados sob a bota de conquistadores. Respeitavam a força e acolhiam estrangeiros capazes de se provar. Viam a si próprios como o futuro da União Púrpura, sonhavam com a coroa e o poder. Então veio Artorius, assumiu a chefia, forjou a coroa, realizou esses sonhos. E afundou os Zallar na corrupção da Tormenta.\n\nPoucos sobreviveram, menos ainda escaparam da corrupção. Esses eram principalmente não combatentes que deixaram de caminhar pela Trilha Vermelha por ferimentos ou idade. As terras de Baarkalar não pareciam mais um lar depois da corrupção. A amouca de olhos heterocromáticos Nebunia entendeu na época a sorte que teve de estar desacordada devido a um acidente quando devia ter ido à guerra. Assumiu o comando, incentivou o culto a Nimb e levou seu povo a um modo de vida nômade. Não são mais a tribo Zallar; agora são os Baarkalark e seu reino é a própria tribo.\n\nOs modos nômades dos Baarkalark possibilitaram que descobrissem uma passagem para uma câmara que se liga com Doherimm antes desconhecida na região. Isso os levou a estabelecer relações amistosas com o Reino dos Anões, atuando como os olhos deles na superfície em troca de boas armas ou riquezas."
+    },
+    {
+      "titulo": "As Tribos — Gurka Kahn",
+      "texto": "A maior representante do orgulho e da tradição dos povos dos Ermos Púrpuras é a tribo Gurka Kahn. Sua influência já foi a maior de todas e seu estandarte — um punho ensanguentado sobre um campo púrpura — dá nome à região até hoje. Enquanto muitos encaram os Ermos como uma terra agourenta de caos, corrupção e morte, para essa tribo não há nenhum outro lugar para chamar de lar.\n\nOs Gurka Kahn adotaram como território a região centro-norte dos Ermos, com o cuidado de não chegar muito perto de Grael. Evitam se reunir em grupos muito grandes, optando por acampamentos menores espalhados por todo esse território.\n\nMais do que qualquer outra coisa, os Gurka Kahn odeiam a Tormenta. Eles não têm nenhuma leniência diante de devotos de Aharadak, matando-os à primeira vista. Não assumem o mesmo comportamento com os lefou apenas porque são muito numerosos; quase metade dos guerreiros da tribo são lefou, sejam veteranos da marcha dos simbiontes ou seus filhos corrompidos. Aventureiros que precisem de um guia capaz de evitar os perigos da Tormenta costumam entrar em contato com essa tribo."
+    },
+    {
+      "titulo": "As Tribos — Ikari",
+      "texto": "Embora seja uma tribo relativamente jovem, os Ikari conseguiram obter números consideráveis e tomaram para si os territórios de muitas tribos antigas. São distintamente diferentes dos demais bárbaros: quase todos os seus integrantes são tamuranianos.\n\nSempre houve alguma presença tamuraniana no caldeirão étnico dos Ermos, mas depois da batalha na qual a ilha de Tamu-ra foi libertada da Tormenta, essa presença aumentou muito. Com a vitória da realidade, ficou evidente que o Império de Jade seria restabelecido. Criminosos condenados e rebeldes imaginavam estar rumando de um sofrimento para outro. Assim, em vez de rumar à terra recém-liberta, migraram para uma região maculada, onde as autoridades nunca os achariam.\n\nComposta por marginais acostumados aos horrores da Tempestade Rubra, a tribo desafia as tradições tamuranianas. Desprezam Lin-Wu, aproveitam-se das florestas para emboscadas, fazem armadilhas engenhosas e têm flechas certeiras, mortíferas e envenenadas. Dizem que seu chefe, Jaou, é um devoto de Sszzaas, capaz de envenenar seus inimigos cuspindo em suas bebidas."
+    },
+    {
+      "titulo": "As Tribos — Zallar",
+      "texto": "Enquanto parte dos Zallar se tornou os Baarkalark, os sobreviventes da marcha dos simbiontes mantiveram o nome da tribo. Embora o resto dos povos dos Ermos entenda a investida de Artorius como um grande erro, para os Zallar foi o maior dos acertos. Eles abraçam a inevitabilidade da Tormenta e se entregaram completamente a Aharadak. Existem poucos humanos entre os Zallar atualmente. Quase todos os integrantes da tribo são lefou.\n\nOs Zallar são os mais temidos entre todas as tribos dos Ermos. Ninguém confia neles e ninguém jamais faria alianças com eles, mas empunham o poder da própria Anticriação. Não se preocupam com a própria integridade física, não prezam pelos próprios bens, não cuidam da própria terra. Apenas tomam tudo aquilo que enxergam pela frente, matam os rivais de formas brutais e prestam homenagem ao Devorador.\n\nA fama terrível tem trazido ao reino estrangeiros em busca de combatentes baratos. Chefes bandidos, necromantes ou senhores da guerra vêm aos Ermos Púrpuras para contratar os corrompidos Zallar. Para a tribo não faz diferença. Todos os artonianos morrerão mais cedo ou mais tarde."
+    }
+  ]
+}

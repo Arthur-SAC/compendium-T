@@ -1,0 +1,40 @@
+{
+  "id": "soldado-da-fortuna",
+  "tipo": "criatura",
+  "nome": "Soldado da Fortuna",
+  "resumo": "Combatente de base de uma companhia mercenária, das mais diversas origens, que compensa com experiência prática o que lhe falta em treinamento formal.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 78 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+3",
+    "percepcao": "+2",
+    "defesa": "16",
+    "fortitude": "+10",
+    "reflexos": "+5",
+    "vontade": "+1",
+    "pontosDeVida": "10",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Alabarda +11 (1d12+10, x3).",
+      "À Distância Arco longo +5 (1d8+6, x3)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "0",
+      "carisma": "–1"
+    },
+    "habilidades": [],
+    "pericias": "Atletismo +5.",
+    "equipamento": "Alabarda, arco longo, cota de malha, flechas x20.",
+    "tesouro": "Metade."
+  }
+}

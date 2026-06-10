@@ -1,0 +1,28 @@
+{
+  "id": "laan",
+  "tipo": "divindade",
+  "nome": "Laan",
+  "resumo": "Possivelmente o deus menor mais antigo de Arton, entidade primordial das viagens e do deslocamento que governa jornadas de todo tipo — dos viajantes mortais às almas que partem para os reinos dos deuses — e jamais permite que alguém permaneça parado após sua passagem.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 31 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Alguns teólogos afirmam que Laan surgiu da primeira jornada impulsionada por Allihanna" }
+  ],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 3",
+    "crencasObjetivos": "Viajar. Deslocar-se de um lugar a outro. Explorar. Conhecer o mundo. Descobrir novos locais. Entregar mensagens. Levar pessoas e objetos até onde são necessários.",
+    "simboloSagrado": "Uma estrada que se perde no horizonte.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Bordão.",
+    "devotos": "Goblins, golens, kliren, lefou, naidoras, bardos, bucaneiros, caçadores, guerreiros, paladino.",
+    "obrigacoesRestricoes": "Devotos de Laan são proibidos de fixar moradia, não podendo permanecer mais de 1d10+10 dias na mesma cidade (ou vila, aldeia, povoado...) ou 1d4+1 meses no mesmo reino.",
+    "poderesConcedidos": ["Pé na Estrada"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Talvez o deus menor mais antigo de que se tem notícia, Laan é um deus tão ancestral que parece sempre ter existido. Alguns especulam que nasceu numa era muito primordial de Arton, quando conceitos como \"raças\" ainda não eram tão definidos, e criaturas únicas surgiam e desapareciam de tempos em tempos. Alguns teólogos afirmam que Laan surgiu logo após as primeiras criaturas vivas deixarem os oceanos, impulsionadas por Allihanna — essa jornada primordial teria provocado o surgimento do deus. Assim, embora segundo essa hipótese não tenha \"sempre existido\", Laan ainda seria mais velho do que quase qualquer outra coisa em Arton.\n\nLaan é um deus menor inquieto e curioso, em constante movimento. Governa não apenas as viagens, mas os viajantes e o próprio conceito de deslocamento de um lugar a outro. Também tem influência sobre comunicação e mensageiros. De alguma forma, Laan parece ter domínio sobre todos os tipos de jornadas — desde a viagem de Azgher pelos céus todos os dias até a passagem das almas de Arton aos reinos dos deuses após a morte. Seu propósito é desbravar novos terrenos, espalhar a necessidade de migração entre as criaturas. Laan nunca está onde as pessoas estão paradas, e ninguém nunca permanece parado após sua passagem.\n\nO Deus Menor das Viagens possui a estranha capacidade de abrir uma \"estrada reta\" à sua frente — um caminho que ignora todos os tipos de obstáculos físicos, por onde os viajantes progridem com muito mais rapidez, sem necessidade de paradas. Fisicamente, é um homem alto, largo e musculoso, com voz ribombante e risada monumental. Veste uma toga solta, uma tiara dourada e não usa sapatos, enfrentando o chão com seus enormes pés descalços."
+    }
+  ]
+}

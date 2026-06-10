@@ -1,0 +1,39 @@
+{
+  "id": "campones",
+  "tipo": "criatura",
+  "nome": "Camponês",
+  "resumo": "A ficha mais simples de todas. Representa pessoas que vivem no campo, como fazendeiros, pastoras e outras — a maior parte da população do Reinado e além.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 66 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+0",
+    "percepcao": "+3",
+    "defesa": "10",
+    "fortitude": "+3",
+    "reflexos": "+0",
+    "vontade": "+1",
+    "pontosDeVida": "3",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bordão +1 (1d6+1)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "habilidades": [],
+    "pericias": "Adestramento +2, Ofício (fazendeiro) +2.",
+    "equipamento": "Bordão.",
+    "tesouro": "Nenhum."
+  }
+}

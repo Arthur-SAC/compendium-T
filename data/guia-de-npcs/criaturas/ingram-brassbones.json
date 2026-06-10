@@ -1,0 +1,86 @@
+{
+  "id": "ingram-brassbones",
+  "tipo": "criatura",
+  "nome": "Ingram Brassbones",
+  "resumo": "Inventor anão especialista em armas de fogo, ex-membro da Guilda dos Armeiros banido de Doherimm, que hoje fabrica munições únicas nos antigos reinos do oeste ao lado da súcubo Nadia.",
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 24
+  },
+  "imagens": [
+    "/criaturas/ingram-brassbones.png"
+  ],
+  "secoes": [
+    {
+      "titulo": "O Crânio e o Corvo, O Terceiro Deus",
+      "texto": "Este inventor anão difere de outros membros de seu povo em quase tudo.\n\nNo lugar de machados e martelos, prefere pistolas e mosquetes. Em vez de uma longa barba, optou por um bem-cuidado bigode, para evitar acidentes ao manusear pólvora. Não tem forte vínculo com Doherimm, o Reino dos Anões. Na verdade, foi banido do reino, tendo sofrido a punição máxima desse povo e \"perdido o caminho\", nunca mais sendo capaz de retornar sem ajuda.\n\nIngram costumava ser membro da Guilda dos Armeiros. No entanto, desafiou tradições ao se dedicar à fabricação de armas de fogo, aliando-se ao que mais tarde descobriu ser um culto a Tenebra, a Deusa das Trevas. O armeiro, contudo, não se juntou à seita nem participou do ritual que transformou todos os seus ex-companheiros em vampiros.\n\nA deusa sombria enviou um súcubo chamada Nadia para seduzi-lo e convertê-lo, mas o plano falhou quando a serva divina se apaixonou por ele. A despeito de recusar o pacto, Ingram e sua nova companheira foram capturados pelas forças doheritas e banidos para a superfície.\n\nDepois de inúmeras peripécias ao lado do cavaleiro sir Orion Drake, pagando uma suposta dívida de honra, depois de derrotar seu antigo bando e de resgatar a alma de sua amada, que havia sido aprisionada no reino de Sombria, depois de reforjar a própria espada de Khalmyr, hoje Ingram só quer um pouco de paz com Nadia. Trabalha em uma \"armeria\" nos antigos reinos do oeste, fabricando e vendendo munições únicas. Pode-se dizer que conquistou tudo que desejava.\n\nMesmo assim, alguns garantem tê-lo visto junto aos Campeões de Svalas na cidade de Smokestone, enquanto outros afirmam que recentemente visitou Valkaria com um velho amigo."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "relacionado",
+      "alvoId": "tenebra",
+      "alvoTipo": "divindade",
+      "rotulo": "Ex-associado involuntário de um culto a Tenebra"
+    }
+  ],
+  "mecanica": {
+    "nd": "17",
+    "tipo": "Humanoide (anão)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+21",
+    "percepcao": "+16 (+18 em subterrâneo), visão no escuro",
+    "defesa": "52, evasão, redução de dano 10",
+    "fortitude": "+24",
+    "reflexos": "+30",
+    "vontade": "+17",
+    "pontosDeVida": "640",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Adaga x2 +47 (1d4+12, 18).",
+      "À Distância Mosquete x2 +47 (6d8+40, 16/x3, alcance longo) ou pistola x2 +47 (4d6+40, 15/x3, alcance médio)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "5",
+      "constituicao": "5",
+      "inteligencia": "4",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo +3d6",
+        "descricao": "Quando Ingram ataca com uma arma de fogo, seu ataque furtivo tem o alcance dessa arma."
+      },
+      {
+        "nome": "Disparo Preciso",
+        "descricao": "Ingram pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem a penalidade padrão de –5 no teste de ataque."
+      },
+      {
+        "nome": "Injeção Alquímica",
+        "descricao": "Presente nas armas de fogo de Ingram, esta modificação permite que cada disparo libere uma carga de um preparado previamente carregado. Ingram geralmente usa bombas, que causam 6d6 pontos de dano de impacto no alvo e em todas as criaturas a até 3m dele. Criaturas que não sejam o alvo têm direito a um teste de Reflexos (CD 44) para reduzir o dano à metade."
+      },
+      {
+        "nome": "Mestre de Armeria",
+        "descricao": "Ingram pode fabricar armas superiores com até 4 melhorias, e pode criar e fabricar armas de fogo exclusivas (veja Heróis de Arton)."
+      },
+      {
+        "nome": "Precisão Brutal",
+        "descricao": "Uma criatura atingida por um acerto crítico ou ataque furtivo de arma de fogo de Ingram fica vulnerável e sangrando (Fort CD 44 evita). Múltiplos sangramentos causados por esta habilidade são cumulativos."
+      },
+      {
+        "nome": "Saque Rápido",
+        "descricao": "Ingram pode sacar ou guardar itens como uma ação livre e recarregar armas de fogo como uma ação de movimento (ou livre, se a arma tiver sido fabricada por ele)."
+      },
+      {
+        "nome": "Um Tiro, Uma Morte (Movimento)",
+        "descricao": "Até o fim do turno, Ingram recebe +5 em testes de ataque e na margem de ameaça com ataques de arma de fogo e cada dado de dano desses ataques aumenta em um passo."
+      }
+    ],
+    "pericias": "Acrobacia +19, Atletismo +15, Furtividade +19, Intimidação +14, Ladinagem +21, Ofício (alquimista) +20, Ofício (armeiro) +25, Ofício (artesão) +20.",
+    "equipamento": "Adaga atroz precisa pungente, balas x20, bomba x4 (Ref CD 44 reduz à metade), gazua aprimorada, mosquete preciso de adamante com injeção alquímica e mira telescópica, pistola cruel precisa de mitral com injeção alquímica, três instrumentos de Ofício (alquimista, armeiro e artesão) aprimorados.",
+    "tesouro": "Padrão."
+  }
+}
