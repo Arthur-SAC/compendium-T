@@ -39,9 +39,21 @@ export default async function PaginaFicha({ params }: { params: Promise<{ tipo: 
     const m = RE_MARCADOR.exec(s.texto.trim());
     return m ? { ...s, texto: tabelaEquipamentoPipe(m[1], entidades) } : s;
   });
+  // Expansão de uma região (Atlas de Arton e futuros): agrega o lore estendido na página da
+  // região base, sem editar/sobrescrever o Básico. Agregação por lookup (como divindade-expansao).
+  const normId = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim();
+  const secoesExpansao = entidadeBruta.tipo === "regiao"
+    ? entidades
+        .filter((e) => e.tipo === "regiao-expansao" && normId(String((e.mecanica as { expandeRegiao?: string }).expandeRegiao ?? "")) === normId(entidadeBruta.id))
+        .flatMap((e) => [
+          { titulo: `Em ${tituloFonte(e.fonte.livro)}`, texto: e.resumo || "" },
+          ...e.secoes,
+        ])
+    : [];
+
   const entidade = {
     ...entidadeBruta,
-    secoes,
+    secoes: [...secoes, ...secoesExpansao],
     relacoes: entidadeBruta.relacoes.filter((r) => validos.has(`${r.alvoTipo}/${r.alvoId}`)),
   };
 

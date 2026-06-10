@@ -3,7 +3,7 @@ import { z } from "zod";
 export const TIPOS_ENTIDADE = [
   "raca", "classe", "origem", "poder", "magia", "pericia", "item",
   "item-magico",
-  "condicao", "divindade", "divindade-expansao", "criatura", "npc", "regiao", "distincao",
+  "condicao", "divindade", "divindade-expansao", "criatura", "npc", "regiao", "regiao-expansao", "distincao",
   "variante-classe", "linhagem", "termo", "regra", "regra-de-criacao",
 ] as const;
 export type TipoEntidade = (typeof TIPOS_ENTIDADE)[number];
@@ -264,6 +264,12 @@ export const DivindadeExpansaoMecanicaSchema = z.object({
 });
 export type DivindadeExpansaoMecanica = z.infer<typeof DivindadeExpansaoMecanicaSchema>;
 
+export const RegiaoExpansaoMecanicaSchema = z.object({
+  expandeRegiao: z.string(),   // id da regiao base no Básico (ex.: "deheon")
+  secao: z.string().optional(),
+});
+export type RegiaoExpansaoMecanica = z.infer<typeof RegiaoExpansaoMecanicaSchema>;
+
 // Bloco de estatísticas de criatura (bestiário, Cap. 7). Valores como string para
 // aceitar "+5", "1/4", "9m (6q)", "—" (mente animal) sem perder fidelidade.
 export const CriaturaAtributosSchema = z.object({
@@ -425,6 +431,11 @@ export const EntidadeSchema = z
       const r = DivindadeExpansaoMecanicaSchema.safeParse(ent.mecanica);
       if (!r.success) {
         ctx.addIssue({ code: "custom", path: ["mecanica"], message: `mecânica de expansão de divindade inválida: ${r.error.issues.map((i) => i.message).join("; ")}` });
+      }
+    } else if (ent.tipo === "regiao-expansao") {
+      const r = RegiaoExpansaoMecanicaSchema.safeParse(ent.mecanica);
+      if (!r.success) {
+        ctx.addIssue({ code: "custom", path: ["mecanica"], message: `mecânica de expansão de região inválida: ${r.error.issues.map((i) => i.message).join("; ")}` });
       }
     }
   });
