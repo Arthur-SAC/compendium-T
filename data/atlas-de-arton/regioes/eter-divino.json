@@ -1,0 +1,154 @@
+{
+  "id": "eter-divino",
+  "tipo": "regiao",
+  "nome": "Éter Divino",
+  "resumo": "O espaço além da iliosfera de Arton — região ao mesmo tempo física e mística que separa o mundo material dos mundos dos deuses, onde as leis naturais cedem a leis esotéricas e filosóficas. É habitado por gog'magogues, explorado pelos kliren e cruzado por divinautas a bordo de naves vivas; ao redor de Arton, em órbitas variadas, giram a lua, o sol, as estrelas e os mundos de quase todas as divindades do Panteão.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 418 },
+  "imagens": [],
+  "relacoes": [
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "lena",
+      "alvoTipo": "divindade",
+      "rotulo": "Vitalia — Mundo de Lena, 1ª órbita (a lua de Arton)"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Odisseia — Mundo de Valkaria, 2ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "hyninn",
+      "alvoTipo": "divindade",
+      "rotulo": "Ramknal — Mundo de Hyninn, 2ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Arbória — Mundo de Allihanna, 3ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "marah",
+      "alvoTipo": "divindade",
+      "rotulo": "Serena — Mundo de Marah, 3ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "azgher",
+      "alvoTipo": "divindade",
+      "rotulo": "Solaris — Mundo de Azgher (o sol de Arton), 4ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "thyatis",
+      "alvoTipo": "divindade",
+      "rotulo": "Pyra — Mundo de Thyatis, satélite de Solaris, 4ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "tenebra",
+      "alvoTipo": "divindade",
+      "rotulo": "Sombria — Mundo de Tenebra, 4ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "sszzaas",
+      "alvoTipo": "divindade",
+      "rotulo": "Venomia — lua particular de Sombria (Sszzaas), 4ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "megalokk",
+      "alvoTipo": "divindade",
+      "rotulo": "Chacina — Mundo de Megalokk, 5ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "arsenal",
+      "alvoTipo": "divindade",
+      "rotulo": "Werra — Mundo de Arsenal, 5ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Ordine — satélite de gigante gasoso (Khalmyr), 7ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "lin-wu",
+      "alvoTipo": "divindade",
+      "rotulo": "Sora — satélite de gigante gasoso (Lin-Wu), 7ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "tanna-toh",
+      "alvoTipo": "divindade",
+      "rotulo": "Terápolis — satélite de gigante gasoso (Tanna-Toh), 7ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "kallyadranoch",
+      "alvoTipo": "divindade",
+      "rotulo": "Drashantyr — satélite de gigante gasoso (Kallyadranoch), 7ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "oceano",
+      "alvoTipo": "divindade",
+      "rotulo": "Pelágia — Mundo de Oceano, 8ª órbita"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Magika — Mundo de Wynna, com seis sóis e seis luas"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "nimb",
+      "alvoTipo": "divindade",
+      "rotulo": "Al-Gazara — Mundo de Nimb, órbita caótica"
+    },
+    {
+      "tipo": "mundo-divino",
+      "alvoId": "ragnar",
+      "alvoTipo": "divindade",
+      "rotulo": "Deathok — antigo Mundo de Ragnar, órbita imprevisível (deus destruído)"
+    }
+  ],
+  "mecanica": {
+    "secao": "Além de Arton",
+    "epiteto": ""
+  },
+  "secoes": [
+    {
+      "titulo": "A Fronteira Final",
+      "texto": "A maioria dos artonianos nunca tem motivo para pensar na forma física de seu mundo, muito menos em como a cosmologia divina se organiza. Contudo, um punhado de sábios e os exploradores conhecem a verdade. Visto muito de cima, o mundo físico de Arton é um planeta arredondado, fixo como o centro absoluto da Criação. A seu redor, em órbitas variadas, giram a lua, o sol, as estrelas e os mundos dos deuses.\n\nEste é um fato aceito por sábios e teólogos, além de comprovado por aventureiros, pelos poucos visitantes que chegam em naves vivas e até mesmo por astrólogos e videntes. Contudo, parece contradizer o senso comum, além da experiência de centenas de heróis que já visitaram algum reino divino. Quase todos relatam que o Reino de uma divindade é um local infinito, místico, com suas próprias regras, sobre o qual o deus governa com onipotência. É sabido que, após a morte, as almas dos artonianos viajam para esses Reinos. Existem portais mágicos que levam aos Reinos, criaturas planares são invocadas por magia… Como conciliar tudo isso com as descobertas mais recentes?\n\nA verdade é que a Criação não é tão estanque, nem dividida de maneira tão precisa. Até mesmo aventureiros podem pensar que existe apenas o que é \"material\" e o que é \"divino\", com uma separação clara e óbvia entre ambos. Uma visão dualista de fácil compreensão, mas falsa. Com um pouco mais de experiência (e raciocínio), pode-se perceber que a Criação é inerentemente mística. O que é \"físico\" ou \"material\" e o que é \"místico\" ou \"planar\" se misturam o tempo todo.\n\nNa Pondsmânia, um viajante pode caminhar por uma floresta profunda e adentrar um reino divino sem notar. Da mesma forma, existe nas Uivantes contato suficiente com o Plano elemental do gelo para a formação do gelo eterno. O fenômeno do espaço de masmorra evidencia que o mundo físico pode se modificar e se tornar \"impregnado\" pelo que é místico. Até mesmo a corrupção pela Tormenta é prova de que o mundo material é permeável pelo que existe além.\n\nEm suma, Arton é um mundo físico, sim. Mas, quanto mais um viajante se afasta de Arton, menos material a Criação se torna. Mais e mais o que é físico e o que é divino se tocam. Até que não exista diferença entre um e outro.\n\nArton é cercado por uma iliosfera — uma camada indetectável de, por falta de uma palavra melhor, \"materialidade\", que se estende a cerca de 80 quilômetros de altura. Dentro da iliosfera, tudo funciona de acordo com as leis a que os artonianos estão acostumados: existe gravidade, as distâncias podem ser facilmente medidas, o tempo transcorre de forma linear, dois corpos não podem ocupar o mesmo espaço ao mesmo tempo… Enfim, tudo é \"normal\". Nas camadas mais elevadas da iliosfera o frio é mortal, não existe ar e a gravidade é fraca, mas a Criação ainda é física.\n\nAssim que deixa a iliosfera, um viajante está numa área da Criação com regras diferentes, imprevisíveis e aparentemente arbitrárias. As distâncias se estendem a ponto de não fazerem mais sentido. O tempo pode transcorrer de forma mais rápida ou mais lenta. Não há \"acima\" ou \"abaixo\". Não se aplicam as leis naturais do mundo material, mas leis místicas, esotéricas e filosóficas. Por isso, o espaço além da iliosfera é chamado de éter divino."
+    },
+    {
+      "titulo": "Viagens pelo Éter",
+      "texto": "Nem mesmo o mais poderoso herói artoniano é capaz de existir no éter divino sem auxílio de equipamentos especializados e magia. O éter não é totalmente material, nem totalmente místico. Assim, apresenta desafios únicos, muitas vezes mais letais do que um reino divino hostil.\n\nEm primeiro lugar, para alcançar o éter divino é preciso um veículo que seja capaz de romper a iliosfera. Magias de voo não conseguem fazer isso, nem mesmo naves aéreas. Dizem que nem Vectora seria capaz — o Mercado nas Nuvens pode se transportar por magia a outros Planos, mas não subir ao éter. Usando qualquer um desses meios, um pretenso viajante do éter apenas conseguiria chegar a uma camada da iliosfera onde não seria capaz de sobreviver — e então ficaria circundando o globo artoniano lentamente. De fato, alguns caçadores de tesouros já tentaram subir aos limites da iliosfera em busca dos corpos de aventureiros épicos… Para recuperá-los ou saqueá-los.\n\nPara deixar Arton, um veículo precisa ser capaz de transcender o mundo material. Não bastam portais ou magias similares (de fato, não se conhece nenhuma magia capaz de transportar diretamente ao éter). É preciso navegar pela zona sutil entre material e imaterial, entre mundano e divino. Nenhum artoniano sabe como fazer isso hoje em dia, mas as naus que trouxeram os elfos possuíam essa capacidade. Além disso, os gog'magogues, imensas criaturas semelhantes a peixes e nativas do éter divino, realizam esse feito naturalmente, por instinto. Na verdade, os pouquíssimos gog'magogues que já estiveram em Arton sofrem dentro da iliosfera, preferindo subir ao éter assim que possível.\n\nUma viagem pelo éter é tanto uma jornada física quanto uma experiência mística. Por isso, os viajantes do éter são chamados de divinautas. Uma nave etérea exige uma tripulação especialmente treinada, composta de vários postos indispensáveis. Entre eles, talvez os mais importantes sejam o druida de bordo e o teólogo de bordo.\n\nO druida de bordo é um devoto de Allihanna, Megalokk ou Oceano capaz de perceber a presença de sua divindade no éter — onde não existe natureza, monstros ou mares. Sua função é fundamental: manter uma extensa vida vegetal dentro da nave, para que a tripulação possa respirar! Embora existam histórias sobre naus que forneceriam ar a seus tripulantes de outras formas, quase todas as naves etéreas conhecidas são repletas de plantas. Existe uma estufa a bordo e cada espaço vazio, incluindo paredes e teto, tende a ser coberto de galhos e trepadeiras.\n\nJá o teólogo de bordo é essencialmente um navegador. Pode ou não ser um devoto, mas invariavelmente é um grande estudioso de tudo que é divino. Ele identifica, analisa e calcula as rotas etéreas com base na influência relativa de deuses e seus mundos. Sem um teólogo de bordo, é impossível chegar a qualquer lugar no éter divino. Uma nave poderia seguir em frente por anos, séculos, milênios… E só encontrar vazio escuro. Algumas tripulações desprovidas de teólogos encontram um mundo divino ou outro objeto etéreo por acidente, mas em geral ficam presas lá para sempre.\n\nTodo esse conhecimento foi compilado ao longo de gerações pelos kliren, a única raça inteligente conhecida que se considera nativa do éter. Os kliren não são capazes de existir no éter divino sem auxílio (são criaturas materiais, assim como artonianos), mas desenvolveram toda uma ciência para burlar essa limitação. Foram os kliren que descobriram os gog'magogues e passaram a usá-los como veículos. Extremamente resistentes e pacíficos, os gog'magogues permitem que naves etéreas semelhantes a navios sejam construídas ao redor de seus corpos — o processo não é invasivo e não parece incomodá-los. As naves então adquirem a capacidade de viajar pelo éter e adentrar diferentes mundos. Para os kliren, a palavra \"gog'magogue\" costuma designar as naves vivas. Para se referir somente às criaturas, usam \"gog'magogue selvagem\"."
+    },
+    {
+      "titulo": "Por que Viajar pelo Éter?",
+      "texto": "Ao descobrir as dificuldades e perigos de uma viagem pelo éter, um pretenso divinauta pode se perguntar: por que se arriscar dessa forma? Por que não usar um portal para alcançar um reino divino?\n\nA verdade é que sim, é muito mais fácil e seguro visitar outro Plano usando um portal. Mas eles não estão disponíveis para todos, em geral exigindo grandes jornadas por Arton. Além disso, ao usar um portal um explorador está preso ao local aonde o portal leva. Não tem controle sobre seu destino e não pode voltar quando quiser. Se o objetivo é visitar vários Reinos, achar um portal para cada um pode ser inviável. Além disso, não existem portais conhecidos para o éter em si.\n\nContudo, a maior parte dos divinautas não usa portais porque não deseja apenas chegar a um lugar — deseja explorar. Usar um portal para um reino divino é como usar uma magia de teletransporte em vez de um navio. Mais rápido e talvez mais seguro… Mas privando o viajante de todas as experiências que teria pelo caminho."
+    },
+    {
+      "titulo": "Mundos dos Deuses",
+      "texto": "Mas mesmo todo esse conhecimento não satisfaz as dúvidas fundamentais de devotos e viajantes planares: como os reinos divinos podem ser mundos? Alguns artonianos, ao saber disso, têm a impressão de que as próprias divindades são menos impressionantes ou transcendentais. Passam a considerar que, mesmo com todas essas dificuldades, os reinos divinos agora parecem muito próximos. Previsíveis. Prosaicos.\n\nA verdade é que os mundos dos deuses são manifestações dos reinos divinos, mas não são os reinos divinos inteiros. Já se fez a comparação de que um reino divino é como o deus em si, enquanto que um mundo divino é como seu avatar. Alguns teorizam que o mundo divino seria equivalente ao \"corpo físico\" de um reino divino — que por sua vez seria a \"alma\" de um mundo.\n\nEnquanto Arton é firmemente material e cercado por uma iliosfera, os mundos divinos são místicos e cercados por teosferas, camadas que os separam do éter. Uma vez que uma nave etérea rompa a teosfera de um mundo divino, adentra o reino. Está agora num outro Plano, que opera por leis específicas ditadas por um deus. Um artoniano que chegue a um reino divino por meio de um portal ou magia estará preso à teosfera. Assim, não será capaz de notar o éter \"acima\".\n\nNaves etéreas como gog'magogues são capazes de romper tanto a iliosfera quanto as teosferas, possibilitando viagens entre os mundos… E, assim, entre os Planos.\n\nContudo, a natureza ao mesmo tempo material e mística do éter divino faz com que esses mundos obedeçam a certas regras físicas. Todos circundam Arton em diferentes órbitas. Assim, para alcançar um deles não é preciso apenas cruzar uma certa distância, mas também calcular onde na órbita o mundo estará.\n\nNa primeira órbita, mais próxima do mundo material, a lua de Arton é na verdade Vitalia, o Mundo de Lena. Pode parecer muito \"próximo\", mas mesmo uma jornada à lua é um feito extraordinário. Odisseia (Mundo de Valkaria), Ramknal (Hyninn) e Nivenciuén (antigo Mundo de Glórienn) dividem a segunda órbita. Sabe-se que Nivenciuén foi tomado pela Tormenta.\n\nDividindo a terceira órbita estão Serena (Marah) e Arbória (Allihanna). Na quarta órbita, um sistema complexo: o sol de Arton, de fato o próprio Mundo de Azgher, Solaris, tem como satélite Pyra (Thyatis). Alguns especulam que, além de um mundo, Solaris seja parcialmente o corpo do próprio deus. Em direta oposição a essa iluminação está o Mundo de Tenebra, Sombria, em trevas ocasionalmente dissipadas por sua própria lua particular, Venomia (Sszzaas). Na quinta órbita está Chacina (Megalokk) e Werra (Arsenal).\n\nUm amplo espaço vazio se segue, onde já existiu o Mundo de Tilliann. Em seu lugar existem apenas as rochas flutuantes de Skerry. Skerry se tornou puramente material antes de ser destroçado depois da punição de Tilliann. Contudo, não tem uma iliosfera, tornando a vida nas rochas um desafio técnico vencido pelos kliren. Alguns divinautas relatam outros cinturões de asteroides, destroços e \"lixo etéreo\" entre os mundos. Ninguém sabe se seriam restos de mundos destruídos ou algo mais misterioso.\n\nA órbita seguinte é ocupada por mais um sistema complexo: cinco satélites orbitam um gigante gasoso, identificado em diferentes culturas como Ordine (Khalmyr), Sora (Lin-Wu), Terápolis (Tanna-Toh), Drashantyr (Kallyadranoch) e Kundali (Tauron, agora talvez o Mundo de Aharadak — o que significaria dois mundos corrompidos). Outro mundo gigante viaja pela oitava órbita: Pelágia (Oceano).\n\nA uma imensa distância de Arton e da luz de Solaris está Magika (Wynna), que tem seu próprio sistema particular com seis sóis e seis luas (ligados aos diferentes Planos elementais). Mais um mundo completa o sistema, numa órbita caótica: Al-Gazara (Nimb). A órbita imprevisível do Mundo do Caos afeta a duração do ano de Arton, motivo pelo qual existem os dias de Nimb no calendário artoniano. Deathok (Ragnar) também tinha uma órbita imprevisível, mas não se sabe o que aconteceu após a destruição do Deus da Morte.\n\nAlguns mundos dos deuses se manifestam na forma de globos, assim como Arton. Outros, no entanto, apresentam formas variadas e inesperadas, desde nuvens colossais até poliedros ou superfícies planas. Mais surpreendente é que não há consenso entre os divinautas sobre sua forma. Talvez eles se revelem de maneira diferente a cada mortal, ou talvez diferentes teólogos de bordo possam localizar diferentes facetas do mesmo mundo. Vale lembrar que nenhum mundo possui uma placa identificadora! Muitas tripulações já adentraram o mundo errado, para nunca mais sair…\n\nAlém de tudo isso ainda existem incontáveis planetoides, cometas, objetos, criaturas, fenômenos e entidades no éter divino. Um gog'magogue comercial já encontrou um grande asteroide moldado na forma de rostos gnômicos, enquanto existem histórias sobre uma masmorra que flutua em algum lugar do éter. Alguns desses lugares podem inclusive ser habitados por raças planares. Contudo, é consenso que nenhum tem uma fração da diversidade de Arton: costumam apresentar só um tipo de ambiente ou característica marcante.\n\nNão se conhece nenhum divinauta que tenha explorado todos os mundos dos deuses, muito menos que tenha decifrado mais do que uma ínfima fração dos mistérios do éter. O conhecimento sobre o que está \"lá em cima\" não torna a Criação menos mágica, pois abre um leque adicional de perigos e maravilhas. Talvez a torne ainda mais instigante… E aterrorizante."
+    },
+    {
+      "titulo": "As Estrelas",
+      "texto": "Embora os mundos dos deuses sejam (ao menos parcialmente) conhecidos, o mesmo não se pode dizer das estrelas que brilham no céu artoniano.\n\nExistem diferentes teorias sobre o que seriam as estrelas. Alguns sábios afirmam que são almas artonianas elevadas ou fragmentos de deuses mortos. Outros dizem que são \"buracos\" no éter e através deles enxergamos o Nada. Os mais ousados defendem que cada estrela é na verdade um mundo material separado, com sua própria cosmologia. Segundo essa versão, Arsenal teria vindo de um desses mundos.\n\nEmbora as estrelas pareçam estar muito mais longe da última órbita ao redor de Arton, certos divinautas já relataram avistar estrelas \"entre\" os mundos dos deuses, principalmente após se perderem por meses ou anos. Ninguém sabe explicar esse fenômeno."
+    },
+    {
+      "titulo": "A Flecha de Fogo",
+      "texto": "A queda da Flecha de Fogo levou alguns sábios a teorizar sobre o que teria realmente acontecido. Será que Thwor conseguiu manipular o destino para que o cometa se despedaçasse? Ou existe uma explicação mais mundana?\n\nA teoria mais \"sensata\" afirma que a Flecha, vinda do éter divino, não teria resistido ao contato com a iliosfera. Quanto mais perto de Arton, mais material — chegando muito perto, o objeto não estaria preparado para tamanha materialidade. Contudo, aceitar essa teoria significa que o Ayrrak teve uma sorte imensa, pois seu estratagema se concretizou sem que ele conhecesse detalhes sobre o éter divino e os pedaços da Flecha caíram exatamente onde ele precisava.\n\nTalvez Thwor fosse, afinal, um estudioso do éter… Ou talvez a Criação seja ainda mais misteriosa do que os artonianos já foram capazes de supor."
+    }
+  ]
+}
