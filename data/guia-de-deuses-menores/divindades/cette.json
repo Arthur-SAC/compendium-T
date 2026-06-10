@@ -1,0 +1,28 @@
+{
+  "id": "cette",
+  "tipo": "divindade",
+  "nome": "Cette",
+  "resumo": "Deus dos Arqueiros, elfo de longevidade transcendente e símbolo do que os elfos deveriam ter sido — refinados sem arrogância —, morreu na Batalha de Tamu-ra em 1405.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 14 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "glorienn", "alvoTipo": "divindade", "rotulo": "Divindade élfica contemporânea de Glórienn, de quem mantinha distância ao personificar a disciplina do arco" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Manter vivas as tradições de arquearia élficas. Treinar e aperfeiçoar-se nas artes do tiro e da guerra. Honrar juramentos. Lutar por causas justas. Demonstrar força sob pressão e franqueza nas palavras.",
+    "simboloSagrado": "Uma flecha com folhas verdes.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Arco longo.",
+    "devotos": "Elfos, medusas, naidoras, caçadores, inventores, guerreiros, nobres, paladino.",
+    "poderesConcedidos": ["Disparo Sublime"],
+    "obrigacoesRestricoes": "As únicas armas empunhadas que o devoto de Cette pode usar são arcos. Além disso, para atacar com outras armas (como naturais), ele deve fazer ao menos um ataque com arco na rodada.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Cette era um deus antigo, que transcendeu até mesmo a extrema longevidade élfica muito antes da queda de Lenórienn — alguns dizem que já era uma divindade menor quando os elfos chegaram a Arton. Suas maneiras, seu estilo de luta e sua própria aparência remetem a um tempo em que os elfos nunca haviam sido humilhados, mas também a uma época ainda sem a arrogância e a autoconfiança excessiva que foram sua perdição. De certa forma, Cette foi um símbolo de tudo que os elfos deveriam ter sido: perfeitos, mas sem nenhuma noção de superioridade.\n\nEmbora representasse uma das maiores tradições élficas, Cette não parecia ter grande ligação com Glórienn. De alguma forma, ao personificar a disciplina do arco e flecha, Cette se concentrou na arma e se afastou de todo o resto. Também adquiriu certas características do arco (flexível, adquire força sob pressão) e da flecha (direto, rápido, sem meandros). Assim, continuava apresentando a típica postura élfica de séculos atrás: refinamento, delicadeza e tranquilidade, sem empáfia.\n\nCette perdeu muitos seguidores no período entre a chegada dos elfos a Arton e a queda de Glórienn — pois, durante esse tempo, a raça se voltou cada vez mais para sua deusa padroeira, de forma quase exclusiva. Mesmo assim, o Deus dos Arqueiros não parecia se abalar. Continuava pronto para defender as tradições élficas, como sempre fizera.\n\nDe certa forma, Cette era uma divindade simples: não desafiava a compreensão nem adquiria formas metafísicas. Era um elfo esguio, de longos cabelos verdes presos em tranças, tão leve que ao andar seus pés mal tocavam o chão. Seu arco era tão alto quanto ele mesmo. Vestia-se com a mais fina malha élfica, trançada com folhas vivas. Era um guerreiro eficiente, franco e até mesmo bem-humorado. Sua morte na Batalha de Tamu-ra em 1405 foi uma grande perda para Arton."
+    }
+  ]
+}

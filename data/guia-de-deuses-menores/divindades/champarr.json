@@ -1,0 +1,29 @@
+{
+  "id": "champarr",
+  "tipo": "divindade",
+  "nome": "Champarr",
+  "resumo": "Deus dos Jogos, patrono dos torneios e disputas entre os moreau, gladiador imortal que duelo contre Arsenal pelo título de Deus da Guerra e recebeu a imortalidade por sua tenacidade.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 15 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "arsenal", "alvoTipo": "divindade", "rotulo": "Duelo contra Arsenal no torneio cósmico que rendeu a Arsenal o título de Deus da Guerra" },
+    { "tipo": "relacionadoCom", "alvoId": "keenn", "alvoTipo": "divindade", "rotulo": "Keenn provavelmente foi o Deus da Guerra que promoveu o torneio cósmico do qual Champarr participou" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Reverenciar os jogos. Incitar disputas. Derrotar inimigos. Desafiar a si mesmo. Superar limites. Promover e participar de torneios e jogos. Vencer em condições justas.",
+    "simboloSagrado": "Um troféu.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada curta.",
+    "devotos": "Anões, elfos, hynne, sátiros, sílfides, bardos, bucaneiros, guerreiros, ladinos, lutadores, nobres.",
+    "poderesConcedidos": ["Jogada Decisiva"],
+    "obrigacoesRestricoes": "Devotos de Champarr devem vencer um jogo por dia (ou por sessão de jogo, o que demorar mais). Em termos de regras, devem vencer um teste oposto de Jogatina, Luta ou Pontaria contra um oponente digno (a critério do mestre). Outras perícias podem ser usadas para atender essa obrigação, também a critério do mestre.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Patrono dos torneios, dos conflitos e dos jogos, Champarr é a divindade favorita dos atletas, duelistas, jogadores e guerreiros entre os moreau. É o juiz de todas as disputas, desde duelos de espadas até guerras entre reinos, desde jogos de cartas até corridas de cavalos nos Reinos de Moreania. Ele abençoa os vencedores e perdoa (ou amaldiçoa) os perdedores.\n\nOs adoradores de Champarr conseguem traçar sua origem até os mais distantes domínios extraplanares. Há milhares de anos ele teria participado de um torneio cósmico promovido por um poderoso Deus da Guerra — com certeza Keenn, a menos que todas as escrituras sagradas estejam erradas e tenha havido um Deus da Guerra antes dele! Esse presumivelmente foi o Torneio do Deus Guerreiro, a mesma disputa que rendeu a Arsenal o título de Deus da Guerra. Na ocasião, após sucessivas vitórias, Champarr chegou à grande final e duelou contra o deus em pessoa, mas foi derrotado. No entanto, por sua tenacidade, teria recebido a imortalidade e o título de Deus dos Jogos.\n\nChamparr tem a aparência de um poderoso gladiador, usando um elmo fechado que mantém suas emoções indecifráveis. Está sempre armado com duas espadas curtas idênticas: uma delas concede a bênção da vitória e a outra, a maldição da derrota.\n\nChamparr é querido em Moreania, especialmente no reino de Brando, onde flâmulas em sua homenagem são hasteadas antes de cada grande torneio, e seus clérigos atuam como juízes. Moreau diante de provações muitas vezes rogam seu nome, para assegurar a vitória."
+    }
+  ]
+}

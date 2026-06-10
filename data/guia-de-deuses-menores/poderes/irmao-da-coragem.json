@@ -1,0 +1,15 @@
+{
+  "id": "irmao-da-coragem",
+  "tipo": "poder",
+  "nome": "Irmão da Coragem",
+  "resumo": "Imunidade a medo (ou +2 em Vontade se já imune); uma vez por cena pode substituir qualquer teste de perícia por um teste de Vontade.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 51 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "zakharov",
+    "prerequisito": "",
+    "descricao": "Você se torna imune a medo (se já for imune, em vez disso recebe +2 em Vontade). Além disso, uma vez por cena envolvendo um perigo, você pode substituir um teste de perícia por um teste de Vontade."
+  }
+}

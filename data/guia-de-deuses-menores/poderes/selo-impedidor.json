@@ -1,0 +1,15 @@
+{
+  "id": "selo-impedidor",
+  "tipo": "poder",
+  "nome": "Selo Impedidor",
+  "resumo": "Gaste uma ação padrão e 3 PM para impedir uma criatura próxima de usar uma habilidade específica até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 16 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "dahriol",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 3 PM para impedir uma criatura em alcance curto de usar uma habilidade a sua escolha até o fim da cena (Von CD Sab evita). Você só pode escolher uma habilidade que tenha visto a criatura usar ou que tenha identificado com um teste de perícia (como um teste de Misticismo para identificar criatura). Você não pode escolher a habilidade Magias (ou habilidades equivalentes), mas pode escolher uma magia específica. Uma mesma criatura só pode ser afetada por este poder uma vez por cena."
+  }
+}

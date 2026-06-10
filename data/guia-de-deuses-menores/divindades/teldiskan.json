@@ -1,0 +1,26 @@
+{
+  "id": "teldiskan",
+  "tipo": "divindade",
+  "nome": "Teldiskan",
+  "resumo": "O Gigante Máximo, provavelmente a criatura mais alta de Arton, confinado nas Montanhas Teldiskan em Deheon e cultuado como divindade ambígua do clima — possivelmente arrependido, possivelmente aguardando vingança.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 1",
+    "crencasObjetivos": "Vigiar o céu e prever o clima. Reverenciar e proteger as Montanhas Teldiskan. Ajudar o Gigante Máximo a alcançar liberdade. Pregar sobre a benevolência do Gigante Máximo e como suas bênçãos podem trazer prosperidade. Vingar-se do reino de Deheon.",
+    "simboloSagrado": "Vários picos de montanhas surgindo por cima das nuvens.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Tacape.",
+    "devotos": "Dahllan, gnolls, harpias, hynne, kallyanach, medusas, ogros, trogs, bárbaros, caçadores, druidas, lutadores.",
+    "obrigacoesRestricoes": "Devotos de Teldiskan devem pregar a benevolência de sua divindade por meio de seus atos e previsões climáticas. Uma vez por dia (ou por sessão de jogo, o que demorar mais), o devoto precisa convencer outra pessoa de que Teldiskan é um salvador ou prever o clima da região. Em termos de jogo, deve passar em um teste de Enganação ou Sobrevivência com CD mínima 15 + metade do seu nível.",
+    "poderesConcedidos": ["Despertar do Gigante"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Em Deheon, o Reino Capital, há uma cordilheira chamada de Montanhas Teldiskan, que ocupa boa parte do território a noroeste do reino. Apesar de fazerem parte da mesma formação das Montanhas Uivantes, o local tem sua própria identidade por ser lar de Teldiskan, o Gigante Máximo.\n\nProvavelmente a criatura mais alta de Arton, dizem que quando se levanta, Teldiskan consegue ver as nuvens que se formam em todos os reinos do que sobrou do Reinado, conseguindo prever o clima de semanas e até meses à frente. Por esse motivo os humanos há muitos séculos cultuam a criatura como a divindade menor do clima.\n\nMas nem sempre Teldiskan foi bondoso ou pacífico — e talvez não o seja hoje em dia. Teldiskan, o Gigante Máximo, atacou a cidade de Valkaria, quando era um mero assentamento de refugiados, pouco depois da chegada da Caravana dos Exilados a Arton Norte. Na ocasião, a Rainha Yvanna das Amazonas e Roramar Pruss, o Rei Profeta, derrotaram juntos o gigante, banindo-o para as montanhas e assim selando a aliança entre o que viria a ser o reino de Deheon e as nações amazonas. Teldiskan teria se arrependido e, desde então, tornado-se uma divindade pastoril, que protege as pequenas aldeias que existem no sopé das montanhas. Um deus pacato, que pouco faz além de garantir bom tempo.\n\nOu apenas um vilão dotado de enorme paciência.\n\nAtualmente, devotos de Teldiskan se espalham pelas diversas aldeias nas encostas das montanhas e usam de rituais para prever o clima e auxiliar o povo com suas criações de cabras, carneiros e outros animais montanheses. Entre os devotos, há um grupo chamado Pastores de Teldiskan que viaja por Deheon pregando como seu padroeiro é uma divindade bondosa que trará bom tempo, chuvas adequadas e colheitas abundantes para o povo. Enquanto pregam que seu patrono se arrependeu e cumpre sua pena, os Pastores de Teldiskan arrebanham cada vez mais fiéis na tentativa de conseguir poder o suficiente para que o Gigante Máximo seja capaz de romper seu confinamento e dominar (ou destruir!) Deheon, vingando-se pela derrota de séculos atrás. Alguns dos mais fanáticos fazem sacrifícios humanos para seu deus, na tentativa de instigar sua sede de sangue.\n\nAssim, Teldiskan é uma divindade ambígua. Muitas gerações já o cultuaram como o deus do clima que ele parece ser, e suas preces foram atendidas. Mas vilões sanguinários servem a ele. Será Teldiskan um monstro arrependido ou uma ameaça futura? Ambos? Nenhum?"
+    }
+  ]
+}

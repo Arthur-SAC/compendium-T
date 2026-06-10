@@ -1,0 +1,15 @@
+{
+  "id": "olhos-do-vigia",
+  "tipo": "poder",
+  "nome": "Olhos do Vigia",
+  "resumo": "+2 em Percepção, nunca fica surpreendido/desprevenido contra inimigos imperceptíveis e pode rerolar o dado de chance de falha por camuflagem uma vez.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 12 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "betsumial",
+    "prerequisito": "",
+    "descricao": "Você recebe +2 em Percepção, não fica surpreendido e desprevenido contra inimigos que não possa perceber e nunca acerta o alvo errado ao atacar alguém envolvido na manobra agarrar. Quando erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha."
+  }
+}

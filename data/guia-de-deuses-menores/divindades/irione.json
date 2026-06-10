@@ -1,0 +1,26 @@
+{
+  "id": "irione",
+  "tipo": "divindade",
+  "nome": "Irione",
+  "resumo": "Duplo mortal que alcançou a divindade da sedução ao descobrir o poder de aparecer como o ser mais desejado por cada pessoa, tornando-se uma entidade viciada em adoração e inalcançável para seus incontáveis pretendentes.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 28 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Provar seu valor, tornando-se alvo de desejo. Seduzir os outros para obter favores e adulações. Gerar suspiros de pretendentes. Tornar-se inalcançável para que todos venham atrás de você.",
+    "simboloSagrado": "Marca de beijo.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Chicote.",
+    "devotos": "Elfos, harpias, medusas, nagahs, naidoras, sereias/tritões, sílfides, suraggel, arcanistas, bardos, bucaneiros, ladinos, lutadores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Irione devem obter a adoração de uma pessoa que originalmente não era prestativa, pelo menos uma vez por aventura (ou por mês, o que demorar menos), como forma de honrar sua divindade. Isso significa tornar um NPC prestativo e, após isso, tornar-se objeto da admiração e adoração desse personagem.",
+    "poderesConcedidos": ["Fisgar Corações"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Irione é uma entidade que levou suas habilidades ao extremo, alcançando a divindade como resultado desse processo. Originalmente, ele era um duplo — uma criatura humanoide sem características fixas, capaz de assumir qualquer forma. Normalmente, os duplos se infiltram nas sociedades, assassinando humanos e membros de outras raças civilizadas. No entanto, Irione logo percebeu que seu maior poder estava na sedução. Ao adotar diversas formas, experimentou o prazer de ser adorado, de ver homens e mulheres se atirando aos seus pés. Essa experiência se tornou viciante e Irione passou a buscar cada vez mais pretendentes. O próximo passo natural foi alcançar a divindade.\n\nIrione tem a habilidade de se transformar na figura que mais seduz cada pessoa. Sua transformação não é física, como os duplos, mas acontece na mente de quem o observa. Por isso, ao enxergá-lo, dois indivíduos podem ver, ouvir e até sentir coisas completamente diferentes ao mesmo tempo. Por exemplo, para Orion Drake, Irione parecia sua esposa Vanessa.\n\nOutra habilidade surpreendente de Irione é sua capacidade de se tornar inalcançável. Pessoas de todas as origens e modos de vida se veem seduzidas por ele, tentando alcançar sua presença para oferecer presentes e devoção, mas Irione sempre permanece distante, como se estivesse na próxima esquina ou um andar acima. Contudo, ele é uma divindade obcecada por atenção e mimos. Acostumado a seduzir, não tolera ser ignorado. A única maneira de convencê-lo a fazer algo que não seja para seu próprio benefício é justamente não lhe dar atenção ou importância. Nesse caso, Irione fará de tudo para conquistar seus alvos."
+    }
+  ]
+}

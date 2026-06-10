@@ -1,0 +1,26 @@
+{
+  "id": "canora",
+  "tipo": "divindade",
+  "nome": "Canora",
+  "resumo": "Deusa da Canção, donzela pálida capaz de modular a voz do sussurro mais doce ao guincho mortal, ensinando seus devotos a usar a música como arma e como meio de conquistar corações.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 14 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "A melodia é a perfeição. Treino vocal é imprescindível. O canto é a mais perfeita forma de arte e o jeito certo de conquistar corações. A voz é a mais poderosa das armas.",
+    "simboloSagrado": "Uma flor em forma de nota musical.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Florete.",
+    "devotos": "Anões, elfos, harpias, hynne, qareen, sátiros, sereias/tritões, sílfides, arcanistas, bardos, bucaneiros, nobres, paladino.",
+    "poderesConcedidos": ["Canção Divina"],
+    "obrigacoesRestricoes": "Devotos de Canora nunca recusam uma oportunidade de cantar. Além disso, uma vez por semana (ou por sessão de jogo, o que demorar mais), devem se apresentar para uma grande plateia, como uma taverna lotada, a corte de um nobre local ou um festival em uma vila.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Com a aparência de uma donzela esguia, pálida e com olheiras, esta deusa é capaz de modular a voz como quiser, da melodia mais doce a um guincho doloroso ou mesmo mortal. Suas canções são capazes de agradar os mais distintos gostos e seu repertório é infinito — desde as mais delicadas melodias élficas até as mais poderosas óperas anãs. Do canto suave de pássaros aos berros agonizantes dos moribundos. Seus devotos são ensinados a fazer o mesmo, usando suas vozes para incitar todos os tipos de emoções.\n\nA voz de Canora pode ressoar com materiais específicos, destruindo-os com a mesma facilidade com que ela encanta seu público. A deusa não aprecia o uso de sua arte como arma, mas sabe que às vezes isso é necessário."
+    }
+  ]
+}

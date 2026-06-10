@@ -1,0 +1,15 @@
+{
+  "id": "mar-aberto",
+  "tipo": "poder",
+  "nome": "Mar Aberto",
+  "resumo": "Aprende Caminhos da Natureza para uso em ambientes aquáticos, com bônus de deslocamento em embarcações; uso irrestrito e –1 PM ao aprender novamente.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 34 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "marina",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar Caminhos da Natureza. Você só pode lançar essa magia em ambientes aquáticos, mas pode aplicar seu bônus em deslocamento em qualquer embarcação em que esteja. Caso aprenda novamente essa magia, pode usá-la em qualquer ambiente e seu custo diminui em –1 PM."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cancao-dos-mares",
+  "tipo": "poder",
+  "nome": "Canção dos Mares",
+  "resumo": "Concede a habilidade Canção dos Mares das sereias/tritões; se já a tiver, permite escolher magias adicionais ou reduzir o custo das mesmas.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 9 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "ayllana",
+    "prerequisito": "",
+    "descricao": "Você adquire a habilidade Canção dos Mares das sereias/tritões (Tormenta20, p. 30). Se já tiver essa habilidade, você pode escolher outras magia da lista da habilidade, ou as mesmas para diminuir seu custo."
+  }
+}

@@ -42,6 +42,11 @@ export function FichaDivindade({ entidade, registro, descricoes, extras }: { ent
         <span style={{ display: "inline-block", marginTop: 6, fontSize: 11, letterSpacing: 1.5, textTransform: "uppercase", color: corEnergia(m.canalizaEnergia), border: `1px solid ${corEnergia(m.canalizaEnergia)}`, borderRadius: 20, padding: "3px 12px" }}>
           Energia {m.canalizaEnergia}
         </span>
+        {m.statusDivino && (
+          <span style={{ display: "inline-block", marginTop: 6, marginLeft: 8, fontSize: 11, letterSpacing: 1.5, textTransform: "uppercase", color: "var(--tinta-suave)", border: "1px solid var(--borda-suave)", borderRadius: 20, padding: "3px 12px" }}>
+            {m.statusDivino}
+          </span>
+        )}
       </header>
 
       <div style={{ background: "transparent", color: "var(--tinta)", padding: "20px 26px 24px" }}>

@@ -1,0 +1,28 @@
+{
+  "id": "hippion",
+  "tipo": "divindade",
+  "nome": "Hippion",
+  "resumo": "Deus dos cavalos, entidade imortal venerada em Namalkah como divindade principal, encarnação do vínculo entre ginetes e montarias e protetor de todos os cavalos de Arton.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 24 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "statBlock", "alvoId": "hippion", "alvoTipo": "criatura", "rotulo": "Ficha de combate (Guia de NPCs)" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 4",
+    "crencasObjetivos": "Reverenciar Hippion e respeitar os cavalos. Defender o vínculo e promover a harmonia entre montarias e ginetes. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural. Galopar.",
+    "simboloSagrado": "Um cavalo galopando.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Lança.",
+    "devotos": "Aggelus, centauros, eiradaan, bárbaros, caçadores, cavaleiros, druidas, guerreiros, nobres, treinadores, paladino.",
+    "obrigacoesRestricoes": "Devotos de Hippion jamais podem matar cavalos, nem mesmo suas variantes monstruosas (como cavalos glaciais). Além disso, não podem permitir que cavalos sejam assassinados ou maltratados. Também nunca podem usar selas ou outros equipamentos de montaria enquanto estiverem montados.",
+    "poderesConcedidos": ["Ginete Altivo"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Hippion é um dos poucos deuses menores cultuados como divindade principal de uma nação inteira no Reinado. Em Namalkah, ele é mais venerado até mesmo que Allihanna e Valkaria. Quando os primeiros colonos vindos do continente sul chegaram ao reino, seu contato com o povo nativo que vivia lá foi relativamente pacífico — daí surgiu boa parte da cultura de tropeiros e nomadismo de Namalkah, inspirada nos centauros. E os povos nativos dessa região já cultuavam o senhor de todos os cavalos, chamado Hippion.\n\nA origem do culto a Hippion se perde no tempo; ninguém sabe quando ele começou a ser cultuado, apenas que sua religião (chamada \"culto hippionte\") sempre pareceu fazer parte da cultura local. Hippion era venerado pelos centauros (e também por cavalos inteligentes) antes que o primeiro humano pisasse nas terras que viriam a ser Namalkah. Diz a tradição que Hippion era um cavalo imortal mesmo antes de se tornar um deus, tendo servido como montaria ou líder para incontáveis heróis durante a história dos povos originais das coxilhas. Hippion era a única constante em todas essas histórias tradicionais. A conclusão era simples: guerreiros, tanto centauros quanto bípedes, surgiam e desapareciam, mas o cavalo era eterno.\n\nQuando a Caravana dos Exilados chegou a Arton Norte, um dos primeiros povos a fazer contato pacífico com os refugiados foram as Amazonas de Hippion, em uma peregrinação periódica para a estátua de Valkaria. A rainha amazona se casou com o líder da caravana, formando uma tradição de ajuda mútua que perdura até hoje. Assim, Hippion é um dos deuses menores mais influentes em toda a história do mundo conhecido.\n\nA devoção a Hippion nunca diminuiu em Namalkah com a integração de povos nativos e exilados de Lamnor apenas aumentou. Os habitantes do reino (especialmente ginetes e tropeiros) consideram-no sua principal divindade. Como é o modo de Namalkah, às vezes chamam-no por apelidos grosseiros mas afetuosos (\"o bagual eterno\"). Diz-se que Hippion muitas vezes galopa incógnito, deixando-se ser montado apenas pelos maiores heróis — sempre em pelo, nunca admitindo uma sela.\n\nContudo, também é possível identificá-lo: sua presença provoca vontade de correr pelas planícies, mesmo nos bípedes, e ele é seguido por um enorme bando de corcéis. Outros cavalos parecem potros perto de seu tamanho. Seu pelo é castanho e branco, sua crina é longa, espalhando-se em todas as direções. Hippion é capaz de falar e encarna tudo aquilo que os cavalos são: fortes, rápidos, selvagens, leais. Hippion, assim como a maioria dos humanos e cavalos em Namalkah, acredita que cada coisa tem seu lugar: o cavalo deve ser montado e o cavaleiro deve montar. O cavalo deve carregar seu companheiro em batalha, o cavaleiro deve lutar. Um não deve tentar assumir o papel do outro."
+    }
+  ]
+}

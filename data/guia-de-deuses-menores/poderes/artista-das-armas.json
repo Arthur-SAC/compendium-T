@@ -1,0 +1,15 @@
+{
+  "id": "artista-das-armas",
+  "tipo": "poder",
+  "nome": "Artista das Armas",
+  "resumo": "Gaste uma semana e T$ 100 para infundir uma arma com uma fagulha divina, tornando-a mágica com uma melhoria extra que não conta no limite de melhorias.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 40 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "rhond",
+    "prerequisito": "",
+    "descricao": "Você pode infundir armas com uma fagulha divina. Gaste uma semana e T$ 100 e faça um teste de Ofício (armeiro) com CD igual à de fabricação da arma. Se passar, a arma se torna mágica e recebe uma melhoria cujos pré-requisitos cumpra (exceto material especial), que não conta em seu limite de melhorias."
+  }
+}

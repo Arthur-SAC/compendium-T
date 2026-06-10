@@ -1,0 +1,15 @@
+{
+  "id": "alcancar-os-ceus",
+  "tipo": "poder",
+  "nome": "Alcançar os Céus",
+  "resumo": "Gasta PM (limitado por Sabedoria) para receber deslocamento de voo de 12m até o fim do turno, +3m por PM adicional.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 27 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hydora",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma quantidade de PM limitada por sua Sabedoria (mínimo de 1) para receber deslocamento de voo até o fim do seu turno. Esse deslocamento é igual a 12m, +3m para cada PM gasto além do primeiro."
+  }
+}

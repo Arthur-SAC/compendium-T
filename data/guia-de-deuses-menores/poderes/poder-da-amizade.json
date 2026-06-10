@@ -1,0 +1,15 @@
+{
+  "id": "poder-da-amizade",
+  "tipo": "poder",
+  "nome": "Poder da Amizade",
+  "resumo": "Escolhe um amigo de fé: +2 em todos os testes de perícia e –1 PM em habilidades que o tenham como alvo enquanto estiver próximo; se ele morrer, perde 1 PM máximo por nível até o fim da aventura.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 9 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "artaphan",
+    "prerequisito": "",
+    "descricao": "Escolha um personagem para ser seu amigo de fé. Se estiver em alcance médio dele e vocês puderem pelo menos trocar olhares, você recebe +2 em todos os testes de perícia e o custo de suas habilidades que tenham ele como alvo diminui em –1 PM (cumulativo com outras reduções). Entretanto, se ele morrer, seus pontos de mana máximos diminuem em 1 por nível até o fim da aventura. Se perder seu amigo de fé, você pode escolher outro entre os demais personagens no início da próxima aventura."
+  }
+}

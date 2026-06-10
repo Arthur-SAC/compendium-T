@@ -1,0 +1,28 @@
+{
+  "id": "kurur-lianth",
+  "tipo": "divindade",
+  "nome": "Kurur Lianth",
+  "resumo": "O maior e mais temido vulcão ativo de Khubar, localizado na ilha de Hurtka, que ascendeu a deus menor por séculos de sacrifícios voluntários oferecidos para acalmar suas erupções devastadoras.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 30 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "khubar", "alvoTipo": "regiao", "rotulo": "Vulcão localizado no coração de Khubar, o Reino Arquipélago" }
+  ],
+  "mecanica": {
+    "statusDivino": "Objeto desperto, status divino 1",
+    "crencasObjetivos": "Cultuar o Velho Furioso. Proteger o povo da ilha de Hurtka e de Khubar em geral. Pregar a renovação que Kurur Lianth traz e a proteção que ele fará contra o grande mal descrito nas antigas profecias.",
+    "simboloSagrado": "Um vulcão em erupção.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Lança.",
+    "devotos": "Qareen, suraggel, trogs, bárbaros, bardos, druidas, guerreiros, lutadores.",
+    "obrigacoesRestricoes": "Devotos de Kurur Lianth devem se reunir com seu deus uma vez por ano para sacrificar um humanoide voluntário. Na ausência de um voluntário, o devoto mais velho deve se oferecer de imediato. Se não o fizer, deixa de ser um devoto imediatamente e seu destino como sacrifício passa para outro devoto mais velho.",
+    "poderesConcedidos": ["Alma em Erupção"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Muitas lendas cercam Kurur Lianth, o maior e mais temido vulcão ativo de Khubar, o Reino Arquipélago. Localizado no coração da ilha de Hurtka, a mais próxima da costa de Bielefeld, Kurur Lianth é uma força da natureza cuja fúria não pode ser ignorada. Este vulcão expele fogo e explosões durante intensos períodos de uma semana ou mais, antes de se acalmar temporariamente, repousando por alguns meses.\n\nÉ dito, nas histórias antigas, que a única maneira de acalmar o \"Velho Furioso\", como é chamado por seus devotos, é através de um sacrifício humanoide voluntário, realizado quando o vulcão desperta de seu sono. Caso contrário, Kurur Lianth tomará todas as vidas que julgar necessárias.\n\nAlgumas lendas atribuem essa necessidade de sacrifícios ao fato de que, no interior do vulcão, está aprisionado um antigo deus menor do fogo, derrotado por Thyatis em tempos imemoriais. Cada vez que o vulcão entra em erupção, acredita-se que o deus aprisionado desperta, provocando as explosões cataclísmicas que ameaçam a terra. Outras histórias sugerem que a cratera de Kurur Lianth é, na verdade, a bocarra de um monstruoso dragão do fogo, cuja magnitude colossal o impede de escapar do interior da terra, forçando-o a liberar sua fúria nas erupções. Seja qual for a verdadeira origem dessas lendas, o fato permanece: o vulcão é tratado como uma entidade viva, consciente. Com o passar dos séculos, os sacrifícios oferecidos ao vulcão fizeram com que ele fosse considerado algo sagrado, o que provocou sua ascensão a deus menor. Para seus seguidores, Kurur Lianth não é apenas um agente de destruição, mas uma divindade que protege a terra contra males ainda maiores, previstos para surgir em Khubar no futuro."
+    }
+  ]
+}

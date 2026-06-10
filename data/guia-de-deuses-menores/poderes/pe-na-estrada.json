@@ -1,0 +1,15 @@
+{
+  "id": "pe-na-estrada",
+  "tipo": "poder",
+  "nome": "Pé na Estrada",
+  "resumo": "Gasta 3 PM para conceder dom da caminhada a criaturas escolhidas em alcance curto: +3m de deslocamento, imunidade a imóvel e lento, e passagem automática em testes de Fortitude para marcha forçada até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 31 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "laan",
+    "prerequisito": "",
+    "descricao": "Você pode gastar 3 PM para fornecer o dom da caminhada a criaturas escolhidas em alcance curto. Até o fim da cena, as criaturas afetadas recebem +3m em deslocamento, ficam imunes às condições imóvel e lento e passam automaticamente em testes de Fortitude para marcha forçada (Tormenta20, p. 270)."
+  }
+}

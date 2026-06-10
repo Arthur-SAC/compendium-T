@@ -1,0 +1,15 @@
+{
+  "id": "alma-em-erupcao",
+  "tipo": "poder",
+  "nome": "Alma em Erupção",
+  "resumo": "Recebe redução de fogo 10 e pode perder 2 PV (exceto temporários) ao causar dano para adicionar +1d8 de dano de fogo.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 31 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "kurur-lianth",
+    "prerequisito": "",
+    "descricao": "Você recebe redução de fogo 10 e, quando causa dano, pode perder 2 pontos de vida (exceto PV temporários) para causar +1d8 pontos de dano de fogo."
+  }
+}

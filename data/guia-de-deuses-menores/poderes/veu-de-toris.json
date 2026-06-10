@@ -1,0 +1,15 @@
+{
+  "id": "veu-de-toris",
+  "tipo": "poder",
+  "nome": "Véu de Toris",
+  "resumo": "+5 em Furtividade sem penalidade de armadura; sempre sabe a direção de Jallar, mesmo sob magia de proteção.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 47 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "toris",
+    "prerequisito": "",
+    "descricao": "Você recebe +5 em Furtividade e não sofre penalidade de armadura em testes dessa perícia. Além disso, você sempre sabe em que direção está Jallar, sendo capaz de encontrar o pequeno reino mesmo com a magia de proteção contra detecção invocada pela deusa."
+  }
+}

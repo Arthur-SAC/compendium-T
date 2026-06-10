@@ -254,6 +254,7 @@ export const DivindadeMecanicaSchema = z.object({
   devotos: z.string(),                  // texto (raças/classes permitidas)
   poderesConcedidos: z.array(z.string()).default([]),  // nomes → linkam pros poderes (group concedido)
   obrigacoesRestricoes: z.string(),
+  statusDivino: z.string().optional(),  // "Mortal ascendido, status divino 3" etc. (deuses menores)
 });
 export type DivindadeMecanica = z.infer<typeof DivindadeMecanicaSchema>;
 

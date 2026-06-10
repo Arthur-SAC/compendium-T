@@ -4,7 +4,16 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-10
-**Fase atual:** Fase 2 — fila do usuário: ✅ Guia de NPCs → ✅ Encartes → **Guia de Deuses Menores (próximo)** → Atlas de Arton (por último). Branch `fase2.4-deuses-de-arton` (ainda).
+**Fase atual:** Fase 2 — fila do usuário: ✅ Guia de NPCs → ✅ Encartes → ✅ Guia de Deuses Menores → **Atlas de Arton (próximo e último)**. Branch `fase2.4-deuses-de-arton` (ainda).
+
+**Status (2026-06-10): ✅ GUIA DE DEUSES MENORES 100% EXTRAÍDO.** Fonte `guia-de-deuses-menores` (ordem 7). 68 págs, offset PDF=impressa+2. **119 entidades:**
+- **59 divindades** (deuses menores A→Z, p.5-51): A Espada-Deus, Akok, Altair, Anilatir, Apis, Artaphan, Ayllana, Beluhga, Benthos, Betsumial, Blinar, Caerdellach, Canastra, Canora, Cette, Champarr, Dahriol, Drumak, Dunsark, Elrophin, Escamandra, Esmeralda, Garanaam, Garth, Goharom, Granto, Hippion, Hurlaagh, Hydora, Inghlblhpholstgt, Irione, Jandra, Klangor, Kurur Lianth, Laan, Lamashtu, Lupan, Luvithy, Marina, Mzzileyn, Nerelim, Neruíte, Deus Cristal de Urielka, Deus das Cidades, Deus do Medo, Piscigeros, Rhond, Sartan, Sckhar, Sunnary, Tamagrah, Teldiskan, Tessalus, Toris, Tukala, Ur, Yasshara, Zadbblein, Zakharov.
+- **59 poderes concedidos** (`poder`, `mecanica.grupo` = id do deus, como no Deuses de Arton). 1 por deus.
+- **1 regra:** Deuses Mortos e Renascidos (ensaio: muitos morreram em Tamu-ra; opções de ressuscitar/assumir portfólio). Apêndice "Resumo dos Deuses" (tabela redundante) e lista de apoiadores PULADOS.
+- **Onda A de código:** (a) índice `/deuses` agora classifica maiores = só Básico; menores = qualquer expansão não-antiga (antes era hard-coded `=== "deuses-de-arton"`, o que jogaria os novos em "maiores"). Resultado: **20 maiores · 62 menores · 5 antigos**. (b) Campo novo `statusDivino` no `DivindadeMecanicaSchema` (ex.: "Mortal ascendido, status divino 3") + badge no header do `FichaDivindade`.
+- **Dedup/cross-link:** Beluhga/Benthos/Hippion/Inghlblhpholstgt coexistem como `divindade` (este livro) + `criatura` (Guia de NPCs) — tipos diferentes, sem colisão; relacao `statBlock` liga as duas. Zakharov divindade ↔ região homônima. Rhond/Sckhar (mencionados no Básico) criados como divindade. Spike A Espada-Deus.
+- **Fixes pós-extração:** shatrur já não aplica; aqui — 6 relacoes com alvoTipo inválido (`local`→`regiao`, `personagem`→`criatura`); `canalizaEnergia` normalizado (removido ponto final em 27 arquivos). tsc 0, 166 testes, build **3309 páginas**. Integridade poder↔divindade 100%. Spot-check (Hurlaagh) fiel.
+- **Dívida leve:** símbolos/arte dos deuses (backlog, `imagens:[]`); revisão por visão por amostragem (extração text-based).
 
 **Status (2026-06-10): ✅ COLEÇÃO ARTON — ENCARTES 100% EXTRAÍDO.** Fonte `colecao-arton-encartes` (ordem 6). 16 págs (paisagem, inserts; sem numeração impressa → `fonte.pagina` = página do PDF). **18 entidades:**
 - **4 criaturas:** Soldado (ND1) + Guardião (ND3) tema "Exército do Reinado"; Shatrur (ND6) + Orc do Rosnado (ND–) tema "O Rosnado".

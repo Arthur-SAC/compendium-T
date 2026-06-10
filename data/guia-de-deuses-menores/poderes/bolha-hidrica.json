@@ -1,0 +1,15 @@
+{
+  "id": "bolha-hidrica",
+  "tipo": "poder",
+  "nome": "Bolha Hídrica",
+  "resumo": "Gaste 2 PM para cuspir uma bolha de água protetora que fornece +5 em teste de resistência ou RD 15 contra dano a você ou a um aliado; benefícios dobrados contra fogo.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 39 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "piscigeros",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, quando você ou um aliado em alcance curto faz um teste de resistência ou sofre dano, você pode gastar 2 PM para cuspir uma bolha de água protetora que fornece +5 nesse teste de resistência ou RD 15 contra esse dano. Estes benefícios são dobrados contra efeitos de fogo."
+  }
+}

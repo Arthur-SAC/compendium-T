@@ -1,0 +1,15 @@
+{
+  "id": "selvageria-marcial",
+  "tipo": "poder",
+  "nome": "Selvageria Marcial",
+  "resumo": "Usa Sobrevivência no lugar de Guerra; ao analisar terreno, fornece +1 em testes de ataque e rolagens de dano para aliados em alcance curto até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 26 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "hurlaagh",
+    "prerequisito": "",
+    "descricao": "Você pode usar Sobrevivência no lugar de Guerra. Além disso, se passar em um teste para analisar terreno, além das vantagens descobertas, você fornece um bônus de +1 em testes de ataque e rolagens de dano de seus aliados em alcance curto até o fim da cena."
+  }
+}

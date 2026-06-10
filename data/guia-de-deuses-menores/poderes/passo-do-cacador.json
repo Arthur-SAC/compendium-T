@@ -1,0 +1,15 @@
+{
+  "id": "passo-do-cacador",
+  "tipo": "poder",
+  "nome": "Passo do Caçador",
+  "resumo": "+2 em Sobrevivência, soma Sabedoria em Furtividade e causa +1d6 de dano extra contra criaturas desprevenidas ou surpreendidas.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 33 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "lupan",
+    "prerequisito": "",
+    "descricao": "Você recebe +2 em Sobrevivência e soma sua Sabedoria em Furtividade. Além disso, contra criaturas desprevenidas ou surpreendidas, seus ataques causam +1d6 pontos de dano."
+  }
+}

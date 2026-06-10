@@ -1,0 +1,28 @@
+{
+  "id": "tukala",
+  "tipo": "divindade",
+  "nome": "Tukala",
+  "resumo": "Fêmea de texugo trazida dos Ermos Púrpuras pela Tribo do Texugo Cinzento, venerada como descendente divina do Texugo alado mítico e abençoada pela crença coletiva da tribo kobold.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 47 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "inimigo", "alvoId": "sszzaas", "alvoTipo": "divindade", "rotulo": "Inimigo mítico que roubou as asas do Texugo ancestral" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 1",
+    "crencasObjetivos": "Proteger todos os texugos e outros pequenos mamíferos escavadores e permitir que eles voem livres pelos céus. Combater Sszzaas e todas as formas de mentira. Impedir que qualquer ser inocente tenha suas asas roubadas. Voar, como é natural para todos os texugos.",
+    "simboloSagrado": "Contorno cinza do rosto de um texugo sobreposto a um par de asas de morcego.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada curta.",
+    "devotos": "Duendes, goblins, kobolds, sílfides, bárbaros, bardos, caçadores, druidas, inventores, treinadores.",
+    "poderesConcedidos": ["Revoada de Texugos"],
+    "obrigacoesRestricoes": "Devotos de Tukala não podem trilhar os caminhos de Sszzaas; eles são proibidos de mentir ou usar qualquer forma de Enganação. Eles também são proibidos de matar texugos e outros pequenos mamíferos escavadores (incluindo carcajus, raposas, tatus e canídeos). Jamais podem negar o desejo de voar de outras criaturas, a menos que isso seja usado para a mentira ou o mal.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nascida nos Ermos Púrpuras e expulsa da região após uma série de conflitos contra criaturas da Tormenta, a Tribo do Texugo Cinzento possui um mito de criação próprio, em que a figura central é o Texugo, um ser alado (?!?) cujas asas foram roubadas por Sszzaas, que as deu de presente aos seus filhos, criando assim as serpes. Como vingança, o Texugo roubou os ovos das serpentes e os chocou ele mesmo. Quando os filhotes nasceram, ele deu aos rebentos sua fúria, criando assim os primeiros kobolds.\n\nNinguém sabe se há algo de real nesse mito (na verdade, qualquer pessoa sã diria que o mito é tão irreal que, cada vez que ele é repetido, algumas coisas reais se tornam fictícias). Mas, se por um milagre houver uma migalha factual nessa história, ela se relaciona apenas aos kobolds dessa tribo. O que implicaria que existe uma tribo de kobolds que difere de todo o resto dessas criaturas, e que descende de um texugo alado que… Não, melhor não pensar nisso. Verdadeira ou não, a história é contada com orgulho pelos membros dos Texugos Cinzentos e deu origem até a uma ordem de bravos bárbaros alados que ostentam o título de Furiosos Cinzentos.\n\nDescendente direta do Texugo, a poderosa e exaltada Tukala herdou a força e a fúria de seu antepassado divino. Como Deusa Menor dos Texugos Alados, ela protege todos aqueles que erguem sua visão aos céus em busca de ajuda do Texugo.\n\n\"Tukala\", na verdade, é uma fêmea de texugo que a Tribo trouxe consigo dos Ermos Púrpuras como uma de suas mascotes. Não há nenhuma evidência de que ela tenha alguma ascendência divina. Mas nossos diminutos heróis acreditam nisso com força suficiente para que, de alguma forma, a magia aconteça. Sustentada à base de besouros e guloseimas, Tukala de fato abençoa a tribo e permite que Grund, o chefe da Tribo, evoque uma revoada de texugos espectrais em seu auxílio. Em retribuição, a Tribo espalha a palavra (?!?) de Tukala entre todos aqueles que buscam de alguma forma alcançar os céus."
+    }
+  ]
+}

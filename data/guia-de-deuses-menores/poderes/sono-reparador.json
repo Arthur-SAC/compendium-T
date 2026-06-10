@@ -1,0 +1,15 @@
+{
+  "id": "sono-reparador",
+  "tipo": "poder",
+  "nome": "Sono Reparador",
+  "resumo": "Ao dormir em condições normais ou melhores, melhora recuperação de PV ou PM em um passo; alternativamente, sonho inspirador concede +1d6 em um teste de perícia até o fim do dia.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 36 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "neruite",
+    "prerequisito": "",
+    "descricao": "Se descansar (dormindo) em condições normais ou melhores, você pode melhorar sua recuperação de PV ou PM em um passo. Alternativamente, você pode ter um sonho inspirador: ao despertar, recebe +1d6 em um teste de perícia a sua escolha realizado até o fim do dia."
+  }
+}

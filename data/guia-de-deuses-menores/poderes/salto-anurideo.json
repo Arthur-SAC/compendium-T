@@ -1,0 +1,15 @@
+{
+  "id": "salto-anurideo",
+  "tipo": "poder",
+  "nome": "Salto Anurídeo",
+  "resumo": "Gasta ação de movimento e 2 PM para saltar 9m; se atacar uma criatura no mesmo turno após o salto, recebe benefícios de investida e causa um dado extra de dano; pode aprender Primor Atlético como magia divina com custo –1 PM.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 28 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "inghlblhpholstgt",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 2 PM para saltar 9m em qualquer direção. Se terminar o salto em alcance corpo a corpo de uma criatura e atacá-la no mesmo turno, você recebe os benefícios e as penalidades de uma investida e sua arma causa um dado extra de dano do mesmo tipo durante esse ataque. Você pode aprender Primor Atlético como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+  }
+}

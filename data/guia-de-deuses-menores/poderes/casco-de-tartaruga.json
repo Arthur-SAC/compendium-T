@@ -1,0 +1,15 @@
+{
+  "id": "casco-de-tartaruga",
+  "tipo": "poder",
+  "nome": "Casco de Tartaruga",
+  "resumo": "Gaste 2 PM para receber RD 20 contra um dano sofrido, uma vez por rodada.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tamagrah",
+    "prerequisito": "",
+    "descricao": "Uma vez por rodada, quando sofre dano, você pode gastar 2 PM para receber RD 20 contra esse dano."
+  }
+}

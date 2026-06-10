@@ -1,0 +1,26 @@
+{
+  "id": "jandra",
+  "tipo": "divindade",
+  "nome": "Jandra",
+  "resumo": "Antiga governanta que se tornou a Deusa das Boas Maneiras ao percorrer Arton ensinando etiqueta a nobres e plebeus, transformando normas práticas de convivência em um ritual sagrado que evitou incontáveis conflitos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 29 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Ensinar boas maneiras. Julgar a etiqueta dos presentes em ocasiões formais. Educar futuros aristocratas sobre as formas corretas de se portar entre os nobres. Ensinar servos a cumprir seu dever de maneira elegante e ao mesmo tempo imperceptível. Tratar cada convidado como o mais importante de um evento.",
+    "simboloSagrado": "Uma xícara.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Adaga.",
+    "devotos": "Aggelus, anões, elfos, golens, hynne, minotauros, bardos, cavaleiros, nobres.",
+    "obrigacoesRestricoes": "Devotos de Jandra nunca deixam de fazer testes de Diplomacia ou Nobreza quando isso é socialmente adequado. Além disso, não suportam falta de modos e desconhecimento de etiqueta; quando presencia uma falha em um teste de Diplomacia ou Nobreza, o devoto deve corrigir a pessoa que falhou (em termos de jogo, deve passar em um teste da perícia apropriada com a mesma CD, enquanto explica de forma discreta e elegante onde ela errou).",
+    "poderesConcedidos": ["Etiqueta a Toda Hora"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma dama de elegância impressionante, quase sempre ostentando penteado alto e vestido sofisticado, adornado com joias, Jandra é uma divindade que exala comedimento, altivez e requinte. Sua presença imponente é tamanha que poucos conseguem imaginar que, no passado, foi uma simples governanta.\n\nQuando era mortal, Jandra se dedicou a ensinar jovens nobres, criados e até plebeus sobre o comportamento adequado diante das pessoas de alta posição. Assim, criou uma verdadeira escola de boas maneiras e etiqueta. Boa parte de suas \"regras\" podia parecer arbitrária, mas quase todas tinham um fundo prático — destinavam-se a garantir que ninguém consumisse comida estragada, conferir se nenhum conviva trazia armas a uma reunião social, impedir a ativação de maldições…\n\nApós anos de ensino em um único local — uma mansão no antigo condado de Portsmouth — ela decidiu partir e viajar por todo o Reinado, espalhando seus conhecimentos de etiqueta a todos. Graças aos seus esforços, incontáveis conflitos foram evitados, pois as pessoas sabiam como se portar. Muitos notavam que, ainda que não soubessem a razão de todas as normas de etiqueta, sentiam estar dando importância a um evento (e às pessoas presentes) apenas por segui-las. Isso começou a adquirir um componente ritualístico, sagrado. Todos eram muito gratos e oravam por Jandra, até que tanta adoração foi suficiente para torná-la uma deusa.\n\nHoje, Jandra segue percorrendo Arton, sendo uma convidada de honra em bailes e jantares — principalmente onde decisões importantes de cortes serão tomadas —, conquistando ainda mais seguidores ao ensinar os mortais sobre o valor das boas maneiras. Ao seguir certos padrões de comportamento, todos estão honrando a si mesmos, seus convivas… e a Deusa das Boas Maneiras."
+    }
+  ]
+}

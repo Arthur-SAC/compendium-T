@@ -1,0 +1,29 @@
+{
+  "id": "beluhga",
+  "tipo": "divindade",
+  "nome": "Beluhga",
+  "resumo": "Dragoa-Rainha do Gelo das Montanhas Uivantes, divindade benevolente aprisionada por Khalmyr, cujo cadáver congelado é venerado pelos povos da região como protetor eterno das Uivantes.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 10 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "statBlock", "alvoId": "beluhga", "alvoTipo": "criatura", "rotulo": "Ficha de combate (Guia de NPCs)" },
+    { "tipo": "aprisionadaPor", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Aprisionada nas Uivantes pelo próprio Khalmyr" }
+  ],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 4",
+    "crencasObjetivos": "Reverenciar o cadáver congelado de Beluhga e impedir que ele seja profanado. Perpetuar as tradições criadas no território da Dragoa-Rainha do Gelo. Combater quaisquer criaturas que ameacem pessoas, animais e outros seres nativos das Montanhas Uivantes.",
+    "simboloSagrado": "Uma lágrima azul cristalizada.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Machado de guerra.",
+    "devotos": "Anões, hynne, galokk, golens, kallyanach, minotauros, ogros, bárbaros, caçadores, druidas, guerreiros, paladino.",
+    "obrigacoesRestricoes": "Devotos de Beluhga não devem permitir que não nativos das Uivantes adentrem a caverna onde repousa o corpo da Dragoa-Rainha. Não podem negar pedidos de ajuda feitos por um nativo inocente das Uivantes. Além disso, devem retornar às Uivantes para prestar seus respeitos a Beluhga a cada 1d4+2 meses.",
+    "poderesConcedidos": ["Bênção do Frio"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Tão majestosa quanto as próprias Montanhas Uivantes, Beluhga é venerada pelos povos que habitam a região. Ao contrário de quase todos os Dragões-Reais (e da maioria dos dragões em geral), Beluhga é uma presença do bem. Sua magia era capaz de curar, embora ela também fosse uma senhora tão exigente quanto as próprias Uivantes.\n\nSua história é trágica — na verdade, tão trágica que pode ser duvidosa, e coloca em xeque a benevolência de um dos deuses do Panteão. Diz-se que, há mais de 100.000 anos, Beluhga foi aprisionada nas Uivantes pelo próprio Khalmyr. Essa seria a verdadeira causa do clima na região: apenas a presença da Dragoa-Rainha do Gelo poderia tornar toda a cordilheira tão fria. Mas, se Beluhga não era maligna, por que foi punida? Segundo ao menos uma versão, Khalmyr estava apaixonado por Beluhga, mas ela o rejeitou. O Deus da Justiça teria então cometido uma injustiça suprema, apenas por seu orgulho ferido. Sabe-se que os deuses do Panteão não são perfeitos, mas Khalmyr não poderia ser tão imperfeito… ou poderia? Outras versões afirmam que a punição seria justa: Beluhga teria conspirado contra o Panteão, junto a Sckhar. Mas isso leva à pergunta de por que então Sckhar não foi punido…\n\nMesmo confinada às Uivantes como punição, Beluhga tomou para si o dever de proteger a região. Foi uma das divindades menores mais atuantes de Arton, e rivalizou apenas com Sckhar como Dragoa-Rainha mais influente nas vidas dos mortais. Contudo, sua tragédia não havia acabado.\n\nQuando o Paladino de Arton se ergueu contra os deuses, tomou a Dragoa-Rainha como montaria, apenas para matá-la quando ela se tornou inútil para ele. Morta, Beluhga não retornou à sua forma dracônica; em vez disso, permaneceu como humanoide. Nessa forma — semelhante a uma meia-elfa de pele azulada, com cabelos roxos adornados por diademas cristalinos —, seu cadáver pôde ser levado de volta às Uivantes, onde repousa até hoje em um caixão de gelo eterno, impedindo o degelo da região. Dizem que um fantasma da Dragoa-Rainha foi visto nas montanhas; outros afirmam que não se trata de um fantasma, mas da própria Beluhga, retornada da morte para retomar seu reino gelado."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "goharom",
+  "tipo": "divindade",
+  "nome": "Goharom",
+  "resumo": "Deus anão dos machados, mortal ascendido que espalhou a paixão por esta arma essencialmente anã por todo Arton, tendo encontrado seu fim na Batalha de Tamu-ra.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 21 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "rhond", "alvoTipo": "divindade", "rotulo": "Era devoto de Rhond, o Deus das Armas" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 4",
+    "crencasObjetivos": "Forjar e usar os melhores machados. Honrar e proteger a raça, a cultura e as tradições anãs. Admirar machados como obras de arte, mas respeitá-los e usá-los como as ferramentas de trabalho ou guerra que são.",
+    "simboloSagrado": "Um machado.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Machado anão.",
+    "devotos": "Anões, galokk, trogs, bárbaros, caçadores, cavaleiros, guerreiros, inventores.",
+    "obrigacoesRestricoes": "As únicas armas empunhadas que o devoto de Goharom pode usar são machados. Além disso, para atacar com outras armas (como naturais), ele deve fazer ao menos um ataque com machado na rodada.",
+    "poderesConcedidos": ["Amor ao Machado"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Goharom era um dos deuses anões mais antigos e, à primeira vista, poderia ser confundido com um simples guerreiro da raça. Sua aparência não entregava a verdadeira natureza divina. Era um anão forte, de estatura impressionante, barbudo, sempre trajando armadura pesada e empunhando um imenso machado. Conta-se que, ocasionalmente, Goharom visitava Doherimm apenas para beber grandes quantidades de cerveja nas tavernas, e os outros frequentadores não percebiam estar na presença de um deus até notarem sua resistência fora do comum. Quando essas visitas terminavam, várias tavernas estavam sem estoque e a Guilda dos Cervejeiros precisava enviar carregamentos emergenciais.\n\nEm sua vida mortal, Goharom era um habilidoso armeiro e guerreiro anão, especializado no uso de machados. Sua devoção a Rhond, o Deus das Armas, era evidente, mas ele próprio passou a ser cultuado quando suas criações se mostraram incomparáveis, superando tudo que os anões conheciam. Goharom poderia ter se tornado grão-mestre da Guilda dos Armeiros ou até mesmo rei, se quisesse. Contudo, essa nunca foi sua ambição. Após transcender a mortalidade, deixou Doherimm para espalhar a paixão pelos machados por toda Arton.\n\nGoharom tinha uma ligação profunda com as armas que governava. Ao se concentrar, conseguia sentir e até visualizar qualquer criatura que empunhava um machado em Arton. Ele acreditava que o machado é uma arma essencialmente anã e seu uso propaga a cultura e estilo de vida dos anões. Isso se devia, em parte, à natureza do machado: uma arma que nunca é embainhada, está sempre pronta para ser usada. Contudo, nem mesmo seu poderoso machado pode protegê-lo da Tormenta, tendo seu fim nas mãos da tempestade rubra em 1405, na Batalha de Tamu-ra."
+    }
+  ]
+}

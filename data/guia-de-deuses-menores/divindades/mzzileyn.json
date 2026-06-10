@@ -1,0 +1,28 @@
+{
+  "id": "mzzileyn",
+  "tipo": "divindade",
+  "nome": "Mzzileyn",
+  "resumo": "Dragão-Rei das Trevas, ser de inteligência e crueldade incomparáveis que tece planos dentro de planos, espalhando intriga, morte e destruição, e que trai todos antes de ser traído.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 34 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "simpatia", "alvoId": "sszzaas", "alvoTipo": "divindade", "rotulo": "Sszzaas nutre certa simpatia por Mzzileyn; alguns dizem que o criou" }
+  ],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 3",
+    "crencasObjetivos": "Reverenciar a sagacidade de Mzzileyn. Praticar a mentira, a traição e a trapaça. Propagar caos, desordem e destruição. Usar dos recursos de qualquer um para alcançar seus próprios objetivos. Promover a soberania das sombras e da escuridão.",
+    "simboloSagrado": "O crânio de um dragão vertendo sombras.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Adaga.",
+    "devotos": "Finntroll, gnolls, goblins, kallyanach, nagah, tengu, arcanistas, bardos, bucaneiros, ladinos.",
+    "obrigacoesRestricoes": "Sempre que estiver diante de um desafio (um combate, um perigo complexo ou outra cena que envolva vencer ou superar algo desafiador) você deve passar em pelo menos um teste de Enganação que seja útil contra esse desafio. O mestre tem a palavra final sobre quais ações se encaixam nessa descrição.",
+    "poderesConcedidos": ["Sombras Venenosas"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dotado de uma inteligência comparável apenas a sua crueldade, Mzzileyn tece planos dentro de planos. Seus objetivos são cada vez mais perversos, mas todos espalham intriga, morte e destruição pelo mundo. Esta é uma divindade que se diverte com a desgraça e a infelicidade alheias, provocando catástrofes como passatempo.\n\nEm eras remotas, o Dragão-Rei das Trevas colaborou com os seguidores de Sszzaas. Em contrapartida, diz-se que o Deus da Traição nutre certa simpatia por ele (dentro do que é possível). Na verdade, alguns acadêmicos suspeitam de que Mzzileyn seja criação do próprio Sszzaas — uma teoria provada falsa com o ressurgimento de Kallyadranoch, mas ainda popular.\n\nMzzileyn conheceu ele mesmo o gosto da traição quando seus devotos dragões o abandonaram para seguir o Dragão da Tormenta. Isso, embora tenha sido uma lição de humildade, não mudou sua personalidade. Pelo contrário: Mzzileyn aprendeu que não pode contar com a lealdade de ninguém. Assim, deve trair todos antes que eles mesmos o traiam. Hoje em dia, busca reerguer seu culto, mas sacrificaria qualquer um de seus devotos se isso pudesse lhe trazer uma ínfima vantagem. Um dos únicos atos de bravura que já realizou foi enfrentar os lefeu diretamente, durante a Batalha de Tamu-ra.\n\nDiferente dos outros Dragões-Reais, Mzzileyn costuma assumir várias formas humanoides que mostram simpatia ou confiabilidade: o mercador da vila, o taverneiro, o pedinte… Todas, no entanto, têm cabelos e olhos escuros. Nas raras vezes em que assume sua forma verdadeira, o Dragão-Rei das Trevas lembra um longo réptil serpentino, com escamas sombrias e uma face que parece mais um crânio de dragão descarnado; suas asas reais foram arrancadas tempos atrás, substituídas por asas feitas de sombra."
+    }
+  ]
+}

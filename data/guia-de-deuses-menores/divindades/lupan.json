@@ -1,0 +1,28 @@
+{
+  "id": "lupan",
+  "tipo": "divindade",
+  "nome": "Lupan",
+  "resumo": "Um dos deuses menores mais antigos de Arton, deus furtivo dos caçadores que podia assumir forma humanoide ou animal e era considerado filho de Allihanna; pereceu em 1405 atingido pela primeira flecha mortal de Crânio Negro durante a batalha de Tamu-ra.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 33 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Diz-se que era filho da própria Allihanna, parte essencial do ciclo da vida" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Reverenciar os seres da natureza. Proteger o equilíbrio da vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural. Caçar para o próprio sustento.",
+    "simboloSagrado": "Um cão de caça.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Arco curto.",
+    "devotos": "Dahllan, elfos, medusas, sereias/tritões, trogs, bárbaros, caçadores, druidas, ladinos, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Lupan não podem matar criaturas não inteligentes (Int –4 ou –5) grávidas ou filhotes, nem permitir que elas sejam mortas. Além disso, devem extrair algo de útil de qualquer criatura não inteligente que matarem (em termos de jogo, passar em um teste de Sobrevivência com CD 15 + ND da criatura). Alternativamente, se você tiver o suplemento Ameaças de Arton, o devoto deve extrair pelo menos um recurso natural da criatura (veja p. 401).",
+    "poderesConcedidos": ["Passo do Caçador"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um dos deuses menores mais antigos de Arton, cultuado e respeitado desde antes da ascensão das grandes civilizações, Lupan era um deus furtivo e arredio, que podia assumir forma humanoide ou animal, sempre espreitando alguma presa. Diz-se que era filho da própria Allihanna, parte essencial do ciclo da vida. Segundo essas hipóteses, embora matasse seus irmãos, outros filhos da Mãe Natureza, Lupan sabia exatamente quais presas abater para que as populações nunca diminuíssem.\n\nSabendo da necessidade da morte como parte do Grande Ciclo de Allihanna, em 1405 Lupan aceitou se unir a Orion Drake em seu exército de deuses para devolver a Tamu-ra e seus habitantes às leis da natureza. Seguiu em frente, matando lefeu, atirando com seu arco e cortando com sua adaga, até que o exército avançou para o centro da área de Tormenta para enfrentar o Lorde. Mas Crânio Negro era implacável e sua pontaria, infalível. O Lorde da Tormenta chegou ao topo de uma colina com um arco de matéria vermelha, fez mira e disparou uma flecha mortal — a primeira de muitas.\n\nA primeira vítima foi justamente Lupan. A seta rubra atingiu sua testa, atravessando-a e saindo pela nuca, fazendo seu corpo divino despencar inerte. Assim, o Deus Menor dos Caçadores encontrou seu fim."
+    }
+  ]
+}

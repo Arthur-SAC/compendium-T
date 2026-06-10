@@ -1,0 +1,15 @@
+{
+  "id": "revoada-de-texugos",
+  "tipo": "poder",
+  "nome": "Revoada de Texugos",
+  "resumo": "Invoca 1d4+1 texugos alados espirituais que concedem bônus de dano e Defesa, podendo ser gastos para absorver dano.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 48 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "tukala",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 3 PM para invocar uma revoada de 1d4+1 texugos alados espirituais que ficam ao seu redor até o fim da cena. Enquanto estiverem ao seu redor, os texugos fornecem +2 em rolagens de dano corpo a corpo e na Defesa. Além disso, quando sofre dano, você pode \"gastar\" um dos texugos alados para receber RD 5 contra esse dano."
+  }
+}

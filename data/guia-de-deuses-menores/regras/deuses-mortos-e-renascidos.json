@@ -1,0 +1,23 @@
+{
+  "id": "deuses-mortos-e-renascidos",
+  "tipo": "regra",
+  "nome": "Deuses Mortos e Renascidos",
+  "resumo": "Como usar os deuses menores que morreram (muitos na Batalha de Tamu-ra): jogar em épocas anteriores, ressuscitá-los ou assumir seus portfólios.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 52 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Vários dos deuses menores apresentados aqui estão mortos — muitos morreram durante a Batalha de Tamu-ra, no Exército de Deuses reunido por Orion Drake. No entanto, seus portfólios podem ser especialmente úteis e atraentes para personagens jogadores. Além disso, cada um deles tem suas próprias Obrigações & Restrições e um poder concedido. O que fazer com essas divindades ausentes? Por que elas estão aqui?\n\nNa época atual de Arton, todos esses deuses estão mesmo mortos. No entanto, nada impede que seu grupo jogue numa época anterior. Todos eles estão vivos durante A Libertação de Valkaria, por exemplo, e os personagens jogadores podem ser devotos de qualquer um deles."
+    },
+    {
+      "titulo": "Ressuscitar um deus menor",
+      "texto": "Há duas outras opções para usar esses deuses, talvez mais interessantes. A primeira diz respeito à própria natureza dos deuses menores em Arton. Divindades maiores são muito, muito mais poderosas que deuses menores. Embora todo esse poder signifique que tenham um status único entre as entidades da Criação, também significa que obedecem a regras próprias. A morte de um deus maior é um fenômeno cósmico, algo que abala Arton como um todo. Um deus maior não tem corpo físico, nem um espírito como os mortais entendem esse conceito. Portanto, é impossível ressuscitar um deus maior. Nunca na história da Criação houve um evento desse tipo.\n\nMas deuses menores não são nada disso. Deuses menores têm corpos físicos. Muitos deles já foram mortais! Alguns deles residem nos reinos dos deuses. Portanto, sua ressurreição não parece tão impossível assim. Com a retomada de Tamu-ra (em parte devido ao sacrifício heroico dessas divindades), talvez haja algum resto dos deuses mortos — seus pertences mais valiosos, partes de seus corpos, até mesmo um mero sinal do evento que os matou. É verdade que criaturas que morrem em áreas de Tormenta não costumam deixar nem mesmo espíritos para trás… Mas logo na primeira manifestação da Tormenta em Arton, houve exceções quanto a isso, pois uma aventureira morta pela Tempestade Rubra surgiu em forma fantasmagórica para o próprio Orion Drake. Assim, heróis destemidos podem recuperar algo de um deus menor e empreender uma busca para trazê-lo de volta. O mestre deve determinar o que é necessário para ressuscitar o deus, mas pode usar as regras para deuses menores apresentadas em Deuses de Arton como guia."
+    },
+    {
+      "titulo": "Assumir o portfólio",
+      "texto": "A segunda possibilidade é mais simples: como os deuses menores mortos eram bastante conhecidos (e seu sacrifício só aumentou sua fama), há todo um séquito de devotos prontos a adorar qualquer um que personifique os valores e ideais de sua divindade. Assim, um personagem jogador pode tomar para si um desses portfólios (talvez até mesmo recebendo tesouros ou estruturas que pertenciam ao antigo deus), ou pode elevar um NPC a esse posto. Nesse caso, o mestre pode permitir que o \"novo\" deus surja com o mesmo status divino que a divindade morta. Seja como for, mais uma vez, use as regras em Deuses de Arton para guiá-lo nessa missão.\n\nPensando bem, há uma terceira possibilidade. E se, depois de tomar para si o portfólio de um antigo deus, um personagem jogador ou NPC começar a mudar de personalidade, talvez até de aparência? E se começar a responder pelo nome da divindade morta? Será que o preço da ascensão é a perda da própria identidade…?"
+    }
+  ]
+}

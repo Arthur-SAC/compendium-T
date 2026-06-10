@@ -38,10 +38,10 @@ function CardDivindade({ divindade, expandido }: { divindade: Entidade; expandid
 export default function IndiceDeuses() {
   const entidades = carregarEntidades();
   const divindades = entidades.filter((e) => e.tipo === "divindade");
-  // Deuses maiores (os 20 do Panteão, do Básico) vs menores (de expansões, ex.: Deuses de Arton).
-  const maiores = divindades.filter((d) => d.fonte.livro !== "deuses-de-arton");
+  // Deuses maiores (os 20 do Panteão, do Básico) vs menores (de expansões: Deuses de Arton, Guia de Deuses Menores...).
+  const maiores = divindades.filter((d) => d.fonte.livro === "livro-basico");
   const ehAntigo = (d: Entidade) => String((d.mecanica as { categoria?: string }).categoria ?? "") === "antigo";
-  const expansaoDeuses = divindades.filter((d) => d.fonte.livro === "deuses-de-arton");
+  const expansaoDeuses = divindades.filter((d) => d.fonte.livro !== "livro-basico");
   const menores = expansaoDeuses.filter((d) => !ehAntigo(d)).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   const antigos = expansaoDeuses.filter(ehAntigo).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   const regra = entidades.find((e) => e.id === "devocao-como-funciona");

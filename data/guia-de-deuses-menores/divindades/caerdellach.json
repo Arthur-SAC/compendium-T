@@ -1,0 +1,26 @@
+{
+  "id": "caerdellach",
+  "tipo": "divindade",
+  "nome": "Caerdellach",
+  "resumo": "Deus dos Unicórnios, presumivelmente o mais ancestral de sua espécie, conselheiro recluso da Floresta de Tollon, curado milagroso e guardião de um refúgio inviolável para os unicórnios.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 13 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Preservar e pregar a sacralidade de corpo, mente e alma. Proteger bosques, florestas, clareiras pacíficas, córregos límpidos e outros locais onde os unicórnios habitam. Curar os feridos.",
+    "simboloSagrado": "Um chifre dourado.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Lança.",
+    "devotos": "Aggelus, centauros, dahllan, eiradaan, elfos, meios-elfos, sílfides, cavaleiros, druidas, treinadores, paladino.",
+    "poderesConcedidos": ["Pureza Corporal"],
+    "obrigacoesRestricoes": "Devotos de Caerdellach devem ser sacros e castos, recusando-se a se casar ou ter relações íntimas com outras pessoas. Além disso, não podem recusar pedidos de ajuda de pessoas inocentes ou animais em perigo.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Talvez exista um unicórnio mais antigo que Caerdellach, mas ninguém se lembra. Sendo, presumivelmente, a mais ancestral dessas criaturas, desde sempre foi procurado por outros de sua espécie, como conselheiro e sábio. Não demorou para começar a ser cultuado e se tornar um verdadeiro deus menor.\n\nCaerdellach é uma divindade muito distante dos artonianos \"civilizados\". Embora existam (raros) unicórnios que se associam a bípedes, o Deus Menor dos Unicórnios não costuma participar desse tipo de aliança. Prefere permanecer em existência reclusa, na Floresta de Tollon, sendo procurado por aqueles que necessitam de conselhos ou a miraculosa cura que seu chifre concede. Sua clareira é muitas vezes chamada de Refúgio dos Unicórnios, pois diz-se que nenhum mortal é capaz de alcançá-la sem sua permissão, e todos esses seres delicados encontram lá abrigo e proteção.\n\nEm vários pontos de Arton, a figura do unicórnio é relacionada ao conceito de pureza. Algumas pessoas (principalmente em culturas rígidas) associam isso à castidade. Assim, existem artonianos de todos os sexos e gêneros que cultuam Caerdellach porque, por alguma razão, valorizam e desejam preservar sua \"inocência\"."
+    }
+  ]
+}

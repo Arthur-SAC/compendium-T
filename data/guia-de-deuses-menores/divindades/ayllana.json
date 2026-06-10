@@ -1,0 +1,26 @@
+{
+  "id": "ayllana",
+  "tipo": "divindade",
+  "nome": "Ayllana",
+  "resumo": "Deusa das Sereias, feiticeira que derrotou o feroz Tessalus dos elfos-do-mar e ascendeu à divindade, venerada por feiticeiras-sacerdotisas que celebram a magia arcana e a soberania das sereias.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 9 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Proteger as sereias e sua soberania. Enaltecer a magia arcana. Dominar os oceanos. Derrotar os elfos-do-mar.",
+    "simboloSagrado": "Uma barbatana dorsal multicolorida.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Não há. Devotos desta deusa não podem usar a magia Arma Espiritual e similares.",
+    "devotos": "Qareen, sereias/tritões, arcanistas, bardos, bucaneiros.",
+    "obrigacoesRestricoes": "Devotos de Ayllana são proibidos de matar sereias e tritões, recusar-se a ajudar sereias e tritões inocentes, e recusar missões para resgatar ou proteger sereias/tritões e sua cultura.",
+    "poderesConcedidos": ["Canção dos Mares"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nas profundezas cintilantes dos recifes, Ayllana destacou-se desde a infância por sua conexão com as forças arcanas do oceano. Superando os demais membros de sua raça, dominava os feitiços que controlavam as marés e invocavam feras dos abismos marinhos, transformando campos de batalha em tempestades místicas. Durante a eterna guerra das sereias e dos tritões contra os elfos-do-mar, sua habilidade mágica foi decisiva em numerosas batalhas. Em um confronto memorável, Ayllana enfrentou Tessalus, o feroz guerreiro dos elfos-do-mar — que acreditava que a força bruta superava qualquer encantamento.\n\nNaquele dia, os dois colidiram em duelo mortal: o tridente mágico de Tessalus contra as invocações arcanas de Ayllana. Mesmo com a fúria do adversário, a feiticeira reverteu o ataque com feitiços potentes, selando uma vitória que marcou a história do conflito. Esse embate não apenas fortaleceu sua reputação, como também alimentou uma rivalidade que perduraria. Após o feito heroico, Ayllana foi elevada à posição divina. Seu culto é conduzido por feiticeiras-sacerdotisas, celebrando sua mente arguta e dons arcanistas — exercido não apenas sob as ondas de Arton, mas também no próprio Reino do Oceano. Devotas da Deusa das Sereias acreditam que seus encantamentos as fortalecem, renovando sua meta de governar os mares com magia e colocar os elfos em merecida submissão."
+    }
+  ]
+}

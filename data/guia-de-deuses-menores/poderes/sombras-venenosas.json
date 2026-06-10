@@ -1,0 +1,15 @@
+{
+  "id": "sombras-venenosas",
+  "tipo": "poder",
+  "nome": "Sombras Venenosas",
+  "resumo": "Gasta ação de movimento e 1 PM para envenenar arma (1d12 PV de veneno); na escuridão, +2 na CD e +2 de perda de vida por dado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 35 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "mzzileyn",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 PV por veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro). Além disso, se você estiver em uma área de escuridão, a CD para resistir aos seus venenos aumenta em +2 e a perda de vida deles aumenta em +2 por dado."
+  }
+}

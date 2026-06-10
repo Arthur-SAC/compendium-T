@@ -1,0 +1,15 @@
+{
+  "id": "espadachim-divino",
+  "tipo": "poder",
+  "nome": "Espadachim Divino",
+  "resumo": "+1 nas rolagens de dano e no multiplicador de crítico com espadas; espadas marciais contam como simples para você.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 5 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "a-espada-deus",
+    "prerequisito": "",
+    "descricao": "Você recebe +1 nas rolagens de dano e no multiplicador de crítico com espadas e, para você, todas as espadas marciais são armas simples."
+  }
+}

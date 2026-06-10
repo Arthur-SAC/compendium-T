@@ -1,0 +1,15 @@
+{
+  "id": "amago-de-escultor",
+  "tipo": "poder",
+  "nome": "Âmago de Escultor",
+  "resumo": "Paga 20% menos em aposentos e mobílias de bases e construções de domínios; pode construir um aposento acima do limite normal.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 22 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "granto",
+    "prerequisito": "",
+    "descricao": "Você paga 20% a menos em aposentos e mobílias de bases e construções de domínios. Além disso, pode construir um aposento ou construção acima do limite definido pelo tamanho da base ou nível do domínio."
+  }
+}

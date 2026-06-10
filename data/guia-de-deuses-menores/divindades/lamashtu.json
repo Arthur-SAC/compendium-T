@@ -1,0 +1,28 @@
+{
+  "id": "lamashtu",
+  "tipo": "divindade",
+  "nome": "Lamashtu",
+  "resumo": "Entidade primordial conhecida como a Deusa da Matança e a Senhora do Genocídio, descrita como uma bela mulher-serpente de seis braços que comanda legiões demoníacas e é venerada por cultos secretos de mercenários entre os mais temidos de Arton.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 32 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "werra", "alvoTipo": "regiao", "rotulo": "Comanda legiões demoníacas nos domínios de Werra, o Reino de Arsenal" }
+  ],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 4",
+    "crencasObjetivos": "Praticar a violência em nome da Rainha dos Massacres. Jamais reprimir os próprios instintos e desejos. Jamais ser domado. Jamais oferecer perdão ou rendição. Destruir seus inimigos. Reunir joias e pedras preciosas para a Senhora do Genocídio.",
+    "simboloSagrado": "Uma joia ensanguentada.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Cimitarra.",
+    "devotos": "Medusas, minotauros, osteon, sulfure, trogs, bárbaros, bucaneiros, guerreiros, ladinos, lutadores, nobres.",
+    "obrigacoesRestricoes": "Uma vez por nível, o personagem deve consagrar uma de suas vítimas fatais a Lamashtu. Essa vítima pode ser qualquer criatura inteligente (Int –3 ou maior) que o personagem tenha matado (para criaturas que o grupo inteiro enfrentou em combate, o devoto deve ter sido responsável pelo golpe fatal). Para devotar a criatura, o personagem deve executar um ritual, com a presença do corpo da vítima, e sacrificar um valor em joias igual a 10% da diferença do dinheiro inicial do nível atual para o seguinte (por exemplo, T$ 40 para subir para o 4° nível).",
+    "poderesConcedidos": ["Furacão de Lâminas"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Uma das divindades mais temidas nos reinos dos deuses, Lamashtu é também conhecida como a Deusa da Matança, a Senhora do Genocídio e outros títulos igualmente horrendos. Venerada por cultos secretos, é descrita como uma belíssima mulher-serpente com seis braços, cada um empunhando uma arma mortífera.\n\nLamashtu é uma divindade de morte, mal e destruição. Criaturas de coração sombrio fazem cerimônias e oferendas profanas à deusa-serpente, buscando atrair suas graças a qualquer preço — os cultistas de Lamashtu estão entre os vilões mais odiados e temidos, reunindo-se em células mercenárias para oferecer seus serviços a clientes com bolsos fundos o suficiente. Além disso, Lamashtu comanda legiões demoníacas nos domínios de Werra, o Reino de Arsenal, um mundo de guerra e matança. Avançando diante das tropas, sua fúria em batalha é indomável.\n\nA Senhora do Genocídio se deleita com sacrifícios humanos, mas também pode ser seduzida por belas joias, sua única fraqueza conhecida. Entre aventureiros, como forma de bravata exagerada, é comum dizer que \"posso até mesmo roubar o tesouro de Lamashtu\"."
+    }
+  ]
+}

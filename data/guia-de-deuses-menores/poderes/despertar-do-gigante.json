@@ -1,0 +1,15 @@
+{
+  "id": "despertar-do-gigante",
+  "tipo": "poder",
+  "nome": "Despertar do Gigante",
+  "resumo": "Gaste uma ação de movimento e 3 PM para se tornar fisicamente mais imponente: recebe +1 em Força e é tratado como uma categoria de tamanho maior para manobras de combate até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 45 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "teldiskan",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 3 PM para se tornar fisicamente mais imponente. Até o fim da cena você recebe +1 em Força e é considerado uma categoria de tamanho maior para modificadores de manobra de combate."
+  }
+}

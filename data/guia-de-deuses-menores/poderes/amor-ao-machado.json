@@ -1,0 +1,15 @@
+{
+  "id": "amor-ao-machado",
+  "tipo": "poder",
+  "nome": "Amor ao Machado",
+  "resumo": "Gasta ação padrão e 3 PM para encantar um machado com um encanto de arma à sua escolha até o fim da cena.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 22 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "goharom",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação padrão e 3 PM para tocar um machado e colocar nele um encanto de arma a sua escolha. O encanto não pode ter pré-requisitos e dura até o fim da cena ou até você usar este poder novamente."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tamagrah",
+  "tipo": "divindade",
+  "nome": "Tamagrah",
+  "resumo": "Entidade primordial que existe como uma ilha viva — um monstro colossal com 12km de carapaça — cultuada como deus pelos poucos que conhecem sua verdadeira natureza.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 44 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 3",
+    "crencasObjetivos": "Reverenciar Tamagrah. Proteger a vida selvagem e o povo da Ilha Viva. Combater monstros, mortos-vivos e invasores que perturbam o equilíbrio natural do ecossistema da Ilha Viva.",
+    "simboloSagrado": "Um casco de tartaruga com seis nadadeiras de peixe.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Lança.",
+    "devotos": "Anões, dahllan, elfos, hynne, sílfides, bárbaros, bucaneiros, caçadores, druidas, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Tamagrah devem proteger seu deus e, consequentemente, seu habitat, por meio de missões além-mar para prevenir ameaças (pelo menos uma missão a cada 1d4+2 meses), mas não podem permanecer mais de 1d4+2 meses longe de Tamagrah.",
+    "poderesConcedidos": ["Casco de Tartaruga"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Em Moreania há criaturas enormes — mas poucas se comparam a Tamagrah. O monstro se assemelha a um peixe achatado, com boca de bagre e olhos esbugalhados. Possui seis nadadeiras e uma cauda curta, porém vigorosa. Suas costas são protegidas por uma grossa carapaça, guarnecida por longos espinhos.\n\nApesar da aparência demoníaca, Tamagrah é ainda mais assustador por seu tamanho: seu casco tem 12km de diâmetro, mantendo uma superfície de 8km emersa. Uma vez que a criatura flutua lentamente pelos mares, sem jamais submergir, vegetação floresceu em sua carapaça e vida animal passou a habitar Tamagrah como se fosse uma ilha.\n\nNem todos conhecem a verdadeira natureza de Tamagrah: a maioria das pessoas acredita ser apenas uma ilhota peculiar. Mas aqueles que sabem do segredo cultuam o monstro como um deus. E são correspondidos.\n\nTamagrah concede poderes a seus devotos — mas, exceto por esse fato, pouco interfere em assuntos dos mortais. Sua existência é milenar, suas preocupações são mistérios profundos como os mares: o monstro tanto ajuda aos que pedem seu auxílio em orações, como causa maremotos e catástrofes com um simples movimento de nadadeira."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tessalus",
+  "tipo": "divindade",
+  "nome": "Tessalus",
+  "resumo": "Mortal ascendido à divindade pelos elfos-do-mar após derrotar a poderosa feiticeira sereia Ayllana, Tessalus é o Deus dos Elfos-do-Mar e patrono da supremacia oceânica e da fúria bárbara.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 46 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "inimigo", "alvoId": "ayllana", "alvoTipo": "divindade", "rotulo": "Feiticeira sereia derrotada por Tessalus em duelo lendário" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Proteger os elfos-do-mar e sua soberania. Levar sua fúria às sereias e aos povos do mundo seco. Dominar os oceanos. Derrotar as sereias.",
+    "simboloSagrado": "Um tridente.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Tridente.",
+    "devotos": "Elfos-do-mar, qareen, bárbaros, bucaneiros, caçadores.",
+    "poderesConcedidos": ["Arsenal do Oceano"],
+    "obrigacoesRestricoes": "Devotos de Tessalus são proibidos de matar elfos-do-mar, recusar-se a ajudar elfos-do-mar, e recusar missões para resgatar ou proteger elfos-do-mar e seus ritos.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nas águas turbulentas de Arton, Tessalus cresceu na tradição guerreira dos elfos-do-mar. Treinado desde a infância para a batalha, seu tridente encantado simbolizava a força e bravura desse povo bárbaro. Durante o acirrado conflito contra as sereias, ele se destacou como um líder feroz e destemido.\n\nUm dia, o destino o colocou frente a frente com Ayllana, a mais poderosa feiticeira entre as sereias. Em um duelo intenso, Tessalus viu seus ataques serem desviados por conjurações que invocavam redemoinhos, feras e tempestades. Aquele confronto, marcado pelo choque entre força bruta e poder místico, se tornaria lendário entre os elfos marinhos — pois Tessalus emergiu vitorioso, colocando a adversária em fuga.\n\nA admiração desmedida de seu povo elevou Tessalus ao status de Deus dos Elfos-do-Mar. Seu culto, pleno de rituais que exaltam a coragem, mantém viva a memória daquele confronto. Entre cânticos, cerimônias e duelos, seus seguidores espalham-se pelos mares de Arton, também dominando grandes extensões de Pelágia, o Reino de Oceano. Juram superar qualquer adversário, honrar a tradição e a fúria de seu deus bárbaro e, acima de tudo, buscam supremacia sobre as sereias."
+    }
+  ]
+}

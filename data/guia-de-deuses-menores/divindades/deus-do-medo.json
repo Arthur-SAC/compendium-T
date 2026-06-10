@@ -1,0 +1,26 @@
+{
+  "id": "deus-do-medo",
+  "tipo": "divindade",
+  "nome": "O Deus do Medo",
+  "resumo": "Conceito vivo sem nome, cuja presença é sentida mas jamais vista diretamente, que governa o instinto primitivo do medo presente em todo ser vivo e cujo poder cresce com cada suspiro de pavor.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 38 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Conceito vivo, status divino 4",
+    "crencasObjetivos": "Espalhar o medo e o terror. Afugentar inimigos. Amedrontar a todos. Fazer com que ninguém se sinta em segurança, nem mesmo em casa. Apavorar crianças. Temer.",
+    "simboloSagrado": "Uma silhueta sombria.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Corrente de espinhos.",
+    "devotos": "Bugbears, lefou, minotauros, medusas, osteon, sulfure, trogs, voracis, arcanistas, bárbaros, bardos, bucaneiros, guerreiros, ladinos, lutadores.",
+    "obrigacoesRestricoes": "Devotos do Deus do Medo devem deixar uma criatura sob qualquer efeito de medo pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais) em adoração a sua divindade.",
+    "poderesConcedidos": ["Domínio do Medo"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um deus sem nome, cuja presença é sempre sentida, mas jamais vista diretamente — pois tudo é mais amedrontador quando não é visto, e mais terrível quando não pode ser nomeado. O Deus do Medo se encontra sempre fora do ângulo de visão de um observador, como se estivesse à beira da percepção, nunca completamente revelado, mas sua influência é inegável. Sua natureza misteriosa e evasiva reflete o instinto primitivo que representa: o medo. Por ser padroeiro desse instinto básico, que está presente em todo ser vivo, esta divindade é extremamente poderosa e imortalizada nos corações dos mortais. O medo, em suas mais variadas formas, é infinito, uma força que governa a vida e a morte, a ação e a inação, e o deus sem nome compreende isso melhor do que qualquer outro ser.\n\nOs devotos do Deus Menor do Medo são aqueles que veem essa emoção como uma ferramenta a ser manipulada. Eles exploram cada nuance dos medos dos outros para alcançar seus próprios objetivos, seja em batalhas psicológicas, seja em estratégias para obter poder, controle ou influência. Ao alimentar e amplificar o medo, esses seguidores aumentam ainda mais o poder e a autoridade de sua divindade. Cada suspiro de pavor, cada sombra que se move de forma inesperada, serve para fortalecer o vínculo com o deus sem nome, aproximando-os cada vez mais de sua essência. Não ter medo é impossível.\n\nTambém há outros devotos, esses involuntários: aqueles tomados pelo medo. Medo da morte, medo de uma tragédia, medo de um grande inimigo… Até mesmo medo da felicidade, do sucesso, de tentar alguma coisa. Pessoas paralisadas pelo medo muitas vezes acabam considerando esse sentimento sagrado e cultuando o Deus do Medo sem saber. Para piorar as coisas, isso pode fazer com que este deus se manifeste sempre atrás desses devotos. Mas, quando o infeliz se vira para olhar, a divindade não está mais lá."
+    }
+  ]
+}

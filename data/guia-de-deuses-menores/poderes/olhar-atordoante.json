@@ -1,0 +1,15 @@
+{
+  "id": "olhar-atordoante",
+  "tipo": "poder",
+  "nome": "Olhar Atordoante",
+  "resumo": "Gaste uma ação de movimento e 1 PM para atordoar uma criatura próxima por 1 rodada; aprimorado se já possuir esta habilidade.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 19 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "escamandra",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se falhar, a criatura fica atordoada por 1 rodada (apenas uma vez por cena). Se você já tiver esta habilidade, em vez disso ela passa a afetar criaturas a sua escolha em alcance curto e a CD para resistir a ela aumenta em +2."
+  }
+}

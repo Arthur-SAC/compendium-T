@@ -1,0 +1,28 @@
+{
+  "id": "anilatir",
+  "tipo": "divindade",
+  "nome": "Anilatir",
+  "resumo": "Deusa da Inspiração, musa de bardos e centro de um culto imaginativo, cujos clérigos conspiram pela liberdade de Arton em eterna oposição à Deusa da Opressão.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 7 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "inimiga", "alvoId": "yasshara", "alvoTipo": "divindade", "rotulo": "Inimiga mortal de Anilatir — Deusa da Opressão" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Reverenciar Anilatir com intensidade. Criar coisas novas. Estudar coisas novas. Tornar-se algo novo. Reinventar-se de tempos em tempos. Evoluir sempre e inspirar outros a fazer o mesmo.",
+    "simboloSagrado": "Um escorpião, uma máscara, uma estrela, um pincel… — seu símbolo muda a cada 2d10+10 dias, mas seus devotos estão sempre cientes da mudança.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Adaga, espada, arco longo… — muda na mesma frequência que seu símbolo sagrado.",
+    "devotos": "Quaisquer. Anilatir não rejeita ninguém que queira criar ou ser algo novo.",
+    "obrigacoesRestricoes": "Devotos de Anilatir devem trocar pelo menos um item vestido ou empunhado por outro que ainda não tenham usado a cada 2d10+10 dias. (Para este efeito, versões aprimoradas ou encantadas de itens contam como itens diferentes.) Além disso, deve estar sempre atento às tramas de Yasshara, a Deusa Menor da Opressão, inimiga mortal de Anilatir.",
+    "poderesConcedidos": ["Inspiração Concedida"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Anilatir, quando ainda era uma jovem mortal, trancou-se numa torre para que fosse resgatada por heróis. Ela mesma inventou uma série de perigos e desafios para seus salvadores e prometeu se casar com quem a libertasse. Muitos o fizeram, e ela viveu feliz para sempre por algumas semanas com cada um, até que se trancava de novo num lugar ainda mais inóspito, com mais perigos, para instigar heróis mais valorosos.\n\nQuando enfim, depois de alguns anos, cansou-se do jogo, foi ela mesma uma aventureira, tendo sido clériga de Khalmyr, Thyatis, Lena, Nimb e Oceano. Após ter roubado uma fortuna de um dragão, decidiu entregá-la ao bardo que compusesse a melhor balada. Escolheu crianças que julgava terem potencial e arranjou para que suas famílias fossem chacinácias, impulsionando-as assim ao caminho de aventuras. Depois decidiu ser vilã, maquinando planos ilógicos de dominação e destruição para que heróis se levantassem para detê-la. Enfim, após essas e muitas outras peripécias, acabou ascendendo a Deusa da Inspiração, musa de bardos e centro de um minúsculo mas imaginativo culto.\n\nA história de Anilatir é tão curiosa quanto improvável. Segundo esses relatos, ela parecia agir como uma divindade, decidida a inspirar mortais e sem qualquer preocupação com a própria segurança, mesmo muito jovem. Talvez isso seja sinal de que tais histórias não passam de mentiras. Ou talvez Anilatir tenha inspirado alguém (talvez seu paladino, o indefectível Tex Scorpion Mako) a desenvolver alguma técnica mágica que direcionasse sua própria inspiração a ela mesma, desafiando as barreiras do tempo. Impossível? Dizem que alguns clérigos de Anilatir já se interessaram pelo conceito do Akzath de Thwor…\n\nOs clérigos de Anilatir se organizam (de forma bastante solta) em uma conspiração pela liberdade de Arton, eternamente combatendo a conspiração inimiga perpetrada pelos clérigos de Yasshara, a Deusa da Opressão, que desejam enclausurar o mundo em parâmetros rígidos e ordenados. Além disso, vivem aventuras, dançam, criam novas filosofias, entregam-se a todas as formas de expressão artística, traem o culto, arrependem-se, sagram-se cavaleiros, entram em guildas de ladrões… Fazem tudo que for diferente e inesperado. Serão seus melhores amigos, por pelo menos uma noite na taverna, desde que você aguente."
+    }
+  ]
+}

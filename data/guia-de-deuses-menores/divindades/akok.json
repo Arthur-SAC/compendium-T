@@ -1,0 +1,26 @@
+{
+  "id": "akok",
+  "tipo": "divindade",
+  "nome": "Akok",
+  "resumo": "Deus dos Lobos e de certas raças de cães, cultuado por goblinoides e humanoides que vivem em alcateia, concedendo instintos de bando e comunicação com cães e lobos.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 5 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Reverenciar Akok como o único grande alfa. Trabalhar em equipe. Proteger alcateias. Promover harmonia entre matilhas e a civilização. Combater ameaças que perturbam o equilíbrio natural.",
+    "simboloSagrado": "Uma grande pata de lobo rodeada por patas menores.",
+    "canalizaEnergia": "Positiva",
+    "armaPreferida": "Espada curta.",
+    "devotos": "Centauros, dahllan, elfos, gnolls, goblins, kobolds, bárbaros, caçadores, druidas, guerreiros, ladinos, lutadores, treinadores.",
+    "obrigacoesRestricoes": "Devotos de Akok não podem aprisionar ou matar lobos de qualquer tipo (como lobos-das-cavernas), nem permitir que outros o façam. Além disso, o grupo ao qual o devoto pertence (família, aventureiros, guilda…) é considerado sua alcateia. Ele não pode enganá-la, traí-la ou abandoná-la.",
+    "poderesConcedidos": ["Espírito da Alcateia"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um enorme lobo com dentes que se projetam fora da mandíbula, Akok é o Deus dos Lobos, mas também governa certas raças de cães, principalmente de guerra, de guarda e de caça. É cultuado por goblinoides e outros humanoides que usam lobos como montaria, mas também por soldados responsáveis por bandos de cães de guerra, caçadores que só contam com seus cães ou lobos como companheiros e até mesmo por humanoides criados nos ermos por lobos. Devotos de Akok, entretanto, não são meros ginetes ou \"donos\": são parte da alcateia e veem os lobos como seus irmãos peludos. São abençoados com instintos para lutar e agir em bando como lobos.\n\nSendo um deus animalesco, Akok nunca revelou sua origem (não tendo capacidade ou interesse para isso). Também não existem registros de quando teria ascendido. No entanto, uma lenda afirma que Akok foi o primeiro lobo a se aproximar de uma comunidade humanoide — talvez pressentindo que um dia poderia haver cooperação entre essas espécies, talvez apenas ferido e precisando de ajuda. Segundo essa história, teria sido esse gesto que deu origem à domesticação de lobos que levou à existência dos cães."
+    }
+  ]
+}

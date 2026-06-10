@@ -1,0 +1,15 @@
+{
+  "id": "oprimir-escolhas",
+  "tipo": "poder",
+  "nome": "Oprimir Escolhas",
+  "resumo": "Gasta 2 PM para forçar uma criatura próxima a escolher 10 em um teste de perícia, sujeita a teste de Vontade para resistir.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 49 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "yasshara",
+    "prerequisito": "",
+    "descricao": "Quando uma criatura em alcance curto faz um teste de perícia, você pode gastar 2 PM para forçar essa criatura a escolher 10 nesse teste (mesmo que isso não seja possível). A criatura tem direito a um teste de Vontade (CD Sab) para resistir a esse efeito. Você só pode usar este poder uma vez por criatura em cada cena."
+  }
+}

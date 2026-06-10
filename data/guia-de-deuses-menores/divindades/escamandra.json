@@ -1,0 +1,26 @@
+{
+  "id": "escamandra",
+  "tipo": "divindade",
+  "nome": "Escamandra",
+  "resumo": "Medusa belíssima ascendida à divindade por criar o Santuário das Estátuas Eternas, protetora das medusas perseguidas e guardiã da permanência e imutabilidade.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 19 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 1",
+    "crencasObjetivos": "Proteger as medusas e sua cultura. Proteger o Santuário das Estátuas Eternas e manter sua localização em sigilo, exceto de medusas em busca de abrigo. Lutar pela permanência e defender a imutabilidade.",
+    "simboloSagrado": "Olhos de cobra em uma face de mármore.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Arco curto.",
+    "devotos": "Anões, centauros, elfos, golens, medusas, osteon, arcanistas, bárbaros, caçadores, cavaleiros, druidas, nobres.",
+    "obrigacoesRestricoes": "Devotos de Escamandra não podem causar dano letal ou perda de PV a medusas, nagahs, trogs e outras criaturas relacionadas com cobras (fornecer bônus em dano letal contra elas também é proibido) a critério do mestre. Podem causar dano não letal e prejudicar essas criaturas (em termos de jogo, impondo condições), desde que não causem dano letal ou perda de PV. Além disso, não podem recusar pedidos de ajuda de medusas inocentes.",
+    "poderesConcedidos": ["Olhar Atordoante"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Antes de ser uma deusa, Escamandra foi uma grande líder entre as medusas, acolhendo aquelas que eram caçadas como monstros séculos atrás. Na Floresta dos Basiliscos, em certa área que passou a ser conhecida como Santuário das Estátuas Eternas, Escamandra criou um ambiente seguro para abrigar suas irmãs e, por esse feito, passou a ser adorada.\n\nAos poucos, a área ao redor do Santuário passou a abrigar mais e mais \"estátuas de pedra\", na verdade pretensos intrusos que eram petrificados por Escamandra antes que pudessem ameaçar suas protegidas. Para contribuir com os objetivos de sua deusa, as medusas devotas de Escamandra passaram a domesticar os basiliscos da região — e até mesmo outros lagartos enormes sem poderes de petrificação —, usando-os para reduzir as suspeitas sobre as frequentes transformações de visitantes da floresta em estátuas.\n\nA deusa Escamandra, uma medusa belíssima, de olhar fulminante e cabelos serpentinos cor de mármore, despreza invasores e envia seus devotos para atacar qualquer um que se aproxime demais de seu santuário — petrificando-os e transformando-os em mais das \"estátuas eternas\" que dão nome ao local. No entanto, há registros de pessoas que conseguiram dialogar com Escamandra e até mesmo se converteram à sua causa, passando a espalhar sua palavra por Arton."
+    }
+  ]
+}

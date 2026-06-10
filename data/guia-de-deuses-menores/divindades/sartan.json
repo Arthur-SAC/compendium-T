@@ -1,0 +1,28 @@
+{
+  "id": "sartan",
+  "tipo": "divindade",
+  "nome": "Sartan",
+  "resumo": "Maligno Deus Menor da Desolação, banido de Arton múltiplas vezes por heróis mortais, cujos cultistas aguardam seu retorno para trazer guerra, fome, doenças e destruição.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 41 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "dahriol", "alvoTipo": "divindade", "rotulo": "Dahriol, o Deus Menor dos Selos, foi mensageiro do Panteão na convocação de heróis para banir Sartan" }
+  ],
+  "mecanica": {
+    "statusDivino": "Entidade primordial, status divino 4",
+    "crencasObjetivos": "Trazer Sartan de volta a Arton. Preparar-se para o retorno do Deus da Desolação. Espalhar a guerra, a morte, a fome e doenças pelo mundo, até que restem apenas os eleitos. Praticar a devassidão e a perversão. Deturpar tudo que é comum. Abraçar a agonia e a crueldade.",
+    "simboloSagrado": "Uma cabeça de demônio com a bocarra arreganhada.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Maça.",
+    "devotos": "Quaisquer. Sartan não rejeita ninguém que queira ajudá-lo a retornar a Arton.",
+    "obrigacoesRestricoes": "Devotos de Sartan jamais podem se recusar a participar de tentativas de trazer seu padroeiro de volta para Arton. Eles devem estar sempre estudando os alinhamentos dos astros para antecipar seu retorno. Além disso, devem praticar o mal através de algum ato de crueldade, como ferir uma criatura indefesa, pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais), como oferenda a Sartan. Esta divindade menor não é permitida para jogadores.",
+    "poderesConcedidos": ["Inimigo dos Deuses"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Milênios atrás, quando o mundo ainda era jovem e os deuses também, o Panteão precisou enfrentar inúmeras entidades que surgiam espontaneamente ou até vinham de outros mundos, com a intenção de dominar Arton. Algumas dessas entidades eram elas mesmas deuses menores, enquanto outras eram demônios e diabos extremamente poderosos. No entanto, todas foram derrotadas e repelidas. O mundo viveu em paz por algum tempo, até que o maligno Deus Menor da Desolação, Sartan, conseguiu retornar a Arton, trazendo consigo guerra, fome, doenças e destruição.\n\nNaquela época, os deuses maiores há muito tinham criado e estabelecido seus próprios povos. Não andavam no mundo em suas formas verdadeiras, mas contavam com campeões mortais. Então escolheram entre os mortais um grupo de heróis para banir Sartan, usando um objeto sagrado: o Disco dos Três. O deus diabólico foi derrotado, mas não completamente destruído. Ele esperou pacientemente até que os astros se alinhassem e, quando tal fenômeno ocorreu, fez uma nova tentativa de retornar.\n\nMais uma vez um grupo de heróis foi convocado por Dahriol, o Deus Menor dos Selos, mensageiro do Panteão, na antiga cidade de Malpetrim. Esses heróis reuniram as partes do Disco dos Três e encontraram o local onde os cultistas do Deus da Desolação tentavam trazer Sartan de volta a Arton. Eles se depararam com um horror indescritível: uma cabeça imensa e demoníaca, cheia de chifres e espinhos, com inúmeros vermes rastejando sobre sua pele repugnante. Apesar disso, o grupo triunfou e Sartan foi banido mais uma vez. Com o banimento de Sartan, seu culto se encolheu nas sombras, esperando pela oportunidade de invocá-lo novamente.\n\nAo longo das eras, este deus passou pouco tempo em Arton, pois sempre foi repelido. Assim, nem mesmo seus cultistas sabem muito sobre ele. Contudo, a obsessão de Sartan por vir a este mundo é motivação suficiente para que seja cultuado. A proibição de sua permanência em Arton, sem que ninguém saiba exatamente quais seriam as consequências disso, parece seduzir cultistas. Muitos dizem que, se Sartan efetivamente viesse, Arton seria destruída… Mas isso só pode ser um exagero. Ou não?"
+    }
+  ]
+}

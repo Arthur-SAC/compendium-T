@@ -1,0 +1,26 @@
+{
+  "id": "dunsark",
+  "tipo": "divindade",
+  "nome": "Dunsark",
+  "resumo": "Deus guerreiro dos mercenários, campeão de incontáveis guerras que governa o combate por dinheiro e o risco pelo lucro, sobrevivente da Batalha de Tamu-ra.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 17 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Lutar por dinheiro. Planejar e arriscar tudo por ouro, joias e espólios. Usar estratégias e técnicas superiores sempre. Colocar lucro acima de lealdade. Assumir grandes riscos por grandes recompensas.",
+    "simboloSagrado": "Uma espada longa entre joias.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Gnolls, goblins, kobolds, lefou, nezumi, orcs, osteon, suraggel, trogs, bárbaros, bucaneiros, caçadores, guerreiros, ladinos, lutadores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Dunsark não podem recusar aventuras que envolvam uma recompensa em dinheiro e não podem aceitar aventuras que não tenham esse tipo de recompensa. Além disso, não podem ajudar alguém sem receber algo em troca e devem ajudar quem estiver disposto a pagar mais.",
+    "poderesConcedidos": ["Armas e Espólios"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dunsark é um deus guerreiro, um combatente que carrega uma quantidade aparentemente infinita de armas pendendo de seu corpo, sempre interessado em lutar por dinheiro e arriscar-se por lucro. É o protetor das batalhas sem motivos pessoais, dos conflitos sem moralidade. Protege a noção de risco e ganho, a luta por puro interesse.\n\nReza a lenda que Dunsark foi um mercenário abençoado que já teve tanto ouro quanto os cofres de Sambúrdia e tantos itens mágicos quanto Arsenal. Seus devotos agarram-se a ele como uma esperança de riqueza e glória, anunciando seu nome após cada vitória em batalha, cada ataque bem-sucedido a um castelo, cada contrato lucrativo. Mesmo os mercenários que não acreditam na lenda contam suas histórias ao redor das fogueiras. Sua última grande vitória foi na Batalha de Tamu-ra, em 1405, onde Dunsark enfrentou a Tormenta e escapou para contar a história.\n\nApesar de ser viciado em risco e campeão de incontáveis guerras, sua aparência é comum. Soldados supersticiosos desconfiam que qualquer mercenário poderoso sem vínculos de lealdade possa ser Dunsark disfarçado, buscando um novo contrato, uma nova guerra. Durante a Guerra Artoniana, Dunsark foi \"visto\" inúmeras vezes. Talvez algumas dessas não sejam mera boataria de acampamento."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "inimigo-dos-deuses",
+  "tipo": "poder",
+  "nome": "Inimigo dos Deuses",
+  "resumo": "Recebe resistência a magia divina +5 e +2 em testes de ataque e na CD de habilidades contra devotos de outros deuses.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 42 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "sartan",
+    "prerequisito": "",
+    "descricao": "Você recebe resistência a magia divina +5 e, contra devotos de outros deuses, recebe +2 em testes de ataque e na CD de suas habilidades."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "disparo-sublime",
+  "tipo": "poder",
+  "nome": "Disparo Sublime",
+  "resumo": "Ação de movimento + 2 PM: teste de Percepção (CD 15+ND) contra alvo em alcance médio; se passar e acertar com arco na mesma rodada, é crítico automático. Paladinos de Cette usam Golpe Divino com arcos à distância.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 15 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "cette",
+    "prerequisito": "",
+    "descricao": "Você pode gastar uma ação de movimento e 2 PM para fazer um teste de Percepção (CD 15 + ND da criatura) contra uma criatura em alcance médio. Se passar no teste e acertar um ataque com arco contra o alvo na mesma rodada, esse ataque é um acerto crítico automático. Se for o paladino de Cette, você pode usar Golpe Divino com ataques com arco à distância."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "elrophin",
+  "tipo": "divindade",
+  "nome": "Elrophin",
+  "resumo": "Deus da Vaidade de origem obscura — possivelmente filho de Valkaria — que ascendeu à divindade pela lábia, autoconfiança e ambição inabalável de conquistar tudo que desejava.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 18 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "possivelFilhoDe", "alvoId": "valkaria", "alvoTipo": "divindade", "rotulo": "Possivelmente filho de Valkaria, a Deusa da Ambição" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Conhecer seu próprio valor e demonstrá-lo. Conquistar o que deseja através da lábia ou da força. Admirar-se e ser a maior prioridade de si mesmo.",
+    "simboloSagrado": "Uma espada bastarda entre rosas.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Espada bastarda.",
+    "devotos": "Elfos, goblins, medusas, minauros, minotauros, naidoras, qareen, suraggel, tabrachi, bardos, bucaneiros, cavaleiros, guerreiros, lutadores, nobres.",
+    "obrigacoesRestricoes": "Devotos de Elrophin devem pregar o quanto eles mesmos — e seu deus — são incríveis e convencer pessoas de seus feitos pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais). Em termos de jogo, uma ação exigindo um teste de Diplomacia com CD mínima 15 + metade do seu nível.",
+    "poderesConcedidos": ["Vanglória"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Não se sabe muito sobre a origem de Elrophin. Alguns dizem que seria filho de Valkaria, e assim um semideus. Também correm histórias de que teria sido um grande bardo, um poderoso guerreiro, ou ambos. Também dizem que Elrophin foi um antigo sumo-sacerdote da Deusa da Ambição, atuante quando Arton Norte ainda não havia sido desbravada.\n\nAs histórias afirmam que Elrophin era tão seguro de si em tudo que fazia que aos poucos foi conquistando tudo que desejava: poderes, vitórias, domínios, amores. Sua lábia e autoconfiança eram lendárias. E assim foi crescendo e conquistando uma legião de admiradores e seguidores, até que acabou por se transformar em um deus menor. Talvez esse feito tenha recebido ajuda e bênção da própria Valkaria, que sempre admirou pessoas ambiciosas; outros pensam que Elrophin alcançou a divindade justamente por dar as costas a ela — pois a maior ambição (e a maior vaidade) seria não precisar nem mesmo dos deuses.\n\nMuitas lendas correm em torno deste deus — que, embora um tanto obscuro, não deixa de ser poderoso e influente."
+    }
+  ]
+}

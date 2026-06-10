@@ -1,0 +1,15 @@
+{
+  "id": "vangloria",
+  "tipo": "poder",
+  "nome": "Vanglória",
+  "resumo": "Uma vez por cena, some +1d6 em um teste de perícia gastando 1 PM; se tirar o máximo no dado, role outro d6 e adicione ao resultado.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 18 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "elrophin",
+    "prerequisito": "",
+    "descricao": "Uma vez por cena, quando faz um teste de perícia, você pode gastar 1 PM para somar +1d6 como um bônus no teste. Se rolar o valor máximo nesse dado de bônus, role um segundo d6 e adicione ao resultado. Você não pode usar esta habilidade em testes de ataque."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "garth",
+  "tipo": "divindade",
+  "nome": "Garth",
+  "resumo": "Pistoleiro sanguinário transformado em Deus Menor da Pólvora pela tragédia, que governa aquilo que odeia — as armas de fogo — existindo apenas para espalhar morte e vingança.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 20 },
+  "imagens": [],
+  "relacoes": [],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 2",
+    "crencasObjetivos": "Matar. Matar rápido. Matar sempre. Jamais oferecer perdão ou rendição. Vingar-se de tudo e todos.",
+    "simboloSagrado": "Uma pistola.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Pistola.",
+    "devotos": "Anões, goblins, hobgoblins, kliren, meios-orcs, minauros, osteon, sulfure, bucaneiros, caçadores, inventores, ladinos.",
+    "obrigacoesRestricoes": "Devotos de Garth não podem poupar inimigos nem aceitar ou oferecer perdão. Além disso, devem se vingar (de forma letal, usando armas de pólvora) de qualquer um que os prejudique seriamente.",
+    "poderesConcedidos": ["Pólvora Sagrada"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Garth é um caso triste de um deus menor que odeia aquilo que governa. A maioria daqueles que usam armas de pólvora conhece a história de seu passado. Garth foi o pistoleiro mais sanguinário que já existiu. Era um bandido terrível, mas relutava em matar pessoas indefesas (embora tenha feito isso algumas vezes). Exceto por esses casos, se a morte fosse o caminho mais fácil ou eficiente, mesmo que desnecessário, Garth sempre escolhia-o e, assim, tornou-se temido e caçado nas infindáveis planícies de Petrynia, antes que esse território fizesse parte do Império de Tauron.\n\nContudo, pelo amor a uma mulher capaz de ver bondade dentro dele, Garth cansou da vida sem sentido e tentou se regenerar. Ambos se casaram, tiveram um filho e viveram em paz numa pequena fazenda por alguns anos, sem que Garth disparasse um único tiro. O temido pistoleiro passou a ver que as armas de fogo tinham sido uma prisão, uma maldição.\n\nInfelizmente, o destino tinha outros planos para ele. Um bando de pistoleiros surgiu na fazenda, aproveitando sua ausência. Roubaram todo o pouco dinheiro que a família possuía. Mataram sua mulher e filho. Ao chegar em casa, Garth não parou sequer para enterrar os cadáveres. Pegou as pistolas e saiu em busca dos assassinos, caçando-os um a um.\n\nSua alma voltou a endurecer e ele aceitou que nunca teria redenção verdadeira. Garth odiava suas pistolas, mas elas eram tudo que ele tinha. Sua história se espalhou, pistoleiros passaram a cultuá-lo e logo se tornou o Deus Menor da Pólvora. Como uma divindade, poderia trazer sua família de volta à vida — mas sabe ser tarde para isso. Suas mortes, e a jornada de vingança que ele empreendeu, transformaram-no. Hoje em dia, Garth existe apenas para espalhar mais morte, difundir a ciência letal das armas de pólvora que ele tanto odeia, com pistolas que nunca precisam ser recarregadas. Em seu coração, apenas ódio."
+    }
+  ]
+}

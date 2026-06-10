@@ -1,0 +1,15 @@
+{
+  "id": "fisgar-coracoes",
+  "tipo": "poder",
+  "nome": "Fisgar Corações",
+  "resumo": "Aprende e lança Enfeitiçar com Carisma usando apenas concentração, sem gestos ou palavras; aprender novamente reduz o custo em –1 PM.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 29 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "irione",
+    "prerequisito": "",
+    "descricao": "Você aprende e pode lançar a magia Enfeitiçar (atributo-chave Carisma) usando apenas concentração, sem necessidade de gestos ou palavras (como se sob efeito do poder Magia Discreta). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+  }
+}

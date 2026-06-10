@@ -1,0 +1,30 @@
+{
+  "id": "hydora",
+  "tipo": "divindade",
+  "nome": "Hydora",
+  "resumo": "Dragão-Rei das Nuvens, um dos mais poderosos Dragões-Reais de Arton, encarnação das tempestades e criador dos naidora (elfos-do-céu), de humor volúvel como os raios.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 26 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "relacionadoCom", "alvoId": "tarso", "alvoTipo": "divindade", "rotulo": "Superado apenas por Tarso entre os Dragões-Reais" },
+    { "tipo": "relacionadoCom", "alvoId": "sckhar", "alvoTipo": "divindade", "rotulo": "Superado apenas por Sckhar entre os Dragões-Reais" },
+    { "tipo": "relacionadoCom", "alvoId": "benthos", "alvoTipo": "divindade", "rotulo": "Equipara-se a Benthos em poder" }
+  ],
+  "mecanica": {
+    "statusDivino": "Dragão-Real, status divino 4",
+    "crencasObjetivos": "Reverenciar a altivez de Hydora. Reverenciar os céus, o vento e a liberdade. Jamais ceder ao conformismo. Evitar descer dos céus. Promover o progresso e a inventividade. Agir conforme os próprios instintos, jamais deixando-se influenciar pelos outros.",
+    "simboloSagrado": "Uma nuvem negra em forma de asa cuspindo três raios.",
+    "canalizaEnergia": "Qualquer",
+    "armaPreferida": "Cimitarra.",
+    "devotos": "Elfos, kallyanach, kliren, naidoras, qareen, sílfides, suraggel, tengu, arcanistas, bardos, caçadores, cavaleiros, guerreiros, inventores.",
+    "obrigacoesRestricoes": "Devotos de Hydora devem ser inquietos e inconstantes como os ventos, proibidos de passar mais de um dia com os pés no chão — escalar uma montanha ou voar por uma rodada é suficiente para agradar ao Dragão-Rei. Além disso, não podem fixar moradia exceto em local mais próximo dos céus do que da terra.",
+    "poderesConcedidos": ["Alcançar os Céus"],
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Encarnação das tempestades, Hydora é um dos mais poderosos Dragões-Reais de Arton, superado apenas por Tarso e Sckhar e equiparando-se a Benthos. Isso explicaria como uma criatura tão instável conseguiu sobreviver por tanto tempo. Marcial e guerreiro como todos os dragões do ar, Hydora também tem humor volúvel como os raios e trovões. Muitas vezes já negou coisas que havia proferido, quebrou promessas, não reconheceu aliados e apoiou antigos inimigos. Uma promessa feita por Hydora é tão sólida quanto uma bolha de sabão.\n\nEspecula-se que o Dragão-Rei das Nuvens tenha transcendido a necessidade de pisar em terra firme. Voa durante a maior parte do tempo, sem parar para descansar, comer ou dormir. Tem forte predileção por tempestades elétricas: gosta de voar através das nuvens carregadas como quem aprecia a brisa da manhã. Em Arton, costuma-se dizer que, quando cai uma tempestade, Hydora está por perto.\n\nHydora também é criador de todo um povo: de sua união com uma heroína élfica surgiram os naidora, também chamados de elfos-do-céu. Existem versões da história que dizem que o Dragão-Rei raptou a elfa, mas ninguém até hoje foi capaz de determinar se isso é verdade. Conhecendo-se a inconstância de Hydora, talvez ele alterne entre amor genuíno e tirania.\n\nSua forma humanoide lembra um naidora com belíssimas asas que mudam conforme seu humor, pele clara e cabelos azuis longos e esvoaçantes. Sua forma dracônica tem corpo longo e asas que misturam aspectos de morcegos e pássaros; uma coroa de penas circunda sua cabeça, criando algo parecido com uma juba. Em ambas as formas Hydora tem olhos em tons diferentes de azul — um mais claro que o outro."
+    }
+  ]
+}

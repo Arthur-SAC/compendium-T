@@ -1,0 +1,29 @@
+{
+  "id": "yasshara",
+  "tipo": "divindade",
+  "nome": "Yasshara",
+  "resumo": "Mortal ascendida à divindade em sua obsessão por eliminar o caos e impor ordem absoluta ao mundo, inimiga mortal de Anilatir, a Deusa da Inspiração.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 49 },
+  "imagens": [],
+  "relacoes": [
+    { "tipo": "inimigo", "alvoId": "anilatir", "alvoTipo": "divindade", "rotulo": "Inimiga mortal — a Deusa da Inspiração" },
+    { "tipo": "relacionadoCom", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Clero de origem antes da ascensão à divindade" }
+  ],
+  "mecanica": {
+    "statusDivino": "Mortal ascendido, status divino 3",
+    "crencasObjetivos": "Destruir o caos e a aleatoriedade. Pregar a ordem e a estabilidade. Fazer com que tudo seja igual, sempre. Moldar a realidade em padrões simplistas e compreensíveis até mesmo por aqueles de mente mais fechada. Impedir inovações.",
+    "simboloSagrado": "Uma balança dentro de um círculo perfeito.",
+    "canalizaEnergia": "Negativa",
+    "armaPreferida": "Espada longa.",
+    "devotos": "Anões, elfos, finntroll, minotauros, cavaleiros, guerreiros, nobres.",
+    "poderesConcedidos": ["Oprimir Escolhas"],
+    "obrigacoesRestricoes": "Devotos de Yasshara devem escolher o destino dos outros para que o mundo tenha ordem óbvia. Eles precisam garantir que, pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais), uma criatura obedeça a suas ordens. Em termos de jogo, uma ação exigindo um teste de Diplomacia ou Intimidação com CD mínima 15 + metade do seu nível. Além disso, o devoto deve estar sempre atento às tramas de Anilatir, a Deusa Menor da Inspiração, inimiga mortal de Yasshara. Por último, sempre que houver possibilidade de escolher 10 em um teste, o devoto deve fazer isso.",
+    "categoria": "menor"
+  },
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Inimiga mortal de Anilatir, a Deusa da Inspiração, Yasshara é uma divindade marcada por uma história trágica. Quando jovem, seus pais foram mortos por uma mulher desequilibrada, que desejava forjar jovens \"com potencial\" para se tornarem aventureiros. Devastada, Yasshara se uniu ao clero de Khalmyr, na busca por algo nos dogmas do Deus da Justiça que pudesse explicar a insanidade que destruiu sua vida e a de tantas outras pessoas. No entanto, nada conseguiu aliviar sua alma.\n\nApós descobrir a identidade de sua algoz e enfrentar no clero de Nimb inimigos tão cruéis quanto ela, Yasshara assumiu como missão pessoal erradicar o caos do mundo e transformar a realidade em algo rígido e ordenado. Embora à primeira vista sua causa parecesse nobre, com o tempo a busca de Yasshara e de seu séquito se afastou dos preceitos de justiça de Khalmyr, focando unicamente em \"consertar\" a realidade, tornando-a estável e \"compreensível\".\n\nIsso é uma das versões da história de Yasshara. Outra versão da história, difundida pelos devotos de Anilatir, diz que Yasshara foi uma nobre que, desde sempre, teve uma necessidade doentia de monitorar e controlar as vidas de seus servos. Precisava que tudo fosse ordenado, previsível e igual, sempre. Teria sido devota de Khalmyr, mas perdeu a fé quando notou que o Deus da Justiça não era capaz de impor a verdadeira estabilidade. Proibiu a entrada de aventureiros em seu feudo, pois eles traziam coisas novas. Proibiu quaisquer inventos ou inovações que não existissem quando ela própria era uma criança. Por fim, passou a controlar de tal modo as vidas de seu povo que esse controle adquiriu características sagradas e ela ascendeu à divindade. Em sua busca obsessiva por eliminar tudo que é novo e diferente, por tornar Arton segura, constante e estanque, ela expandiu seu culto para além de suas fronteiras, criando uma verdadeira rede de devotos conspiradores, dedicados à opressão.\n\nEm ambas as versões, e em muitas outras, o clero de Yasshara teria entrado em conflito com o clero de Anilatir, e ambas existiriam numa eterna guerra pelo futuro de Arton.\n\nExiste ainda outra versão, sussurrada por poucos: Yasshara e Anilatir seriam a mesma pessoa, inimiga de si mesma. Afinal, para que exista inspiração para heróis, é preciso haver vilões. E, para que possa haver opressão e controle, é preciso que haja alguém ameaçando essa estabilidade."
+    }
+  ]
+}

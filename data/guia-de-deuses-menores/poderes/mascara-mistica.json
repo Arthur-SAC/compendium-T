@@ -1,0 +1,15 @@
+{
+  "id": "mascara-mistica",
+  "tipo": "poder",
+  "nome": "Máscara Mística",
+  "resumo": "Com máscara equipada, lança Disfarce Ilusório e Proteção Divina (em si mesmo); se aprender essas magias, seu custo cai –1 PM enquanto estiver de máscara.",
+  "fonte": { "livro": "guia-de-deuses-menores", "pagina": 12 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [],
+  "mecanica": {
+    "grupo": "blinar",
+    "prerequisito": "",
+    "descricao": "Se estiver usando uma máscara, você pode lançar as magias Disfarce Ilusório e Proteção Divina (mas apenas em você mesmo). Caso aprenda uma dessas magias, seu custo diminui em –1 PM enquanto você estiver de máscara."
+  }
+}
