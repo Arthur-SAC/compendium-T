@@ -1,0 +1,63 @@
+{
+  "id": "shatrur",
+  "tipo": "criatura",
+  "nome": "Shatrur",
+  "resumo": "Líder orc do grupo O Rosnado, que sonha em seguir os passos de Thwor e tornar-se o emissário do deus menor Hurlaagh em Arton.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 12 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Rosnado",
+      "texto": "Os orcs artonianos não são conhecidos por seu brilhantismo. São inimigos prediletos de heróis principiantes e cavaleiros em treinamento, desprezados em vilas e cidades e relegados a atuar como trabalhadores em minas profundas e insalubres.\n   Mas não é o caso de Shatrur.\n    Nascido em uma tribo que escapou da destruição em Lomatubar, Shatrur viu esse fato como o primeiro sinal de que talvez não fosse um orc comum. Depois de ouvir as histórias da Aliança Negra e posterior ascensão divina de Thwor Khoshkothruk convenceu-se de que talvez fosse capaz de conduzir aqueles dispostos a ouvi-lo a destinos maiores.\n    A partir daí, Shatrur tentou, de fato, seguir os passos de Thwor. Fez discursos inflamados e bateu no próprio peito, confiante. Armou-se até os dentes e desafiou líderes locais a fim de convencer suas tribos de que era um líder predestinado.\n    Mas o orc não era o bugbear lamnoriano e não tinha por trás de si a profecia ancestral do eclipse. Não tinha sua força descomunal ou o apoio de um clérigo de imenso poder.\n   Em resumo, Shatrur fracassou. Em parte.\n     Sua insistência acabou chamando a atenção de orcs marginalizados, normalmente relegados aos piores trabalhos nas minas subterrâneas, e Shatrur soube aproveitar o fato. Agora contando com um pequeno contingente, o líder resolveu treinar cada um de seus companheiros na arte do combate, raptando um cavaleiro da Luz aposentado chamado Lewark para que lhe servisse de tutor. Alguns boatos dizem que Lewark virou jantar dias depois, outros afirmam que ele continua acorrentado, arrastado para cada esconderijo nômade que os orcs adotam.\n    Assim, conduzido pelas pretensões de Shatrur e viajando constantemente pelo Reinado, nascia sua facção: o Rosnado. Seu objetivo é mostrar que orcs podem ser mais do que força de trabalho barata ou linha de frente descartável em batalhas. Eles apoiam seu fundador incondicionalmente e vivem de ataques relativamente organizados a caravanas e vilas isoladas.\n     O plano principal do líder é resgatar mais orcs em condições de desvantagem e aumentar suas fileiras, mas há um outro intuito secreto em suas ações: encontrar Hurlaagh, um deus menor quase esquecido, criador original dos hobgoblins, e oferecer a ele sua devoção e a de seus comandados, convencendo-o a se tornar o Deus Menor dos Orcs. Dessa forma, Shatrur se transformaria no grande emissário de Hurlaagh em Arton, como um dia Thwor serviu a Ragnar.\n        Obviamente, ninguém acredita que isso irá acontecer. Os ataques do Rosnado costumam ser desajeitados e intempestivos, colecionando mais derrotas que vitórias, e nenhum estudioso tem notícias de Hurlaagh há muitos anos.\n        Por outro lado, ninguém acreditava no que viria a acontecer em Lamnor…"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "hurlaagh", "alvoTipo": "divindade", "rotulo": "Busca encontrar e servir a Hurlaagh" }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "tema": "O Rosnado",
+    "iniciativa": "+8",
+    "percepcao": "+4 (+8 no subterrâneo), sensibilidade a luz, visão no escuro",
+    "defesa": "27, imunidade a atordoado e cansaço, resistência a medo e mental +2",
+    "fortitude": "+16",
+    "reflexos": "+12",
+    "vontade": "+8",
+    "pontosDeVida": "252",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Lança +21 x2 (2d8+12, x3) e escudo pesado +21 (1d6+12)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "5",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Bando do Rosnado",
+        "descricao": "Shatrur está sempre acompanhado de quatro orcs do Rosnado (veja abaixo), que não contam para o cálculo de XP e tesouro do encontro."
+      },
+      {
+        "nome": "Grito de Guerra (Padrão)",
+        "descricao": "Shatrur rosna e xinga seus comandados para que sejam mais cruéis e eficazes. Todos os orcs sob seu comando em alcance médio recebem +5 em testes de perícia e +1d10 em rolagens de dano por 1 rodada."
+      },
+      {
+        "nome": "Escudo Atordoante",
+        "descricao": "Uma criatura atingida por um ataque de escudo pesado de Shatrur fica atordoada por 1 rodada (apenas uma vez por cena; Fort CD 22 evita)."
+      },
+      {
+        "nome": "Estocada Atroz",
+        "descricao": "Uma criatura atingida por um ataque de lança de Shatrur fica sangrando (Fort CD 22 evita)."
+      }
+    ],
+    "pericias": "Guerra +7.",
+    "equipamento": "Couro batido reforçado, escudo pesado, lança.",
+    "tesouro": "Dobro."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "desescamidificador",
+  "tipo": "item",
+  "nome": "Desescamidificador",
+  "resumo": "Creme alquímico para criaturas escamosas que melhora Diplomacia e Enganação, mas reduz a Defesa.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Um creme para medusas, trogs, kallyanach e outros seres escamosos (a critério do mestre). Fornece +2 em Diplomacia, +5 em Enganação para se disfarçar de outra raça e –2 em Defesa. Usar o desescamidificador é uma ação completa e seus efeitos duram 1 dia."
+  }
+}

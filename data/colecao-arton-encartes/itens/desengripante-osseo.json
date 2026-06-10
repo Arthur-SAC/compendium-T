@@ -1,0 +1,16 @@
+{
+  "id": "desengripante-osseo",
+  "tipo": "item",
+  "nome": "Desengripante ósseo",
+  "resumo": "Unguento alquímico para osteon que fornece bônus em Destreza, mas causa quedas ao rolar 1 natural.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 30",
+    "espacos": "0,5",
+    "especial": "Este unguento para osteon faz seus ossos deslizarem como nunca! Fornece +1 em Destreza, mas se você rolar 1 natural em qualquer teste, escorrega e cai no chão, por não estar acostumado com a fluidez de seu esqueleto. Usar o desengripante é uma ação completa e seus efeitos duram 1 dia."
+  }
+}

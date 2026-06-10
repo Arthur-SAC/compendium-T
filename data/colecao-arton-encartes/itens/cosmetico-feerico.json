@@ -1,0 +1,16 @@
+{
+  "id": "cosmetico-feerico",
+  "tipo": "item",
+  "nome": "Cosmético feérico",
+  "resumo": "Maquiagem alquímica que faz aflorar a beleza natural de qualquer um, concedendo bônus em Carisma por 1 dia.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 150",
+    "espacos": "0,5",
+    "especial": "A \"carruagem-chefe\" do Empório, esta maquiagem faz aflorar a beleza natural de qualquer um. Aplicá-la é uma ação completa e fornece +1 em Carisma por 1 dia (esse aumento não fornece PM extras)."
+  }
+}

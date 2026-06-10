@@ -1,0 +1,16 @@
+{
+  "id": "panaceia-para-todos-os-males",
+  "tipo": "item",
+  "nome": "Panaceia para todos os males",
+  "resumo": "Jarro de líquido adocicado com efeito placebo: cura condições prejudiciais se o usuário falhar em um teste de Intuição.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 60",
+    "espacos": "0,5",
+    "especial": "Um jarro com líquido adocicado. Uma pessoa que beba a panaceia (ação padrão) deve fazer um teste de Intuição (CD 20). Se falhar, cura-se de condições prejudiciais que a estejam afetando, como o efeito da magia Purificação aprimorada para todas as condições listadas. Se passar, percebe que os únicos ingredientes especiais do líquido eram açúcar e corante não recebendo nenhum benefício."
+  }
+}

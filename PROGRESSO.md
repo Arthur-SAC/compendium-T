@@ -4,7 +4,15 @@
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
 **Última atualização:** 2026-06-10
-**Fase atual:** Fase 2 — **5º livro GUIA DE NPCs em extração** (branch `fase2.4-deuses-de-arton`, ainda; criar branch própria depois se quiser).
+**Fase atual:** Fase 2 — fila do usuário: ✅ Guia de NPCs → ✅ Encartes → **Guia de Deuses Menores (próximo)** → Atlas de Arton (por último). Branch `fase2.4-deuses-de-arton` (ainda).
+
+**Status (2026-06-10): ✅ COLEÇÃO ARTON — ENCARTES 100% EXTRAÍDO.** Fonte `colecao-arton-encartes` (ordem 6). 16 págs (paisagem, inserts; sem numeração impressa → `fonte.pagina` = página do PDF). **18 entidades:**
+- **4 criaturas:** Soldado (ND1) + Guardião (ND3) tema "Exército do Reinado"; Shatrur (ND6) + Orc do Rosnado (ND–) tema "O Rosnado".
+- **10 itens** (alquímicos): 9 do Empório Purpúrea (Cosmético feérico, Desengripante ósseo, Desescamidificador, Essências de mana Purpúrea [3 variações num arquivo], Lubrificante de ouvido, Panaceia, Perfume purpúrea, Poção da coragem, Primer defesa blindada) + Delírio Verde (veneno). Capitalização decorativa do PDF normalizada.
+- **3 regras (lore):** Exército do Reinado (hierarquia escudos/flâmulas/companhias + 5 Condestáveis), A Corte de Shivara (6 conselheiros), A Noite das Máscaras (festival em Ahlen). Cross-link a `rainha-imperatriz-shivara`.
+- **1 região:** Triunphus ("Um bom lugar para morrer", 9 locais do mapa).
+- **Arte pura ignorada:** heráldica das nações (pg5-6), mapas (imagem), pôster "Por Crimes contra a Supremacia Purista" (NPCs Lothar/Nargom/Klunc/Ayleth já existem no Guia de NPCs).
+- **Fixes:** shatrur usava `conteudo`→`texto`; 2 regras usavam `descricao`→`rotulo` na relação. tsc 0, 166 testes, build **3131 páginas**. Spot-check Noite das Máscaras 0 invenção (nomes conferidos no PDF).
 
 **Status (2026-06-10): ✅ GUIA DE NPCs — LIVRO 100% EXTRAÍDO (3 seções).** Fonte `guia-de-npcs` (ordem 5) no manifesto. Offset PDF = impressa + 2 (83 págs).
 **Totais Guia de NPCs (95 criaturas):** 51 Lendas de Arton (NPCs nomeados, com lore) + 2 companheiros (Presuntador/machado de Klunc, Molosso deheoni/montaria de Shivara) + 1 lacaio (Guarda-costas de elite, do Hermann) + 41 NPCs genéricos do "Povo de Arton" em 6 categorias.

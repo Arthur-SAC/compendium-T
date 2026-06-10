@@ -1,0 +1,44 @@
+{
+  "id": "a-noite-das-mascaras",
+  "tipo": "regra",
+  "nome": "A Noite das Máscaras",
+  "resumo": "Festival popular de Ahlen marcado por festas, excessos, máscaras obrigatórias e atividades que vão de atrações itinerantes ao esporte Coroa de Tauron — palco de crimes, intrigas e o veneno Delírio Verde.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 7 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "A Noite das Máscaras",
+      "texto": "A Noite das Máscaras é um festival realizado em Ahlen. Durante os festejos, excessos acontecem, mas o que é exagero fica a cargo de cada um. Dificilmente alguém será expulso de tavernas e outros lugares particulares por arranjar briga ou falar besteira, mas pode ser jogado para fora caso resolva aparecer sem máscara!"
+    },
+    {
+      "titulo": "O Delírio Verde",
+      "texto": "Derivado do achbuld, o Delírio Verde é um veneno caro, raro e perigoso, com efeitos curiosos e devastadores. Em um primeiro momento, a vítima fica eufórica e fascinada por qualquer pessoa com quem esteja convivendo. Depois, sua mente fica turva e ela obedece a qualquer comando simples dado por essa pessoa. Por último, a vítima se sente doente e pode morrer se o antídoto não for administrado em no máximo um dia depois da dose inicial do veneno. A ironia? O antídoto é o próprio delírio verde!"
+    },
+    {
+      "titulo": "A Gangue de Goblins e Gladro",
+      "texto": "Há uma gangue de goblins especializada em roubo de bebidas caras que age em Ahlen, especialmente durante a Noite das Máscaras. Eles se aproveitam do estereótipo servil da raça no reino para passar despercebidos, embora usem máscaras muito peculiares. Então passam o resto do ano vendendo o produto dos roubos a compradores especiais ou em leilões clandestinos. Dizem que seu líder se chama Gladro; há uma bela recompensa por sua captura."
+    },
+    {
+      "titulo": "Sedarius Trivus e a Coroa de Tauron",
+      "texto": "Sedarius Trivus, um minotauro ex-lutador da Arena de Tiberus e rival ferrenho de Maquius, decidiu viajar por Arton investindo em uma nova modalidade criada por ele mesmo: a Coroa de Tauron. De regras simples, o esporte consiste em correr contra outra criatura até que as duas batam cabeça com cabeça, enquanto carregam um humanoide nos ombros ou lombo. Vence quem resistir sem derrubar seu companheiro. Sedarius segue invicto e espera mais cedo ou mais tarde atrair a atenção do próprio Maquius."
+    },
+    {
+      "titulo": "Atrações Itinerantes",
+      "texto": "Atrações itinerantes aproveitam a Noite das Máscaras para se apresentar a um grande público, às vezes tomando ruas inteiras com seus palcos e atrações. As disputas por espaço são ferrenhas!\n\nTaglia Maglia era uma barda incapaz de focar seu interesse em uma única coisa, e percebeu que jamais viveria o suficiente para aprender tudo que queria. Até que, com a ajuda de um inventor visionário, conseguiu transferir sua consciência para o corpo de um golem de seis braços. Agora ela pode se apresentar fazendo tudo que quer… ao mesmo tempo!\n\nNem só de trambiques vivem os goblins! Molusso parece estar roubando algo, mas na verdade está colocando um presente na bolsa do aventureiro! Ele vem de uma família de ladinos e acha que, fazendo isso, poderá redimir seus antepassados e garantir a eles um lugar ao lado de Khalmyr, o Deus da Justiça!"
+    },
+    {
+      "titulo": "Intrigas, Crimes e o Palácio Rishantor",
+      "texto": "A bagunça da festa pode servir para propósitos nefastos. Acertos de contas e assassinatos acabam sendo soterrados pela balbúrdia, e ainda que os ahlenienses achem o disparo de uma arma de fogo pouco elegante, quem vai acreditar que ele aconteceu se ninguém ouviu nada?\n\nNão há Noite das Máscaras sem uma visita ao Palácio Rishantor, e os nobres levam isso muito a sério. Nos dias posteriores ao feriado é comum que o assunto das rodas seja o palácio, e aquele que falha em responder perguntas a seu respeito — deixando assim claro que falhou em visitá-lo — é ostracizado até a próxima Noite das Máscaras.\n\nOs nobres de Ahlen convivem com a intriga e a traição o tempo todo. Por isso, é normal que tentem se precaver de possíveis ataques. Um anel contém uma joia azul chamada Pupila de Beluhga. Uma agulha emerge da joia, penetrando no dedo de seu usuário. Isso faz com que o frio contido no item se espalhe pelo sangue de seu usuário, congelando e anulando qualquer veneno que lhe seja administrado de qualquer forma!"
+    },
+    {
+      "titulo": "Flâmulas Especiais e Eventos Secretos",
+      "texto": "Flâmulas com o símbolo do reino espalham-se pela cidade. Quando uma flâmula diferente surge, chama a atenção — principalmente se tiver detalhes dourados. Isso significa que algo especial, e possivelmente restrito, está acontecendo no local. Festas exclusivas, leilões clandestinos, encontros de assassinos… Mesmo sem saber qual é o evento, muitos dariam um braço para participar. Literalmente."
+    },
+    {
+      "titulo": "O Amor Livre e os Devotos de Marah",
+      "texto": "O amor é livre na Noite das Máscaras, e há quem lute para que essa liberdade seja ainda maior! Um grupo de devotos de Marah pleiteia que, durante os festejos, os compromissos de qualquer casamento sejam anulados e retomados somente no dia seguinte. Extraoficialmente isso já acontece, mas de acordo com os devotos, qualquer traição alimenta Sszzaas, mesmo que indiretamente. Aprovar a lei traria o ato aos domínios da Deusa da Paz."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {}
+}

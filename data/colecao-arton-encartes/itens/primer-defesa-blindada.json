@@ -1,0 +1,16 @@
+{
+  "id": "primer-defesa-blindada",
+  "tipo": "item",
+  "nome": "Primer defesa blindada",
+  "resumo": "Preparado alquímico que aumenta a dureza da pele, concedendo RD 5 por 1 dia, mas a RD diminui a cada dano sofrido.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 14 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "categoria": "alquímico",
+    "preco": "T$ 90",
+    "espacos": "0,5",
+    "especial": "Este frasco decorado com um escudo contém um preparado que aumenta a dureza da pele. Aplicá-lo é uma ação completa e fornece RD 5 e penalidade de armadura –2 por 1 dia. Entretanto, sempre que você sofrer dano, a RD fornecida pelo preparado diminui em –1."
+  }
+}

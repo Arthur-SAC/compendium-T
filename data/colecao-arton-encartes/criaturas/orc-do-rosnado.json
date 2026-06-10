@@ -1,0 +1,46 @@
+{
+  "id": "orc-do-rosnado",
+  "tipo": "criatura",
+  "nome": "Orc do Rosnado",
+  "resumo": "Lacaio orc do grupo O Rosnado, treinado por Shatrur e que falha automaticamente em qualquer teste oposto ou de resistência.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 12 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [
+    { "tipo": "lacaio", "alvoId": "shatrur", "alvoTipo": "criatura", "rotulo": "Lacaio de Shatrur" }
+  ],
+  "mecanica": {
+    "nd": "–",
+    "tipo": "Humanoide (orc)",
+    "tamanho": "Médio",
+    "tema": "O Rosnado",
+    "iniciativa": "+4",
+    "percepcao": "+1 (+3 no subterrâneo), sensibilidade a luz, visão no escuro",
+    "defesa": "15",
+    "fortitude": "–",
+    "reflexos": "–",
+    "vontade": "–",
+    "pontosDeVida": "1",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada curta +9 (1d6+3, 19)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "–1",
+      "sabedoria": "–1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Falha Automática",
+        "descricao": "Falha automaticamente em qualquer teste oposto ou de resistência."
+      }
+    ],
+    "pericias": "",
+    "equipamento": "Couro batido, espada curta.",
+    "tesouro": "Nenhum."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "exercito-do-reinado",
+  "tipo": "regra",
+  "nome": "O Exército do Reinado",
+  "resumo": "A força militar dos Sete Reinos, formada em 1400 e remodelada por Shivara, organizada em escudos, flâmulas e companhias sob o comando do Arquiduque Marechal Sir Bradwen Lança Dourada.",
+  "fonte": { "livro": "colecao-arton-encartes", "pagina": 3 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "O Exército do Reinado",
+      "texto": "Esta força militar foi formada em 1400 com o objetivo de enfrentar a Tormenta, então uma ameaça nova e misteriosa. Após a Guerra Artoniana, o Exército do Reinado foi remodelado pela Rainha-Imperatriz Shivara, e hoje tem como propósito defender os Sete Reinos de todo tipo de inimigo. Embora os soldados tenham uma capacidade limitada de enfrentar criaturas poderosas, como demônios, liches ou dragões, são uma importante linha de defesa contra perigos mundanos, como bandos gnolls, saqueadores trogs e mesmo hordas duyshidakk que cruzem a Ossada de Ragnar."
+    },
+    {
+      "titulo": "Hierarquia do Exército do Reinado",
+      "texto": "A maior divisão do Exército do Reinado são os cinco escudos. Cada escudo é liderado por um condestável, a maior patente desta força militar. Os condestáveis respondem diretamente ao comandante do Exército do Reinado, o Arquiduque Marechal Sir Bradwen Lança Dourada, ou à própria Rainha-Imperatriz, e possuem tanta influência quanto um alto nobre, como um duque ou príncipe. Porém, raramente se envolvem na política. Em vez disso, passam seu tempo marchando com suas tropas em suas respectivas regiões — e, às vezes, contratando aventureiros para realizar missões pouco adequadas às habilidades dos seus soldados.\n\nUma flâmula consiste de 10 companhias (embora nem todas operem em capacidade máxima). É nomeada de acordo com seu número e o escudo ao qual pertence.\n\nA companhia é a organização básica do Exército do Reinado. Possui cerca de 100 combatentes (1 capitão, 1 a 2 tenentes, 4 a 6 sargentos, 8 a 12 guardiões, 80 a 85 soldados). Companhias possuem um clérigo e um mago, mas isso pode variar (algumas chegam a ter mais de um, enquanto outras não contam com esse reforço). Uma companhia é nomeada pelo número, seguido da flâmula e por fim seu escudo. Assim, temos a 1ª Companhia da 1ª Flâmula do Norte, a 8ª Companhia da 3ª Flâmula do Oeste e assim por diante."
+    },
+    {
+      "titulo": "Contingentes",
+      "texto": "Contingente Máximo: 5 escudos, 20 flâmulas e 200 companhias (20 mil soldados).\n\nContingente Atual: 5 escudos, 18 flâmulas e 175 companhias (18 mil soldados)."
+    },
+    {
+      "titulo": "Os Cinco Condestáveis",
+      "texto": "Os cinco condestáveis lideram cada um dos cinco escudos do Exército do Reinado, respondendo diretamente ao Arquiduque Marechal Sir Bradwen Lança Dourada ou à Rainha-Imperatriz."
+    },
+    {
+      "titulo": "Escudo do Norte — Lorde Condestável Ariel Vrokar",
+      "texto": "Um dahllan druida que se identifica como homem. Comanda o escudo do norte. Assertivo e rígido, relaciona-se com a natureza ao assumir diferentes formas conforme as estações. Muitos nobres de Zakharov desconfiam de sua lealdade, embora sua devoção feroz ao Reinado nunca tenha falhado em batalha."
+    },
+    {
+      "titulo": "Escudo do Leste — Lady Condestablessa Adyla Liamenor",
+      "texto": "Uma meia-elfa marinheira. Comanda o escudo do leste. Enérgica e bem-humorada, geralmente é encontrada navegando na costa de Wynlla ou Bielefeld, expulsando piratas e resolvendo outros problemas locais. É considerada uma heroína pela população costeira e tem conhecimento ímpar das rotas de navegação."
+    },
+    {
+      "titulo": "Escudo da Deusa — Lady Condestablessa Drika Ravas",
+      "texto": "Uma humana cavaleira. Extremamente justa e severa. Comanda o escudo da Deusa, protegendo as estradas, fazendas e vilas do interior de Deheon. Fria e exigente, é pouco amada entre seus comandados, mas respeitada por sua honra. Dizem que é profundamente leal à Rainha-Imperatriz, e já desafiou para duelos quem ousou falar mal de Shivara."
+    },
+    {
+      "titulo": "Escudo do Sul — Lorde Condestável Bertin Dondinas",
+      "texto": "Um hynne arqueiro que alguns afirmam ter sido um assassino de aluguel no passado. Comanda o escudo do sul, uma das áreas mais combalidas do Reinado. De humor ácido e afiado, é bastante pessimista. Porém, apesar do fatalismo, tem se dedicado ao máximo a resolver os problemas dos refugiados do destruído reino de Tyrondir."
+    },
+    {
+      "titulo": "Escudo do Oeste — Lady Condestablessa Tallarinka",
+      "texto": "Uma anã que jamais foi vista fora de sua armadura. Comanda o escudo do oeste, mas pouco se sabe sobre ela. Tallarinka não tem paciência nenhuma para as sutilezas da corte ahleniense e raramente aparece em eventos oficiais. Dizem que sua sede de comando é uma vasta rede de túneis secretos entre Ahlen e a Floresta de Tollon."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "pertence_a", "alvoTipo": "criatura", "alvoId": "rainha-imperatriz-shivara", "rotulo": "Responde à Rainha-Imperatriz Shivara" }
+  ],
+  "mecanica": {}
+}
