@@ -40,9 +40,15 @@ export function FichaCriatura({ entidade, registro, descricoes }: { entidade: En
   const temAtrib = atribOrdem.some(([, v]) => v != null && v !== "");
   const temMain = habilidades.length > 0 || entidade.secoes.length > 0;
   const largura = temMain ? 1140 : 720;
+  const imagem = entidade.imagens[0];
 
   const blocoStats = (
     <>
+      {imagem && (
+        <div style={{ textAlign: "center" }}>
+          <img src={imagem} alt={`Ilustração de ${entidade.nome}`} style={{ width: "100%", maxWidth: 290, height: "auto", filter: "drop-shadow(0 8px 18px rgba(60,30,10,.4))" }} />
+        </div>
+      )}
       <div style={cartaoAside}>
         <div style={{ fontFamily: "var(--serifa)", fontStyle: "italic", color: "var(--tinta-suave)", fontSize: 13, marginBottom: 8 }}>
           {[m.tamanho, m.tipo].filter(Boolean).join(" · ")}

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Goblin Herói",
   "resumo": "Vigilante mascarada e paladina de Lena que protege a Favela dos Goblins de Valkaria há décadas, perpetuando um legado anônimo de heroísmo.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 13 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 13
+  },
+  "imagens": [
+    "/criaturas/goblin-heroi.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "valkaria", "alvoTipo": "regiao", "rotulo": "Protege a Favela dos Goblins em Valkaria" },
-    { "tipo": "devoto", "alvoId": "lena", "alvoTipo": "divindade", "rotulo": "Paladina de Lena" }
+    {
+      "tipo": "habitat",
+      "alvoId": "valkaria",
+      "alvoTipo": "regiao",
+      "rotulo": "Protege a Favela dos Goblins em Valkaria"
+    },
+    {
+      "tipo": "devoto",
+      "alvoId": "lena",
+      "alvoTipo": "divindade",
+      "rotulo": "Paladina de Lena"
+    }
   ],
   "mecanica": {
     "nd": "8",

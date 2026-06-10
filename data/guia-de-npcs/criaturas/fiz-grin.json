@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Fiz-grin",
   "resumo": "Dragão-fada pequeno com asas numeradas que engana aventureiros em busca de completar o desafio de mil peças imposto por Hyninn para realizar seu sonho de se tornar um dragão verdadeiro.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 12 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 12
+  },
+  "imagens": [
+    "/criaturas/fiz-grin.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "hyninn", "alvoTipo": "divindade", "rotulo": "Fez pacto com Hyninn para se tornar dragão verdadeiro" }
+    {
+      "tipo": "devoto",
+      "alvoId": "hyninn",
+      "alvoTipo": "divindade",
+      "rotulo": "Fez pacto com Hyninn para se tornar dragão verdadeiro"
+    }
   ],
   "mecanica": {
     "nd": "13",

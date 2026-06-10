@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Ingram Brassbones",
   "resumo": "Inventor anão especialista em armas de fogo, ex-membro da Guilda dos Armeiros banido de Doherimm, que hoje fabrica munições únicas nos antigos reinos do oeste ao lado da súcubo Nadia.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 24 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 24
+  },
+  "imagens": [
+    "/criaturas/ingram-brassbones.png"
+  ],
   "secoes": [
     {
       "titulo": "O Crânio e o Corvo, O Terceiro Deus",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "relacionado", "alvoId": "tenebra", "alvoTipo": "divindade", "rotulo": "Ex-associado involuntário de um culto a Tenebra" }
+    {
+      "tipo": "relacionado",
+      "alvoId": "tenebra",
+      "alvoTipo": "divindade",
+      "rotulo": "Ex-associado involuntário de um culto a Tenebra"
+    }
   ],
   "mecanica": {
     "nd": "17",

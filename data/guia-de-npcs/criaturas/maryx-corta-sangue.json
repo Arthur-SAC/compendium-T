@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Maryx Corta-Sangue",
   "resumo": "Hobgoblin caçadora de elite de Lamnor, atual líder de um dos maiores exércitos herdeiros de Thwor, marcada pela tragédia pessoal e determinada a unir os goblinoides para concretizar o sonho do Deus da Morte.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 35 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 35
+  },
+  "imagens": [
+    "/criaturas/maryx-corta-sangue.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "thwor", "alvoTipo": "divindade", "rotulo": "Guerreira de Thwor" }
+    {
+      "tipo": "devoto",
+      "alvoId": "thwor",
+      "alvoTipo": "divindade",
+      "rotulo": "Guerreira de Thwor"
+    }
   ],
   "mecanica": {
     "nd": "17",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Sislach Rawia",
   "resumo": "Medusa corpulenta e braço forte do Arquilich Ferren Asloth, líder da Companhia das Serpentes, temida por seu olhar que acarreta deterioração fatal, sempre montada em seu gorlogg Quistus.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 54 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 54
+  },
+  "imagens": [
+    "/criaturas/sislach-rawia.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Sislach de Aslothia" },
-    { "tipo": "aliado", "alvoId": "ferren-asloth", "alvoTipo": "criatura", "rotulo": "Braço forte do Arquilich Ferren Asloth" }
+    {
+      "tipo": "habitat",
+      "alvoId": "aslothia",
+      "alvoTipo": "regiao",
+      "rotulo": "Sislach de Aslothia"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "ferren-asloth",
+      "alvoTipo": "criatura",
+      "rotulo": "Braço forte do Arquilich Ferren Asloth"
+    }
   ],
   "mecanica": {
     "nd": "16",

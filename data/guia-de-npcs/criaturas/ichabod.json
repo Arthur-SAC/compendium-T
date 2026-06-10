@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Ichabod",
   "resumo": "Lefou mago das ilusões, antigo integrante dos Heróis da Joia, cujo espírito ainda guia viajantes perdidos nas ruínas de Tiberus.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 21 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 21
+  },
+  "imagens": [
+    "/criaturas/ichabod.png"
+  ],
   "secoes": [
     {
       "titulo": "A Joia da Alma, A Deusa no Labirinto",

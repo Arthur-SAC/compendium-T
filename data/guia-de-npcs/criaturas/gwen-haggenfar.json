@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Gwen Haggenfar",
   "resumo": "Ex-sumo-sacerdotisa de Wynna e feiticeira colecionadora de pergaminhos que sacrificou seus próprios aprendizes em um ritual catastrófico para acumular poder, ostentando uma das maiores recompensas do Reinado.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 15 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 15
+  },
+  "imagens": [
+    "/criaturas/gwen-haggenfar.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "exdevoto", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Ex-sumo-sacerdotisa de Wynna" }
+    {
+      "tipo": "exdevoto",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Ex-sumo-sacerdotisa de Wynna"
+    }
   ],
   "mecanica": {
     "nd": "15",

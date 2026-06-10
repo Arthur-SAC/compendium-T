@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Inghlblhpholtsgt, a Grande divindade anfíbia",
   "resumo": "Divindade menor tabrachi de nome impronunciável, adorada como o Grande Deus Sapo, que persiste há milênios espalhando sua bênção anfíbia pelo Pântano dos Juncos.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 23 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 23
+  },
+  "imagens": [
+    "/criaturas/inghlblhpholtsgt.png"
+  ],
   "secoes": [
     {
       "titulo": "Atlas de Arton",
@@ -12,9 +17,24 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "pantano-dos-juncos", "alvoTipo": "regiao", "rotulo": "Templo no Pântano dos Juncos, em Deheon" },
-    { "tipo": "relacionado", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Seguiu o chamado de Allihanna segundo os murais" },
-    { "tipo": "relacionado", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Descrito como cria de Megalokk em alguns hieróglifos" }
+    {
+      "tipo": "habitat",
+      "alvoId": "pantano-dos-juncos",
+      "alvoTipo": "regiao",
+      "rotulo": "Templo no Pântano dos Juncos, em Deheon"
+    },
+    {
+      "tipo": "relacionado",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Seguiu o chamado de Allihanna segundo os murais"
+    },
+    {
+      "tipo": "relacionado",
+      "alvoId": "megalokk",
+      "alvoTipo": "divindade",
+      "rotulo": "Descrito como cria de Megalokk em alguns hieróglifos"
+    }
   ],
   "mecanica": {
     "nd": "10",

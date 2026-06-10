@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Lorde Vectorius",
   "resumo": "Um dos dois maiores conjuradores de Arton, criador de Vectora (o Mercado nas Nuvens) e arquimago que governa a cidade voadora como protetor e comerciante astuto.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 34 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 34
+  },
+  "imagens": [
+    "/criaturas/lorde-vectorius.png"
+  ],
   "secoes": [
     {
       "titulo": "",

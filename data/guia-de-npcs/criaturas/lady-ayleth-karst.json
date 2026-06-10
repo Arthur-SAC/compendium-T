@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Lady Ayleth Karst",
   "resumo": "Rainha guerreira do reino de Svalas, coroada por Shivara após desmantelar uma conspiração purista, filha de um nobre svalano e devota da justiça.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 30 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 30
+  },
+  "imagens": [
+    "/criaturas/lady-ayleth-karst.png"
+  ],
   "secoes": [
     {
       "titulo": "",

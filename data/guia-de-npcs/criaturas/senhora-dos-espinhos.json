@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Senhora dos Espinhos",
   "resumo": "Aigrah Vento Leste, druida de Allihanna que fundou a brutal Ordem dos Espinhos após ver seu pai ser morto pelos legionários tauronianos, empunhada pelo Coração de Allihanna.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 49 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 49
+  },
+  "imagens": [
+    "/criaturas/senhora-dos-espinhos.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Devota de Allihanna" },
-    { "tipo": "habitat", "alvoId": "tollon", "alvoTipo": "regiao", "rotulo": "Protetora da Floresta de Tollon" }
+    {
+      "tipo": "devota",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Devota de Allihanna"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "tollon",
+      "alvoTipo": "regiao",
+      "rotulo": "Protetora da Floresta de Tollon"
+    }
   ],
   "mecanica": {
     "nd": "12",

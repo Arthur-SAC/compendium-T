@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Hermann Von Krauser, o General Supremo",
   "resumo": "Veterano lorde-general de Yudennach que fundou a Supremacia Purista, quase conquistou o Reinado na Guerra Artoniana e hoje continua sua campanha a bordo de um mecanotrono após ser aleijado por Lothar Algherulff.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 18 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 18
+  },
+  "imagens": [
+    "/criaturas/hermann-von-krauser.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "yudennach", "alvoTipo": "regiao", "rotulo": "Líder da Supremacia Purista em Yudennach" }
+    {
+      "tipo": "habitat",
+      "alvoId": "yudennach",
+      "alvoTipo": "regiao",
+      "rotulo": "Líder da Supremacia Purista em Yudennach"
+    }
   ],
   "mecanica": {
     "nd": "20",

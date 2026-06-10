@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Crânio Negro",
   "resumo": "Infame assassino e caçador de recompensas de aparente imortalidade, que fez pacto com um Lorde da Tormenta, tornou-se Lorde de Tamu-ra e foi morto em batalha titânica contra Orion Drake.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 8 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 8
+  },
+  "imagens": [
+    "/criaturas/cranio-negro.png"
+  ],
   "secoes": [
     {
       "titulo": "",

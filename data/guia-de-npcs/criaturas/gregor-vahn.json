@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Gregor Vahn",
   "resumo": "Paladino imortal de Thyatis, outrora membro do Esquadrão do Inferno, enlouquecido pela Tormenta e responsável pela queda de Glórienn, a Deusa dos Elfos.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 14 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 14
+  },
+  "imagens": [
+    "/criaturas/gregor-vahn.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "thyatis", "alvoTipo": "divindade", "rotulo": "Paladino de Thyatis" }
+    {
+      "tipo": "devoto",
+      "alvoId": "thyatis",
+      "alvoTipo": "divindade",
+      "rotulo": "Paladino de Thyatis"
+    }
   ],
   "mecanica": {
     "nd": "12",

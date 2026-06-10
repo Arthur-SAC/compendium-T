@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Lisandra de Allihanna",
   "resumo": "Arquidruida suprema de Allihanna e sumo-sacerdotisa mais poderosa de Arton, filha de Mestre Arsenal e dahllan de Galrasia, guerreira invencível na linha de frente contra os lefeu.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 31 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 31
+  },
+  "imagens": [
+    "/criaturas/lisandra-de-allihanna.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Sumo-Sacerdotisa de Allihanna" }
+    {
+      "tipo": "devoto",
+      "alvoId": "allihanna",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-Sacerdotisa de Allihanna"
+    }
   ],
   "mecanica": {
     "nd": "S",

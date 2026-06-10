@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Paollus, o Irmão Mais Velho",
   "resumo": "Líder calmo e meticuloso da Companhia dos Irmãos, maior organização criminosa valkariana, que comanda seu império do crime através de chantagem, capangas e uma presença intimidadora irresistível.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 42 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 42
+  },
+  "imagens": [
+    "/criaturas/paollus.png"
+  ],
   "secoes": [
     {
       "titulo": "",

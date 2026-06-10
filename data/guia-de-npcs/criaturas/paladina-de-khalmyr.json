@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Paladina de Khalmyr",
   "resumo": "Jovem paladina de Petrynia abençoada pelo próprio Khalmyr, criada em mosteiro após um rapto traumático na infância, que guarda uma armadura mágica litúrgica e une forças com aventureiros de Nova Malpetrim para curar sua mãe.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 41 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 41
+  },
+  "imagens": [
+    "/criaturas/paladina-de-khalmyr.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -16,7 +21,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Paladina de Khalmyr" }
+    {
+      "tipo": "devota",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Paladina de Khalmyr"
+    }
   ],
   "mecanica": {
     "nd": "4",

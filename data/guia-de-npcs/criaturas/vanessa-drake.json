@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Vanessa Drake",
   "resumo": "Clériga de Arsenal e heroína da Trilogia da Tormenta, que abandonou seu destino de sumo-sacerdotisa de Keenn para salvar seu filho e tornou-se a primeira escolhida do novo Deus da Guerra.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 62 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 62
+  },
+  "imagens": [
+    "/criaturas/vanessa-drake.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -16,9 +21,24 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "arsenal", "alvoTipo": "divindade", "rotulo": "Primeira clériga de Arsenal" },
-    { "tipo": "devota", "alvoId": "keenn", "alvoTipo": "divindade", "rotulo": "Ex-clériga de Keenn" },
-    { "tipo": "habitat", "alvoId": "bielefeld", "alvoTipo": "regiao", "rotulo": "Vive em Bielefeld" }
+    {
+      "tipo": "devota",
+      "alvoId": "arsenal",
+      "alvoTipo": "divindade",
+      "rotulo": "Primeira clériga de Arsenal"
+    },
+    {
+      "tipo": "devota",
+      "alvoId": "keenn",
+      "alvoTipo": "divindade",
+      "rotulo": "Ex-clériga de Keenn"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "bielefeld",
+      "alvoTipo": "regiao",
+      "rotulo": "Vive em Bielefeld"
+    }
   ],
   "mecanica": {
     "nd": "20",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Klunc, o Bárbaro",
   "resumo": "Bárbaro humano de força colossal que, ao devorar o coração de um gigante, ganhou o poder de crescer até o tamanho de um gigante quando enraivecido.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 29 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 29
+  },
+  "imagens": [
+    "/criaturas/klunc.png"
+  ],
   "secoes": [
     {
       "titulo": "",

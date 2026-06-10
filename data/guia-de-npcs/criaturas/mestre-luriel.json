@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Mestre Luriel",
   "resumo": "Elfo sábio milenar, ex-conselheiro do Rei Khinlanas de Lenórienn e escriba da família Gorgonius em Tapista, enciclopédia viva da história artoniana e tutor de líderes.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 37 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 37
+  },
+  "imagens": [
+    "/criaturas/mestre-luriel.png"
+  ],
   "secoes": [
     {
       "titulo": "",

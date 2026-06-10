@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Tannara",
   "resumo": "Líder misteriosa dos Guardiões Glaciais das Montanhas Uivantes, tida como filha de Beluhga, a Dragoa-Rainha do Gelo, que surgiu das profundezas geladas e possui conexão intrínseca com o frio e a cordilheira.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 57 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 57
+  },
+  "imagens": [
+    "/criaturas/tannara.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "uivantes", "alvoTipo": "regiao", "rotulo": "Líder dos Guardiões Glaciais das Uivantes" },
-    { "tipo": "parente", "alvoId": "beluhga", "alvoTipo": "criatura", "rotulo": "Tida como filha de Beluhga" }
+    {
+      "tipo": "habitat",
+      "alvoId": "uivantes",
+      "alvoTipo": "regiao",
+      "rotulo": "Líder dos Guardiões Glaciais das Uivantes"
+    },
+    {
+      "tipo": "parente",
+      "alvoId": "beluhga",
+      "alvoTipo": "criatura",
+      "rotulo": "Tida como filha de Beluhga"
+    }
   ],
   "mecanica": {
     "nd": "12",

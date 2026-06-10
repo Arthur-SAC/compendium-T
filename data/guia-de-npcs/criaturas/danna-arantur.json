@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Danna Arantur",
   "resumo": "Filha bastarda do Rei Solast de Tollon, guerreira com machados que emergiu como líder popular após os ataques dos minotauros e governa o enclave de Arantur como Princesa Danna.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 10 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 10
+  },
+  "imagens": [
+    "/criaturas/danna-arantur.png"
+  ],
   "secoes": [
     {
       "titulo": "",

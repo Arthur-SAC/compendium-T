@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Hippion, o Deus menor dos Cavalos",
   "resumo": "Corcel imortal venerado como o deus principal de Namalkah, montaria de heróis e pai espiritual dos tropeiros, ginetes e centauros.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 20 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 20
+  },
+  "imagens": [
+    "/criaturas/hippion.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "namalkah", "alvoTipo": "regiao", "rotulo": "Deus principal de Namalkah" }
+    {
+      "tipo": "habitat",
+      "alvoId": "namalkah",
+      "alvoTipo": "regiao",
+      "rotulo": "Deus principal de Namalkah"
+    }
   ],
   "mecanica": {
     "nd": "16",

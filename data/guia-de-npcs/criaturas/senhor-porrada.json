@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Senhor Porrada",
   "resumo": "Meio-orc clérigo de Keenn, guardião solitário do Artefato de Cross, que vaga pelos ermos para manter a poderosa arma longe da civilização.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 48 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 48
+  },
+  "imagens": [
+    "/criaturas/senhor-porrada.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "keenn", "alvoTipo": "divindade", "rotulo": "Devoto de Keenn" }
+    {
+      "tipo": "devoto",
+      "alvoId": "keenn",
+      "alvoTipo": "divindade",
+      "rotulo": "Devoto de Keenn"
+    }
   ],
   "mecanica": {
     "nd": "11",

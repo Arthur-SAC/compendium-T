@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Rodleck Leverick",
   "resumo": "Sumo-sacerdote hynne de Hyninn e arquiteto das Catacumbas de Leverick, labirinto mortal que se expande por Arton e outros mundos, considerado um dos maiores vilões do mundo conhecido.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 46 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 46
+  },
+  "imagens": [
+    "/criaturas/rodleck-leverick.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "hyninn", "alvoTipo": "divindade", "rotulo": "Sumo-sacerdote de Hyninn" }
+    {
+      "tipo": "devoto",
+      "alvoId": "hyninn",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-sacerdote de Hyninn"
+    }
   ],
   "mecanica": {
     "nd": "17",

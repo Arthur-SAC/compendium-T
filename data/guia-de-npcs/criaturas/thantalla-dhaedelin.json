@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Thantalla-Dhaedelin, A Rainha das Fadas",
   "resumo": "Espírito Médio e governante imortal da Pondsmânia, ser de beleza devastadora que passa por cinco fases eternas e mantém uma rivalidade inexplicável com a Rainha Má de Sylarwy-Ciuthnach.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 58 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 58
+  },
+  "imagens": [
+    "/criaturas/thantalla-dhaedelin.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -16,8 +21,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "pondsmânia", "alvoTipo": "regiao", "rotulo": "Governa a Pondsmânia" },
-    { "tipo": "devota", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Criada por Wynna" }
+    {
+      "tipo": "habitat",
+      "alvoId": "pondsmânia",
+      "alvoTipo": "regiao",
+      "rotulo": "Governa a Pondsmânia"
+    },
+    {
+      "tipo": "devota",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Criada por Wynna"
+    }
   ],
   "mecanica": {
     "nd": "S",

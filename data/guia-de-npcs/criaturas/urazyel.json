@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Urazyel",
   "resumo": "Lorde da Tormenta na forma de um castelo vivo colossal ancorado nas Sanguinárias, cujo corpo é uma cidadela completa habitada por lefeu e prisioneiros escravizados.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 60 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 60
+  },
+  "imagens": [
+    "/criaturas/urazyel.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -16,7 +21,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "sanguinarias", "alvoTipo": "regiao", "rotulo": "Ancorado nas Sanguinárias" }
+    {
+      "tipo": "habitat",
+      "alvoId": "sanguinarias",
+      "alvoTipo": "regiao",
+      "rotulo": "Ancorado nas Sanguinárias"
+    }
   ],
   "mecanica": {
     "nd": "S+",

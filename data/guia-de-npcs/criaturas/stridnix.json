@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Stridnix",
   "resumo": "Filha favorita do Dragão-Rei Sckhar, uma kallyanach jovem e ambiciosa que pode assumir a forma de dragão do fogo, cuja descendência potencial com o herói Lothar Algherulff alimenta intrigas dinásticas na corte dracônica.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 56 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 56
+  },
+  "imagens": [
+    "/criaturas/stridnix.png"
+  ],
   "secoes": [
     {
       "titulo": "",

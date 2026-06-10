@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Rainha-Imperatriz Shivara I",
   "resumo": "Monarca de Trebuck e líder do Exército do Reinado que forjou a coalizão contra a Tormenta, sobreviveu ao cativeiro no mundo de Megalokk e retornou mais poderosa do que nunca.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 44 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 44
+  },
+  "imagens": [
+    "/criaturas/rainha-imperatriz-shivara.png"
+  ],
   "secoes": [
     {
       "titulo": "",

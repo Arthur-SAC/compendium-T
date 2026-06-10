@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Dok",
   "resumo": "Goblin inventor ex-salteador e desertora da Aliança Negra, hoje um dos maiores engenhoqueiros de Arton, capaz de transformar qualquer sucata em engenhocas barulhentas mas estranhamente eficientes.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 11 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 11
+  },
+  "imagens": [
+    "/criaturas/dok.png"
+  ],
   "secoes": [
     {
       "titulo": "",

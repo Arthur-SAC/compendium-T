@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Kasumi",
   "resumo": "Última discípula do lendário mestre tamuraniano Miyashi, sobrevivente da Tormenta, que hoje dirige um dojo em Nitamu-ra e protege a comunidade tamuraniana no Reinado.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 27 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 27
+  },
+  "imagens": [
+    "/criaturas/kasumi.png"
+  ],
   "secoes": [
     {
       "titulo": "Crônicas da Tormenta Vol. 2, Guilda do Macaco",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "nitamu-ra", "alvoTipo": "regiao", "rotulo": "Dirige um dojo em Nitamu-ra" }
+    {
+      "tipo": "habitat",
+      "alvoId": "nitamu-ra",
+      "alvoTipo": "regiao",
+      "rotulo": "Dirige um dojo em Nitamu-ra"
+    }
   ],
   "mecanica": {
     "nd": "8",

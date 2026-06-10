@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Shiro Nomatsu",
   "resumo": "Daimyo e sumo-sacerdote de Lin-Wu, guardião do imperador Tekametsu e último do clã Nomatsu, dedicado a preservar as tradições tamuranianas no exílio após a destruição do Império de Jade pela Tormenta.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 50 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 50
+  },
+  "imagens": [
+    "/criaturas/shiro-nomatsu.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "lin-wu", "alvoTipo": "divindade", "rotulo": "Sumo-sacerdote de Lin-Wu" },
-    { "tipo": "aliado", "alvoId": "imperador-tekametsu", "alvoTipo": "criatura", "rotulo": "Guardião do Imperador Tekametsu" }
+    {
+      "tipo": "devoto",
+      "alvoId": "lin-wu",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-sacerdote de Lin-Wu"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "imperador-tekametsu",
+      "alvoTipo": "criatura",
+      "rotulo": "Guardião do Imperador Tekametsu"
+    }
   ],
   "mecanica": {
     "nd": "14",

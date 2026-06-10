@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Nialandarena de Wynna",
   "resumo": "Qareen clériga de Wynna que habita Nova Malpetrim, cuja extraordinária semelhança com a antiga arquimaga Nielendorane de Lenórienn alimenta teorias sobre reencarnação, disfarce ou intervenção divina.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 39 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 39
+  },
+  "imagens": [
+    "/criaturas/nialandarena-de-wynna.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Clériga de Wynna" }
+    {
+      "tipo": "devota",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Clériga de Wynna"
+    }
   ],
   "mecanica": {
     "nd": "4",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Sirrannamena, A Rainha Barda",
   "resumo": "Rainha heroína de Nhardmaran, uma das primeiras heroínas humanas, que expulsou o deus-monstro K'Athanoa com sua voz encantada, introduziu a escrita ao mundo e fundou templos do saber, mas perdeu a própria voz na batalha.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 52 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 52
+  },
+  "imagens": [
+    "/criaturas/sirrannamena.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "tanna-toh", "alvoTipo": "divindade", "rotulo": "Devota de Tanna-Toh" }
+    {
+      "tipo": "devota",
+      "alvoId": "tanna-toh",
+      "alvoTipo": "divindade",
+      "rotulo": "Devota de Tanna-Toh"
+    }
   ],
   "mecanica": {
     "nd": "17*",

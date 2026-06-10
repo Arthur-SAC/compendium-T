@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Val",
   "resumo": "Duelista urbana intempestiva que acompanhou o jovem Mateo em sua jornada pelas Repúblicas Livres, possivelmente uma manifestação da deusa Valkaria.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 61 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 61
+  },
+  "imagens": [
+    "/criaturas/val.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devota", "alvoId": "valkaria", "alvoTipo": "divindade", "rotulo": "Possível manifestação de Valkaria" },
-    { "tipo": "habitat", "alvoId": "sambúrdia", "alvoTipo": "regiao", "rotulo": "Atua nas Repúblicas Livres de Sambúrdia" }
+    {
+      "tipo": "devota",
+      "alvoId": "valkaria",
+      "alvoTipo": "divindade",
+      "rotulo": "Possível manifestação de Valkaria"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "sambúrdia",
+      "alvoTipo": "regiao",
+      "rotulo": "Atua nas Repúblicas Livres de Sambúrdia"
+    }
   ],
   "mecanica": {
     "nd": "4",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Khorr'benn An-ug'atz, Sumo-Sacerdote de Thwor",
   "resumo": "Humano carbonizado e imortal, antigo clérigo de Thyatis convertido ao culto de Thwor após testemunhar a morte do Deus dos Goblinoides, agora seu sumo-sacerdote em Lamnor.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 28 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 28
+  },
+  "imagens": [
+    "/criaturas/khorrben-an-ugatz.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "thwor", "alvoTipo": "divindade", "rotulo": "Sumo-Sacerdote de Thwor" }
+    {
+      "tipo": "devoto",
+      "alvoId": "thwor",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-Sacerdote de Thwor"
+    }
   ],
   "mecanica": {
     "nd": "9",

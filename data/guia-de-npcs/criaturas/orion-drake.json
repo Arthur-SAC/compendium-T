@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Orion Drake",
   "resumo": "Cavaleiro manco de um braço, ex-membro da Ordem da Luz e líder dos Cavaleiros do Corvo, considerado um dos guerreiros mais poderosos do mundo conhecido após liderar o Exército do Reinado contra a Tormenta.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 40 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 40
+  },
+  "imagens": [
+    "/criaturas/orion-drake.png"
+  ],
   "secoes": [
     {
       "titulo": "",

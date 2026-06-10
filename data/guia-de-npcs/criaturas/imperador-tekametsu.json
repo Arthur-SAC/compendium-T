@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Imperador Tekametsu",
   "resumo": "Dragão celestial reencarnado como criança que governou Tamu-ra com honra, sacrificou-se para salvar seu povo da Tormenta e hoje recruta aventureiros em Nitamu-ra.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 22 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 22
+  },
+  "imagens": [
+    "/criaturas/imperador-tekametsu.png"
+  ],
   "secoes": [
     {
       "titulo": "Império de Jade",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "lin-wu", "alvoTipo": "divindade", "rotulo": "Clérigo de Lin-Wu" },
-    { "tipo": "habitat", "alvoId": "nitamu-ra", "alvoTipo": "regiao", "rotulo": "Reside em Nitamu-ra, em Valkaria" }
+    {
+      "tipo": "devoto",
+      "alvoId": "lin-wu",
+      "alvoTipo": "divindade",
+      "rotulo": "Clérigo de Lin-Wu"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "nitamu-ra",
+      "alvoTipo": "regiao",
+      "rotulo": "Reside em Nitamu-ra, em Valkaria"
+    }
   ],
   "mecanica": {
     "nd": "6",

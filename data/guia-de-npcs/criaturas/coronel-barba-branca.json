@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Coronel Barba Branca",
   "resumo": "Soldado de feições felinas e disciplina inabalável do Reino de Yudennach, ex-comandante da Prisão Hardof que partiu em perseguição implacável ao prisioneiro fugitivo Ledd.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 7 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 7
+  },
+  "imagens": [
+    "/criaturas/coronel-barba-branca.png"
+  ],
   "secoes": [
     {
       "titulo": "",

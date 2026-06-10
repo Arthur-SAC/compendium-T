@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Sir Alenn Toren Greenfeld",
   "resumo": "Alto Comandante da Ordem da Luz e sumo-sacerdote de Khalmyr, natural dos Ermos Púrpuras, considerado o melhor cavaleiro do mundo e nunca derrotado em batalha.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 51 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 51
+  },
+  "imagens": [
+    "/criaturas/sir-alenn-toren-greenfeld.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Sumo-sacerdote de Khalmyr" }
+    {
+      "tipo": "devoto",
+      "alvoId": "khalmyr",
+      "alvoTipo": "divindade",
+      "rotulo": "Sumo-sacerdote de Khalmyr"
+    }
   ],
   "mecanica": {
     "nd": "19",

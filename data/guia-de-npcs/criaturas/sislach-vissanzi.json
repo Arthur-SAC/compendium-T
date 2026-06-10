@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Sislach Vissanzi",
   "resumo": "Mestra espiã de Aslothia, uma humana de pele cinzenta que oculta conspiração sob aparência amistosa, capaz de se transformar em abutre humanoide e principal conselheira e protetora do Arquilich Ferren Asloth.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 55 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 55
+  },
+  "imagens": [
+    "/criaturas/sislach-vissanzi.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Mestra espiã de Aslothia" },
-    { "tipo": "aliado", "alvoId": "ferren-asloth", "alvoTipo": "criatura", "rotulo": "Conselheira e protetora do Arquilich Ferren Asloth" }
+    {
+      "tipo": "habitat",
+      "alvoId": "aslothia",
+      "alvoTipo": "regiao",
+      "rotulo": "Mestra espiã de Aslothia"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "ferren-asloth",
+      "alvoTipo": "criatura",
+      "rotulo": "Conselheira e protetora do Arquilich Ferren Asloth"
+    }
   ],
   "mecanica": {
     "nd": "14",

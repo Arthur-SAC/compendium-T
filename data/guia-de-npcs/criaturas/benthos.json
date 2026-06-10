@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Benthos, Dragão-Rei dos Mares",
   "resumo": "Dragão colossal e divindade menor dos oceanos, guardião das ilhas e das profundezas marinhas, que afundou frotas inteiras e sobreviveu ao embate com o Dragão da Tormenta.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 6 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 6
+  },
+  "imagens": [
+    "/criaturas/benthos.png"
+  ],
   "secoes": [
     {
       "titulo": "",

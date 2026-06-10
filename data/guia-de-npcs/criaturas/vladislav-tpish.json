@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Vladislav Tpish",
   "resumo": "Necromante e reitor da Academia Arcana, um dos homens mais inteligentes do Reinado, cuja imortalidade foi concedida por Wynna e cujo trabalho reformulou a reputação dos necromantes em Arton.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 64 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 64
+  },
+  "imagens": [
+    "/criaturas/vladislav-tpish.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,7 +17,12 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Imortalidade concedida por Wynna" }
+    {
+      "tipo": "devoto",
+      "alvoId": "wynna",
+      "alvoTipo": "divindade",
+      "rotulo": "Imortalidade concedida por Wynna"
+    }
   ],
   "mecanica": {
     "nd": "14",

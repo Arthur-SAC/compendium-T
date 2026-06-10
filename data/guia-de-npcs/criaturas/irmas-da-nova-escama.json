@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Irmãs da Nova Escama (Hemera, Acteia e Ilítia)",
   "resumo": "Tríade de medusas feiticeiras filhas de Kallyadranoch que, após séculos petrificadas para preservar a memória do pai, vagam por Arton em busca de discípulas para sua fé dracônica.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 25 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 25
+  },
+  "imagens": [
+    "/criaturas/irmas-da-nova-escama.png"
+  ],
   "secoes": [
     {
       "titulo": "Dragão Brasil 134",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "devoto", "alvoId": "kallyadranoch", "alvoTipo": "divindade", "rotulo": "Filhas e devotas de Kallyadranoch" },
-    { "tipo": "habitat", "alvoId": "floresta-de-tollon", "alvoTipo": "regiao", "rotulo": "Nascidas de uma caverna na Floresta de Tollon" }
+    {
+      "tipo": "devoto",
+      "alvoId": "kallyadranoch",
+      "alvoTipo": "divindade",
+      "rotulo": "Filhas e devotas de Kallyadranoch"
+    },
+    {
+      "tipo": "habitat",
+      "alvoId": "floresta-de-tollon",
+      "alvoTipo": "regiao",
+      "rotulo": "Nascidas de uma caverna na Floresta de Tollon"
+    }
   ],
   "mecanica": {
     "nd": "13",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Nargom Mandíbula",
   "resumo": "Pirata adotado pelo lendário Capitão Draco Mandíbula, tornou-se Campeão de Svalas e símbolo dos Piratas Independentes após superar traição, exílio e lutas que moldaram o destino do Reinado.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 38 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 38
+  },
+  "imagens": [
+    "/criaturas/nargom-mandibula.png"
+  ],
   "secoes": [
     {
       "titulo": "",

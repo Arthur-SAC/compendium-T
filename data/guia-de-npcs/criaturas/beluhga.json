@@ -3,11 +3,21 @@
   "tipo": "criatura",
   "nome": "Beluhga, Dragoa-Rainha do Gelo",
   "resumo": "Dragoa colossal e divindade menor das Montanhas Uivantes, outrora acorrentada por Khalmyr, morta pelo Paladino de Arton e agora reerguida da morte.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 4 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 4
+  },
+  "imagens": [
+    "/criaturas/beluhga.png"
+  ],
   "secoes": [],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "uivantes", "alvoTipo": "regiao", "rotulo": "Habita as Montanhas Uivantes" }
+    {
+      "tipo": "habitat",
+      "alvoId": "uivantes",
+      "alvoTipo": "regiao",
+      "rotulo": "Habita as Montanhas Uivantes"
+    }
   ],
   "mecanica": {
     "nd": "S",

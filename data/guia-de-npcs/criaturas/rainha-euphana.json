@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Rainha Euphana, a Necromante",
   "resumo": "Ex-rainha salistiense deposta após decretar anistia a necromantes e fundar os primeiros hospitais de Salistick, que ressurgiu como heroína mascarada após os eventos da Flecha de Fogo.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 43 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 43
+  },
+  "imagens": [
+    "/criaturas/rainha-euphana.png"
+  ],
   "secoes": [
     {
       "titulo": "",

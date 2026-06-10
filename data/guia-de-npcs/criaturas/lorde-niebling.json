@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Lorde Niebling",
   "resumo": "O Único Gnomo de Arton, inventor genial e Imaginador Imperial da corte de Shivara, criador do ancoradouro de Vectora e de incontáveis inovações tecnológicas.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 33 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 33
+  },
+  "imagens": [
+    "/criaturas/lorde-niebling.png"
+  ],
   "secoes": [
     {
       "titulo": "",

@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Goblin do Cantinho",
   "resumo": "Go Blinn, o goblin faxineiro da Academia Arcana, cuja astúcia e talento para simular a própria morte o salvaram de virar vítima de aventureiros e o colocaram ao lado de lendas de Arton.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 65 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 65
+  },
+  "imagens": [
+    "/criaturas/goblin-do-cantinho.png"
+  ],
   "secoes": [
     {
       "titulo": "",

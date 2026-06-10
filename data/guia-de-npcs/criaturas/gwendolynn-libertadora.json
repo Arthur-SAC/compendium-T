@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Gwendolynn Libertadora",
   "resumo": "Elfa clériga de Tanna-Toh, conselheira da Revolta da Lavoura e libertadora de escravos que, ao receber uma fagulha divina de Tanna-Toh, ascendeu à condição de Deusa Menor da Liberdade.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 16 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 16
+  },
+  "imagens": [
+    "/criaturas/gwendolynn-libertadora.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -16,8 +21,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "ascendeu", "alvoId": "gwendolynn", "alvoTipo": "divindade", "rotulo": "Tornou-se a deusa Gwendolynn" },
-    { "tipo": "devoto", "alvoId": "tanna-toh", "alvoTipo": "divindade", "rotulo": "Clériga de Tanna-Toh" }
+    {
+      "tipo": "ascendeu",
+      "alvoId": "gwendolynn",
+      "alvoTipo": "divindade",
+      "rotulo": "Tornou-se a deusa Gwendolynn"
+    },
+    {
+      "tipo": "devoto",
+      "alvoId": "tanna-toh",
+      "alvoTipo": "divindade",
+      "rotulo": "Clériga de Tanna-Toh"
+    }
   ],
   "mecanica": {
     "nd": "18",

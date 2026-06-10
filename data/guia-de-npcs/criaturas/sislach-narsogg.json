@@ -3,8 +3,13 @@
   "tipo": "criatura",
   "nome": "Sislach Narsogg",
   "resumo": "Osteon gigantesco e diplomata macabro de Aslothia, que conduz negociações sob máscara dourada enquanto carrega um séquito de esqueletos e o montante Avir, forjado com o fêmur de sua própria irmã.",
-  "fonte": { "livro": "guia-de-npcs", "pagina": 53 },
-  "imagens": [],
+  "fonte": {
+    "livro": "guia-de-npcs",
+    "pagina": 53
+  },
+  "imagens": [
+    "/criaturas/sislach-narsogg.png"
+  ],
   "secoes": [
     {
       "titulo": "",
@@ -12,8 +17,18 @@
     }
   ],
   "relacoes": [
-    { "tipo": "habitat", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Diplomata de Aslothia" },
-    { "tipo": "aliado", "alvoId": "ferren-asloth", "alvoTipo": "criatura", "rotulo": "Servo do Arquilich Ferren Asloth" }
+    {
+      "tipo": "habitat",
+      "alvoId": "aslothia",
+      "alvoTipo": "regiao",
+      "rotulo": "Diplomata de Aslothia"
+    },
+    {
+      "tipo": "aliado",
+      "alvoId": "ferren-asloth",
+      "alvoTipo": "criatura",
+      "rotulo": "Servo do Arquilich Ferren Asloth"
+    }
   ],
   "mecanica": {
     "nd": "15",
