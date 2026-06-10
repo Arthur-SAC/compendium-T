@@ -1,0 +1,73 @@
+{
+  "id": "inghlblhpholtsgt",
+  "tipo": "criatura",
+  "nome": "Inghlblhpholtsgt, a Grande divindade anfíbia",
+  "resumo": "Divindade menor tabrachi de nome impronunciável, adorada como o Grande Deus Sapo, que persiste há milênios espalhando sua bênção anfíbia pelo Pântano dos Juncos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 23 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Atlas de Arton",
+      "texto": "Esta divindade menor tem nome impronunciável à maioria dos mortais e é conhecida como Grande Deus Sapo pelos povos tabrachi.\n\nEm antigos murais, aparece como o primeiro ser marinho a pisar em terra firme, parte das criaturas que ouviram o chamado de Allihanna, a Mãe Natureza, para que deixassem as profundezas azuis e migrassem para o continente. Outros hieróglifos o descrevem como mais uma das inúmeras crias de Megalokk, o Deus dos Monstros. Existem até histórias em que sua semente veio do éter entre os mundos, precedendo a existência da vida na face de Arton.\n\nO fato é que o templo mais conhecido desta divindade fica no Pântano dos Juncos, em Deheon. O local é vigiado por um monstro chamado catoblepas, capaz de transformar pessoas em sapoides com um mero olhar. A habilidade do monstro sagrado seria responsável por inflar a população tabrachi local, que vem em um lento mas constante crescimento desde a época do povoamento do continente norte.\n\nNão se sabe quais são os objetivos de Inghlblhpholtsgt. Se os seus locais de culto são apenas resquícios saudosos de uma era em que pântanos cobriam os continentes e libélulas gigantes voavam pelo céu, ou se o deus pretende espalhar a sua bênção anfíbia sobre o mundo. O certo é que, mesmo através de milhares de anos, continua a persistir."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "pantano-dos-juncos", "alvoTipo": "regiao", "rotulo": "Templo no Pântano dos Juncos, em Deheon" },
+    { "tipo": "relacionado", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Seguiu o chamado de Allihanna segundo os murais" },
+    { "tipo": "relacionado", "alvoId": "megalokk", "alvoTipo": "divindade", "rotulo": "Descrito como cria de Megalokk em alguns hieróglifos" }
+  ],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Humanoide (tabrachi, deus menor)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+12",
+    "percepcao": "+12, visão na penumbra",
+    "defesa": "34, imunidade a efeitos de metabolismo, metamorfose e veneno, redução de dano 10",
+    "fortitude": "+16",
+    "reflexos": "+11",
+    "vontade": "+23",
+    "pontosDeVida": "310",
+    "deslocamento": "9m (6q), natação 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Alabarda x2 +27 (1d10+16, x4) e língua +27 (1d6+16 impacto mais veneno, alcance 3m)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "3",
+      "constituicao": "6",
+      "inteligencia": "0",
+      "sabedoria": "3",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Coaxo Reverberante (Padrão)",
+        "descricao": "Criaturas em um cone de 9m sofrem 8d8 pontos de dano psíquico e ficam surdas por 1d4 rodadas (Von CD 32 reduz à metade e evita a condição). Se a criatura falhar no teste de resistência, o som reverbera em sua mente, causando 4d8 pontos de dano psíquico no início de seu próximo turno. Recarga (movimento)."
+      },
+      {
+        "nome": "Glândulas Venenosas",
+        "descricao": "Quando Inghlblhpholtsgt sofre dano por um ataque desarmado ou uma arma natural, o atacante perde 1d12 pontos de vida por veneno (ou 2d12 se o ataque foi com uma mordida)."
+      },
+      {
+        "nome": "Manobra de Língua (Livre)",
+        "descricao": "Se Inghlblhpholtsgt acerta um ataque de língua, ele pode fazer a manobra desarmar ou derrubar (teste +29)."
+      },
+      {
+        "nome": "Salto Esmagador (Padrão)",
+        "descricao": "Inghlblhpholtsgt pula e cai com seu corpo e sua alabarda sobre um oponente do seu tamanho ou menor em alcance médio. O alvo sofre 2d6+16 pontos de dano de impacto, mais 2d10+16 pontos de dano de perfuração, e fica caído (Ref CD 32 reduz à metade e evita a condição). Recarga (movimento)."
+      },
+      {
+        "nome": "Soldados do Pântano (Movimento)",
+        "descricao": "Uma vez por cena, Inghlblhpholtsgt invoca 1d4+1 sapos de batalha em espaços desocupados em alcance médio. Eles agem a partir da próxima rodada de Inghlblhpholtsgt, têm deslocamento 9m (normal e de natação), podem saltar 9m em qualquer direção com uma ação de movimento e podem gastar uma ação padrão para causar 2d4+4 pontos de dano de impacto em uma criatura a até 3m. Os sapos têm For 2, Des 1, Defesa 18, 1 PV e imunidade a veneno e falham automaticamente em qualquer teste oposto ou de resistência."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 3d12 PV e fica paralisado por 1 rodada, Fort CD 32 evita a paralisia e reduz a perda de vida para 1d12."
+      }
+    ],
+    "pericias": "Atletismo +18 (+28 para saltar), Diplomacia +9, Furtividade +12, Religião +13.",
+    "equipamento": "Alabarda maciça, gorro de ervas aprimorado, manto eclesiástico.",
+    "tesouro": "Dobro."
+  }
+}

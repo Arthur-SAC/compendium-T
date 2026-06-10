@@ -1,0 +1,78 @@
+{
+  "id": "cranio-negro",
+  "tipo": "criatura",
+  "nome": "Crânio Negro",
+  "resumo": "Infame assassino e caçador de recompensas de aparente imortalidade, que fez pacto com um Lorde da Tormenta, tornou-se Lorde de Tamu-ra e foi morto em batalha titânica contra Orion Drake.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 8 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Há duas décadas surgia um novo vilão em Arton. Era reconhecido onde quer que fosse por sua armadura de ferro fundido, com um elmo em forma de caveira que escondia suas feições. Tinha agilidade surpreendente e, com postura indolente e desleixada, não fazia esforço para intimidar suas vítimas, mas era aterrorizante por sua aparência e reputação. Mais inquietante ainda, mesmo tendo sido derrotado, mesmo que seu oponente tivesse certeza de tê-lo matado, sempre retornava.\n    Crânio Negro se tornou um infame assassino e caçador de recompensas, sua aparente imortalidade garantindo que seguisse atrás de suas presas até que fossem capturadas ou mortas. Em sua carreira de mercenário aceitava ou recusava trabalhos de maneira aparentemente arbitrária: serviu a grandes senhores da guerra, eliminando alvos \"impossíveis\", e também aceitou trabalhos banais em troca de poucos tibares, em aldeias nos confins do Reinado. Parecia ter ódio especial por magos e pelo então reino de Sambúrdia, mas mesmo isso não passava de especulações. Perseguia seus próprios objetivos indecifráveis, muitas vezes em aparente contradição consigo mesmo. Sua identidade era um mistério — o criminoso parecia ter surgido já com seus equipamentos e suas capacidades letais, sem que ninguém tivesse qualquer pista sobre seu passado.\n    Mas, aos poucos, ficou claro que Crânio Negro era culpado de atos ainda mais atrozes: ele fizera um pacto com o Lorde da Tormenta Gatzvalith. Traiu a própria Criação, servindo à Tempestade Rubra em troca de alguma recompensa que ninguém conhecia.\n    Nem ele mesmo.\n    Crânio Negro não sabia quem era, tinha memórias conflitantes e não podia viver em Arton sem agonia a cada momento. Tinha alguma ligação com a Tormenta e a recompensa que tanto buscava era um lugar onde pudesse viver com algum conforto — um intermediário entre Arton e a Anticriação.\n    Em 1403, Crânio Negro completou um estratagema que envolveu reunir os sobreviventes de um antigo grupo de aventureiros, espalhar simbiontes lefeu pelos Ermos Púrpuras e liderar uma coluna de guerreiros corrompidos em direção a Trebuck. Acreditava-se que sua intenção era declarar guerra contra Arton, mas o alvo do caçador era o próprio Gatzvalith.\n    Crânio Negro havia traído seu antigo mestre e planejava marchar contra o Forte Amarid. Independente de seu objetivo, encontrou um inimigo à altura no cavaleiro Orion Drake. Os exércitos da Tormenta e do Reinado se enfrentaram, ainda que o caçador não desejasse isso. Ao fim desses eventos, descobriu que fora manipulado: tudo não passara de uma conspiração dos Lordes para que ele entendesse que era insignificante perto do poder da Anticriação.\n    Isso só o tornou mais perigoso.\n    Crânio Negro perseguiu seu maior alvo quando invadiu o Reino de Glórienn, a Deusa dos Elfos, para assassiná-la usando a espada de Khalmyr. Embora o plano tenha falhado, provocou a queda da divindade, que se tornou uma deusa menor. Com isso, o caçador foi recompensado com o que tanto queria: um lar. Tornou-se o Lorde da Tormenta de Tamu-ra e enfim achou que alcançaria a paz.\n    Mas ainda tinha um inimigo.\n    Orion Drake liderou um exército de deuses menores contra a área de Tormenta de Tamu-ra e, após uma batalha titânica, Crânio Negro enfim foi morto.\n    A identidade do vilão segue um mistério para quase todos. Ninguém sabe o que aconteceu com os itens mágicos que usava e poucos conhecem a verdade sobre sua capacidade de ressuscitar. Hoje em dia, o maior caçador de recompensas de Arton continua como uma sombra na história do mundo, um lembrete de que traição e desespero podem tornar um artoniano tão terrível quanto um lefeu."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Humanoide (humano/lefeu)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+27",
+    "percepcao": "+23, visão no escuro",
+    "defesa": "61, cura acelerada 10, evasão, imunidade a confuso, efeitos de movimento e metamorfose, fortificação 50%, redução de dano 20, resistência a efeitos divinos +10",
+    "fortitude": "+20",
+    "reflexos": "+34",
+    "vontade": "+28",
+    "pontosDeVida": "1.250",
+    "deslocamento": "12m (8q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Cimitarra x2 +56 (4d8+40, 15, sangramento), cimitarra secundária +56 (4d8+40, 15, sangramento) e desarmado +52 (2d6+40, 19).",
+      "À Distância Arco longo x3 +56 (4d8+40, 18/x3, alcance longo)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "9",
+      "constituicao": "4",
+      "inteligencia": "5",
+      "sabedoria": "5",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Corrompido",
+        "descricao": "Os ataques de Crânio Negro causam +3d8 pontos de dano contra criaturas nativas de Arton."
+      },
+      {
+        "nome": "Caçador Rubro",
+        "descricao": "Crânio Negro pode se mover com seu deslocamento normal enquanto rastreia sem sofrer penalidades no teste de Sobrevivência, pode se esconder mesmo sem camuflagem ou cobertura disponível e a CD para rastreá-lo em terrenos naturais aumenta em +10."
+      },
+      {
+        "nome": "Emboscar",
+        "descricao": "Crânio Negro executa uma ação padrão adicional em seu turno. Ele só pode usar esta habilidade na primeira rodada de um combate."
+      },
+      {
+        "nome": "Explorador",
+        "descricao": "Quando está em florestas, planícies ou áreas de Tormenta, Crânio Negro soma sua Sabedoria na Defesa e em testes de Acrobacia, Atletismo, Furtividade, Percepção e Sobrevivência."
+      },
+      {
+        "nome": "Invocar Lefeu (Completa)",
+        "descricao": "Uma vez por cena, Crânio Negro invoca um ou mais lefeu à sua escolha, cujo ND total somado seja igual a 20. Eles surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas."
+      },
+      {
+        "nome": "Marca da Presa (Livre)",
+        "descricao": "Uma vez por rodada, Crânio Negro analisa uma criatura em alcance longo. Até o fim da cena, ele recebe +5 em testes de perícia, +5 na margem de ameaça e +2d10 em rolagens de dano contra essa criatura (esses bônus são dobrados contra espíritos, humanoides e monstros)."
+      },
+      {
+        "nome": "Saque Rápido",
+        "descricao": "Crânio Negro pode sacar e guardar itens como uma ação livre."
+      },
+      {
+        "nome": "Semilekael",
+        "descricao": "Crânio Negro pode lançar qualquer magia simulada (veja Ameaças de Arton, p. 376) de até 3º círculo como um conjurador de 20º nível (CD 49) sem gastar PM e usando Intimidação no lugar de Misticismo."
+      }
+    ],
+    "pericias": "Acrobacia +32, Atletismo +21, Diplomacia +15, Enganação +17, Furtividade +35, Guerra +21, Intimidação +24, Intuição +21, Investigação +26, Sobrevivência +26.",
+    "equipamento": "Anel da felicidade de Vallen (artefato), arco longo caçador magnífico, armadura de Crânio Negro (artefato), cimitarra precisa magnífica sanguinária x2, flecha de adamante x20, sapatos de camurça aprimorados.",
+    "tesouro": "Padrão."
+  }
+}

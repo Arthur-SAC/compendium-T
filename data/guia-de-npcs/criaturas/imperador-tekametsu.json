@@ -1,0 +1,65 @@
+{
+  "id": "imperador-tekametsu",
+  "tipo": "criatura",
+  "nome": "Imperador Tekametsu",
+  "resumo": "Dragão celestial reencarnado como criança que governou Tamu-ra com honra, sacrificou-se para salvar seu povo da Tormenta e hoje recruta aventureiros em Nitamu-ra.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 22 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Império de Jade",
+      "texto": "Por séculos, Tamu-ra esteve envolta em conflitos pelo poder, quando então este dragão celestial tomou a forma de um jovem imperador que trouxe ordem, governando o povo com honra e perseverança.\n\nVindo do distante mundo de Sora, liderava pelo exemplo e se preocupava profundamente com os mortais, desejando guiá-los para a felicidade. Apesar das críticas de outros dragões, decidiu se ligar aos mortais. Compartilhou de sua experiência, bem como de suas fraquezas e vulnerabilidades. Quando a fúria divina de Lin-Wu ameaçou as terras tamuranianas, ele implorou ao deus por uma alternativa, recebendo a missão de restaurar a harmonia entre os povos tamuranianos.\n\nSegundo as lendas, percorreu os campos de batalha na forma de um monge flautista espalhando a paz com sua melodia. Mesmo sem desejar o poder, após o feito, aceitou a coroa imperial para liderar e proteger aos seus nas horas de necessidade que inevitavelmente viriam.\n\nTekametsu se sacrificou para salvar seu povo da Tormenta quando esta devastou a ilha em 1390, utilizando todas as suas energias para teletransportar os arredores de seu palácio até o continente, onde hoje, na cidade de Valkaria, fica o bairro de Nitamu-ra.\n\nO imperador reencarnou com o aspecto humano de uma criança, visto que sempre foi jovem para os padrões de sua espécie. Travesso, mas dotado de alegria e generosidade inesgotáveis, é conhecido por — ao lado do vigilante sumo-sacerdote Shiro Nomatsu — recrutar pessoalmente aventureiros para missões.\n\nContinua assim a luta tamuraniana para construir os alicerces sólidos de um novo lar, a partir dos escombros deixados pela Tempestade Rubra."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "lin-wu", "alvoTipo": "divindade", "rotulo": "Clérigo de Lin-Wu" },
+    { "tipo": "habitat", "alvoId": "nitamu-ra", "alvoTipo": "regiao", "rotulo": "Reside em Nitamu-ra, em Valkaria" }
+  ],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Espírito (dragão celestial)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+7",
+    "percepcao": "+11, percepção às cegas, visão no escuro",
+    "defesa": "27, imunidade a atordoamento, efeitos de metabolismo, eletricidade, medo, metamorfose e paralisia, redução de dano 5, resistência a magia +1, vulnerabilidade a ácido",
+    "fortitude": "+12",
+    "reflexos": "+6",
+    "vontade": "+18",
+    "pontosDeVida": "265",
+    "pontosDeMana": "34",
+    "deslocamento": "12m (8q), voo 36m (24q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +20 (2d6+14) e duas garras +20 (1d6+14)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "2",
+      "constituicao": "5",
+      "inteligencia": "3",
+      "sabedoria": "4",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Metamorfose (Completa)",
+        "descricao": "Tekametsu se transforma em outra criatura, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Atualmente, sua forma preferida é a de um menino humano (tamanho Pequeno). Se for morto, Tekametsu reverte à sua forma de dragão."
+      },
+      {
+        "nome": "Presença Aristocrática (Reação)",
+        "descricao": "Quando uma criatura tenta machucar Tekametsu, ela deve fazer um teste de Vontade (CD 22). Se falhar, não conseguirá machucá-lo e perderá a ação. Tekametsu só pode usar esta habilidade uma vez por criatura na mesma cena."
+      },
+      {
+        "nome": "Presença Celestial",
+        "descricao": "Uma criatura que comece seu turno em alcance longo de Tekametsu fica abalada até o fim da cena. Criaturas com um código de conduta (como cavaleiros e paladinos) ou devotos de Khalmyr ou Lin-Wu em vez disso ficam fascinados (Von CD 22 evita em ambos os casos e a criatura fica imune a esta habilidade por um dia)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de Lin-Wu de 6º nível (CD 22). Tekametsu pode lançar essas magias sem palavras mágicas, gestos, concentração ou componentes materiais.\n• Curar Ferimentos (Padrão, 6 PM): Uma criatura adjacente cura 7d8+7 PV.\n• Escudo da Fé (Reação, 6 PM): Quando uma criatura em alcance curto sofre um ataque, ela recebe camuflagem leve contra ataques à distância e +4 na Defesa por 1 turno.\n• Raio Solar (Padrão, 5 PM): Criaturas em uma linha de 30m sofrem 5d8 pontos de dano de luz (ou 5d12, se forem mortos-vivos) e ficam ofuscadas por 1 rodada (Ref reduz à metade e evita a condição).\n• Santuário (Padrão, 1 PM): Tekametsu toca uma criatura. Até o fim da cena, ou até que essa criatura faça uma ação hostil, qualquer criatura que tente fazer uma ação hostil contra ela perde a ação (Von evita).\n• Visão Mística (Padrão, 3 PM): Durante 1 dia, Tekametsu detecta todas as auras mágicas em alcance médio e recebe todas as informações sobre elas sem gastar ações. Além disso, ele pode gastar uma ação de movimento para descobrir se uma criatura que possa perceber em alcance médio é capaz de lançar magias e qual a aura gerada pelas magias de círculo mais alto que ela pode lançar.\n• Voz Divina (Padrão, 3 PM): Até o fim da cena, Tekametsu pode conversar com qualquer ser, mesmo que a criatura não seja capaz de falar."
+      }
+    ],
+    "pericias": "Atuação +10, Conhecimento +8, Diplomacia +10, Intuição +9, Misticismo +8, Nobreza +13, Religião +11.",
+    "equipamento": "Instrumento musical (flauta) aprimorado.",
+    "tesouro": "Triplo."
+  }
+}

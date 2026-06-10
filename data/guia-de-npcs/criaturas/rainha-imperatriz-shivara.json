@@ -1,0 +1,65 @@
+{
+  "id": "rainha-imperatriz-shivara",
+  "tipo": "criatura",
+  "nome": "Rainha-Imperatriz Shivara I",
+  "resumo": "Monarca de Trebuck e líder do Exército do Reinado que forjou a coalizão contra a Tormenta, sobreviveu ao cativeiro no mundo de Megalokk e retornou mais poderosa do que nunca.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 44 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "\"Beber vinho? Deveríamos estar lutando. Deveríamos estar bebendo o sangue deles!\"\n— Lady Shivara\n\nO Rei Althar de Trebuck sabia que um dia sua filha teria que assumir o trono e empunhar Carthalkan, a Espada Cristalina, símbolo da família real.\n\nAssim, quando a menina completou 17 anos, seu pai a enviou em uma viagem secreta por Arton, para que, vivendo como aventureira, ela ganhasse a força e sabedoria necessárias para governar. Seis anos depois da partida da princesa, uma área de Tormenta surgiu na fronteira do reino e o monarca pereceu em meio a um ataque das hediondas forças aberrantes.\n\nShivara retornou para clamar seu trono e reinou com justiça, conquistando o amor do povo. No entanto, a ameaça da Tormenta permanecia. Em uma longa série de acordos e manobras diplomáticas, a rainha forjou uma força militar composta por tropas de todas as nações da coalizão — o Exército do Reinado. Então, quando a tempestade avançou, corrompendo o esplendoroso Forte Amarid, ela agiu. Atacou o fenômeno de frente, liderando numerosas tropas e grandes heróis na mais épica das batalhas.\n\nE foi derrotada.\n\nApesar disso, lutara lado a lado das tropas, ganhando o respeito de todos. Quando os minotauros invadiram o Reinado, o antigo Rei-Imperador abdicou em favor dela, única figura política unânime o bastante para liderar a coalizão dos povos em seu lugar.\n\nDurante os eventos que antecederam a Guerra Artoniana, Shivara foi capturada pelos finntroll, aliados secretos da Supremacia Purista. Foi aprisionada em Chacina, mundo de Megalokk, o Deus dos Monstros, onde enfrentou feras colossais para sobreviver e, mais do que isso, lutou contra a influência planar do lugar, que transforma seres racionais em bestas raivosas.\n\nFelizmente, com o auxílio dos heroicos Campeões de Svalas, Shivara conseguiu voltar a Arton. Retomando a liderança do Reinado, desferiu um pesado golpe contra os exércitos do Triângulo Autocrático, pondo fim ao conflito.\n\nHoje, Shivara lidera uma aliança menor e enfraquecida, mas que ainda segue seus ideais de justiça e liberdade. Mais do que isso, por todas as suas aventuras e batalhas, a própria Rainha-Imperatriz está mais poderosa do que nunca. Alguns dizem que voltou de Chacina trazendo o Rubi da Virtude do Deus dos Monstros, que empunharia em uma manopla forjada com o mesmo cristal de sua espada. Outros, que ela voltou fisicamente mais forte de sua jornada planar. Forte demais, talvez… Como um monstro."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "18",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+17",
+    "percepcao": "+19",
+    "defesa": "60, imunidade a encantamento, redução de dano 22, resistência a magia +5",
+    "fortitude": "+29",
+    "reflexos": "+24",
+    "vontade": "+29",
+    "pontosDeVida": "725",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Carthalkan x3 +49 (4d8+45, 16, mais 4d8 corte)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "3",
+      "constituicao": "5",
+      "inteligencia": "4",
+      "sabedoria": "5",
+      "carisma": "9"
+    },
+    "habilidades": [
+      {
+        "nome": "Jogo da Corte",
+        "descricao": "Quando faz um teste de Diplomacia, Intuição ou Nobreza, Shivara rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Orgulho (Reação)",
+        "descricao": "Uma vez por cena, quando faz um teste de perícia, Shivara soma o dobro de seu Carisma (+18) nesse teste."
+      },
+      {
+        "nome": "Palavras Afiadas (Movimento)",
+        "descricao": "Shivara faz um teste de Diplomacia ou Intimidação oposto ao teste de Vontade de uma criatura inteligente (Int –3 ou maior) em alcance médio. Se vencer, ela causa 10d8+10 pontos de dano psíquico não letal à criatura. Se perder, causa metade desse dano. Se a criatura for reduzida a 0 ou menos PV, em vez de cair inconsciente, ela se rende (se Shivara usou Diplomacia) ou fica apavorada e foge da maneira mais eficiente possível (se usou Intimidação)."
+      },
+      {
+        "nome": "Presença Aristocrática (Reação)",
+        "descricao": "Quando uma criatura com um valor de Inteligência tenta machucar Shivara, essa criatura deve fazer um teste de Vontade (CD 48). Se falhar, não conseguirá machucá-la e perderá a ação. Shivara só pode usar esta habilidade uma vez por criatura na mesma cena."
+      },
+      {
+        "nome": "Soberana Majestosa (Movimento)",
+        "descricao": "A voz de Shivara inspira aliados e apavora inimigos. Quando usa esta habilidade, ela escolhe uma das opções a seguir. Esta habilidade só pode afetar uma mesma criatura uma vez por dia.\n• Assombro. Todos os inimigos em alcance médio fazem um teste de Vontade (CD 48). Aqueles que falharem ficam abalados. Aqueles que falharem por 5 ou mais ficam pasmos por 1d4 rodadas e então abalados.\n• Devoção. Até o fim da cena, todos os aliados em alcance médio recebem +5 em testes de perícia e 2d6 pontos de mana temporários."
+      }
+    ],
+    "pericias": "Atletismo +20, Cavalgar +18, Diplomacia +29, Guerra +19, Intimidação +29, Intuição +20, Nobreza +24.",
+    "equipamento": "Armadura completa delicada de mitral guardiã invulnerável, Carthalkan, Coroa Imperial, escudo pesado abascanto guardião, Rubi da Virtude de Megalokk.",
+    "tesouro": "Dobro."
+  }
+}

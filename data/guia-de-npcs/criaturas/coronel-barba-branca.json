@@ -1,0 +1,57 @@
+{
+  "id": "coronel-barba-branca",
+  "tipo": "criatura",
+  "nome": "Coronel Barba Branca",
+  "resumo": "Soldado de feições felinas e disciplina inabalável do Reino de Yudennach, ex-comandante da Prisão Hardof que partiu em perseguição implacável ao prisioneiro fugitivo Ledd.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 7 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Acima de qualquer coisa, o homem conhecido como Coronel Barba Branca é um soldado. A personificação do que há de mais puro dentro dos valores militares do antigo Reino de Yudennach. Filho adotivo do Capitão Brehme, que servia na cidade de Warton.\n    Nada nessa história soaria estranho, não fosse por um detalhe — o fato de Barba Branca ter nascido com feições felinas. Alguns acreditam, sem nenhuma base factual em seu histórico, que ele foi trazido dos Reinos de Moreania ainda bebê por algum motivo desconhecido. Outros teorizam que se trata de uma maldição sofrida pelo próprio Brehme em seus tempos de juventude, e que Barba Branca é seu filho legítimo. A despeito do que se sussurra nos quartéis, porém, ninguém sabe a verdade. Nem o próprio Barba Branca.\n    Criado dentro da mais tradicional disciplina, o coronel sempre pautou seus feitos e objetivos tendo como exemplo a vida de grandes heróis do passado do Reino de Yudennach, e rapidamente cresceu dentro das fileiras do exército. Talvez alcançasse o posto de Lorde General, não fosse o preconceito velado contra não humanos no que viria a se tornar a semente da Supremacia Purista. Seu progresso era frequentemente sabotado, o que alimentava seus próprios conflitos internos. Embora obedecesse a todas as ordens que recebia, não entendia por que havia tanto desprezo por outras raças. Um bom exército só funciona se todos forem um só. Em vez de promovido, o coronel foi transferido para a Prisão Hardof, talvez a mais segura e terrível de Arton.\n    Recebeu o fardo de comandá-la, um carcereiro em seu próprio cárcere. Ainda assim, aceitou seu papel e pretendia garantir que a reputação do lugar jamais fosse manchada. O que aconteceu quando o misterioso prisioneiro chamado Ledd conseguiu escapar com a ajuda de um mago.\n    Para cumprir seu dever, e se redimir por sua falha, o coronel partiu em uma perseguição implacável aos dois fugitivos, munido com uma obstinação raramente vista mesmo nas fileiras do Exército com uma Nação."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "10",
+    "tipo": "Humanoide (raça desconhecida)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+14",
+    "percepcao": "+11",
+    "defesa": "35 (40 na primeira rodada)",
+    "fortitude": "+22",
+    "reflexos": "+10",
+    "vontade": "+16",
+    "pontosDeVida": "360",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x2 +29 (3d6+26, 18)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "5",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Bloqueio Brutal (Reação)",
+        "descricao": "Uma vez por rodada, quando é atingido por um ataque, Barba Branca faz uma rolagem de dano corpo a corpo e subtrai o resultado dessa rolagem do dano causado pelo ataque."
+      },
+      {
+        "nome": "Varrer (Livre)",
+        "descricao": "Uma vez por rodada, quando Barba Branca faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      },
+      {
+        "nome": "Voz de Comando (Movimento)",
+        "descricao": "Barba Branca grita ordens que afetam todas as criaturas em uma esfera de 9m ao seu redor. Aliados de Barba Branca recebem +2 em testes de perícia e rolagens de dano até o fim da cena. Já inimigos ficam pasmos por 1 rodada (Von CD 30 evita; um inimigo só pode ser afetado por esta habilidade uma vez por dia)."
+      }
+    ],
+    "pericias": "Acrobacia +9, Atletismo +15, Cavalgar +14, Diplomacia +12, Guerra +13, Intimidação +14, Nobreza +11.",
+    "equipamento": "Couraça polida reforçada, espada bastarda precisa pungente.",
+    "tesouro": "Padrão."
+  }
+}

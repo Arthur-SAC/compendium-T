@@ -1,0 +1,53 @@
+{
+  "id": "mestre-mercante",
+  "tipo": "criatura",
+  "nome": "Mestre Mercante",
+  "resumo": "Este negociante experiente possui um bazar ou oficina ou comanda uma caravana ou navio mercante. Embora não seja uma figura aventureira, já se habituou a viagens desconfortáveis e já enfrentou sua cota de bandidagem. Talvez seja responsável por contratar o grupo para suas primeiras missões.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 67 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Plebe",
+    "iniciativa": "+8",
+    "percepcao": "+8",
+    "defesa": "20",
+    "fortitude": "+6",
+    "reflexos": "+10",
+    "vontade": "+14",
+    "pontosDeVida": "76",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +12 (1d4+4, 19).",
+      "À Distância Besta pesada +14 (3d6+4, 18, mais 3d4 ácido)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "3",
+      "inteligencia": "3",
+      "sabedoria": "2",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Duro de Enrolar",
+        "descricao": "Recebe +5 em Vontade contra barganha."
+      },
+      {
+        "nome": "Estoque de Poções (Padrão)",
+        "descricao": "Saca e usa uma poção entre as seguintes: Granada de Fogo — causa 10d6 pontos de dano de fogo num raio de 6m em alcance curto (Ref CD 21 reduz à metade); Poção de Invisibilidade — fica invisível por uma cena ou até executar uma ação hostil; Poção de Visão Mística — até o fim da cena, detecta todas as auras mágicas em alcance médio e enxerga criaturas e objetos invisíveis."
+      },
+      {
+        "nome": "Pernas pra que te Quero",
+        "descricao": "Com o costume de correr de assaltantes para salvar sua pele e mercadorias, sempre que se move na direção oposta de seus adversários, seu deslocamento aumenta em +6m."
+      }
+    ],
+    "pericias": "Adestramento +7, Conhecimento +9, Diplomacia +12, Intuição +11, Ofício (mercador) +12.",
+    "equipamento": "Adaga, besta pesada certeira, couro batido reforçado, virotes x20.",
+    "tesouro": "Dobro."
+  }
+}

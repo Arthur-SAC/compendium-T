@@ -3,9 +3,18 @@
 > Estado vivo do projeto. Atualizar a cada tarefa concluída e antes de qualquer compactação.
 > Para retomar: ler `CLAUDE.md` + este arquivo e continuar da seção "PRÓXIMA AÇÃO".
 
-**Última atualização:** 2026-06-08
-**Fase atual:** Fase 2 — 3º livro **HERÓIS DE ARTON** em andamento (branch `fase2.3-herois-de-arton`). Spec
-`docs/superpowers/specs/2026-06-08-fase2-herois-de-arton-design.md` + plano `docs/superpowers/plans/2026-06-08-fase2-herois-plano.md`.
+**Última atualização:** 2026-06-10
+**Fase atual:** Fase 2 — **5º livro GUIA DE NPCs em extração** (branch `fase2.4-deuses-de-arton`, ainda; criar branch própria depois se quiser).
+
+**Status (2026-06-10): ✅ GUIA DE NPCs — LIVRO 100% EXTRAÍDO (3 seções).** Fonte `guia-de-npcs` (ordem 5) no manifesto. Offset PDF = impressa + 2 (83 págs).
+**Totais Guia de NPCs (95 criaturas):** 51 Lendas de Arton (NPCs nomeados, com lore) + 2 companheiros (Presuntador/machado de Klunc, Molosso deheoni/montaria de Shivara) + 1 lacaio (Guarda-costas de elite, do Hermann) + 41 NPCs genéricos do "Povo de Arton" em 6 categorias.
+- **Modelagem:** decisão do usuário = REUSAR `/bestiario` (sem área `/npcs` nova). Todo NPC é `criatura` com `tema` agrupador: "Lendas de Arton" e "Povo de Arton — <A Plebe|O Templo|A Lei|O Crime|A Corte|Mercenários>". Reusa `FichaCriatura` sem mudança de código.
+- **Spike validado:** Beluhga (ND S) — schema `criatura` cobre 100% (defesa com palavras-chave defensivas, magias com `\n•`). tsc 0, 166 testes, build **3110 páginas**.
+- **Extração:** 10 subagentes Sonnet em paralelo (7 lotes Lendas + 3 Povo). Lore das Lendas capturado verbatim em `secoes`. Cross-links p/ divindades/regiões. Dedup: "Gwendolynn Libertadora" (forma mortal/NPC, id `gwendolynn-libertadora`) cross-linkada à deusa `gwendolynn`; "Gorlogg de estimação" → `gorlogg-de-estimacao` (id `gorlogg` já existia). "General Supremo" = stat block do próprio Hermann Von Krauser (não é NPC separado). Montarias só referenciadas (Eclipse/Quistus/Katja-em-Ameaças) não viraram fichas.
+- **Nota de fonte:** o sumário do livro lista as categorias do Povo em ordem diferente das páginas reais; usei os cabeçalhos REAIS (A Lei p.70-71, O Crime p.72-73, A Corte p.74-75, Mercenários p.76-79).
+- **Arte:** decisão do usuário = BACKLOG. As ~50 Lendas têm retrato no PDF (cor+smask), NÃO extraído ainda (fichas com `imagens:[]`). Onda de arte dedicada depois.
+- **Dívida leve:** revisão por visão foi por amostragem (spot-check Cavaleiro 100% fiel + Hermann/Beluhga conferidos); extração text-based (pdftotext = fonte da verdade). Algumas habilidades passivas (ex.: "Ataque Furtivo") com `descricao` vazia. "Criaturas por ND" (índice p.80) e intros de categoria não viraram entidades (são índice/prosa). Recomendável passe de revisão por visão dedicado.
+- **Próximo:** decidir arte das Lendas / próximos livros (Atlas de Arton, Guia de Deuses Menores, Encartes) / merge-PR das branches.
 
 **Status (2026-06-09): ✅✅ DEUSES DE ARTON — LIVRO 100% EXTRAÍDO (Cap. 1-4)** (branch `fase2.4-deuses-de-arton`). Ondas A · 1 · 2 · 3 · 4 todas ✅.
 **Totais Deuses (374 entidades):** 1 classe (Frade) · 1 linhagem (Abençoada) · 20 divindade-expansão (os 20 deuses maiores enriquecidos, com retrato) · 8 divindades novas (3 menores + 5 antigos) · 75 criaturas (20 avatares + 55 Ameaças Divinas) · 23 distinções (com arte) · 75 itens · 41 itens mágicos · 26 magias divinas · 97 poderes (22 heranças Suraggel + 75 concedidos) · 7 regras. Build **3009 páginas**, tsc 0, 166 testes. Spec/plano em `docs/superpowers/`.

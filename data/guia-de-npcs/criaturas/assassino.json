@@ -1,0 +1,53 @@
+{
+  "id": "assassino",
+  "tipo": "criatura",
+  "nome": "Assassino",
+  "resumo": "Hábeis com armas e táticas furtivas, estes matadores são tipicamente contratados por dinheiro; podem agir acompanhados por capangas ou saqueadores, ou atuar como guarda-costas para nobres e chefes de guildas.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 72 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+9",
+    "percepcao": "+3",
+    "defesa": "19, evasão",
+    "fortitude": "+9",
+    "reflexos": "+15",
+    "vontade": "+3",
+    "pontosDeVida": "51",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Duas espadas curtas +12 (1d6+4, 19, mais veneno).",
+      "À Distância Adaga +12 (1d4+4, 19, mais veneno)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "2",
+      "sabedoria": "0",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Assassinar (Movimento)",
+        "descricao": "O assassino analisa uma criatura em alcance curto. Até o fim de seu próximo turno, ele dobra os dados de dano extras por Ataque Furtivo em seu primeiro Ataque Furtivo que causar dano contra essa criatura."
+      },
+      {
+        "nome": "Ataque Furtivo +3d6",
+        "descricao": ""
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha concentrada (perde 1d12 pontos de vida durante 3 rodadas, Fort CD 19 reduz a duração para 1 rodada)."
+      }
+    ],
+    "pericias": "Acrobacia +9, Atletismo +5, Enganação +5, Furtividade +9, Ladinagem +9.",
+    "equipamento": "Adaga x2, couro batido ajustado, espada curta x2, estojo de disfarces, gazua, veneno de naja x3.",
+    "tesouro": "Padrão."
+  }
+}

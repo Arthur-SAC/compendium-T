@@ -1,0 +1,48 @@
+{
+  "id": "carcereiro-mercenario",
+  "tipo": "criatura",
+  "nome": "Carcereiro Mercenário",
+  "resumo": "Indivíduo embrutecido encarregado de manter prisioneiros na linha nas celas de um forte mercenário, divertindo-se com o medo nos olhos de seus \"hóspedes\".",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 77 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Morto-vivo (osteon)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+7",
+    "percepcao": "+5, visão no escuro",
+    "defesa": "24, imunidade a medo, redução de corte, frio e perfuração 5",
+    "fortitude": "+5",
+    "reflexos": "+11",
+    "vontade": "+17",
+    "pontosDeVida": "180",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Ferro em brasa +13 (2d6+8 mais 1d6 fogo) e gancho de carne +13 (2d8+8, x3)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Encarcerar a Coragem (Padrão)",
+        "descricao": "Criaturas em alcance curto ficam abaladas (Von CD 20 reduz a duração para 1 rodada e a criatura não pode mais ser abalada por esta habilidade até o fim da cena). Recarga (movimento)."
+      },
+      {
+        "nome": "Saborear o Tormento",
+        "descricao": "O carcereiro recebe +2 em testes de ataque e rolagens de dano contra criaturas sob efeito de uma condição de medo."
+      }
+    ],
+    "pericias": "Cura +5, Intimidação +12.",
+    "equipamento": "Couraça, ferro em brasa e gancho de carne (equivalentes a uma maça e a uma foice).",
+    "tesouro": "Padrão."
+  }
+}

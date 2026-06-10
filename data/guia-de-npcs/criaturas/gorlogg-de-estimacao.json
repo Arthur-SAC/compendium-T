@@ -1,0 +1,44 @@
+{
+  "id": "gorlogg-de-estimacao",
+  "tipo": "criatura",
+  "nome": "Gorlogg de Estimação",
+  "resumo": "Gorlogg adulto criado e treinado pelos mercenários para servir de animal de estimação, cão de guarda e companheiro de batalha — símbolo de status e poder para o bando.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 78 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Animal",
+    "tamanho": "Grande",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+5",
+    "percepcao": "+4, visão na penumbra",
+    "defesa": "20, resistência a mental +2",
+    "fortitude": "+10",
+    "reflexos": "+7",
+    "vontade": "+5",
+    "pontosDeVida": "72",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Mordida +12 (2d8+8, x3)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "2",
+      "constituicao": "5",
+      "inteligencia": "–4",
+      "sabedoria": "1",
+      "carisma": "–4"
+    },
+    "habilidades": [
+      {
+        "nome": "Agarrar Aprimorado (Livre)",
+        "descricao": "Mordida (teste +16). A criatura agarrada sofre 5 pontos de dano de perfuração quando é agarrada e no início de cada turno do gorlogg de estimação, enquanto estiver agarrada."
+      }
+    ],
+    "pericias": "Atletismo +10.",
+    "equipamento": "Cota de malha espinhosa.",
+    "tesouro": "Nenhum."
+  }
+}

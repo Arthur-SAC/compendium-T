@@ -1,0 +1,61 @@
+{
+  "id": "espiao-mercenario",
+  "tipo": "criatura",
+  "nome": "Espião Mercenário",
+  "resumo": "Agente furtivo que descobre oportunidades de trabalho para sua companhia e em casos extremos fomenta disputas — nezumi são excelentes para este trabalho.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 77 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (nezumi)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+9",
+    "percepcao": "+4, faro, visão no escuro",
+    "defesa": "20, esquiva sobrenatural, evasão, resistência a medo de criaturas maiores +5",
+    "fortitude": "+5",
+    "reflexos": "+13",
+    "vontade": "+9",
+    "pontosDeVida": "75",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada curta +12 (1d8+4, 19, mais veneno) e mordida +12 (1d6+4 corte).",
+      "À Distância Besta leve +12 (1d8+4, 19, mais veneno)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "4",
+      "constituicao": "3",
+      "inteligencia": "–1",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo +2d6",
+        "descricao": "O espião causa 2d6 pontos de dano extras quando o alvo está desprevenido ou flanqueado."
+      },
+      {
+        "nome": "Emboscar (Livre)",
+        "descricao": "O espião executa uma ação padrão adicional em seu turno. Ele só pode usar esta habilidade na primeira rodada de um combate."
+      },
+      {
+        "nome": "Roedor",
+        "descricao": "Quando faz um acerto crítico com sua mordida, o espião deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico (uma armadura avariada impõe –5 na Defesa)."
+      },
+      {
+        "nome": "Rolamento Defensivo (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, o espião reduz esse dano à metade e fica caído."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 1d12 pontos de vida."
+      }
+    ],
+    "pericias": "Acrobacia +8, Atletismo +5, Enganação +3, Furtividade +9 (+11 em urbano), Investigação +2, Intimidação +6, Ladinagem +9.",
+    "equipamento": "Bandana, besta leve, espada curta aumentada, gazua, sapatos de camurça, virotes x20.",
+    "tesouro": "Padrão."
+  }
+}

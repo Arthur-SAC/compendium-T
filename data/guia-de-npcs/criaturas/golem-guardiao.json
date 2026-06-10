@@ -1,0 +1,50 @@
+{
+  "id": "golem-guardiao",
+  "tipo": "criatura",
+  "nome": "Golem Guardião",
+  "resumo": "Construto rudimentar, pouco mais que uma armadura animada, encontrado em castelos e grandes cidades para enfrentar invasores poderosos demais para guardas comuns; runas de adivinhação gravadas no chassi o tornam muito eficaz em detectar inimigos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 70 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Construto",
+    "tamanho": "Grande",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+6",
+    "percepcao": "+12, visão no escuro",
+    "defesa": "30, imunidade a eletricidade, redução de dano 10",
+    "fortitude": "+18",
+    "reflexos": "+13",
+    "vontade": "+7",
+    "pontosDeVida": "55",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Duas pancadas +25 (2d10+15 mais 2d8 eletricidade)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "–1",
+      "constituicao": "4",
+      "inteligencia": "–",
+      "sabedoria": "0",
+      "carisma": "–5"
+    },
+    "habilidades": [
+      {
+        "nome": "Pancada Atordoante",
+        "descricao": "Uma criatura atingida pela pancada do golem guardião fica atordoada por 1 rodada (Fort CD 24 evita e a criatura não pode mais ser atordoada por esta habilidade até o fim da cena)."
+      },
+      {
+        "nome": "Raio (Padrão)",
+        "descricao": "O golem dispara um raio em uma criatura em alcance médio. A criatura sofre 10d8 pontos de dano de eletricidade e fica atordoada por uma rodada (Ref CD 24 reduz à metade, evita a condição e a criatura não pode mais ser atordoada por esta habilidade até o fim da cena). Recarga (movimento)."
+      },
+      {
+        "nome": "Runas Divinatórias (Movimento)",
+        "descricao": "O golem fica sob efeito de Visão da Verdade até o fim da cena."
+      }
+    ],
+    "tesouro": "Fragmentos de runas (CD 21 para extrair, valem T$ 200 para fabricar catalisadores)."
+  }
+}

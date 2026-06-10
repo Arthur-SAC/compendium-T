@@ -1,0 +1,63 @@
+{
+  "id": "kasumi",
+  "tipo": "criatura",
+  "nome": "Kasumi",
+  "resumo": "Última discípula do lendário mestre tamuraniano Miyashi, sobrevivente da Tormenta, que hoje dirige um dojo em Nitamu-ra e protege a comunidade tamuraniana no Reinado.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 27 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Crônicas da Tormenta Vol. 2, Guilda do Macaco",
+      "texto": "Última discípula viva de Miyashi, lendário lutador tamuraniano, nasceu em uma simples vila de pescadores. Por muito tempo, foi aluna clandestina do mestre, devido a um tabu seguido por ele — hoje em desuso — de que apenas homens poderiam ser instruídos em artes marciais.\n\nA garota de olhos amendoados teria oportunidade de pôr à prova todo o treinamento angariado dessa maneira quando o lugar onde morava foi atacado pela Tormenta. Ela se viu forçada a enfrentar outro pupilo de seu sensei, corrompido pela Tempestade Rubra.\n\nÚnica sobrevivente do massacre perpetrado no local pelos invasores lefeu, só conseguiu manter sua mente intacta graças a sua disciplina e determinação. Rumou para a costa do Reinado sozinha, atravessando o oceano em uma simples jangada.\n\nComo outros tamuranianos, acabou indo até Nitamu-ra, último enclave de sua cultura. Lá, abriu um dojo para passar adiante os ensinamentos adquiridos. Para qualquer pessoa que, a despeito de sua origem, se comprometa a usá-los a serviço do bem.\n\nAlém de seu papel na renovação dos costumes tamuranianos, Kasumi também protege a comunidade de ameaças internas, investigando rumores sobre o Clã da Lotus, e externas, enfrentando monstros e ocasionais aventureiros enxeridos.\n\nKasumi pode ensinar suas técnicas a quem se provar digno. Isso normalmente envolve ajudar o povo de Nitamu-ra de alguma forma ou sobreviver a um treino especialmente árduo."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "nitamu-ra", "alvoTipo": "regiao", "rotulo": "Dirige um dojo em Nitamu-ra" }
+  ],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+17",
+    "percepcao": "+12",
+    "defesa": "33, evasão, redução de impacto e psíquico 5, resistência a efeitos mentais, efeitos de movimento e medo +5",
+    "fortitude": "+15",
+    "reflexos": "+15",
+    "vontade": "+15",
+    "pontosDeVida": "245",
+    "deslocamento": "18m (12q), ignora terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Ataque desarmado x3 +30 (2d6+20, 19/x3). Os ataques desarmados de Kasumi são armas mágicas."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "4",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "4",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Bloqueio Desarmado (Reação)",
+        "descricao": "Uma vez por rodada, quando é atingida por um ataque, Kasumi faz uma rolagem de dano corpo a corpo e subtrai o resultado dessa rolagem do dano causado pelo ataque. Se reduzir o dano do ataque a 0, ela pode fazer um ataque desarmado imediatamente contra o atacante."
+      },
+      {
+        "nome": "Investida Vendaval (Completa)",
+        "descricao": "Kasumi faz uma investida. Se acertar o ataque, ela pode continuar seu deslocamento e atacar outro inimigo em qualquer direção, repetindo o processo até errar um ataque ou percorrer uma distância total igual ao dobro do seu deslocamento. Recarga (fazer um acerto crítico)."
+      },
+      {
+        "nome": "Quebramento (Padrão)",
+        "descricao": "Kasumi faz um ataque desarmado que ignora até 10 pontos da RD do alvo e causa dano dobrado. Uma criatura atingida tem sua armadura avariada (–5 na Defesa) ou, se não estiver de armadura, fica debilitada."
+      },
+      {
+        "nome": "Sexto Sentido",
+        "descricao": "Quando falha em um teste de Percepção, Kasumi pode repetir esse teste imediatamente usando Intuição. Além disso, ela pode usar essa perícia para detectar magia como se fosse Misticismo (veja Tormenta20, p.121)."
+      }
+    ],
+    "pericias": "Acrobacia +17, Atletismo +18, Conhecimento +9, Cura +12, Intuição +12.",
+    "equipamento": "Faixas do pugilista.",
+    "tesouro": "Metade."
+  }
+}

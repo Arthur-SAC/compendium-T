@@ -1,0 +1,53 @@
+{
+  "id": "charlatao",
+  "tipo": "criatura",
+  "nome": "Charlatão",
+  "resumo": "O típico \"trambiqueiro\" — falsificador, vigarista, trapaceira ou mercador ambulante de elixires \"milagrosos\" e outros produtos de origem duvidosa; serve para qualquer criminoso capaz de enganar os personagens.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 72 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (hynne)",
+    "tamanho": "Pequeno",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+7",
+    "percepcao": "+3",
+    "defesa": "13",
+    "fortitude": "–1",
+    "reflexos": "+6",
+    "vontade": "+3",
+    "pontosDeVida": "9",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +5 (1d4+3, 19).",
+      "À Distância Funda +10 (1d6+3)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "3",
+      "constituicao": "–1",
+      "inteligencia": "1",
+      "sabedoria": "–1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aparência Inofensiva (Reação)",
+        "descricao": "A primeira criatura inteligente (Int –3 ou maior) que atacar o charlatão em uma cena deve fazer um teste de Vontade (CD 16). Se falhar, perderá sua ação."
+      },
+      {
+        "nome": "Engambelar (Completa)",
+        "descricao": "O charlatão conquista a simpatia das pessoas ao seu redor. Isso simula a magia Enfeitiçar (veja Ameaças de Arton, p. 376), mas afeta todos os humanoides em alcance curto (Von CD 16 evita)."
+      },
+      {
+        "nome": "Sorte Salvadora (Reação)",
+        "descricao": "Uma vez por rodada, quando faz um teste de resistência, o charlatão pode rolar novamente esse teste."
+      }
+    ],
+    "pericias": "Atletismo +5, Diplomacia +8, Enganação +14, Furtividade +9, Jogatina +8, Ladinagem +7.",
+    "equipamento": "Adaga, capa esvoaçante, funda, gazua, pedras x20, poção de curar ferimentos (2d8+2), poção falsa.",
+    "tesouro": "Padrão."
+  }
+}

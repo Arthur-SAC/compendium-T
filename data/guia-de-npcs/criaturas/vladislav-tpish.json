@@ -1,0 +1,66 @@
+{
+  "id": "vladislav-tpish",
+  "tipo": "criatura",
+  "nome": "Vladislav Tpish",
+  "resumo": "Necromante e reitor da Academia Arcana, um dos homens mais inteligentes do Reinado, cuja imortalidade foi concedida por Wynna e cujo trabalho reformulou a reputação dos necromantes em Arton.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 64 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Dizem que, quando Talude abandonou seu posto na Academia Arcana, deixou-a nas mãos de um arcanista prestigiado por seus pares, de intelecto incomparável, meticulosa capacidade organizacional e comportamento ético inquestionável. Um necromante.\n    Professor e estudioso por muitos anos na instituição, este sábio com mania de limpeza já passou por incontáveis aventuras e desventuras, sendo um dos heróis mais famosos de Arton. Participou de expedições junto a Leon Galtran e foi o responsável por infiltrar aventureiros na cidadela de Khalifor, logo após sua ocupação pelas tropas duyshidakk. Por outro lado, foi responsável por trazer de volta à vida o Paladino de Jallar, ex-colega de grupo que se tornaria um dos maiores flagelos do mundo na forma de Paladino de Arton.\n    É um dos homens mais inteligentes do Reinado e uma autoridade em necromancia. Desenvolveu técnicas de reanimação de mortos-vivos que não dependem de ritos profanos, melhorando a reputação dos necromantes em todo o continente. Porém, sua maior atuação foi como acadêmico e instrutor na academia onde hoje é reitor, conquistando junto com o cargo a imortalidade concedida por Wynna, a Deusa da Magia.\n    O advento dos osteon e outros fenômenos ocorridos após a queda do antigo Deus da Morte fizeram o sábio trabalhar mais do que nunca para se manter atualizado nos novos desafios de seu campo de conhecimento, ao mesmo tempo em que administra o dia a dia da maior escola de magia do mundo conhecido."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Imortalidade concedida por Wynna" }
+  ],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+13",
+    "percepcao": "+15",
+    "defesa": "48, redução de trevas 10",
+    "fortitude": "+17",
+    "reflexos": "+24",
+    "vontade": "+30",
+    "pontosDeVida": "420",
+    "pontosDeMana": "125",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "2",
+      "inteligencia": "7",
+      "sabedoria": "4",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando usa Raio Arcano ou lança uma magia com execução de ação completa ou menor, Vlad muda a execução dessa ação para livre."
+      },
+      {
+        "nome": "Magia Registrada",
+        "descricao": "Como criador da magia Crânio Voador dele Mesmo, para Vlad o custo total em PM dessa magia é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam seu custo; já contabilizado). Além disso, sempre que causa dano com essa magia, ele recupera uma quantidade de pontos de vida igual à metade do dano causado em cada alvo."
+      },
+      {
+        "nome": "Professor de Necromancia",
+        "descricao": "Vlad conhece todas as magias arcanas de necromancia. Para ele, essas magias custam –1 PM (já contabilizado) e a CD para resistir a elas aumenta em +2."
+      },
+      {
+        "nome": "Raio Arcano (Padrão, 1 PM)",
+        "descricao": "Uma criatura em alcance médio sofre 5d12 pontos de dano de trevas e não pode recuperar PV por 1 rodada (Ref CD 46 reduz à metade e evita a restrição de cura)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um mago de 17º nível (CD 46, limite de PM 23).\n• Campo de Força (Reação, 7 PM): Quando sofre dano, Vlad recebe redução de dano 50 contra esse dano.\n• Crânio Voador de Vladislav (Padrão, 11 PM): Um crânio de energia negativa causa 13d8+13 pontos de dano de trevas em duas criaturas em alcance médio e deixa os alvos e todas as criaturas a 3m deles abaladas (Fort reduz à metade e evita a condição).\n• Salto Dimensional (Reação, 5 PM): Vlad recebe +5 na Defesa e em testes de Reflexos contra um ataque ou efeito que esteja prestes a atingi-lo e, após a resolução desse efeito, salta para um espaço adjacente desocupado.\n• Tentáculos de Trevas (Padrão, 13 PM): Até o fim da cena, tentáculos surgem em uma esfera de 9m em alcance médio e tentam agarrar todas as criaturas na área. Ao lançar a magia e no início de cada um de seus turnos, Vlad faz um teste da manobra agarrar (usando Misticismo) contra cada criatura na área. Se ele passar, a criatura é agarrada; se a vítima já está agarrada, é esmagada, sofrendo 10d6 pontos de dano de trevas. A área conta como terreno difícil e os tentáculos são imunes a dano."
+      }
+    ],
+    "pericias": "Conhecimento +20, Cura +15, Diplomacia +14, Investigação +18, Misticismo +23, Nobreza +18, Ofício (alquimista) +18, Religião +15.",
+    "equipamento": "Anel da proteção, braceletes de ouro, essência de mana x2, instrumentos de Ofício (alquimista) aprimorados, manto da resistência, poção de curar ferimentos (7d8+7), terra de cemitério x4.",
+    "tesouro": "Padrão."
+  }
+}

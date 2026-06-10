@@ -1,0 +1,57 @@
+{
+  "id": "mercador-desonesto",
+  "tipo": "criatura",
+  "nome": "Mercador Desonesto",
+  "resumo": "Negociante bem-sucedido, talvez dono de um bazar ou mestre de caravanas, e completamente salafrário; grupos recém-chegados de aventuras, carregados de ouro para gastar e tesouros para vender, estão entre seus alvos preferidos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 72 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (tritão)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+8",
+    "percepcao": "+5",
+    "defesa": "23, evasão",
+    "fortitude": "+6",
+    "reflexos": "+12",
+    "vontade": "+15",
+    "pontosDeVida": "95",
+    "deslocamento": "9m (6q), natação 12m",
+    "ataques": [
+      "Corpo a Corpo Tridente +15 (1d8+12).",
+      "À Distância Azagaia +17 (1d6+12)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "4",
+      "constituicao": "0",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Canção dos Mares (Padrão)",
+        "descricao": "Uma vez por cena, o mercador pode lançar Enfeitiçar ou Sono (CD 20)."
+      },
+      {
+        "nome": "Chamar Empregados (Movimento)",
+        "descricao": "O mercador invoca 1d4+1 capangas em espaços desocupados em alcance médio. Eles agem a partir da próxima rodada do mercador, têm deslocamento 9m e podem gastar uma ação padrão para causar 1d10+5 pontos de dano de impacto em uma criatura adjacente. Os capangas têm For 2, Des 1, Defesa 13, 1 PV, falham automaticamente em qualquer teste oposto ou de resistência. Recarga (1d4 rodadas)."
+      },
+      {
+        "nome": "Língua dos Tolos",
+        "descricao": "O mercador usa Enganação no lugar de Diplomacia para barganha e recebe +5 nesses testes. Se um personagem barganhar com o mercador e perder, o mercador muda o preço a seu favor, como se ele estivesse barganhando (veja Tormenta20, p. 118). O personagem irá acreditar que está fazendo um ótimo negócio, a menos que passe em um teste de Vontade (CD 25)."
+      },
+      {
+        "nome": "Tudo que Você Precisa",
+        "descricao": "O mercador tem qualquer item mundano superior de até T$ 1.000 em seu estoque. Entretanto, para cada item, role 1d6 para determinar sua condição. 1-2: o item é falso e não funciona. 3-4: o item está defeituoso e precisa ser consertado. 5-6: o item funciona normalmente. O comprador precisa passar em um teste de Percepção ou de um Ofício apropriado (CD 25) para notar qualquer problema no item."
+      }
+    ],
+    "pericias": "Atletismo +8, Diplomacia +8, Enganação +13 (+18 para barganha), Ladinagem +10, Intuição +5, Misticismo +6.",
+    "equipamento": "Azagaia x2, capa esvoaçante, gazua, luva de pelica, tridente.",
+    "tesouro": "Padrão."
+  }
+}

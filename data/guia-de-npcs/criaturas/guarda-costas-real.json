@@ -1,0 +1,56 @@
+{
+  "id": "guarda-costas-real",
+  "tipo": "criatura",
+  "nome": "Guarda-costas Real",
+  "resumo": "Selecionado entre os melhores combatentes do reino, este guarda-costas de elite traja armadura pesada e empunha uma alabarda nos pontos mais críticos de castelos e palácios.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 75 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+8",
+    "percepcao": "+16",
+    "defesa": "33, imunidade a desprevenido e surpreendido, redução de dano 5",
+    "fortitude": "+20",
+    "reflexos": "+9",
+    "vontade": "+15",
+    "pontosDeVida": "70",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Alabarda x2 +27 (4d6+20, x4)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "0",
+      "constituicao": "4",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Antecipar Perigo",
+        "descricao": "Criaturas adjacentes ao guarda-costas recebem imunidade a desprevenido e surpreendido."
+      },
+      {
+        "nome": "Golpe Punitivo",
+        "descricao": "O guarda-costas recebe +5 na margem de ameaça contra criaturas que tenham atacado ele mesmo ou um de seus aliados na cena."
+      },
+      {
+        "nome": "Retaliar (Reação)",
+        "descricao": "Uma vez por rodada, quando o guarda-costas ou um aliado adjacente é alvo de um ataque corpo a corpo, o guarda-costas pode fazer um ataque na criatura que o atacou."
+      },
+      {
+        "nome": "Zeloso (Reação)",
+        "descricao": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, o guarda-costas pode se tornar o alvo do ataque, que é resolvido normalmente."
+      }
+    ],
+    "pericias": "Atletismo +13, Intuição +12.",
+    "equipamento": "Alabarda aumentada, armadura completa.",
+    "tesouro": "Padrão."
+  }
+}

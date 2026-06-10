@@ -1,0 +1,61 @@
+{
+  "id": "mestre-assassino",
+  "tipo": "criatura",
+  "nome": "Mestre Assassino",
+  "resumo": "O melhor assassino que o dinheiro pode pagar; alguns seguem um código pessoal, são devotos de deuses cruéis ou alimentam algum prazer sádico em tirar vidas — pode também ser o líder de uma guilda de assassinos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 73 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (elfo)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+16",
+    "percepcao": "+11, visão na penumbra",
+    "defesa": "32, evasão aprimorada",
+    "fortitude": "+15",
+    "reflexos": "+21",
+    "vontade": "+9",
+    "pontosDeVida": "152",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Duas cimitarras +25 (2d6+12, 17, mais veneno).",
+      "À Distância Besta pesada +25 (3d6+9, 19, mais veneno)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "6",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "1",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "Assassinar (Movimento)",
+        "descricao": "O assassino analisa uma criatura em alcance curto. Até o fim de seu próximo turno, ele dobra os dados de dano extras por Ataque Furtivo em seu primeiro Ataque Furtivo que causar dano contra essa criatura."
+      },
+      {
+        "nome": "Ataque Furtivo +9d8",
+        "descricao": ""
+      },
+      {
+        "nome": "Dança da Morte (Movimento)",
+        "descricao": "Uma vez por cena, o assassino se movimenta com tanta velocidade que desaparece da visão. Ele fica invisível por 1d4+1 rodadas."
+      },
+      {
+        "nome": "Mão na Boca",
+        "descricao": "O assassino recebe +2 em testes de agarrar (modificador total +27). Quando faz um ataque furtivo contra uma criatura desprevenida, ele pode fazer um teste de agarrar como uma ação livre. A criatura não poderá falar enquanto estiver agarrada dessa forma."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha potente (perde 2d12 pontos de vida durante 3 rodadas, Fort CD 30 reduz a duração para 1 rodada)."
+      }
+    ],
+    "pericias": "Acrobacia +16, Atletismo +10, Enganação +10, Furtividade +16, Ladinagem +16.",
+    "equipamento": "Besta pesada certeira com mira telescópica, cimitarra certeira x2, couraça sob medida, gazua aprimorada, virote de adamante x20.",
+    "tesouro": "Padrão."
+  }
+}

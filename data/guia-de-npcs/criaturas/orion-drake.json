@@ -1,0 +1,73 @@
+{
+  "id": "orion-drake",
+  "tipo": "criatura",
+  "nome": "Orion Drake",
+  "resumo": "Cavaleiro manco de um braço, ex-membro da Ordem da Luz e líder dos Cavaleiros do Corvo, considerado um dos guerreiros mais poderosos do mundo conhecido após liderar o Exército do Reinado contra a Tormenta.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 40 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Orion Drake nasceu numa família nobre de Bielefeld, mas seu nascimento marcou o início da queda da casa. Seu pai era um cavaleiro misterioso que surgiu inesperadamente num torneio — o \"Cavaleiro Risonho\", trajando uma bizarra armadura completa que escondia seu rosto. O filho fora do casamento foi o suficiente para que os Drake caíssem em desgraça entre a nobreza tradicionalista.\n\nOrion cresceu sob o estigma de indesejado e precisou se esforçar mais que qualquer outro para conquistar o reles posto de escudeiro. Apesar da dedicação à cavalaria e sua afiliação à Ordem da Luz, contando com a confiança de Alenn Toren Greenfeld, sua reputação obscura persistia. A nobreza o via como ameaça, com sua honra inflexível. Seu casamento com Vanessa Derrigan, uma clériga de Keenn, agravou a hostilidade que enfrentava, apesar de sua retidão e disciplina exemplares.\n\nA maré de sua vida mudou quando confrontou o caçador de recompensas Crânio Negro, desencadeando uma jornada que o levou a liderar o Exército do Reinado contra a Tormenta. A vitória na Batalha do Crânio e do Corvo restaurou a glória de sua família, concedendo-lhe terras e um estandarte, embora Orion não desejasse tal reconhecimento.\n\nPersistindo na busca por seu filho raptado e enfrentando Crânio Negro, Orion treinou os Cavaleiros do Corvo, sendo expulso da Ordem da Luz. Sua liderança na batalha que pôs fim à área de Tormenta de Tamu-ra marcou a primeira vitória de Arton contra a Tempestade Rubra. Porém, trouxe consequências, incluindo a ascensão de Kallyadranoch e seu julgamento pelo próprio Khalmyr, cujo veredito permanece em segredo.\n\nAtualmente, Orion se considera aposentado, dedicando-se à família em suas modestas terras. É um dos guerreiros mais poderosos do mundo conhecido, mas escolheu envelhecer humilde, em paz na obscuridade."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+17",
+    "percepcao": "+17",
+    "defesa": "61, fortificação 50%, redução de dano 10, resistência a magia e medo +5",
+    "fortitude": "+34",
+    "reflexos": "+20",
+    "vontade": "+28",
+    "pontosDeVida": "780",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada-Deus x3 +55 (4d12+75, 14)."
+    ],
+    "atributos": {
+      "forca": "9",
+      "destreza": "1",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Bravura Inquebrável",
+        "descricao": "Orion Drake sofre apenas metade do dano de ataques e habilidades."
+      },
+      {
+        "nome": "Cavaleiro Veterano",
+        "descricao": "Orion passa automaticamente em testes de Cavalgar para não cair da montaria quando sofre dano, e não sofre penalidades para atacar à distância enquanto montado. Além disso, quando faz uma investida montada, ele causa o dobro do dano e pode continuar se movendo depois do ataque. Ele deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento."
+      },
+      {
+        "nome": "Corcel de Batalha",
+        "descricao": "Orion cavalga um cavalo de batalha (veja Tormenta20, p. 262). Enquanto ele estiver montado, seu deslocamento se torna 15m, ele recebe duas ações de movimento extras por turno (apenas para se deslocar) e +2 nos testes de ataque e +1d6 nas rolagens de dano de seus ataques corpo a corpo."
+      },
+      {
+        "nome": "Duelo (Livre)",
+        "descricao": "Uma vez por rodada, Orion escolhe um oponente em alcance curto e recebe +5 em testes de ataque e rolagens de dano contra ele até o fim da cena ou até atacar outro oponente."
+      },
+      {
+        "nome": "Ordens Avançadas (Movimento)",
+        "descricao": "Orion grita ordens para seus aliados em alcance médio. Eles recebem +5 em testes de perícia até o fim da cena."
+      },
+      {
+        "nome": "Resoluto (Livre)",
+        "descricao": "Uma vez por rodada, Orion refaz um teste de resistência contra uma condição (como abalado, paralisado etc.) que o esteja afetando. O segundo teste recebe um bônus de +5 e, se ele passar, cancela o efeito. Orion só pode usar esta habilidade uma vez por efeito."
+      },
+      {
+        "nome": "Ferimento Permanente",
+        "descricao": "Orion não possui o braço esquerdo. Ele sofre –2 em Acrobacia, Atletismo (já contabilizado), Ladinagem e Ofício, e só pode empunhar um item."
+      }
+    ],
+    "pericias": "Atletismo +21, Cavalgar +15, Diplomacia +19, Guerra +21, Nobreza +16.",
+    "equipamento": "Armadura completa reforçada de adamante abascanta guardiã, cinto da força do gigante, Espada-Deus, tabardo aprimorado.",
+    "tesouro": "Padrão."
+  }
+}

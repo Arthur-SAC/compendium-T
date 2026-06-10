@@ -1,0 +1,69 @@
+{
+  "id": "senhora-dos-espinhos",
+  "tipo": "criatura",
+  "nome": "Senhora dos Espinhos",
+  "resumo": "Aigrah Vento Leste, druida de Allihanna que fundou a brutal Ordem dos Espinhos após ver seu pai ser morto pelos legionários tauronianos, empunhada pelo Coração de Allihanna.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 49 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Aigrah Vento Leste fazia parte da Ordem do Bosque de Allihanna, o principal círculo druídico do reino de Tollon. Tendo viajado por boa parte do Reinado, ganhou o epíteto ainda muito jovem.\n\nAo voltar, encontrou o bosque sob ataque do Império de Tauron. Viu o pai — líder da ordem — ser morto pelos legionários. Trespassada por uma lança, arrastou-se até o Coração de Allihanna, o artefato que os druidas protegiam, e fez uma última súplica à deusa. O item fez o próprio bosque se voltar contra os minotauros, derrotando-os.\n\nNascia uma nova ordem, abraçando a brutalidade da natureza: a Ordem dos Espinhos. Aigrah, agora a Senhora dos Espinhos, jurou devolver a Floresta de Tollon aos dias antigos, custe o que custar."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devota", "alvoId": "allihanna", "alvoTipo": "divindade", "rotulo": "Devota de Allihanna" },
+    { "tipo": "habitat", "alvoId": "tollon", "alvoTipo": "regiao", "rotulo": "Protetora da Floresta de Tollon" }
+  ],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+7",
+    "percepcao": "+15, visão na penumbra",
+    "defesa": "39, cura acelerada 10, imunidade a atordoamento, efeitos de metabolismo e sangramento, redução de dano 10",
+    "fortitude": "+20",
+    "reflexos": "+12",
+    "vontade": "+26",
+    "pontosDeVida": "385",
+    "pontosDeMana": "77",
+    "deslocamento": "9m (6q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Duas garras do bosque +34 (2d8+18 corte, mais sangramento)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "1",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Coração de Allihanna",
+        "descricao": "O coração na Senhora dos Espinhos é uma fonte de poder primal e instável. No início de cada rodada de combate, Aigrah recebe 1 ponto de ferocidade. No início de cada turno dela, há 10% de chance por ponto de ferocidade de ocorrer uma manifestação do Coração (as manifestações são cumulativas, ocorrem em ordem e não afetam Aigrah).\n• Primeira Manifestação. O Coração emite uma aura de crescimento vegetal com 30m de raio. Dentro dela o terreno se torna difícil e criaturas ficam enredadas e imóveis (Ref CD 35 evita). Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo.\n• Segunda Manifestação. A aura gera pulsos de energia primal. Cada criatura que começa seu turno dentro da aura é atingida por um desses pulsos, que pode curar 6d6 pontos de vida ou causar 6d6 pontos de dano de fogo (50% de chance cada; Ref CD 35 reduz à metade).\n• Terceira Manifestação. Os efeitos se intensificam. A vegetação se torna espinhosa; deslocar-se dentro da área causa 1d4 pontos de dano de perfuração por quadrado percorrido. Além disso, descargas elétricas passam a se formar dentro da área; cada criatura que comece seu turno dentro da aura sofre 8d6 pontos de dano de eletricidade e fica ofuscada por 1 rodada (Ref CD 35 reduz à metade e evita a condição)."
+      },
+      {
+        "nome": "Empatia Selvagem",
+        "descricao": "Aigrah pode se comunicar com animais por meio de linguagem corporal e vocalizações. Ela pode usar Adestramento para mudar atitude e pedir favores de animais."
+      },
+      {
+        "nome": "Evocar a Força da Natureza (Livre)",
+        "descricao": "Uma vez por rodada, Aigrah pode receber 1 ponto de ferocidade para executar uma ação padrão adicional em seu turno."
+      },
+      {
+        "nome": "Garras do Bosque",
+        "descricao": "Uma criatura atingida pelas garras mágicas de Aigrah fica sangrando e, enquanto estiver com esse sangramento, é considerada em condição difícil para lançar magias."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma druida de Allihanna de 12º nível (CD 35, limite de PM 17). Suas escolas conhecidas são convocação, evocação e transmutação.\n• Curar Ferimentos (Padrão, 12 PM) Uma criatura adjacente cura 12d8+12 PV ou criaturas escolhidas em alcance curto curam 7d8+7.\n• Primor Atlético (Movimento, 2 PM) Aigrah salta e pousa em alcance corpo a corpo de uma criatura em alcance curto. Se fizer um ataque corpo a corpo contra essa criatura nesse mesmo turno, ela recebe os benefícios e penalidades de uma investida e causa um dado extra de dano do mesmo tipo com esse ataque.\n• Sopro das Uivantes (Padrão, 12 PM) Criaturas em um cone de 9m sofrem 10d6 pontos de dano de frio e, se forem Grandes ou menores, ficam caídas e são empurradas 6m na direção oposta. Se houver uma parede ou outro objeto sólido (mas não uma criatura) no caminho, a criatura para de se mover, mas sofre +2d6 pontos de dano de impacto (Fort reduz à metade e evita a condição e o empurrão).\n• Velocidade (Padrão, 3 PM, sustentada) Aigrah pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias."
+      }
+    ],
+    "pericias": "Adestramento +13, Atletismo +12, Cura +15, Furtividade +11, Intimidação +13, Misticismo +12, Religião +15, Sobrevivência +15.",
+    "equipamento": "Capa pesada, dedo de ente, maleta de medicamentos, símbolo sagrado de Allihanna.",
+    "tesouro": "Padrão."
+  }
+}

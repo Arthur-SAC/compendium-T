@@ -1,0 +1,53 @@
+{
+  "id": "rainha-euphana",
+  "tipo": "criatura",
+  "nome": "Rainha Euphana, a Necromante",
+  "resumo": "Ex-rainha salistiense deposta após decretar anistia a necromantes e fundar os primeiros hospitais de Salistick, que ressurgiu como heroína mascarada após os eventos da Flecha de Fogo.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 43 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Salistick, o Reino sem Deuses, era governado por quatro clãs que se revezavam no poder. Às vezes, isso acontecia antes do previsto. Sem magia divina, mesmo monarcas sucumbiam ao contrair pestes ou cair de montarias.\n\nFoi em meio a uma destas sucessões apressadas que Euphana, da família Acetos, se viu alçada ao trono. Antes de ser coroada, teria sido revelado à jovem um segredo, que percorria sua linhagem desde a fundação do majestado — isso passou a assombrá-la.\n\nTornou-se imprevisível, errática.\n\nConta-se que, em certa noite, após ouvir a súplica de um escultor para que lhe permitissem estudar cadáveres, a soberana tomou uma estranha decisão. Deu o perdão real a todos os necromantes presos em sua masmorra, desde que estes aceitassem servir-lhe e compartilhassem seus conhecimentos.\n\nNinguém sabe o que motivou o decreto, mas os estudos sobre anatomia compilados desta maneira foram cruciais quando o país recebeu refugiados da guerra civil de 1075 e, sob ordens da regente, hospitais de campanha foram estabelecidos, acolhendo feridos. Em tais lugares foram treinados os cirurgiões que, mais tarde, originaram os primeiros médicos salistienses.\n\nApesar de seus feitos, sem apoio das Famílias Fundadoras, a Rainha Necromante, como a apelidaram seus rivais políticos, acabou deposta em um golpe, obrigada a abdicar.\n\nUma lenda diz que antes de partir da corte, ela teria removido a própria coroa e proferido:\n\n\"Venci a morte com minhas mãos, o que seguram é um adorno. Não preciso dele para cumprir a promessa de servir ao povo. E continuarei a honrá-la, para além do tempo que tal apetrecho deixar de cingir cabeças.\"\n\nEste tempo finalmente parece ter chegado em Salistick, onde monarcas são agora algo obsoleto.\n\nEntrementes, noutras paragens de Arton, um grupo de aventureiros em apuros relatou ter sido salvo por uma heroína mascarada, toda vestida de branco. Pelas vestes peculiares, alegam ser a ex-rainha salistiense, ressuscitada como muitas almas durante os eventos da Flecha de Fogo.\n\nTal figura curiosa, porém, teria recusado a ser chamada por qualquer honorífico. Alegou enigmaticamente que a missão dela em sua terra natal (qual-quer essa tenha sido) já foi cumprida, e que seu trabalho agora é simplesmente ajudar outras pessoas, como médica e sábia.\n\nNo fundo, o que Euphana almeja é que os demais povos artonianos alcancem o que seus antigos súditos já conquistaram."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Morta-viva (osteon)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+4",
+    "percepcao": "+8, visão no escuro",
+    "defesa": "21, redução de corte, frio e perfuração 5",
+    "fortitude": "+10",
+    "reflexos": "+3",
+    "vontade": "+15",
+    "pontosDeVida": "70",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bisturi x2 +15 (2d8+5 corte, 17)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "5",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Medicina Ancestral (Completa)",
+        "descricao": "Euphana cura 6d6 PV e uma condição prejudicial de uma criatura adjacente. Ela pode usar esta habilidade apenas uma vez por dia em cada criatura."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Euphana é uma parceira veterana que fornece +2 em Cura e permite que, uma vez por rodada, você gaste 2 PM para curar 4d6 PV e uma condição prejudicial de uma criatura adjacente."
+      }
+    ],
+    "pericias": "Conhecimento +13, Cura +18, Nobreza +8.",
+    "equipamento": "Bisturi (conta como uma adaga precisa e atroz), maleta de medicamentos aprimorada.",
+    "tesouro": "Nenhum."
+  }
+}

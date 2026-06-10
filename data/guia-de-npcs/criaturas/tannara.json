@@ -1,0 +1,65 @@
+{
+  "id": "tannara",
+  "tipo": "criatura",
+  "nome": "Tannara",
+  "resumo": "Líder misteriosa dos Guardiões Glaciais das Montanhas Uivantes, tida como filha de Beluhga, a Dragoa-Rainha do Gelo, que surgiu das profundezas geladas e possui conexão intrínseca com o frio e a cordilheira.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 57 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Entre as geleiras das Uivantes, todos já ouviram falar desta astuta caçadora. E quase todos já ouviram pelo menos um dos boatos a seu respeito.\n\nNinguém sabe dizer ao certo de onde Tannara veio. Dizem que teria emergido de dentro das águas de um lago congelado, durante a noite, completamente nua e incólume ao frio. Empunhava um arpão feito de gelo eterno e vinha montada em imponente cavalo glacial, ostentando aura digna dos maiores campeões sagrados. Verdade ou não, ela certamente tem uma conexão especial com essas montarias e não se importa com o frio mais rigoroso.\n\nAs histórias mais ousadas oferecem uma explicação para tudo isso: Tannara seria filha de Beluhga, a Dragoa-Rainha do Gelo, possuindo uma ligação intrínseca com a cordilheira e com o próprio frio. Mesmo se isso for verdade, não há sequer boatos sobre quem seria seu pai — o que levou a especulações ainda mais fantásticas de que Beluhga teria moldado a filha a partir do gelo mais antigo e profundo nas Uivantes. Tannara seria, assim, literalmente parte das montanhas.\n\nSem qualquer explicação e por motivos incertos, a guerreira misteriosa se apresentou aos Guardiões Glaciais, protetores das Uivantes que vigiam contra caçadores de troféus e aventureiros intrometidos. Os Guardiões reconheceram algo especial nela: não apenas Tannara foi prontamente acolhida entre eles, logo passou a liderá-los. As capacidades extraordinárias e a determinação inabalável da nova líder concederam ao grupo força redobrada. Num misto de devoção a seu ambiente e a sua deusa, os Guardiões se consideram os grandes heróis das Uivantes, guias e espreitadores que travam contato com todos os povos da região, conhecem todos os monstros, descobrem todos os intrusos.\n\nTannara é respeitada por todos que conhecem sua reputação — e temida por quase todos. Não hesita em caçar humanoides que considera nocivos às Uivantes, tratando-os como meras presas. Contudo, também ajuda aventureiros que demonstrem reverência pela região e pela dragoa. Heróis com motivos nobres podem facilmente ser acolhidos pelos Guardiões Glaciais e ver um lado descontraído e amigável de Tannara. E logo podem ser recrutados para missões a serviço da cordilheira."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "uivantes", "alvoTipo": "regiao", "rotulo": "Líder dos Guardiões Glaciais das Uivantes" },
+    { "tipo": "parente", "alvoId": "beluhga", "alvoTipo": "criatura", "rotulo": "Tida como filha de Beluhga" }
+  ],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Monstro (kallyanach)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+15",
+    "percepcao": "+13, faro, visão no escuro",
+    "defesa": "34, imunidade a atordoamento, cansaço, frio, metamorfose e paralisia, redução de dano 5, resistência a magia +1",
+    "fortitude": "+23",
+    "reflexos": "+20",
+    "vontade": "+15",
+    "pontosDeVida": "590",
+    "deslocamento": "9m (6q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Arpão x2 +36 (2d10+29, x4, mais 2 frio).",
+      "À Distância Arco longo x2 +36 (2d8+29, 19/x3, mais 2 frio)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "5",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "3",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Emboscar (Livre)",
+        "descricao": "Tannara executa uma ação padrão adicional em seu turno. Ela só pode usar esta habilidade na primeira rodada de um combate."
+      },
+      {
+        "nome": "Filha do Gelo",
+        "descricao": "Enquanto está em terreno ártico, Tannara recebe +6 na Defesa e nos testes de Acrobacia, Atletismo, Furtividade, Percepção e Sobrevivência, e seus ataques corpo a corpo causam +2d6 pontos de dano de frio."
+      },
+      {
+        "nome": "Katja",
+        "descricao": "Tannara cavalga Katja, uma égua glacial veterana (Ameaças de Arton, p. 213). Enquanto Tannara está montada, ela recebe deslocamento de natação 12m e, uma vez por rodada, +2d8 em uma rolagem de dano corpo a corpo."
+      },
+      {
+        "nome": "Marca da Presa (Livre)",
+        "descricao": "Uma vez por rodada, Tannara analisa uma criatura em alcance longo. Até o fim da cena, ela recebe +3 em testes de perícia e +1d12 em rolagens de dano contra essa criatura (o bônus em dano é dobrado contra criaturas que não sejam nativas das Uivantes)."
+      }
+    ],
+    "pericias": "Acrobacia +15, Adestramento +12, Atletismo +16, Furtividade +17 (+19 em ártico), Guerra +10, Intimidação +12, Sobrevivência +15.",
+    "equipamento": "Arco longo preciso, arpão cruel maciço de gelo eterno, flechas de gelo eterno x20, gibão de peles delicado, manto camuflado (ártico).",
+    "tesouro": "Metade."
+  }
+}

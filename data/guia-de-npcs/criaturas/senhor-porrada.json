@@ -1,0 +1,60 @@
+{
+  "id": "senhor-porrada",
+  "tipo": "criatura",
+  "nome": "Senhor Porrada",
+  "resumo": "Meio-orc clérigo de Keenn, guardião solitário do Artefato de Cross, que vaga pelos ermos para manter a poderosa arma longe da civilização.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 48 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Criado num bando orc, Syphos nunca conheceu seus pais. Tudo que lembra é que, assim que teve idade para erguer uma picareta, foi atirado para trabalhar nas galerias de uma mina. Sua força física fez com que subisse na hierarquia de seu bando: de minerador, tornou-se guerreiro. Mas o destino lhe reservava mais.\n\nEm um ataque a uma cidade do Reinado, foi capturado por um fánatico de Keenn. O homem viu potencial no jovem meio-orc e, em vez de matá-lo, resolveu doutriná-lo no caminho do antigo Deus da Guerra. O que não necessariamente foi uma opção melhor. Certo dia, o acólito ficou de saco cheio com os abusos do mestre e finalmente o matou.\n\nMas a essa altura já era um devoto.\n\nSozinho, vagou pelos reinos até chegar onde hoje é a Supremacia Purista. Numa nação guerreira, achou que seria bem recebido, mas não contava com o ódio dos humanos. Segregado, ergueu sozinho uma capela ao seu deus nos ermos.\n\nLá teria ficado, não fosse um encontro fortuito com os Campeões de Svalas, heróis cujo caminho cruzou algumas vezes. Juntos, recuperaram uma poderosa — e perigosa — arma. Para evitar que o item caísse em mãos erradas, Syphos ficou com ele e vagou para os confins da civilização.\n\nDesde então, o deus de Syphos foi morto e substituído por outro. Apesar disso, o clérigo não se deu ao trabalho de mudar suas preces. Pois, ao longo da vida, aprendeu uma coisa: quem precisa de deuses franzinos quando você pode resolver seus problemas com… PORRADA?"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "keenn", "alvoTipo": "divindade", "rotulo": "Devoto de Keenn" }
+  ],
+  "mecanica": {
+    "nd": "11",
+    "tipo": "Humanoide (meio-orc)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+9",
+    "percepcao": "+11 (+13 em subterrâneo), visão no escuro",
+    "defesa": "41, imunidade a medo",
+    "fortitude": "+24",
+    "reflexos": "+18",
+    "vontade": "+11",
+    "pontosDeVida": "650",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Martelo de guerra x2 +35 (3d10+50, x4).",
+      "À Distância Artefato de Cross +39 (2d12+26, 19/x3)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "0",
+      "constituicao": "6",
+      "inteligencia": "–1",
+      "sabedoria": "2",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Duro de Dar Porrada (Reação)",
+        "descricao": "Uma vez por cena, quando sofre dano de um ataque ou uma habilidade que reduziria seus PV a 0 ou menos, Sr. Porrada ignora esse dano."
+      },
+      {
+        "nome": "Porrada Avassaladora (Livre)",
+        "descricao": "Quando acerta um ataque de martelo, Sr. Porrada arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fort CD 31 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada."
+      },
+      {
+        "nome": "Porrada Progressiva (Livre)",
+        "descricao": "Quando reduz os pontos de vida de um oponente a 0 ou menos, Sr. Porrada recebe um bônus cumulativo de +1d10 em rolagens de dano até o fim da cena."
+      }
+    ],
+    "pericias": "Atletismo +15, Intimidação +15.",
+    "equipamento": "Armadura completa reforçada, Artefato de Cross, martelo de guerra maciço de adamante, símbolo sagrado de Keenn.",
+    "tesouro": "Nenhum."
+  }
+}

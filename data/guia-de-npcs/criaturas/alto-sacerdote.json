@@ -1,0 +1,61 @@
+{
+  "id": "alto-sacerdote",
+  "tipo": "criatura",
+  "nome": "Alto Sacerdote",
+  "resumo": "Uma autoridade da fé, provavelmente o clérigo mais poderoso de sua cidade. Sempre ocupado com assuntos administrativos da igreja, será difícil conseguir uma audiência com ele.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 69 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Templo",
+    "iniciativa": "+8",
+    "percepcao": "+13",
+    "defesa": "31, resistência mental +2",
+    "fortitude": "+15",
+    "reflexos": "+9",
+    "vontade": "+21",
+    "pontosDeVida": "250",
+    "pontosDeMana": "50",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Báculo da fé +25 (2d6+10 mais 2d6 energia)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "0",
+      "constituicao": "3",
+      "inteligencia": "3",
+      "sabedoria": "5",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Autoridade Eclesiástica",
+        "descricao": "O alto sacerdote recebe +5 em Diplomacia e Intimidação com devotos de sua divindade."
+      },
+      {
+        "nome": "Defesas do Templo (Movimento, 2 PM)",
+        "descricao": "O alto sacerdote evoca as defesas divinas do templo. Isso funciona como o efeito básico da magia Arma Espiritual, mas também concede +5 na Defesa do sacerdote. Ele só pode usar esta habilidade dentro dos limites de seu templo."
+      },
+      {
+        "nome": "Força da Fé (Reação, 2 PM)",
+        "descricao": "Uma vez por cena, quando sofre dano que o deixaria abaixo de 1 PV, o alto sacerdote ignora esse dano."
+      },
+      {
+        "nome": "Paróquia",
+        "descricao": "Enquanto estiver em seu templo, o alto sacerdote recebe +2 na Defesa e em testes de resistência, e a CD para resistir às suas magias aumenta em +2."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de 9º nível (CD 30).\n• Comando (Padrão, 4 PM): O alto sacerdote ordena a duas criaturas em alcance curto que se ajoelhem no início de seus turnos. Cada criatura fica caída e não pode se levantar até o começo de seu próximo turno (Von evita).\n• Coluna de Chamas (Padrão, 9 PM): Um cilindro de fogo com 3m de raio e 15m de altura em alcance longo causa 8d6 pontos de dano de fogo e 7d6 pontos de dano de luz em criaturas e objetos livres na área (Ref reduz à metade).\n• Curar Ferimentos (Padrão, 9 PM): Uma criatura adjacente cura 10d8+10 PV.\n• Dissipar Magia (Padrão, 3 PM): O alto sacerdote escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Orientação (Padrão, 8 PM): O alto sacerdote escolhe um atributo e qualquer número de criaturas em alcance curto. Até o fim da cena, sempre que uma das criaturas fizer um teste de perícia do atributo escolhido, rola dois dados e fica com o melhor resultado.\n• Santuário (Padrão, 1 PM): O alto sacerdote toca uma criatura. Até o fim da cena, ou até que a criatura faça uma ação hostil, qualquer criatura que tente fazer uma ação hostil contra ela perde a ação (Von evita)."
+      }
+    ],
+    "pericias": "Conhecimento +11, Cura +13, Diplomacia +14, Intuição +13, Misticismo +12, Religião +20.",
+    "equipamento": "Báculo da fé, batina consagrada, manto eclesiástico aprimorado, símbolo sagrado.",
+    "tesouro": "Dobro."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cortesao",
+  "tipo": "criatura",
+  "nome": "Cortesão",
+  "resumo": "Membro de menor importância da corte, que entretém e bajula os nobres com conversas, músicas, jogos e danças — e guarda uma adaga envenenada para casos extremos.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 75 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+3",
+    "percepcao": "+3",
+    "defesa": "14",
+    "fortitude": "+1",
+    "reflexos": "+5",
+    "vontade": "+10",
+    "pontosDeVida": "24",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +7 (1d4+4, 19, mais veneno)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "1",
+      "constituicao": "1",
+      "inteligencia": "1",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Desprezo",
+        "descricao": "O cortesão recebe +2 na Defesa e em testes de perícia contra criaturas inteligentes (Int –3 ou maior) com Carisma menor que o dele."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Peçonha concentrada (perde 1d12 pontos de vida por rodada por 3 rodadas, Fort CD 16 reduz a duração para 1 rodada)."
+      }
+    ],
+    "pericias": "Atuação +8, Diplomacia +8, Intimidação +8, Intuição +5, Nobreza +8.",
+    "equipamento": "Adaga, peçonha concentrada x3, traje da corte.",
+    "tesouro": "Padrão."
+  }
+}

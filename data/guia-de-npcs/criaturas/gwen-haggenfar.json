@@ -1,0 +1,76 @@
+{
+  "id": "gwen-haggenfar",
+  "tipo": "criatura",
+  "nome": "Gwen Haggenfar",
+  "resumo": "Ex-sumo-sacerdotisa de Wynna e feiticeira colecionadora de pergaminhos que sacrificou seus próprios aprendizes em um ritual catastrófico para acumular poder, ostentando uma das maiores recompensas do Reinado.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 15 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Ex-sumo-sacerdotisa de Wynna, a Deusa da Magia, Haggenfar é uma feiticeira perigosamente cativante, que por muito tempo ostentou uma fachada bondosa, erguendo escolas de magia por todo o Reinado. Porém, isso se provou apenas um plano para reunir diversos aprendizes, os quais sacrificou em um ritual de proporções catastróficas para acumular poder.\n\nHaggenfar também é uma ávida colecionadora de pergaminhos e possui um arsenal de magias únicas. Ela faz o que for preciso, incluindo roubos e assassinatos, para aumentar sua coleção. Por todos os seus crimes, a feiticeira ostenta uma das maiores recompensas oferecidas pelo Reinado pela cabeça de alguém.\n\nPara a arquimaga, aqueles capazes de canalizar energias arcanas são superiores, e os que não possuem tal habilidade não são mais do que gado. Não se sabe os motivos pelos quais uma divindade bondosa permitiu que a malfeitora ocupasse o mais alto posto de seu sacerdócio. Alguns dizem que foi apenas mais um capricho. Outros, que esta seria a prova de que a deusa acredita que qualquer criatura deve ter acesso à magia.\n\nHaggenfar dominou a ilha de Shallankh'rom, em Ahlen, cercou-a com um campo de força e permaneceu por anos sitiada pela coroa do reino. Em um acordo secreto com as autoridades, a feiticeira concordou em abandonar a ilha. Contudo, diz-se que continua escondida em algum lugar de Shallankh'rom."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "exdevoto", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Ex-sumo-sacerdotisa de Wynna" }
+  ],
+  "mecanica": {
+    "nd": "15",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+14",
+    "percepcao": "+17",
+    "defesa": "44, imunidade a adivinhação e efeitos mentais, redução de dano 20/mundano, resistência a magia +5",
+    "fortitude": "+22",
+    "reflexos": "+15",
+    "vontade": "+28",
+    "pontosDeVida": "280",
+    "pontosDeMana": "91",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Cajado da destruição x2 +41 (2d6+10 mais 4d12 essência)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "1",
+      "constituicao": "2",
+      "inteligencia": "4",
+      "sabedoria": "4",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Colecionadora Arcana",
+        "descricao": "Quando encontrada pela primeira vez, Haggenfar possui 2d6 pergaminhos contendo magias adequadas à situação."
+      },
+      {
+        "nome": "Escudo Místico",
+        "descricao": "Quando Haggenfar lança uma magia, ela recebe 5 PV temporários para cada PM gasto nessa magia."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Haggenfar muda a execução dela para livre."
+      },
+      {
+        "nome": "Magia Ampliada (Livre, +2 PM)",
+        "descricao": "Quando lança uma magia, Haggenfar pode aumentar seu alcance (de curto para médio, de médio para longo) ou dobrar sua área de efeito."
+      },
+      {
+        "nome": "Magia Discreta (Livre, +2 PM)",
+        "descricao": "Quando lança uma magia, Haggenfar não precisa gesticular ou falar (pode estar com as mãos presas, amordaçada etc.). Perceber que ela lançou uma magia exige passar em um teste de Misticismo (CD 20)."
+      },
+      {
+        "nome": "Visão Mística Permanente",
+        "descricao": "Haggenfar está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma feiticeira de 15º nível (CD 42, limite de PM 20). Haggenfar pode lançar tanto magias arcanas quanto divinas.\n• Campo de Força (Reação, 10 PM): Quando sofre dano, Gwen recebe redução de dano 70 contra esse dano.\n• Curar Ferimentos (Padrão, 19 PM): Uma criatura adjacente cura 20d8+20 PV ou criaturas escolhidas em alcance curto curam 15d8+15.\n• Dissipar Magia (Padrão, 3 PM): Gwen escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Marionete (Padrão, 10 PM, sustentada): Gwen controla as ações físicas de uma criatura em alcance médio. Ao sofrer a magia, e no início de cada um de seus turnos, a vítima faz um teste de Fortitude. Se passar, a magia é anulada.\n• Relâmpago (Padrão, 14 PM): Gwen causa 14d6+14 pontos de dano de eletricidade em criaturas à sua escolha em alcance médio (Ref reduz à metade).\n• Teletransporte (Padrão, 8 PM): Gwen e até 4 criaturas voluntárias adjacentes são teletransportados para um santuário previamente preparado por Gwen.\n• Velocidade (Padrão, 10 PM, sustentada): Gwen pode executar uma ação padrão adicional por turno."
+      }
+    ],
+    "pericias": "Conhecimento +17, Cura +17, Enganação +20, Furtividade +14, Intuição +17, Investigação +17, Misticismo +19, Ofício (alquimista) +19, Ofício (escriba) +19, Religião +19.",
+    "equipamento": "Anel da energia, bola de cristal, cajado da destruição, dois instrumentos de Ofício (alquimista e escriba) aprimorados, medalhão de prata, organizador de pergaminhos, símbolo sagrado de Wynna.",
+    "tesouro": "Dobro."
+  }
+}

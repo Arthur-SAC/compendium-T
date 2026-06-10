@@ -1,0 +1,53 @@
+{
+  "id": "tenente-mercenario",
+  "tipo": "criatura",
+  "nome": "Tenente Mercenário",
+  "resumo": "Segundo em comando na maioria das companhias mercenárias, braço direito do condotiero, tão perigoso liderando mercenários quanto manejando suas próprias armas.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 79 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (minotauro)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+6",
+    "percepcao": "+3, faro",
+    "defesa": "24, resistência a efeitos mentais e medo +2",
+    "fortitude": "+17",
+    "reflexos": "+5",
+    "vontade": "+11",
+    "pontosDeVida": "180",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +17 (2d8+12, 19) e chifres +17 (2d6+12).",
+      "À Distância Azagaia +16 (1d6+10 mais 1d6 perfuração)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "0",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Bloqueio com Escudo (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano de um ataque, o tenente mercenário reduz esse dano em 5."
+      },
+      {
+        "nome": "\"De Pé, Preguiçoso!\" (Movimento)",
+        "descricao": "O tenente reanima um aliado vivo com 0 ou menos PV em alcance curto. O aliado acorda estável e com 3d6 PV. Uma criatura só pode ser reanimada por esta habilidade uma vez por cena."
+      },
+      {
+        "nome": "Medo de Altura",
+        "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura, o tenente fica abalado."
+      }
+    ],
+    "pericias": "Atletismo +11, Guerra +8, Intimidação +7.",
+    "equipamento": "Azagaia x3, cota de malha, escudo pesado, espada longa.",
+    "tesouro": "Padrão."
+  }
+}

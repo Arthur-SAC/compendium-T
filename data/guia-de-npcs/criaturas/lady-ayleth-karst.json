@@ -1,0 +1,61 @@
+{
+  "id": "lady-ayleth-karst",
+  "tipo": "criatura",
+  "nome": "Lady Ayleth Karst",
+  "resumo": "Rainha guerreira do reino de Svalas, coroada por Shivara após desmantelar uma conspiração purista, filha de um nobre svalano e devota da justiça.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 30 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Filha única do Barão Abelard — um nobre de ascendência svalana relegado a um feudo no interior do então Reino de Yudennach — esta aristocrata teve infância relativamente austera. No pátio do castelo, treinava a luta com espada e escudo, como dama guerreira. Dentro dos salões, aprendia a escutar seus futuros súditos e a tomar decisões nos assuntos relacionados à terra. Assim, desde criança, mesclou a cultura marcial de sua nação com a fé no Deus da Justiça seguida por seu pai.\n\nCresceu ouvindo histórias sobre a pátria que era origem de sua família, domínio brutalmente conquistado pelo Reino de Yudennach. E também sobre os feitos de seu pai na guerra contra a Tormenta, e de como ele foi negligenciado pelo exército no qual serviu. Isso acendeu em Ayleth, desde cedo, uma verdadeira obsessão por independência e justiça.\n\nMas ela nunca imaginou que acabaria rainha.\n\nTudo começou quando o barão desapareceu e ela convocou um grupo de aventureiros para encontrá-lo. Algo que a fez descobrir uma grande conspiração das forças puristas. Após escapar por pouco de uma invasão relâmpago dos inimigos a seu castelo, viajou incógnita junto aos heróis até a cidade de Valkaria. Lá, após sobreviver a tentativas de silenciá-la permanentemente, conseguiu navegar pelos intrincados protocolos da alta nobreza e obteve uma audiência com a própria Rainha-Imperatriz.\n\nDepois de ajudar a caçar o Coronel Reggar Wortric, traidor que matou seu pai, foi coroada por Shivara como a nova monarca do recém-independente reino de Svalas, tanto devido à sua linhagem quanto por causa de seus feitos — desempenhando mais tarde um papel crucial na defesa deste durante a Guerra Artoniana.\n\nTalvez devido ao seu espírito livre, a Rainha Ayleth escolheu como consorte alguém tão desapegado quanto ela: o pirata Nargom Mandíbula, com quem compartilhou diversas jornadas. E muitíssimas discussões."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+8",
+    "defesa": "40",
+    "fortitude": "+18",
+    "reflexos": "+17",
+    "vontade": "+17",
+    "pontosDeVida": "290",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa x2 +33 (2d8+25, 17) e escudo pesado +33 (2d6+25)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "0",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Bloqueio com Escudo (Reação)",
+        "descricao": "Quando sofre dano pela primeira vez em cada rodada, Lady Ayleth recebe redução de dano 20 contra esse dano. Ela só pode usar esta habilidade se estiver empunhando um escudo."
+      },
+      {
+        "nome": "Cabeça Dura (Reação)",
+        "descricao": "Se Ayleth for afetada por um efeito mental ou de movimento, ela anula esse efeito. Recarga (fazer um acerto crítico)."
+      },
+      {
+        "nome": "Dança da Espada (Completa)",
+        "descricao": "Ayleth percorre até o dobro do seu deslocamento, sem passar duas vezes pelo mesmo espaço, e causa 2d8+20 pontos de dano de corte em cada inimigo do qual ela ficou adjacente durante esse movimento (Ref CD 31 reduz à metade). Recarga (fazer um acerto crítico)."
+      },
+      {
+        "nome": "Orgulho (Reação)",
+        "descricao": "Uma vez por cena, quando faz um teste de perícia, Ayleth soma o dobro de seu Carisma (+8) nesse teste."
+      }
+    ],
+    "pericias": "Adestramento +12, Cavalgar +11, Diplomacia +12, Guerra +12, Intimidação +12, Intuição +8, Nobreza +12.",
+    "equipamento": "Cota de malha delicada de mitral guardiã, escudo pesado reforçado de adamante protetor do esmagamento, espada longa precisa pungente de mitral.",
+    "tesouro": "Nenhum."
+  }
+}

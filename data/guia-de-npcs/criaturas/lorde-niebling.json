@@ -1,0 +1,79 @@
+{
+  "id": "lorde-niebling",
+  "tipo": "criatura",
+  "nome": "Lorde Niebling",
+  "resumo": "O Único Gnomo de Arton, inventor genial e Imaginador Imperial da corte de Shivara, criador do ancoradouro de Vectora e de incontáveis inovações tecnológicas.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 33 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nieblingscarphittlestonefingeralonefauchard.\n\nMais conhecido como \"o Único Gnomo de Arton\".\n\nA trajetória deste indivíduo curioso sempre foi marcada por sua inigualável capacidade inventiva. Transportado misteriosamente para Arton vindo \"de outro lugar\", estabeleceu-se na cidade de Valkaria, onde sua inteligência e engenhosidade chamaram a atenção do Rei-Imperador que então governava.\n\nDesafiado a provar seu valor, Niebling observou a cidade por sete dias e sete noites, identificando uma necessidade: o acesso seguro e acessível a Vectora, o Mercado nas Nuvens, durante a passagem anual da famosa cidade voadora. Foi ele quem projetou o primeiro \"ancoradouro\", permitindo que cidadãos comuns pudessem alcançar as alturas facilmente por meio de teleféricos. A inovação lhe valeu o título de lorde e um lugar na corte imperial.\n\nNa corte e fora dela, o gnomo continuou a se dedicar a sua verdadeira paixão: a criação de máquinas, veículos e artefatos tecnológicos. Suas contribuições são vastas, tendo criado diversas inovações para o famoso Circo dos Irmãos Thiannate e treinado gerações inteiras de engenhoqueiros goblins.\n\nDe aparência distinta, caracterizada por sua estatura baixa e vestimentas coloridas frequentemente manchadas de graxa, o gnomo continua espalhando sua inventividade irrefreável por Arton. Embora poucos consigam compreender ou mesmo utilizar suas invenções mais ousadas, sua influência já pode ser sentida em mais de um continente. E agora, com o posto de Imaginador Imperial na corte de Shivara, alguns tremem ao pensar no que ele pode fazer."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Humanoide (gnomo)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+13",
+    "percepcao": "+12, visão na penumbra",
+    "defesa": "41, evasão, redução de dano 10, resistência a atordoamento, efeitos mentais e medo +5",
+    "fortitude": "+13",
+    "reflexos": "+20",
+    "vontade": "+26",
+    "pontosDeVida": "280",
+    "pontosDeMana": "66",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Bastão elétrico +27 (2d8+20 eletricidade).",
+      "À Distância Bastão elétrico x2 +32 (2d8+20 eletricidade, alcance médio)."
+    ],
+    "atributos": {
+      "forca": "–1",
+      "destreza": "3",
+      "constituicao": "3",
+      "inteligencia": "8",
+      "sabedoria": "2",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Aparatos Tecnológicos",
+        "descricao": "Lorde Niebling possui um acervo de inventos de alta tecnologia tão avançados que apenas ele sabe como operá-los."
+      },
+      {
+        "nome": "Acelerador Magnético (Livre, 1 PM)",
+        "descricao": "Niebling executa uma ação padrão adicional. Ele só pode ativar este aparato uma vez por rodada."
+      },
+      {
+        "nome": "Cicatrizante Instantâneo (Reação, 5 PM)",
+        "descricao": "Quando Niebling é reduzido a 0 PV ou menos, ele recupera 100 PV."
+      },
+      {
+        "nome": "Colete Amortecedor",
+        "descricao": "Sempre que Niebling sofre dano de um ataque ou habilidade, role 1d6. Em um resultado 1 ou 2 ele ignora esse dano."
+      },
+      {
+        "nome": "Dínamo Bélico",
+        "descricao": "Sempre que Niebling faz um ataque, o dínamo acumula uma carga que dura até o fim da cena. Para cada carga, os ataques de Niebling causam +1d12 pontos de dano de eletricidade."
+      },
+      {
+        "nome": "Monóculo Perscrutador",
+        "descricao": "Este monóculo mecânico fornece o efeito básico das magias Concentração de Combate e Visão da Verdade."
+      },
+      {
+        "nome": "Pensamento Avançado (Reação, 2 PM)",
+        "descricao": "Quando faz um teste de perícia, Niebling soma o dobro de sua Inteligência (+16) no teste."
+      },
+      {
+        "nome": "Engenhocas",
+        "descricao": "Niebling pode fabricar engenhocas de qualquer magia como um inventor de 18º nível. Ele ativa essas engenhocas com uma ação de movimento e, quando faz um teste de Ofício para ativá-las, rola dois dados e usa o melhor resultado. Ele pode ter até 8 engenhocas ao mesmo tempo, selecionadas entre as mais adequadas à ocasião. A CD para resistir às engenhocas de Niebling é 37."
+      }
+    ],
+    "pericias": "Conhecimento +20, Cura +12, Diplomacia +12, Furtividade +15, Intuição +14, Ladinagem +13 (+15 para abrir fechadura), Nobreza +18, Ofício (alquimista) +27, Ofício (armeiro) +25, Ofício (engenhoqueiro) +25, Pilotagem +15.",
+    "equipamento": "Ácido x2, bálsamo restaurador x2, bomba x2, couraça sob medida de mitral, gazua aprimorada, três instrumentos de Ofício (alquimista, armeiro e engenhoqueiro) aprimorados. A CD para resistir aos preparados de Niebling é 37.",
+    "tesouro": "Padrão."
+  }
+}

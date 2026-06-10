@@ -1,0 +1,92 @@
+{
+  "id": "lorde-vectorius",
+  "tipo": "criatura",
+  "nome": "Lorde Vectorius",
+  "resumo": "Um dos dois maiores conjuradores de Arton, criador de Vectora (o Mercado nas Nuvens) e arquimago que governa a cidade voadora como protetor e comerciante astuto.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 34 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Vectorius é um dos dois maiores conjuradores de Arton, com poder comparável apenas a Talude, antigo reitor da Academia Arcana — e seu maior rival.\n\nAo contrário de Talude, nunca enxergou a magia como uma arte a ser venerada em um templo ou academia, mas sim como uma ferramenta que deve ser constantemente posta em prática — e que pode ser perigosa nas mãos erradas.\n\nIrritado com a postura do rival, prometeu realizar um feito mágico superior à sua academia. Ao ouvir queixas de mercadores sobre as longas viagens que lhes privavam da companhia da família, teve uma ideia. Fez uma montanha inteira levitar, inverteu-a e a transformou na gigantesca ilha voadora que se tornaria sua maior criação: Vectora, o Mercado nas Nuvens.\n\nSem pertencer a nenhum reino, a cidade comercial voa pelos céus do Reinado e além, conectando regiões e povos. Vectorius é seu protetor e governante, um comerciante astuto que já escapou ileso de muitas tentativas de assassinato. O mesmo não se pode dizer de sua cidade, que sofreu danos terríveis contra o Dragão da Tormenta. O arquimago, no entanto, a reergueu ainda mais poderosa, ostentando suas cicatrizes em ouro, como marcas orgulhosas de sua força."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "S",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+20",
+    "percepcao": "+18, visão no escuro",
+    "defesa": "63, imunidade a efeitos mentais e medo, redução de dano 20, resistência a magia +5",
+    "fortitude": "+22",
+    "reflexos": "+30",
+    "vontade": "+36",
+    "pontosDeVida": "740",
+    "pontosDeMana": "400",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "1",
+      "destreza": "2",
+      "constituicao": "3",
+      "inteligencia": "14",
+      "sabedoria": "2",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "Vectorius soma sua Inteligência nas rolagens de dano quando lança magias ou usa seu Raio Arcano (já contabilizado)."
+      },
+      {
+        "nome": "Contingência Arcana (Reação)",
+        "descricao": "Uma vez por cena, quando é alvo de um efeito hostil, Vectorius lança uma magia arcana à sua escolha."
+      },
+      {
+        "nome": "Contramágica Aprimorada (Reação)",
+        "descricao": "Uma vez por rodada, Vectorius faz uma contramágica."
+      },
+      {
+        "nome": "Escudo Místico (Reação)",
+        "descricao": "Quando lança uma magia, para cada PM gasto Vec recebe 5 PV temporários cumulativos."
+      },
+      {
+        "nome": "Fluxo de Mana",
+        "descricao": "Vec pode manter dois efeitos sustentados simultaneamente com apenas 1 ação livre (mas pagando o custo de cada um)."
+      },
+      {
+        "nome": "Magia Amplificada (Livre, +2 PM)",
+        "descricao": "Quando lança uma magia, Vectorius aumenta seu alcance em um passo (de toque para curto, de curto para médio, de médio para longo) ou triplica sua área de efeito."
+      },
+      {
+        "nome": "Magia Discreta (Livre, +2 PM)",
+        "descricao": "Quando lança uma magia, Vectorius não precisa gesticular ou falar (pode estar com as mãos presas, amordaçada etc.). Perceber que ela lançou uma magia exige passar em um teste de Misticismo (CD 30)."
+      },
+      {
+        "nome": "Magias Aceleradas (Livre, +4 PM)",
+        "descricao": "Até duas vezes por rodada, quando lança uma magia com execução de ação completa ou menor, Vectorius muda a execução dela para livre. Se a magia for de 1º ou 2º círculo, ele não precisa pagar o custo adicional desta habilidade."
+      },
+      {
+        "nome": "Magias Permanentes",
+        "descricao": "Vectorius está permanentemente sob efeito das magias Compreensão, com o aprimoramento para alcance curto, e Visão Mística, com os aprimoramentos de visão no escuro e enxergar criaturas e objetos invisíveis."
+      },
+      {
+        "nome": "Raio Arcano (Movimento)",
+        "descricao": "Uma criatura em alcance médio sofre 5d12+14 pontos de dano de essência (Ref CD 55 reduz à metade)."
+      },
+      {
+        "nome": "Separação Mental",
+        "descricao": "Vectorius pode executar uma ação padrão adicional por rodada. Essa ação pode se originar de qualquer ponto em alcance médio para o qual ele tenha linha de visão (como se ele estivesse em dois lugares ao mesmo tempo)."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Vectorius lança qualquer magia arcana como um mago de 20º nível (CD 55, limite de PM 34)."
+      }
+    ],
+    "pericias": "Conhecimento +30, Cura +18, Diplomacia +20 (+30 para barganha), Guerra +30, Intimidação +20, Intuição +23, Investigação +30, Jogatina +30, Misticismo +35, Nobreza +30, Ofício (alquimista) +30, Ofício (armeiro) +30, Ofício (artesão) +30, Pilotagem +30, Religião +30.",
+    "equipamento": "Braceletes de ouro, robe do arquimago. Vectorius não só é extremamente rico, como tem os meios para adquirir praticamente qualquer item, mundano ou mágico. Considere que seu equipamento inclui qualquer item apropriado para a ocasião.",
+    "tesouro": "Triplo."
+  }
+}

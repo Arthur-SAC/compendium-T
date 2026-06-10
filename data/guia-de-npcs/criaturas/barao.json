@@ -1,0 +1,48 @@
+{
+  "id": "barao",
+  "tipo": "criatura",
+  "nome": "Barão",
+  "resumo": "Membro da baixa nobreza com várias propriedades rurais, seu próprio castelo e um bom número de guardas e cavaleiros.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 74 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "7",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+8",
+    "percepcao": "+9",
+    "defesa": "32, redução de dano 10, resistência a medo +2",
+    "fortitude": "+21",
+    "reflexos": "+7",
+    "vontade": "+14",
+    "pontosDeVida": "220",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x2 +24 (3d6+20, 18)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "2",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Guarda Pessoal",
+        "descricao": "O barão está sempre acompanhado de dois guardas palacianos (veja p. 71) que não contam para o cálculo de XP e tesouro do encontro."
+      },
+      {
+        "nome": "Presença Aristocrática (Reação)",
+        "descricao": "Quando uma criatura inteligente (Int –3 ou maior) tenta machucar o barão, deve fazer um teste de Vontade (CD 24). Se falhar, não conseguirá machucá-lo e perderá a ação. O barão só pode usar esta habilidade uma vez por cena contra cada criatura."
+      }
+    ],
+    "pericias": "Diplomacia +17, Guerra +14, Intimidação +10, Intuição +14, Nobreza +14.",
+    "equipamento": "Armadura completa reforçada, escudo pesado, espada bastarda certeira de adamante, tabardo aprimorado.",
+    "tesouro": "Dobro."
+  }
+}

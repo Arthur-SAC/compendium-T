@@ -1,0 +1,74 @@
+{
+  "id": "nargom-mandibula",
+  "tipo": "criatura",
+  "nome": "Nargom Mandíbula",
+  "resumo": "Pirata adotado pelo lendário Capitão Draco Mandíbula, tornou-se Campeão de Svalas e símbolo dos Piratas Independentes após superar traição, exílio e lutas que moldaram o destino do Reinado.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 38 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Este elusivo e eloquente pirata não lembra de como era sua vida antes de ser adotado por Draco Mandíbula e, na verdade, não se importa nada com isso. Draco era um capitão não muito conhecido por cultivar relacionamentos, mas rapidamente, e por motivos que somente a si pertenciam, adotou-o e o tornou parte da tripulação do Caronte, navio temido nos Três Mares. Cuidou dele como se fosse o legítimo herdeiro de seu império de pilhagens, ensinando-o e educando-o para que um dia pudesse ser um pirata ainda melhor que o próprio capitão.\n\nMas a vida tem reviravoltas cruéis. Espinha, imediato e companheiro em segredo de Draco, orquestrou um motim que resultou na morte do capitão e na tomada do navio. Nargom foi colocado para andar na prancha e atirado nas águas, condenado a se tornar jantar de selakos e outras criaturas marinhas. Entretanto, por algum capricho divino, o Deus da Sorte sorriu para ele. Miraculosamente emergiu ileso e chegou ao Reinado, onde, junto de companheiros improváveis, sua jornada tomaria rumos imprevisíveis.\n\nDa simples busca por um barão desaparecido em um pequeno feudo até singrar o éter entre mundos em um navio voador, Nargom acabou se tornando um dos famosos Campeões de Svalas, responsáveis pela derrota da ameaça purista na Guerra Artoniana.\n\nAo longo de suas aventuras, realizou peripécias que jamais imaginaria ser capaz. Roubou o tabuleiro mágico do próprio General Supremo, evitando a morte de muitos soldados do Reinado. Caçou e deu fim a Espinha em uma perseguição que culminou em um feroz duelo travado sobre os telhados da cidade de Sophand, em Wynlla. Rendeu-se ao amor que se recusava a admitir e casou-se com Lady Ayleth, a rainha de Svalas. E, empunhando pistolas encantadas que outrora haviam pertencido a seu próprio pai, finalmente tomou de volta o Caronte, tornando-se o capitão que estava destinado a ser desde o início. Hoje, Nargom é o maior símbolo da facção dos Piratas Independentes, viajando por todo o Reinado e além, lutando sempre para que bucaneiros e outros heróis possam navegar seguindo o caminho da liberdade, sem mestres.\n\nNão importa em qual reino divino o velho Capitão Draco Mandíbula tenha ido parar — é certo que olha para seu filho adotivo com orgulho."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+25",
+    "percepcao": "+17",
+    "defesa": "44, evasão, esquiva sobrenatural",
+    "fortitude": "+19",
+    "reflexos": "+27",
+    "vontade": "+13",
+    "pontosDeVida": "280",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Florete x2 +37 (2d6+30, 18).",
+      "À Distância Duas pistolas +40 (2d6+30, 18/x3)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "6",
+      "constituicao": "3",
+      "inteligencia": "4",
+      "sabedoria": "2",
+      "carisma": "7"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "+3d8."
+      },
+      {
+        "nome": "Audácia (Reação)",
+        "descricao": "Uma vez por cena, quando faz um teste de perícia, Nargom soma seu Carisma nesse teste."
+      },
+      {
+        "nome": "Corvo Feérico",
+        "descricao": "Nargom possui um corvo feérico parceiro que fornece +5 em Percepção (já contabilizado) e permite que ele compreenda qualquer idioma."
+      },
+      {
+        "nome": "Finta Aprimorada",
+        "descricao": "Nargom pode fintar como uma ação de movimento."
+      },
+      {
+        "nome": "Língua Veloz",
+        "descricao": "Nargom sofre uma penalidade de apenas –5 para mentiras muito implausíveis, em vez de –10."
+      },
+      {
+        "nome": "Mestre da Escapada (Reação)",
+        "descricao": "Nargom ignora o efeito nocivo de um ataque ou habilidade. Recarga (fintar um inimigo)."
+      },
+      {
+        "nome": "Pistoleiro Experiente",
+        "descricao": "Nargom pode recarregar suas duas armas de fogo como uma ação de movimento e, quando ataca com uma arma de fogo, não sofre a penalidade padrão de –5 em testes de ataque contra oponentes envolvidos em combate corpo a corpo."
+      }
+    ],
+    "pericias": "Acrobacia +18, Atletismo +12, Diplomacia +19, Enganação +24, Furtividade +16, Investigação +16, Ofício (marinheiro) +14, Pilotagem +16.",
+    "equipamento": "Capa esvoaçante aprimorada, florete atroz preciso, medalhão imperial (conta como um tabardo aprimorado), pistolas magníficas x2.",
+    "tesouro": "Padrão."
+  }
+}

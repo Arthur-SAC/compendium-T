@@ -1,0 +1,48 @@
+{
+  "id": "besteiro",
+  "tipo": "criatura",
+  "nome": "Besteiro",
+  "resumo": "Guardas especializados que atuam nas muralhas de grandes cidades ou nas torres de castelos; um pelotão desses pode abater até mesmo monstros como serpes.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 70 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+7",
+    "percepcao": "+5",
+    "defesa": "16",
+    "fortitude": "+5",
+    "reflexos": "+8",
+    "vontade": "+3",
+    "pontosDeVida": "11",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada curta +9 (1d6+2, 19).",
+      "À Distância Besta pesada +11 (1d12+6, 19)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "3",
+      "constituicao": "1",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Besteiro Treinado",
+        "descricao": "Pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque. Além disso, pode recarregar sua besta como uma ação de movimento."
+      },
+      {
+        "nome": "Saraivada (Padrão)",
+        "descricao": "Se dois ou mais besteiros estiverem adjacentes, todos podem gastar uma ação padrão para disparar uma saraivada em um alvo em alcance médio. O alvo sofre 1d12+6 pontos de dano de perfuração, +1d12 por besteiro além do primeiro (Ref CD 17 reduz à metade)."
+      }
+    ],
+    "equipamento": "Besta pesada, couro batido, espada curta, virotes x20.",
+    "tesouro": "Metade."
+  }
+}

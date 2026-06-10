@@ -1,0 +1,39 @@
+{
+  "id": "punguista",
+  "tipo": "criatura",
+  "nome": "Punguista",
+  "resumo": "Ladrão típico que infesta as praças e os becos de grandes cidades; seu modo de \"trabalho\" é furtar a vítima e desaparecer antes que ela perceba — se for visto, tentará fugir.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 73 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "1/2",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "tema": "Povo de Arton — O Crime",
+    "iniciativa": "+8",
+    "percepcao": "+3, visão no escuro",
+    "defesa": "14",
+    "fortitude": "+1",
+    "reflexos": "+6",
+    "vontade": "+3",
+    "pontosDeVida": "11",
+    "deslocamento": "12m (8q), escalada 12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +5 (1d4+4, 19)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "0",
+      "inteligencia": "2",
+      "sabedoria": "0",
+      "carisma": "–2"
+    },
+    "habilidades": [],
+    "pericias": "Acrobacia +6, Atletismo +6, Furtividade +10, Ladinagem +10.",
+    "equipamento": "Adaga, gazua.",
+    "tesouro": "Metade."
+  }
+}

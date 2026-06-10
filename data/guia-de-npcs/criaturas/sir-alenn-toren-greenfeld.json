@@ -1,0 +1,75 @@
+{
+  "id": "sir-alenn-toren-greenfeld",
+  "tipo": "criatura",
+  "nome": "Sir Alenn Toren Greenfeld",
+  "resumo": "Alto Comandante da Ordem da Luz e sumo-sacerdote de Khalmyr, natural dos Ermos Púrpuras, considerado o melhor cavaleiro do mundo e nunca derrotado em batalha.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 51 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Imediatamente reconhecível devido a sua armadura dourada e seu tapa-olho, Alenn Toren é o Alto Comandante da Ordem da Luz, sumo-sacerdote de Khalmyr, o Deus da Justiça, e um dos maiores heróis do Reinado e de Arton.\n\nNatural dos Ermos Púrpuras, foi um herói e um flagelo em sua juventude, liderando sua tribo em escaramuças contra estrangeiros e clãs inimigos.\n\nLendas contam como o antigo Alto Comandante, Philipp Donovan, teria convencido Alenn Toren a se juntar à Ordem após uma competição em que litros de aguardente foram consumidos e bestas foram nocauteadas com cabeçadas. A verdade é igualmente lendária: Donovan e Alenn Toren se encontraram por acaso e lutaram durante dias, até que algo inesperado aconteceu — Donovan se rendeu, pedindo que o outro lhe ensinasse sobre combate… e sobre honra. Antes de se despedir, na fronteira de Bielefeld, ambos rezaram a Khalmyr e seguiram seus caminhos.\n\nMeses depois, Alenn Toren se apresentou à Ordem, pois ouvira o chamado divino. Portou-se de maneira exemplar e, chocando os nobres mais preconceituosos, sagrou-se cavaleiro com rapidez surpreendente. Mais surpreendente ainda, foi apontado como Alto Comandante no último ato de Donovan antes de morrer. Foi um dos responsáveis pela renovada glória da Ordem da Luz, tendo participado de eventos históricos e ascendendo a sumo-sacerdote.\n\nAlenn Toren nunca foi derrotado, nunca errou em um julgamento, nunca se desviou dos ideais da cavalaria. É corretamente conhecido como o melhor cavaleiro do mundo. Talvez de todos os tempos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Sumo-sacerdote de Khalmyr" }
+  ],
+  "mecanica": {
+    "nd": "19",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+18",
+    "percepcao": "+18",
+    "defesa": "65, esquiva sobrenatural, imunidade a medo, proteção divina, redução de dano 15, resistência a magia +5",
+    "fortitude": "+36",
+    "reflexos": "+22",
+    "vontade": "+30",
+    "pontosDeVida": "860",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Lâmina da Luz x3 +52 (3d12+48, 17/x3, mais 3d12 luz)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "3",
+      "constituicao": "6",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Cavaleiro Veterano",
+        "descricao": "Sir Alenn Toren passa automaticamente em testes de Cavalgar para não cair da montaria e, quando faz uma investida montada, causa o dobro do dano e pode continuar se movendo depois do ataque. Ele deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento."
+      },
+      {
+        "nome": "Corcel de Batalha",
+        "descricao": "Sir Alenn Toren cavalga um cavalo de batalha (veja Tormenta20, p. 262). Enquanto ele estiver montado, seu deslocamento se torna 15m, ele recebe duas ações de movimento extras por turno (apenas para se deslocar), +2 nos testes de ataque e +1d6 nas rolagens de dano de seus ataques corpo a corpo."
+      },
+      {
+        "nome": "Fúria Disciplinada (Livre)",
+        "descricao": "Uma vez por cena, sir Alenn Toren entra em uma fúria controlada por 2 rodadas. Nesse estado ele fica imune a efeitos mentais, causa dano dobrado e reduz todo dano sofrido por ele à metade."
+      },
+      {
+        "nome": "Punição Divina (Padrão)",
+        "descricao": "Von CD 45 evita."
+      },
+      {
+        "nome": "Resoluto (Livre)",
+        "descricao": "Uma vez por rodada, sir Alenn Toren refaz um teste de resistência contra uma condição (como enfeitiçado, paralisado etc.) que o esteja afetando. O segundo teste recebe um bônus de +5 e, se ele passar, cancela o efeito. Alenn Toren só pode usar esta habilidade uma vez por efeito."
+      },
+      {
+        "nome": "Ordens Avançadas (Movimento)",
+        "descricao": "Sir Alenn Toren grita ordens para seus aliados em alcance médio. Eles recebem +5 em testes de perícia até o fim da cena."
+      },
+      {
+        "nome": "Trespassar (Livre)",
+        "descricao": "Quando sir Alenn Toren faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance."
+      }
+    ],
+    "pericias": "Atletismo +22, Cavalgar +18, Diplomacia +19, Guerra +22, Nobreza +17, Sobrevivência +17.",
+    "equipamento": "Armadura da Luz, Lâmina da Luz, símbolo sagrado de Khalmyr.",
+    "tesouro": "Padrão."
+  }
+}

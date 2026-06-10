@@ -1,0 +1,57 @@
+{
+  "id": "mestre-luriel",
+  "tipo": "criatura",
+  "nome": "Mestre Luriel",
+  "resumo": "Elfo sábio milenar, ex-conselheiro do Rei Khinlanas de Lenórienn e escriba da família Gorgonius em Tapista, enciclopédia viva da história artoniana e tutor de líderes.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 37 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um elfo sábio milenar, que já viu e já foi muitas coisas. No passado distante, deixou o reino divino de Nivenciuén, peregrinando a bordo de uma nau voadora pelo éter entre mundos até chegar a Arton, onde serviu como conselheiro do Rei Khinlanas.\n\nSua missão era registrar a história do reino élfico de Lenórienn, então considerado o centro da civilização — de forma arrogante, como Luriel hoje percebe. A lição de humildade do elfo veio com o fim da Infinita Guerra e a derrota de seu povo. Forçado a fugir, tornou-se escravo da rica família Gorgonius, em Tapista, onde seus conhecimentos renderam a ele uma posição de honra como escriba e tutor.\n\nNessa época, ensinou o jovem minotauro Arius, que viria a se tornar legionário, mago, devoto de Tanna-Toh e aventureiro no Reinado.\n\nHoje, Luriel continua servindo ao clã. Embora sua arrogância élfica tenha sido aplacada pelos séculos, seu amor pelo conhecimento apenas aumentou. É uma enciclopédia viva da história artoniana, tendo imenso acúmulo não apenas de informações, mas de vivência e sabedoria que, dizem, nem mesmo o Helladarion, sumo-sacerdote da Deusa do Conhecimento, possui.\n\nSendo ele próprio devoto dessa crença, Luriel teria compilado tudo que sabe em vários tomos e estaria procurando alguém para escoltá-los até a Caverna do Saber — que, incrustrada na Supremacia Purista, é um destino arriscado para um elfo. Luriel não é um aventureiro e suas prioridades são outras: ser o tutor de novas lideranças, para ajudá-las a transformar o antigo império em uma república mais justa. Afinal, viu um de seus lares ser destruído pelo orgulho e quer fazer sua parte para evitar que isso aconteça novamente."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (elfo)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+11",
+    "percepcao": "+20, visão na penumbra",
+    "defesa": "21, imunidade a efeitos mentais e medo",
+    "fortitude": "+7",
+    "reflexos": "+12",
+    "vontade": "+20",
+    "pontosDeVida": "90",
+    "deslocamento": "9m (6q), ignora terreno difícil natural",
+    "ataques": [
+      "Corpo a Corpo Bordão x2 +13 (1d6+9)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "2",
+      "constituicao": "2",
+      "inteligencia": "9",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Elfo Falante (Padrão)",
+        "descricao": "Mestre Luriel começa a falar e não para mais, dando uma lição de moral em qualquer criatura inteligente (Int –3 ou mais) em alcance médio. A criatura fica pasma por 1d4 rodadas (Von CD 25 evita). Uma criatura só pode ser afetada por esta habilidade uma vez por cena."
+      },
+      {
+        "nome": "Sábio Milenar",
+        "descricao": "Mestre Luriel é treinado em todas as perícias baseadas em Inteligência e Sabedoria (teste +25)."
+      },
+      {
+        "nome": "Parceiro",
+        "descricao": "Mestre Luriel é um parceiro mestre (claro!) que fornece +2 em todos os testes de perícias baseadas em Inteligência e Sabedoria e um poder de combate, de destino ou de magia, à escolha do personagem, cujos pré-requisitos o personagem possua."
+      }
+    ],
+    "pericias": "Todas as perícias baseadas em Inteligência e Sabedoria +25.",
+    "equipamento": "Bordão, instrumentos de Ofício (escriba) aprimorados.",
+    "tesouro": "Nenhum."
+  }
+}

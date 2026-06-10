@@ -1,0 +1,68 @@
+{
+  "id": "paladina-de-khalmyr",
+  "tipo": "criatura",
+  "nome": "Paladina de Khalmyr",
+  "resumo": "Jovem paladina de Petrynia abençoada pelo próprio Khalmyr, criada em mosteiro após um rapto traumático na infância, que guarda uma armadura mágica litúrgica e une forças com aventureiros de Nova Malpetrim para curar sua mãe.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 41 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Filha de Elaina e Mighel de Petrynia, esta jovem teve o nome peculiar recebido em sonhos pela mãe. Iria se chamar Paladina de Petrynia, conforme a tradição humana do Reinado. Mas um incidente trágico em sua infância mudaria tudo: mãe e filha foram atacadas por Dee, maníaco mascarado e campeão de Nimb. A filha foi raptada e a mãe, deixada insana. Testemunhando impotente os clérigos levarem sua esposa para um sanatório, Mighel implorou a Khalmyr por um milagre. E foi atendido.\n\nO Deus da Justiça em pessoa trouxe sua filha de volta, mas com um aviso: ela não estava segura ali. Deveria ser levada a um mosteiro e iniciada como devota, acolhendo então seu novo sobrenome. Durante os anos seguintes, uma Paladina incrivelmente forte e inquieta realizava fugas frequentes do mosteiro, sendo sempre detida — às vezes, salva — pelo próprio Khalmyr. Queria voltar para casa, para Nova Malpetrim, onde o pai mantinha a Taverna do Polvo Canhoto. Chegando aos 15 anos, sua escapadela mais recente terminou levando-a para casa, sob as bênçãos de Khalmyr, que considerou seu treinamento encerrado.\n\nLá, reencontraria o amigo de infância Francis, lefou feiticeiro da Tormenta, vivendo foragido nas vizinhanças da cidade após fugir de casa para poupar os pais da rejeição pública por abrigar um aberrante. Também se uniria a Niala, exuberante clériga qareen, e Tokinho, troglodita anão estranhamente erudito (e capaz de assumir uma forma feral gigantesca). Com eles, formaria um grupo para buscar uma cura para a mãe.\n\nEm combate, Paladina utiliza uma poderosa armadura mágica litúrgica que roubou do mosteiro, armazenada em uma gargantilha. Esse roubo — e também sua aliança com um bruxo da Tormenta — acabaria trazendo complicações com a centaura Brionna, antiga rival e Guardiã da Realidade, uma ordem de paladinos dedicada a combater a Tormenta."
+    },
+    {
+      "titulo": "Armadura de Khalmyr",
+      "texto": "Esta armadura completa sob medida defensora fica armazenada magicamente em uma gargantilha com o símbolo do Deus da Justiça. Enquanto está armazenada dessa forma, a armadura não ocupa nenhum espaço (embora ainda conte como um item vestido) e não impõe nenhuma penalidade ao usuário (como se ele não estivesse de armadura). Ao pronunciar o nome de Khalmyr, o usuário evoca a armadura, que é vestida automaticamente. Devolver a armadura à gargantilha também é uma ação livre. Armadura específica média, T$ 42.000."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devota", "alvoId": "khalmyr", "alvoTipo": "divindade", "rotulo": "Paladina de Khalmyr" }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+4",
+    "percepcao": "+5",
+    "defesa": "23",
+    "fortitude": "+16",
+    "reflexos": "+4",
+    "vontade": "+10",
+    "pontosDeVida": "115",
+    "pontosDeMana": "16",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada longa +16 (1d8+14, 19)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "0",
+      "constituicao": "2",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Sagrada (Livre, 1 PM, sustentada)",
+        "descricao": "Paladina gera uma aura de luz com 9m de raio. Ela e seus aliados dentro da aura recebem +4 em testes de resistência."
+      },
+      {
+        "nome": "Cura pelas Mãos (Movimento, 1 PM)",
+        "descricao": "Paladina cura 1d8+1 pontos de vida de uma criatura adjacente."
+      },
+      {
+        "nome": "Golpe Divino (Livre, 2 PM)",
+        "descricao": "Quando faz um ataque corpo a corpo, Paladina soma o Carisma no teste de ataque e +1d12 na rolagem de dano."
+      },
+      {
+        "nome": "Código do Herói",
+        "descricao": "Paladina sempre mantém sua palavra e nunca pode recusar um pedido de ajuda de alguém inocente. Além disso, nunca pode mentir, trapacear ou roubar. Se violar o código, ela perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+      }
+    ],
+    "pericias": "Atletismo +11, Diplomacia +8, Religião +5.",
+    "equipamento": "Armadura de Khalmyr, escudo pesado, espada longa certeira, símbolo sagrado de Khalmyr.",
+    "tesouro": "Padrão."
+  }
+}

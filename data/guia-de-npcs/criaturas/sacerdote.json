@@ -1,0 +1,57 @@
+{
+  "id": "sacerdote",
+  "tipo": "criatura",
+  "nome": "Sacerdote",
+  "resumo": "Responsável por um pequeno templo ou conselheiro de um burgomestre ou nobre menor. Embora tenha menos poderes que um clérigo aventureiro, pode acudir heróis em necessidade.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 68 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "2",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — O Templo",
+    "iniciativa": "+3",
+    "percepcao": "+6",
+    "defesa": "17, resistência mental +2",
+    "fortitude": "+7",
+    "reflexos": "+4",
+    "vontade": "+11",
+    "pontosDeVida": "47",
+    "pontosDeMana": "13",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bordão +7 (1d6+3)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Autoridade Eclesiástica",
+        "descricao": "O sacerdote recebe +5 em Diplomacia e Intimidação com devotos de sua divindade."
+      },
+      {
+        "nome": "Defesas do Templo (Movimento, 2 PM)",
+        "descricao": "O sacerdote evoca as defesas divinas do templo. Isso funciona como o efeito básico da magia Arma Espiritual, mas também concede +5 na Defesa do sacerdote. Ele só pode usar esta habilidade dentro dos limites de seu templo."
+      },
+      {
+        "nome": "Paróquia",
+        "descricao": "Enquanto estiver em seu templo, o sacerdote recebe +2 na Defesa e em testes de resistência, e a CD para resistir às suas magias aumenta em +2."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de 2º nível (CD 18).\n• Curar Ferimentos (Padrão, 2 PM): Uma criatura adjacente cura 3d8+3 PV.\n• Orientação (Padrão, 3 PM): O sacerdote escolhe um atributo e uma criatura em alcance curto. Até o fim da cena, sempre que a criatura fizer um teste de perícia do atributo escolhido, rola dois dados e fica com o melhor resultado.\n• Santuário (Padrão, 1 PM): O sacerdote toca uma criatura. Até o fim da cena, ou até que a criatura faça uma ação hostil, qualquer criatura que tente fazer uma ação hostil contra ela perde a ação (Von evita)."
+      }
+    ],
+    "pericias": "Conhecimento +5, Cura +6, Diplomacia +6, Misticismo +5, Religião +12.",
+    "equipamento": "Bordão, manto eclesiástico, símbolo sagrado.",
+    "tesouro": "Padrão."
+  }
+}

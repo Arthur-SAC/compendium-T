@@ -1,0 +1,62 @@
+{
+  "id": "ichabod",
+  "tipo": "criatura",
+  "nome": "Ichabod",
+  "resumo": "Lefou mago das ilusões, antigo integrante dos Heróis da Joia, cujo espírito ainda guia viajantes perdidos nas ruínas de Tiberus.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 21 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "A Joia da Alma, A Deusa no Labirinto",
+      "texto": "Trebuck foi um reino próspero no passado. O farfalhar das flores do campo era interrompido apenas pelo cavalgar de lordes em armaduras brilhantes, membros de cortes sempre festivas.\n\nMas a terra de fábulas receberia um mau presságio. Os irmãos Phoebus e Phillip Gascoigne nasceram de um parto difícil. Phoebus tinha os cabelos do pai e os olhos da mãe. Phillip, no entanto, tinha íris cor de sangue, que causavam horror a todos que tinham contato com o menino. Para piorar, à medida que cresceu, Phillip viu que a pele de seu braço esquerdo se tornava rija, nodosa; do ombro brotaram espinhos. Outras crianças passaram a tratá-lo como uma aberração.\n\nUm dia, o céu se tingiu da mesma cor dos seus olhos — a Tormenta caiu sobre o reino, corroendo tudo. A Família Gascoigne foi aniquilada pelas hordas lefeu. Phillip, porém, foi poupado, forçado a se juntar aos demônios. A partir daquele momento, não era mais humano. Nem mesmo conseguia usar o próprio nome, adotando o de um monstro das lendas, com o qual fora apelidado na infância: Ichabod.\n\nO pesadelo só terminou quando o aventureiro Christian o libertou. Seguindo essa carreira, Ichabod desenvolveu seu dom para a magia, em especial ilusões capazes de atenuar a árida realidade.\n\nComo parte do grupo dos Heróis da Joia, sacrificou-se em Tiberus lutando contra o mal. Porém, exploradores da região afirmam que, até hoje, escutam uma voz ecoando naquelas paragens, guiando-os à segurança em meio à área tomada pela Tormenta."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "12",
+    "tipo": "Monstro (lefou)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+8",
+    "percepcao": "+11, visão no escuro",
+    "defesa": "38, fortificação 75%, redução de dano 10",
+    "fortitude": "+20",
+    "reflexos": "+12",
+    "vontade": "+26",
+    "pontosDeVida": "280",
+    "pontosDeMana": "89",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Adaga +27 (1d4+7, 19, mais 1d6 perfuração)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "2",
+      "constituicao": "4",
+      "inteligencia": "5",
+      "sabedoria": "1",
+      "carisma": "–1"
+    },
+    "habilidades": [
+      {
+        "nome": "Arcano de Batalha",
+        "descricao": "Ichabod soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado)."
+      },
+      {
+        "nome": "Item de Poder",
+        "descricao": "Nas mãos de Ichabod, sua adaga de matéria vermelha funciona também como uma varinha arcana de matéria vermelha."
+      },
+      {
+        "nome": "Vigor Ilusório",
+        "descricao": "Ichabod tem 25% de chance de ignorar qualquer dano sofrido. Ilusão."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um mago de 12º nível (CD 35). As magias de ilusão* de Ichabod custam –1 PM (já contabilizado) e a CD para resistir a elas aumenta em +2.\n• Criar Ilusão* (Padrão, 8 PM): Ichabod pode criar ilusões com imagens e sons combinados em alcance médio. As ilusões podem ocupar até 9 cubos de 1,5m e também podem criar sensações táteis, como texturas. Criaturas que não saibam que essas são ilusões não conseguem atravessá-las. As ilusões ainda são incapazes de causar e sofrer dano (Von desacredita e permite atravessar as ilusões).\n• Disfarce Ilusório* (Padrão, 2 PM): Até o fim da cena, Ichabod muda a própria aparência, incluindo seu equipamento, os odores e as sensações que transmite. Ele recebe +20 em testes de Enganação para disfarce (Von desacredita).\n• Enxame Rubro de Ichabod (Padrão, 11 PM, sustentada): Um enxame de pequenas criaturas da Tormenta surge em alcance médio e ocupa um quadrado de 6m. No fim de cada turno de Ichabod, o enxame causa 5d12 pontos de dano de ácido a qualquer criatura em seu espaço (Ref reduz à metade). Ichabod pode gastar uma ação de movimento para mover o enxame com deslocamento de 12m.\n• Imagem Espelhada* (Padrão, 6 PM): Ichabod cria 5 cópias ilusórias de si mesmo que fornecem +10 na Defesa. Cada vez que um ataque contra ele erra, uma das imagens desaparece e o bônus na Defesa diminui em 2. Quando uma cópia é destruída, a criatura que a destruiu fica ofuscada por 1 rodada.\n• Invisibilidade* (Padrão, 5 PM): Ichabod fica invisível até o fim da cena (recebe camuflagem total, +10 em Furtividade contra ouvir e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques). A magia termina se ele fizer uma ação hostil contra uma criatura.\n• Seta Infalível de Talude (Padrão, 5 PM): Ichabod projeta 3 lanças de energia distribuídas em até 3 criaturas em alcance médio. Cada lança causa 1d8+1 pontos de dano de essência (uma delas recebe +5 na rolagem de dano)."
+      }
+    ],
+    "pericias": "Conhecimento +15, Ofício (alquimista) +17, Misticismo +19, Religião +11.",
+    "equipamento": "Adaga certeira de matéria vermelha, instrumentos de Ofício (alquimista) aprimorados, organizador de pergaminhos, pergaminho de Bola de Fogo, pergaminho de Velocidade, robe místico aprimorado.",
+    "tesouro": "Padrão."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "nialandarena-de-wynna",
+  "tipo": "criatura",
+  "nome": "Nialandarena de Wynna",
+  "resumo": "Qareen clériga de Wynna que habita Nova Malpetrim, cuja extraordinária semelhança com a antiga arquimaga Nielendorane de Lenórienn alimenta teorias sobre reencarnação, disfarce ou intervenção divina.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 39 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Nialandarena, ou apenas Niala, supostamente nasceu qareen no reino de Wynlla. Ouvia da mãe humana que fora presente da Deusa da Magia, conjurada em ritual de amor com um jairuan, um gênio dos ventos — uma história comum entre qareen.\n\nPlena de força mágica nas veias, parecia lógico a ela cursar a Academia Arcana. Passar pelos testes de admissão foi simples. O único incidente peculiar ocorreria durante sua entrevista com o arquimago Talude, Mestre Máximo da Magia, que lhe disparou um olhar penetrante e um comentário curioso: \"Então… você de novo?\".\n\nNiala pensava inicialmente se graduar maga ou feiticeira. Chegando ali, porém, a proximidade de Wynna, que encantava o lugar com sua presença de tempos em tempos, levou seu coração a outro destino: pediu para ser ordenada clériga no templo local.\n\nA origem e trajetória de Niala seriam bem comuns para meios-gênios, não fosse um detalhe: sua extraordinária semelhança física, de personalidade — e até mesmo de nome! — com Nielendorane de Lenórienn, a antiga arquimaga élfica.\n\nMesmo no além-vida, a elfa exuberante seguiria ajudando seus antigos companheiros, retornando a este mundo de tempos em tempos. Ou assim se pensava. O surgimento de Nialandarena vem repleto de teorias e boatos. Será verdadeira a história de seu nascimento? Será mesmo outra pessoa?\n\nHipóteses não faltam. Alguns imaginam que Niele teria pedido a Wynna para ressuscitar, não mais elfa, agora vestindo um corpo mais condizente com sua verdadeira natureza. Outros dizem que ela não voltou à vida realmente, está apenas (mal) disfarçada. Outros acreditam que Niala poderia muito bem ser sua meia-irmã, ou até filha. Outros ainda afirmam ser um avatar de Wynna, enquanto os mais alarmistas suspeitam de outro plano misterioso dos deuses.\n\nPerguntada a respeito, Niala confirma qualquer história que ache divertida, ou inventa outra ainda mais colorida. Ela acredita que seu dever é levar magia e alegria a todos — e também castigar aqueles que usam a mágica arcana para causar dor ou sofrimento. Atualmente, a qareen reside em Nova Malpetrim, auxiliando um grupo de jovens aventureiros com seu poder, que também não corresponde à magia convencional de clérigos ou arcanistas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devota", "alvoId": "wynna", "alvoTipo": "divindade", "rotulo": "Clériga de Wynna" }
+  ],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (qareen)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+7",
+    "percepcao": "+7",
+    "defesa": "21, redução de eletricidade 10",
+    "fortitude": "+4",
+    "reflexos": "+10",
+    "vontade": "+16",
+    "pontosDeVida": "96",
+    "pontosDeMana": "32",
+    "deslocamento": "9m (6q), voo 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Bordão x2 +14 (1d6+6)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "3",
+      "constituicao": "2",
+      "inteligencia": "3",
+      "sabedoria": "3",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Atraente",
+        "descricao": "Niala recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por ela."
+      },
+      {
+        "nome": "Desejos",
+        "descricao": "Se Niala lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM."
+      },
+      {
+        "nome": "Escudo Mágico",
+        "descricao": "Quando lança uma magia, Niala recebe um bônus na Defesa igual ao círculo da magia lançada, até o início do seu próximo turno."
+      },
+      {
+        "nome": "Inspiração (Padrão, 2 PM)",
+        "descricao": "Niala e todos os seus aliados em alcance curto recebem +1 em testes de perícia até o fim da cena."
+      },
+      {
+        "nome": "Tatuagem Divina",
+        "descricao": "A tatuagem especial de Niala permite que ela lance qualquer magia, arcana ou divina, de até 3º círculo, como uma clériga de Wynna de 9º nível (CD 20, limite de PM 15)."
+      }
+    ],
+    "pericias": "Atuação +10, Conhecimento +7, Enganação +10, Misticismo +7, Religião +7.",
+    "equipamento": "Bordão, braceletes de bronze, símbolo sagrado de Wynna.",
+    "tesouro": "Padrão."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cavaleiro",
+  "tipo": "criatura",
+  "nome": "Cavaleiro",
+  "resumo": "O patamar mais baixo da nobreza feudal, guerreiro de elite que mora no castelo de um barão e serve tanto dentro dos salões quanto no campo de batalha.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 74 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "5",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+5",
+    "percepcao": "+5",
+    "defesa": "26, resistência a medo +5",
+    "fortitude": "+17",
+    "reflexos": "+9",
+    "vontade": "+7",
+    "pontosDeVida": "145",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Lança montada +16 (1d8+12, x3, alcance 3m) ou espada longa +16 (1d8+12, 19)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "1",
+      "constituicao": "3",
+      "inteligencia": "0",
+      "sabedoria": "1",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Cavaleiro Experiente",
+        "descricao": "O cavaleiro passa automaticamente em testes de Cavalgar para não cair da montaria quando sofre dano, e não sofre penalidades para atacar à distância enquanto montado. Além disso, quando faz uma investida montada, ele causa +2d8 pontos de dano e pode continuar se movendo depois do ataque. Ele deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento."
+      },
+      {
+        "nome": "Corcel de Batalha",
+        "descricao": "O cavaleiro cavalga um cavalo de guerra (veja Tormenta20, p. 262). Enquanto ele estiver montado, seu deslocamento se torna 15m, ele recebe uma ação de movimento extra por turno (apenas para se deslocar) e +2 nos testes de ataque corpo a corpo."
+      },
+      {
+        "nome": "Duelo (Livre)",
+        "descricao": "Uma vez por rodada, o cavaleiro escolhe um oponente em alcance curto e recebe +2 em testes de ataque e rolagens de dano contra ele até o fim da cena ou até atacar outro oponente."
+      }
+    ],
+    "pericias": "Atletismo +7, Cavalgar +7, Diplomacia +9, Guerra +4, Nobreza +4.",
+    "equipamento": "Cavalo de guerra, escudo pesado, espada longa, lança montada, meia armadura, tabardo aprimorado.",
+    "tesouro": "Padrão."
+  }
+}

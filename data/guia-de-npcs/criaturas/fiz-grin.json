@@ -1,0 +1,66 @@
+{
+  "id": "fiz-grin",
+  "tipo": "criatura",
+  "nome": "Fiz-grin",
+  "resumo": "Dragão-fada pequeno com asas numeradas que engana aventureiros em busca de completar o desafio de mil peças imposto por Hyninn para realizar seu sonho de se tornar um dragão verdadeiro.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 12 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Fiz-grin é um dragão-fada que, como outros de sua espécie, lembra um dragão minúsculo com asas de borboleta. Como nenhum outro, entretanto, ele carrega uma particularidade curiosa: os padrões desenhados em cada uma de suas asas formam um número de três dígitos, que estranhamente parece mudar a cada novo encontro com a criatura.\n    Uma cantiga para crianças, espalhada por boa parte do Reinado por bardos, pais e mães, parece explicar o fato. Segundo ela, há muitos anos, o dragonete pediu ao deus Hyninn que realizasse um grande sonho que carregava consigo. O tipo de sonho que só um deus maior seria capaz de realizar: transformá-lo em um dragão verdadeiro. Como nada vindo das mãos do Panteão é gratuito, o Deus da Trapaça propôs um jogo \"inocente\": caso Fiz-grin conseguisse pregar uma peça em mil heróis, seu desejo seria atendido. Desde então, graças aos esforços criativos do dragonete e à curiosidade que permeia os artonianos, os números em suas asas decrescem sempre que ele consegue enganar, trapacear ou iludir aventureiros.\n    Apesar de tudo isso, Fiz-grin não é um ser maligno. As peças que prega são apenas grandes brincadeiras, e depois de marcar mais um ponto em sua contagem, raramente se furta a ajudar grupos de aventureiros como puder. Ele inclusive sabe realizar uma grande quantidade de magias, com muito talento, especialmente aquelas relacionadas a ilusões.\n    Mesmo com tanta esperteza, dizem que durante a Guerra Artoniana, utilizando-se de uma hábil manobra retórica, o cavaleiro Lothar Algherulff teria convencido o dragonete a mudar o foco de suas trapaças: a partir de então ele passaria a ludibriar apenas soldados puristas. Não se sabe se isso é verdade ou só mais um de inúmeros boatos, mas desde então Fiz-grin teria sido visto fora do seu bosque costumeiro. Boatos ainda mais ousados afirmam que, na verdade, agora o bosque se move junto com ele!\n    Por fim, existem rumores afirmando que Fiz-grin teria completado o desafio há bastante tempo, mas que prefere não revelar sua forma verdadeira, continuando a pregar peças disfarçado com seu corpo antigo. Apenas mais um de seus golpes…"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "hyninn", "alvoTipo": "divindade", "rotulo": "Fez pacto com Hyninn para se tornar dragão verdadeiro" }
+  ],
+  "mecanica": {
+    "nd": "13",
+    "tipo": "Espírito",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+14",
+    "percepcao": "+15, visão no escuro",
+    "defesa": "43, imunidade a cansaço e efeitos de movimento, redução de dano 10/adamante, resistência a magia +3",
+    "fortitude": "+13",
+    "reflexos": "+20",
+    "vontade": "+26",
+    "pontosDeVida": "420",
+    "deslocamento": "6m (4q), voo 15m (10q)",
+    "ataques": [
+      "Corpo a Corpo Duas garras +34 (2d4+14, 18) e mordida +34 (2d6+14, 18)."
+    ],
+    "atributos": {
+      "forca": "0",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "4",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Rei das Ilusões",
+        "descricao": "Fiz-grin pode lançar qualquer magia de ilusão, arcana ou divina, de até 4º círculo como um feiticeiro de 13º nível (CD 37) sem gastar PM."
+      },
+      {
+        "nome": "Roubar Magia (Reação)",
+        "descricao": "Uma vez por rodada, quando vê outra criatura em alcance curto sendo alvo de uma magia, Fiz-grin pode roubar o efeito dessa magia. O alvo da magia deve fazer um teste de Vontade (CD 37); se falhar, Fiz-grin recebe o efeito da magia em seu lugar."
+      },
+      {
+        "nome": "Sentidos Onipresentes",
+        "descricao": "Fiz-grin sabe de tudo que acontece em seu bosque, sem necessidade de testes."
+      },
+      {
+        "nome": "Sopro Iridescente (Padrão)",
+        "descricao": "Fiz-grin sopra pó iridescente em um cone de 9m. Criaturas na área ficam atordoadas por 1 rodada (apenas uma vez por cena, Von CD 37 evita) e ofuscadas (criaturas cegas não sofrem essas condições) e são cobertas por uma aura brilhante que impede que recebam camuflagem por escuridão ou invisibilidade até o fim da cena. Ilusão. Recarga (movimento)."
+      },
+      {
+        "nome": "Visão Feérica",
+        "descricao": "Fiz-grin está permanentemente sob efeito da magia Visão Mística. Dentro de seu bosque, ele recebe o aprimoramento que permite enxergar criaturas e objetos invisíveis."
+      }
+    ],
+    "pericias": "Conhecimento +14, Diplomacia +15, Enganação +20, Furtividade +16 (+26 em seu bosque), Jogatina +17, Ladinagem +16, Intuição +13, Misticismo +16, Sobrevivência +15.",
+    "tesouro": "Padrão."
+  }
+}

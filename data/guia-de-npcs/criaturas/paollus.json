@@ -1,0 +1,62 @@
+{
+  "id": "paollus",
+  "tipo": "criatura",
+  "nome": "Paollus, o Irmão Mais Velho",
+  "resumo": "Líder calmo e meticuloso da Companhia dos Irmãos, maior organização criminosa valkariana, que comanda seu império do crime através de chantagem, capangas e uma presença intimidadora irresistível.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 42 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Líder da Companhia dos Irmãos, primeira e maior organização criminosa valkariana, este meio-elfo de cabelos bem penteados é normalmente calmo e meticuloso, mas, quando necessário, extremamente enérgico.\n\nDizem que a Companhia teve origem em um grupo de aventureiros. Apesar disso, Paollus despreza essas figuras, que considera meros mercenários e saqueadores de túmulos, e enxerga a fraternidade criminosa como uma instituição respeitável. Para ele, seus irmãos de pacto são os verdadeiros protetores da população e mantenedores da ordem nas ruas da metrópole. A taxa de proteção cobrada pelo serviço, apenas um símbolo do respeito devido a quem o realiza.\n\nEm sua juventude, Paollus atuou como capanga e assassino, tornando-se um exímio lutador e besteiro. Porém, hoje está longe das linhas de frente. Em vez disso, o \"irmão mais velho\" prefere apadrinhar aqueles que possam ser úteis no futuro, o que já deixou em dívida com ele diversos figurões, incluindo nobres, membros da guarda e até mesmo heróis."
+    }
+  ],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "14",
+    "tipo": "Humanoide (meio-elfo)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+21",
+    "percepcao": "+16, visão na penumbra",
+    "defesa": "45, esquiva sobrenatural",
+    "fortitude": "+26",
+    "reflexos": "+22",
+    "vontade": "+16",
+    "pontosDeVida": "420",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Ataque desarmado x3 +38 (2d8+40, 19/x3).",
+      "À Distância Balestra explosiva x2 +38 (2d12+40, 18/x3, mais 6d6 fogo)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "5",
+      "constituicao": "3",
+      "inteligencia": "3",
+      "sabedoria": "3",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Ataque Furtivo",
+        "descricao": "+7d8."
+      },
+      {
+        "nome": "Irmãos Mais Novos (Movimento)",
+        "descricao": "Paollus assobia e invoca 2d6+3 capangas da irmandade, que saem de becos, bueiros ou do topo de telhados e surgem em espaços desocupados em alcance médio. Eles agem a partir da próxima rodada de Paollus, têm deslocamento 9m e podem gastar uma ação padrão para causar 1d8+19 pontos de dano de corte em uma criatura adjacente. Os capangas têm For 4, Des 3, Defesa 19, 1 PV e falham automaticamente em qualquer teste oposto ou de resistência. Recarga (reduzir um inimigo a 0 ou menos PV)."
+      },
+      {
+        "nome": "Oferta Irrecusável (Completa)",
+        "descricao": "Com um olhar, Paollus pode descobrir o que uma pessoa mais teme e então usar isso para chantageá-la. Ele pode usar esta habilidade contra qualquer criatura em alcance curto que possa escutá-lo e compreendê-lo. Ao usá-la, Paollus faz um teste de Intimidação (+26) oposto pelo teste de Vontade da vítima. Se ele vencer, pode dar uma ordem qualquer a essa pessoa. Essa ordem será uma oferta irrecusável e a pessoa irá cumpri-la da melhor maneira que puder. Mesmo ordens extremas podem ser dadas — uma pessoa pode preferir morrer a ver sua família ser assassinada pela irmandade! No entanto, ordens extremas fornecem um bônus de +5 no teste de Vontade da vítima. Esta habilidade só pode ser usada uma vez por dia e dura uma semana, ou até a criatura executar a ordem (o que vier primeiro)."
+      },
+      {
+        "nome": "Quebrar Pernas (Padrão)",
+        "descricao": "Paollus faz um ataque desarmado que causa dano dobrado e, se acertar, deixa a vítima debilitada e lenta por uma semana (Fort CD 40 evita as condições)."
+      }
+    ],
+    "pericias": "Acrobacia +16, Atletismo +18, Enganação +16, Furtividade +16, Intimidação +26, Intuição +14, Investigação +16.",
+    "equipamento": "Anel de proteção, balestra explosiva, virotes de adamante x20.",
+    "tesouro": "Padrão."
+  }
+}

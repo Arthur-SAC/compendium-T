@@ -1,0 +1,73 @@
+{
+  "id": "sislach-rawia",
+  "tipo": "criatura",
+  "nome": "Sislach Rawia",
+  "resumo": "Medusa corpulenta e braço forte do Arquilich Ferren Asloth, líder da Companhia das Serpentes, temida por seu olhar que acarreta deterioração fatal, sempre montada em seu gorlogg Quistus.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 54 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "O braço forte de Ferren Asloth, esta medusa foi escolhida a dedo entre as fileiras de lacaios do vilão para resolver os problemas do Arquilich quando não há espaço para sutilezas. Uma figura corpulenta e musculosa, Rawia traja uma couraça de metal esverdeado, que traz gravada no peitoral uma enorme cabeça de cobra, símbolo temido no reino onde habita e além.\n\nSempre vista montada em um gorlogg imenso que chama de Quistus, é uma combatente poderosa, carregando um arco longo e um machado de guerra. Contudo, Rawia não se prende a um estilo marcial único, sendo capaz de usar como arma tudo que estiver à mão. Sua habilidade mais conhecida e temida, porém, é a bênção dada a ela por seu mestre, como recompensa por serviços prestados em tempos anteriores à Noite da Ascensão Profana: um olhar amaldiçoado capaz de apodrecer o corpo de quaisquer seres que se coloquem em seu caminho.\n\nPara além de seu posto de sislach, Rawia também atua como líder da Companhia das Serpentes, grupo formado por mercenárias extremamente leais, e no qual suas três filhas — Vethara, Calitha e Basthara — atuam como tenentes. Graças aos privilégios que detém na corte, Rawia tem o direito de convocar compulsoriamente membros de qualquer outra companhia mercenária aslothiana para realizar missões a seu serviço, independentemente da periculosidade dessas tarefas. Um artifício muito utilizado para dar cabo de indivíduos indesejáveis."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Sislach de Aslothia" },
+    { "tipo": "aliado", "alvoId": "ferren-asloth", "alvoTipo": "criatura", "rotulo": "Braço forte do Arquilich Ferren Asloth" }
+  ],
+  "mecanica": {
+    "nd": "16",
+    "tipo": "Monstro (medusa)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+21",
+    "percepcao": "+15, visão no escuro",
+    "defesa": "50, evasão, redução de dano 10, redução de fogo 5, resistência a veneno +5",
+    "fortitude": "+30",
+    "reflexos": "+24",
+    "vontade": "+16",
+    "pontosDeVida": "810",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Machado de batalha x3 +46 (3d6+34, 18/x3, mais veneno).",
+      "À Distância Arco longo x3 +46 (2d8+34, x3, mais sangramento e veneno)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "5",
+      "constituicao": "4",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "4"
+    },
+    "habilidades": [
+      {
+        "nome": "Olhar Deteriorante (Movimento)",
+        "descricao": "Rawia força uma criatura em alcance curto a fazer um teste de Fortitude (CD 42). Se falhar, a criatura fica enjoada e deve repetir o teste no fim de cada um de seus turnos. A cada falha, sua condição piora para fraca, debilitada e então morta. Passar em um dos testes de Fortitude interrompe a deterioração, mas não remove as condições já sofridas. Um efeito mágico capaz de remover a condição mais recente também impede a deterioração. Uma criatura só pode ser afetada por esta habilidade uma vez por dia. Metabolismo."
+      },
+      {
+        "nome": "Quistus",
+        "descricao": "Rawia cavalga Quistus, um gorlogg montaria mestre. Enquanto Rawia está montada, seu deslocamento se torna 15m e, uma vez por rodada, ela recebe +2d8 em uma rolagem de dano corpo a corpo."
+      },
+      {
+        "nome": "Saque Rápido",
+        "descricao": "Rawia pode sacar e guardar itens como uma ação livre."
+      },
+      {
+        "nome": "Truques Mercenários",
+        "descricao": "Rawia conhece diversos truques de combate que ela pode usar uma vez por cena contra cada inimigo diferente.\n• Areia nos Olhos (Movimento) Uma criatura adjacente fica cega por 1d4 rodadas (Ref CD 42 evita).\n• Contra-Ataque Oportuno (Reação) Uma vez por rodada, quando um inimigo adjacente a Rawia erra um ataque contra ela, ela faz um ataque corpo a corpo contra esse inimigo.\n• Explorar Fraqueza (Movimento) Rawia procura uma abertura nas defesas de um inimigo em alcance curto. Durante esse turno, ela recebe +5 na margem de ameaça de seus ataques contra ele.\n• Jogo de Corpo (Reação) Uma vez por rodada, quando é atacada em corpo a corpo por um inimigo que a esteja flanqueando, Rawia faz um teste de Iniciativa oposto pela Percepção desse inimigo. Se ela vencer, ele ataca outra criatura que esteja flanqueando Rawia, em vez dela mesma."
+      },
+      {
+        "nome": "Veneno",
+        "descricao": "Perde 3d12 pontos de vida."
+      },
+      {
+        "nome": "Vontade de Ferren",
+        "descricao": "Enquanto está em Aslothia, Rawia pode realizar uma ação padrão adicional a cada rodada."
+      }
+    ],
+    "pericias": "Atletismo +18, Cavalgar +19, Intimidação +20, Guerra +21.",
+    "equipamento": "Arco longo formidável sanguinário, couraça macabra de gelo eterno, flechas x20, machado de batalha de adamante ameaçador formidável.",
+    "tesouro": "Padrão."
+  }
+}

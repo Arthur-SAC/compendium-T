@@ -1,0 +1,72 @@
+{
+  "id": "hermann-von-krauser",
+  "tipo": "criatura",
+  "nome": "Hermann Von Krauser, o General Supremo",
+  "resumo": "Veterano lorde-general de Yudennach que fundou a Supremacia Purista, quase conquistou o Reinado na Guerra Artoniana e hoje continua sua campanha a bordo de um mecanotrono após ser aleijado por Lothar Algherulff.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 18 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Um dos piores flagelos de Arton, este veterano serviu em todas as patentes do exército real de Yudennach, de recruta a Lorde General. Após dar baixa, tornou-se líder dos puristas, na época apenas uma facção dentro do reino, e usou-os para dar um golpe de estado na antiga monarquia, transformando-a na ditadura que viria a ser conhecida como Supremacia Purista.\n\nDurante a Guerra Artoniana, liderou os batalhões puristas e quase atingiu seu objetivo de conquistar o Reinado e transformá-lo em uma única hierarquia. Seu plano falhou apenas pela intervenção dos Campeões de Svalas, que invadiram sua Fortaleza Móvel e o derrotaram em combate.\n\nInfelizmente, o General Supremo é um estrategista sagaz, com planos dentro de planos. Ao revelar, em uma bola de cristal, centenas de inocentes que seriam executados caso ele fosse preso ou morto, obrigou os heróis a deixá-lo recuar. Apesar de ter escapado, Von Krauser não saiu incólume. Um ferimento desferido pelo cavaleiro Lothar Algherulff, usando a espada cristalina Carthalkan, tirou do General Supremo o movimento de suas pernas.\n\nFisicamente, o líder purista é um homem de idade avançada, fato visível em seus cabelos grisalhos e rosto repleto de marcas. Apesar disso, possui mente afiada e, quando fala, projeta sua voz por todo o ambiente, dominando a atenção dos ouvintes. Um segredo do General Supremo é sua hipocrisia. Embora diga desprezar outras raças, mantém uma aliança com o Império Trollkyrka, que envolve troca de prisioneiros escravizados pelos batalhões puristas por riquezas extraídas do subterrâneo pelos trolls, que financiam a máquina de guerra da Supremacia. Mais do que isso, o próprio General Supremo teria sido alvo de experimentos biomantes para elevar sua força e vigor a níveis sobrehumanos, mesmo em sua idade avançada.\n\nAté o momento, nenhum tratamento mundano ou mágico foi capaz de curar o General Supremo do ferimento causado por Lothar. Contudo, inventores puristas desenvolveram para ele um engenho que o permite se locomover: o mecanotrono. Desde então, Von Krauser voltou à ativa, e relatórios de espiões do Reinado dizem que tem visitado os quartéis de toda a Supremacia. A verdade é que para o General Supremo a guerra nunca acabou, e ele espera em breve poder lembrar o Reinado disso."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "yudennach", "alvoTipo": "regiao", "rotulo": "Líder da Supremacia Purista em Yudennach" }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Grande",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+26",
+    "percepcao": "+22",
+    "defesa": "65, resistência a magia +5",
+    "fortitude": "+28",
+    "reflexos": "+18",
+    "vontade": "+36",
+    "pontosDeVida": "750",
+    "deslocamento": "12m (8q), ignora terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Espada bastarda x3 +59 (4d10+45, 17/x3).",
+      "À Distância Pistola-tambor x3 +59 (4d8+45, 15/x3, mais 4d8 contra humanoides não humanos)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "0",
+      "constituicao": "6",
+      "inteligencia": "6",
+      "sabedoria": "6",
+      "carisma": "6"
+    },
+    "habilidades": [
+      {
+        "nome": "Arsenal do Mecanotrono (Movimento)",
+        "descricao": "Criaturas adjacentes a Von Krauser sofrem 4d12+50 pontos de dano de corte (Ref CD 50 reduz à metade)."
+      },
+      {
+        "nome": "Guarda Suprema",
+        "descricao": "No início de cada turno de Von Krauser, 5 guarda-costas de elite surgem em espaços desocupados em alcance médio dele. Os guarda-costas agem assim que surgem. A forma como isso ocorre fica a critério do mestre: chegam correndo ao ver o General Supremo em perigo; aparecem por teletransporte ou mesmo já estavam por perto, mas invisíveis, e apenas se revelam. Os guarda-costas não contam para o cálculo de XP e tesouro do encontro."
+      },
+      {
+        "nome": "Mecanotrono",
+        "descricao": "Em seu mecanotrono, Von Krauser tem tamanho Grande, deslocamento 12m e não é afetado por terreno difícil (já contabilizado). No início de cada rodada, o engenho gera um campo de força que absorve os 200 primeiros pontos de dano sofridos pelo General Supremo na rodada. É possível tirar Von Krauser do mecanotrono, mas fazer isso exige causar pelo menos 200 pontos de dano nele na rodada (para eliminar o campo de força), agarrá-lo e então vencer outro teste de manobra para tirá-lo do engenho. Fora do mecanotrono, Von Krauser volta a ser uma criatura Média, fica permanentemente caído, tem seu deslocamento reduzido a 1,5m e perde a habilidade Arsenal do Mecanotrono."
+      },
+      {
+        "nome": "Ordem Inquestionável (Livre)",
+        "descricao": "Uma vez por rodada, Von Krauser profere uma ordem da lista a seguir a uma criatura inteligente em alcance médio. Se o alvo falhar no teste de resistência (Von CD 51), deve obedecer à ordem em seu próximo turno da melhor maneira possível.\n• Ataque: o alvo ataca outra criatura à escolha de Von Krauser, usando suas melhores habilidades para isso.\n• Fuja: o alvo gasta seu turno se afastando de Von Krauser (usando todas as suas ações).\n• Submeta-se: o alvo solta quaisquer itens que esteja empunhando e fica pasmo.\n• Venha: o alvo gasta o turno se aproximando de Von Krauser (usando todas as ações dele para isso)."
+      },
+      {
+        "nome": "Plano de Contingência (Reação)",
+        "descricao": "Se Von Krauser for afetado por um efeito mental, de movimento, de metamorfose ou de \"morte instantânea\", ele anula esse efeito. Efeitos de morte instantânea incluem aqueles que reduzem seus PV a 0 ou menos instantaneamente (como Assassino Fantasmagórico), que aprisionam ou destroem seu corpo ou alma (como Buraco Negro e Roubar a Alma) e similares. O mestre tem a palavra final se um efeito é ou não de morte instantânea. Recarga (padrão)."
+      },
+      {
+        "nome": "Táticas Supremas (Movimento)",
+        "descricao": "Von Krauser grita ordens para seus aliados em alcance médio. Eles recebem +5 em testes de perícia, +1d8+5 em rolagens de dano e +2 em Defesa até o fim da cena."
+      }
+    ],
+    "pericias": "Conhecimento +22, Diplomacia +22, Enganação +22, Guerra +32, Intimidação +22, Intuição +22, Nobreza +22, Ofício (soldado) +22, Pilotagem +16.",
+    "equipamento": "Anel da liberdade, armadura completa sob medida abascanta, espada bastarda de adamante maciça magnífica veloz, medalhão de Lena, pistola-tambor de mitral precisa anti-humanoides caçadora magnífica (armazena 12 munições, em vez das 4 normais).",
+    "tesouro": "Dobro."
+  }
+}

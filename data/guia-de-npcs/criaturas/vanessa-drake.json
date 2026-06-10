@@ -1,0 +1,82 @@
+{
+  "id": "vanessa-drake",
+  "tipo": "criatura",
+  "nome": "Vanessa Drake",
+  "resumo": "Clériga de Arsenal e heroína da Trilogia da Tormenta, que abandonou seu destino de sumo-sacerdotisa de Keenn para salvar seu filho e tornou-se a primeira escolhida do novo Deus da Guerra.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 62 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Vanessa Drake nasceu na família Derrigan, nobres menores de Bielefeld, em um feudo não muito longe da cidade de Norm. Como uma menina nobre em um reino tradicionalista, era esperado que se tornasse uma dama, casasse com um cavaleiro e tivesse uma vida voltada à corte. No entanto, desde criança mostrou desejo por muito mais.\n    Certa noite, Vanessa teve um sonho, que interpretou como uma visão. Estava sendo convocada por Keenn, então o Deus da Guerra. Fugiu de casa e do reino, passou por provações e foi aceita como acólita. Depois de anos de treinamento árduo, foi ordenada e voltou a Bielefeld, onde era vista como indesejável e perigosa. Foi então que conheceu outro indesejável — o jovem cavaleiro Orion Drake. Em pouco tempo, os dois estavam casados.\n    Vanessa e Orion sempre desejaram ter filhos, mas o destino não parecia colaborar. Quando enfim ela engravidou, seu marido saiu em uma busca pelo próprio pai, um vilão misterioso. Isso deu início a uma série de eventos que mudou a história de Arton.\n    Grávida, Vanessa partiu no encalço de Orion. Acabou cruzando o caminho do caçador de recompensas Crânio Negro, um servo da Tormenta, e descobriu sobre um plano para enviar um exército corrompido pela Tempestade Rubra até o antigo reino de Trebuck. Vanessa fez o próprio parto no campo de batalha. Arranjou o casamento de ninguém menos que Shivara Sharpblade, então rainha de Trebuck, com o antigo rei de Yudennach, para conseguir seu apoio na guerra. Ela foi fundamental para a vitória do Exército do Reinado, mas seu filho bebê foi raptado."
+    },
+    {
+      "titulo": "",
+      "texto": "A autoconfiança de Vanessa tinha uma razão: ao longo da vida, ela teve visões de que seria sumo-sacerdotisa de Keenn. Contudo, teve que abandonar esse destino. A busca para salvar seu filho a levou mais uma vez à luta contra a Tormenta. Vanessa barganhou com demônios e ofereceu seu próprio futuro em troca de armas para vencer Crânio Negro. Matou-o com as próprias mãos, mas sua vida perdeu a grandiosidade.\n    Vanessa viveu durante anos com Orion e Vallen, o filho do casal, num castelo em Bielefeld. Perder seus poderes de clériga na queda de Keenn foi o mais duro golpe que sentiu na vida. Por muito tempo conviveu com a realidade de estar espiritualmente sozinha.\n    Mas, embora a grandeza tivesse ficado em seu passado, seu heroísmo e sua força nunca seriam esquecidas. Certa noite ela acordou com uma sensação que não experimentava desde que era adolescente. Uma visão. Um chamado.\n    A sacerdotisa então saiu do castelo no meio da noite para encontrar o novo Deus da Guerra em pessoa visitando suas terras, e voltou para o castelo radiante. Antes do amanhecer, retomou os treinos de combate e, com os primeiros raios de sol, ordenou a construção de um templo.\n    Vanessa Drake era mais uma vez uma escolhida. A primeira clériga de Arsenal."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devota", "alvoId": "arsenal", "alvoTipo": "divindade", "rotulo": "Primeira clériga de Arsenal" },
+    { "tipo": "devota", "alvoId": "keenn", "alvoTipo": "divindade", "rotulo": "Ex-clériga de Keenn" },
+    { "tipo": "habitat", "alvoId": "bielefeld", "alvoTipo": "regiao", "rotulo": "Vive em Bielefeld" }
+  ],
+  "mecanica": {
+    "nd": "20",
+    "tipo": "Humanoide (humana)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+20",
+    "percepcao": "+22",
+    "defesa": "60, fortificação 50%, imunidade a medo, redução de dano 10",
+    "fortitude": "+28",
+    "reflexos": "+20",
+    "vontade": "+34",
+    "pontosDeVida": "860",
+    "pontosDeMana": "206",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Maça de guerra x3 +53 (3d6+45, x4, mais 6d8 impacto)."
+    ],
+    "atributos": {
+      "forca": "7",
+      "destreza": "4",
+      "constituicao": "9",
+      "inteligencia": "2",
+      "sabedoria": "6",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Comandar o Medo (Movimento)",
+        "descricao": "Vanessa faz um teste de Intimidação oposto pela Vontade de todas as criaturas à escolha dela em alcance médio. Criaturas que falhem ficam abaladas e alquebradas até o fim da cena. Uma criatura que passe sofre essas condições por 1 rodada. Esta habilidade não pode afetar uma mesma criatura mais de uma vez no mesmo dia."
+      },
+      {
+        "nome": "Conjurar Arma (Livre, 1 PM)",
+        "descricao": "Vanessa invoca uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge na mão dela, recebe um bônus de +1 em testes de ataque e rolagens de dano e dura pela cena. Ela não pode criar armas de disparo, mas pode criar 20 munições (flechas, virotes etc.)."
+      },
+      {
+        "nome": "Fé Guerreira (Livre)",
+        "descricao": "Se estiver em combate, uma vez por rodada, Vanessa substitui um teste de perícia (exceto testes de ataque) por um teste de Guerra."
+      },
+      {
+        "nome": "Maça Trovejante",
+        "descricao": "Uma criatura atingida por um acerto crítico da maça de guerra trovejante de Vanessa fica atordoada por 1 rodada (apenas uma vez por cena; Fort CD 51 evita)."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Vanessa muda a execução dela para livre."
+      },
+      {
+        "nome": "Prece de Combate (+2 PM)",
+        "descricao": "Quando lança uma magia divina com tempo de conjuração de uma ação padrão em si mesma, Vanessa pode lançá-la como uma ação de movimento."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma clériga de Arsenal de 20º nível (CD 51, limite de PM 25). Vanessa pode lançar qualquer magia divina.\n• Arma Mágica (Padrão, 14 PM): Até o fim da cena, uma arma adjacente se torna mágica, fornecendo +5 nos testes de ataque e rolagens de dano e +2d6 pontos de dano de eletricidade.\n• Aura Divina (Padrão, 21 PM): Vanessa emana uma aura brilhante com 9m de raio até o fim da cena. Ela e aliados devotos de Arsenal na área ficam imunes a encantamento e recebem +13 na Defesa e em testes de resistência (para aliados não devotos de Arsenal esse bônus é +8). Inimigos que entrem na área devem fazer um teste de Vontade; em caso de falha, recebem uma condição entre esmorecido, debilitado ou lento até o fim da cena. Esse teste deve ser repetido cada vez que a criatura entra novamente na área.\n• Coluna de Chamas (Padrão, 24 PM): Um cilindro de fogo com 3m de raio e 30m de altura desce dos céus em alcance longo, causando 15d6 pontos de dano de fogo mais 15d6 pontos de dano de luz nas criaturas e objetos livres na área.\n• Curar Ferimentos (Padrão, 25 PM): Uma criatura adjacente cura 26d8+26 PV ou criaturas escolhidas em alcance curto curam 21d8+21.\n• Dissipar Magia (Padrão, 3 PM): Vanessa escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.\n• Escudo da Fé (Reação, 7 PM): Quando uma criatura em alcance curto sofre um ataque, recebe +5 na Defesa por 1 turno.\n• Libertação (Padrão, 10 PM): Até o fim da cena, uma criatura em alcance curto fica imune a efeitos de movimento, ignora qualquer efeito que impeça ou restrinja seu deslocamento e pode usar habilidades que exigem liberdade de movimento mesmo se estiver usando armadura ou escudo.\n• Pele de Pedra (Padrão, 10 PM): Vanessa recebe redução de dano 10 até o fim da cena.\n• Potência Divina (Padrão, 6 PM, sustentada): O tamanho de Vanessa aumenta uma categoria e ela recebe Força +4 e RD 10. Ela não pode lançar magias enquanto estiver sob efeito de Potência Divina.\n• Soco de Arsenal (Padrão, 25 PM): Uma criatura em alcance médio sofre 15d6+7 pontos de dano de impacto e é empurrada 3m na direção oposta (Fort reduz à metade e evita o empurrão)."
+      }
+    ],
+    "pericias": "Diplomacia +17, Guerra +24, Intimidação +17, Intuição +22, Misticismo +18, Nobreza +18, Religião +34.",
+    "equipamento": "Armadura completa de adamante delicada fortificada guardiã, escudo leve reforçado, maça de guerra de adamante maciça magnífica trovejante, manto eclesiástico aprimorado, símbolo sagrado de Arsenal.",
+    "tesouro": "Padrão."
+  }
+}

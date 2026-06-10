@@ -1,0 +1,57 @@
+{
+  "id": "condotiero",
+  "tipo": "criatura",
+  "nome": "Condotiero",
+  "resumo": "Líder mercenário capaz de conduzir seus homens a vitórias espetaculares, podendo vir de qualquer raça, até mesmo dos reclusos e desconfiados centauros.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 77 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Humanoide (centauro)",
+    "tamanho": "Grande",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+9",
+    "percepcao": "+9",
+    "defesa": "34, redução de dano 5, resistência a efeitos mentais e medo +5",
+    "fortitude": "+21",
+    "reflexos": "+15",
+    "vontade": "+9",
+    "pontosDeVida": "365",
+    "deslocamento": "12m (8q)",
+    "ataques": [
+      "Corpo a Corpo Lança montada x2 +26 (2d8+18, x3) ou espada longa x2 +26 (2d6+18, 19), e cascos +26 (2d8+18).",
+      "À Distância Azagaia +26 (2d8+18)."
+    ],
+    "atributos": {
+      "forca": "5",
+      "destreza": "1",
+      "constituicao": "4",
+      "inteligencia": "1",
+      "sabedoria": "1",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Formação de Ataque (Movimento)",
+        "descricao": "O condotiero comanda seus aliados em alcance médio. Até o início do próximo turno do condotiero, sempre que um desses aliados faz um ataque, rola dois dados e usa o melhor resultado."
+      },
+      {
+        "nome": "Formação de Defesa (Movimento)",
+        "descricao": "O condotiero comanda seus aliados em alcance médio. Até o início do próximo turno do condotiero, cada aliado recebe redução de dano 5."
+      },
+      {
+        "nome": "Investida Galopante (Completa)",
+        "descricao": "O condotiero faz uma investida. Ele pode passar pelo espaço ocupado por criaturas menores que ele, pode continuar se movendo depois do ataque e, se acertar, causa +4d8 pontos de dano. Criaturas no caminho percorrido pelo condotiero sofrem 1d8+9 pontos de dano de impacto e ficam caídas (Ref CD 28 evita)."
+      },
+      {
+        "nome": "Medo de Altura",
+        "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura, o condotiero fica abalado."
+      }
+    ],
+    "pericias": "Atletismo +13, Diplomacia +10, Intimidação +10, Guerra +11.",
+    "equipamento": "Azagaia aumentada x3, couraça reforçada, escudo pesado, espada longa aumentada, lança montada aumentada.",
+    "tesouro": "Padrão."
+  }
+}

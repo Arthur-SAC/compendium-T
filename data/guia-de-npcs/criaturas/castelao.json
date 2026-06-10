@@ -1,0 +1,52 @@
+{
+  "id": "castelao",
+  "tipo": "criatura",
+  "nome": "Castelão",
+  "resumo": "Principal conselheiro de um barão, responsável pela administração cotidiana do castelo e normalmente o primeiro contato de aventureiros iniciantes com o poder.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 74 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "4",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Corte",
+    "iniciativa": "+4",
+    "percepcao": "+7",
+    "defesa": "22",
+    "fortitude": "+10",
+    "reflexos": "+4",
+    "vontade": "+16",
+    "pontosDeVida": "90",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Maça x2 +15 (1d8+7)."
+    ],
+    "atributos": {
+      "forca": "2",
+      "destreza": "0",
+      "constituicao": "3",
+      "inteligencia": "2",
+      "sabedoria": "3",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Chamar Reforços (Padrão)",
+        "descricao": "O castelão invoca 1d4 guardas palacianos (veja p. 71) que surgem em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do castelão. Recarga (1d4 rodadas)."
+      },
+      {
+        "nome": "Desconfiar",
+        "descricao": "Uma vez por cena, o castelão pode rolar novamente um teste de Intuição ou Percepção recém-realizado."
+      },
+      {
+        "nome": "Gritar Ordens (Padrão)",
+        "descricao": "Os aliados em alcance médio do castelão recebem +2 em testes de perícia até o fim da rodada."
+      }
+    ],
+    "pericias": "Conhecimento +6, Diplomacia +6, Intimidação +6, Intuição +7, Nobreza +8.",
+    "equipamento": "Cota de malha, escudo pesado, maça certeira.",
+    "tesouro": "Padrão."
+  }
+}

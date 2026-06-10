@@ -1,0 +1,73 @@
+{
+  "id": "gwendolynn-libertadora",
+  "tipo": "criatura",
+  "nome": "Gwendolynn Libertadora",
+  "resumo": "Elfa clériga de Tanna-Toh, conselheira da Revolta da Lavoura e libertadora de escravos que, ao receber uma fagulha divina de Tanna-Toh, ascendeu à condição de Deusa Menor da Liberdade.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 16 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Mais conhecida como Gwen, esta elfa cresceu em um templo de Tanna-Toh nas imediações de Lenórienn, a antiga capital de seu povo. Apesar da vocação para clériga da Deusa do Conhecimento, desde cedo demonstrou também fascinação pela busca da liberdade — sua e do próximo. Após presenciar a morte de todos que amava e ver a biblioteca élfica em chamas, fugiu para Arton Norte acompanhada de um goblin que ela havia acabado de libertar e viria a se tornar seu melhor amigo.\n\nNo novo continente, continuou a disseminar o conhecimento através de seu trabalho como professora itinerante, dando especial atenção à preservação da cultura élfica. Ao longo de suas viagens, cumpriu missões de exploração, resgate e aconselhamento, deixando um rastro de benfeitorias por onde passava e fazendo amizade com aventureiros que compartilhavam de seus ideais de liberdade.\n\nAo descobrir que alunos seus haviam sido capturados pelo Império de Tauron, Gwen atravessou o continente para se unir ao que ficou conhecida como a Revolta da Lavoura. Porém, nem mesmo seus conselhos foram capazes de impedir que o líder dos revoltosos fosse traído e se tornasse vítima de sua própria ingenuidade.\n\nSem um líder para seguir, e tendo ouvido falar sobre um raio de esperança que surgia no coração da capital táurica, Gwen tomou uma atitude desesperada: entregou a si mesma como escrava, com o objetivo de destruir o sistema de dentro para fora. Na ocasião, pensou estar sacrificando apenas a si mesma. Porém, tarde demais descobriu que o preço a se pagar pela liberdade de um povo é muito mais alto.\n\nGwen estava em Tiberus quando veio a Tormenta. Presenciou a disputa de poder entre os deuses. E, após libertar os escravos de correntes visíveis e invisíveis, com a aprovação de Tanna-Toh em pessoa, recebeu ela própria sua fagulha divina. Hoje não é mais clériga. É Gwendolynn, a Deusa Menor da Liberdade."
+    },
+    {
+      "titulo": "A Revolta da Lavoura",
+      "texto": "Pouco antes da queda do Império de Tauron, um grupo de escravos se revoltou contra seus senhores, em um episódio que ficou conhecido como a Revolta da Lavoura. Liderados por Domitius, um minotauro escravizado por seus próprios conterrâneos, os revoltosos logo buscaram novos aliados. Contudo, esses aliados eram muito diferentes entre si, e rixas surgiram. Escravos que trabalhavam nas lavouras queriam a liberdade. Escravos que trabalhavam dentro das casas senhoris também queriam a liberdade, mas sem abrir mão de seus \"privilégios\". Guerrilheiros mercenários queriam ouro. Piratas lutavam por quem pagasse mais. Missionários de diferentes deuses tinham objetivos conflitantes. Alguns dos rebeldes queriam ir embora de Tapista, outros queriam conquistar suas próprias terras dentro do reino.\n\nGwen foi parte da revolta, atuando como conselheira de Domitius. O líder recebeu ofertas de ouro e terras em troca de sua rendição, mas era valente e incorruptível. Contudo, era também ingênuo. Por fim, a revolta foi traída por um de seus aliados e esmagada pelas legiões do Império. Gwen sobreviveu por pouco.\n\nDomitius foi esquartejado, seus restos mortais espalhados por Tapista para servir de exemplo. Porém, Gwen teve uma surpresa quando viu o companheiro exposto. Não era o couro duro e peludo de seu antigo líder, nem seus cascos de minotauro. Era um corpo de humano. Vitoriosos, os senadores reescreveram a história, para atribuir a revolta contra o sistema táurico a um membro de outra raça. Até hoje o paradeiro dos restos mortais de Domitius é desconhecido."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "ascendeu", "alvoId": "gwendolynn", "alvoTipo": "divindade", "rotulo": "Tornou-se a deusa Gwendolynn" },
+    { "tipo": "devoto", "alvoId": "tanna-toh", "alvoTipo": "divindade", "rotulo": "Clériga de Tanna-Toh" }
+  ],
+  "mecanica": {
+    "nd": "18",
+    "tipo": "Humanoide (elfa, deusa menor)",
+    "tamanho": "Média",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+19",
+    "percepcao": "+24, visão na penumbra",
+    "defesa": "55, cura acelerada 20, imunidade a atordoamento, efeitos de metabolismo e movimento, medo, metamorfose e veneno, redução de dano 20",
+    "fortitude": "+17",
+    "reflexos": "+27",
+    "vontade": "+32",
+    "pontosDeVida": "710",
+    "pontosDeMana": "220",
+    "deslocamento": "12m (8q), ignora terreno difícil",
+    "ataques": [
+      "Corpo a Corpo Cajado de batalha x3 +47 (4d8+25 mais 4d10 luz)."
+    ],
+    "atributos": {
+      "forca": "3",
+      "destreza": "4",
+      "constituicao": "2",
+      "inteligencia": "5",
+      "sabedoria": "7",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Canalizar Energia Positiva (Padrão, 1 PM+)",
+        "descricao": "Gwen libera uma onda de energia positiva que afeta criaturas à sua escolha em alcance curto. Para cada PM gasto, as criaturas escolhidas curam 1d6 PV ou, se forem mortos-vivos, sofrem 1d6 pontos de dano de luz (Von CD 46 reduz à metade)."
+      },
+      {
+        "nome": "Magia Acelerada (Livre, +4 PM)",
+        "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Gwen muda a execução dela para livre."
+      },
+      {
+        "nome": "Prece de Combate (+2 PM)",
+        "descricao": "Quando lança uma magia divina com tempo de conjuração de uma ação padrão em si mesma, Gwen pode lançá-la como uma ação de movimento."
+      },
+      {
+        "nome": "Romper os Grilhões (Movimento)",
+        "descricao": "Gwen encerra quaisquer condições mentais e de medo, metamorfose e movimento em qualquer número de criaturas à sua escolha em alcance médio."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como uma clériga de 18º nível (CD 50, limite de PM 25).\n• Aura Divina (Padrão, 19 PM): Gwen emana uma aura brilhante com 9m de raio até o fim da cena. Gwen e seus aliados devotos na área ficam imunes a encantamento e recebem +12 na Defesa e em testes de resistência (para aliados não devotos de Gwen esse bônus é +7). Inimigos que entrem na área devem fazer um teste de Vontade; em caso de falha, recebem uma condição entre esmorecido, debilitado ou lento até o fim da cena. Esse teste deve ser repetido sempre que a criatura entra na área.\n• Bênção (Padrão, 9 PM): Aliados em alcance curto recebem +5 em testes de ataque e rolagens de dano até o fim da cena.\n• Cólera de Azgher (Padrão, 22 PM): Cria um fulgor dourado e intenso em uma esfera com 12m de raio em alcance médio. Criaturas na área sofrem 20d6 pontos de dano de fogo (mortos-vivos sofrem 20d8) e ficam cegas (Ref reduz o dano à metade e evita a condição).\n• Curar Ferimentos (Padrão, 24 PM): Uma criatura adjacente cura 25d8+25 PV ou criaturas escolhidas em alcance curto curam 20d8+20.\n• Globo da Verdade de Gwen (Padrão, 3 PM): Um globo flutuante e intangível de 50cm de diâmetro se manifesta em alcance curto até o fim da cena. O globo mostra uma cena vista uma semana atrás por Gwen ou por uma criatura que ela toque ao lançar a magia (Von CD 55 evita).\n• Pele de Pedra (Padrão, 10 PM): Gwen recebe redução de dano 10 até o fim da cena.\n• Preparação de Batalha (Padrão, 3 PM, penalidade de 1 PM): Gwen toca sua arma e sua armadura. A qualquer momento após lançar essa magia, ela pode gastar uma ação completa e descarregar a magia para convocar esses itens, que aparecem em seu corpo e em suas mãos (como apropriado ao item)."
+      }
+    ],
+    "pericias": "Conhecimento +25, Cura +22, Intuição +22, Misticismo +20, Ofício (escriba) +20, Ofício (professora) +20, Religião +34.",
+    "equipamento": "Cajado de batalha magnífico, meia armadura delicada guardiã de mitral, organizador de pergaminhos (contém 10 pergaminhos mágicos quaisquer), símbolo sagrado de Gwen.",
+    "tesouro": "Padrão."
+  }
+}

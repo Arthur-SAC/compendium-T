@@ -1,0 +1,57 @@
+{
+  "id": "arquivista",
+  "tipo": "criatura",
+  "nome": "Arquivista",
+  "resumo": "Misto de escriba, sábio e intendente encarregado de registrar a história da companhia mercenária e redigir contratos, usando preces e conhecimento para auxiliar seus companheiros no campo de batalha.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 76 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (humano)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+5",
+    "percepcao": "+9, visão no escuro",
+    "defesa": "24",
+    "fortitude": "+12",
+    "reflexos": "+6",
+    "vontade": "+18",
+    "pontosDeVida": "145",
+    "pontosDeMana": "29",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Bordão x2 +16 (1d6+6 mais 2d6 luz)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "0",
+      "constituicao": "1",
+      "inteligencia": "3",
+      "sabedoria": "4",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Histórias da Companhia (Padrão)",
+        "descricao": "Uma vez por cena, o arquivista relembra seus companheiros de alguma missão bem-sucedida. Até o fim da cena, o arquivista e seus aliados em alcance médio recebem +5 nos testes de uma perícia específica (exceto testes de ataque)."
+      },
+      {
+        "nome": "Símbolo Sagrado Energizado (Movimento, 1 PM)",
+        "descricao": "O arquivista energiza seu símbolo sagrado. Até o fim da cena, ele emite uma luz prateada que ilumina como uma tocha e, enquanto estiver sendo empunhado, reduz o custo de magias divinas em –1 PM."
+      },
+      {
+        "nome": "Voz da Civilização",
+        "descricao": "O arquivista está sempre sob efeito da magia Compreensão."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de Tanna-Toh de 6º nível (CD 22).\n• Arma Espiritual (Padrão, 5 PM, sustentada): Uma vez por rodada, como uma ação livre, o arquivista causa 3d6 pontos de dano de impacto automaticamente a uma criatura adjacente. Se não fizer isso e sofrer um ataque corpo a corpo nessa rodada, ele pode usar uma reação para causar esse dano ao atacante.\n• Bênção (Padrão, 3 PM): Aliados em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena.\n• Curar Ferimentos (Padrão, 5 PM): Uma criatura adjacente cura 6d8+6 PV.\n• Oração (Padrão, 3 PM, sustentada): O arquivista e seus aliados em alcance curto recebem +2 em testes de perícia e rolagens de dano, e todos os seus inimigos em alcance curto sofrem –2 em testes de perícia e rolagens de dano. Esse efeito é cumulativo com outras magias."
+      }
+    ],
+    "pericias": "Conhecimento +8, Diplomacia +6, Guerra +8, Intuição +9, Investigação +8, Misticismo +8, Nobreza +8, Ofício (escriba) +8, Religião +9.",
+    "equipamento": "Bordão, cota de malha, essência de mana, símbolo sagrado de Tanna-Toh.",
+    "tesouro": "Padrão."
+  }
+}

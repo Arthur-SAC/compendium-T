@@ -1,0 +1,48 @@
+{
+  "id": "guarda-do-portao",
+  "tipo": "criatura",
+  "nome": "Guarda do Portão",
+  "resumo": "Ogro grande, forte e resistente encarregado de guardar o portão do forte da companhia — nem sempre lembrado de quem faz parte do bando.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 78 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (gigante)",
+    "tamanho": "Grande",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+5",
+    "percepcao": "+6, visão na penumbra",
+    "defesa": "26",
+    "fortitude": "+17",
+    "reflexos": "+12",
+    "vontade": "+2",
+    "pontosDeVida": "52",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado de guerra x2 +24 (4d6+17, x3)."
+    ],
+    "atributos": {
+      "forca": "8",
+      "destreza": "0",
+      "constituicao": "5",
+      "inteligencia": "–3",
+      "sabedoria": "–1",
+      "carisma": "–2"
+    },
+    "habilidades": [
+      {
+        "nome": "Esperto o Suficiente…",
+        "descricao": "O guarda do portão sofre uma penalidade de –5 em testes de Vontade (já contabilizado)."
+      },
+      {
+        "nome": "…Para Montar Guarda",
+        "descricao": "Todo dano de corte, impacto e perfuração que o guarda sofre é reduzido à metade e ele nunca fica surpreendido."
+      }
+    ],
+    "pericias": "Atletismo +13.",
+    "equipamento": "Loriga segmentada, machado de guerra aumentado.",
+    "tesouro": "Metade."
+  }
+}

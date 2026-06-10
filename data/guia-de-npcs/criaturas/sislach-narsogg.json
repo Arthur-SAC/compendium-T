@@ -1,0 +1,73 @@
+{
+  "id": "sislach-narsogg",
+  "tipo": "criatura",
+  "nome": "Sislach Narsogg",
+  "resumo": "Osteon gigantesco e diplomata macabro de Aslothia, que conduz negociações sob máscara dourada enquanto carrega um séquito de esqueletos e o montante Avir, forjado com o fêmur de sua própria irmã.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 53 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "De voz grave e retumbante, este osteon gigantesco conduz os assuntos diplomáticos de Aslothia. Traja tecidos pesados e luxuosos, repletos de estampas multicoloridas. Sobre as vestes, cobre-se de colares, pulseiras e outros adereços — grande parte dos quais guardada como lembrança de suas vítimas.\n\nSeu rosto está sempre coberto por uma máscara dourada, moldada na forma da face de uma mulher jovem, gentil e sorridente. Isso é um contraste com o terror que causa quando chega a uma vila com seus passos lentos e ritmados, acompanhado de uma comitiva de esqueletos: criminosos, rebeldes e opositores políticos, vítimas de suas longas torturas que obedecem a ele. Uma de suas técnicas mais reconhecidas é trazer de volta do túmulo cadáveres horrendamente ressuscitados dos familiares ou amigos de seus alvos.\n\nNinguém sabe sua história antes de retornar da morte. A única pista vem da arma que carrega, um montante chamado Avir, detentor de poderes necromânticos, cuja lâmina foi fabricada utilizando o fêmur daquela que um dia foi sua própria irmã."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "aslothia", "alvoTipo": "regiao", "rotulo": "Diplomata de Aslothia" },
+    { "tipo": "aliado", "alvoId": "ferren-asloth", "alvoTipo": "criatura", "rotulo": "Servo do Arquilich Ferren Asloth" }
+  ],
+  "mecanica": {
+    "nd": "15",
+    "tipo": "Morto-vivo (osteon)",
+    "tamanho": "Grande",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+13",
+    "percepcao": "+14, visão no escuro",
+    "defesa": "48, redução de corte, perfuração e frio 5",
+    "fortitude": "+28",
+    "reflexos": "+15",
+    "vontade": "+22",
+    "pontosDeVida": "535",
+    "pontosDeMana": "95",
+    "deslocamento": "9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Avir +41 (3d6+32, 19/x3, mais 1d8 trevas)."
+    ],
+    "atributos": {
+      "forca": "6",
+      "destreza": "0",
+      "constituicao": "5",
+      "inteligencia": "5",
+      "sabedoria": "1",
+      "carisma": "2"
+    },
+    "habilidades": [
+      {
+        "nome": "Sacrificar Servo (Reação)",
+        "descricao": "Uma vez por rodada, quando sofre dano, Narsogg sacrifica um de seus retornados para reduzir esse dano a 0."
+      },
+      {
+        "nome": "Separar a Alma (Livre)",
+        "descricao": "Quando acerta um ataque com Avir, Narsogg separa a alma do corpo da vítima (Fort CD 42 evita). A vítima fica incorpórea, lenta e não pode afetar o mundo material. Seu corpo permanece inconsciente e caído no mesmo espaço em que estava. Se estiver adjacente a seu corpo, a vítima pode gastar uma ação completa para retornar a ele, encerrando esses efeitos."
+      },
+      {
+        "nome": "Séquito Macabro",
+        "descricao": "Sislach Narsogg está sempre acompanhado de doze retornados. Eles agem na mesma iniciativa de Narsogg, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d6+3 pontos de dano de corte em uma criatura adjacente. Os retornados têm For 3, Des 1, Defesa 25 e 1 PV, são mortos-vivos e usam os valores de Narsogg com –5 para qualquer teste oposto ou de resistência. Enquanto Narsogg estiver vivo, no início de cada um de seus turnos um retornado destruído é reanimado automaticamente."
+      },
+      {
+        "nome": "Mestre em Necromancia",
+        "descricao": "As magias de necromancia de Narsogg custam –1 PM (já contabilizado) e a CD para resistir a elas aumenta em +2."
+      },
+      {
+        "nome": "Vontade de Ferren",
+        "descricao": "Enquanto está em Aslothia, Narsogg pode realizar uma ação padrão adicional a cada rodada."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um mago de 15º nível (CD 43, limite de PM 16).\n• Amedrontar* (Padrão, 9 PM) Criaturas à escolha de Narsogg em alcance curto ficam apavoradas por 1d4+1 rodadas e depois abaladas (Von reduz para abalada).\n• Ferver Sangue* (Padrão, 11 PM, sustentada) Narsogg faz o sangue de uma criatura em alcance curto entrar em ebulição. Quando a magia é lançada, e no início de cada um de seus turnos, o alvo sofre 7d8 pontos de dano de fogo e fica enjoado por 1 rodada (Fort reduz à metade e evita a condição). Se o alvo passar em dois testes de Fortitude seguidos, dissipa a magia. Se o alvo for reduzido a 0 PV pelo dano desta magia, seu corpo explode, matando-o e causando 6d6 pontos de dano de fogo em todas as criaturas a até 3m (Ref reduz à metade). Não afeta criaturas sem sangue, como construtos ou mortos-vivos.\n• Tentáculos de Trevas* (Padrão, 15 PM) Até o fim da cena, tentáculos surgem em uma esfera de 9m em alcance médio e tentam agarrar todas as criaturas na área. Ao lançar a magia e no início de cada um de seus turnos, Narsogg faz um teste da manobra agarrar (usando Misticismo) contra cada criatura na área. Se ele passar, a criatura é agarrada; se já está agarrada, é esmagada, sofrendo 12d6+12 pontos de dano de trevas. A área conta como terreno difícil e os tentáculos são imunes a dano.\n• Toque Vampírico* (Padrão, 16 PM) Narsogg faz um ataque com Avir. Se acertar, além do dano normal, causa 18d6+16 pontos de dano de trevas e recupera metade desse dano de trevas em pontos de vida."
+      }
+    ],
+    "pericias": "Atletismo +19, Diplomacia +15, Enganação +17, Intimidação +23, Misticismo +20, Nobreza +18, Guerra +18.",
+    "equipamento": "Avir (veja p. 55), traje da corte banhado a ouro e cravejado de gemas.",
+    "tesouro": "Padrão."
+  }
+}

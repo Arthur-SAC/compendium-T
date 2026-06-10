@@ -1,0 +1,73 @@
+{
+  "id": "goblin-heroi",
+  "tipo": "criatura",
+  "nome": "Goblin Herói",
+  "resumo": "Vigilante mascarada e paladina de Lena que protege a Favela dos Goblins de Valkaria há décadas, perpetuando um legado anônimo de heroísmo.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 13 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "A Favela dos Goblins é a região mais menosprezada de Valkaria, o lugar onde a desigualdade da capital se torna mais evidente e cruel. No entanto, é também uma comunidade unida, com uma população que protege os seus. E, quando os cidadãos goblins não conseguem se proteger, sabem que podem contar com seu próprio vigilante mascarado, um guardião galante que, década após década, luta em nome dos desamparados.\n\nSua identidade é um mistério e ele é conhecido apenas por seu codinome de vigilante: O Goblin Herói.\n\nEste guardião verde traja armadura completa reluzente e cavalga um imenso lobo das cavernas. Sua batalha é constante, ainda que não erga nenhum estandarte. Trava a luta em seus próprios termos: decepa braços e pernas, quebra ossos, deixa malfeitores desacordados, mas nunca tira uma vida. Então desaparece tão rápido quanto surgiu.\n\nAlguns acreditam que o Goblin Herói é a encarnação de Graolak, uma divindade menor dos goblinoides. Outros, por seu estilo de combate e código de ética, veem-no como um paladino de Lena, a Deusa da Vida. Os mais céticos garantem que não passa de uma lenda, um boato espalhado pelos goblins como forma de se prevenir contra injustiças. Afinal, se as histórias sobre ele fossem verdadeiras, o herói teria morrido de velhice há bastante tempo.\n\nHá um pouco de verdade em cada uma dessas hipóteses: o Goblin Herói é uma lenda urbana, mas também é real. O primeiro a ostentar o título confiou legado, codinome e armadura a um sucessor, que seguiu a tradição, mantendo a chama do protetor da Favela dos Goblins viva ao longo das décadas. Nenhum indivíduo é o Goblin Herói, mas sempre haverá um.\n\nO atual Goblin Herói é uma jovem paladina de Lena — confirmando uma das teorias, ainda que ninguém tenha certeza disso. Sua identidade é conhecida apenas por um punhado de outros vigilantes mascarados de Valkaria, os poucos em quem ela confia para manter o segredo. Mas, mesmo que seja exposta e morta por algum vilão, a atual Goblin Herói já garantiu um sucessor para a tradição de heroísmo."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "habitat", "alvoId": "valkaria", "alvoTipo": "regiao", "rotulo": "Protege a Favela dos Goblins em Valkaria" },
+    { "tipo": "devoto", "alvoId": "lena", "alvoTipo": "divindade", "rotulo": "Paladina de Lena" }
+  ],
+  "mecanica": {
+    "nd": "8",
+    "tipo": "Humanoide (goblin)",
+    "tamanho": "Pequeno",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+12",
+    "percepcao": "+9, visão no escuro",
+    "defesa": "33 (38 na primeira rodada de combate), redução de dano 5, resistência a efeitos mentais e medo +5",
+    "fortitude": "+21",
+    "reflexos": "+10",
+    "vontade": "+15",
+    "pontosDeVida": "240",
+    "pontosDeMana": "29",
+    "deslocamento": "9m (6q), escalar 9m (6q)",
+    "ataques": [
+      "Corpo a Corpo Espada curta x2 +26 (1d6+20 não letal, 19)."
+    ],
+    "atributos": {
+      "forca": "1",
+      "destreza": "4",
+      "constituicao": "1",
+      "inteligencia": "2",
+      "sabedoria": "1",
+      "carisma": "5"
+    },
+    "habilidades": [
+      {
+        "nome": "Aura Sagrada (Livre, 1 PM, sustentada)",
+        "descricao": "O Goblin Herói gera uma aura de luz com 9m de raio. Ela e seus aliados dentro da aura recebem +5 em testes de resistência e curam 11 PV no início de seus turnos."
+      },
+      {
+        "nome": "Camuflagem Urbana",
+        "descricao": "Em ambientes urbanos, o Goblin Herói pode se esconder mesmo sem camuflagem ou cobertura disponível."
+      },
+      {
+        "nome": "Cura pelas Mãos (Movimento, 2 PM)",
+        "descricao": "O Goblin Herói cura 4d6+13 pontos de vida de uma criatura em alcance curto. Quando usa esta habilidade, ela pode gastar +1 PM para anular uma condição do alvo entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo."
+      },
+      {
+        "nome": "Devota de Lena",
+        "descricao": "Efeitos de cura usados pelo Goblin Herói e seus aliados em um raio de 9m recuperam +1 PV por dado, e o Goblin Herói soma o próprio Carisma aos PV restaurados por seus efeitos mágicos de cura (já contabilizado). Entretanto, como uma paladina da Deusa da Vida, ela segue as Obrigações & Restrições de Lena e o Código do Herói (veja Tormenta20, pp. 82 e 100)."
+      },
+      {
+        "nome": "Golpe Divino (Livre, 3 PM)",
+        "descricao": "Quando faz um ataque corpo a corpo, o Goblin Herói soma o Carisma no teste de ataque e +2d8 na rolagem de dano."
+      },
+      {
+        "nome": "Lobo Fiel",
+        "descricao": "O Goblin Herói cavalga um corajoso lobo veterano (veja Tormenta20, p. 262). Enquanto ela estiver montada seu deslocamento normal se torna 15m e ela recebe +1d6 em rolagens de dano corpo a corpo."
+      }
+    ],
+    "pericias": "Adestramento +13, Atletismo +9, Cavalgar +12, Cura +15, Furtividade +11 (+9 montada), Investigação +10, Religião +9.",
+    "equipamento": "Couraça polida, escudo pesado, espada curta, maleta de medicamentos aprimorada, manto camuflado aprimorado (urbano), sela, símbolo sagrado de Lena.",
+    "tesouro": "Metade."
+  }
+}

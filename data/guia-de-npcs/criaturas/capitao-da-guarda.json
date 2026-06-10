@@ -1,0 +1,49 @@
+{
+  "id": "capitao-da-guarda",
+  "tipo": "criatura",
+  "nome": "Capitão da Guarda",
+  "resumo": "O oficial mais graduado na força policial local, respondendo apenas ao burgomestre ou barão; muitas vezes trata-se de um aventureiro veterano.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 70 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "6",
+    "tipo": "Humanoide (anão)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — A Lei",
+    "iniciativa": "+5",
+    "percepcao": "+7, visão no escuro",
+    "defesa": "27, redução de dano 5, resistência a medo +2",
+    "fortitude": "+17",
+    "reflexos": "+7",
+    "vontade": "+12",
+    "pontosDeVida": "195",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado anão x2 +20 (2d12+10, x3).",
+      "À Distância Azagaia +17 (2d6+8)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "0",
+      "constituicao": "5",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "1"
+    },
+    "habilidades": [
+      {
+        "nome": "Mexa-se, Soldado (Movimento)",
+        "descricao": "O capitão dá um comando a um aliado em alcance médio, que pode fazer uma ação padrão imediatamente."
+      },
+      {
+        "nome": "Ordens (Movimento)",
+        "descricao": "O capitão grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena."
+      }
+    ],
+    "pericias": "Atletismo +9, Guerra +5, Intuição +9.",
+    "equipamento": "Apito, azagaia x2, enfeite de elmo, escudo pesado, machado anão, meia armadura.",
+    "tesouro": "Metade."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sargento-mercenario",
+  "tipo": "criatura",
+  "nome": "Sargento Mercenário",
+  "resumo": "Anão durão, resistente e disciplinado encarregado de transformar um grupo de mercenários indisciplinados em uma unidade de soldados eficiente.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 78 },
+  "imagens": [],
+  "secoes": [],
+  "relacoes": [],
+  "mecanica": {
+    "nd": "3",
+    "tipo": "Humanoide (anão)",
+    "tamanho": "Médio",
+    "tema": "Povo de Arton — Mercenários",
+    "iniciativa": "+2",
+    "percepcao": "+5 (+7 em subterrâneo), visão no escuro",
+    "defesa": "20, resistência a encantamento +2",
+    "fortitude": "+14",
+    "reflexos": "+4",
+    "vontade": "+9",
+    "pontosDeVida": "80",
+    "deslocamento": "6m (4q)",
+    "ataques": [
+      "Corpo a Corpo Machado anão +17 (2d10+12, x3)."
+    ],
+    "atributos": {
+      "forca": "4",
+      "destreza": "–1",
+      "constituicao": "5",
+      "inteligencia": "0",
+      "sabedoria": "2",
+      "carisma": "0"
+    },
+    "habilidades": [
+      {
+        "nome": "\"De Pé, Preguiçoso!\" (Movimento)",
+        "descricao": "O sargento mercenário reanima um aliado vivo com 0 ou menos PV em alcance curto. O aliado acorda estável e com 2d6 PV. Uma criatura só pode ser reanimada por esta habilidade uma vez por cena."
+      },
+      {
+        "nome": "\"Lutem, Infelizes!\" (Movimento)",
+        "descricao": "O sargento grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de ataque e rolagens de dano até o fim da cena."
+      },
+      {
+        "nome": "\"Mexam-se!\" (Movimento)",
+        "descricao": "O sargento aumenta em +6m o deslocamento de seus aliados em alcance curto até o início de seu próximo turno."
+      }
+    ],
+    "pericias": "Intimidação +5, Guerra +5.",
+    "equipamento": "Escudo pesado, machado anão, meia armadura.",
+    "tesouro": "Padrão."
+  }
+}

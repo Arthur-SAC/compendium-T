@@ -1,0 +1,70 @@
+{
+  "id": "khorrben-an-ugatz",
+  "tipo": "criatura",
+  "nome": "Khorr'benn An-ug'atz, Sumo-Sacerdote de Thwor",
+  "resumo": "Humano carbonizado e imortal, antigo clérigo de Thyatis convertido ao culto de Thwor após testemunhar a morte do Deus dos Goblinoides, agora seu sumo-sacerdote em Lamnor.",
+  "fonte": { "livro": "guia-de-npcs", "pagina": 28 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "",
+      "texto": "Corben era um jovem clérigo de Thyatis, um astrólogo e estudioso na cidade de Sternachten. Contudo, depois que Sternachten foi destruída em circunstâncias misteriosas, o rapaz foi colocado em uma trajetória que viria a mudar tudo sobre ele, inclusive seu nome.\n\nCorben descobriu a verdade sobre a Flecha de Fogo, o cometa que cairia sobre Lamnor e destruiria a civilização duyshidakk — além de matar Thwor Khoshkothruk. Na corrida para impedir isso, participou da batalha das forças do Reinado contra os goblinoides na cidade de Cosamhir, onde foi emboscado, morto, ressuscitado inúmeras vezes pelas bênçãos de Thyatis e queimado horrivelmente. Corben, então já Khorr'benn, seu nome duyshidakk, testemunhou a morte de Thwor e Ragnar, o antigo Deus da Morte. Isso, aliado a sua convivência com o Ayrrak, tornou-o um devoto de Thwor. E logo seu sumo-sacerdote.\n\nHoje em dia Khorr'benn An-ug'atz (um nome que significa \"Eu Interrompo com a Morte o Caminho do Aço\", ou \"Minha Morte Colocará Fim às Batalhas\" seguido pelo sobrenome \"Não Humano\") vive em Lamnor, espalhando a palavra do Deus dos Goblinoides. Sua aparência é notória: seu corpo foi carbonizado em Cosamhir e algumas brasas ainda despontam sob sua carne. Curiosamente, Khorr'benn se recusa a ficar muito próximo de sua maior aliada, a elfa Thraan'ya, pois seu papel no Akzath dita que sempre trairá companheiras (\"irmãs\") próximas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "devoto", "alvoId": "thwor", "alvoTipo": "divindade", "rotulo": "Sumo-Sacerdote de Thwor" }
+  ],
+  "mecanica": {
+    "nd": "9",
+    "tipo": "Morto-vivo (osteon)",
+    "tamanho": "Médio",
+    "tema": "Lendas de Arton",
+    "iniciativa": "+4",
+    "percepcao": "+13, visão no escuro",
+    "defesa": "28, imunidade a fogo, proteção divina, redução de corte, frio e perfuração 5",
+    "fortitude": "+15",
+    "reflexos": "+9",
+    "vontade": "+21",
+    "pontosDeVida": "232",
+    "pontosDeMana": "150",
+    "deslocamento": "9m (6q)",
+    "ataques": [],
+    "atributos": {
+      "forca": "0",
+      "destreza": "0",
+      "constituicao": "0",
+      "inteligencia": "4",
+      "sabedoria": "5",
+      "carisma": "3"
+    },
+    "habilidades": [
+      {
+        "nome": "Almejar o Impossível",
+        "descricao": "Quando Khorr'benn faz um teste, um resultado de 19 ou mais no dado sempre é um sucesso."
+      },
+      {
+        "nome": "Dom da Imortalidade",
+        "descricao": "Khorr'benn é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias."
+      },
+      {
+        "nome": "Previsões Astrológicas",
+        "descricao": "Khorr'benn pode gastar 1 hora para vislumbrar o futuro de uma criatura em alcance curto. A criatura recebe 6d6 que duram até serem usados ou até o fim da aventura. Sempre que for realizar um teste de perícia, ela pode gastar até 2d6 e adicionar o resultado como um bônus no teste."
+      },
+      {
+        "nome": "Protetores Duyshidakk (Completa, 2 PM)",
+        "descricao": "Khorr'benn invoca 2d4 guardiões goblinoides em espaços desocupados em alcance médio. Eles agem a partir da próxima rodada de Khorr'benn, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d4+3 pontos de dano de corte em uma criatura adjacente. Os goblinoides têm For 1, Des 1, Defesa 21, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena."
+      },
+      {
+        "nome": "Punição Divina (Padrão)",
+        "descricao": "Von CD 30 evita."
+      },
+      {
+        "nome": "Magias",
+        "descricao": "Como um clérigo de Thwor de 9º nível (CD 30, limite de PM 14).\n• Amedrontar (Padrão, 3 PM): Um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado (Von reduz para abalado por 1d4 rodadas).\n• Curar Ferimentos (Padrão, 14 PM): Uma criatura adjacente cura 15d8+15 PV ou criaturas escolhidas em alcance curto curam 10d8+10.\n• Dissipar Magia (Padrão, 1 PM): Khorr'benn escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias no alvo escolhido com CD menor que o teste são dissipadas. Se lançada contra um item mágico, transforma-o em um item mundano por 1d6 rodadas (Von anula).\n• Escudo da Fé (Reação, 7 PM): Quando uma criatura em alcance curto sofre um ataque, ela recebe +5 na Defesa até seu próximo turno.\n• Raio Solar (Padrão, 12 PM): Criaturas em uma linha de 30m sofrem 7d8 pontos de dano de luz (ou 7d12, se forem mortos-vivos) e ficam cegas por 1d4 rodadas (Ref reduz à metade e evita a condição)."
+      }
+    ],
+    "pericias": "Conhecimento +12, Cura +13, Diplomacia +11, Intuição +13, Investigação +12, Misticismo +12, Nobreza +12, Ofício (astrólogo) +12, Religião +20.",
+    "equipamento": "Instrumentos de Ofício (astrólogo) aprimorados, manto eclesiástico aprimorado, símbolo sagrado de Thwor.",
+    "tesouro": "Padrão."
+  }
+}
