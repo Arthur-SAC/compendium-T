@@ -1,0 +1,26 @@
+{
+  "id": "aspirante-a-heroi",
+  "tipo": "origem",
+  "nome": "Aspirante a Herói",
+  "resumo": "Você nasceu para ser herói, com potencial para se tornar protagonista das canções épicas dos bardos.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você nasceu para ser herói, com potencial para se tornar protagonista das canções épicas dos bardos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "deheon", "alvoTipo": "regiao", "rotulo": "Origem regional de Deheon" }
+  ],
+  "mecanica": {
+    "itens": ["Essência de mana", "Mochila de aventureiro"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +1 em um atributo à sua escolha."
+    },
+    "poderesUnicos": []
+  }
+}

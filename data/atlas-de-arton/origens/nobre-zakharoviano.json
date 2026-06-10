@@ -1,0 +1,26 @@
+{
+  "id": "nobre-zakharoviano",
+  "tipo": "origem",
+  "nome": "Nobre Zakharoviano",
+  "resumo": "Descendente de nobres armeiros de Zakharov, você possui uma arma superior com melhoria e recebe bônus de PM por possuí-la.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você descende de uma das tradicionais famílias de nobres armeiros zakharovianos. Além do sobrenome, ostenta com orgulho uma de suas obras-primas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "zakharov", "alvoTipo": "regiao", "rotulo": "Origem regional de Zakharov" }
+  ],
+  "mecanica": {
+    "itens": ["Traje da corte"],
+    "beneficios": {
+      "pericias": ["Ofício (armeiro)"],
+      "poderes": [],
+      "texto": "Você é treinado em Ofício (armeiro) e recebe uma arma superior com uma melhoria (exceto material especial). Se estiver de posse dessa arma, recebe +2 PM por patamar (apenas após um dia)."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cria-da-favela",
+  "tipo": "origem",
+  "nome": "Cria da Favela",
+  "resumo": "A Favela dos Goblins, esquecida pelos governantes de Valkaria, tornou você resistente e incansável.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A Favela dos Goblins é um lugar empobrecido e injustiçado, esquecido pelos governantes de Valkaria. Essa comunidade o tornou resistente e incansável."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "valkaria", "alvoTipo": "regiao", "rotulo": "Origem regional de Valkaria" }
+  ],
+  "mecanica": {
+    "itens": ["Andrajos de aldeão", "Corda", "Vara de madeira"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +1 em Constituição e, por piores que sejam as condições de descanso, sua recuperação é sempre pelo menos normal."
+    },
+    "poderesUnicos": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nitamuraniano",
+  "tipo": "origem",
+  "nome": "Nitamuraniano",
+  "resumo": "Criado na maior comunidade tamuraniana de Valkaria, você mescla tradições deheoni e tamuranianas e é proficiente em katana e arco longo.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi criado na maior comunidade tamuraniana fora do próprio Império de Jade. Seus valores culturais misturam as complexas e distintas tradições deheoni e tamuranianas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "valkaria", "alvoTipo": "regiao", "rotulo": "Origem regional de Valkaria" }
+  ],
+  "mecanica": {
+    "itens": ["Arco longo ou katana", "Camisa bufante ou traje de seda"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe proficiência em katana e arco longo. Caso receba proficiência nessas armas novamente, recebe +2 em rolagens de dano com elas. Além disso, quando falha em um teste de perícia originalmente baseada em Sabedoria, você pode gastar 2 PM para refazer esse teste (apenas uma vez por teste)."
+    },
+    "poderesUnicos": []
+  }
+}

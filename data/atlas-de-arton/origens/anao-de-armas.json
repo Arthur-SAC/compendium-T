@@ -1,0 +1,26 @@
+{
+  "id": "anao-de-armas",
+  "tipo": "origem",
+  "nome": "Anão de Armas",
+  "resumo": "Você foi treinado pela Guilda dos Armeiros de Doherimm, tendo aprendido a fabricar e usar armas anãs.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você foi treinado pela Guilda dos Armeiros, tendo aprendido a fabricar — e usar — armas anãs."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "doherimm", "alvoTipo": "regiao", "rotulo": "Origem regional de Doherimm" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial tradicional anã", "Instrumentos de Ofício (armeiro)"],
+    "beneficios": {
+      "pericias": ["Ofício (armeiro)"],
+      "poderes": [],
+      "texto": "Você é treinado em Ofício (armeiro) e recebe +2 em rolagens de dano com armas tradicionais anãs (machados, martelos, marretas e picaretas)."
+    },
+    "poderesUnicos": []
+  }
+}

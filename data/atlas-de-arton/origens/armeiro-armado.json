@@ -1,0 +1,26 @@
+{
+  "id": "armeiro-armado",
+  "tipo": "origem",
+  "nome": "Armeiro Armado",
+  "resumo": "Você aprendeu o ofício mais tradicional e respeitado de Zakharov: fabricar armas que são obras de arte.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você aprendeu o ofício mais tradicional e respeitado de Zakharov. Suas armas não são apenas instrumentos de combate, mas obras de arte."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "zakharov", "alvoTipo": "regiao", "rotulo": "Origem regional de Zakharov" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial", "Instrumentos de Ofício (armeiro)"],
+    "beneficios": {
+      "pericias": ["Ofício (armeiro)"],
+      "poderes": [],
+      "texto": "Você é treinado em Ofício (armeiro) e pode fabricar armas com uma melhoria. Se aprender a fabricar armas superiores por outra habilidade, gasta apenas 1/4 do preço das melhorias que aplica em armas."
+    },
+    "poderesUnicos": []
+  }
+}

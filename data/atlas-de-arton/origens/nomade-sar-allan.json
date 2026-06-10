@@ -1,0 +1,26 @@
+{
+  "id": "nomade-sar-allan",
+  "tipo": "origem",
+  "nome": "Nômade Sar-Allan",
+  "resumo": "Crescido entre os sar-allan de Halak-Tûr, você resiste aos rigores do deserto e é letal com alfanges, arcos curtos e cimitarras.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você cresceu entre os sar-allan, aprendendo a resistir aos rigores — e aos predadores — do deserto."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "halak-tur", "alvoTipo": "regiao", "rotulo": "Origem regional de Halak-Tûr" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial", "Corcel do deserto ou dromedário (veja Ameaças de Arton)", "Manto camuflado (deserto)"],
+    "beneficios": {
+      "pericias": ["Fortitude", "Sobrevivência"],
+      "poderes": [],
+      "texto": "Você recebe +2 em Fortitude e Sobrevivência e nas rolagens de dano com alfanges, arcos curtos e cimitarras."
+    },
+    "poderesUnicos": []
+  }
+}

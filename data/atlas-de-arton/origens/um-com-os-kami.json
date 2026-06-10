@@ -1,0 +1,30 @@
+{
+  "id": "um-com-os-kami",
+  "tipo": "origem",
+  "nome": "Um com os Kami",
+  "resumo": "Desde muito novo você vê e ouve os kami, os espíritos divinos de Tamu-ra, que o tratam como amigo e lhe concedem um companheiro espiritual incorpóreo.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 479 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Desde muito novo, você vê e ouve seres que não podem ser percebidos pela maioria das pessoas. São os kami, os espíritos divinos de Tamu-ra. Às vezes estão enfurecidos; outras vezes, querem pedir sua ajuda. Na maior parte das ocasiões, apenas acham graça de ser percebidos por você e por isso o tratam como amigo."
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "regiao",
+      "alvoId": "tamu-ra",
+      "alvoTipo": "regiao",
+      "rotulo": "Origem regional de Tamu-ra"
+    }
+  ],
+  "mecanica": {
+    "itens": ["Bálsamo restaurador", "Essência de mana"],
+    "beneficios": {
+      "pericias": [],
+      "texto": "Você pode usar Sabedoria como atributo-chave de Misticismo (em vez de Inteligência). Além disso, é acompanhado por um kami incorpóreo e invisível. Ele é um parceiro especial, que permite que você veja criaturas incorpóreas invisíveis e afete criaturas com seus ataques e habilidades como se fossem mágicos, e não conta em seu limite de parceiros. Além disso, uma vez por rodada você pode gastar 1 PM para executar o equivalente a uma ação de movimento que só pode ser usada para manipular um objeto solto em alcance curto. O kami não pode se afastar além de alcance curto de você. Se for destruído por qualquer efeito, o kami desaparece, retornando no início da próxima cena."
+    },
+    "poderesUnicos": []
+  }
+}

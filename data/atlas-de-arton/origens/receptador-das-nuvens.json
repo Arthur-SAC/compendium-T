@@ -1,0 +1,26 @@
+{
+  "id": "receptador-das-nuvens",
+  "tipo": "origem",
+  "nome": "Receptador das Nuvens",
+  "resumo": "Você cresceu em Vectora e tem contatos que lhe fornecem aparatos mágicos para lançar magias de 1º círculo.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você cresceu em Vectora, o fabuloso Mercado nas Nuvens. Andando entre os bazares e becos da cidade, conheceu diversos mercadores."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "vectora", "alvoTipo": "regiao", "rotulo": "Origem regional de Vectora" }
+  ],
+  "mecanica": {
+    "itens": ["Mercadorias raras e variadas (2 espaços, T$ 300)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você possui contatos em Vectora que lhe dão acesso a mercadorias. Se estiver em uma cidade ou outro lugar em que, a critério do mestre, possa acessar seus contatos, você pode gastar 1 dia para obter um aparato mágico: um item de 1 espaço que você (e apenas você) pode empunhar para lançar uma magia de 1º círculo (atributo-chave Inteligência), escolhida ao obter o aparato. Você pode ter até 2 aparatos ao mesmo tempo. Os aparatos não têm valor comercial."
+    },
+    "poderesUnicos": []
+  }
+}

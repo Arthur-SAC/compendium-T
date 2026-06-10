@@ -1,0 +1,26 @@
+{
+  "id": "explorador-de-ruinas",
+  "tipo": "origem",
+  "nome": "Explorador de Ruínas",
+  "resumo": "A destruição de Tyrondir atraiu você em busca de riquezas, e você aprendeu truques úteis de explorador.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "A destruição de Tyrondir atraiu exploradores em busca de riquezas que possam ter sobrevivido à queda da Flecha de Fogo. Após um tempo nessa atividade, você aprendeu alguns truques úteis."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "tyrondir", "alvoTipo": "regiao", "rotulo": "Origem regional de Tyrondir" }
+  ],
+  "mecanica": {
+    "itens": ["Mochila de aventureiro", "Tocha", "Vara de madeira (3m)"],
+    "beneficios": {
+      "pericias": ["Ladinagem", "Percepção", "Reflexos"],
+      "poderes": [],
+      "texto": "Você recebe +2 em Ladinagem, Percepção e Reflexos e +3m em seu deslocamento."
+    },
+    "poderesUnicos": []
+  }
+}

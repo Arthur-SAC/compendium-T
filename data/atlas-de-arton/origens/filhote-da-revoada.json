@@ -1,0 +1,26 @@
+{
+  "id": "filhote-da-revoada",
+  "tipo": "origem",
+  "nome": "Filhote da Revoada",
+  "resumo": "Você cresceu entre a Revoada Carnívora de Lamnor e seus engenhos voadores, aprendendo Acrobacia e Pilotagem.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 475 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você passou grande parte de sua juventude entre a Revoada Carnívora e seus perigosos e fantásticos engenhos voadores. Você ainda não tem seu próprio veículo, mas aprendeu duras lições entre voos e quedas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "lamnor", "alvoTipo": "regiao", "rotulo": "Origem regional de Lamnor" }
+  ],
+  "mecanica": {
+    "itens": ["Instrumentos de Ofício (artesão)", "T$ 100 (que você está juntando para fabricar seu primeiro veículo aéreo)"],
+    "beneficios": {
+      "pericias": ["Acrobacia", "Pilotagem"],
+      "poderes": [],
+      "texto": "Você é treinado em Acrobacia e Pilotagem. Quando faz um teste de uma dessas perícias, pode gastar 1 PM para rolar um dado adicional e usar o melhor resultado."
+    },
+    "poderesUnicos": []
+  }
+}

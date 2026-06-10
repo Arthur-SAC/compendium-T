@@ -1,0 +1,26 @@
+{
+  "id": "recruta-arcano",
+  "tipo": "origem",
+  "nome": "Recruta Arcano",
+  "resumo": "Você serviu entre os Magos de Batalha de Wynlla, tornando suas magias arcanas mais difíceis de resistir e mais letais.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 478 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você serviu entre os Magos de Batalha de Wynlla. Agora, livre de suas obrigações cívicas, está pronto para seguir sua vida de aventuras."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "wynlla", "alvoTipo": "regiao", "rotulo": "Origem regional de Wynlla" }
+  ],
+  "mecanica": {
+    "itens": ["Essência de mana x2", "Varinha arcana"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "A CD para resistir a suas magias arcanas aumenta em +1 e elas causam +1 ponto de dano."
+    },
+    "poderesUnicos": []
+  }
+}

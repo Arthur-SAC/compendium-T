@@ -1,0 +1,26 @@
+{
+  "id": "escudeiro-solitario",
+  "tipo": "origem",
+  "nome": "Escudeiro Solitário",
+  "resumo": "Você foi escudeiro de um membro dos Cavaleiros Solitários de Bielefeld, disposto a subterfúgios e intrigas para ajudar os verdadeiros heróis.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ninguém sabe, mas você foi escudeiro de um cavaleiro de Bielefeld… ou cupincha de um trambiqueiro. Seu mestre era membro dos Cavaleiros Solitários, disposto a todo tipo de subterfúgio, intriga e traição para ajudar os verdadeiros heróis."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "bielefeld", "alvoTipo": "regiao", "rotulo": "Origem regional de Bielefeld" }
+  ],
+  "mecanica": {
+    "itens": ["Cota de malha", "Escudo pesado", "Enfeite de elmo"],
+    "beneficios": {
+      "pericias": ["Enganação", "Ladinagem"],
+      "poderes": [],
+      "texto": "Você é treinado em Enganação e Ladinagem e recebe +10 em testes de Enganação para se disfarçar como cavaleiro da Luz. Além disso, se tiver Código de Honra (ou outro semelhante), atacar pelas costas não faz com que você o viole."
+    },
+    "poderesUnicos": []
+  }
+}

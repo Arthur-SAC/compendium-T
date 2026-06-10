@@ -1,0 +1,26 @@
+{
+  "id": "criado-pelas-voracis",
+  "tipo": "origem",
+  "nome": "Criado pelas Voracis",
+  "resumo": "Ainda jovem, você foi encontrado por um grupo de voracis em Galrasia; elas o adotaram e criaram de acordo com suas tradições.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Ainda jovem, você foi encontrado por um grupo de voracis em Galrasia. Elas o adotaram e o criaram de acordo com suas tradições e valores."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "galrasia", "alvoTipo": "regiao", "rotulo": "Origem regional de Galrasia" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples", "Armadura leve", "Lança"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +2 na Defesa e Sobrevivência e +3m em seu deslocamento."
+    },
+    "poderesUnicos": []
+  }
+}

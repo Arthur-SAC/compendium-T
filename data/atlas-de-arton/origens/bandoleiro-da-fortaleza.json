@@ -1,0 +1,26 @@
+{
+  "id": "bandoleiro-da-fortaleza",
+  "tipo": "origem",
+  "nome": "Bandoleiro da Fortaleza",
+  "resumo": "Você cresceu se esgueirando pelos becos de Khalifor, vendo o pior que humanos e duyshidakk têm a oferecer.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você cresceu se esgueirando pelos becos de Khalifor, vendo o pior que humanos e duyshidakk têm a oferecer."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "khalifor", "alvoTipo": "regiao", "rotulo": "Origem regional de Khalifor" }
+  ],
+  "mecanica": {
+    "itens": ["Adaga", "Gazua", "Manto camuflado (urbano)"],
+    "beneficios": {
+      "pericias": ["Furtividade", "Intimidação"],
+      "poderes": [],
+      "texto": "Você é treinado em Furtividade e Intimidação, e recebe resistência a medo +5."
+    },
+    "poderesUnicos": []
+  }
+}

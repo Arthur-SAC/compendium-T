@@ -1,0 +1,26 @@
+{
+  "id": "membro-do-principado",
+  "tipo": "origem",
+  "nome": "Membro do Principado",
+  "resumo": "Você integra o poderoso Principado Mercante de Sambúrdia e pode obter descontos em cidades usando sua rede de contatos.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você faz parte do Principado Mercante, uma das organizações mais poderosas das Repúblicas Livres. Ainda está longe do topo, mas até mesmo os Príncipes Mercantes começaram em algum lugar."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "samburdia", "alvoTipo": "regiao", "rotulo": "Origem regional de Sambúrdia" }
+  ],
+  "mecanica": {
+    "itens": ["Carroça", "Mercadorias sortidas (8 espaços, T$ 400)"],
+    "beneficios": {
+      "pericias": ["Diplomacia", "Intuição"],
+      "poderes": [],
+      "texto": "Você é treinado em Diplomacia e Intuição. Quando chega em uma cidade pela primeira vez em cada aventura, pode fazer um teste de Diplomacia (CD 20). Se passar, recebe 10% de desconto em todos os itens que comprar neste lugar (cumulativo com barganha)."
+    },
+    "poderesUnicos": []
+  }
+}

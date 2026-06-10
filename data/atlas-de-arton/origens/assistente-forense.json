@@ -1,0 +1,26 @@
+{
+  "id": "assistente-forense",
+  "tipo": "origem",
+  "nome": "Assistente Forense",
+  "resumo": "Você cresceu em Salistick com contato com a ciência mais avançada para detecção e solução de crimes, aguçando suas capacidades de dedução e análise.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você cresceu em Salistick, onde teve contato com o que a ciência tem de mais avançado para a detecção e solução de crimes. Suas capacidades de dedução e análise se tornaram profundamente aguçadas."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "salistick", "alvoTipo": "regiao", "rotulo": "Origem regional de Salistick" }
+  ],
+  "mecanica": {
+    "itens": ["Lupa (conta como uma ferramenta que fornece +1 em Investigação)"],
+    "beneficios": {
+      "pericias": ["Investigação"],
+      "poderes": [],
+      "texto": "Você é treinado em Investigação e pode usar esta perícia para necropsia, identificar itens alquímicos e rastrear (veja as perícias Cura, Ofício e Sobrevivência, em Tormenta20). Além disso, pode identificar criaturas em uma cena de crime ou equivalente mesmo que elas não estejam mais presentes. Isso funciona como um teste de identificar criatura, com uma penalidade de –1 para cada dia decorrido. Se passar, além do normal, você identifica a raça da criatura."
+    },
+    "poderesUnicos": []
+  }
+}

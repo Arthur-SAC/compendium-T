@@ -1,0 +1,30 @@
+{
+  "id": "turista-da-academia",
+  "tipo": "origem",
+  "nome": "Turista da Academia",
+  "resumo": "Você assistiu a algumas aulas na Academia Arcana. Não se tornou um arcanista, mas aprendeu a lidar com magias e enjambrar alguns truques!",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 479 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você assistiu a algumas aulas na Academia Arcana. Não se tornou um arcanista, mas aprendeu a lidar com magias e enjambrar alguns truques!"
+    }
+  ],
+  "relacoes": [
+    {
+      "tipo": "regiao",
+      "alvoId": "academia-arcana",
+      "alvoTipo": "regiao",
+      "rotulo": "Origem regional de Academia Arcana"
+    }
+  ],
+  "mecanica": {
+    "itensTexto": "Três pergaminhos de magias arcanas de 1º círculo à sua escolha.",
+    "beneficios": {
+      "pericias": [],
+      "texto": "Você recebe resistência a magia +2 e pode ativar pergaminhos de todas as magias arcanas de 1º círculo como se as conhecesse."
+    },
+    "poderesUnicos": []
+  }
+}

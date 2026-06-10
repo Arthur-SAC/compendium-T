@@ -1,0 +1,26 @@
+{
+  "id": "competidor-do-circuito",
+  "tipo": "origem",
+  "nome": "Competidor do Circuito",
+  "resumo": "Você percorreu o grande Circuito de Torneios de Trebuck e usa o que aprendeu em suas aventuras.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você percorreu o grande Circuito de Torneios de Trebuck. Pode ter sido parte da equipe de um cavaleiro ou um aspirante a competidor, ansiando por um dia disputar os eventos principais. Sua hora ainda não chegou, mas enquanto isso você usa o que aprendeu em suas aventuras."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "feudos-de-trebuck", "alvoTipo": "regiao", "rotulo": "Origem regional de Feudos de Trebuck" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial", "T$ 100 (suas economias para comprar equipamentos de torneio)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": ["Torcida"],
+      "texto": "Você recebe o poder Torcida. Enquanto está sob efeito desse poder, sempre que reduz um inimigo a 0 PV com um ataque corpo a corpo, você recupera 1 PM."
+    },
+    "poderesUnicos": []
+  }
+}

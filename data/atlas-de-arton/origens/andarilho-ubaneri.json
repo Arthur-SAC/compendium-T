@@ -1,0 +1,26 @@
+{
+  "id": "andarilho-ubaneri",
+  "tipo": "origem",
+  "nome": "Andarilho Ubaneri",
+  "resumo": "Sonhando ser membro da Patrulha da Fronteira, você pratica técnicas de lança e escudo e conquistou a amizade de um alikunhá.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sonhando um dia ser membro da Patrulha da Fronteira, você pratica técnicas de lança e escudo e já conquistou a amizade de um alikunhá."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "ubani", "alvoTipo": "regiao", "rotulo": "Origem regional de Ubani" }
+  ],
+  "mecanica": {
+    "itens": ["Escudo pesado", "Lança"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe um alikunhá, um parceiro iniciante que não conta em seu limite de parceiros (veja o quadro na página 471), e proficiência com escudos. Caso já tenha essa proficiência, o bônus na Defesa que seu escudo fornece aumenta em +1."
+    },
+    "poderesUnicos": []
+  }
+}

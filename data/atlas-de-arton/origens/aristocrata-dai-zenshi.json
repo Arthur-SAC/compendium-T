@@ -1,0 +1,26 @@
+{
+  "id": "aristocrata-dai-zenshi",
+  "tipo": "origem",
+  "nome": "Aristocrata Dai'zenshi",
+  "resumo": "Você faz parte da nobreza tamuraniana, descendente de um dos Grandes Clãs ou vassalo de uma família samurai.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 471 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você faz parte da nobreza tamuraniana, como descendente direto de um dos três Grandes Clãs ou como vassalo em alguma família samurai. Assim, é visto como um exemplo a ser seguido."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "tamu-ra", "alvoTipo": "regiao", "rotulo": "Origem regional de Tamu-ra" }
+  ],
+  "mecanica": {
+    "itens": ["Traje da corte", "Katana superior com uma melhoria (exceto material especial)"],
+    "beneficios": {
+      "pericias": ["Nobreza"],
+      "poderes": [],
+      "texto": "Você é treinado em Nobreza. Além disso, ao completar um descanso, caso não tenha feito nenhum teste de Enganação, Furtividade ou Ladinagem desde seu último descanso, você recebe +1 PM temporário para cada dois níveis."
+    },
+    "poderesUnicos": []
+  }
+}

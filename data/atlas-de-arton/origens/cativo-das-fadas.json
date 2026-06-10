@@ -1,0 +1,26 @@
+{
+  "id": "cativo-das-fadas",
+  "tipo": "origem",
+  "nome": "Cativo das Fadas",
+  "resumo": "Quando era um bebê, você foi levado para a Pondsmânia pelas fadas; sua infância foi permeada de brincadeiras bizarras e jogos feéricos.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Quando era um bebê, você foi levado para a Pondsmânia. Talvez tenha sido trocado por seus pais em um acordo com uma fada, talvez tenha sido roubado pelas Cyruthnallach. De qualquer forma, sua infância foi permeada de brincadeiras bizarras e jogos feéricos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "pondsmania", "alvoTipo": "regiao", "rotulo": "Origem regional de Pondsmânia" }
+  ],
+  "mecanica": {
+    "itens": ["Corda", "Ração de viagem x10", "Essência de mana"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe resistência a espíritos e magia +2 e +1 PV por nível de personagem."
+    },
+    "poderesUnicos": []
+  }
+}

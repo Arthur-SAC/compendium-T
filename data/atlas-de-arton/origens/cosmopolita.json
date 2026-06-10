@@ -1,0 +1,26 @@
+{
+  "id": "cosmopolita",
+  "tipo": "origem",
+  "nome": "Cosmopolita",
+  "resumo": "Tendo crescido na maior cidade de Arton, você já viu de tudo e está preparado para a maior parte.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 472 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Tendo crescido na maior cidade de Arton, você já viu de tudo e está preparado para a maior parte."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "valkaria", "alvoTipo": "regiao", "rotulo": "Origem regional de Valkaria" }
+  ],
+  "mecanica": {
+    "itens": ["Equipamento de viagem", "Traje de viajante", "Um item artístico de origem cultural indefinida (½ espaço, T$ 100)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Escolha um poder geral ou de uma classe na qual você tenha pelo menos dois níveis, e cujos requisitos você cumpra (exceto poderes concedidos ou da Tormenta). Você recebe esse poder. Uma vez por aventura, após concluir um descanso (oito horas de sono), pode trocar esse poder por outro."
+    },
+    "poderesUnicos": []
+  }
+}

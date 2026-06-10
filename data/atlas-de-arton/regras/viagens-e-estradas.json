@@ -1,0 +1,28 @@
+{
+  "id": "viagens-e-estradas",
+  "tipo": "regra",
+  "nome": "Viagens & Estradas",
+  "resumo": "Como funcionam as estradas, vias fluviais e transporte aéreo em Arton, dos sendeiros ermos às pistas régias mecanomágicas.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 450 },
+  "imagens": [],
+  "relacoes": [],
+  "secoes": [
+    {
+      "titulo": "Viagens & Estradas",
+      "texto": "Os habitantes de Arton estão em constante movimento. Estradas percorrem o continente como uma teia ligando as maiores cidades e até mesmo algumas aldeias. Rotas erguidas em cima de trilhas que precedem a chegada da Caravana dos Exilados, utilizadas até os dias de hoje, mas transformadas pela passagem dos séculos. Dizem que viajar por elas não é só se locomover no espaço, mas também no tempo. É passar pelos mesmos caminhos trilhados por heróis, peregrinos, monstros, reis e plebeus durante as eras.\n\nUm viajante pode começar sua jornada em um sendeiro de terra batida, único tipo de caminho marcado em lugares ermos, típico dos primórdios do povoamento, entrecortado por pontes de cordas transpondo abismos. Mas talvez essa trilha simples logo se transforme em uma alameda plana, feita de paralelepípedos encaixados e ladeada por árvores. Essas alamedas se tornaram comuns por volta do ano 1100. Adiante, a alameda pode evoluir para uma moderna pista régia pavimentada com concreto alquímico, com duas vias, ideal para circulação de carruagens e carroças. Pistas régias contam com sofisticados sistemas de escoamento de água nas laterais, sinalizações de distâncias e direções, e bicas para reabastecer cantis. As mais importantes chegam a ser iluminadas por lampiões mantidos pelo reino ou pelos próprios viajantes. Em alguns casos especiais, existe até mesmo luz mágica. Em geral contam com postos de guarda ou são patrulhadas por destacamentos do exército local. Nas rotas tradicionais são frequentes as estalagens, tavernas e lanistérios – templos de Laan, o Deus Menor das Viagens – como pontos de parada e descanso.\n\nDentro das rotas principais não é preciso andar mais do que três dias para encontrar algum povoado, ainda que pequeno. Nas regiões mais ermas e fronteiriças, porém, uma viagem pode se enveredar por brejos, matagais ou descampados e, entre partida e destino, consumir semanas ou meses até que se encontre algum sinal de civilização."
+    },
+    {
+      "titulo": "Vias Ventureiras",
+      "texto": "Tais caminhos fora dos percursos habituais, chamados vias ventureiras, costumam levar a ruínas antigas e outros pontos de interesse. Suas margens são pontilhadas por ocasionais tavernas. Embora contem com poucos fregueses ao longo do ano, esses estabelecimentos que atendem quase só a aventureiros podem cobrar preços altos. Não é incomum a figura dos \"cartógrafos de taverna\" que se alternam entre esses lugares, vendendo mapas que supostamente levam a tesouros. Nessas estradas também há eventuais santuários de Marah, garantindo algum conforto e paz aos viajantes."
+    },
+    {
+      "titulo": "Vias Fluviais e Burlaques",
+      "texto": "Tão utilizadas quanto as estradas, especialmente para o comércio de longa distância, são as vias fluviais. O continente tem diversos rios amplos e profundos, usados para o escoamento de mercadorias, transitados por barcaças, trirremes e monções – caravanas aquáticas compostas por diversos pequenos barcos.\n\nNão é incomum o trabalho de burlaque, profissão antes precária, destinada a servos, mas hoje bem paga e ocupada por equipes treinadas de trabalhadores sobrenaturalmente fortes – ou mesmo por um único e solitário indivíduo prodigioso. Um burlaque anda pela margem de um rio, puxando uma enorme corda ou corrente e arrastando um navio correnteza acima. No inverno, quando a água congela, costumam procurar emprego temporário como aventureiros, sendo por isso apelidados de \"heróis invernais\"."
+    },
+    {
+      "titulo": "Transporte Aéreo",
+      "texto": "Para além da terra e da água, há também em Arton o transporte pelo ar, uma das formas mais rápidas e sofisticadas de chegar a algum lugar… ou de perecer em um acidente terrível. A maior parte das naves aéreas é de uso exclusivo da alta nobreza e de aventureiros lendários, simplesmente devido ao custo exorbitante dessas viagens. Contudo, naves maiores e mais acessíveis vêm sendo construídas em vários reinos. Até onde se sabe, nenhuma das naves aéreas existentes em Arton tem autonomia para cruzar o continente; a maioria se restringe a viagens dentro de um reino ou no máximo entre reinos vizinhos. Contudo, essa tecnologia está avançando – e nunca se sabe o que pode estar nas mãos de grupos de aventureiros poderosos…\n\nPara aqueles determinados a economizar e dispostos a correr perigo, sempre existem os ornitópteros, balões e outras engenhocas goblins. Em geral, os aeronautas dessa raça não se preocupam com detalhes como autonomia de voo, manutenção periódica ou durabilidade dos materiais. Apenas garantem que vão chegar aonde o cliente precisa! Caso contrário, quaisquer sobreviventes receberão seu dinheiro de volta."
+    }
+  ],
+  "mecanica": {}
+}

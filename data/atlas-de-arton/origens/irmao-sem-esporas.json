@@ -1,0 +1,26 @@
+{
+  "id": "irmao-sem-esporas",
+  "tipo": "origem",
+  "nome": "Irmão sem Esporas",
+  "resumo": "Você e seu cavalo cresceram juntos em Namalkah, tornando-se verdadeiros irmãos e um excelente par de combate.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você possui um cavalo que o acompanha desde a infância; vocês cresceram juntos, tornando-se verdadeiros irmãos."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "namalkah", "alvoTipo": "regiao", "rotulo": "Origem regional de Namalkah" }
+  ],
+  "mecanica": {
+    "itens": ["Bálsamo restaurador", "Sela"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você possui um irmão cavalo, um cavalo de guerra parceiro iniciante que fornece +1 em testes de ataque e Reflexos. Se receber outra montaria especial (como aquela concedida pelos poderes Montaria ou Montaria Sagrada), você pode usar seu irmão cavalo como essa montaria, acumulando o bônus em perícias com os benefícios da montaria especial."
+    },
+    "poderesUnicos": []
+  }
+}

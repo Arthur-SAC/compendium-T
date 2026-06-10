@@ -1,0 +1,26 @@
+{
+  "id": "agricultor-sambur",
+  "tipo": "origem",
+  "nome": "Agricultor Sambur",
+  "resumo": "Você trabalhou nos campos férteis das Repúblicas Livres, onde aprendeu muito sobre os animais, a natureza e o trabalho duro.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 470 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você trabalhou nos campos férteis das Repúblicas Livres, onde aprendeu muito sobre os animais, a natureza e o trabalho duro."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "republicas-livres-de-samburdia", "alvoTipo": "regiao", "rotulo": "Origem regional de Repúblicas Livres de Sambúrdia" }
+  ],
+  "mecanica": {
+    "itens": ["Ferramenta agrícola (mesmas estatísticas de uma lança)", "T$ 100 (um presente de despedida da sua família)"],
+    "beneficios": {
+      "pericias": ["Adestramento", "Sobrevivência"],
+      "poderes": [],
+      "texto": "Você é treinado em Adestramento e Sobrevivência e, uma vez por cena, pode gastar 1 PM para receber +1d6 em um teste de perícia."
+    },
+    "poderesUnicos": []
+  }
+}

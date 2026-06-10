@@ -1,0 +1,26 @@
+{
+  "id": "prisioneiro-das-catacumbas",
+  "tipo": "origem",
+  "nome": "Prisioneiro das Catacumbas",
+  "resumo": "Você sobreviveu às Catacumbas de Leverick por acidente e saiu delas com percepção aguçada e resistência a armadilhas.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você vivia uma vida comum e sem grandes emoções, até ter o azar de abrir a porta errada. Talvez também tenha sido por mero acaso que você escapou das Catacumbas de Leverick."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "leverick", "alvoTipo": "regiao", "rotulo": "Origem regional de Leverick" }
+  ],
+  "mecanica": {
+    "itens": ["Arma marcial encontrada no corpo de alguém que não sobreviveu às Catacumbas"],
+    "beneficios": {
+      "pericias": ["Percepção", "Reflexos"],
+      "poderes": [],
+      "texto": "Você é treinado em Percepção e Reflexos e recebe resistência a armadilhas e efeitos de movimento +5."
+    },
+    "poderesUnicos": []
+  }
+}

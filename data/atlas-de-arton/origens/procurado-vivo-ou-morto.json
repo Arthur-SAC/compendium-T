@@ -1,0 +1,26 @@
+{
+  "id": "procurado-vivo-ou-morto",
+  "tipo": "origem",
+  "nome": "Procurado: Vivo ou Morto",
+  "resumo": "Você é um pistoleiro infame de Smokestone com cabeça a prêmio — temido, mas também perseguido por caçadores de recompensa.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você é um pistoleiro infame nas cercanias de Smokestone, odiado e caçado por outros durões. Provavelmente foi tudo um engano e você ainda não faz jus a esse renome, mas sua cabeça está a prêmio!"
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "smokestone", "alvoTipo": "regiao", "rotulo": "Origem regional de Smokestone" }
+  ],
+  "mecanica": {
+    "itens": ["Pistola", "Balas cruéis (20)"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe proficiência com armas de fogo. Além disso, recebe +5 em testes de Intimidação e –5 em testes de Diplomacia contra qualquer um que, a critério do mestre, o reconheça e saiba de sua fama."
+    },
+    "poderesUnicos": []
+  }
+}

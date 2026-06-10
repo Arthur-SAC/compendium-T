@@ -1,0 +1,26 @@
+{
+  "id": "escudeiro-da-luz",
+  "tipo": "origem",
+  "nome": "Escudeiro da Luz",
+  "resumo": "Você serviu a um nobre cavaleiro da Luz de Bielefeld, aprendendo as tarefas do ofício e os valores da nobreza e da justiça.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 474 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Você não serviu a um cavaleiro errante qualquer, mas a um nobre e honrado cavaleiro da Luz. Ao lado dele, aprendeu todas as tarefas diárias desse ofício, além dos valores da nobreza e da justiça."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "bielefeld", "alvoTipo": "regiao", "rotulo": "Origem regional de Bielefeld" }
+  ],
+  "mecanica": {
+    "itens": ["Cota de malha ou escudo pesado", "Enfeite de elmo com o símbolo da Ordem da Luz"],
+    "beneficios": {
+      "pericias": ["Nobreza"],
+      "poderes": [],
+      "texto": "Você é treinado em Nobreza. Além disso, recebe +2 na Defesa e +3 PM."
+    },
+    "poderesUnicos": []
+  }
+}

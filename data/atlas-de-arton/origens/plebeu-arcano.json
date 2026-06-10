@@ -1,0 +1,26 @@
+{
+  "id": "plebeu-arcano",
+  "tipo": "origem",
+  "nome": "Plebeu Arcano",
+  "resumo": "Crescer em Wynlla próximo à magia deixou você com maior resistência a efeitos mágicos e pontos de mana extras.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Crescer em Wynlla é estar próximo da magia. Esse contato o deixou mais acostumado aos aspectos místicos de Arton."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "wynlla", "alvoTipo": "regiao", "rotulo": "Origem regional de Wynlla" }
+  ],
+  "mecanica": {
+    "itens": ["Bandoleira de poções", "Gorro de ervas", "Poção arcana de 1º círculo"],
+    "beneficios": {
+      "pericias": [],
+      "poderes": [],
+      "texto": "Você recebe +2 PM. Além disso, uma vez por rodada, quando falha em um teste de resistência contra um efeito mágico, você pode gastar 1 PM para rolar novamente esse teste."
+    },
+    "poderesUnicos": []
+  }
+}

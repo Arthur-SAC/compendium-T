@@ -1,0 +1,26 @@
+{
+  "id": "liricista-de-lenorienn",
+  "tipo": "origem",
+  "nome": "Liricista de Lenórienn",
+  "resumo": "Inspirado pelas tradições élficas de Lamnor, você aprendeu a transformar sua magia em arte, usando Carisma como atributo de Misticismo.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 476 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Mesmo não tendo vivido o auge do Reino dos Elfos, você ouviu histórias suficientes para admirá-lo. Inspirado pelas tradições élficas, você aprendeu a transformar sua magia em arte."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "lamnor", "alvoTipo": "regiao", "rotulo": "Origem regional de Lamnor" }
+  ],
+  "mecanica": {
+    "itens": ["Alaúde élfico", "Réplica de uma peça artística élfica (1 espaço, T$ 50)"],
+    "beneficios": {
+      "pericias": ["Atuação"],
+      "poderes": [],
+      "texto": "Você é treinado em Atuação e recebe +2 nessa perícia. Além disso, pode usar Carisma como atributo-chave de Misticismo (no lugar de Inteligência)."
+    },
+    "poderesUnicos": []
+  }
+}

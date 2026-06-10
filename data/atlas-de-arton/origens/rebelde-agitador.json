@@ -1,0 +1,26 @@
+{
+  "id": "rebelde-agitador",
+  "tipo": "origem",
+  "nome": "Rebelde Agitador",
+  "resumo": "Você lutou contra o Dragão-Rei tirano de Sckharshantallas e pode recrutar pessoas comuns como aliados temporários.",
+  "fonte": { "livro": "atlas-de-arton", "pagina": 477 },
+  "imagens": [],
+  "secoes": [
+    {
+      "titulo": "Descrição",
+      "texto": "Sua terra natal, Sckharshantallas, está sob o jugo permanente de um monstro tirano. Você fez parte de grupos rebeldes, mas agora partiu para se aventurar. Espera se tornar forte para, um dia, depor o Dragão-Rei."
+    }
+  ],
+  "relacoes": [
+    { "tipo": "regiao", "alvoId": "sckharshantallas", "alvoTipo": "regiao", "rotulo": "Origem regional de Sckharshantallas" }
+  ],
+  "mecanica": {
+    "itens": ["Arma simples ou marcial", "Panfleto revolucionário", "T$ 6d12 (impostos que você deixou de pagar)"],
+    "beneficios": {
+      "pericias": ["Iniciativa"],
+      "poderes": [],
+      "texto": "Você é treinado em Iniciativa e, uma vez por aventura, pode gastar um dia para convencer pessoas comuns a ajudá-lo. Faça um teste de Diplomacia (CD 10). Se passar, você convence uma pessoa, mais uma para cada 10 pontos acima da CD (duas pessoas com resultado 20, três com resultado 30 e assim por diante). Cada pessoa pode ser usada como um parceiro iniciante de um tipo à sua escolha por uma cena. As pessoas não contam em seu limite de parceiros e ficam com você até serem usadas ou até o fim da aventura."
+    },
+    "poderesUnicos": []
+  }
+}
